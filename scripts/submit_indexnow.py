@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 import json, subprocess, urllib.request
+from urllib.parse import quote
 from pathlib import Path
 
 BASE="https://diaszpora.kozpontiszovetseg.at"
@@ -16,10 +17,10 @@ def changed_files():
 
 def to_url(path):
     if path=="index.html": return BASE+"/"
-    if path in ("forrasok.html","llms.txt","ai.txt","ai-entry.json","entity.jsonld","sitemap.xml"): return BASE+"/"+path
+    if path in ("forrasok.html","adatminoseg.html","llms.txt","ai.txt","ai-entry.json","entity.jsonld","sitemap.xml"): return BASE+"/"+path
     for prefix in ("szervezetek/","oktatas/","esemenyek/","tartomanyok/","kategoriak/"):
         if path.startswith(prefix) and path.endswith(".html"):
-            return BASE+"/"+path
+            return BASE+"/"+quote(path,safe="/")
     if path.startswith("data/") and path.endswith(".json"):
         return BASE+"/"+path
     return None
