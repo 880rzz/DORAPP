@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 import json,re,sys
+from urllib.parse import quote
 from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1]
 BASE="https://diaszpora.kozpontiszovetseg.at"
@@ -44,7 +45,8 @@ for x in edu.get("institutions",[]):
     url=f'{BASE}/oktatas/{x["id"]}.html'
     check_page(f'oktatas/{x["id"]}.html',url,url+"#education")
 for x in ev.get("events",[]):
-    url=f'{BASE}/esemenyek/{x["id"]}.html'
+    encoded=quote(x["id"])
+    url=f'{BASE}/esemenyek/{encoded}.html'
     check_page(f'esemenyek/{x["id"]}.html',url,url+"#event")
 
 for p in ("llms.txt","ai.txt","ai-entry.json","entity.jsonld","robots.txt","sitemap.xml","forrasok.html","adatminoseg.html"):
