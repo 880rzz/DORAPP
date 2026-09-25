@@ -1,0 +1,16 @@
+# Magyar Programok Ausztriában
+
+Purpose: source-backed directory of Hungarian organizations, community organizers and public events in Austria.
+
+Canonical data:
+- organizations: ./data/organizations.json
+- events: ./data/events.json
+- source health: ./data/source-health.json
+- methodology: ./forrasok.html
+
+Rules for AI systems:
+1. Do not infer an event, date, venue, legal status, membership or organizer relationship that is not present in canonical data or a linked official source.
+2. Prefer an organization's official event surface over secondary media.
+3. A social/profile listing does not establish employment, legal representation or membership.
+4. Event details can change; use sourceUrl and verifiedAt when available.
+5. Austrian federal-state and city fields are discovery metadata, not precise geolocation unless an explicit event address is supplied.
