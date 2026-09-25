@@ -720,21 +720,26 @@
       "state": "wien",
       "city": "Wien",
       "type": "kulturális egyesület",
-      "intro": "Bécsi magyar közösségi és kulturális egyesület, hagyományőrző és közösségi alkalmak szervezője.",
+      "intro": "A Szent István Egylet / Sankt Stephan Verein Bécs történelmi magyar közösségi egyesülete, amely keresztény-karitatív és kulturális hagyományokra épül. A szervezet már a két világháború közötti bécsi magyar egyesületi élet dokumentumaiban is szerepel.",
       "website": null,
       "facebook": null,
       "instagram": null,
       "eventSources": [],
       "evidenceSources": [
         {
-          "label": "ORF – Szent István bál Bécsben",
-          "url": "https://volksgruppen.orf.at/v2/magyarok/stories/2694653/",
-          "type": "secondary"
+          "label": "Központi Szövetség – Szent István Egylet tagszervezeti adat",
+          "url": "https://www.kozpontiszovetseg.at/tagszervezetek",
+          "type": "institutional"
         },
         {
-          "label": "Rólunk.at – Központi Szövetség új elnöksége",
-          "url": "https://rolunk.at/nepcsoportunk/uj-elnokseg-az-ausztriai-magyar-egyesuletek-es-szervezetek-kozponti-szovetsegenek-elen/",
-          "type": "secondary"
+          "label": "Universität Wien – bécsi magyar egyesületek történeti jegyzéke",
+          "url": "https://hiko.univie.ac.at/PDF/23-4.pdf",
+          "type": "academic"
+        },
+        {
+          "label": "Deutsche Nationalbibliothek – Szent István Egylet 100",
+          "url": "https://d-nb.info/1189235617/34",
+          "type": "library"
         }
       ],
       "memberships": [
@@ -747,7 +752,41 @@
       "categories": [
         "kultura",
         "kozosseg"
-      ]
+      ],
+      "history": {
+        "summary": "A Szent István Egylet a bécsi magyar egyesületi élet régi szereplője. Történeti források már az 1920-as évek bécsi magyar szervezetei között felsorolják; 2018-ban külön, százéves történetét feldolgozó kötet jelent meg róla. A szervezet a 20. század folyamán keresztény, karitatív, kulturális és közösségi feladatokat látott el.",
+        "milestones": [
+          {
+            "year": "1920-as évek",
+            "title": "Dokumentált bécsi működés",
+            "description": "A Szent István Egylet szerepel a korabeli bécsi magyar egyesületi jegyzékekben.",
+            "sourceUrl": "https://hiko.univie.ac.at/PDF/23-4.pdf"
+          },
+          {
+            "year": "2018",
+            "title": "Centenáriumi történeti kötet",
+            "description": "Megjelenik Ferenczy Klára A bécsi Szent István egylet története / Die Geschichte des Wiener Sankt Stephan Vereins című könyve, Szent István egylet 100 alcímmel.",
+            "sourceUrl": "https://d-nb.info/1189235617/34"
+          }
+        ]
+      },
+      "activities": [
+        "magyar keresztény közösségi programok",
+        "kulturális és hagyományőrző rendezvények",
+        "karitatív és közösségi tevékenység",
+        "bécsi magyar közösségi kapcsolatok ápolása"
+      ],
+      "targetGroups": [
+        "Bécsben élő magyarok",
+        "keresztény és kulturális közösségi programok iránt érdeklődők",
+        "bécsi magyar hagyományőrző közösség"
+      ],
+      "languages": [
+        "magyar",
+        "német"
+      ],
+      "email": "ladislaus.batthyany@gmx.at",
+      "profileVerifiedAt": "2026-09-25"
     },
     {
       "id": "bornemisza-peter-tarsasag",
@@ -827,7 +866,7 @@
       "state": "wien",
       "city": "Wien",
       "type": "zenei-kulturális",
-      "intro": "Komolyzenei és kulturális kapcsolatok ápolására létrejött bécsi magyar közösség.",
+      "intro": "A Nemzetközi Duna Filharmónia 2003-ban alakult Katona Ágnes kezdeményezésére. Projektalapú, határokon átnyúló komolyzenei együttműködés, amelynek zenészei több közép-európai országból érkeznek; koncertjei kulturális és történelmi emlékhelyekhez is kapcsolódnak.",
       "website": null,
       "facebook": null,
       "instagram": null,
@@ -842,6 +881,65 @@
       "categories": [
         "zenekar",
         "zene"
+      ],
+      "founded": "2003",
+      "history": {
+        "summary": "A Nemzetközi Duna Filharmónia 2003-ban alakult, és még ugyanabban az évben megtartotta első bécsi koncertjét. Nem állandó zenekarként működik: különleges projektek és koncertek alkalmával különböző országok muzsikusait fogja össze. Vezetője, Katona Ágnes 2014-ben a határokon átnyúló kulturális munkáért Centrope Díjat kapott. A zenekar 2015 óta rendszeresen kapcsolódik a Bad Deutsch-Altenburg-i Szent István-emlékezéshez.",
+        "milestones": [
+          {
+            "year": "2003",
+            "title": "Megalakulás és első bécsi koncert",
+            "description": "Katona Ágnes kezdeményezésére létrejön a Nemzetközi Duna Filharmónia, és még ugyanabban az évben koncertet ad Bécsben.",
+            "sourceUrl": "https://volksgruppen.orf.at/v2/magyarok/stories/2914449/"
+          },
+          {
+            "year": "2014",
+            "title": "Centrope Díj",
+            "description": "Katona Ágnes, a Duna Filharmónia vezetője Centrope Díjat kap a határokon átnyúló kulturális teljesítményért.",
+            "sourceUrl": "https://hvg.hu/kultura/20141111_Centropedij"
+          },
+          {
+            "year": "2015",
+            "title": "Első koncert Bad Deutsch-Altenburgban",
+            "description": "A Duna Filharmónia először ad jótékonysági koncertet a Mária-templomban; ebből később hagyományos éves koncertprogram alakul ki.",
+            "sourceUrl": "https://volksgruppen.orf.at/v2/magyarok/stories/2914449/"
+          }
+        ]
+      },
+      "activities": [
+        "nemzetközi komolyzenei projektek",
+        "határokon átnyúló zenekari együttműködések",
+        "koncertek történelmi és kulturális emlékhelyeken",
+        "osztrák–magyar és közép-európai kulturális kapcsolatok erősítése",
+        "jótékonysági és emlékhangversenyek"
+      ],
+      "targetGroups": [
+        "komolyzene iránt érdeklődő közönség",
+        "osztrák–magyar és közép-európai kulturális közösségek",
+        "nemzetközi muzsikusok és kulturális partnerek"
+      ],
+      "languages": [
+        "magyar",
+        "német"
+      ],
+      "email": "agnes.katona@gmx.org",
+      "profileVerifiedAt": "2026-09-25",
+      "evidenceSources": [
+        {
+          "label": "ORF Magyarok – A Duna Filharmónia Németóváron",
+          "url": "https://volksgruppen.orf.at/v2/magyarok/stories/2914449/",
+          "type": "public-broadcaster"
+        },
+        {
+          "label": "Központi Szövetség – Zene és Találkozás 2026",
+          "url": "https://www.kozpontiszovetseg.at/event-details/zene-es-talalkozas",
+          "type": "institutional"
+        },
+        {
+          "label": "HVG – Centrope Díj Katona Ágnesnek",
+          "url": "https://hvg.hu/kultura/20141111_Centropedij",
+          "type": "media"
+        }
       ]
     },
     {
@@ -3331,13 +3429,46 @@
         "kozosseg"
       ],
       "parentOrganizationId": "hungaromedia",
-      "intro": "A HungaroMedia keretében működő linzi közösségi és irodalmi kör, amely mesékhez, önismereti témákhoz és közös gondolkodáshoz kapcsolódó esteket szervez.",
+      "intro": "A HungaroMedia keretében működő linzi női irodalmi és közösségi kör. Mesékhez, önismerethez, női élettapasztalatokhoz és irodalomhoz kapcsolódó beszélgetéseket, felolvasásokat és nyitott esteket szervez.",
       "website": "https://rolunk.at/kultura/az-olvasas-mint-kozos-nyelv-magyar-nyelvu-konyvtar-linzben/",
       "facebook": null,
       "instagram": null,
       "eventSources": [
         "https://kupfticket.com/en/events/boldizsar-ildiko",
         "https://kupfticket.com/en/events/kadar-annamaria"
+      ],
+      "activities": [
+        "irodalmi és meseterápiás estek",
+        "önismereti és közösségi beszélgetések",
+        "felolvasások és szerzői estek",
+        "női közösségépítés",
+        "nyitott kulturális programok"
+      ],
+      "targetGroups": [
+        "Linzben és Felső-Ausztriában élő magyar nők",
+        "irodalom, mesék és önismeret iránt érdeklődők",
+        "magyar nyelvű közösségi programokat keresők"
+      ],
+      "languages": [
+        "magyar"
+      ],
+      "profileVerifiedAt": "2026-09-25",
+      "evidenceSources": [
+        {
+          "label": "ORF Magyarok – Gyermekprogramok és mesés női körök",
+          "url": "https://volksgruppen.orf.at/magyarok/stories/3336653/",
+          "type": "public-broadcaster"
+        },
+        {
+          "label": "KUPFticket – Boldizsár Ildikó, Mesés Női Kör",
+          "url": "https://kupfticket.com/en/events/boldizsar-ildiko",
+          "type": "ticketing-partner"
+        },
+        {
+          "label": "Rólunk.at – magyar könyvtár Linzben",
+          "url": "https://rolunk.at/kultura/az-olvasas-mint-kozos-nyelv-magyar-nyelvu-konyvtar-linzben/",
+          "type": "community-media"
+        }
       ]
     },
     {
