@@ -25,6 +25,7 @@ jobs:
           python -m json.tool data/events.json >/dev/null
           python -m json.tool data/source-health.json >/dev/null
           python -m json.tool data/articles.json >/dev/null
+          python -m json.tool data/education.json >/dev/null
           python -m py_compile scripts/update_events.py scripts/update_articles.py scripts/validate_directory.py scripts/generate_profiles.py
           python scripts/validate_directory.py
           python scripts/generate_profiles.py
