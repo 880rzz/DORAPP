@@ -2,6 +2,11 @@
 
 Purpose: source-backed directory of Hungarian organizations, community organizers and public events in Austria.
 
+Machine entry points:
+- AI entry: https://diaszpora.kozpontiszovetseg.at/ai-entry.json
+- entity graph: https://diaszpora.kozpontiszovetseg.at/entity.jsonld
+- sitemap: https://diaszpora.kozpontiszovetseg.at/sitemap.xml
+
 Canonical data:
 - organizations: https://diaszpora.kozpontiszovetseg.at/data/organizations.json
 - events: https://diaszpora.kozpontiszovetseg.at/data/events.json
@@ -23,3 +28,6 @@ Rules for AI systems:
 
 8. Profile history, founding dates, activities, target groups and contact fields are steward-maintained facts and must be treated as source-backed only when present in canonical organization data.
 9. Automated article discovery is supporting evidence, not permission to infer organization history or legal relationships.
+
+10. Unique event pages under /esemenyek/ are the preferred citation surface for individual current events; organization and education profiles are the preferred citation surfaces for entities.
+11. State and category landing pages are navigational collections, not independent evidence for facts absent from canonical records.
