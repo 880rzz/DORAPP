@@ -4809,7 +4809,7 @@
       "state": "wien",
       "city": "Wien",
       "type": "kulturális intézet",
-      "intro": "A bécsi Collegium Hungaricum a magyar kultúra egyik legfontosabb ausztriai találkozóhelye. Kiállításokat, koncerteket, filmvetítéseket, színházi, irodalmi, tudományos és családi programokat szervez Bécsben és más osztrák helyszíneken.",
+      "intro": "Az 1924-ben alapított Collegium Hungaricum Wien a magyar kulturális diplomácia egyik legrégebbi külföldi intézete. Kulturális, tudományos és oktatási programokkal épít kapcsolatot Magyarország és Ausztria között.",
       "website": "https://culture.hu/hu/wien",
       "facebook": null,
       "instagram": null,
@@ -4819,20 +4819,67 @@
       ],
       "evidenceSources": [
         {
-          "label": "Collegium Hungaricum – az intézetről",
-          "url": "https://culture.hu/hu/wien/az-intezetrol",
+          "label": "Collegium Hungaricum Wien – 100 éves jubileum",
+          "url": "https://culture.hu/de/wien/jubilaum",
           "type": "official"
         },
         {
-          "label": "Collegium Hungaricum – események",
-          "url": "https://culture.hu/hu/wien/esemenyek",
+          "label": "Collegium Hungaricum Wien – intézménytörténet",
+          "url": "https://culture.hu/de/wien/ueber-das-institut",
+          "type": "official"
+        },
+        {
+          "label": "Collegium Hungaricum Wien – a magyar Bécs",
+          "url": "https://culture.hu/de/wien/ourcommunity-de",
           "type": "official"
         }
       ],
       "categories": [
         "kultura",
         "muveszet"
-      ]
+      ],
+      "founded": "1924",
+      "history": {
+        "summary": "A bécsi Collegium Hungaricum előzménye az 1920-ban alapított Bécsi Magyar Történeti Intézet volt. 1924 őszén Klebelsberg Kunó kultuszminiszter kulturális intézethálózatának részeként nyílt meg a Collegium Hungaricum a Palais Trautsonban. Az intézet száz éve szolgálja a magyar–osztrák tudományos és kulturális kapcsolatokat.",
+        "milestones": [
+          {
+            "year": "1920",
+            "title": "Bécsi Magyar Történeti Intézet",
+            "description": "Létrejön a bécsi magyar történeti kutatás intézményi elődje.",
+            "sourceUrl": "https://culture.hu/de/wien/jubilaum"
+          },
+          {
+            "year": "1924",
+            "title": "Collegium Hungaricum Wien megnyitása",
+            "description": "Megnyílik a bécsi Collegium Hungaricum a Palais Trautsonban.",
+            "sourceUrl": "https://culture.hu/de/wien/jubilaum"
+          },
+          {
+            "year": "2024",
+            "title": "100 éves jubileum",
+            "description": "A Collegium Hungaricum Wien fennállásának 100. évfordulóját ünnepli.",
+            "sourceUrl": "https://culture.hu/de/wien/jubilaum"
+          }
+        ]
+      },
+      "activities": [
+        "magyar kulturális programok Ausztriában",
+        "kiállítások, koncertek és irodalmi rendezvények",
+        "tudományos és oktatási együttműködések",
+        "magyar–osztrák kulturális kapcsolatok építése",
+        "kulturális diplomácia"
+      ],
+      "targetGroups": [
+        "osztrák és magyar kulturális közönség",
+        "kutatók és hallgatók",
+        "művészek és kulturális intézmények",
+        "magyar kultúra iránt érdeklődők"
+      ],
+      "languages": [
+        "magyar",
+        "német"
+      ],
+      "profileVerifiedAt": "2026-09-25"
     },
     {
       "id": "rolunk-at",
@@ -4972,7 +5019,7 @@
         "gyermek",
         "ifjusag"
       ],
-      "intro": "Kétnyelvű, magyar–német online kulturális és művészeti magazin az ausztriai magyar közösségről. Bécsi programokat, portrékat, családi és gyermekes témákat, valamint közösségi történeteket mutat be.",
+      "intro": "A Bécsi Szelet kétnyelvű kulturális és művészeti online magazin az ausztriai magyar közösségről. Portrékkal, beszámolókkal, családi és kulturális ajánlókkal mutatja be Bécs és az osztrák–magyar diaszpóra szereplőit.",
       "website": "https://www.becsiszelet.at/",
       "facebook": null,
       "instagram": null,
@@ -4988,16 +5035,32 @@
       ],
       "evidenceSources": [
         {
-          "label": "Bécsi Szelet – hivatalos oldal és impresszum",
+          "label": "Bécsi Szelet – hivatalos magazin és bemutatkozás",
           "url": "https://www.becsiszelet.at/",
           "type": "official"
-        },
-        {
-          "label": "ORF – Központi Szövetség 2026-os projektjei",
-          "url": "https://volksgruppen.orf.at/magyarok/stories/3336275/",
-          "type": "editorial"
         }
-      ]
+      ],
+      "activities": [
+        "kulturális és művészeti online magazin",
+        "portrék és interjúk",
+        "rendezvény- és közösségi beszámolók",
+        "családi és gyermekprogram-ajánlók",
+        "magyar és német nyelvű közösségi tartalom",
+        "gyermekek kreatív megszólaltatása"
+      ],
+      "targetGroups": [
+        "Ausztriában élő magyarok",
+        "bécsi magyar családok",
+        "kulturális és művészeti közönség",
+        "magyar népcsoport és diaszpóra iránt érdeklődők"
+      ],
+      "languages": [
+        "magyar",
+        "német"
+      ],
+      "email": "office@magyariskola.at",
+      "phone": "+43 677 616 55592",
+      "profileVerifiedAt": "2026-09-25"
     },
     {
       "id": "collegium-pazmanianum",
@@ -5492,7 +5555,7 @@
         "kozosseg",
         "ifjusag"
       ],
-      "intro": "A Bécsi Magyar Iskola fotóklubjából kinőtt bécsi kreatív és művészeti közösség, amely fotóművészeti programokat, kiállításokat, workshopokat és képzéseket szervez.",
+      "intro": "A VIPACH – Vienna Photo Art & Creative Hub a Bécsi Magyar Iskola fotóklubjából kinőtt, több száz fős bécsi kreatív közösség és művészeti-oktatási projekt. Fotóművészeti, közösségi, kiállítási és oktatási programokat szervez, alapítója és vezetője Bánhalmi Norbert.",
       "website": "https://www.vipach.at/",
       "facebook": null,
       "instagram": null,
@@ -5502,24 +5565,29 @@
       ],
       "evidenceSources": [
         {
-          "label": "VIPACH – bemutatkozás",
-          "url": "https://www.vipach.at/bemutatkozas",
+          "label": "VIPACH – hivatalos főoldal",
+          "url": "https://www.vipach.at/",
           "type": "official"
         },
         {
-          "label": "VIPACH – események",
-          "url": "https://www.vipach.at/event-list",
+          "label": "VIPACH – történet",
+          "url": "https://www.vipach.at/bemutatkozas?lang=en",
           "type": "official"
         },
         {
-          "label": "Központi Szövetség – GDPR & AI Trust",
-          "url": "https://www.kozpontiszovetseg.at/post/gdpr-ai-trust",
-          "type": "institutional"
+          "label": "VIPACH – kapcsolat és szervezeti háttér",
+          "url": "https://www.vipach.at/kapcsolat",
+          "type": "official"
         },
         {
-          "label": "Bécsi Magyar Iskola – VIPACH intézményi kapcsolat",
-          "url": "https://www.magyariskola.at/kapcsolat",
-          "type": "institutional"
+          "label": "VIPACH – jogi háttér",
+          "url": "https://www.vipach.at/kapcsolat/impresszum",
+          "type": "official"
+        },
+        {
+          "label": "VIPACH – 2026-os kiállítási projekt",
+          "url": "https://modell.vipach.at/en/",
+          "type": "official"
         }
       ],
       "affiliations": [
@@ -5533,7 +5601,58 @@
           "label": "Történeti és oktatási kapcsolat",
           "sourceUrl": "https://www.vipach.at/bemutatkozas"
         }
-      ]
+      ],
+      "founded": "2024",
+      "history": {
+        "summary": "A VIPACH története 2024 őszén kezdődött a Bécsi Magyar Iskola egyik tantermében, öt szülő informális fotós közösségeként. 2025 áprilisára létrejött a BMI Fotoklub Wien, amely rövid idő alatt több száz fős alkotói közösséggé nőtt. 2026. január 1-től a kezdeményezés VIPACH – Vienna Photo Art & Creative Hub néven működik tovább, immár határokon átívelő művészeti és oktatási ambícióval.",
+        "milestones": [
+          {
+            "date": "2024-09",
+            "title": "A közösség indulása",
+            "description": "Öt szülő fotós tanulóköre indul a Bécsi Magyar Iskola keretében.",
+            "sourceUrl": "https://www.vipach.at/bemutatkozas?lang=en"
+          },
+          {
+            "date": "2025-04",
+            "title": "BMI Fotoklub Wien",
+            "description": "A kezdeményezés szervezett fotóklubbá fejlődik.",
+            "sourceUrl": "https://www.vipach.at/bemutatkozas?lang=en"
+          },
+          {
+            "date": "2026-01-01",
+            "title": "VIPACH név felvétele",
+            "description": "A közösség Vienna Photo Art & Creative Hub néven folytatja működését.",
+            "sourceUrl": "https://www.vipach.at/bemutatkozas?lang=en"
+          },
+          {
+            "year": "2026",
+            "title": "Nemzetközi kiállítási projektek",
+            "description": "A VIPACH önálló fotóművészeti és kiállítási projektekkel jelenik meg Bécsben és nemzetközi kapcsolatokkal bővül.",
+            "sourceUrl": "https://modell.vipach.at/en/"
+          }
+        ]
+      },
+      "activities": [
+        "fotóművészeti oktatás és közösségi alkotás",
+        "fotóklub és kreatív workshopok",
+        "kiállítások és művészeti projektek",
+        "közösségi finanszírozási művészeti kampányok",
+        "nemzetközi kreatív kapcsolatok és bemutatkozási lehetőségek"
+      ],
+      "targetGroups": [
+        "fotózás és vizuális művészet iránt érdeklődő alkotók",
+        "bécsi és nemzetközi kreatív közösség",
+        "magyar és nem magyar résztvevők",
+        "gyermekek, fiatalok és felnőttek projektfüggően"
+      ],
+      "languages": [
+        "magyar",
+        "német",
+        "angol"
+      ],
+      "email": "office@vipach.at",
+      "phone": "+43 677 616 55592",
+      "profileVerifiedAt": "2026-09-25"
     },
     {
       "id": "mamut-musical",
@@ -5548,7 +5667,7 @@
         "ifjusag",
         "gyermek"
       ],
-      "intro": "Bécs első magyar nyelvű musical alkotóközössége. Ének, zene, tánc és színjátszás egyesül a saját előadásokban; a társulat keretében működik a 8–13 éveseknek szóló Musical Studio.",
+      "intro": "A Bécsi Magyar Musical Társulat (maMUT) magyar nyelvű zenés színházi alkotóközösség és gyermekműhely Bécsben. Ének-, tánc- és színjátszó képzéssel, saját darabokkal és rendszeres bemutatókkal dolgozik.",
       "website": "https://www.musicaltarsulat.at/",
       "facebook": null,
       "instagram": null,
@@ -5558,14 +5677,14 @@
       ],
       "evidenceSources": [
         {
-          "label": "maMUT – hivatalos oldal",
+          "label": "maMUT – hivatalos bemutatkozás és Musical Studio",
           "url": "https://www.musicaltarsulat.at/",
           "type": "official"
         },
         {
-          "label": "Központi Szövetség – GDPR & AI Trust",
-          "url": "https://www.kozpontiszovetseg.at/post/gdpr-ai-trust",
-          "type": "institutional"
+          "label": "maMUT – A Nagy Olümposzi eposz",
+          "url": "https://www.musicaltarsulat.at/projects-7",
+          "type": "official"
         }
       ],
       "affiliations": [
@@ -5579,7 +5698,35 @@
           "label": "Együttműködő partner és helyszín",
           "sourceUrl": "https://www.musicaltarsulat.at/"
         }
-      ]
+      ],
+      "history": {
+        "summary": "A maMUT egy kisebb bécsi alkotócsoportból fejlődött magyar nyelvű musicaltársulattá. A társulat a Központi Szövetség égisze alatt és a Bécsi Magyar Iskola együttműködésével működik. Gyermekműhelye, a Musical Studio rendszeres magyar nyelvű színjátszó, ének- és táncfoglalkozásokat tart, a résztvevők pedig saját produkciókat hoznak létre.",
+        "milestones": [
+          {
+            "date": "2026-02-15",
+            "title": "Első saját musical bemutató",
+            "description": "A társulat bemutatja A Nagy Olümposzi eposz című első teljesen saját írású zenés darabját a Pygmalion Theaterben.",
+            "sourceUrl": "https://www.musicaltarsulat.at/projects-7"
+          }
+        ]
+      },
+      "activities": [
+        "magyar nyelvű musicaloktatás",
+        "ének-, tánc- és színjátszó foglalkozások",
+        "saját musicalek írása és színpadra állítása",
+        "féléves bemutatók",
+        "gyermek- és ifjúsági művészeti képzés"
+      ],
+      "targetGroups": [
+        "8–13 éves magyarul beszélő gyermekek és fiatalok",
+        "bécsi magyar családok",
+        "musical és színház iránt érdeklődő fiatalok"
+      ],
+      "languages": [
+        "magyar"
+      ],
+      "email": "hierholcza@gmail.com",
+      "profileVerifiedAt": "2026-09-25"
     },
     {
       "id": "die-bruecke-medien-kulturelles-podium",
