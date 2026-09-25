@@ -1,0 +1,993 @@
+{
+  "updated": "2026-09-25",
+  "sourcePolicy": "Official organization sources preferred; umbrella directories and Austrian-Hungarian community media used as secondary verification. Missing social/event links remain null rather than guessed.",
+  "states": [
+    {
+      "id": "wien",
+      "name": "Bécs",
+      "de": "Wien"
+    },
+    {
+      "id": "niederoesterreich",
+      "name": "Alsó-Ausztria",
+      "de": "Niederösterreich"
+    },
+    {
+      "id": "burgenland",
+      "name": "Burgenland / Őrvidék",
+      "de": "Burgenland"
+    },
+    {
+      "id": "oberoesterreich",
+      "name": "Felső-Ausztria",
+      "de": "Oberösterreich"
+    },
+    {
+      "id": "steiermark",
+      "name": "Stájerország",
+      "de": "Steiermark"
+    },
+    {
+      "id": "salzburg",
+      "name": "Salzburg",
+      "de": "Salzburg"
+    },
+    {
+      "id": "tirol",
+      "name": "Tirol",
+      "de": "Tirol"
+    },
+    {
+      "id": "vorarlberg",
+      "name": "Vorarlberg",
+      "de": "Vorarlberg"
+    },
+    {
+      "id": "kaernten",
+      "name": "Karintia",
+      "de": "Kärnten"
+    }
+  ],
+  "organizations": [
+    {
+      "id": "kozponti-szovetseg",
+      "name": "Ausztriai Magyar Egyesületek és Szervezetek Központi Szövetsége",
+      "state": "wien",
+      "city": "Wien",
+      "type": "ernyőszervezet",
+      "intro": "1980-ban alapított országos ernyőszervezet, amely ausztriai magyar egyesületeket kapcsol össze, közös kulturális, oktatási és közösségi projekteket koordinál, valamint országos programnaptárt működtet.",
+      "website": "https://www.kozpontiszovetseg.at/",
+      "facebook": null,
+      "instagram": null,
+      "eventSources": [
+        "https://www.kozpontiszovetseg.at/"
+      ]
+    },
+    {
+      "id": "oeius",
+      "name": "Ausztriai Magyar Kutatóintézet / Österreichisches Institut für ungarische Studien",
+      "state": "wien",
+      "city": "Wien",
+      "type": "tudományos-kulturális",
+      "intro": "Bécsi magyar tudományos és kulturális műhely, amely előadásokat, könyvbemutatókat, irodalmi és hungarológiai programokat szervez.",
+      "website": "https://www.oeius.at/",
+      "facebook": null,
+      "instagram": null,
+      "eventSources": [
+        "https://www.oeius.at/hu/veranstaltungen"
+      ]
+    },
+    {
+      "id": "lean-in-femspace",
+      "name": "Lean in Femspace",
+      "state": "wien",
+      "city": "Wien",
+      "type": "közösségi egyesület",
+      "intro": "Ausztriában élő magyar nők közössége, amely beilleszkedést, kapcsolatépítést és személyes-szakmai fejlődést támogató programokat szervez.",
+      "website": "https://leaninfemspace.at/",
+      "facebook": null,
+      "instagram": null,
+      "eventSources": [
+        "https://leaninfemspace.at/"
+      ]
+    },
+    {
+      "id": "svung",
+      "name": "SVUNG – Bécsi Magyarok Művészeti Egyesülete",
+      "state": "wien",
+      "city": "Wien",
+      "type": "művészeti egyesület",
+      "intro": "Bécsi magyar színházi és művészeti közösség, saját produkciókkal, vendégelőadásokkal és gyermekeknek szóló színházi programokkal.",
+      "website": "https://svung.at/",
+      "facebook": null,
+      "instagram": null,
+      "eventSources": [
+        "https://svung.at/",
+        "https://shop.svung.at/"
+      ]
+    },
+    {
+      "id": "cserkesz-72",
+      "name": "72. sz. Széchenyi István cserkészcsapat",
+      "state": "wien",
+      "city": "Wien",
+      "type": "ifjúsági közösség",
+      "intro": "Bécsi magyar cserkészcsapat rendszeres gyermek- és ifjúsági foglalkozásokkal, táborokkal és közösségi alkalmak szervezésével.",
+      "website": "https://cserkesz.at/",
+      "facebook": null,
+      "instagram": null,
+      "eventSources": [
+        "https://cserkesz.at/"
+      ]
+    },
+    {
+      "id": "becsi-irodalmi-muhely",
+      "name": "BIM – Bécsi Irodalmi Műhely",
+      "state": "wien",
+      "city": "Wien",
+      "type": "irodalmi műhely",
+      "intro": "Magyar nyelvű bécsi alkotói közösség, amely írószemináriumokat, felolvasásokat és irodalmi találkozókat szervez.",
+      "website": "https://www.oeius.at/",
+      "facebook": null,
+      "instagram": null,
+      "eventSources": [
+        "https://www.oeius.at/hu/veranstaltungen"
+      ]
+    },
+    {
+      "id": "kalaka-club",
+      "name": "Kaláka-Club – Ausztriai Magyarok Gazdasági Érdekközössége",
+      "state": "wien",
+      "city": "Wien",
+      "type": "gazdasági-közösségi",
+      "intro": "Magyar gazdasági és közösségi kapcsolatok építésével foglalkozó bécsi egyesület, szakmai és társasági találkozókkal.",
+      "website": "https://kalaka-club.at/",
+      "facebook": null,
+      "instagram": null,
+      "eventSources": [
+        "https://kalaka-club.at/"
+      ]
+    },
+    {
+      "id": "napraforgok",
+      "name": "Napraforgók – Bécsi Magyar Néptánc és Népzene Egyesület",
+      "state": "wien",
+      "city": "Wien",
+      "type": "néptánc és népzene",
+      "intro": "Magyar néptáncot és népzenét ápoló bécsi egyesület gyermek- és felnőttcsoportokkal, rendszeres táncházakkal és fellépésekkel.",
+      "website": "https://www.napraforgok.at/",
+      "facebook": "https://www.facebook.com/napraforgok.becs",
+      "instagram": "https://www.instagram.com/napraforgok.becs",
+      "eventSources": [
+        "https://www.napraforgok.at/"
+      ]
+    },
+    {
+      "id": "szent-istvan-egylet",
+      "name": "Szent István Egylet",
+      "state": "wien",
+      "city": "Wien",
+      "type": "kulturális egyesület",
+      "intro": "Bécsi magyar közösségi és kulturális egyesület, hagyományőrző és közösségi alkalmak szervezője.",
+      "website": null,
+      "facebook": null,
+      "instagram": null,
+      "eventSources": []
+    },
+    {
+      "id": "bornemisza-peter-tarsasag",
+      "name": "Bornemisza Péter Társaság",
+      "state": "wien",
+      "city": "Wien",
+      "type": "irodalmi-kulturális",
+      "intro": "Bécsi magyar kulturális társaság irodalmi, történelmi és közösségi előadásokkal, beszélgetésekkel.",
+      "website": null,
+      "facebook": null,
+      "instagram": null,
+      "eventSources": []
+    },
+    {
+      "id": "duna-filharmonia",
+      "name": "Nemzetközi Duna Filharmónia Baráti Köre",
+      "state": "wien",
+      "city": "Wien",
+      "type": "zenei-kulturális",
+      "intro": "Komolyzenei és kulturális kapcsolatok ápolására létrejött bécsi magyar közösség.",
+      "website": null,
+      "facebook": null,
+      "instagram": null,
+      "eventSources": []
+    },
+    {
+      "id": "becsi-magyar-iskola",
+      "name": "Bécsi Magyar Iskola",
+      "state": "wien",
+      "city": "Wien",
+      "type": "oktatási és közösségi",
+      "intro": "1987 óta működő magyar oktatási és közösségi rendszer Bécsben, Badenben és online; gyermek-, családi és felnőttprogramokat, képzéseket és partnerprogramokat fog össze.",
+      "website": "https://www.magyariskola.at/",
+      "facebook": null,
+      "instagram": null,
+      "eventSources": [
+        "https://www.magyariskola.at/osszes",
+        "https://www.magyariskola.at/"
+      ]
+    },
+    {
+      "id": "amaped",
+      "name": "AMAPED – Ausztriai Magyar Pedagógusok Egyesülete",
+      "state": "wien",
+      "city": "Wien",
+      "type": "oktatási egyesület",
+      "intro": "Magyar nyelvű óvodai, iskolai és családi foglalkozásokat, táborokat és kulturális programokat szervező pedagógiai egyesület több ausztriai helyszínen.",
+      "website": "https://amaped.at/",
+      "facebook": null,
+      "instagram": null,
+      "eventSources": [
+        "https://amaped.at/"
+      ]
+    },
+    {
+      "id": "becsi-magyar-iskolaegyesulet",
+      "name": "Bécsi Magyar Iskolaegyesület",
+      "state": "wien",
+      "city": "Wien",
+      "type": "oktatási egyesület",
+      "intro": "1926-ban alapított bécsi magyar oktatási közösség, magyar nyelvi és kulturális programokkal, gyermekfoglalkozásokkal és táborokkal.",
+      "website": "https://www.ungarischlernen.at/",
+      "facebook": "https://www.facebook.com/ungarischer.schulverein",
+      "instagram": "https://www.instagram.com/schulverein",
+      "eventSources": [
+        "https://www.ungarischlernen.at/"
+      ]
+    },
+    {
+      "id": "kultpult",
+      "name": "KultPult",
+      "state": "wien",
+      "city": "Wien",
+      "type": "független kulturális szervező",
+      "intro": "Bencze Mariann kulturális programszervező és menedzsmentplatformja, amely 2014 óta színházi, irodalmi, zenei és családi magyar programokat hoz létre elsősorban Bécsben.",
+      "website": "https://kultpult.eu/",
+      "facebook": null,
+      "instagram": null,
+      "eventSources": [
+        "https://kultpult.eu/",
+        "https://kultpult.eu/category/programok/"
+      ]
+    },
+    {
+      "id": "mde-vus",
+      "name": "MDE-VUS – Magyar Diákok Egyesülete",
+      "state": "wien",
+      "city": "Wien",
+      "type": "diákszervezet",
+      "intro": "Bécsben tanuló magyar egyetemisták közössége, amely társasági, kulturális, információs és szakmai programokat szervez.",
+      "website": "https://mde.hu/at/",
+      "facebook": null,
+      "instagram": null,
+      "eventSources": [
+        "https://mde.hu/at/"
+      ]
+    },
+    {
+      "id": "europa-club",
+      "name": "Europa-Club",
+      "state": "wien",
+      "city": "Wien",
+      "type": "kulturális egyesület",
+      "intro": "Bécsi magyar kulturális egyesület előadásokkal, közösségi rendezvényekkel, családi programokkal és közös fesztiválokkal.",
+      "website": "https://europaclub.at/",
+      "facebook": "https://www.facebook.com/Europa-Club-B%C3%A9cs-478055442397522/",
+      "instagram": null,
+      "eventSources": [
+        "https://europaclub.at/"
+      ]
+    },
+    {
+      "id": "delibab",
+      "name": "Délibáb Bécsi Magyar Kultúregyesület",
+      "state": "wien",
+      "city": "Wien",
+      "type": "kulturális és néptánc",
+      "intro": "1947-ig visszanyúló bécsi magyar hagyományőrző közösség néptánccal, népdallal, zenekarokkal, gyermekprogramokkal és táncházakkal.",
+      "website": "https://www.wukv.at/",
+      "facebook": "https://www.facebook.com/wukvdelibab",
+      "instagram": null,
+      "eventSources": [
+        "https://www.delibab-becs.com/",
+        "https://www.wukv.at/"
+      ]
+    },
+    {
+      "id": "kerekasztal",
+      "name": "Ausztriai Magyar Szervezetek Kerekasztala",
+      "state": "wien",
+      "city": "Wien",
+      "type": "ernyős együttműködés",
+      "intro": "Ausztriai magyar szervezetek együttműködési fóruma, amely közös kulturális és közösségi projektek, köztük országos fesztiválok koordinálásában vesz részt.",
+      "website": "https://kerekasztal.at/",
+      "facebook": null,
+      "instagram": null,
+      "eventSources": [
+        "https://kerekasztal.at/"
+      ]
+    },
+    {
+      "id": "osztrak-magyar-tarsasag",
+      "name": "Osztrák–Magyar Társaság / Gesellschaft Österreich–Ungarn",
+      "state": "wien",
+      "city": "Wien",
+      "type": "kétoldalú társaság",
+      "intro": "Osztrák–magyar társadalmi, kulturális és gazdasági kapcsolatok erősítésére működő bécsi társaság rendezvényekkel és szakmai találkozókkal.",
+      "website": "https://www.goeu.at/",
+      "facebook": null,
+      "instagram": null,
+      "eventSources": [
+        "https://www.goeu.at/"
+      ]
+    },
+    {
+      "id": "brand-art-studio",
+      "name": "Brand Art Studio Wien",
+      "state": "wien",
+      "city": "Wien",
+      "type": "művészeti közösség",
+      "intro": "Bécsi művészeti kezdeményezés és kiállítási közösség, magyar alkotók megjelenését is támogató programokkal.",
+      "website": "https://brandart.studio/",
+      "facebook": null,
+      "instagram": null,
+      "eventSources": [
+        "https://brandart.studio/"
+      ]
+    },
+    {
+      "id": "club-pannonia",
+      "name": "Club Pannonia",
+      "state": "wien",
+      "city": "Wien",
+      "type": "közösségi-kulturális",
+      "intro": "Bécsi magyar társasági és kulturális közösség, rendszeres találkozókkal és programokkal.",
+      "website": "https://club-pannonia.at/",
+      "facebook": null,
+      "instagram": null,
+      "eventSources": [
+        "https://club-pannonia.at/"
+      ]
+    },
+    {
+      "id": "evangelikus-gyulekezet",
+      "name": "Ausztriai Magyar Evangélikus Gyülekezet",
+      "state": "wien",
+      "city": "Wien",
+      "type": "egyházi közösség",
+      "intro": "Ausztria magyar nyelvű evangélikus közössége istentiszteletekkel, lelkigondozással és közösségi alkalmak szervezésével.",
+      "website": "https://www.evang-ungarisch.at/",
+      "facebook": null,
+      "instagram": null,
+      "eventSources": [
+        "https://www.evang-ungarisch.at/"
+      ]
+    },
+    {
+      "id": "reformatus-szolgalat",
+      "name": "Ausztriai Magyar Református Lelkigondozó Szolgálat",
+      "state": "wien",
+      "city": "Wien",
+      "type": "egyházi közösség",
+      "intro": "Magyar református istentiszteleteket, lelki és közösségi programokat szervező ausztriai szolgálat.",
+      "website": "https://reformatus.at/",
+      "facebook": null,
+      "instagram": null,
+      "eventSources": [
+        "https://reformatus.at/"
+      ]
+    },
+    {
+      "id": "katolikus-wien",
+      "name": "Bécsi Főegyházmegye Magyar Közössége",
+      "state": "wien",
+      "city": "Wien",
+      "type": "egyházi közösség",
+      "intro": "Magyar nyelvű katolikus liturgiát, családi és közösségi alkalmakat szervező közösség Bécsben és több alsó-ausztriai helyszínen.",
+      "website": "https://katolikus.at/",
+      "facebook": null,
+      "instagram": null,
+      "eventSources": [
+        "https://katolikus.at/"
+      ]
+    },
+    {
+      "id": "kuwu",
+      "name": "KUWU – Bécsújhely és környéki Magyarok Kulturális Egyesülete",
+      "state": "niederoesterreich",
+      "city": "Wiener Neustadt",
+      "type": "kulturális közösség",
+      "intro": "Bécsújhely és környéke magyar családjait összekapcsoló egyesület kulturális, családi és közösségi rendezvényekkel.",
+      "website": null,
+      "facebook": null,
+      "instagram": null,
+      "eventSources": []
+    },
+    {
+      "id": "amaped-baden",
+      "name": "AMAPED Baden",
+      "state": "niederoesterreich",
+      "city": "Baden",
+      "type": "oktatási közösség",
+      "intro": "Az AMAPED badeni magyar gyermek- és családi oktatási programhelyszíne.",
+      "website": "https://amaped.at/",
+      "facebook": null,
+      "instagram": null,
+      "eventSources": [
+        "https://amaped.at/"
+      ]
+    },
+    {
+      "id": "amaped-klosterneuburg",
+      "name": "AMAPED Klosterneuburg",
+      "state": "niederoesterreich",
+      "city": "Klosterneuburg",
+      "type": "oktatási közösség",
+      "intro": "Magyar nyelvű óvodás és gyermekprogramokat kínáló AMAPED-helyszín Klosterneuburgban.",
+      "website": "https://amaped.at/",
+      "facebook": null,
+      "instagram": null,
+      "eventSources": [
+        "https://amaped.at/"
+      ]
+    },
+    {
+      "id": "amaped-schwechat",
+      "name": "AMAPED Schwechat",
+      "state": "niederoesterreich",
+      "city": "Schwechat",
+      "type": "oktatási közösség",
+      "intro": "Magyar nyelvű gyermekoktatási és közösségi foglalkozásokat kínáló AMAPED-helyszín Schwechatban.",
+      "website": "https://amaped.at/",
+      "facebook": null,
+      "instagram": null,
+      "eventSources": [
+        "https://amaped.at/"
+      ]
+    },
+    {
+      "id": "amaped-st-poelten",
+      "name": "AMAPED St. Pölten",
+      "state": "niederoesterreich",
+      "city": "St. Pölten",
+      "type": "oktatási közösség",
+      "intro": "Magyar nyelvi és gyermekközösségi programokat kínáló AMAPED-helyszín Alsó-Ausztria tartományi fővárosában.",
+      "website": "https://amaped.at/",
+      "facebook": null,
+      "instagram": null,
+      "eventSources": [
+        "https://amaped.at/"
+      ]
+    },
+    {
+      "id": "bukv",
+      "name": "Burgenlandi Magyar Kultúregyesület",
+      "state": "burgenland",
+      "city": "Oberwart / Felsőőr",
+      "type": "kulturális egyesület",
+      "intro": "A burgenlandi őshonos magyar népcsoport egyik központi kulturális szervezete, magyar nyelvi, zenei, tánc- és közösségi programokkal.",
+      "website": "https://bukv.at/",
+      "facebook": null,
+      "instagram": null,
+      "eventSources": [
+        "https://bukv.at/"
+      ]
+    },
+    {
+      "id": "vhs-burgenland",
+      "name": "Burgenlandi Magyarok Népfőiskolája",
+      "state": "burgenland",
+      "city": "Oberwart / Felsőőr",
+      "type": "népfőiskola",
+      "intro": "Oktatási és kulturális szervezet magyar nyelvi, történelmi, ifjúsági és közösségi programokkal Burgenlandban.",
+      "website": "https://vhs-ungarn.at/",
+      "facebook": null,
+      "instagram": null,
+      "eventSources": [
+        "https://vhs-ungarn.at/"
+      ]
+    },
+    {
+      "id": "umiz",
+      "name": "UMIZ – Magyar Média és Információs Központ",
+      "state": "burgenland",
+      "city": "Unterwart / Alsóőr",
+      "type": "média és kulturális központ",
+      "intro": "Alsóőri magyar média-, könyvtári és kulturális központ, amely családi, gyermek- és közösségi programokat, digitális tartalmakat és helytörténeti munkát működtet.",
+      "website": "https://umiz.at/",
+      "facebook": null,
+      "instagram": null,
+      "eventSources": [
+        "https://umiz.at/"
+      ]
+    },
+    {
+      "id": "alsoori-kultur-tanc",
+      "name": "Alsóőri Magyar Kultúr- és Táncegyesület",
+      "state": "burgenland",
+      "city": "Unterwart / Alsóőr",
+      "type": "kulturális és táncegyesület",
+      "intro": "Alsóőr magyar kulturális és néptánchagyományait ápoló helyi egyesület.",
+      "website": null,
+      "facebook": null,
+      "instagram": null,
+      "eventSources": []
+    },
+    {
+      "id": "alsoori-szinjatszo",
+      "name": "Alsóőri Kétnyelvű Színjátszóegyesület és Kultúrkör",
+      "state": "burgenland",
+      "city": "Unterwart / Alsóőr",
+      "type": "színházi egyesület",
+      "intro": "Magyar–német kétnyelvű színjátszást és helyi kulturális életet működtető alsóőri közösség.",
+      "website": null,
+      "facebook": null,
+      "instagram": null,
+      "eventSources": []
+    },
+    {
+      "id": "alsoori-enekkar",
+      "name": "Alsóőri Énekkar",
+      "state": "burgenland",
+      "city": "Unterwart / Alsóőr",
+      "type": "zenei közösség",
+      "intro": "Alsóőr magyar énekkari hagyományát fenntartó közösségi szervezet.",
+      "website": null,
+      "facebook": null,
+      "instagram": null,
+      "eventSources": []
+    },
+    {
+      "id": "alsoori-otthon",
+      "name": "Alsóőri Otthon / Unterwarter Heimathaus",
+      "state": "burgenland",
+      "city": "Unterwart / Alsóőr",
+      "type": "helytörténeti közösség",
+      "intro": "Alsóőr helytörténeti és kulturális örökségét bemutató közösségi intézmény.",
+      "website": null,
+      "facebook": null,
+      "instagram": null,
+      "eventSources": []
+    },
+    {
+      "id": "kozep-burgenlandi",
+      "name": "Közép-Burgenlandi Magyar Kultúregyesület",
+      "state": "burgenland",
+      "city": "Oberpullendorf / Felsőpulya",
+      "type": "kulturális egyesület",
+      "intro": "Közép-Burgenland magyar közösségének kulturális szervezete gyermek-, nyelvi, tábori és hagyományőrző programokkal.",
+      "website": null,
+      "facebook": null,
+      "instagram": null,
+      "eventSources": []
+    },
+    {
+      "id": "hungaromedia",
+      "name": "HungaroMedia – Magyar Médiageyesület",
+      "state": "oberoesterreich",
+      "city": "Linz",
+      "type": "média és kulturális egyesület",
+      "intro": "Linzi magyar médiaközösség rádióműsorokkal, könyvtárral, gyermek- és felnőttprogramokkal, valamint kulturális rendezvényekkel.",
+      "website": "https://linktr.ee/hungaromedia",
+      "facebook": "https://www.facebook.com/HungaroMediaAT",
+      "instagram": "https://www.instagram.com/hungaromedia",
+      "eventSources": [
+        "https://linktr.ee/hungaromedia"
+      ]
+    },
+    {
+      "id": "felso-ausztriai-magyarok",
+      "name": "Felső-Ausztriai Magyarok Kultúregyesülete",
+      "state": "oberoesterreich",
+      "city": "Linz",
+      "type": "kulturális egyesület",
+      "intro": "Felső-Ausztria magyar közösségének kulturális és közösségi programokat szervező egyesülete.",
+      "website": null,
+      "facebook": null,
+      "instagram": null,
+      "eventSources": []
+    },
+    {
+      "id": "wels-hetvegi-iskola",
+      "name": "Felső-Ausztriai Hétvégi Magyar Óvoda és Iskola",
+      "state": "oberoesterreich",
+      "city": "Wels",
+      "type": "oktatási közösség",
+      "intro": "Hétvégi magyar óvodai és iskolai foglalkozásokat szervező felső-ausztriai közösség.",
+      "website": null,
+      "facebook": "https://www.facebook.com/profile.php?id=100057286665201",
+      "instagram": null,
+      "eventSources": [
+        "https://www.facebook.com/profile.php?id=100057286665201"
+      ]
+    },
+    {
+      "id": "ne-felejts",
+      "name": "Ne-Felejts! Néptáncegyüttes",
+      "state": "oberoesterreich",
+      "city": "Linz",
+      "type": "néptánc",
+      "intro": "Linzi magyar néptáncegyüttes fellépésekkel, táncházi és közösségi programokkal.",
+      "website": "https://ne-felejts.weebly.com/",
+      "facebook": null,
+      "instagram": null,
+      "eventSources": [
+        "https://ne-felejts.weebly.com/events"
+      ]
+    },
+    {
+      "id": "cserkesz-80",
+      "name": "80. sz. Árpád Cserkészcsapat",
+      "state": "oberoesterreich",
+      "city": "Wels",
+      "type": "ifjúsági közösség",
+      "intro": "Felső-ausztriai magyar gyermek- és ifjúsági cserkészközösség rendszeres foglalkozásokkal és táborokkal.",
+      "website": "https://wels.cserkesz.eu/",
+      "facebook": null,
+      "instagram": null,
+      "eventSources": [
+        "https://wels.cserkesz.eu/"
+      ]
+    },
+    {
+      "id": "katolikus-linz",
+      "name": "Linzi Magyar Katolikus Közösség",
+      "state": "oberoesterreich",
+      "city": "Linz",
+      "type": "egyházi közösség",
+      "intro": "Linz és környéke magyar katolikus közössége magyar misékkel és közösségi alkalmak szervezésével.",
+      "website": "https://ausztria.katolikus.at/",
+      "facebook": null,
+      "instagram": null,
+      "eventSources": [
+        "https://ausztria.katolikus.at/"
+      ]
+    },
+    {
+      "id": "grazi-magyar-egyesulet",
+      "name": "Grazi Magyar Egyesület",
+      "state": "steiermark",
+      "city": "Graz",
+      "type": "kulturális egyesület",
+      "intro": "Graz régi magyar közösségi egyesülete kulturális, családi és közösségi rendezvényekkel.",
+      "website": "https://www.grazimagyaregyesuelet.at/",
+      "facebook": "https://www.facebook.com/Grazi.Magyar.Egyesuelet",
+      "instagram": null,
+      "eventSources": [
+        "https://www.grazimagyaregyesuelet.at/"
+      ]
+    },
+    {
+      "id": "femconnect-graz",
+      "name": "FemConnect Graz",
+      "state": "steiermark",
+      "city": "Graz",
+      "type": "kulturális-közösségi egyesület",
+      "intro": "Grazban működő magyar közösségi egyesület kulturális estekkel, családi programokkal, táborokkal, kvízekkel és közösségépítő eseményekkel.",
+      "website": "https://femconnectgraz.at/",
+      "facebook": null,
+      "instagram": null,
+      "eventSources": [
+        "https://femconnectgraz.at/graci-programok/",
+        "https://femconnectgraz.at/events/"
+      ]
+    },
+    {
+      "id": "meok-graz",
+      "name": "MEÖK – Magyar Egyetemisták és Öregdiákok Klubja",
+      "state": "steiermark",
+      "city": "Graz",
+      "type": "diák- és kulturális egyesület",
+      "intro": "Graz magyar egyetemi és öregdiák közössége, amely kulturális, tudományos és társasági programokat szervez.",
+      "website": "https://www.meoek.at/",
+      "facebook": null,
+      "instagram": null,
+      "eventSources": [
+        "https://www.meoek.at/"
+      ]
+    },
+    {
+      "id": "katolikus-graz",
+      "name": "Gráci Magyar Katolikus Közösség",
+      "state": "steiermark",
+      "city": "Graz",
+      "type": "egyházi közösség",
+      "intro": "Graz magyar katolikus közössége magyar nyelvű liturgiával és közösségi programokkal.",
+      "website": null,
+      "facebook": null,
+      "instagram": null,
+      "eventSources": []
+    },
+    {
+      "id": "salzung",
+      "name": "SalzUNG – Salzburgi Magyar Egyesület",
+      "state": "salzburg",
+      "city": "Salzburg",
+      "type": "kulturális egyesület",
+      "intro": "Salzburg magyar közösségének kulturális és családi egyesülete, előadásokkal, közösségi eseményekkel és magyar kulturális programokkal.",
+      "website": "https://www.salzung.com/hu",
+      "facebook": null,
+      "instagram": null,
+      "eventSources": [
+        "https://www.salzung.com/hu"
+      ]
+    },
+    {
+      "id": "salzburgi-neptanc",
+      "name": "Salzburgi Magyar Néptáncegyüttes",
+      "state": "salzburg",
+      "city": "Salzburg",
+      "type": "néptánc",
+      "intro": "Salzburgban működő magyar néptáncközösség fellépésekkel és hagyományőrző eseményekkel.",
+      "website": null,
+      "facebook": "https://www.facebook.com/Salzburgi.Magyar.Neptancegyuttes/",
+      "instagram": "https://www.instagram.com/salzburgi.neptanc/",
+      "eventSources": [
+        "https://www.facebook.com/Salzburgi.Magyar.Neptancegyuttes/"
+      ]
+    },
+    {
+      "id": "magyarhaz-innsbruck",
+      "name": "Magyarház – Innsbrucki Magyar Diákotthon és Kultúrcentrum",
+      "state": "tirol",
+      "city": "Innsbruck",
+      "type": "kulturális központ",
+      "intro": "Innsbruck magyar diák- és kulturális központja, közösségi találkozók, kulturális programok és rendezvények helyszíne.",
+      "website": "https://magyarhaz.at/",
+      "facebook": null,
+      "instagram": null,
+      "eventSources": [
+        "https://magyarhaz.at/"
+      ]
+    },
+    {
+      "id": "imike",
+      "name": "IMIKE – Innsbrucki Magyar Ifjúsági és Kultúregyesület",
+      "state": "tirol",
+      "city": "Innsbruck",
+      "type": "ifjúsági-kulturális",
+      "intro": "Innsbruck magyar fiataljait és családjait összekapcsoló kulturális egyesület közösségi és ifjúsági programokkal.",
+      "website": null,
+      "facebook": "https://www.facebook.com/IMIKE2019UJKV/",
+      "instagram": "https://www.instagram.com/imike_ujkv/",
+      "eventSources": [
+        "https://www.facebook.com/IMIKE2019UJKV/",
+        "https://www.instagram.com/imike_ujkv/"
+      ]
+    },
+    {
+      "id": "imeasz",
+      "name": "IMEASZ – Innsbrucki Magyar Egyetemisták és Akadémikusok Szövetsége",
+      "state": "tirol",
+      "city": "Innsbruck",
+      "type": "egyetemi közösség",
+      "intro": "Innsbruck magyar egyetemistáinak és akadémiai közösségének szakmai, kulturális és társasági szervezete.",
+      "website": "https://imeasz.at/",
+      "facebook": null,
+      "instagram": null,
+      "eventSources": [
+        "https://imeasz.at/"
+      ]
+    },
+    {
+      "id": "cserkesz-79",
+      "name": "79. sz. Dr. Kozma György SJ cserkészcsapat",
+      "state": "tirol",
+      "city": "Innsbruck",
+      "type": "ifjúsági közösség",
+      "intro": "Innsbruck magyar cserkészcsapata gyermek- és ifjúsági foglalkozásokkal, kirándulásokkal és táborokkal.",
+      "website": null,
+      "facebook": "https://www.facebook.com/InnsbruckiMagyarCserkeszek/",
+      "instagram": null,
+      "eventSources": []
+    },
+    {
+      "id": "katolikus-innsbruck",
+      "name": "Innsbrucki Magyar Katolikus Közösség",
+      "state": "tirol",
+      "city": "Innsbruck",
+      "type": "egyházi közösség",
+      "intro": "Innsbruck és Tirol magyar katolikus közössége magyar nyelvű egyházi és közösségi alkalmak szervezésével.",
+      "website": null,
+      "facebook": null,
+      "instagram": null,
+      "eventSources": []
+    },
+    {
+      "id": "vorarlbergi-magyar-egyesulet",
+      "name": "Vorarlbergi Magyar Egyesület",
+      "state": "vorarlberg",
+      "city": "Altach / Feldkirch",
+      "type": "kulturális egyesület",
+      "intro": "Vorarlberg magyar közösségének kulturális és társasági egyesülete, családi és közösségi programokkal.",
+      "website": null,
+      "facebook": null,
+      "instagram": null,
+      "eventSources": []
+    },
+    {
+      "id": "mime-vorarlberg",
+      "name": "Mi Magyarok Egymásért",
+      "state": "vorarlberg",
+      "city": "Feldkirch",
+      "type": "közösségi egyesület",
+      "intro": "2023 óta működő vorarlbergi magyar egyesület gyermekoktatással, családi programokkal, kézműves és közösségi rendezvényekkel.",
+      "website": null,
+      "facebook": null,
+      "instagram": null,
+      "eventSources": []
+    },
+    {
+      "id": "vukk-kaernten",
+      "name": "VUKK – Verein für die Ungarische Kultur in Kärnten",
+      "state": "kaernten",
+      "city": "Klagenfurt",
+      "type": "kulturális-oktatási egyesület",
+      "intro": "Karintia magyar kulturális közössége, amely magyar hétvégi óvodai és iskolai foglalkozásokat, családi, kézműves és közösségi programokat szervez.",
+      "website": "https://vukk.at/",
+      "facebook": null,
+      "instagram": null,
+      "eventSources": [
+        "https://vukk.at/"
+      ]
+    },
+    {
+      "id": "alsoori-katolikus",
+      "name": "Alsóőri Katolikus Egyházközség",
+      "state": "burgenland",
+      "city": "Unterwart / Alsóőr",
+      "type": "egyházi közösség",
+      "intro": "Alsóőr magyar katolikus közössége, amely magyar nyelvű vallási és közösségi alkalmakat szervez.",
+      "website": "https://www.martinus.at/",
+      "facebook": null,
+      "instagram": null,
+      "eventSources": [
+        "https://www.martinus.at/"
+      ]
+    },
+    {
+      "id": "alsoori-vasjobbagyi",
+      "name": "Alsóőri–Vasjobbágyi Magyar Baráti Kör",
+      "state": "burgenland",
+      "city": "Unterwart / Alsóőr",
+      "type": "közösségi egyesület",
+      "intro": "Alsóőr és Vasjobbágy magyar közösségei közötti kulturális és közösségi kapcsolatokat ápoló baráti kör.",
+      "website": null,
+      "facebook": null,
+      "instagram": null,
+      "eventSources": []
+    },
+    {
+      "id": "eszak-burgenlandi",
+      "name": "Észak-burgenlandi Magyar Kulturális Egyesület",
+      "state": "burgenland",
+      "city": "Észak-Burgenland",
+      "type": "kulturális egyesület",
+      "intro": "Észak-Burgenland magyar közösségének kulturális szervezete, közösségi és hagyományőrző programokkal.",
+      "website": null,
+      "facebook": null,
+      "instagram": null,
+      "eventSources": []
+    },
+    {
+      "id": "felsoori-katolikus",
+      "name": "Felsőőri Katolikus Egyházközség",
+      "state": "burgenland",
+      "city": "Oberwart / Felsőőr",
+      "type": "egyházi közösség",
+      "intro": "Felsőőr magyar katolikus közössége, rendszeres magyar nyelvű liturgikus és közösségi alkalmak szervezője.",
+      "website": "https://www.martinus.at/pfarre/1122",
+      "facebook": null,
+      "instagram": null,
+      "eventSources": [
+        "https://www.martinus.at/pfarre/1122"
+      ]
+    },
+    {
+      "id": "felsoori-reformatus",
+      "name": "Felsőőri Református Gyülekezet",
+      "state": "burgenland",
+      "city": "Oberwart / Felsőőr",
+      "type": "egyházi közösség",
+      "intro": "Felsőőr történelmi magyar református közössége istentiszteletekkel és közösségi programokkal.",
+      "website": "https://www.die-reformierten.at/",
+      "facebook": null,
+      "instagram": null,
+      "eventSources": [
+        "https://www.die-reformierten.at/"
+      ]
+    },
+    {
+      "id": "oriszigeti-evangelikus",
+      "name": "Őriszigeti Evangélikus Egyházközség",
+      "state": "burgenland",
+      "city": "Siget in der Wart / Őrisziget",
+      "type": "egyházi közösség",
+      "intro": "Őrisziget történelmi magyar evangélikus közössége, vallási és közösségi alkalmak szervezője.",
+      "website": "https://www.evang-bgld.at/",
+      "facebook": null,
+      "instagram": null,
+      "eventSources": [
+        "https://www.evang-bgld.at/"
+      ]
+    },
+    {
+      "id": "reformatus-ifjusagi-olvasokor",
+      "name": "Református Ifjúsági Olvasókör",
+      "state": "burgenland",
+      "city": "Oberwart / Felsőőr",
+      "type": "ifjúsági-kulturális közösség",
+      "intro": "Felsőőri magyar református ifjúsági és kulturális közösség, közösségi és hagyományőrző programokkal.",
+      "website": null,
+      "facebook": null,
+      "instagram": null,
+      "eventSources": []
+    },
+    {
+      "id": "becsi-magyar-munkasegylet",
+      "name": "Bécsi Magyar Munkásegylet",
+      "state": "wien",
+      "city": "Wien",
+      "type": "közösségi egyesület",
+      "intro": "Bécsi magyar közösségi egyesület hosszú múltra visszatekintő társasági és kulturális programokkal.",
+      "website": null,
+      "facebook": "https://www.facebook.com/VereinBMME/",
+      "instagram": null,
+      "eventSources": []
+    },
+    {
+      "id": "bmi-szulok-tamogatok",
+      "name": "Bécsi Magyar Oktatást Segítő Szülők és Támogatók Egyesülete",
+      "state": "wien",
+      "city": "Wien",
+      "type": "oktatást támogató egyesület",
+      "intro": "A bécsi magyar oktatást és a hozzá kapcsolódó családi-közösségi kezdeményezéseket támogató szülői és civil egyesület.",
+      "website": null,
+      "facebook": null,
+      "instagram": null,
+      "eventSources": []
+    },
+    {
+      "id": "erdelyi-magyarok-ausztriai",
+      "name": "Erdélyi Magyarok Ausztriai Egyesülete",
+      "state": "wien",
+      "city": "Wien",
+      "type": "kulturális-közösségi egyesület",
+      "intro": "Az Ausztriában élő erdélyi magyarok kulturális és közösségi kapcsolatait szervező egyesület.",
+      "website": null,
+      "facebook": null,
+      "instagram": null,
+      "eventSources": []
+    },
+    {
+      "id": "pax-romana",
+      "name": "Katolikus Magyar Értelmiségi Mozgalom – Pax Romana",
+      "state": "wien",
+      "city": "Wien",
+      "type": "értelmiségi és egyházi közösség",
+      "intro": "Magyar katolikus értelmiségi közösség bécsi kapcsolódással, vallási, kulturális és közéleti beszélgetésekkel.",
+      "website": null,
+      "facebook": null,
+      "instagram": null,
+      "eventSources": []
+    },
+    {
+      "id": "nepcsoporttanacsi-elnokok",
+      "name": "Népcsoporttanácsi Elnökök Állandó Konferenciája",
+      "state": "wien",
+      "city": "Wien",
+      "type": "népcsoporti együttműködés",
+      "intro": "Az ausztriai népcsoporttanácsok vezetőinek együttműködési fóruma, amely a magyar népcsoportot érintő közösségi és kulturális ügyekhez is kapcsolódik.",
+      "website": null,
+      "facebook": null,
+      "instagram": null,
+      "eventSources": []
+    }
+  ]
+}
