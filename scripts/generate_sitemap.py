@@ -13,6 +13,7 @@ urls=[
     f"{BASE}/forrasok.html",
     f"{BASE}/llms.txt",
     f"{BASE}/ai.txt",
+    f"{BASE}/adatminoseg.html",
     f"{BASE}/ai-entry.json",
     f"{BASE}/entity.jsonld",
 ]
