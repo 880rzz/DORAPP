@@ -1743,7 +1743,7 @@
       "state": "wien",
       "city": "Wien",
       "type": "egyházi közösség",
-      "intro": "Magyar református istentiszteleteket, lelki és közösségi programokat szervező ausztriai szolgálat.",
+      "intro": "Az Ausztriai Magyar Református Lelkigondozó Szolgálat magyar nyelvű református istentiszteleteket, gyermek-istentiszteleteket, konfirmációs felkészítést, lelki gondozást és közösségi alkalmakat szervez Bécsben és más ausztriai helyszíneken.",
       "website": "https://reformatus.at/",
       "facebook": null,
       "instagram": null,
@@ -1760,13 +1760,18 @@
       ],
       "evidenceSources": [
         {
-          "label": "Ausztriai Magyar Református Lelkigondozó Szolgálat – kapcsolat és helyszínek",
+          "label": "Ausztriai Magyar Református Lelkigondozó Szolgálat – 2026-os alkalmak",
+          "url": "https://www.reformatus.at/",
+          "type": "official"
+        },
+        {
+          "label": "Református Lelkigondozó Szolgálat – kapcsolat",
           "url": "https://www.reformatus.at/contact/",
           "type": "official"
         },
         {
-          "label": "Ausztriai Magyar Református Lelkigondozó Szolgálat – 2026 alkalmak",
-          "url": "https://www.reformatus.at/",
+          "label": "Református Lelkigondozó Szolgálat – eseményarchívum",
+          "url": "https://www.reformatus.at/events/2025/",
           "type": "official"
         }
       ],
@@ -1789,7 +1794,27 @@
       ],
       "categories": [
         "egyhaz"
-      ]
+      ],
+      "activities": [
+        "magyar nyelvű református istentiszteletek",
+        "gyermek-istentiszteletek",
+        "konfirmációs előkészítés",
+        "lelki gondozás",
+        "keresztelés, esküvő és temetési szolgálat",
+        "koncertek, megemlékezések és közösségi alkalmak"
+      ],
+      "targetGroups": [
+        "Ausztriában élő magyar reformátusok",
+        "magyar családok és gyermekek",
+        "magyar nyelvű protestáns lelki szolgálatot keresők"
+      ],
+      "languages": [
+        "magyar",
+        "német"
+      ],
+      "email": "bemaref@gmail.com",
+      "phone": "+43 699 1887 8068",
+      "profileVerifiedAt": "2026-09-25"
     },
     {
       "id": "katolikus-wien",
@@ -4587,7 +4612,7 @@
       "state": "wien",
       "city": "Wien",
       "type": "közösségi egyesület",
-      "intro": "Az 1899-ben alapított Bécsi Magyar Munkásegylet Bécs egyik legrégebbi magyar közösségi egyesülete. Saját magyar házában rendszeres társasági, gasztronómiai és kulturális programokat szervez, és a magyar nyelv, zene, hagyományok és közösségi élet ápolását tekinti fő feladatának.",
+      "intro": "Az 1899-ben alapított Bécsi Magyar Munkásegylet (BMME) Ausztria egyik legrégebbi magyar egyesülete. A floridsdorfi mozdonygyár magyar munkásainak kezdeményezéséből nőtt ki, és ma is nyelvi, kulturális, gasztronómiai és közösségi programokkal szolgálja a bécsi magyarságot.",
       "website": "https://bmme.at/",
       "facebook": "https://www.facebook.com/VereinBMME/",
       "instagram": null,
@@ -4600,14 +4625,9 @@
       ],
       "evidenceSources": [
         {
-          "label": "BMME – hivatalos weboldal",
+          "label": "BMME – hivatalos oldal és történet",
           "url": "https://bmme.at/",
           "type": "official"
-        },
-        {
-          "label": "Kerekasztal – tagegyesületek",
-          "url": "https://kerekasztal.at/",
-          "type": "institutional"
         }
       ],
       "memberships": [
@@ -4621,19 +4641,46 @@
       "phone": "+43 699 1909 2586",
       "founded": "1899",
       "activities": [
-        "magyar közösségi programok",
-        "kulturális rendezvények",
-        "társasági és hagyományőrző alkalmak"
+        "magyar kulturális és közösségi estek",
+        "gasztronómiai hagyományőrzés",
+        "Gulyásfesztivál és közösségi versenyek",
+        "zenés és táncos rendezvények",
+        "magyar nyelv, zene és szokások ápolása",
+        "tagsági és társasági közösség működtetése"
       ],
       "targetGroups": [
         "Bécsben és környékén élő magyarok",
-        "magyar kulturális közösség"
+        "magyar munkás- és családi közösségek",
+        "magyar hagyományok iránt érdeklődők"
       ],
       "languages": [
         "magyar",
         "német"
       ],
-      "profileVerifiedAt": "2026-09-25"
+      "profileVerifiedAt": "2026-09-25",
+      "history": {
+        "summary": "A BMME-t 1899-ben a bécsi 21. kerület floridsdorfi mozdonygyárának magyar munkásai alapították. Az egyesület több mint egy évszázada folyamatosan a bécsi magyar közösség egyik találkozóhelye, és a történelmi munkásegyleti gyökerekből szélesebb kulturális és társasági közösséggé fejlődött. A mai Magyarházban rendszeres tematikus esteket és nagyobb hagyományőrző eseményeket szervez.",
+        "milestones": [
+          {
+            "year": "1899",
+            "title": "Megalakulás",
+            "description": "A floridsdorfi mozdonygyár magyar munkásai megalapítják a Bécsi Magyar Munkásegyletet.",
+            "sourceUrl": "https://bmme.at/"
+          },
+          {
+            "year": "2010",
+            "title": "Gulyásfesztivál hagyományának kezdete",
+            "description": "Az egyesület ettől az évtől rendszeresen megszervezi egyik legnagyobb hagyományőrző rendezvényét.",
+            "sourceUrl": "https://bmme.at/"
+          },
+          {
+            "year": "2019",
+            "title": "120 éves jubileum",
+            "description": "A BMME fennállásának 120. évfordulóját ünnepli.",
+            "sourceUrl": "https://bmme.at/"
+          }
+        ]
+      }
     },
     {
       "id": "bmi-szulok-tamogatok",
