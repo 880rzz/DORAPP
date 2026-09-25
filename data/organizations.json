@@ -2753,8 +2753,16 @@
         "kozosseg"
       ],
       "evidenceSources": [
-        "https://bmme.at/",
-        "https://kerekasztal.at/"
+        {
+          "label": "BMME – hivatalos weboldal",
+          "url": "https://bmme.at/",
+          "type": "official"
+        },
+        {
+          "label": "Kerekasztal – tagegyesületek",
+          "url": "https://kerekasztal.at/",
+          "type": "institutional"
+        }
       ],
       "memberships": [
         {
@@ -2762,7 +2770,9 @@
           "sourceUrl": "https://kerekasztal.at/",
           "verifiedAt": "2026-09-25"
         }
-      ]
+      ],
+      "email": "bmme1899@outlook.com",
+      "phone": "+43 699 1909 2586"
     },
     {
       "id": "bmi-szulok-tamogatok",
@@ -3545,13 +3555,18 @@
           "label": "Központi Szövetség – GDPR & AI Trust",
           "url": "https://www.kozpontiszovetseg.at/post/gdpr-ai-trust",
           "type": "institutional"
+        },
+        {
+          "label": "Bécsi Magyar Iskola – VIPACH intézményi kapcsolat",
+          "url": "https://www.magyariskola.at/kapcsolat",
+          "type": "institutional"
         }
       ],
       "affiliations": [
         {
           "organizationId": "kozponti-szovetseg",
-          "label": "Kapcsolódó közösségi háttér",
-          "sourceUrl": "https://www.vipach.at/bemutatkozas"
+          "label": "A Központi Szövetség fotó- és művészeti klubja",
+          "sourceUrl": "https://www.magyariskola.at/kapcsolat"
         },
         {
           "organizationId": "becsi-magyar-iskola",
@@ -3722,8 +3737,16 @@
         "kozosseg"
       ],
       "evidenceSources": [
-        "https://mde.hu/partnerek-tamogatok/",
-        "https://kerekasztal.at/"
+        {
+          "label": "MDE-VUS – Partnereink és támogatóink",
+          "url": "https://mde.hu/partnerek-tamogatok/",
+          "type": "official"
+        },
+        {
+          "label": "Kerekasztal – tagegyesületek",
+          "url": "https://kerekasztal.at/",
+          "type": "institutional"
+        }
       ]
     },
     {
@@ -3749,9 +3772,18 @@
         "kozosseg"
       ],
       "evidenceSources": [
-        "https://www.kozpontiszovetseg.at/tagszervezetek",
-        "https://volksgruppen.orf.at/magyarok/stories/3354547/"
-      ]
+        {
+          "label": "Központi Szövetség – tagszervezetek",
+          "url": "https://www.kozpontiszovetseg.at/tagszervezetek",
+          "type": "institutional"
+        },
+        {
+          "label": "ORF Magyarok – 30 éves az Írottkő Natúrpark",
+          "url": "https://volksgruppen.orf.at/magyarok/stories/3354547/",
+          "type": "media"
+        }
+      ],
+      "email": "beata.nemeth@gmx.at"
     }
   ],
   "umbrellaOrganizations": [
