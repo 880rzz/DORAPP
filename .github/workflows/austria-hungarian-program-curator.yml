@@ -17,7 +17,7 @@ jobs:
         with:
           python-version: "3.12"
       - name: Compile curator
-        run: python -m py_compile scripts/update_events.py scripts/validate_directory.py
+        run: python -m py_compile scripts/update_events.py scripts/update_articles.py scripts/validate_directory.py
       - name: Refresh verified event sources
         run: python scripts/update_events.py
       - name: Validate directory integrity
@@ -26,15 +26,15 @@ jobs:
         run: |
           python -m json.tool data/organizations.json >/dev/null
           python -m json.tool data/events.json >/dev/null
-          python -m json.tool data/source-health.json >/dev/null
+          python -m json.tool data/source-health.json >/dev/null\n          python -m json.tool data/articles.json >/dev/null
       - name: Commit source-backed changes
         run: |
-          if git diff --quiet -- data/events.json data/source-health.json; then
+          if git diff --quiet -- data/events.json data/source-health.json data/articles.json; then
             echo "No data changes"
             exit 0
           fi
           git config user.name "austria-program-curator[bot]"
           git config user.email "actions@users.noreply.github.com"
-          git add data/events.json data/source-health.json
+          git add data/events.json data/source-health.json data/articles.json
           git commit -m "chore(events): daily source-backed refresh"
           git push
