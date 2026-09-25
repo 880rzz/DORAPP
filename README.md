@@ -9,13 +9,13 @@ Egyetlen kereshető felületre hozza az Ausztriában működő magyar egyesület
 ## Jelenlegi lefedettség
 
 - 9 osztrák tartomány
-- 70 szervezet / programgazda
+- 74 szervezet, civil közösség és programgazda
 - tartományi térképes kezdőlap
 - kereshető szervezeti adatbázis
 - szervezeti bemutatkozó profilok
 - országos eseménynaptár
 - Google Maps és Apple Maps útvonaltervezés igazolt cím esetén
-- napi automatikus eseményforrás-ellenőrzés
+- napi automatikus eseményforrás-ellenőrzés, forrásonkénti állapotnaplóval
 
 ## Architektúra
 
