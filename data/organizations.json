@@ -581,25 +581,41 @@
         "nephagyomany"
       ],
       "parentOrganizationId": "napraforgok",
-      "intro": "A Napraforgók Bécsi Magyar Néptánc és Népzene Egyesület gyermekcsoportja. Mintegy húsz gyermek tanul benne magyar néptáncot, zenét és hagyományokat; heti bécsi és kétheti badeni alkalmakat is tartanak.",
+      "intro": "A Napraforgócskák a Napraforgók bécsi gyermeknéptánccsoportja, amely 6–15 éves gyerekeknek tart rendszeres magyar néptánc-foglalkozásokat Bécsben, illetve időszakosan Badenben.",
       "website": "https://www.napraforgok.at/r%C3%B3lunk",
       "facebook": null,
       "instagram": null,
       "eventSources": [
-        "https://www.napraforgok.at/"
+        "https://www.napraforgok.at/",
+        "https://www.magyariskola.at/event-details/napraforgocskak-2026"
       ],
       "evidenceSources": [
         {
-          "label": "Napraforgók – Tánccsoportjaink",
-          "url": "https://www.napraforgok.at/r%C3%B3lunk",
+          "label": "Napraforgók – csoportok és vezetők",
+          "url": "https://www.napraforgok.at/vezetoseg",
           "type": "official"
         },
         {
-          "label": "Napraforgók – aktuális próbák",
-          "url": "https://www.napraforgok.at/",
-          "type": "official"
+          "label": "Bécsi Magyar Iskola – Napraforgócskák 2026",
+          "url": "https://www.magyariskola.at/event-details/napraforgocskak-2026",
+          "type": "institutional"
         }
-      ]
+      ],
+      "activities": [
+        "gyermeknéptánc",
+        "magyar népzene és ritmusjáték",
+        "közösségi és hagyományőrző gyermekfoglalkozások",
+        "színpadi fellépések"
+      ],
+      "targetGroups": [
+        "6–15 éves magyar vagy magyarul tanuló gyermekek",
+        "bécsi és badeni magyar családok"
+      ],
+      "languages": [
+        "magyar"
+      ],
+      "email": "napraforgok.tancegyuttes@gmail.com",
+      "profileVerifiedAt": "2026-09-25"
     },
     {
       "id": "szent-istvan-egylet",
@@ -1370,7 +1386,7 @@
         "zene"
       ],
       "parentOrganizationId": "delibab",
-      "intro": "A Délibáb Bécsi Magyar Kultúregyesületből kinőtt, ma is aktív bécsi magyar népdalkör. Magyar tájegységek népdalanyagát ápolja, rendszeres próbákkal, fellépésekkel és énekes workshopokkal.",
+      "intro": "A Barka Bécsi Magyar Népdalkör 2007 nyarán a Délibáb táncos közösségéből alakult. Magyar népdalokat tanul és ad elő, különböző tájegységek énekhagyományát őrizve.",
       "website": "https://www.wukv.at/tarka-barka-dalkor/",
       "facebook": null,
       "instagram": null,
@@ -1379,16 +1395,44 @@
       ],
       "evidenceSources": [
         {
-          "label": "WUKV – Barka Bécsi Magyar Népdalkör",
+          "label": "Délibáb / WUKV – Barka Népdalkör története",
           "url": "https://www.wukv.at/tarka-barka-dalkor/",
           "type": "official"
-        },
-        {
-          "label": "WUKV – Barka Workshop 2026",
-          "url": "https://www.wukv.at/",
-          "type": "official"
         }
-      ]
+      ],
+      "founded": "2007",
+      "history": {
+        "summary": "A Barka Népdalkör 2007 nyarán alakult a Délibáb táncosainak kezdeményezésére. Alapítója Beckerné Szalay Eszter zenepedagógus volt; a csoport kezdetben széki, kalotaszegi, szatmári és dunántúli népdalokkal foglalkozott. 2009 után új vezetőkkel folytatta munkáját.",
+        "milestones": [
+          {
+            "year": "2007",
+            "title": "Megalakulás",
+            "description": "A Délibáb táncosaiból létrejön a Bécsi Dalkör.",
+            "sourceUrl": "https://www.wukv.at/tarka-barka-dalkor/"
+          },
+          {
+            "year": "2009",
+            "title": "Tarka Barka név és új vezetés",
+            "description": "A dalkör Tarka Barka néven folytatja működését új szakmai vezetéssel.",
+            "sourceUrl": "https://www.wukv.at/tarka-barka-dalkor/"
+          }
+        ]
+      },
+      "activities": [
+        "magyar népdalok tanulása",
+        "népdalköri próbák",
+        "kulturális és hagyományőrző fellépések",
+        "tájegységi énekhagyomány ápolása"
+      ],
+      "targetGroups": [
+        "Bécsben élő magyar népdalénekesek",
+        "népzene és néphagyomány iránt érdeklődők",
+        "kulturális rendezvények közönsége"
+      ],
+      "languages": [
+        "magyar"
+      ],
+      "profileVerifiedAt": "2026-09-25"
     },
     {
       "id": "szivarvany-gyermektanc",
@@ -1685,12 +1729,12 @@
       "state": "wien",
       "city": "Wien",
       "type": "egyházi közösség",
-      "intro": "Ausztria magyar nyelvű evangélikus közössége istentiszteletekkel, lelkigondozással és közösségi alkalmak szervezésével.",
-      "website": "https://www.evang-ungarisch.at/",
-      "facebook": null,
+      "intro": "Az Ausztriai Magyar Evangélikus Gyülekezet magyar nyelvű evangélikus diaszpóraközösség, amely Bécsben és Grazban tart istentiszteleteket, közösségi alkalmakat és kulturális programokat. Története az 1956-os magyar menekülthullámig nyúlik vissza.",
+      "website": "https://www.evangelikus-at.com/",
+      "facebook": "https://www.facebook.com/evangelikusat/",
       "instagram": null,
       "eventSources": [
-        "https://www.evang-ungarisch.at/"
+        "https://www.evangelikus-at.com/"
       ],
       "memberships": [
         {
@@ -1706,14 +1750,19 @@
       ],
       "evidenceSources": [
         {
-          "label": "Magyar Evangélikus Egyház – ausztriai magyar gyülekezet",
-          "url": "https://www.evangelikus.hu/hu/hireink/beszamolo/becsben-ulesezett-a-magyar-evangelikus-tanacskozo-testulet",
-          "type": "secondary"
+          "label": "Ausztriai Magyar Evangélikus Gyülekezet – aktuális oldal",
+          "url": "https://www.evangelikus-at.com/",
+          "type": "official"
         },
         {
-          "label": "Rólunk.at – Wagner Szilárd és az ausztriai magyar evangélikus közösség",
-          "url": "https://rolunk.at/magazin/a-lelkeszseg-is-egy-szakma-vendegsegben-wagner-szilard-evangelikus-lelkesznel/",
-          "type": "secondary"
+          "label": "Ausztriai Magyar Evangélikus Gyülekezet – lelkész és bemutatkozás",
+          "url": "https://www.evangelikus-at.com/ueber-uns",
+          "type": "official"
+        },
+        {
+          "label": "Magyarországi Evangélikus Egyház – a gyülekezet története",
+          "url": "https://www.evangelikus.hu/hu/hireink/beszamolo/becsben-ulesezett-a-magyar-evangelikus-tanacskozo-testulet",
+          "type": "institutional"
         }
       ],
       "regionalNetworks": [
@@ -1735,7 +1784,56 @@
       ],
       "categories": [
         "egyhaz"
-      ]
+      ],
+      "history": {
+        "summary": "A közösség gyökerei 1956-ra nyúlnak vissza, amikor az osztrák evangélikus egyház Szépfalusi István lelkészt bízta meg a Magyarországról érkező menekültek lelki gondozásával. Néhány évvel később önálló közösségi teret tudtak bérelni, majd 2003-ban az Ausztriai Evangélikus Egyház önálló magyar gyülekezetként ismerte el a közösséget.",
+        "milestones": [
+          {
+            "year": "1956",
+            "title": "Magyar evangélikus lelki szolgálat kezdete",
+            "description": "Szépfalusi István megbízást kap a magyar menekültek lelki gondozására.",
+            "sourceUrl": "https://www.evangelikus.hu/hu/hireink/beszamolo/becsben-ulesezett-a-magyar-evangelikus-tanacskozo-testulet"
+          },
+          {
+            "year": "1959",
+            "title": "Önálló közösségi tér",
+            "description": "Skandináv támogatással saját közösségi helyiséghez jut a magyar evangélikus közösség.",
+            "sourceUrl": "https://www.evangelikus.hu/hu/hireink/beszamolo/becsben-ulesezett-a-magyar-evangelikus-tanacskozo-testulet"
+          },
+          {
+            "year": "2003",
+            "title": "Önálló gyülekezeti elismerés",
+            "description": "Az Ausztriai Evangélikus Egyház önálló gyülekezetként ismeri el a magyar közösséget.",
+            "sourceUrl": "https://www.evangelikus.hu/hu/hireink/beszamolo/becsben-ulesezett-a-magyar-evangelikus-tanacskozo-testulet"
+          },
+          {
+            "year": "2018",
+            "title": "Wagner Szilárd szolgálatának kezdete",
+            "description": "Wagner Szilárd lelkész megkezdi szolgálatát a gyülekezetben.",
+            "sourceUrl": "https://www.evangelikus-at.com/ueber-uns"
+          }
+        ]
+      },
+      "activities": [
+        "magyar nyelvű evangélikus istentiszteletek",
+        "lelki gondozás",
+        "gyülekezeti és családi alkalmak",
+        "kulturális és közösségi programok",
+        "ökumenikus kapcsolatok",
+        "magyar–osztrák egyházi kapcsolatok"
+      ],
+      "targetGroups": [
+        "Ausztriában élő magyar evangélikusok",
+        "magyar családok",
+        "magyar nyelvű protestáns lelki közösséget keresők"
+      ],
+      "languages": [
+        "magyar",
+        "német"
+      ],
+      "email": "maegy.austria@gmail.com",
+      "phone": "+43 677 62906270",
+      "profileVerifiedAt": "2026-09-25"
     },
     {
       "id": "reformatus-szolgalat",
@@ -4323,7 +4421,7 @@
         "ifjusag",
         "gyermek"
       ],
-      "intro": "2025 őszén megalakult burgenlandi magyar cserkészcsapat rendszeres őrsgyűlésekkel, kirándulásokkal, táborokkal és közösségi programokkal. A gyermekeket nagyjából 7–8 éves kortól várják.",
+      "intro": "A 2025-ben létrejött Burgenlandi Magyar Cserkészet a burgenlandi magyar gyermekek és családok új cserkészközössége. Rövid idő alatt rendszeres foglalkozásokkal, táborokkal és történelmi-hagyományőrző programokkal bővült.",
       "website": "https://www.burgenlandicserkesz.at/",
       "facebook": null,
       "instagram": null,
@@ -4339,16 +4437,49 @@
       ],
       "evidenceSources": [
         {
-          "label": "ORF Magyarok – Újra van burgenlandi cserkészcsapat",
-          "url": "https://volksgruppen.orf.at/magyarok/stories/3323535/",
-          "type": "editorial"
+          "label": "ORF Magyarok – Kenderkóc és új burgenlandi cserkészet",
+          "url": "https://volksgruppen.orf.at/magyarok/stories/3333230/",
+          "type": "public-broadcaster"
         },
         {
-          "label": "ORF Magyarok – Szent István napi cserkészdélután 2026",
-          "url": "https://volksgruppen.orf.at/magyarok/stories/3368030/",
-          "type": "editorial"
+          "label": "ORF Magyarok podcast – alsóőri cserkészdélután 2026",
+          "url": "https://podiverzum.hu/podcast/orf-magyarok-podcast/idoutazas-es-megemlekezes-az-alsoori-cserkeszdelutanon-deaf57f3",
+          "type": "media"
         }
-      ]
+      ],
+      "founded": "2025",
+      "history": {
+        "summary": "A burgenlandi magyar cserkészcsapat 2025-ben alakult, majd egy év alatt rendszeres foglalkozásokat és táborokat is szervező közösséggé fejlődött. Programjaiban a magyar történelem, hagyományőrzés, természetjárás és cserkésznevelés egyaránt hangsúlyos.",
+        "milestones": [
+          {
+            "year": "2025",
+            "title": "Megalakulás",
+            "description": "Létrejön a Burgenlandi Magyar Cserkészet.",
+            "sourceUrl": "https://volksgruppen.orf.at/magyarok/stories/3333230/"
+          },
+          {
+            "year": "2026",
+            "title": "Táborok és új korosztályok",
+            "description": "A csapat táborokat szervez és már ötéves kortól vár gyermekeket.",
+            "sourceUrl": "https://podiverzum.hu/podcast/orf-magyarok-podcast/idoutazas-es-megemlekezes-az-alsoori-cserkeszdelutanon-deaf57f3"
+          }
+        ]
+      },
+      "activities": [
+        "cserkészfoglalkozások",
+        "magyar történelmi és hagyományőrző programok",
+        "táborok és kirándulások",
+        "gyermek- és családi közösségépítés"
+      ],
+      "targetGroups": [
+        "burgenlandi magyar gyermekek és fiatalok",
+        "magyar családok",
+        "cserkészet iránt érdeklődők"
+      ],
+      "languages": [
+        "magyar"
+      ],
+      "profileVerifiedAt": "2026-09-25"
     },
     {
       "id": "alsoori-katolikus",
