@@ -12,6 +12,7 @@ urls=[
     f"{BASE}/",
     f"{BASE}/forrasok.html",
     f"{BASE}/llms.txt",
+    f"{BASE}/ai.txt",
 ]
 urls += [f"{BASE}/szervezetek/{x['id']}.html" for x in org.get("organizations",[])]
 urls += [f"{BASE}/oktatas/{x['id']}.html" for x in edu.get("institutions",[])]
