@@ -9,7 +9,8 @@ Egyetlen kereshető felületre hozza az Ausztriában működő magyar egyesület
 ## Jelenlegi lefedettség
 
 - 9 osztrák tartomány
-- 77 szervezet, civil közösség, kulturális intézmény, médiafelület és programgazda
+- 79 szervezet, civil közösség, kulturális intézmény, médiafelület és programgazda
+- 69 oktatási intézmény/helyszín a bölcsődétől a felsőoktatásig
 - tartományi térképes kezdőlap
 - kereshető szervezeti adatbázis
 - szervezeti bemutatkozó profilok
@@ -33,6 +34,9 @@ A DORAPP saját, országos adatmodellre épül, BMI-specifikus függés nélkül
 - `data/events.json` — forrásból igazolt események
 - `data/source-health.json` — napi forrásellenőrzés állapota
 - `data/discovery-sources.json` — országos felderítő és háttérforrások (ORF, Rólunk.at, KCSP, Bécsi Napló)
+- `data/education.json` — magyar oktatási helyek és képzések
+- `data/education-site-health.json` — az oktatási weboldalak rendszeres tartalom- és elérhetőségi auditja
+- `data/articles.json` — szervezeti cikk- és háttéranyag-index
 
 ## Napi curator
 
@@ -64,3 +68,17 @@ A DORAPP külön kezeli a formális ernyőszervezeti tagságot és a dokumentál
 - **Regionális háló**: együttműködő szervezetek kapcsolata, amely nem jelent automatikusan tagsági vagy jogi alárendeltséget.
 
 Első ilyen háló: **Burgenlandi magyar együttműködési háló**, a Burgenlandi Magyar Kultúregyesület (BMKE) körül.
+
+
+## Oktatási webaudit
+
+`.github/workflows/education-site-audit.yml`
+
+Az oktatási réteg külön futó ellenőrzést kapott. Az audit:
+1. megnyitja a rögzített intézményi weboldalt;
+2. releváns belső oldalakat is bejár;
+3. magyar, kétnyelvű, elsőnyelvi és népcsoporti tartalmat keres;
+4. külön jelzi, ha az oldal elérhető, de a magyar program csak külső hiteles forrásból igazolható;
+5. nem következtet egy intézményre pusztán a település alapján.
+
+A statikus oktatási profilokat a `scripts/generate_education_profiles.py` generálja.
