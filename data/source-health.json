@@ -1,18 +1,19 @@
 {
-  "updated": "2026-09-25T21:07:22.640150+00:00",
+  "updated": "2026-09-25T21:30:43.383536+00:00",
   "sources": [
     {
       "organizationId": "alsoori-katolikus",
       "source": "https://www.martinus.at/pfarre/1127/kalender",
-      "checkedAt": "2026-09-25T21:06:46.756273+00:00",
-      "status": "ok-no-structured-event",
+      "checkedAt": "2026-09-25T21:30:01.365232+00:00",
+      "status": "error",
       "eventsFound": 0,
-      "pagesChecked": 3
+      "pagesChecked": 0,
+      "error": "<urlopen error timed out>"
     },
     {
       "organizationId": "alsoori-kultur-tanc",
       "source": "https://www.facebook.com/profile.php?id=100088924551185",
-      "checkedAt": "2026-09-25T21:06:20.290811+00:00",
+      "checkedAt": "2026-09-25T21:29:38.531862+00:00",
       "status": "ok-no-structured-event",
       "eventsFound": 0,
       "pagesChecked": 1
@@ -20,7 +21,7 @@
     {
       "organizationId": "alsoori-otthon",
       "source": "https://www.unterwart.at/heimathaus-unterwart/",
-      "checkedAt": "2026-09-25T21:06:21.079447+00:00",
+      "checkedAt": "2026-09-25T21:29:39.415207+00:00",
       "status": "ok-no-structured-event",
       "eventsFound": 0,
       "pagesChecked": 1
@@ -28,7 +29,7 @@
     {
       "organizationId": "alsoori-szinjatszo",
       "source": "https://www.theaterverein-unterwart.at/",
-      "checkedAt": "2026-09-25T21:06:20.611861+00:00",
+      "checkedAt": "2026-09-25T21:29:38.630522+00:00",
       "status": "ok-no-structured-event",
       "eventsFound": 0,
       "pagesChecked": 1
@@ -36,7 +37,7 @@
     {
       "organizationId": "amaped",
       "source": "https://amaped.at/",
-      "checkedAt": "2026-09-25T21:05:33.973966+00:00",
+      "checkedAt": "2026-09-25T21:29:06.095158+00:00",
       "status": "ok-no-structured-event",
       "eventsFound": 0,
       "pagesChecked": 5
@@ -44,7 +45,7 @@
     {
       "organizationId": "amaped-baden",
       "source": "https://amaped.at/",
-      "checkedAt": "2026-09-25T21:06:08.117652+00:00",
+      "checkedAt": "2026-09-25T21:29:30.180363+00:00",
       "status": "ok-no-structured-event",
       "eventsFound": 0,
       "pagesChecked": 5
@@ -52,7 +53,7 @@
     {
       "organizationId": "amaped-klosterneuburg",
       "source": "https://amaped.at/",
-      "checkedAt": "2026-09-25T21:06:08.517423+00:00",
+      "checkedAt": "2026-09-25T21:29:30.242579+00:00",
       "status": "ok-no-structured-event",
       "eventsFound": 0,
       "pagesChecked": 5
@@ -60,7 +61,7 @@
     {
       "organizationId": "amaped-schwechat",
       "source": "https://amaped.at/",
-      "checkedAt": "2026-09-25T21:06:10.479117+00:00",
+      "checkedAt": "2026-09-25T21:29:30.825924+00:00",
       "status": "ok-no-structured-event",
       "eventsFound": 0,
       "pagesChecked": 5
@@ -68,7 +69,7 @@
     {
       "organizationId": "amaped-st-poelten",
       "source": "https://amaped.at/",
-      "checkedAt": "2026-09-25T21:06:10.608955+00:00",
+      "checkedAt": "2026-09-25T21:29:30.866648+00:00",
       "status": "ok-no-structured-event",
       "eventsFound": 0,
       "pagesChecked": 5
@@ -76,7 +77,7 @@
     {
       "organizationId": "barka-nepdalkor",
       "source": "https://www.wukv.at/",
-      "checkedAt": "2026-09-25T21:05:46.622642+00:00",
+      "checkedAt": "2026-09-25T21:29:18.591054+00:00",
       "status": "ok-no-structured-event",
       "eventsFound": 0,
       "pagesChecked": 7
@@ -84,7 +85,7 @@
     {
       "organizationId": "becsi-irodalmi-muhely",
       "source": "https://www.oeius.at/hu/veranstaltungen",
-      "checkedAt": "2026-09-25T21:05:25.908056+00:00",
+      "checkedAt": "2026-09-25T21:28:58.608193+00:00",
       "status": "ok-no-structured-event",
       "eventsFound": 0,
       "pagesChecked": 3
@@ -92,7 +93,7 @@
     {
       "organizationId": "becsi-magyar-iskola",
       "source": "https://www.magyariskola.at/",
-      "checkedAt": "2026-09-25T21:05:30.460274+00:00",
+      "checkedAt": "2026-09-25T21:29:01.376476+00:00",
       "status": "ok-events",
       "eventsFound": 2,
       "pagesChecked": 7
@@ -100,7 +101,7 @@
     {
       "organizationId": "becsi-magyar-iskola",
       "source": "https://www.magyariskola.at/osszes",
-      "checkedAt": "2026-09-25T21:05:29.245827+00:00",
+      "checkedAt": "2026-09-25T21:29:00.905813+00:00",
       "status": "ok-events",
       "eventsFound": 2,
       "pagesChecked": 7
@@ -108,7 +109,7 @@
     {
       "organizationId": "becsi-magyar-iskolaegyesulet",
       "source": "https://www.ungarischlernen.at/",
-      "checkedAt": "2026-09-25T21:05:34.655241+00:00",
+      "checkedAt": "2026-09-25T21:29:08.085000+00:00",
       "status": "ok-no-structured-event",
       "eventsFound": 0,
       "pagesChecked": 1
@@ -116,7 +117,7 @@
     {
       "organizationId": "becsi-magyar-munkasegylet",
       "source": "https://bmme.at/",
-      "checkedAt": "2026-09-25T21:06:51.367484+00:00",
+      "checkedAt": "2026-09-25T21:30:05.726128+00:00",
       "status": "ok-no-structured-event",
       "eventsFound": 0,
       "pagesChecked": 1
@@ -124,7 +125,7 @@
     {
       "organizationId": "becsi-magyar-munkasegylet",
       "source": "https://www.facebook.com/VereinBMME/",
-      "checkedAt": "2026-09-25T21:06:51.655865+00:00",
+      "checkedAt": "2026-09-25T21:30:05.874087+00:00",
       "status": "ok-no-structured-event",
       "eventsFound": 0,
       "pagesChecked": 1
@@ -132,7 +133,7 @@
     {
       "organizationId": "becsi-naplo",
       "source": "https://www.becsinaplo.at/",
-      "checkedAt": "2026-09-25T21:06:56.898801+00:00",
+      "checkedAt": "2026-09-25T21:30:15.960215+00:00",
       "status": "ok-no-structured-event",
       "eventsFound": 0,
       "pagesChecked": 1
@@ -140,7 +141,7 @@
     {
       "organizationId": "becsi-naplo",
       "source": "https://www.becsinaplo.at/blog",
-      "checkedAt": "2026-09-25T21:06:57.248757+00:00",
+      "checkedAt": "2026-09-25T21:30:16.125679+00:00",
       "status": "ok-no-structured-event",
       "eventsFound": 0,
       "pagesChecked": 1
@@ -148,7 +149,7 @@
     {
       "organizationId": "becsi-szelet",
       "source": "https://www.becsiszelet.at/",
-      "checkedAt": "2026-09-25T21:06:57.425071+00:00",
+      "checkedAt": "2026-09-25T21:30:16.182307+00:00",
       "status": "error",
       "eventsFound": 0,
       "pagesChecked": 0,
@@ -157,7 +158,7 @@
     {
       "organizationId": "bmi-aspern-magyaroktatas",
       "source": "https://www.magyariskola.at/event-details/magyaroktatas-kedd-2026",
-      "checkedAt": "2026-09-25T21:05:31.722172+00:00",
+      "checkedAt": "2026-09-25T21:29:01.927845+00:00",
       "status": "ok-no-structured-event",
       "eventsFound": 0,
       "pagesChecked": 5
@@ -165,7 +166,7 @@
     {
       "organizationId": "bmi-becscraft",
       "source": "https://www.magyariskola.at/event-details/becscraft-2026",
-      "checkedAt": "2026-09-25T21:05:33.129784+00:00",
+      "checkedAt": "2026-09-25T21:29:02.724635+00:00",
       "status": "ok-no-structured-event",
       "eventsFound": 0,
       "pagesChecked": 5
@@ -173,7 +174,7 @@
     {
       "organizationId": "bmi-seestadt-magyaroktatas",
       "source": "https://www.magyariskola.at/event-details/magyarnyelv-szerda-2026",
-      "checkedAt": "2026-09-25T21:05:32.424601+00:00",
+      "checkedAt": "2026-09-25T21:29:02.340869+00:00",
       "status": "ok-no-structured-event",
       "eventsFound": 0,
       "pagesChecked": 5
@@ -181,7 +182,7 @@
     {
       "organizationId": "bmke-singkreis",
       "source": "https://bukv.at/",
-      "checkedAt": "2026-09-25T21:07:08.476607+00:00",
+      "checkedAt": "2026-09-25T21:30:34.988458+00:00",
       "status": "ok-no-structured-event",
       "eventsFound": 0,
       "pagesChecked": 7
@@ -189,7 +190,7 @@
     {
       "organizationId": "bobitak-innsbruck",
       "source": "https://bobitak.at/",
-      "checkedAt": "2026-09-25T21:07:01.210667+00:00",
+      "checkedAt": "2026-09-25T21:30:19.868483+00:00",
       "status": "ok-no-structured-event",
       "eventsFound": 0,
       "pagesChecked": 1
@@ -197,7 +198,7 @@
     {
       "organizationId": "bornemisza-peter-tarsasag",
       "source": "https://www.kozpontiszovetseg.at/event-details/dr-janosi-zoltan-irodalomtortenesz-iro-kolto",
-      "checkedAt": "2026-09-25T21:05:28.505221+00:00",
+      "checkedAt": "2026-09-25T21:29:00.850744+00:00",
       "status": "error",
       "eventsFound": 0,
       "pagesChecked": 0,
@@ -206,7 +207,7 @@
     {
       "organizationId": "brand-art-studio",
       "source": "https://brandart.studio/",
-      "checkedAt": "2026-09-25T21:06:02.392779+00:00",
+      "checkedAt": "2026-09-25T21:29:25.160089+00:00",
       "status": "error",
       "eventsFound": 0,
       "pagesChecked": 0,
@@ -215,7 +216,7 @@
     {
       "organizationId": "bukv",
       "source": "https://bukv.at/",
-      "checkedAt": "2026-09-25T21:06:11.437708+00:00",
+      "checkedAt": "2026-09-25T21:29:31.463787+00:00",
       "status": "ok-no-structured-event",
       "eventsFound": 0,
       "pagesChecked": 7
@@ -223,7 +224,7 @@
     {
       "organizationId": "burgenlandi-magyar-cserkeszet",
       "source": "https://www.burgenlandicserkesz.at/",
-      "checkedAt": "2026-09-25T21:06:46.497355+00:00",
+      "checkedAt": "2026-09-25T21:30:01.277998+00:00",
       "status": "ok-no-structured-event",
       "eventsFound": 0,
       "pagesChecked": 1
@@ -231,7 +232,7 @@
     {
       "organizationId": "club-pannonia",
       "source": "https://club-pannonia.at/",
-      "checkedAt": "2026-09-25T21:06:02.399524+00:00",
+      "checkedAt": "2026-09-25T21:29:25.651340+00:00",
       "status": "ok-no-structured-event",
       "eventsFound": 0,
       "pagesChecked": 1
@@ -239,7 +240,7 @@
     {
       "organizationId": "collegium-hungaricum-wien",
       "source": "https://culture.hu/hu/wien",
-      "checkedAt": "2026-09-25T21:06:53.446559+00:00",
+      "checkedAt": "2026-09-25T21:30:07.165404+00:00",
       "status": "ok-no-structured-event",
       "eventsFound": 0,
       "pagesChecked": 4
@@ -247,7 +248,7 @@
     {
       "organizationId": "collegium-hungaricum-wien",
       "source": "https://culture.hu/hu/wien/esemenyek",
-      "checkedAt": "2026-09-25T21:06:53.463124+00:00",
+      "checkedAt": "2026-09-25T21:30:07.457535+00:00",
       "status": "ok-no-structured-event",
       "eventsFound": 0,
       "pagesChecked": 7
@@ -255,7 +256,7 @@
     {
       "organizationId": "collegium-pazmanianum",
       "source": "https://pazmaneum.katolikus.hu/",
-      "checkedAt": "2026-09-25T21:06:59.792442+00:00",
+      "checkedAt": "2026-09-25T21:30:17.544912+00:00",
       "status": "ok-no-structured-event",
       "eventsFound": 0,
       "pagesChecked": 2
@@ -263,7 +264,7 @@
     {
       "organizationId": "csalafinta-neptanc",
       "source": "https://rolunk.at/tag/kozep-burgenlandi-magyar-kulturegyesulet/",
-      "checkedAt": "2026-09-25T21:06:21.543434+00:00",
+      "checkedAt": "2026-09-25T21:29:40.195040+00:00",
       "status": "ok-no-structured-event",
       "eventsFound": 0,
       "pagesChecked": 7
@@ -271,7 +272,7 @@
     {
       "organizationId": "cserkesz-72",
       "source": "https://cserkesz.at/",
-      "checkedAt": "2026-09-25T21:05:20.520021+00:00",
+      "checkedAt": "2026-09-25T21:28:55.190303+00:00",
       "status": "ok-no-structured-event",
       "eventsFound": 0,
       "pagesChecked": 6
@@ -279,7 +280,7 @@
     {
       "organizationId": "cserkesz-72",
       "source": "https://cserkesz.at/programok/",
-      "checkedAt": "2026-09-25T21:05:20.249954+00:00",
+      "checkedAt": "2026-09-25T21:28:52.335960+00:00",
       "status": "ok-no-structured-event",
       "eventsFound": 0,
       "pagesChecked": 7
@@ -287,7 +288,7 @@
     {
       "organizationId": "cserkesz-79",
       "source": "https://www.facebook.com/InnsbruckiMagyarCserkeszek/",
-      "checkedAt": "2026-09-25T21:06:45.971893+00:00",
+      "checkedAt": "2026-09-25T21:30:00.653549+00:00",
       "status": "ok-no-structured-event",
       "eventsFound": 0,
       "pagesChecked": 1
@@ -295,7 +296,7 @@
     {
       "organizationId": "cserkesz-80",
       "source": "https://wels.cserkesz.eu/",
-      "checkedAt": "2026-09-25T21:06:28.531049+00:00",
+      "checkedAt": "2026-09-25T21:29:45.581198+00:00",
       "status": "ok-events",
       "eventsFound": 8,
       "pagesChecked": 7
@@ -303,7 +304,7 @@
     {
       "organizationId": "cserkesz-80",
       "source": "https://wels.cserkesz.eu/programok/",
-      "checkedAt": "2026-09-25T21:06:28.449363+00:00",
+      "checkedAt": "2026-09-25T21:29:45.449988+00:00",
       "status": "ok-events",
       "eventsFound": 7,
       "pagesChecked": 7
@@ -311,7 +312,7 @@
     {
       "organizationId": "csorge-nepzene",
       "source": "https://bukv.at/",
-      "checkedAt": "2026-09-25T21:07:07.818881+00:00",
+      "checkedAt": "2026-09-25T21:30:30.252103+00:00",
       "status": "ok-no-structured-event",
       "eventsFound": 0,
       "pagesChecked": 7
@@ -319,7 +320,7 @@
     {
       "organizationId": "delibab",
       "source": "https://www.delibab-becs.com/",
-      "checkedAt": "2026-09-25T21:05:46.178804+00:00",
+      "checkedAt": "2026-09-25T21:29:17.312087+00:00",
       "status": "ok-no-structured-event",
       "eventsFound": 0,
       "pagesChecked": 2
@@ -327,7 +328,7 @@
     {
       "organizationId": "delibab",
       "source": "https://www.wukv.at/",
-      "checkedAt": "2026-09-25T21:05:46.188867+00:00",
+      "checkedAt": "2026-09-25T21:29:18.062004+00:00",
       "status": "ok-no-structured-event",
       "eventsFound": 0,
       "pagesChecked": 7
@@ -335,7 +336,7 @@
     {
       "organizationId": "die-bruecke-medien-kulturelles-podium",
       "source": "https://www.radiohu.hu/",
-      "checkedAt": "2026-09-25T21:07:15.832811+00:00",
+      "checkedAt": "2026-09-25T21:30:39.932864+00:00",
       "status": "ok-no-structured-event",
       "eventsFound": 0,
       "pagesChecked": 1
@@ -343,7 +344,7 @@
     {
       "organizationId": "egy-sima-egy-forditott",
       "source": "https://volksgruppen.orf.at/magyarok/stories/3352222/",
-      "checkedAt": "2026-09-25T21:05:26.353790+00:00",
+      "checkedAt": "2026-09-25T21:28:58.783474+00:00",
       "status": "ok-no-structured-event",
       "eventsFound": 0,
       "pagesChecked": 2
@@ -351,7 +352,7 @@
     {
       "organizationId": "eszak-burgenlandi",
       "source": "https://www.facebook.com/%C3%89szak-burgenlandi-Magyar-Kultur%C3%A1lis-Egyes%C3%BClet-110216087363944/",
-      "checkedAt": "2026-09-25T21:06:47.038138+00:00",
+      "checkedAt": "2026-09-25T21:30:01.881636+00:00",
       "status": "ok-no-structured-event",
       "eventsFound": 0,
       "pagesChecked": 1
@@ -359,7 +360,7 @@
     {
       "organizationId": "europa-club",
       "source": "https://europaclub.at/",
-      "checkedAt": "2026-09-25T21:05:45.449186+00:00",
+      "checkedAt": "2026-09-25T21:29:16.853955+00:00",
       "status": "error",
       "eventsFound": 0,
       "pagesChecked": 0,
@@ -368,7 +369,7 @@
     {
       "organizationId": "evangelikus-gyulekezet",
       "source": "https://www.evangelikus-at.com/",
-      "checkedAt": "2026-09-25T21:06:02.472870+00:00",
+      "checkedAt": "2026-09-25T21:29:26.084226+00:00",
       "status": "ok-no-structured-event",
       "eventsFound": 0,
       "pagesChecked": 1
@@ -376,7 +377,7 @@
     {
       "organizationId": "fecske-klub",
       "source": "https://fecskeklub.at/",
-      "checkedAt": "2026-09-25T21:05:33.601701+00:00",
+      "checkedAt": "2026-09-25T21:29:03.121983+00:00",
       "status": "ok-no-structured-event",
       "eventsFound": 0,
       "pagesChecked": 4
@@ -384,7 +385,7 @@
     {
       "organizationId": "fecske-klub",
       "source": "https://www.magyariskola.at/event-details/fecskeklub-2026",
-      "checkedAt": "2026-09-25T21:05:33.855210+00:00",
+      "checkedAt": "2026-09-25T21:29:05.749893+00:00",
       "status": "ok-no-structured-event",
       "eventsFound": 0,
       "pagesChecked": 5
@@ -392,15 +393,16 @@
     {
       "organizationId": "felsoori-katolikus",
       "source": "https://www.martinus.at/pfarre/1122/kalender",
-      "checkedAt": "2026-09-25T21:06:47.538054+00:00",
-      "status": "ok-no-structured-event",
+      "checkedAt": "2026-09-25T21:30:02.142578+00:00",
+      "status": "error",
       "eventsFound": 0,
-      "pagesChecked": 3
+      "pagesChecked": 0,
+      "error": "<urlopen error timed out>"
     },
     {
       "organizationId": "felsoori-reformatus",
       "source": "https://www.die-reformierten.at/",
-      "checkedAt": "2026-09-25T21:06:48.026885+00:00",
+      "checkedAt": "2026-09-25T21:30:02.733441+00:00",
       "status": "ok-no-structured-event",
       "eventsFound": 0,
       "pagesChecked": 2
@@ -408,7 +410,7 @@
     {
       "organizationId": "femconnect-graz",
       "source": "https://femconnectgraz.at/events/",
-      "checkedAt": "2026-09-25T21:06:29.674719+00:00",
+      "checkedAt": "2026-09-25T21:29:49.347537+00:00",
       "status": "ok-events",
       "eventsFound": 8,
       "pagesChecked": 7
@@ -416,7 +418,7 @@
     {
       "organizationId": "femconnect-graz",
       "source": "https://femconnectgraz.at/graci-programok/",
-      "checkedAt": "2026-09-25T21:06:29.023097+00:00",
+      "checkedAt": "2026-09-25T21:29:46.579432+00:00",
       "status": "ok-events",
       "eventsFound": 4,
       "pagesChecked": 7
@@ -424,7 +426,7 @@
     {
       "organizationId": "gimi-svung",
       "source": "https://www.magyariskola.at/event-details/gimisvung-2026",
-      "checkedAt": "2026-09-25T21:05:19.651268+00:00",
+      "checkedAt": "2026-09-25T21:28:51.923043+00:00",
       "status": "ok-no-structured-event",
       "eventsFound": 0,
       "pagesChecked": 5
@@ -432,7 +434,7 @@
     {
       "organizationId": "graci-magyar-ujsag",
       "source": "https://www.meoek.at/",
-      "checkedAt": "2026-09-25T21:06:36.409959+00:00",
+      "checkedAt": "2026-09-25T21:29:52.441979+00:00",
       "status": "ok-no-structured-event",
       "eventsFound": 0,
       "pagesChecked": 2
@@ -440,7 +442,7 @@
     {
       "organizationId": "grazi-magyar-egyesulet",
       "source": "https://www.grazimagyaregyesuelet.at/",
-      "checkedAt": "2026-09-25T21:06:28.784392+00:00",
+      "checkedAt": "2026-09-25T21:29:45.871815+00:00",
       "status": "ok-no-structured-event",
       "eventsFound": 0,
       "pagesChecked": 2
@@ -448,7 +450,7 @@
     {
       "organizationId": "grazi-magyar-neptanc",
       "source": "https://www.grazimagyaregyesuelet.at/",
-      "checkedAt": "2026-09-25T21:07:14.196393+00:00",
+      "checkedAt": "2026-09-25T21:30:39.015075+00:00",
       "status": "ok-no-structured-event",
       "eventsFound": 0,
       "pagesChecked": 2
@@ -456,7 +458,7 @@
     {
       "organizationId": "hungaromedia",
       "source": "https://linktr.ee/hungaromedia",
-      "checkedAt": "2026-09-25T21:06:21.703378+00:00",
+      "checkedAt": "2026-09-25T21:29:40.239752+00:00",
       "status": "ok-no-structured-event",
       "eventsFound": 0,
       "pagesChecked": 1
@@ -464,7 +466,7 @@
     {
       "organizationId": "imeasz",
       "source": "https://imeasz.at/",
-      "checkedAt": "2026-09-25T21:06:45.201903+00:00",
+      "checkedAt": "2026-09-25T21:30:00.045450+00:00",
       "status": "ok-no-structured-event",
       "eventsFound": 0,
       "pagesChecked": 1
@@ -472,7 +474,7 @@
     {
       "organizationId": "imike",
       "source": "https://www.facebook.com/IMIKE2019UJKV/",
-      "checkedAt": "2026-09-25T21:06:44.767870+00:00",
+      "checkedAt": "2026-09-25T21:29:59.689080+00:00",
       "status": "ok-no-structured-event",
       "eventsFound": 0,
       "pagesChecked": 1
@@ -480,7 +482,7 @@
     {
       "organizationId": "imike",
       "source": "https://www.instagram.com/imike_ujkv/",
-      "checkedAt": "2026-09-25T21:06:45.109998+00:00",
+      "checkedAt": "2026-09-25T21:29:59.981697+00:00",
       "status": "ok-no-structured-event",
       "eventsFound": 0,
       "pagesChecked": 1
@@ -488,7 +490,7 @@
     {
       "organizationId": "irottko-sportegyesulet",
       "source": "http://www.geschriebensteinlauf.at",
-      "checkedAt": "2026-09-25T21:07:16.035157+00:00",
+      "checkedAt": "2026-09-25T21:30:40.163461+00:00",
       "status": "ok-no-structured-event",
       "eventsFound": 0,
       "pagesChecked": 1
@@ -496,7 +498,7 @@
     {
       "organizationId": "kalaka-club",
       "source": "https://kalaka-club.at/",
-      "checkedAt": "2026-09-25T21:05:26.529735+00:00",
+      "checkedAt": "2026-09-25T21:28:59.959092+00:00",
       "status": "ok-no-structured-event",
       "eventsFound": 0,
       "pagesChecked": 7
@@ -504,7 +506,7 @@
     {
       "organizationId": "katolikus-graz",
       "source": "https://www.grazimagyaregyesuelet.at/magyar-katolikus-k%C3%B6z%C3%B6ss%C3%A9g-magyar-evang%C3%A9likus-gy%C3%BClekezet/",
-      "checkedAt": "2026-09-25T21:06:37.150740+00:00",
+      "checkedAt": "2026-09-25T21:29:53.402945+00:00",
       "status": "ok-no-structured-event",
       "eventsFound": 0,
       "pagesChecked": 2
@@ -512,7 +514,7 @@
     {
       "organizationId": "katolikus-wien",
       "source": "https://katolikus.at/",
-      "checkedAt": "2026-09-25T21:06:06.935903+00:00",
+      "checkedAt": "2026-09-25T21:29:29.033617+00:00",
       "status": "ok-no-structured-event",
       "eventsFound": 0,
       "pagesChecked": 1
@@ -520,7 +522,7 @@
     {
       "organizationId": "kenderkoc-bmke",
       "source": "https://bukv.at/",
-      "checkedAt": "2026-09-25T21:07:02.671307+00:00",
+      "checkedAt": "2026-09-25T21:30:25.890789+00:00",
       "status": "ok-no-structured-event",
       "eventsFound": 0,
       "pagesChecked": 7
@@ -528,7 +530,7 @@
     {
       "organizationId": "kerekasztal",
       "source": "https://kerekasztal.at/",
-      "checkedAt": "2026-09-25T21:06:01.475857+00:00",
+      "checkedAt": "2026-09-25T21:29:24.697067+00:00",
       "status": "ok-events",
       "eventsFound": 2,
       "pagesChecked": 7
@@ -536,7 +538,7 @@
     {
       "organizationId": "kicsi-svung",
       "source": "https://www.magyariskola.at/event-details/kicsisvung-2026",
-      "checkedAt": "2026-09-25T21:05:18.549134+00:00",
+      "checkedAt": "2026-09-25T21:28:51.357187+00:00",
       "status": "ok-no-structured-event",
       "eventsFound": 0,
       "pagesChecked": 5
@@ -544,7 +546,7 @@
     {
       "organizationId": "kozep-burgenlandi",
       "source": "https://www.facebook.com/MittelburgenlaendischerUngarischerKulturverein/",
-      "checkedAt": "2026-09-25T21:06:21.122009+00:00",
+      "checkedAt": "2026-09-25T21:29:39.790655+00:00",
       "status": "ok-no-structured-event",
       "eventsFound": 0,
       "pagesChecked": 1
@@ -552,15 +554,15 @@
     {
       "organizationId": "kozponti-szovetseg",
       "source": "https://www.kozpontiszovetseg.at/",
-      "checkedAt": "2026-09-25T21:05:17.199961+00:00",
-      "status": "ok-events",
-      "eventsFound": 1,
-      "pagesChecked": 4
+      "checkedAt": "2026-09-25T21:28:50.523699+00:00",
+      "status": "ok-no-structured-event",
+      "eventsFound": 0,
+      "pagesChecked": 2
     },
     {
       "organizationId": "kultpult",
       "source": "https://kultpult.eu/",
-      "checkedAt": "2026-09-25T21:05:36.448760+00:00",
+      "checkedAt": "2026-09-25T21:29:08.387530+00:00",
       "status": "ok-no-structured-event",
       "eventsFound": 0,
       "pagesChecked": 3
@@ -568,7 +570,7 @@
     {
       "organizationId": "kultpult",
       "source": "https://kultpult.eu/category/programok/",
-      "checkedAt": "2026-09-25T21:05:36.842486+00:00",
+      "checkedAt": "2026-09-25T21:29:09.568474+00:00",
       "status": "ok-no-structured-event",
       "eventsFound": 0,
       "pagesChecked": 7
@@ -576,7 +578,7 @@
     {
       "organizationId": "kuwu",
       "source": "https://www.facebook.com/profile.php?id=100089555537895",
-      "checkedAt": "2026-09-25T21:06:08.010056+00:00",
+      "checkedAt": "2026-09-25T21:29:29.926864+00:00",
       "status": "ok-no-structured-event",
       "eventsFound": 0,
       "pagesChecked": 1
@@ -584,7 +586,7 @@
     {
       "organizationId": "lean-in-femspace",
       "source": "https://leaninfemspace.at/",
-      "checkedAt": "2026-09-25T21:05:17.200864+00:00",
+      "checkedAt": "2026-09-25T21:28:50.525011+00:00",
       "status": "ok-no-structured-event",
       "eventsFound": 0,
       "pagesChecked": 7
@@ -592,7 +594,7 @@
     {
       "organizationId": "linzi-magyar-gyermekkonyvtar",
       "source": "https://rolunk.at/kultura/az-olvasas-mint-kozos-nyelv-magyar-nyelvu-konyvtar-linzben/",
-      "checkedAt": "2026-09-25T21:06:22.737492+00:00",
+      "checkedAt": "2026-09-25T21:29:41.295145+00:00",
       "status": "ok-no-structured-event",
       "eventsFound": 0,
       "pagesChecked": 7
@@ -600,7 +602,7 @@
     {
       "organizationId": "macko-kucko-linz",
       "source": "https://www.facebook.com/groups/1283180622014969/",
-      "checkedAt": "2026-09-25T21:06:52.473253+00:00",
+      "checkedAt": "2026-09-25T21:30:06.437632+00:00",
       "status": "ok-no-structured-event",
       "eventsFound": 0,
       "pagesChecked": 1
@@ -608,7 +610,7 @@
     {
       "organizationId": "magyarhaz-innsbruck",
       "source": "https://magyarhaz.at/",
-      "checkedAt": "2026-09-25T21:06:44.273124+00:00",
+      "checkedAt": "2026-09-25T21:29:59.465038+00:00",
       "status": "ok-no-structured-event",
       "eventsFound": 0,
       "pagesChecked": 1
@@ -616,7 +618,7 @@
     {
       "organizationId": "mamut-musical",
       "source": "https://www.musicaltarsulat.at/",
-      "checkedAt": "2026-09-25T21:07:15.303265+00:00",
+      "checkedAt": "2026-09-25T21:30:39.739027+00:00",
       "status": "ok-no-structured-event",
       "eventsFound": 0,
       "pagesChecked": 1
@@ -624,7 +626,7 @@
     {
       "organizationId": "mamut-musical",
       "source": "https://www.musicaltarsulat.at/blog",
-      "checkedAt": "2026-09-25T21:07:15.385430+00:00",
+      "checkedAt": "2026-09-25T21:30:39.757675+00:00",
       "status": "ok-no-structured-event",
       "eventsFound": 0,
       "pagesChecked": 1
@@ -632,7 +634,7 @@
     {
       "organizationId": "mde-vus",
       "source": "https://mde.hu/at/",
-      "checkedAt": "2026-09-25T21:05:39.204035+00:00",
+      "checkedAt": "2026-09-25T21:29:10.324831+00:00",
       "status": "ok-no-structured-event",
       "eventsFound": 0,
       "pagesChecked": 3
@@ -640,7 +642,7 @@
     {
       "organizationId": "meok-graz",
       "source": "https://www.meoek.at/",
-      "checkedAt": "2026-09-25T21:06:36.372125+00:00",
+      "checkedAt": "2026-09-25T21:29:52.374268+00:00",
       "status": "ok-no-structured-event",
       "eventsFound": 0,
       "pagesChecked": 2
@@ -648,7 +650,7 @@
     {
       "organizationId": "meses-noi-kor-linz",
       "source": "https://kupfticket.com/en/events/boldizsar-ildiko",
-      "checkedAt": "2026-09-25T21:06:21.873452+00:00",
+      "checkedAt": "2026-09-25T21:29:40.365898+00:00",
       "status": "ok-no-structured-event",
       "eventsFound": 0,
       "pagesChecked": 1
@@ -656,7 +658,7 @@
     {
       "organizationId": "meses-noi-kor-linz",
       "source": "https://kupfticket.com/en/events/kadar-annamaria",
-      "checkedAt": "2026-09-25T21:06:22.545644+00:00",
+      "checkedAt": "2026-09-25T21:29:40.874071+00:00",
       "status": "ok-no-structured-event",
       "eventsFound": 0,
       "pagesChecked": 1
@@ -664,7 +666,7 @@
     {
       "organizationId": "mime-vorarlberg",
       "source": "https://www.facebook.com/profile.php?id=61550875215206",
-      "checkedAt": "2026-09-25T21:06:46.394125+00:00",
+      "checkedAt": "2026-09-25T21:30:00.966354+00:00",
       "status": "ok-no-structured-event",
       "eventsFound": 0,
       "pagesChecked": 1
@@ -672,7 +674,7 @@
     {
       "organizationId": "napraforgocskak",
       "source": "https://www.magyariskola.at/event-details/napraforgocskak-2026",
-      "checkedAt": "2026-09-25T21:05:28.431426+00:00",
+      "checkedAt": "2026-09-25T21:29:00.529704+00:00",
       "status": "ok-no-structured-event",
       "eventsFound": 0,
       "pagesChecked": 5
@@ -680,7 +682,7 @@
     {
       "organizationId": "napraforgocskak",
       "source": "https://www.napraforgok.at/",
-      "checkedAt": "2026-09-25T21:05:28.299105+00:00",
+      "checkedAt": "2026-09-25T21:29:00.416728+00:00",
       "status": "ok-no-structured-event",
       "eventsFound": 0,
       "pagesChecked": 1
@@ -688,7 +690,7 @@
     {
       "organizationId": "napraforgok",
       "source": "https://www.napraforgok.at/",
-      "checkedAt": "2026-09-25T21:05:28.065229+00:00",
+      "checkedAt": "2026-09-25T21:29:00.221361+00:00",
       "status": "ok-no-structured-event",
       "eventsFound": 0,
       "pagesChecked": 1
@@ -696,7 +698,7 @@
     {
       "organizationId": "ne-felejts",
       "source": "https://ne-felejts.weebly.com/events",
-      "checkedAt": "2026-09-25T21:06:27.038487+00:00",
+      "checkedAt": "2026-09-25T21:29:44.501242+00:00",
       "status": "ok-no-structured-event",
       "eventsFound": 0,
       "pagesChecked": 7
@@ -704,7 +706,7 @@
     {
       "organizationId": "ne-felejts-gyermek",
       "source": "https://ne-felejts.weebly.com/events",
-      "checkedAt": "2026-09-25T21:06:27.385866+00:00",
+      "checkedAt": "2026-09-25T21:29:45.128548+00:00",
       "status": "ok-no-structured-event",
       "eventsFound": 0,
       "pagesChecked": 7
@@ -712,7 +714,7 @@
     {
       "organizationId": "noi-kor-wels",
       "source": "https://www.facebook.com/profile.php?id=61555536511644",
-      "checkedAt": "2026-09-25T21:06:52.796901+00:00",
+      "checkedAt": "2026-09-25T21:30:06.688246+00:00",
       "status": "ok-no-structured-event",
       "eventsFound": 0,
       "pagesChecked": 1
@@ -720,7 +722,7 @@
     {
       "organizationId": "oeius",
       "source": "https://www.oeius.at/hu/veranstaltungen",
-      "checkedAt": "2026-09-25T21:05:17.200482+00:00",
+      "checkedAt": "2026-09-25T21:28:50.524440+00:00",
       "status": "ok-no-structured-event",
       "eventsFound": 0,
       "pagesChecked": 3
@@ -728,7 +730,7 @@
     {
       "organizationId": "orf-magyarok",
       "source": "https://volksgruppen.orf.at/magyarok/",
-      "checkedAt": "2026-09-25T21:06:18.726374+00:00",
+      "checkedAt": "2026-09-25T21:29:37.126351+00:00",
       "status": "ok-no-structured-event",
       "eventsFound": 0,
       "pagesChecked": 2
@@ -736,7 +738,7 @@
     {
       "organizationId": "ori-banda",
       "source": "https://vhs-ungarn.at/",
-      "checkedAt": "2026-09-25T21:06:11.562384+00:00",
+      "checkedAt": "2026-09-25T21:29:32.911693+00:00",
       "status": "ok-no-structured-event",
       "eventsFound": 0,
       "pagesChecked": 4
@@ -744,7 +746,7 @@
     {
       "organizationId": "ori-banda",
       "source": "https://www.vhs-burgenland.at/",
-      "checkedAt": "2026-09-25T21:06:12.774444+00:00",
+      "checkedAt": "2026-09-25T21:29:33.577894+00:00",
       "status": "ok-no-structured-event",
       "eventsFound": 0,
       "pagesChecked": 7
@@ -752,7 +754,7 @@
     {
       "organizationId": "ori-banda-nepdalkor",
       "source": "https://vhs-ungarn.at/",
-      "checkedAt": "2026-09-25T21:06:16.856585+00:00",
+      "checkedAt": "2026-09-25T21:29:36.178464+00:00",
       "status": "ok-no-structured-event",
       "eventsFound": 0,
       "pagesChecked": 4
@@ -760,7 +762,7 @@
     {
       "organizationId": "oriszigeti-evangelikus",
       "source": "https://evang.at/adressen/siget-in-der-wart/",
-      "checkedAt": "2026-09-25T21:06:50.350601+00:00",
+      "checkedAt": "2026-09-25T21:30:04.954460+00:00",
       "status": "ok-no-structured-event",
       "eventsFound": 0,
       "pagesChecked": 1
@@ -768,7 +770,7 @@
     {
       "organizationId": "oriszigeti-neptanc",
       "source": "https://bukv.at/",
-      "checkedAt": "2026-09-25T21:07:04.322614+00:00",
+      "checkedAt": "2026-09-25T21:30:26.320957+00:00",
       "status": "ok-no-structured-event",
       "eventsFound": 0,
       "pagesChecked": 7
@@ -776,7 +778,7 @@
     {
       "organizationId": "orok-fiatalok-klubja",
       "source": "https://volksgruppen.orf.at/magyarok/stories/3340511/",
-      "checkedAt": "2026-09-25T21:06:24.902828+00:00",
+      "checkedAt": "2026-09-25T21:29:42.756187+00:00",
       "status": "ok-no-structured-event",
       "eventsFound": 0,
       "pagesChecked": 2
@@ -784,7 +786,7 @@
     {
       "organizationId": "osztrak-magyar-tarsasag",
       "source": "https://goeu.at/",
-      "checkedAt": "2026-09-25T21:06:01.734875+00:00",
+      "checkedAt": "2026-09-25T21:29:24.946495+00:00",
       "status": "ok-no-structured-event",
       "eventsFound": 0,
       "pagesChecked": 1
@@ -792,7 +794,7 @@
     {
       "organizationId": "programapik",
       "source": "https://www.facebook.com/groups/485905963955994/",
-      "checkedAt": "2026-09-25T21:06:52.092939+00:00",
+      "checkedAt": "2026-09-25T21:30:06.168302+00:00",
       "status": "ok-no-structured-event",
       "eventsFound": 0,
       "pagesChecked": 1
@@ -800,7 +802,7 @@
     {
       "organizationId": "radiohu",
       "source": "https://www.radiohu.hu/",
-      "checkedAt": "2026-09-25T21:07:15.911678+00:00",
+      "checkedAt": "2026-09-25T21:30:39.949674+00:00",
       "status": "ok-no-structured-event",
       "eventsFound": 0,
       "pagesChecked": 1
@@ -808,7 +810,7 @@
     {
       "organizationId": "reformatus-ifjusagi-olvasokor",
       "source": "https://www.facebook.com/Fels%C5%91%C5%91ri-Reform%C3%A1tus-Ifj%C3%BAs%C3%A1gi-Olvas%C3%B3k%C3%B6r-421949981307391/",
-      "checkedAt": "2026-09-25T21:06:50.945046+00:00",
+      "checkedAt": "2026-09-25T21:30:05.176450+00:00",
       "status": "ok-no-structured-event",
       "eventsFound": 0,
       "pagesChecked": 1
@@ -816,7 +818,7 @@
     {
       "organizationId": "reformatus-olvasokor-szinjatszo",
       "source": "https://volksgruppen.orf.at/magyarok/",
-      "checkedAt": "2026-09-25T21:06:51.264403+00:00",
+      "checkedAt": "2026-09-25T21:30:05.460890+00:00",
       "status": "ok-no-structured-event",
       "eventsFound": 0,
       "pagesChecked": 2
@@ -824,7 +826,7 @@
     {
       "organizationId": "reformatus-szolgalat",
       "source": "https://www.reformatus.at/",
-      "checkedAt": "2026-09-25T21:06:02.709674+00:00",
+      "checkedAt": "2026-09-25T21:29:26.239455+00:00",
       "status": "ok-no-structured-event",
       "eventsFound": 0,
       "pagesChecked": 2
@@ -832,7 +834,7 @@
     {
       "organizationId": "reformatus-szolgalat",
       "source": "https://www.reformatus.at/events/2026/",
-      "checkedAt": "2026-09-25T21:06:04.950887+00:00",
+      "checkedAt": "2026-09-25T21:29:27.880758+00:00",
       "status": "ok-no-structured-event",
       "eventsFound": 0,
       "pagesChecked": 7
@@ -840,7 +842,7 @@
     {
       "organizationId": "rezsarkantyu-citera",
       "source": "https://www.delibab-becs.com/",
-      "checkedAt": "2026-09-25T21:05:50.824383+00:00",
+      "checkedAt": "2026-09-25T21:29:20.877760+00:00",
       "status": "ok-no-structured-event",
       "eventsFound": 0,
       "pagesChecked": 2
@@ -848,7 +850,7 @@
     {
       "organizationId": "rezsarkantyu-citera",
       "source": "https://www.wukv.at/category/zenekar/",
-      "checkedAt": "2026-09-25T21:05:53.050864+00:00",
+      "checkedAt": "2026-09-25T21:29:22.703440+00:00",
       "status": "ok-no-structured-event",
       "eventsFound": 0,
       "pagesChecked": 5
@@ -856,7 +858,7 @@
     {
       "organizationId": "rolunk-at",
       "source": "https://rolunk.at/",
-      "checkedAt": "2026-09-25T21:06:55.889075+00:00",
+      "checkedAt": "2026-09-25T21:30:12.994932+00:00",
       "status": "ok-no-structured-event",
       "eventsFound": 0,
       "pagesChecked": 7
@@ -864,7 +866,7 @@
     {
       "organizationId": "roppenj-pengeto",
       "source": "https://www.delibab-becs.com/",
-      "checkedAt": "2026-09-25T21:05:59.213856+00:00",
+      "checkedAt": "2026-09-25T21:29:23.023823+00:00",
       "status": "ok-no-structured-event",
       "eventsFound": 0,
       "pagesChecked": 2
@@ -872,7 +874,7 @@
     {
       "organizationId": "salzburgi-neptanc",
       "source": "https://salzung.com/hu/",
-      "checkedAt": "2026-09-25T21:06:44.198505+00:00",
+      "checkedAt": "2026-09-25T21:29:59.294996+00:00",
       "status": "ok-no-structured-event",
       "eventsFound": 0,
       "pagesChecked": 6
@@ -880,7 +882,7 @@
     {
       "organizationId": "salzburgi-neptanc",
       "source": "https://www.facebook.com/Salzburgi.Magyar.Neptancegyuttes/",
-      "checkedAt": "2026-09-25T21:06:44.243460+00:00",
+      "checkedAt": "2026-09-25T21:29:59.301595+00:00",
       "status": "ok-no-structured-event",
       "eventsFound": 0,
       "pagesChecked": 1
@@ -888,7 +890,7 @@
     {
       "organizationId": "salzung",
       "source": "https://www.salzung.com/hu",
-      "checkedAt": "2026-09-25T21:06:38.008956+00:00",
+      "checkedAt": "2026-09-25T21:29:53.807550+00:00",
       "status": "ok-no-structured-event",
       "eventsFound": 0,
       "pagesChecked": 6
@@ -896,7 +898,7 @@
     {
       "organizationId": "salzung-brumi-ovi",
       "source": "https://salzung.com/hu/esemenyek/esemeny-blog",
-      "checkedAt": "2026-09-25T21:06:38.330243+00:00",
+      "checkedAt": "2026-09-25T21:29:54.120655+00:00",
       "status": "ok-no-structured-event",
       "eventsFound": 0,
       "pagesChecked": 6
@@ -904,7 +906,7 @@
     {
       "organizationId": "salzung-minikonyvtar",
       "source": "https://www.salzung.com/hu",
-      "checkedAt": "2026-09-25T21:06:38.212161+00:00",
+      "checkedAt": "2026-09-25T21:29:53.828086+00:00",
       "status": "ok-no-structured-event",
       "eventsFound": 0,
       "pagesChecked": 6
@@ -912,7 +914,7 @@
     {
       "organizationId": "salzung-pitypang-suli",
       "source": "https://salzung.com/hu/projektek/oktatas",
-      "checkedAt": "2026-09-25T21:06:39.159482+00:00",
+      "checkedAt": "2026-09-25T21:29:54.441388+00:00",
       "status": "ok-no-structured-event",
       "eventsFound": 0,
       "pagesChecked": 6
@@ -920,7 +922,7 @@
     {
       "organizationId": "sunido-linz-steyr",
       "source": "https://www.facebook.com/groups/610893464159214/",
-      "checkedAt": "2026-09-25T21:06:52.970998+00:00",
+      "checkedAt": "2026-09-25T21:30:07.161293+00:00",
       "status": "ok-no-structured-event",
       "eventsFound": 0,
       "pagesChecked": 1
@@ -928,7 +930,7 @@
     {
       "organizationId": "svung",
       "source": "https://shop.svung.at/",
-      "checkedAt": "2026-09-25T21:05:18.006235+00:00",
+      "checkedAt": "2026-09-25T21:28:50.928353+00:00",
       "status": "ok-no-structured-event",
       "eventsFound": 0,
       "pagesChecked": 1
@@ -936,7 +938,7 @@
     {
       "organizationId": "svung",
       "source": "https://svung.at/",
-      "checkedAt": "2026-09-25T21:05:17.201285+00:00",
+      "checkedAt": "2026-09-25T21:28:50.525508+00:00",
       "status": "ok-no-structured-event",
       "eventsFound": 0,
       "pagesChecked": 1
@@ -944,7 +946,7 @@
     {
       "organizationId": "szelforgok-nepzene",
       "source": "https://bukv.at/",
-      "checkedAt": "2026-09-25T21:07:08.471581+00:00",
+      "checkedAt": "2026-09-25T21:30:30.537833+00:00",
       "status": "ok-no-structured-event",
       "eventsFound": 0,
       "pagesChecked": 7
@@ -952,7 +954,7 @@
     {
       "organizationId": "szivarvany-gyermektanc",
       "source": "https://www.delibab-becs.com/",
-      "checkedAt": "2026-09-25T21:05:48.617441+00:00",
+      "checkedAt": "2026-09-25T21:29:19.097076+00:00",
       "status": "ok-no-structured-event",
       "eventsFound": 0,
       "pagesChecked": 2
@@ -960,7 +962,7 @@
     {
       "organizationId": "szivarvany-gyermektanc",
       "source": "https://www.wukv.at/category/gyermektanc/",
-      "checkedAt": "2026-09-25T21:05:48.520034+00:00",
+      "checkedAt": "2026-09-25T21:29:18.626751+00:00",
       "status": "ok-no-structured-event",
       "eventsFound": 0,
       "pagesChecked": 5
@@ -968,7 +970,7 @@
     {
       "organizationId": "umiz",
       "source": "https://umiz.at/",
-      "checkedAt": "2026-09-25T21:06:16.867070+00:00",
+      "checkedAt": "2026-09-25T21:29:36.900662+00:00",
       "status": "ok-no-structured-event",
       "eventsFound": 0,
       "pagesChecked": 2
@@ -976,7 +978,7 @@
     {
       "organizationId": "vhs-burgenland",
       "source": "https://vhs-ungarn.at/",
-      "checkedAt": "2026-09-25T21:06:11.532265+00:00",
+      "checkedAt": "2026-09-25T21:29:31.508636+00:00",
       "status": "ok-no-structured-event",
       "eventsFound": 0,
       "pagesChecked": 4
@@ -984,7 +986,7 @@
     {
       "organizationId": "vipach",
       "source": "https://www.vipach.at/",
-      "checkedAt": "2026-09-25T21:07:15.265923+00:00",
+      "checkedAt": "2026-09-25T21:30:39.672690+00:00",
       "status": "error",
       "eventsFound": 0,
       "pagesChecked": 0,
@@ -993,7 +995,7 @@
     {
       "organizationId": "vipach",
       "source": "https://www.vipach.at/fotokiallitasok",
-      "checkedAt": "2026-09-25T21:07:14.978565+00:00",
+      "checkedAt": "2026-09-25T21:30:39.562138+00:00",
       "status": "error",
       "eventsFound": 0,
       "pagesChecked": 0,
@@ -1002,7 +1004,7 @@
     {
       "organizationId": "virgonc-gyermek",
       "source": "https://bukv.at/",
-      "checkedAt": "2026-09-25T21:07:02.569966+00:00",
+      "checkedAt": "2026-09-25T21:30:21.157413+00:00",
       "status": "ok-no-structured-event",
       "eventsFound": 0,
       "pagesChecked": 7
@@ -1010,7 +1012,7 @@
     {
       "organizationId": "virgonc-unterwart",
       "source": "https://bukv.at/",
-      "checkedAt": "2026-09-25T21:07:02.512023+00:00",
+      "checkedAt": "2026-09-25T21:30:20.981015+00:00",
       "status": "ok-no-structured-event",
       "eventsFound": 0,
       "pagesChecked": 7
@@ -1018,7 +1020,7 @@
     {
       "organizationId": "warter-fantasie",
       "source": "https://bukv.at/",
-      "checkedAt": "2026-09-25T21:07:09.907488+00:00",
+      "checkedAt": "2026-09-25T21:30:35.302719+00:00",
       "status": "ok-no-structured-event",
       "eventsFound": 0,
       "pagesChecked": 7
@@ -1026,7 +1028,7 @@
     {
       "organizationId": "wels-hetvegi-iskola",
       "source": "https://www.facebook.com/profile.php?id=100057286665201",
-      "checkedAt": "2026-09-25T21:06:26.549646+00:00",
+      "checkedAt": "2026-09-25T21:29:44.107338+00:00",
       "status": "ok-no-structured-event",
       "eventsFound": 0,
       "pagesChecked": 1
