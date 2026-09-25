@@ -23,6 +23,7 @@ org_by_id={x["id"]:x for x in orgs}
 education=EDU.get("institutions",[])
 events=EV.get("events",[])
 categories=ORG.get("categoryDefinitions",[])
+DATA_MODIFIED=max(str(x or "")[:10] for x in (ORG.get("updated"),EDU.get("updated"),EV.get("updated")) if x)
 
 PUBLISHER={
   "@type":"Organization",
@@ -94,7 +95,7 @@ for e in events:
     offer=offer_schema(e)
     if offer: schema_event["offers"]=offer
     schema={"@context":"https://schema.org","@graph":[
-      {"@type":"WebPage","@id":url+"#page","url":url,"name":e.get("name"),"inLanguage":"hu-AT","mainEntity":{"@id":url+"#event"},"isPartOf":{"@id":BASE+"/#website"},"publisher":{"@id":BASE+"/#publisher"}},
+      {"@type":"WebPage","@id":url+"#page","url":url,"name":e.get("name"),"inLanguage":"hu-AT","mainEntity":{"@id":url+"#event"},"isPartOf":{"@id":BASE+"/#website"},"publisher":{"@id":BASE+"/#publisher"},**({"dateModified":str(e.get("verifiedAt"))[:10]} if e.get("verifiedAt") else {})},
       schema_event,
       PUBLISHER,
       {"@type":"BreadcrumbList","itemListElement":[
@@ -160,7 +161,7 @@ entity={
  "@graph":[
    {"@type":"WebSite","@id":BASE+"/#website","name":"Magyar Programok Ausztriában","url":BASE+"/","inLanguage":"hu-AT","publisher":{"@id":BASE+"/#publisher"}},
    PUBLISHER,
-   {"@type":"Dataset","@id":BASE+"/#dataset","name":"Ausztriai magyar szervezetek, oktatás és programok","description":"Forrásalapú országos adatbázis az Ausztriában működő magyar közösségekről, oktatási helyekről és nyilvános eseményekről.","url":BASE+"/","inLanguage":"hu-AT","creator":{"@id":BASE+"/#publisher"},"license":BASE+"/forrasok.html",
+   {"@type":"Dataset","@id":BASE+"/#dataset","name":"Ausztriai magyar szervezetek, oktatás és programok","description":"Forrásalapú országos adatbázis az Ausztriában működő magyar közösségekről, oktatási helyekről és nyilvános eseményekről.","url":BASE+"/","inLanguage":"hu-AT","creator":{"@id":BASE+"/#publisher"},"license":BASE+"/forrasok.html","dateModified":DATA_MODIFIED,"spatialCoverage":{"@type":"Country","name":"Austria"},"keywords":["ausztriai magyarok","magyar szervezetek Ausztriában","magyar programok Ausztriában","magyar oktatás Ausztriában","diaszpóra"],
     "distribution":[
       {"@type":"DataDownload","encodingFormat":"application/json","contentUrl":BASE+"/data/organizations.json"},
       {"@type":"DataDownload","encodingFormat":"application/json","contentUrl":BASE+"/data/education.json"},
@@ -199,13 +200,13 @@ quality_url=BASE+"/adatminoseg.html"
 quality_desc="A DORAPP forrás-, frissességi és adatminőségi státuszának nyilvános, géppel is értelmezhető összefoglalója."
 quality_schema={"@context":"https://schema.org","@graph":[
   {"@type":"WebPage","@id":quality_url+"#page","url":quality_url,"name":"DORAPP adatminőség és transzparencia","description":quality_desc,"inLanguage":"hu-AT","isPartOf":{"@id":BASE+"/#website"},"publisher":{"@id":BASE+"/#publisher"}},
-  {"@type":"DataCatalog","@id":quality_url+"#catalog","name":"DORAPP – Ausztriai magyar közösségi adatbázis","url":BASE+"/","description":quality_desc,"provider":{"@id":BASE+"/#publisher"},"dataset":{"@id":BASE+"/#dataset"}},
+  {"@type":"DataCatalog","@id":quality_url+"#catalog","name":"DORAPP – Ausztriai magyar közösségi adatbázis","url":BASE+"/","description":quality_desc,"provider":{"@id":BASE+"/#publisher"},"dataset":{"@id":BASE+"/#dataset"},"dateModified":DATA_MODIFIED},
   PUBLISHER
 ]}
 event_rows="".join(f'<li><strong>{esc(k)}</strong>: {v}</li>' for k,v in sorted(event_health.items()))
 edu_rows="".join(f'<li><strong>{esc(k)}</strong>: {v}</li>' for k,v in sorted(edu_health.items()))
 quality_body=f'''<section class="hero"><div class="wrap"><div class="eyebrow">Transzparencia · E‑E‑A‑T · AI Trust</div><h1>Adatminőség és frissesség.</h1><p class="lead">{esc(quality_desc)}</p></div></section>
-<section class="section"><div class="wrap trust-grid"><div><h2>Aktuális lefedettség</h2></div><div><p><strong>{len(orgs)}</strong> szervezet és közösség<br><strong>{len(education)}</strong> oktatási rekord<br><strong>{len(events)}</strong> megtartott, forrással rendelkező esemény<br><strong>{len(states)}</strong> osztrák tartomány</p><p>Szervezeti adat frissítve: {esc(ORG.get("updated"))}<br>Oktatási adat frissítve: {esc(EDU.get("updated"))}<br>Eseményadat frissítve: {esc(EV.get("updated"))}</p></div></div></section>
+<section class="section"><div class="wrap trust-grid"><div><h2>Aktuális lefedettség</h2></div><div><p><strong>{len(orgs)}</strong> szervezet és közösség<br><strong>{len(education)}</strong> oktatási rekord<br><strong>{len(events)}</strong> nyilvántartott, forrással rendelkező esemény<br><strong>{len(states)}</strong> osztrák tartomány</p><p>Szervezeti adat frissítve: {esc(ORG.get("updated"))}<br>Oktatási adat frissítve: {esc(EDU.get("updated"))}<br>Eseményadat frissítve: {esc(EV.get("updated"))}</p></div></div></section>
 <section class="section muted"><div class="wrap trust-grid"><div><h2>Eseményforrás-audit</h2></div><div><ul class="source-list">{event_rows}</ul><p>A technikai hiba nem jelenti automatikusan azt, hogy a forrás vagy a szervezet megszűnt. 403/429, TLS-, DNS- és timeout-hibát külön technikai állapotként kezelünk.</p></div></div></section>
 <section class="section"><div class="wrap trust-grid"><div><h2>Oktatási webaudit</h2></div><div><ul class="source-list">{edu_rows}</ul><p>A saját honlapon nem talált kulcsszó nem írja felül az intézményi, hatósági vagy közszolgálati forrásból igazolt magyar oktatást.</p></div></div></section>
 <section class="section muted"><div class="wrap trust-grid"><div><h2>Szerkesztési elv</h2></div><div><p>Hiányzó történeti, tagsági, kapcsolati vagy eseményadatot nem következtetünk. A strukturált profilmezők steward‑ellenőrzéssel, forrás alapján bővülnek; az automata esemény- és sajtófelderítés nem írhatja felül ezeket.</p><p><a href="forrasok.html">Teljes módszertan →</a><br><a href="mailto:marketing@kozpontiszovetseg.at">Hibajelentés / korrekció →</a></p></div></div></section>'''
