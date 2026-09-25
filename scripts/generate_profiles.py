@@ -19,9 +19,10 @@ def esc(v): return html.escape(str(v or ""),quote=True)
 
 for o in db["organizations"]:
     social=[]
+    primary_link = next((o.get(key) for key in ("website","facebook","instagram") if o.get(key)), None)
     for label,key in [("Hivatalos weboldal","website"),("Facebook","facebook"),("Instagram","instagram")]:
         if o.get(key):
-            social.append(f'<a class="btn{" primary" if key=="website" else ""}" href="{esc(o[key])}" target="_blank" rel="noopener external">{label} ↗</a>')
+            social.append(f'<a class="btn{" primary" if o[key] == primary_link else ""}" href="{esc(o[key])}" target="_blank" rel="noopener external">{label} ↗</a>')
     national_role=o.get("nationalRole") or None
     national_role_html=(f'<a class="membership" href="{esc(national_role.get("sourceUrl"))}" target="_blank" rel="noopener external"><span>Országos szerep</span><strong>{esc(national_role.get("label"))}</strong></a><p>{esc(national_role.get("description"))}</p>') if national_role else ""
     service_locations=o.get("serviceLocations") or []
@@ -55,7 +56,7 @@ for o in db["organizations"]:
     schema={"@context":"https://schema.org","@graph":[
       {"@type":"ProfilePage","name":o["name"]+" | Magyar Programok Ausztriában","url":f"{BASE_URL}/szervezetek/{o['id']}.html","inLanguage":"hu-AT","mainEntity":{"@id":"#organization"}},
       {"@type":"Organization","@id":"#organization","name":o["name"],"description":o["intro"],
-       "url":o.get("website"),"sameAs":[x for x in [o.get("website"),o.get("facebook"),o.get("instagram")] if x],
+       "url":primary_link,"sameAs":[x for x in [o.get("website"),o.get("facebook"),o.get("instagram")] if x],
        "areaServed":{"@type":"AdministrativeArea","name":states.get(o["state"],o["state"])},
        "location":{"@type":"Place","address":{"@type":"PostalAddress","addressLocality":o["city"],"addressCountry":"AT"}}}
     ]}
