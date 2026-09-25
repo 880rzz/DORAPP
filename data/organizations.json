@@ -1920,7 +1920,7 @@
       "state": "wien",
       "city": "Wien",
       "type": "egyházi közösség",
-      "intro": "Magyar nyelvű katolikus liturgiát, családi és közösségi alkalmakat szervező közösség Bécsben és több alsó-ausztriai helyszínen.",
+      "intro": "A Bécsi Főegyházmegye Magyar Közössége a Bécsi Érsekség hivatalos magyar nyelvű pasztorális szolgálata. Nem önálló plébánia, hanem az Idegen nyelvű közösségek referátusához tartozó közösség, amely magyar nyelvű szentmiséket, szentségi felkészítést, lelkipásztori és családi-közösségi programokat biztosít.",
       "website": "https://katolikus.at/",
       "facebook": null,
       "instagram": null,
@@ -1941,7 +1941,7 @@
       ],
       "evidenceSources": [
         {
-          "label": "Bécsi Főegyházmegye Magyar Közössége – hivatalos oldal",
+          "label": "Bécsi Főegyházmegye Magyar Közössége – hivatalos oldal és szervezeti forma",
           "url": "https://katolikus.at/",
           "type": "official"
         }
@@ -1969,7 +1969,29 @@
       ],
       "categories": [
         "egyhaz"
-      ]
+      ],
+      "activities": [
+        "magyar nyelvű vasárnapi és ünnepi szentmisék",
+        "elsőáldozási és bérmálási felkészítés",
+        "keresztelési és házassági ügyintézés támogatása",
+        "gyóntatás és lelkipásztori szolgálat",
+        "liturgikus szkóla és egyházzenei szolgálat",
+        "családi, senior és közösségi alkalmak",
+        "magyar katolikus közösségi élet Badenben és Wiener Neustadtban is"
+      ],
+      "targetGroups": [
+        "a Bécsi Főegyházmegye területén élő magyar ajkú katolikusok",
+        "magyar családok és gyermekek",
+        "szentségi felkészítésre jelentkezők",
+        "magyar nyelvű katolikus közösséget keresők"
+      ],
+      "languages": [
+        "magyar",
+        "német"
+      ],
+      "email": "info@katolikus.at",
+      "phone": "+43 676 78 57 376",
+      "profileVerifiedAt": "2026-09-25"
     },
     {
       "id": "kuwu",
@@ -1977,7 +1999,7 @@
       "state": "niederoesterreich",
       "city": "Wiener Neustadt",
       "type": "kulturális közösség",
-      "intro": "Bécsújhely és környéke magyar családjait összekapcsoló egyesület kulturális, családi és közösségi rendezvényekkel.",
+      "intro": "A 2023. március 25-én megalakult KUWU – Bécsújhely és környéki Magyarok Kulturális Egyesülete a Wiener Neustadtban és környékén élő magyarokat kapcsolja össze. Célja a magyar nyelv és kulturális örökség megőrzése, a helyi közösségépítés, a kölcsönös segítség és az ausztriai integráció támogatása.",
       "website": null,
       "facebook": "https://www.facebook.com/profile.php?id=100089555537895",
       "instagram": null,
@@ -2011,7 +2033,45 @@
       "categories": [
         "kultura",
         "kozosseg"
-      ]
+      ],
+      "founded": "2023-03-25",
+      "history": {
+        "summary": "A KUWU 2023. március 25-én alakult meg Bécsújhelyen tíz alapító taggal, a város első magyar kultúregyesületeként. A szervezet egy korábban már működő helyi magyar Facebook-közösségre és informális kapcsolati hálóra épült. A kezdetektől az anyanyelv, a kulturális örökség és az identitás megőrzését az integráció, a kölcsönös segítség és a többgenerációs közösségépítés céljaival kapcsolja össze.",
+        "milestones": [
+          {
+            "date": "2023-03-25",
+            "title": "Megalakulás Bécsújhelyen",
+            "description": "Tíz alapító taggal létrejön a Kulturverein der Ungarn in Wiener Neustadt und Umgebung – Bécsújhely és környéki Magyarok Kulturális Egyesülete.",
+            "sourceUrl": "https://volksgruppen.orf.at/magyarok/stories/3200356/"
+          },
+          {
+            "year": "2023",
+            "title": "Az első közösségi programok és gyors bővülés",
+            "description": "Az első hónapokban családi rendezvények, kirándulások, tanácsadó alkalmak és közösségi programok indultak; a szervezethez rövid idő alatt több százan jelezték csatlakozási szándékukat.",
+            "sourceUrl": "https://rolunk.at/nepcsoportunk/kuwu-avagy-a-legfiatalabb-ausztriai-magyar-egyesulet/"
+          }
+        ]
+      },
+      "activities": [
+        "magyar kulturális és családi rendezvények",
+        "közösségi találkozók, kirándulások és városi programok",
+        "magyar nyelv és kulturális örökség ápolása",
+        "integrációt és helyi tájékozódást segítő információs és tanácsadó alkalmak",
+        "gyermek- és családi közösségépítés",
+        "kapcsolatépítés más ausztriai magyar szervezetekkel"
+      ],
+      "targetGroups": [
+        "Wiener Neustadtban és környékén élő magyar családok",
+        "gyermekek, fiatalok és felnőttek",
+        "Ausztriába újonnan érkező magyarok",
+        "helyi magyar kulturális közösséget keresők"
+      ],
+      "languages": [
+        "magyar",
+        "német"
+      ],
+      "email": "kuwu.wn@gmail.com",
+      "profileVerifiedAt": "2026-09-25"
     },
     {
       "id": "amaped-baden",
@@ -6221,11 +6281,13 @@
       "state": "burgenland",
       "city": "Bad Tatzmannsdorf / Tarcsafürdő",
       "type": "sportegyesület",
-      "intro": "Burgenlandi sportegyesület és a magyar közösségi szervezeti háló része, amely futó- és szabadidősport-programokhoz kapcsolódik. A LAC Geschriebenstein szervezi többek között az Írottkő–Geschriebenstein térségéhez kötődő hegyi futóversenyt.",
-      "website": null,
+      "intro": "A Bad Tatzmannsdorf / Tarcsafürdő székhelyű LAC Geschriebenstein futó- és hegyisport-egyesület. Közösségi futásokat, tájékozódási programokat és hegyi futóversenyeket szervez az Írottkő–Geschriebenstein térségében, és a helyi szabadidősportot közösségépítéssel kapcsolja össze.",
+      "website": "http://www.geschriebensteinlauf.at",
       "facebook": null,
       "instagram": null,
-      "eventSources": [],
+      "eventSources": [
+        "http://www.geschriebensteinlauf.at"
+      ],
       "memberships": [
         {
           "umbrellaId": "kozponti-szovetseg",
@@ -6239,17 +6301,59 @@
       ],
       "evidenceSources": [
         {
-          "label": "Központi Szövetség – tagszervezetek",
-          "url": "https://www.kozpontiszovetseg.at/tagszervezetek",
+          "label": "ASKÖ – LAC Geschriebenstein klubadatok",
+          "url": "https://www.askoe.at/de/verband-vereine/askoe-vereine/clubshow-10438",
           "type": "institutional"
         },
         {
-          "label": "ORF Magyarok – 30 éves az Írottkő Natúrpark",
-          "url": "https://volksgruppen.orf.at/magyarok/stories/3354547/",
-          "type": "media"
+          "label": "Bad Tatzmannsdorf – LAC Geschriebenstein bemutatkozás",
+          "url": "https://www.bad-tatzmannsdorf.at/fileadmin/user_upload/WEB_03_-_Rathauskurier_September_2023.pdf",
+          "type": "municipal"
+        },
+        {
+          "label": "ASKÖ Burgenland – Geschriebenstein Hillclimb",
+          "url": "https://www.askoe-burgenland.at/de/boxnewsshow5-lac-geschriebenstein",
+          "type": "institutional"
         }
       ],
-      "email": "beata.nemeth@gmx.at"
+      "email": "beata.nemeth@gmx.at",
+      "history": {
+        "summary": "A LAC Geschriebenstein Bad Tatzmannsdorfban jött létre Beáta és Máté Németh kezdeményezésére. A klub a futás, a hegyi- és terepfutás, valamint a természetben végzett közösségi mozgás köré szerveződik. A helyi önkormányzati bemutatás szerint már a megalakulását követő időszakban átvette a Geschriebenstein hegyi futóverseny szervezését, heti közös futásokat és orientációs túrákat is kínált.",
+        "milestones": [
+          {
+            "year": "2023",
+            "title": "A klub bemutatkozása Bad Tatzmannsdorfban",
+            "description": "A település önkormányzati lapja új helyi futóegyesületként mutatja be a LAC Geschriebensteint, a Berglauf Geschriebenstein szervezésével és heti közös futásokkal.",
+            "sourceUrl": "https://www.bad-tatzmannsdorf.at/fileadmin/user_upload/WEB_03_-_Rathauskurier_September_2023.pdf"
+          },
+          {
+            "year": "2025",
+            "title": "Írottkő–Geschriebenstein Hillclimb",
+            "description": "A LAC Geschriebenstein megszervezi az Írottkő–Geschriebenstein Hillclimb hegyi futóversenyt.",
+            "sourceUrl": "https://www.askoe-burgenland.at/de/boxnewsshow5-lac-geschriebenstein"
+          }
+        ]
+      },
+      "activities": [
+        "hegyi- és terepfutás",
+        "hegyi futóversenyek szervezése",
+        "heti közös futások",
+        "tájékozódási túrák és természetjárás",
+        "családi és közösségi sportnapok",
+        "szabadidősport és egészséges életmód támogatása"
+      ],
+      "targetGroups": [
+        "futók és terepfutók",
+        "Bad Tatzmannsdorf és az Írottkő térségének lakói",
+        "szabadidősport és természetjárás iránt érdeklődők",
+        "családok és gyermekek a közösségi sportprogramokon"
+      ],
+      "languages": [
+        "német",
+        "magyar"
+      ],
+      "phone": "+43 664 2020564",
+      "profileVerifiedAt": "2026-09-25"
     }
   ],
   "umbrellaOrganizations": [
