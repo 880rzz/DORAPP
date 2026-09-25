@@ -35,7 +35,7 @@ jobs:
           python scripts/generate_sitemap.py
       - name: Persist generated profiles and sitemap
         run: |
-          if git diff --quiet -- sitemap.xml szervezetek oktatas; then
+          if [ -z "$(git status --porcelain -- sitemap.xml szervezetek oktatas)" ]; then
             echo "Generated static output already current"
           else
             git config user.name "dorapp-static-builder[bot]"
