@@ -54,3 +54,13 @@ A rendszer nem talál ki hiányzó dátumot, helyszínt vagy szervezői kapcsola
 Statikus frontend. GitHub Pages deployment a `.github/workflows/deploy-pages.yml` workflow-val.
 
 Production domain még nincs rögzítve; canonical/sitemap csak a végleges domain kiválasztása után kerül be.
+
+
+## Regionális együttműködési hálók
+
+A DORAPP külön kezeli a formális ernyőszervezeti tagságot és a dokumentált regionális együttműködést.
+
+- **Ernyőszervezeti tagság**: csak név szerint igazolt tagság kerül be.
+- **Regionális háló**: együttműködő szervezetek kapcsolata, amely nem jelent automatikusan tagsági vagy jogi alárendeltséget.
+
+Első ilyen háló: **Burgenlandi magyar együttműködési háló**, a Burgenlandi Magyar Kultúregyesület (BMKE) körül.
