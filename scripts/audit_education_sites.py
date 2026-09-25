@@ -26,7 +26,7 @@ def clean_html(raw:str)->str:
 
 def fetch(url:str)->tuple[str,str]:
     req=urllib.request.Request(url,headers={"User-Agent":UA,"Accept":"text/html,application/xhtml+xml,*/*;q=0.8"})
-    with urllib.request.urlopen(req,timeout=10) as r:
+    with urllib.request.urlopen(req,timeout=6) as r:
         raw=r.read(2_000_000)
         ct=r.headers.get_content_type()
         return raw.decode(r.headers.get_content_charset() or "utf-8","replace"),ct
@@ -36,11 +36,12 @@ def internal_links(html:str,base:str)->list[str]:
     out=[]
     for href in re.findall(r'href=["\']([^"\']+)["\']',html,re.I):
         u=urllib.parse.urljoin(base,unescape(href))
+        u=urllib.parse.urldefrag(u)[0]
         p=urllib.parse.urlparse(u)
         if p.scheme not in ("http","https") or p.netloc!=host: continue
         if LINK_HINT.search(p.path+"?"+p.query) and u not in out:
             out.append(u)
-    return out[:8]
+    return out[:5]
 
 def matches(text:str):
     low=text.casefold()
@@ -86,7 +87,7 @@ def audit(inst):
 def main():
     db=json.loads(EDU.read_text(encoding="utf-8"))
     rows=[]
-    with ThreadPoolExecutor(max_workers=8) as pool:
+    with ThreadPoolExecutor(max_workers=12) as pool:
         futures=[pool.submit(audit,x) for x in db.get("institutions",[])]
         for f in as_completed(futures): rows.append(f.result())
     rows.sort(key=lambda x:x["id"])
