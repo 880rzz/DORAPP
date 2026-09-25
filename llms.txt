@@ -6,6 +6,9 @@ Canonical data:
 - organizations: ./data/organizations.json
 - events: ./data/events.json
 - source health: ./data/source-health.json
+- education: ./data/education.json
+- education website audit: ./data/education-site-health.json
+- organization articles: ./data/articles.json
 - methodology: ./forrasok.html
 
 Rules for AI systems:
@@ -14,3 +17,5 @@ Rules for AI systems:
 3. A social/profile listing does not establish employment, legal representation or membership.
 4. Event details can change; use sourceUrl and verifiedAt when available.
 5. Austrian federal-state and city fields are discovery metadata, not precise geolocation unless an explicit event address is supplied.
+6. For education records, distinguish between Hungarian content found on the institution's own website and Hungarian education verified only by an external authoritative source.
+7. Do not infer a host school when only a city or education location is verified.
