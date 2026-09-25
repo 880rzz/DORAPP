@@ -172,7 +172,19 @@
       "website": null,
       "facebook": null,
       "instagram": null,
-      "eventSources": []
+      "eventSources": [],
+      "evidenceSources": [
+        {
+          "label": "ORF – Szent István bál Bécsben",
+          "url": "https://volksgruppen.orf.at/v2/magyarok/stories/2694653/",
+          "type": "secondary"
+        },
+        {
+          "label": "Rólunk.at – Központi Szövetség új elnöksége",
+          "url": "https://rolunk.at/nepcsoportunk/uj-elnokseg-az-ausztriai-magyar-egyesuletek-es-szervezetek-kozponti-szovetsegenek-elen/",
+          "type": "secondary"
+        }
+      ]
     },
     {
       "id": "bornemisza-peter-tarsasag",
@@ -184,7 +196,19 @@
       "website": null,
       "facebook": null,
       "instagram": null,
-      "eventSources": []
+      "eventSources": [],
+      "evidenceSources": [
+        {
+          "label": "Rólunk.at – Költözik a Bornemisza Péter Társaság",
+          "url": "https://rolunk.at/magazin/koltozik-a-bornemisza-peter-tarsasag/",
+          "type": "secondary"
+        },
+        {
+          "label": "ORF – Mi újság, írók? Bécsben",
+          "url": "https://volksgruppen.orf.at/v2/magyarok/stories/2893802/",
+          "type": "secondary"
+        }
+      ]
     },
     {
       "id": "duna-filharmonia",
@@ -601,7 +625,19 @@
       "website": null,
       "facebook": null,
       "instagram": null,
-      "eventSources": []
+      "eventSources": [],
+      "evidenceSources": [
+        {
+          "label": "Rólunk.at – kettős jubileum Felső-Ausztriában",
+          "url": "https://rolunk.at/aktualis/mar-55-eve-az-operencias-tengeren-tul-kettos-jubileum-a-felso-ausztriai-magyaroknal/",
+          "type": "secondary"
+        },
+        {
+          "label": "ORF – 50 éves a Felső-Ausztriai Magyarok Kultúregyesülete",
+          "url": "https://volksgruppen.orf.at/v2/magyarok/stories/2907261/",
+          "type": "secondary"
+        }
+      ]
     },
     {
       "id": "wels-hetvegi-iskola",
@@ -823,7 +859,14 @@
       "website": null,
       "facebook": null,
       "instagram": null,
-      "eventSources": []
+      "eventSources": [],
+      "evidenceSources": [
+        {
+          "label": "Rólunk.at – Egy éves a Vorarlbergi Magyar Egyesület",
+          "url": "https://rolunk.at/aktualis/egy-eves-a-vorarlbergi-magyar-egyesulet/",
+          "type": "secondary"
+        }
+      ]
     },
     {
       "id": "mime-vorarlberg",
@@ -877,7 +920,14 @@
       "website": null,
       "facebook": null,
       "instagram": null,
-      "eventSources": []
+      "eventSources": [],
+      "evidenceSources": [
+        {
+          "label": "Rólunk.at – Ausztriában bejegyzett magyar egyesületek",
+          "url": "https://rolunk.at/ausztriai-magyar-egyesuletek/",
+          "type": "secondary"
+        }
+      ]
     },
     {
       "id": "eszak-burgenlandi",
@@ -973,7 +1023,14 @@
       "website": null,
       "facebook": null,
       "instagram": null,
-      "eventSources": []
+      "eventSources": [],
+      "evidenceSources": [
+        {
+          "label": "Rólunk.at – Álmában is magyar",
+          "url": "https://rolunk.at/nepcsoportunk/almaban-is-magyar/",
+          "type": "secondary"
+        }
+      ]
     },
     {
       "id": "erdelyi-magyarok-ausztriai",
@@ -985,7 +1042,14 @@
       "website": null,
       "facebook": null,
       "instagram": null,
-      "eventSources": []
+      "eventSources": [],
+      "evidenceSources": [
+        {
+          "label": "ORF – A romániai forradalom Ausztriából szemlélve",
+          "url": "https://volksgruppen.orf.at/magyarok/stories/3286420/",
+          "type": "secondary"
+        }
+      ]
     },
     {
       "id": "pax-romana",
@@ -997,7 +1061,14 @@
       "website": null,
       "facebook": null,
       "instagram": null,
-      "eventSources": []
+      "eventSources": [],
+      "evidenceSources": [
+        {
+          "label": "Rólunk.at – Ausztriában bejegyzett magyar egyesületek",
+          "url": "https://rolunk.at/ausztriai-magyar-egyesuletek/",
+          "type": "secondary"
+        }
+      ]
     },
     {
       "id": "nepcsoporttanacsi-elnokok",
@@ -1009,7 +1080,14 @@
       "website": null,
       "facebook": null,
       "instagram": null,
-      "eventSources": []
+      "eventSources": [],
+      "evidenceSources": [
+        {
+          "label": "Rólunk.at – Ausztriában bejegyzett magyar egyesületek",
+          "url": "https://rolunk.at/ausztriai-magyar-egyesuletek/",
+          "type": "secondary"
+        }
+      ]
     },
     {
       "id": "programapik",
@@ -1065,6 +1143,33 @@
       "instagram": null,
       "eventSources": [
         "https://www.facebook.com/groups/610893464159214/"
+      ]
+    },
+    {
+      "id": "collegium-hungaricum-wien",
+      "name": "Collegium Hungaricum Wien – Magyar Kulturális Intézet",
+      "state": "wien",
+      "city": "Wien",
+      "type": "kulturális intézet",
+      "intro": "A bécsi Collegium Hungaricum a magyar kultúra egyik legfontosabb ausztriai találkozóhelye. Kiállításokat, koncerteket, filmvetítéseket, színházi, irodalmi, tudományos és családi programokat szervez Bécsben és más osztrák helyszíneken.",
+      "website": "https://culture.hu/hu/wien",
+      "facebook": null,
+      "instagram": null,
+      "eventSources": [
+        "https://culture.hu/hu/wien",
+        "https://culture.hu/hu/wien/esemenyek"
+      ],
+      "evidenceSources": [
+        {
+          "label": "Collegium Hungaricum – az intézetről",
+          "url": "https://culture.hu/hu/wien/az-intezetrol",
+          "type": "official"
+        },
+        {
+          "label": "Collegium Hungaricum – események",
+          "url": "https://culture.hu/hu/wien/esemenyek",
+          "type": "official"
+        }
       ]
     }
   ]
