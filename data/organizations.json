@@ -3158,6 +3158,91 @@
           "sourceUrl": "https://www.musicaltarsulat.at/"
         }
       ]
+    },
+    {
+      "id": "die-bruecke-medien-kulturelles-podium",
+      "name": "Die Brücke – Medien und Kulturelles Podium",
+      "state": "vorarlberg",
+      "city": "Hohenems",
+      "type": "média- és kulturális egyesület",
+      "categories": [
+        "media",
+        "kultura",
+        "kozosseg"
+      ],
+      "intro": "Vorarlbergi média- és kulturális egyesület, amely a RádióHU és a Magyar Szó Ausztriában magyar nyelvű médiafelületeinek támogató szervezete.",
+      "website": "https://www.radiohu.hu/impresszum/",
+      "facebook": null,
+      "instagram": null,
+      "eventSources": [
+        "https://www.radiohu.hu/"
+      ],
+      "evidenceSources": [
+        {
+          "label": "RádióHU – Impresszum",
+          "url": "https://www.radiohu.hu/impresszum/",
+          "type": "official"
+        }
+      ]
+    },
+    {
+      "id": "radiohu",
+      "name": "RádióHU – Ausztria magyar hangja",
+      "state": "vorarlberg",
+      "city": "Hohenems / online",
+      "type": "országos magyar rádiós és online média",
+      "categories": [
+        "media",
+        "kultura",
+        "kozosseg"
+      ],
+      "parentOrganizationId": "die-bruecke-medien-kulturelles-podium",
+      "intro": "Magyar nyelvű ausztriai hír-, magazin-, podcast- és videóplatform. 2026-ban is rendszeresen közöl ausztriai híreket, regionális információkat és magyar közösségi tartalmakat.",
+      "website": "https://www.radiohu.hu/",
+      "facebook": "https://www.facebook.com/www.radiohu.hu",
+      "instagram": "https://www.instagram.com/radiohu.hu/",
+      "eventSources": [
+        "https://www.radiohu.hu/"
+      ],
+      "evidenceSources": [
+        {
+          "label": "RádióHU – aktuális főoldal",
+          "url": "https://www.radiohu.hu/",
+          "type": "official"
+        },
+        {
+          "label": "RádióHU – Impresszum",
+          "url": "https://www.radiohu.hu/impresszum/",
+          "type": "official"
+        }
+      ]
+    },
+    {
+      "id": "magyar-szo-ausztriaban",
+      "name": "Magyar Szó Ausztriában",
+      "state": "vorarlberg",
+      "city": "Hohenems / online",
+      "type": "országos magyar online média",
+      "categories": [
+        "media",
+        "kultura",
+        "kozosseg"
+      ],
+      "parentOrganizationId": "die-bruecke-medien-kulturelles-podium",
+      "intro": "Ausztriában működő magyar nyelvű online médiafelület, amely a RádióHU-val közös szerkesztőségi és kiadói háttérrel működik.",
+      "website": "https://www.magyarszo.at/",
+      "facebook": "https://www.facebook.com/magyarszo.at",
+      "instagram": null,
+      "eventSources": [
+        "https://www.magyarszo.at/"
+      ],
+      "evidenceSources": [
+        {
+          "label": "RádióHU – Impresszum / Magyar Szó Ausztriában",
+          "url": "https://www.radiohu.hu/impresszum/",
+          "type": "official"
+        }
+      ]
     }
   ],
   "umbrellaOrganizations": [
