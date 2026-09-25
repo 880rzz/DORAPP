@@ -9,7 +9,7 @@ Egyetlen kereshető felületre hozza az Ausztriában működő magyar egyesület
 ## Jelenlegi lefedettség
 
 - 9 osztrák tartomány
-- 79 szervezet, civil közösség, kulturális intézmény, médiafelület és programgazda
+- 85 szervezet, civil közösség, kulturális intézmény, médiafelület, néptánc-/népzenei csoport és programgazda
 - 89 oktatási intézmény/helyszín a bölcsődétől a felsőoktatásig
 - tartományi térképes kezdőlap
 - kereshető szervezeti adatbázis
@@ -84,3 +84,8 @@ Az oktatási réteg külön futó ellenőrzést kapott. Az audit:
 5. nem következtet egy intézményre pusztán a település alapján.
 
 A statikus oktatási profilokat a `scripts/generate_education_profiles.py` generálja.
+
+
+## Néptánc és népzene
+
+A közösségi adatmodell külön `neptanc` és `nepzene` kategóriát kezel. Az önállóan azonosítható csoportok külön profilt kaphatnak, miközben a `parentOrganizationId` megőrzi a kapcsolatot a fenntartó vagy szülőegyesülettel.
