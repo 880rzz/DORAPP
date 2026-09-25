@@ -12,7 +12,7 @@ on:
 permissions:
   contents: write
 concurrency:
-  group: dorapp-education-site-audit
+  group: dorapp-education-site-audit-v2
   cancel-in-progress: true
 jobs:
   audit:
