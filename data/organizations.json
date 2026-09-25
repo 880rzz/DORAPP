@@ -3135,7 +3135,7 @@
       "state": "salzburg",
       "city": "Salzburg",
       "type": "kulturális egyesület",
-      "intro": "Salzburg magyar közösségének kulturális és családi egyesülete, előadásokkal, közösségi eseményekkel és magyar kulturális programokkal.",
+      "intro": "Az 1993-ban alapított SalzUNG – Salzburgi Magyar Egyesület a Salzburg városában és tartományában élő magyar közösséget fogja össze. Kulturális, oktatási, családi és identitásőrző programokkal segíti, hogy a helyi magyarok „itthon, Salzburgban” is megőrizzék nyelvüket és gyökereiket.",
       "website": "https://www.salzung.com/hu",
       "facebook": null,
       "instagram": null,
@@ -3153,6 +3153,72 @@
         "kultura",
         "kozosseg",
         "gyermek"
+      ],
+      "founded": "1993",
+      "history": {
+        "summary": "A Salzburgi Magyar Egyesület 1993-ban alakult. A SalzUNG név játékosan utal Salzburgra és a magyar közösségre; az egyesület mottója „Itthon, Salzburgban!”. A szervezet célja a magyar nyelv, kultúra és identitás megőrzése, illetve egy erős helyi közösségi háló kialakítása, amely segíti az ausztriai integrációt is.",
+        "milestones": [
+          {
+            "year": "1993",
+            "title": "Megalakulás",
+            "description": "Megalakul a Salzburgi Magyar Egyesület.",
+            "sourceUrl": "https://www.salzung.com/hu/rolunk/az-egyesulet-bemutatasa"
+          },
+          {
+            "year": "2020",
+            "title": "Lélekkuckó program",
+            "description": "Interaktív pszichológiai előadássorozat indul a közösségben.",
+            "sourceUrl": "https://www.salzung.com/hu/rolunk/az-egyesuelet-vezetosege"
+          },
+          {
+            "year": "2024",
+            "title": "Pitypang Suli és Brumi Ovi",
+            "description": "A SalzUNG gyermekoktatási programjai új formában bővülnek iskolás és óvodás csoportokkal.",
+            "sourceUrl": "https://salzung.com/hu/?start=8"
+          }
+        ]
+      },
+      "activities": [
+        "magyar kulturális rendezvények",
+        "magyar nyelvi és identitásőrző oktatás",
+        "gyermek- és családi programok",
+        "pszichológiai és közösségi előadások",
+        "történelmi és irodalmi programok",
+        "táborok és közösségi kirándulások"
+      ],
+      "targetGroups": [
+        "Salzburg városában és tartományában élő magyarok",
+        "magyar családok",
+        "gyermekek és fiatalok",
+        "magyar kultúra és nyelv iránt érdeklődők"
+      ],
+      "languages": [
+        "magyar",
+        "német"
+      ],
+      "email": "info@salzung.com",
+      "profileVerifiedAt": "2026-09-25",
+      "evidenceSources": [
+        {
+          "label": "SalzUNG – az egyesület bemutatása",
+          "url": "https://www.salzung.com/hu/rolunk/az-egyesulet-bemutatasa",
+          "type": "official"
+        },
+        {
+          "label": "SalzUNG – Rólunk / beszámolók",
+          "url": "https://www.salzung.com/hu/rolunk/",
+          "type": "official"
+        },
+        {
+          "label": "SalzUNG – aktuális programok",
+          "url": "https://www.salzung.com/hu",
+          "type": "official"
+        },
+        {
+          "label": "SalzUNG – anyanyelvi oktatás",
+          "url": "https://salzung.com/hu/projektek/oktatas",
+          "type": "official"
+        }
       ]
     },
     {
@@ -3188,7 +3254,7 @@
         "nephagyomany"
       ],
       "parentOrganizationId": "salzung",
-      "intro": "A SalzUNG 3–6 éveseknek szóló magyar nyelvű óvodai programja Salzburgban, játékos, zenés és hagyományőrző foglalkozásokkal.",
+      "intro": "A SalzUNG Brumi Ovi 3–6 éves gyermekeknek szóló magyar nyelvű óvodai közösségi program Salzburgban, játékos, zenés, nyelvi és hagyományőrző foglalkozásokkal.",
       "website": "https://salzung.com/hu/esemenyek/esemeny-blog",
       "facebook": null,
       "instagram": null,
@@ -3198,10 +3264,24 @@
       "evidenceSources": [
         {
           "label": "SalzUNG – Brumi Ovi",
-          "url": "https://salzung.com/hu/esemenyek/esemeny-blog",
+          "url": "https://salzung.com/hu/?start=8",
           "type": "official"
         }
-      ]
+      ],
+      "activities": [
+        "magyar nyelvi óvodai foglalkozások",
+        "mondókák, ének és zene",
+        "játékos hagyományőrzés",
+        "közösségi gyermekprogramok"
+      ],
+      "targetGroups": [
+        "3–6 éves magyar vagy magyarul tanuló gyermekek",
+        "salzburgi magyar családok"
+      ],
+      "languages": [
+        "magyar"
+      ],
+      "profileVerifiedAt": "2026-09-25"
     },
     {
       "id": "salzung-pitypang-suli",
@@ -3216,7 +3296,7 @@
         "ifjusag"
       ],
       "parentOrganizationId": "salzung",
-      "intro": "A SalzUNG magyar nyelvű hétvégi iskolai programja iskoláskorú gyermekeknek Salzburgban, anyanyelvi és kulturális oktatással.",
+      "intro": "A SalzUNG Pitypang Suli magyar nyelvű közösségi és anyanyelvi oktatási program 9–13 éves iskolásoknak Salzburgban; rendszeres délutáni foglalkozásokkal segíti a magyar nyelv és identitás megőrzését.",
       "website": "https://salzung.com/hu/projektek/oktatas",
       "facebook": null,
       "instagram": null,
@@ -3225,11 +3305,30 @@
       ],
       "evidenceSources": [
         {
-          "label": "SalzUNG – Oktatás / Pitypang Suli",
+          "label": "SalzUNG – Pitypang Suli",
+          "url": "https://salzung.com/hu/?start=8",
+          "type": "official"
+        },
+        {
+          "label": "SalzUNG – Anyanyelvi oktatás",
           "url": "https://salzung.com/hu/projektek/oktatas",
           "type": "official"
         }
-      ]
+      ],
+      "activities": [
+        "magyar anyanyelvi oktatás",
+        "irodalmi és kulturális foglalkozások",
+        "magyar történelem és identitás témák",
+        "közösségi tanulás"
+      ],
+      "targetGroups": [
+        "9–13 éves magyar vagy magyarul tanuló gyermekek",
+        "salzburgi magyar családok"
+      ],
+      "languages": [
+        "magyar"
+      ],
+      "profileVerifiedAt": "2026-09-25"
     },
     {
       "id": "salzburgi-neptanc",
