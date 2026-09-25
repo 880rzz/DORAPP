@@ -9,7 +9,7 @@ Egyetlen kereshető felületre hozza az Ausztriában működő magyar egyesület
 ## Jelenlegi lefedettség
 
 - 9 osztrák tartomány
-- 107 szervezet, civil közösség, kulturális intézmény, médiafelület, néptánc-/népzenei csoport és programgazda
+- 116 szervezet, civil közösség, kulturális intézmény, médiafelület, néptánc-/népzenei csoport és programgazda
 - 101 oktatási intézmény/helyszín és rendszeres magyar képzési program a bölcsődétől a felsőoktatásig
 - tartományi térképes kezdőlap
 - kereshető szervezeti adatbázis
