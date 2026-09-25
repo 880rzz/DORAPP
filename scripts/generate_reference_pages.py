@@ -8,6 +8,8 @@ BASE="https://diaszpora.kozpontiszovetseg.at"
 ORG=json.loads((ROOT/"data/organizations.json").read_text(encoding="utf-8"))
 EDU=json.loads((ROOT/"data/education.json").read_text(encoding="utf-8"))
 EV=json.loads((ROOT/"data/events.json").read_text(encoding="utf-8"))
+SOURCE_HEALTH=json.loads((ROOT/"data/source-health.json").read_text(encoding="utf-8")) if (ROOT/"data/source-health.json").exists() else {"sources":[]}
+EDU_HEALTH=json.loads((ROOT/"data/education-site-health.json").read_text(encoding="utf-8")) if (ROOT/"data/education-site-health.json").exists() else {"sites":[]}
 
 ORG_DIR=ROOT/"szervezetek"
 EVENT_DIR=ROOT/"esemenyek"
@@ -178,9 +180,35 @@ ai_entry={
  "counts":{"organizations":len(orgs),"education":len(education),"events":len(events),"states":len(states),"categories":len(categories)},
  "canonicalData":{
    "organizations":BASE+"/data/organizations.json","education":BASE+"/data/education.json","events":BASE+"/data/events.json","articles":BASE+"/data/articles.json",
-   "entityGraph":BASE+"/entity.jsonld","methodology":BASE+"/forrasok.html","llms":BASE+"/llms.txt","aiTrust":BASE+"/ai.txt","sitemap":BASE+"/sitemap.xml"
+   "entityGraph":BASE+"/entity.jsonld","methodology":BASE+"/forrasok.html","dataQuality":BASE+"/adatminoseg.html","llms":BASE+"/llms.txt","aiTrust":BASE+"/ai.txt","sitemap":BASE+"/sitemap.xml"
  },
  "citationPolicy":"Állítást csak canonical adatból vagy a rekordhoz kapcsolt bizonyító/hivatalos forrásból vezess le; hiányzó tényt ne következtess."
 }
 (ROOT/"ai-entry.json").write_text(json.dumps(ai_entry,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
-print(f"events={len(events)} states={len(states)} categories={len(categories)} entity=1 ai_entry=1")
+
+def status_counts(rows):
+    out={}
+    for r in rows:
+        k=r.get("status") or "unknown"
+        out[k]=out.get(k,0)+1
+    return out
+
+event_health=status_counts(SOURCE_HEALTH.get("sources",[]))
+edu_health=status_counts(EDU_HEALTH.get("sites",[]))
+quality_url=BASE+"/adatminoseg.html"
+quality_desc="A DORAPP forrás-, frissességi és adatminőségi státuszának nyilvános, géppel is értelmezhető összefoglalója."
+quality_schema={"@context":"https://schema.org","@graph":[
+  {"@type":"WebPage","@id":quality_url+"#page","url":quality_url,"name":"DORAPP adatminőség és transzparencia","description":quality_desc,"inLanguage":"hu-AT","isPartOf":{"@id":BASE+"/#website"},"publisher":{"@id":BASE+"/#publisher"}},
+  {"@type":"DataCatalog","@id":quality_url+"#catalog","name":"DORAPP – Ausztriai magyar közösségi adatbázis","url":BASE+"/","description":quality_desc,"provider":{"@id":BASE+"/#publisher"},"dataset":{"@id":BASE+"/#dataset"}},
+  PUBLISHER
+]}
+event_rows="".join(f'<li><strong>{esc(k)}</strong>: {v}</li>' for k,v in sorted(event_health.items()))
+edu_rows="".join(f'<li><strong>{esc(k)}</strong>: {v}</li>' for k,v in sorted(edu_health.items()))
+quality_body=f'''<section class="hero"><div class="wrap"><div class="eyebrow">Transzparencia · E‑E‑A‑T · AI Trust</div><h1>Adatminőség és frissesség.</h1><p class="lead">{esc(quality_desc)}</p></div></section>
+<section class="section"><div class="wrap trust-grid"><div><h2>Aktuális lefedettség</h2></div><div><p><strong>{len(orgs)}</strong> szervezet és közösség<br><strong>{len(education)}</strong> oktatási rekord<br><strong>{len(events)}</strong> megtartott, forrással rendelkező esemény<br><strong>{len(states)}</strong> osztrák tartomány</p><p>Szervezeti adat frissítve: {esc(ORG.get("updated"))}<br>Oktatási adat frissítve: {esc(EDU.get("updated"))}<br>Eseményadat frissítve: {esc(EV.get("updated"))}</p></div></div></section>
+<section class="section muted"><div class="wrap trust-grid"><div><h2>Eseményforrás-audit</h2></div><div><ul class="source-list">{event_rows}</ul><p>A technikai hiba nem jelenti automatikusan azt, hogy a forrás vagy a szervezet megszűnt. 403/429, TLS-, DNS- és timeout-hibát külön technikai állapotként kezelünk.</p></div></div></section>
+<section class="section"><div class="wrap trust-grid"><div><h2>Oktatási webaudit</h2></div><div><ul class="source-list">{edu_rows}</ul><p>A saját honlapon nem talált kulcsszó nem írja felül az intézményi, hatósági vagy közszolgálati forrásból igazolt magyar oktatást.</p></div></div></section>
+<section class="section muted"><div class="wrap trust-grid"><div><h2>Szerkesztési elv</h2></div><div><p>Hiányzó történeti, tagsági, kapcsolati vagy eseményadatot nem következtetünk. A strukturált profilmezők steward‑ellenőrzéssel, forrás alapján bővülnek; az automata esemény- és sajtófelderítés nem írhatja felül ezeket.</p><p><a href="forrasok.html">Teljes módszertan →</a><br><a href="mailto:marketing@kozpontiszovetseg.at">Hibajelentés / korrekció →</a></p></div></div></section>'''
+(ROOT/"adatminoseg.html").write_text(shell("DORAPP adatminőség és transzparencia",quality_desc,quality_url,quality_body,quality_schema,prefix=""),encoding="utf-8")
+
+print(f"events={len(events)} states={len(states)} categories={len(categories)} entity=1 ai_entry=1 quality=1")
