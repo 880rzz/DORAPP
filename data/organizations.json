@@ -3712,8 +3712,8 @@
       "profileVerifiedAt": "2026-09-25",
       "evidenceSources": [
         {
-          "label": "Rólunk.at – ausztriai magyar egyesületek listája",
-          "url": "https://rolunk.at/ausztriai-magyar-egyesuletek/",
+          "label": "Rólunk.at – Az Alsóőri Énekkar Magyarországon és a lugasban énekelt",
+          "url": "https://rolunk.at/aktualis/az-alsoori-enekkar-magyarorszagon-es-a-lugasban-enekelt/",
           "type": "community-media"
         },
         {
@@ -3722,11 +3722,35 @@
           "type": "community-media"
         },
         {
-          "label": "Unterwart községi rendezvénynaptár – Gesangsverein Unterwart program",
-          "url": "https://www.unterwart.at/wp-content/uploads/2024/10/Veranstaltungskalender_03102024.pdf",
-          "type": "municipal"
+          "label": "Rólunk.at – ausztriai magyar egyesületek listája",
+          "url": "https://rolunk.at/ausztriai-magyar-egyesuletek/",
+          "type": "community-media"
         }
-      ]
+      ],
+      "founded": "1919",
+      "history": {
+        "summary": "Az Alsóőri Énekkar 1919 őszén alakult férfidalárdaként az alsóőri Alexandriai Szent Katalin templom akkori plébánosának kezdeményezésére. Célja a háború utáni közösségi élet újraindítása volt. A kórus később vegyeskarrá alakult, és több mint egy évszázada őrzi az őrvidéki magyar népi és egyházi énekkultúrát.",
+        "milestones": [
+          {
+            "year": "1919",
+            "title": "A Dalárda megalakulása",
+            "description": "Az alsóőri plébános kezdeményezésére férfidalárda alakul a közösségi élet újraindítására.",
+            "sourceUrl": "https://rolunk.at/aktualis/az-alsoori-enekkar-magyarorszagon-es-a-lugasban-enekelt/"
+          },
+          {
+            "year": "2019",
+            "title": "100 éves jubileum",
+            "description": "Az Alsóőri Énekkar fennállásának századik évfordulóját ünnepli.",
+            "sourceUrl": "https://rolunk.at/aktualis/az-alsoori-enekkar-magyarorszagon-es-a-lugasban-enekelt/"
+          },
+          {
+            "year": "2025",
+            "title": "Első magyarországi fellépés",
+            "description": "106 éves fennállása óta először lép fel Magyarországon, Szombathelyen.",
+            "sourceUrl": "https://rolunk.at/aktualis/az-alsoori-enekkar-magyarorszagon-es-a-lugasban-enekelt/"
+          }
+        ]
+      }
     },
     {
       "id": "alsoori-otthon",
@@ -4287,7 +4311,24 @@
           "url": "https://volksgruppen.orf.at/magyarok/stories/3340511/",
           "type": "public-broadcaster"
         }
-      ]
+      ],
+      "history": {
+        "summary": "Az Örök Fiatalok Klubja a Felső-Ausztriai Magyarok Kultúregyesületének 55 év feletti tagjaiból kialakult közösségi klub és dalárda. A kezdeti havi találkozók beszélgetésre és társasjátékozásra épültek, majd a közös nótázásból önálló kórus alakult Sebestyén Zsiga vezetésével.",
+        "milestones": [
+          {
+            "year": "2023",
+            "title": "Közösségi klub és kórus",
+            "description": "A felső-ausztriai magyar közösség jubileumi rendezvényén az ÖFK már önálló kórusként mutatkozik be.",
+            "sourceUrl": "https://rolunk.at/aktualis/mar-55-eve-az-operencias-tengeren-tul-kettos-jubileum-a-felso-ausztriai-magyaroknal/"
+          },
+          {
+            "year": "2026",
+            "title": "Generációk Farsangja",
+            "description": "Az ÖFK a Felső-Ausztriai Magyarok Kultúregyesületének dalárdájaként lép fel a Generációk Farsangján.",
+            "sourceUrl": "https://volksgruppen.orf.at/magyarok/stories/3340511/"
+          }
+        ]
+      }
     },
     {
       "id": "wels-hetvegi-iskola",
