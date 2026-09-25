@@ -3456,12 +3456,40 @@
         "kozosseg"
       ],
       "parentOrganizationId": "felso-ausztriai-magyarok",
-      "intro": "A Felső-Ausztriai Magyarok Kultúregyesületének dalárdája és közösségi csoportja, amely felső-ausztriai magyar rendezvényeken lép fel.",
+      "intro": "A Felső-Ausztriai Magyarok Kultúregyesületének 55 év felettiekből álló dalárdája és közösségi klubja. Tagjai rendszeresen találkoznak, közösen énekelnek és felső-ausztriai magyar rendezvényeken lépnek fel.",
       "website": "https://volksgruppen.orf.at/magyarok/stories/3340511/",
       "facebook": null,
       "instagram": null,
       "eventSources": [
         "https://volksgruppen.orf.at/magyarok/stories/3340511/"
+      ],
+      "activities": [
+        "rendszeres klubtalálkozók",
+        "magyar nóták és közösségi éneklés",
+        "kóruspróbák és fellépések",
+        "generációs közösségi programok",
+        "felső-ausztriai magyar rendezvényeken való részvétel"
+      ],
+      "targetGroups": [
+        "55 év feletti felső-ausztriai magyarok",
+        "közösségi éneklés iránt érdeklődők",
+        "linzi és welsi magyar közösség"
+      ],
+      "languages": [
+        "magyar"
+      ],
+      "profileVerifiedAt": "2026-09-25",
+      "evidenceSources": [
+        {
+          "label": "Rólunk.at – kettős jubileum a felső-ausztriai magyaroknál",
+          "url": "https://rolunk.at/aktualis/mar-55-eve-az-operencias-tengeren-tul-kettos-jubileum-a-felso-ausztriai-magyaroknal/",
+          "type": "community-media"
+        },
+        {
+          "label": "ORF Magyarok – Generációk Farsangja",
+          "url": "https://volksgruppen.orf.at/magyarok/stories/3340511/",
+          "type": "public-broadcaster"
+        }
       ]
     },
     {
@@ -4435,7 +4463,7 @@
       "state": "salzburg",
       "city": "Salzburg",
       "type": "néptánc",
-      "intro": "Salzburgban működő magyar néptáncközösség fellépésekkel és hagyományőrző eseményekkel.",
+      "intro": "A Salzburgi Magyar Néptáncegyüttes 2023 szeptemberében alakult. Heti kétórás próbákon magyar tájegységek táncait és dalait tanulják; a csoport a SalzUNG keretében működik, és magyar, osztrák valamint más nemzetiségű résztvevőket is vár.",
       "website": "https://salzung.com/hu/?start=8",
       "facebook": "https://www.facebook.com/Salzburgi.Magyar.Neptancegyuttes/",
       "instagram": "https://www.instagram.com/salzburgi.neptanc/",
@@ -4450,16 +4478,51 @@
       "parentOrganizationId": "salzung",
       "evidenceSources": [
         {
+          "label": "Kőrösi Csoma Sándor Program – Salzburgi néptánccsoport",
+          "url": "https://www.korosiprogram.hu/hirek/salzburgi-neptanccsoport",
+          "type": "institutional"
+        },
+        {
           "label": "SalzUNG – Salzburgi Magyar Néptáncegyüttes",
           "url": "https://salzung.com/hu/?start=8",
           "type": "official"
-        },
-        {
-          "label": "SalzUNG – Ungarische Folkstanzgruppe",
-          "url": "https://salzung.com/de/events",
-          "type": "official"
         }
-      ]
+      ],
+      "founded": "2023-09",
+      "history": {
+        "summary": "A Salzburgi Magyar Néptáncegyüttes 2023 szeptemberében alakult Salzburgban, a magyar néptánc tanítását és a helyi magyar közösség építését célul kitűzve. A próbákon kezdetben széki, később polgári és mezőségi táncokkal foglalkoztak, élőzenei kísérettel népdalokat is tanulva. Az együttes rövid idő alatt több ausztriai, németországi és magyarországi táncháztalálkozóhoz kapcsolódott.",
+        "milestones": [
+          {
+            "year": "2023-09",
+            "title": "Megalakulás",
+            "description": "Salzburgban megalakul a Salzburgi Magyar Néptáncegyüttes.",
+            "sourceUrl": "https://www.korosiprogram.hu/hirek/salzburgi-neptanccsoport"
+          },
+          {
+            "year": "2024",
+            "title": "Nemzetközi táncházi kapcsolódások",
+            "description": "Az együttes Münchenben, Innsbruckban és Budapesten is részt vesz táncházi és szakmai találkozókon.",
+            "sourceUrl": "https://www.korosiprogram.hu/hirek/salzburgi-neptanccsoport"
+          }
+        ]
+      },
+      "activities": [
+        "heti magyar néptáncpróbák",
+        "magyar tájegységi táncok és dalok tanulása",
+        "élőzenés néptánc- és népdaloktatás",
+        "táncháztalálkozókon való részvétel",
+        "közösségépítés Salzburgban és környékén"
+      ],
+      "targetGroups": [
+        "15 év feletti magyar és nem magyar érdeklődők",
+        "Salzburg és környéke magyar közössége",
+        "magyar néptánc és népzene iránt érdeklődők"
+      ],
+      "languages": [
+        "magyar",
+        "német"
+      ],
+      "profileVerifiedAt": "2026-09-25"
     },
     {
       "id": "magyarhaz-innsbruck",
@@ -5017,7 +5080,7 @@
       "state": "kaernten",
       "city": "Klagenfurt",
       "type": "kulturális-oktatási egyesület",
-      "intro": "Karintia magyar kulturális közössége, amely magyar hétvégi óvodai és iskolai foglalkozásokat, családi, kézműves és közösségi programokat szervez.",
+      "intro": "A VUKK – Verein für die Ungarische Kultur in Kärnten a karintiai magyar közösség kulturális és oktatási egyesülete. A hétvégi magyar óvoda és iskola megszervezése köré épült, és családi, kézműves, kulturális és közösségi programokkal erősíti a klagenfurti magyar közösséget.",
       "website": "https://vukk.at/",
       "facebook": null,
       "instagram": null,
@@ -5027,6 +5090,46 @@
       "categories": [
         "kultura",
         "oktatas"
+      ],
+      "history": {
+        "summary": "A VUKK létrejöttének közvetlen előzménye a karintiai magyar szülők anyanyelvi oktatás iránti igénye volt. Az egyesület hétvégi magyar óvodai és iskolai foglalkozásokat indított Klagenfurtban, négy pedagógussal, és a kezdetektől azt a célt fogalmazta meg, hogy az oktatási program egy összetartó karintiai magyar közösség magjává váljon.",
+        "milestones": [
+          {
+            "year": "2021",
+            "title": "Hétvégi magyar iskola indul Klagenfurtban",
+            "description": "A VUKK szervezésében óvodai és iskolai magyar foglalkozások indulnak Klagenfurtban.",
+            "sourceUrl": "https://volksgruppen.orf.at/magyarok/stories/3119145/"
+          }
+        ]
+      },
+      "activities": [
+        "hétvégi magyar óvodai foglalkozások",
+        "magyar nyelvű iskolai oktatás",
+        "kézműves és családi programok",
+        "magyar kulturális és közösségi rendezvények",
+        "karintiai magyar családok közösségépítése"
+      ],
+      "targetGroups": [
+        "Karintiában élő magyar gyermekek és családok",
+        "magyar anyanyelvi oktatást keresők",
+        "klagenfurti és környékbeli magyar közösség"
+      ],
+      "languages": [
+        "magyar",
+        "német"
+      ],
+      "profileVerifiedAt": "2026-09-25",
+      "evidenceSources": [
+        {
+          "label": "ORF Magyarok – hétvégi magyar iskola Klagenfurtban",
+          "url": "https://volksgruppen.orf.at/magyarok/stories/3119145/",
+          "type": "public-broadcaster"
+        },
+        {
+          "label": "BMKE – ausztriai magyar szervezeti linkek",
+          "url": "https://bukv.at/links/",
+          "type": "institutional"
+        }
       ]
     },
     {
