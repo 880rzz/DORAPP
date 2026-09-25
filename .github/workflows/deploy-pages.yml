@@ -4,7 +4,7 @@ on:
     branches: ["main"]
   workflow_dispatch:
 permissions:
-  contents: read
+  contents: write
   pages: write
   id-token: write
 concurrency:
@@ -33,6 +33,38 @@ jobs:
           python scripts/generate_profiles.py
           python scripts/generate_education_profiles.py
           python scripts/generate_sitemap.py
+      - name: Persist generated profiles and sitemap
+        run: |
+          if git diff --quiet -- sitemap.xml szervezetek oktatas; then
+            echo "Generated static output already current"
+          else
+            git config user.name "dorapp-static-builder[bot]"
+            git config user.email "actions@users.noreply.github.com"
+            git add sitemap.xml szervezetek oktatas
+            git commit -m "chore(static): refresh generated profiles"
+            for attempt in 1 2 3; do
+              if git push origin HEAD:main; then
+                break
+              fi
+              echo "Generated-output push race (attempt $attempt); rebuilding on latest main..."
+              git fetch origin main
+              git reset --hard origin/main
+              python scripts/validate_directory.py
+              python scripts/generate_profiles.py
+              python scripts/generate_education_profiles.py
+              python scripts/generate_sitemap.py
+              git add sitemap.xml szervezetek oktatas
+              if git diff --cached --quiet; then
+                echo "Generated output already current after refresh"
+                break
+              fi
+              git commit -m "chore(static): refresh generated profiles"
+              if [ "$attempt" -eq 3 ]; then
+                echo "Unable to persist generated output after 3 attempts"
+                exit 1
+              fi
+            done
+          fi
       - uses: actions/upload-pages-artifact@v3
         with:
           path: .
