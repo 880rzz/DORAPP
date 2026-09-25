@@ -13,9 +13,15 @@ urls=[
     f"{BASE}/forrasok.html",
     f"{BASE}/llms.txt",
     f"{BASE}/ai.txt",
+    f"{BASE}/ai-entry.json",
+    f"{BASE}/entity.jsonld",
 ]
 urls += [f"{BASE}/szervezetek/{x['id']}.html" for x in org.get("organizations",[])]
 urls += [f"{BASE}/oktatas/{x['id']}.html" for x in edu.get("institutions",[])]
+ev=json.loads((ROOT/"data/events.json").read_text(encoding="utf-8"))
+urls += [f"{BASE}/esemenyek/{x['id']}.html" for x in ev.get("events",[])]
+urls += [f"{BASE}/tartomanyok/{x['id']}.html" for x in org.get("states",[])]
+urls += [f"{BASE}/kategoriak/{x['id']}.html" for x in org.get("categoryDefinitions",[])]
 
 xml=['<?xml version="1.0" encoding="UTF-8"?>','<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">']
 for u in urls:
