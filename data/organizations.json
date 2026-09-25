@@ -165,7 +165,7 @@
       "state": "wien",
       "city": "Wien",
       "type": "közösségi egyesület",
-      "intro": "Ausztriában élő magyar nők közössége, amely beilleszkedést, kapcsolatépítést és személyes-szakmai fejlődést támogató programokat szervez.",
+      "intro": "Ausztriában élő magyar nők közössége, amely beilleszkedést, kapcsolatépítést és személyes-szakmai fejlődést támogató programokat szervez. A közösségi modell a kapcsolódásra, tudásmegosztásra, önbizalomra és egymás gyakorlati támogatására épül.",
       "website": "https://leaninfemspace.at/",
       "facebook": null,
       "instagram": null,
@@ -181,6 +181,36 @@
       ],
       "categories": [
         "kozosseg"
+      ],
+      "activities": [
+        "közösségi és kapcsolatépítő találkozók",
+        "személyes és szakmai fejlődést támogató programok",
+        "workshopok és beszélgetések",
+        "ausztriai beilleszkedést segítő közösségi információcsere",
+        "női közösségépítés és mentoráló kapcsolódás"
+      ],
+      "targetGroups": [
+        "Ausztriában élő magyar nők",
+        "újonnan érkező magyar nők",
+        "szakmai és személyes kapcsolatokat keresők",
+        "közösségi és önfejlesztő programok iránt érdeklődők"
+      ],
+      "languages": [
+        "magyar",
+        "német"
+      ],
+      "profileVerifiedAt": "2026-09-25",
+      "evidenceSources": [
+        {
+          "label": "Lean in Femspace – hivatalos oldal",
+          "url": "https://leaninfemspace.at/",
+          "type": "official"
+        },
+        {
+          "label": "Központi Szövetség – tagszervezetek",
+          "url": "https://www.kozpontiszovetseg.at/tagszervezetek",
+          "type": "institutional"
+        }
       ]
     },
     {
@@ -1110,7 +1140,23 @@
           "url": "https://www.magyariskola.at/event-details/becscraft-2026",
           "type": "official"
         }
-      ]
+      ],
+      "activities": [
+        "városi felfedező séták",
+        "építészeti megfigyelés és felmérés",
+        "Minecraft-alapú digitális építés",
+        "havi helyszíni bejárások",
+        "kreatív és térbeli gondolkodás fejlesztése"
+      ],
+      "targetGroups": [
+        "6–15 éves gyermekek és fiatalok",
+        "építészet és városi környezet iránt érdeklődők",
+        "Minecraftot kreatív tanulásra használó gyerekek"
+      ],
+      "languages": [
+        "magyar"
+      ],
+      "profileVerifiedAt": "2026-09-25"
     },
     {
       "id": "fecske-klub",
@@ -1124,7 +1170,7 @@
         "ifjusag",
         "kultura"
       ],
-      "intro": "Bécsi és online magyar kulturális-ismeretterjesztő programgazda fiataloknak. Heti kurzusai a magyar kultúrtörténetet, történelmet, vallásokat és tudományt interaktív, beszélgetős formában dolgozzák fel.",
+      "intro": "Bécsi és online magyar kulturális-ismeretterjesztő programgazda fiataloknak. A magyar kultúrtörténetet, történelmet, vallásokat és tudományt interaktív, beszélgetős formában dolgozza fel; a 2026/27-es tanévben online és személyes csoportokat is működtet.",
       "website": "https://fecskeklub.at/",
       "facebook": null,
       "instagram": null,
@@ -1141,11 +1187,38 @@
       ],
       "evidenceSources": [
         {
-          "label": "Fecske Klub – 2026/27 programok",
+          "label": "Fecske Klub – hivatalos programoldal",
           "url": "https://fecskeklub.at/",
           "type": "official"
+        },
+        {
+          "label": "Fecske Klub – A magyarok története",
+          "url": "https://fecskeklub.at/a-magyarok-tortenete/",
+          "type": "official"
+        },
+        {
+          "label": "Fecske Klub – Titkok nyomában",
+          "url": "https://fecskeklub.at/titkok-nyomaban/",
+          "type": "official"
         }
-      ]
+      ],
+      "activities": [
+        "A magyarok története többféléves kultúrtörténeti kurzus",
+        "Fecske világjáró kulturális, vallási és tudományos programsorozat",
+        "Titkok nyomában ismeretterjesztő alkalmak",
+        "online és bécsi személyes heti foglalkozások",
+        "interaktív beszélgetésen és közös kutatáson alapuló tanulás"
+      ],
+      "targetGroups": [
+        "8 éves kortól magyar gyermekek és fiatalok",
+        "10 éves kortól kultúra, vallások és tudomány iránt érdeklődők",
+        "Ausztriában és online elérhető magyar családok"
+      ],
+      "languages": [
+        "magyar"
+      ],
+      "email": "dora.falusi@fecskeklub.at",
+      "profileVerifiedAt": "2026-09-25"
     },
     {
       "id": "amaped",
