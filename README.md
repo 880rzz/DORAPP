@@ -17,6 +17,7 @@ Egyetlen kereshető felületre hozza az Ausztriában működő magyar egyesület
 - országos eseménynaptár
 - Google Maps és Apple Maps útvonaltervezés igazolt cím esetén
 - napi automatikus eseményforrás-ellenőrzés, forrásonkénti állapotnaplóval
+- AI trust policy (`ai.txt`) és LLM útmutató (`llms.txt`)
 
 ## Architektúra
 
