@@ -1205,6 +1205,64 @@
           "type": "official"
         }
       ]
+    },
+    {
+      "id": "becsi-naplo",
+      "name": "Bécsi Napló",
+      "state": "wien",
+      "city": "Wien",
+      "type": "magyar sajtó és közösségi szervező",
+      "intro": "Bécsi magyar lap és közösségi műhely, amely nemcsak híreket és kulturális anyagokat közöl, hanem saját és közös szervezésű rendezvényekkel is kapcsolja össze a bécsi és nyugat-európai magyar közösséget.",
+      "website": "https://www.becsinaplo.eu/",
+      "facebook": null,
+      "instagram": null,
+      "eventSources": [
+        "https://www.becsinaplo.eu/",
+        "https://www.becsinaplo.eu/ezevi-programjaink"
+      ],
+      "evidenceSources": [
+        {
+          "label": "Bécsi Napló – kezdőlap",
+          "url": "https://www.becsinaplo.eu/",
+          "type": "official"
+        },
+        {
+          "label": "Bécsi Napló – programok",
+          "url": "https://www.becsinaplo.eu/ezevi-programjaink",
+          "type": "official"
+        },
+        {
+          "label": "Kőrösi Csoma Sándor Program – Bécsi Napló partner",
+          "url": "https://www.korosiprogram.hu/diaszpora/ausztria",
+          "type": "secondary"
+        }
+      ]
+    },
+    {
+      "id": "collegium-pazmanianum",
+      "name": "Collegium Pazmanianum",
+      "state": "wien",
+      "city": "Wien",
+      "type": "egyházi és kulturális intézmény",
+      "intro": "Történelmi magyar katolikus intézmény Bécsben, amely tanulmányi és vendégházként működik, emellett rendszeresen szervez könyvbemutatókat, emléknapokat, koncerteket, előadásokat, vallási és kulturális programokat.",
+      "website": "https://pazmaneum.katolikus.hu/",
+      "facebook": null,
+      "instagram": null,
+      "eventSources": [
+        "https://pazmaneum.katolikus.hu/"
+      ],
+      "evidenceSources": [
+        {
+          "label": "Collegium Pazmanianum – hivatalos oldal",
+          "url": "https://pazmaneum.katolikus.hu/",
+          "type": "official"
+        },
+        {
+          "label": "Kőrösi Csoma Sándor Program – Collegium Pazmanianum",
+          "url": "https://www.korosiprogram.hu/partnereink/collegium-pazmanianum",
+          "type": "secondary"
+        }
+      ]
     }
   ]
 }
