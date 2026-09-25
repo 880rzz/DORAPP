@@ -48,13 +48,54 @@ def addr_text(location):
 def slug(s): return re.sub(r"[^a-z0-9áéíóöőúüű]+","-",str(s).lower()).strip("-")
 def event_id(org_id,name,start): return f"{org_id}-{slug(name)}-{slug(start)}"[:180]
 
+def text_value(v):
+    if isinstance(v,str): return clean_text(v)
+    if isinstance(v,dict): return clean_text(v.get("name") or v.get("description") or "")
+    return ""
+
+def clean_text(v):
+    return re.sub(r"\s+"," ",re.sub(r"<[^>]+>"," ",unescape(str(v or "")))).strip()
+
+def offer_details(v):
+    offers=v if isinstance(v,list) else ([v] if isinstance(v,dict) else [])
+    for o in offers:
+        if not isinstance(o,dict): continue
+        url=o.get("url")
+        price=o.get("price")
+        currency=o.get("priceCurrency")
+        availability=o.get("availability")
+        if url or price is not None or currency or availability:
+            return url,price,currency,availability
+    return None,None,None,None
+
+def people_names(v):
+    vals=v if isinstance(v,list) else ([v] if v else [])
+    out=[]
+    for p in vals:
+        name=text_value(p)
+        if name and name not in out: out.append(name)
+    return out
+
 def normalize(x,org,source,discovered_from=None):
     name=str(x.get("name") or "").strip(); start=x.get("startDate")
     if not name or not start: return None
     venue,address=addr_text(x.get("location"))
+    registration,price,currency,availability=offer_details(x.get("offers"))
+    image=x.get("image")
+    if isinstance(image,list): image=image[0] if image else None
+    if isinstance(image,dict): image=image.get("url")
+    audience=x.get("audience")
+    audience_text=text_value(audience)
     return {"id":event_id(org["id"],name,start),"organizationId":org["id"],"name":name,"organizer":org["name"],
             "state":org["state"],"city":org["city"],"venue":venue,"address":address,
             "startDate":str(start),"endDate":str(x.get("endDate") or ""),
+            "description":clean_text(x.get("description")),
+            "eventStatus":text_value(x.get("eventStatus")) or None,
+            "attendanceMode":text_value(x.get("eventAttendanceMode")) or None,
+            "registrationUrl":registration,
+            "price":price,"priceCurrency":currency,"availability":availability,
+            "performers":people_names(x.get("performer") or x.get("performers")),
+            "audience":audience_text or None,"image":image,
             "sourceUrl":x.get("url") or source,"discoveredFrom":discovered_from or source,
             "verifiedAt":datetime.now(timezone.utc).isoformat()}
 
@@ -108,7 +149,10 @@ def ics_events(text,org,source,discovered_from):
         url=fields.get("URL") or source
         yield {"id":event_id(org["id"],name,start),"organizationId":org["id"],"name":name,"organizer":org["name"],
                "state":org["state"],"city":org["city"],"venue":None,"address":address,
-               "startDate":start,"endDate":end,"sourceUrl":url,"discoveredFrom":discovered_from,
+               "startDate":start,"endDate":end,"description":clean_text(fields.get("DESCRIPTION","")),
+               "registrationUrl":None,"price":None,"priceCurrency":None,"availability":None,
+               "performers":[],"audience":None,"image":None,"eventStatus":None,"attendanceMode":None,
+               "sourceUrl":url,"discoveredFrom":discovered_from,
                "verifiedAt":datetime.now(timezone.utc).isoformat()}
 
 def collect_page(url,org,root_source):
