@@ -146,6 +146,18 @@
           "sourceUrl": "https://www.kozpontiszovetseg.at/tagszervezetek",
           "verifiedAt": "2026-09-25"
         }
+      ],
+      "evidenceSources": [
+        {
+          "label": "KMCSSZ Európa – ausztriai csapatok",
+          "url": "https://www.cserkesz.eu/rolunk/",
+          "type": "secondary"
+        },
+        {
+          "label": "80. Árpád – Ausztriai körzeti tábor, Bécs–Wels–Innsbruck",
+          "url": "https://wels.cserkesz.eu/ausztriai-korzeti-tabor-2025-junius-6-9-wels/",
+          "type": "secondary"
+        }
       ]
     },
     {
@@ -950,6 +962,7 @@
       "facebook": null,
       "instagram": null,
       "eventSources": [
+        "https://wels.cserkesz.eu/programok/",
         "https://wels.cserkesz.eu/"
       ],
       "memberships": [
@@ -964,6 +977,23 @@
           "networkId": "oberoesterreich-programapik-network",
           "role": "partner",
           "sourceUrl": "https://rolunk.at/magazin/aktiv-apukak-sztereotipiadontogetes-es-hatalmas-farsangi-buli-felso-ausztriaban/"
+        }
+      ],
+      "evidenceSources": [
+        {
+          "label": "80. Árpád cserkészcsapat – programok",
+          "url": "https://wels.cserkesz.eu/programok/",
+          "type": "official"
+        },
+        {
+          "label": "80. Árpád cserkészcsapat – csapatunk",
+          "url": "https://wels.cserkesz.eu/csapatunk/",
+          "type": "official"
+        },
+        {
+          "label": "KMCSSZ Európa – ausztriai csapatok",
+          "url": "https://www.cserkesz.eu/rolunk/",
+          "type": "secondary"
         }
       ]
     },
@@ -1221,7 +1251,7 @@
       "city": "Innsbruck",
       "type": "ifjúsági közösség",
       "intro": "Innsbruck magyar cserkészcsapata gyermek- és ifjúsági foglalkozásokkal, kirándulásokkal és táborokkal.",
-      "website": null,
+      "website": "https://www.cserkesz.eu/rolunk/",
       "facebook": "https://www.facebook.com/InnsbruckiMagyarCserkeszek/",
       "instagram": null,
       "eventSources": [
@@ -1239,6 +1269,18 @@
           "networkId": "tirol-imike-network",
           "role": "partner",
           "sourceUrl": "https://volksgruppen.orf.at/magyarok/stories/3337903/"
+        }
+      ],
+      "evidenceSources": [
+        {
+          "label": "KMCSSZ Európa – 79. dr. Kozma György SJ cserkészcsapat",
+          "url": "https://www.cserkesz.eu/rolunk/",
+          "type": "official-directory"
+        },
+        {
+          "label": "80. Árpád – Ausztriai körzeti tábor, Bécs–Wels–Innsbruck",
+          "url": "https://wels.cserkesz.eu/ausztriai-korzeti-tabor-2025-junius-6-9-wels/",
+          "type": "secondary"
         }
       ]
     },
@@ -1828,6 +1870,15 @@
         "meok-graz",
         "katolikus-graz"
       ]
+    }
+  ],
+  "discoverySources": [
+    {
+      "id": "kmcssz-europa",
+      "name": "KMCSSZ Európa",
+      "role": "national-scout-discovery",
+      "url": "https://www.cserkesz.eu/rolunk/",
+      "note": "Az európai magyar cserkészcsapatok hivatalos hálózati oldala. Ausztriában Bécs, Wels és Innsbruck csapatait azonosítja."
     }
   ]
 }
