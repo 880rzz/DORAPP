@@ -2639,9 +2639,19 @@
       ],
       "evidenceSources": [
         {
-          "label": "Bécsi Főegyházmegye Magyar Közössége – hivatalos oldal és szervezeti forma",
+          "label": "Bécsi Főegyházmegye Magyar Közössége – hivatalos oldal",
           "url": "https://katolikus.at/",
           "type": "official"
+        },
+        {
+          "label": "MKPK – Bécsi Magyar Katolikus Egyházközség",
+          "url": "https://diaszpora.katolikus.hu/kozossegek/wiener-ungarische-katholische-gemeinde",
+          "type": "official"
+        },
+        {
+          "label": "Új Ember – a bécsi magyar katolikus lelkészség története",
+          "url": "https://archiv.katolikus.hu/ujember/Archivum/2003.08.17/1502.html",
+          "type": "church-media"
         }
       ],
       "regionalNetworks": [
@@ -2689,7 +2699,37 @@
       ],
       "email": "info@katolikus.at",
       "phone": "+43 676 78 57 376",
-      "profileVerifiedAt": "2026-09-25"
+      "profileVerifiedAt": "2026-09-25",
+      "founded": "1722",
+      "history": {
+        "summary": "A bécsi magyar katolikus lelkipásztori szolgálat története több évszázadra nyúlik vissza. Magyar katolikus forrás szerint 1522-ből már van adat Bécsben működő magyar lelkészről; a magyar katolikus lelkészséget 1722-ben hivatalosan elismerték, ezt Mária Terézia 1772-ben megerősítette. A második világháború után új magyar lelkipásztori korszak kezdődött, a Döblergasse 2. alatti központ pedig 1986-tól lett a magyar lelkészség székhelye.",
+        "milestones": [
+          {
+            "year": "1522",
+            "title": "Korai magyar lelkészi jelenlét",
+            "description": "Forrás említi a Bécsben élő magyar lelkész támogatását.",
+            "sourceUrl": "https://archiv.katolikus.hu/ujember/Archivum/2003.08.17/1502.html"
+          },
+          {
+            "year": "1722",
+            "title": "Hivatalos elismerés",
+            "description": "A bécsi magyar katolikus lelkészséget hivatalosan elismerik.",
+            "sourceUrl": "https://archiv.katolikus.hu/ujember/Archivum/2003.08.17/1502.html"
+          },
+          {
+            "year": "1772",
+            "title": "Mária Terézia megerősítése",
+            "description": "Mária Terézia megerősíti a magyar katolikus lelkészség státuszát.",
+            "sourceUrl": "https://archiv.katolikus.hu/ujember/Archivum/2003.08.17/1502.html"
+          },
+          {
+            "year": "1986",
+            "title": "Döblergasse-i központ",
+            "description": "A magyar lelkészség a Döblergasse 2. alatti központba költözik.",
+            "sourceUrl": "https://archiv.katolikus.hu/ujember/Archivum/2003.08.17/1502.html"
+          }
+        ]
+      }
     },
     {
       "id": "kuwu",
@@ -6324,11 +6364,46 @@
       "profileVerifiedAt": "2026-09-25",
       "evidenceSources": [
         {
+          "label": "Evangelische Kirche A.B. im Burgenland – Siget in der Wart",
+          "url": "https://evang-bgld.at/ort/siget-in-der-wart/",
+          "type": "official"
+        },
+        {
           "label": "Evangelische Kirche in Österreich – Siget in der Wart",
           "url": "https://evang.at/adressen/siget-in-der-wart/",
           "type": "official"
         }
-      ]
+      ],
+      "founded": "1561",
+      "history": {
+        "summary": "Az Őriszigeti Evangélikus Egyházközség első alapítását az egyház saját történeti bemutatása 1561-re teszi, újjászervezését pedig 1785-re. A ma álló templom 1792–1794 között épült, tornyát 1820-ban emelték; a gyülekezet istentiszteleti nyelve ma is túlnyomórészt magyar.",
+        "milestones": [
+          {
+            "year": "1561",
+            "title": "Első alapítás",
+            "description": "Az egyházi forrás szerint ekkor alapították először a gyülekezetet.",
+            "sourceUrl": "https://evang-bgld.at/ort/siget-in-der-wart/"
+          },
+          {
+            "year": "1785",
+            "title": "Újjászervezés",
+            "description": "A gyülekezetet a türelmi rendelet utáni időszakban újjászervezik.",
+            "sourceUrl": "https://evang-bgld.at/ort/siget-in-der-wart/"
+          },
+          {
+            "year": "1792–1794",
+            "title": "A templom felépítése",
+            "description": "Felépül az őriszigeti evangélikus templom.",
+            "sourceUrl": "https://evang-bgld.at/ort/siget-in-der-wart/"
+          },
+          {
+            "year": "1820",
+            "title": "A templomtorony elkészül",
+            "description": "Felépül a háromszintes torony.",
+            "sourceUrl": "https://evang-bgld.at/ort/siget-in-der-wart/"
+          }
+        ]
+      }
     },
     {
       "id": "reformatus-ifjusagi-olvasokor",
