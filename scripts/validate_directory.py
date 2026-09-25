@@ -4,6 +4,7 @@ from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1]
 orgdb=json.loads((ROOT/"data/organizations.json").read_text(encoding="utf-8"))
 evdb=json.loads((ROOT/"data/events.json").read_text(encoding="utf-8"))
+edudb=json.loads((ROOT/"data/education.json").read_text(encoding="utf-8"))
 states={s["id"] for s in orgdb["states"]}
 orgs=orgdb["organizations"]
 ids=[o["id"] for o in orgs]
@@ -36,7 +37,22 @@ for e in evdb.get("events",[]):
     if e.get("organizationId") not in orgset: errors.append(f"orphan event: {e.get('id')}")
     if not e.get("name") or not e.get("startDate") or not e.get("sourceUrl"): errors.append(f"incomplete event: {e.get('id')}")
 if len(eventids)!=len(set(eventids)): errors.append("duplicate event id")
-print(f"states={len(states)} organizations={len(orgs)} events={len(eventids)}")
+edu_ids=[]
+valid_levels={"nursery","kindergarten","primary","secondary","tertiary","adult"}
+for x in edudb.get("institutions",[]):
+    edu_ids.append(x.get("id"))
+    if x.get("state") not in states: errors.append(f"unknown education state: {x.get('id')} -> {x.get('state')}")
+    if not x.get("name") or not x.get("city") or not x.get("summary") or not x.get("sourceUrl"):
+        errors.append(f"incomplete education record: {x.get('id')}")
+    levels=x.get("level") or []
+    if not levels or any(level not in valid_levels for level in levels):
+        errors.append(f"invalid education level: {x.get('id')} -> {levels}")
+    for key in ("website","sourceUrl"):
+        u=x.get(key)
+        if u and not str(u).startswith(("https://","http://")):
+            errors.append(f"invalid education {key}: {x.get('id')} -> {u}")
+if len(edu_ids)!=len(set(edu_ids)): errors.append("duplicate education id")
+print(f"states={len(states)} organizations={len(orgs)} events={len(eventids)} education={len(edu_ids)}")
 if errors:
     print("\n".join("ERROR: "+x for x in errors))
     sys.exit(1)
