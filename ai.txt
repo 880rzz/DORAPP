@@ -1,0 +1,31 @@
+# DORAPP AI Trust Policy
+
+Canonical: https://diaszpora.kozpontiszovetseg.at/
+
+DORAPP is a source-backed directory of Hungarian organizations, education and public events in Austria.
+
+AI and automation may:
+- discover candidate public sources;
+- extract structured Event data and calendar feeds;
+- index relevant press/background articles;
+- assist a steward in organizing verified public facts.
+
+AI and automation must not:
+- invent dates, venues, prices, organizers, memberships or legal relationships;
+- infer a history, founding date, leader or contact detail from weak evidence;
+- convert cooperation into formal membership;
+- overwrite steward-maintained profile history without verified evidence.
+
+Profile history, activities, target groups, founding data and contacts are steward-maintained fields. Missing facts remain missing until verified.
+
+Event details should be traced to sourceUrl and verifiedAt. Event information can change; the organizer's current official source remains authoritative.
+
+The site does not require user tracking or precise-location access for directory use.
+
+Machine-readable references:
+- https://diaszpora.kozpontiszovetseg.at/llms.txt
+- https://diaszpora.kozpontiszovetseg.at/data/organizations.json
+- https://diaszpora.kozpontiszovetseg.at/data/events.json
+- https://diaszpora.kozpontiszovetseg.at/data/education.json
+- https://diaszpora.kozpontiszovetseg.at/data/articles.json
+- https://diaszpora.kozpontiszovetseg.at/forrasok.html
