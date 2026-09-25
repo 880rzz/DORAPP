@@ -432,10 +432,10 @@
         "primary"
       ],
       "type": "német–magyar kétnyelvű népiskola",
-      "website": "https://www.gemeinde-rotenturm.at/",
-      "officialSiteMentionsHungarian": null,
-      "summary": "Törvényileg biztosított német–magyar kétnyelvű oktatás.",
-      "sourceUrl": "https://volksgruppen.orf.at/magyarok/stories/3305688/"
+      "website": "https://www.gemeinde-rotenturm.at/einrichtungen/vs-siget",
+      "officialSiteMentionsHungarian": true,
+      "summary": "A községi oldal szerint a népiskola két osztályban német és magyar nyelven működik.",
+      "sourceUrl": "https://www.gemeinde-rotenturm.at/einrichtungen/vs-siget"
     },
     {
       "id": "bg-oberwart-bilingual",
@@ -461,10 +461,10 @@
         "tertiary"
       ],
       "type": "óvodapedagógus-képzés",
-      "website": null,
-      "officialSiteMentionsHungarian": null,
-      "summary": "Magyar pedagógiai képzési lehetőség kétnyelvű óvodai munkához.",
-      "sourceUrl": "https://volksgruppen.orf.at/magyarok/stories/3305688/"
+      "website": "https://www.bafep-oberwart.at/index.php",
+      "officialSiteMentionsHungarian": true,
+      "summary": "A BAfEP képzésében a népcsoporti nyelvek, köztük a magyar fejleszthető; a hallgatók bölcsődei, óvodai és napközis gyakorlatot is végeznek.",
+      "sourceUrl": "https://bafep-oberwart.at/index.php/ausbildung/bildungsanstalt-fuer-elementarpaedagogik"
     },
     {
       "id": "pph-burgenland-hungarian",
@@ -781,6 +781,76 @@
       "officialSiteMentionsHungarian": null,
       "summary": "Welsben működő magyar kisgyermekes közösség, amely a felső-ausztriai magyar oktatási és családi programokban is részt vesz.",
       "sourceUrl": "https://rolunk.at/videotar/"
+    },
+    {
+      "id": "kindergarten-oberwart-hungarian",
+      "name": "Städtischer Kindergarten Oberwart – magyar többnyelvű program",
+      "state": "burgenland",
+      "city": "Oberwart / Felsőőr",
+      "level": [
+        "kindergarten"
+      ],
+      "type": "magyar nyelvi óvodai program",
+      "website": "https://www.oberwart.gv.at/leben/kinderbetreuung-bildung/kindergaerten/horte/krippe",
+      "officialSiteMentionsHungarian": true,
+      "summary": "A városi óvoda saját oldalán külön magyar nyelvű óvodai tájékoztató és többnyelvűségi anyag érhető el.",
+      "sourceUrl": "https://www.oberwart.gv.at/leben/kinderbetreuung-bildung/kindergaerten/horte/krippe"
+    },
+    {
+      "id": "kindergarten-rotenturm-hungarian",
+      "name": "Kindergarten Rotenturm – magyar kétnyelvű nevelés",
+      "state": "burgenland",
+      "city": "Rotenturm an der Pinka / Vasvörösvár",
+      "level": [
+        "kindergarten"
+      ],
+      "type": "magyar–német kétnyelvű óvoda",
+      "website": "https://www.gemeinde-rotenturm.at/einrichtungen/kindergarten",
+      "officialSiteMentionsHungarian": true,
+      "summary": "A községi óvoda kétnyelvűséget támogat; magyar nyelvű óvodapedagógus és magyar nyelvi asszisztens foglalkozik a gyerekekkel.",
+      "sourceUrl": "https://www.gemeinde-rotenturm.at/einrichtungen/kindergarten"
+    },
+    {
+      "id": "vs-oberwart-hungarian",
+      "name": "Volksschule Oberwart – magyar kisebbségi oktatás",
+      "state": "burgenland",
+      "city": "Oberwart / Felsőőr",
+      "level": [
+        "primary"
+      ],
+      "type": "kisebbségi törvény szerinti magyar oktatás",
+      "website": "https://vs.oberwart.gv.at/",
+      "officialSiteMentionsHungarian": true,
+      "summary": "A 2026/27-es tanévre a népiskola magyar kisebbségi osztályokat és magyar szabadon választható foglalkozást is meghirdet.",
+      "sourceUrl": "https://vs.oberwart.gv.at/news/detail/schuleinschreibung-fuer-das-schuljar-2026-2027"
+    },
+    {
+      "id": "ems-oberwart-hungarian",
+      "name": "Europäische Mittelschule Oberwart – magyaroktatás",
+      "state": "burgenland",
+      "city": "Oberwart / Felsőőr",
+      "level": [
+        "secondary"
+      ],
+      "type": "középiskolai magyaroktatás",
+      "website": "https://www.emsoberwart.at/",
+      "officialSiteMentionsHungarian": true,
+      "summary": "Az iskola saját anyagai magyar kezdő és haladó foglalkozásokat dokumentálnak.",
+      "sourceUrl": "https://www.emsoberwart.at/wp-content/uploads/2023/07/Erhebung-NM-Betreuung-2324.pdf"
+    },
+    {
+      "id": "bg-oberpullendorf-hungarian",
+      "name": "BG/BRG/BORG Franz Liszt Oberpullendorf – magyar nyelvi képzés",
+      "state": "burgenland",
+      "city": "Oberpullendorf / Felsőpulya",
+      "level": [
+        "secondary"
+      ],
+      "type": "gimnáziumi magyar nyelvi képzés",
+      "website": "https://www.brgop.at/",
+      "officialSiteMentionsHungarian": true,
+      "summary": "A gimnázium alsó- és felső tagozatán is kínál magyar nyelvet; a mi4mi/pannon irányban és a Sprachen & Kommunikation képzésben is szerepel.",
+      "sourceUrl": "https://www.brgop.at/unterstufe/"
     }
   ]
 }
