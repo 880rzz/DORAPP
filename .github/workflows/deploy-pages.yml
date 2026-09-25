@@ -27,11 +27,12 @@ jobs:
           python -m json.tool data/articles.json >/dev/null
           python -m json.tool data/education.json >/dev/null
           python -m json.tool data/education-site-health.json >/dev/null
-          python -m py_compile scripts/update_events.py scripts/update_articles.py scripts/audit_education_sites.py scripts/validate_directory.py scripts/generate_profiles.py scripts/generate_education_profiles.py
+          python -m py_compile scripts/update_events.py scripts/update_articles.py scripts/audit_education_sites.py scripts/validate_directory.py scripts/generate_profiles.py scripts/generate_education_profiles.py scripts/generate_sitemap.py
           node --check app.js
           python scripts/validate_directory.py
           python scripts/generate_profiles.py
           python scripts/generate_education_profiles.py
+          python scripts/generate_sitemap.py
       - uses: actions/upload-pages-artifact@v3
         with:
           path: .
