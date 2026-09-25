@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 from __future__ import annotations
-import json,re,urllib.request,urllib.parse
+import json,re,time,urllib.request,urllib.parse
 from concurrent.futures import ThreadPoolExecutor,as_completed
 from pathlib import Path
 from datetime import datetime,timezone,timedelta
@@ -10,15 +10,26 @@ ROOT=Path(__file__).resolve().parents[1]
 ORG_FILE=ROOT/"data/organizations.json"
 EVENT_FILE=ROOT/"data/events.json"
 HEALTH_FILE=ROOT/"data/source-health.json"
-UA="DORAPP-AustriaHungarianPrograms/1.2 (+https://github.com/880rzz/DORAPP)"
+UA="Mozilla/5.0 (compatible; DORAPP-AustriaHungarianPrograms/1.3; +https://github.com/880rzz/DORAPP)"
 EVENT_HINT=re.compile(r"(event|events|event-details|veranstaltung|termine|program|programme|esemeny|rendezveny|calendar)",re.I)
 
 def fetch(url:str)->tuple[str,str]:
-    req=urllib.request.Request(url,headers={"User-Agent":UA,"Accept":"text/html,application/xhtml+xml,text/calendar,application/json;q=0.9,*/*;q=0.8"})
-    with urllib.request.urlopen(req,timeout=8) as r:
-        raw=r.read(3_000_000)
-        ct=r.headers.get_content_type()
-        return raw.decode(r.headers.get_content_charset() or "utf-8","replace"),ct
+    last=None
+    for attempt in range(3):
+        try:
+            req=urllib.request.Request(url,headers={"User-Agent":UA,"Accept":"text/html,application/xhtml+xml,text/calendar,application/json;q=0.9,*/*;q=0.8","Accept-Language":"hu,en;q=0.8,de;q=0.7"})
+            with urllib.request.urlopen(req,timeout=12) as r:
+                raw=r.read(3_000_000)
+                ct=r.headers.get_content_type()
+                return raw.decode(r.headers.get_content_charset() or "utf-8","replace"),ct
+        except Exception as ex:
+            last=ex
+            code=getattr(ex,"code",None)
+            if attempt<2 and (code in (429,500,502,503,504) or code is None):
+                time.sleep(1.5*(attempt+1))
+                continue
+            raise
+    raise last
 
 def jsonld_blocks(html:str):
     for b in re.findall(r'<script[^>]+type=["\']application/ld\+json["\'][^>]*>(.*?)</script>',html,re.I|re.S):
@@ -193,7 +204,7 @@ def main():
         return row,collected
 
     jobs=[(org,source) for org in orgdb["organizations"] for source in org.get("eventSources",[])]
-    with ThreadPoolExecutor(max_workers=8) as pool:
+    with ThreadPoolExecutor(max_workers=4) as pool:
         futures=[pool.submit(audit_source,org,source) for org,source in jobs]
         for future in as_completed(futures):
             row,collected=future.result()
