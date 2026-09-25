@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 from __future__ import annotations
-import json,re,urllib.parse,urllib.request
+import json,re,time,urllib.parse,urllib.request
 from concurrent.futures import ThreadPoolExecutor,as_completed
 from pathlib import Path
 from html import unescape
@@ -9,16 +9,27 @@ from datetime import datetime,timezone
 ROOT=Path(__file__).resolve().parents[1]
 ORG_FILE=ROOT/"data/organizations.json"
 OUT_FILE=ROOT/"data/articles.json"
-UA="DORAPP-ArticleCurator/1.0 (+https://github.com/880rzz/DORAPP)"
+UA="Mozilla/5.0 (compatible; DORAPP-ArticleCurator/1.1; +https://github.com/880rzz/DORAPP)"
 
 def clean(s):
     s=re.sub(r"<[^>]+>"," ",s or "")
     return re.sub(r"\s+"," ",unescape(s)).strip()
 
 def fetch(url):
-    req=urllib.request.Request(url,headers={"User-Agent":UA,"Accept":"text/html,*/*"})
-    with urllib.request.urlopen(req,timeout=8) as r:
-        return r.read(2_000_000).decode(r.headers.get_content_charset() or "utf-8","replace")
+    last=None
+    for attempt in range(3):
+        try:
+            req=urllib.request.Request(url,headers={"User-Agent":UA,"Accept":"text/html,*/*","Accept-Language":"hu,en;q=0.8,de;q=0.7"})
+            with urllib.request.urlopen(req,timeout=12) as r:
+                return r.read(2_000_000).decode(r.headers.get_content_charset() or "utf-8","replace")
+        except Exception as ex:
+            last=ex
+            code=getattr(ex,"code",None)
+            if attempt<2 and (code in (429,500,502,503,504) or code is None):
+                time.sleep(1.5*(attempt+1))
+                continue
+            raise
+    raise last
 
 def norm(s):
     s=unescape(str(s or "")).casefold()
@@ -66,7 +77,7 @@ def main():
             pass
         return o["id"],articles[:6]
 
-    with ThreadPoolExecutor(max_workers=8) as pool:
+    with ThreadPoolExecutor(max_workers=4) as pool:
         futures=[pool.submit(build_articles,o) for o in db["organizations"]]
         for future in as_completed(futures):
             org_id,articles=future.result()
