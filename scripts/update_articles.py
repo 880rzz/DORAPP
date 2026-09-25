@@ -20,16 +20,30 @@ def fetch(url):
     with urllib.request.urlopen(req,timeout=8) as r:
         return r.read(2_000_000).decode(r.headers.get_content_charset() or "utf-8","replace")
 
+def norm(s):
+    s=unescape(str(s or "")).casefold()
+    s=re.sub(r"[^a-z0-9áéíóöőúüű]+"," ",s)
+    return re.sub(r"\s+"," ",s).strip()
+
+COMMON={"magyar","ausztriai","ausztria","becsi","bécsi","wien","vienna","egyesulet","egyesület","kulturalis","kulturális","kozosseg","közösség","klub","club","verein","gruppe","csoport","iskola","media","média"}
+
 def rolunk_search(name):
     url="https://rolunk.at/?s="+urllib.parse.quote(name)
     html=fetch(url)
     found=[]
+    name_tokens=[t for t in norm(name).split() if len(t)>=4 and t not in COMMON]
+    if not name_tokens:
+        return found
     for m in re.finditer(r'<a[^>]+href=["\'](https?://rolunk\.at/[^"\']+)["\'][^>]*>(.*?)</a>',html,re.I|re.S):
         u=m.group(1).split("#")[0]
         title=clean(m.group(2))
         path=urllib.parse.urlparse(u).path.strip("/")
         if not title or len(title)<8 or not path: continue
         if any(path.startswith(x) for x in ("category/","tag/","author/","wp-","feed","page/","korabbi-cikkek")): continue
+        hay=norm(title+" "+urllib.parse.unquote(u))
+        strong=[t for t in name_tokens if t in hay]
+        if not strong:
+            continue
         if u not in [x["url"] for x in found]:
             found.append({"title":title,"url":u,"source":"Rólunk.at"})
         if len(found)>=4: break
