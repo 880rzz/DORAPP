@@ -78,6 +78,7 @@ for o in db["organizations"]:
     publisher={"@type":"Organization","@id":BASE_URL+"/#publisher","name":"Ausztriai Magyar Egyesületek és Szervezetek Központi Szövetsége","url":"https://www.kozpontiszovetseg.at/","identifier":{"@type":"PropertyValue","propertyID":"ZVR","value":"079797621"}}
     org_schema={"@type":"Organization","@id":page_url+"#organization","name":o["name"],"description":o["intro"],
        "url":page_url,"sameAs":[x for x in [o.get("website"),o.get("facebook"),o.get("instagram")] if x],
+       **({"dateModified":o.get("profileVerifiedAt")} if o.get("profileVerifiedAt") else {}),
        **({"foundingDate":o.get("founded")} if o.get("founded") else {}),
        **({"email":o.get("email")} if o.get("email") else {}),
        **({"telephone":o.get("phone")} if o.get("phone") else {}),
@@ -88,7 +89,7 @@ for o in db["organizations"]:
     if parent:
         org_schema["parentOrganization"]={"@type":"Organization","name":parent.get("name"),"url":f"{BASE_URL}/szervezetek/{parent.get('id')}.html"}
     schema={"@context":"https://schema.org","@graph":[
-      {"@type":"ProfilePage","@id":page_url+"#page","name":o["name"]+" | Magyar Programok Ausztriában","url":page_url,"inLanguage":"hu-AT","mainEntity":{"@id":page_url+"#organization"},"isPartOf":{"@id":BASE_URL+"/#website"},"publisher":{"@id":BASE_URL+"/#publisher"}},
+      {"@type":"ProfilePage","@id":page_url+"#page","name":o["name"]+" | Magyar Programok Ausztriában","url":page_url,"inLanguage":"hu-AT","mainEntity":{"@id":page_url+"#organization"},"isPartOf":{"@id":BASE_URL+"/#website"},"publisher":{"@id":BASE_URL+"/#publisher"},**({"dateModified":o.get("profileVerifiedAt")} if o.get("profileVerifiedAt") else {})},
       org_schema,
       publisher,
       {"@type":"BreadcrumbList","itemListElement":[
