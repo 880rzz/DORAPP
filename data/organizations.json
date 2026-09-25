@@ -3668,7 +3668,7 @@
         "gyermek"
       ],
       "parentOrganizationId": "hungaromedia",
-      "intro": "A Linzi Városi Könyvtár magyar gyermek- és ifjúsági részlege a HungaroMedia gondozásában, mintegy 200 magyar könyvvel és rendszeres havi magyar felolvasásokkal.",
+      "intro": "A Linzi Városi Könyvtár magyar gyermek- és ifjúsági részlege a HungaroMedia együttműködésével működik. 2025-ben több mint 150 új magyar gyermek- és ifjúsági könyv került a Wissensturm állományába; a program magyar nyelvű felolvasásokkal és olvasásnépszerűsítő eseményekkel egészül ki.",
       "website": "https://wissensturm.linz.at/bibliothek/",
       "facebook": null,
       "instagram": null,
@@ -3677,11 +3677,50 @@
       ],
       "evidenceSources": [
         {
-          "label": "Rólunk.at – magyar nyelvű könyvtár Linzben",
-          "url": "https://rolunk.at/kultura/az-olvasas-mint-kozos-nyelv-magyar-nyelvu-konyvtar-linzben/",
-          "type": "editorial"
+          "label": "Stadt Linz – Sprachenvielfalt in der Stadtbibliothek",
+          "url": "https://www.linz.at/medienservice/2025/202508_132151.php",
+          "type": "municipal"
+        },
+        {
+          "label": "Stadtbibliothek Linz – éves jelentés 2025",
+          "url": "https://wissensturm.linz.at/images/files/Jahresbericht_Stadtbibliothek_Linz_2025_web.pdf",
+          "type": "municipal"
         }
-      ]
+      ],
+      "history": {
+        "summary": "A HungaroMedia és a Linzi Városi Könyvtár együttműködése 2025-ben új magyar gyermek- és ifjúsági könyvállománnyal bővítette a Wissensturm idegen nyelvű kínálatát. A város közlése szerint több mint 150 magyar könyv került be a gyűjteménybe, és magyar nyelvű gyermekkönyv-felolvasások is indultak.",
+        "milestones": [
+          {
+            "year": "2025",
+            "title": "Magyar gyermek- és ifjúsági könyvállomány bővítése",
+            "description": "A HungaroMedia több mint 150 magyar gyermek- és ifjúsági könyvet ad a Linzi Városi Könyvtárnak.",
+            "sourceUrl": "https://www.linz.at/medienservice/2025/202508_132151.php"
+          },
+          {
+            "year": "2025",
+            "title": "Magyar nyelvű felolvasások",
+            "description": "A könyvtári együttműködés részeként magyar nyelvű gyermekkönyv-felolvasások indulnak.",
+            "sourceUrl": "https://www.linz.at/medienservice/2025/202508_132151.php"
+          }
+        ]
+      },
+      "activities": [
+        "magyar gyermek- és ifjúsági könyvek kölcsönzése",
+        "magyar nyelvű gyermekkönyv-felolvasások",
+        "anyanyelvi olvasás támogatása",
+        "többnyelvű könyvtári programok",
+        "HungaroMedia és a városi könyvtár közös kulturális programjai"
+      ],
+      "targetGroups": [
+        "Linzben és Felső-Ausztriában élő magyar gyermekek és fiatalok",
+        "magyar családok",
+        "magyar nyelvű gyermekirodalmat keresők"
+      ],
+      "languages": [
+        "magyar",
+        "német"
+      ],
+      "profileVerifiedAt": "2026-09-25"
     },
     {
       "id": "felso-ausztriai-magyarok",
@@ -4006,7 +4045,7 @@
         "nephagyomany"
       ],
       "parentOrganizationId": "ne-felejts",
-      "intro": "A linzi Ne-Felejts! Néptáncegyüttes 6–16 éveseknek indított gyermekcsoportja, rendszeres vasárnapi próbákkal és magyar néptáncoktatással.",
+      "intro": "A linzi Ne-Felejts! Néptáncegyüttes 6–16 éveseknek indított gyermekcsoportja, rendszeres vasárnapi próbákkal. A cél a magyar néptánchagyomány továbbadása és a felnőtt együttes utánpótlásának biztosítása.",
       "website": "https://ne-felejts.weebly.com/",
       "facebook": null,
       "instagram": null,
@@ -4015,11 +4054,38 @@
       ],
       "evidenceSources": [
         {
-          "label": "ORF Magyarok – új linzi gyermeknéptánccsoport",
+          "label": "ORF Magyarok – Új néptánccsoport gyerekeknek Linzben",
           "url": "https://volksgruppen.orf.at/magyarok/stories/3335688/",
-          "type": "editorial"
+          "type": "public-broadcaster"
         }
-      ]
+      ],
+      "history": {
+        "summary": "A Ne-Felejts! gyermekcsoport létrehozását 2025 végén jelentette be a linzi együttes, a rendszeres próbák indulását 2026 januárjára tervezve. A csoport a 6–16 éves korosztály számára kínál magyar néptáncoktatást, a felnőtt együttes szakmai és közösségi hátterére építve.",
+        "milestones": [
+          {
+            "year": "2025-12",
+            "title": "A gyermekcsoport meghirdetése",
+            "description": "A Ne-Felejts! bejelenti a 6–16 éveseknek szóló új linzi gyermeknéptánccsoportot.",
+            "sourceUrl": "https://volksgruppen.orf.at/magyarok/stories/3335688/"
+          }
+        ]
+      },
+      "activities": [
+        "vasárnapi gyermek-néptáncpróbák",
+        "magyar néptáncoktatás",
+        "népi játékok és közösségi táncélmény",
+        "utánpótlás-nevelés a felnőtt együttes számára",
+        "közösségi fellépések"
+      ],
+      "targetGroups": [
+        "6–16 éves magyar és magyar kultúra iránt érdeklődő gyermekek",
+        "linzi és felső-ausztriai magyar családok",
+        "néptánc iránt érdeklődő fiatalok"
+      ],
+      "languages": [
+        "magyar"
+      ],
+      "profileVerifiedAt": "2026-09-25"
     },
     {
       "id": "cserkesz-80",
@@ -4676,12 +4742,59 @@
         "kozosseg"
       ],
       "parentOrganizationId": "salzung",
-      "intro": "A SalzUNG keretében működő magyar minikönyvtár és aktív könyvklub.",
+      "intro": "A SalzUNG keretében működő Salzburgi Magyar Minikönyvtár 2020 októberében indult a magyar olvasás és irodalom népszerűsítésére. A gyűjtemény gyermek-, ifjúsági és felnőttirodalmat kínál, könyvklubokkal, író-olvasó találkozókkal és közösségi olvasási programokkal.",
       "website": "https://www.salzung.com/hu",
       "facebook": null,
       "instagram": null,
       "eventSources": [
         "https://www.salzung.com/hu"
+      ],
+      "founded": "2020-10",
+      "history": {
+        "summary": "A Salzburgi Magyar Egyesület 2020 októberében indította el a Minikönyvtár projektet. A kezdeti gyűjtemény 200–220 magyar könyvet tartalmazott, és a könyvtár hamar könyvklubokkal, online író-olvasó találkozókkal és egész ausztriai diaszpórát megszólító olvasási kampányokkal bővült.",
+        "milestones": [
+          {
+            "year": "2020-10",
+            "title": "A Minikönyvtár indulása",
+            "description": "A SalzUNG elindítja a Salzburgi Magyar Minikönyvtárat.",
+            "sourceUrl": "https://www.salzung.com/hu/projektek/minikonyvtar/minikoenyvtar"
+          },
+          {
+            "year": "2021",
+            "title": "Magyarul olvasok program",
+            "description": "A Magyar Kultúra Napján egész ausztriai diaszpórát megszólító olvasási felhívás indul.",
+            "sourceUrl": "https://www.salzung.com/hu/projektek/minikonyvtar/minikoenyvtar"
+          }
+        ]
+      },
+      "activities": [
+        "magyar könyvek kölcsönzése",
+        "gyermek-, ifjúsági és felnőttirodalmi gyűjtemény működtetése",
+        "könyvklubok",
+        "író-olvasó találkozók",
+        "online irodalmi beszélgetések",
+        "magyar olvasást népszerűsítő diaszpóraprogramok"
+      ],
+      "targetGroups": [
+        "Salzburgban élő magyar gyermekek, fiatalok és felnőttek",
+        "magyar nyelven olvasni kívánó családok",
+        "irodalom és könyvklubok iránt érdeklődők"
+      ],
+      "languages": [
+        "magyar"
+      ],
+      "profileVerifiedAt": "2026-09-25",
+      "evidenceSources": [
+        {
+          "label": "SalzUNG – A Minikönyvtár bemutatása",
+          "url": "https://www.salzung.com/hu/projektek/minikonyvtar/minikoenyvtar",
+          "type": "official"
+        },
+        {
+          "label": "SalzUNG – 2021-es programterv",
+          "url": "https://salzung.com/hu/hirek/tervezett-programjaink-a-2021-es-evben",
+          "type": "official"
+        }
       ]
     },
     {
