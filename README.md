@@ -10,7 +10,7 @@ Egyetlen kereshető felületre hozza az Ausztriában működő magyar egyesület
 
 - 9 osztrák tartomány
 - 79 szervezet, civil közösség, kulturális intézmény, médiafelület és programgazda
-- 69 oktatási intézmény/helyszín a bölcsődétől a felsőoktatásig
+- 89 oktatási intézmény/helyszín a bölcsődétől a felsőoktatásig
 - tartományi térképes kezdőlap
 - kereshető szervezeti adatbázis
 - szervezeti bemutatkozó profilok
