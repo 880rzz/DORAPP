@@ -5750,7 +5750,7 @@
       "state": "wien",
       "city": "Wien",
       "type": "egyházi és kulturális intézmény",
-      "intro": "Történelmi magyar katolikus intézmény Bécsben, amely tanulmányi és vendégházként működik, emellett rendszeresen szervez könyvbemutatókat, emléknapokat, koncerteket, előadásokat, vallási és kulturális programokat.",
+      "intro": "A Collegium Pazmanianum Pázmány Péter által alapított történelmi magyar katolikus intézmény Bécsben. Az alapítólevelet 1619. január 10-én írták alá, az intézet 1624-ben nyílt meg; ma a magyar katolikus egyház tanulmányi és vendégházaként működik az esztergom–budapesti érsek fennhatósága alatt.",
       "website": "https://pazmaneum.katolikus.hu/",
       "facebook": null,
       "instagram": null,
@@ -5759,20 +5759,74 @@
       ],
       "evidenceSources": [
         {
-          "label": "Collegium Pazmanianum – hivatalos oldal",
-          "url": "https://pazmaneum.katolikus.hu/",
+          "label": "Collegium Pazmanianum – Történet",
+          "url": "https://pazmaneum.katolikus.hu/?page_id=21",
           "type": "official"
         },
         {
-          "label": "Kőrösi Csoma Sándor Program – Collegium Pazmanianum",
-          "url": "https://www.korosiprogram.hu/partnereink/collegium-pazmanianum",
-          "type": "secondary"
+          "label": "Collegium Pazmanianum – hivatalos oldal",
+          "url": "https://pazmaneum.katolikus.hu/",
+          "type": "official"
         }
       ],
       "categories": [
         "egyhaz",
         "kultura"
-      ]
+      ],
+      "founded": "1619-01-10",
+      "history": {
+        "summary": "Pázmány Péter esztergomi érsek 1618-ban vásárolt bécsi épületet a magyar papnövendékek képzésére, majd 1619. január 10-én írta alá az alapítólevelet. Az intézet a háborús viszonyok miatt csak 1624. május 25-én nyílt meg 16 növendékkel. Több költözés és megszakítás után 1899–1900-ban épült fel a ma is használt Boltzmanngasse-i épület. 1971 és 1975 között itt élt Mindszenty József bíboros. 2001-ben a Vatikán ismét az esztergom–budapesti érsek joghatósága alá helyezte az intézményt; ma tanulmányi és vendégház.",
+        "milestones": [
+          {
+            "date": "1619-01-10",
+            "title": "Alapítólevél",
+            "description": "Pázmány Péter aláírja a Collegium Pazmanianum alapítólevelét.",
+            "sourceUrl": "https://pazmaneum.katolikus.hu/?page_id=21"
+          },
+          {
+            "date": "1624-05-25",
+            "title": "Az intézet megnyitása",
+            "description": "A Collegium 16 növendékkel megkezdi működését.",
+            "sourceUrl": "https://pazmaneum.katolikus.hu/?page_id=21"
+          },
+          {
+            "year": "1899–1900",
+            "title": "A mai épület felépítése",
+            "description": "Felépül a Boltzmanngasse-i új Pázmáneum.",
+            "sourceUrl": "https://pazmaneum.katolikus.hu/?page_id=21"
+          },
+          {
+            "year": "1971–1975",
+            "title": "Mindszenty József bécsi évei",
+            "description": "Mindszenty József bíboros a Pázmáneumban tölti élete utolsó éveit.",
+            "sourceUrl": "https://pazmaneum.katolikus.hu/?page_id=21"
+          },
+          {
+            "date": "2001-12-29",
+            "title": "Joghatóság visszaadása",
+            "description": "A Vatikán ismét az esztergom–budapesti érsek joghatósága alá helyezi a Pázmáneumot.",
+            "sourceUrl": "https://pazmaneum.katolikus.hu/?page_id=21"
+          }
+        ]
+      },
+      "activities": [
+        "tanulmányi és vendégház működtetése",
+        "magyar katolikus egyházi és kulturális programok",
+        "könyvbemutatók, előadások és emléknapok",
+        "koncertek és vallási rendezvények",
+        "magyar egyháztörténeti emlékezet ápolása"
+      ],
+      "targetGroups": [
+        "magyar katolikus egyházi közösség",
+        "Bécsben tanuló vagy tartózkodó egyházi és világi vendégek",
+        "magyar egyház- és kultúrtörténet iránt érdeklődők"
+      ],
+      "languages": [
+        "magyar",
+        "német",
+        "angol"
+      ],
+      "profileVerifiedAt": "2026-09-25"
     },
     {
       "id": "nevenincs-ovoda-innsbruck",
