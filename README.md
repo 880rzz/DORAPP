@@ -37,6 +37,7 @@ A DORAPP saját, országos adatmodellre épül, BMI-specifikus függés nélkül
 - `data/education.json` — magyar oktatási helyek és képzések
 - `data/education-site-health.json` — az oktatási weboldalak rendszeres tartalom- és elérhetőségi auditja
 - `data/articles.json` — szervezeti cikk- és háttéranyag-index
+- `docs/PROFILE_STEWARD.md` — forrásalapú történeti és profilbővítési szabályok
 
 ## Napi curator
 
@@ -52,6 +53,17 @@ Naponta:
 7. csak forrásalapú változást commitol.
 
 A rendszer nem talál ki hiányzó dátumot, helyszínt vagy szervezői kapcsolatot.
+
+## Strukturált profilbővítés
+
+A DORAPP két külön frissítési réteget használ:
+
+- **napi automatika:** események, forrásállapotok és sajtó-/háttéranyag-index;
+- **profil steward:** forrás alapján ellenőrzött történet, alapítás, mérföldkövek, tevékenységek, célcsoportok, nyelvek és kapcsolati adatok.
+
+A profilok opcionálisan kezelik a `founded`, `history`, `activities`, `targetGroups`, `languages`, `email`, `phone` és `profileVerifiedAt` mezőket. A generált szervezeti oldalak ezeket külön „Történet”, „Mit csinálnak?”, „Kiknek szól?” és „Kapcsolat és profiladatok” blokkokban jelenítik meg.
+
+A napi automatika ezeket a szerkesztett profilmezőket nem írja felül.
 
 ## Production
 
