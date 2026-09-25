@@ -71,8 +71,14 @@ def main():
         return sum(org_id.encode("utf-8")) % 7 == shard
     def build_articles(o):
         articles=[]
+        evidence_urls={e.get("url") for e in o.get("evidenceSources",[]) if e.get("url")}
         if not due_for_search(o["id"]):
             for a in previous_rows.get(o["id"],[]):
+                # Old automatic Rólunk.at search results are not carried forward
+                # unless the URL is also an explicit evidence source. This
+                # purges historic false-positive matches immediately.
+                if a.get("source")=="Rólunk.at" and a.get("url") not in evidence_urls:
+                    continue
                 if a.get("url") and a["url"] not in [x["url"] for x in articles]:
                     articles.append(a)
         for e in o.get("evidenceSources",[]):
