@@ -542,6 +542,30 @@
           "umbrellaId": "kerekasztal",
           "sourceUrl": "https://rolunk.at/nepcsoportunk/20-tagegyesuletet-fog-ossze-az-ausztriai-magyar-szervezetek-kerekasztala/",
           "verifiedAt": "2026-09-25"
+        },
+        {
+          "umbrellaId": "evangelische-kirche-austria",
+          "sourceUrl": "https://www.evangelikus.hu/hu/hireink/beszamolo/becsben-ulesezett-a-magyar-evangelikus-tanacskozo-testulet",
+          "verifiedAt": "2026-09-25"
+        }
+      ],
+      "evidenceSources": [
+        {
+          "label": "Magyar Evangélikus Egyház – ausztriai magyar gyülekezet",
+          "url": "https://www.evangelikus.hu/hu/hireink/beszamolo/becsben-ulesezett-a-magyar-evangelikus-tanacskozo-testulet",
+          "type": "secondary"
+        },
+        {
+          "label": "Rólunk.at – Wagner Szilárd és az ausztriai magyar evangélikus közösség",
+          "url": "https://rolunk.at/magazin/a-lelkeszseg-is-egy-szakma-vendegsegben-wagner-szilard-evangelikus-lelkesznel/",
+          "type": "secondary"
+        }
+      ],
+      "regionalNetworks": [
+        {
+          "networkId": "hungarian-evangelical-austria",
+          "role": "hub",
+          "sourceUrl": "https://www.evangelikus.hu/hu/hireink/beszamolo/becsben-ulesezett-a-magyar-evangelikus-tanacskozo-testulet"
         }
       ]
     },
@@ -556,7 +580,34 @@
       "facebook": null,
       "instagram": null,
       "eventSources": [
-        "https://reformatus.at/"
+        "https://www.reformatus.at/",
+        "https://www.reformatus.at/events/2026/"
+      ],
+      "memberships": [
+        {
+          "umbrellaId": "reformierte-kirche-austria",
+          "sourceUrl": "https://www.reformatus.at/contact/",
+          "verifiedAt": "2026-09-25"
+        }
+      ],
+      "evidenceSources": [
+        {
+          "label": "Ausztriai Magyar Református Lelkigondozó Szolgálat – kapcsolat és helyszínek",
+          "url": "https://www.reformatus.at/contact/",
+          "type": "official"
+        },
+        {
+          "label": "Ausztriai Magyar Református Lelkigondozó Szolgálat – 2026 alkalmak",
+          "url": "https://www.reformatus.at/",
+          "type": "official"
+        }
+      ],
+      "regionalNetworks": [
+        {
+          "networkId": "hungarian-reformed-austria",
+          "role": "hub",
+          "sourceUrl": "https://www.reformatus.at/contact/"
+        }
       ]
     },
     {
@@ -577,6 +628,25 @@
           "umbrellaId": "kerekasztal",
           "sourceUrl": "https://rolunk.at/nepcsoportunk/20-tagegyesuletet-fog-ossze-az-ausztriai-magyar-szervezetek-kerekasztala/",
           "verifiedAt": "2026-09-25"
+        },
+        {
+          "umbrellaId": "erzdioezese-wien",
+          "sourceUrl": "https://katolikus.at/",
+          "verifiedAt": "2026-09-25"
+        }
+      ],
+      "evidenceSources": [
+        {
+          "label": "Bécsi Főegyházmegye Magyar Közössége – hivatalos oldal",
+          "url": "https://katolikus.at/",
+          "type": "official"
+        }
+      ],
+      "regionalNetworks": [
+        {
+          "networkId": "vienna-hungarian-catholic-network",
+          "role": "hub",
+          "sourceUrl": "https://katolikus.at/"
         }
       ]
     },
@@ -1142,6 +1212,11 @@
           "networkId": "graz-community-network",
           "role": "partner",
           "sourceUrl": "https://rolunk.at/nepcsoportunk/grazi-magyar-egyesulet/"
+        },
+        {
+          "networkId": "hungarian-evangelical-austria",
+          "role": "partner",
+          "sourceUrl": "https://www.evangelikus.hu/hu/hireink/beszamolo/becsben-ulesezett-a-magyar-evangelikus-tanacskozo-testulet"
         }
       ]
     },
@@ -1473,6 +1548,13 @@
       "instagram": null,
       "eventSources": [
         "https://www.die-reformierten.at/"
+      ],
+      "regionalNetworks": [
+        {
+          "networkId": "hungarian-reformed-austria",
+          "role": "partner",
+          "sourceUrl": "https://www.reformatus.at/contact/"
+        }
       ]
     },
     {
@@ -1487,6 +1569,20 @@
       "instagram": null,
       "eventSources": [
         "https://www.evang-bgld.at/"
+      ],
+      "memberships": [
+        {
+          "umbrellaId": "evangelische-kirche-austria",
+          "sourceUrl": "https://www.evangelikus.hu/hu/hireink/beszamolo/becsben-ulesezett-a-magyar-evangelikus-tanacskozo-testulet",
+          "verifiedAt": "2026-09-25"
+        }
+      ],
+      "regionalNetworks": [
+        {
+          "networkId": "hungarian-evangelical-austria",
+          "role": "partner",
+          "sourceUrl": "https://www.evangelikus.hu/hu/hireink/beszamolo/becsben-ulesezett-a-magyar-evangelikus-tanacskozo-testulet"
+        }
       ]
     },
     {
@@ -1839,6 +1935,27 @@
       "fullName": "Külföldi Magyar Cserkészszövetség – Európai Kerület",
       "url": "https://www.cserkesz.eu/",
       "membersUrl": "https://www.cserkesz.eu/rolunk/"
+    },
+    {
+      "id": "evangelische-kirche-austria",
+      "name": "Ausztriai Evangélikus Egyház",
+      "fullName": "Evangelische Kirche A.B. in Österreich",
+      "url": "https://evang.at/",
+      "membersUrl": "https://www.evangelikus.hu/hu/hireink/beszamolo/becsben-ulesezett-a-magyar-evangelikus-tanacskozo-testulet"
+    },
+    {
+      "id": "reformierte-kirche-austria",
+      "name": "Ausztriai Református Egyház",
+      "fullName": "Evangelische Kirche H.B. in Österreich",
+      "url": "https://reformiert.at/",
+      "membersUrl": "https://www.reformatus.at/contact/"
+    },
+    {
+      "id": "erzdioezese-wien",
+      "name": "Bécsi Főegyházmegye",
+      "fullName": "Erzdiözese Wien – Referat für Anderssprachige Gemeinden",
+      "url": "https://www.erzdioezese-wien.at/",
+      "membersUrl": "https://katolikus.at/"
     }
   ],
   "regionalNetworks": [
@@ -1902,6 +2019,42 @@
         "grazi-magyar-egyesulet",
         "meok-graz",
         "katolikus-graz"
+      ]
+    },
+    {
+      "id": "hungarian-evangelical-austria",
+      "name": "Ausztriai magyar evangélikus háló",
+      "hubOrganizationId": "evangelikus-gyulekezet",
+      "region": "austria",
+      "description": "Az Ausztriai Magyar Evangélikus Gyülekezet országos szolgálati hálója, rendszeres bécsi és grazi magyar alkalmak mellett.",
+      "sourceUrl": "https://www.evangelikus.hu/hu/hireink/beszamolo/becsben-ulesezett-a-magyar-evangelikus-tanacskozo-testulet",
+      "members": [
+        "evangelikus-gyulekezet",
+        "oriszigeti-evangelikus",
+        "katolikus-graz"
+      ]
+    },
+    {
+      "id": "hungarian-reformed-austria",
+      "name": "Ausztriai magyar református szolgálati háló",
+      "hubOrganizationId": "reformatus-szolgalat",
+      "region": "austria",
+      "description": "Az Ausztriai Magyar Református Lelkigondozó Szolgálat bécsi és Linz–Leonding köré szerveződő szolgálati hálója.",
+      "sourceUrl": "https://www.reformatus.at/contact/",
+      "members": [
+        "reformatus-szolgalat",
+        "felsoori-reformatus"
+      ]
+    },
+    {
+      "id": "vienna-hungarian-catholic-network",
+      "name": "Bécsi főegyházmegye magyar katolikus háló",
+      "hubOrganizationId": "katolikus-wien",
+      "region": "wien-niederoesterreich",
+      "description": "A Bécsi Főegyházmegye magyar közösségéhez tartozó bécsi, badeni és bécsújhelyi magyar katolikus alkalmak hálózata.",
+      "sourceUrl": "https://katolikus.at/",
+      "members": [
+        "katolikus-wien"
       ]
     }
   ],
