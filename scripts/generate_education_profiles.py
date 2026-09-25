@@ -15,6 +15,7 @@ org=json.loads(ORG.read_text(encoding="utf-8"))
 health=json.loads(HEALTH.read_text(encoding="utf-8")) if HEALTH.exists() else {"sites":[]}
 states={s["id"]:s["name"] for s in org.get("states",[])}
 health_by_id={x["id"]:x for x in health.get("sites",[])}
+EDU_UPDATED=str(ed.get("updated") or "")[:10]
 
 LEVELS={
  "nursery":"Bölcsőde / 0–3 év",
@@ -53,9 +54,10 @@ for x in ed.get("institutions",[]):
        "url":x.get("website") or page_url,
        **({"sameAs":[x.get("website")]} if x.get("website") else {}),
        "areaServed":{"@type":"AdministrativeArea","name":states.get(x["state"],x["state"])},
-       "location":{"@type":"Place","address":{"@type":"PostalAddress","addressLocality":x["city"],"addressCountry":"AT"}}}
+       "location":{"@type":"Place","address":{"@type":"PostalAddress","addressLocality":x["city"],"addressCountry":"AT"}},
+       **({"dateModified":EDU_UPDATED} if EDU_UPDATED else {})}
     schema={"@context":"https://schema.org","@graph":[
-      {"@type":"ProfilePage","@id":page_url+"#page","name":x["name"]+" | Magyar oktatás Ausztriában","url":page_url,"inLanguage":"hu-AT","mainEntity":{"@id":page_url+"#education"},"isPartOf":{"@id":BASE_URL+"/#website"},"publisher":{"@id":BASE_URL+"/#publisher"}},
+      {"@type":"ProfilePage","@id":page_url+"#page","name":x["name"]+" | Magyar oktatás Ausztriában","url":page_url,"inLanguage":"hu-AT","mainEntity":{"@id":page_url+"#education"},"isPartOf":{"@id":BASE_URL+"/#website"},"publisher":{"@id":BASE_URL+"/#publisher"},**({"dateModified":EDU_UPDATED} if EDU_UPDATED else {})},
       edu_schema,publisher,
       {"@type":"BreadcrumbList","itemListElement":[
         {"@type":"ListItem","position":1,"name":"Magyar Programok Ausztriában","item":BASE_URL+"/"},
