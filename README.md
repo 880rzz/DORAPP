@@ -57,7 +57,9 @@ A rendszer nem talál ki hiányzó dátumot, helyszínt vagy szervezői kapcsola
 
 Statikus frontend. GitHub Pages deployment a `.github/workflows/deploy-pages.yml` workflow-val.
 
-Production domain még nincs rögzítve; canonical/sitemap csak a végleges domain kiválasztása után kerül be.
+Production domain: `https://diaszpora.kozpontiszovetseg.at`.
+
+A canonical URL-ek, sitemap, robots és GitHub Pages CNAME ezt a domaint használják.
 
 
 ## Regionális együttműködési hálók
