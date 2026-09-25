@@ -1,6 +1,13 @@
 name: Austria Hungarian program daily curator
 on:
   workflow_dispatch:
+  push:
+    branches: ["main"]
+    paths:
+      - "data/organizations.json"
+      - "scripts/update_articles.py"
+      - "scripts/update_events.py"
+      - ".github/workflows/austria-hungarian-program-curator.yml"
   schedule:
     - cron: "17 4 * * *"
 permissions:
