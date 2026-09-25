@@ -1,0 +1,44 @@
+name: Education website audit
+on:
+  workflow_dispatch:
+  push:
+    branches: ["main"]
+    paths:
+      - "data/education.json"
+      - "scripts/audit_education_sites.py"
+      - ".github/workflows/education-site-audit.yml"
+  schedule:
+    - cron: "41 4 * * *"
+permissions:
+  contents: write
+concurrency:
+  group: dorapp-education-site-audit
+  cancel-in-progress: true
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Validate audit code and data
+        run: |
+          python -m py_compile scripts/audit_education_sites.py scripts/validate_directory.py
+          python -m json.tool data/education.json >/dev/null
+          python scripts/validate_directory.py
+      - name: Audit every education website
+        run: python scripts/audit_education_sites.py
+      - name: Validate result
+        run: python -m json.tool data/education-site-health.json >/dev/null
+      - name: Commit audit result
+        run: |
+          if git diff --quiet -- data/education-site-health.json; then
+            echo "No education site audit changes"
+            exit 0
+          fi
+          git config user.name "dorapp-education-audit[bot]"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/education-site-health.json
+          git commit -m "chore(education): refresh website audit"
+          git push
