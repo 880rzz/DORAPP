@@ -529,7 +529,7 @@
       "state": "wien",
       "city": "Wien",
       "level": [
-        "kindergarten"
+        "nursery"
       ],
       "type": "0–3 éves magyar foglalkozás",
       "website": "https://www.magyariskola.at/",
@@ -543,7 +543,7 @@
       "state": "wien",
       "city": "Wien",
       "level": [
-        "kindergarten"
+        "nursery"
       ],
       "type": "0–3 éves baba–mama–papa foglalkozás",
       "website": "https://amaped.at/",
@@ -557,6 +557,7 @@
       "state": "wien",
       "city": "Wien / Baden",
       "level": [
+        "nursery",
         "kindergarten"
       ],
       "type": "0–6 éves zenei nevelés",
@@ -954,6 +955,20 @@
       "officialSiteMentionsHungarian": true,
       "summary": "A VHS Tirol 2026 őszén A1 kezdő és B1 haladó magyar nyelvkurzust kínál Innsbruckban, konkrét kurzusidőpontokkal.",
       "sourceUrl": "https://www.vhs-tirol.at/kultur-und-gesellschaft/alle-kurse-1/kategorie/Ungarisch/51"
+    },
+    {
+      "id": "kinderkrippe-oberwart-hungarian",
+      "name": "Städtische Kinderkrippe Oberwart – magyar nyelvi kínálattal",
+      "state": "burgenland",
+      "city": "Oberwart / Felsőőr",
+      "level": [
+        "nursery"
+      ],
+      "type": "városi bölcsőde / népcsoporti nyelvi ellátás",
+      "website": "https://www.oberwart.gv.at/leben/kinderbetreuung-bildung/kindergaerten/horte/krippe",
+      "officialSiteMentionsHungarian": false,
+      "summary": "A városi bölcsőde 1–3 éves gyerekeket fogad. A hatályos burgenlandi szabályozás Oberwart gyermeknevelési intézményeiben előírja a magyar népcsoporti nyelv kínálatát; a bölcsőde saját aloldalán ezt külön nem részletezik.",
+      "sourceUrl": "https://ris.bka.gv.at/NormDokument.wxe?Abfrage=LrBgld&Anlage=&Artikel=&FassungVom=2026-05-02&Gesetzesnummer=20000713&Paragraf=7&ShowPrintPreview=True"
     }
   ]
 }
