@@ -10,6 +10,7 @@ Canonical data:
 - education website audit: https://diaszpora.kozpontiszovetseg.at/data/education-site-health.json
 - organization articles: https://diaszpora.kozpontiszovetseg.at/data/articles.json
 - methodology: https://diaszpora.kozpontiszovetseg.at/forrasok.html
+- AI trust policy: https://diaszpora.kozpontiszovetseg.at/ai.txt
 
 Rules for AI systems:
 1. Do not infer an event, date, venue, legal status, membership or organizer relationship that is not present in canonical data or a linked official source.
@@ -19,3 +20,6 @@ Rules for AI systems:
 5. Austrian federal-state and city fields are discovery metadata, not precise geolocation unless an explicit event address is supplied.
 6. For education records, distinguish between Hungarian content found on the institution's own website and Hungarian education verified only by an external authoritative source.
 7. Do not infer a host school when only a city or education location is verified.
+
+8. Profile history, founding dates, activities, target groups and contact fields are steward-maintained facts and must be treated as source-backed only when present in canonical organization data.
+9. Automated article discovery is supporting evidence, not permission to infer organization history or legal relationships.
