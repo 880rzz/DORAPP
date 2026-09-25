@@ -84,7 +84,8 @@ def main():
         for e in o.get("evidenceSources",[]):
             u=e.get("url","")
             if any(d in u for d in ("rolunk.at/","volksgruppen.orf.at/","becsinaplo.at/","becsinaplo.eu/")):
-                articles.append({"title":e.get("label") or u,"url":u,"source":"Rólunk.at" if "rolunk.at" in u else ("ORF Volksgruppen" if "orf.at" in u else "Bécsi Napló")})
+                if u not in [x.get("url") for x in articles]:
+                    articles.append({"title":e.get("label") or u,"url":u,"source":"Rólunk.at" if "rolunk.at" in u else ("ORF Volksgruppen" if "orf.at" in u else "Bécsi Napló")})
         if due_for_search(o["id"]):
             try:
                 for a in rolunk_search(o["name"]):
