@@ -11,10 +11,26 @@ ids=[o["id"] for o in orgs]
 errors=[]
 umbrella_ids={u.get("id") for u in orgdb.get("umbrellaOrganizations",[])}
 network_ids={n.get("id") for n in orgdb.get("regionalNetworks",[])}
+category_ids={x.get("id") for x in orgdb.get("categoryDefinitions",[])}
 if len(ids)!=len(set(ids)): errors.append("duplicate organization id")
 for o in orgs:
     if o.get("state") not in states: errors.append(f"unknown state: {o.get('id')} -> {o.get('state')}")
     if not o.get("name") or not o.get("city") or not o.get("intro"): errors.append(f"incomplete organization: {o.get('id')}")
+    parent=o.get("parentOrganizationId")
+    if parent and parent not in set(ids):
+        errors.append(f"unknown parent organization: {o.get('id')} -> {parent}")
+    for cat in o.get("categories",[]):
+        if cat not in category_ids:
+            errors.append(f"unknown category: {o.get('id')} -> {cat}")
+    for a in o.get("affiliations",[]):
+        if a.get("organizationId") not in set(ids):
+            errors.append(f"unknown affiliation: {o.get('id')} -> {a.get('organizationId')}")
+        su=a.get("sourceUrl")
+        if su and not str(su).startswith(("http://","https://")):
+            errors.append(f"invalid affiliation source: {o.get('id')}")
+    for evi in o.get("evidenceSources",[]):
+        if not isinstance(evi,dict) or not str(evi.get("url","")).startswith(("http://","https://")):
+            errors.append(f"invalid evidence source: {o.get('id')}")
     for m in o.get("memberships",[]):
         if m.get("umbrellaId") not in umbrella_ids:
             errors.append(f"unknown umbrella membership: {o.get('id')} -> {m.get('umbrellaId')}")
@@ -59,6 +75,9 @@ for e in evdb.get("events",[]):
     eventids.append(e.get("id"))
     if e.get("organizationId") not in orgset: errors.append(f"orphan event: {e.get('id')}")
     if not e.get("name") or not e.get("startDate") or not e.get("sourceUrl"): errors.append(f"incomplete event: {e.get('id')}")
+    for key in ("sourceUrl","registrationUrl"):
+        u=e.get(key)
+        if u and not str(u).startswith(("https://","http://")): errors.append(f"invalid event {key}: {e.get('id')} -> {u}")
 if len(eventids)!=len(set(eventids)): errors.append("duplicate event id")
 edu_ids=[]
 valid_levels={"nursery","kindergarten","primary","secondary","tertiary","adult"}
