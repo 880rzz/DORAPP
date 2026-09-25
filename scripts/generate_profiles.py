@@ -77,7 +77,7 @@ for o in db["organizations"]:
     page_url=f"{BASE_URL}/szervezetek/{o['id']}.html"
     publisher={"@type":"Organization","@id":BASE_URL+"/#publisher","name":"Ausztriai Magyar Egyesületek és Szervezetek Központi Szövetsége","url":"https://www.kozpontiszovetseg.at/","identifier":{"@type":"PropertyValue","propertyID":"ZVR","value":"079797621"}}
     org_schema={"@type":"Organization","@id":page_url+"#organization","name":o["name"],"description":o["intro"],
-       "url":primary_link or page_url,"sameAs":[x for x in [o.get("website"),o.get("facebook"),o.get("instagram")] if x],
+       "url":page_url,"sameAs":[x for x in [o.get("website"),o.get("facebook"),o.get("instagram")] if x],
        **({"foundingDate":o.get("founded")} if o.get("founded") else {}),
        **({"email":o.get("email")} if o.get("email") else {}),
        **({"telephone":o.get("phone")} if o.get("phone") else {}),
