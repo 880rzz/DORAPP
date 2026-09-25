@@ -4,10 +4,13 @@ from pathlib import Path
 
 ROOT=Path(__file__).resolve().parents[1]
 OUT=ROOT/"szervezetek"
-DATA=ROOT/"data/organizations.json"\nARTICLES=ROOT/"data/articles.json"
+DATA=ROOT/"data/organizations.json"
+ARTICLES=ROOT/"data/articles.json"
 OUT.mkdir(exist_ok=True)
 db=json.loads(DATA.read_text(encoding="utf-8"))
-states={s["id"]:s["name"] for s in db["states"]}\numbrellas={u["id"]:u for u in db.get("umbrellaOrganizations",[])}\narticle_db=json.loads(ARTICLES.read_text(encoding="utf-8")) if ARTICLES.exists() else {"articles":{}}
+states={s["id"]:s["name"] for s in db["states"]}
+umbrellas={u["id"]:u for u in db.get("umbrellaOrganizations",[])}
+article_db=json.loads(ARTICLES.read_text(encoding="utf-8")) if ARTICLES.exists() else {"articles":{}}
 
 def esc(v): return html.escape(str(v or ""),quote=True)
 
