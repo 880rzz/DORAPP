@@ -30,6 +30,29 @@ for o in orgs:
         if u and not str(u).startswith(("https://","http://")): errors.append(f"invalid {key}: {o.get('id')} -> {u}")
     for u in o.get("eventSources",[]):
         if not str(u).startswith(("https://","http://")): errors.append(f"invalid event source: {o.get('id')} -> {u}")
+    history=o.get("history") or {}
+    if history and not isinstance(history,dict):
+        errors.append(f"invalid history object: {o.get('id')}")
+    elif history:
+        if history.get("summary") is not None and not isinstance(history.get("summary"),str):
+            errors.append(f"invalid history summary: {o.get('id')}")
+        milestones=history.get("milestones") or []
+        if not isinstance(milestones,list):
+            errors.append(f"invalid history milestones: {o.get('id')}")
+        else:
+            for m in milestones:
+                if not isinstance(m,dict):
+                    errors.append(f"invalid milestone: {o.get('id')}")
+                    continue
+                su=m.get("sourceUrl")
+                if su and not str(su).startswith(("https://","http://")):
+                    errors.append(f"invalid milestone source: {o.get('id')} -> {su}")
+    for key in ("activities","targetGroups","languages"):
+        value=o.get(key)
+        if value is not None and (not isinstance(value,list) or any(not isinstance(x,str) or not x.strip() for x in value)):
+            errors.append(f"invalid {key}: {o.get('id')}")
+    if o.get("profileVerifiedAt") is not None and not isinstance(o.get("profileVerifiedAt"),str):
+        errors.append(f"invalid profileVerifiedAt: {o.get('id')}")
 orgset=set(ids)
 eventids=[]
 for e in evdb.get("events",[]):
