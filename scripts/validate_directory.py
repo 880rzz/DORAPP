@@ -1,10 +1,11 @@
 #!/usr/bin/env python3
-import json,sys
+import json,sys,re
 from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1]
 orgdb=json.loads((ROOT/"data/organizations.json").read_text(encoding="utf-8"))
 evdb=json.loads((ROOT/"data/events.json").read_text(encoding="utf-8"))
 edudb=json.loads((ROOT/"data/education.json").read_text(encoding="utf-8"))
+artdb=json.loads((ROOT/"data/articles.json").read_text(encoding="utf-8"))
 states={s["id"] for s in orgdb["states"]}
 orgs=orgdb["organizations"]
 ids=[o["id"] for o in orgs]
@@ -13,6 +14,9 @@ umbrella_ids={u.get("id") for u in orgdb.get("umbrellaOrganizations",[])}
 network_ids={n.get("id") for n in orgdb.get("regionalNetworks",[])}
 category_ids={x.get("id") for x in orgdb.get("categoryDefinitions",[])}
 if len(ids)!=len(set(ids)): errors.append("duplicate organization id")
+name_keys=[" ".join(str(o.get("name","")).casefold().split()) for o in orgs]
+if len(name_keys)!=len(set(name_keys)): errors.append("duplicate organization name")
+valid_evidence_types={"official","official-publication","institutional","public-broadcaster","first-party","government","church-official","municipal","community-media","reference","secondary"}
 for o in orgs:
     if o.get("state") not in states: errors.append(f"unknown state: {o.get('id')} -> {o.get('state')}")
     if not o.get("name") or not o.get("city") or not o.get("intro"): errors.append(f"incomplete organization: {o.get('id')}")
@@ -28,9 +32,20 @@ for o in orgs:
         su=a.get("sourceUrl")
         if su and not str(su).startswith(("http://","https://")):
             errors.append(f"invalid affiliation source: {o.get('id')}")
+    seen_evidence=set()
     for evi in o.get("evidenceSources",[]):
         if not isinstance(evi,dict) or not str(evi.get("url","")).startswith(("http://","https://")):
             errors.append(f"invalid evidence source: {o.get('id')}")
+            continue
+        if evi.get("type") not in valid_evidence_types:
+            errors.append(f"unknown evidence type: {o.get('id')} -> {evi.get('type')}")
+        eu=str(evi.get("url"))
+        if eu in seen_evidence:
+            errors.append(f"duplicate evidence source: {o.get('id')} -> {eu}")
+        seen_evidence.add(eu)
+    email=o.get("email")
+    if email and not re.match(r"^[^@\s]+@[^@\s]+\.[^@\s]+$",str(email)):
+        errors.append(f"invalid email: {o.get('id')} -> {email}")
     for m in o.get("memberships",[]):
         if m.get("umbrellaId") not in umbrella_ids:
             errors.append(f"unknown umbrella membership: {o.get('id')} -> {m.get('umbrellaId')}")
@@ -94,6 +109,16 @@ for x in edudb.get("institutions",[]):
         if u and not str(u).startswith(("https://","http://")):
             errors.append(f"invalid education {key}: {x.get('id')} -> {u}")
 if len(edu_ids)!=len(set(edu_ids)): errors.append("duplicate education id")
+for org_id,items in (artdb.get("articles") or {}).items():
+    seen=set()
+    for a in items:
+        u=str(a.get("url","")).strip() if isinstance(a,dict) else ""
+        if not u.startswith(("http://","https://")):
+            errors.append(f"invalid article source: {org_id}")
+            continue
+        if u in seen:
+            errors.append(f"duplicate article source: {org_id} -> {u}")
+        seen.add(u)
 print(f"states={len(states)} organizations={len(orgs)} events={len(eventids)} education={len(edu_ids)}")
 if errors:
     print("\n".join("ERROR: "+x for x in errors))
