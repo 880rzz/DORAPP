@@ -5,10 +5,8 @@ on:
     branches: ["main"]
     paths:
       - "data/organizations.json"
-      - "data/education.json"
       - "scripts/update_articles.py"
       - "scripts/update_events.py"
-      - "scripts/audit_education_sites.py"
       - ".github/workflows/austria-hungarian-program-curator.yml"
   schedule:
     - cron: "17 4 * * *"
@@ -26,13 +24,11 @@ jobs:
         with:
           python-version: "3.12"
       - name: Compile curator
-        run: python -m py_compile scripts/update_events.py scripts/update_articles.py scripts/audit_education_sites.py scripts/validate_directory.py
+        run: python -m py_compile scripts/update_events.py scripts/update_articles.py scripts/validate_directory.py
       - name: Refresh verified event sources
         run: python scripts/update_events.py
       - name: Refresh organization articles
         run: python scripts/update_articles.py
-      - name: Audit education websites
-        run: python scripts/audit_education_sites.py
       - name: Validate directory integrity
         run: python scripts/validate_directory.py
       - name: Validate JSON
@@ -42,10 +38,9 @@ jobs:
           python -m json.tool data/source-health.json >/dev/null
           python -m json.tool data/articles.json >/dev/null
           python -m json.tool data/education.json >/dev/null
-          python -m json.tool data/education-site-health.json >/dev/null
       - name: Commit source-backed changes
         run: |
-          if git diff --quiet -- data/events.json data/source-health.json data/articles.json data/education-site-health.json; then
+          if git diff --quiet -- data/events.json data/source-health.json data/articles.json; then
             echo "No data changes"
             exit 0
           fi
