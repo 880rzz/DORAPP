@@ -567,6 +567,16 @@
           "role": "hub",
           "sourceUrl": "https://www.evangelikus.hu/hu/hireink/beszamolo/becsben-ulesezett-a-magyar-evangelikus-tanacskozo-testulet"
         }
+      ],
+      "serviceLocations": [
+        {
+          "city": "Wien",
+          "label": "Bécs – rendszeres magyar istentisztelet"
+        },
+        {
+          "city": "Graz",
+          "label": "Graz – rendszeres magyar istentisztelet"
+        }
       ]
     },
     {
@@ -608,6 +618,16 @@
           "role": "hub",
           "sourceUrl": "https://www.reformatus.at/contact/"
         }
+      ],
+      "serviceLocations": [
+        {
+          "city": "Wien",
+          "label": "Bécs – Dorotheergasse 16."
+        },
+        {
+          "city": "Leonding",
+          "label": "Linz–Leonding – Haidfeldstrasse 6."
+        }
       ]
     },
     {
@@ -647,6 +667,20 @@
           "networkId": "vienna-hungarian-catholic-network",
           "role": "hub",
           "sourceUrl": "https://katolikus.at/"
+        }
+      ],
+      "serviceLocations": [
+        {
+          "city": "Wien",
+          "label": "Bécs – magyar szentmisék"
+        },
+        {
+          "city": "Baden",
+          "label": "Baden – havi magyar szentmise"
+        },
+        {
+          "city": "Wiener Neustadt",
+          "label": "Bécsújhely – havi magyar szentmise"
         }
       ]
     },
@@ -1212,11 +1246,6 @@
           "networkId": "graz-community-network",
           "role": "partner",
           "sourceUrl": "https://rolunk.at/nepcsoportunk/grazi-magyar-egyesulet/"
-        },
-        {
-          "networkId": "hungarian-evangelical-austria",
-          "role": "partner",
-          "sourceUrl": "https://www.evangelikus.hu/hu/hireink/beszamolo/becsben-ulesezett-a-magyar-evangelikus-tanacskozo-testulet"
         }
       ]
     },
@@ -1548,13 +1577,6 @@
       "instagram": null,
       "eventSources": [
         "https://www.die-reformierten.at/"
-      ],
-      "regionalNetworks": [
-        {
-          "networkId": "hungarian-reformed-austria",
-          "role": "partner",
-          "sourceUrl": "https://www.reformatus.at/contact/"
-        }
       ]
     },
     {
@@ -1575,13 +1597,6 @@
           "umbrellaId": "evangelische-kirche-austria",
           "sourceUrl": "https://www.evangelikus.hu/hu/hireink/beszamolo/becsben-ulesezett-a-magyar-evangelikus-tanacskozo-testulet",
           "verifiedAt": "2026-09-25"
-        }
-      ],
-      "regionalNetworks": [
-        {
-          "networkId": "hungarian-evangelical-austria",
-          "role": "partner",
-          "sourceUrl": "https://www.evangelikus.hu/hu/hireink/beszamolo/becsben-ulesezett-a-magyar-evangelikus-tanacskozo-testulet"
         }
       ]
     },
@@ -2026,12 +2041,10 @@
       "name": "Ausztriai magyar evangélikus háló",
       "hubOrganizationId": "evangelikus-gyulekezet",
       "region": "austria",
-      "description": "Az Ausztriai Magyar Evangélikus Gyülekezet országos szolgálati hálója, rendszeres bécsi és grazi magyar alkalmak mellett.",
+      "description": "Az Ausztriai Magyar Evangélikus Gyülekezet országos szolgálata, rendszeres bécsi és grazi magyar alkalmak mellett. Őrisziget külön egyházi egység.",
       "sourceUrl": "https://www.evangelikus.hu/hu/hireink/beszamolo/becsben-ulesezett-a-magyar-evangelikus-tanacskozo-testulet",
       "members": [
-        "evangelikus-gyulekezet",
-        "oriszigeti-evangelikus",
-        "katolikus-graz"
+        "evangelikus-gyulekezet"
       ]
     },
     {
@@ -2039,11 +2052,10 @@
       "name": "Ausztriai magyar református szolgálati háló",
       "hubOrganizationId": "reformatus-szolgalat",
       "region": "austria",
-      "description": "Az Ausztriai Magyar Református Lelkigondozó Szolgálat bécsi és Linz–Leonding köré szerveződő szolgálati hálója.",
+      "description": "Az Ausztriai Magyar Református Lelkigondozó Szolgálat bécsi és Linz–Leonding helyszíneken működő magyar szolgálati hálója.",
       "sourceUrl": "https://www.reformatus.at/contact/",
       "members": [
-        "reformatus-szolgalat",
-        "felsoori-reformatus"
+        "reformatus-szolgalat"
       ]
     },
     {
