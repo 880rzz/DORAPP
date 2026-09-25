@@ -1,0 +1,527 @@
+{
+  "updated": "2026-09-25",
+  "methodology": "Az intézmények csak akkor kerülnek be, ha magyar nyelvű oktatásukat vagy magyar közösségi programjukat ORF, hivatalos intézményi oldal, Bildungsdirektion vagy más elsődleges/intézményi forrás igazolja. Az officialSiteMentionsHungarian mező azt jelzi, hogy a saját honlapon találtunk-e külön magyar tartalmat.",
+  "institutions": [
+    {
+      "id": "komensky-kindergarten",
+      "name": "Schulverein Komenský – magyar–német óvodai csoport",
+      "state": "wien",
+      "city": "Wien",
+      "level": [
+        "kindergarten"
+      ],
+      "type": "kétnyelvű óvoda",
+      "website": "https://komensky.at/kindergarten-informationen/",
+      "officialSiteMentionsHungarian": true,
+      "summary": "Magyar–német kétnyelvű óvodai csoport 2–6 éves gyerekeknek Bécsben.",
+      "sourceUrl": "https://volksgruppen.orf.at/magyarok/stories/3361728/"
+    },
+    {
+      "id": "bunte-schule-waehring",
+      "name": "Bunte Schule Währing – magyar kétnyelvű osztály",
+      "state": "wien",
+      "city": "Wien",
+      "level": [
+        "primary"
+      ],
+      "type": "kétnyelvű népiskolai program",
+      "website": "https://schulgasse.schule.wien.at/",
+      "officialSiteMentionsHungarian": false,
+      "summary": "Magyar–német kétnyelvű népiskolai osztály, több tantárgy részbeni magyar oktatásával.",
+      "sourceUrl": "https://volksgruppen.orf.at/magyarok/stories/3296234/"
+    },
+    {
+      "id": "gtvs-neubau-hungarian",
+      "name": "GTVS Neubau – elsőnyelvi magyaroktatás",
+      "state": "wien",
+      "city": "Wien",
+      "level": [
+        "primary"
+      ],
+      "type": "állami elsőnyelvi oktatás",
+      "website": "https://www.gtvs-neubau.at/",
+      "officialSiteMentionsHungarian": false,
+      "summary": "A bécsi Erstsprachenunterricht egyik népiskolai magyar helyszíne.",
+      "sourceUrl": "https://volksgruppen.orf.at/magyarok/stories/3296234/"
+    },
+    {
+      "id": "geps-reisnerstrasse-hungarian",
+      "name": "GEPS/OVS Reisnerstraße – elsőnyelvi magyaroktatás",
+      "state": "wien",
+      "city": "Wien",
+      "level": [
+        "primary"
+      ],
+      "type": "állami elsőnyelvi oktatás",
+      "website": "https://www.gepsreisnerstrasse.com/",
+      "officialSiteMentionsHungarian": false,
+      "summary": "A bécsi Erstsprachenunterricht egyik népiskolai magyar helyszíne.",
+      "sourceUrl": "https://volksgruppen.orf.at/magyarok/stories/3296234/"
+    },
+    {
+      "id": "bspa-wien-hungarian",
+      "name": "Bundessportakademie Wien – gimnáziumi magyar csoport",
+      "state": "wien",
+      "city": "Wien",
+      "level": [
+        "secondary"
+      ],
+      "type": "gimnáziumi elsőnyelvi oktatás",
+      "website": "https://www.bspa.at/wien/",
+      "officialSiteMentionsHungarian": false,
+      "summary": "A bécsi gimnáziumi elsőnyelvi magyaroktatás ORF által dokumentált helyszíne.",
+      "sourceUrl": "https://volksgruppen.orf.at/magyarok/stories/3296234/"
+    },
+    {
+      "id": "abis-linz-hungarian",
+      "name": "Anton Bruckner International School – magyar elsőnyelvi oktatás",
+      "state": "oberoesterreich",
+      "city": "Linz",
+      "level": [
+        "primary",
+        "secondary"
+      ],
+      "type": "állami elsőnyelvi oktatás",
+      "website": "https://www.abis.school/",
+      "officialSiteMentionsHungarian": false,
+      "summary": "Heti magyar elsőnyelvi oktatás 6–14 éveseknek.",
+      "sourceUrl": "https://volksgruppen.orf.at/magyarok/stories/3327962/"
+    },
+    {
+      "id": "vs-gallspach-hungarian",
+      "name": "Volksschule Gallspach – magyar elsőnyelvi oktatás",
+      "state": "oberoesterreich",
+      "city": "Gallspach",
+      "level": [
+        "primary"
+      ],
+      "type": "állami elsőnyelvi oktatás",
+      "website": "https://vsgallspach.jimdofree.com/",
+      "officialSiteMentionsHungarian": false,
+      "summary": "Heti magyar elsőnyelvi oktatás két csoportban.",
+      "sourceUrl": "https://volksgruppen.orf.at/magyarok/stories/3327962/"
+    },
+    {
+      "id": "vs-tabor-steyr-hungarian",
+      "name": "Volksschule Tabor Steyr – magyar elsőnyelvi oktatás",
+      "state": "oberoesterreich",
+      "city": "Steyr",
+      "level": [
+        "primary"
+      ],
+      "type": "állami elsőnyelvi oktatás",
+      "website": "https://www.vstabor.at/",
+      "officialSiteMentionsHungarian": false,
+      "summary": "Heti magyar elsőnyelvi oktatás két csoportban.",
+      "sourceUrl": "https://volksgruppen.orf.at/magyarok/stories/3327962/"
+    },
+    {
+      "id": "ms-bregenz-hungarian",
+      "name": "Mittelschule Bregenz-Stadt – magyar elsőnyelvi oktatás",
+      "state": "vorarlberg",
+      "city": "Bregenz",
+      "level": [
+        "secondary"
+      ],
+      "type": "állami elsőnyelvi oktatás",
+      "website": "https://www.ms-bregenzstadt.at/",
+      "officialSiteMentionsHungarian": false,
+      "summary": "Magyar elsőnyelvi oktatás személyes és online csoporttal.",
+      "sourceUrl": "https://volksgruppen.orf.at/magyarok/stories/3327962/"
+    },
+    {
+      "id": "ms-dornbirn-hungarian",
+      "name": "Mittelschule Dornbirn Markt – magyar elsőnyelvi oktatás",
+      "state": "vorarlberg",
+      "city": "Dornbirn",
+      "level": [
+        "secondary"
+      ],
+      "type": "állami elsőnyelvi oktatás",
+      "website": "https://msm.vobs.at/",
+      "officialSiteMentionsHungarian": false,
+      "summary": "Magyar elsőnyelvi oktatás heti rendszerességgel.",
+      "sourceUrl": "https://volksgruppen.orf.at/magyarok/stories/3327962/"
+    },
+    {
+      "id": "ms-hohenems-hungarian",
+      "name": "Mittelschule Hohenems-Herrenried – magyar elsőnyelvi oktatás",
+      "state": "vorarlberg",
+      "city": "Hohenems",
+      "level": [
+        "secondary"
+      ],
+      "type": "állami elsőnyelvi oktatás",
+      "website": "https://ms-herrenried.edupage.org/",
+      "officialSiteMentionsHungarian": false,
+      "summary": "Magyar elsőnyelvi oktatás heti rendszerességgel.",
+      "sourceUrl": "https://volksgruppen.orf.at/magyarok/stories/3327962/"
+    },
+    {
+      "id": "vs-feldkirch-levis-hungarian",
+      "name": "Volksschule Feldkirch Levis – magyar elsőnyelvi oktatás",
+      "state": "vorarlberg",
+      "city": "Feldkirch",
+      "level": [
+        "primary"
+      ],
+      "type": "állami elsőnyelvi oktatás",
+      "website": "https://vs-feldkirch.vobs.at/home/",
+      "officialSiteMentionsHungarian": false,
+      "summary": "Magyar elsőnyelvi oktatás péntekenként.",
+      "sourceUrl": "https://volksgruppen.orf.at/magyarok/stories/3327962/"
+    },
+    {
+      "id": "vs-campus-mirabell-hungarian",
+      "name": "Volksschule Campus Mirabell – magyaroktatás",
+      "state": "salzburg",
+      "city": "Salzburg",
+      "level": [
+        "primary"
+      ],
+      "type": "állami magyar nyelvi oktatás",
+      "website": "https://vs-campusmirabell.at/",
+      "officialSiteMentionsHungarian": false,
+      "summary": "Heti magyaroktatás Unverbindliche Übung formájában.",
+      "sourceUrl": "https://volksgruppen.orf.at/magyarok/stories/3334658/"
+    },
+    {
+      "id": "sms-altenmarkt-hungarian",
+      "name": "Sportmittelschule Altenmarkt – magyaroktatás",
+      "state": "salzburg",
+      "city": "Altenmarkt",
+      "level": [
+        "secondary"
+      ],
+      "type": "állami magyar nyelvi oktatás",
+      "website": "https://www.sms-altenmarkt.salzburg.at/",
+      "officialSiteMentionsHungarian": false,
+      "summary": "Kezdő, középhaladó és haladó magyar csoportok.",
+      "sourceUrl": "https://volksgruppen.orf.at/magyarok/stories/3334658/"
+    },
+    {
+      "id": "vs-radstadt-hungarian",
+      "name": "Volksschule Radstadt – magyaroktatás",
+      "state": "salzburg",
+      "city": "Radstadt",
+      "level": [
+        "primary"
+      ],
+      "type": "állami magyar nyelvi oktatás",
+      "website": "https://www.vs-radstadt.at/",
+      "officialSiteMentionsHungarian": null,
+      "summary": "Kezdő és középhaladó magyar csoportok.",
+      "sourceUrl": "https://volksgruppen.orf.at/magyarok/stories/3334658/"
+    },
+    {
+      "id": "vs-badhofgastein-hungarian",
+      "name": "Volksschule Bad Hofgastein – magyaroktatás",
+      "state": "salzburg",
+      "city": "Bad Hofgastein",
+      "level": [
+        "primary"
+      ],
+      "type": "állami magyar nyelvi oktatás",
+      "website": "https://www.vs-badhofgastein.at/",
+      "officialSiteMentionsHungarian": false,
+      "summary": "Heti magyar nyelvi oktatás.",
+      "sourceUrl": "https://volksgruppen.orf.at/magyarok/stories/3334658/"
+    },
+    {
+      "id": "ms-badhofgastein-hungarian",
+      "name": "Mittelschule Bad Hofgastein – magyaroktatás",
+      "state": "salzburg",
+      "city": "Bad Hofgastein",
+      "level": [
+        "secondary"
+      ],
+      "type": "állami magyar nyelvi oktatás",
+      "website": "https://www.nms-badhofgastein.com/",
+      "officialSiteMentionsHungarian": false,
+      "summary": "Magyar nyelvi oktatás a nagyobb diákoknak.",
+      "sourceUrl": "https://volksgruppen.orf.at/magyarok/stories/3334658/"
+    },
+    {
+      "id": "vs-filzmoos-hungarian",
+      "name": "Volksschule Filzmoos – magyaroktatás",
+      "state": "salzburg",
+      "city": "Filzmoos",
+      "level": [
+        "primary"
+      ],
+      "type": "állami magyar nyelvi oktatás",
+      "website": "https://www.vs-filzmoos.salzburg.at/",
+      "officialSiteMentionsHungarian": false,
+      "summary": "Magyar kezdő és középhaladó csoportok.",
+      "sourceUrl": "https://volksgruppen.orf.at/magyarok/stories/3334658/"
+    },
+    {
+      "id": "vs-st-johann-dom-hungarian",
+      "name": "Volksschule St. Johann am Dom – magyaroktatás",
+      "state": "salzburg",
+      "city": "St. Johann im Pongau",
+      "level": [
+        "primary"
+      ],
+      "type": "állami magyar nyelvi oktatás",
+      "website": "https://www.vs-st-johann.salzburg.at/",
+      "officialSiteMentionsHungarian": false,
+      "summary": "Kezdő, középhaladó és haladó magyar csoportok.",
+      "sourceUrl": "https://volksgruppen.orf.at/magyarok/stories/3334658/"
+    },
+    {
+      "id": "vs-mittersill-hungarian",
+      "name": "Volksschule Mittersill – magyaroktatás",
+      "state": "salzburg",
+      "city": "Mittersill",
+      "level": [
+        "primary"
+      ],
+      "type": "állami magyar nyelvi oktatás",
+      "website": "https://www.vs-mittersill.salzburg.at/",
+      "officialSiteMentionsHungarian": false,
+      "summary": "Heti magyar nyelvi oktatás.",
+      "sourceUrl": "https://volksgruppen.orf.at/magyarok/stories/3334658/"
+    },
+    {
+      "id": "vs1-saalfelden-hungarian",
+      "name": "Volksschule 1 Saalfelden – magyaroktatás",
+      "state": "salzburg",
+      "city": "Saalfelden",
+      "level": [
+        "primary"
+      ],
+      "type": "állami magyar nyelvi oktatás",
+      "website": "https://vs-saalfelden1.salzburg.at/",
+      "officialSiteMentionsHungarian": false,
+      "summary": "Magyar nyelvi oktatás kezdő és középhaladó szinten.",
+      "sourceUrl": "https://volksgruppen.orf.at/magyarok/stories/3334658/"
+    },
+    {
+      "id": "vs-bahnhof-saalfelden-hungarian",
+      "name": "Volksschule Bahnhof Saalfelden – magyaroktatás",
+      "state": "salzburg",
+      "city": "Saalfelden",
+      "level": [
+        "primary"
+      ],
+      "type": "állami magyar nyelvi oktatás",
+      "website": "https://www.vs-saalfeldenbhf.salzburg.at/",
+      "officialSiteMentionsHungarian": false,
+      "summary": "Magyar nyelvi oktatás.",
+      "sourceUrl": "https://volksgruppen.orf.at/magyarok/stories/3334658/"
+    },
+    {
+      "id": "vs-zell-hungarian",
+      "name": "Volksschule Zell am See – magyaroktatás",
+      "state": "salzburg",
+      "city": "Zell am See",
+      "level": [
+        "primary"
+      ],
+      "type": "állami magyar nyelvi oktatás",
+      "website": "https://www.vs-zell.salzburg.at/",
+      "officialSiteMentionsHungarian": false,
+      "summary": "Magyar nyelvi oktatás több tudásszinten.",
+      "sourceUrl": "https://volksgruppen.orf.at/magyarok/stories/3334658/"
+    },
+    {
+      "id": "vs-stjohann-tirol-hungarian",
+      "name": "Volksschule St. Johann in Tirol – magyaroktatás",
+      "state": "tirol",
+      "city": "St. Johann in Tirol",
+      "level": [
+        "primary"
+      ],
+      "type": "állami elsőnyelvi oktatás",
+      "website": "https://vs-stjohann.tsn.at/",
+      "officialSiteMentionsHungarian": false,
+      "summary": "Heti magyar elsőnyelvi oktatás.",
+      "sourceUrl": "https://volksgruppen.orf.at/magyarok/stories/3334658/"
+    },
+    {
+      "id": "vs2-woergl-hungarian",
+      "name": "Volksschule 2 Wörgl – magyaroktatás",
+      "state": "tirol",
+      "city": "Wörgl",
+      "level": [
+        "primary"
+      ],
+      "type": "állami elsőnyelvi oktatás",
+      "website": "https://www.vs2woergl.com/",
+      "officialSiteMentionsHungarian": false,
+      "summary": "Két magyar csoport, kezdő és haladó szinten.",
+      "sourceUrl": "https://volksgruppen.orf.at/magyarok/stories/3334658/"
+    },
+    {
+      "id": "vs-kufstein-sparchen-hungarian",
+      "name": "Volksschule Kufstein Sparchen – magyaroktatás",
+      "state": "tirol",
+      "city": "Kufstein",
+      "level": [
+        "primary"
+      ],
+      "type": "állami elsőnyelvi oktatás",
+      "website": "https://vs-kufsteinsparchen.tsn.at/",
+      "officialSiteMentionsHungarian": false,
+      "summary": "Heti magyar elsőnyelvi oktatás.",
+      "sourceUrl": "https://volksgruppen.orf.at/magyarok/stories/3334658/"
+    },
+    {
+      "id": "vs-rum-hungarian",
+      "name": "Volksschule Rum – magyaroktatás",
+      "state": "tirol",
+      "city": "Rum",
+      "level": [
+        "primary"
+      ],
+      "type": "állami elsőnyelvi oktatás",
+      "website": "https://vs-rum.tsn.at/",
+      "officialSiteMentionsHungarian": false,
+      "summary": "Heti magyar elsőnyelvi oktatás.",
+      "sourceUrl": "https://volksgruppen.orf.at/magyarok/stories/3334658/"
+    },
+    {
+      "id": "vs-angergasse-hungarian",
+      "name": "Volksschule Angergasse – magyaroktatás",
+      "state": "tirol",
+      "city": "Innsbruck",
+      "level": [
+        "primary"
+      ],
+      "type": "állami elsőnyelvi oktatás",
+      "website": "https://vs-angergasse.tsn.at/",
+      "officialSiteMentionsHungarian": false,
+      "summary": "Péntek délutáni magyar elsőnyelvi oktatás.",
+      "sourceUrl": "https://volksgruppen.orf.at/magyarok/stories/3334658/"
+    },
+    {
+      "id": "brg-app-hungarian",
+      "name": "BRG am Adolf-Pichler-Platz – magyaroktatás és érettségi",
+      "state": "tirol",
+      "city": "Innsbruck",
+      "level": [
+        "secondary"
+      ],
+      "type": "gimnáziumi magyaroktatás",
+      "website": "https://brg-app.tsn.at/",
+      "officialSiteMentionsHungarian": false,
+      "summary": "Közel húsz éve működő magyar gimnáziumi oktatás; magyar érettségi is lehetséges.",
+      "sourceUrl": "https://volksgruppen.orf.at/magyarok/stories/3334658/"
+    },
+    {
+      "id": "vs-unterwart-bilingual",
+      "name": "Alsóőri Kétnyelvű Népiskola",
+      "state": "burgenland",
+      "city": "Unterwart / Alsóőr",
+      "level": [
+        "primary"
+      ],
+      "type": "német–magyar kétnyelvű népiskola",
+      "website": "https://www.unterwart.at/",
+      "officialSiteMentionsHungarian": true,
+      "summary": "Törvényileg biztosított német–magyar kétnyelvű oktatás.",
+      "sourceUrl": "https://volksgruppen.orf.at/magyarok/stories/3305688/"
+    },
+    {
+      "id": "vs-siget-bilingual",
+      "name": "Őriszigeti Kétnyelvű Népiskola",
+      "state": "burgenland",
+      "city": "Siget in der Wart / Őrisziget",
+      "level": [
+        "primary"
+      ],
+      "type": "német–magyar kétnyelvű népiskola",
+      "website": "https://www.gemeinde-rotenturm.at/",
+      "officialSiteMentionsHungarian": null,
+      "summary": "Törvényileg biztosított német–magyar kétnyelvű oktatás.",
+      "sourceUrl": "https://volksgruppen.orf.at/magyarok/stories/3305688/"
+    },
+    {
+      "id": "bg-oberwart-bilingual",
+      "name": "Felsőőri Kétnyelvű Szövetségi Reálgimnázium",
+      "state": "burgenland",
+      "city": "Oberwart / Felsőőr",
+      "level": [
+        "secondary"
+      ],
+      "type": "német–magyar kétnyelvű gimnázium",
+      "website": "https://www.bg-oberwart.at/de/schule/zweisprachigkeit",
+      "officialSiteMentionsHungarian": true,
+      "summary": "Ausztria egyetlen gimnáziuma, ahol tantárgyakat magyarul is oktatnak; magyar érettségi.",
+      "sourceUrl": "https://volksgruppen.orf.at/magyarok/stories/3305688/"
+    },
+    {
+      "id": "bafep-oberwart-hungarian",
+      "name": "BAfEP Oberwart – magyar pedagógiai képzés",
+      "state": "burgenland",
+      "city": "Oberwart / Felsőőr",
+      "level": [
+        "secondary",
+        "tertiary"
+      ],
+      "type": "óvodapedagógus-képzés",
+      "website": null,
+      "officialSiteMentionsHungarian": null,
+      "summary": "Magyar pedagógiai képzési lehetőség kétnyelvű óvodai munkához.",
+      "sourceUrl": "https://volksgruppen.orf.at/magyarok/stories/3305688/"
+    },
+    {
+      "id": "pph-burgenland-hungarian",
+      "name": "Private Pädagogische Hochschule Burgenland – kétnyelvű magyar tanárképzés",
+      "state": "burgenland",
+      "city": "Eisenstadt / Kismarton",
+      "level": [
+        "tertiary"
+      ],
+      "type": "felsőoktatás / pedagógusképzés",
+      "website": "https://www.ph-burgenland.at/",
+      "officialSiteMentionsHungarian": true,
+      "summary": "Magyar–német kétnyelvű oktatáshoz kiegészítő pedagógusképzés és magyar nyelvű tanulmányi kínálat.",
+      "sourceUrl": "https://volksgruppen.orf.at/magyarok/stories/3305688/"
+    },
+    {
+      "id": "univie-hungarian-studies",
+      "name": "Universität Wien – Hungarian Studies / Finno-Ugristik",
+      "state": "wien",
+      "city": "Wien",
+      "level": [
+        "tertiary"
+      ],
+      "type": "felsőoktatás",
+      "website": "https://finno-ugristik.univie.ac.at/en/studying/",
+      "officialSiteMentionsHungarian": true,
+      "summary": "BA/MA Hungarian Studies, magyar tanárképzés, doktori és nyelvi kurzusok.",
+      "sourceUrl": "https://finno-ugristik.univie.ac.at/en/studying/"
+    },
+    {
+      "id": "univie-language-centre-hungarian",
+      "name": "Universität Wien Sprachenzentrum – Hungarian",
+      "state": "wien",
+      "city": "Wien",
+      "level": [
+        "tertiary",
+        "adult"
+      ],
+      "type": "egyetemi nyelvoktatás",
+      "website": "https://sprachenzentrum.univie.ac.at/en/hungarian",
+      "officialSiteMentionsHungarian": true,
+      "summary": "Magyar nyelvkurzusok több CEFR-szinten.",
+      "sourceUrl": "https://sprachenzentrum.univie.ac.at/en/hungarian"
+    },
+    {
+      "id": "uni-graz-hungarian-translation",
+      "name": "Universität Graz – magyar fordító- és tolmácsképzés",
+      "state": "steiermark",
+      "city": "Graz",
+      "level": [
+        "tertiary"
+      ],
+      "type": "felsőoktatás",
+      "website": "https://translationswissenschaft.uni-graz.at/en/languages/hungarian/",
+      "officialSiteMentionsHungarian": true,
+      "summary": "Magyar munkanyelv BA/MA fordítási, tolmácsolási és többnyelvű kommunikációs programokban.",
+      "sourceUrl": "https://translationswissenschaft.uni-graz.at/en/languages/hungarian/"
+    }
+  ]
+}
