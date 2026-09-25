@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="hu-AT">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Magyar Programok Ausztriában | Szervezetek és események</title>
+<meta name="description" content="Ausztria magyar program- és szervezetkeresője: tartományok, egyesületek, civilek, kulturális szervezők és országos eseménynaptár.">
+<meta name="robots" content="index,follow,max-snippet:-1,max-image-preview:large">
+<meta name="theme-color" content="#ffffff">
+<link rel="stylesheet" href="styles.css?v=20260925-1">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"CollectionPage","name":"Magyar Programok Ausztriában","inLanguage":"hu-AT","about":{"@type":"Thing","name":"Ausztriai magyar közösségi programok és szervezetek"}}
+</script>
+</head>
+<body>
+<a class="skip" href="#main">Ugrás a tartalomhoz</a>
+<header class="topbar"><div class="wrap navrow"><a class="brand" href="./"><span class="mark">AT×HU</span><span>Magyar Programok Ausztriában</span></a><nav><a href="#terkep">Térkép</a><a href="#szervezetek">Szervezetek</a><a href="#naptar">Események</a><a href="forrasok.html">Források</a></nav></div></header>
+<main id="main">
+<section class="hero"><div class="wrap hero-grid"><div><div class="eyebrow">Ausztria · 9 tartomány · egy közös programtér</div><h1>Találd meg a magyar közösséget <span>ott, ahol élsz.</span></h1><p class="lead">Egyesületek, civilek, oktatási és kulturális szervezők, közösségi terek és események egész Ausztriából — ellenőrizhető forrásokkal, tartományi nézetben.</p><div class="hero-actions"><a class="btn primary" href="#terkep">Tartomány választása</a><a class="btn" href="#naptar">Országos naptár</a></div></div><aside class="hero-note"><b>Napi frissítésre tervezve</b><p>Az események forrásoldalait automatizált ellenőrzés figyeli. Minden eseményhez forrás és ellenőrzési idő tartozik.</p></aside></div></section>
+
+<section id="terkep" class="section"><div class="wrap"><div class="section-head"><div><div class="eyebrow">Tartományi térkép</div><h2>Ausztria magyar közösségei</h2><p>Kattints egy tartományra. A térkép alatt az adott régió szervezetei jelennek meg.</p></div><button id="allStates" class="text-btn" type="button">Összes tartomány</button></div>
+<div class="austria-map" aria-label="Ausztria tartományai">
+<img src="https://commons.wikimedia.org/wiki/Special:Redirect/file/Karte_%C3%96sterreich_Bundesl%C3%A4nder.svg" alt="Ausztria tartományainak térképe" loading="eager">
+<button data-state="vorarlberg" style="left:8%;top:55%">Vorarlberg <i></i></button>
+<button data-state="tirol" style="left:25%;top:58%">Tirol <i></i></button>
+<button data-state="salzburg" style="left:46%;top:52%">Salzburg <i></i></button>
+<button data-state="oberoesterreich" style="left:58%;top:32%">Felső-Ausztria <i></i></button>
+<button data-state="niederoesterreich" style="left:76%;top:28%">Alsó-Ausztria <i></i></button>
+<button data-state="wien" style="left:88%;top:35%">Bécs <i></i></button>
+<button data-state="steiermark" style="left:64%;top:61%">Stájerország <i></i></button>
+<button data-state="kaernten" style="left:48%;top:77%">Karintia <i></i></button>
+<button data-state="burgenland" style="left:82%;top:62%">Burgenland <i></i></button>
+</div><p class="map-credit">Térképalap: Wikimedia Commons, Lencer, CC BY-SA 2.5.</p>
+<div id="stateSummary" class="state-summary" aria-live="polite"></div></div></section>
+
+<section id="szervezetek" class="section muted"><div class="wrap"><div class="section-head"><div><div class="eyebrow">Szervezeti adatbázis</div><h2>Szervezetek és programgazdák</h2></div><div class="searchbox"><label for="orgSearch">Keresés</label><input id="orgSearch" type="search" placeholder="Név, város, típus…"></div></div><div id="orgGrid" class="cards"></div></div></section>
+
+<section id="naptar" class="section"><div class="wrap"><div class="section-head"><div><div class="eyebrow">Országos eseménynaptár</div><h2>Mi történik Ausztriában?</h2><p>A naptár a szervezetek elsődleges eseményfelületeiből épül. Az eseménykártyán mindig látható a forrás.</p></div><div class="calendar-filters"><select id="eventState" aria-label="Tartomány szűrése"><option value="">Minden tartomány</option></select><input id="eventSearch" type="search" placeholder="Esemény keresése"></div></div><div id="eventGrid" class="event-grid"></div><div id="eventEmpty" class="empty" hidden>Nincs a szűrésnek megfelelő közelgő esemény.</div></div></section>
+
+<section class="section trust"><div class="wrap trust-grid"><div><div class="eyebrow">Forrásbiztonság</div><h2>Nem találunk ki eseményeket.</h2></div><div><p>Az adatbázis elsődlegesen hivatalos szervezeti oldalakat használ. Másodlagos forrás csak kiegészítésre szolgál. Ha egy esemény helyszíne vagy dátuma nem bizonyítható, nem kerül automatikusan publikálásra.</p><a href="forrasok.html">Adat- és forráspolitika →</a></div></div></section>
+</main>
+<footer><div class="wrap footer-grid"><div><b>Magyar Programok Ausztriában</b><p>Nyílt, kereshető közösségi programtér.</p></div><div><a href="forrasok.html">Források és módszertan</a><br><a href="data/organizations.json">Szervezeti adat</a><br><a href="data/events.json">Eseményadat</a></div><div><p>Adatjavításnál mindig az érintett szervezet hivatalos forrása az irányadó.</p></div></div></footer>
+<script src="app.js?v=20260925-1" defer></script>
+</body></html>
