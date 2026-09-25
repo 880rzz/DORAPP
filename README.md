@@ -9,7 +9,7 @@ Egyetlen kereshető felületre hozza az Ausztriában működő magyar egyesület
 ## Jelenlegi lefedettség
 
 - 9 osztrák tartomány
-- 75 szervezet, civil közösség, kulturális intézmény és programgazda
+- 77 szervezet, civil közösség, kulturális intézmény, médiafelület és programgazda
 - tartományi térképes kezdőlap
 - kereshető szervezeti adatbázis
 - szervezeti bemutatkozó profilok
@@ -32,6 +32,7 @@ A DORAPP saját, országos adatmodellre épül, BMI-specifikus függés nélkül
 - `data/organizations.json` — szervezetek, város, tartomány, bemutatkozás, web/social és eseményforrások
 - `data/events.json` — forrásból igazolt események
 - `data/source-health.json` — napi forrásellenőrzés állapota
+- `data/discovery-sources.json` — országos felderítő és háttérforrások (ORF, Rólunk.at, KCSP, Bécsi Napló)
 
 ## Napi curator
 
