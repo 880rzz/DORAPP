@@ -5,8 +5,10 @@ on:
     branches: ["main"]
     paths:
       - "data/organizations.json"
+      - "data/education.json"
       - "scripts/update_articles.py"
       - "scripts/update_events.py"
+      - "scripts/audit_education_sites.py"
       - ".github/workflows/austria-hungarian-program-curator.yml"
   schedule:
     - cron: "17 4 * * *"
