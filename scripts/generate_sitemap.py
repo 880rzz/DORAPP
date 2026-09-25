@@ -2,6 +2,7 @@
 import json
 from pathlib import Path
 from xml.sax.saxutils import escape
+from urllib.parse import quote
 
 ROOT=Path(__file__).resolve().parents[1]
 BASE="https://diaszpora.kozpontiszovetseg.at"
@@ -25,7 +26,7 @@ urls=[
 ]
 urls += [(f"{BASE}/szervezetek/{x['id']}.html",str(x.get("profileVerifiedAt") or org_updated)[:10]) for x in org.get("organizations",[])]
 urls += [(f"{BASE}/oktatas/{x['id']}.html",edu_updated) for x in edu.get("institutions",[])]
-urls += [(f"{BASE}/esemenyek/{x['id']}.html",str(x.get("verifiedAt") or event_updated)[:10]) for x in ev.get("events",[])]
+urls += [(f"{BASE}/esemenyek/{quote(x['id'])}.html",str(x.get("verifiedAt") or event_updated)[:10]) for x in ev.get("events",[])]
 urls += [(f"{BASE}/tartomanyok/{x['id']}.html",org_updated) for x in org.get("states",[])]
 urls += [(f"{BASE}/kategoriak/{x['id']}.html",org_updated) for x in org.get("categoryDefinitions",[])]
 
