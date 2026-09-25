@@ -64,7 +64,34 @@
       ],
       "categories": [
         "kozosseg"
-      ]
+      ],
+      "founded": "1980-02-09",
+      "history": {
+        "summary": "A Központi Szövetség 1980. február 9-én jött létre eredetileg 21 ausztriai magyar egyesület csúcsszervezeteként. Alapszabály szerinti feladata a tagegyesületek képviselete és együttműködésük összehangolása, valamint olyan közös ügyek szervezése, amelyek egyetlen tagegyesület kereteit meghaladják, például magyar nyelvű oktatás, kiadás és központi kulturális projektek.",
+        "milestones": [
+          {
+            "date": "1980-02-09",
+            "title": "Megalakulás",
+            "description": "Eredetileg 21 ausztriai magyar egyesület csúcsszervezeteként alakult meg.",
+            "sourceUrl": "https://www.kozpontiszovetseg.at/r%C3%B3lunk"
+          }
+        ]
+      },
+      "activities": [
+        "tagegyesületek országos képviselete",
+        "szervezetek közötti koordináció",
+        "magyar nyelvű oktatási és kulturális projektek",
+        "kiadói és közösségi kezdeményezések"
+      ],
+      "targetGroups": [
+        "ausztriai magyar egyesületek és szervezetek",
+        "az ausztriai magyar közösség"
+      ],
+      "languages": [
+        "magyar",
+        "német"
+      ],
+      "profileVerifiedAt": "2026-09-25"
     },
     {
       "id": "oeius",
@@ -2772,7 +2799,22 @@
         }
       ],
       "email": "bmme1899@outlook.com",
-      "phone": "+43 699 1909 2586"
+      "phone": "+43 699 1909 2586",
+      "founded": "1899",
+      "activities": [
+        "magyar közösségi programok",
+        "kulturális rendezvények",
+        "társasági és hagyományőrző alkalmak"
+      ],
+      "targetGroups": [
+        "Bécsben és környékén élő magyarok",
+        "magyar kulturális közösség"
+      ],
+      "languages": [
+        "magyar",
+        "német"
+      ],
+      "profileVerifiedAt": "2026-09-25"
     },
     {
       "id": "bmi-szulok-tamogatok",
@@ -3048,7 +3090,33 @@
           "url": "https://rolunk.at/rolunk/",
           "type": "official"
         }
-      ]
+      ],
+      "history": {
+        "summary": "A Rólunk.at régiókon átívelő online magazin, amely az ausztriai magyar népcsoport közös médiumaként működik. Irányításában a Burgenlandi Magyar Kultúregyesület, a Kerekasztal, az UMIZ és a Központi Szövetség képviselői vesznek részt a kuratóriumon keresztül.",
+        "milestones": [
+          {
+            "title": "Kuratóriumi működés",
+            "description": "A médium irányítását négy ausztriai magyar szervezet képviselőiből álló kuratórium végzi.",
+            "sourceUrl": "https://rolunk.at/rolunk/"
+          }
+        ]
+      },
+      "activities": [
+        "ausztriai magyar közéleti és kulturális hírszolgáltatás",
+        "interjúk, riportok, portrék és programajánlók",
+        "közösségi és népcsoporti témák bemutatása"
+      ],
+      "targetGroups": [
+        "Ausztriában élő magyarok",
+        "magyar népcsoport iránt érdeklődők",
+        "ausztriai magyar egyesületek"
+      ],
+      "languages": [
+        "magyar",
+        "német"
+      ],
+      "email": "office@rolunk.at",
+      "profileVerifiedAt": "2026-09-25"
     },
     {
       "id": "becsi-naplo",
@@ -4044,5 +4112,31 @@
       "id": "ertelmisegi",
       "label": "Értelmiségi / szakmai közösség"
     }
-  ]
+  ],
+  "profileEnrichmentPolicy": {
+    "mode": "source-backed-steward",
+    "description": "A napi automatika eseményeket és sajtómegjelenéseket frissít. A történet, tevékenységek, célcsoportok, alapítási adatok és kapcsolati mezők csak ellenőrzött forrás alapján, steward audit során bővíthetők.",
+    "optionalFields": [
+      "founded",
+      "history",
+      "activities",
+      "targetGroups",
+      "languages",
+      "email",
+      "phone",
+      "profileVerifiedAt"
+    ],
+    "historyModel": {
+      "summary": "Forrásolt, tömör történeti összefoglaló.",
+      "milestones": "Dátumhoz vagy évhez kötött mérföldkövek, lehetőleg sourceUrl mezővel."
+    },
+    "sourcePriority": [
+      "official",
+      "institutional",
+      "public-broadcaster",
+      "community-media",
+      "secondary"
+    ],
+    "rule": "Bizonytalan adatot hagyj üresen; ne generálj történeti tényt forrás nélkül."
+  }
 }
