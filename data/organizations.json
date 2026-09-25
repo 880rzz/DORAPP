@@ -237,6 +237,10 @@
           "sourceUrl": "https://www.kozpontiszovetseg.at/tagszervezetek",
           "verifiedAt": "2026-09-25"
         }
+      ],
+      "categories": [
+        "neptanc",
+        "nephagyomany"
       ]
     },
     {
@@ -477,6 +481,10 @@
           "sourceUrl": "https://rolunk.at/nepcsoportunk/20-tagegyesuletet-fog-ossze-az-ausztriai-magyar-szervezetek-kerekasztala/",
           "verifiedAt": "2026-09-25"
         }
+      ],
+      "categories": [
+        "neptanc",
+        "nephagyomany"
       ]
     },
     {
@@ -902,6 +910,10 @@
           "sourceUrl": "https://www.kozpontiszovetseg.at/tagszervezetek",
           "verifiedAt": "2026-09-25"
         }
+      ],
+      "categories": [
+        "neptanc",
+        "nephagyomany"
       ]
     },
     {
@@ -1087,6 +1099,10 @@
           "role": "partner",
           "sourceUrl": "https://rolunk.at/magazin/aktiv-apukak-sztereotipiadontogetes-es-hatalmas-farsangi-buli-felso-ausztriaban/"
         }
+      ],
+      "categories": [
+        "neptanc",
+        "nephagyomany"
       ]
     },
     {
@@ -1324,11 +1340,29 @@
       "city": "Salzburg",
       "type": "néptánc",
       "intro": "Salzburgban működő magyar néptáncközösség fellépésekkel és hagyományőrző eseményekkel.",
-      "website": null,
+      "website": "https://salzung.com/hu/?start=8",
       "facebook": "https://www.facebook.com/Salzburgi.Magyar.Neptancegyuttes/",
       "instagram": "https://www.instagram.com/salzburgi.neptanc/",
       "eventSources": [
+        "https://salzung.com/hu/",
         "https://www.facebook.com/Salzburgi.Magyar.Neptancegyuttes/"
+      ],
+      "categories": [
+        "neptanc",
+        "nephagyomany"
+      ],
+      "parentOrganizationId": "salzung",
+      "evidenceSources": [
+        {
+          "label": "SalzUNG – Salzburgi Magyar Néptáncegyüttes",
+          "url": "https://salzung.com/hu/?start=8",
+          "type": "official"
+        },
+        {
+          "label": "SalzUNG – Ungarische Folkstanzgruppe",
+          "url": "https://salzung.com/de/events",
+          "type": "official"
+        }
       ]
     },
     {
@@ -2008,6 +2042,164 @@
           "label": "Osztrák kormányzati népcsoporti támogatási dokumentum",
           "url": "https://www.ris.bka.gv.at/Dokumente/Mrp/MRP_20201223_43/007_001.pdf",
           "type": "institutional"
+        }
+      ]
+    },
+    {
+      "id": "virgonc-unterwart",
+      "name": "Virgonc – Alsóőri Magyar Néptánccsoport",
+      "state": "burgenland",
+      "city": "Unterwart / Alsóőr",
+      "type": "néptánccsoport",
+      "categories": [
+        "neptanc",
+        "nephagyomany"
+      ],
+      "parentOrganizationId": "bukv",
+      "intro": "1980-ban alapított alsóőri magyar néptánccsoport, amely magyarországi és erdélyi tájegységek eredeti táncanyagát ápolja. A Burgenlandi Magyar Kultúregyesület csoportjaként működik.",
+      "website": "https://bukv.at/volkstanzgruppe-virgonc/",
+      "facebook": null,
+      "instagram": null,
+      "eventSources": [
+        "https://bukv.at/"
+      ],
+      "evidenceSources": [
+        {
+          "label": "BMKE – Volkstanzgruppe Virgonc",
+          "url": "https://bukv.at/volkstanzgruppe-virgonc/",
+          "type": "official"
+        }
+      ]
+    },
+    {
+      "id": "virgonc-gyermek",
+      "name": "Gyermek-Virgonc – Alsóőri Gyermek Néptánccsoport",
+      "state": "burgenland",
+      "city": "Unterwart / Alsóőr",
+      "type": "gyermek néptánccsoport",
+      "categories": [
+        "neptanc",
+        "gyermek",
+        "nephagyomany"
+      ],
+      "parentOrganizationId": "bukv",
+      "intro": "A BMKE gyermek-néptánccsoportja, amely több korosztályban vezeti be a gyerekeket a magyar néptánc és népi kultúra világába.",
+      "website": "https://bukv.at/gruppen/",
+      "facebook": null,
+      "instagram": null,
+      "eventSources": [
+        "https://bukv.at/"
+      ],
+      "evidenceSources": [
+        {
+          "label": "BMKE – csoportok",
+          "url": "https://bukv.at/gruppen/",
+          "type": "official"
+        }
+      ]
+    },
+    {
+      "id": "oriszigeti-neptanc",
+      "name": "Őriszigeti Magyar Néptánccsoport",
+      "state": "burgenland",
+      "city": "Siget in der Wart / Őrisziget",
+      "type": "néptánccsoport",
+      "categories": [
+        "neptanc",
+        "nephagyomany"
+      ],
+      "parentOrganizationId": "bukv",
+      "intro": "1993-ban alakult őriszigeti magyar néptánccsoport, amely rendszeresen magyar nyelvterületek táncanyagából építi repertoárját. A BMKE csoportjaként működik.",
+      "website": "https://bukv.at/volkstanzgruppe-siget-in-der-wart/",
+      "facebook": null,
+      "instagram": null,
+      "eventSources": [
+        "https://bukv.at/"
+      ],
+      "evidenceSources": [
+        {
+          "label": "BMKE – Őriszigeti Magyar Néptánccsoport",
+          "url": "https://bukv.at/volkstanzgruppe-siget-in-der-wart/",
+          "type": "official"
+        }
+      ]
+    },
+    {
+      "id": "csorge-nepzene",
+      "name": "Csörge Népzenei Együttes",
+      "state": "burgenland",
+      "city": "Oberwart / Felsőőr",
+      "type": "népzenei csoport",
+      "categories": [
+        "nepzene",
+        "nephagyomany"
+      ],
+      "parentOrganizationId": "bukv",
+      "intro": "A Burgenlandi Magyar Kultúregyesület népzenei csoportja, amely a burgenlandi és magyar népzenei hagyományokat ápolja és kísérőzenét biztosít közösségi programokon.",
+      "website": "https://bukv.at/gruppen/",
+      "facebook": null,
+      "instagram": null,
+      "eventSources": [
+        "https://bukv.at/"
+      ],
+      "evidenceSources": [
+        {
+          "label": "BMKE – csoportok",
+          "url": "https://bukv.at/gruppen/",
+          "type": "official"
+        }
+      ]
+    },
+    {
+      "id": "szelforgok-nepzene",
+      "name": "Szélforgók Gyermek Népzenei Csoport",
+      "state": "burgenland",
+      "city": "Oberwart / Felsőőr",
+      "type": "gyermek népzenei csoport",
+      "categories": [
+        "nepzene",
+        "gyermek",
+        "nephagyomany"
+      ],
+      "parentOrganizationId": "bukv",
+      "intro": "A BMKE gyermek-népzenei csoportja, amely magyar népzenei hagyományokat ad tovább a fiatalabb korosztálynak.",
+      "website": "https://bukv.at/gruppen/",
+      "facebook": null,
+      "instagram": null,
+      "eventSources": [
+        "https://bukv.at/"
+      ],
+      "evidenceSources": [
+        {
+          "label": "BMKE – csoportok",
+          "url": "https://bukv.at/gruppen/",
+          "type": "official"
+        }
+      ]
+    },
+    {
+      "id": "grazi-magyar-neptanc",
+      "name": "Grazi Magyar Néptánccsoport",
+      "state": "steiermark",
+      "city": "Graz",
+      "type": "néptánccsoport",
+      "categories": [
+        "neptanc",
+        "nephagyomany"
+      ],
+      "parentOrganizationId": "grazi-magyar-egyesulet",
+      "intro": "A Grazi Magyar Egyesülethez kapcsolódó néptánccsoport. A saját egyesületi programok és a 2026-os Grazi Magyar Bál is külön grazi magyar néptánccsoportként hivatkozik rá.",
+      "website": "https://www.grazimagyaregyesuelet.at/",
+      "facebook": null,
+      "instagram": null,
+      "eventSources": [
+        "https://www.grazimagyaregyesuelet.at/"
+      ],
+      "evidenceSources": [
+        {
+          "label": "Grazi Magyar Egyesület – Magyar Bál 2026",
+          "url": "https://www.grazimagyaregyesuelet.at/ungarischer-ball-2027/",
+          "type": "official"
         }
       ]
     }
