@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 from __future__ import annotations
-import json,re,urllib.parse,urllib.request
+import json,re,time,urllib.parse,urllib.request
 from pathlib import Path
 from datetime import datetime,timezone
 from html import unescape
@@ -9,7 +9,7 @@ from concurrent.futures import ThreadPoolExecutor,as_completed
 ROOT=Path(__file__).resolve().parents[1]
 EDU=ROOT/"data/education.json"
 OUT=ROOT/"data/education-site-health.json"
-UA="DORAPP-EducationSiteAudit/1.0 (+https://github.com/880rzz/DORAPP)"
+UA="Mozilla/5.0 (compatible; DORAPP-EducationSiteAudit/1.1; +https://github.com/880rzz/DORAPP)"
 TERMS={
  "hungarian":["ungarisch","magyar","hungarian"],
  "bilingual":["zweisprach","bilingual","kétnyelv"],
@@ -25,11 +25,22 @@ def clean_html(raw:str)->str:
     return re.sub(r"\s+"," ",unescape(raw)).strip()
 
 def fetch(url:str)->tuple[str,str]:
-    req=urllib.request.Request(url,headers={"User-Agent":UA,"Accept":"text/html,application/xhtml+xml,*/*;q=0.8"})
-    with urllib.request.urlopen(req,timeout=6) as r:
-        raw=r.read(2_000_000)
-        ct=r.headers.get_content_type()
-        return raw.decode(r.headers.get_content_charset() or "utf-8","replace"),ct
+    last=None
+    for attempt in range(3):
+        try:
+            req=urllib.request.Request(url,headers={"User-Agent":UA,"Accept":"text/html,application/xhtml+xml,*/*;q=0.8","Accept-Language":"hu,en;q=0.8,de;q=0.7"})
+            with urllib.request.urlopen(req,timeout=12) as r:
+                raw=r.read(2_000_000)
+                ct=r.headers.get_content_type()
+                return raw.decode(r.headers.get_content_charset() or "utf-8","replace"),ct
+        except Exception as ex:
+            last=ex
+            code=getattr(ex,"code",None)
+            if attempt<2 and (code in (429,500,502,503,504) or code is None):
+                time.sleep(1.5*(attempt+1))
+                continue
+            raise
+    raise last
 
 def internal_links(html:str,base:str)->list[str]:
     host=urllib.parse.urlparse(base).netloc
@@ -87,7 +98,7 @@ def audit(inst):
 def main():
     db=json.loads(EDU.read_text(encoding="utf-8"))
     rows=[]
-    with ThreadPoolExecutor(max_workers=12) as pool:
+    with ThreadPoolExecutor(max_workers=6) as pool:
         futures=[pool.submit(audit,x) for x in db.get("institutions",[])]
         for f in as_completed(futures): rows.append(f.result())
     rows.sort(key=lambda x:x["id"])
