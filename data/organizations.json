@@ -277,10 +277,13 @@
       "city": "Wien",
       "type": "irodalmi-kulturális",
       "intro": "Bécsi magyar kulturális társaság irodalmi, történelmi és közösségi előadásokkal, beszélgetésekkel.",
-      "website": null,
+      "website": "https://bornemisza.at/",
       "facebook": null,
       "instagram": null,
-      "eventSources": [],
+      "eventSources": [
+        "https://bornemisza.at/hirek-esemenyek/",
+        "https://bornemisza.at/"
+      ],
       "evidenceSources": [
         {
           "label": "Rólunk.at – Költözik a Bornemisza Péter Társaság",
@@ -295,6 +298,21 @@
         {
           "label": "Rólunk.at – A mosoly mindig adott lesz",
           "url": "https://rolunk.at/kultura/a-mosoly-mindig-adott-lesz/",
+          "type": "secondary"
+        },
+        {
+          "label": "Bécsi Napló – Bornemisza Péter Társaság értesítője",
+          "url": "https://www.becsinaplo.eu/a-bornemisza-peter-tarsasag-ezevi-1-ertesitoje",
+          "type": "secondary"
+        },
+        {
+          "label": "Bécsi Napló – BPT rendes évi közgyűlés",
+          "url": "https://www.becsinaplo.eu/rendes-evi-kozgyules",
+          "type": "secondary"
+        },
+        {
+          "label": "Központi Szövetség – Bornemisza Péter Társaság",
+          "url": "https://www.kozpontiszovetseg.at/bornemisza-peter-tarsasag",
           "type": "secondary"
         }
       ],
