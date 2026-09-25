@@ -3067,7 +3067,7 @@
       "state": "oberoesterreich",
       "city": "Linz",
       "type": "egyházi közösség",
-      "intro": "Linz és környéke magyar katolikus közössége magyar misékkel és közösségi alkalmak szervezésével.",
+      "intro": "A Linzi Magyar Katolikus Közösség Felső-Ausztria magyar híveinek egyik központja. Magyar nyelvű szentmiséket, egyházi és közösségi alkalmakat szervez; lelkipásztora az ausztriai magyar katolikus közösségek országos koordinációjában is szerepet vállal.",
       "website": "https://ausztria.katolikus.at/",
       "facebook": null,
       "instagram": null,
@@ -3088,19 +3088,41 @@
       },
       "evidenceSources": [
         {
-          "label": "Rólunk.at – országos magyar katolikus koordináció",
+          "label": "Rólunk.at – ausztriai magyar katolikus koordináció",
           "url": "https://rolunk.at/kultura/nem-csak-a-sajat-levesunket-melegitjuk-kozossegepito-kuldetes-felso-ausztriaban-es-azon-tul/",
-          "type": "secondary"
+          "type": "community-media"
+        },
+        {
+          "label": "Rólunk.at – ausztriai magyar egyesületek listája",
+          "url": "https://rolunk.at/ausztriai-magyar-egyesuletek/",
+          "type": "community-media"
         },
         {
           "label": "KCSP – Szabó Ernő linzi magyar lelkész portréja",
           "url": "https://www.korosiprogram.hu/tudastar/szorvanybol-diaszporaba-szabo-erno-linzi-magyar-lelkesz-portreja",
-          "type": "secondary"
+          "type": "institutional"
         }
       ],
       "categories": [
         "egyhaz"
-      ]
+      ],
+      "activities": [
+        "magyar nyelvű szentmisék",
+        "lelkipásztori és közösségi szolgálat",
+        "egyházi ünnepek és találkozók",
+        "országos magyar katolikus közösségi koordináció"
+      ],
+      "targetGroups": [
+        "Felső-Ausztriában élő magyar katolikusok",
+        "magyar családok és hívők",
+        "magyar nyelvű lelkipásztori szolgálatot keresők"
+      ],
+      "languages": [
+        "magyar",
+        "német"
+      ],
+      "email": "ernest.szabo@dioezese-linz.at",
+      "profileVerifiedAt": "2026-09-25"
     },
     {
       "id": "grazi-magyar-egyesulet",
@@ -3954,7 +3976,7 @@
       "state": "tirol",
       "city": "Innsbruck",
       "type": "egyházi közösség",
-      "intro": "Innsbruck és Tirol magyar katolikus közössége magyar nyelvű egyházi és közösségi alkalmak szervezésével.",
+      "intro": "Az Innsbrucki Magyar Katolikus Közösség Tirol magyar híveinek történelmi egyházi közössége. Az innsbrucki egyházmegyében 1946 óta hivatalosan elismert magyar katolikus közösségként működik, és magyar nyelvű szentmiséket, lelki és közösségi alkalmakat szervez.",
       "website": null,
       "facebook": null,
       "instagram": null,
@@ -3968,19 +3990,46 @@
       ],
       "evidenceSources": [
         {
-          "label": "KCSP – Az innsbrucki magyar katolikus egyházközség története",
-          "url": "https://www.korosiprogram.hu/tudastar/az-innsbrucki-magyar-katolikus-egyhazkozseg-tortenete",
-          "type": "secondary"
+          "label": "Központi Szövetség – Innsbrucki Magyar Katolikus Közösség",
+          "url": "https://www.kozpontiszovetseg.at/tagszervezetek",
+          "type": "institutional"
         },
         {
-          "label": "Rólunk.at – országos magyar katolikus koordináció",
-          "url": "https://rolunk.at/kultura/nem-csak-a-sajat-levesunket-melegitjuk-kozossegepito-kuldetes-felso-ausztriaban-es-azon-tul/",
-          "type": "secondary"
+          "label": "Életünk – Innsbrucki magyar katolikus egyházközség története",
+          "url": "https://epa.oszk.hu/04000/04031/00189/pdf/EPA04031_eletunk_2017_01.pdf",
+          "type": "community-media"
         }
       ],
       "categories": [
         "egyhaz"
-      ]
+      ],
+      "history": {
+        "summary": "Az innsbrucki magyar katolikus közösség az Innsbrucki Egyházmegyében 1946 óta hivatalosan elismert. A közösség az elmúlt évtizedekben változó templomi és lelkipásztori körülmények között is fenntartotta a magyar nyelvű szentmisék és lelki gondozás lehetőségét. A Magyarház, majd más innsbrucki templomok is otthont adtak a rendszeres alkalmaknak.",
+        "milestones": [
+          {
+            "year": "1946",
+            "title": "Hivatalos egyházmegyei elismerés",
+            "description": "Az innsbrucki magyar katolikus közösség hivatalosan elismert közösségként működik Tirolban.",
+            "sourceUrl": "https://epa.oszk.hu/04000/04031/00189/pdf/EPA04031_eletunk_2017_01.pdf"
+          }
+        ]
+      },
+      "activities": [
+        "magyar nyelvű szentmisék",
+        "lelki gondozás",
+        "egyházi ünnepek és közösségi alkalmak",
+        "magyar katolikus hagyományok ápolása"
+      ],
+      "targetGroups": [
+        "Tirolban élő magyar katolikusok",
+        "innsbrucki magyar családok és hívők"
+      ],
+      "languages": [
+        "magyar",
+        "német"
+      ],
+      "email": "pepat@ikbnet.at",
+      "profileVerifiedAt": "2026-09-25"
     },
     {
       "id": "vorarlbergi-magyar-egyesulet",
@@ -4693,7 +4742,7 @@
       "state": "oberoesterreich",
       "city": "Linz / Steyr",
       "type": "gyermek- és családi közösség",
-      "intro": "Magyar gyerekeket és családokat megszólító felső-ausztriai közösség Linz és Steyr térségében, játékos és családi programokkal.",
+      "intro": "A Sünidő Linz és Steyr magyar gyermek- és családi közösségi programként indult, játékos nyelvi és közösségi foglalkozásokkal. Linzben ebből a kezdeményezésből nőtt ki a 2024-ben hivatalosan elindult állami magyar elsőnyelvi oktatás.",
       "website": null,
       "facebook": "https://www.facebook.com/groups/610893464159214/",
       "instagram": null,
@@ -4710,6 +4759,48 @@
       "categories": [
         "csalad",
         "gyermek"
+      ],
+      "history": {
+        "summary": "A Sünidő a felső-ausztriai magyar gyermekek számára szervezett játékos nyelvi és közösségi foglalkozásokból épült fel. Linzben a Székely Tímea által vezetett Sünidő program szakmai előzményévé vált annak az államilag támogatott magyar elsőnyelvi oktatásnak, amely 2024 októberében indult el az Anton Bruckner International School épületében.",
+        "milestones": [
+          {
+            "date": "2024-10-01",
+            "title": "Állami elsőnyelvi oktatás indul Linzben",
+            "description": "A Sünidő tapasztalataira építve hivatalosan elindul a magyar elsőnyelvi oktatás Linzben.",
+            "sourceUrl": "https://rolunk.at/?p=46523"
+          }
+        ]
+      },
+      "activities": [
+        "játékos magyar nyelvi foglalkozások",
+        "gyermek- és családi közösségi programok",
+        "magyar nyelvhasználat támogatása",
+        "kapcsolódás az elsőnyelvi oktatáshoz"
+      ],
+      "targetGroups": [
+        "Linz és Steyr térségében élő magyar gyermekek",
+        "felső-ausztriai magyar családok"
+      ],
+      "languages": [
+        "magyar"
+      ],
+      "profileVerifiedAt": "2026-09-25",
+      "evidenceSources": [
+        {
+          "label": "Rólunk.at – Októbertől anyanyelvi oktatás indul Linzben",
+          "url": "https://rolunk.at/?p=46523",
+          "type": "community-media"
+        },
+        {
+          "label": "Rólunk.at – Sünidő archívum",
+          "url": "https://rolunk.at/tag/sunido/",
+          "type": "community-media"
+        },
+        {
+          "label": "Rólunk.at – felső-ausztriai közösségi együttműködés",
+          "url": "https://rolunk.at/magazin/aktiv-apukak-sztereotipiadontogetes-es-hatalmas-farsangi-buli-felso-ausztriaban/",
+          "type": "community-media"
+        }
       ]
     },
     {
@@ -4944,26 +5035,21 @@
       "state": "tirol",
       "city": "Innsbruck",
       "type": "magyar óvodai és családi közösség",
-      "intro": "Innsbruckban működő magyar óvodai és családi közösség, ahol a legkisebbek mondókákkal, népdalokkal, játékos foglalkozásokkal és közösségi alkalmakon kapcsolódnak a magyar nyelvhez és kultúrához.",
+      "intro": "A NeveNincs Óvoda az innsbrucki magyar családok gyermekközössége, ahol a legkisebbek játékosan kapcsolódnak a magyar nyelvhez, népdalokhoz, mondókákhoz és hagyományokhoz. Működését az IMIKE támogatja.",
       "website": null,
       "facebook": null,
       "instagram": null,
       "eventSources": [],
       "evidenceSources": [
         {
-          "label": "ORF – Amerikában lettem magyar",
-          "url": "https://volksgruppen.orf.at/magyarok/stories/3361160/",
-          "type": "secondary"
-        },
-        {
-          "label": "ORF – Innsbrucki magyar közösség: sikeres év és új tervek",
+          "label": "ORF Magyarok – Innsbrucki magyar közösség: sikeres év és új tervek",
           "url": "https://volksgruppen.orf.at/magyarok/stories/3337903/",
-          "type": "secondary"
+          "type": "public-broadcaster"
         },
         {
-          "label": "ORF – Családi piknik Innsbruckban",
+          "label": "ORF Magyarok – Családi piknik Innsbruckban",
           "url": "https://volksgruppen.orf.at/magyarok/stories/3068208/",
-          "type": "secondary"
+          "type": "public-broadcaster"
         }
       ],
       "regionalNetworks": [
@@ -4977,7 +5063,21 @@
         "ovoda",
         "oktatas",
         "gyermek"
-      ]
+      ],
+      "activities": [
+        "magyar nyelvű óvodai foglalkozások",
+        "mondókák, népdalok és játékok",
+        "hagyományőrző gyermekprogramok",
+        "családi és közösségi alkalmak"
+      ],
+      "targetGroups": [
+        "óvodáskorú magyar vagy magyarul tanuló gyermekek",
+        "Innsbruckban és Tirolban élő magyar családok"
+      ],
+      "languages": [
+        "magyar"
+      ],
+      "profileVerifiedAt": "2026-09-25"
     },
     {
       "id": "bobitak-innsbruck",
@@ -4992,7 +5092,7 @@
         "nephagyomany",
         "kozosseg"
       ],
-      "intro": "Innsbrucki magyar családi és kulturális egyesület, amely a magyar nyelv és hagyományok ápolását közösségi programokkal, gyermekfoglalkozásokkal, népdal- és néptáncos elemekkel, valamint jótékonysági rendezvényekkel kapcsolja össze.",
+      "intro": "A Bóbiták – Ungarischer Kulturverein Innsbruck magyar családi és kulturális egyesület, amely több mint egy évtizede ápolja a magyar nyelvet és hagyományokat Tirolban. Közösségi és jótékonysági eseményeket szervez, és önkéntes alapon működik.",
       "website": "https://bobitak.at/",
       "facebook": null,
       "instagram": null,
@@ -5001,16 +5101,35 @@
       ],
       "evidenceSources": [
         {
-          "label": "Bóbiták – hivatalos oldal",
+          "label": "Bóbiták – hivatalos oldal és bemutatkozás",
           "url": "https://bobitak.at/",
           "type": "official"
         },
         {
           "label": "Kőrösi Csoma Sándor Program – Bóbita Gyermekcsoport",
           "url": "https://www.korosiprogram.hu/tudastar/bobita-gyermekcsoport-bemutatjuk-tirolban-elo-kisgyermekes-magyar-csaladok-egyesuletet",
-          "type": "editorial"
+          "type": "institutional"
         }
-      ]
+      ],
+      "activities": [
+        "magyar kulturális és közösségi rendezvények",
+        "családi és gyermekprogramok",
+        "magyar hagyományok és nyelv ápolása",
+        "jótékonysági események és társadalmi projektek",
+        "közösségi találkozók"
+      ],
+      "targetGroups": [
+        "Innsbruckban és Tirolban élő magyar családok",
+        "gyermekek és fiatalok",
+        "magyar kultúra iránt érdeklődők"
+      ],
+      "languages": [
+        "magyar",
+        "német"
+      ],
+      "email": "info@bobitak.at",
+      "phone": "+43 676 3086927",
+      "profileVerifiedAt": "2026-09-25"
     },
     {
       "id": "fuggetlen-magyar-csucsszervezet",
@@ -5134,7 +5253,7 @@
         "nephagyomany"
       ],
       "parentOrganizationId": "bukv",
-      "intro": "A Burgenlandi Magyar Kultúregyesület 2025 őszén indított felsőőri gyermeknéptánccsoportja. Játékos magyar néptáncot, körjátékokat, népdalokat és mondókákat tanulnak benne a legkisebbek.",
+      "intro": "A Kenderkóc a Burgenlandi Magyar Kultúregyesület 2025-ben indított felsőőri gyermeknéptánccsoportja. Játékos formában tanít magyar néptáncot, körjátékokat, népdalokat és mondókákat.",
       "website": "https://volksgruppen.orf.at/magyarok/stories/3326218/",
       "facebook": null,
       "instagram": null,
@@ -5145,14 +5264,40 @@
         {
           "label": "ORF Magyarok – Kenderkóc indulása",
           "url": "https://volksgruppen.orf.at/magyarok/stories/3326218/",
-          "type": "editorial"
+          "type": "public-broadcaster"
         },
         {
           "label": "ORF Magyarok – BMKE gyermekfarsang 2026",
           "url": "https://volksgruppen.orf.at/magyarok/stories/3341289/",
-          "type": "editorial"
+          "type": "public-broadcaster"
         }
-      ]
+      ],
+      "founded": "2025",
+      "history": {
+        "summary": "A BMKE 2025-ben indította el a Kenderkóc gyermeknéptánccsoportot Felsőőrön. A csoport célja, hogy a legkisebbek játékos formában ismerkedjenek meg a magyar néptánccal, körjátékokkal és népdalokkal, miközben közösségi élményt is kapnak.",
+        "milestones": [
+          {
+            "year": "2025",
+            "title": "A Kenderkóc indulása",
+            "description": "A Burgenlandi Magyar Kultúregyesület elindítja új gyermeknéptánccsoportját.",
+            "sourceUrl": "https://volksgruppen.orf.at/magyarok/stories/3326218/"
+          }
+        ]
+      },
+      "activities": [
+        "gyermeknéptánc",
+        "körjátékok",
+        "magyar népdalok és mondókák",
+        "táncház és közösségi gyermekprogramok"
+      ],
+      "targetGroups": [
+        "kisgyermekek és családok Felsőőrön és környékén",
+        "burgenlandi magyar családok"
+      ],
+      "languages": [
+        "magyar"
+      ],
+      "profileVerifiedAt": "2026-09-25"
     },
     {
       "id": "oriszigeti-neptanc",
