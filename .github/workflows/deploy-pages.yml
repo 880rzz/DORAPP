@@ -27,13 +27,14 @@ jobs:
           python -m json.tool data/articles.json >/dev/null
           python -m json.tool data/education.json >/dev/null
           python -m json.tool data/education-site-health.json >/dev/null
-          python -m py_compile scripts/update_events.py scripts/update_articles.py scripts/audit_education_sites.py scripts/validate_directory.py scripts/generate_profiles.py scripts/generate_education_profiles.py scripts/generate_sitemap.py scripts/generate_reference_pages.py scripts/submit_indexnow.py
+          python -m py_compile scripts/update_events.py scripts/update_articles.py scripts/audit_education_sites.py scripts/validate_directory.py scripts/validate_static_output.py scripts/generate_profiles.py scripts/generate_education_profiles.py scripts/generate_sitemap.py scripts/generate_reference_pages.py scripts/submit_indexnow.py
           node --check app.js
           python scripts/validate_directory.py
           python scripts/generate_profiles.py
           python scripts/generate_education_profiles.py
           python scripts/generate_reference_pages.py
           python scripts/generate_sitemap.py
+          python scripts/validate_static_output.py
       - name: Persist generated profiles and sitemap
         run: |
           if [ -z "$(git status --porcelain -- sitemap.xml szervezetek oktatas esemenyek tartomanyok kategoriak entity.jsonld ai-entry.json adatminoseg.html)" ]; then
