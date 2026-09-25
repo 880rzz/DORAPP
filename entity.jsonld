@@ -1,0 +1,60 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://diaszpora.kozpontiszovetseg.at/#website",
+      "name": "Magyar Programok Ausztriában",
+      "url": "https://diaszpora.kozpontiszovetseg.at/",
+      "inLanguage": "hu-AT",
+      "publisher": {
+        "@id": "https://diaszpora.kozpontiszovetseg.at/#publisher"
+      }
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://diaszpora.kozpontiszovetseg.at/#publisher",
+      "name": "Ausztriai Magyar Egyesületek és Szervezetek Központi Szövetsége",
+      "url": "https://www.kozpontiszovetseg.at/",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "ZVR",
+        "value": "079797621"
+      }
+    },
+    {
+      "@type": "Dataset",
+      "@id": "https://diaszpora.kozpontiszovetseg.at/#dataset",
+      "name": "Ausztriai magyar szervezetek, oktatás és programok",
+      "description": "Forrásalapú országos adatbázis az Ausztriában működő magyar közösségekről, oktatási helyekről és nyilvános eseményekről.",
+      "url": "https://diaszpora.kozpontiszovetseg.at/",
+      "inLanguage": "hu-AT",
+      "creator": {
+        "@id": "https://diaszpora.kozpontiszovetseg.at/#publisher"
+      },
+      "license": "https://diaszpora.kozpontiszovetseg.at/forrasok.html",
+      "distribution": [
+        {
+          "@type": "DataDownload",
+          "encodingFormat": "application/json",
+          "contentUrl": "https://diaszpora.kozpontiszovetseg.at/data/organizations.json"
+        },
+        {
+          "@type": "DataDownload",
+          "encodingFormat": "application/json",
+          "contentUrl": "https://diaszpora.kozpontiszovetseg.at/data/education.json"
+        },
+        {
+          "@type": "DataDownload",
+          "encodingFormat": "application/json",
+          "contentUrl": "https://diaszpora.kozpontiszovetseg.at/data/events.json"
+        },
+        {
+          "@type": "DataDownload",
+          "encodingFormat": "application/json",
+          "contentUrl": "https://diaszpora.kozpontiszovetseg.at/data/articles.json"
+        }
+      ]
+    }
+  ]
+}
