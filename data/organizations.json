@@ -665,6 +665,30 @@
           "sourceUrl": "https://rolunk.at/nepcsoportunk/20-tagegyesuletet-fog-ossze-az-ausztriai-magyar-szervezetek-kerekasztala/",
           "verifiedAt": "2026-09-25"
         }
+      ],
+      "regionalNetworks": [
+        {
+          "networkId": "burgenland-bmke-network",
+          "role": "hub",
+          "sourceUrl": "https://rolunk.at/nepcsoportunk/van-meg-magyar-szo-ezen-a-videken-55-eves-a-burgenlandi-magyar-kulturegyesulet/"
+        }
+      ],
+      "evidenceSources": [
+        {
+          "label": "Rólunk.at – 55 éves a Burgenlandi Magyar Kultúregyesület",
+          "url": "https://rolunk.at/nepcsoportunk/van-meg-magyar-szo-ezen-a-videken-55-eves-a-burgenlandi-magyar-kulturegyesulet/",
+          "type": "secondary"
+        },
+        {
+          "label": "Rólunk.at – Rólunk.at kuratóriuma",
+          "url": "https://rolunk.at/rolunk/",
+          "type": "secondary"
+        },
+        {
+          "label": "Rólunk.at – Elindultunk!",
+          "url": "https://rolunk.at/nepcsoportunk/elindultunk/",
+          "type": "secondary"
+        }
       ]
     },
     {
@@ -679,6 +703,13 @@
       "instagram": null,
       "eventSources": [
         "https://vhs-ungarn.at/"
+      ],
+      "regionalNetworks": [
+        {
+          "networkId": "burgenland-bmke-network",
+          "role": "partner",
+          "sourceUrl": "https://rolunk.at/nepcsoportunk/van-meg-magyar-szo-ezen-a-videken-55-eves-a-burgenlandi-magyar-kulturegyesulet/"
+        }
       ]
     },
     {
@@ -693,6 +724,13 @@
       "instagram": null,
       "eventSources": [
         "https://umiz.at/"
+      ],
+      "regionalNetworks": [
+        {
+          "networkId": "burgenland-bmke-network",
+          "role": "partner",
+          "sourceUrl": "https://rolunk.at/nepcsoportunk/van-meg-magyar-szo-ezen-a-videken-55-eves-a-burgenlandi-magyar-kulturegyesulet/"
+        }
       ]
     },
     {
@@ -776,6 +814,13 @@
           "umbrellaId": "kozponti-szovetseg",
           "sourceUrl": "https://www.kozpontiszovetseg.at/tagszervezetek",
           "verifiedAt": "2026-09-25"
+        }
+      ],
+      "regionalNetworks": [
+        {
+          "networkId": "burgenland-bmke-network",
+          "role": "partner",
+          "sourceUrl": "https://rolunk.at/nepcsoportunk/van-meg-magyar-szo-ezen-a-videken-55-eves-a-burgenlandi-magyar-kulturegyesulet/"
         }
       ]
     },
@@ -1304,6 +1349,13 @@
       "instagram": null,
       "eventSources": [
         "https://www.facebook.com/Fels%C5%91%C5%91ri-Reform%C3%A1tus-Ifj%C3%BAs%C3%A1gi-Olvas%C3%B3k%C3%B6r-421949981307391/"
+      ],
+      "regionalNetworks": [
+        {
+          "networkId": "burgenland-bmke-network",
+          "role": "partner",
+          "sourceUrl": "https://rolunk.at/nepcsoportunk/van-meg-magyar-szo-ezen-a-videken-55-eves-a-burgenlandi-magyar-kulturegyesulet/"
+        }
       ]
     },
     {
@@ -1564,6 +1616,23 @@
       "fullName": "Ausztriai Magyar Szervezetek Kerekasztala",
       "url": "https://kerekasztal.at/",
       "membersUrl": "https://rolunk.at/nepcsoportunk/20-tagegyesuletet-fog-ossze-az-ausztriai-magyar-szervezetek-kerekasztala/"
+    }
+  ],
+  "regionalNetworks": [
+    {
+      "id": "burgenland-bmke-network",
+      "name": "Burgenlandi magyar együttműködési háló",
+      "hubOrganizationId": "bukv",
+      "region": "burgenland",
+      "description": "A BMKE körül dokumentáltan együttműködő burgenlandi magyar szervezetek hálózata.",
+      "sourceUrl": "https://rolunk.at/nepcsoportunk/van-meg-magyar-szo-ezen-a-videken-55-eves-a-burgenlandi-magyar-kulturegyesulet/",
+      "members": [
+        "bukv",
+        "kozep-burgenlandi",
+        "vhs-burgenland",
+        "reformatus-ifjusagi-olvasokor",
+        "umiz"
+      ]
     }
   ]
 }
