@@ -3557,7 +3557,7 @@
         "kultura",
         "kozosseg"
       ],
-      "intro": "A gráci és Graz környéki magyar közösség rendszeresen megjelenő magyar nyelvű információs lapja. A MEÖK szerkeszti és adja ki; helyi közösségi híreket, kulturális tartalmakat és programinformációkat közöl.",
+      "intro": "A Gráci Magyar Újság a MEÖK 2000 óta rendszeresen megjelenő magyar nyelvű információs lapja, amely Graz és környéke magyar közösségi, kulturális és egyesületi életét dokumentálja.",
       "website": "https://www.meoek.at/",
       "facebook": null,
       "instagram": null,
@@ -3573,16 +3573,67 @@
       ],
       "evidenceSources": [
         {
-          "label": "MEÖK – Gráci Magyar Újság",
+          "label": "MEÖK – Gráci Magyar Újság története",
           "url": "https://www.meoek.at/",
           "type": "official"
         },
         {
-          "label": "ORF – a Gráci Magyar Újság 2026-os megújulása",
+          "label": "MEÖK – Gráci Magyar Újság archívum",
+          "url": "https://www.meoek.at/mediatar/",
+          "type": "official"
+        },
+        {
+          "label": "MEÖK – Impresszum",
+          "url": "https://www.meoek.at/impresszum/",
+          "type": "official"
+        },
+        {
+          "label": "ORF Magyarok – Gráci Magyar Újság 2026-os megújulási tervei",
           "url": "https://volksgruppen.orf.at/magyarok/stories/3338990/",
-          "type": "editorial"
+          "type": "public-broadcaster"
         }
-      ]
+      ],
+      "founded": "2000-09",
+      "history": {
+        "summary": "A lap előzménye a MEÖK vezetősége által 1996-ban létrehozott Gráci Magyar Egyesületek és Közösségek Műsorismertetője volt. 2000 szeptemberében ebből fejlődött ki a Gráci Magyar Újság, amely bővebb tartalommal, szerkesztőségi struktúrával és rendszeres megjelenéssel szolgálta a helyi magyar közösséget. 2006-tól digitális kiadásban is elérhető.",
+        "milestones": [
+          {
+            "year": "1996",
+            "title": "Műsorismertető indulása",
+            "description": "A MEÖK létrehozza a gráci magyar szervezetek közös programismertetőjét.",
+            "sourceUrl": "https://www.meoek.at/"
+          },
+          {
+            "date": "2000-09",
+            "title": "Gráci Magyar Újság első száma",
+            "description": "Megjelenik az első kibővített Gráci Magyar Újság.",
+            "sourceUrl": "https://www.meoek.at/"
+          },
+          {
+            "year": "2006",
+            "title": "Digitális kiadás",
+            "description": "A lap a MEÖK honlapján online, színes kiadásban is megjelenik.",
+            "sourceUrl": "https://www.meoek.at/"
+          }
+        ]
+      },
+      "activities": [
+        "magyar nyelvű közösségi újságírás",
+        "gráci magyar programok és egyesületek bemutatása",
+        "kulturális és történeti cikkek",
+        "közösségi információk",
+        "digitális és nyomtatott archívum"
+      ],
+      "targetGroups": [
+        "Grazban és környékén élő magyarok",
+        "gráci magyar egyesületek és közösségek",
+        "magyar kulturális és közéleti olvasók"
+      ],
+      "languages": [
+        "magyar"
+      ],
+      "email": "office@meoek.net",
+      "profileVerifiedAt": "2026-09-25"
     },
     {
       "id": "katolikus-graz",
@@ -3590,7 +3641,7 @@
       "state": "steiermark",
       "city": "Graz",
       "type": "egyházi közösség",
-      "intro": "Graz magyar katolikus közössége magyar nyelvű liturgiával és közösségi programokkal.",
+      "intro": "A Gráci Magyar Katolikus Közösség a Graz-Seckaui Egyházmegye területén élő vagy ideiglenesen ott tartózkodó magyar római katolikus hívek anyanyelvi lelkipásztori közössége. Magyar szentmiséket, lelki és közösségi alkalmakat szervez, és a magyar vallási-kulturális örökség ápolását szolgálja.",
       "website": "https://www.grazimagyaregyesuelet.at/magyar-katolikus-k%C3%B6z%C3%B6ss%C3%A9g-magyar-evang%C3%A9likus-gy%C3%BClekezet/",
       "facebook": null,
       "instagram": null,
@@ -3613,19 +3664,53 @@
       ],
       "evidenceSources": [
         {
-          "label": "Rólunk.at – Mariazellbe zarándokoltak a grazi magyarok",
-          "url": "https://rolunk.at/nepcsoportunk/mariazellbe-zarandokolnak-a-grazi-magyarok/",
-          "type": "secondary"
+          "label": "Petőfi Sándor Program – Gráci Magyar Katolikus Közösség története",
+          "url": "https://www.petofiprogram.hu/hirek/grac-hivek-szamara-fontos-az-anyanyelv-gyakorlasa-imaban-enekben-beszelgetesben-graci-magyar",
+          "type": "institutional"
         },
         {
-          "label": "Rólunk.at – Grázi Magyar Egyesület és a közös programstruktúra",
-          "url": "https://rolunk.at/nepcsoportunk/grazi-magyar-egyesulet/",
-          "type": "secondary"
+          "label": "Grazi Magyar Egyesület – magyar katolikus és evangélikus közösség",
+          "url": "https://www.grazimagyaregyesuelet.at/magyar-katolikus-k%C3%B6z%C3%B6ss%C3%A9g-magyar-evang%C3%A9likus-gy%C3%BClekezet/",
+          "type": "institutional"
         }
       ],
       "categories": [
         "egyhaz"
-      ]
+      ],
+      "history": {
+        "summary": "A gráci magyar katolikus jelenlét története évszázados előzményekre tekint vissza, a szervezett modern közösségi működés azonban a 20. század végén erősödött meg. 1997-től Kormos Gyula nyugalmazott plébános vezette a közösséget, ő használta először következetesen a Magyar Katolikus Közösség elnevezést. Ezt követően több, Grazban tanuló magyar pap vállalt rendszeres lelkipásztori szolgálatot.",
+        "milestones": [
+          {
+            "year": "1997",
+            "title": "Új szervezett lelkipásztori korszak",
+            "description": "Kormos Gyula átveszi a közösség vezetését és megerősíti a Magyar Katolikus Közösség elnevezést.",
+            "sourceUrl": "https://www.petofiprogram.hu/hirek/grac-hivek-szamara-fontos-az-anyanyelv-gyakorlasa-imaban-enekben-beszelgetesben-graci-magyar"
+          },
+          {
+            "year": "2000",
+            "title": "Posztgraduális papok szolgálata",
+            "description": "A közösség lelkipásztori ellátásában Grazban tanuló magyar papok vesznek részt.",
+            "sourceUrl": "https://www.petofiprogram.hu/hirek/grac-hivek-szamara-fontos-az-anyanyelv-gyakorlasa-imaban-enekben-beszelgetesben-graci-magyar"
+          }
+        ]
+      },
+      "activities": [
+        "magyar nyelvű katolikus szentmisék",
+        "lelkipásztori szolgálat",
+        "egyházi ünnepek",
+        "közösségi és kulturális alkalmak",
+        "magyar vallási hagyományok ápolása"
+      ],
+      "targetGroups": [
+        "Grazban és Stájerországban élő magyar katolikusok",
+        "magyar családok és hívők",
+        "magyar nyelvű lelkipásztori szolgálatot keresők"
+      ],
+      "languages": [
+        "magyar",
+        "német"
+      ],
+      "profileVerifiedAt": "2026-09-25"
     },
     {
       "id": "salzung",
