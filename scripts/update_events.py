@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 from __future__ import annotations
 import json,re,urllib.request,urllib.parse
+from concurrent.futures import ThreadPoolExecutor,as_completed
 from pathlib import Path
 from datetime import datetime,timezone,timedelta
 from html import unescape
@@ -14,7 +15,7 @@ EVENT_HINT=re.compile(r"(event|events|event-details|veranstaltung|termine|progra
 
 def fetch(url:str)->tuple[str,str]:
     req=urllib.request.Request(url,headers={"User-Agent":UA,"Accept":"text/html,application/xhtml+xml,text/calendar,application/json;q=0.9,*/*;q=0.8"})
-    with urllib.request.urlopen(req,timeout=12) as r:
+    with urllib.request.urlopen(req,timeout=8) as r:
         raw=r.read(3_000_000)
         ct=r.headers.get_content_type()
         return raw.decode(r.headers.get_content_charset() or "utf-8","replace"),ct
@@ -73,7 +74,7 @@ def links(html,base):
         if p.scheme not in ("http","https") or p.netloc!=host: continue
         if u.lower().endswith(".ics") or EVENT_HINT.search(p.path+"?"+p.query):
             if u not in out: out.append(u)
-    return out[:10]
+    return out[:6]
 
 def unfold_ics(text):
     lines=text.replace("\r\n","\n").replace("\r","\n").split("\n"); out=[]
@@ -126,28 +127,36 @@ def main():
     old=json.loads(EVENT_FILE.read_text(encoding="utf-8")) if EVENT_FILE.exists() else {"events":[]}
     merged={e["id"]:e for e in old.get("events",[]) if futureish(e.get("startDate"))}
     health=[]
-    for org in orgdb["organizations"]:
-        for source in org.get("eventSources",[]):
-            row={"organizationId":org["id"],"source":source,"checkedAt":datetime.now(timezone.utc).isoformat(),
-                 "status":"unknown","eventsFound":0,"pagesChecked":0}
-            try:
-                events,candidates,_=collect_page(source,org,source); row["pagesChecked"]=1
-                for e in events:
-                    if futureish(e["startDate"]): merged[e["id"]]=e
-                found=sum(1 for e in events if futureish(e["startDate"]))
-                for u in candidates:
-                    try:
-                        subevents,_,_=collect_page(u,org,source); row["pagesChecked"]+=1
-                        for e in subevents:
-                            if futureish(e["startDate"]):
-                                merged[e["id"]]=e; found+=1
-                    except Exception:
-                        continue
-                row["eventsFound"]=found
-                row["status"]="ok-events" if found else "ok-no-structured-event"
-            except Exception as ex:
-                row["status"]="error"; row["error"]=str(ex)[:220]
+    def audit_source(org,source):
+        row={"organizationId":org["id"],"source":source,"checkedAt":datetime.now(timezone.utc).isoformat(),
+             "status":"unknown","eventsFound":0,"pagesChecked":0}
+        collected=[]
+        try:
+            events,candidates,_=collect_page(source,org,source); row["pagesChecked"]=1
+            collected.extend(e for e in events if futureish(e["startDate"]))
+            for u in candidates:
+                try:
+                    subevents,_,_=collect_page(u,org,source); row["pagesChecked"]+=1
+                    collected.extend(e for e in subevents if futureish(e["startDate"]))
+                except Exception:
+                    continue
+            unique={e["id"]:e for e in collected}
+            collected=list(unique.values())
+            row["eventsFound"]=len(collected)
+            row["status"]="ok-events" if collected else "ok-no-structured-event"
+        except Exception as ex:
+            row["status"]="error"; row["error"]=str(ex)[:220]
+        return row,collected
+
+    jobs=[(org,source) for org in orgdb["organizations"] for source in org.get("eventSources",[])]
+    with ThreadPoolExecutor(max_workers=8) as pool:
+        futures=[pool.submit(audit_source,org,source) for org,source in jobs]
+        for future in as_completed(futures):
+            row,collected=future.result()
             health.append(row)
+            for e in collected:
+                merged[e["id"]]=e
+    health.sort(key=lambda x:(x["organizationId"],x["source"]))
     events=sorted(merged.values(),key=lambda e:str(e.get("startDate","")))
     now=datetime.now(timezone.utc).isoformat()
     EVENT_FILE.write_text(json.dumps({"updated":now,"events":events},ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
