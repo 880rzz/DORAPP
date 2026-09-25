@@ -1,0 +1,34 @@
+name: Deploy DORAPP to GitHub Pages
+on:
+  push:
+    branches: ["main"]
+  workflow_dispatch:
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+concurrency:
+  group: pages
+  cancel-in-progress: false
+jobs:
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/configure-pages@v5
+      - name: Validate static app
+        run: |
+          python -m json.tool data/organizations.json >/dev/null
+          python -m json.tool data/events.json >/dev/null
+          python -m json.tool data/source-health.json >/dev/null
+          python -m py_compile scripts/update_events.py scripts/validate_directory.py
+          python scripts/validate_directory.py
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: .
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
