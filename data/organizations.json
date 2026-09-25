@@ -2431,6 +2431,40 @@
           "type": "institutional"
         }
       ]
+    },
+    {
+      "id": "mamut-musical",
+      "name": "Bécsi Magyar Musical Társulat – maMUT",
+      "state": "wien",
+      "city": "Wien",
+      "type": "magyar nyelvű musical- és színházi társulat",
+      "categories": [
+        "szinhaz",
+        "zene",
+        "muveszet",
+        "ifjusag",
+        "gyermek"
+      ],
+      "intro": "Bécs első magyar nyelvű musical alkotóközössége. Ének, zene, tánc és színjátszás egyesül a saját előadásokban; a társulat keretében működik a 8–13 éveseknek szóló Musical Studio.",
+      "website": "https://www.musicaltarsulat.at/",
+      "facebook": null,
+      "instagram": null,
+      "eventSources": [
+        "https://www.musicaltarsulat.at/",
+        "https://www.musicaltarsulat.at/blog"
+      ],
+      "evidenceSources": [
+        {
+          "label": "maMUT – hivatalos oldal",
+          "url": "https://www.musicaltarsulat.at/",
+          "type": "official"
+        },
+        {
+          "label": "Központi Szövetség – GDPR & AI Trust",
+          "url": "https://www.kozpontiszovetseg.at/post/gdpr-ai-trust",
+          "type": "institutional"
+        }
+      ]
     }
   ],
   "umbrellaOrganizations": [
@@ -2654,6 +2688,10 @@
     {
       "id": "kozosseg",
       "label": "Közösségi csoport"
+    },
+    {
+      "id": "zene",
+      "label": "Zene / musical"
     }
   ]
 }
