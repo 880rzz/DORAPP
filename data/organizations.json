@@ -9278,10 +9278,7 @@
           "sourceUrl": "https://www.kozpontiszovetseg.at/r%C3%B3lunk"
         }
       ],
-      "categories": [
-        "kultura",
-        "kozosseg"
-      ],
+      "categories": [],
       "founded": "1990",
       "history": {
         "summary": "A Központi Szövetség saját bemutatkozása szerint 1990 óta kétévente szervezi meg a Kufstein Tanácskozást. A konferenciasorozat a határon túli és diaszpórában élő magyarság identitásával, közösségi helyzetével és együttműködésével foglalkozik.",
@@ -9317,7 +9314,12 @@
         }
       ],
       "entityClass": "activity",
-      "classificationNote": "Visszatérő konferenciasorozat; nem önálló tagszervezet."
+      "classificationNote": "Visszatérő konferenciasorozat; nem önálló tagszervezet.",
+      "activityCategories": [
+        "felnott",
+        "kozosseg"
+      ],
+      "parentOrganizationId": "kozponti-szovetseg"
     },
     {
       "id": "sodalitas-kiadoi-projekt",
