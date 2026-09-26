@@ -1,9 +1,9 @@
 {
-  "updated": "2026-09-26T22:43:31.613016+00:00",
+  "updated": "2026-09-26T22:46:31.683721+00:00",
   "summary": {
     "organizations": 142,
     "organizationFlags": 0,
-    "organizationPagesChecked": 311,
+    "organizationPagesChecked": 309,
     "education": 106,
     "educationFlags": 0,
     "events": 21,
@@ -1188,20 +1188,23 @@
         "oktatas",
         "neptanc",
         "nepzene",
-        "szinhaz",
         "media",
         "egyhaz",
         "muveszet",
         "sport",
         "csalad"
       ],
-      "pagesChecked": 3,
+      "pagesChecked": 2,
       "checkedUrls": [
-        "https://www.kozpontiszovetseg.at/event-details/zene-es-talalkozas",
         "https://volksgruppen.orf.at/v2/magyarok/stories/2914449/",
         "https://hvg.hu/kultura/20141111_Centropedij"
       ],
-      "errors": [],
+      "errors": [
+        {
+          "url": "https://www.kozpontiszovetseg.at/event-details/zene-es-talalkozas",
+          "error": "HTTP Error 429: Too Many Requests"
+        }
+      ],
       "flags": []
     },
     {
@@ -2026,20 +2029,20 @@
       "activityCategories": [],
       "signals": [
         "oktatas",
-        "neptanc",
-        "nepzene",
         "szinhaz",
-        "media",
         "irodalom",
         "muveszet",
         "csalad"
       ],
-      "pagesChecked": 2,
+      "pagesChecked": 1,
       "checkedUrls": [
-        "https://www.kozpontiszovetseg.at/",
-        "https://www.kozpontiszovetseg.at/r%C3%B3lunk"
+        "https://www.kozpontiszovetseg.at/"
       ],
       "errors": [
+        {
+          "url": "https://www.kozpontiszovetseg.at/r%C3%B3lunk",
+          "error": "HTTP Error 429: Too Many Requests"
+        },
         {
           "url": "https://www.kozpontiszovetseg.at/kapcsolat",
           "error": "HTTP Error 429: Too Many Requests"
@@ -2261,7 +2264,7 @@
       "errors": [
         {
           "url": "https://www.magyarszo.at/",
-          "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'www.magyarszo.at'. (_ssl.c:1010)>"
+          "error": "<urlopen error timed out>"
         }
       ],
       "flags": []
