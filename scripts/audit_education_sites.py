@@ -95,7 +95,17 @@ def audit(inst):
                 continue
         row["status"]="relevant-content-found" if row["matchedUrls"] else "reachable-no-relevant-keywords"
     except Exception as ex:
-        row["status"]="error";row["error"]=str(ex)[:220]
+        code=getattr(ex,"code",None)
+        msg=str(ex)
+        if code in (401,403,429):
+            row["status"]="site-blocked"
+        elif "CERTIFICATE_VERIFY_FAILED" in msg or "SSL:" in msg:
+            row["status"]="tls-error"
+        elif any(s in msg for s in ("Network is unreachable","No address associated with hostname","Name or service not known","Connection refused","timed out")):
+            row["status"]="network-error"
+        else:
+            row["status"]="error"
+        row["error"]=msg[:220]
     return row
 
 def main():
@@ -111,6 +121,9 @@ def main():
           "relevant=",sum(x["status"]=="relevant-content-found" for x in rows),
           "no_relevant=",sum(x["status"]=="reachable-no-relevant-keywords" for x in rows),
           "no_website=",sum(x["status"]=="no-website" for x in rows),
+          "site_blocked=",sum(x["status"]=="site-blocked" for x in rows),
+          "network_errors=",sum(x["status"]=="network-error" for x in rows),
+          "tls_errors=",sum(x["status"]=="tls-error" for x in rows),
           "errors=",sum(x["status"]=="error" for x in rows))
 
 if __name__=="__main__": main()
