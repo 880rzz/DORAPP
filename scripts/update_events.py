@@ -65,7 +65,10 @@ def text_value(v):
     return ""
 
 def clean_text(v):
-    return re.sub(r"\s+"," ",re.sub(r"<[^>]+>"," ",unescape(str(v or "")))).strip()
+    s=unescape(str(v or ""))
+    s=re.sub(r"\\\\[nN]"," ",s)
+    s=s.replace(r"\\,",",").replace(r"\\;",";").replace(r"\\\\","\\")
+    return re.sub(r"\s+"," ",re.sub(r"<[^>]+>"," ",s)).strip()
 
 def offer_details(v):
     offers=v if isinstance(v,list) else ([v] if isinstance(v,dict) else [])
