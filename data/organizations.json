@@ -316,8 +316,7 @@
       "city": "Wien",
       "type": "gyermek színjátszó csoport",
       "categories": [
-        "szinhaz",
-        "oktatas"
+        "szinhaz"
       ],
       "parentOrganizationId": "svung",
       "intro": "A SVUNG – Bécsi Magyar Színház 8–13 éveseknek szóló magyar nyelvű drámacsoportja. Heti foglalkozásokon drámajáték, improvizáció és színpadi alkotás keretében fejleszti a kommunikációt, önbizalmat és magyar nyelvhasználatot.",
@@ -360,7 +359,9 @@
           }
         ]
       },
-      "entityClass": "group"
+      "entityClass": "group",
+      "classificationOverride": "stable-group",
+      "classificationNote": "Önálló, tartósan működő színjátszó csoport; a heti foglalkozás külön oktatási/kurzusrekordban szerepel."
     },
     {
       "id": "gimi-svung",
@@ -369,8 +370,7 @@
       "city": "Wien",
       "type": "ifjúsági színjátszó csoport",
       "categories": [
-        "szinhaz",
-        "oktatas"
+        "szinhaz"
       ],
       "parentOrganizationId": "svung",
       "intro": "A SVUNG – Bécsi Magyar Színház gimnazistáknak szóló magyar nyelvű drámacsoportja. A 2026/27-es tanévben heti rendszerességgel működik a Bécsi Magyar Iskolában.",
@@ -414,7 +414,9 @@
           }
         ]
       },
-      "entityClass": "group"
+      "entityClass": "group",
+      "classificationOverride": "stable-group",
+      "classificationNote": "Önálló, tartósan működő színjátszó csoport; a heti foglalkozás külön oktatási/kurzusrekordban szerepel."
     },
     {
       "id": "cserkesz-72",
@@ -8448,8 +8450,7 @@
       "city": "Oberwart / Felsőőr",
       "type": "zenei együttes",
       "categories": [
-        "zenekar",
-        "muveszet"
+        "zenekar"
       ],
       "parentOrganizationId": "bukv",
       "intro": "A Burgenlandi Magyar Kultúregyesület 2006-ban alapított zenei együttese, amely kortárs burgenlandi komolyzenei műveket és a térség magyar kulturális örökségéhez kapcsolódó repertoárt gondoz.",
