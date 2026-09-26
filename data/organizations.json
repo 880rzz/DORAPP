@@ -10439,6 +10439,89 @@
         ]
       },
       "entityClass": "organization"
+    },
+    {
+      "id": "haus-der-volksgruppen-oberwart",
+      "name": "Haus der Volksgruppen / Népcsoportok Háza – Felsőőr",
+      "state": "burgenland",
+      "city": "Oberwart / Felsőőr",
+      "type": "népcsoporti kulturális és közösségi központ",
+      "intro": "A 2026. szeptember 26-án hivatalosan megnyitott felsőőri Népcsoportok Háza a burgenlandi magyar, horvát és roma népcsoport intézményeinek közös kulturális, oktatási és közösségi központja. A házban többek között a Burgenlandi Magyar Kultúregyesület és a Burgenlandi Magyarok Népfőiskolája működik.",
+      "website": null,
+      "facebook": null,
+      "instagram": null,
+      "eventSources": [
+        "https://www.oberwart.gv.at/stadt/termine/"
+      ],
+      "categories": [
+        "kultura",
+        "kozosseg"
+      ],
+      "founded": "2026-09-26",
+      "activities": [
+        "népcsoporti kulturális és közösségi programok",
+        "semináriumok és képzések",
+        "közös rendezvények és találkozók",
+        "könyvtári és közösségi szolgáltatások",
+        "magyar, horvát és roma intézmények együttműködésének helyszíne"
+      ],
+      "targetGroups": [
+        "burgenlandi magyar, horvát és roma közösségek",
+        "Felsőőr és környéke lakossága",
+        "népcsoporti kultúra, nyelv és oktatás iránt érdeklődők"
+      ],
+      "languages": [
+        "magyar",
+        "német"
+      ],
+      "profileVerifiedAt": "2026-09-27",
+      "affiliations": [
+        {
+          "organizationId": "bukv",
+          "label": "A Burgenlandi Magyar Kultúregyesület egyik új intézményi otthona",
+          "sourceUrl": "https://www.radio-mora.at/blog/haus-der-volksgruppen-in-oberwart-wird-feierlich-eroeffnet/"
+        },
+        {
+          "organizationId": "vhs-burgenland",
+          "label": "A Burgenlandi Magyarok Népfőiskolájának egyik új intézményi otthona",
+          "sourceUrl": "https://www.radio-mora.at/blog/haus-der-volksgruppen-in-oberwart-wird-feierlich-eroeffnet/"
+        }
+      ],
+      "evidenceSources": [
+        {
+          "label": "Land Burgenland – hivatalos megnyitási közlemény",
+          "url": "https://www.burgenland.at/news-detail/lh-doskozil-laedt-bevoelkerung-zur-eroeffnung-des-jahrhundertprojekts-haus-der-volksgruppen/",
+          "type": "government"
+        },
+        {
+          "label": "ORF Burgenland – Haus der Volksgruppen eröffnet",
+          "url": "https://burgenland.orf.at/stories/3372614/",
+          "type": "public-broadcaster"
+        },
+        {
+          "label": "Radio MORA – a házban működő népcsoporti szervezetek",
+          "url": "https://www.radio-mora.at/blog/haus-der-volksgruppen-in-oberwart-wird-feierlich-eroeffnet/",
+          "type": "institutional-media"
+        }
+      ],
+      "history": {
+        "summary": "A projekt a Burgenland fennállásának 100. évfordulójához kapcsolódó kezdeményezésből nőtt ki. A korábbi felsőőri városi internátust mintegy 6000 négyzetméteres, többfunkciós népcsoporti központtá alakították. A kulcsokat 2026 áprilisában adták át, ezt próbaüzem követte, majd 2026. szeptember 26-án, a Nyelvek Európai Napján hivatalosan is megnyitották az intézményt.",
+        "milestones": [
+          {
+            "date": "2026-04-27",
+            "title": "Kulcsátadás és próbaüzem",
+            "description": "A magyar, horvát és roma népcsoport képviselői átveszik a házat és megkezdődik a próbaüzem.",
+            "sourceUrl": "https://volksgruppen.orf.at/magyarok/stories/3351788/"
+          },
+          {
+            "date": "2026-09-26",
+            "title": "Hivatalos megnyitás",
+            "description": "A Népcsoportok Háza ünnepélyesen megnyílik Felsőőrön.",
+            "sourceUrl": "https://burgenland.orf.at/stories/3372614/"
+          }
+        ]
+      },
+      "entityClass": "institution"
     }
   ],
   "umbrellaOrganizations": [
