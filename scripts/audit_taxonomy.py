@@ -17,10 +17,10 @@ SIGNALS={
  "oktatas":[r"iskola",r"schule",r"unterricht",r"oktat",r"kurs",r"tanfolyam",r"pedag"],
  "neptanc":[r"néptánc",r"neptanc",r"volkstanz",r"tánccsoport"],
  "nepzene":[r"népzene",r"volksmusik",r"citera",r"hegedű",r"zenekar"],
- "enekkar":[r"énekkar",r"ének.?kör",r"népdalkör",r"chor",r"singkreis"],
+ "enekkar":[r"énekkar",r"ének.?kör",r"népdalkör",r"dalárda",r"chor",r"singkreis"],
  "cserkesz":[r"cserkész",r"scout"],
  "szinhaz":[r"színház",r"színjáts",r"dráma",r"theater",r"musical"],
- "media":[r"magazin",r"rádió",r"radio",r"újság",r"zeitung",r"redak",r"sajtó"],
+ "media":[r"média",r"media",r"információs központ",r"magazin",r"rádió",r"radio",r"újság",r"zeitung",r"redak",r"sajtó"],
  "egyhaz":[r"katol",r"reform",r"evang",r"templom",r"kirche",r"pfarre"],
  "diak":[r"diák",r"student",r"egyetemista",r"alumni"],
  "irodalom":[r"irodal",r"könyv",r"literatur",r"olvas"],
@@ -71,7 +71,7 @@ def audit_org(o):
         flags.append("legacy-offering-category-on-entity")
     if o.get("entityClass")!="activity":
         own_activity_hint=any(re.search(p,(o.get("type","")+" "+o.get("name","")+" "+(o.get("website") or "")).casefold(),re.I) for p in ACTIVITY_HINTS)
-        if own_activity_hint and o.get("parentOrganizationId"):
+        if own_activity_hint and o.get("parentOrganizationId") and o.get("classificationOverride")!="stable-group":
             flags.append("possible-activity-classification")
     for cat in cats:
         if cat in SIGNALS and cat not in signals and checked:
