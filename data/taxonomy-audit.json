@@ -1,7 +1,3469 @@
 {
-  "updated": null,
-  "summary": {},
-  "organizations": [],
-  "educationFlags": [],
+  "updated": "2026-09-26T16:31:26.031088+00:00",
+  "summary": {
+    "organizations": 124,
+    "organizationFlags": 5,
+    "organizationPagesChecked": 282,
+    "education": 103,
+    "educationFlags": 10,
+    "events": 20,
+    "eventFlags": 0
+  },
+  "organizations": [
+    {
+      "id": "alsoori-enekkar",
+      "name": "Alsóőri Énekkar",
+      "entityClass": "organization",
+      "categories": [
+        "enekkar"
+      ],
+      "activityCategories": [],
+      "signals": [
+        "oktatas",
+        "neptanc",
+        "nepzene",
+        "enekkar",
+        "szinhaz",
+        "media",
+        "egyhaz",
+        "irodalom",
+        "muveszet",
+        "sport",
+        "csalad"
+      ],
+      "pagesChecked": 2,
+      "checkedUrls": [
+        "https://rolunk.at/aktualis/az-alsoori-enekkar-magyarorszagon-es-a-lugasban-enekelt/",
+        "https://rolunk.at/artikel-mit-ubersetzung/kirchenhistorischer-wert-das-neue-gesangbuch-von-unterwart/"
+      ],
+      "errors": [
+        {
+          "url": "https://www.alsoori-enekkar.at/",
+          "error": "<urlopen error [Errno -2] Name or service not known>"
+        }
+      ],
+      "flags": []
+    },
+    {
+      "id": "alsoori-katolikus",
+      "name": "Alsóőri Katolikus Egyházközség",
+      "entityClass": "organization",
+      "categories": [
+        "egyhaz"
+      ],
+      "activityCategories": [],
+      "signals": [
+        "egyhaz"
+      ],
+      "pagesChecked": 0,
+      "checkedUrls": [],
+      "errors": [
+        {
+          "url": "https://www.martinus.at/",
+          "error": "<urlopen error timed out>"
+        },
+        {
+          "url": "https://www.martinus.at/pfarre/1127/kalender",
+          "error": "<urlopen error timed out>"
+        },
+        {
+          "url": "https://www.martinus.at/unterwart",
+          "error": "<urlopen error timed out>"
+        }
+      ],
+      "flags": []
+    },
+    {
+      "id": "alsoori-kultur-tanc",
+      "name": "Alsóőri Magyar Kultúr- és Táncegyesület",
+      "entityClass": "organization",
+      "categories": [
+        "kultura",
+        "neptanc"
+      ],
+      "activityCategories": [],
+      "signals": [
+        "oktatas",
+        "neptanc",
+        "nepzene",
+        "enekkar",
+        "cserkesz",
+        "szinhaz",
+        "media",
+        "egyhaz",
+        "diak",
+        "irodalom",
+        "muveszet",
+        "csalad"
+      ],
+      "pagesChecked": 2,
+      "checkedUrls": [
+        "https://www.facebook.com/profile.php?id=100088924551185",
+        "https://rolunk.at/ausztriai-magyar-egyesuletek/"
+      ],
+      "errors": [],
+      "flags": []
+    },
+    {
+      "id": "alsoori-otthon",
+      "name": "Alsóőri Otthon / Unterwarter Heimathaus",
+      "entityClass": "organization",
+      "categories": [
+        "kultura"
+      ],
+      "activityCategories": [],
+      "signals": [
+        "oktatas",
+        "neptanc",
+        "nepzene",
+        "szinhaz",
+        "media",
+        "egyhaz",
+        "irodalom",
+        "sport",
+        "csalad"
+      ],
+      "pagesChecked": 2,
+      "checkedUrls": [
+        "https://www.unterwart.at/heimathaus-unterwart/",
+        "https://rolunk.at/artikel-mit-ubersetzung/tag-der-offenen-tur-des-unterwarter-heimathauses/"
+      ],
+      "errors": [],
+      "flags": []
+    },
+    {
+      "id": "alsoori-szinjatszo",
+      "name": "Alsóőri Kétnyelvű Színjátszóegyesület és Kultúrkör",
+      "entityClass": "organization",
+      "categories": [
+        "szinhaz"
+      ],
+      "activityCategories": [],
+      "signals": [
+        "enekkar",
+        "szinhaz",
+        "egyhaz",
+        "irodalom",
+        "muveszet",
+        "csalad"
+      ],
+      "pagesChecked": 3,
+      "checkedUrls": [
+        "https://www.theaterverein-unterwart.at/",
+        "https://www.theaterverein-unterwart.at/uber-uns/",
+        "https://www.theaterverein-unterwart.at/fotogalerie/"
+      ],
+      "errors": [],
+      "flags": []
+    },
+    {
+      "id": "alsoori-vasjobbagyi",
+      "name": "Alsóőri–Vasjobbágyi Magyar Baráti Kör",
+      "entityClass": "organization",
+      "categories": [
+        "kozosseg"
+      ],
+      "activityCategories": [],
+      "signals": [
+        "oktatas",
+        "neptanc",
+        "nepzene",
+        "enekkar",
+        "cserkesz",
+        "szinhaz",
+        "media",
+        "egyhaz",
+        "diak",
+        "irodalom",
+        "muveszet",
+        "sport",
+        "csalad"
+      ],
+      "pagesChecked": 3,
+      "checkedUrls": [
+        "https://rolunk.at/ausztriai-magyar-egyesuletek/",
+        "https://rolunk.at/magazin/ti-is-tancoltok-csardast/",
+        "https://volksgruppen.orf.at/magyarok/stories/3159451/"
+      ],
+      "errors": [],
+      "flags": []
+    },
+    {
+      "id": "amaped",
+      "name": "AMAPED – Ausztriai Magyar Pedagógusok Egyesülete",
+      "entityClass": "organization",
+      "categories": [
+        "oktatas"
+      ],
+      "activityCategories": [],
+      "signals": [
+        "oktatas",
+        "neptanc",
+        "szinhaz",
+        "media",
+        "egyhaz",
+        "diak",
+        "irodalom",
+        "muveszet",
+        "sport",
+        "csalad"
+      ],
+      "pagesChecked": 3,
+      "checkedUrls": [
+        "https://amaped.at/",
+        "https://amaped.at/rolunk/",
+        "https://amaped.at/category/locations/"
+      ],
+      "errors": [],
+      "flags": []
+    },
+    {
+      "id": "amaped-baden",
+      "name": "AMAPED Baden",
+      "entityClass": "organization",
+      "categories": [
+        "oktatas"
+      ],
+      "activityCategories": [],
+      "signals": [
+        "oktatas",
+        "neptanc",
+        "media",
+        "irodalom",
+        "csalad"
+      ],
+      "pagesChecked": 2,
+      "checkedUrls": [
+        "https://amaped.at/",
+        "https://amaped.at/tanfolyamok/"
+      ],
+      "errors": [],
+      "flags": []
+    },
+    {
+      "id": "amaped-klosterneuburg",
+      "name": "AMAPED Klosterneuburg",
+      "entityClass": "organization",
+      "categories": [
+        "oktatas"
+      ],
+      "activityCategories": [],
+      "signals": [
+        "oktatas",
+        "neptanc",
+        "media",
+        "irodalom",
+        "csalad"
+      ],
+      "pagesChecked": 2,
+      "checkedUrls": [
+        "https://amaped.at/",
+        "https://amaped.at/tanfolyamok/"
+      ],
+      "errors": [],
+      "flags": []
+    },
+    {
+      "id": "amaped-schwechat",
+      "name": "AMAPED Schwechat",
+      "entityClass": "organization",
+      "categories": [
+        "oktatas"
+      ],
+      "activityCategories": [],
+      "signals": [
+        "oktatas",
+        "neptanc",
+        "media",
+        "irodalom",
+        "csalad"
+      ],
+      "pagesChecked": 2,
+      "checkedUrls": [
+        "https://amaped.at/",
+        "https://amaped.at/tanfolyamok/"
+      ],
+      "errors": [],
+      "flags": []
+    },
+    {
+      "id": "amaped-st-poelten",
+      "name": "AMAPED St. Pölten",
+      "entityClass": "organization",
+      "categories": [
+        "oktatas"
+      ],
+      "activityCategories": [],
+      "signals": [
+        "oktatas",
+        "neptanc",
+        "media",
+        "irodalom",
+        "csalad"
+      ],
+      "pagesChecked": 2,
+      "checkedUrls": [
+        "https://amaped.at/",
+        "https://amaped.at/tanfolyamok/"
+      ],
+      "errors": [],
+      "flags": []
+    },
+    {
+      "id": "barka-nepdalkor",
+      "name": "Barka Bécsi Magyar Népdalkör",
+      "entityClass": "group",
+      "categories": [
+        "enekkar"
+      ],
+      "activityCategories": [],
+      "signals": [
+        "oktatas",
+        "neptanc",
+        "nepzene",
+        "enekkar",
+        "media",
+        "diak",
+        "irodalom",
+        "muveszet",
+        "csalad"
+      ],
+      "pagesChecked": 2,
+      "checkedUrls": [
+        "https://www.wukv.at/tarka-barka-dalkor/",
+        "https://www.wukv.at/"
+      ],
+      "errors": [],
+      "flags": []
+    },
+    {
+      "id": "becsi-irodalmi-muhely",
+      "name": "BIM – Bécsi Irodalmi Műhely",
+      "entityClass": "organization",
+      "categories": [
+        "irodalom"
+      ],
+      "activityCategories": [],
+      "signals": [
+        "oktatas",
+        "szinhaz",
+        "media",
+        "irodalom",
+        "muveszet",
+        "sport",
+        "csalad"
+      ],
+      "pagesChecked": 3,
+      "checkedUrls": [
+        "https://www.oeius.at/",
+        "https://www.oeius.at/hu/veranstaltungen",
+        "https://volksgruppen.orf.at/magyarok/stories/3273948/"
+      ],
+      "errors": [],
+      "flags": []
+    },
+    {
+      "id": "becsi-magyar-iskola",
+      "name": "Bécsi Magyar Iskola",
+      "entityClass": "institution",
+      "categories": [
+        "oktatas"
+      ],
+      "activityCategories": [],
+      "signals": [
+        "oktatas",
+        "enekkar",
+        "cserkesz",
+        "szinhaz",
+        "media",
+        "egyhaz",
+        "irodalom",
+        "muveszet",
+        "csalad"
+      ],
+      "pagesChecked": 3,
+      "checkedUrls": [
+        "https://www.magyariskola.at/",
+        "https://www.magyariskola.at/osszes",
+        "https://www.magyariskola.at/r%C3%B3lunk"
+      ],
+      "errors": [],
+      "flags": []
+    },
+    {
+      "id": "becsi-magyar-iskolaegyesulet",
+      "name": "Bécsi Magyar Iskolaegyesület",
+      "entityClass": "organization",
+      "categories": [
+        "oktatas"
+      ],
+      "activityCategories": [],
+      "signals": [
+        "oktatas",
+        "neptanc",
+        "nepzene",
+        "media",
+        "irodalom",
+        "muveszet",
+        "csalad"
+      ],
+      "pagesChecked": 3,
+      "checkedUrls": [
+        "https://www.ungarischlernen.at/",
+        "https://ungarischlernen.at/content/menu_107/bemutatkozas",
+        "https://ungarischlernen.at/content/menu_172/uber-uns"
+      ],
+      "errors": [],
+      "flags": []
+    },
+    {
+      "id": "becsi-magyar-munkasegylet",
+      "name": "Bécsi Magyar Munkásegylet",
+      "entityClass": "organization",
+      "categories": [
+        "kozosseg"
+      ],
+      "activityCategories": [],
+      "signals": [
+        "csalad"
+      ],
+      "pagesChecked": 2,
+      "checkedUrls": [
+        "https://bmme.at/",
+        "https://www.facebook.com/VereinBMME/"
+      ],
+      "errors": [],
+      "flags": []
+    },
+    {
+      "id": "becsi-naplo",
+      "name": "Bécsi Napló",
+      "entityClass": "media",
+      "categories": [
+        "media"
+      ],
+      "activityCategories": [],
+      "signals": [
+        "oktatas",
+        "szinhaz",
+        "media",
+        "irodalom",
+        "muveszet",
+        "csalad"
+      ],
+      "pagesChecked": 2,
+      "checkedUrls": [
+        "https://www.becsinaplo.at/",
+        "https://www.becsinaplo.at/blog"
+      ],
+      "errors": [
+        {
+          "url": "https://www.kozpontiszovetseg.at/r%C3%B3lunk",
+          "error": "HTTP Error 429: Too Many Requests"
+        }
+      ],
+      "flags": []
+    },
+    {
+      "id": "becsi-szelet",
+      "name": "Bécsi Szelet – Kulturális és Művészeti Magazin",
+      "entityClass": "media",
+      "categories": [
+        "kultura",
+        "media"
+      ],
+      "activityCategories": [],
+      "signals": [
+        "media",
+        "muveszet",
+        "csalad"
+      ],
+      "pagesChecked": 0,
+      "checkedUrls": [],
+      "errors": [
+        {
+          "url": "https://www.becsiszelet.at/",
+          "error": "HTTP Error 429: Too Many Requests"
+        }
+      ],
+      "flags": []
+    },
+    {
+      "id": "bmi-aspern-magyaroktatas",
+      "name": "Bécsi Magyar Iskola – Magyar nyelv Aspern",
+      "entityClass": "activity",
+      "categories": [],
+      "activityCategories": [
+        "magyar-nyelv",
+        "gyermek"
+      ],
+      "signals": [
+        "oktatas",
+        "szinhaz",
+        "media",
+        "diak",
+        "irodalom",
+        "muveszet",
+        "csalad"
+      ],
+      "pagesChecked": 1,
+      "checkedUrls": [
+        "https://www.magyariskola.at/event-details/magyaroktatas-kedd-2026"
+      ],
+      "errors": [],
+      "flags": []
+    },
+    {
+      "id": "bmi-becscraft",
+      "name": "Bécsi Magyar Iskola – BécsCraft",
+      "entityClass": "activity",
+      "categories": [],
+      "activityCategories": [
+        "kreativ-digitalis",
+        "gyermek",
+        "ifjusag"
+      ],
+      "signals": [
+        "oktatas",
+        "szinhaz",
+        "media",
+        "irodalom",
+        "muveszet",
+        "csalad"
+      ],
+      "pagesChecked": 1,
+      "checkedUrls": [
+        "https://www.magyariskola.at/event-details/becscraft-2026"
+      ],
+      "errors": [],
+      "flags": []
+    },
+    {
+      "id": "bmi-seestadt-magyaroktatas",
+      "name": "Bécsi Magyar Iskola – Magyar nyelv Seestadt",
+      "entityClass": "activity",
+      "categories": [],
+      "activityCategories": [
+        "magyar-nyelv",
+        "gyermek"
+      ],
+      "signals": [
+        "oktatas",
+        "szinhaz",
+        "media",
+        "diak",
+        "irodalom",
+        "muveszet",
+        "csalad"
+      ],
+      "pagesChecked": 1,
+      "checkedUrls": [
+        "https://www.magyariskola.at/event-details/magyarnyelv-szerda-2026"
+      ],
+      "errors": [],
+      "flags": []
+    },
+    {
+      "id": "bmi-szulok-tamogatok",
+      "name": "Bécsi Magyar Oktatást Segítő Szülők és Támogatók Egyesülete",
+      "entityClass": "organization",
+      "categories": [
+        "kozosseg",
+        "oktatas"
+      ],
+      "activityCategories": [],
+      "signals": [
+        "oktatas",
+        "neptanc",
+        "nepzene",
+        "enekkar",
+        "cserkesz",
+        "szinhaz",
+        "media",
+        "egyhaz",
+        "diak",
+        "irodalom",
+        "muveszet",
+        "sport",
+        "csalad"
+      ],
+      "pagesChecked": 3,
+      "checkedUrls": [
+        "https://rolunk.at/nepcsoportunk/almaban-is-magyar/",
+        "https://rolunk.at/nepcsoportunk/20-tagegyesuletet-fog-ossze-az-ausztriai-magyar-szervezetek-kerekasztala/",
+        "https://volksgruppen.orf.at/magyarok/stories/3163489/"
+      ],
+      "errors": [],
+      "flags": []
+    },
+    {
+      "id": "bmke-singkreis",
+      "name": "BMKE Énekkör / Singkreis",
+      "entityClass": "group",
+      "categories": [
+        "enekkar"
+      ],
+      "activityCategories": [],
+      "signals": [
+        "oktatas",
+        "neptanc",
+        "nepzene",
+        "enekkar",
+        "szinhaz",
+        "egyhaz",
+        "sport",
+        "csalad"
+      ],
+      "pagesChecked": 2,
+      "checkedUrls": [
+        "https://bukv.at/gruppen/singkreis/",
+        "https://bukv.at/"
+      ],
+      "errors": [],
+      "flags": []
+    },
+    {
+      "id": "bobitak-innsbruck",
+      "name": "Bóbiták – Ungarischer Kulturverein Innsbruck",
+      "entityClass": "organization",
+      "categories": [
+        "csalad",
+        "kozosseg",
+        "kultura"
+      ],
+      "activityCategories": [],
+      "signals": [
+        "oktatas",
+        "neptanc",
+        "nepzene",
+        "cserkesz",
+        "egyhaz",
+        "diak",
+        "muveszet",
+        "sport",
+        "csalad"
+      ],
+      "pagesChecked": 2,
+      "checkedUrls": [
+        "https://bobitak.at/",
+        "https://www.korosiprogram.hu/tudastar/bobita-gyermekcsoport-bemutatjuk-tirolban-elo-kisgyermekes-magyar-csaladok-egyesuletet"
+      ],
+      "errors": [],
+      "flags": []
+    },
+    {
+      "id": "bornemisza-peter-tarsasag",
+      "name": "Bornemisza Péter Társaság",
+      "entityClass": "organization",
+      "categories": [
+        "irodalom",
+        "kultura"
+      ],
+      "activityCategories": [],
+      "signals": [
+        "irodalom",
+        "muveszet"
+      ],
+      "pagesChecked": 0,
+      "checkedUrls": [],
+      "errors": [
+        {
+          "url": "https://bornemisza.at/",
+          "error": "<urlopen error [Errno 111] Connection refused>"
+        },
+        {
+          "url": "https://www.kozpontiszovetseg.at/event-details/dr-janosi-zoltan-irodalomtortenesz-iro-kolto",
+          "error": "HTTP Error 429: Too Many Requests"
+        },
+        {
+          "url": "https://www.kozpontiszovetseg.at/bornemisza-peter-tarsasag",
+          "error": "HTTP Error 429: Too Many Requests"
+        }
+      ],
+      "flags": []
+    },
+    {
+      "id": "brand-art-studio",
+      "name": "Brand Art Studio Wien",
+      "entityClass": "organization",
+      "categories": [
+        "muveszet"
+      ],
+      "activityCategories": [],
+      "signals": [
+        "oktatas",
+        "muveszet"
+      ],
+      "pagesChecked": 0,
+      "checkedUrls": [],
+      "errors": [
+        {
+          "url": "https://brandart.studio/",
+          "error": "HTTP Error 429: Too Many Requests"
+        },
+        {
+          "url": "https://www.brandart.studio/",
+          "error": "HTTP Error 429: Too Many Requests"
+        },
+        {
+          "url": "https://www.brandart.studio/tagfelvetel",
+          "error": "HTTP Error 429: Too Many Requests"
+        }
+      ],
+      "flags": []
+    },
+    {
+      "id": "bukv",
+      "name": "Burgenlandi Magyar Kultúregyesület",
+      "entityClass": "organization",
+      "categories": [
+        "kozosseg",
+        "kultura"
+      ],
+      "activityCategories": [],
+      "signals": [
+        "oktatas",
+        "neptanc",
+        "nepzene",
+        "enekkar",
+        "szinhaz",
+        "media",
+        "egyhaz",
+        "diak",
+        "irodalom",
+        "muveszet",
+        "sport",
+        "csalad"
+      ],
+      "pagesChecked": 3,
+      "checkedUrls": [
+        "https://bukv.at/",
+        "https://bukv.at/hu/a-bmke-rol/",
+        "https://bukv.at/hu/kapcsolat/"
+      ],
+      "errors": [],
+      "flags": []
+    },
+    {
+      "id": "burgenlandi-magyar-cserkeszet",
+      "name": "Burgenlandi Magyar Cserkészet",
+      "entityClass": "group",
+      "categories": [
+        "cserkesz"
+      ],
+      "activityCategories": [],
+      "signals": [
+        "oktatas",
+        "neptanc",
+        "enekkar",
+        "cserkesz",
+        "media",
+        "egyhaz",
+        "irodalom",
+        "sport",
+        "csalad"
+      ],
+      "pagesChecked": 3,
+      "checkedUrls": [
+        "https://www.burgenlandicserkesz.at/",
+        "https://volksgruppen.orf.at/magyarok/stories/3333230/",
+        "https://podiverzum.hu/podcast/orf-magyarok-podcast/idoutazas-es-megemlekezes-az-alsoori-cserkeszdelutanon-deaf57f3"
+      ],
+      "errors": [],
+      "flags": []
+    },
+    {
+      "id": "club-pannonia",
+      "name": "Club Pannonia",
+      "entityClass": "organization",
+      "categories": [
+        "kozosseg",
+        "kultura"
+      ],
+      "activityCategories": [],
+      "signals": [
+        "diak"
+      ],
+      "pagesChecked": 3,
+      "checkedUrls": [
+        "https://club-pannonia.at/",
+        "https://www.club-pannonia.at/uber-uns/",
+        "https://www.club-pannonia.at/mitgliedschaft/"
+      ],
+      "errors": [],
+      "flags": []
+    },
+    {
+      "id": "collegium-hungaricum-wien",
+      "name": "Collegium Hungaricum Wien – Magyar Kulturális Intézet",
+      "entityClass": "institution",
+      "categories": [
+        "kultura",
+        "muveszet"
+      ],
+      "activityCategories": [],
+      "signals": [
+        "oktatas",
+        "szinhaz",
+        "media",
+        "irodalom",
+        "muveszet",
+        "csalad"
+      ],
+      "pagesChecked": 3,
+      "checkedUrls": [
+        "https://culture.hu/hu/wien",
+        "https://culture.hu/hu/wien/esemenyek",
+        "https://culture.hu/de/wien/jubilaum"
+      ],
+      "errors": [],
+      "flags": []
+    },
+    {
+      "id": "collegium-pazmanianum",
+      "name": "Collegium Pazmanianum",
+      "entityClass": "institution",
+      "categories": [
+        "egyhaz",
+        "kultura"
+      ],
+      "activityCategories": [],
+      "signals": [
+        "egyhaz",
+        "diak",
+        "irodalom",
+        "csalad"
+      ],
+      "pagesChecked": 2,
+      "checkedUrls": [
+        "https://pazmaneum.katolikus.hu/",
+        "https://pazmaneum.katolikus.hu/?page_id=21"
+      ],
+      "errors": [],
+      "flags": []
+    },
+    {
+      "id": "csalafinta-neptanc",
+      "name": "Csalafinta Néptánccsoport",
+      "entityClass": "group",
+      "categories": [
+        "kultura",
+        "neptanc"
+      ],
+      "activityCategories": [],
+      "signals": [
+        "oktatas",
+        "neptanc",
+        "nepzene",
+        "szinhaz",
+        "media",
+        "egyhaz",
+        "irodalom",
+        "muveszet",
+        "sport",
+        "csalad"
+      ],
+      "pagesChecked": 3,
+      "checkedUrls": [
+        "https://rolunk.at/kultura/minden-magyarok-tanca-a-csalafinta-neptanccsoport-budapesten-szerepelt/",
+        "https://rolunk.at/tag/kozep-burgenlandi-magyar-kulturegyesulet/",
+        "https://volksgruppen.orf.at/magyarok/stories/3366149/"
+      ],
+      "errors": [],
+      "flags": []
+    },
+    {
+      "id": "cserkesz-72",
+      "name": "72. sz. Széchenyi István cserkészcsapat",
+      "entityClass": "organization",
+      "categories": [
+        "cserkesz"
+      ],
+      "activityCategories": [],
+      "signals": [
+        "neptanc",
+        "cserkesz",
+        "szinhaz",
+        "media",
+        "egyhaz",
+        "diak",
+        "irodalom",
+        "muveszet",
+        "csalad"
+      ],
+      "pagesChecked": 3,
+      "checkedUrls": [
+        "https://cserkesz.at/",
+        "https://cserkesz.at/programok/",
+        "https://cserkesz.at/csapattortenelem/"
+      ],
+      "errors": [],
+      "flags": []
+    },
+    {
+      "id": "cserkesz-79",
+      "name": "79. sz. Dr. Kozma György SJ cserkészcsapat",
+      "entityClass": "organization",
+      "categories": [
+        "cserkesz"
+      ],
+      "activityCategories": [],
+      "signals": [
+        "oktatas",
+        "neptanc",
+        "nepzene",
+        "cserkesz",
+        "szinhaz",
+        "media",
+        "egyhaz",
+        "diak",
+        "irodalom",
+        "muveszet",
+        "csalad"
+      ],
+      "pagesChecked": 3,
+      "checkedUrls": [
+        "https://www.cserkesz.eu/rolunk/",
+        "https://www.facebook.com/InnsbruckiMagyarCserkeszek/",
+        "https://rolunk.at/nepcsoportunk/sziveben-magyar/"
+      ],
+      "errors": [],
+      "flags": []
+    },
+    {
+      "id": "cserkesz-80",
+      "name": "80. sz. Árpád Cserkészcsapat",
+      "entityClass": "organization",
+      "categories": [
+        "cserkesz"
+      ],
+      "activityCategories": [],
+      "signals": [
+        "oktatas",
+        "cserkesz",
+        "irodalom",
+        "csalad"
+      ],
+      "pagesChecked": 3,
+      "checkedUrls": [
+        "https://wels.cserkesz.eu/",
+        "https://wels.cserkesz.eu/programok/",
+        "https://wels.cserkesz.eu/csapatunk/"
+      ],
+      "errors": [],
+      "flags": []
+    },
+    {
+      "id": "csorge-nepzene",
+      "name": "Csörge Népzenei Együttes",
+      "entityClass": "group",
+      "categories": [
+        "nepzene",
+        "zenekar"
+      ],
+      "activityCategories": [],
+      "signals": [
+        "oktatas",
+        "neptanc",
+        "nepzene",
+        "enekkar",
+        "szinhaz",
+        "csalad"
+      ],
+      "pagesChecked": 2,
+      "checkedUrls": [
+        "https://bukv.at/volksmusikgruppe-csoerge/",
+        "https://bukv.at/"
+      ],
+      "errors": [
+        {
+          "url": "https://bukv.at/hu/csoerge-nepzenekar/",
+          "error": "HTTP Error 404: Not Found"
+        }
+      ],
+      "flags": []
+    },
+    {
+      "id": "delibab",
+      "name": "Délibáb Bécsi Magyar Kultúregyesület",
+      "entityClass": "organization",
+      "categories": [
+        "kultura",
+        "neptanc",
+        "szinhaz"
+      ],
+      "activityCategories": [],
+      "signals": [
+        "oktatas",
+        "neptanc",
+        "nepzene",
+        "enekkar",
+        "szinhaz",
+        "media",
+        "diak",
+        "irodalom",
+        "sport",
+        "csalad"
+      ],
+      "pagesChecked": 3,
+      "checkedUrls": [
+        "https://www.wukv.at/",
+        "https://www.delibab-becs.com/",
+        "https://www.wukv.at/sample-page/"
+      ],
+      "errors": [],
+      "flags": []
+    },
+    {
+      "id": "die-bruecke-medien-kulturelles-podium",
+      "name": "Die Brücke – Medien und Kulturelles Podium",
+      "entityClass": "media",
+      "categories": [
+        "kultura",
+        "media"
+      ],
+      "activityCategories": [],
+      "signals": [
+        "oktatas",
+        "media",
+        "irodalom",
+        "csalad"
+      ],
+      "pagesChecked": 2,
+      "checkedUrls": [
+        "https://www.radiohu.hu/impresszum/",
+        "https://www.radiohu.hu/"
+      ],
+      "errors": [],
+      "flags": []
+    },
+    {
+      "id": "duna-filharmonia",
+      "name": "Nemzetközi Duna Filharmónia Baráti Köre",
+      "entityClass": "organization",
+      "categories": [
+        "zenekar"
+      ],
+      "activityCategories": [],
+      "signals": [
+        "oktatas",
+        "neptanc",
+        "nepzene",
+        "media",
+        "egyhaz",
+        "muveszet",
+        "sport",
+        "csalad"
+      ],
+      "pagesChecked": 2,
+      "checkedUrls": [
+        "https://volksgruppen.orf.at/v2/magyarok/stories/2914449/",
+        "https://hvg.hu/kultura/20141111_Centropedij"
+      ],
+      "errors": [
+        {
+          "url": "https://www.kozpontiszovetseg.at/event-details/zene-es-talalkozas",
+          "error": "HTTP Error 429: Too Many Requests"
+        }
+      ],
+      "flags": []
+    },
+    {
+      "id": "egy-sima-egy-forditott",
+      "name": "Egy sima, egy fordított – Bécsi Könyvklub",
+      "entityClass": "project",
+      "categories": [
+        "irodalom",
+        "kozosseg",
+        "kultura"
+      ],
+      "activityCategories": [],
+      "signals": [
+        "media",
+        "irodalom",
+        "sport"
+      ],
+      "pagesChecked": 1,
+      "checkedUrls": [
+        "https://volksgruppen.orf.at/magyarok/stories/3352222/"
+      ],
+      "errors": [],
+      "flags": []
+    },
+    {
+      "id": "erdelyi-magyarok-ausztriai",
+      "name": "Erdélyi Magyarok Ausztriai Egyesülete",
+      "entityClass": "organization",
+      "categories": [
+        "kozosseg",
+        "kultura"
+      ],
+      "activityCategories": [],
+      "signals": [
+        "oktatas",
+        "neptanc",
+        "nepzene",
+        "enekkar",
+        "cserkesz",
+        "szinhaz",
+        "media",
+        "egyhaz",
+        "diak",
+        "irodalom",
+        "muveszet",
+        "sport"
+      ],
+      "pagesChecked": 2,
+      "checkedUrls": [
+        "https://volksgruppen.orf.at/magyarok/stories/3286420/",
+        "https://rolunk.at/ausztriai-magyar-egyesuletek/"
+      ],
+      "errors": [],
+      "flags": []
+    },
+    {
+      "id": "eszak-burgenlandi",
+      "name": "Észak-burgenlandi Magyar Kulturális Egyesület",
+      "entityClass": "organization",
+      "categories": [
+        "kozosseg",
+        "kultura"
+      ],
+      "activityCategories": [],
+      "signals": [
+        "oktatas",
+        "neptanc",
+        "nepzene",
+        "szinhaz",
+        "media",
+        "egyhaz",
+        "irodalom",
+        "muveszet",
+        "sport",
+        "csalad"
+      ],
+      "pagesChecked": 3,
+      "checkedUrls": [
+        "https://www.facebook.com/%C3%89szak-burgenlandi-Magyar-Kultur%C3%A1lis-Egyes%C3%BClet-110216087363944/",
+        "https://rolunk.at/aktualis/oszinditas-a-nezsideri-pikniken/",
+        "https://volksgruppen.orf.at/magyarok/stories/3085529/"
+      ],
+      "errors": [],
+      "flags": []
+    },
+    {
+      "id": "europa-club",
+      "name": "Europa-Club",
+      "entityClass": "organization",
+      "categories": [
+        "kozosseg",
+        "kultura"
+      ],
+      "activityCategories": [],
+      "signals": [
+        "oktatas",
+        "media",
+        "irodalom"
+      ],
+      "pagesChecked": 1,
+      "checkedUrls": [
+        "https://europaclub.at/"
+      ],
+      "errors": [],
+      "flags": []
+    },
+    {
+      "id": "evangelikus-gyulekezet",
+      "name": "Ausztriai Magyar Evangélikus Gyülekezet",
+      "entityClass": "organization",
+      "categories": [
+        "egyhaz"
+      ],
+      "activityCategories": [],
+      "signals": [
+        "oktatas",
+        "media",
+        "egyhaz",
+        "irodalom",
+        "muveszet",
+        "sport",
+        "csalad"
+      ],
+      "pagesChecked": 3,
+      "checkedUrls": [
+        "https://www.evangelikus-at.com/",
+        "https://www.evangelikus-at.com/ueber-uns",
+        "https://www.evangelikus.hu/hu/hireink/beszamolo/becsben-ulesezett-a-magyar-evangelikus-tanacskozo-testulet"
+      ],
+      "errors": [],
+      "flags": []
+    },
+    {
+      "id": "fecske-klub",
+      "name": "Fecske Klub",
+      "entityClass": "project",
+      "categories": [
+        "kultura",
+        "oktatas"
+      ],
+      "activityCategories": [],
+      "signals": [
+        "oktatas",
+        "szinhaz",
+        "media",
+        "egyhaz",
+        "irodalom",
+        "muveszet",
+        "csalad"
+      ],
+      "pagesChecked": 3,
+      "checkedUrls": [
+        "https://fecskeklub.at/",
+        "https://www.magyariskola.at/event-details/fecskeklub-2026",
+        "https://fecskeklub.at/a-magyarok-tortenete/"
+      ],
+      "errors": [],
+      "flags": []
+    },
+    {
+      "id": "felso-ausztriai-magyarok",
+      "name": "Felső-Ausztriai Magyarok Kultúregyesülete",
+      "entityClass": "organization",
+      "categories": [
+        "kozosseg",
+        "kultura"
+      ],
+      "activityCategories": [],
+      "signals": [
+        "oktatas",
+        "neptanc",
+        "nepzene",
+        "cserkesz",
+        "szinhaz",
+        "media",
+        "egyhaz",
+        "diak",
+        "irodalom",
+        "muveszet",
+        "sport",
+        "csalad"
+      ],
+      "pagesChecked": 2,
+      "checkedUrls": [
+        "https://rolunk.at/aktualis/mar-55-eve-az-operencias-tengeren-tul-kettos-jubileum-a-felso-ausztriai-magyaroknal/",
+        "https://volksgruppen.orf.at/v2/magyarok/stories/2907261/"
+      ],
+      "errors": [],
+      "flags": []
+    },
+    {
+      "id": "felsoori-katolikus",
+      "name": "Felsőőri Katolikus Egyházközség",
+      "entityClass": "organization",
+      "categories": [
+        "egyhaz"
+      ],
+      "activityCategories": [],
+      "signals": [
+        "egyhaz"
+      ],
+      "pagesChecked": 0,
+      "checkedUrls": [],
+      "errors": [
+        {
+          "url": "https://www.martinus.at/pfarre/1122",
+          "error": "<urlopen error timed out>"
+        },
+        {
+          "url": "https://www.martinus.at/pfarre/1122/kalender",
+          "error": "<urlopen error timed out>"
+        },
+        {
+          "url": "https://www.martinus.at/pfarre/1122/kalender/calendar/1808040.html",
+          "error": "<urlopen error timed out>"
+        }
+      ],
+      "flags": []
+    },
+    {
+      "id": "felsoori-reformatus",
+      "name": "Felsőőri Református Gyülekezet",
+      "entityClass": "organization",
+      "categories": [
+        "egyhaz"
+      ],
+      "activityCategories": [],
+      "signals": [
+        "neptanc",
+        "enekkar",
+        "szinhaz",
+        "media",
+        "egyhaz",
+        "irodalom",
+        "muveszet",
+        "sport",
+        "csalad"
+      ],
+      "pagesChecked": 3,
+      "checkedUrls": [
+        "https://www.die-reformierten.at/",
+        "https://volksgruppen.orf.at/magyarok/stories/3190475/",
+        "https://volksgruppen.orf.at/v2/magyarok/stories/2984600/"
+      ],
+      "errors": [],
+      "flags": []
+    },
+    {
+      "id": "femconnect-graz",
+      "name": "FemConnect Graz",
+      "entityClass": "organization",
+      "categories": [
+        "kozosseg"
+      ],
+      "activityCategories": [],
+      "signals": [
+        "oktatas",
+        "nepzene",
+        "szinhaz",
+        "media",
+        "egyhaz",
+        "diak",
+        "irodalom",
+        "muveszet",
+        "csalad"
+      ],
+      "pagesChecked": 3,
+      "checkedUrls": [
+        "https://femconnectgraz.at/",
+        "https://femconnectgraz.at/graci-programok/",
+        "https://femconnectgraz.at/events/"
+      ],
+      "errors": [],
+      "flags": []
+    },
+    {
+      "id": "fuggetlen-magyar-csucsszervezet",
+      "name": "Ausztriai Független Magyar Kultúregyesületek Csúcsszervezete",
+      "entityClass": "umbrella",
+      "categories": [
+        "kozosseg"
+      ],
+      "activityCategories": [],
+      "signals": [
+        "oktatas",
+        "neptanc",
+        "nepzene",
+        "enekkar",
+        "cserkesz",
+        "szinhaz",
+        "media",
+        "egyhaz",
+        "diak",
+        "irodalom",
+        "csalad"
+      ],
+      "pagesChecked": 1,
+      "checkedUrls": [
+        "https://bukv.at/hu/linkek/"
+      ],
+      "errors": [],
+      "flags": []
+    },
+    {
+      "id": "gimi-svung",
+      "name": "Gimi Svung – magyar gimnazista drámacsoport",
+      "entityClass": "group",
+      "categories": [
+        "oktatas",
+        "szinhaz"
+      ],
+      "activityCategories": [],
+      "signals": [
+        "oktatas",
+        "szinhaz",
+        "media",
+        "diak",
+        "irodalom",
+        "muveszet",
+        "csalad"
+      ],
+      "pagesChecked": 1,
+      "checkedUrls": [
+        "https://www.magyariskola.at/event-details/gimisvung-2026"
+      ],
+      "errors": [],
+      "flags": [
+        "possible-activity-classification"
+      ]
+    },
+    {
+      "id": "graci-magyar-ujsag",
+      "name": "Gráci Magyar Újság",
+      "entityClass": "media",
+      "categories": [
+        "kultura",
+        "media"
+      ],
+      "activityCategories": [],
+      "signals": [
+        "media",
+        "diak",
+        "irodalom",
+        "muveszet",
+        "csalad"
+      ],
+      "pagesChecked": 3,
+      "checkedUrls": [
+        "https://www.meoek.at/",
+        "https://www.meoek.at/mediatar/",
+        "https://www.meoek.at/impresszum/"
+      ],
+      "errors": [],
+      "flags": []
+    },
+    {
+      "id": "grazi-magyar-egyesulet",
+      "name": "Grazi Magyar Egyesület",
+      "entityClass": "organization",
+      "categories": [
+        "kozosseg",
+        "kultura"
+      ],
+      "activityCategories": [],
+      "signals": [
+        "oktatas",
+        "media",
+        "egyhaz",
+        "irodalom"
+      ],
+      "pagesChecked": 2,
+      "checkedUrls": [
+        "https://www.grazimagyaregyesuelet.at/",
+        "https://www.grazimagyaregyesuelet.at/vereinschronik-kronikaja/"
+      ],
+      "errors": [],
+      "flags": []
+    },
+    {
+      "id": "grazi-magyar-neptanc",
+      "name": "Grazi Magyar Néptánccsoport",
+      "entityClass": "group",
+      "categories": [
+        "neptanc"
+      ],
+      "activityCategories": [],
+      "signals": [
+        "oktatas",
+        "neptanc",
+        "media",
+        "egyhaz",
+        "diak",
+        "csalad"
+      ],
+      "pagesChecked": 2,
+      "checkedUrls": [
+        "https://www.grazimagyaregyesuelet.at/",
+        "https://www.grazimagyaregyesuelet.at/ungarischer-ball-2027/"
+      ],
+      "errors": [],
+      "flags": []
+    },
+    {
+      "id": "hungaromedia",
+      "name": "HungaroMedia – Magyar Médiageyesület",
+      "entityClass": "media",
+      "categories": [
+        "media"
+      ],
+      "activityCategories": [],
+      "signals": [
+        "oktatas",
+        "szinhaz",
+        "media",
+        "egyhaz",
+        "irodalom",
+        "csalad"
+      ],
+      "pagesChecked": 3,
+      "checkedUrls": [
+        "https://linktr.ee/hungaromedia",
+        "https://kupf.at/mitglieder/hungaromedia/",
+        "https://www.linz.at/medienservice/2025/202508_132151.php"
+      ],
+      "errors": [],
+      "flags": []
+    },
+    {
+      "id": "imeasz",
+      "name": "IMEASZ – Innsbrucki Magyar Egyetemisták és Akadémikusok Szövetsége",
+      "entityClass": "organization",
+      "categories": [
+        "diak"
+      ],
+      "activityCategories": [],
+      "signals": [
+        "oktatas",
+        "neptanc",
+        "nepzene",
+        "cserkesz",
+        "media",
+        "egyhaz",
+        "diak",
+        "irodalom",
+        "muveszet",
+        "csalad"
+      ],
+      "pagesChecked": 2,
+      "checkedUrls": [
+        "https://imeasz.at/",
+        "https://www.petofiprogram.hu/hirek/hazat-csereltek-de-szivet-nem-kifogyhatatlan-otletekkel-peldas-aktivitassal-orzik"
+      ],
+      "errors": [
+        {
+          "url": "https://www.kozpontiszovetseg.at/tagszervezetek",
+          "error": "HTTP Error 429: Too Many Requests"
+        }
+      ],
+      "flags": []
+    },
+    {
+      "id": "imike",
+      "name": "IMIKE – Innsbrucki Magyar Ifjúsági és Kultúregyesület",
+      "entityClass": "organization",
+      "categories": [
+        "kultura",
+        "neptanc"
+      ],
+      "activityCategories": [],
+      "signals": [
+        "oktatas",
+        "neptanc",
+        "nepzene",
+        "cserkesz",
+        "szinhaz",
+        "media",
+        "egyhaz",
+        "diak",
+        "irodalom",
+        "muveszet",
+        "csalad"
+      ],
+      "pagesChecked": 3,
+      "checkedUrls": [
+        "https://www.facebook.com/IMIKE2019UJKV/",
+        "https://www.instagram.com/imike_ujkv/",
+        "https://rolunk.at/nepcsoportunk/sziveben-magyar/"
+      ],
+      "errors": [],
+      "flags": []
+    },
+    {
+      "id": "irottko-sportegyesulet",
+      "name": "Írottkő Sportegyesület / LAC Geschriebenstein",
+      "entityClass": "organization",
+      "categories": [
+        "kozosseg",
+        "sport"
+      ],
+      "activityCategories": [],
+      "signals": [
+        "sport",
+        "csalad"
+      ],
+      "pagesChecked": 1,
+      "checkedUrls": [
+        "http://www.geschriebensteinlauf.at"
+      ],
+      "errors": [
+        {
+          "url": "https://www.askoe.at/de/verband-vereine/askoe-vereine/clubshow-10438",
+          "error": "HTTP Error 404: Not Found"
+        }
+      ],
+      "flags": []
+    },
+    {
+      "id": "kalaka-club",
+      "name": "Kaláka-Club – Ausztriai Magyarok Gazdasági Érdekközössége",
+      "entityClass": "organization",
+      "categories": [
+        "kozosseg"
+      ],
+      "activityCategories": [],
+      "signals": [
+        "oktatas",
+        "neptanc",
+        "cserkesz",
+        "egyhaz",
+        "diak",
+        "irodalom",
+        "muveszet",
+        "csalad"
+      ],
+      "pagesChecked": 1,
+      "checkedUrls": [
+        "https://www.korosiprogram.hu/partnereink/ausztriai-magyarok-gazdasagi-erdekkozossege-kalaka-klub"
+      ],
+      "errors": [
+        {
+          "url": "https://kalaka-club.at/",
+          "error": "HTTP Error 500: Internal Server Error"
+        }
+      ],
+      "flags": []
+    },
+    {
+      "id": "katolikus-graz",
+      "name": "Gráci Magyar Katolikus Közösség",
+      "entityClass": "organization",
+      "categories": [
+        "egyhaz"
+      ],
+      "activityCategories": [],
+      "signals": [
+        "oktatas",
+        "neptanc",
+        "nepzene",
+        "enekkar",
+        "cserkesz",
+        "media",
+        "egyhaz",
+        "diak",
+        "irodalom",
+        "muveszet",
+        "csalad"
+      ],
+      "pagesChecked": 2,
+      "checkedUrls": [
+        "https://www.grazimagyaregyesuelet.at/magyar-katolikus-k%C3%B6z%C3%B6ss%C3%A9g-magyar-evang%C3%A9likus-gy%C3%BClekezet/",
+        "https://www.petofiprogram.hu/hirek/grac-hivek-szamara-fontos-az-anyanyelv-gyakorlasa-imaban-enekben-beszelgetesben-graci-magyar"
+      ],
+      "errors": [],
+      "flags": []
+    },
+    {
+      "id": "katolikus-innsbruck",
+      "name": "Innsbrucki Magyar Katolikus Közösség",
+      "entityClass": "organization",
+      "categories": [
+        "egyhaz"
+      ],
+      "activityCategories": [],
+      "signals": [
+        "egyhaz"
+      ],
+      "pagesChecked": 0,
+      "checkedUrls": [],
+      "errors": [
+        {
+          "url": "https://www.kozpontiszovetseg.at/tagszervezetek",
+          "error": "HTTP Error 429: Too Many Requests"
+        }
+      ],
+      "flags": []
+    },
+    {
+      "id": "katolikus-linz",
+      "name": "Linzi Magyar Katolikus Közösség",
+      "entityClass": "organization",
+      "categories": [
+        "egyhaz"
+      ],
+      "activityCategories": [],
+      "signals": [
+        "oktatas",
+        "neptanc",
+        "nepzene",
+        "enekkar",
+        "cserkesz",
+        "szinhaz",
+        "media",
+        "egyhaz",
+        "diak",
+        "irodalom",
+        "muveszet",
+        "csalad"
+      ],
+      "pagesChecked": 2,
+      "checkedUrls": [
+        "https://rolunk.at/kultura/nem-csak-a-sajat-levesunket-melegitjuk-kozossegepito-kuldetes-felso-ausztriaban-es-azon-tul/",
+        "https://rolunk.at/ausztriai-magyar-egyesuletek/"
+      ],
+      "errors": [
+        {
+          "url": "https://ausztria.katolikus.at/",
+          "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'ausztria.katolikus.at'. (_ssl.c:1010"
+        }
+      ],
+      "flags": []
+    },
+    {
+      "id": "katolikus-wien",
+      "name": "Bécsi Főegyházmegye Magyar Közössége",
+      "entityClass": "organization",
+      "categories": [
+        "egyhaz"
+      ],
+      "activityCategories": [],
+      "signals": [
+        "oktatas",
+        "cserkesz",
+        "media",
+        "egyhaz",
+        "diak",
+        "irodalom",
+        "csalad"
+      ],
+      "pagesChecked": 2,
+      "checkedUrls": [
+        "https://katolikus.at/",
+        "https://diaszpora.katolikus.hu/kozossegek/wiener-ungarische-katholische-gemeinde"
+      ],
+      "errors": [
+        {
+          "url": "https://archiv.katolikus.hu/ujember/Archivum/2003.08.17/1502.html",
+          "error": "HTTP Error 404: Not Found"
+        }
+      ],
+      "flags": []
+    },
+    {
+      "id": "kenderkoc-bmke",
+      "name": "Kenderkóc – BMKE Gyermeknéptánccsoport",
+      "entityClass": "group",
+      "categories": [
+        "neptanc"
+      ],
+      "activityCategories": [],
+      "signals": [
+        "oktatas",
+        "neptanc",
+        "nepzene",
+        "enekkar",
+        "szinhaz",
+        "media",
+        "muveszet",
+        "sport",
+        "csalad"
+      ],
+      "pagesChecked": 3,
+      "checkedUrls": [
+        "https://volksgruppen.orf.at/magyarok/stories/3326218/",
+        "https://bukv.at/",
+        "https://volksgruppen.orf.at/magyarok/stories/3341289/"
+      ],
+      "errors": [],
+      "flags": []
+    },
+    {
+      "id": "kerekasztal",
+      "name": "Ausztriai Magyar Szervezetek Kerekasztala",
+      "entityClass": "umbrella",
+      "categories": [
+        "kozosseg"
+      ],
+      "activityCategories": [],
+      "signals": [
+        "oktatas",
+        "neptanc",
+        "cserkesz",
+        "szinhaz",
+        "media",
+        "egyhaz",
+        "diak",
+        "irodalom",
+        "sport",
+        "csalad"
+      ],
+      "pagesChecked": 3,
+      "checkedUrls": [
+        "https://kerekasztal.at/",
+        "https://www.korosiprogram.hu/partnereink/ausztriai-magyar-szervezetek-kerekasztala",
+        "https://volksgruppen.orf.at/magyarok/stories/3336303/"
+      ],
+      "errors": [],
+      "flags": []
+    },
+    {
+      "id": "kicsi-svung",
+      "name": "Kicsi Svung – magyar gyermekszínjátszó csoport",
+      "entityClass": "group",
+      "categories": [
+        "oktatas",
+        "szinhaz"
+      ],
+      "activityCategories": [],
+      "signals": [
+        "oktatas",
+        "szinhaz",
+        "media",
+        "irodalom",
+        "muveszet",
+        "csalad"
+      ],
+      "pagesChecked": 1,
+      "checkedUrls": [
+        "https://www.magyariskola.at/event-details/kicsisvung-2026"
+      ],
+      "errors": [],
+      "flags": [
+        "possible-activity-classification"
+      ]
+    },
+    {
+      "id": "kozep-burgenlandi",
+      "name": "Közép-Burgenlandi Magyar Kultúregyesület",
+      "entityClass": "organization",
+      "categories": [
+        "kozosseg",
+        "kultura"
+      ],
+      "activityCategories": [],
+      "signals": [
+        "oktatas",
+        "neptanc",
+        "nepzene",
+        "enekkar",
+        "szinhaz",
+        "media",
+        "egyhaz",
+        "diak",
+        "irodalom",
+        "muveszet",
+        "csalad"
+      ],
+      "pagesChecked": 2,
+      "checkedUrls": [
+        "https://www.facebook.com/MittelburgenlaendischerUngarischerKulturverein/",
+        "https://rolunk.at/nepcsoportunk/huszeves-a-kozepburgenlandi-magyar-kulturegyesulet/"
+      ],
+      "errors": [],
+      "flags": []
+    },
+    {
+      "id": "kozponti-szovetseg",
+      "name": "Ausztriai Magyar Egyesületek és Szervezetek Központi Szövetsége",
+      "entityClass": "umbrella",
+      "categories": [
+        "kozosseg"
+      ],
+      "activityCategories": [],
+      "signals": [
+        "oktatas",
+        "neptanc",
+        "nepzene",
+        "szinhaz",
+        "media",
+        "irodalom",
+        "muveszet",
+        "csalad"
+      ],
+      "pagesChecked": 2,
+      "checkedUrls": [
+        "https://www.kozpontiszovetseg.at/",
+        "https://www.kozpontiszovetseg.at/r%C3%B3lunk"
+      ],
+      "errors": [
+        {
+          "url": "https://www.kozpontiszovetseg.at/kapcsolat",
+          "error": "HTTP Error 429: Too Many Requests"
+        }
+      ],
+      "flags": []
+    },
+    {
+      "id": "kultpult",
+      "name": "KultPult",
+      "entityClass": "organization",
+      "categories": [
+        "kultura"
+      ],
+      "activityCategories": [],
+      "signals": [
+        "oktatas",
+        "nepzene",
+        "szinhaz",
+        "media",
+        "egyhaz",
+        "irodalom",
+        "muveszet",
+        "csalad"
+      ],
+      "pagesChecked": 3,
+      "checkedUrls": [
+        "https://kultpult.eu/",
+        "https://kultpult.eu/category/programok/",
+        "https://kultpult.eu/itthonotthon/"
+      ],
+      "errors": [],
+      "flags": []
+    },
+    {
+      "id": "kuwu",
+      "name": "KUWU – Bécsújhely és környéki Magyarok Kulturális Egyesülete",
+      "entityClass": "organization",
+      "categories": [
+        "kozosseg",
+        "kultura"
+      ],
+      "activityCategories": [],
+      "signals": [
+        "oktatas",
+        "neptanc",
+        "nepzene",
+        "szinhaz",
+        "media",
+        "egyhaz",
+        "irodalom",
+        "muveszet",
+        "sport",
+        "csalad"
+      ],
+      "pagesChecked": 3,
+      "checkedUrls": [
+        "https://www.facebook.com/profile.php?id=100089555537895",
+        "https://rolunk.at/nepcsoportunk/kuwu-avagy-a-legfiatalabb-ausztriai-magyar-egyesulet/",
+        "https://volksgruppen.orf.at/magyarok/stories/3323331/"
+      ],
+      "errors": [],
+      "flags": []
+    },
+    {
+      "id": "lean-in-femspace",
+      "name": "Lean in Femspace",
+      "entityClass": "organization",
+      "categories": [
+        "kozosseg"
+      ],
+      "activityCategories": [],
+      "signals": [
+        "diak"
+      ],
+      "pagesChecked": 1,
+      "checkedUrls": [
+        "https://leaninfemspace.at/"
+      ],
+      "errors": [
+        {
+          "url": "https://www.kozpontiszovetseg.at/tagszervezetek",
+          "error": "HTTP Error 429: Too Many Requests"
+        }
+      ],
+      "flags": []
+    },
+    {
+      "id": "linzi-magyar-gyermekkonyvtar",
+      "name": "Linzi Magyar Gyermek- és Ifjúsági Könyvtári Részleg",
+      "entityClass": "project",
+      "categories": [
+        "irodalom",
+        "kultura"
+      ],
+      "activityCategories": [],
+      "signals": [
+        "oktatas",
+        "neptanc",
+        "nepzene",
+        "szinhaz",
+        "media",
+        "egyhaz",
+        "diak",
+        "irodalom",
+        "muveszet",
+        "sport",
+        "csalad"
+      ],
+      "pagesChecked": 3,
+      "checkedUrls": [
+        "https://wissensturm.linz.at/bibliothek/",
+        "https://rolunk.at/kultura/az-olvasas-mint-kozos-nyelv-magyar-nyelvu-konyvtar-linzben/",
+        "https://www.linz.at/medienservice/2025/202508_132151.php"
+      ],
+      "errors": [],
+      "flags": []
+    },
+    {
+      "id": "macko-kucko-linz",
+      "name": "Mackó-Kuckó Linz",
+      "entityClass": "project",
+      "categories": [
+        "csalad"
+      ],
+      "activityCategories": [],
+      "signals": [
+        "oktatas",
+        "neptanc",
+        "nepzene",
+        "cserkesz",
+        "szinhaz",
+        "media",
+        "egyhaz",
+        "irodalom",
+        "muveszet",
+        "csalad"
+      ],
+      "pagesChecked": 2,
+      "checkedUrls": [
+        "https://www.facebook.com/groups/1283180622014969/",
+        "https://rolunk.at/magazin/aktiv-apukak-sztereotipiadontogetes-es-hatalmas-farsangi-buli-felso-ausztriaban/"
+      ],
+      "errors": [],
+      "flags": []
+    },
+    {
+      "id": "magyar-szo-ausztriaban",
+      "name": "Magyar Szó Ausztriában",
+      "entityClass": "media",
+      "categories": [
+        "kultura",
+        "media"
+      ],
+      "activityCategories": [],
+      "signals": [
+        "oktatas",
+        "media",
+        "irodalom",
+        "csalad"
+      ],
+      "pagesChecked": 1,
+      "checkedUrls": [
+        "https://www.radiohu.hu/impresszum/"
+      ],
+      "errors": [
+        {
+          "url": "https://www.magyarszo.at/",
+          "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'www.magyarszo.at'. (_ssl.c:1010)>"
+        }
+      ],
+      "flags": []
+    },
+    {
+      "id": "magyarhaz-innsbruck",
+      "name": "Magyarház – Innsbrucki Magyar Diákotthon és Kultúrcentrum",
+      "entityClass": "institution",
+      "categories": [
+        "kozosseg",
+        "kultura"
+      ],
+      "activityCategories": [],
+      "signals": [
+        "egyhaz",
+        "diak",
+        "irodalom",
+        "muveszet",
+        "sport",
+        "csalad"
+      ],
+      "pagesChecked": 3,
+      "checkedUrls": [
+        "https://huheim.at/hu/home/",
+        "https://magyarhaz.at/",
+        "https://huheim.at/hu/about/"
+      ],
+      "errors": [],
+      "flags": []
+    },
+    {
+      "id": "mamut-musical",
+      "name": "Bécsi Magyar Musical Társulat – maMUT",
+      "entityClass": "group",
+      "categories": [
+        "muveszet",
+        "szinhaz"
+      ],
+      "activityCategories": [],
+      "signals": [
+        "oktatas",
+        "szinhaz",
+        "media",
+        "irodalom",
+        "muveszet",
+        "csalad"
+      ],
+      "pagesChecked": 3,
+      "checkedUrls": [
+        "https://www.musicaltarsulat.at/",
+        "https://www.musicaltarsulat.at/blog",
+        "https://www.musicaltarsulat.at/projects-7"
+      ],
+      "errors": [],
+      "flags": []
+    },
+    {
+      "id": "mde-alumni",
+      "name": "MDE Alumni – Magyar Diákok Egyesülete Alumni Club",
+      "entityClass": "organization",
+      "categories": [
+        "diak",
+        "kozosseg"
+      ],
+      "activityCategories": [],
+      "signals": [
+        "oktatas",
+        "neptanc",
+        "szinhaz",
+        "egyhaz",
+        "diak",
+        "irodalom",
+        "csalad"
+      ],
+      "pagesChecked": 2,
+      "checkedUrls": [
+        "https://mde.hu/partnerek-tamogatok/",
+        "https://kerekasztal.at/"
+      ],
+      "errors": [],
+      "flags": []
+    },
+    {
+      "id": "mde-vus",
+      "name": "MDE-VUS – Magyar Diákok Egyesülete",
+      "entityClass": "organization",
+      "categories": [
+        "diak"
+      ],
+      "activityCategories": [],
+      "signals": [
+        "neptanc",
+        "diak",
+        "irodalom",
+        "muveszet",
+        "sport",
+        "csalad"
+      ],
+      "pagesChecked": 3,
+      "checkedUrls": [
+        "https://mde.hu/at/",
+        "https://mde.hu/rolunk/",
+        "https://mde.hu/becsi-esemenyek/"
+      ],
+      "errors": [],
+      "flags": []
+    },
+    {
+      "id": "meok-graz",
+      "name": "MEÖK – Magyar Egyetemisták és Öregdiákok Klubja",
+      "entityClass": "organization",
+      "categories": [
+        "diak"
+      ],
+      "activityCategories": [],
+      "signals": [
+        "media",
+        "egyhaz",
+        "diak",
+        "irodalom",
+        "muveszet",
+        "csalad"
+      ],
+      "pagesChecked": 2,
+      "checkedUrls": [
+        "https://www.meoek.at/",
+        "https://www.meoek.at/rendezok/"
+      ],
+      "errors": [],
+      "flags": []
+    },
+    {
+      "id": "meses-noi-kor-linz",
+      "name": "Mesés Női Kör Linz",
+      "entityClass": "project",
+      "categories": [
+        "irodalom",
+        "kozosseg",
+        "kultura"
+      ],
+      "activityCategories": [],
+      "signals": [
+        "oktatas",
+        "neptanc",
+        "nepzene",
+        "szinhaz",
+        "media",
+        "egyhaz",
+        "diak",
+        "irodalom",
+        "muveszet",
+        "csalad"
+      ],
+      "pagesChecked": 3,
+      "checkedUrls": [
+        "https://rolunk.at/kultura/az-olvasas-mint-kozos-nyelv-magyar-nyelvu-konyvtar-linzben/",
+        "https://kupfticket.com/en/events/boldizsar-ildiko",
+        "https://kupfticket.com/en/events/kadar-annamaria"
+      ],
+      "errors": [],
+      "flags": []
+    },
+    {
+      "id": "mime-vorarlberg",
+      "name": "Mi Magyarok Egymásért",
+      "entityClass": "organization",
+      "categories": [
+        "kozosseg",
+        "oktatas"
+      ],
+      "activityCategories": [],
+      "signals": [
+        "oktatas",
+        "neptanc",
+        "nepzene",
+        "szinhaz",
+        "media",
+        "egyhaz",
+        "diak",
+        "irodalom",
+        "muveszet",
+        "csalad"
+      ],
+      "pagesChecked": 3,
+      "checkedUrls": [
+        "https://www.facebook.com/profile.php?id=61550875215206",
+        "https://rolunk.at/aktualis/mi-magyarok-egymasert-mime-uj-egyesulet-voralbergben/",
+        "https://rolunk.at/magazin/bemutatkozik-a-mi-magyarok-egymasert-video/"
+      ],
+      "errors": [],
+      "flags": []
+    },
+    {
+      "id": "napraforgocskak",
+      "name": "Napraforgócskák Gyermek Néptánccsoport",
+      "entityClass": "group",
+      "categories": [
+        "neptanc"
+      ],
+      "activityCategories": [],
+      "signals": [
+        "oktatas",
+        "neptanc",
+        "nepzene",
+        "enekkar",
+        "szinhaz",
+        "media",
+        "egyhaz",
+        "irodalom",
+        "muveszet",
+        "csalad"
+      ],
+      "pagesChecked": 3,
+      "checkedUrls": [
+        "https://www.napraforgok.at/r%C3%B3lunk",
+        "https://www.napraforgok.at/",
+        "https://www.magyariskola.at/event-details/napraforgocskak-2026"
+      ],
+      "errors": [],
+      "flags": []
+    },
+    {
+      "id": "napraforgok",
+      "name": "Napraforgók – Bécsi Magyar Néptánc és Népzene Egyesület",
+      "entityClass": "organization",
+      "categories": [
+        "neptanc",
+        "nepzene"
+      ],
+      "activityCategories": [],
+      "signals": [
+        "oktatas",
+        "neptanc",
+        "nepzene",
+        "enekkar",
+        "cserkesz",
+        "media",
+        "egyhaz",
+        "diak",
+        "irodalom",
+        "muveszet",
+        "csalad"
+      ],
+      "pagesChecked": 3,
+      "checkedUrls": [
+        "https://www.napraforgok.at/",
+        "https://www.napraforgok.at/r%C3%B3lunk",
+        "https://www.napraforgok.at/vezetoseg"
+      ],
+      "errors": [],
+      "flags": []
+    },
+    {
+      "id": "ne-felejts",
+      "name": "Ne-Felejts! Néptáncegyüttes",
+      "entityClass": "organization",
+      "categories": [
+        "neptanc"
+      ],
+      "activityCategories": [],
+      "signals": [
+        "oktatas",
+        "neptanc",
+        "nepzene",
+        "enekkar",
+        "muveszet",
+        "csalad"
+      ],
+      "pagesChecked": 3,
+      "checkedUrls": [
+        "https://ne-felejts.weebly.com/",
+        "https://ne-felejts.weebly.com/events",
+        "https://ne-felejts.weebly.com/uumlber-uns.html"
+      ],
+      "errors": [],
+      "flags": []
+    },
+    {
+      "id": "ne-felejts-gyermek",
+      "name": "Ne-Felejts! Gyermek Néptánccsoport",
+      "entityClass": "group",
+      "categories": [
+        "neptanc"
+      ],
+      "activityCategories": [],
+      "signals": [
+        "oktatas",
+        "neptanc",
+        "nepzene",
+        "enekkar",
+        "media",
+        "muveszet",
+        "sport",
+        "csalad"
+      ],
+      "pagesChecked": 3,
+      "checkedUrls": [
+        "https://ne-felejts.weebly.com/",
+        "https://ne-felejts.weebly.com/events",
+        "https://volksgruppen.orf.at/magyarok/stories/3335688/"
+      ],
+      "errors": [],
+      "flags": []
+    },
+    {
+      "id": "nepcsoporttanacsi-elnokok",
+      "name": "Népcsoporttanácsi Elnökök Állandó Konferenciája",
+      "entityClass": "umbrella",
+      "categories": [
+        "kozosseg"
+      ],
+      "activityCategories": [],
+      "signals": [
+        "oktatas",
+        "neptanc",
+        "nepzene",
+        "enekkar",
+        "cserkesz",
+        "szinhaz",
+        "media",
+        "egyhaz",
+        "diak",
+        "irodalom",
+        "muveszet",
+        "sport",
+        "csalad"
+      ],
+      "pagesChecked": 2,
+      "checkedUrls": [
+        "https://rolunk.at/ausztriai-magyar-egyesuletek/",
+        "https://volksgruppen.orf.at/magyarok/stories/3302381/"
+      ],
+      "errors": [],
+      "flags": []
+    },
+    {
+      "id": "nevenincs-ovoda-innsbruck",
+      "name": "NeveNincs Óvoda – Innsbruck",
+      "entityClass": "institution",
+      "categories": [
+        "oktatas"
+      ],
+      "activityCategories": [],
+      "signals": [
+        "oktatas",
+        "neptanc",
+        "nepzene",
+        "cserkesz",
+        "szinhaz",
+        "media",
+        "diak",
+        "irodalom",
+        "sport",
+        "csalad"
+      ],
+      "pagesChecked": 2,
+      "checkedUrls": [
+        "https://volksgruppen.orf.at/magyarok/stories/3337903/",
+        "https://volksgruppen.orf.at/magyarok/stories/3068208/"
+      ],
+      "errors": [],
+      "flags": []
+    },
+    {
+      "id": "noi-kor-wels",
+      "name": "Női Kör Wels",
+      "entityClass": "project",
+      "categories": [
+        "kozosseg"
+      ],
+      "activityCategories": [],
+      "signals": [
+        "oktatas",
+        "neptanc",
+        "nepzene",
+        "cserkesz",
+        "szinhaz",
+        "media",
+        "egyhaz",
+        "irodalom",
+        "muveszet",
+        "sport",
+        "csalad"
+      ],
+      "pagesChecked": 3,
+      "checkedUrls": [
+        "https://www.facebook.com/profile.php?id=61555536511644",
+        "https://rolunk.at/magazin/aktiv-apukak-sztereotipiadontogetes-es-hatalmas-farsangi-buli-felso-ausztriaban/",
+        "https://volksgruppen.orf.at/magyarok/stories/3340511/"
+      ],
+      "errors": [],
+      "flags": []
+    },
+    {
+      "id": "oeius",
+      "name": "Ausztriai Magyar Kutatóintézet / Österreichisches Institut für ungarische Studien",
+      "entityClass": "organization",
+      "categories": [
+        "kultura",
+        "oktatas"
+      ],
+      "activityCategories": [],
+      "signals": [
+        "oktatas",
+        "szinhaz",
+        "egyhaz",
+        "irodalom",
+        "muveszet",
+        "csalad"
+      ],
+      "pagesChecked": 3,
+      "checkedUrls": [
+        "https://www.oeius.at/",
+        "https://www.oeius.at/hu/veranstaltungen",
+        "https://www.oeius.at/uber-uns"
+      ],
+      "errors": [],
+      "flags": []
+    },
+    {
+      "id": "orf-magyarok",
+      "name": "ORF Magyarok – magyar népcsoporti szerkesztőség",
+      "entityClass": "media",
+      "categories": [
+        "kultura",
+        "media"
+      ],
+      "activityCategories": [],
+      "signals": [
+        "nepzene",
+        "cserkesz",
+        "media",
+        "egyhaz",
+        "irodalom",
+        "muveszet",
+        "sport"
+      ],
+      "pagesChecked": 3,
+      "checkedUrls": [
+        "https://volksgruppen.orf.at/magyarok/",
+        "https://volksgruppen.orf.at/magyarok/stories/3355959/",
+        "https://volksgruppen.orf.at/magyarok/stories/kapcsolat/"
+      ],
+      "errors": [],
+      "flags": []
+    },
+    {
+      "id": "ori-banda",
+      "name": "Őri Banda",
+      "entityClass": "group",
+      "categories": [
+        "nepzene",
+        "zenekar"
+      ],
+      "activityCategories": [],
+      "signals": [
+        "oktatas",
+        "neptanc",
+        "nepzene",
+        "enekkar",
+        "szinhaz",
+        "media",
+        "egyhaz",
+        "diak",
+        "irodalom",
+        "muveszet",
+        "csalad"
+      ],
+      "pagesChecked": 3,
+      "checkedUrls": [
+        "https://vhs-ungarn.at/hu/hagyomanyorzes/ori-banda/",
+        "https://vhs-ungarn.at/",
+        "https://www.vhs-burgenland.at/"
+      ],
+      "errors": [],
+      "flags": []
+    },
+    {
+      "id": "ori-banda-nepdalkor",
+      "name": "Őri Banda Népdalkör",
+      "entityClass": "group",
+      "categories": [
+        "enekkar",
+        "nepzene"
+      ],
+      "activityCategories": [],
+      "signals": [
+        "oktatas",
+        "nepzene",
+        "enekkar",
+        "diak",
+        "irodalom",
+        "muveszet",
+        "csalad"
+      ],
+      "pagesChecked": 2,
+      "checkedUrls": [
+        "https://vhs-ungarn.at/de/uber-uns/der-verein-volkshochschule-der-burgenlandischen-ungarn/",
+        "https://vhs-ungarn.at/"
+      ],
+      "errors": [],
+      "flags": []
+    },
+    {
+      "id": "oriszigeti-evangelikus",
+      "name": "Őriszigeti Evangélikus Egyházközség",
+      "entityClass": "organization",
+      "categories": [
+        "egyhaz"
+      ],
+      "activityCategories": [],
+      "signals": [
+        "oktatas",
+        "enekkar",
+        "egyhaz",
+        "diak",
+        "csalad"
+      ],
+      "pagesChecked": 2,
+      "checkedUrls": [
+        "https://evang.at/adressen/siget-in-der-wart/",
+        "https://evang-bgld.at/ort/siget-in-der-wart/"
+      ],
+      "errors": [],
+      "flags": []
+    },
+    {
+      "id": "oriszigeti-neptanc",
+      "name": "Őriszigeti Magyar Néptánccsoport",
+      "entityClass": "group",
+      "categories": [
+        "neptanc"
+      ],
+      "activityCategories": [],
+      "signals": [
+        "oktatas",
+        "neptanc",
+        "nepzene",
+        "enekkar",
+        "szinhaz",
+        "diak",
+        "irodalom",
+        "csalad"
+      ],
+      "pagesChecked": 3,
+      "checkedUrls": [
+        "https://bukv.at/volkstanzgruppe-siget-in-der-wart/",
+        "https://bukv.at/",
+        "https://bukv.at/hu/oriszigeti-magyar-neptancegyuettes/"
+      ],
+      "errors": [],
+      "flags": []
+    },
+    {
+      "id": "orok-fiatalok-klubja",
+      "name": "Örök Fiatalok Klubja – ÖFK",
+      "entityClass": "group",
+      "categories": [
+        "enekkar",
+        "kozosseg"
+      ],
+      "activityCategories": [],
+      "signals": [
+        "oktatas",
+        "neptanc",
+        "nepzene",
+        "cserkesz",
+        "szinhaz",
+        "media",
+        "egyhaz",
+        "diak",
+        "irodalom",
+        "muveszet",
+        "sport",
+        "csalad"
+      ],
+      "pagesChecked": 2,
+      "checkedUrls": [
+        "https://volksgruppen.orf.at/magyarok/stories/3340511/",
+        "https://rolunk.at/aktualis/mar-55-eve-az-operencias-tengeren-tul-kettos-jubileum-a-felso-ausztriai-magyaroknal/"
+      ],
+      "errors": [],
+      "flags": [
+        "weak-source-signal:enekkar"
+      ]
+    },
+    {
+      "id": "osztrak-magyar-tarsasag",
+      "name": "Osztrák–Magyar Társaság / Gesellschaft Österreich–Ungarn",
+      "entityClass": "organization",
+      "categories": [
+        "kozosseg",
+        "kultura"
+      ],
+      "activityCategories": [],
+      "signals": [],
+      "pagesChecked": 1,
+      "checkedUrls": [
+        "https://goeu.at/"
+      ],
+      "errors": [],
+      "flags": []
+    },
+    {
+      "id": "pax-romana",
+      "name": "Katolikus Magyar Értelmiségi Mozgalom – Pax Romana",
+      "entityClass": "organization",
+      "categories": [
+        "egyhaz",
+        "ertelmisegi"
+      ],
+      "activityCategories": [],
+      "signals": [
+        "oktatas",
+        "egyhaz",
+        "diak",
+        "irodalom"
+      ],
+      "pagesChecked": 2,
+      "checkedUrls": [
+        "https://lexikon.katolikus.hu/M/Magyar%20Pax%20Romana%20Katolikus%20%C3%89rtelmis%C3%A9gi%20Mozgalom.html",
+        "https://www.icmica-miic.org/2012/03/oesterreich/"
+      ],
+      "errors": [],
+      "flags": []
+    },
+    {
+      "id": "programapik",
+      "name": "ProgramApik",
+      "entityClass": "project",
+      "categories": [
+        "csalad"
+      ],
+      "activityCategories": [],
+      "signals": [
+        "oktatas",
+        "neptanc",
+        "nepzene",
+        "cserkesz",
+        "szinhaz",
+        "media",
+        "egyhaz",
+        "irodalom",
+        "muveszet",
+        "sport",
+        "csalad"
+      ],
+      "pagesChecked": 3,
+      "checkedUrls": [
+        "https://www.facebook.com/groups/485905963955994/",
+        "https://rolunk.at/magazin/aktiv-apukak-sztereotipiadontogetes-es-hatalmas-farsangi-buli-felso-ausztriaban/",
+        "https://volksgruppen.orf.at/magyarok/stories/3340511/"
+      ],
+      "errors": [],
+      "flags": []
+    },
+    {
+      "id": "radiohu",
+      "name": "RádióHU – Ausztria magyar hangja",
+      "entityClass": "media",
+      "categories": [
+        "kultura",
+        "media"
+      ],
+      "activityCategories": [],
+      "signals": [
+        "oktatas",
+        "media",
+        "irodalom",
+        "csalad"
+      ],
+      "pagesChecked": 2,
+      "checkedUrls": [
+        "https://www.radiohu.hu/",
+        "https://www.radiohu.hu/impresszum/"
+      ],
+      "errors": [],
+      "flags": []
+    },
+    {
+      "id": "reformatus-ifjusagi-olvasokor",
+      "name": "Református Ifjúsági Olvasókör",
+      "entityClass": "organization",
+      "categories": [
+        "kultura"
+      ],
+      "activityCategories": [],
+      "signals": [
+        "oktatas",
+        "neptanc",
+        "nepzene",
+        "szinhaz",
+        "media",
+        "egyhaz",
+        "diak",
+        "irodalom",
+        "muveszet",
+        "sport",
+        "csalad"
+      ],
+      "pagesChecked": 3,
+      "checkedUrls": [
+        "https://www.facebook.com/Fels%C5%91%C5%91ri-Reform%C3%A1tus-Ifj%C3%BAs%C3%A1gi-Olvas%C3%B3k%C3%B6r-421949981307391/",
+        "https://rolunk.at/kultura/tevedesek-ejszakaja-premier-a-felsoori-szinjatszoknal/",
+        "https://rolunk.at/kultura/uj-rendezovel-keszul-az-idei-eloadas/"
+      ],
+      "errors": [],
+      "flags": []
+    },
+    {
+      "id": "reformatus-olvasokor-szinjatszo",
+      "name": "Felsőőri Református Ifjúsági Olvasókör – Színjátszócsoport",
+      "entityClass": "group",
+      "categories": [
+        "kultura",
+        "szinhaz"
+      ],
+      "activityCategories": [],
+      "signals": [
+        "nepzene",
+        "cserkesz",
+        "szinhaz",
+        "media",
+        "egyhaz",
+        "irodalom",
+        "muveszet",
+        "sport"
+      ],
+      "pagesChecked": 3,
+      "checkedUrls": [
+        "https://volksgruppen.orf.at/magyarok/stories/3353560/",
+        "https://volksgruppen.orf.at/magyarok/",
+        "https://volksgruppen.orf.at/magyarok/stories/3345907/"
+      ],
+      "errors": [],
+      "flags": []
+    },
+    {
+      "id": "reformatus-szolgalat",
+      "name": "Ausztriai Magyar Református Lelkigondozó Szolgálat",
+      "entityClass": "organization",
+      "categories": [
+        "egyhaz"
+      ],
+      "activityCategories": [],
+      "signals": [
+        "egyhaz",
+        "csalad"
+      ],
+      "pagesChecked": 3,
+      "checkedUrls": [
+        "https://reformatus.at/",
+        "https://www.reformatus.at/",
+        "https://www.reformatus.at/events/2026/"
+      ],
+      "errors": [],
+      "flags": []
+    },
+    {
+      "id": "rezsarkantyu-citera",
+      "name": "Rézsarkantyú Citerazenekar",
+      "entityClass": "group",
+      "categories": [
+        "nepzene",
+        "zenekar"
+      ],
+      "activityCategories": [],
+      "signals": [
+        "oktatas",
+        "neptanc",
+        "nepzene",
+        "enekkar",
+        "szinhaz",
+        "media",
+        "diak",
+        "muveszet",
+        "csalad"
+      ],
+      "pagesChecked": 3,
+      "checkedUrls": [
+        "https://www.wukv.at/rolunk-citerazenekar/",
+        "https://www.delibab-becs.com/",
+        "https://www.wukv.at/category/zenekar/"
+      ],
+      "errors": [],
+      "flags": []
+    },
+    {
+      "id": "rolunk-at",
+      "name": "Rólunk.at – Ausztria Magyar Oldalai",
+      "entityClass": "media",
+      "categories": [
+        "kultura",
+        "media"
+      ],
+      "activityCategories": [],
+      "signals": [
+        "oktatas",
+        "neptanc",
+        "nepzene",
+        "cserkesz",
+        "szinhaz",
+        "media",
+        "egyhaz",
+        "irodalom",
+        "sport",
+        "csalad"
+      ],
+      "pagesChecked": 2,
+      "checkedUrls": [
+        "https://rolunk.at/",
+        "https://rolunk.at/rolunk/"
+      ],
+      "errors": [],
+      "flags": []
+    },
+    {
+      "id": "roppenj-pengeto",
+      "name": "Röppenj Pengető Citerazenekar",
+      "entityClass": "group",
+      "categories": [
+        "nepzene",
+        "zenekar"
+      ],
+      "activityCategories": [],
+      "signals": [
+        "oktatas",
+        "neptanc",
+        "nepzene",
+        "enekkar",
+        "cserkesz",
+        "szinhaz",
+        "media",
+        "egyhaz",
+        "diak",
+        "irodalom",
+        "muveszet",
+        "sport",
+        "csalad"
+      ],
+      "pagesChecked": 3,
+      "checkedUrls": [
+        "https://www.delibab-becs.com/",
+        "https://rolunk.at/nepcsoportunk/isten-eltessen-sokaig-delibab-becsi-magyar-kulturegyesulet-delibab-75-cimu-film/",
+        "https://rolunk.at/aktualis/a-haza-mi-magunk-vagyunk-marcius-15-i-unnepseg-magyarorszag-becsi-nagykovetsegen/"
+      ],
+      "errors": [],
+      "flags": []
+    },
+    {
+      "id": "salzburgi-neptanc",
+      "name": "Salzburgi Magyar Néptáncegyüttes",
+      "entityClass": "group",
+      "categories": [
+        "neptanc"
+      ],
+      "activityCategories": [],
+      "signals": [
+        "oktatas",
+        "neptanc",
+        "enekkar",
+        "szinhaz",
+        "irodalom",
+        "muveszet",
+        "csalad"
+      ],
+      "pagesChecked": 3,
+      "checkedUrls": [
+        "https://salzung.com/hu/?start=8",
+        "https://salzung.com/hu/",
+        "https://www.facebook.com/Salzburgi.Magyar.Neptancegyuttes/"
+      ],
+      "errors": [],
+      "flags": []
+    },
+    {
+      "id": "salzung",
+      "name": "SalzUNG – Salzburgi Magyar Egyesület",
+      "entityClass": "organization",
+      "categories": [
+        "kozosseg",
+        "kultura"
+      ],
+      "activityCategories": [],
+      "signals": [
+        "oktatas",
+        "enekkar",
+        "szinhaz",
+        "irodalom",
+        "muveszet",
+        "csalad"
+      ],
+      "pagesChecked": 3,
+      "checkedUrls": [
+        "https://www.salzung.com/hu",
+        "https://www.salzung.com/hu/rolunk/az-egyesulet-bemutatasa",
+        "https://www.salzung.com/hu/rolunk/"
+      ],
+      "errors": [],
+      "flags": []
+    },
+    {
+      "id": "salzung-brumi-ovi",
+      "name": "SalzUNG – Brumi Ovi",
+      "entityClass": "institution",
+      "categories": [
+        "oktatas"
+      ],
+      "activityCategories": [],
+      "signals": [
+        "oktatas",
+        "neptanc",
+        "irodalom",
+        "muveszet",
+        "csalad"
+      ],
+      "pagesChecked": 2,
+      "checkedUrls": [
+        "https://salzung.com/hu/esemenyek/esemeny-blog",
+        "https://salzung.com/hu/?start=8"
+      ],
+      "errors": [],
+      "flags": []
+    },
+    {
+      "id": "salzung-minikonyvtar",
+      "name": "Salzburgi Magyar Minikönyvtár és Könyvklub",
+      "entityClass": "project",
+      "categories": [
+        "irodalom",
+        "kozosseg",
+        "kultura"
+      ],
+      "activityCategories": [],
+      "signals": [
+        "oktatas",
+        "enekkar",
+        "szinhaz",
+        "diak",
+        "irodalom",
+        "muveszet",
+        "sport",
+        "csalad"
+      ],
+      "pagesChecked": 3,
+      "checkedUrls": [
+        "https://www.salzung.com/hu",
+        "https://www.salzung.com/hu/projektek/minikonyvtar/minikoenyvtar",
+        "https://salzung.com/hu/hirek/tervezett-programjaink-a-2021-es-evben"
+      ],
+      "errors": [],
+      "flags": []
+    },
+    {
+      "id": "salzung-pitypang-suli",
+      "name": "SalzUNG – Pitypang Suli",
+      "entityClass": "institution",
+      "categories": [
+        "oktatas"
+      ],
+      "activityCategories": [],
+      "signals": [
+        "oktatas",
+        "neptanc",
+        "irodalom",
+        "muveszet",
+        "csalad"
+      ],
+      "pagesChecked": 2,
+      "checkedUrls": [
+        "https://salzung.com/hu/projektek/oktatas",
+        "https://salzung.com/hu/?start=8"
+      ],
+      "errors": [],
+      "flags": []
+    },
+    {
+      "id": "sunido-linz-steyr",
+      "name": "Sünidő Linz és Steyr",
+      "entityClass": "project",
+      "categories": [
+        "csalad"
+      ],
+      "activityCategories": [],
+      "signals": [
+        "oktatas",
+        "neptanc",
+        "nepzene",
+        "szinhaz",
+        "media",
+        "egyhaz",
+        "irodalom",
+        "muveszet",
+        "csalad"
+      ],
+      "pagesChecked": 3,
+      "checkedUrls": [
+        "https://www.facebook.com/groups/610893464159214/",
+        "https://rolunk.at/?p=46523",
+        "https://rolunk.at/tag/sunido/"
+      ],
+      "errors": [],
+      "flags": []
+    },
+    {
+      "id": "svung",
+      "name": "SVUNG – Bécsi Magyarok Művészeti Egyesülete",
+      "entityClass": "organization",
+      "categories": [
+        "muveszet",
+        "szinhaz"
+      ],
+      "activityCategories": [],
+      "signals": [
+        "szinhaz",
+        "irodalom",
+        "muveszet",
+        "csalad"
+      ],
+      "pagesChecked": 3,
+      "checkedUrls": [
+        "https://svung.at/",
+        "https://shop.svung.at/",
+        "https://www.svung.at/"
+      ],
+      "errors": [],
+      "flags": []
+    },
+    {
+      "id": "szelforgok-nepzene",
+      "name": "Szélforgók Gyermek Népzenei Csoport",
+      "entityClass": "group",
+      "categories": [
+        "nepzene",
+        "zenekar"
+      ],
+      "activityCategories": [],
+      "signals": [
+        "oktatas",
+        "neptanc",
+        "nepzene",
+        "enekkar",
+        "szinhaz",
+        "csalad"
+      ],
+      "pagesChecked": 2,
+      "checkedUrls": [
+        "https://bukv.at/kindervolksmusikgruppe-szelforgok/",
+        "https://bukv.at/"
+      ],
+      "errors": [],
+      "flags": []
+    },
+    {
+      "id": "szent-istvan-egylet",
+      "name": "Szent István Egylet",
+      "entityClass": "organization",
+      "categories": [
+        "kozosseg",
+        "kultura"
+      ],
+      "activityCategories": [],
+      "signals": [],
+      "pagesChecked": 0,
+      "checkedUrls": [],
+      "errors": [
+        {
+          "url": "https://www.kozpontiszovetseg.at/tagszervezetek",
+          "error": "HTTP Error 429: Too Many Requests"
+        }
+      ],
+      "flags": []
+    },
+    {
+      "id": "szivarvany-gyermektanc",
+      "name": "Szivárvány Gyermektánccsoport",
+      "entityClass": "group",
+      "categories": [
+        "neptanc"
+      ],
+      "activityCategories": [],
+      "signals": [
+        "oktatas",
+        "neptanc",
+        "nepzene",
+        "enekkar",
+        "szinhaz",
+        "media",
+        "diak",
+        "muveszet",
+        "csalad"
+      ],
+      "pagesChecked": 3,
+      "checkedUrls": [
+        "https://www.wukv.at/rolunk-szivarvany/",
+        "https://www.wukv.at/category/gyermektanc/",
+        "https://www.delibab-becs.com/"
+      ],
+      "errors": [],
+      "flags": []
+    },
+    {
+      "id": "umiz",
+      "name": "UMIZ – Magyar Média és Információs Központ",
+      "entityClass": "media",
+      "categories": [
+        "media"
+      ],
+      "activityCategories": [],
+      "signals": [
+        "oktatas",
+        "neptanc",
+        "nepzene",
+        "szinhaz",
+        "egyhaz",
+        "irodalom",
+        "muveszet",
+        "sport",
+        "csalad"
+      ],
+      "pagesChecked": 3,
+      "checkedUrls": [
+        "https://umiz.at/",
+        "https://umiz.at/hu/rolunk/toertenetuenk/",
+        "https://umiz.at/impressum/"
+      ],
+      "errors": [],
+      "flags": [
+        "weak-source-signal:media"
+      ]
+    },
+    {
+      "id": "vhs-burgenland",
+      "name": "Burgenlandi Magyarok Népfőiskolája",
+      "entityClass": "institution",
+      "categories": [
+        "kultura",
+        "oktatas"
+      ],
+      "activityCategories": [],
+      "signals": [
+        "oktatas",
+        "nepzene",
+        "enekkar",
+        "diak",
+        "irodalom",
+        "muveszet",
+        "csalad"
+      ],
+      "pagesChecked": 3,
+      "checkedUrls": [
+        "https://vhs-ungarn.at/",
+        "https://vhs-ungarn.at/hu/rolunk/a-burgenlandi-magyarok-nepfoiskolaja-egyesulet/",
+        "https://vhs-ungarn.at/hu/kapcsolat/"
+      ],
+      "errors": [],
+      "flags": []
+    },
+    {
+      "id": "vipach",
+      "name": "VIPACH – Vienna Photo Art & Creative Hub",
+      "entityClass": "organization",
+      "categories": [
+        "kozosseg",
+        "muveszet",
+        "oktatas"
+      ],
+      "activityCategories": [],
+      "signals": [
+        "oktatas",
+        "media",
+        "irodalom",
+        "muveszet",
+        "csalad"
+      ],
+      "pagesChecked": 3,
+      "checkedUrls": [
+        "https://www.vipach.at/",
+        "https://www.vipach.at/fotokiallitasok",
+        "https://www.vipach.at/bemutatkozas?lang=en"
+      ],
+      "errors": [],
+      "flags": []
+    },
+    {
+      "id": "virgonc-gyermek",
+      "name": "Gyermek-Virgonc – Alsóőri Gyermek Néptánccsoport",
+      "entityClass": "group",
+      "categories": [
+        "neptanc"
+      ],
+      "activityCategories": [],
+      "signals": [
+        "oktatas",
+        "neptanc",
+        "nepzene",
+        "enekkar",
+        "szinhaz",
+        "csalad"
+      ],
+      "pagesChecked": 2,
+      "checkedUrls": [
+        "https://bukv.at/kindervolkstanzgruppe-virgonc/",
+        "https://bukv.at/"
+      ],
+      "errors": [],
+      "flags": []
+    },
+    {
+      "id": "virgonc-unterwart",
+      "name": "Virgonc – Alsóőri Magyar Néptánccsoport",
+      "entityClass": "group",
+      "categories": [
+        "neptanc"
+      ],
+      "activityCategories": [],
+      "signals": [
+        "oktatas",
+        "neptanc",
+        "nepzene",
+        "enekkar",
+        "szinhaz",
+        "diak",
+        "irodalom",
+        "csalad"
+      ],
+      "pagesChecked": 3,
+      "checkedUrls": [
+        "https://bukv.at/volkstanzgruppe-virgonc/",
+        "https://bukv.at/",
+        "https://bukv.at/hu/virgonc-neptanccsoport/"
+      ],
+      "errors": [],
+      "flags": []
+    },
+    {
+      "id": "vorarlbergi-magyar-egyesulet",
+      "name": "Vorarlbergi Magyar Egyesület",
+      "entityClass": "organization",
+      "categories": [
+        "kozosseg",
+        "kultura"
+      ],
+      "activityCategories": [],
+      "signals": [
+        "oktatas",
+        "neptanc",
+        "nepzene",
+        "szinhaz",
+        "media",
+        "egyhaz",
+        "diak",
+        "irodalom",
+        "muveszet",
+        "sport",
+        "csalad"
+      ],
+      "pagesChecked": 3,
+      "checkedUrls": [
+        "https://rolunk.at/aktualis/egy-eves-a-vorarlbergi-magyar-egyesulet/",
+        "https://volksgruppen.orf.at/magyarok/stories/3269351/",
+        "https://volksgruppen.orf.at/magyarok/stories/3197605/"
+      ],
+      "errors": [],
+      "flags": []
+    },
+    {
+      "id": "vukk-kaernten",
+      "name": "VUKK – Verein für die Ungarische Kultur in Kärnten",
+      "entityClass": "organization",
+      "categories": [
+        "kultura",
+        "oktatas"
+      ],
+      "activityCategories": [],
+      "signals": [
+        "oktatas",
+        "neptanc",
+        "nepzene",
+        "enekkar",
+        "cserkesz",
+        "szinhaz",
+        "media",
+        "egyhaz",
+        "diak",
+        "irodalom",
+        "sport",
+        "csalad"
+      ],
+      "pagesChecked": 2,
+      "checkedUrls": [
+        "https://volksgruppen.orf.at/magyarok/stories/3119145/",
+        "https://bukv.at/links/"
+      ],
+      "errors": [
+        {
+          "url": "https://vukk.at/",
+          "error": "<urlopen error [Errno -5] No address associated with hostname>"
+        }
+      ],
+      "flags": []
+    },
+    {
+      "id": "warter-fantasie",
+      "name": "Warter Fantasie",
+      "entityClass": "group",
+      "categories": [
+        "muveszet",
+        "zenekar"
+      ],
+      "activityCategories": [],
+      "signals": [
+        "oktatas",
+        "neptanc",
+        "nepzene",
+        "enekkar",
+        "szinhaz",
+        "csalad"
+      ],
+      "pagesChecked": 2,
+      "checkedUrls": [
+        "https://bukv.at/musikensemble-warter-fantasie/",
+        "https://bukv.at/"
+      ],
+      "errors": [],
+      "flags": [
+        "weak-source-signal:muveszet"
+      ]
+    },
+    {
+      "id": "wels-hetvegi-iskola",
+      "name": "Felső-Ausztriai Hétvégi Magyar Óvoda és Iskola",
+      "entityClass": "institution",
+      "categories": [
+        "oktatas"
+      ],
+      "activityCategories": [],
+      "signals": [
+        "oktatas",
+        "neptanc",
+        "nepzene",
+        "cserkesz",
+        "szinhaz",
+        "media",
+        "egyhaz",
+        "diak",
+        "irodalom",
+        "muveszet",
+        "csalad"
+      ],
+      "pagesChecked": 3,
+      "checkedUrls": [
+        "https://www.facebook.com/profile.php?id=100057286665201",
+        "https://rolunk.at/nepcsoportunk/iden-mar-22-eves-a-magyaroktatas-felso-ausztriaban/",
+        "https://rolunk.at/aktualis/messze-a-hazatol-megis-otthon-25-eves-a-felso-ausztriai-hetvegi-magyar-iskola-es-ovoda/"
+      ],
+      "errors": [],
+      "flags": []
+    }
+  ],
+  "educationFlags": [
+    {
+      "id": "ms-bregenz-hungarian",
+      "name": "Mittelschule Bregenz-Stadt – magyar elsőnyelvi oktatás",
+      "flags": [
+        "conflicting-verified-period"
+      ]
+    },
+    {
+      "id": "ms-dornbirn-hungarian",
+      "name": "Mittelschule Dornbirn Markt – magyar elsőnyelvi oktatás",
+      "flags": [
+        "conflicting-verified-period"
+      ]
+    },
+    {
+      "id": "ms-hohenems-hungarian",
+      "name": "Mittelschule Hohenems-Herrenried – magyar elsőnyelvi oktatás",
+      "flags": [
+        "conflicting-verified-period"
+      ]
+    },
+    {
+      "id": "vs-feldkirch-levis-hungarian",
+      "name": "Volksschule Feldkirch Levis – magyar elsőnyelvi oktatás",
+      "flags": [
+        "conflicting-verified-period"
+      ]
+    },
+    {
+      "id": "bg-seebacher-hungarian",
+      "name": "Bundesgymnasium Seebacher Graz – magyaroktatás és érettségi",
+      "flags": [
+        "conflicting-verified-period"
+      ]
+    },
+    {
+      "id": "vhs-tirol-hungarian",
+      "name": "Volkshochschule Tirol – magyar nyelvkurzusok",
+      "flags": [
+        "conflicting-verified-period"
+      ]
+    },
+    {
+      "id": "vhs-wien-hungarian",
+      "name": "Wiener Volkshochschulen – magyar nyelvkurzusok",
+      "flags": [
+        "conflicting-verified-period"
+      ]
+    },
+    {
+      "id": "femconnect-graz-zenei-elokeszito",
+      "name": "FemConnect Graz – Zenei előkészítő",
+      "flags": [
+        "conflicting-verified-period"
+      ]
+    },
+    {
+      "id": "bmi-becscraft-2026",
+      "name": "Bécsi Magyar Iskola – BécsCraft",
+      "flags": [
+        "conflicting-verified-period"
+      ]
+    },
+    {
+      "id": "bmke-kenderkoc-education",
+      "name": "BMKE – Kenderkóc gyermeknéptánc",
+      "flags": [
+        "conflicting-verified-period"
+      ]
+    }
+  ],
   "eventFlags": []
 }
