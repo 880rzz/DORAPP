@@ -9926,6 +9926,73 @@
       ],
       "entityClass": "project",
       "classificationNote": "Közösségi kezdeményezés, nem jogi szervezet. A megnevezés leíró név az ORF által dokumentált gyerekkönyvklub és közösségi könyvtár alapján."
+    },
+    {
+      "id": "olvashow",
+      "name": "OlvaShow – magyar irodalmi vetélkedő",
+      "state": "wien",
+      "city": "Wien",
+      "type": "éves magyar irodalmi vetélkedő",
+      "intro": "A Bécsi Magyar Iskola és a Bécsi Magyar Iskolaegyesület közös, évről évre megrendezett olvasási és irodalmi vetélkedője. A 2026-os nyolcadik alkalmon 22 csapatban több mint 70 diák vett részt.",
+      "website": "https://volksgruppen.orf.at/magyarok/stories/3353774/",
+      "facebook": null,
+      "instagram": null,
+      "eventSources": [
+        "https://volksgruppen.orf.at/magyarok/stories/3353774/"
+      ],
+      "affiliations": [
+        {
+          "organizationId": "becsi-magyar-iskola",
+          "label": "Társszervező",
+          "sourceUrl": "https://volksgruppen.orf.at/magyarok/stories/3353774/"
+        },
+        {
+          "organizationId": "becsi-magyar-iskolaegyesulet",
+          "label": "Társszervező",
+          "sourceUrl": "https://volksgruppen.orf.at/magyarok/stories/3353774/"
+        }
+      ],
+      "categories": [],
+      "activityCategories": [
+        "irodalom",
+        "magyar-nyelv",
+        "gyermek",
+        "ifjusag"
+      ],
+      "parentOrganizationId": "becsi-magyar-iskola",
+      "history": {
+        "summary": "Az OlvaShow a bécsi magyar oktatási közösség rendszeres irodalmi vetélkedője. 2026-ban nyolcadik alkalommal rendezték meg.",
+        "milestones": [
+          {
+            "year": "2026",
+            "title": "8. OlvaShow",
+            "description": "22 csapatban több mint 70 diák vett részt.",
+            "sourceUrl": "https://volksgruppen.orf.at/magyarok/stories/3353774/"
+          }
+        ]
+      },
+      "activities": [
+        "magyar nyelvű olvasási vetélkedő",
+        "irodalmi feladatok",
+        "olvasásnépszerűsítés"
+      ],
+      "targetGroups": [
+        "6–14 éves magyarul olvasó diákok",
+        "ausztriai magyar oktatási közösségek"
+      ],
+      "languages": [
+        "magyar"
+      ],
+      "profileVerifiedAt": "2026-09-26",
+      "evidenceSources": [
+        {
+          "label": "ORF Magyarok – Rekordlétszám a 8. OlvaShow rendezvényén",
+          "url": "https://volksgruppen.orf.at/magyarok/stories/3353774/",
+          "type": "public-broadcaster"
+        }
+      ],
+      "entityClass": "activity",
+      "classificationNote": "Évente ismétlődő vetélkedősorozat."
     }
   ],
   "umbrellaOrganizations": [
