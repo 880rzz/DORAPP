@@ -45,7 +45,7 @@ def footer(prefix="../"):
 def shell(title,description,canonical,body,schema,prefix="../"):
     return f'''<!doctype html><html lang="hu-AT"><head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-1FC22JEX2F"></script><script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date());gtag('config','G-1FC22JEX2F');</script><title>{esc(title)}</title><meta name="description" content="{esc(description)}">
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-1FC22JEX2F"></script><script>window.dataLayer=window.dataLayer||[];function gtag(){{dataLayer.push(arguments)}}gtag('js',new Date());gtag('config','G-1FC22JEX2F');</script><title>{esc(title)}</title><meta name="description" content="{esc(description)}">
 <meta name="robots" content="index,follow,max-snippet:-1,max-image-preview:large">
 <link rel="canonical" href="{esc(canonical)}">
 <meta property="og:type" content="website"><meta property="og:title" content="{esc(title)}"><meta property="og:description" content="{esc(description)}"><meta property="og:url" content="{esc(canonical)}">
