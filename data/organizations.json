@@ -110,7 +110,8 @@
           "url": "https://www.kozpontiszovetseg.at/kapcsolat",
           "type": "institutional"
         }
-      ]
+      ],
+      "entityClass": "umbrella"
     },
     {
       "id": "oeius",
@@ -177,7 +178,8 @@
           "type": "official"
         }
       ],
-      "email": "andrea.seidler@univie.ac.at"
+      "email": "andrea.seidler@univie.ac.at",
+      "entityClass": "organization"
     },
     {
       "id": "lean-in-femspace",
@@ -243,7 +245,8 @@
           }
         ]
       },
-      "email": "leaninfemspace@gmail.com"
+      "email": "leaninfemspace@gmail.com",
+      "entityClass": "organization"
     },
     {
       "id": "svung",
@@ -268,7 +271,6 @@
       ],
       "categories": [
         "szinhaz",
-        "zene",
         "muveszet"
       ],
       "history": {
@@ -304,7 +306,8 @@
           "url": "https://www.svung.at/svung-tarsulat/",
           "type": "official"
         }
-      ]
+      ],
+      "entityClass": "organization"
     },
     {
       "id": "kicsi-svung",
@@ -314,8 +317,6 @@
       "type": "gyermek színjátszó csoport",
       "categories": [
         "szinhaz",
-        "gyermek",
-        "ifjusag",
         "oktatas"
       ],
       "parentOrganizationId": "svung",
@@ -358,7 +359,8 @@
             "sourceUrl": "https://www.magyariskola.at/event-details/kicsisvung-2026"
           }
         ]
-      }
+      },
+      "entityClass": "group"
     },
     {
       "id": "gimi-svung",
@@ -368,7 +370,6 @@
       "type": "ifjúsági színjátszó csoport",
       "categories": [
         "szinhaz",
-        "ifjusag",
         "oktatas"
       ],
       "parentOrganizationId": "svung",
@@ -412,7 +413,8 @@
             "sourceUrl": "https://www.magyariskola.at/tortenetunk"
           }
         ]
-      }
+      },
+      "entityClass": "group"
     },
     {
       "id": "cserkesz-72",
@@ -453,9 +455,7 @@
         }
       ],
       "categories": [
-        "cserkesz",
-        "ifjusag",
-        "gyermek"
+        "cserkesz"
       ],
       "founded": "1963",
       "history": {
@@ -498,7 +498,8 @@
         "magyar"
       ],
       "email": "becs@cserkesz.at",
-      "profileVerifiedAt": "2026-09-25"
+      "profileVerifiedAt": "2026-09-25",
+      "entityClass": "organization"
     },
     {
       "id": "becsi-irodalmi-muhely",
@@ -580,7 +581,8 @@
             "sourceUrl": "https://www.oeius.at/hu/veranstaltungen"
           }
         ]
-      }
+      },
+      "entityClass": "organization"
     },
     {
       "id": "egy-sima-egy-forditott",
@@ -645,7 +647,8 @@
           "url": "https://volksgruppen.orf.at/magyarok/stories/3352222/",
           "type": "public-broadcaster"
         }
-      ]
+      ],
+      "entityClass": "project"
     },
     {
       "id": "kalaka-club",
@@ -726,7 +729,8 @@
           "url": "https://www.kozpontiszovetseg.at/event-details/szent-istvan-megemlekezes",
           "type": "institutional"
         }
-      ]
+      ],
+      "entityClass": "organization"
     },
     {
       "id": "napraforgok",
@@ -750,9 +754,7 @@
       ],
       "categories": [
         "neptanc",
-        "nephagyomany",
-        "nepzene",
-        "zene"
+        "nepzene"
       ],
       "founded": "1999",
       "history": {
@@ -808,7 +810,8 @@
           "url": "https://www.napraforgok.at/vezetoseg",
           "type": "official"
         }
-      ]
+      ],
+      "entityClass": "organization"
     },
     {
       "id": "napraforgocskak",
@@ -817,9 +820,7 @@
       "city": "Wien / Baden",
       "type": "gyermek néptánccsoport",
       "categories": [
-        "neptanc",
-        "gyermek",
-        "nephagyomany"
+        "neptanc"
       ],
       "parentOrganizationId": "napraforgok",
       "intro": "A Napraforgócskák a Napraforgók bécsi gyermeknéptánccsoportja, amely 6–15 éves gyerekeknek tart rendszeres magyar néptánc-foglalkozásokat Bécsben, illetve időszakosan Badenben.",
@@ -873,7 +874,8 @@
             "sourceUrl": "https://www.napraforgok.at/"
           }
         ]
-      }
+      },
+      "entityClass": "group"
     },
     {
       "id": "szent-istvan-egylet",
@@ -947,7 +949,8 @@
         "német"
       ],
       "email": "ladislaus.batthyany@gmx.at",
-      "profileVerifiedAt": "2026-09-25"
+      "profileVerifiedAt": "2026-09-25",
+      "entityClass": "organization"
     },
     {
       "id": "bornemisza-peter-tarsasag",
@@ -1018,7 +1021,8 @@
         "magyar"
       ],
       "email": "bornemiszapetertarsasag@gmail.com",
-      "profileVerifiedAt": "2026-09-25"
+      "profileVerifiedAt": "2026-09-25",
+      "entityClass": "organization"
     },
     {
       "id": "duna-filharmonia",
@@ -1039,8 +1043,7 @@
         }
       ],
       "categories": [
-        "zenekar",
-        "zene"
+        "zenekar"
       ],
       "founded": "2003",
       "history": {
@@ -1100,7 +1103,8 @@
           "url": "https://hvg.hu/kultura/20141111_Centropedij",
           "type": "secondary"
         }
-      ]
+      ],
+      "entityClass": "organization"
     },
     {
       "id": "becsi-magyar-iskola",
@@ -1117,9 +1121,7 @@
         "https://www.magyariskola.at/"
       ],
       "categories": [
-        "iskola",
-        "oktatas",
-        "gyermek"
+        "oktatas"
       ],
       "affiliations": [
         {
@@ -1188,7 +1190,8 @@
           "url": "https://www.magyariskola.at/kapcsolat",
           "type": "official"
         }
-      ]
+      ],
+      "entityClass": "institution"
     },
     {
       "id": "bmi-aspern-magyaroktatas",
@@ -1196,11 +1199,7 @@
       "state": "wien",
       "city": "Wien – Aspern",
       "type": "magyar nyelvi kiegészítő oktatás",
-      "categories": [
-        "iskola",
-        "oktatas",
-        "gyermek"
-      ],
+      "categories": [],
       "parentOrganizationId": "becsi-magyar-iskola",
       "intro": "A Bécsi Magyar Iskola 6–10 éves kisiskolásoknak szóló heti magyar nyelvi csoportja Aspernben, differenciált anyanyelvi fejlesztéssel.",
       "website": "https://www.magyariskola.at/event-details/magyaroktatas-kedd-2026",
@@ -1241,7 +1240,12 @@
             "sourceUrl": "https://www.magyariskola.at/event-details/magyaroktatas-kedd-2026"
           }
         ]
-      }
+      },
+      "entityClass": "activity",
+      "activityCategories": [
+        "magyar-nyelv",
+        "gyermek"
+      ]
     },
     {
       "id": "bmi-seestadt-magyaroktatas",
@@ -1249,11 +1253,7 @@
       "state": "wien",
       "city": "Wien – Seestadt",
       "type": "magyar nyelvi kiegészítő oktatás",
-      "categories": [
-        "iskola",
-        "oktatas",
-        "gyermek"
-      ],
+      "categories": [],
       "parentOrganizationId": "becsi-magyar-iskola",
       "intro": "A Bécsi Magyar Iskola 6–10 éves kisiskolásoknak szóló heti magyar nyelvi csoportja Seestadtban, differenciált anyanyelvi fejlesztéssel.",
       "website": "https://www.magyariskola.at/event-details/magyarnyelv-szerda-2026",
@@ -1294,7 +1294,12 @@
             "sourceUrl": "https://www.magyariskola.at/event-details/magyarnyelv-szerda-2026"
           }
         ]
-      }
+      },
+      "entityClass": "activity",
+      "activityCategories": [
+        "magyar-nyelv",
+        "gyermek"
+      ]
     },
     {
       "id": "bmi-becscraft",
@@ -1302,12 +1307,7 @@
       "state": "wien",
       "city": "Wien",
       "type": "kreatív digitális és építészeti műhely",
-      "categories": [
-        "oktatas",
-        "gyermek",
-        "ifjusag",
-        "muveszet"
-      ],
+      "categories": [],
       "parentOrganizationId": "becsi-magyar-iskola",
       "intro": "A Bécsi Magyar Iskola 6–15 éveseknek szóló heti kreatív műhelye, amely városi felfedezést, építészeti gondolkodást és Minecraft-alapú digitális alkotást kapcsol össze.",
       "website": "https://www.magyariskola.at/event-details/becscraft-2026",
@@ -1350,7 +1350,13 @@
             "sourceUrl": "https://www.magyariskola.at/tortenetunk"
           }
         ]
-      }
+      },
+      "entityClass": "activity",
+      "activityCategories": [
+        "kreativ-digitalis",
+        "gyermek",
+        "ifjusag"
+      ]
     },
     {
       "id": "fecske-klub",
@@ -1360,8 +1366,6 @@
       "type": "magyar kulturális és ismeretterjesztő gyermekklub",
       "categories": [
         "oktatas",
-        "gyermek",
-        "ifjusag",
         "kultura"
       ],
       "intro": "Bécsi és online magyar kulturális-ismeretterjesztő programgazda fiataloknak. A magyar kultúrtörténetet, történelmet, vallásokat és tudományt interaktív, beszélgetős formában dolgozza fel; a 2026/27-es tanévben online és személyes csoportokat is működtet.",
@@ -1429,7 +1433,8 @@
             "sourceUrl": "https://fecskeklub.at/"
           }
         ]
-      }
+      },
+      "entityClass": "project"
     },
     {
       "id": "amaped",
@@ -1452,11 +1457,7 @@
         }
       ],
       "categories": [
-        "iskola",
-        "ovoda",
-        "bolcsode",
-        "oktatas",
-        "gyermek"
+        "oktatas"
       ],
       "founded": "2004",
       "history": {
@@ -1511,7 +1512,8 @@
           "url": "https://amaped.at/2026/02/11/szeretettel-varunk-mindenkit-foglalkozasainkon-a-tavaszi-felevben-is/",
           "type": "official"
         }
-      ]
+      ],
+      "entityClass": "organization"
     },
     {
       "id": "becsi-magyar-iskolaegyesulet",
@@ -1534,10 +1536,7 @@
         }
       ],
       "categories": [
-        "iskola",
-        "ovoda",
-        "oktatas",
-        "gyermek"
+        "oktatas"
       ],
       "history": {
         "summary": "Az Iskolaegyesület hosszú évtizedek óta dolgozik az Ausztriában élő magyarok anyanyelvi képzéséért és kulturális identitásuk megőrzéséért. 2003 szeptembere óta saját szervezésében működik a magyar anyanyelvű gyermekek oktatása; tevékenysége azóta az iskolaelőkészítőtől a 12. osztályig tartó magyar oktatásra, kétnyelvű óvodára, zenei nevelésre, nyelvi képzésekre és napközis támogatásra is kiterjed.",
@@ -1589,7 +1588,8 @@
           "url": "https://ungarischlernen.at/content/menu_204/hort-lernquadrat",
           "type": "official"
         }
-      ]
+      ],
+      "entityClass": "organization"
     },
     {
       "id": "kultpult",
@@ -1658,7 +1658,8 @@
           "url": "https://kultpult.eu/itthonotthon/",
           "type": "official"
         }
-      ]
+      ],
+      "entityClass": "organization"
     },
     {
       "id": "mde-vus",
@@ -1681,9 +1682,7 @@
         }
       ],
       "categories": [
-        "felsooktatas",
-        "diak",
-        "ifjusag"
+        "diak"
       ],
       "founded": "1999-05-17",
       "history": {
@@ -1732,7 +1731,8 @@
           "url": "https://mde.hu/at/",
           "type": "official"
         }
-      ]
+      ],
+      "entityClass": "organization"
     },
     {
       "id": "europa-club",
@@ -1816,7 +1816,8 @@
           "url": "https://europaclub.at/",
           "type": "official"
         }
-      ]
+      ],
+      "entityClass": "organization"
     },
     {
       "id": "delibab",
@@ -1841,7 +1842,6 @@
       ],
       "categories": [
         "neptanc",
-        "nephagyomany",
         "szinhaz",
         "kultura"
       ],
@@ -1902,7 +1902,8 @@
           "url": "https://www.wukv.at/",
           "type": "official"
         }
-      ]
+      ],
+      "entityClass": "organization"
     },
     {
       "id": "barka-nepdalkor",
@@ -1911,9 +1912,7 @@
       "city": "Wien",
       "type": "népdalkör",
       "categories": [
-        "enekkar",
-        "nephagyomany",
-        "zene"
+        "enekkar"
       ],
       "parentOrganizationId": "delibab",
       "intro": "A Barka Bécsi Magyar Népdalkör 2007 nyarán a Délibáb táncos közösségéből alakult. Magyar népdalokat tanul és ad elő, különböző tájegységek énekhagyományát őrizve.",
@@ -1962,7 +1961,8 @@
       "languages": [
         "magyar"
       ],
-      "profileVerifiedAt": "2026-09-25"
+      "profileVerifiedAt": "2026-09-25",
+      "entityClass": "group"
     },
     {
       "id": "szivarvany-gyermektanc",
@@ -1971,9 +1971,7 @@
       "city": "Wien",
       "type": "gyermek néptánccsoport",
       "categories": [
-        "neptanc",
-        "gyermek",
-        "nephagyomany"
+        "neptanc"
       ],
       "parentOrganizationId": "delibab",
       "intro": "A Délibáb Bécsi Magyar Kultúregyesület gyermek-néptánccsoportja. Játékosan tanít magyar néptáncot, népi játékokat, énekeket és közösségi hagyományokat a bécsi magyar gyerekeknek.",
@@ -2034,7 +2032,8 @@
             "sourceUrl": "https://www.wukv.at/rolunk-szivarvany/"
           }
         ]
-      }
+      },
+      "entityClass": "group"
     },
     {
       "id": "rezsarkantyu-citera",
@@ -2044,9 +2043,7 @@
       "type": "citerazenekar",
       "categories": [
         "zenekar",
-        "nepzene",
-        "nephagyomany",
-        "zene"
+        "nepzene"
       ],
       "parentOrganizationId": "delibab",
       "intro": "A Délibáb Bécsi Magyar Kultúregyesület citerazenekara, amely magyar népzenei anyagot szólaltat meg, táncosokat kísér és önálló műsorokkal is fellép. A csoport a Délibáb hivatalos működő együttesei között szerepel, és rendszeresen kapcsolódik bécsi magyar kulturális programokhoz.",
@@ -2106,7 +2103,8 @@
             "sourceUrl": "https://www.wukv.at/a-citeratol-a-hegeduig-ismeretterjeszto-eloadassorozat/"
           }
         ]
-      }
+      },
+      "entityClass": "group"
     },
     {
       "id": "roppenj-pengeto",
@@ -2116,9 +2114,7 @@
       "type": "citerazenekar",
       "categories": [
         "zenekar",
-        "nepzene",
-        "nephagyomany",
-        "zene"
+        "nepzene"
       ],
       "parentOrganizationId": "delibab",
       "intro": "A Délibáb Bécsi Magyar Kultúregyesülethez kapcsolódó citerazenekar. Hagyományos magyar citerazenével kísér táncos és ünnepi programokat, illetve önálló műsorokkal is fellép; a Délibáb 75 éves jubileumi anyagában külön citeraegyüttesként szerepel.",
@@ -2177,7 +2173,8 @@
             "sourceUrl": "https://rolunk.at/aktualis/a-haza-mi-magunk-vagyunk-marcius-15-i-unnepseg-magyarorszag-becsi-nagykovetsegen/"
           }
         ]
-      }
+      },
+      "entityClass": "group"
     },
     {
       "id": "kerekasztal",
@@ -2246,7 +2243,8 @@
           "url": "https://culture.hu/hu/wien/hirek/programok-szeptemberben",
           "type": "institutional"
         }
-      ]
+      ],
+      "entityClass": "umbrella"
     },
     {
       "id": "osztrak-magyar-tarsasag",
@@ -2302,7 +2300,8 @@
           "url": "https://goeu.at/",
           "type": "official"
         }
-      ]
+      ],
+      "entityClass": "organization"
     },
     {
       "id": "brand-art-studio",
@@ -2362,7 +2361,8 @@
             "sourceUrl": "https://www.brandart.studio/"
           }
         ]
-      }
+      },
+      "entityClass": "organization"
     },
     {
       "id": "club-pannonia",
@@ -2447,7 +2447,8 @@
           "url": "https://www.club-pannonia.at/mitgliedschaft/",
           "type": "official"
         }
-      ]
+      ],
+      "entityClass": "organization"
     },
     {
       "id": "evangelikus-gyulekezet",
@@ -2559,7 +2560,8 @@
       ],
       "email": "maegy.austria@gmail.com",
       "phone": "+43 677 62906270",
-      "profileVerifiedAt": "2026-09-25"
+      "profileVerifiedAt": "2026-09-25",
+      "entityClass": "organization"
     },
     {
       "id": "reformatus-szolgalat",
@@ -2655,7 +2657,8 @@
             "sourceUrl": "https://www.reformatus.at/"
           }
         ]
-      }
+      },
+      "entityClass": "organization"
     },
     {
       "id": "katolikus-wien",
@@ -2774,7 +2777,8 @@
             "sourceUrl": "https://archiv.katolikus.hu/ujember/Archivum/2003.08.17/1502.html"
           }
         ]
-      }
+      },
+      "entityClass": "organization"
     },
     {
       "id": "kuwu",
@@ -2854,7 +2858,8 @@
         "német"
       ],
       "email": "kuwu.wn@gmail.com",
-      "profileVerifiedAt": "2026-09-25"
+      "profileVerifiedAt": "2026-09-25",
+      "entityClass": "organization"
     },
     {
       "id": "amaped-baden",
@@ -2870,10 +2875,7 @@
         "https://amaped.at/"
       ],
       "categories": [
-        "iskola",
-        "ovoda",
-        "oktatas",
-        "gyermek"
+        "oktatas"
       ],
       "activities": [
         "magyar nyelvű óvodai és/vagy iskolai foglalkozások",
@@ -2913,7 +2915,8 @@
             "sourceUrl": "https://amaped.at/tanfolyamok/"
           }
         ]
-      }
+      },
+      "entityClass": "organization"
     },
     {
       "id": "amaped-klosterneuburg",
@@ -2929,10 +2932,7 @@
         "https://amaped.at/"
       ],
       "categories": [
-        "iskola",
-        "ovoda",
-        "oktatas",
-        "gyermek"
+        "oktatas"
       ],
       "activities": [
         "magyar nyelvű óvodai és/vagy iskolai foglalkozások",
@@ -2978,7 +2978,8 @@
             "sourceUrl": "https://amaped.at/tanfolyamok/"
           }
         ]
-      }
+      },
+      "entityClass": "organization"
     },
     {
       "id": "amaped-schwechat",
@@ -2994,10 +2995,7 @@
         "https://amaped.at/"
       ],
       "categories": [
-        "iskola",
-        "ovoda",
-        "oktatas",
-        "gyermek"
+        "oktatas"
       ],
       "activities": [
         "magyar nyelvű óvodai és/vagy iskolai foglalkozások",
@@ -3043,7 +3041,8 @@
             "sourceUrl": "https://amaped.at/tanfolyamok/"
           }
         ]
-      }
+      },
+      "entityClass": "organization"
     },
     {
       "id": "amaped-st-poelten",
@@ -3059,10 +3058,7 @@
         "https://amaped.at/"
       ],
       "categories": [
-        "iskola",
-        "ovoda",
-        "oktatas",
-        "gyermek"
+        "oktatas"
       ],
       "activities": [
         "magyar nyelvű óvodai és/vagy iskolai foglalkozások",
@@ -3102,7 +3098,8 @@
             "sourceUrl": "https://amaped.at/de/home-deutsch/"
           }
         ]
-      }
+      },
+      "entityClass": "organization"
     },
     {
       "id": "bukv",
@@ -3150,7 +3147,6 @@
       ],
       "categories": [
         "kultura",
-        "nephagyomany",
         "kozosseg"
       ],
       "founded": "1968",
@@ -3203,7 +3199,8 @@
       ],
       "email": "office@bukv.at",
       "phone": "+43 3352 38489",
-      "profileVerifiedAt": "2026-09-25"
+      "profileVerifiedAt": "2026-09-25",
+      "entityClass": "organization"
     },
     {
       "id": "vhs-burgenland",
@@ -3227,8 +3224,7 @@
       ],
       "categories": [
         "oktatas",
-        "kultura",
-        "nephagyomany"
+        "kultura"
       ],
       "founded": "1990",
       "history": {
@@ -3273,7 +3269,8 @@
           "url": "https://vhs-ungarn.at/hu/kapcsolat/",
           "type": "official"
         }
-      ]
+      ],
+      "entityClass": "institution"
     },
     {
       "id": "ori-banda",
@@ -3283,9 +3280,7 @@
       "type": "magyar népzenei együttes",
       "categories": [
         "zenekar",
-        "nepzene",
-        "nephagyomany",
-        "zene"
+        "nepzene"
       ],
       "parentOrganizationId": "vhs-burgenland",
       "intro": "A Burgenlandi Magyarok Népfőiskolájához tartozó hagyományőrző népzenei együttes, Ausztria egyik legrégebben működő magyar népzenei formációja. Burgenlandi magyar dallamkincset ápol, oktat és ad tovább.",
@@ -3351,7 +3346,8 @@
       ],
       "email": "vhs.ungarn@gmail.com",
       "phone": "+43 676 3752773",
-      "profileVerifiedAt": "2026-09-25"
+      "profileVerifiedAt": "2026-09-25",
+      "entityClass": "group"
     },
     {
       "id": "ori-banda-nepdalkor",
@@ -3361,9 +3357,7 @@
       "type": "magyar népdalkör",
       "categories": [
         "enekkar",
-        "nepzene",
-        "nephagyomany",
-        "zene"
+        "nepzene"
       ],
       "parentOrganizationId": "vhs-burgenland",
       "intro": "A Burgenlandi Magyarok Népfőiskolájának hagyományőrző népdalköre, amely elsősorban az Őrvidék magyar népdalkincsét és szokásanyagát ápolja.",
@@ -3409,7 +3403,8 @@
       ],
       "email": "vhs.ungarn@gmail.com",
       "phone": "+43 676 3752773",
-      "profileVerifiedAt": "2026-09-25"
+      "profileVerifiedAt": "2026-09-25",
+      "entityClass": "group"
     },
     {
       "id": "umiz",
@@ -3483,7 +3478,8 @@
         }
       ],
       "email": "office@umiz.at",
-      "phone": "+43 676 9440 777"
+      "phone": "+43 676 9440 777",
+      "entityClass": "media"
     },
     {
       "id": "orf-magyarok",
@@ -3549,7 +3545,8 @@
         "német"
       ],
       "email": "ungarn@orf.at",
-      "profileVerifiedAt": "2026-09-25"
+      "profileVerifiedAt": "2026-09-25",
+      "entityClass": "media"
     },
     {
       "id": "alsoori-kultur-tanc",
@@ -3573,7 +3570,6 @@
       ],
       "categories": [
         "neptanc",
-        "nephagyomany",
         "kultura"
       ],
       "activities": [
@@ -3621,7 +3617,8 @@
             "sourceUrl": "https://rolunk.at/magazin/ti-is-tancoltok-csardast/"
           }
         ]
-      }
+      },
+      "entityClass": "organization"
     },
     {
       "id": "alsoori-szinjatszo",
@@ -3709,7 +3706,8 @@
           "url": "https://www.theaterverein-unterwart.at/kontakt-tickets/",
           "type": "official"
         }
-      ]
+      ],
+      "entityClass": "organization"
     },
     {
       "id": "alsoori-enekkar",
@@ -3723,8 +3721,7 @@
       "instagram": null,
       "eventSources": [],
       "categories": [
-        "enekkar",
-        "zene"
+        "enekkar"
       ],
       "activities": [
         "kóruspróbák és fellépések",
@@ -3788,7 +3785,8 @@
             "sourceUrl": "https://rolunk.at/aktualis/az-alsoori-enekkar-magyarorszagon-es-a-lugasban-enekelt/"
           }
         ]
-      }
+      },
+      "entityClass": "organization"
     },
     {
       "id": "alsoori-otthon",
@@ -3804,8 +3802,7 @@
         "https://www.unterwart.at/heimathaus-unterwart/"
       ],
       "categories": [
-        "kultura",
-        "nephagyomany"
+        "kultura"
       ],
       "history": {
         "summary": "Az Alsóőri Otthon egyesületét a helyi tárgyi és néprajzi örökség megőrzésére hozták létre. A gyűjtemény kezdetben az iskola padlásán és több ideiglenes helyszínen kapott helyet, később a Felső Fő utca 7. szám alatti árkádos parasztház lett az állandó múzeumi tér. A gyűjtemény több mint ezer tárgyat őriz, az istállót és a pajtát is kiállítótérré alakították.",
@@ -3856,7 +3853,8 @@
           "url": "https://rolunk.at/ausztriai-magyar-egyesuletek/",
           "type": "community-media"
         }
-      ]
+      ],
+      "entityClass": "organization"
     },
     {
       "id": "kozep-burgenlandi",
@@ -3887,7 +3885,6 @@
       ],
       "categories": [
         "kultura",
-        "nephagyomany",
         "kozosseg"
       ],
       "founded": "2003-03-13",
@@ -3936,7 +3933,8 @@
           "url": "https://bukv.at/wp-content/uploads/2023/10/H2023_Nr3.pdf",
           "type": "official-publication"
         }
-      ]
+      ],
+      "entityClass": "organization"
     },
     {
       "id": "csalafinta-neptanc",
@@ -3946,7 +3944,6 @@
       "type": "magyar néptánccsoport",
       "categories": [
         "neptanc",
-        "nephagyomany",
         "kultura"
       ],
       "parentOrganizationId": "kozep-burgenlandi",
@@ -4014,7 +4011,8 @@
             "sourceUrl": "https://rolunk.at/kultura/minden-magyarok-tanca-a-csalafinta-neptanccsoport-budapesten-szerepelt/"
           }
         ]
-      }
+      },
+      "entityClass": "group"
     },
     {
       "id": "hungaromedia",
@@ -4093,7 +4091,8 @@
             "sourceUrl": "https://www.linz.at/medienservice/2025/202508_132151.php"
           }
         ]
-      }
+      },
+      "entityClass": "media"
     },
     {
       "id": "meses-noi-kor-linz",
@@ -4158,7 +4157,8 @@
             "sourceUrl": "https://rolunk.at/kultura/az-olvasas-mint-kozos-nyelv-magyar-nyelvu-konyvtar-linzben/"
           }
         ]
-      }
+      },
+      "entityClass": "project"
     },
     {
       "id": "linzi-magyar-gyermekkonyvtar",
@@ -4168,8 +4168,7 @@
       "type": "magyar könyvtári és gyermekirodalmi közösség",
       "categories": [
         "irodalom",
-        "kultura",
-        "gyermek"
+        "kultura"
       ],
       "parentOrganizationId": "hungaromedia",
       "intro": "A Linzi Városi Könyvtár magyar gyermek- és ifjúsági részlege a HungaroMedia együttműködésével működik. 2025-ben több mint 150 új magyar gyermek- és ifjúsági könyv került a Wissensturm állományába; a program magyar nyelvű felolvasásokkal és olvasásnépszerűsítő eseményekkel egészül ki.",
@@ -4224,7 +4223,8 @@
         "magyar",
         "német"
       ],
-      "profileVerifiedAt": "2026-09-25"
+      "profileVerifiedAt": "2026-09-25",
+      "entityClass": "project"
     },
     {
       "id": "felso-ausztriai-magyarok",
@@ -4301,7 +4301,8 @@
         "magyar",
         "német"
       ],
-      "profileVerifiedAt": "2026-09-25"
+      "profileVerifiedAt": "2026-09-25",
+      "entityClass": "organization"
     },
     {
       "id": "orok-fiatalok-klubja",
@@ -4311,7 +4312,6 @@
       "type": "magyar dalárda és közösségi csoport",
       "categories": [
         "enekkar",
-        "zene",
         "kozosseg"
       ],
       "parentOrganizationId": "felso-ausztriai-magyarok",
@@ -4366,7 +4366,8 @@
             "sourceUrl": "https://volksgruppen.orf.at/magyarok/stories/3340511/"
           }
         ]
-      }
+      },
+      "entityClass": "group"
     },
     {
       "id": "wels-hetvegi-iskola",
@@ -4396,10 +4397,7 @@
         }
       ],
       "categories": [
-        "iskola",
-        "ovoda",
-        "oktatas",
-        "gyermek"
+        "oktatas"
       ],
       "founded": "2000-03-04",
       "history": {
@@ -4464,7 +4462,8 @@
           "url": "https://www.kozpontiszovetseg.at/tagszervezetek",
           "type": "institutional"
         }
-      ]
+      ],
+      "entityClass": "institution"
     },
     {
       "id": "ne-felejts",
@@ -4494,9 +4493,7 @@
         }
       ],
       "categories": [
-        "neptanc",
-        "nephagyomany",
-        "gyermek"
+        "neptanc"
       ],
       "founded": "2014",
       "history": {
@@ -4557,7 +4554,8 @@
           "type": "public-broadcaster"
         }
       ],
-      "email": "nefelejtsneptanc@gmail.com"
+      "email": "nefelejtsneptanc@gmail.com",
+      "entityClass": "organization"
     },
     {
       "id": "ne-felejts-gyermek",
@@ -4566,10 +4564,7 @@
       "city": "Linz",
       "type": "gyermek néptánccsoport",
       "categories": [
-        "neptanc",
-        "gyermek",
-        "ifjusag",
-        "nephagyomany"
+        "neptanc"
       ],
       "parentOrganizationId": "ne-felejts",
       "intro": "A linzi Ne-Felejts! Néptáncegyüttes 6–16 éveseknek indított gyermekcsoportja, rendszeres vasárnapi próbákkal. A cél a magyar néptánchagyomány továbbadása és a felnőtt együttes utánpótlásának biztosítása.",
@@ -4612,7 +4607,8 @@
       "languages": [
         "magyar"
       ],
-      "profileVerifiedAt": "2026-09-25"
+      "profileVerifiedAt": "2026-09-25",
+      "entityClass": "group"
     },
     {
       "id": "cserkesz-80",
@@ -4660,9 +4656,7 @@
         }
       ],
       "categories": [
-        "cserkesz",
-        "ifjusag",
-        "gyermek"
+        "cserkesz"
       ],
       "founded": "1971",
       "history": {
@@ -4706,7 +4700,8 @@
       ],
       "email": "wels@cserkesz.eu",
       "phone": "+43 660 6750725",
-      "profileVerifiedAt": "2026-09-25"
+      "profileVerifiedAt": "2026-09-25",
+      "entityClass": "organization"
     },
     {
       "id": "katolikus-linz",
@@ -4791,7 +4786,8 @@
             "sourceUrl": "https://www.korosiprogram.hu/tudastar/szorvanybol-diaszporaba-szabo-erno-linzi-magyar-lelkesz-portreja"
           }
         ]
-      }
+      },
+      "entityClass": "organization"
     },
     {
       "id": "grazi-magyar-egyesulet",
@@ -4876,7 +4872,8 @@
           "url": "https://www.grazimagyaregyesuelet.at/vereinschronik-kronikaja/",
           "type": "official"
         }
-      ]
+      ],
+      "entityClass": "organization"
     },
     {
       "id": "femconnect-graz",
@@ -4955,7 +4952,8 @@
           "type": "official"
         }
       ],
-      "email": "verein@femconnectgraz.at"
+      "email": "verein@femconnectgraz.at",
+      "entityClass": "organization"
     },
     {
       "id": "meok-graz",
@@ -4985,9 +4983,7 @@
         }
       ],
       "categories": [
-        "felsooktatas",
-        "diak",
-        "ifjusag"
+        "diak"
       ],
       "founded": "1957",
       "history": {
@@ -5025,7 +5021,8 @@
           "url": "https://www.meoek.at/rendezok/",
           "type": "official"
         }
-      ]
+      ],
+      "entityClass": "organization"
     },
     {
       "id": "graci-magyar-ujsag",
@@ -5035,8 +5032,7 @@
       "type": "magyar közösségi információs lap",
       "categories": [
         "media",
-        "kultura",
-        "kozosseg"
+        "kultura"
       ],
       "intro": "A Gráci Magyar Újság a MEÖK 2000 óta rendszeresen megjelenő magyar nyelvű információs lapja, amely Graz és környéke magyar közösségi, kulturális és egyesületi életét dokumentálja.",
       "website": "https://www.meoek.at/",
@@ -5114,7 +5110,8 @@
         "magyar"
       ],
       "email": "office@meoek.net",
-      "profileVerifiedAt": "2026-09-25"
+      "profileVerifiedAt": "2026-09-25",
+      "entityClass": "media"
     },
     {
       "id": "katolikus-graz",
@@ -5191,7 +5188,8 @@
         "magyar",
         "német"
       ],
-      "profileVerifiedAt": "2026-09-25"
+      "profileVerifiedAt": "2026-09-25",
+      "entityClass": "organization"
     },
     {
       "id": "salzung",
@@ -5215,8 +5213,7 @@
       ],
       "categories": [
         "kultura",
-        "kozosseg",
-        "gyermek"
+        "kozosseg"
       ],
       "founded": "1993",
       "history": {
@@ -5283,7 +5280,8 @@
           "url": "https://salzung.com/hu/projektek/oktatas",
           "type": "official"
         }
-      ]
+      ],
+      "entityClass": "organization"
     },
     {
       "id": "salzung-minikonyvtar",
@@ -5350,7 +5348,8 @@
           "url": "https://salzung.com/hu/hirek/tervezett-programjaink-a-2021-es-evben",
           "type": "official"
         }
-      ]
+      ],
+      "entityClass": "project"
     },
     {
       "id": "salzung-brumi-ovi",
@@ -5359,10 +5358,7 @@
       "city": "Salzburg",
       "type": "magyar óvodai közösség",
       "categories": [
-        "ovoda",
-        "oktatas",
-        "gyermek",
-        "nephagyomany"
+        "oktatas"
       ],
       "parentOrganizationId": "salzung",
       "intro": "A SalzUNG Brumi Ovi 3–6 éves gyermekeknek szóló magyar nyelvű óvodai közösségi program Salzburgban, játékos, zenés, nyelvi és hagyományőrző foglalkozásokkal.",
@@ -5409,7 +5405,8 @@
             "sourceUrl": "https://salzung.com/hu/?start=8"
           }
         ]
-      }
+      },
+      "entityClass": "institution"
     },
     {
       "id": "salzung-pitypang-suli",
@@ -5418,10 +5415,7 @@
       "city": "Salzburg",
       "type": "hétvégi magyar iskola",
       "categories": [
-        "iskola",
-        "oktatas",
-        "gyermek",
-        "ifjusag"
+        "oktatas"
       ],
       "parentOrganizationId": "salzung",
       "intro": "A SalzUNG Pitypang Suli magyar nyelvű közösségi és anyanyelvi oktatási program 9–13 éves iskolásoknak Salzburgban; rendszeres délutáni foglalkozásokkal segíti a magyar nyelv és identitás megőrzését.",
@@ -5473,7 +5467,8 @@
             "sourceUrl": "https://salzung.com/hu/?start=8"
           }
         ]
-      }
+      },
+      "entityClass": "institution"
     },
     {
       "id": "salzburgi-neptanc",
@@ -5490,8 +5485,7 @@
         "https://www.facebook.com/Salzburgi.Magyar.Neptancegyuttes/"
       ],
       "categories": [
-        "neptanc",
-        "nephagyomany"
+        "neptanc"
       ],
       "parentOrganizationId": "salzung",
       "evidenceSources": [
@@ -5540,7 +5534,8 @@
         "magyar",
         "német"
       ],
-      "profileVerifiedAt": "2026-09-25"
+      "profileVerifiedAt": "2026-09-25",
+      "entityClass": "group"
     },
     {
       "id": "magyarhaz-innsbruck",
@@ -5631,7 +5626,8 @@
           "url": "https://huheim.at/hu/hu_impressum/",
           "type": "official"
         }
-      ]
+      ],
+      "entityClass": "institution"
     },
     {
       "id": "imike",
@@ -5662,7 +5658,6 @@
         }
       ],
       "categories": [
-        "ifjusag",
         "kultura",
         "neptanc"
       ],
@@ -5723,7 +5718,8 @@
           "url": "https://www.kozpontiszovetseg.at/tagszervezetek",
           "type": "institutional"
         }
-      ]
+      ],
+      "entityClass": "organization"
     },
     {
       "id": "imeasz",
@@ -5753,9 +5749,7 @@
         }
       ],
       "categories": [
-        "felsooktatas",
-        "diak",
-        "ifjusag"
+        "diak"
       ],
       "email": "info@imeasz.at",
       "activities": [
@@ -5811,7 +5805,8 @@
             "sourceUrl": "https://www.becsinaplo.eu/newspaper_archive/bn2007-5.pdf"
           }
         ]
-      }
+      },
+      "entityClass": "organization"
     },
     {
       "id": "cserkesz-79",
@@ -5858,9 +5853,7 @@
         }
       ],
       "categories": [
-        "cserkesz",
-        "ifjusag",
-        "gyermek"
+        "cserkesz"
       ],
       "activities": [
         "rendszeres cserkészfoglalkozások",
@@ -5896,7 +5889,8 @@
             "sourceUrl": "https://rolunk.at/nepcsoportunk/sziveben-magyar/"
           }
         ]
-      }
+      },
+      "entityClass": "organization"
     },
     {
       "id": "katolikus-innsbruck",
@@ -5957,7 +5951,8 @@
         "német"
       ],
       "email": "pepat@ikbnet.at",
-      "profileVerifiedAt": "2026-09-25"
+      "profileVerifiedAt": "2026-09-25",
+      "entityClass": "organization"
     },
     {
       "id": "vorarlbergi-magyar-egyesulet",
@@ -6038,7 +6033,8 @@
         "német"
       ],
       "email": "office@vukk.at",
-      "profileVerifiedAt": "2026-09-25"
+      "profileVerifiedAt": "2026-09-25",
+      "entityClass": "organization"
     },
     {
       "id": "mime-vorarlberg",
@@ -6062,7 +6058,6 @@
       ],
       "categories": [
         "kozosseg",
-        "gyermek",
         "oktatas"
       ],
       "founded": "2024-03-03",
@@ -6129,7 +6124,8 @@
           "url": "https://www.kozpontiszovetseg.at/tagszervezetek",
           "type": "institutional"
         }
-      ]
+      ],
+      "entityClass": "organization"
     },
     {
       "id": "vukk-kaernten",
@@ -6185,7 +6181,8 @@
           "url": "https://bukv.at/links/",
           "type": "institutional"
         }
-      ]
+      ],
+      "entityClass": "organization"
     },
     {
       "id": "burgenlandi-magyar-cserkeszet",
@@ -6194,9 +6191,7 @@
       "city": "Oberwart / Felsőőr és környéke",
       "type": "magyar cserkészcsapat",
       "categories": [
-        "cserkesz",
-        "ifjusag",
-        "gyermek"
+        "cserkesz"
       ],
       "intro": "A 2025-ben létrejött Burgenlandi Magyar Cserkészet a burgenlandi magyar gyermekek és családok új cserkészközössége. Rövid idő alatt rendszeres foglalkozásokkal, táborokkal és történelmi-hagyományőrző programokkal bővült.",
       "website": "https://www.burgenlandicserkesz.at/",
@@ -6256,7 +6251,8 @@
       "languages": [
         "magyar"
       ],
-      "profileVerifiedAt": "2026-09-25"
+      "profileVerifiedAt": "2026-09-25",
+      "entityClass": "group"
     },
     {
       "id": "alsoori-katolikus",
@@ -6327,7 +6323,8 @@
           "url": "https://www.martinus.at/pfarre/1127/kalender",
           "type": "institutional"
         }
-      ]
+      ],
+      "entityClass": "organization"
     },
     {
       "id": "alsoori-vasjobbagyi",
@@ -6388,7 +6385,8 @@
           }
         ]
       },
-      "founded": "2019"
+      "founded": "2019",
+      "entityClass": "organization"
     },
     {
       "id": "eszak-burgenlandi",
@@ -6453,7 +6451,8 @@
           "url": "https://volksgruppen.orf.at/magyarok/stories/3085529/",
           "type": "public-broadcaster"
         }
-      ]
+      ],
+      "entityClass": "organization"
     },
     {
       "id": "felsoori-katolikus",
@@ -6529,7 +6528,8 @@
             "sourceUrl": "https://www.martinus.at/pfarre/1122/geschichte"
           }
         ]
-      }
+      },
+      "entityClass": "organization"
     },
     {
       "id": "felsoori-reformatus",
@@ -6599,7 +6599,8 @@
           "url": "https://volksgruppen.orf.at/v2/magyarok/stories/2984600/",
           "type": "public-broadcaster"
         }
-      ]
+      ],
+      "entityClass": "organization"
     },
     {
       "id": "oriszigeti-evangelikus",
@@ -6681,7 +6682,8 @@
             "sourceUrl": "https://evang-bgld.at/ort/siget-in-der-wart/"
           }
         ]
-      }
+      },
+      "entityClass": "organization"
     },
     {
       "id": "reformatus-ifjusagi-olvasokor",
@@ -6704,7 +6706,6 @@
         }
       ],
       "categories": [
-        "ifjusag",
         "kultura"
       ],
       "founded": "1889",
@@ -6765,7 +6766,8 @@
           "url": "https://volksgruppen.orf.at/v2/magyarok/stories/2984600/",
           "type": "public-broadcaster"
         }
-      ]
+      ],
+      "entityClass": "organization"
     },
     {
       "id": "reformatus-olvasokor-szinjatszo",
@@ -6775,8 +6777,7 @@
       "type": "magyar amatőr színjátszócsoport",
       "categories": [
         "szinhaz",
-        "kultura",
-        "ifjusag"
+        "kultura"
       ],
       "parentOrganizationId": "reformatus-ifjusagi-olvasokor",
       "intro": "A Felsőőri Református Ifjúsági Olvasókör magyar nyelvű amatőr színjátszócsoportja. A társulat hosszú hagyományra építve minden évben magyar nyelvű vígjátékokkal és bohózatokkal lép színpadra, és a magyar nyelv aktív használatát közösségi színházi formában erősíti.",
@@ -6847,7 +6848,8 @@
       "languages": [
         "magyar"
       ],
-      "profileVerifiedAt": "2026-09-25"
+      "profileVerifiedAt": "2026-09-25",
+      "entityClass": "group"
     },
     {
       "id": "becsi-magyar-munkasegylet",
@@ -6923,7 +6925,8 @@
             "sourceUrl": "https://bmme.at/"
           }
         ]
-      }
+      },
+      "entityClass": "organization"
     },
     {
       "id": "bmi-szulok-tamogatok",
@@ -6993,7 +6996,8 @@
         ]
       },
       "email": "eleonoranagy@aon.at",
-      "founded": "2012"
+      "founded": "2012",
+      "entityClass": "organization"
     },
     {
       "id": "erdelyi-magyarok-ausztriai",
@@ -7049,7 +7053,8 @@
             "sourceUrl": "https://volksgruppen.orf.at/magyarok/stories/3286420/"
           }
         ]
-      }
+      },
+      "entityClass": "organization"
     },
     {
       "id": "pax-romana",
@@ -7127,7 +7132,8 @@
         "magyar",
         "német"
       ],
-      "profileVerifiedAt": "2026-09-25"
+      "profileVerifiedAt": "2026-09-25",
+      "entityClass": "organization"
     },
     {
       "id": "nepcsoporttanacsi-elnokok",
@@ -7182,7 +7188,8 @@
             "sourceUrl": "https://rolunk.at/ausztriai-magyar-egyesuletek/"
           }
         ]
-      }
+      },
+      "entityClass": "umbrella"
     },
     {
       "id": "programapik",
@@ -7205,8 +7212,7 @@
         }
       ],
       "categories": [
-        "csalad",
-        "gyermek"
+        "csalad"
       ],
       "activities": [
         "családi és közösségi programok szervezése",
@@ -7246,7 +7252,8 @@
             "sourceUrl": "https://rolunk.at/magazin/aktiv-apukak-sztereotipiadontogetes-es-hatalmas-farsangi-buli-felso-ausztriaban/"
           }
         ]
-      }
+      },
+      "entityClass": "project"
     },
     {
       "id": "macko-kucko-linz",
@@ -7269,8 +7276,7 @@
         }
       ],
       "categories": [
-        "csalad",
-        "gyermek"
+        "csalad"
       ],
       "activities": [
         "kisgyermekes családi találkozók",
@@ -7305,7 +7311,8 @@
             "sourceUrl": "https://rolunk.at/magazin/aktiv-apukak-sztereotipiadontogetes-es-hatalmas-farsangi-buli-felso-ausztriaban/"
           }
         ]
-      }
+      },
+      "entityClass": "project"
     },
     {
       "id": "noi-kor-wels",
@@ -7367,7 +7374,8 @@
             "sourceUrl": "https://rolunk.at/magazin/aktiv-apukak-sztereotipiadontogetes-es-hatalmas-farsangi-buli-felso-ausztriaban/"
           }
         ]
-      }
+      },
+      "entityClass": "project"
     },
     {
       "id": "sunido-linz-steyr",
@@ -7390,8 +7398,7 @@
         }
       ],
       "categories": [
-        "csalad",
-        "gyermek"
+        "csalad"
       ],
       "history": {
         "summary": "A Sünidő a felső-ausztriai magyar gyermekek számára szervezett játékos nyelvi és közösségi foglalkozásokból épült fel. Linzben a Székely Tímea által vezetett Sünidő program szakmai előzményévé vált annak az államilag támogatott magyar elsőnyelvi oktatásnak, amely 2024 októberében indult el az Anton Bruckner International School épületében.",
@@ -7440,7 +7447,8 @@
           "type": "public-broadcaster"
         }
       ],
-      "founded": "2022"
+      "founded": "2022",
+      "entityClass": "project"
     },
     {
       "id": "collegium-hungaricum-wien",
@@ -7518,7 +7526,8 @@
         "magyar",
         "német"
       ],
-      "profileVerifiedAt": "2026-09-25"
+      "profileVerifiedAt": "2026-09-25",
+      "entityClass": "institution"
     },
     {
       "id": "rolunk-at",
@@ -7528,8 +7537,7 @@
       "type": "országos magyar online magazin",
       "categories": [
         "media",
-        "kultura",
-        "kozosseg"
+        "kultura"
       ],
       "intro": "Ausztria-szerte működő magyar online magazin és közösségi médium, amely az ausztriai magyar népcsoport és diaszpóra híreit, közösségeit, programjait és kulturális témáit mutatja be.",
       "website": "https://rolunk.at/",
@@ -7592,7 +7600,8 @@
         "német"
       ],
       "email": "office@rolunk.at",
-      "profileVerifiedAt": "2026-09-25"
+      "profileVerifiedAt": "2026-09-25",
+      "entityClass": "media"
     },
     {
       "id": "becsi-naplo",
@@ -7669,7 +7678,8 @@
       ],
       "email": "redaktion@becsinaplo.at",
       "phone": "+43 1 532 6049",
-      "profileVerifiedAt": "2026-09-25"
+      "profileVerifiedAt": "2026-09-25",
+      "entityClass": "media"
     },
     {
       "id": "becsi-szelet",
@@ -7679,9 +7689,7 @@
       "type": "online kulturális magazin",
       "categories": [
         "media",
-        "kultura",
-        "gyermek",
-        "ifjusag"
+        "kultura"
       ],
       "intro": "A Bécsi Szelet kétnyelvű kulturális és művészeti online magazin az ausztriai magyar közösségről. Portrékkal, beszámolókkal, családi és kulturális ajánlókkal mutatja be Bécs és az osztrák–magyar diaszpóra szereplőit.",
       "website": "https://www.becsiszelet.at/",
@@ -7735,7 +7743,8 @@
             "sourceUrl": "https://www.becsiszelet.at/"
           }
         ]
-      }
+      },
+      "entityClass": "media"
     },
     {
       "id": "collegium-pazmanianum",
@@ -7819,7 +7828,8 @@
         "német",
         "angol"
       ],
-      "profileVerifiedAt": "2026-09-25"
+      "profileVerifiedAt": "2026-09-25",
+      "entityClass": "institution"
     },
     {
       "id": "nevenincs-ovoda-innsbruck",
@@ -7852,9 +7862,7 @@
         }
       ],
       "categories": [
-        "ovoda",
-        "oktatas",
-        "gyermek"
+        "oktatas"
       ],
       "activities": [
         "magyar nyelvű óvodai foglalkozások",
@@ -7886,7 +7894,8 @@
             "sourceUrl": "https://volksgruppen.orf.at/magyarok/stories/3337903/"
           }
         ]
-      }
+      },
+      "entityClass": "institution"
     },
     {
       "id": "bobitak-innsbruck",
@@ -7896,9 +7905,7 @@
       "type": "magyar családi és kulturális egyesület",
       "categories": [
         "csalad",
-        "gyermek",
         "kultura",
-        "nephagyomany",
         "kozosseg"
       ],
       "intro": "A Bóbiták – Ungarischer Kulturverein Innsbruck magyar családi és kulturális egyesület, amely több mint egy évtizede ápolja a magyar nyelvet és hagyományokat Tirolban. Közösségi és jótékonysági eseményeket szervez, és önkéntes alapon működik.",
@@ -7955,7 +7962,8 @@
             "sourceUrl": "https://bobitak.at/"
           }
         ]
-      }
+      },
+      "entityClass": "organization"
     },
     {
       "id": "fuggetlen-magyar-csucsszervezet",
@@ -8009,7 +8017,8 @@
             "sourceUrl": "https://www.ris.bka.gv.at/Dokumente/Mrp/MRP_20201223_43/007_001.pdf"
           }
         ]
-      }
+      },
+      "entityClass": "umbrella"
     },
     {
       "id": "virgonc-unterwart",
@@ -8018,8 +8027,7 @@
       "city": "Unterwart / Alsóőr",
       "type": "néptánccsoport",
       "categories": [
-        "neptanc",
-        "nephagyomany"
+        "neptanc"
       ],
       "parentOrganizationId": "bukv",
       "intro": "Az 1980-ban alakult Virgonc Néptánccsoport a Burgenlandi Magyar Kultúregyesület alsóőri alcsoportja. Magyarországi és erdélyi tájegységek autentikus táncait tanulja, és Ausztriában valamint külföldön is rendszeresen fellép.",
@@ -8065,7 +8073,8 @@
       ],
       "email": "office@bukv.at",
       "phone": "+43 3352 38489",
-      "profileVerifiedAt": "2026-09-25"
+      "profileVerifiedAt": "2026-09-25",
+      "entityClass": "group"
     },
     {
       "id": "virgonc-gyermek",
@@ -8074,9 +8083,7 @@
       "city": "Unterwart / Alsóőr",
       "type": "gyermek néptánccsoport",
       "categories": [
-        "neptanc",
-        "gyermek",
-        "nephagyomany"
+        "neptanc"
       ],
       "parentOrganizationId": "bukv",
       "intro": "A BMKE gyermek-néptánccsoportja, amely több korosztályban vezeti be a gyerekeket a magyar néptánc és népi kultúra világába.",
@@ -8127,7 +8134,8 @@
             "sourceUrl": "https://bukv.at/kindervolkstanzgruppe-virgonc/"
           }
         ]
-      }
+      },
+      "entityClass": "group"
     },
     {
       "id": "kenderkoc-bmke",
@@ -8136,9 +8144,7 @@
       "city": "Oberwart / Felsőőr",
       "type": "gyermek néptánccsoport",
       "categories": [
-        "neptanc",
-        "gyermek",
-        "nephagyomany"
+        "neptanc"
       ],
       "parentOrganizationId": "bukv",
       "intro": "A Kenderkóc a Burgenlandi Magyar Kultúregyesület 2025-ben indított felsőőri gyermeknéptánccsoportja. Játékos formában tanít magyar néptáncot, körjátékokat, népdalokat és mondókákat.",
@@ -8185,7 +8191,8 @@
       "languages": [
         "magyar"
       ],
-      "profileVerifiedAt": "2026-09-25"
+      "profileVerifiedAt": "2026-09-25",
+      "entityClass": "group"
     },
     {
       "id": "oriszigeti-neptanc",
@@ -8194,8 +8201,7 @@
       "city": "Siget in der Wart / Őrisziget",
       "type": "néptánccsoport",
       "categories": [
-        "neptanc",
-        "nephagyomany"
+        "neptanc"
       ],
       "parentOrganizationId": "bukv",
       "intro": "Az Őriszigeti Magyar Néptánccsoport a Burgenlandi Magyar Kultúregyesület keretében működő hagyományőrző együttes. Őrisziget és környéke magyar közösségét képviseli, és magyar táncokkal, viseletekkel és fellépésekkel ápolja a helyi népcsoport identitását.",
@@ -8241,7 +8247,8 @@
             "sourceUrl": "https://bukv.at/hu/oriszigeti-magyar-neptancegyuettes/"
           }
         ]
-      }
+      },
+      "entityClass": "group"
     },
     {
       "id": "csorge-nepzene",
@@ -8251,9 +8258,7 @@
       "type": "népzenei csoport",
       "categories": [
         "nepzene",
-        "nephagyomany",
-        "zenekar",
-        "zene"
+        "zenekar"
       ],
       "parentOrganizationId": "bukv",
       "intro": "A Burgenlandi Magyar Kultúregyesület 2015-ben alakult népzenei együttese. A csoport a 2014-ben elindított magyar népzeneoktatás résztvevőiből szerveződött, és autentikus hangszereken az őrvidéki magyar népzenei és dalkincset ápolja.",
@@ -8306,7 +8311,8 @@
       ],
       "email": "office@bukv.at",
       "phone": "+43 3352 38489",
-      "profileVerifiedAt": "2026-09-25"
+      "profileVerifiedAt": "2026-09-25",
+      "entityClass": "group"
     },
     {
       "id": "szelforgok-nepzene",
@@ -8316,10 +8322,7 @@
       "type": "gyermek népzenei csoport",
       "categories": [
         "nepzene",
-        "gyermek",
-        "nephagyomany",
-        "zenekar",
-        "zene"
+        "zenekar"
       ],
       "parentOrganizationId": "bukv",
       "intro": "A Burgenlandi Magyar Kultúregyesület gyermek-népzenei együttese. A csoport a 2014-ben elindított rendszeres magyar népzeneoktatásból nőtt ki; fiatal muzsikusai autentikus burgenlandi magyar dallamanyagot tanulnak és adnak elő.",
@@ -8365,7 +8368,8 @@
       ],
       "email": "office@bukv.at",
       "phone": "+43 3352 38489",
-      "profileVerifiedAt": "2026-09-25"
+      "profileVerifiedAt": "2026-09-25",
+      "entityClass": "group"
     },
     {
       "id": "bmke-singkreis",
@@ -8374,9 +8378,7 @@
       "city": "Oberwart / Felsőőr",
       "type": "magyar énekkör",
       "categories": [
-        "enekkar",
-        "nephagyomany",
-        "zene"
+        "enekkar"
       ],
       "parentOrganizationId": "bukv",
       "intro": "A Burgenlandi Magyar Kultúregyesület felsőőri énekköre magyar népdalokat, egyházi énekeket és többszólamú kórusműveket ad elő. A csoport rendszeresen szerepel burgenlandi és magyarországi kulturális rendezvényeken, és a helyi magyar zenei örökség megőrzését szolgálja.",
@@ -8436,7 +8438,8 @@
             "sourceUrl": "https://bukv.at/wp-content/uploads/2023/10/H2023_Nr3.pdf"
           }
         ]
-      }
+      },
+      "entityClass": "group"
     },
     {
       "id": "warter-fantasie",
@@ -8446,7 +8449,6 @@
       "type": "zenei együttes",
       "categories": [
         "zenekar",
-        "zene",
         "muveszet"
       ],
       "parentOrganizationId": "bukv",
@@ -8492,7 +8494,8 @@
         "magyar",
         "német"
       ],
-      "profileVerifiedAt": "2026-09-25"
+      "profileVerifiedAt": "2026-09-25",
+      "entityClass": "group"
     },
     {
       "id": "grazi-magyar-neptanc",
@@ -8501,8 +8504,7 @@
       "city": "Graz",
       "type": "néptánccsoport",
       "categories": [
-        "neptanc",
-        "nephagyomany"
+        "neptanc"
       ],
       "parentOrganizationId": "grazi-magyar-egyesulet",
       "intro": "A Grazi Magyar Egyesülethez kapcsolódó néptánccsoport. A saját egyesületi programok és a 2026-os Grazi Magyar Bál is külön grazi magyar néptánccsoportként hivatkozik rá.",
@@ -8557,7 +8559,8 @@
             "sourceUrl": "https://www.grazimagyaregyesuelet.at/"
           }
         ]
-      }
+      },
+      "entityClass": "group"
     },
     {
       "id": "vipach",
@@ -8568,8 +8571,7 @@
       "categories": [
         "muveszet",
         "oktatas",
-        "kozosseg",
-        "ifjusag"
+        "kozosseg"
       ],
       "intro": "A VIPACH – Vienna Photo Art & Creative Hub a Bécsi Magyar Iskola fotóklubjából kinőtt, több száz fős bécsi kreatív közösség és művészeti-oktatási projekt. Fotóművészeti, közösségi, kiállítási és oktatási programokat szervez, alapítója és vezetője Bánhalmi Norbert.",
       "website": "https://www.vipach.at/",
@@ -8668,7 +8670,8 @@
       ],
       "email": "office@vipach.at",
       "phone": "+43 677 616 55592",
-      "profileVerifiedAt": "2026-09-25"
+      "profileVerifiedAt": "2026-09-25",
+      "entityClass": "organization"
     },
     {
       "id": "mamut-musical",
@@ -8678,10 +8681,7 @@
       "type": "magyar nyelvű musical- és színházi társulat",
       "categories": [
         "szinhaz",
-        "zene",
-        "muveszet",
-        "ifjusag",
-        "gyermek"
+        "muveszet"
       ],
       "intro": "A Bécsi Magyar Musical Társulat (maMUT) magyar nyelvű zenés színházi alkotóközösség és gyermekműhely Bécsben. Ének-, tánc- és színjátszó képzéssel, saját darabokkal és rendszeres bemutatókkal dolgozik.",
       "website": "https://www.musicaltarsulat.at/",
@@ -8742,7 +8742,8 @@
         "magyar"
       ],
       "email": "hierholcza@gmail.com",
-      "profileVerifiedAt": "2026-09-25"
+      "profileVerifiedAt": "2026-09-25",
+      "entityClass": "group"
     },
     {
       "id": "die-bruecke-medien-kulturelles-podium",
@@ -8752,8 +8753,7 @@
       "type": "média- és kulturális egyesület",
       "categories": [
         "media",
-        "kultura",
-        "kozosseg"
+        "kultura"
       ],
       "intro": "Hohenemsben működő média- és kulturális egyesület, amely a RádióHU és a Magyar Szó Ausztriában magyar nyelvű médiafelületeinek támogató szervezete. A hivatalos impresszum szerint a szerkesztőségi háttérrel közös címen működik, ZVR-száma 049028887.",
       "website": "https://www.radiohu.hu/impresszum/",
@@ -8795,7 +8795,8 @@
             "sourceUrl": "https://www.radiohu.hu/impresszum/"
           }
         ]
-      }
+      },
+      "entityClass": "media"
     },
     {
       "id": "radiohu",
@@ -8805,8 +8806,7 @@
       "type": "országos magyar rádiós és online média",
       "categories": [
         "media",
-        "kultura",
-        "kozosseg"
+        "kultura"
       ],
       "parentOrganizationId": "die-bruecke-medien-kulturelles-podium",
       "intro": "Magyar nyelvű ausztriai hír-, magazin-, podcast- és online médiafelület, Hohenems szerkesztőségi háttérrel. Ausztria egészéből közöl híreket, közösségi, kulturális és praktikus információkat; a hivatalos impresszum szerint a Die Brücke – Medien und Kulturelles Podium támogatásával működik.",
@@ -8854,7 +8854,8 @@
             "sourceUrl": "https://www.radiohu.hu/"
           }
         ]
-      }
+      },
+      "entityClass": "media"
     },
     {
       "id": "magyar-szo-ausztriaban",
@@ -8864,8 +8865,7 @@
       "type": "országos magyar online média",
       "categories": [
         "media",
-        "kultura",
-        "kozosseg"
+        "kultura"
       ],
       "parentOrganizationId": "die-bruecke-medien-kulturelles-podium",
       "intro": "Ausztriában működő magyar nyelvű online médiafelület, amely a RádióHU-val közös szerkesztőségi és kiadói háttérrel működik. A hivatalos impresszum a Magyar Szó Ausztriában felületet a RádióHU mellett ugyanazon médiarendszer részeként tünteti fel.",
@@ -8904,7 +8904,8 @@
             "sourceUrl": "https://www.radiohu.hu/impresszum/"
           }
         ]
-      }
+      },
+      "entityClass": "media"
     },
     {
       "id": "mde-alumni",
@@ -8932,7 +8933,6 @@
         }
       ],
       "categories": [
-        "felsooktatas",
         "diak",
         "kozosseg"
       ],
@@ -8975,7 +8975,8 @@
             "sourceUrl": "https://mde.hu/partnerek-tamogatok/"
           }
         ]
-      }
+      },
+      "entityClass": "organization"
     },
     {
       "id": "irottko-sportegyesulet",
@@ -9055,7 +9056,8 @@
         "magyar"
       ],
       "phone": "+43 664 2020564",
-      "profileVerifiedAt": "2026-09-25"
+      "profileVerifiedAt": "2026-09-25",
+      "entityClass": "organization"
     }
   ],
   "umbrellaOrganizations": [
@@ -9217,44 +9219,20 @@
   ],
   "categoryDefinitions": [
     {
-      "id": "bolcsode",
-      "label": "Bölcsőde / 0–3 év"
-    },
-    {
-      "id": "ovoda",
-      "label": "Óvoda"
-    },
-    {
-      "id": "iskola",
-      "label": "Iskola / hétvégi iskola"
-    },
-    {
       "id": "oktatas",
-      "label": "Oktatás / képzés"
-    },
-    {
-      "id": "felsooktatas",
-      "label": "Felsőoktatás / diákközösség"
-    },
-    {
-      "id": "diak",
-      "label": "Diákközösség"
-    },
-    {
-      "id": "gyermek",
-      "label": "Gyermekprogram / gyermekközösség"
+      "label": "Oktatási szervezet / intézmény"
     },
     {
       "id": "neptanc",
       "label": "Néptánc"
     },
     {
-      "id": "nephagyomany",
-      "label": "Néphagyomány"
+      "id": "nepzene",
+      "label": "Népzene / zenekar"
     },
     {
-      "id": "nepzene",
-      "label": "Népzene"
+      "id": "enekkar",
+      "label": "Énekkar / népdalkör"
     },
     {
       "id": "cserkesz",
@@ -9265,56 +9243,44 @@
       "label": "Színház / musical"
     },
     {
-      "id": "zenekar",
-      "label": "Zenekar / népzene"
-    },
-    {
-      "id": "enekkar",
-      "label": "Énekkar"
-    },
-    {
-      "id": "kultura",
-      "label": "Kultúra"
-    },
-    {
       "id": "media",
       "label": "Média"
-    },
-    {
-      "id": "ifjusag",
-      "label": "Ifjúság"
-    },
-    {
-      "id": "csalad",
-      "label": "Család / gyermekprogram"
-    },
-    {
-      "id": "irodalom",
-      "label": "Irodalom"
-    },
-    {
-      "id": "muveszet",
-      "label": "Művészet"
-    },
-    {
-      "id": "sport",
-      "label": "Sport / szabadidő"
-    },
-    {
-      "id": "kozosseg",
-      "label": "Közösségi csoport"
-    },
-    {
-      "id": "zene",
-      "label": "Zene / musical"
     },
     {
       "id": "egyhaz",
       "label": "Egyházi közösség"
     },
     {
+      "id": "diak",
+      "label": "Diák- / egyetemi közösség"
+    },
+    {
+      "id": "irodalom",
+      "label": "Irodalom / könyvklub"
+    },
+    {
+      "id": "muveszet",
+      "label": "Művészet / kreatív közösség"
+    },
+    {
+      "id": "kultura",
+      "label": "Kulturális szervezet"
+    },
+    {
+      "id": "csalad",
+      "label": "Családi közösség"
+    },
+    {
+      "id": "sport",
+      "label": "Sport"
+    },
+    {
       "id": "ertelmisegi",
-      "label": "Értelmiségi / szakmai közösség"
+      "label": "Szakmai / értelmiségi közösség"
+    },
+    {
+      "id": "kozosseg",
+      "label": "Közösségi szervezet"
     }
   ],
   "profileEnrichmentPolicy": {
@@ -9363,6 +9329,78 @@
       "id": "kozponti-szovetseg",
       "name": "Ausztriai Magyar Egyesületek és Szervezetek Központi Szövetsége",
       "sourceUrl": "https://rolunk.at/rolunk/"
+    }
+  ],
+  "entityClassDefinitions": [
+    {
+      "id": "umbrella",
+      "label": "Ernyőszervezet / hálózat"
+    },
+    {
+      "id": "organization",
+      "label": "Egyesület / szervezet"
+    },
+    {
+      "id": "institution",
+      "label": "Intézmény"
+    },
+    {
+      "id": "group",
+      "label": "Csoport / társulat / együttes"
+    },
+    {
+      "id": "media",
+      "label": "Média"
+    },
+    {
+      "id": "project",
+      "label": "Projekt / klub"
+    },
+    {
+      "id": "activity",
+      "label": "Rendszeres foglalkozás"
+    }
+  ],
+  "activityCategoryDefinitions": [
+    {
+      "id": "magyar-nyelv",
+      "label": "Magyar nyelv"
+    },
+    {
+      "id": "drama-szinhaz",
+      "label": "Dráma / színjátszás"
+    },
+    {
+      "id": "kreativ-digitalis",
+      "label": "Kreatív / digitális"
+    },
+    {
+      "id": "zene",
+      "label": "Zene"
+    },
+    {
+      "id": "neptanc",
+      "label": "Néptánc"
+    },
+    {
+      "id": "irodalom",
+      "label": "Irodalom"
+    },
+    {
+      "id": "gyermek",
+      "label": "Gyermekfoglalkozás"
+    },
+    {
+      "id": "ifjusag",
+      "label": "Ifjúsági foglalkozás"
+    },
+    {
+      "id": "felnott",
+      "label": "Felnőtt program"
+    },
+    {
+      "id": "kozosseg",
+      "label": "Közösségi foglalkozás"
     }
   ]
 }
