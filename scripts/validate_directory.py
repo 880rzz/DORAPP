@@ -86,8 +86,17 @@ for o in orgs:
         errors.append(f"invalid profileVerifiedAt: {o.get('id')}")
 orgset=set(ids)
 eventids=[]
+event_semantic_keys=set()
+def _event_semantic_key(e):
+    name=re.sub(r"[^a-z0-9áéíóöőúüű]+"," ",str(e.get("name","")).casefold()).strip()
+    start=str(e.get("startDate",""))
+    day=start[:10]
+    return (str(e.get("organizationId","")),name,day)
 for e in evdb.get("events",[]):
     eventids.append(e.get("id"))
+    sk=_event_semantic_key(e)
+    if sk in event_semantic_keys: errors.append(f"semantic duplicate event: {e.get('organizationId')} -> {e.get('name')} @ {str(e.get('startDate',''))[:10]}")
+    event_semantic_keys.add(sk)
     if e.get("organizationId") not in orgset: errors.append(f"orphan event: {e.get('id')}")
     if not e.get("name") or not e.get("startDate") or not e.get("sourceUrl"): errors.append(f"incomplete event: {e.get('id')}")
     for key in ("sourceUrl","registrationUrl"):
