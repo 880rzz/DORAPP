@@ -1,9 +1,9 @@
 {
-  "updated": "2026-09-26T18:02:51.688677+00:00",
+  "updated": "2026-09-26T18:04:29.778501+00:00",
   "summary": {
-    "organizations": 137,
+    "organizations": 140,
     "organizationFlags": 0,
-    "organizationPagesChecked": 297,
+    "organizationPagesChecked": 302,
     "education": 106,
     "educationFlags": 0,
     "events": 21,
@@ -422,6 +422,27 @@
       "flags": []
     },
     {
+      "id": "becsi-konyvbazar",
+      "name": "Bécsi Könyvbazár",
+      "entityClass": "project",
+      "categories": [
+        "irodalom",
+        "kozosseg"
+      ],
+      "activityCategories": [],
+      "signals": [
+        "media",
+        "irodalom",
+        "sport"
+      ],
+      "pagesChecked": 1,
+      "checkedUrls": [
+        "https://volksgruppen.orf.at/magyarok/stories/3358259/"
+      ],
+      "errors": [],
+      "flags": []
+    },
+    {
       "id": "becsi-magyar-iskola",
       "name": "Bécsi Magyar Iskola",
       "entityClass": "institution",
@@ -759,7 +780,7 @@
       "errors": [
         {
           "url": "https://bornemisza.at/",
-          "error": "<urlopen error [Errno 111] Connection refused>"
+          "error": "<urlopen error timed out>"
         },
         {
           "url": "https://www.kozpontiszovetseg.at/event-details/dr-janosi-zoltan-irodalomtortenesz-iro-kolto",
@@ -853,17 +874,13 @@
         "sport",
         "csalad"
       ],
-      "pagesChecked": 2,
+      "pagesChecked": 3,
       "checkedUrls": [
+        "https://www.burgenlandicserkesz.at/",
         "https://volksgruppen.orf.at/magyarok/stories/3333230/",
         "https://podiverzum.hu/podcast/orf-magyarok-podcast/idoutazas-es-megemlekezes-az-alsoori-cserkeszdelutanon-deaf57f3"
       ],
-      "errors": [
-        {
-          "url": "https://www.burgenlandicserkesz.at/",
-          "error": "The read operation timed out"
-        }
-      ],
+      "errors": [],
       "flags": []
     },
     {
@@ -883,6 +900,34 @@
         "https://club-pannonia.at/",
         "https://www.club-pannonia.at/uber-uns/",
         "https://www.club-pannonia.at/mitgliedschaft/"
+      ],
+      "errors": [],
+      "flags": []
+    },
+    {
+      "id": "collegium-hungaricum-konyvtar",
+      "name": "Collegium Hungaricum Wien – Könyvtár",
+      "entityClass": "institution",
+      "categories": [
+        "irodalom",
+        "kultura",
+        "oktatas"
+      ],
+      "activityCategories": [],
+      "signals": [
+        "oktatas",
+        "media",
+        "egyhaz",
+        "diak",
+        "irodalom",
+        "muveszet",
+        "sport",
+        "csalad"
+      ],
+      "pagesChecked": 2,
+      "checkedUrls": [
+        "https://culture.hu/hu/wien",
+        "https://volksgruppen.orf.at/magyarok/stories/3358308/"
       ],
       "errors": [],
       "flags": []
@@ -2610,6 +2655,32 @@
         "https://www.oeius.at/",
         "https://www.oeius.at/hu/veranstaltungen",
         "https://www.oeius.at/uber-uns"
+      ],
+      "errors": [],
+      "flags": []
+    },
+    {
+      "id": "olvashow",
+      "name": "OlvaShow – magyar irodalmi vetélkedő",
+      "entityClass": "activity",
+      "categories": [],
+      "activityCategories": [
+        "irodalom",
+        "magyar-nyelv",
+        "gyermek",
+        "ifjusag"
+      ],
+      "signals": [
+        "oktatas",
+        "media",
+        "diak",
+        "irodalom",
+        "sport",
+        "csalad"
+      ],
+      "pagesChecked": 1,
+      "checkedUrls": [
+        "https://volksgruppen.orf.at/magyarok/stories/3353774/"
       ],
       "errors": [],
       "flags": []
