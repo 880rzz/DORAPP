@@ -13,6 +13,9 @@ errors=[]
 umbrella_ids={u.get("id") for u in orgdb.get("umbrellaOrganizations",[])}
 network_ids={n.get("id") for n in orgdb.get("regionalNetworks",[])}
 category_ids={x.get("id") for x in orgdb.get("categoryDefinitions",[])}
+entity_class_ids={x.get("id") for x in orgdb.get("entityClassDefinitions",[])}
+activity_category_ids={x.get("id") for x in orgdb.get("activityCategoryDefinitions",[])}
+program_category_ids={x.get("id") for x in evdb.get("programCategoryDefinitions",[])}
 rolunk_founders=orgdb.get("rolunkFoundingOrganizations",[])
 if len(rolunk_founders)!=4:
     errors.append(f"expected 4 Rólunk.at founding organizations, got {len(rolunk_founders)}")
@@ -31,9 +34,24 @@ for o in orgs:
     parent=o.get("parentOrganizationId")
     if parent and parent not in set(ids):
         errors.append(f"unknown parent organization: {o.get('id')} -> {parent}")
+    entity_class=o.get("entityClass")
+    if entity_class not in entity_class_ids:
+        errors.append(f"unknown entity class: {o.get('id')} -> {entity_class}")
     for cat in o.get("categories",[]):
         if cat not in category_ids:
             errors.append(f"unknown category: {o.get('id')} -> {cat}")
+    for cat in o.get("activityCategories",[]):
+        if cat not in activity_category_ids:
+            errors.append(f"unknown activity category: {o.get('id')} -> {cat}")
+    if entity_class=="activity":
+        if o.get("categories"):
+            errors.append(f"activity must not use entity categories: {o.get('id')}")
+        if not o.get("activityCategories"):
+            errors.append(f"activity missing activityCategories: {o.get('id')}")
+        if not o.get("parentOrganizationId"):
+            errors.append(f"activity missing parent organization: {o.get('id')}")
+    elif o.get("activityCategories"):
+        errors.append(f"non-activity uses activityCategories: {o.get('id')}")
     for a in o.get("affiliations",[]):
         if a.get("organizationId") not in set(ids):
             errors.append(f"unknown affiliation: {o.get('id')} -> {a.get('organizationId')}")
@@ -107,6 +125,12 @@ for e in evdb.get("events",[]):
     event_semantic_keys.add(sk)
     if e.get("organizationId") not in orgset: errors.append(f"orphan event: {e.get('id')}")
     if not e.get("name") or not e.get("startDate") or not e.get("sourceUrl"): errors.append(f"incomplete event: {e.get('id')}")
+    cats=e.get("programCategories") or []
+    if not cats:
+        errors.append(f"event missing programCategories: {e.get('id')}")
+    for cat in cats:
+        if cat not in program_category_ids:
+            errors.append(f"unknown event program category: {e.get('id')} -> {cat}")
     for key in ("sourceUrl","registrationUrl"):
         u=e.get(key)
         if u and not str(u).startswith(("https://","http://")): errors.append(f"invalid event {key}: {e.get('id')} -> {u}")
