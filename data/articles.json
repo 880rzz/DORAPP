@@ -1,8 +1,6 @@
 {
-  "updated": "2026-09-26T09:23:22.529597+00:00",
+  "updated": "2026-09-26T16:32:43.309137+00:00",
   "articles": {
-    "gimi-svung": [],
-    "kicsi-svung": [],
     "egy-sima-egy-forditott": [
       {
         "title": "ORF Magyarok – Egy sima, egy fordított",
@@ -12,6 +10,7 @@
     ],
     "cserkesz-72": [],
     "kozponti-szovetseg": [],
+    "gimi-svung": [],
     "kalaka-club": [
       {
         "title": "Bécsi Napló archívum – Kaláka-Club történet",
@@ -24,6 +23,7 @@
         "source": "ORF Volksgruppen"
       }
     ],
+    "kicsi-svung": [],
     "napraforgok": [],
     "napraforgocskak": [],
     "szent-istvan-egylet": [
@@ -59,26 +59,16 @@
     ],
     "becsi-magyar-iskola": [],
     "bmi-aspern-magyaroktatas": [],
-    "lean-in-femspace": [
+    "becsi-irodalmi-muhely": [
       {
-        "title": "Lean in Femspace – Irodalomterápia- powered Szabina Ughy",
-        "url": "https://rolunk.at/esemenyek/lean-in-femspace-irodalomterapia-powered-szabina-ughy/",
-        "source": "Rólunk.at"
+        "title": "ORF Magyarok – Közösségépítés az irodalmon keresztül",
+        "url": "https://volksgruppen.orf.at/magyarok/stories/3273948/",
+        "source": "ORF Volksgruppen"
       },
       {
-        "title": "Lean In Femspace – ausztriai magyar nők közössége",
-        "url": "https://rolunk.at/magazin/lean-in-femspace-ausztriai-magyar-nok-kozossege/",
-        "source": "Rólunk.at"
-      },
-      {
-        "title": "Útmutató a céljaidhoz: így segít a Femspace Mentorprogram",
-        "url": "https://rolunk.at/magazin/utmutato-a-celjaidhoz-igy-segit-a-femspace-mentorprogram/",
-        "source": "Rólunk.at"
-      },
-      {
-        "title": "Valósítsd meg céljaid! – Indul a Femspace 8. Mentorprogramja",
-        "url": "https://rolunk.at/aktualis/valositsd-meg-celjaid-indul-a-femspace-8-mentorprogramja/",
-        "source": "Rólunk.at"
+        "title": "ORF Magyarok – Műfordító műhely Bécsben",
+        "url": "https://volksgruppen.orf.at/magyarok/stories/3315120/",
+        "source": "ORF Volksgruppen"
       }
     ],
     "fecske-klub": [],
@@ -123,7 +113,13 @@
     ],
     "osztrak-magyar-tarsasag": [],
     "brand-art-studio": [],
-    "oeius": [],
+    "svung": [
+      {
+        "title": "Az Ausztriában bejegyzett magyar egyesületek listája",
+        "url": "https://rolunk.at/ausztriai-magyar-egyesuletek/",
+        "source": "Rólunk.at"
+      }
+    ],
     "evangelikus-gyulekezet": [],
     "reformatus-szolgalat": [],
     "katolikus-wien": [],
@@ -224,10 +220,15 @@
       }
     ],
     "linzi-magyar-gyermekkonyvtar": [],
-    "svung": [
+    "bmi-seestadt-magyaroktatas": [
       {
-        "title": "Az Ausztriában bejegyzett magyar egyesületek listája",
-        "url": "https://rolunk.at/ausztriai-magyar-egyesuletek/",
+        "title": "A kétnyelvűség ajándék",
+        "url": "https://rolunk.at/magazin/a-ketnyelvuseg-ajandek/",
+        "source": "Rólunk.at"
+      },
+      {
+        "title": "Lesz-e német-magyar kéttannyelvű iskola Bécsben?",
+        "url": "https://rolunk.at/nepcsoportunk/lesz-e-nemet-magyar-kettannyelvu-iskola-becsben/",
         "source": "Rólunk.at"
       }
     ],
@@ -280,18 +281,7 @@
       }
     ],
     "cserkesz-80": [],
-    "bmi-seestadt-magyaroktatas": [
-      {
-        "title": "A kétnyelvűség ajándék",
-        "url": "https://rolunk.at/magazin/a-ketnyelvuseg-ajandek/",
-        "source": "Rólunk.at"
-      },
-      {
-        "title": "Lesz-e német-magyar kéttannyelvű iskola Bécsben?",
-        "url": "https://rolunk.at/nepcsoportunk/lesz-e-nemet-magyar-kettannyelvu-iskola-becsben/",
-        "source": "Rólunk.at"
-      }
-    ],
+    "oeius": [],
     "grazi-magyar-egyesulet": [],
     "femconnect-graz": [],
     "meok-graz": [],
@@ -305,34 +295,59 @@
     "katolikus-graz": [],
     "salzung": [],
     "salzung-minikonyvtar": [],
-    "becsi-irodalmi-muhely": [
+    "lean-in-femspace": [
       {
-        "title": "ORF Magyarok – Közösségépítés az irodalmon keresztül",
-        "url": "https://volksgruppen.orf.at/magyarok/stories/3273948/",
-        "source": "ORF Volksgruppen"
+        "title": "Lean in Femspace – Irodalomterápia- powered Szabina Ughy",
+        "url": "https://rolunk.at/esemenyek/lean-in-femspace-irodalomterapia-powered-szabina-ughy/",
+        "source": "Rólunk.at"
       },
       {
-        "title": "ORF Magyarok – Műfordító műhely Bécsben",
-        "url": "https://volksgruppen.orf.at/magyarok/stories/3315120/",
-        "source": "ORF Volksgruppen"
+        "title": "Lean In Femspace – ausztriai magyar nők közössége",
+        "url": "https://rolunk.at/magazin/lean-in-femspace-ausztriai-magyar-nok-kozossege/",
+        "source": "Rólunk.at"
+      },
+      {
+        "title": "Útmutató a céljaidhoz: így segít a Femspace Mentorprogram",
+        "url": "https://rolunk.at/magazin/utmutato-a-celjaidhoz-igy-segit-a-femspace-mentorprogram/",
+        "source": "Rólunk.at"
+      },
+      {
+        "title": "Valósítsd meg céljaid! – Indul a Femspace 8. Mentorprogramja",
+        "url": "https://rolunk.at/aktualis/valositsd-meg-celjaid-indul-a-femspace-8-mentorprogramja/",
+        "source": "Rólunk.at"
       }
     ],
     "salzung-pitypang-suli": [],
     "salzburgi-neptanc": [],
-    "club-pannonia": [
+    "felso-ausztriai-magyarok": [
       {
-        "title": "A generációváltás kihívásai – új elnökség a Club Pannonia élén",
-        "url": "https://rolunk.at/nepcsoportunk/a-generaciovaltas-kihivasai-interju-szabados-gaborral-a-becsi-club-pannonia-elnokevel/",
+        "title": "Rólunk.at – 55 éves jubileum",
+        "url": "https://rolunk.at/aktualis/mar-55-eve-az-operencias-tengeren-tul-kettos-jubileum-a-felso-ausztriai-magyaroknal/",
         "source": "Rólunk.at"
       },
       {
-        "title": "Harminc éves a Club Pannonia – Donau-Visegrád Gála",
-        "url": "https://rolunk.at/kultura/harminc-eves-a-club-pannonia-donau-visegrad-gala/",
+        "title": "ORF – 50 éves a Felső-Ausztriai Magyarok Kultúregyesülete",
+        "url": "https://volksgruppen.orf.at/v2/magyarok/stories/2907261/",
+        "source": "ORF Volksgruppen"
+      },
+      {
+        "title": "Irodalmi délután- Felső-Ausztriai Magyarok Kultúregyesülete",
+        "url": "https://rolunk.at/esemenyek/irodalmi-delutan-felso-ausztriai-magyarok-kulturegyesulete/",
         "source": "Rólunk.at"
       },
       {
-        "title": "Jövőre harmincéves a Club Pannonia",
-        "url": "https://rolunk.at/nepcsoportunk/jovore-harminceves-a-club-pannonia/",
+        "title": "55 éves a Felső-Ausztriai Magyarok Kultúregyesülete és 20+ éves a Hétvégi Óvoda és Iskola",
+        "url": "https://rolunk.at/esemenyek/55-eves-a-felso-ausztriai-magyarok-kulturegyesulete-es-20-eves-a-hetvegi-ovoda-es-iskola/",
+        "source": "Rólunk.at"
+      },
+      {
+        "title": "„Messze a hazától, mégis otthon” – 25 éves a Felső-Ausztriai Hétvégi Magyar Iskola és Óvoda",
+        "url": "https://rolunk.at/aktualis/messze-a-hazatol-megis-otthon-25-eves-a-felso-ausztriai-hetvegi-magyar-iskola-es-ovoda/",
+        "source": "Rólunk.at"
+      },
+      {
+        "title": "Irodalmi délután, Húsvéti Nyuszibuli és családi kirándulás: tavaszi programok a felső-ausztriai magyaroknál",
+        "url": "https://rolunk.at/nepcsoportunk/irodalmi-delutan-husveti-nyuszibuli-es-csaladi-kirandulas-tavaszi-programok-a-felso-ausztriai-magyaroknal/",
         "source": "Rólunk.at"
       }
     ],
@@ -419,15 +434,20 @@
         "source": "ORF Volksgruppen"
       }
     ],
-    "katolikus-linz": [
+    "club-pannonia": [
       {
-        "title": "Rólunk.at – ausztriai magyar katolikus koordináció",
-        "url": "https://rolunk.at/kultura/nem-csak-a-sajat-levesunket-melegitjuk-kozossegepito-kuldetes-felso-ausztriaban-es-azon-tul/",
+        "title": "A generációváltás kihívásai – új elnökség a Club Pannonia élén",
+        "url": "https://rolunk.at/nepcsoportunk/a-generaciovaltas-kihivasai-interju-szabados-gaborral-a-becsi-club-pannonia-elnokevel/",
         "source": "Rólunk.at"
       },
       {
-        "title": "Rólunk.at – ausztriai magyar egyesületek listája",
-        "url": "https://rolunk.at/ausztriai-magyar-egyesuletek/",
+        "title": "Harminc éves a Club Pannonia – Donau-Visegrád Gála",
+        "url": "https://rolunk.at/kultura/harminc-eves-a-club-pannonia-donau-visegrad-gala/",
+        "source": "Rólunk.at"
+      },
+      {
+        "title": "Jövőre harmincéves a Club Pannonia",
+        "url": "https://rolunk.at/nepcsoportunk/jovore-harminceves-a-club-pannonia/",
         "source": "Rólunk.at"
       }
     ],
@@ -575,38 +595,7 @@
         "source": "ORF Volksgruppen"
       }
     ],
-    "felso-ausztriai-magyarok": [
-      {
-        "title": "Rólunk.at – 55 éves jubileum",
-        "url": "https://rolunk.at/aktualis/mar-55-eve-az-operencias-tengeren-tul-kettos-jubileum-a-felso-ausztriai-magyaroknal/",
-        "source": "Rólunk.at"
-      },
-      {
-        "title": "ORF – 50 éves a Felső-Ausztriai Magyarok Kultúregyesülete",
-        "url": "https://volksgruppen.orf.at/v2/magyarok/stories/2907261/",
-        "source": "ORF Volksgruppen"
-      },
-      {
-        "title": "Irodalmi délután- Felső-Ausztriai Magyarok Kultúregyesülete",
-        "url": "https://rolunk.at/esemenyek/irodalmi-delutan-felso-ausztriai-magyarok-kulturegyesulete/",
-        "source": "Rólunk.at"
-      },
-      {
-        "title": "55 éves a Felső-Ausztriai Magyarok Kultúregyesülete és 20+ éves a Hétvégi Óvoda és Iskola",
-        "url": "https://rolunk.at/esemenyek/55-eves-a-felso-ausztriai-magyarok-kulturegyesulete-es-20-eves-a-hetvegi-ovoda-es-iskola/",
-        "source": "Rólunk.at"
-      },
-      {
-        "title": "„Messze a hazától, mégis otthon” – 25 éves a Felső-Ausztriai Hétvégi Magyar Iskola és Óvoda",
-        "url": "https://rolunk.at/aktualis/messze-a-hazatol-megis-otthon-25-eves-a-felso-ausztriai-hetvegi-magyar-iskola-es-ovoda/",
-        "source": "Rólunk.at"
-      },
-      {
-        "title": "Irodalmi délután, Húsvéti Nyuszibuli és családi kirándulás: tavaszi programok a felső-ausztriai magyaroknál",
-        "url": "https://rolunk.at/nepcsoportunk/irodalmi-delutan-husveti-nyuszibuli-es-csaladi-kirandulas-tavaszi-programok-a-felso-ausztriai-magyaroknal/",
-        "source": "Rólunk.at"
-      }
-    ],
+    "magyarhaz-innsbruck": [],
     "noi-kor-wels": [
       {
         "title": "Rólunk.at – felső-ausztriai magyar közösségi háló",
@@ -690,7 +679,18 @@
     "fuggetlen-magyar-csucsszervezet": [],
     "salzung-brumi-ovi": [],
     "virgonc-gyermek": [],
-    "magyarhaz-innsbruck": [],
+    "katolikus-linz": [
+      {
+        "title": "Rólunk.at – ausztriai magyar katolikus koordináció",
+        "url": "https://rolunk.at/kultura/nem-csak-a-sajat-levesunket-melegitjuk-kozossegepito-kuldetes-felso-ausztriaban-es-azon-tul/",
+        "source": "Rólunk.at"
+      },
+      {
+        "title": "Rólunk.at – ausztriai magyar egyesületek listája",
+        "url": "https://rolunk.at/ausztriai-magyar-egyesuletek/",
+        "source": "Rólunk.at"
+      }
+    ],
     "oriszigeti-neptanc": [],
     "burgenlandi-magyar-cserkeszet": [
       {
@@ -724,18 +724,6 @@
     "radiohu": [],
     "magyar-szo-ausztriaban": [],
     "mde-alumni": [],
-    "kenderkoc-bmke": [
-      {
-        "title": "ORF Magyarok – Kenderkóc indulása",
-        "url": "https://volksgruppen.orf.at/magyarok/stories/3326218/",
-        "source": "ORF Volksgruppen"
-      },
-      {
-        "title": "ORF Magyarok – BMKE gyermekfarsang 2026",
-        "url": "https://volksgruppen.orf.at/magyarok/stories/3341289/",
-        "source": "ORF Volksgruppen"
-      }
-    ],
     "macko-kucko-linz": [
       {
         "title": "Rólunk.at – felső-ausztriai családi közösségek",
@@ -770,6 +758,18 @@
         "title": "Tojásírás alsóőri módra",
         "url": "https://rolunk.at/fiatalok/tojasiras-alsoori-modra/",
         "source": "Rólunk.at"
+      }
+    ],
+    "kenderkoc-bmke": [
+      {
+        "title": "ORF Magyarok – Kenderkóc indulása",
+        "url": "https://volksgruppen.orf.at/magyarok/stories/3326218/",
+        "source": "ORF Volksgruppen"
+      },
+      {
+        "title": "ORF Magyarok – BMKE gyermekfarsang 2026",
+        "url": "https://volksgruppen.orf.at/magyarok/stories/3341289/",
+        "source": "ORF Volksgruppen"
       }
     ],
     "csorge-nepzene": [
