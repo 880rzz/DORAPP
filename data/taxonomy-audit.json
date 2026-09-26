@@ -1,10 +1,10 @@
 {
-  "updated": "2026-09-26T17:51:18.204467+00:00",
+  "updated": "2026-09-26T17:55:35.203662+00:00",
   "summary": {
-    "organizations": 125,
+    "organizations": 132,
     "organizationFlags": 1,
-    "organizationPagesChecked": 286,
-    "education": 103,
+    "organizationPagesChecked": 294,
+    "education": 104,
     "educationFlags": 0,
     "events": 20,
     "eventFlags": 0
@@ -53,24 +53,19 @@
       ],
       "activityCategories": [],
       "signals": [
-        "egyhaz"
+        "oktatas",
+        "media",
+        "egyhaz",
+        "muveszet",
+        "csalad"
       ],
-      "pagesChecked": 0,
-      "checkedUrls": [],
-      "errors": [
-        {
-          "url": "https://www.martinus.at/",
-          "error": "<urlopen error timed out>"
-        },
-        {
-          "url": "https://www.martinus.at/pfarre/1127/kalender",
-          "error": "<urlopen error timed out>"
-        },
-        {
-          "url": "https://www.martinus.at/unterwart",
-          "error": "<urlopen error timed out>"
-        }
+      "pagesChecked": 3,
+      "checkedUrls": [
+        "https://www.martinus.at/",
+        "https://www.martinus.at/pfarre/1127/kalender",
+        "https://www.martinus.at/unterwart"
       ],
+      "errors": [],
       "flags": []
     },
     {
@@ -310,6 +305,34 @@
       "flags": []
     },
     {
+      "id": "ausztriai-diaszpora-iskolatabor",
+      "name": "Ausztriai Diaszpóra Iskolatábor",
+      "entityClass": "activity",
+      "categories": [
+        "cserkesz",
+        "kozosseg",
+        "oktatas"
+      ],
+      "activityCategories": [],
+      "signals": [
+        "oktatas",
+        "neptanc",
+        "nepzene",
+        "cserkesz",
+        "media",
+        "sport"
+      ],
+      "pagesChecked": 2,
+      "checkedUrls": [
+        "https://volksgruppen.orf.at/magyarok/stories/3339181/",
+        "https://volksgruppen.orf.at/magyarok/stories/3293048/"
+      ],
+      "errors": [],
+      "flags": [
+        "activity-has-entity-categories"
+      ]
+    },
+    {
       "id": "barka-nepdalkor",
       "name": "Barka Bécsi Magyar Népdalkör",
       "entityClass": "group",
@@ -433,6 +456,36 @@
         "https://www.facebook.com/VereinBMME/"
       ],
       "errors": [],
+      "flags": []
+    },
+    {
+      "id": "becsi-magyar-otthon",
+      "name": "Bécsi Magyar Otthon",
+      "entityClass": "institution",
+      "categories": [
+        "kozosseg",
+        "kultura"
+      ],
+      "activityCategories": [],
+      "signals": [
+        "oktatas",
+        "neptanc",
+        "cserkesz"
+      ],
+      "pagesChecked": 1,
+      "checkedUrls": [
+        "https://www.korosiprogram.hu/partnereink/ausztriai-magyar-egyesuletek-es-szervezetek-kozponti-szovetsege-es-tagszervezetei"
+      ],
+      "errors": [
+        {
+          "url": "https://www.kozpontiszovetseg.at/",
+          "error": "HTTP Error 429: Too Many Requests"
+        },
+        {
+          "url": "https://www.kozpontiszovetseg.at/r%C3%B3lunk",
+          "error": "HTTP Error 429: Too Many Requests"
+        }
+      ],
       "flags": []
     },
     {
@@ -805,23 +858,20 @@
       "activityCategories": [],
       "signals": [
         "oktatas",
+        "szinhaz",
         "media",
-        "irodalom"
+        "irodalom",
+        "muveszet",
+        "csalad"
       ],
-      "pagesChecked": 2,
+      "pagesChecked": 3,
       "checkedUrls": [
         "https://culture.hu/hu/wien",
+        "https://culture.hu/hu/wien/esemenyek",
         "https://culture.hu/de/wien/jubilaum"
       ],
-      "errors": [
-        {
-          "url": "https://culture.hu/hu/wien/esemenyek",
-          "error": "The read operation timed out"
-        }
-      ],
-      "flags": [
-        "weak-source-signal:muveszet"
-      ]
+      "errors": [],
+      "flags": []
     },
     {
       "id": "collegium-pazmanianum",
@@ -1164,22 +1214,9 @@
         "kultura"
       ],
       "activityCategories": [],
-      "signals": [
-        "oktatas",
-        "neptanc",
-        "szinhaz",
-        "media",
-        "egyhaz",
-        "diak",
-        "irodalom",
-        "muveszet"
-      ],
-      "pagesChecked": 3,
-      "checkedUrls": [
-        "https://europaclub.at/",
-        "https://europaclub.at/rolunk/europa-club-tortenete/",
-        "https://europaclub.at/de/kontakt/"
-      ],
+      "signals": [],
+      "pagesChecked": 0,
+      "checkedUrls": [],
       "errors": [],
       "flags": []
     },
@@ -1276,24 +1313,16 @@
       ],
       "activityCategories": [],
       "signals": [
+        "media",
         "egyhaz"
       ],
-      "pagesChecked": 0,
-      "checkedUrls": [],
-      "errors": [
-        {
-          "url": "https://www.martinus.at/pfarre/1122",
-          "error": "<urlopen error timed out>"
-        },
-        {
-          "url": "https://www.martinus.at/pfarre/1122/kalender",
-          "error": "<urlopen error timed out>"
-        },
-        {
-          "url": "https://www.martinus.at/pfarre/1122/kalender/calendar/1808040.html",
-          "error": "<urlopen error timed out>"
-        }
+      "pagesChecked": 3,
+      "checkedUrls": [
+        "https://www.martinus.at/pfarre/1122",
+        "https://www.martinus.at/pfarre/1122/kalender",
+        "https://www.martinus.at/pfarre/1122/kalender/calendar/1808040.html"
       ],
+      "errors": [],
       "flags": []
     },
     {
@@ -1556,13 +1585,17 @@
         "muveszet",
         "csalad"
       ],
-      "pagesChecked": 3,
+      "pagesChecked": 2,
       "checkedUrls": [
         "https://www.facebook.com/IMIKE2019UJKV/",
-        "https://www.instagram.com/imike_ujkv/",
         "https://rolunk.at/nepcsoportunk/sziveben-magyar/"
       ],
-      "errors": [],
+      "errors": [
+        {
+          "url": "https://www.instagram.com/imike_ujkv/",
+          "error": "HTTP Error 429: Too Many Requests"
+        }
+      ],
       "flags": []
     },
     {
@@ -1871,6 +1904,30 @@
         },
         {
           "url": "https://www.kozpontiszovetseg.at/kapcsolat",
+          "error": "HTTP Error 429: Too Many Requests"
+        }
+      ],
+      "flags": []
+    },
+    {
+      "id": "kufstein-tanacskozas",
+      "name": "Kufstein Tanácskozás",
+      "entityClass": "activity",
+      "categories": [],
+      "activityCategories": [
+        "felnott",
+        "kozosseg"
+      ],
+      "signals": [],
+      "pagesChecked": 0,
+      "checkedUrls": [],
+      "errors": [
+        {
+          "url": "https://www.kozpontiszovetseg.at/",
+          "error": "HTTP Error 429: Too Many Requests"
+        },
+        {
+          "url": "https://www.kozpontiszovetseg.at/r%C3%B3lunk",
           "error": "HTTP Error 429: Too Many Requests"
         }
       ],
@@ -2625,6 +2682,26 @@
       "flags": []
     },
     {
+      "id": "orseg-naptar",
+      "name": "Őrség – háromnyelvű falinaptár",
+      "entityClass": "media",
+      "categories": [
+        "kultura",
+        "media"
+      ],
+      "activityCategories": [],
+      "signals": [],
+      "pagesChecked": 0,
+      "checkedUrls": [],
+      "errors": [
+        {
+          "url": "https://www.kozpontiszovetseg.at/r%C3%B3lunk",
+          "error": "HTTP Error 429: Too Many Requests"
+        }
+      ],
+      "flags": []
+    },
+    {
       "id": "osztrak-magyar-tarsasag",
       "name": "Osztrák–Magyar Társaság / Gesellschaft Österreich–Ungarn",
       "entityClass": "organization",
@@ -2962,6 +3039,49 @@
       "flags": []
     },
     {
+      "id": "salzung-hatartalanul",
+      "name": "Határtalanul / Grenzenlos – SalzUNG művészeti projekt",
+      "entityClass": "project",
+      "categories": [
+        "kultura",
+        "muveszet"
+      ],
+      "activityCategories": [],
+      "signals": [
+        "oktatas",
+        "irodalom",
+        "muveszet"
+      ],
+      "pagesChecked": 1,
+      "checkedUrls": [
+        "https://www.salzung.com/hu/projektek/hatartalanul"
+      ],
+      "errors": [],
+      "flags": []
+    },
+    {
+      "id": "salzung-igy-lettunk-magyarok",
+      "name": "Így lettünk magyarok / Vidd magaddal! – diaszpóra történelmi projekt",
+      "entityClass": "project",
+      "categories": [
+        "irodalom",
+        "kultura",
+        "oktatas"
+      ],
+      "activityCategories": [],
+      "signals": [
+        "oktatas",
+        "irodalom",
+        "muveszet"
+      ],
+      "pagesChecked": 1,
+      "checkedUrls": [
+        "https://www.salzung.com/hu/projektek/igylettunkmagyarok"
+      ],
+      "errors": [],
+      "flags": []
+    },
+    {
       "id": "salzung-minikonyvtar",
       "name": "Salzburgi Magyar Minikönyvtár és Könyvklub",
       "entityClass": "project",
@@ -3036,6 +3156,28 @@
         "https://volksgruppen.orf.at/v2/magyarok/stories/2764323/"
       ],
       "errors": [],
+      "flags": []
+    },
+    {
+      "id": "sodalitas-kiadoi-projekt",
+      "name": "Sodalitás – Központi Szövetség kiadói tevékenysége",
+      "entityClass": "project",
+      "categories": [
+        "irodalom",
+        "kultura"
+      ],
+      "activityCategories": [],
+      "signals": [
+        "irodalom"
+      ],
+      "pagesChecked": 0,
+      "checkedUrls": [],
+      "errors": [
+        {
+          "url": "https://www.kozpontiszovetseg.at/r%C3%B3lunk",
+          "error": "HTTP Error 429: Too Many Requests"
+        }
+      ],
       "flags": []
     },
     {
