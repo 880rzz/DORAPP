@@ -1,15 +1,9 @@
 {
-  "updated": "2026-09-26T16:39:24.131217+00:00",
+  "updated": "2026-09-26T18:00:13.370537+00:00",
   "articles": {
+    "cserkesz-72": [],
+    "kozponti-szovetseg": [],
     "gimi-svung": [],
-    "kicsi-svung": [],
-    "egy-sima-egy-forditott": [
-      {
-        "title": "ORF Magyarok – Egy sima, egy fordított",
-        "url": "https://volksgruppen.orf.at/magyarok/stories/3352222/",
-        "source": "ORF Volksgruppen"
-      }
-    ],
     "kalaka-club": [
       {
         "title": "Bécsi Napló archívum – Kaláka-Club történet",
@@ -22,8 +16,14 @@
         "source": "ORF Volksgruppen"
       }
     ],
-    "kozponti-szovetseg": [],
-    "cserkesz-72": [],
+    "kicsi-svung": [],
+    "egy-sima-egy-forditott": [
+      {
+        "title": "ORF Magyarok – Egy sima, egy fordított",
+        "url": "https://volksgruppen.orf.at/magyarok/stories/3352222/",
+        "source": "ORF Volksgruppen"
+      }
+    ],
     "napraforgok": [],
     "napraforgocskak": [],
     "szent-istvan-egylet": [
@@ -59,7 +59,7 @@
     ],
     "becsi-magyar-iskola": [],
     "bmi-aspern-magyaroktatas": [],
-    "bmi-becscraft": [],
+    "oeius": [],
     "fecske-klub": [],
     "amaped": [],
     "becsi-magyar-iskolaegyesulet": [],
@@ -163,18 +163,7 @@
       }
     ],
     "alsoori-szinjatszo": [],
-    "becsi-irodalmi-muhely": [
-      {
-        "title": "ORF Magyarok – Közösségépítés az irodalmon keresztül",
-        "url": "https://volksgruppen.orf.at/magyarok/stories/3273948/",
-        "source": "ORF Volksgruppen"
-      },
-      {
-        "title": "ORF Magyarok – Műfordító műhely Bécsben",
-        "url": "https://volksgruppen.orf.at/magyarok/stories/3315120/",
-        "source": "ORF Volksgruppen"
-      }
-    ],
+    "bmi-becscraft": [],
     "alsoori-otthon": [
       {
         "title": "Rólunk.at – Tag der offenen Tür im Unterwarter Heimathaus",
@@ -316,23 +305,49 @@
     "katolikus-graz": [],
     "salzung": [],
     "salzung-minikonyvtar": [],
-    "oeius": [],
+    "becsi-irodalmi-muhely": [
+      {
+        "title": "ORF Magyarok – Közösségépítés az irodalmon keresztül",
+        "url": "https://volksgruppen.orf.at/magyarok/stories/3273948/",
+        "source": "ORF Volksgruppen"
+      },
+      {
+        "title": "ORF Magyarok – Műfordító műhely Bécsben",
+        "url": "https://volksgruppen.orf.at/magyarok/stories/3315120/",
+        "source": "ORF Volksgruppen"
+      }
+    ],
     "salzung-pitypang-suli": [],
     "salzburgi-neptanc": [],
-    "club-pannonia": [
+    "alsoori-enekkar": [
       {
-        "title": "A generációváltás kihívásai – új elnökség a Club Pannonia élén",
-        "url": "https://rolunk.at/nepcsoportunk/a-generaciovaltas-kihivasai-interju-szabados-gaborral-a-becsi-club-pannonia-elnokevel/",
+        "title": "Rólunk.at – Az Alsóőri Énekkar Magyarországon és a lugasban énekelt",
+        "url": "https://rolunk.at/aktualis/az-alsoori-enekkar-magyarorszagon-es-a-lugasban-enekelt/",
         "source": "Rólunk.at"
       },
       {
-        "title": "Harminc éves a Club Pannonia – Donau-Visegrád Gála",
-        "url": "https://rolunk.at/kultura/harminc-eves-a-club-pannonia-donau-visegrad-gala/",
+        "title": "Rólunk.at – az alsóőri új énekeskönyv és az Énekkar közreműködése",
+        "url": "https://rolunk.at/artikel-mit-ubersetzung/kirchenhistorischer-wert-das-neue-gesangbuch-von-unterwart/",
         "source": "Rólunk.at"
       },
       {
-        "title": "Jövőre harmincéves a Club Pannonia",
-        "url": "https://rolunk.at/nepcsoportunk/jovore-harminceves-a-club-pannonia/",
+        "title": "Rólunk.at – ausztriai magyar egyesületek listája",
+        "url": "https://rolunk.at/ausztriai-magyar-egyesuletek/",
+        "source": "Rólunk.at"
+      },
+      {
+        "title": "Ünnepvárás az Alsóőri Énekkar adventi koncertjén",
+        "url": "https://rolunk.at/nepcsoportunk/unnepvaras-az-alsoori-enekkar-adventi-koncertjen/",
+        "source": "Rólunk.at"
+      },
+      {
+        "title": "Alsóőri kórusest az ELTE Savaria Egyetemi énekkarral",
+        "url": "https://rolunk.at/esemenyek/alsoori-korusest/",
+        "source": "Rólunk.at"
+      },
+      {
+        "title": "Egyháztörténeti érték az új alsóőri énekeskönyv",
+        "url": "https://rolunk.at/aktualis/egyhaztorteneti-ertek-az-uj-alsoori-enekeskonyv/",
         "source": "Rólunk.at"
       }
     ],
@@ -419,35 +434,20 @@
         "source": "ORF Volksgruppen"
       }
     ],
-    "felso-ausztriai-magyarok": [
+    "club-pannonia": [
       {
-        "title": "Rólunk.at – 55 éves jubileum",
-        "url": "https://rolunk.at/aktualis/mar-55-eve-az-operencias-tengeren-tul-kettos-jubileum-a-felso-ausztriai-magyaroknal/",
+        "title": "A generációváltás kihívásai – új elnökség a Club Pannonia élén",
+        "url": "https://rolunk.at/nepcsoportunk/a-generaciovaltas-kihivasai-interju-szabados-gaborral-a-becsi-club-pannonia-elnokevel/",
         "source": "Rólunk.at"
       },
       {
-        "title": "ORF – 50 éves a Felső-Ausztriai Magyarok Kultúregyesülete",
-        "url": "https://volksgruppen.orf.at/v2/magyarok/stories/2907261/",
-        "source": "ORF Volksgruppen"
-      },
-      {
-        "title": "Irodalmi délután- Felső-Ausztriai Magyarok Kultúregyesülete",
-        "url": "https://rolunk.at/esemenyek/irodalmi-delutan-felso-ausztriai-magyarok-kulturegyesulete/",
+        "title": "Harminc éves a Club Pannonia – Donau-Visegrád Gála",
+        "url": "https://rolunk.at/kultura/harminc-eves-a-club-pannonia-donau-visegrad-gala/",
         "source": "Rólunk.at"
       },
       {
-        "title": "55 éves a Felső-Ausztriai Magyarok Kultúregyesülete és 20+ éves a Hétvégi Óvoda és Iskola",
-        "url": "https://rolunk.at/esemenyek/55-eves-a-felso-ausztriai-magyarok-kulturegyesulete-es-20-eves-a-hetvegi-ovoda-es-iskola/",
-        "source": "Rólunk.at"
-      },
-      {
-        "title": "„Messze a hazától, mégis otthon” – 25 éves a Felső-Ausztriai Hétvégi Magyar Iskola és Óvoda",
-        "url": "https://rolunk.at/aktualis/messze-a-hazatol-megis-otthon-25-eves-a-felso-ausztriai-hetvegi-magyar-iskola-es-ovoda/",
-        "source": "Rólunk.at"
-      },
-      {
-        "title": "Irodalmi délután, Húsvéti Nyuszibuli és családi kirándulás: tavaszi programok a felső-ausztriai magyaroknál",
-        "url": "https://rolunk.at/nepcsoportunk/irodalmi-delutan-husveti-nyuszibuli-es-csaladi-kirandulas-tavaszi-programok-a-felso-ausztriai-magyaroknal/",
+        "title": "Jövőre harmincéves a Club Pannonia",
+        "url": "https://rolunk.at/nepcsoportunk/jovore-harminceves-a-club-pannonia/",
         "source": "Rólunk.at"
       }
     ],
@@ -595,18 +595,7 @@
         "source": "ORF Volksgruppen"
       }
     ],
-    "katolikus-linz": [
-      {
-        "title": "Rólunk.at – ausztriai magyar katolikus koordináció",
-        "url": "https://rolunk.at/kultura/nem-csak-a-sajat-levesunket-melegitjuk-kozossegepito-kuldetes-felso-ausztriaban-es-azon-tul/",
-        "source": "Rólunk.at"
-      },
-      {
-        "title": "Rólunk.at – ausztriai magyar egyesületek listája",
-        "url": "https://rolunk.at/ausztriai-magyar-egyesuletek/",
-        "source": "Rólunk.at"
-      }
-    ],
+    "salzung-brumi-ovi": [],
     "noi-kor-wels": [
       {
         "title": "Rólunk.at – felső-ausztriai magyar közösségi háló",
@@ -619,7 +608,38 @@
         "source": "ORF Volksgruppen"
       }
     ],
-    "salzung-brumi-ovi": [],
+    "felso-ausztriai-magyarok": [
+      {
+        "title": "Rólunk.at – 55 éves jubileum",
+        "url": "https://rolunk.at/aktualis/mar-55-eve-az-operencias-tengeren-tul-kettos-jubileum-a-felso-ausztriai-magyaroknal/",
+        "source": "Rólunk.at"
+      },
+      {
+        "title": "ORF – 50 éves a Felső-Ausztriai Magyarok Kultúregyesülete",
+        "url": "https://volksgruppen.orf.at/v2/magyarok/stories/2907261/",
+        "source": "ORF Volksgruppen"
+      },
+      {
+        "title": "Irodalmi délután- Felső-Ausztriai Magyarok Kultúregyesülete",
+        "url": "https://rolunk.at/esemenyek/irodalmi-delutan-felso-ausztriai-magyarok-kulturegyesulete/",
+        "source": "Rólunk.at"
+      },
+      {
+        "title": "55 éves a Felső-Ausztriai Magyarok Kultúregyesülete és 20+ éves a Hétvégi Óvoda és Iskola",
+        "url": "https://rolunk.at/esemenyek/55-eves-a-felso-ausztriai-magyarok-kulturegyesulete-es-20-eves-a-hetvegi-ovoda-es-iskola/",
+        "source": "Rólunk.at"
+      },
+      {
+        "title": "„Messze a hazától, mégis otthon” – 25 éves a Felső-Ausztriai Hétvégi Magyar Iskola és Óvoda",
+        "url": "https://rolunk.at/aktualis/messze-a-hazatol-megis-otthon-25-eves-a-felso-ausztriai-hetvegi-magyar-iskola-es-ovoda/",
+        "source": "Rólunk.at"
+      },
+      {
+        "title": "Irodalmi délután, Húsvéti Nyuszibuli és családi kirándulás: tavaszi programok a felső-ausztriai magyaroknál",
+        "url": "https://rolunk.at/nepcsoportunk/irodalmi-delutan-husveti-nyuszibuli-es-csaladi-kirandulas-tavaszi-programok-a-felso-ausztriai-magyaroknal/",
+        "source": "Rólunk.at"
+      }
+    ],
     "collegium-hungaricum-wien": [],
     "rolunk-at": [
       {
@@ -657,40 +677,20 @@
     ],
     "bobitak-innsbruck": [],
     "fuggetlen-magyar-csucsszervezet": [],
-    "magyarhaz-innsbruck": [],
-    "virgonc-gyermek": [],
-    "alsoori-enekkar": [
+    "katolikus-linz": [
       {
-        "title": "Rólunk.at – Az Alsóőri Énekkar Magyarországon és a lugasban énekelt",
-        "url": "https://rolunk.at/aktualis/az-alsoori-enekkar-magyarorszagon-es-a-lugasban-enekelt/",
-        "source": "Rólunk.at"
-      },
-      {
-        "title": "Rólunk.at – az alsóőri új énekeskönyv és az Énekkar közreműködése",
-        "url": "https://rolunk.at/artikel-mit-ubersetzung/kirchenhistorischer-wert-das-neue-gesangbuch-von-unterwart/",
+        "title": "Rólunk.at – ausztriai magyar katolikus koordináció",
+        "url": "https://rolunk.at/kultura/nem-csak-a-sajat-levesunket-melegitjuk-kozossegepito-kuldetes-felso-ausztriaban-es-azon-tul/",
         "source": "Rólunk.at"
       },
       {
         "title": "Rólunk.at – ausztriai magyar egyesületek listája",
         "url": "https://rolunk.at/ausztriai-magyar-egyesuletek/",
         "source": "Rólunk.at"
-      },
-      {
-        "title": "Ünnepvárás az Alsóőri Énekkar adventi koncertjén",
-        "url": "https://rolunk.at/nepcsoportunk/unnepvaras-az-alsoori-enekkar-adventi-koncertjen/",
-        "source": "Rólunk.at"
-      },
-      {
-        "title": "Alsóőri kórusest az ELTE Savaria Egyetemi énekkarral",
-        "url": "https://rolunk.at/esemenyek/alsoori-korusest/",
-        "source": "Rólunk.at"
-      },
-      {
-        "title": "Egyháztörténeti érték az új alsóőri énekeskönyv",
-        "url": "https://rolunk.at/aktualis/egyhaztorteneti-ertek-az-uj-alsoori-enekeskonyv/",
-        "source": "Rólunk.at"
       }
     ],
+    "virgonc-gyermek": [],
+    "magyarhaz-innsbruck": [],
     "oriszigeti-neptanc": [],
     "burgenlandi-magyar-cserkeszet": [
       {
@@ -731,13 +731,14 @@
         "source": "Rólunk.at"
       }
     ],
-    "virgonc-unterwart": [
+    "semmelweis-orvosegyesulet": [
       {
-        "title": "Tojásírás alsóőri módra",
-        "url": "https://rolunk.at/fiatalok/tojasiras-alsoori-modra/",
-        "source": "Rólunk.at"
+        "title": "ORF Magyarok – Kérem a következőt: orvostudomány mindenkinek",
+        "url": "https://volksgruppen.orf.at/v2/magyarok/stories/2764323/",
+        "source": "ORF Volksgruppen"
       }
     ],
+    "becsi-magyar-otthon": [],
     "sunido-linz-steyr": [
       {
         "title": "Rólunk.at – Októbertől anyanyelvi oktatás indul Linzben",
@@ -760,6 +761,7 @@
         "source": "ORF Volksgruppen"
       }
     ],
+    "kufstein-tanacskozas": [],
     "kenderkoc-bmke": [
       {
         "title": "ORF Magyarok – Kenderkóc indulása",
@@ -770,6 +772,15 @@
         "title": "ORF Magyarok – BMKE gyermekfarsang 2026",
         "url": "https://volksgruppen.orf.at/magyarok/stories/3341289/",
         "source": "ORF Volksgruppen"
+      }
+    ],
+    "salzung-hatartalanul": [],
+    "salzung-igy-lettunk-magyarok": [],
+    "virgonc-unterwart": [
+      {
+        "title": "Tojásírás alsóőri módra",
+        "url": "https://rolunk.at/fiatalok/tojasiras-alsoori-modra/",
+        "source": "Rólunk.at"
       }
     ],
     "csorge-nepzene": [
@@ -794,6 +805,80 @@
         "source": "Rólunk.at"
       }
     ],
-    "irottko-sportegyesulet": []
+    "grazi-magyar-bal": [],
+    "rolunk-szolunk-tabor": [
+      {
+        "title": "Rólunk.at – HungaroMedia tábor 2026",
+        "url": "https://rolunk.at/magazin/sokszinu-gyerekek-vagany-szulok-a-hungaromedia-taboraban/",
+        "source": "Rólunk.at"
+      },
+      {
+        "title": "Rólunk.at – Nyári táborok Ausztriában 2026",
+        "url": "https://rolunk.at/aktualis/nyari-taborok-ausztriaban-2026/",
+        "source": "Rólunk.at"
+      }
+    ],
+    "irottko-sportegyesulet": [],
+    "sodalitas-kiadoi-projekt": [],
+    "orseg-naptar": [],
+    "ausztriai-diaszpora-iskolatabor": [
+      {
+        "title": "ORF Magyarok – Második diaszpóra iskolatábor Ausztriában",
+        "url": "https://volksgruppen.orf.at/magyarok/stories/3339181/",
+        "source": "ORF Volksgruppen"
+      },
+      {
+        "title": "ORF Magyarok – Iskolatábor a magyar kultúra jegyében",
+        "url": "https://volksgruppen.orf.at/magyarok/stories/3293048/",
+        "source": "ORF Volksgruppen"
+      },
+      {
+        "title": "I. Ausztriai Diaszpóra Iskolatábor",
+        "url": "https://rolunk.at/esemenyek/i-ausztriai-diaszpora-iskolatabor/",
+        "source": "Rólunk.at"
+      },
+      {
+        "title": "Diaszpóra Iskolatábor másodszor Innsbruckban",
+        "url": "https://rolunk.at/aktualis/diaszpora-iskolatabor-masodszor-innsbruckban/",
+        "source": "Rólunk.at"
+      },
+      {
+        "title": "Diaszpóra Iskolatábor Ausztriában-élményekkel tértek haza a diákok",
+        "url": "https://rolunk.at/nepcsoportunk/diaszpora-iskolatabor-ausztriaban-elmenyekkel-tertek-haza-a-diakok/",
+        "source": "Rólunk.at"
+      },
+      {
+        "title": "Első Ausztriai Diaszpóra Tábor februárban – január 15-ig lehet még jelentkezni",
+        "url": "https://rolunk.at/fiatalok/elso-ausztriai-diaszpora-tabor-februarban-meg-zajlik-a-jelentkezes/",
+        "source": "Rólunk.at"
+      }
+    ],
+    "achtungarn-fesztival": [
+      {
+        "title": "ORF Magyarok – AchtUngarn ötödször",
+        "url": "https://volksgruppen.orf.at/magyarok/stories/3368109/",
+        "source": "ORF Volksgruppen"
+      },
+      {
+        "title": "AchtUngarn fesztivál Bécsben – VIDEÓ",
+        "url": "https://rolunk.at/nepcsoportunk/achtungarn-fesztival-becsben-video/",
+        "source": "Rólunk.at"
+      },
+      {
+        "title": "„Achtung! Itt vagyunk!” – AchtUngarn fesztivál a Práterben",
+        "url": "https://rolunk.at/nepcsoportunk/achtung-itt-vagyunk-achtungarn-fesztival-a-praterben/",
+        "source": "Rólunk.at"
+      },
+      {
+        "title": "AchtUngarn fesztivál a bécsi Praterben!",
+        "url": "https://rolunk.at/esemenyek/achtungarn-fesztival-a-becsi-praterben/",
+        "source": "Rólunk.at"
+      },
+      {
+        "title": "Az első AchtUngarn fesztivál",
+        "url": "https://rolunk.at/kultura/az-elso-achtungarn-fesztival/",
+        "source": "Rólunk.at"
+      }
+    ]
   }
 }
