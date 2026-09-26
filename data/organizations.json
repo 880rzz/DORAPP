@@ -5327,6 +5327,12 @@
             "title": "Magyarul olvasok program",
             "description": "A Magyar Kultúra Napján egész ausztriai diaszpórát megszólító olvasási felhívás indul.",
             "sourceUrl": "https://www.salzung.com/hu/projektek/minikonyvtar/minikoenyvtar"
+          },
+          {
+            "year": "2026",
+            "title": "Újra aktív könyvklub",
+            "description": "A Minikönyvtárhoz kapcsolódó könyvklub közel egy éve ismét aktívan működik, és növekvő érdeklődés kíséri.",
+            "sourceUrl": "https://volksgruppen.orf.at/magyarok/stories/3356535/"
           }
         ]
       },
@@ -5346,7 +5352,7 @@
       "languages": [
         "magyar"
       ],
-      "profileVerifiedAt": "2026-09-25",
+      "profileVerifiedAt": "2026-09-26",
       "evidenceSources": [
         {
           "label": "SalzUNG – A Minikönyvtár bemutatása",
@@ -5357,6 +5363,11 @@
           "label": "SalzUNG – 2021-es programterv",
           "url": "https://salzung.com/hu/hirek/tervezett-programjaink-a-2021-es-evben",
           "type": "official"
+        },
+        {
+          "label": "ORF Magyarok – Élettel teli a salzburgi minikönyvtár (2026)",
+          "url": "https://volksgruppen.orf.at/magyarok/stories/3356535/",
+          "type": "public-broadcaster"
         }
       ],
       "entityClass": "project"
@@ -9854,6 +9865,67 @@
         }
       ],
       "entityClass": "group"
+    },
+    {
+      "id": "salzburgi-gyerekkonyvklub",
+      "name": "Salzburgi magyar gyerekkönyvklub és közösségi könyvtár",
+      "state": "salzburg",
+      "city": "Salzburg – Gnigl",
+      "type": "családi könyv- és meseközösség",
+      "categories": [
+        "irodalom",
+        "csalad",
+        "kozosseg"
+      ],
+      "intro": "Salzburgban működő, szülői kezdeményezésből létrejött magyar gyerekkönyvklub és közösségi könyvtár. A közösség havonta találkozik a Bewohnerservice Gnigl helyiségében; a könyvkölcsönzés mellett mesélés, kézműves és éneklős foglalkozások kapcsolódnak az alkalmakhoz.",
+      "website": "https://volksgruppen.orf.at/magyarok/stories/3362931/",
+      "facebook": null,
+      "instagram": null,
+      "eventSources": [
+        "https://volksgruppen.orf.at/magyarok/stories/3362931/"
+      ],
+      "founded": "2024",
+      "history": {
+        "summary": "A szülői közösség több mint két éve indította el a könyvcserére épülő kezdeményezést. Két teljes tanévet vitt végig havi találkozókkal; 2026-ra a gyűjtemény több mint 200 kötetre nőtt, a program pedig családi olvasó-, mese- és kézműves közösséggé fejlődött.",
+        "milestones": [
+          {
+            "year": "2024",
+            "title": "A kezdeményezés indulása",
+            "description": "Salzburgi szülők könyvcserére és magyar mesékre épülő gyerekközösséget indítanak.",
+            "sourceUrl": "https://volksgruppen.orf.at/magyarok/stories/3362931/"
+          },
+          {
+            "year": "2026",
+            "title": "Több mint 200 kötetes közösségi gyűjtemény",
+            "description": "A havi találkozók két teljes tanév után is működnek; a gyűjtemény 200 fölötti könyvre bővül.",
+            "sourceUrl": "https://volksgruppen.orf.at/magyarok/stories/3362931/"
+          }
+        ]
+      },
+      "activities": [
+        "havi magyar gyerekkönyvklub",
+        "könyvcsere és kölcsönzés",
+        "mesélés",
+        "kézműves és éneklős családi foglalkozások"
+      ],
+      "targetGroups": [
+        "Salzburgban élő magyar gyermekek",
+        "kisgyermekes magyar családok",
+        "magyar mesék és gyermekirodalom iránt érdeklődők"
+      ],
+      "languages": [
+        "magyar"
+      ],
+      "profileVerifiedAt": "2026-09-26",
+      "evidenceSources": [
+        {
+          "label": "ORF Magyarok – Könyvek és mesék magyarul",
+          "url": "https://volksgruppen.orf.at/magyarok/stories/3362931/",
+          "type": "public-broadcaster"
+        }
+      ],
+      "entityClass": "project",
+      "classificationNote": "Közösségi kezdeményezés, nem jogi szervezet. A megnevezés leíró név az ORF által dokumentált gyerekkönyvklub és közösségi könyvtár alapján."
     }
   ],
   "umbrellaOrganizations": [
