@@ -1,10 +1,10 @@
 {
-  "updated": "2026-09-26T18:01:29.188023+00:00",
+  "updated": "2026-09-26T18:02:51.688677+00:00",
   "summary": {
-    "organizations": 136,
+    "organizations": 137,
     "organizationFlags": 0,
-    "organizationPagesChecked": 299,
-    "education": 105,
+    "organizationPagesChecked": 297,
+    "education": 106,
     "educationFlags": 0,
     "events": 21,
     "eventFlags": 0
@@ -759,7 +759,7 @@
       "errors": [
         {
           "url": "https://bornemisza.at/",
-          "error": "<urlopen error timed out>"
+          "error": "<urlopen error [Errno 111] Connection refused>"
         },
         {
           "url": "https://www.kozpontiszovetseg.at/event-details/dr-janosi-zoltan-irodalomtortenesz-iro-kolto",
@@ -853,13 +853,17 @@
         "sport",
         "csalad"
       ],
-      "pagesChecked": 3,
+      "pagesChecked": 2,
       "checkedUrls": [
-        "https://www.burgenlandicserkesz.at/",
         "https://volksgruppen.orf.at/magyarok/stories/3333230/",
         "https://podiverzum.hu/podcast/orf-magyarok-podcast/idoutazas-es-megemlekezes-az-alsoori-cserkeszdelutanon-deaf57f3"
       ],
-      "errors": [],
+      "errors": [
+        {
+          "url": "https://www.burgenlandicserkesz.at/",
+          "error": "The read operation timed out"
+        }
+      ],
       "flags": []
     },
     {
@@ -1250,22 +1254,9 @@
         "kultura"
       ],
       "activityCategories": [],
-      "signals": [
-        "oktatas",
-        "neptanc",
-        "szinhaz",
-        "media",
-        "egyhaz",
-        "diak",
-        "irodalom",
-        "muveszet"
-      ],
-      "pagesChecked": 3,
-      "checkedUrls": [
-        "https://europaclub.at/",
-        "https://europaclub.at/rolunk/europa-club-tortenete/",
-        "https://europaclub.at/de/kontakt/"
-      ],
+      "signals": [],
+      "pagesChecked": 0,
+      "checkedUrls": [],
       "errors": [],
       "flags": []
     },
@@ -1668,17 +1659,13 @@
         "muveszet",
         "csalad"
       ],
-      "pagesChecked": 2,
+      "pagesChecked": 3,
       "checkedUrls": [
         "https://www.facebook.com/IMIKE2019UJKV/",
+        "https://www.instagram.com/imike_ujkv/",
         "https://rolunk.at/nepcsoportunk/sziveben-magyar/"
       ],
-      "errors": [
-        {
-          "url": "https://www.instagram.com/imike_ujkv/",
-          "error": "HTTP Error 429: Too Many Requests"
-        }
-      ],
+      "errors": [],
       "flags": []
     },
     {
@@ -3102,6 +3089,30 @@
         "https://www.delibab-becs.com/",
         "https://rolunk.at/nepcsoportunk/isten-eltessen-sokaig-delibab-becsi-magyar-kulturegyesulet-delibab-75-cimu-film/",
         "https://rolunk.at/aktualis/a-haza-mi-magunk-vagyunk-marcius-15-i-unnepseg-magyarorszag-becsi-nagykovetsegen/"
+      ],
+      "errors": [],
+      "flags": []
+    },
+    {
+      "id": "salzburgi-gyerekkonyvklub",
+      "name": "Salzburgi magyar gyerekkönyvklub és közösségi könyvtár",
+      "entityClass": "project",
+      "categories": [
+        "csalad",
+        "irodalom",
+        "kozosseg"
+      ],
+      "activityCategories": [],
+      "signals": [
+        "media",
+        "egyhaz",
+        "irodalom",
+        "sport",
+        "csalad"
+      ],
+      "pagesChecked": 1,
+      "checkedUrls": [
+        "https://volksgruppen.orf.at/magyarok/stories/3362931/"
       ],
       "errors": [],
       "flags": []
