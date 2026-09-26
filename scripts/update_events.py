@@ -67,7 +67,7 @@ def fetch(url:str)->tuple[str,str]:
                         retry_after=float(headers.get("Retry-After") or 0)
                     except (TypeError,ValueError):
                         retry_after=0.0
-                time.sleep(max(1.5*(attempt+1),retry_after))
+                time.sleep(max(1.5*(attempt+1),min(retry_after,15.0)))
                 continue
             raise
     raise last
