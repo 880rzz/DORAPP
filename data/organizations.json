@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-25",
+  "updated": "2026-09-26",
   "sourcePolicy": "Official organization sources preferred; umbrella directories and Austrian-Hungarian community media used as secondary verification. Missing social/event links remain null rather than guessed.",
   "states": [
     {
@@ -9059,6 +9059,80 @@
       "phone": "+43 664 2020564",
       "profileVerifiedAt": "2026-09-25",
       "entityClass": "organization"
+    },
+    {
+      "id": "semmelweis-orvosegyesulet",
+      "name": "Semmelweis Magyar Orvosok Egyesülete",
+      "state": "wien",
+      "city": "Wien",
+      "type": "szakmai orvosegyesület",
+      "intro": "Bécsben létrejött, Ausztriában dolgozó magyar és magyarul beszélő orvosokat összefogó szakmai közösség. Történeti források szakmai továbbképzéseket, közösségi találkozókat és a nagyközönségnek szóló egészségügyi előadásokat dokumentálnak.",
+      "website": null,
+      "facebook": null,
+      "instagram": null,
+      "eventSources": [],
+      "affiliations": [
+        {
+          "organizationId": "kozponti-szovetseg",
+          "label": "Dokumentált történeti intézményi együttműködés; a Központi Szövetség infrastruktúráját is használó szervezetként szerepel",
+          "sourceUrl": "https://www.korosiprogram.hu/partnereink/ausztriai-magyar-egyesuletek-es-szervezetek-kozponti-szovetsege-es-tagszervezetei"
+        }
+      ],
+      "categories": [
+        "kozosseg"
+      ],
+      "history": {
+        "summary": "A Semmelweis Magyar Orvosok Egyesülete a 2000-es évek elején jött létre Bécsben magyar, magyar származású és magyarul beszélő, Ausztriában dolgozó orvosok szakmai és közösségi összefogására. Az elérhető történeti források az alapítás évét eltérően 2002-re, illetve 2003-ra teszik, ezért a DORAPP nem rögzít egyetlen bizonytalan alapítási évet. A szervezet szakmai továbbképzéseket és a Központi Szövetséggel közös, közérthető orvosi előadásokat is szervezett.",
+        "milestones": [
+          {
+            "year": "2002/2003",
+            "title": "Megalakulás Bécsben",
+            "description": "A történeti források 2002-es, illetve 2003-as alapítást említenek; az eltérést a rekord explicit módon megőrzi.",
+            "sourceUrl": "https://volksgruppen.orf.at/v2/magyarok/stories/2764323/"
+          },
+          {
+            "year": "2016",
+            "title": "„Kérem a következőt!” előadássorozat",
+            "description": "A Semmelweis Orvosi Egyesület és a Központi Szövetség közösen szervezett, laikus közönségnek szóló orvosi előadássorozatot.",
+            "sourceUrl": "https://volksgruppen.orf.at/v2/magyarok/stories/2764323/"
+          }
+        ]
+      },
+      "activities": [
+        "magyar nyelvű szakmai továbbképzés",
+        "orvosi szakmai és közösségi kapcsolatépítés",
+        "közérthető egészségügyi előadások",
+        "ausztriai magyar orvosok szakmai összefogása"
+      ],
+      "targetGroups": [
+        "Ausztriában dolgozó magyar és magyarul beszélő orvosok",
+        "egészségügyi szakemberek",
+        "magyar nyelvű egészségügyi ismeretterjesztés iránt érdeklődők"
+      ],
+      "languages": [
+        "magyar",
+        "német"
+      ],
+      "profileVerifiedAt": "2026-09-26",
+      "evidenceSources": [
+        {
+          "label": "Kőrösi Csoma Sándor Program – Központi Szövetség és tagszervezetei",
+          "url": "https://www.korosiprogram.hu/partnereink/ausztriai-magyar-egyesuletek-es-szervezetek-kozponti-szovetsege-es-tagszervezetei",
+          "type": "institutional"
+        },
+        {
+          "label": "ORF Magyarok – Magyar orvosok egyesülete Ausztriában",
+          "url": "https://volksgruppenv1.orf.at/magyarok/aktualis/stories/40298.html",
+          "type": "media"
+        },
+        {
+          "label": "ORF Magyarok – Kérem a következőt: orvostudomány mindenkinek",
+          "url": "https://volksgruppen.orf.at/v2/magyarok/stories/2764323/",
+          "type": "media"
+        }
+      ],
+      "entityClass": "organization",
+      "classificationNote": "A jelenlegi Központi Szövetség tagszervezeti oldalán nem szerepel; ezért a kapcsolat affiliation, nem membership. Az aktuális működési státusz nincs külön bizonyítva."
     }
   ],
   "umbrellaOrganizations": [
