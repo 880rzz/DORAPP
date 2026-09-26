@@ -9517,11 +9517,7 @@
           "sourceUrl": "https://volksgruppen.orf.at/magyarok/stories/3339181/"
         }
       ],
-      "categories": [
-        "oktatas",
-        "cserkesz",
-        "kozosseg"
-      ],
+      "categories": [],
       "founded": "2025",
       "history": {
         "summary": "Az első Ausztriai Diaszpóra Iskolatábort 2025-ben rendezték meg Tirolban. A 2026-os második tábor ismét Muttersban zajlott, és Tirol mellett Salzburgból, Vorarlbergből, Bécsből, illetve más térségekből is fogadott résztvevőket.",
@@ -9558,16 +9554,23 @@
         {
           "label": "ORF Magyarok – Második diaszpóra iskolatábor Ausztriában",
           "url": "https://volksgruppen.orf.at/magyarok/stories/3339181/",
-          "type": "media"
+          "type": "public-broadcaster"
         },
         {
           "label": "ORF Magyarok – Iskolatábor a magyar kultúra jegyében",
           "url": "https://volksgruppen.orf.at/magyarok/stories/3293048/",
-          "type": "media"
+          "type": "public-broadcaster"
         }
       ],
       "entityClass": "activity",
-      "classificationNote": "Évente ismétlődő, több szervezet által megvalósított országos diaszpóra-oktatási program."
+      "classificationNote": "Évente ismétlődő, több szervezet által megvalósított országos diaszpóra-oktatási program; a DORAPP-ban az IMIKE-hez rendelt activity, a további társszervezők affiliations mezőben szerepelnek.",
+      "activityCategories": [
+        "magyar-nyelv",
+        "neptanc",
+        "ifjusag",
+        "kozosseg"
+      ],
+      "parentOrganizationId": "imike"
     }
   ],
   "umbrellaOrganizations": [
