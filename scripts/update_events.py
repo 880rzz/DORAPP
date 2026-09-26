@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 from __future__ import annotations
-import json,re,time,urllib.request,urllib.parse
+import json,re,time,urllib.request,urllib.parse,threading
 from concurrent.futures import ThreadPoolExecutor,as_completed
 from pathlib import Path
 from datetime import datetime,timezone,timedelta
@@ -10,7 +10,18 @@ ROOT=Path(__file__).resolve().parents[1]
 ORG_FILE=ROOT/"data/organizations.json"
 EVENT_FILE=ROOT/"data/events.json"
 HEALTH_FILE=ROOT/"data/source-health.json"
-UA="Mozilla/5.0 (compatible; DORAPP-AustriaHungarianPrograms/1.3; +https://github.com/880rzz/DORAPP)"
+UA="Mozilla/5.0 (compatible; DORAPP-AustriaHungarianPrograms/1.4; +https://github.com/880rzz/DORAPP)"
+HOST_MIN_INTERVAL=0.8
+_HOST_GUARD=threading.Lock()
+_HOST_LOCKS={}
+_HOST_LAST={}
+
+def host_lock(url:str):
+    host=urllib.parse.urlsplit(url).netloc.lower()
+    with _HOST_GUARD:
+        lock=_HOST_LOCKS.setdefault(host,threading.Lock())
+    return host,lock
+
 PROGRAM_CATEGORY_DEFINITIONS=[
     {"id":"gyermek","label":"Gyermekprogram"},
     {"id":"zene","label":"Zene"},
@@ -30,15 +41,30 @@ def fetch(url:str)->tuple[str,str]:
     for attempt in range(3):
         try:
             req=urllib.request.Request(url,headers={"User-Agent":UA,"Accept":"text/html,application/xhtml+xml,text/calendar,application/json;q=0.9,*/*;q=0.8","Accept-Language":"hu,en;q=0.8,de;q=0.7"})
-            with urllib.request.urlopen(req,timeout=12) as r:
-                raw=r.read(3_000_000)
-                ct=r.headers.get_content_type()
-                return raw.decode(r.headers.get_content_charset() or "utf-8","replace"),ct
+            host,lock=host_lock(url)
+            with lock:
+                delay=HOST_MIN_INTERVAL-(time.monotonic()-_HOST_LAST.get(host,0.0))
+                if delay>0:
+                    time.sleep(delay)
+                try:
+                    with urllib.request.urlopen(req,timeout=12) as r:
+                        raw=r.read(3_000_000)
+                        ct=r.headers.get_content_type()
+                        return raw.decode(r.headers.get_content_charset() or "utf-8","replace"),ct
+                finally:
+                    _HOST_LAST[host]=time.monotonic()
         except Exception as ex:
             last=ex
             code=getattr(ex,"code",None)
             if attempt<2 and (code in (429,500,502,503,504) or code is None):
-                time.sleep(1.5*(attempt+1))
+                retry_after=0.0
+                headers=getattr(ex,"headers",None)
+                if headers:
+                    try:
+                        retry_after=float(headers.get("Retry-After") or 0)
+                    except (TypeError,ValueError):
+                        retry_after=0.0
+                time.sleep(max(1.5*(attempt+1),retry_after))
                 continue
             raise
     raise last
