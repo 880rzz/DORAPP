@@ -137,11 +137,24 @@ for e in evdb.get("events",[]):
 if len(eventids)!=len(set(eventids)): errors.append("duplicate event id")
 edu_ids=[]
 valid_levels={"nursery","kindergarten","primary","secondary","tertiary","adult"}
+edu_record_classes={x.get("id") for x in edudb.get("recordClassDefinitions",[])}
 for x in edudb.get("institutions",[]):
     edu_ids.append(x.get("id"))
     if x.get("state") not in states: errors.append(f"unknown education state: {x.get('id')} -> {x.get('state')}")
     if not x.get("name") or not x.get("city") or not x.get("summary") or not x.get("sourceUrl"):
         errors.append(f"incomplete education record: {x.get('id')}")
+    record_class=x.get("recordClass")
+    if record_class not in edu_record_classes:
+        errors.append(f"invalid education record class: {x.get('id')} -> {record_class}")
+    if record_class=="course":
+        cats=x.get("activityCategories") or []
+        if not cats:
+            errors.append(f"education course missing activityCategories: {x.get('id')}")
+        for cat in cats:
+            if cat not in activity_category_ids:
+                errors.append(f"unknown education activity category: {x.get('id')} -> {cat}")
+    elif x.get("activityCategories"):
+        errors.append(f"non-course education record uses activityCategories: {x.get('id')}")
     levels=x.get("level") or []
     if not levels or any(level not in valid_levels for level in levels):
         errors.append(f"invalid education level: {x.get('id')} -> {levels}")
