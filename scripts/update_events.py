@@ -312,7 +312,19 @@ def main():
             row["eventsFound"]=len(collected)
             row["status"]="ok-events" if collected else "ok-no-structured-event"
         except Exception as ex:
-            row["status"]="error"; row["error"]=str(ex)[:220]
+            code=getattr(ex,"code",None)
+            msg=str(ex)
+            if code in (401,403):
+                row["status"]="site-blocked"
+            elif code==429:
+                row["status"]="rate-limited"
+            elif "CERTIFICATE_VERIFY_FAILED" in msg or "SSL:" in msg:
+                row["status"]="tls-error"
+            elif any(s in msg for s in ("Network is unreachable","No address associated with hostname","Name or service not known","Connection refused","timed out")):
+                row["status"]="network-error"
+            else:
+                row["status"]="error"
+            row["error"]=msg[:220]
         return row,collected
 
     jobs=[(org,source) for org in orgdb["organizations"] for source in org.get("eventSources",[])]
