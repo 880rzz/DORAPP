@@ -102,3 +102,15 @@ A statikus oktatási profilokat a `scripts/generate_education_profiles.py` gener
 ## Néptánc és népzene
 
 A közösségi adatmodell külön `neptanc` és `nepzene` kategóriát kezel. Az önállóan azonosítható csoportok külön profilt kaphatnak, miközben a `parentOrganizationId` megőrzi a kapcsolatot a fenntartó vagy szülőegyesülettel.
+
+
+## Taxonómia
+
+A DORAPP négy külön réteget kezel, hogy a szervezetek és a foglalkozások ne keveredjenek:
+
+1. **Közösségek / szervezetek** — egyesület, intézmény, média, társulat, zenekar, cserkészcsapat, tartósan működő csoport.
+2. **Oktatás** — valódi oktatási intézmény, hétvégi iskola/óvoda vagy igazolt oktatási helyszín.
+3. **Foglalkozások** — visszatérő kurzus, magyaróra, Ringató, drámafoglalkozás, kreatív műhely stb.
+4. **Programok** — dátumhoz kötött események.
+
+A `scripts/audit_taxonomy.py` forrásoldalak alapján naponta ellenőrzi a besorolások konzisztenciáját.
