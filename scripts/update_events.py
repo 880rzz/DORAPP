@@ -4,6 +4,7 @@ import json,re,time,urllib.request,urllib.parse,threading
 from concurrent.futures import ThreadPoolExecutor,as_completed
 from pathlib import Path
 from datetime import datetime,timezone,timedelta
+from zoneinfo import ZoneInfo
 from html import unescape
 
 ROOT=Path(__file__).resolve().parents[1]
@@ -279,6 +280,60 @@ def ics_events(text,org,source,discovered_from):
                "sourceUrl":url,"discoveredFrom":discovered_from,
                "verifiedAt":datetime.now(timezone.utc).isoformat()}
 
+
+HU_MONTHS={
+    "január":1,"február":2,"március":3,"április":4,"május":5,"június":6,
+    "július":7,"augusztus":8,"szeptember":9,"október":10,"november":11,"december":12
+}
+
+def html_cell_text(fragment):
+    fragment=re.sub(r"<br\s*/?>"," ",fragment,flags=re.I)
+    fragment=re.sub(r"<[^>]+>"," ",fragment)
+    return clean_text(unescape(fragment))
+
+def reformatus_table_events(html,org,url,root_source):
+    parsed=urllib.parse.urlparse(url)
+    if not parsed.netloc.lower().endswith("reformatus.at"):
+        return []
+    ym=re.search(r"/events/(\d{4})/?",parsed.path,re.I)
+    if not ym:
+        return []
+    year=int(ym.group(1))
+    out=[]
+    for row_html in re.findall(r"<tr\b[^>]*>(.*?)</tr>",html,re.I|re.S):
+        cells=re.findall(r"<t[dh]\b[^>]*>(.*?)</t[dh]>",row_html,re.I|re.S)
+        if len(cells)<2:
+            continue
+        values=[html_cell_text(x) for x in cells]
+        dm=re.search(
+            r"(január|február|március|április|május|június|július|augusztus|szeptember|október|november|december)"
+            r"\s+0?(\d{1,2})\D+?(\d{1,2}):(\d{2})",
+            values[0],re.I
+        )
+        if not dm:
+            continue
+        month=HU_MONTHS[dm.group(1).lower()]
+        day=int(dm.group(2)); hour=int(dm.group(3)); minute=int(dm.group(4))
+        start=datetime(year,month,day,hour,minute,tzinfo=ZoneInfo("Europe/Vienna")).isoformat()
+        topic=values[1].strip()
+        if not topic:
+            continue
+        short_name=re.split(r"Gyermek-istentiszteleteinkre",topic,1,flags=re.I)[0].strip()
+        name=short_name or topic
+        address=values[2].strip() if len(values)>2 and values[2].strip() else None
+        out.append({
+            "id":event_id(org["id"],name,start),
+            "organizationId":org["id"],"name":name,"organizer":org["name"],
+            "state":org["state"],"city":org["city"],"venue":None,"address":address,
+            "startDate":start,"endDate":"","description":topic,
+            "registrationUrl":None,"price":None,"priceCurrency":None,"availability":None,
+            "performers":[],"audience":None,"image":None,"eventStatus":"https://schema.org/EventScheduled",
+            "attendanceMode":"https://schema.org/OfflineEventAttendanceMode",
+            "sourceUrl":url,"discoveredFrom":root_source,
+            "verifiedAt":datetime.now(timezone.utc).isoformat()
+        })
+    return out
+
 def collect_page(url,org,root_source):
     body,ct=fetch(url); found=[]
     if ct=="text/calendar" or url.lower().endswith(".ics"):
@@ -288,6 +343,7 @@ def collect_page(url,org,root_source):
             if isinstance(x,dict) and is_event(x):
                 e=normalize(x,org,url,root_source)
                 if e: found.append(e)
+    found.extend(reformatus_table_events(body,org,url,root_source))
     return found,links(body,url),ct
 
 def main():
@@ -328,7 +384,7 @@ def main():
         return row,collected
 
     jobs=[(org,source) for org in orgdb["organizations"] for source in org.get("eventSources",[])]
-    with ThreadPoolExecutor(max_workers=4) as pool:
+    with ThreadPoolExecutor(max_workers=8) as pool:
         futures=[pool.submit(audit_source,org,source) for org,source in jobs]
         for future in as_completed(futures):
             row,collected=future.result()
