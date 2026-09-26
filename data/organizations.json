@@ -7115,6 +7115,11 @@
           "label": "ORF Religion – Pax Romana Weltkongress in Wien",
           "url": "https://religion.orf.at/v3/stories/2543456/",
           "type": "public-broadcaster"
+        },
+        {
+          "label": "Kerekasztal – tagszervezeti blokk (KMÉM)",
+          "url": "https://kerekasztal.at/",
+          "type": "umbrella"
         }
       ],
       "categories": [
@@ -7160,8 +7165,15 @@
         "magyar",
         "német"
       ],
-      "profileVerifiedAt": "2026-09-25",
-      "entityClass": "organization"
+      "profileVerifiedAt": "2026-09-27",
+      "entityClass": "organization",
+      "memberships": [
+        {
+          "umbrellaId": "kerekasztal",
+          "sourceUrl": "https://kerekasztal.at/",
+          "verifiedAt": "2026-09-27"
+        }
+      ]
     },
     {
       "id": "nepcsoporttanacsi-elnokok",
@@ -7998,7 +8010,7 @@
       "name": "Ausztriai Független Magyar Kultúregyesületek Csúcsszervezete",
       "state": "wien",
       "city": "Wien",
-      "type": "ernyőszervezet",
+      "type": "megszűnt ernyőszervezet (történeti)",
       "intro": "Az Ausztriai Független Magyar Kultúregyesületek Csúcsszervezete korábban országos magyar ernyőszervezetként működött. Egy 2025-ös Rólunk.at beszámoló már megszűnt szervezetként hivatkozik rá; a DORAPP ezért történeti entitásként őrzi meg, nem aktív ernyőszervezetként.",
       "website": null,
       "facebook": null,
