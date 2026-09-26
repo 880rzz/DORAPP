@@ -36,7 +36,10 @@ def fetch(url:str)->tuple[str,str]:
         except Exception as ex:
             last=ex
             code=getattr(ex,"code",None)
-            if attempt<2 and (code in (429,500,502,503,504) or code is None):
+            transient_http=code in (429,500,502,503,504)
+            transient_network=code is None
+            should_retry=(transient_http and attempt<2) or (transient_network and attempt<1)
+            if should_retry:
                 time.sleep(1.5*(attempt+1))
                 continue
             raise
