@@ -11,6 +11,18 @@ ORG_FILE=ROOT/"data/organizations.json"
 EVENT_FILE=ROOT/"data/events.json"
 HEALTH_FILE=ROOT/"data/source-health.json"
 UA="Mozilla/5.0 (compatible; DORAPP-AustriaHungarianPrograms/1.3; +https://github.com/880rzz/DORAPP)"
+PROGRAM_CATEGORY_DEFINITIONS=[
+    {"id":"gyermek","label":"Gyermekprogram"},
+    {"id":"zene","label":"Zene"},
+    {"id":"szinhaz","label":"Színház / előadás"},
+    {"id":"irodalom","label":"Irodalom"},
+    {"id":"cserkesz","label":"Cserkészet"},
+    {"id":"kirandulas","label":"Kirándulás"},
+    {"id":"workshop","label":"Workshop / képzés"},
+    {"id":"diak","label":"Diákprogram"},
+    {"id":"megemlekezes","label":"Megemlékezés"},
+    {"id":"kozosseg","label":"Közösségi program"}
+]
 EVENT_HINT=re.compile(r"(event|events|event-details|veranstaltung|termine|program|programme|esemeny|rendezveny|calendar)",re.I)
 
 def fetch(url:str)->tuple[str,str]:
@@ -113,6 +125,24 @@ def normalize(x,org,source,discovered_from=None):
             "sourceUrl":x.get("url") or source,"discoveredFrom":discovered_from or source,
             "verifiedAt":datetime.now(timezone.utc).isoformat()}
 
+def classify_program_categories(e):
+    text=" ".join(str(e.get(k) or "") for k in ("name","description","organizer","venue")).casefold()
+    org=str(e.get("organizationId") or "").casefold()
+    cats=[]
+    def add(cat):
+        if cat not in cats: cats.append(cat)
+    if re.search(r"gyerek|gyermek|mese|játsz|előkészítő|elokeszito|kicsi|ovi|óvoda",text): add("gyermek")
+    if re.search(r"zene|jazz|dob|koncert|ének|enek|zenés|zenes|népdal|nepdal",text): add("zene")
+    if re.search(r"színház|szinhaz|theater|musical|előadás|eloadas|dráma|drama|monspart",text): add("szinhaz")
+    if re.search(r"irodal|író|iro|könyv|konyv|dragomán|dragoman",text): add("irodalom")
+    if "cserkesz" in org or re.search(r"cserkész|cserkesz|őrsi|orsi|akadályverseny|akadalyverseny",text): add("cserkesz")
+    if re.search(r"kirándul|kirandul|túra|tura",text): add("kirandulas")
+    if re.search(r"workshop|műhely|muhely|képzés|kepzes|kurzus|előkészítő|elokeszito",text): add("workshop")
+    if re.search(r"gólya|golya|diák|diak|egyetemista|mde",text): add("diak")
+    if re.search(r"megemlékez|megemlekez|1956|emlék",text): add("megemlekezes")
+    if not cats: add("kozosseg")
+    return cats
+
 def canonical_text(v):
     return re.sub(r"[^a-z0-9áéíóöőúüű]+"," ",clean_text(v).casefold()).strip()
 
@@ -140,6 +170,12 @@ def merge_event(a,b):
     for k,v in secondary.items():
         if out.get(k) in (None,"",[],{}) and v not in (None,"",[],{}):
             out[k]=v
+    program_categories=[]
+    for cat in list(primary.get("programCategories") or [])+list(secondary.get("programCategories") or []):
+        if cat and cat not in program_categories:
+            program_categories.append(cat)
+    if program_categories:
+        out["programCategories"]=program_categories
     performers=[]
     for p in list(primary.get("performers") or [])+list(secondary.get("performers") or []):
         p=clean_text(p)
@@ -260,8 +296,12 @@ def main():
                 merged[e["id"]]=e
     health.sort(key=lambda x:(x["organizationId"],x["source"]))
     events=sorted(dedupe_events(merged.values()),key=lambda e:str(e.get("startDate","")))
+    for e in events:
+        existing=list(e.get("programCategories") or [])
+        inferred=classify_program_categories(e)
+        e["programCategories"]=list(dict.fromkeys(existing+inferred))
     now=datetime.now(timezone.utc).isoformat()
-    EVENT_FILE.write_text(json.dumps({"updated":now,"events":events},ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
+    EVENT_FILE.write_text(json.dumps({"updated":now,"programCategoryDefinitions":PROGRAM_CATEGORY_DEFINITIONS,"events":events},ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
     HEALTH_FILE.write_text(json.dumps({"updated":now,"sources":health},ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
     print(f"organizations={len(orgdb['organizations'])} sources={len(health)} events={len(events)}")
 
