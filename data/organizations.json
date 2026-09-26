@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-26",
+  "updated": "2026-09-27",
   "sourcePolicy": "Official organization sources preferred; umbrella directories and Austrian-Hungarian community media used as secondary verification. Missing social/event links remain null rather than guessed.",
   "states": [
     {
@@ -7999,7 +7999,7 @@
       "state": "wien",
       "city": "Wien",
       "type": "ernyőszervezet",
-      "intro": "Az Ausztriai Független Magyar Kultúregyesületek Csúcsszervezete országos magyar ernyőszervezet, amelyet a BMKE és osztrák kormányzati népcsoporti támogatási dokumentumok önálló magyar szervezeti szereplőként azonosítanak.",
+      "intro": "Az Ausztriai Független Magyar Kultúregyesületek Csúcsszervezete korábban országos magyar ernyőszervezetként működött. Egy 2025-ös Rólunk.at beszámoló már megszűnt szervezetként hivatkozik rá; a DORAPP ezért történeti entitásként őrzi meg, nem aktív ernyőszervezetként.",
       "website": null,
       "facebook": null,
       "instagram": null,
@@ -8014,6 +8014,11 @@
           "label": "Osztrák kormányzati népcsoporti támogatási dokumentum",
           "url": "https://www.ris.bka.gv.at/Dokumente/Mrp/MRP_20201223_43/007_001.pdf",
           "type": "institutional"
+        },
+        {
+          "label": "Rólunk.at – a Csúcsszervezet megszűnésének dokumentálása",
+          "url": "https://rolunk.at/magazin/ismet-egyutt-unnepeltuk-nemzeti-unnepunket-nickelsdorfban/",
+          "type": "community-media"
         }
       ],
       "categories": [
@@ -8034,19 +8039,26 @@
         "magyar",
         "német"
       ],
-      "profileVerifiedAt": "2026-09-25",
+      "profileVerifiedAt": "2026-09-27",
       "history": {
-        "summary": "Az Ausztriai Független Magyar Kultúregyesületek Csúcsszervezete országos ernyőszervezetként jelenik meg az ausztriai magyar népcsoport intézményi rendszerében. BMKE-források és osztrák kormányzati támogatási dokumentumok külön, önálló magyar szervezeti szereplőként tartják nyilván.",
+        "summary": "Az Ausztriai Független Magyar Kultúregyesületek Csúcsszervezete korábban országos ernyőszervezetként szerepelt az ausztriai magyar népcsoport intézményi rendszerében. Korábbi BMKE-források és osztrák kormányzati támogatási dokumentumok önálló szervezeti szereplőként tartották nyilván. A Rólunk.at 2025-ös nickelsdorfi Kossuth-megemlékezésről szóló beszámolója már kifejezetten megszűnt szervezetként említi.",
         "milestones": [
           {
             "year": "2020",
             "title": "Dokumentált országos ernyőszervezeti státusz",
             "description": "Az osztrák kormányzati népcsoporti támogatási dokumentáció önálló kedvezményezettként/szervezeti szereplőként azonosítja a Csúcsszervezetet.",
             "sourceUrl": "https://www.ris.bka.gv.at/Dokumente/Mrp/MRP_20201223_43/007_001.pdf"
+          },
+          {
+            "year": "2025",
+            "title": "Megszűnés dokumentálása",
+            "description": "A Rólunk.at beszámolója szerint a szervezet addigra megszűnt; a kapcsolódó megemlékezés szervezése más szereplők támogatásával folytatódott.",
+            "sourceUrl": "https://rolunk.at/magazin/ismet-egyutt-unnepeltuk-nemzeti-unnepunket-nickelsdorfban/"
           }
         ]
       },
-      "entityClass": "umbrella"
+      "entityClass": "umbrella",
+      "status": "ceased"
     },
     {
       "id": "virgonc-unterwart",
@@ -10259,6 +10271,53 @@
       ],
       "entityClass": "activity",
       "classificationNote": "2025-ben indult, 2026-ban folytatott visszatérő családi programsorozat."
+    },
+    {
+      "id": "magyar-kulturverein-mattersburg",
+      "name": "Ungarischer Kulturverein Mattersburg / Magyar Kultúregyesület Nagymarton",
+      "state": "burgenland",
+      "city": "Mattersburg / Nagymarton",
+      "type": "kulturális egyesület",
+      "intro": "Nagymartonban működő magyar kulturális egyesület, amelyet az osztrák Szövetségi Kancellária 2026-os népcsoporttámogatási dokumentációja az osztrák magyar népcsoport támogatott szervezetei között sorol fel.",
+      "website": null,
+      "facebook": null,
+      "instagram": null,
+      "eventSources": [],
+      "categories": [
+        "kultura",
+        "kozosseg"
+      ],
+      "activities": [
+        "magyar kulturális közösségi tevékenység"
+      ],
+      "targetGroups": [
+        "Nagymarton és környéke magyar közössége",
+        "a magyar kultúra iránt érdeklődők"
+      ],
+      "languages": [
+        "magyar",
+        "német"
+      ],
+      "profileVerifiedAt": "2026-09-27",
+      "evidenceSources": [
+        {
+          "label": "Bundeskanzleramt – Volksgruppenbericht / népcsoporttámogatási dokumentáció",
+          "url": "https://www.bundeskanzleramt.gv.at/dam/jcr%3Abe8bd926-ccb7-48eb-a0b9-e7cc8417c80e/24_8_bericht16.pdf",
+          "type": "government"
+        }
+      ],
+      "history": {
+        "summary": "A szervezet aktuális működését az osztrák Szövetségi Kancellária 2026-os népcsoporttámogatási dokumentációja igazolja. A DORAPP csak a forrásból egyértelműen igazolható alapadatokat közli; részletes történeti profil további elsődleges forrás alapján bővíthető.",
+        "milestones": [
+          {
+            "year": "2026",
+            "title": "Dokumentált népcsoporttámogatási kedvezményezett",
+            "description": "Az osztrák Szövetségi Kancellária magyar népcsoporti támogatási listáján önálló szervezetként szerepel.",
+            "sourceUrl": "https://www.bundeskanzleramt.gv.at/dam/jcr%3Abe8bd926-ccb7-48eb-a0b9-e7cc8417c80e/24_8_bericht16.pdf"
+          }
+        ]
+      },
+      "entityClass": "organization"
     }
   ],
   "umbrellaOrganizations": [
@@ -10303,13 +10362,6 @@
       "fullName": "Erzdiözese Wien – Referat für Anderssprachige Gemeinden",
       "url": "https://www.erzdioezese-wien.at/",
       "membersUrl": "https://katolikus.at/"
-    },
-    {
-      "id": "fuggetlen-magyar-csucsszervezet",
-      "name": "Független Magyar Kultúregyesületek Csúcsszervezete",
-      "fullName": "Ausztriai Független Magyar Kultúregyesületek Csúcsszervezete",
-      "url": "https://bukv.at/hu/linkek/",
-      "membersUrl": null
     }
   ],
   "regionalNetworks": [
