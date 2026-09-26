@@ -3478,7 +3478,7 @@
         "magyar",
         "német"
       ],
-      "profileVerifiedAt": "2026-09-25",
+      "profileVerifiedAt": "2026-09-27",
       "evidenceSources": [
         {
           "label": "UMIZ – Történetünk",
@@ -3489,11 +3489,23 @@
           "label": "UMIZ – Impresszum és kapcsolat",
           "url": "https://umiz.at/impressum/",
           "type": "official"
+        },
+        {
+          "label": "Kerekasztal – tagok",
+          "url": "https://kerekasztal.at/tagok/",
+          "type": "institutional"
         }
       ],
       "email": "office@umiz.at",
       "phone": "+43 676 9440 777",
-      "entityClass": "media"
+      "entityClass": "media",
+      "memberships": [
+        {
+          "umbrellaId": "kerekasztal",
+          "sourceUrl": "https://kerekasztal.at/tagok/",
+          "verifiedAt": "2026-09-27"
+        }
+      ]
     },
     {
       "id": "orf-magyarok",
@@ -6493,9 +6505,21 @@
           "label": "ORF Magyarok – Nyárbúcsúztató a nezsideri magyarokkal",
           "url": "https://volksgruppen.orf.at/magyarok/stories/3370764/",
           "type": "public-broadcaster"
+        },
+        {
+          "label": "Kerekasztal – tagok",
+          "url": "https://kerekasztal.at/tagok/",
+          "type": "institutional"
         }
       ],
-      "entityClass": "organization"
+      "entityClass": "organization",
+      "memberships": [
+        {
+          "umbrellaId": "kerekasztal",
+          "sourceUrl": "https://kerekasztal.at/tagok/",
+          "verifiedAt": "2026-09-27"
+        }
+      ]
     },
     {
       "id": "felsoori-katolikus",
@@ -10298,6 +10322,118 @@
       ],
       "entityClass": "activity",
       "classificationNote": "2025-ben indult, 2026-ban folytatott visszatérő családi programsorozat."
+    },
+    {
+      "id": "bmkbe",
+      "name": "BMKBE – Bécsi Magyar Kultúrcentrum Barátai",
+      "state": "wien",
+      "city": "Wien",
+      "type": "kulturális támogató egyesület",
+      "intro": "A Bécsi Magyar Kultúrcentrum Barátainak Egyesülete a Bécsben és Bécs környékén élő magyar diákok magyarországi nyári táborainak anyagi és erkölcsi támogatását tekinti fő feladatának.",
+      "website": null,
+      "facebook": null,
+      "instagram": null,
+      "eventSources": [],
+      "memberships": [
+        {
+          "umbrellaId": "kerekasztal",
+          "sourceUrl": "https://kerekasztal.at/tagok/",
+          "verifiedAt": "2026-09-27"
+        }
+      ],
+      "categories": [
+        "kultura",
+        "diak",
+        "kozosseg"
+      ],
+      "activities": [
+        "bécsi és Bécs környéki magyar diákok támogatása",
+        "magyarországi nyári táborok anyagi és erkölcsi támogatása",
+        "kulturális közösségi támogatás"
+      ],
+      "targetGroups": [
+        "Bécsben és környékén élő magyar diákok",
+        "magyar nyári táborok résztvevői"
+      ],
+      "languages": [
+        "magyar",
+        "német"
+      ],
+      "profileVerifiedAt": "2026-09-27",
+      "evidenceSources": [
+        {
+          "label": "Kerekasztal – tagok",
+          "url": "https://kerekasztal.at/tagok/",
+          "type": "institutional"
+        }
+      ],
+      "history": {
+        "summary": "A Bécsi Magyar Kultúrcentrum Barátai a Kerekasztal saját tagoldalán szereplő tagszervezet. A nyilvános leírás szerint tevékenységének fő célja a Bécsben és környékén élő magyar diákok magyarországi nyári táborainak támogatása.",
+        "milestones": [
+          {
+            "year": "2026",
+            "title": "Kerekasztal-tagság dokumentálva",
+            "description": "A Kerekasztal hivatalos tagoldala önálló tagszervezetként sorolja fel.",
+            "sourceUrl": "https://kerekasztal.at/tagok/"
+          }
+        ]
+      },
+      "entityClass": "organization"
+    },
+    {
+      "id": "polgari-magyar-fiatalok",
+      "name": "Polgári Magyar Fiatalok Egyesülete",
+      "state": "wien",
+      "city": "Wien",
+      "type": "ifjúsági közösségi egyesület",
+      "intro": "Bécsi magyar fiatalok közösségi egyesülete, amely a fiatal generáció aktív részvételét és megszólalását kívánja erősíteni a bécsi magyar közösségi életben.",
+      "website": null,
+      "facebook": null,
+      "instagram": null,
+      "eventSources": [],
+      "memberships": [
+        {
+          "umbrellaId": "kerekasztal",
+          "sourceUrl": "https://kerekasztal.at/tagok/",
+          "verifiedAt": "2026-09-27"
+        }
+      ],
+      "categories": [
+        "diak",
+        "kozosseg"
+      ],
+      "activities": [
+        "bécsi magyar fiatalok közösségépítése",
+        "fiatalok részvételének ösztönzése a magyar közösségi életben",
+        "ifjúsági találkozások és közösségi kapcsolódás"
+      ],
+      "targetGroups": [
+        "Bécsben élő magyar fiatalok"
+      ],
+      "languages": [
+        "magyar",
+        "német"
+      ],
+      "profileVerifiedAt": "2026-09-27",
+      "evidenceSources": [
+        {
+          "label": "Kerekasztal – tagok",
+          "url": "https://kerekasztal.at/tagok/",
+          "type": "institutional"
+        }
+      ],
+      "history": {
+        "summary": "A Polgári Magyar Fiatalok Egyesületét a Kerekasztal saját tagoldala bécsi magyar ifjúsági tagszervezetként mutatja be. A szervezet célja, hogy aktív fiatal közösséget építsen, és teret adjon a fiatal generáció részvételének a bécsi magyar közösségi életben.",
+        "milestones": [
+          {
+            "year": "2026",
+            "title": "Kerekasztal-tagság dokumentálva",
+            "description": "A Kerekasztal hivatalos tagoldala önálló tagszervezetként sorolja fel.",
+            "sourceUrl": "https://kerekasztal.at/tagok/"
+          }
+        ]
+      },
+      "entityClass": "organization"
     }
   ],
   "umbrellaOrganizations": [
