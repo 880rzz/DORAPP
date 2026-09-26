@@ -45,7 +45,7 @@ def footer(prefix="../"):
 def shell(title,description,canonical,body,schema,prefix="../"):
     return f'''<!doctype html><html lang="hu-AT"><head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-1FC22JEX2F"></script><script>window.dataLayer=window.dataLayer||[];function gtag(){{dataLayer.push(arguments)}}gtag('js',new Date());gtag('config','G-1FC22JEX2F');</script><link rel="icon" href="https://diaszpora.kozpontiszovetseg.at/favicon.svg" type="image/svg+xml"><title>{esc(title)}</title><meta name="description" content="{esc(description)}">
+<link rel="icon" href="https://diaszpora.kozpontiszovetseg.at/favicon.svg" type="image/svg+xml"><title>{esc(title)}</title><meta name="description" content="{esc(description)}">
 <meta name="robots" content="index,follow,max-snippet:-1,max-image-preview:large">
 <link rel="canonical" href="{esc(canonical)}">
 <meta property="og:type" content="website"><meta property="og:title" content="{esc(title)}"><meta property="og:description" content="{esc(description)}"><meta property="og:url" content="{esc(canonical)}">
@@ -54,7 +54,7 @@ def shell(title,description,canonical,body,schema,prefix="../"):
 <script type="application/ld+json">{jsonld(schema)}</script></head><body>
 <a class="skip" href="#main">Ugrás a tartalomhoz</a>
 <header class="topbar"><div class="wrap navrow"><a class="brand" href="{prefix}"><span class="mark">AT×HU</span><span>Magyar Programok Ausztriában</span></a><nav><a href="{prefix}#terkep">Térkép</a><a href="{prefix}#szervezetek">Közösségek</a><a href="{prefix}#oktatas">Oktatás</a><a href="{prefix}#naptar">Programok</a></nav></div></header>
-<main id="main">{body}</main>{footer(prefix)}</body></html>'''
+<main id="main">{body}</main>{footer(prefix)}<script src="{prefix}ui.js?v=20260926-consent-nav" defer></script></body></html>'''
 
 def place_schema(e):
     addr=e.get("address")
