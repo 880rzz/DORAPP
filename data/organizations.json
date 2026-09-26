@@ -9785,6 +9785,75 @@
       ],
       "entityClass": "activity",
       "classificationNote": "Évente ismétlődő táborprogram; az egyes évek az eseménynaptárba tartoznak."
+    },
+    {
+      "id": "mime-neptanc",
+      "name": "MIME – Vorarlbergi Magyar Néptánccsoport",
+      "state": "vorarlberg",
+      "city": "Feldkirch",
+      "type": "magyar néptánccsoport",
+      "categories": [
+        "neptanc"
+      ],
+      "parentOrganizationId": "mime-vorarlberg",
+      "intro": "A Mi Magyarok Egymásért vorarlbergi magyar néptáncközössége. A felnőtt csoport kéthetente próbál Feldkirchben, az egyesület pedig gyermekeknek is biztosít néptánc-programokat és rendszeres próbalehetőséget.",
+      "website": "https://rolunk.at/magazin/ti-is-tancoltok-csardast/",
+      "facebook": null,
+      "instagram": null,
+      "eventSources": [
+        "https://rolunk.at/magazin/ti-is-tancoltok-csardast/"
+      ],
+      "affiliations": [
+        {
+          "organizationId": "mime-vorarlberg",
+          "label": "A Mi Magyarok Egymásért Egyesület keretében működő néptánccsoport",
+          "sourceUrl": "https://www.korosiprogram.hu/partnereink/mi-magyarok-egymasert"
+        }
+      ],
+      "history": {
+        "summary": "A vorarlbergi Mi Magyarok Egymásért egyesület megalakulása után röviddel indult el a magyar néptáncoktatás. A felnőtt közösség Feldkirchben kéthetente próbál; a program az egyesület kulturális profiljának tartós része, és gyermekek számára is kínál néptáncos kapcsolódást.",
+        "milestones": [
+          {
+            "year": "2024",
+            "title": "Rendszeres felnőtt néptáncpróbák",
+            "description": "A feldkirchi felnőtt csoport kétheti próbákkal működik és közösségi fellépésekre készül.",
+            "sourceUrl": "https://rolunk.at/magazin/ti-is-tancoltok-csardast/"
+          },
+          {
+            "year": "2025",
+            "title": "Felnőtt és gyermek néptánc az egyesületben",
+            "description": "A Kőrösi Csoma Sándor Program partnerbemutatása felnőtteknek és gyermekeknek szóló rendszeres néptáncprogramot dokumentál.",
+            "sourceUrl": "https://www.korosiprogram.hu/partnereink/mi-magyarok-egymasert"
+          }
+        ]
+      },
+      "activities": [
+        "magyar néptáncpróbák",
+        "felnőtt néptáncoktatás",
+        "gyermek néptáncprogramok",
+        "közösségi fellépések és táncházak"
+      ],
+      "targetGroups": [
+        "Vorarlbergben élő magyar fiatalok és felnőttek",
+        "magyar néptánc iránt érdeklődő családok és gyermekek"
+      ],
+      "languages": [
+        "magyar"
+      ],
+      "profileVerifiedAt": "2026-09-26",
+      "evidenceSources": [
+        {
+          "label": "Kőrösi Csoma Sándor Program – Mi Magyarok Egymásért",
+          "url": "https://www.korosiprogram.hu/partnereink/mi-magyarok-egymasert",
+          "type": "institutional"
+        },
+        {
+          "label": "Rólunk.at – Ti is táncoltok csárdást?",
+          "url": "https://rolunk.at/magazin/ti-is-tancoltok-csardast/",
+          "type": "community-media"
+        }
+      ],
+      "entityClass": "group"
     }
   ],
   "umbrellaOrganizations": [
