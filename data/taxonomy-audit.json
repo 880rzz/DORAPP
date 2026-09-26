@@ -1,12 +1,12 @@
 {
-  "updated": "2026-09-26T17:59:07.480684+00:00",
+  "updated": "2026-09-26T18:01:29.188023+00:00",
   "summary": {
-    "organizations": 135,
+    "organizations": 136,
     "organizationFlags": 0,
-    "organizationPagesChecked": 295,
+    "organizationPagesChecked": 299,
     "education": 105,
     "educationFlags": 0,
-    "events": 20,
+    "events": 21,
     "eventFlags": 0
   },
   "organizations": [
@@ -759,7 +759,7 @@
       "errors": [
         {
           "url": "https://bornemisza.at/",
-          "error": "<urlopen error [Errno 111] Connection refused>"
+          "error": "<urlopen error timed out>"
         },
         {
           "url": "https://www.kozpontiszovetseg.at/event-details/dr-janosi-zoltan-irodalomtortenesz-iro-kolto",
@@ -1250,9 +1250,22 @@
         "kultura"
       ],
       "activityCategories": [],
-      "signals": [],
-      "pagesChecked": 0,
-      "checkedUrls": [],
+      "signals": [
+        "oktatas",
+        "neptanc",
+        "szinhaz",
+        "media",
+        "egyhaz",
+        "diak",
+        "irodalom",
+        "muveszet"
+      ],
+      "pagesChecked": 3,
+      "checkedUrls": [
+        "https://europaclub.at/",
+        "https://europaclub.at/rolunk/europa-club-tortenete/",
+        "https://europaclub.at/de/kontakt/"
+      ],
       "errors": [],
       "flags": []
     },
@@ -1711,12 +1724,16 @@
         "muveszet",
         "csalad"
       ],
-      "pagesChecked": 2,
+      "pagesChecked": 1,
       "checkedUrls": [
-        "https://kalaka-club.at/",
         "https://www.korosiprogram.hu/partnereink/ausztriai-magyarok-gazdasagi-erdekkozossege-kalaka-klub"
       ],
-      "errors": [],
+      "errors": [
+        {
+          "url": "https://kalaka-club.at/",
+          "error": "HTTP Error 500: Internal Server Error"
+        }
+      ],
       "flags": []
     },
     {
@@ -2320,6 +2337,35 @@
         "https://rolunk.at/kultura/az-olvasas-mint-kozos-nyelv-magyar-nyelvu-konyvtar-linzben/",
         "https://kupfticket.com/en/events/boldizsar-ildiko",
         "https://kupfticket.com/en/events/kadar-annamaria"
+      ],
+      "errors": [],
+      "flags": []
+    },
+    {
+      "id": "mime-neptanc",
+      "name": "MIME – Vorarlbergi Magyar Néptánccsoport",
+      "entityClass": "group",
+      "categories": [
+        "neptanc"
+      ],
+      "activityCategories": [],
+      "signals": [
+        "oktatas",
+        "neptanc",
+        "nepzene",
+        "cserkesz",
+        "szinhaz",
+        "media",
+        "egyhaz",
+        "diak",
+        "irodalom",
+        "muveszet",
+        "csalad"
+      ],
+      "pagesChecked": 2,
+      "checkedUrls": [
+        "https://rolunk.at/magazin/ti-is-tancoltok-csardast/",
+        "https://www.korosiprogram.hu/partnereink/mi-magyarok-egymasert"
       ],
       "errors": [],
       "flags": []
