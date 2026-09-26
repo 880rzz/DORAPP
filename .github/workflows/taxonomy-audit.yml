@@ -1,0 +1,48 @@
+name: Taxonomy audit
+on:
+  workflow_dispatch:
+  push:
+    branches: ["main"]
+    paths:
+      - "data/organizations.json"
+      - "data/education.json"
+      - "data/events.json"
+      - "scripts/audit_taxonomy.py"
+      - ".github/workflows/taxonomy-audit.yml"
+  schedule:
+    - cron: "11 5 * * *"
+permissions:
+  contents: write
+concurrency:
+  group: dorapp-taxonomy-audit
+  cancel-in-progress: true
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Validate code
+        run: |
+          python -m py_compile scripts/audit_taxonomy.py
+          python -m json.tool data/organizations.json >/dev/null
+          python -m json.tool data/education.json >/dev/null
+          python -m json.tool data/events.json >/dev/null
+      - name: Audit taxonomy against source pages
+        run: python scripts/audit_taxonomy.py
+      - name: Validate result
+        run: python -m json.tool data/taxonomy-audit.json >/dev/null
+      - name: Commit audit result
+        run: |
+          if git diff --quiet -- data/taxonomy-audit.json; then
+            echo "No taxonomy audit changes"
+            exit 0
+          fi
+          git config user.name "dorapp-taxonomy-audit[bot]"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/taxonomy-audit.json
+          git commit -m "chore(taxonomy): refresh source audit"
+          git pull --rebase origin main
+          git push origin HEAD:main
