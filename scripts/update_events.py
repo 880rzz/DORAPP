@@ -110,6 +110,51 @@ def normalize(x,org,source,discovered_from=None):
             "sourceUrl":x.get("url") or source,"discoveredFrom":discovered_from or source,
             "verifiedAt":datetime.now(timezone.utc).isoformat()}
 
+def canonical_text(v):
+    return re.sub(r"[^a-z0-9áéíóöőúüű]+"," ",clean_text(v).casefold()).strip()
+
+def local_day(start):
+    s=str(start or "")
+    m=re.match(r"^(\\d{4}-\\d{2}-\\d{2})",s)
+    return m.group(1) if m else s[:10]
+
+def event_key(e):
+    # Semantic identity: same organizer + normalized title + local calendar day.
+    # This intentionally ignores timezone serialization differences (+02:00 vs no offset).
+    return (str(e.get("organizationId") or ""), canonical_text(e.get("name") or ""), local_day(e.get("startDate")))
+
+def event_score(e):
+    start=str(e.get("startDate") or "")
+    tz_bonus=2 if re.search(r"(Z|[+-]\\d{2}:?\\d{2})$",start) else 0
+    fields=("venue","address","description","registrationUrl","price","priceCurrency","availability","image","eventStatus","attendanceMode","audience")
+    richness=sum(1 for k in fields if e.get(k))
+    source_bonus=1 if "/event" in str(e.get("sourceUrl") or "").lower() else 0
+    return tz_bonus+richness+source_bonus
+
+def merge_event(a,b):
+    primary,secondary=(a,b) if event_score(a)>=event_score(b) else (b,a)
+    out=dict(primary)
+    for k,v in secondary.items():
+        if out.get(k) in (None,"",[],{}) and v not in (None,"",[],{}):
+            out[k]=v
+    performers=[]
+    for p in list(primary.get("performers") or [])+list(secondary.get("performers") or []):
+        p=clean_text(p)
+        if p and p.casefold()!="organization" and p not in performers:
+            performers.append(p)
+    out["performers"]=performers
+    for k in ("description","address","venue"):
+        if out.get(k):
+            out[k]=clean_text(str(out[k]).replace("\\\\n"," ").replace("\\\\, ",", ").replace("\\\\,",","))
+    return out
+
+def dedupe_events(items):
+    merged={}
+    for e in items:
+        k=event_key(e)
+        merged[k]=merge_event(merged[k],e) if k in merged else e
+    return list(merged.values())
+
 def futureish(start):
     try:
         s=str(start).replace("Z","+00:00"); d=datetime.fromisoformat(s)
@@ -195,8 +240,7 @@ def main():
                     collected.extend(e for e in subevents if futureish(e["startDate"]))
                 except Exception:
                     continue
-            unique={e["id"]:e for e in collected}
-            collected=list(unique.values())
+            collected=dedupe_events(collected)
             row["eventsFound"]=len(collected)
             row["status"]="ok-events" if collected else "ok-no-structured-event"
         except Exception as ex:
@@ -212,7 +256,7 @@ def main():
             for e in collected:
                 merged[e["id"]]=e
     health.sort(key=lambda x:(x["organizationId"],x["source"]))
-    events=sorted(merged.values(),key=lambda e:str(e.get("startDate","")))
+    events=sorted(dedupe_events(merged.values()),key=lambda e:str(e.get("startDate","")))
     now=datetime.now(timezone.utc).isoformat()
     EVENT_FILE.write_text(json.dumps({"updated":now,"events":events},ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
     HEALTH_FILE.write_text(json.dumps({"updated":now,"sources":health},ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
