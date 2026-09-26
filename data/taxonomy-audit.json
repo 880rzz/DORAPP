@@ -1,9 +1,9 @@
 {
-  "updated": "2026-09-26T16:37:36.062141+00:00",
+  "updated": "2026-09-26T17:51:18.204467+00:00",
   "summary": {
-    "organizations": 124,
-    "organizationFlags": 0,
-    "organizationPagesChecked": 281,
+    "organizations": 125,
+    "organizationFlags": 1,
+    "organizationPagesChecked": 286,
     "education": 103,
     "educationFlags": 0,
     "events": 20,
@@ -805,20 +805,23 @@
       "activityCategories": [],
       "signals": [
         "oktatas",
-        "szinhaz",
         "media",
-        "irodalom",
-        "muveszet",
-        "csalad"
+        "irodalom"
       ],
-      "pagesChecked": 3,
+      "pagesChecked": 2,
       "checkedUrls": [
         "https://culture.hu/hu/wien",
-        "https://culture.hu/hu/wien/esemenyek",
         "https://culture.hu/de/wien/jubilaum"
       ],
-      "errors": [],
-      "flags": []
+      "errors": [
+        {
+          "url": "https://culture.hu/hu/wien/esemenyek",
+          "error": "The read operation timed out"
+        }
+      ],
+      "flags": [
+        "weak-source-signal:muveszet"
+      ]
     },
     {
       "id": "collegium-pazmanianum",
@@ -1161,9 +1164,22 @@
         "kultura"
       ],
       "activityCategories": [],
-      "signals": [],
-      "pagesChecked": 0,
-      "checkedUrls": [],
+      "signals": [
+        "oktatas",
+        "neptanc",
+        "szinhaz",
+        "media",
+        "egyhaz",
+        "diak",
+        "irodalom",
+        "muveszet"
+      ],
+      "pagesChecked": 3,
+      "checkedUrls": [
+        "https://europaclub.at/",
+        "https://europaclub.at/rolunk/europa-club-tortenete/",
+        "https://europaclub.at/de/kontakt/"
+      ],
       "errors": [],
       "flags": []
     },
@@ -1926,7 +1942,8 @@
       ],
       "activityCategories": [],
       "signals": [
-        "csalad"
+        "diak",
+        "muveszet"
       ],
       "pagesChecked": 1,
       "checkedUrls": [
@@ -2021,7 +2038,7 @@
       "errors": [
         {
           "url": "https://www.magyarszo.at/",
-          "error": "<urlopen error timed out>"
+          "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'www.magyarszo.at'. (_ssl.c:1010)>"
         }
       ],
       "flags": []
@@ -2452,10 +2469,8 @@
       ],
       "activityCategories": [],
       "signals": [
-        "nepzene",
         "cserkesz",
         "media",
-        "egyhaz",
         "irodalom",
         "muveszet",
         "sport"
@@ -2742,7 +2757,6 @@
       ],
       "activityCategories": [],
       "signals": [
-        "nepzene",
         "cserkesz",
         "szinhaz",
         "media",
@@ -2995,6 +3009,31 @@
       "checkedUrls": [
         "https://salzung.com/hu/projektek/oktatas",
         "https://salzung.com/hu/?start=8"
+      ],
+      "errors": [],
+      "flags": []
+    },
+    {
+      "id": "semmelweis-orvosegyesulet",
+      "name": "Semmelweis Magyar Orvosok Egyesülete",
+      "entityClass": "organization",
+      "categories": [
+        "kozosseg"
+      ],
+      "activityCategories": [],
+      "signals": [
+        "oktatas",
+        "neptanc",
+        "cserkesz",
+        "media",
+        "sport",
+        "csalad"
+      ],
+      "pagesChecked": 3,
+      "checkedUrls": [
+        "https://www.korosiprogram.hu/partnereink/ausztriai-magyar-egyesuletek-es-szervezetek-kozponti-szovetsege-es-tagszervezetei",
+        "https://volksgruppenv1.orf.at/magyarok/aktualis/stories/40298.html",
+        "https://volksgruppen.orf.at/v2/magyarok/stories/2764323/"
       ],
       "errors": [],
       "flags": []
