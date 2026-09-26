@@ -9133,6 +9133,239 @@
       ],
       "entityClass": "organization",
       "classificationNote": "A jelenlegi Központi Szövetség tagszervezeti oldalán nem szerepel; ezért a kapcsolat affiliation, nem membership. Az aktuális működési státusz nincs külön bizonyítva."
+    },
+    {
+      "id": "becsi-magyar-otthon",
+      "name": "Bécsi Magyar Otthon",
+      "state": "wien",
+      "city": "Wien",
+      "type": "magyar közösségi és kulturális központ",
+      "intro": "A Központi Szövetség bécsi székhelye és közösségi intézménye a Schwedenplatz 2. alatt. A helyszín magyar oktatási, kulturális, szervezeti és közösségi tevékenységeknek ad otthont, és több ausztriai magyar szervezet számára is találkozási infrastruktúrát biztosít.",
+      "website": "https://www.kozpontiszovetseg.at/",
+      "facebook": null,
+      "instagram": null,
+      "eventSources": [
+        "https://www.kozpontiszovetseg.at/"
+      ],
+      "affiliations": [
+        {
+          "organizationId": "kozponti-szovetseg",
+          "label": "A Központi Szövetség tulajdonában álló székhely és közösségi intézmény",
+          "sourceUrl": "https://www.korosiprogram.hu/partnereink/ausztriai-magyar-egyesuletek-es-szervezetek-kozponti-szovetsege-es-tagszervezetei"
+        }
+      ],
+      "categories": [
+        "kozosseg",
+        "kultura"
+      ],
+      "history": {
+        "summary": "A Központi Szövetség 1999-ben jutott saját bécsi ingatlanhoz a Schwedenplatzon. A Bécsi Magyar Otthonként működő központ a Szövetség székhelye, és helyet biztosít többek között oktatási, szerkesztőségi, könyvtári, kulturális és szervezeti tevékenységeknek.",
+        "milestones": [
+          {
+            "year": "1999",
+            "title": "Saját bécsi központ",
+            "description": "A Központi Szövetség saját helyiséget szerzett a Schwedenplatzon, amely a bécsi magyar közösségi infrastruktúra egyik központjává vált.",
+            "sourceUrl": "https://www.kozpontiszovetseg.at/r%C3%B3lunk"
+          }
+        ]
+      },
+      "activities": [
+        "magyar közösségi és kulturális rendezvények helyszíne",
+        "szervezeti találkozók és együttműködések",
+        "magyar oktatási programok helyszíne",
+        "könyvtári és szerkesztőségi infrastruktúra"
+      ],
+      "targetGroups": [
+        "Ausztriában élő magyarok",
+        "ausztriai magyar szervezetek és közösségek",
+        "magyar kulturális és oktatási programok résztvevői"
+      ],
+      "languages": [
+        "magyar",
+        "német"
+      ],
+      "profileVerifiedAt": "2026-09-26",
+      "evidenceSources": [
+        {
+          "label": "Központi Szövetség – Rólunk",
+          "url": "https://www.kozpontiszovetseg.at/r%C3%B3lunk",
+          "type": "official"
+        },
+        {
+          "label": "Kőrösi Csoma Sándor Program – Központi Szövetség",
+          "url": "https://www.korosiprogram.hu/partnereink/ausztriai-magyar-egyesuletek-es-szervezetek-kozponti-szovetsege-es-tagszervezetei",
+          "type": "institutional"
+        }
+      ],
+      "entityClass": "institution",
+      "classificationNote": "A Központi Szövetség saját intézménye és székhelye; nem külön tagszervezet."
+    },
+    {
+      "id": "orseg-naptar",
+      "name": "Őrség – háromnyelvű falinaptár",
+      "state": "wien",
+      "city": "Wien",
+      "type": "magyar–német–horvát kulturális falinaptár",
+      "intro": "A Központi Szövetség 1985 óta megjelenő háromnyelvű – magyar, német és horvát – falinaptára, amely az ausztriai magyar népcsoport kulturális és közösségi jelenlétének egyik tartós kiadványa.",
+      "website": "https://www.kozpontiszovetseg.at/r%C3%B3lunk",
+      "facebook": null,
+      "instagram": null,
+      "eventSources": [],
+      "affiliations": [
+        {
+          "organizationId": "kozponti-szovetseg",
+          "label": "A Központi Szövetség 1985 óta kiadott háromnyelvű falinaptára",
+          "sourceUrl": "https://www.kozpontiszovetseg.at/r%C3%B3lunk"
+        }
+      ],
+      "categories": [
+        "media",
+        "kultura"
+      ],
+      "founded": "1985",
+      "history": {
+        "summary": "A Központi Szövetség saját történeti bemutatkozása szerint 1985 óta adja ki az Őrség című háromnyelvű falinaptárt magyar, német és horvát nyelven.",
+        "milestones": [
+          {
+            "year": "1985",
+            "title": "Az Őrség naptár indulása",
+            "description": "A Központi Szövetség megkezdi a háromnyelvű falinaptár kiadását.",
+            "sourceUrl": "https://www.kozpontiszovetseg.at/r%C3%B3lunk"
+          }
+        ]
+      },
+      "activities": [
+        "éves kulturális falinaptár kiadása",
+        "magyar népcsoporti kulturális tartalom közvetítése"
+      ],
+      "targetGroups": [
+        "ausztriai magyar közösség",
+        "népcsoporti és kulturális érdeklődők"
+      ],
+      "languages": [
+        "magyar",
+        "német",
+        "horvát"
+      ],
+      "profileVerifiedAt": "2026-09-26",
+      "evidenceSources": [
+        {
+          "label": "Központi Szövetség – Rólunk",
+          "url": "https://www.kozpontiszovetseg.at/r%C3%B3lunk",
+          "type": "official"
+        }
+      ],
+      "entityClass": "media",
+      "classificationNote": "A Központi Szövetség saját kiadványa; nem tagszervezet."
+    },
+    {
+      "id": "kufstein-tanacskozas",
+      "name": "Kufstein Tanácskozás",
+      "state": "wien",
+      "city": "Wien / Kufstein",
+      "type": "kisebbségi és diaszpóra konferenciasorozat",
+      "intro": "A Központi Szövetség 1990 óta kétévente megrendezett konferenciasorozata, amely a magyar kisebbségi, diaszpóra-, identitás- és közösségpolitikai kérdések szakmai megvitatásának fóruma.",
+      "website": "https://www.kozpontiszovetseg.at/",
+      "facebook": null,
+      "instagram": null,
+      "eventSources": [
+        "https://www.kozpontiszovetseg.at/"
+      ],
+      "affiliations": [
+        {
+          "organizationId": "kozponti-szovetseg",
+          "label": "A Központi Szövetség 1990 óta kétévente megrendezett konferenciasorozata",
+          "sourceUrl": "https://www.kozpontiszovetseg.at/r%C3%B3lunk"
+        }
+      ],
+      "categories": [
+        "kultura",
+        "kozosseg"
+      ],
+      "founded": "1990",
+      "history": {
+        "summary": "A Központi Szövetség saját bemutatkozása szerint 1990 óta kétévente szervezi meg a Kufstein Tanácskozást. A konferenciasorozat a határon túli és diaszpórában élő magyarság identitásával, közösségi helyzetével és együttműködésével foglalkozik.",
+        "milestones": [
+          {
+            "year": "1990",
+            "title": "A konferenciasorozat indulása",
+            "description": "A Központi Szövetség elindítja a kétévente megrendezett Kufstein Tanácskozást.",
+            "sourceUrl": "https://www.kozpontiszovetseg.at/r%C3%B3lunk"
+          }
+        ]
+      },
+      "activities": [
+        "kisebbségi és diaszpóra-konferenciák",
+        "szakmai és közösségi párbeszéd",
+        "nemzetközi magyar kapcsolatok erősítése"
+      ],
+      "targetGroups": [
+        "ausztriai és európai magyar szervezetek",
+        "közösségi és kulturális szakemberek",
+        "diaszpóra- és kisebbségi kérdések iránt érdeklődők"
+      ],
+      "languages": [
+        "magyar",
+        "német"
+      ],
+      "profileVerifiedAt": "2026-09-26",
+      "evidenceSources": [
+        {
+          "label": "Központi Szövetség – Rólunk",
+          "url": "https://www.kozpontiszovetseg.at/r%C3%B3lunk",
+          "type": "official"
+        }
+      ],
+      "entityClass": "activity",
+      "classificationNote": "Visszatérő konferenciasorozat; nem önálló tagszervezet."
+    },
+    {
+      "id": "sodalitas-kiadoi-projekt",
+      "name": "Sodalitás – Központi Szövetség kiadói tevékenysége",
+      "state": "wien",
+      "city": "Wien",
+      "type": "irodalmi és kulturális kiadói projekt",
+      "intro": "A Központi Szövetség Sodalitás néven végzett alkalmi kiadói tevékenysége, amelyben kiemelten Ausztriában élő magyar szerzők és az ausztriai magyarsághoz kapcsolódó művek megjelentetése kap szerepet.",
+      "website": "https://www.kozpontiszovetseg.at/r%C3%B3lunk",
+      "facebook": null,
+      "instagram": null,
+      "eventSources": [],
+      "affiliations": [
+        {
+          "organizationId": "kozponti-szovetseg",
+          "label": "A Központi Szövetség Sodalitás néven végzett kiadói tevékenysége",
+          "sourceUrl": "https://www.kozpontiszovetseg.at/r%C3%B3lunk"
+        }
+      ],
+      "categories": [
+        "kultura",
+        "irodalom"
+      ],
+      "history": {
+        "summary": "A Központi Szövetség Sodalitás címmel esetenként kiadói tevékenységet folytat; saját bemutatkozása szerint elsősorban Ausztriában élő magyar alkotók munkáinak és az ausztriai magyar közösséghez kapcsolódó kiadványoknak ad teret.",
+        "milestones": []
+      },
+      "activities": [
+        "könyv- és kulturális kiadványok megjelentetése",
+        "ausztriai magyar szerzők műveinek kiadása"
+      ],
+      "targetGroups": [
+        "ausztriai magyar szerzők és olvasók",
+        "magyar irodalmi és kulturális közönség"
+      ],
+      "languages": [
+        "magyar"
+      ],
+      "profileVerifiedAt": "2026-09-26",
+      "evidenceSources": [
+        {
+          "label": "Központi Szövetség – Rólunk",
+          "url": "https://www.kozpontiszovetseg.at/r%C3%B3lunk",
+          "type": "official"
+        }
+      ],
+      "entityClass": "project",
+      "classificationNote": "A Központi Szövetség saját kiadói projektje; nem külön tagszervezet."
     }
   ],
   "umbrellaOrganizations": [
