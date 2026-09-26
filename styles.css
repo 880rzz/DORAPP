@@ -66,3 +66,4 @@
   body{padding-top:64px}
   .topbar nav{top:72px}
 }
+.activity-filters{display:grid;grid-template-columns:1fr 1.4fr;gap:10px;min-width:440px}.activity-filters input,.activity-filters select{width:100%;padding:12px 14px;border:1px solid #cfd0d3;border-radius:12px;background:#fff;font:inherit}@media(max-width:900px){.activity-filters{min-width:0;width:100%}}@media(max-width:620px){.activity-filters{grid-template-columns:1fr}}
