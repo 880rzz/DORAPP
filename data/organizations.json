@@ -1036,7 +1036,9 @@
       "website": null,
       "facebook": null,
       "instagram": null,
-      "eventSources": [],
+      "eventSources": [
+        "https://www.kozpontiszovetseg.at/event-details/zene-es-talalkozas"
+      ],
       "memberships": [
         {
           "umbrellaId": "kozponti-szovetseg",
@@ -1088,7 +1090,7 @@
         "német"
       ],
       "email": "agnes.katona@gmx.org",
-      "profileVerifiedAt": "2026-09-25",
+      "profileVerifiedAt": "2026-09-26",
       "evidenceSources": [
         {
           "label": "ORF Magyarok – A Duna Filharmónia Németóváron",
@@ -5920,7 +5922,7 @@
       "city": "Innsbruck",
       "type": "egyházi közösség",
       "intro": "Az Innsbrucki Magyar Katolikus Közösség Tirol magyar híveinek történelmi egyházi közössége. Az innsbrucki egyházmegyében 1946 óta hivatalosan elismert magyar katolikus közösségként működik, és magyar nyelvű szentmiséket, lelki és közösségi alkalmakat szervez.",
-      "website": null,
+      "website": "https://www.dibk.at/Media/Organisationen/muttersprachliche-seelsorge",
       "facebook": null,
       "instagram": null,
       "eventSources": [],
@@ -5941,6 +5943,11 @@
           "label": "Életünk – Innsbrucki magyar katolikus egyházközség története",
           "url": "https://epa.oszk.hu/04000/04031/00189/pdf/EPA04031_eletunk_2017_01.pdf",
           "type": "community-media"
+        },
+        {
+          "label": "Diözese Innsbruck – Muttersprachliche Seelsorge, Ungarische Gemeinde (Stand September 2026)",
+          "url": "https://www.dibk.at/Media/Organisationen/muttersprachliche-seelsorge",
+          "type": "church-official"
         }
       ],
       "categories": [
@@ -5972,7 +5979,7 @@
         "német"
       ],
       "email": "pepat@ikbnet.at",
-      "profileVerifiedAt": "2026-09-25",
+      "profileVerifiedAt": "2026-09-26",
       "entityClass": "organization"
     },
     {
@@ -10106,6 +10113,74 @@
         }
       ],
       "entityClass": "institution"
+    },
+    {
+      "id": "szent-istvan-unnep-becs",
+      "name": "Bécsi Szent István-ünnep és kenyérszentelés",
+      "state": "wien",
+      "city": "Wien – Stephansdom",
+      "type": "éves magyar egyházi és közösségi ünnepség",
+      "intro": "A bécsi magyar közösség hagyományos, évente megrendezett Szent István-ünnepe a Stephansdomban. A Kaláka Club és a Collegium Pazmaneum közös szervezésében ünnepi magyar mise, kenyérszentelés és közösségi találkozás kapcsolódik az államalapítás ünnepéhez.",
+      "website": "https://volksgruppen.orf.at/magyarok/stories/3368141/",
+      "facebook": null,
+      "instagram": null,
+      "eventSources": [
+        "https://volksgruppen.orf.at/magyarok/stories/3368141/"
+      ],
+      "affiliations": [
+        {
+          "organizationId": "kalaka-club",
+          "label": "A rendezvény társszervezője",
+          "sourceUrl": "https://volksgruppen.orf.at/magyarok/stories/3368141/"
+        },
+        {
+          "organizationId": "collegium-pazmanianum",
+          "label": "A rendezvény társszervezője",
+          "sourceUrl": "https://volksgruppen.orf.at/magyarok/stories/3368141/"
+        }
+      ],
+      "categories": [],
+      "activityCategories": [
+        "kozosseg",
+        "zene",
+        "felnott"
+      ],
+      "parentOrganizationId": "kalaka-club",
+      "history": {
+        "summary": "A Szent István ünnep Bécsben hagyományosan az augusztus 20-i nemzeti ünnepet követő szombaton zajlik a Stephansdomban. 2026-ban mintegy 900 résztvevő vett részt az ünnepi misén és kenyérszentelésen.",
+        "milestones": [
+          {
+            "year": "2026",
+            "title": "Mintegy 900 résztvevő",
+            "description": "A Stephansdomot 2026-ban is megtöltötte a bécsi magyar Szent István-ünnep közönsége.",
+            "sourceUrl": "https://volksgruppen.orf.at/magyarok/stories/3368141/"
+          }
+        ]
+      },
+      "activities": [
+        "magyar nyelvű ünnepi mise",
+        "kenyérszentelés",
+        "magyar közösségi találkozó",
+        "Szent István-napi hagyományápolás"
+      ],
+      "targetGroups": [
+        "Bécsben és környékén élő magyarok",
+        "magyar katolikus hívek",
+        "magyar nemzeti hagyományok iránt érdeklődők"
+      ],
+      "languages": [
+        "magyar"
+      ],
+      "profileVerifiedAt": "2026-09-26",
+      "evidenceSources": [
+        {
+          "label": "ORF Magyarok – Kenyérszentelés és ünnepi mise 2026",
+          "url": "https://volksgruppen.orf.at/magyarok/stories/3368141/",
+          "type": "public-broadcaster"
+        }
+      ],
+      "entityClass": "activity",
+      "classificationNote": "Évente ismétlődő ünnepségsorozat; az egyes évek külön eseményrekordként kezelhetők."
     }
   ],
   "umbrellaOrganizations": [
