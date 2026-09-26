@@ -1,15 +1,47 @@
 {
-  "updated": "2026-09-26T17:56:40.858376+00:00",
+  "updated": "2026-09-26T17:59:07.480684+00:00",
   "summary": {
-    "organizations": 132,
+    "organizations": 135,
     "organizationFlags": 0,
-    "organizationPagesChecked": 289,
-    "education": 104,
+    "organizationPagesChecked": 295,
+    "education": 105,
     "educationFlags": 0,
     "events": 20,
     "eventFlags": 0
   },
   "organizations": [
+    {
+      "id": "achtungarn-fesztival",
+      "name": "AchtUngarn Fesztivál",
+      "entityClass": "activity",
+      "categories": [],
+      "activityCategories": [
+        "zene",
+        "neptanc",
+        "irodalom",
+        "gyermek",
+        "kozosseg"
+      ],
+      "signals": [
+        "oktatas",
+        "neptanc",
+        "nepzene",
+        "szinhaz",
+        "media",
+        "egyhaz",
+        "diak",
+        "irodalom",
+        "sport",
+        "csalad"
+      ],
+      "pagesChecked": 2,
+      "checkedUrls": [
+        "https://kerekasztal.at/",
+        "https://volksgruppen.orf.at/magyarok/stories/3368109/"
+      ],
+      "errors": [],
+      "flags": []
+    },
     {
       "id": "alsoori-enekkar",
       "name": "Alsóőri Énekkar",
@@ -1471,6 +1503,32 @@
       "flags": []
     },
     {
+      "id": "grazi-magyar-bal",
+      "name": "Grazi Magyar Bál",
+      "entityClass": "activity",
+      "categories": [],
+      "activityCategories": [
+        "zene",
+        "neptanc",
+        "felnott",
+        "kozosseg"
+      ],
+      "signals": [
+        "oktatas",
+        "media",
+        "egyhaz",
+        "diak",
+        "csalad"
+      ],
+      "pagesChecked": 2,
+      "checkedUrls": [
+        "https://www.grazimagyaregyesuelet.at/",
+        "https://www.grazimagyaregyesuelet.at/bel%C3%A9p%C3%B6-jegyek-ballkarte-kaufen/"
+      ],
+      "errors": [],
+      "flags": []
+    },
+    {
       "id": "grazi-magyar-egyesulet",
       "name": "Grazi Magyar Egyesület",
       "entityClass": "organization",
@@ -1597,13 +1655,17 @@
         "muveszet",
         "csalad"
       ],
-      "pagesChecked": 3,
+      "pagesChecked": 2,
       "checkedUrls": [
         "https://www.facebook.com/IMIKE2019UJKV/",
-        "https://www.instagram.com/imike_ujkv/",
         "https://rolunk.at/nepcsoportunk/sziveben-magyar/"
       ],
-      "errors": [],
+      "errors": [
+        {
+          "url": "https://www.instagram.com/imike_ujkv/",
+          "error": "HTTP Error 429: Too Many Requests"
+        }
+      ],
       "flags": []
     },
     {
@@ -1649,16 +1711,12 @@
         "muveszet",
         "csalad"
       ],
-      "pagesChecked": 1,
+      "pagesChecked": 2,
       "checkedUrls": [
+        "https://kalaka-club.at/",
         "https://www.korosiprogram.hu/partnereink/ausztriai-magyarok-gazdasagi-erdekkozossege-kalaka-klub"
       ],
-      "errors": [
-        {
-          "url": "https://kalaka-club.at/",
-          "error": "HTTP Error 500: Internal Server Error"
-        }
-      ],
+      "errors": [],
       "flags": []
     },
     {
@@ -2007,8 +2065,7 @@
       ],
       "activityCategories": [],
       "signals": [
-        "diak",
-        "muveszet"
+        "csalad"
       ],
       "pagesChecked": 1,
       "checkedUrls": [
@@ -2934,6 +2991,38 @@
       "checkedUrls": [
         "https://rolunk.at/",
         "https://rolunk.at/rolunk/"
+      ],
+      "errors": [],
+      "flags": []
+    },
+    {
+      "id": "rolunk-szolunk-tabor",
+      "name": "Rólunk szólunk – HungaroMedia nyári tábor",
+      "entityClass": "activity",
+      "categories": [],
+      "activityCategories": [
+        "magyar-nyelv",
+        "drama-szinhaz",
+        "kreativ-digitalis",
+        "ifjusag",
+        "kozosseg"
+      ],
+      "signals": [
+        "oktatas",
+        "neptanc",
+        "nepzene",
+        "szinhaz",
+        "media",
+        "egyhaz",
+        "irodalom",
+        "muveszet",
+        "sport",
+        "csalad"
+      ],
+      "pagesChecked": 2,
+      "checkedUrls": [
+        "https://rolunk.at/magazin/sokszinu-gyerekek-vagany-szulok-a-hungaromedia-taboraban/",
+        "https://rolunk.at/aktualis/nyari-taborok-ausztriaban-2026/"
       ],
       "errors": [],
       "flags": []
