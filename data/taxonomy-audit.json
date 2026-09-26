@@ -1,9 +1,9 @@
 {
-  "updated": "2026-09-26T22:48:07.313210+00:00",
+  "updated": "2026-09-26T22:52:35.417432+00:00",
   "summary": {
-    "organizations": 142,
+    "organizations": 144,
     "organizationFlags": 0,
-    "organizationPagesChecked": 308,
+    "organizationPagesChecked": 310,
     "education": 106,
     "educationFlags": 0,
     "events": 21,
@@ -555,21 +555,23 @@
       "activityCategories": [],
       "signals": [
         "oktatas",
-        "neptanc",
-        "nepzene",
         "szinhaz",
         "media",
         "irodalom",
         "muveszet",
         "csalad"
       ],
-      "pagesChecked": 3,
+      "pagesChecked": 2,
       "checkedUrls": [
         "https://www.becsinaplo.at/",
-        "https://www.becsinaplo.at/blog",
-        "https://www.kozpontiszovetseg.at/r%C3%B3lunk"
+        "https://www.becsinaplo.at/blog"
       ],
-      "errors": [],
+      "errors": [
+        {
+          "url": "https://www.kozpontiszovetseg.at/r%C3%B3lunk",
+          "error": "HTTP Error 429: Too Many Requests"
+        }
+      ],
       "flags": []
     },
     {
@@ -700,6 +702,35 @@
         "https://rolunk.at/nepcsoportunk/almaban-is-magyar/",
         "https://rolunk.at/nepcsoportunk/20-tagegyesuletet-fog-ossze-az-ausztriai-magyar-szervezetek-kerekasztala/",
         "https://volksgruppen.orf.at/magyarok/stories/3163489/"
+      ],
+      "errors": [],
+      "flags": []
+    },
+    {
+      "id": "bmkbe",
+      "name": "BMKBE – Bécsi Magyar Kultúrcentrum Barátai",
+      "entityClass": "organization",
+      "categories": [
+        "diak",
+        "kozosseg",
+        "kultura"
+      ],
+      "activityCategories": [],
+      "signals": [
+        "oktatas",
+        "neptanc",
+        "nepzene",
+        "enekkar",
+        "media",
+        "egyhaz",
+        "diak",
+        "irodalom",
+        "muveszet",
+        "csalad"
+      ],
+      "pagesChecked": 1,
+      "checkedUrls": [
+        "https://kerekasztal.at/tagok/"
       ],
       "errors": [],
       "flags": []
@@ -1297,10 +1328,27 @@
         "kultura"
       ],
       "activityCategories": [],
-      "signals": [],
-      "pagesChecked": 0,
-      "checkedUrls": [],
-      "errors": [],
+      "signals": [
+        "oktatas",
+        "neptanc",
+        "szinhaz",
+        "media",
+        "egyhaz",
+        "diak",
+        "irodalom",
+        "muveszet"
+      ],
+      "pagesChecked": 2,
+      "checkedUrls": [
+        "https://europaclub.at/",
+        "https://europaclub.at/rolunk/europa-club-tortenete/"
+      ],
+      "errors": [
+        {
+          "url": "https://europaclub.at/rendezvenyek/meghivok/",
+          "error": "The read operation timed out"
+        }
+      ],
       "flags": []
     },
     {
@@ -2014,20 +2062,20 @@
       "activityCategories": [],
       "signals": [
         "oktatas",
-        "neptanc",
-        "nepzene",
         "szinhaz",
-        "media",
         "irodalom",
         "muveszet",
         "csalad"
       ],
-      "pagesChecked": 2,
+      "pagesChecked": 1,
       "checkedUrls": [
-        "https://www.kozpontiszovetseg.at/",
-        "https://www.kozpontiszovetseg.at/r%C3%B3lunk"
+        "https://www.kozpontiszovetseg.at/"
       ],
       "errors": [
+        {
+          "url": "https://www.kozpontiszovetseg.at/r%C3%B3lunk",
+          "error": "HTTP Error 429: Too Many Requests"
+        },
         {
           "url": "https://www.kozpontiszovetseg.at/kapcsolat",
           "error": "HTTP Error 429: Too Many Requests"
@@ -2946,6 +2994,34 @@
       "checkedUrls": [
         "https://lexikon.katolikus.hu/M/Magyar%20Pax%20Romana%20Katolikus%20%C3%89rtelmis%C3%A9gi%20Mozgalom.html",
         "https://www.icmica-miic.org/2012/03/oesterreich/"
+      ],
+      "errors": [],
+      "flags": []
+    },
+    {
+      "id": "polgari-magyar-fiatalok",
+      "name": "Polgári Magyar Fiatalok Egyesülete",
+      "entityClass": "organization",
+      "categories": [
+        "diak",
+        "kozosseg"
+      ],
+      "activityCategories": [],
+      "signals": [
+        "oktatas",
+        "neptanc",
+        "nepzene",
+        "enekkar",
+        "media",
+        "egyhaz",
+        "diak",
+        "irodalom",
+        "muveszet",
+        "csalad"
+      ],
+      "pagesChecked": 1,
+      "checkedUrls": [
+        "https://kerekasztal.at/tagok/"
       ],
       "errors": [],
       "flags": []
