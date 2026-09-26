@@ -13,6 +13,14 @@ errors=[]
 umbrella_ids={u.get("id") for u in orgdb.get("umbrellaOrganizations",[])}
 network_ids={n.get("id") for n in orgdb.get("regionalNetworks",[])}
 category_ids={x.get("id") for x in orgdb.get("categoryDefinitions",[])}
+rolunk_founders=orgdb.get("rolunkFoundingOrganizations",[])
+if len(rolunk_founders)!=4:
+    errors.append(f"expected 4 Rólunk.at founding organizations, got {len(rolunk_founders)}")
+for rfo in rolunk_founders:
+    if rfo.get("id") not in set(ids):
+        errors.append(f"unknown Rólunk.at founding organization: {rfo.get('id')}")
+    if not str(rfo.get("sourceUrl","")).startswith(("http://","https://")):
+        errors.append(f"invalid Rólunk.at founding organization source: {rfo.get('id')}")
 if len(ids)!=len(set(ids)): errors.append("duplicate organization id")
 name_keys=[" ".join(str(o.get("name","")).casefold().split()) for o in orgs]
 if len(name_keys)!=len(set(name_keys)): errors.append("duplicate organization name")
