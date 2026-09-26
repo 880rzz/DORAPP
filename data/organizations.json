@@ -4465,7 +4465,15 @@
           "type": "institutional"
         }
       ],
-      "entityClass": "institution"
+      "entityClass": "institution",
+      "parentOrganizationId": "felso-ausztriai-magyarok",
+      "affiliations": [
+        {
+          "organizationId": "felso-ausztriai-magyarok",
+          "label": "A Felső-Ausztriai Magyarok Kultúregyesületéhez tartozó hétvégi oktatási intézmény",
+          "sourceUrl": "https://volksgruppen.orf.at/magyarok/stories/3327962/"
+        }
+      ]
     },
     {
       "id": "ne-felejts",
@@ -9571,6 +9579,212 @@
         "kozosseg"
       ],
       "parentOrganizationId": "imike"
+    },
+    {
+      "id": "achtungarn-fesztival",
+      "name": "AchtUngarn Fesztivál",
+      "state": "wien",
+      "city": "Wien",
+      "type": "magyar kulturális fesztiválsorozat",
+      "intro": "Az Ausztriai Magyar Szervezetek Kerekasztala által szervezett, több műveltségi területet összekapcsoló bécsi magyar kulturális fesztiválsorozat. A rendezvény 2026-ban ötödik alkalommal valósult meg.",
+      "website": "https://kerekasztal.at/",
+      "facebook": null,
+      "instagram": null,
+      "eventSources": [
+        "https://kerekasztal.at/"
+      ],
+      "affiliations": [
+        {
+          "organizationId": "kerekasztal",
+          "label": "A Kerekasztal saját, visszatérő kulturális fesztiválsorozata",
+          "sourceUrl": "https://volksgruppen.orf.at/magyarok/stories/3368109/"
+        }
+      ],
+      "categories": [],
+      "activityCategories": [
+        "zene",
+        "neptanc",
+        "irodalom",
+        "gyermek",
+        "kozosseg"
+      ],
+      "parentOrganizationId": "kerekasztal",
+      "founded": "2022",
+      "history": {
+        "summary": "Az AchtUngarn a Kerekasztal több műveltségi területet bemutató fesztiválsorozata. 2026 szeptemberében az ötödik alkalmat rendezték meg, ami tartós, önálló programidentitást jelez.",
+        "milestones": [
+          {
+            "year": "2026",
+            "title": "Ötödik AchtUngarn",
+            "description": "A fesztivál ötödik alkalommal várta a közönséget Bécsben.",
+            "sourceUrl": "https://volksgruppen.orf.at/magyarok/stories/3368109/"
+          }
+        ]
+      },
+      "activities": [
+        "magyar kulturális fesztivál",
+        "koncertek és néptánc",
+        "családi és gyermekprogramok",
+        "irodalmi és közösségi programok"
+      ],
+      "targetGroups": [
+        "Ausztriában élő magyarok",
+        "magyar kultúra iránt érdeklődő közönség",
+        "családok és fiatalok"
+      ],
+      "languages": [
+        "magyar",
+        "német"
+      ],
+      "profileVerifiedAt": "2026-09-26",
+      "evidenceSources": [
+        {
+          "label": "ORF Magyarok – AchtUngarn ötödször",
+          "url": "https://volksgruppen.orf.at/magyarok/stories/3368109/",
+          "type": "public-broadcaster"
+        }
+      ],
+      "entityClass": "activity",
+      "classificationNote": "Több éve ismétlődő fesztiválsorozat; az éves alkalmak külön eseményrekordok lehetnek."
+    },
+    {
+      "id": "grazi-magyar-bal",
+      "name": "Grazi Magyar Bál",
+      "state": "steiermark",
+      "city": "Graz",
+      "type": "hagyományos magyar bálsorozat",
+      "intro": "A Grazi Magyar Egyesület történelmi bálsorozata, amely a stájerországi magyar közösség egyik legrégebbi és legnagyobb rendszeres kulturális eseménye. A 2026-os rendezvény a 137. bál volt.",
+      "website": "https://www.grazimagyaregyesuelet.at/",
+      "facebook": null,
+      "instagram": null,
+      "eventSources": [
+        "https://www.grazimagyaregyesuelet.at/"
+      ],
+      "affiliations": [
+        {
+          "organizationId": "grazi-magyar-egyesulet",
+          "label": "A Grazi Magyar Egyesület saját hagyományos bálsorozata",
+          "sourceUrl": "https://www.grazimagyaregyesuelet.at/"
+        }
+      ],
+      "categories": [],
+      "activityCategories": [
+        "zene",
+        "neptanc",
+        "felnott",
+        "kozosseg"
+      ],
+      "parentOrganizationId": "grazi-magyar-egyesulet",
+      "history": {
+        "summary": "A Grazi Magyar Egyesület több mint egy évszázados báli hagyományt ápol; 2026-ban a 137. Grazi Magyar Bált rendezték meg. A program rendszeresen néptánccal, zenével és közösségi találkozással kapcsolja össze a stájerországi és távolabbról érkező magyarokat.",
+        "milestones": [
+          {
+            "year": "2026",
+            "title": "137. Grazi Magyar Bál",
+            "description": "A Grazi Magyar Egyesület 2026. május 9-én rendezte meg a 137. Magyar Bált.",
+            "sourceUrl": "https://www.grazimagyaregyesuelet.at/bel%C3%A9p%C3%B6-jegyek-ballkarte-kaufen/"
+          }
+        ]
+      },
+      "activities": [
+        "magyar bál",
+        "néptánc és zene",
+        "közösségi találkozó",
+        "kulturális hagyományőrzés"
+      ],
+      "targetGroups": [
+        "stájerországi magyar közösség",
+        "ausztriai és környező országok magyar közönsége"
+      ],
+      "languages": [
+        "magyar",
+        "német"
+      ],
+      "profileVerifiedAt": "2026-09-26",
+      "evidenceSources": [
+        {
+          "label": "Grazi Magyar Egyesület – hivatalos oldal",
+          "url": "https://www.grazimagyaregyesuelet.at/",
+          "type": "official"
+        },
+        {
+          "label": "Grazi Magyar Egyesület – 2026-os bál",
+          "url": "https://www.grazimagyaregyesuelet.at/bel%C3%A9p%C3%B6-jegyek-ballkarte-kaufen/",
+          "type": "official"
+        }
+      ],
+      "entityClass": "activity",
+      "classificationNote": "Történeti, évente ismétlődő bálsorozat; az egyes évek az eseménynaptárba tartoznak."
+    },
+    {
+      "id": "rolunk-szolunk-tabor",
+      "name": "Rólunk szólunk – HungaroMedia nyári tábor",
+      "state": "oberoesterreich",
+      "city": "Linz",
+      "type": "magyar nyelvű gyermek- és ifjúsági élménytábor",
+      "intro": "A HungaroMedia rendszeres linzi nyári tábora, amely magyar nyelven drámapedagógiai, vizuális, mozgásos és közösségi programokat kínál Ausztriában élő gyermekeknek és fiataloknak. 2026-ban harmadik alkalommal rendezték meg.",
+      "website": "https://rolunk.at/magazin/sokszinu-gyerekek-vagany-szulok-a-hungaromedia-taboraban/",
+      "facebook": null,
+      "instagram": null,
+      "eventSources": [
+        "https://rolunk.at/magazin/sokszinu-gyerekek-vagany-szulok-a-hungaromedia-taboraban/"
+      ],
+      "affiliations": [
+        {
+          "organizationId": "hungaromedia",
+          "label": "A HungaroMedia saját, visszatérő nyári élménytábora",
+          "sourceUrl": "https://rolunk.at/magazin/sokszinu-gyerekek-vagany-szulok-a-hungaromedia-taboraban/"
+        }
+      ],
+      "categories": [],
+      "activityCategories": [
+        "magyar-nyelv",
+        "drama-szinhaz",
+        "kreativ-digitalis",
+        "ifjusag",
+        "kozosseg"
+      ],
+      "parentOrganizationId": "hungaromedia",
+      "history": {
+        "summary": "A HungaroMedia 2026-ban harmadik alkalommal szervezte meg a Rólunk szólunk tábort. A program magyar nyelvű közegben dráma, alkotóművészet, tánc, mozgás és sport segítségével épít közösséget a többnyelvű környezetben élő fiatalok között.",
+        "milestones": [
+          {
+            "year": "2026",
+            "title": "Harmadik tábor",
+            "description": "A 2026-os Rólunk szólunk táborban több mint harminc gyermek vett részt, főként Felső-Ausztriából, de Grazból is érkeztek.",
+            "sourceUrl": "https://rolunk.at/magazin/sokszinu-gyerekek-vagany-szulok-a-hungaromedia-taboraban/"
+          }
+        ]
+      },
+      "activities": [
+        "magyar nyelvű nyári tábor",
+        "drámapedagógia",
+        "vizuális alkotás",
+        "tánc és sport",
+        "közösségépítés"
+      ],
+      "targetGroups": [
+        "8–15 éves magyarul beszélő gyermekek és fiatalok",
+        "felső-ausztriai és más ausztriai magyar családok"
+      ],
+      "languages": [
+        "magyar"
+      ],
+      "profileVerifiedAt": "2026-09-26",
+      "evidenceSources": [
+        {
+          "label": "Rólunk.at – HungaroMedia tábor 2026",
+          "url": "https://rolunk.at/magazin/sokszinu-gyerekek-vagany-szulok-a-hungaromedia-taboraban/",
+          "type": "community-media"
+        },
+        {
+          "label": "Rólunk.at – Nyári táborok Ausztriában 2026",
+          "url": "https://rolunk.at/aktualis/nyari-taborok-ausztriaban-2026/",
+          "type": "community-media"
+        }
+      ],
+      "entityClass": "activity",
+      "classificationNote": "Évente ismétlődő táborprogram; az egyes évek az eseménynaptárba tartoznak."
     }
   ],
   "umbrellaOrganizations": [
