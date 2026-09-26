@@ -1,9 +1,9 @@
 {
-  "updated": "2026-09-26T18:04:29.778501+00:00",
+  "updated": "2026-09-26T18:06:32.381338+00:00",
   "summary": {
-    "organizations": 140,
+    "organizations": 142,
     "organizationFlags": 0,
-    "organizationPagesChecked": 302,
+    "organizationPagesChecked": 317,
     "education": 106,
     "educationFlags": 0,
     "events": 21,
@@ -85,24 +85,19 @@
       ],
       "activityCategories": [],
       "signals": [
-        "egyhaz"
+        "oktatas",
+        "media",
+        "egyhaz",
+        "muveszet",
+        "csalad"
       ],
-      "pagesChecked": 0,
-      "checkedUrls": [],
-      "errors": [
-        {
-          "url": "https://www.martinus.at/",
-          "error": "<urlopen error timed out>"
-        },
-        {
-          "url": "https://www.martinus.at/pfarre/1127/kalender",
-          "error": "<urlopen error timed out>"
-        },
-        {
-          "url": "https://www.martinus.at/unterwart",
-          "error": "<urlopen error timed out>"
-        }
+      "pagesChecked": 3,
+      "checkedUrls": [
+        "https://www.martinus.at/",
+        "https://www.martinus.at/pfarre/1127/kalender",
+        "https://www.martinus.at/unterwart"
       ],
+      "errors": [],
       "flags": []
     },
     {
@@ -772,19 +767,20 @@
       ],
       "activityCategories": [],
       "signals": [
+        "oktatas",
+        "szinhaz",
+        "media",
         "irodalom",
         "muveszet"
       ],
-      "pagesChecked": 0,
-      "checkedUrls": [],
+      "pagesChecked": 1,
+      "checkedUrls": [
+        "https://www.kozpontiszovetseg.at/event-details/dr-janosi-zoltan-irodalomtortenesz-iro-kolto"
+      ],
       "errors": [
         {
           "url": "https://bornemisza.at/",
-          "error": "<urlopen error timed out>"
-        },
-        {
-          "url": "https://www.kozpontiszovetseg.at/event-details/dr-janosi-zoltan-irodalomtortenesz-iro-kolto",
-          "error": "HTTP Error 429: Too Many Requests"
+          "error": "<urlopen error [Errno 111] Connection refused>"
         },
         {
           "url": "https://www.kozpontiszovetseg.at/bornemisza-peter-tarsasag",
@@ -1188,23 +1184,20 @@
         "oktatas",
         "neptanc",
         "nepzene",
+        "szinhaz",
         "media",
         "egyhaz",
         "muveszet",
         "sport",
         "csalad"
       ],
-      "pagesChecked": 2,
+      "pagesChecked": 3,
       "checkedUrls": [
+        "https://www.kozpontiszovetseg.at/event-details/zene-es-talalkozas",
         "https://volksgruppen.orf.at/v2/magyarok/stories/2914449/",
         "https://hvg.hu/kultura/20141111_Centropedij"
       ],
-      "errors": [
-        {
-          "url": "https://www.kozpontiszovetseg.at/event-details/zene-es-talalkozas",
-          "error": "HTTP Error 429: Too Many Requests"
-        }
-      ],
+      "errors": [],
       "flags": []
     },
     {
@@ -1299,9 +1292,22 @@
         "kultura"
       ],
       "activityCategories": [],
-      "signals": [],
-      "pagesChecked": 0,
-      "checkedUrls": [],
+      "signals": [
+        "oktatas",
+        "neptanc",
+        "szinhaz",
+        "media",
+        "egyhaz",
+        "diak",
+        "irodalom",
+        "muveszet"
+      ],
+      "pagesChecked": 3,
+      "checkedUrls": [
+        "https://europaclub.at/",
+        "https://europaclub.at/rolunk/europa-club-tortenete/",
+        "https://europaclub.at/de/kontakt/"
+      ],
       "errors": [],
       "flags": []
     },
@@ -1398,24 +1404,16 @@
       ],
       "activityCategories": [],
       "signals": [
+        "media",
         "egyhaz"
       ],
-      "pagesChecked": 0,
-      "checkedUrls": [],
-      "errors": [
-        {
-          "url": "https://www.martinus.at/pfarre/1122",
-          "error": "<urlopen error timed out>"
-        },
-        {
-          "url": "https://www.martinus.at/pfarre/1122/kalender",
-          "error": "<urlopen error timed out>"
-        },
-        {
-          "url": "https://www.martinus.at/pfarre/1122/kalender/calendar/1808040.html",
-          "error": "<urlopen error timed out>"
-        }
+      "pagesChecked": 3,
+      "checkedUrls": [
+        "https://www.martinus.at/pfarre/1122",
+        "https://www.martinus.at/pfarre/1122/kalender",
+        "https://www.martinus.at/pfarre/1122/kalender/calendar/1808040.html"
       ],
+      "errors": [],
       "flags": []
     },
     {
@@ -1806,10 +1804,17 @@
       ],
       "activityCategories": [],
       "signals": [
-        "egyhaz"
+        "oktatas",
+        "media",
+        "egyhaz",
+        "irodalom",
+        "sport",
+        "csalad"
       ],
-      "pagesChecked": 0,
-      "checkedUrls": [],
+      "pagesChecked": 1,
+      "checkedUrls": [
+        "https://www.dibk.at/Media/Organisationen/muttersprachliche-seelsorge"
+      ],
       "errors": [
         {
           "url": "https://www.kozpontiszovetseg.at/tagszervezetek",
@@ -2188,6 +2193,35 @@
       "flags": []
     },
     {
+      "id": "magyar-csaladi-nap-becs",
+      "name": "Magyar Családi Nap – Bécs",
+      "entityClass": "activity",
+      "categories": [],
+      "activityCategories": [
+        "gyermek",
+        "ifjusag",
+        "zene",
+        "neptanc",
+        "kozosseg"
+      ],
+      "signals": [
+        "neptanc",
+        "cserkesz",
+        "szinhaz",
+        "media",
+        "irodalom",
+        "sport",
+        "csalad"
+      ],
+      "pagesChecked": 2,
+      "checkedUrls": [
+        "https://volksgruppen.orf.at/magyarok/stories/3371860/",
+        "https://volksgruppen.orf.at/magyarok/stories/3282451/"
+      ],
+      "errors": [],
+      "flags": []
+    },
+    {
       "id": "magyar-szo-ausztriaban",
       "name": "Magyar Szó Ausztriában",
       "entityClass": "media",
@@ -2209,7 +2243,7 @@
       "errors": [
         {
           "url": "https://www.magyarszo.at/",
-          "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'www.magyarszo.at'. (_ssl.c:1010)>"
+          "error": "<urlopen error timed out>"
         }
       ],
       "flags": []
@@ -3509,6 +3543,29 @@
       "pagesChecked": 1,
       "checkedUrls": [
         "https://www.kozpontiszovetseg.at/tagszervezetek"
+      ],
+      "errors": [],
+      "flags": []
+    },
+    {
+      "id": "szent-istvan-unnep-becs",
+      "name": "Bécsi Szent István-ünnep és kenyérszentelés",
+      "entityClass": "activity",
+      "categories": [],
+      "activityCategories": [
+        "kozosseg",
+        "zene",
+        "felnott"
+      ],
+      "signals": [
+        "nepzene",
+        "media",
+        "muveszet",
+        "sport"
+      ],
+      "pagesChecked": 1,
+      "checkedUrls": [
+        "https://volksgruppen.orf.at/magyarok/stories/3368141/"
       ],
       "errors": [],
       "flags": []
