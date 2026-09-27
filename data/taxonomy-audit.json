@@ -1,9 +1,9 @@
 {
-  "updated": "2026-09-27T01:10:54.703146+00:00",
+  "updated": "2026-09-27T10:31:15.474672+00:00",
   "summary": {
     "organizations": 145,
-    "organizationFlags": 1,
-    "organizationPagesChecked": 313,
+    "organizationFlags": 0,
+    "organizationPagesChecked": 318,
     "education": 106,
     "educationFlags": 0,
     "events": 28,
@@ -85,24 +85,18 @@
       ],
       "activityCategories": [],
       "signals": [
-        "egyhaz"
+        "media",
+        "egyhaz",
+        "muveszet",
+        "csalad"
       ],
-      "pagesChecked": 0,
-      "checkedUrls": [],
-      "errors": [
-        {
-          "url": "https://www.martinus.at/",
-          "error": "<urlopen error timed out>"
-        },
-        {
-          "url": "https://www.martinus.at/pfarre/1127/kalender",
-          "error": "<urlopen error timed out>"
-        },
-        {
-          "url": "https://www.martinus.at/unterwart",
-          "error": "<urlopen error timed out>"
-        }
+      "pagesChecked": 3,
+      "checkedUrls": [
+        "https://www.martinus.at/",
+        "https://www.martinus.at/pfarre/1127/kalender",
+        "https://www.martinus.at/unterwart"
       ],
+      "errors": [],
       "flags": []
     },
     {
@@ -972,23 +966,20 @@
       "activityCategories": [],
       "signals": [
         "oktatas",
+        "szinhaz",
         "media",
-        "irodalom"
+        "irodalom",
+        "muveszet",
+        "csalad"
       ],
-      "pagesChecked": 2,
+      "pagesChecked": 3,
       "checkedUrls": [
         "https://culture.hu/hu/wien",
+        "https://culture.hu/hu/wien/esemenyek",
         "https://culture.hu/de/wien/jubilaum"
       ],
-      "errors": [
-        {
-          "url": "https://culture.hu/hu/wien/esemenyek",
-          "error": "The read operation timed out"
-        }
-      ],
-      "flags": [
-        "weak-source-signal:muveszet"
-      ]
+      "errors": [],
+      "flags": []
     },
     {
       "id": "collegium-pazmanianum",
@@ -1222,7 +1213,6 @@
         "nepzene",
         "media",
         "egyhaz",
-        "muveszet",
         "sport",
         "csalad"
       ],
@@ -1331,27 +1321,10 @@
         "kultura"
       ],
       "activityCategories": [],
-      "signals": [
-        "oktatas",
-        "neptanc",
-        "szinhaz",
-        "media",
-        "egyhaz",
-        "diak",
-        "irodalom",
-        "muveszet"
-      ],
-      "pagesChecked": 2,
-      "checkedUrls": [
-        "https://europaclub.at/",
-        "https://europaclub.at/rolunk/europa-club-tortenete/"
-      ],
-      "errors": [
-        {
-          "url": "https://europaclub.at/rendezvenyek/meghivok/",
-          "error": "The read operation timed out"
-        }
-      ],
+      "signals": [],
+      "pagesChecked": 0,
+      "checkedUrls": [],
+      "errors": [],
       "flags": []
     },
     {
@@ -1447,24 +1420,16 @@
       ],
       "activityCategories": [],
       "signals": [
+        "media",
         "egyhaz"
       ],
-      "pagesChecked": 0,
-      "checkedUrls": [],
-      "errors": [
-        {
-          "url": "https://www.martinus.at/pfarre/1122",
-          "error": "<urlopen error timed out>"
-        },
-        {
-          "url": "https://www.martinus.at/pfarre/1122/kalender",
-          "error": "<urlopen error timed out>"
-        },
-        {
-          "url": "https://www.martinus.at/pfarre/1122/kalender/calendar/1808040.html",
-          "error": "<urlopen error timed out>"
-        }
+      "pagesChecked": 3,
+      "checkedUrls": [
+        "https://www.martinus.at/pfarre/1122",
+        "https://www.martinus.at/pfarre/1122/kalender",
+        "https://www.martinus.at/pfarre/1122/kalender/calendar/1808040.html"
       ],
+      "errors": [],
       "flags": []
     },
     {
@@ -1550,7 +1515,12 @@
         "https://bukv.at/hu/linkek/",
         "https://rolunk.at/magazin/ismet-egyutt-unnepeltuk-nemzeti-unnepunket-nickelsdorfban/"
       ],
-      "errors": [],
+      "errors": [
+        {
+          "url": "https://www.ris.bka.gv.at/Dokumente/Mrp/MRP_20201223_43/007_001.pdf",
+          "error": "HTTP Error 503: Service Temporarily Unavailable"
+        }
+      ],
       "flags": []
     },
     {
@@ -2085,20 +2055,20 @@
       "activityCategories": [],
       "signals": [
         "oktatas",
-        "neptanc",
-        "nepzene",
         "szinhaz",
-        "media",
         "irodalom",
         "muveszet",
         "csalad"
       ],
-      "pagesChecked": 2,
+      "pagesChecked": 1,
       "checkedUrls": [
-        "https://www.kozpontiszovetseg.at/",
-        "https://www.kozpontiszovetseg.at/r%C3%B3lunk"
+        "https://www.kozpontiszovetseg.at/"
       ],
       "errors": [
+        {
+          "url": "https://www.kozpontiszovetseg.at/r%C3%B3lunk",
+          "error": "HTTP Error 429: Too Many Requests"
+        },
         {
           "url": "https://www.kozpontiszovetseg.at/kapcsolat",
           "error": "HTTP Error 429: Too Many Requests"
@@ -3632,15 +3602,24 @@
         "kultura"
       ],
       "activityCategories": [],
-      "signals": [],
-      "pagesChecked": 0,
-      "checkedUrls": [],
-      "errors": [
-        {
-          "url": "https://www.kozpontiszovetseg.at/tagszervezetek",
-          "error": "HTTP Error 429: Too Many Requests"
-        }
+      "signals": [
+        "oktatas",
+        "neptanc",
+        "nepzene",
+        "cserkesz",
+        "szinhaz",
+        "egyhaz",
+        "diak",
+        "irodalom",
+        "muveszet",
+        "sport",
+        "csalad"
       ],
+      "pagesChecked": 1,
+      "checkedUrls": [
+        "https://www.kozpontiszovetseg.at/tagszervezetek"
+      ],
+      "errors": [],
       "flags": []
     },
     {
