@@ -56,14 +56,15 @@ for x in ev.get("events",[]):
 for p in ("llms.txt","ai.txt","ai-entry.json","entity.jsonld","robots.txt","sitemap.xml","forrasok.html","adatminoseg.html","ui.js"):
     if not (ROOT/p).exists(): errors.append(f"missing trust/search artifact: {p}")
 
-print(f"static_output organizations={len(org.get('organizations',[]))} education={len(edu.get('institutions',[]))} events={len(ev.get('events',[]))}")
-if errors:
-    print("\n".join("ERROR: "+x for x in errors))
-    sys.exit(1)
-
 for p in ("index.html","forrasok.html","szervezet.html"):
     text=(ROOT/p).read_text(encoding="utf-8")
     if "googletagmanager.com/gtag/js" in text or "gtag('config','G-1FC22JEX2F')" in text:
         errors.append(f"non-consent analytics bootstrap present: {p}")
     if "ui.js" not in text:
         errors.append(f"shared consent/navigation controller missing: {p}")
+
+
+print(f"static_output organizations={len(org.get('organizations',[]))} education={len(edu.get('institutions',[]))} events={len(ev.get('events',[]))}")
+if errors:
+    print("\n".join("ERROR: "+x for x in errors))
+    sys.exit(1)
