@@ -1543,8 +1543,14 @@
         "oktatas"
       ],
       "history": {
-        "summary": "Az Iskolaegyesület hosszú évtizedek óta dolgozik az Ausztriában élő magyarok anyanyelvi képzéséért és kulturális identitásuk megőrzéséért. 2003 szeptembere óta saját szervezésében működik a magyar anyanyelvű gyermekek oktatása; tevékenysége azóta az iskolaelőkészítőtől a 12. osztályig tartó magyar oktatásra, kétnyelvű óvodára, zenei nevelésre, nyelvi képzésekre és napközis támogatásra is kiterjed.",
+        "summary": "Az 1926. december 26-án alapított Iskolaegyesület az Ausztriában élő magyarok anyanyelvi képzéséért és kulturális identitásuk megőrzéséért dolgozik. 2003 szeptembere óta saját szervezésében működik a magyar anyanyelvű gyermekek oktatása; tevékenysége azóta az iskolaelőkészítőtől a 12. osztályig tartó magyar oktatásra, kétnyelvű óvodára, zenei nevelésre, nyelvi képzésekre és napközis támogatásra is kiterjed.",
         "milestones": [
+          {
+            "date": "1926-12-26",
+            "title": "Az Iskolaegyesület megalapítása",
+            "description": "Bécsben megalakul a Bécsi Magyar Iskolaegyesület.",
+            "sourceUrl": "https://volksgruppen.orf.at/magyarok/stories/3371298/"
+          },
           {
             "date": "2003-09",
             "title": "Anyanyelvi oktatás saját szervezésben",
@@ -1575,7 +1581,7 @@
       ],
       "email": "office@ungarischlernen.at",
       "phone": "+43 1 212 5514",
-      "profileVerifiedAt": "2026-09-25",
+      "profileVerifiedAt": "2026-09-27",
       "evidenceSources": [
         {
           "label": "Bécsi Magyar Iskolaegyesület – Bemutatkozás",
@@ -1591,9 +1597,15 @@
           "label": "Bécsi Magyar Iskolaegyesület – Hort / Lernquadrat",
           "url": "https://ungarischlernen.at/content/menu_204/hort-lernquadrat",
           "type": "official"
+        },
+        {
+          "label": "ORF Magyarok – Évnyitó és szülői értekezlet",
+          "url": "https://volksgruppen.orf.at/magyarok/stories/3371298/",
+          "type": "public-broadcaster"
         }
       ],
-      "entityClass": "organization"
+      "entityClass": "organization",
+      "founded": "1926-12-26"
     },
     {
       "id": "kultpult",
