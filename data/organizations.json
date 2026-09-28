@@ -12470,7 +12470,7 @@
       "id": "szent-istvan-bal",
       "name": "Szent István Bál / Ungarball",
       "state": "wien",
-      "city": "Wien",
+      "city": "Wien – Palais Auersperg",
       "type": "éves magyar jótékonysági bálsorozat",
       "intro": "A Szent István Egylet nagy hagyományú bécsi jótékonysági bálsorozata. A bál a magyar társasági és kulturális élet egyik történeti rendezvénye, bevétele pedig az egylet ösztöndíj- és karitatív programjait támogatja. 2025 óta a Palais Auersperg ad otthont az eseménynek.",
       "website": "https://ungarball.at/",
@@ -12499,7 +12499,8 @@
       "activityCategories": [
         "zene",
         "felnott",
-        "kozosseg"
+        "kozosseg",
+        "neptanc"
       ],
       "parentOrganizationId": "szent-istvan-egylet",
       "founded": "1918",
@@ -12528,6 +12529,12 @@
             "year": "2026",
             "title": "Szent István Bál 2026",
             "description": "A bált február 14-én a Palais Auerspergben rendezték meg.",
+            "sourceUrl": "https://ungarball.at/"
+          },
+          {
+            "year": "2025",
+            "title": "Jótékonysági bál a Palais Auerspergben",
+            "description": "A hivatalos oldal szerint 2025. március 1-jén rendezték meg a bált.",
             "sourceUrl": "https://ungarball.at/"
           }
         ]
@@ -12564,103 +12571,19 @@
           "label": "Szent István Bál 2026 – VIPACH hivatalos fotóalbum",
           "url": "https://www.flickr.com/photos/vipach/55099423490",
           "type": "first-party"
-        }
-      ],
-      "entityClass": "activity",
-      "classificationNote": "A Szent István Egylet éves, saját jótékonysági bálsorozata; az egyes évfolyamok külön eseményrekordként kezelhetők.",
-      "email": "ungarball@gmail.com",
-      "phone": "+43 664 930 74 51",
-      "address": "Döblergasse 2, 1070 Wien, Austria",
-      "contactUrl": "https://ungarball.at/impressum"
-    },
-    {
-      "id": "ungarball-szent-istvan-bal",
-      "name": "Szent István Bál / Ungarball",
-      "state": "wien",
-      "city": "Wien – Palais Auersperg",
-      "type": "éves magyar jótékonysági bálsorozat",
-      "intro": "A Szent István Egylet hagyományos bécsi jótékonysági bálsorozata a Palais Auerspergben. Az Ungarball egyszerre társasági, kulturális és adománygyűjtő esemény; bevétele a Szent István Egylet ösztöndíj- és támogatási programjait segíti.",
-      "website": "https://ungarball.at/",
-      "eventSources": [
-        "https://ungarball.at/"
-      ],
-      "calendarSources": [
-        {
-          "label": "Ungarball – hivatalos oldal és aktuális program",
-          "url": "https://ungarball.at/",
-          "kind": "official-calendar",
-          "scope": "self",
-          "ingestEvents": true
-        }
-      ],
-      "parentOrganizationId": "szent-istvan-egylet",
-      "affiliations": [
-        {
-          "organizationId": "szent-istvan-egylet",
-          "label": "A Szent István Egylet saját éves jótékonysági bálja",
-          "sourceUrl": "https://ungarball.at/"
-        }
-      ],
-      "categories": [],
-      "activityCategories": [
-        "zene",
-        "neptanc",
-        "kozosseg",
-        "felnott"
-      ],
-      "history": {
-        "summary": "A Szent István Bál a Szent István Egylet történeti hagyományához kapcsolódó éves bécsi jótékonysági esemény. A hivatalos oldal 2025-ben és 2026-ban is dokumentálja a Palais Auerspergben megrendezett bált. A program bálnyitással, zenekarokkal, csárdással és tánccal működik, miközben a bevétel az egyesület ösztöndíjprogramját támogatja.",
-        "milestones": [
-          {
-            "year": "2025",
-            "title": "Jótékonysági bál a Palais Auerspergben",
-            "description": "A hivatalos oldal szerint 2025. március 1-jén rendezték meg a bált.",
-            "sourceUrl": "https://ungarball.at/"
-          },
-          {
-            "year": "2026",
-            "title": "Szent István Bál 2026",
-            "description": "2026. február 14-én a Palais Auerspergben rendezték meg a következő jótékonysági bált.",
-            "sourceUrl": "https://ungarball.at/"
-          }
-        ]
-      },
-      "activities": [
-        "jótékonysági bál",
-        "bálnyitás és tánc",
-        "magyar zenei és csárdás-program",
-        "ösztöndíjprogram támogatása",
-        "magyar társasági közösségépítés"
-      ],
-      "targetGroups": [
-        "bécsi és ausztriai magyar közösség",
-        "báli és kulturális közönség",
-        "jótékonysági támogatók"
-      ],
-      "languages": [
-        "magyar",
-        "német"
-      ],
-      "profileVerifiedAt": "2026-09-28",
-      "evidenceSources": [
-        {
-          "label": "Ungarball – hivatalos oldal",
-          "url": "https://ungarball.at/",
-          "type": "official"
         },
         {
           "label": "Szent István Egylet – Impresszum",
           "url": "https://ungarball.at/impressum",
           "type": "official"
-        },
-        {
-          "label": "Sankt Stephan Ball 2026 – hivatalos fotóalbum leírás",
-          "url": "https://www.flickr.com/photos/vipach/55099423490",
-          "type": "first-party"
         }
       ],
       "entityClass": "activity",
-      "classificationNote": "A Szent István Egylet saját, évente ismétlődő jótékonysági bálsorozata."
+      "classificationNote": "A Szent István Egylet saját, évente ismétlődő jótékonysági bálsorozata; canonical DORAPP activity rekord. Az egyes évfolyamok külön eseményrekordként kezelhetők.",
+      "email": "ungarball@gmail.com",
+      "phone": "+43 664 930 74 51",
+      "address": "Döblergasse 2, 1070 Wien, Austria",
+      "contactUrl": "https://ungarball.at/impressum"
     }
   ],
   "umbrellaOrganizations": [
