@@ -1364,7 +1364,7 @@
           "ingestEvents": false
         }
       ],
-      "classificationNote": "Önálló bejegyzett szervezet/baráti kör, ZVR 1137618189. A saját donauphilharmonie.at domain igazolt; aktuális saját Facebook/Instagram-profilt nem azonosítottunk. Katona Ágnes alapítói és művészeti vezetői szerepe intézményi forrásokkal dokumentált.",
+      "classificationNote": "Önálló bejegyzett szervezet/baráti kör, ZVR 1137618189. A saját donauphilharmonie.at domain igazolt. A Központi Szövetség tagszervezeti oldala agnes.katona@gmx.org címet, a 2026-os „Zene és Találkozás” eseményoldal donauphilharmonie@gmx.org címet közöl; mindkettő dokumentált kapcsolati csatorna. Aktuális saját Facebook/Instagram-profilt nem azonosítottunk. Katona Ágnes alapítói és művészeti vezetői szerepe intézményi forrásokkal dokumentált.",
       "publicChannels": [
         {
           "label": "Duna Filharmónia – hivatalos weboldal",
@@ -1383,6 +1383,12 @@
           "url": "https://volksgruppen.orf.at/v2/magyarok/stories/2914449/",
           "kind": "media-profile",
           "ownership": "independent"
+        },
+        {
+          "label": "Duna Filharmónia – 2026-os eseménykapcsolat",
+          "url": "mailto:donauphilharmonie@gmx.org",
+          "kind": "email",
+          "ownership": "self"
         }
       ],
       "zvr": "1137618189"
@@ -11108,12 +11114,12 @@
         "kozosseg"
       ],
       "history": {
-        "summary": "A Semmelweis Magyar Orvosok Egyesülete 2002-ben alakult Ausztriában a magyar, magyar származású és magyarul beszélő orvosok tudományos és baráti összefogására. Az ORF 2013-as összefoglalója mintegy 120 tagot, félévente 3–4 magyar nyelvű továbbképzési találkozót és Dr. Birtalan Ivánt elnökként dokumentál. A szervezet később a Központi Szövetséggel közösen a nagyközönségnek szóló egészségügyi előadásokat is szervezett.",
+        "summary": "A Semmelweis Magyar Orvosok Egyesületének alapítási éve a nyilvános ORF-forrásokban eltérően szerepel: egy 2013-as összefoglaló 2002-t, egy 2016-os cikk 2003-at közöl. A szervezet az Ausztriában dolgozó magyar, magyar származású és magyarul beszélő orvosok tudományos és baráti összefogására jött létre. Az ORF 2013-ban mintegy 120 tagot, félévente 3–4 magyar nyelvű továbbképzési találkozót és Dr. Birtalan Ivánt elnökként dokumentálta.",
         "milestones": [
           {
-            "year": "2002",
-            "title": "Megalakulás",
-            "description": "Az ORF 2013-as szervezeti összefoglalója szerint a Semmelweis Ignác nevét viselő ausztriai magyar orvosegyesület 2002-ben alakult.",
+            "year": "2002/2003",
+            "title": "Megalakulás – eltérő forrásadat",
+            "description": "Az ORF 2013-as szervezeti összefoglalója 2002-es, a 2016-os történeti cikk 2003-as alapítást közöl; a pontos év ezért jelenleg nem tekinthető egyértelműen igazoltnak.",
             "sourceUrl": "https://volksgruppenv1.orf.at/magyarok/aktualis/stories/40298.html"
           },
           {
@@ -11163,7 +11169,7 @@
         }
       ],
       "entityClass": "organization",
-      "classificationNote": "A Kőrösi Csoma Sándor Program a Központi Szövetséggel szoros együttműködésben, annak infrastruktúráját használó szervezetként nevezi meg. Az ORF 2013-ban mintegy 120 taggal és Dr. Birtalan Iván elnökségével dokumentálta. Jelenlegi önálló web/social, közvetlen publikus kontakt és 2026-os vezetés nem igazolt.",
+      "classificationNote": "A Kőrösi Csoma Sándor Program a Központi Szövetséggel szoros együttműködésben, annak infrastruktúráját használó szervezetként nevezi meg. Az ORF történeti forrásai az alapítás évében eltérnek: a 2013-as összefoglaló 2002-t, a 2016-os cikk 2003-at közöl; ezért egyetlen pontos alapítási évet nem állítunk be bizonyítottnak. Dr. Birtalan Iván 2013-ban dokumentált elnök. Jelenlegi önálló web/social, közvetlen publikus kontakt és 2026-os vezetés nem igazolt.",
       "contactUrl": "https://www.kozpontiszovetseg.at/kapcsolat",
       "calendarSources": [
         {
@@ -11188,7 +11194,7 @@
           "ownership": "independent"
         }
       ],
-      "founded": "2002"
+      "founded": null
     },
     {
       "id": "becsi-magyar-otthon",
