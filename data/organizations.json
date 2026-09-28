@@ -8120,6 +8120,11 @@
           "label": "Bundeskanzleramt – népcsoporti támogatási jelentés, EMAE",
           "url": "https://www.bundeskanzleramt.gv.at/dam/jcr%3Abe8bd926-ccb7-48eb-a0b9-e7cc8417c80e/24_8_bericht16.pdf",
           "type": "government"
+        },
+        {
+          "label": "FOROST 2002 – EMAE történeti webes jelenlét",
+          "url": "https://www.forost.uni-muenchen.de/fo_library/forost_Arbeitspapier_04.pdf",
+          "type": "academic-reference"
         }
       ],
       "categories": [
@@ -8164,6 +8169,12 @@
             "title": "Közel négy évtizedes közösségi működés",
             "description": "Az ORF Piroska Ferencz alapító tagot az egyesület aktuális elnökeként idézi, és az EMAE-t továbbra is aktív identitásőrző szervezetként mutatja be.",
             "sourceUrl": "https://volksgruppen.orf.at/magyarok/stories/3286420/"
+          },
+          {
+            "year": "2002",
+            "title": "Korai önálló webes jelenlét dokumentálva",
+            "description": "A müncheni FOROST 2002-es internetes jegyzéke az EMAE önálló hhrf.org/emae webhelyét dokumentálta; ez történeti URL, nem jelenlegi weboldal.",
+            "sourceUrl": "https://www.forost.uni-muenchen.de/fo_library/forost_Arbeitspapier_04.pdf"
           }
         ]
       },
@@ -8178,7 +8189,7 @@
           "ingestEvents": false
         }
       ],
-      "classificationNote": "1987-ben alapított, 2024-ben is aktívként dokumentált egyesület. Piroska Ferencz alapító tag és az ORF által 2024-ben dokumentált elnök. A Rólunk.at jelenlegi bejegyzett-egyesületi listája az EMAE-t felsorolja, de közvetlen publikus e-mailt vagy saját web/social linket nem közöl; ezért ezek a mezők üresen maradnak.",
+      "classificationNote": "1987-ben alapított, 2024-ben is aktívként dokumentált egyesület; Piroska Ferencz alapító tag és 2024-ben dokumentált elnök. 2002-ben önálló hhrf.org/emae webhelye dokumentált, de ezt csak történeti csatornaként kezeljük. Jelenlegi saját web/social és közvetlen publikus e-mail nem azonosított.",
       "publicChannels": [
         {
           "label": "Rólunk.at – ausztriai magyar egyesületi jegyzék",
@@ -8191,6 +8202,12 @@
           "url": "https://volksgruppen.orf.at/magyarok/stories/3286420/",
           "kind": "media-profile",
           "ownership": "independent"
+        },
+        {
+          "label": "EMAE – történeti webhely (2002-es forrásban dokumentálva)",
+          "url": "http://www.hhrf.org/emae/",
+          "kind": "historical-website",
+          "ownership": "self"
         }
       ],
       "founded": "1987"
@@ -10603,6 +10620,11 @@
           "label": "ORF Magyarok – Kérem a következőt: orvostudomány mindenkinek",
           "url": "https://volksgruppen.orf.at/v2/magyarok/stories/2764323/",
           "type": "public-broadcaster"
+        },
+        {
+          "label": "Petőfi Sándor Program – Semmelweis és Központi Szövetség infrastruktúra-kapcsolat",
+          "url": "https://www.petofiprogram.hu/partnereink/ausztriai-magyar-egyesuletek-es-szervezetek-kozponti-szovetsege",
+          "type": "institutional"
         }
       ],
       "entityClass": "organization",
