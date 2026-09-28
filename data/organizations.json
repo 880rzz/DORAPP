@@ -121,7 +121,7 @@
       "type": "tudományos-kulturális",
       "intro": "A 2010-ben alapított Österreichisches Institut für Ungarische Studien / Ausztriai Magyar Kutatóintézet interdiszciplináris hungarológiai kutató- és dokumentációs műhely, amely az ausztriai magyarság történetét, kultúráját és jelenét vizsgálja.",
       "website": "https://www.oeius.at/",
-      "facebook": null,
+      "facebook": "https://www.facebook.com/OEIUS",
       "instagram": null,
       "eventSources": [
         "https://www.oeius.at/hu/veranstaltungen"
@@ -189,7 +189,7 @@
       "type": "közösségi egyesület",
       "intro": "Ausztriában élő magyar nők közössége, amely beilleszkedést, kapcsolatépítést és személyes-szakmai fejlődést támogató programokat szervez. A közösségi modell a kapcsolódásra, tudásmegosztásra, önbizalomra és egymás gyakorlati támogatására épül.",
       "website": "https://leaninfemspace.at/",
-      "facebook": null,
+      "facebook": "https://www.facebook.com/leaninfemspace/",
       "instagram": null,
       "eventSources": [
         "https://leaninfemspace.at/"
@@ -256,7 +256,7 @@
       "type": "művészeti egyesület",
       "intro": "A SVUNG – Bécsi Magyar Színház önálló, független magyar nyelvű színtársulat Bécsben. Saját előadásokat, kortárs és társadalmi kérdésekre reflektáló produkciókat, valamint gyermek- és bábszínházi programokat hoz létre az ausztriai magyar közönség számára.",
       "website": "https://svung.at/",
-      "facebook": null,
+      "facebook": "https://www.facebook.com/Svung.Wien",
       "instagram": null,
       "eventSources": [
         "https://svung.at/",
@@ -321,7 +321,7 @@
       "parentOrganizationId": "svung",
       "intro": "A SVUNG – Bécsi Magyar Színház 8–13 éveseknek szóló magyar nyelvű drámacsoportja. Heti foglalkozásokon drámajáték, improvizáció és színpadi alkotás keretében fejleszti a kommunikációt, önbizalmat és magyar nyelvhasználatot.",
       "website": "https://www.magyariskola.at/event-details/kicsisvung-2026",
-      "facebook": null,
+      "facebook": "https://www.facebook.com/Svung.Wien",
       "instagram": null,
       "eventSources": [
         "https://www.magyariskola.at/event-details/kicsisvung-2026"
@@ -361,7 +361,17 @@
       },
       "entityClass": "group",
       "classificationOverride": "stable-group",
-      "classificationNote": "Önálló, tartósan működő színjátszó csoport; a heti foglalkozás külön oktatási/kurzusrekordban szerepel."
+      "classificationNote": "Önálló, tartósan működő színjátszó csoport; a heti foglalkozás külön oktatási/kurzusrekordban szerepel.",
+      "calendarSources": [
+        {
+          "label": "SVUNG – Facebook",
+          "url": "https://www.facebook.com/Svung.Wien",
+          "kind": "social-calendar",
+          "platform": "facebook",
+          "scope": "parent",
+          "ingestEvents": false
+        }
+      ]
     },
     {
       "id": "gimi-svung",
@@ -375,7 +385,7 @@
       "parentOrganizationId": "svung",
       "intro": "A Gimi Svung a SVUNG – Bécsi Magyar Színház magyar nyelvű drámafoglalkozása 12–18 éves gimnazistáknak. A heti műhely improvizációval, szituációs gyakorlatokkal, dráma- és jelenetírással fejleszti a magyar nyelvi kifejezőkészséget, önbizalmat, empátiát és kreativitást, miközben a tanév végére saját színpadi produkció létrehozását célozza.",
       "website": "https://www.magyariskola.at/event-details/gimisvung-2026",
-      "facebook": null,
+      "facebook": "https://www.facebook.com/Svung.Wien",
       "instagram": null,
       "eventSources": [
         "https://www.magyariskola.at/event-details/gimisvung-2026"
@@ -428,6 +438,14 @@
           "kind": "official-course-calendar",
           "scope": "self",
           "ingestEvents": true
+        },
+        {
+          "label": "SVUNG – Facebook",
+          "url": "https://www.facebook.com/Svung.Wien",
+          "kind": "social-calendar",
+          "platform": "facebook",
+          "scope": "parent",
+          "ingestEvents": false
         }
       ]
     },
@@ -673,7 +691,7 @@
       "type": "gazdasági-közösségi",
       "intro": "Az 1984-ben Bécsben hivatalosan megalakult Kaláka‑Club – Ausztriai Magyarok Gazdasági Érdekközössége eredetileg magyar gazdasági szakembereket, iparosokat és szabadfoglalkozásúakat fogott össze. Gazdasági kapcsolatépítés mellett kulturális és közösségi programokat is szervez.",
       "website": "https://kalaka-club.at/",
-      "facebook": null,
+      "facebook": "https://www.facebook.com/profile.php?id=100069108893600",
       "instagram": null,
       "eventSources": [
         "https://kalaka-club.at/"
@@ -4017,7 +4035,7 @@
       "type": "színházi egyesület",
       "intro": "Az Alsóőri Kétnyelvű Színjátszóegyesület és Kultúrkör 1982-ben alakult, miközben Alsóőr színjátszó hagyománya dokumentáltan az 1920-as évekig nyúlik vissza. Magyar és német nyelvű színházi, gyermek- és kulturális programokat szervez.",
       "website": "https://www.theaterverein-unterwart.at/",
-      "facebook": null,
+      "facebook": "https://www.facebook.com/Zweisprachiger-Theaterverein-und-Kulturkreis-Unterwart-110195580434233/",
       "instagram": null,
       "eventSources": [
         "https://www.theaterverein-unterwart.at/"
@@ -4106,7 +4124,7 @@
       "type": "zenei közösség",
       "intro": "Az Alsóőri Énekkar a helyi magyar zenei és egyházi hagyományok egyik aktív őrzője. Kórusprogramokkal, helyi rendezvényekkel és az alsóőri magyar egyházi énekkincs dokumentálásával járul hozzá a közösségi kultúra fennmaradásához.",
       "website": "https://www.alsoori-enekkar.at/",
-      "facebook": null,
+      "facebook": "https://www.facebook.com/alsoorienekkar",
       "instagram": null,
       "eventSources": [],
       "categories": [
