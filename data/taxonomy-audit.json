@@ -1,9 +1,9 @@
 {
-  "updated": "2026-09-28T16:42:47.485606+00:00",
+  "updated": "2026-09-28T16:44:37.449056+00:00",
   "summary": {
     "organizations": 157,
     "organizationFlags": 0,
-    "organizationPagesChecked": 352,
+    "organizationPagesChecked": 356,
     "education": 106,
     "educationFlags": 0,
     "events": 29,
@@ -1091,9 +1091,10 @@
         "sport",
         "csalad"
       ],
-      "pagesChecked": 2,
+      "pagesChecked": 3,
       "checkedUrls": [
         "https://culture.hu/hu/wien",
+        "https://culture.hu/hu/wien/elerhetoseg",
         "https://volksgruppen.orf.at/magyarok/stories/3358308/"
       ],
       "errors": [],
@@ -1116,13 +1117,17 @@
         "muveszet",
         "csalad"
       ],
-      "pagesChecked": 3,
+      "pagesChecked": 2,
       "checkedUrls": [
-        "https://culture.hu/hu/wien",
         "https://culture.hu/hu/wien/esemenyek",
         "https://culture.hu/de/wien/jubilaum"
       ],
-      "errors": [],
+      "errors": [
+        {
+          "url": "https://culture.hu/hu/wien",
+          "error": "HTTP Error 502: Bad Gateway"
+        }
+      ],
       "flags": []
     },
     {
@@ -1466,10 +1471,27 @@
         "kultura"
       ],
       "activityCategories": [],
-      "signals": [],
-      "pagesChecked": 0,
-      "checkedUrls": [],
-      "errors": [],
+      "signals": [
+        "oktatas",
+        "neptanc",
+        "szinhaz",
+        "media",
+        "egyhaz",
+        "diak",
+        "irodalom",
+        "muveszet"
+      ],
+      "pagesChecked": 2,
+      "checkedUrls": [
+        "https://europaclub.at/",
+        "https://europaclub.at/rolunk/europa-club-tortenete/"
+      ],
+      "errors": [
+        {
+          "url": "https://europaclub.at/rendezvenyek/meghivok/",
+          "error": "The read operation timed out"
+        }
+      ],
       "flags": []
     },
     {
@@ -1889,17 +1911,13 @@
         "muveszet",
         "csalad"
       ],
-      "pagesChecked": 2,
+      "pagesChecked": 3,
       "checkedUrls": [
         "https://www.facebook.com/IMIKE2019UJKV/",
+        "https://www.instagram.com/imike_ujkv/",
         "https://rolunk.at/nepcsoportunk/sziveben-magyar/"
       ],
-      "errors": [
-        {
-          "url": "https://www.instagram.com/imike_ujkv/",
-          "error": "HTTP Error 429: Too Many Requests"
-        }
-      ],
+      "errors": [],
       "flags": []
     },
     {
@@ -3683,13 +3701,15 @@
       "activityCategories": [],
       "signals": [
         "oktatas",
+        "szinhaz",
         "media",
         "irodalom",
         "csalad"
       ],
-      "pagesChecked": 1,
+      "pagesChecked": 2,
       "checkedUrls": [
-        "https://stadtbibliothek.graz.at/Angebote/Sprachenbibliothek/Sprachen-im-Depot"
+        "https://stadtbibliothek.graz.at/Angebote/Sprachenbibliothek/Sprachen-im-Depot",
+        "https://stadtbibliothek.graz.at/Stadtbibliothek-Graz-einfach-erkl%C3%A4rt"
       ],
       "errors": [],
       "flags": []
