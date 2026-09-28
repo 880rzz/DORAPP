@@ -1,9 +1,9 @@
 {
-  "updated": "2026-09-28T18:08:45.393343+00:00",
+  "updated": "2026-09-28T18:12:05.161036+00:00",
   "summary": {
     "organizations": 157,
-    "organizationFlags": 1,
-    "organizationPagesChecked": 348,
+    "organizationFlags": 0,
+    "organizationPagesChecked": 351,
     "education": 106,
     "educationFlags": 0,
     "events": 29,
@@ -891,19 +891,20 @@
       ],
       "activityCategories": [],
       "signals": [
+        "oktatas",
+        "szinhaz",
+        "media",
         "irodalom",
         "muveszet"
       ],
-      "pagesChecked": 0,
-      "checkedUrls": [],
+      "pagesChecked": 1,
+      "checkedUrls": [
+        "https://www.kozpontiszovetseg.at/event-details/dr-janosi-zoltan-irodalomtortenesz-iro-kolto"
+      ],
       "errors": [
         {
           "url": "https://bornemisza.at/",
-          "error": "<urlopen error timed out>"
-        },
-        {
-          "url": "https://www.kozpontiszovetseg.at/event-details/dr-janosi-zoltan-irodalomtortenesz-iro-kolto",
-          "error": "HTTP Error 429: Too Many Requests"
+          "error": "<urlopen error [Errno 111] Connection refused>"
         },
         {
           "url": "https://www.kozpontiszovetseg.at/bornemisza-peter-tarsasag",
@@ -1067,13 +1068,17 @@
       "signals": [
         "diak"
       ],
-      "pagesChecked": 3,
+      "pagesChecked": 2,
       "checkedUrls": [
-        "https://club-pannonia.at/",
         "https://www.club-pannonia.at/uber-uns/",
         "https://www.club-pannonia.at/mitgliedschaft/"
       ],
-      "errors": [],
+      "errors": [
+        {
+          "url": "https://club-pannonia.at/",
+          "error": "<urlopen error timed out>"
+        }
+      ],
       "flags": []
     },
     {
@@ -1116,23 +1121,20 @@
       "activityCategories": [],
       "signals": [
         "oktatas",
+        "szinhaz",
         "media",
-        "irodalom"
+        "irodalom",
+        "muveszet",
+        "csalad"
       ],
-      "pagesChecked": 2,
+      "pagesChecked": 3,
       "checkedUrls": [
         "https://culture.hu/hu/wien",
+        "https://culture.hu/hu/wien/esemenyek",
         "https://culture.hu/de/wien/jubilaum"
       ],
-      "errors": [
-        {
-          "url": "https://culture.hu/hu/wien/esemenyek",
-          "error": "The read operation timed out"
-        }
-      ],
-      "flags": [
-        "weak-source-signal:muveszet"
-      ]
+      "errors": [],
+      "flags": []
     },
     {
       "id": "collegium-pazmanianum",
@@ -1472,10 +1474,27 @@
         "kultura"
       ],
       "activityCategories": [],
-      "signals": [],
-      "pagesChecked": 0,
-      "checkedUrls": [],
-      "errors": [],
+      "signals": [
+        "oktatas",
+        "neptanc",
+        "szinhaz",
+        "media",
+        "egyhaz",
+        "diak",
+        "irodalom",
+        "muveszet"
+      ],
+      "pagesChecked": 2,
+      "checkedUrls": [
+        "https://europaclub.at/",
+        "https://europaclub.at/rolunk/europa-club-tortenete/"
+      ],
+      "errors": [
+        {
+          "url": "https://europaclub.at/rendezvenyek/meghivok/",
+          "error": "The read operation timed out"
+        }
+      ],
       "flags": []
     },
     {
@@ -1815,13 +1834,16 @@
         "enekkar",
         "szinhaz",
         "media",
+        "egyhaz",
+        "irodalom",
+        "muveszet",
         "sport",
         "csalad"
       ],
       "pagesChecked": 3,
       "checkedUrls": [
         "https://bukv.at/",
-        "https://www.burgenland.at/news-detail/lh-doskozil-laedt-bevoelkerung-zur-eroeffnung-des-jahrhundertprojekts-haus-der-volksgruppen/",
+        "https://www.burgenland.at/service/medienservice/aktuelle-meldungen/detail/lh-doskozil-haus-der-volksgruppen-setzt-meilenstein-fuer-vielfalt-und-zusammenhalt/",
         "https://burgenland.orf.at/stories/3372614/"
       ],
       "errors": [],
@@ -1907,13 +1929,17 @@
         "muveszet",
         "csalad"
       ],
-      "pagesChecked": 3,
+      "pagesChecked": 2,
       "checkedUrls": [
         "https://www.facebook.com/IMIKE2019UJKV/",
-        "https://www.instagram.com/imike_ujkv/",
         "https://rolunk.at/nepcsoportunk/sziveben-magyar/"
       ],
-      "errors": [],
+      "errors": [
+        {
+          "url": "https://www.instagram.com/imike_ujkv/",
+          "error": "HTTP Error 429: Too Many Requests"
+        }
+      ],
       "flags": []
     },
     {
@@ -1959,12 +1985,16 @@
         "muveszet",
         "csalad"
       ],
-      "pagesChecked": 2,
+      "pagesChecked": 1,
       "checkedUrls": [
-        "https://kalaka-club.at/",
         "https://www.korosiprogram.hu/partnereink/ausztriai-magyarok-gazdasagi-erdekkozossege-kalaka-klub"
       ],
-      "errors": [],
+      "errors": [
+        {
+          "url": "https://kalaka-club.at/",
+          "error": "HTTP Error 500: Internal Server Error"
+        }
+      ],
       "flags": []
     },
     {
@@ -2209,20 +2239,20 @@
       "activityCategories": [],
       "signals": [
         "oktatas",
+        "neptanc",
+        "nepzene",
         "szinhaz",
+        "media",
         "irodalom",
         "muveszet",
         "csalad"
       ],
-      "pagesChecked": 1,
+      "pagesChecked": 2,
       "checkedUrls": [
-        "https://www.kozpontiszovetseg.at/"
+        "https://www.kozpontiszovetseg.at/",
+        "https://www.kozpontiszovetseg.at/r%C3%B3lunk"
       ],
       "errors": [
-        {
-          "url": "https://www.kozpontiszovetseg.at/r%C3%B3lunk",
-          "error": "HTTP Error 429: Too Many Requests"
-        },
         {
           "url": "https://www.kozpontiszovetseg.at/kapcsolat",
           "error": "HTTP Error 429: Too Many Requests"
@@ -2444,7 +2474,7 @@
       "errors": [
         {
           "url": "https://www.magyarszo.at/",
-          "error": "<urlopen error timed out>"
+          "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'www.magyarszo.at'. (_ssl.c:1010)>"
         }
       ],
       "flags": []
@@ -3146,16 +3176,12 @@
         "diak",
         "irodalom"
       ],
-      "pagesChecked": 1,
+      "pagesChecked": 2,
       "checkedUrls": [
-        "https://lexikon.katolikus.hu/M/Magyar%20Pax%20Romana%20Katolikus%20%C3%89rtelmis%C3%A9gi%20Mozgalom.html"
+        "https://lexikon.katolikus.hu/M/Magyar%20Pax%20Romana%20Katolikus%20%C3%89rtelmis%C3%A9gi%20Mozgalom.html",
+        "https://www.icmica-miic.org/2012/03/oesterreich/"
       ],
-      "errors": [
-        {
-          "url": "https://www.icmica-miic.org/2012/03/oesterreich/",
-          "error": "<urlopen error [Errno 101] Network is unreachable>"
-        }
-      ],
+      "errors": [],
       "flags": []
     },
     {
