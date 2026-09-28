@@ -1,9 +1,9 @@
 {
-  "updated": "2026-09-28T19:23:28.793693+00:00",
+  "updated": "2026-09-28T19:42:44.078523+00:00",
   "summary": {
     "organizations": 158,
     "organizationFlags": 1,
-    "organizationPagesChecked": 327,
+    "organizationPagesChecked": 324,
     "education": 106,
     "educationFlags": 0,
     "events": 29,
@@ -905,7 +905,7 @@
       "errors": [
         {
           "url": "https://bornemisza.at/",
-          "error": "<urlopen error [Errno 111] Connection refused>"
+          "error": "<urlopen error timed out>"
         },
         {
           "url": "https://www.kozpontiszovetseg.at/bornemisza-peter-tarsasag",
@@ -1052,13 +1052,17 @@
         "sport",
         "csalad"
       ],
-      "pagesChecked": 3,
+      "pagesChecked": 2,
       "checkedUrls": [
         "https://www.burgenlandicserkesz.at/",
-        "https://volksgruppen.orf.at/magyarok/stories/3333230/",
-        "https://podiverzum.hu/podcast/orf-magyarok-podcast/idoutazas-es-megemlekezes-az-alsoori-cserkeszdelutanon-deaf57f3"
+        "https://volksgruppen.orf.at/magyarok/stories/3333230/"
       ],
-      "errors": [],
+      "errors": [
+        {
+          "url": "https://burgenlandicserkesz.at/en/",
+          "error": "HTTP Error 404: Not Found"
+        }
+      ],
       "flags": []
     },
     {
@@ -1658,17 +1662,13 @@
         "muveszet",
         "csalad"
       ],
-      "pagesChecked": 2,
+      "pagesChecked": 3,
       "checkedUrls": [
         "https://femconnectgraz.at/",
-        "https://femconnectgraz.at/graci-programok/"
+        "https://femconnectgraz.at/graci-programok/",
+        "https://femconnectgraz.at/events/"
       ],
-      "errors": [
-        {
-          "url": "https://femconnectgraz.at/events/",
-          "error": "HTTP Error 520: <none>"
-        }
-      ],
+      "errors": [],
       "flags": []
     },
     {
@@ -1984,12 +1984,16 @@
         "muveszet",
         "csalad"
       ],
-      "pagesChecked": 2,
+      "pagesChecked": 1,
       "checkedUrls": [
-        "https://kalaka-club.at/",
         "https://www.korosiprogram.hu/partnereink/ausztriai-magyarok-gazdasagi-erdekkozossege-kalaka-klub"
       ],
-      "errors": [],
+      "errors": [
+        {
+          "url": "https://kalaka-club.at/",
+          "error": "HTTP Error 500: Internal Server Error"
+        }
+      ],
       "flags": []
     },
     {
@@ -2229,19 +2233,21 @@
       ],
       "activityCategories": [],
       "signals": [
-        "oktatas"
+        "oktatas",
+        "neptanc",
+        "nepzene",
+        "szinhaz",
+        "media",
+        "irodalom",
+        "muveszet",
+        "csalad"
       ],
-      "pagesChecked": 0,
-      "checkedUrls": [],
+      "pagesChecked": 2,
+      "checkedUrls": [
+        "https://www.kozpontiszovetseg.at/",
+        "https://www.kozpontiszovetseg.at/r%C3%B3lunk"
+      ],
       "errors": [
-        {
-          "url": "https://www.kozpontiszovetseg.at/",
-          "error": "HTTP Error 429: Too Many Requests"
-        },
-        {
-          "url": "https://www.kozpontiszovetseg.at/r%C3%B3lunk",
-          "error": "HTTP Error 429: Too Many Requests"
-        },
         {
           "url": "https://www.kozpontiszovetseg.at/kapcsolat",
           "error": "HTTP Error 429: Too Many Requests"
@@ -2448,7 +2454,7 @@
       "errors": [
         {
           "url": "https://www.magyarszo.at/",
-          "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'www.magyarszo.at'. (_ssl.c:1010)>"
+          "error": "<urlopen error timed out>"
         }
       ],
       "flags": []
@@ -3918,21 +3924,25 @@
         "neptanc"
       ],
       "signals": [
-        "oktatas",
         "nepzene",
         "media",
         "diak",
-        "muveszet",
-        "sport",
-        "csalad"
+        "sport"
       ],
-      "pagesChecked": 3,
+      "pagesChecked": 1,
       "checkedUrls": [
-        "https://ungarball.at/",
-        "https://volksgruppen.orf.at/v2/magyarok/stories/2694653/",
-        "https://www.flickr.com/photos/vipach/55099423490"
+        "https://volksgruppen.orf.at/v2/magyarok/stories/2694653/"
       ],
-      "errors": [],
+      "errors": [
+        {
+          "url": "https://ungarball.at/",
+          "error": "HTTP Error 403: Forbidden"
+        },
+        {
+          "url": "https://www.flickr.com/photos/vipach/55099423490",
+          "error": "The read operation timed out"
+        }
+      ],
       "flags": []
     },
     {
@@ -3944,16 +3954,18 @@
         "kultura"
       ],
       "activityCategories": [],
-      "signals": [
-        "oktatas",
-        "csalad"
-      ],
-      "pagesChecked": 2,
-      "checkedUrls": [
-        "https://ungarball.at/",
-        "https://ungarball.at/impressum"
-      ],
+      "signals": [],
+      "pagesChecked": 0,
+      "checkedUrls": [],
       "errors": [
+        {
+          "url": "https://ungarball.at/",
+          "error": "HTTP Error 403: Forbidden"
+        },
+        {
+          "url": "https://ungarball.at/impressum",
+          "error": "HTTP Error 403: Forbidden"
+        },
         {
           "url": "https://www.kozpontiszovetseg.at/tagszervezetek",
           "error": "HTTP Error 429: Too Many Requests"
