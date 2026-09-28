@@ -1013,7 +1013,7 @@
       ],
       "parentOrganizationId": "napraforgok",
       "intro": "A Napraforgócskák a Napraforgók – Bécsi Magyar Néptánc és Népzene Egyesület gyermekcsoportja. A foglalkozások a magyar néptáncot, ritmust, csujjogatást és közös muzsikálást játékos formában adják tovább, miközben a gyerekek a bécsi magyar néptáncos közösség természetes utánpótlását alkotják.",
-      "website": "https://www.napraforgok.at/r%C3%B3lunk",
+      "website": null,
       "facebook": "https://www.facebook.com/napraforgok.becs",
       "instagram": null,
       "eventSources": [],
@@ -1081,6 +1081,14 @@
           "platform": "facebook",
           "scope": "parent",
           "ingestEvents": false
+        }
+      ],
+      "publicChannels": [
+        {
+          "label": "Napraforgócskák Gyermek Néptánccsoport – kapcsolódó nyilvános forrás",
+          "url": "https://www.napraforgok.at/r%C3%B3lunk",
+          "kind": "parent-profile",
+          "ownership": "parent"
         }
       ]
     },
@@ -2825,7 +2833,7 @@
       ],
       "parentOrganizationId": "delibab",
       "intro": "A Délibáb Bécsi Magyar Kultúregyesülethez kapcsolódó citerazenekar. Hagyományos magyar citerazenével kísér táncos és ünnepi programokat, illetve önálló műsorokkal is fellép; a Délibáb 75 éves jubileumi anyagában külön citeraegyüttesként szerepel.",
-      "website": "https://www.delibab-becs.com/",
+      "website": null,
       "facebook": null,
       "instagram": null,
       "eventSources": [],
@@ -2898,7 +2906,15 @@
           "sourceUrl": "https://www.wukv.at/sample-page/"
         }
       ],
-      "classificationNote": " A csoport a Délibáb/WUKV keretében működik; a közös e-mail és esetleges közös social a parent egyesület infrastruktúrája, nem duplikáció."
+      "classificationNote": " A csoport a Délibáb/WUKV keretében működik; a közös e-mail és esetleges közös social a parent egyesület infrastruktúrája, nem duplikáció.",
+      "publicChannels": [
+        {
+          "label": "Röppenj Pengető Citerazenekar – kapcsolódó nyilvános forrás",
+          "url": "https://www.delibab-becs.com/",
+          "kind": "parent-profile",
+          "ownership": "parent"
+        }
+      ]
     },
     {
       "id": "kerekasztal",
@@ -4321,7 +4337,7 @@
       ],
       "parentOrganizationId": "vhs-burgenland",
       "intro": "Az Őri Banda a Burgenlandi Magyarok Népfőiskolájához tartozó hagyományőrző citerazenekar és népdalkör. A csoport a burgenlandi magyar népdal- és népzenei örökséget ápolja, különösen az alsóőri hagyományokat, és a korábbi Alsóőri Citeraegyüttes zenei örökségének folytatója.",
-      "website": "https://vhs-ungarn.at/de/uber-uns/der-verein-volkshochschule-der-burgenlandischen-ungarn/",
+      "website": null,
       "facebook": null,
       "instagram": null,
       "eventSources": [],
@@ -4384,7 +4400,15 @@
           "ingestEvents": false
         }
       ],
-      "classificationNote": "A Burgenlandi Magyarok Népfőiskolája keretében működő hagyományőrző csoport; a VHS kontaktjai parent infrastruktúra. Nem önálló egyesület."
+      "classificationNote": "A Burgenlandi Magyarok Népfőiskolája keretében működő hagyományőrző csoport; a VHS kontaktjai parent infrastruktúra. Nem önálló egyesület.",
+      "publicChannels": [
+        {
+          "label": "Őri Banda Népdalkör – kapcsolódó nyilvános forrás",
+          "url": "https://vhs-ungarn.at/de/uber-uns/der-verein-volkshochschule-der-burgenlandischen-ungarn/",
+          "kind": "parent-profile",
+          "ownership": "parent"
+        }
+      ]
     },
     {
       "id": "umiz",
@@ -5280,7 +5304,7 @@
       ],
       "parentOrganizationId": "hungaromedia",
       "intro": "A Linzi Városi Könyvtár magyar gyermek- és ifjúsági részlege a HungaroMedia együttműködésével működik. 2025-ben több mint 150 új magyar gyermek- és ifjúsági könyv került a Wissensturm állományába; a program magyar nyelvű felolvasásokkal és olvasásnépszerűsítő eseményekkel egészül ki.",
-      "website": "https://wissensturm.linz.at/bibliothek/",
+      "website": null,
       "facebook": null,
       "instagram": null,
       "eventSources": [],
@@ -5349,7 +5373,15 @@
           "ingestEvents": false
         }
       ],
-      "classificationNote": "A magyar gyermek- és ifjúsági könyvtári részleg a HungaroMedia kezdeményezésével kibővített gyűjtemény a Linzi Városi Könyvtárban. HungaroMedia = projektgazda/kezdeményező; Stadtbibliothek Linz = fogadóintézmény. Nem önálló egyesület."
+      "classificationNote": "A magyar gyermek- és ifjúsági könyvtári részleg a HungaroMedia kezdeményezésével kibővített gyűjtemény a Linzi Városi Könyvtárban. HungaroMedia = projektgazda/kezdeményező; Stadtbibliothek Linz = fogadóintézmény. Nem önálló egyesület.",
+      "publicChannels": [
+        {
+          "label": "Linzi Magyar Gyermek- és Ifjúsági Könyvtári Részleg – kapcsolódó nyilvános forrás",
+          "url": "https://wissensturm.linz.at/bibliothek/",
+          "kind": "host-profile",
+          "ownership": "host"
+        }
+      ]
     },
     {
       "id": "felso-ausztriai-magyarok",
@@ -5741,7 +5773,7 @@
       ],
       "parentOrganizationId": "ne-felejts",
       "intro": "A linzi Ne-Felejts! Néptáncegyüttes 6–16 éveseknek indított gyermekcsoportja, rendszeres vasárnapi próbákkal. A cél a magyar néptánchagyomány továbbadása és a felnőtt együttes utánpótlásának biztosítása.",
-      "website": "https://ne-felejts.weebly.com/",
+      "website": null,
       "facebook": null,
       "instagram": null,
       "eventSources": [],
@@ -5789,6 +5821,14 @@
           "kind": "parent-calendar",
           "scope": "parent",
           "ingestEvents": false
+        }
+      ],
+      "publicChannels": [
+        {
+          "label": "Ne-Felejts! Gyermek Néptánccsoport – kapcsolódó nyilvános forrás",
+          "url": "https://ne-felejts.weebly.com/",
+          "kind": "parent-profile",
+          "ownership": "parent"
         }
       ]
     },
@@ -6526,7 +6566,7 @@
       ],
       "parentOrganizationId": "salzung",
       "intro": "A SalzUNG keretében működő Salzburgi Magyar Minikönyvtár 2020 októberében indult a magyar olvasás és irodalom népszerűsítésére. A gyűjtemény gyermek-, ifjúsági és felnőttirodalmat kínál, könyvklubokkal, író-olvasó találkozókkal és közösségi olvasási programokkal.",
-      "website": "https://www.salzung.com/hu",
+      "website": null,
       "facebook": null,
       "instagram": null,
       "eventSources": [],
@@ -6598,6 +6638,14 @@
           "kind": "evidence-calendar",
           "scope": "parent",
           "ingestEvents": false
+        }
+      ],
+      "publicChannels": [
+        {
+          "label": "Salzburgi Magyar Minikönyvtár és Könyvklub – kapcsolódó nyilvános forrás",
+          "url": "https://www.salzung.com/hu",
+          "kind": "parent-profile",
+          "ownership": "parent"
         }
       ]
     },
@@ -10536,7 +10584,7 @@
       ],
       "parentOrganizationId": "grazi-magyar-egyesulet",
       "intro": "A Grazi Magyar Néptánccsoport a Grazi Magyar Egyesület keretében működő hagyományőrző közösség. Rendszeres próbákon magyar néptáncokat, tájegységi koreográfiákat és közösségi tánchagyományokat tanulnak, majd helyi magyar rendezvényeken, bálokon és kulturális programokon lépnek fel.",
-      "website": "https://www.grazimagyaregyesuelet.at/",
+      "website": null,
       "facebook": "https://www.facebook.com/Grazi.Magyar.Egyesuelet",
       "instagram": null,
       "eventSources": [],
@@ -10606,7 +10654,15 @@
         }
       ],
       "email": "gme1888@gmx.at",
-      "classificationNote": "A grazimagyaregyesuelet.at és gme1888@gmx.at a Grazi Magyar Egyesület parent infrastruktúrája; a rekord működő csoportot reprezentál, nem külön egyesületet."
+      "classificationNote": "A grazimagyaregyesuelet.at és gme1888@gmx.at a Grazi Magyar Egyesület parent infrastruktúrája; a rekord működő csoportot reprezentál, nem külön egyesületet.",
+      "publicChannels": [
+        {
+          "label": "Grazi Magyar Néptánccsoport – kapcsolódó nyilvános forrás",
+          "url": "https://www.grazimagyaregyesuelet.at/",
+          "kind": "parent-profile",
+          "ownership": "parent"
+        }
+      ]
     },
     {
       "id": "vipach",
@@ -11958,7 +12014,7 @@
       "city": "Graz",
       "type": "hagyományos magyar bálsorozat",
       "intro": "A Grazi Magyar Egyesület történelmi bálsorozata, amely a stájerországi magyar közösség egyik legrégebbi és legnagyobb rendszeres kulturális eseménye. A 2026-os rendezvény a 137. bál volt.",
-      "website": "https://www.grazimagyaregyesuelet.at/",
+      "website": null,
       "facebook": null,
       "instagram": null,
       "eventSources": [],
@@ -12026,6 +12082,14 @@
           "kind": "evidence-calendar",
           "scope": "parent",
           "ingestEvents": false
+        }
+      ],
+      "publicChannels": [
+        {
+          "label": "Grazi Magyar Bál – kapcsolódó nyilvános forrás",
+          "url": "https://www.grazimagyaregyesuelet.at/",
+          "kind": "parent-profile",
+          "ownership": "parent"
         }
       ]
     },
@@ -12447,7 +12511,7 @@
       "city": "Wien",
       "type": "magyar kulturális és kutatási könyvtár",
       "intro": "A Collegium Hungaricum Wien könyvtára a bécsi magyar kulturális intézet részeként több mint 15 000 kötetes Hungarica-gyűjteményt biztosít magyar, német és angol nyelven. A könyvtár kutatók, diákok, családok és a kortárs magyar kultúra iránt érdeklődők számára kínál hozzáférést irodalmi, történelmi, kulturális és gyermekkönyvi anyagokhoz.",
-      "website": "https://culture.hu/hu/wien",
+      "website": null,
       "facebook": null,
       "instagram": null,
       "eventSources": [],
@@ -12529,6 +12593,14 @@
           "kind": "parent-calendar",
           "scope": "parent",
           "ingestEvents": false
+        }
+      ],
+      "publicChannels": [
+        {
+          "label": "Collegium Hungaricum Wien – Könyvtár – kapcsolódó nyilvános forrás",
+          "url": "https://culture.hu/hu/wien",
+          "kind": "parent-profile",
+          "ownership": "parent"
         }
       ]
     },
