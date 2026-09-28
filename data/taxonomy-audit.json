@@ -1,9 +1,9 @@
 {
-  "updated": "2026-09-28T16:44:37.449056+00:00",
+  "updated": "2026-09-28T16:47:15.278624+00:00",
   "summary": {
     "organizations": 157,
     "organizationFlags": 0,
-    "organizationPagesChecked": 356,
+    "organizationPagesChecked": 350,
     "education": 106,
     "educationFlags": 0,
     "events": 29,
@@ -130,18 +130,24 @@
       ],
       "activityCategories": [],
       "signals": [
-        "media",
-        "egyhaz",
-        "muveszet",
-        "csalad"
+        "egyhaz"
       ],
-      "pagesChecked": 3,
-      "checkedUrls": [
-        "https://www.martinus.at/",
-        "https://www.martinus.at/pfarre/1127/kalender",
-        "https://www.martinus.at/unterwart"
+      "pagesChecked": 0,
+      "checkedUrls": [],
+      "errors": [
+        {
+          "url": "https://www.martinus.at/",
+          "error": "<urlopen error timed out>"
+        },
+        {
+          "url": "https://www.martinus.at/pfarre/1127/kalender",
+          "error": "<urlopen error timed out>"
+        },
+        {
+          "url": "https://www.martinus.at/unterwart",
+          "error": "<urlopen error timed out>"
+        }
       ],
-      "errors": [],
       "flags": []
     },
     {
@@ -1117,17 +1123,13 @@
         "muveszet",
         "csalad"
       ],
-      "pagesChecked": 2,
+      "pagesChecked": 3,
       "checkedUrls": [
+        "https://culture.hu/hu/wien",
         "https://culture.hu/hu/wien/esemenyek",
         "https://culture.hu/de/wien/jubilaum"
       ],
-      "errors": [
-        {
-          "url": "https://culture.hu/hu/wien",
-          "error": "HTTP Error 502: Bad Gateway"
-        }
-      ],
+      "errors": [],
       "flags": []
     },
     {
@@ -1587,16 +1589,24 @@
       ],
       "activityCategories": [],
       "signals": [
-        "media",
         "egyhaz"
       ],
-      "pagesChecked": 3,
-      "checkedUrls": [
-        "https://www.martinus.at/pfarre/1122",
-        "https://www.martinus.at/pfarre/1122/kalender",
-        "https://www.martinus.at/pfarre/1122/kalender/calendar/1808040.html"
+      "pagesChecked": 0,
+      "checkedUrls": [],
+      "errors": [
+        {
+          "url": "https://www.martinus.at/pfarre/1122",
+          "error": "<urlopen error timed out>"
+        },
+        {
+          "url": "https://www.martinus.at/pfarre/1122/kalender",
+          "error": "<urlopen error timed out>"
+        },
+        {
+          "url": "https://www.martinus.at/pfarre/1122/kalender/calendar/1808040.html",
+          "error": "<urlopen error timed out>"
+        }
       ],
-      "errors": [],
       "flags": []
     },
     {
@@ -1963,16 +1973,12 @@
         "muveszet",
         "csalad"
       ],
-      "pagesChecked": 1,
+      "pagesChecked": 2,
       "checkedUrls": [
+        "https://kalaka-club.at/",
         "https://www.korosiprogram.hu/partnereink/ausztriai-magyarok-gazdasagi-erdekkozossege-kalaka-klub"
       ],
-      "errors": [
-        {
-          "url": "https://kalaka-club.at/",
-          "error": "HTTP Error 500: Internal Server Error"
-        }
-      ],
+      "errors": [],
       "flags": []
     },
     {
@@ -3153,12 +3159,16 @@
         "diak",
         "irodalom"
       ],
-      "pagesChecked": 2,
+      "pagesChecked": 1,
       "checkedUrls": [
-        "https://lexikon.katolikus.hu/M/Magyar%20Pax%20Romana%20Katolikus%20%C3%89rtelmis%C3%A9gi%20Mozgalom.html",
-        "https://www.icmica-miic.org/2012/03/oesterreich/"
+        "https://lexikon.katolikus.hu/M/Magyar%20Pax%20Romana%20Katolikus%20%C3%89rtelmis%C3%A9gi%20Mozgalom.html"
       ],
-      "errors": [],
+      "errors": [
+        {
+          "url": "https://www.icmica-miic.org/2012/03/oesterreich/",
+          "error": "The read operation timed out"
+        }
+      ],
       "flags": []
     },
     {
@@ -3917,19 +3927,19 @@
       "activityCategories": [],
       "signals": [
         "oktatas",
-        "nepzene",
-        "media",
-        "diak",
-        "sport",
         "csalad"
       ],
-      "pagesChecked": 3,
+      "pagesChecked": 2,
       "checkedUrls": [
         "https://ungarball.at/",
-        "https://ungarball.at/impressum",
-        "https://volksgruppen.orf.at/v2/magyarok/stories/2694653/"
+        "https://ungarball.at/impressum"
       ],
-      "errors": [],
+      "errors": [
+        {
+          "url": "https://www.kozpontiszovetseg.at/tagszervezetek",
+          "error": "HTTP Error 429: Too Many Requests"
+        }
+      ],
       "flags": []
     },
     {
