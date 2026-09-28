@@ -368,9 +368,7 @@
       "website": null,
       "facebook": "https://www.facebook.com/Svung.Wien",
       "instagram": null,
-      "eventSources": [
-        "https://www.magyariskola.at/event-details/kicsisvung-2026"
-      ],
+      "eventSources": [],
       "evidenceSources": [
         {
           "label": "Bécsi Magyar Iskola – Kicsi Svung 2026/27",
@@ -421,7 +419,14 @@
           "url": "https://www.magyariskola.at/event-details/kicsisvung-2026",
           "kind": "host-event-page",
           "scope": "host",
-          "ingestEvents": true
+          "ingestEvents": false
+        },
+        {
+          "label": "SVUNG – parent szervezet aktuális előadásai",
+          "url": "https://www.svung.at/show/aktualis-eloadasok/",
+          "kind": "parent-calendar",
+          "scope": "parent",
+          "ingestEvents": false
         }
       ],
       "email": "pohlbalazs@svung.at",
@@ -457,9 +462,7 @@
       "website": null,
       "facebook": "https://www.facebook.com/Svung.Wien",
       "instagram": null,
-      "eventSources": [
-        "https://www.magyariskola.at/event-details/gimisvung-2026"
-      ],
+      "eventSources": [],
       "evidenceSources": [
         {
           "label": "Bécsi Magyar Iskola – Gimi Svung 2026/27",
@@ -505,15 +508,22 @@
         {
           "label": "Bécsi Magyar Iskola – Gimi Svung 2026/27",
           "url": "https://www.magyariskola.at/event-details/gimisvung-2026",
-          "kind": "official-course-calendar",
-          "scope": "self",
-          "ingestEvents": true
+          "kind": "host-event-page",
+          "scope": "host",
+          "ingestEvents": false
         },
         {
           "label": "SVUNG – Facebook",
           "url": "https://www.facebook.com/Svung.Wien",
           "kind": "social-calendar",
           "platform": "facebook",
+          "scope": "parent",
+          "ingestEvents": false
+        },
+        {
+          "label": "SVUNG – parent szervezet aktuális előadásai",
+          "url": "https://www.svung.at/show/aktualis-eloadasok/",
+          "kind": "parent-calendar",
           "scope": "parent",
           "ingestEvents": false
         }
@@ -1792,8 +1802,7 @@
       "facebook": null,
       "instagram": null,
       "eventSources": [
-        "https://fecskeklub.at/",
-        "https://www.magyariskola.at/event-details/fecskeklub-2026"
+        "https://fecskeklub.at/"
       ],
       "affiliations": [
         {
@@ -1854,7 +1863,15 @@
         ]
       },
       "entityClass": "project",
-      "calendarSources": [],
+      "calendarSources": [
+        {
+          "label": "Bécsi Magyar Iskola – Fecske Klub 2026 host/regisztrációs oldal",
+          "url": "https://www.magyariskola.at/event-details/fecskeklub-2026",
+          "kind": "host-event-page",
+          "scope": "host",
+          "ingestEvents": false
+        }
+      ],
       "classificationNote": " A BMI a személyes bécsi csoport helyszíne/együttműködő partnere; a Fecske Klub saját fecskeklub.at domainnel és saját kapcsolattal rendelkező külön projekt."
     },
     {
