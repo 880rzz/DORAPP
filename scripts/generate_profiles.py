@@ -48,7 +48,9 @@ for o in db["organizations"]:
     if languages: contact_bits.append("Nyelv: "+", ".join(esc(x) for x in languages))
     if o.get("profileVerifiedAt"): contact_bits.append("Profiladatok ellenőrizve: "+esc(o.get("profileVerifiedAt")))
     contact_html="<p>"+"<br>".join(contact_bits)+"</p>" if contact_bits else ""
-    status_html=('<p class="site-status"><strong>Státusz:</strong> megszűnt szervezet · történeti rekord</p>' if o.get("status")=="ceased" else "")\n    if o.get("entityClass")=="host-institution":\n        status_html+='<p class="site-status"><strong>Réteg:</strong> osztrák intézmény magyar szolgáltatással</p>'
+    status_html=('<p class="site-status"><strong>Státusz:</strong> megszűnt szervezet · történeti rekord</p>' if o.get("status")=="ceased" else "")
+    if o.get("entityClass")=="host-institution":
+        status_html+='<p class="site-status"><strong>Réteg:</strong> osztrák intézmény magyar szolgáltatással</p>'
     affiliations=o.get("affiliations") or []
     affiliation_html="<div class=\"membership-list\">"+"".join(
         f'<a class="membership" href="../szervezetek/{esc(a.get("organizationId"))}.html"><span>{esc(a.get("label") or "Kapcsolódás")}</span><strong>{esc((parents.get(a.get("organizationId")) or {}).get("name") or a.get("organizationId"))}</strong></a>'
@@ -60,7 +62,7 @@ for o in db["organizations"]:
     membership_html="<div class=\"membership-list\">"+"".join(
         f'<a class="membership" href="{esc((umbrellas.get(m.get("umbrellaId")) or {}).get("url") or m.get("sourceUrl"))}" target="_blank" rel="noopener external"><span>Ernyőszervezeti tagság</span><strong>{esc((umbrellas.get(m.get("umbrellaId")) or {}).get("name") or m.get("umbrellaId"))}</strong></a>'
         for m in memberships
-    )+"</div>" if memberships else "<p>Jelenleg nincs igazolt ernyőszervezeti tagság rögzítve.</p>"
+    )+"</div>" if memberships else ("<p>Ez nem magyar szervezet, hanem osztrák fogadóintézmény magyar szolgáltatással.</p>" if o.get("entityClass")=="host-institution" else "<p>Jelenleg nincs igazolt ernyőszervezeti tagság rögzítve.</p>")
     regional=o.get("regionalNetworks") or []
     regional_html="<div class=\"membership-list\">"+"".join(
         f'<a class="membership" href="{esc(r.get("sourceUrl"))}" target="_blank" rel="noopener external"><span>{esc("Regionális központ" if r.get("role")=="hub" else "Regionális együttműködés")}</span><strong>{esc((networks.get(r.get("networkId")) or {}).get("name") or r.get("networkId"))}</strong></a>'
@@ -77,7 +79,8 @@ for o in db["organizations"]:
     src_html="<ul class=\"source-list\">"+"".join(f'<li><a href="{esc(u)}" target="_blank" rel="noopener external">{esc(u)}</a></li>' for u in src)+"</ul>" if src else "<p>Ehhez a közösséghez még keresünk olyan saját programoldalt, amit rendszeresen és biztosan lehet frissíteni.</p>"
     page_url=f"{BASE_URL}/szervezetek/{o['id']}.html"
     publisher={"@type":"Organization","@id":BASE_URL+"/#publisher","name":"Ausztriai Magyar Egyesületek és Szervezetek Központi Szövetsége","url":"https://www.kozpontiszovetseg.at/","identifier":{"@type":"PropertyValue","propertyID":"ZVR","value":"079797621"}}
-    schema_type="Library" if o.get("entityClass")=="host-institution" and any(k in (o.get("type","")+" "+o.get("name","")).casefold() for k in ("könyvtár","bibliothek","library")) else "Organization"\n    org_schema={"@type":schema_type,"@id":page_url+"#organization","name":o["name"],"description":o["intro"],
+    schema_type="Library" if o.get("entityClass")=="host-institution" and any(k in (o.get("type","")+" "+o.get("name","")).casefold() for k in ("könyvtár","bibliothek","library")) else "Organization"
+    org_schema={"@type":schema_type,"@id":page_url+"#organization","name":o["name"],"description":o["intro"],
        "url":page_url,"sameAs":[x for x in [o.get("website"),o.get("facebook"),o.get("instagram")] if x],
        **({"dateModified":o.get("profileVerifiedAt")} if o.get("profileVerifiedAt") else {}),
        **({"foundingDate":o.get("founded")} if o.get("founded") else {}),
