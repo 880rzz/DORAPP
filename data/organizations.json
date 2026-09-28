@@ -7957,7 +7957,7 @@
       "city": "Wien",
       "type": "oktatást támogató egyesület",
       "intro": "A 2012 júniusában bejegyzett Bécsi Magyar Oktatást Segítő Szülők és Támogatók Egyesülete (BÉMOSZTE) a bécsi magyar anyanyelvi oktatás civil támogató közössége. Alapító elnöke Nagy Eleonóra volt; a szervezet az oktatást a nyelvtanulásnál tágabban, a magyar identitás, kultúra és közösségi használat támogatásaként fogalmazta meg.",
-      "website": "https://amaped.at/",
+      "website": null,
       "facebook": null,
       "instagram": null,
       "eventSources": [],
@@ -8046,7 +8046,15 @@
           "ingestEvents": false
         }
       ],
-      "classificationNote": "Önálló, 2012-ben bejegyzett oktatástámogató egyesület. Nagy Eleonóra alapító és 2019-ben is dokumentált elnök; 2026-os aktuális tisztségét külön elsődleges forrás nem igazolja. Az AMAPED a kapcsolódó oktatási infrastruktúra hivatalos felülete, nem a BÉMOSZTE saját weboldala."
+      "classificationNote": "Önálló, 2012-ben bejegyzett oktatástámogató egyesület. Nagy Eleonóra alapító és 2019-ben is dokumentált elnök; 2026-os aktuális tisztségét külön elsődleges forrás nem igazolja. Az AMAPED a kapcsolódó oktatási infrastruktúra hivatalos felülete, nem a BÉMOSZTE saját weboldala.",
+      "publicChannels": [
+        {
+          "label": "AMAPED – kapcsolódó oktatási közösség",
+          "url": "https://amaped.at/",
+          "kind": "partner-profile",
+          "ownership": "related"
+        }
+      ]
     },
     {
       "id": "erdelyi-magyarok-ausztriai",
@@ -8054,7 +8062,7 @@
       "state": "wien",
       "city": "Wien",
       "type": "kulturális-közösségi egyesület",
-      "intro": "Az 1987-ben alapított Erdélyi Magyarok Ausztriai Egyesülete (EMAE) az Ausztriában élő erdélyi magyarok közösségi, kulturális és történelmi kapcsolatait ápolja. Eredeti feladata a Romániából érkező kivándorlók és menekültek ausztriai beilleszkedésének segítése volt; mai célja a magyar identitás és erdélyi kulturális örökség megőrzése. A 2024-es ORF-forrás Piroska Ferenczet alapító tagként és az egyesület elnökeként nevezi meg.",
+      "intro": "Az 1987-ben alapított Erdélyi Magyarok Ausztriai Egyesülete (EMAE) eredetileg az Ausztriába érkező erdélyi magyar kivándorlók és menekültek beilleszkedését segítette. A ma is aktív egyesület a magyar identitás és erdélyi kulturális emlékezet megőrzésére, közösségi rendezvényekre és az Erdélyi Szemmel kiadványra épít; alapító tagja és 2024-ben dokumentált elnöke Piroska Ferencz.",
       "website": null,
       "facebook": null,
       "instagram": null,
@@ -8069,6 +8077,11 @@
           "label": "Rólunk.at – ausztriai magyar egyesületek",
           "url": "https://rolunk.at/ausztriai-magyar-egyesuletek/",
           "type": "community-media"
+        },
+        {
+          "label": "Bundeskanzleramt – népcsoporti támogatási jelentés, EMAE",
+          "url": "https://www.bundeskanzleramt.gv.at/dam/jcr%3Abe8bd926-ccb7-48eb-a0b9-e7cc8417c80e/24_8_bericht16.pdf",
+          "type": "government"
         }
       ],
       "categories": [
@@ -8094,7 +8107,7 @@
       ],
       "profileVerifiedAt": "2026-09-28",
       "history": {
-        "summary": "Az EMAE 1987-ben alakult az 1980-as években Ausztriába érkező erdélyi magyar kivándorlók és menekültek segítésére. Az alapítók a beilleszkedéshez szükséges tapasztalatok és tudás átadását tekintették egyik fő feladatuknak. Az 1989-es romániai forradalom és az azt követő események idején az ausztriai erdélyi magyar közösség fontos találkozási és tájékozódási közege volt. A szervezet később az identitásmegőrzésre, kulturális programokra és történelmi emlékezetre helyezte a hangsúlyt; az ORF 2024-ben is aktív egyesületként mutatta be.",
+        "summary": "Az EMAE 1987-ben alakult azzal a céllal, hogy az Erdélyből Ausztriába érkező magyar kivándorlók és menekültek gyorsabban beilleszkedjenek az osztrák társadalomba; a már helyben élő alapítók gyakorlati tudással segítették az újonnan érkezőket. Az 1989-es romániai forradalom idején a bécsi erdélyi magyar közösség aktívan követte és segítette az események érintettjeit. Az egyesület később egyre inkább az identitásőrzésre, kulturális közösségépítésre, táncestekre, a Csíksomlyói Búcsú bécsi hagyományára és az Erdélyi Szemmel kiadványra helyezte a hangsúlyt. Az ORF 2024-ben aktív szervezetként mutatta be, Piroska Ferencz alapító tagot elnökként megnevezve.",
         "milestones": [
           {
             "year": "1987",
@@ -8127,7 +8140,7 @@
           "ingestEvents": false
         }
       ],
-      "classificationNote": "2026-ig nem találtunk igazolt önálló web- vagy social profilt; a szervezet nyilvános jelenlétét intézményi és sajtóforrások dokumentálják.",
+      "classificationNote": "1987-ben alapított, 2024-ben is aktívként dokumentált egyesület. Piroska Ferencz alapító tag és 2024-ben dokumentált elnök. Saját, jelenleg ellenőrzött weboldal/social profil és közvetlen publikus e-mail nem azonosított; ezért ezek a mezők üresen maradnak.",
       "publicChannels": [
         {
           "label": "Rólunk.at – ausztriai magyar egyesületi jegyzék",
