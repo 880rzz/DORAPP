@@ -1,9 +1,9 @@
 {
-  "updated": "2026-09-28T17:53:09.043974+00:00",
+  "updated": "2026-09-28T18:08:45.393343+00:00",
   "summary": {
     "organizations": 157,
-    "organizationFlags": 0,
-    "organizationPagesChecked": 349,
+    "organizationFlags": 1,
+    "organizationPagesChecked": 348,
     "education": 106,
     "educationFlags": 0,
     "events": 29,
@@ -891,20 +891,19 @@
       ],
       "activityCategories": [],
       "signals": [
-        "oktatas",
-        "szinhaz",
-        "media",
         "irodalom",
         "muveszet"
       ],
-      "pagesChecked": 1,
-      "checkedUrls": [
-        "https://www.kozpontiszovetseg.at/event-details/dr-janosi-zoltan-irodalomtortenesz-iro-kolto"
-      ],
+      "pagesChecked": 0,
+      "checkedUrls": [],
       "errors": [
         {
           "url": "https://bornemisza.at/",
-          "error": "<urlopen error [Errno 111] Connection refused>"
+          "error": "<urlopen error timed out>"
+        },
+        {
+          "url": "https://www.kozpontiszovetseg.at/event-details/dr-janosi-zoltan-irodalomtortenesz-iro-kolto",
+          "error": "HTTP Error 429: Too Many Requests"
         },
         {
           "url": "https://www.kozpontiszovetseg.at/bornemisza-peter-tarsasag",
@@ -923,17 +922,17 @@
       "activityCategories": [],
       "signals": [
         "oktatas",
-        "media",
-        "irodalom",
         "muveszet"
       ],
-      "pagesChecked": 1,
-      "checkedUrls": [
-        "https://www.brandart.studio/"
-      ],
+      "pagesChecked": 0,
+      "checkedUrls": [],
       "errors": [
         {
           "url": "https://brandart.studio/",
+          "error": "HTTP Error 429: Too Many Requests"
+        },
+        {
+          "url": "https://www.brandart.studio/",
           "error": "HTTP Error 429: Too Many Requests"
         },
         {
@@ -1117,20 +1116,23 @@
       "activityCategories": [],
       "signals": [
         "oktatas",
-        "szinhaz",
         "media",
-        "irodalom",
-        "muveszet",
-        "csalad"
+        "irodalom"
       ],
-      "pagesChecked": 3,
+      "pagesChecked": 2,
       "checkedUrls": [
         "https://culture.hu/hu/wien",
-        "https://culture.hu/hu/wien/esemenyek",
         "https://culture.hu/de/wien/jubilaum"
       ],
-      "errors": [],
-      "flags": []
+      "errors": [
+        {
+          "url": "https://culture.hu/hu/wien/esemenyek",
+          "error": "The read operation timed out"
+        }
+      ],
+      "flags": [
+        "weak-source-signal:muveszet"
+      ]
     },
     {
       "id": "collegium-pazmanianum",
@@ -1470,27 +1472,10 @@
         "kultura"
       ],
       "activityCategories": [],
-      "signals": [
-        "oktatas",
-        "neptanc",
-        "szinhaz",
-        "media",
-        "egyhaz",
-        "diak",
-        "irodalom",
-        "muveszet"
-      ],
-      "pagesChecked": 2,
-      "checkedUrls": [
-        "https://europaclub.at/",
-        "https://europaclub.at/rolunk/europa-club-tortenete/"
-      ],
-      "errors": [
-        {
-          "url": "https://europaclub.at/rendezvenyek/meghivok/",
-          "error": "The read operation timed out"
-        }
-      ],
+      "signals": [],
+      "pagesChecked": 0,
+      "checkedUrls": [],
+      "errors": [],
       "flags": []
     },
     {
@@ -1653,17 +1638,13 @@
         "muveszet",
         "csalad"
       ],
-      "pagesChecked": 2,
+      "pagesChecked": 3,
       "checkedUrls": [
         "https://femconnectgraz.at/",
+        "https://femconnectgraz.at/graci-programok/",
         "https://femconnectgraz.at/events/"
       ],
-      "errors": [
-        {
-          "url": "https://femconnectgraz.at/graci-programok/",
-          "error": "HTTP Error 520: <none>"
-        }
-      ],
+      "errors": [],
       "flags": []
     },
     {
@@ -1926,17 +1907,13 @@
         "muveszet",
         "csalad"
       ],
-      "pagesChecked": 2,
+      "pagesChecked": 3,
       "checkedUrls": [
         "https://www.facebook.com/IMIKE2019UJKV/",
+        "https://www.instagram.com/imike_ujkv/",
         "https://rolunk.at/nepcsoportunk/sziveben-magyar/"
       ],
-      "errors": [
-        {
-          "url": "https://www.instagram.com/imike_ujkv/",
-          "error": "HTTP Error 429: Too Many Requests"
-        }
-      ],
+      "errors": [],
       "flags": []
     },
     {
@@ -1982,16 +1959,12 @@
         "muveszet",
         "csalad"
       ],
-      "pagesChecked": 1,
+      "pagesChecked": 2,
       "checkedUrls": [
+        "https://kalaka-club.at/",
         "https://www.korosiprogram.hu/partnereink/ausztriai-magyarok-gazdasagi-erdekkozossege-kalaka-klub"
       ],
-      "errors": [
-        {
-          "url": "https://kalaka-club.at/",
-          "error": "HTTP Error 500: Internal Server Error"
-        }
-      ],
+      "errors": [],
       "flags": []
     },
     {
@@ -2471,7 +2444,7 @@
       "errors": [
         {
           "url": "https://www.magyarszo.at/",
-          "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'www.magyarszo.at'. (_ssl.c:1010)>"
+          "error": "<urlopen error timed out>"
         }
       ],
       "flags": []
@@ -2830,17 +2803,13 @@
         "sport",
         "csalad"
       ],
-      "pagesChecked": 2,
+      "pagesChecked": 3,
       "checkedUrls": [
+        "https://vorsitzendenkonferenz.org/",
         "https://rolunk.at/ausztriai-magyar-egyesuletek/",
         "https://volksgruppen.orf.at/magyarok/stories/3302381/"
       ],
-      "errors": [
-        {
-          "url": "https://vorsitzendenkonferenz.org/",
-          "error": "<urlopen error [Errno 101] Network is unreachable>"
-        }
-      ],
+      "errors": [],
       "flags": []
     },
     {
@@ -3177,12 +3146,16 @@
         "diak",
         "irodalom"
       ],
-      "pagesChecked": 2,
+      "pagesChecked": 1,
       "checkedUrls": [
-        "https://lexikon.katolikus.hu/M/Magyar%20Pax%20Romana%20Katolikus%20%C3%89rtelmis%C3%A9gi%20Mozgalom.html",
-        "https://www.icmica-miic.org/2012/03/oesterreich/"
+        "https://lexikon.katolikus.hu/M/Magyar%20Pax%20Romana%20Katolikus%20%C3%89rtelmis%C3%A9gi%20Mozgalom.html"
       ],
-      "errors": [],
+      "errors": [
+        {
+          "url": "https://www.icmica-miic.org/2012/03/oesterreich/",
+          "error": "<urlopen error [Errno 101] Network is unreachable>"
+        }
+      ],
       "flags": []
     },
     {
@@ -3944,9 +3917,10 @@
         "oktatas",
         "csalad"
       ],
-      "pagesChecked": 1,
+      "pagesChecked": 2,
       "checkedUrls": [
-        "https://ungarball.at/"
+        "https://ungarball.at/",
+        "https://ungarball.at/impressum"
       ],
       "errors": [
         {
