@@ -1918,7 +1918,7 @@
       "state": "wien",
       "city": "Wien",
       "type": "független kulturális szervező",
-      "intro": "A KultPult Bencze Mariann által 2014-ben indított, piaci alapon működő független kulturális kezdeményezés. Elsősorban Bécsben szervez magyar nyelvű színházi, irodalmi, zenei, képzőművészeti és családi programokat, emellett kulturális menedzsmenttel, inkubációval és saját #itthonotthon produkciókkal foglalkozik.",
+      "intro": "A KultPult Bencze Mariann által 2014-ben indított, piaci alapon működő független kulturális programszervező és kulturális menedzsment kezdeményezés. Elsősorban Bécsben kínál magyar nyelvű színházi, irodalmi, zenei, tánc-, képzőművészeti és családi programokat; saját #itthonotthon sorozata a külföldön élés, integráció, identitás és közösség kérdéseit dolgozza fel.",
       "website": "https://kultpult.eu/",
       "facebook": null,
       "instagram": null,
@@ -1931,7 +1931,7 @@
       ],
       "founded": "2014",
       "history": {
-        "summary": "A KultPult 2014-ben indult Bécsben. Az elmúlt évtizedben magyar nyelvű kulturális és közéleti programok széles körét hozta létre gyerekeknek, családoknak és felnőtteknek. Saját #itthonotthon programsorozata a külföldön élő magyarok identitásával, kapcsolódásával és integrációjával foglalkozik, a KultPult pedig szervezőként és kulturális menedzsmentplatformként más produkciók megvalósításában is részt vesz.",
+        "summary": "A KultPult 2014-ben indult Bencze Mariann alapításával. Az elmúlt évtizedben magyar nyelvű kulturális és közéleti programok széles körét hozta létre gyerekeknek, családoknak és felnőtteknek. A 2023 tavaszán fókuszba került #itthonotthon mára zászlóshajó kulturális sorozat: a külföldön élés, újrakezdés, beilleszkedés és közösséghez tartozás kérdéseit művészeti programokon keresztül tárgyalja. A KultPult Bécsen kívül más osztrák és magyarországi helyszíneken is szervezett #itthonotthon programokat, és kulturális menedzsmenttel is foglalkozik.",
         "milestones": [
           {
             "year": "2014",
@@ -1944,6 +1944,18 @@
             "title": "10 éves jubileum",
             "description": "A KultPult fennállásának tízéves jubileumát ünnepli.",
             "sourceUrl": "https://kultpult.eu/itthonotthon/"
+          },
+          {
+            "year": "2023",
+            "title": "#itthonotthon fókusz",
+            "description": "A KultPult kulturális-közéleti sorozata 2023 tavaszától kiemelten foglalkozik a külföldön élés, integráció és közösségi identitás témáival.",
+            "sourceUrl": "https://kultpult.eu/itthonotthon/"
+          },
+          {
+            "year": "2025/26",
+            "title": "KultPult Támogatói Klub",
+            "description": "A KultPult a 2025/26-os évadtól támogatói klubot indított, külön közösségi és kulturális programokkal.",
+            "sourceUrl": "https://kultpult.eu/kultpult-tamogatoi-klubtagsag-2026-27-es-evad/"
           }
         ]
       },
@@ -1967,7 +1979,7 @@
       ],
       "email": "office@kultpult.eu",
       "phone": "+43 676 6277509",
-      "profileVerifiedAt": "2026-09-25",
+      "profileVerifiedAt": "2026-09-28",
       "evidenceSources": [
         {
           "label": "KultPult – hivatalos oldal",
@@ -1978,10 +1990,53 @@
           "label": "KultPult – #itthonotthon és 10 éves történet",
           "url": "https://kultpult.eu/itthonotthon/",
           "type": "official"
+        },
+        {
+          "label": "KultPult – ÁSZF / szervezői és cégadatok",
+          "url": "https://kultpult.eu/wp-content/uploads/2024/06/Altalanos-Szerzodesi-Feltetelek-kultpult.pdf",
+          "type": "official-legal"
+        },
+        {
+          "label": "ORF Magyarok – KultPult és Bencze Mariann",
+          "url": "https://volksgruppen.orf.at/v2/magyarok/stories/2775905/",
+          "type": "public-broadcaster"
+        },
+        {
+          "label": "ORF Magyarok – #itthonotthon KultPult-estek",
+          "url": "https://volksgruppen.orf.at/magyarok/stories/3205267/",
+          "type": "public-broadcaster"
         }
       ],
       "entityClass": "organization",
-      "calendarSources": []
+      "calendarSources": [
+        {
+          "label": "KultPult – hivatalos programnaptár",
+          "url": "https://kultpult.eu/",
+          "kind": "official-calendar",
+          "scope": "self",
+          "ingestEvents": true
+        },
+        {
+          "label": "KultPult – programarchívum",
+          "url": "https://kultpult.eu/category/programok/",
+          "kind": "official-program-archive",
+          "scope": "self",
+          "ingestEvents": true
+        }
+      ],
+      "aliases": [
+        "Kult Pult"
+      ],
+      "contactUrl": "https://kultpult.eu/",
+      "publicChannels": [
+        {
+          "label": "KultPult – hivatalos weboldal",
+          "url": "https://kultpult.eu/",
+          "kind": "official-website",
+          "ownership": "self"
+        }
+      ],
+      "classificationNote": "Önálló, Bencze Mariann által alapított és vezetett kulturális programszervező/menedzsment kezdeményezés; nem egy másik bécsi magyar szervezet alprojektje. Az adatbázisban a „KultPult” és „Kult Pult” névváltozat ugyanahhoz az egy rekordhoz tartozik."
     },
     {
       "id": "mde-vus",
