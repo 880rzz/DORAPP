@@ -9156,7 +9156,9 @@
       "phone": "+43 1 532 6049",
       "profileVerifiedAt": "2026-09-25",
       "entityClass": "media",
-      "calendarSources": []
+      "calendarSources": [],
+      "parentOrganizationId": "kozponti-szovetseg",
+      "classificationNote": "A Bécsi Napló külön media entitás, amelynek a Központi Szövetség a tulajdonosa és kiadója. Nem önálló egyesület; saját szerkesztőségi web- és e-mail-csatornával működő kiadvány."
     },
     {
       "id": "becsi-szelet",
@@ -9187,6 +9189,11 @@
           "label": "Bécsi Szelet – hivatalos magazin és bemutatkozás",
           "url": "https://www.becsiszelet.at/",
           "type": "official"
+        },
+        {
+          "label": "ORF – a Központi Szövetség elindítja a Bécsi Szeletet",
+          "url": "https://volksgruppen.orf.at/magyarok/stories/3336275/",
+          "type": "public-broadcaster"
         }
       ],
       "activities": [
@@ -9224,7 +9231,7 @@
       "entityClass": "media",
       "calendarSources": [],
       "parentOrganizationId": "kozponti-szovetseg",
-      "classificationNote": "Önálló médiaprofil, de szervezetileg a Központi Szövetséghez kapcsolódó médiaprojekt. A BMI-vel közös office@magyariskola.at cím működési kontakt; az azonos e-mail nem jelent azonos entitást."
+      "classificationNote": "A Bécsi Szelet külön media entitás, amelyet a Központi Szövetség indított el Bécs-központú közösségi és programtartalmakra. Szervezeti besorolása a Bécsi Naplóhoz hasonlóan Központi Szövetséghez tartozó médiaprojekt; nem BMI-program. A BMI-vel közös office@magyariskola.at cím működési kontakt, nem tulajdonosi kapcsolat."
     },
     {
       "id": "collegium-pazmanianum",
