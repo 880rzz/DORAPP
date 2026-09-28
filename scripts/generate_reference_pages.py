@@ -19,6 +19,10 @@ for d in (EVENT_DIR,STATE_DIR,CATEGORY_DIR): d.mkdir(exist_ok=True)
 
 states={x["id"]:x for x in ORG.get("states",[])}
 orgs=ORG.get("organizations",[])
+host_institutions=[x for x in orgs if x.get("entityClass")=="host-institution"]
+activities=[x for x in orgs if x.get("entityClass")=="activity"]
+hungarian_entities=[x for x in orgs if x.get("entityClass")!="host-institution"]
+community_entities=[x for x in orgs if x.get("entityClass") not in ("host-institution","activity")]
 org_by_id={x["id"]:x for x in orgs}
 education=EDU.get("institutions",[])
 events=EV.get("events",[])
@@ -161,7 +165,7 @@ entity={
  "@graph":[
    {"@type":"WebSite","@id":BASE+"/#website","name":"Magyar Programok Ausztriában","url":BASE+"/","inLanguage":"hu-AT","publisher":{"@id":BASE+"/#publisher"}},
    PUBLISHER,
-   {"@type":"Dataset","@id":BASE+"/#dataset","name":"Ausztriai magyar szervezetek, oktatás és programok","description":"Forrásalapú országos adatbázis az Ausztriában működő magyar közösségekről, oktatási helyekről és nyilvános eseményekről.","url":BASE+"/","inLanguage":"hu-AT","creator":{"@id":BASE+"/#publisher"},"license":BASE+"/forrasok.html","dateModified":DATA_MODIFIED,"spatialCoverage":{"@type":"Country","name":"Austria"},"keywords":["ausztriai magyarok","magyar szervezetek Ausztriában","magyar programok Ausztriában","magyar oktatás Ausztriában","diaszpóra"],
+   {"@type":"Dataset","@id":BASE+"/#dataset","name":"Ausztriai magyar közösségek, oktatás, programok és magyar szolgáltatást nyújtó intézmények","description":"Forrásalapú országos adatbázis az Ausztriában működő magyar közösségekről, oktatási helyekről, nyilvános eseményekről és külön jelölt osztrák fogadóintézményekről, amelyek igazolt magyar szolgáltatást vagy gyűjteményt kínálnak.","url":BASE+"/","inLanguage":"hu-AT","creator":{"@id":BASE+"/#publisher"},"license":BASE+"/forrasok.html","dateModified":DATA_MODIFIED,"spatialCoverage":{"@type":"Country","name":"Austria"},"keywords":["ausztriai magyarok","magyar szervezetek Ausztriában","magyar programok Ausztriában","magyar oktatás Ausztriában","diaszpóra"],
     "distribution":[
       {"@type":"DataDownload","encodingFormat":"application/json","contentUrl":BASE+"/data/organizations.json"},
       {"@type":"DataDownload","encodingFormat":"application/json","contentUrl":BASE+"/data/education.json"},
@@ -176,9 +180,9 @@ ai_entry={
  "canonical":BASE+"/",
  "language":"hu-AT",
  "publisher":{"name":PUBLISHER["name"],"url":PUBLISHER["url"],"zvr":"079797621"},
- "purpose":"Forrásalapú országos referencia-adatbázis ausztriai magyar szervezetekhez, oktatáshoz és nyilvános programokhoz.",
+ "purpose":"Forrásalapú országos referencia-adatbázis ausztriai magyar közösségekhez, oktatáshoz, nyilvános programokhoz és külön jelölt, magyar szolgáltatást nyújtó osztrák fogadóintézményekhez.",
  "updated":{"organizations":ORG.get("updated"),"education":EDU.get("updated"),"events":EV.get("updated")},
- "counts":{"organizations":len(orgs),"education":len(education),"events":len(events),"states":len(states),"categories":len(categories)},
+ "counts":{"entities":len(orgs),"hungarianEntities":len(hungarian_entities),"communityEntities":len(community_entities),"activities":len(activities),"hostInstitutions":len(host_institutions),"organizations":len(orgs),"education":len(education),"events":len(events),"states":len(states),"categories":len(categories)},
  "canonicalData":{
    "organizations":BASE+"/data/organizations.json","education":BASE+"/data/education.json","events":BASE+"/data/events.json","articles":BASE+"/data/articles.json",
    "entityGraph":BASE+"/entity.jsonld","methodology":BASE+"/forrasok.html","dataQuality":BASE+"/adatminoseg.html","llms":BASE+"/llms.txt","aiTrust":BASE+"/ai.txt","sitemap":BASE+"/sitemap.xml"
@@ -206,10 +210,10 @@ quality_schema={"@context":"https://schema.org","@graph":[
 event_rows="".join(f'<li><strong>{esc(k)}</strong>: {v}</li>' for k,v in sorted(event_health.items()))
 edu_rows="".join(f'<li><strong>{esc(k)}</strong>: {v}</li>' for k,v in sorted(edu_health.items()))
 quality_body=f'''<section class="hero"><div class="wrap"><div class="eyebrow">Transzparencia · E‑E‑A‑T · AI Trust</div><h1>Adatminőség és frissesség.</h1><p class="lead">{esc(quality_desc)}</p></div></section>
-<section class="section"><div class="wrap trust-grid"><div><h2>Aktuális lefedettség</h2></div><div><p><strong>{len(orgs)}</strong> szervezet és közösség<br><strong>{len(education)}</strong> oktatási rekord<br><strong>{len(events)}</strong> nyilvántartott, forrással rendelkező esemény<br><strong>{len(states)}</strong> osztrák tartomány</p><p>Szervezeti adat frissítve: {esc(ORG.get("updated"))}<br>Oktatási adat frissítve: {esc(EDU.get("updated"))}<br>Eseményadat frissítve: {esc(EV.get("updated"))}</p></div></div></section>
+<section class="section"><div class="wrap trust-grid"><div><h2>Aktuális lefedettség</h2></div><div><p><strong>{len(orgs)}</strong> összes entitás<br><strong>{len(hungarian_entities)}</strong> magyar oldali entitás<br><strong>{len(community_entities)}</strong> közösség / programgazda<br><strong>{len(activities)}</strong> rendszeres activity rekord<br><strong>{len(host_institutions)}</strong> osztrák fogadóintézmény igazolt magyar szolgáltatással<br><strong>{len(education)}</strong> oktatási rekord<br><strong>{len(events)}</strong> nyilvántartott, forrással rendelkező esemény<br><strong>{len(states)}</strong> osztrák tartomány</p><p>Szervezeti adat frissítve: {esc(ORG.get("updated"))}<br>Oktatási adat frissítve: {esc(EDU.get("updated"))}<br>Eseményadat frissítve: {esc(EV.get("updated"))}</p></div></div></section>
 <section class="section muted"><div class="wrap trust-grid"><div><h2>Eseményforrás-audit</h2></div><div><ul class="source-list">{event_rows}</ul><p>A technikai hiba nem jelenti automatikusan azt, hogy a forrás vagy a szervezet megszűnt. 403/429, TLS-, DNS- és timeout-hibát külön technikai állapotként kezelünk.</p></div></div></section>
 <section class="section"><div class="wrap trust-grid"><div><h2>Oktatási webaudit</h2></div><div><ul class="source-list">{edu_rows}</ul><p>A saját honlapon nem talált kulcsszó nem írja felül az intézményi, hatósági vagy közszolgálati forrásból igazolt magyar oktatást.</p></div></div></section>
-<section class="section muted"><div class="wrap trust-grid"><div><h2>Szerkesztési elv</h2></div><div><p>Hiányzó történeti, tagsági, kapcsolati vagy eseményadatot nem következtetünk. A strukturált profilmezők steward‑ellenőrzéssel, forrás alapján bővülnek; az automata esemény- és sajtófelderítés nem írhatja felül ezeket.</p><p><a href="forrasok.html">Teljes módszertan →</a><br><a href="mailto:marketing@kozpontiszovetseg.at">Hibajelentés / korrekció →</a></p></div></div></section>'''
+<section class="section muted"><div class="wrap trust-grid"><div><h2>Szerkesztési elv</h2></div><div><p>Hiányzó történeti, tagsági, kapcsolati vagy eseményadatot nem következtetünk. A strukturált profilmezők steward‑ellenőrzéssel, forrás alapján bővülnek; az automata esemény- és sajtófelderítés nem írhatja felül ezeket. A host-institution rekord nem magyar szervezetet jelent: csak olyan osztrák intézmény kaphat ilyen besorolást, ahol a magyar szolgáltatás, gyűjtemény vagy képzés konkrét forrással igazolt.</p><p><a href="forrasok.html">Teljes módszertan →</a><br><a href="mailto:marketing@kozpontiszovetseg.at">Hibajelentés / korrekció →</a></p></div></div></section>'''
 (ROOT/"adatminoseg.html").write_text(shell("DORAPP adatminőség és transzparencia",quality_desc,quality_url,quality_body,quality_schema,prefix=""),encoding="utf-8")
 
 print(f"events={len(events)} states={len(states)} categories={len(categories)} entity=1 ai_entry=1 quality=1")
