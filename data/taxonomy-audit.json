@@ -1,9 +1,9 @@
 {
-  "updated": "2026-09-28T18:48:04.291092+00:00",
+  "updated": "2026-09-28T18:50:49.189668+00:00",
   "summary": {
     "organizations": 158,
     "organizationFlags": 1,
-    "organizationPagesChecked": 356,
+    "organizationPagesChecked": 343,
     "education": 106,
     "educationFlags": 0,
     "events": 29,
@@ -440,22 +440,20 @@
       ],
       "activityCategories": [],
       "signals": [
-        "oktatas",
-        "neptanc",
-        "nepzene",
-        "enekkar",
-        "media",
-        "diak",
-        "irodalom",
-        "muveszet",
-        "csalad"
+        "enekkar"
       ],
-      "pagesChecked": 2,
-      "checkedUrls": [
-        "https://www.wukv.at/tarka-barka-dalkor/",
-        "https://www.wukv.at/"
+      "pagesChecked": 0,
+      "checkedUrls": [],
+      "errors": [
+        {
+          "url": "https://www.wukv.at/tarka-barka-dalkor/",
+          "error": "<urlopen error timed out>"
+        },
+        {
+          "url": "https://www.wukv.at/",
+          "error": "<urlopen error timed out>"
+        }
       ],
-      "errors": [],
       "flags": []
     },
     {
@@ -905,16 +903,11 @@
       ],
       "activityCategories": [],
       "signals": [
-        "oktatas",
-        "szinhaz",
-        "media",
         "irodalom",
         "muveszet"
       ],
-      "pagesChecked": 1,
-      "checkedUrls": [
-        "https://www.kozpontiszovetseg.at/event-details/dr-janosi-zoltan-irodalomtortenesz-iro-kolto"
-      ],
+      "pagesChecked": 0,
+      "checkedUrls": [],
       "errors": [
         {
           "url": "https://bornemisza.at/",
@@ -922,6 +915,10 @@
         },
         {
           "url": "https://www.kozpontiszovetseg.at/bornemisza-peter-tarsasag",
+          "error": "HTTP Error 429: Too Many Requests"
+        },
+        {
+          "url": "https://www.kozpontiszovetseg.at/event-details/dr-janosi-zoltan-irodalomtortenesz-iro-kolto",
           "error": "HTTP Error 429: Too Many Requests"
         }
       ],
@@ -937,15 +934,10 @@
       "activityCategories": [],
       "signals": [
         "oktatas",
-        "szinhaz",
-        "media",
-        "irodalom",
         "muveszet"
       ],
-      "pagesChecked": 1,
-      "checkedUrls": [
-        "https://www.brandart.studio/tagfelvetel"
-      ],
+      "pagesChecked": 0,
+      "checkedUrls": [],
       "errors": [
         {
           "url": "https://brandart.studio/",
@@ -953,6 +945,10 @@
         },
         {
           "url": "https://www.brandart.studio/",
+          "error": "HTTP Error 429: Too Many Requests"
+        },
+        {
+          "url": "https://www.brandart.studio/tagfelvetel",
           "error": "HTTP Error 429: Too Many Requests"
         }
       ],
@@ -1191,10 +1187,9 @@
         "sport",
         "csalad"
       ],
-      "pagesChecked": 3,
+      "pagesChecked": 2,
       "checkedUrls": [
         "https://rolunk.at/kultura/minden-magyarok-tanca-a-csalafinta-neptanccsoport-budapesten-szerepelt/",
-        "https://rolunk.at/tag/kozep-burgenlandi-magyar-kulturegyesulet/",
         "https://volksgruppen.orf.at/magyarok/stories/3366149/"
       ],
       "errors": [],
@@ -1326,20 +1321,24 @@
         "neptanc",
         "nepzene",
         "enekkar",
-        "szinhaz",
         "media",
-        "diak",
-        "irodalom",
         "sport",
         "csalad"
       ],
-      "pagesChecked": 3,
+      "pagesChecked": 1,
       "checkedUrls": [
-        "https://www.wukv.at/",
-        "https://www.delibab-becs.com/",
-        "https://www.wukv.at/sample-page/"
+        "https://www.delibab-becs.com/"
       ],
-      "errors": [],
+      "errors": [
+        {
+          "url": "https://www.wukv.at/",
+          "error": "<urlopen error timed out>"
+        },
+        {
+          "url": "https://www.wukv.at/sample-page/",
+          "error": "<urlopen error timed out>"
+        }
+      ],
       "flags": []
     },
     {
@@ -1489,10 +1488,27 @@
         "kultura"
       ],
       "activityCategories": [],
-      "signals": [],
-      "pagesChecked": 0,
-      "checkedUrls": [],
-      "errors": [],
+      "signals": [
+        "oktatas",
+        "neptanc",
+        "szinhaz",
+        "media",
+        "egyhaz",
+        "diak",
+        "irodalom",
+        "muveszet"
+      ],
+      "pagesChecked": 2,
+      "checkedUrls": [
+        "https://europaclub.at/",
+        "https://europaclub.at/rolunk/europa-club-tortenete/"
+      ],
+      "errors": [
+        {
+          "url": "https://europaclub.at/rendezvenyek/meghivok/",
+          "error": "The read operation timed out"
+        }
+      ],
       "flags": []
     },
     {
@@ -2370,21 +2386,15 @@
       "activityCategories": [],
       "signals": [
         "oktatas",
-        "neptanc",
-        "nepzene",
         "szinhaz",
         "media",
-        "egyhaz",
-        "diak",
         "irodalom",
-        "muveszet",
         "sport",
         "csalad"
       ],
-      "pagesChecked": 3,
+      "pagesChecked": 2,
       "checkedUrls": [
         "https://wissensturm.linz.at/bibliothek/",
-        "https://rolunk.at/kultura/az-olvasas-mint-kozos-nyelv-magyar-nyelvu-konyvtar-linzben/",
         "https://www.linz.at/medienservice/2025/202508_132151.php"
       ],
       "errors": [],
@@ -2544,12 +2554,16 @@
         "irodalom",
         "csalad"
       ],
-      "pagesChecked": 2,
+      "pagesChecked": 1,
       "checkedUrls": [
-        "https://mde.hu/partnerek-tamogatok/",
         "https://kerekasztal.at/"
       ],
-      "errors": [],
+      "errors": [
+        {
+          "url": "https://mde.hu/partnerek-tamogatok/",
+          "error": "<urlopen error timed out>"
+        }
+      ],
       "flags": []
     },
     {
@@ -2561,21 +2575,24 @@
       ],
       "activityCategories": [],
       "signals": [
-        "neptanc",
-        "media",
-        "diak",
-        "irodalom",
-        "muveszet",
-        "sport",
-        "csalad"
+        "diak"
       ],
-      "pagesChecked": 3,
-      "checkedUrls": [
-        "https://mde.hu/at/",
-        "https://mde.hu/rolunk/",
-        "https://mde.hu/becsi-esemenyek/"
+      "pagesChecked": 0,
+      "checkedUrls": [],
+      "errors": [
+        {
+          "url": "https://mde.hu/at/",
+          "error": "<urlopen error timed out>"
+        },
+        {
+          "url": "https://mde.hu/rolunk/",
+          "error": "<urlopen error timed out>"
+        },
+        {
+          "url": "https://mde.hu/becsi-esemenyek/",
+          "error": "<urlopen error timed out>"
+        }
       ],
-      "errors": [],
       "flags": []
     },
     {
@@ -2622,13 +2639,14 @@
         "diak",
         "irodalom",
         "muveszet",
+        "sport",
         "csalad"
       ],
       "pagesChecked": 3,
       "checkedUrls": [
         "https://rolunk.at/kultura/az-olvasas-mint-kozos-nyelv-magyar-nyelvu-konyvtar-linzben/",
-        "https://kupfticket.com/en/events/boldizsar-ildiko",
-        "https://kupfticket.com/en/events/kadar-annamaria"
+        "https://volksgruppen.orf.at/magyarok/stories/3336653/",
+        "https://kupfticket.com/en/events/boldizsar-ildiko"
       ],
       "errors": [],
       "flags": []
@@ -2708,6 +2726,7 @@
         "oktatas",
         "neptanc",
         "nepzene",
+        "enekkar",
         "szinhaz",
         "media",
         "egyhaz",
@@ -2717,17 +2736,13 @@
         "sport",
         "csalad"
       ],
-      "pagesChecked": 2,
+      "pagesChecked": 3,
       "checkedUrls": [
         "https://volksgruppen.orf.at/magyarok/stories/3260275/",
-        "https://rolunk.at/kultura/teljesen-meg-nem-erkeztem-meg-sehova-koltai-robert-becsben/"
+        "https://rolunk.at/kultura/teljesen-meg-nem-erkeztem-meg-sehova-koltai-robert-becsben/",
+        "https://www.magyariskola.at/tamogatoink-farsangi-bal"
       ],
-      "errors": [
-        {
-          "url": "https://events.eventjet.at/e/fellegi-adam-a-ferfi-eletenek-3-korszaka-beethoven-a-szerelmes-a-hos-es-a-boelcs/",
-          "error": "HTTP Error 404: Not Found"
-        }
-      ],
+      "errors": [],
       "flags": [
         "legacy-offering-category-on-entity"
       ]
@@ -3344,18 +3359,23 @@
       ],
       "activityCategories": [],
       "signals": [
-        "cserkesz",
+        "oktatas",
+        "neptanc",
+        "nepzene",
         "szinhaz",
         "media",
         "egyhaz",
+        "diak",
         "irodalom",
-        "sport"
+        "muveszet",
+        "sport",
+        "csalad"
       ],
       "pagesChecked": 3,
       "checkedUrls": [
         "https://volksgruppen.orf.at/magyarok/stories/3353560/",
-        "https://volksgruppen.orf.at/magyarok/",
-        "https://volksgruppen.orf.at/magyarok/stories/3345907/"
+        "https://volksgruppen.orf.at/magyarok/stories/3345907/",
+        "https://rolunk.at/kultura/uj-rendezovel-keszul-az-idei-eloadas/"
       ],
       "errors": [],
       "flags": []
@@ -3395,19 +3415,23 @@
         "neptanc",
         "nepzene",
         "enekkar",
-        "szinhaz",
         "media",
-        "diak",
-        "muveszet",
         "csalad"
       ],
-      "pagesChecked": 3,
+      "pagesChecked": 1,
       "checkedUrls": [
-        "https://www.wukv.at/rolunk-citerazenekar/",
-        "https://www.delibab-becs.com/",
-        "https://www.wukv.at/category/zenekar/"
+        "https://www.delibab-becs.com/"
       ],
-      "errors": [],
+      "errors": [
+        {
+          "url": "https://www.wukv.at/rolunk-citerazenekar/",
+          "error": "<urlopen error timed out>"
+        },
+        {
+          "url": "https://www.wukv.at/category/zenekar/",
+          "error": "<urlopen error timed out>"
+        }
+      ],
       "flags": []
     },
     {
@@ -4027,19 +4051,23 @@
         "neptanc",
         "nepzene",
         "enekkar",
-        "szinhaz",
         "media",
-        "diak",
-        "muveszet",
         "csalad"
       ],
-      "pagesChecked": 3,
+      "pagesChecked": 1,
       "checkedUrls": [
-        "https://www.wukv.at/rolunk-szivarvany/",
-        "https://www.wukv.at/category/gyermektanc/",
         "https://www.delibab-becs.com/"
       ],
-      "errors": [],
+      "errors": [
+        {
+          "url": "https://www.wukv.at/rolunk-szivarvany/",
+          "error": "<urlopen error timed out>"
+        },
+        {
+          "url": "https://www.wukv.at/category/gyermektanc/",
+          "error": "<urlopen error timed out>"
+        }
+      ],
       "flags": []
     },
     {
