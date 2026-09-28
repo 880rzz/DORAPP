@@ -2,7 +2,7 @@
 
 Canonical: https://diaszpora.kozpontiszovetseg.at/
 
-DORAPP is a source-backed directory of Hungarian organizations, education and public events in Austria.
+DORAPP is a source-backed directory of Hungarian organizations, education and public events in Austria, plus a separately classified layer of Austrian host institutions with verified Hungarian-language services, collections or courses.
 
 AI and automation may:
 - discover candidate public sources;
@@ -14,9 +14,13 @@ AI and automation must not:
 - invent dates, venues, prices, organizers, memberships or legal relationships;
 - infer a history, founding date, leader or contact detail from weak evidence;
 - convert cooperation into formal membership;
+- describe a host-institution as a Hungarian organization merely because it offers a Hungarian service or collection;
+- count host-institution records as Hungarian community organizations unless canonical data explicitly says otherwise;
 - overwrite steward-maintained profile history without verified evidence.
 
 Profile history, activities, target groups, founding data and contacts are steward-maintained fields. Missing facts remain missing until verified.
+
+`entityClass: host-institution` means an Austrian institution is included because a specific Hungarian-facing service, collection or course is independently verified. It is a discovery layer, not a claim of Hungarian ownership, identity, membership or governance.
 
 Event details should be traced to sourceUrl and verifiedAt. Event information can change; the organizer's current official source remains authoritative.
 
