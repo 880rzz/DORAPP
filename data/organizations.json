@@ -11715,7 +11715,7 @@
         }
       ],
       "entityClass": "project",
-      "classificationNote": "Többéves, önálló névvel és aloldallal rendelkező művészeti projekt.",
+      "classificationNote": "Többéves, önálló névvel és aloldallal rendelkező művészeti projekt. A projekt a SalzUNG saját programja; a parentOrganizationId ezért a SalzUNG-ra mutat.",
       "contactUrl": "https://www.salzung.com/hu/projektek/hatartalanul",
       "calendarSources": [
         {
@@ -11725,7 +11725,8 @@
           "scope": "related",
           "ingestEvents": false
         }
-      ]
+      ],
+      "parentOrganizationId": "salzung"
     },
     {
       "id": "salzung-igy-lettunk-magyarok",
@@ -11784,7 +11785,7 @@
         }
       ],
       "entityClass": "project",
-      "classificationNote": "Önálló névvel, célcsoporttal, kiadvánnyal és projektoldallal rendelkező diaszpóra-oktatási projekt.",
+      "classificationNote": "Önálló névvel, célcsoporttal, kiadvánnyal és projektoldallal rendelkező diaszpóra-oktatási projekt. A projekt a SalzUNG saját programja; a parentOrganizationId ezért a SalzUNG-ra mutat.",
       "contactUrl": "https://www.salzung.com/hu/projektek/igylettunkmagyarok",
       "calendarSources": [
         {
@@ -11794,7 +11795,8 @@
           "scope": "related",
           "ingestEvents": false
         }
-      ]
+      ],
+      "parentOrganizationId": "salzung"
     },
     {
       "id": "ausztriai-diaszpora-iskolatabor",
