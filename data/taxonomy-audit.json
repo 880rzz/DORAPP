@@ -1,9 +1,9 @@
 {
-  "updated": "2026-09-28T18:40:14.092294+00:00",
+  "updated": "2026-09-28T18:42:40.576277+00:00",
   "summary": {
     "organizations": 158,
     "organizationFlags": 1,
-    "organizationPagesChecked": 354,
+    "organizationPagesChecked": 358,
     "education": 106,
     "educationFlags": 0,
     "events": 29,
@@ -716,7 +716,7 @@
     },
     {
       "id": "bmi-becscraft",
-      "name": "Bécsi Magyar Iskola – BécsCraft",
+      "name": "BécsCraft – Creative Science partnerprogram a Bécsi Magyar Iskolában",
       "entityClass": "activity",
       "categories": [],
       "activityCategories": [
@@ -728,13 +728,16 @@
         "oktatas",
         "szinhaz",
         "media",
+        "diak",
         "irodalom",
         "muveszet",
         "csalad"
       ],
-      "pagesChecked": 1,
+      "pagesChecked": 3,
       "checkedUrls": [
-        "https://www.magyariskola.at/event-details/becscraft-2026"
+        "https://www.creativescience.hu/programjaink/becs-craft-workshop/",
+        "https://www.magyariskola.at/event-details/becscraft-2026",
+        "https://www.magyariskola.at/event-details/becs-craft-nyari-tabor-2026"
       ],
       "errors": [],
       "flags": []
@@ -897,16 +900,14 @@
         "irodalom",
         "muveszet"
       ],
-      "pagesChecked": 0,
-      "checkedUrls": [],
+      "pagesChecked": 1,
+      "checkedUrls": [
+        "https://www.kozpontiszovetseg.at/event-details/dr-janosi-zoltan-irodalomtortenesz-iro-kolto"
+      ],
       "errors": [
         {
           "url": "https://bornemisza.at/",
           "error": "<urlopen error [Errno 111] Connection refused>"
-        },
-        {
-          "url": "https://www.kozpontiszovetseg.at/event-details/dr-janosi-zoltan-irodalomtortenesz-iro-kolto",
-          "error": "HTTP Error 429: Too Many Requests"
         },
         {
           "url": "https://www.kozpontiszovetseg.at/bornemisza-peter-tarsasag",
@@ -1740,9 +1741,9 @@
       ],
       "pagesChecked": 3,
       "checkedUrls": [
+        "https://www.gracimagyarujsag.at/",
         "https://www.meoek.at/",
-        "https://www.meoek.at/mediatar/",
-        "https://www.meoek.at/impresszum/"
+        "https://www.meoek.at/mediatar/"
       ],
       "errors": [],
       "flags": []
@@ -2242,17 +2243,13 @@
         "muveszet",
         "csalad"
       ],
-      "pagesChecked": 2,
+      "pagesChecked": 3,
       "checkedUrls": [
         "https://www.kozpontiszovetseg.at/",
-        "https://www.kozpontiszovetseg.at/r%C3%B3lunk"
+        "https://www.kozpontiszovetseg.at/r%C3%B3lunk",
+        "https://www.kozpontiszovetseg.at/kapcsolat"
       ],
-      "errors": [
-        {
-          "url": "https://www.kozpontiszovetseg.at/kapcsolat",
-          "error": "HTTP Error 429: Too Many Requests"
-        }
-      ],
+      "errors": [],
       "flags": []
     },
     {
@@ -2469,7 +2466,7 @@
       "errors": [
         {
           "url": "https://www.magyarszo.at/",
-          "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'www.magyarszo.at'. (_ssl.c:1010)>"
+          "error": "<urlopen error timed out>"
         }
       ],
       "flags": []
