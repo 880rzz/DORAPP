@@ -532,8 +532,7 @@
       "facebook": null,
       "instagram": null,
       "eventSources": [
-        "https://cserkesz.at/programok/",
-        "https://cserkesz.at/"
+        "https://cserkesz.at/programok/"
       ],
       "memberships": [
         {
@@ -605,7 +604,15 @@
       "email": "becs@cserkesz.at",
       "profileVerifiedAt": "2026-09-25",
       "entityClass": "organization",
-      "calendarSources": []
+      "calendarSources": [
+        {
+          "label": "Általános saját weboldal – discovery/evidence, nem elsődleges eseményfeed",
+          "url": "https://cserkesz.at/",
+          "kind": "official-website",
+          "scope": "self",
+          "ingestEvents": false
+        }
+      ]
     },
     {
       "id": "becsi-irodalmi-muhely",
@@ -1404,8 +1411,7 @@
       "facebook": null,
       "instagram": null,
       "eventSources": [
-        "https://www.magyariskola.at/osszes",
-        "https://www.magyariskola.at/"
+        "https://www.magyariskola.at/osszes"
       ],
       "categories": [
         "oktatas"
@@ -1479,7 +1485,15 @@
         }
       ],
       "entityClass": "institution",
-      "calendarSources": []
+      "calendarSources": [
+        {
+          "label": "Általános saját weboldal – discovery/evidence, nem elsődleges eseményfeed",
+          "url": "https://www.magyariskola.at/",
+          "kind": "official-website",
+          "scope": "self",
+          "ingestEvents": false
+        }
+      ]
     },
     {
       "id": "bmi-aspern-magyaroktatas",
@@ -3253,7 +3267,6 @@
       "facebook": null,
       "instagram": null,
       "eventSources": [
-        "https://www.reformatus.at/",
         "https://www.reformatus.at/events/2026/"
       ],
       "memberships": [
@@ -3338,7 +3351,15 @@
         ]
       },
       "entityClass": "organization",
-      "calendarSources": []
+      "calendarSources": [
+        {
+          "label": "Általános saját weboldal – discovery/evidence, nem elsődleges eseményfeed",
+          "url": "https://www.reformatus.at/",
+          "kind": "official-website",
+          "scope": "self",
+          "ingestEvents": false
+        }
+      ]
     },
     {
       "id": "katolikus-wien",
@@ -5721,8 +5742,7 @@
       "facebook": null,
       "instagram": null,
       "eventSources": [
-        "https://wels.cserkesz.eu/programok/",
-        "https://wels.cserkesz.eu/"
+        "https://wels.cserkesz.eu/programok/"
       ],
       "memberships": [
         {
@@ -5802,7 +5822,15 @@
       "phone": "+43 660 6750725",
       "profileVerifiedAt": "2026-09-25",
       "entityClass": "organization",
-      "calendarSources": []
+      "calendarSources": [
+        {
+          "label": "Általános saját weboldal – discovery/evidence, nem elsődleges eseményfeed",
+          "url": "https://wels.cserkesz.eu/",
+          "kind": "official-website",
+          "scope": "self",
+          "ingestEvents": false
+        }
+      ]
     },
     {
       "id": "katolikus-linz",
@@ -10535,8 +10563,7 @@
       "facebook": null,
       "instagram": null,
       "eventSources": [
-        "https://www.vipach.at/fotokiallitasok",
-        "https://www.vipach.at/"
+        "https://www.vipach.at/fotokiallitasok"
       ],
       "evidenceSources": [
         {
@@ -10629,7 +10656,15 @@
       "phone": "+43 677 616 55592",
       "profileVerifiedAt": "2026-09-25",
       "entityClass": "organization",
-      "calendarSources": []
+      "calendarSources": [
+        {
+          "label": "Általános saját weboldal – discovery/evidence, nem elsődleges eseményfeed",
+          "url": "https://www.vipach.at/",
+          "kind": "official-website",
+          "scope": "self",
+          "ingestEvents": false
+        }
+      ]
     },
     {
       "id": "mamut-musical",
@@ -10646,7 +10681,6 @@
       "facebook": null,
       "instagram": null,
       "eventSources": [
-        "https://www.musicaltarsulat.at/",
         "https://www.musicaltarsulat.at/blog"
       ],
       "evidenceSources": [
@@ -10702,7 +10736,15 @@
       "email": "hierholcza@gmail.com",
       "profileVerifiedAt": "2026-09-25",
       "entityClass": "group",
-      "calendarSources": [],
+      "calendarSources": [
+        {
+          "label": "Általános saját weboldal – discovery/evidence, nem elsődleges eseményfeed",
+          "url": "https://www.musicaltarsulat.at/",
+          "kind": "official-website",
+          "scope": "self",
+          "ingestEvents": false
+        }
+      ],
       "classificationNote": " A BMI együttműködő partner/helyszín; a maMUT saját szervezeti identitása és musicaltarsulat.at oldala külön marad."
     },
     {
