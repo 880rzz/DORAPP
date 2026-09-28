@@ -1,9 +1,9 @@
 {
-  "updated": "2026-09-28T16:33:07.782058+00:00",
+  "updated": "2026-09-28T16:41:33.404775+00:00",
   "summary": {
-    "organizations": 156,
-    "organizationFlags": 0,
-    "organizationPagesChecked": 340,
+    "organizations": 157,
+    "organizationFlags": 1,
+    "organizationPagesChecked": 344,
     "education": 106,
     "educationFlags": 0,
     "events": 29,
@@ -1116,20 +1116,23 @@
       "activityCategories": [],
       "signals": [
         "oktatas",
-        "szinhaz",
         "media",
-        "irodalom",
-        "muveszet",
-        "csalad"
+        "irodalom"
       ],
-      "pagesChecked": 3,
+      "pagesChecked": 2,
       "checkedUrls": [
         "https://culture.hu/hu/wien",
-        "https://culture.hu/hu/wien/esemenyek",
         "https://culture.hu/de/wien/jubilaum"
       ],
-      "errors": [],
-      "flags": []
+      "errors": [
+        {
+          "url": "https://culture.hu/hu/wien/esemenyek",
+          "error": "The read operation timed out"
+        }
+      ],
+      "flags": [
+        "weak-source-signal:muveszet"
+      ]
     },
     {
       "id": "collegium-pazmanianum",
@@ -1472,27 +1475,10 @@
         "kultura"
       ],
       "activityCategories": [],
-      "signals": [
-        "oktatas",
-        "neptanc",
-        "szinhaz",
-        "media",
-        "egyhaz",
-        "diak",
-        "irodalom",
-        "muveszet"
-      ],
-      "pagesChecked": 2,
-      "checkedUrls": [
-        "https://europaclub.at/",
-        "https://europaclub.at/rolunk/europa-club-tortenete/"
-      ],
-      "errors": [
-        {
-          "url": "https://europaclub.at/rendezvenyek/meghivok/",
-          "error": "The read operation timed out"
-        }
-      ],
+      "signals": [],
+      "pagesChecked": 0,
+      "checkedUrls": [],
+      "errors": [],
       "flags": []
     },
     {
@@ -1920,17 +1906,13 @@
         "muveszet",
         "csalad"
       ],
-      "pagesChecked": 2,
+      "pagesChecked": 3,
       "checkedUrls": [
         "https://www.facebook.com/IMIKE2019UJKV/",
+        "https://www.instagram.com/imike_ujkv/",
         "https://rolunk.at/nepcsoportunk/sziveben-magyar/"
       ],
-      "errors": [
-        {
-          "url": "https://www.instagram.com/imike_ujkv/",
-          "error": "HTTP Error 429: Too Many Requests"
-        }
-      ],
+      "errors": [],
       "flags": []
     },
     {
@@ -2230,20 +2212,20 @@
       "activityCategories": [],
       "signals": [
         "oktatas",
+        "neptanc",
+        "nepzene",
         "szinhaz",
+        "media",
         "irodalom",
         "muveszet",
         "csalad"
       ],
-      "pagesChecked": 1,
+      "pagesChecked": 2,
       "checkedUrls": [
-        "https://www.kozpontiszovetseg.at/"
+        "https://www.kozpontiszovetseg.at/",
+        "https://www.kozpontiszovetseg.at/r%C3%B3lunk"
       ],
       "errors": [
-        {
-          "url": "https://www.kozpontiszovetseg.at/r%C3%B3lunk",
-          "error": "HTTP Error 429: Too Many Requests"
-        },
         {
           "url": "https://www.kozpontiszovetseg.at/kapcsolat",
           "error": "HTTP Error 429: Too Many Requests"
@@ -3882,6 +3864,34 @@
       "flags": []
     },
     {
+      "id": "szent-istvan-bal",
+      "name": "Szent István Bál / Ungarball",
+      "entityClass": "activity",
+      "categories": [],
+      "activityCategories": [
+        "zene",
+        "felnott",
+        "kozosseg"
+      ],
+      "signals": [
+        "oktatas",
+        "nepzene",
+        "media",
+        "diak",
+        "muveszet",
+        "sport",
+        "csalad"
+      ],
+      "pagesChecked": 3,
+      "checkedUrls": [
+        "https://ungarball.at/",
+        "https://volksgruppen.orf.at/v2/magyarok/stories/2694653/",
+        "https://www.flickr.com/photos/vipach/55099423490"
+      ],
+      "errors": [],
+      "flags": []
+    },
+    {
       "id": "szent-istvan-egylet",
       "name": "Szent István Egylet",
       "entityClass": "organization",
@@ -3892,20 +3902,17 @@
       "activityCategories": [],
       "signals": [
         "oktatas",
-        "neptanc",
         "nepzene",
-        "cserkesz",
-        "szinhaz",
-        "egyhaz",
+        "media",
         "diak",
-        "irodalom",
-        "muveszet",
         "sport",
         "csalad"
       ],
-      "pagesChecked": 1,
+      "pagesChecked": 3,
       "checkedUrls": [
-        "https://www.kozpontiszovetseg.at/tagszervezetek"
+        "https://ungarball.at/",
+        "https://ungarball.at/impressum",
+        "https://volksgruppen.orf.at/v2/magyarok/stories/2694653/"
       ],
       "errors": [],
       "flags": []
