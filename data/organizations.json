@@ -280,8 +280,8 @@
       "facebook": "https://www.facebook.com/Svung.Wien",
       "instagram": null,
       "eventSources": [
-        "https://svung.at/",
-        "https://shop.svung.at/"
+        "https://shop.svung.at/",
+        "https://www.svung.at/show/aktualis-eloadasok/"
       ],
       "memberships": [
         {
@@ -335,6 +335,20 @@
           "url": "https://www.facebook.com/Svung.Wien",
           "kind": "social-calendar",
           "platform": "facebook",
+          "scope": "self",
+          "ingestEvents": false
+        },
+        {
+          "label": "SVUNG – aktuális előadások",
+          "url": "https://www.svung.at/show/aktualis-eloadasok/",
+          "kind": "official-calendar",
+          "scope": "self",
+          "ingestEvents": true
+        },
+        {
+          "label": "Általános saját weboldal – nem elsődleges eseményfeed",
+          "url": "https://svung.at/",
+          "kind": "official-website",
           "scope": "self",
           "ingestEvents": false
         }
@@ -3997,7 +4011,7 @@
       "facebook": null,
       "instagram": null,
       "eventSources": [
-        "https://bukv.at/"
+        "https://bukv.at/hu/veranstaltungen-hu/"
       ],
       "memberships": [
         {
@@ -4086,7 +4100,22 @@
       "phone": "+43 3352 38489",
       "profileVerifiedAt": "2026-09-25",
       "entityClass": "organization",
-      "calendarSources": []
+      "calendarSources": [
+        {
+          "label": "BUKV – hivatalos rendezvénynaptár",
+          "url": "https://bukv.at/hu/veranstaltungen-hu/",
+          "kind": "official-calendar",
+          "scope": "self",
+          "ingestEvents": true
+        },
+        {
+          "label": "Általános saját weboldal – nem elsődleges eseményfeed",
+          "url": "https://bukv.at/",
+          "kind": "official-website",
+          "scope": "self",
+          "ingestEvents": false
+        }
+      ]
     },
     {
       "id": "vhs-burgenland",
