@@ -23,6 +23,10 @@ for o in db["organizations"]:
     for label,key in [("Hivatalos weboldal","website"),("Facebook","facebook"),("Instagram","instagram")]:
         if o.get(key):
             social.append(f'<a class="btn{" primary" if o[key] == primary_link else ""}" href="{esc(o[key])}" target="_blank" rel="noopener external">{label} ↗</a>')
+    if not social:
+        for ch in (o.get("publicChannels") or [])[:2]:
+            if ch.get("url"):
+                social.append(f'<a class="btn" href="{esc(ch.get("url"))}" target="_blank" rel="noopener external">{esc(ch.get("label") or "Kapcsolódó nyilvános csatorna")} ↗</a>')
     national_role=o.get("nationalRole") or None
     national_role_html=(f'<a class="membership" href="{esc(national_role.get("sourceUrl"))}" target="_blank" rel="noopener external"><span>Országos szerep</span><strong>{esc(national_role.get("label"))}</strong></a><p>{esc(national_role.get("description"))}</p>') if national_role else ""
     service_locations=o.get("serviceLocations") or []
