@@ -2888,56 +2888,90 @@
       "state": "niederoesterreich",
       "city": "Baden",
       "type": "oktatási közösség",
-      "intro": "Az AMAPED badeni magyar gyermek- és családi oktatási programhelyszíne.",
+      "intro": "Az AMAPED badeni helyszíne az Ausztriai Magyar Pedagógusok Egyesületének többtelephelyes oktatási és közösségi hálózatához tartozik. Badenben a kisgyermekes magyar családokat rendszeres, magyar dallam- és mondókavilágra épülő Ringató kapcsolja össze az anyanyelvvel, a kultúrával és az AMAPED tágabb családi programrendszerével.",
       "website": "https://amaped.at/",
-      "facebook": null,
+      "facebook": "https://www.facebook.com/profile.php?id=100076361554158&locale=hu_HU",
       "instagram": null,
-      "eventSources": [
-        "https://amaped.at/"
-      ],
+      "eventSources": [],
       "categories": [
         "oktatas"
       ],
       "activities": [
-        "magyar nyelvű óvodai és/vagy iskolai foglalkozások",
-        "anyanyelvi fejlesztés",
-        "közösségi és kulturális programok",
-        "családok támogatása kétnyelvű nevelési környezetben"
+        "Ringató és korai magyar zenei-nyelvi fejlesztés",
+        "magyar mondókák, dalok és közös játék kisgyermekekkel",
+        "kétnyelvű nevelést támogató családi közösség",
+        "kapcsolódás az AMAPED kulturális programjaihoz, táboraihoz és rendezvényeihez"
       ],
       "targetGroups": [
-        "helyi magyar gyermekek és családok",
-        "óvodás és iskolás korosztály",
-        "magyar nyelvi és kulturális fejlesztést kereső családok"
+        "Baden és környéke magyar kisgyermekes családjai",
+        "0–6 éves gyermekek és szüleik",
+        "kétnyelvű nevelésben érintett családok",
+        "magyar családi közösséget keresők"
       ],
       "languages": [
         "magyar",
         "német"
       ],
-      "profileVerifiedAt": "2026-09-25",
+      "profileVerifiedAt": "2026-09-28",
       "evidenceSources": [
         {
-          "label": "AMAPED – hivatalos helyszín- és tanfolyamlista",
+          "label": "AMAPED – hivatalos helyszínek és tanfolyamok",
           "url": "https://amaped.at/tanfolyamok/",
           "type": "official"
         },
         {
-          "label": "AMAPED – országos helyszínek",
+          "label": "AMAPED – szervezeti bemutatkozás és országos hálózat",
           "url": "https://amaped.at/",
+          "type": "official"
+        },
+        {
+          "label": "AMAPED – 2026-os közösségi és kulturális programkínálat",
+          "url": "https://amaped.at/2026/02/11/szeretettel-varunk-mindenkit-foglalkozasainkon-a-tavaszi-felevben-is/",
           "type": "official"
         }
       ],
       "history": {
-        "summary": "Az AMAPED Badenben a bécsi központ hálózatának részeként kínál magyar gyermek- és családi programokat. A 2026-os aktuális programkínálatban Baden önálló helyszínként szerepel, többek között kisgyermekes Ringató foglalkozással.",
+        "summary": "Az AMAPED 2004 óta szervez magyar anyanyelvi, származásnyelvi, fejlesztő és kulturális programokat Ausztriában. Baden a szervezet Bécsen kívüli aktív helyszínei közé tartozik. A hivatalos 2026-os helyszín- és tanfolyamkínálat Badenben rendszeres kisgyermekes Ringató foglalkozást dokumentál. A badeni pont nem önálló jogi iskola, hanem az AMAPED országos hálózatának helyi családi közösségi helyszíne, amelyen keresztül a résztvevők az egyesület rendezvényeihez, táboraihoz, kulturális és fejlesztő programjaihoz is kapcsolódhatnak.",
         "milestones": [
           {
+            "year": "2004",
+            "title": "Az AMAPED megalakulása",
+            "description": "Az Ausztriai Magyar Pedagógusok Egyesülete létrejön, majd több helyszínes oktatási-közösségi hálózatot épít.",
+            "sourceUrl": "https://amaped.at/"
+          },
+          {
             "year": "2026",
-            "title": "Aktív badeni helyszín",
-            "description": "Az AMAPED aktuális helyszín- és tanfolyamlistája Badenben rendszeres magyar családi foglalkozást dokumentál.",
+            "title": "Aktív badeni Ringató-helyszín",
+            "description": "Az AMAPED aktuális tanfolyamlistája Badent működő, rendszeres kisgyermekes helyszínként tünteti fel.",
             "sourceUrl": "https://amaped.at/tanfolyamok/"
           }
         ]
       },
-      "entityClass": "organization"
+      "entityClass": "organization",
+      "calendarSources": [
+        {
+          "label": "AMAPED – rendezvények",
+          "url": "https://amaped.at/rendezvenyek/",
+          "kind": "official-calendar",
+          "scope": "parent-network",
+          "ingestEvents": false
+        },
+        {
+          "label": "AMAPED – hírek és aktuális programok",
+          "url": "https://amaped.at/hirek/",
+          "kind": "official-news",
+          "scope": "parent-network",
+          "ingestEvents": false
+        },
+        {
+          "label": "AMAPED – Facebook",
+          "url": "https://www.facebook.com/profile.php?id=100076361554158&locale=hu_HU",
+          "kind": "social-calendar",
+          "platform": "facebook",
+          "scope": "parent-network",
+          "ingestEvents": false
+        }
+      ]
     },
     {
       "id": "amaped-klosterneuburg",
@@ -2945,62 +2979,97 @@
       "state": "niederoesterreich",
       "city": "Klosterneuburg",
       "type": "oktatási közösség",
-      "intro": "Magyar nyelvű óvodás és gyermekprogramokat kínáló AMAPED-helyszín Klosterneuburgban.",
+      "intro": "Az AMAPED klosterneuburgi helyszíne rendszeres magyar óvodai és összevont iskolai foglalkozásokat biztosít a város és környéke családjainak. A csoport az anyanyelv aktív használatát, a magyar kultúrához való kötődést és a kétnyelvű gyermekek helyi közösségének építését egyszerre szolgálja.",
       "website": "https://amaped.at/",
-      "facebook": null,
+      "facebook": "https://www.facebook.com/profile.php?id=100076361554158&locale=hu_HU",
       "instagram": null,
-      "eventSources": [
-        "https://amaped.at/"
-      ],
+      "eventSources": [],
       "categories": [
         "oktatas"
       ],
       "activities": [
-        "magyar nyelvű óvodai és/vagy iskolai foglalkozások",
-        "anyanyelvi fejlesztés",
-        "közösségi és kulturális programok",
-        "családok támogatása kétnyelvű nevelési környezetben"
+        "magyar óvodai foglalkozások",
+        "összevont magyar iskolai oktatás",
+        "játékos anyanyelvi és kulturális fejlesztés",
+        "helyi gyermek- és családi kulturális programok",
+        "kapcsolódás AMAPED-rendezvényekhez és táborokhoz"
       ],
       "targetGroups": [
-        "helyi magyar gyermekek és családok",
-        "óvodás és iskolás korosztály",
-        "magyar nyelvi és kulturális fejlesztést kereső családok"
+        "Klosterneuburg és környéke magyar óvodásai",
+        "iskolás korú magyar és kétnyelvű gyermekek",
+        "magyar nyelvi-kulturális közösséget kereső családok",
+        "Ausztriában többnyelvűen nevelő szülők"
       ],
       "languages": [
         "magyar",
         "német"
       ],
-      "profileVerifiedAt": "2026-09-25",
+      "profileVerifiedAt": "2026-09-28",
       "evidenceSources": [
         {
-          "label": "AMAPED – hivatalos helyszín- és tanfolyamlista",
+          "label": "AMAPED – hivatalos tanfolyamlista",
           "url": "https://amaped.at/tanfolyamok/",
           "type": "official"
         },
         {
-          "label": "AMAPED – országos helyszínek",
-          "url": "https://amaped.at/",
+          "label": "AMAPED – 2023/24 tanévkezdés",
+          "url": "https://amaped.at/2023/09/15/indul-a-tanev/",
+          "type": "official"
+        },
+        {
+          "label": "AMAPED – hírek és helyi programok",
+          "url": "https://amaped.at/hirek/",
           "type": "official"
         }
       ],
       "history": {
-        "summary": "Az AMAPED klosterneuburgi csoportja dokumentáltan legalább a 2023/24-es tanév óta működik külső helyszínként. A program összevont iskolai és óvodai foglalkozásokat kínál, és 2026-ban is aktív, rendszeres heti órarenddel.",
+        "summary": "Klosterneuburg dokumentáltan legalább a 2023/24-es tanév óta az AMAPED Bécsen kívüli oktatási helyszíne. A 2026-os hivatalos tanfolyamkínálat külön óvodai és összevont iskolai csoportot jelez. A helyszín nem pusztán tanórai pont: az AMAPED hírei helyi kulturális gyermekprogramokat is dokumentálnak, így a nyelvfejlesztés mellé közösségi élmény, könyves és kreatív programok társulnak. A családok emellett az egyesület központi rendezvényeihez és Facebookon kommunikált eseményeihez is kapcsolódnak.",
         "milestones": [
           {
             "year": "2023/24",
-            "title": "Dokumentált külső helyszín",
-            "description": "Az AMAPED a 2023/24-es tanévben Klosterneuburgot is működő külső oktatási helyszínként sorolja fel.",
+            "title": "Dokumentált külső oktatási helyszín",
+            "description": "Klosterneuburg az AMAPED tanévkezdő tájékoztatásában működő külső helyszínként szerepel.",
             "sourceUrl": "https://amaped.at/2023/09/15/indul-a-tanev/"
           },
           {
             "year": "2026",
-            "title": "Aktív heti oktatás",
-            "description": "Klosterneuburgban összevont iskolai és óvodai foglalkozások működnek.",
+            "title": "Óvodai és iskolai csoportok",
+            "description": "Az aktuális tanfolyamlista külön klosterneuburgi óvodai és összevont iskolai foglalkozást tartalmaz.",
             "sourceUrl": "https://amaped.at/tanfolyamok/"
+          },
+          {
+            "year": "2026",
+            "title": "Helyi kulturális programok",
+            "description": "A klosterneuburgi AMAPED-csoport saját helyszíni kulturális és kreatív gyermekprogramokkal is megjelenik az egyesület híreiben.",
+            "sourceUrl": "https://amaped.at/hirek/"
           }
         ]
       },
-      "entityClass": "organization"
+      "entityClass": "organization",
+      "calendarSources": [
+        {
+          "label": "AMAPED – rendezvények",
+          "url": "https://amaped.at/rendezvenyek/",
+          "kind": "official-calendar",
+          "scope": "parent-network",
+          "ingestEvents": false
+        },
+        {
+          "label": "AMAPED – hírek és aktuális programok",
+          "url": "https://amaped.at/hirek/",
+          "kind": "official-news",
+          "scope": "parent-network",
+          "ingestEvents": false
+        },
+        {
+          "label": "AMAPED – Facebook",
+          "url": "https://www.facebook.com/profile.php?id=100076361554158&locale=hu_HU",
+          "kind": "social-calendar",
+          "platform": "facebook",
+          "scope": "parent-network",
+          "ingestEvents": false
+        }
+      ]
     },
     {
       "id": "amaped-schwechat",
@@ -3008,62 +3077,91 @@
       "state": "niederoesterreich",
       "city": "Schwechat",
       "type": "oktatási közösség",
-      "intro": "Magyar nyelvű gyermekoktatási és közösségi foglalkozásokat kínáló AMAPED-helyszín Schwechatban.",
+      "intro": "Az AMAPED schwechat-i helyszíne rendszeres magyar óvodai és összevont iskolai foglalkozásokkal ad helyi anyanyelvi, kulturális és közösségi teret a Bécstől délkeletre élő magyar családoknak. A cél a magyar nyelv aktív használatának fenntartása és a kétnyelvű gyermekek közösségi kötődésének erősítése.",
       "website": "https://amaped.at/",
-      "facebook": null,
+      "facebook": "https://www.facebook.com/profile.php?id=100076361554158&locale=hu_HU",
       "instagram": null,
-      "eventSources": [
-        "https://amaped.at/"
-      ],
+      "eventSources": [],
       "categories": [
         "oktatas"
       ],
       "activities": [
-        "magyar nyelvű óvodai és/vagy iskolai foglalkozások",
-        "anyanyelvi fejlesztés",
-        "közösségi és kulturális programok",
-        "családok támogatása kétnyelvű nevelési környezetben"
+        "magyar óvodai foglalkozások",
+        "összevont magyar iskolai oktatás",
+        "anyanyelvi és kulturális fejlesztés",
+        "hagyományőrző és közösségi programok",
+        "kapcsolódás AMAPED családi rendezvényekhez"
       ],
       "targetGroups": [
-        "helyi magyar gyermekek és családok",
-        "óvodás és iskolás korosztály",
-        "magyar nyelvi és kulturális fejlesztést kereső családok"
+        "Schwechat és környéke magyar óvodásai",
+        "iskolás korú magyar és kétnyelvű gyermekek",
+        "magyar közösséget kereső családok",
+        "kétnyelvű nevelésben érintett szülők"
       ],
       "languages": [
         "magyar",
         "német"
       ],
-      "profileVerifiedAt": "2026-09-25",
+      "profileVerifiedAt": "2026-09-28",
       "evidenceSources": [
         {
-          "label": "AMAPED – hivatalos helyszín- és tanfolyamlista",
+          "label": "AMAPED – hivatalos tanfolyamlista",
           "url": "https://amaped.at/tanfolyamok/",
           "type": "official"
         },
         {
-          "label": "AMAPED – országos helyszínek",
-          "url": "https://amaped.at/",
+          "label": "AMAPED – 2023/24 tanévkezdés",
+          "url": "https://amaped.at/2023/09/15/indul-a-tanev/",
+          "type": "official"
+        },
+        {
+          "label": "AMAPED – 2026 tavaszi programkínálat és Facebook",
+          "url": "https://amaped.at/2026/02/11/szeretettel-varunk-mindenkit-foglalkozasainkon-a-tavaszi-felevben-is/",
           "type": "official"
         }
       ],
       "history": {
-        "summary": "Az AMAPED schwechat-i csoportja dokumentáltan legalább a 2023/24-es tanév óta működik külső oktatási helyszínként. 2026-ban is rendszeres magyar iskolai és óvodai foglalkozásokat kínál helyi gyermekeknek.",
+        "summary": "Schwechat dokumentáltan legalább a 2023/24-es tanév óta az AMAPED külső oktatási helyszíne. A 2026-os tanfolyamlista iskolai és óvodai foglalkozásokat tart nyilván, így a csoport tartósan beépült az AMAPED Bécs körüli hálózatába. A helyi oktatás az egyesület komplex modelljéhez kapcsolódik: a magyaróra mellett kulturális hagyományőrzés, közösségi események, családi programok és fejlesztő szemlélet alkotja a környezetet. Az aktuális eseményekről az AMAPED központi webes és Facebook-felülete tájékoztat.",
         "milestones": [
           {
             "year": "2023/24",
             "title": "Dokumentált külső helyszín",
-            "description": "Az AMAPED a 2023/24-es tanévben Schwechatot is működő külső oktatási helyszínként sorolja fel.",
+            "description": "Schwechat az AMAPED tanévkezdő tájékoztatásában működő külső helyszínként szerepel.",
             "sourceUrl": "https://amaped.at/2023/09/15/indul-a-tanev/"
           },
           {
             "year": "2026",
-            "title": "Aktív magyar oktatás",
-            "description": "Schwechatban iskolai és óvodai foglalkozások működnek.",
+            "title": "Aktív óvodai és iskolai oktatás",
+            "description": "A 2026-os tanfolyamlista rendszeres schwechat-i magyar foglalkozásokat dokumentál.",
             "sourceUrl": "https://amaped.at/tanfolyamok/"
           }
         ]
       },
-      "entityClass": "organization"
+      "entityClass": "organization",
+      "calendarSources": [
+        {
+          "label": "AMAPED – rendezvények",
+          "url": "https://amaped.at/rendezvenyek/",
+          "kind": "official-calendar",
+          "scope": "parent-network",
+          "ingestEvents": false
+        },
+        {
+          "label": "AMAPED – hírek és aktuális programok",
+          "url": "https://amaped.at/hirek/",
+          "kind": "official-news",
+          "scope": "parent-network",
+          "ingestEvents": false
+        },
+        {
+          "label": "AMAPED – Facebook",
+          "url": "https://www.facebook.com/profile.php?id=100076361554158&locale=hu_HU",
+          "kind": "social-calendar",
+          "platform": "facebook",
+          "scope": "parent-network",
+          "ingestEvents": false
+        }
+      ]
     },
     {
       "id": "amaped-st-poelten",
@@ -3071,56 +3169,85 @@
       "state": "niederoesterreich",
       "city": "St. Pölten",
       "type": "oktatási közösség",
-      "intro": "Magyar nyelvi és gyermekközösségi programokat kínáló AMAPED-helyszín Alsó-Ausztria tartományi fővárosában.",
+      "intro": "Az AMAPED St. Pölten-i helyszíne Alsó-Ausztria tartományi fővárosában biztosít magyar nyelvi, kulturális és gyermekközösségi kapcsolódási pontot. A helyszín az AMAPED többtelephelyes modelljébe illeszkedik, amely a rendszeres anyanyelvi foglalkozásokat családi, kulturális és közösségi programokkal egészíti ki.",
       "website": "https://amaped.at/",
-      "facebook": null,
+      "facebook": "https://www.facebook.com/profile.php?id=100076361554158&locale=hu_HU",
       "instagram": null,
-      "eventSources": [
-        "https://amaped.at/"
-      ],
+      "eventSources": [],
       "categories": [
         "oktatas"
       ],
       "activities": [
-        "magyar nyelvű óvodai és/vagy iskolai foglalkozások",
-        "anyanyelvi fejlesztés",
-        "közösségi és kulturális programok",
-        "családok támogatása kétnyelvű nevelési környezetben"
+        "magyar anyanyelvi és gyermekközösségi foglalkozások",
+        "magyar kulturális identitás erősítése",
+        "kétnyelvű nevelés támogatása",
+        "családi és közösségi kapcsolódás",
+        "AMAPED rendezvényekhez és programokhoz való hozzáférés"
       ],
       "targetGroups": [
-        "helyi magyar gyermekek és családok",
-        "óvodás és iskolás korosztály",
-        "magyar nyelvi és kulturális fejlesztést kereső családok"
+        "St. Pölten és környéke magyar gyermekei",
+        "magyar és kétnyelvű családok",
+        "magyar nyelvi-kulturális kapcsolódást kereső szülők",
+        "Ausztriában felnövő magyar hátterű gyermekek"
       ],
       "languages": [
         "magyar",
         "német"
       ],
-      "profileVerifiedAt": "2026-09-25",
+      "profileVerifiedAt": "2026-09-28",
       "evidenceSources": [
         {
-          "label": "AMAPED – hivatalos helyszín- és tanfolyamlista",
-          "url": "https://amaped.at/tanfolyamok/",
+          "label": "AMAPED – országos helyszínhálózat",
+          "url": "https://amaped.at/",
           "type": "official"
         },
         {
-          "label": "AMAPED – országos helyszínek",
+          "label": "AMAPED – szervezeti küldetés és programrendszer",
           "url": "https://amaped.at/",
+          "type": "official"
+        },
+        {
+          "label": "AMAPED – 2026 tavaszi közösségi és kulturális programok",
+          "url": "https://amaped.at/2026/02/11/szeretettel-varunk-mindenkit-foglalkozasainkon-a-tavaszi-felevben-is/",
           "type": "official"
         }
       ],
       "history": {
-        "summary": "Az AMAPED St. Pöltenben az alsó-ausztriai terjeszkedés részeként működtet magyar nyelvi és gyermekközösségi programhelyszínt. A szervezet aktuális hivatalos oldala St. Pöltent a Bécsen kívüli aktív helyszínei között sorolja fel.",
+        "summary": "St. Pölten az AMAPED Bécsen kívüli helyszínhálózatának része, és a szervezet aktuális hivatalos felülete működő vidéki helyszínként tünteti fel. Az AMAPED egészének 2004 óta épülő modellje nem csak magyarórákra épül: anyanyelvi oktatás, korai fejlesztés, kulturális hagyományőrzés, közösségi programok és családtámogató szakmai háttér kapcsolódik össze. A St. Pölten-i családok számára a helyi foglalkozás ezért belépési pont az egyesület szélesebb rendezvény- és közösségi rendszerébe is.",
         "milestones": [
           {
             "year": "2026",
             "title": "Aktív alsó-ausztriai helyszín",
-            "description": "Az AMAPED aktuális hivatalos oldala St. Pöltent működő vidéki helyszínként tünteti fel.",
-            "sourceUrl": "https://amaped.at/de/home-deutsch/"
+            "description": "Az AMAPED aktuális hivatalos helyszínlistája St. Pöltent működő Bécsen kívüli helyszínként tünteti fel.",
+            "sourceUrl": "https://amaped.at/"
           }
         ]
       },
-      "entityClass": "organization"
+      "entityClass": "organization",
+      "calendarSources": [
+        {
+          "label": "AMAPED – rendezvények",
+          "url": "https://amaped.at/rendezvenyek/",
+          "kind": "official-calendar",
+          "scope": "parent-network",
+          "ingestEvents": false
+        },
+        {
+          "label": "AMAPED – hírek és aktuális programok",
+          "url": "https://amaped.at/hirek/",
+          "kind": "official-news",
+          "scope": "parent-network",
+          "ingestEvents": false
+        },
+        {
+          "label": "AMAPED – Facebook",
+          "url": "https://www.facebook.com/profile.php?id=100076361554158&locale=hu_HU",
+          "kind": "social-calendar",
+          "platform": "facebook",
+          "scope": "parent-network",
+          "ingestEvents": false
+        }
+      ]
     },
     {
       "id": "bukv",
@@ -5791,7 +5918,7 @@
       "state": "tirol",
       "city": "Innsbruck",
       "type": "egyetemi közösség",
-      "intro": "Innsbruck magyar egyetemistáinak és akadémiai közösségének szakmai, kulturális és társasági szervezete.",
+      "intro": "Az 1957-ben létrejött innsbrucki magyar egyetemi közösség történeti örököse, amely ma az Innsbruckban tanuló magyar egyetemistákat, akadémikusokat és fiatal értelmiségieket kapcsolja össze. Az IMEASZ a Magyar Házhoz kötődő klubestekkel, kulturális programokkal, megemlékezésekkel és közösségi találkozókkal több generációt köt össze.",
       "website": "https://imeasz.at/",
       "facebook": null,
       "instagram": null,
@@ -5817,18 +5944,23 @@
       ],
       "email": "info@imeasz.at",
       "activities": [
+        "rendszeres pénteki klubestek a Magyar Házban",
+        "előadások, filmvetítések és kulturális estek",
         "magyar egyetemisták és akadémikusok közösségi összekapcsolása",
-        "egyetemi és akadémiai közösségi programok"
+        "nemzeti és történelmi megemlékezések",
+        "grillpartik, társasági és diákprogramok"
       ],
       "targetGroups": [
-        "Innsbruckban tanuló magyar egyetemisták",
-        "magyar akadémikusok és fiatal értelmiségiek"
+        "Innsbruckban és Tirolban tanuló magyar egyetemisták",
+        "magyar akadémikusok és kutatók",
+        "fiatal magyar értelmiségiek",
+        "az innsbrucki Magyar Ház kulturális közösségéhez kapcsolódók"
       ],
       "languages": [
         "magyar",
         "német"
       ],
-      "profileVerifiedAt": "2026-09-25",
+      "profileVerifiedAt": "2026-09-28",
       "evidenceSources": [
         {
           "label": "Központi Szövetség – IMEASZ ZVR és kapcsolat",
@@ -5844,11 +5976,21 @@
           "label": "Bécsi Napló – IMEASZ névváltozás 1964",
           "url": "https://www.becsinaplo.eu/newspaper_archive/bn2009-2.pdf",
           "type": "community-media"
+        },
+        {
+          "label": "Petőfi Sándor Program – rendszeres IMEASZ klubestek és kulturális programok",
+          "url": "https://petofiprogram.hu/hirek/nagy-gyorgy-attila-van-jovoje-az-innsbrucki-magyar-kozossegnek",
+          "type": "institutional"
+        },
+        {
+          "label": "Bécsi Napló – nyilvános IMEASZ eseménylista",
+          "url": "https://www.becsinaplo.eu/816",
+          "type": "community-media"
         }
       ],
       "founded": "1957",
       "history": {
-        "summary": "Az IMEASZ elődje, az Innsbrucki Magyar Egyetemisták Egyesülete (IMESZ) 1957-ben alakult, amikor mintegy 120–127 magyar egyetemista tanult Innsbruckban. Az egyesület érdekvédelmet, ösztöndíj-segítséget és közösségi programokat szervezett. 1964-ben alapszabály-módosítással felvette mai nevét: Innsbrucki Magyar Egyetemisták és Akadémikusok Szövetsége (IMEASZ).",
+        "summary": "Az IMEASZ elődje, az Innsbrucki Magyar Egyetemisták Egyesülete (IMESZ) 1957-ben alakult, amikor több mint száz magyar egyetemista tanult Innsbruckban. Az egyesület eredetileg érdekvédelmet, ösztöndíj-segítséget és gyakorlati támogatást nyújtott, miközben kirándulásokat és közösségi programokat is szervezett. 1964-ben alapszabály-módosítással felvette mai nevét: Innsbrucki Magyar Egyetemisták és Akadémikusok Szövetsége. A Magyar Házban működő közösség később rendszeres pénteki klubestekkel, előadásokkal, filmvetítésekkel, vacsorákkal, ünnepségekkel, grillpartikkal és megemlékezésekkel vált az innsbrucki magyar kulturális élet egyik tartós szervezőjévé.",
         "milestones": [
           {
             "year": "1957",
@@ -5859,18 +6001,40 @@
           {
             "year": "1964",
             "title": "Az IMEASZ név felvétele",
-            "description": "Az éves közgyűlés alapszabály-módosítással az Innsbrucki Magyar Egyetemisták és Akadémikusok Szövetsége nevet fogadja el.",
+            "description": "A szervezet az egyetemisták mellett az akadémikusokat is bevonó mai nevét veszi fel.",
             "sourceUrl": "https://www.becsinaplo.eu/newspaper_archive/bn2009-2.pdf"
           },
           {
             "year": "2000-es évek",
-            "title": "Magyar Házhoz kötődő kulturális közösség",
-            "description": "Az IMEASZ klubesteket, előadásokat, filmvetítéseket, vacsorákat és kulturális programokat szervez a Magyar Házban.",
+            "title": "Magyar Házhoz kötődő rendszeres klubélet",
+            "description": "Pénteki klubestek, kulturális előadások, filmvetítések, vacsorák és ünnepségek jellemzik a működést.",
             "sourceUrl": "https://www.becsinaplo.eu/newspaper_archive/bn2007-5.pdf"
+          },
+          {
+            "year": "2023",
+            "title": "Közösségi és ifjúsági programok dokumentálva",
+            "description": "A nyilvános innsbrucki programlisták IMEASZ évzáró grillezést és közösségi eseményeket dokumentálnak.",
+            "sourceUrl": "https://www.becsinaplo.eu/816"
           }
         ]
       },
-      "entityClass": "organization"
+      "entityClass": "organization",
+      "calendarSources": [
+        {
+          "label": "IMEASZ – hivatalos weboldal és aktuális programok",
+          "url": "https://imeasz.at/",
+          "kind": "official-calendar",
+          "scope": "self",
+          "ingestEvents": true
+        },
+        {
+          "label": "Bécsi Napló – innsbrucki eseménylista / IMEASZ programok",
+          "url": "https://www.becsinaplo.eu/816",
+          "kind": "community-calendar",
+          "scope": "self",
+          "ingestEvents": false
+        }
+      ]
     },
     {
       "id": "cserkesz-79",
@@ -9319,7 +9483,7 @@
       "state": "wien",
       "city": "Wien",
       "type": "magyar–német–horvát kulturális falinaptár",
-      "intro": "A Központi Szövetség 1985 óta megjelenő háromnyelvű – magyar, német és horvát – falinaptára, amely az ausztriai magyar népcsoport kulturális és közösségi jelenlétének egyik tartós kiadványa.",
+      "intro": "Az Őrség a Központi Szövetség 1985 óta megjelenő magyar–német–horvát falinaptára és kulturális kiadványa. A naptár az ausztriai magyar népcsoport tartós médiaterméke: egyszerre őriz közösségi és kulturális emlékezetet, közvetít három nyelvi közeg között, és a Központi Szövetség több évtizedes kiadói tevékenységéhez kapcsolódik.",
       "website": "https://www.kozpontiszovetseg.at/r%C3%B3lunk",
       "facebook": null,
       "instagram": null,
@@ -9337,39 +9501,70 @@
       ],
       "founded": "1985",
       "history": {
-        "summary": "A Központi Szövetség saját történeti bemutatkozása szerint 1985 óta adja ki az Őrség című háromnyelvű falinaptárt magyar, német és horvát nyelven.",
+        "summary": "A Központi Szövetség hivatalos történeti bemutatkozása szerint az Őrség című háromnyelvű falinaptár 1985 óta jelenik meg magyar, német és horvát nyelven. A kiadvány a szervezet egyik legrégebben folyamatosan fenntartott médiaprojektje, és az ausztriai magyar népcsoport kulturális láthatóságát, többnyelvű kapcsolatait és éves közösségi emlékezetét szolgálja. Az Őrség nem önálló rendezvényszervező, ezért saját eseménynaptár helyett a kiadó Központi Szövetség hivatalos webes és közösségi eseményfelületei kapcsolódnak hozzá.",
         "milestones": [
           {
             "year": "1985",
-            "title": "Az Őrség naptár indulása",
-            "description": "A Központi Szövetség megkezdi a háromnyelvű falinaptár kiadását.",
+            "title": "Az Őrség indulása",
+            "description": "A Központi Szövetség megkezdi a magyar–német–horvát falinaptár kiadását.",
+            "sourceUrl": "https://www.kozpontiszovetseg.at/r%C3%B3lunk"
+          },
+          {
+            "year": "2026",
+            "title": "Több mint négy évtizedes kiadói folytonosság",
+            "description": "A Központi Szövetség aktuális történeti bemutatása az Őrséget továbbra is saját, 1985 óta kiadott kulturális termékeként tartja számon.",
             "sourceUrl": "https://www.kozpontiszovetseg.at/r%C3%B3lunk"
           }
         ]
       },
       "activities": [
-        "éves kulturális falinaptár kiadása",
-        "magyar népcsoporti kulturális tartalom közvetítése"
+        "éves háromnyelvű kulturális falinaptár kiadása",
+        "ausztriai magyar népcsoporti kulturális tartalom közvetítése",
+        "magyar–német–horvát kulturális kapcsolódás",
+        "közösségi emlékezet és éves kulturális dokumentáció"
       ],
       "targetGroups": [
         "ausztriai magyar közösség",
-        "népcsoporti és kulturális érdeklődők"
+        "német és horvát nyelvű népcsoporti-kulturális közönség",
+        "Ausztria magyar vonatkozású kulturális élete iránt érdeklődők"
       ],
       "languages": [
         "magyar",
         "német",
         "horvát"
       ],
-      "profileVerifiedAt": "2026-09-26",
+      "profileVerifiedAt": "2026-09-28",
       "evidenceSources": [
         {
           "label": "Központi Szövetség – Rólunk",
           "url": "https://www.kozpontiszovetseg.at/r%C3%B3lunk",
           "type": "official"
+        },
+        {
+          "label": "Központi Szövetség – hivatalos Facebook",
+          "url": "https://www.facebook.com/kozpontiszovetseg/?locale=hu_HU",
+          "type": "first-party"
         }
       ],
       "entityClass": "media",
-      "classificationNote": "A Központi Szövetség saját kiadványa; nem tagszervezet."
+      "classificationNote": "A Központi Szövetség saját kiadványa; nem tagszervezet.",
+      "calendarSources": [
+        {
+          "label": "Központi Szövetség – hivatalos események",
+          "url": "https://www.kozpontiszovetseg.at/",
+          "kind": "parent-calendar",
+          "scope": "parent",
+          "ingestEvents": false
+        },
+        {
+          "label": "Központi Szövetség – Facebook",
+          "url": "https://www.facebook.com/kozpontiszovetseg/?locale=hu_HU",
+          "kind": "social-calendar",
+          "platform": "facebook",
+          "scope": "parent",
+          "ingestEvents": false
+        }
+      ]
     },
     {
       "id": "kufstein-tanacskozas",
@@ -10408,7 +10603,7 @@
       "state": "wien",
       "city": "Wien",
       "type": "ifjúsági közösségi egyesület",
-      "intro": "Bécsi magyar fiatalok közösségi egyesülete, amely a fiatal generáció aktív részvételét és megszólalását kívánja erősíteni a bécsi magyar közösségi életben.",
+      "intro": "A Polgári Magyar Fiatalok Egyesülete bécsi magyar ifjúsági közösség, amely a fiatal generáció láthatóbb részvételét, véleményének megjelenését és közösségi szerepvállalását erősíti. A Kerekasztal tagszervezeteként más bécsi magyar egyesületekkel közös kulturális és ifjúsági programokban is részt vesz.",
       "website": null,
       "facebook": null,
       "instagram": null,
@@ -10426,36 +10621,78 @@
       ],
       "activities": [
         "bécsi magyar fiatalok közösségépítése",
-        "fiatalok részvételének ösztönzése a magyar közösségi életben",
-        "ifjúsági találkozások és közösségi kapcsolódás"
+        "ifjúsági beszélgetések és generációs témák megjelenítése",
+        "közös kulturális rendezvényeken való részvétel",
+        "fiatalok közösségi szerepvállalásának ösztönzése",
+        "kapcsolódás a Kerekasztal tagszervezeteinek programjaihoz"
       ],
       "targetGroups": [
-        "Bécsben élő magyar fiatalok"
+        "Bécsben élő magyar fiatalok",
+        "Ausztriában felnövő magyar hátterű fiatal felnőttek",
+        "magyar közösségi élet iránt érdeklődő diákok és pályakezdők"
       ],
       "languages": [
         "magyar",
         "német"
       ],
-      "profileVerifiedAt": "2026-09-27",
+      "profileVerifiedAt": "2026-09-28",
       "evidenceSources": [
         {
           "label": "Kerekasztal – tagok",
           "url": "https://kerekasztal.at/tagok/",
           "type": "institutional"
+        },
+        {
+          "label": "Rólunk.at – a Kerekasztal fiatal tagszervezeteiről",
+          "url": "https://rolunk.at/nepcsoportunk/20-tagegyesuletet-fog-ossze-az-ausztriai-magyar-szervezetek-kerekasztala/",
+          "type": "community-media"
+        },
+        {
+          "label": "Rólunk.at – AchtUngarn ifjúsági programok",
+          "url": "https://rolunk.at/nepcsoportunk/achtungarn-magyar-kulturalis-kavalkad-a-praterben/",
+          "type": "community-media"
         }
       ],
       "history": {
-        "summary": "A Polgári Magyar Fiatalok Egyesületét a Kerekasztal saját tagoldala bécsi magyar ifjúsági tagszervezetként mutatja be. A szervezet célja, hogy aktív fiatal közösséget építsen, és teret adjon a fiatal generáció részvételének a bécsi magyar közösségi életben.",
+        "summary": "A Polgári Magyar Fiatalok Egyesületét az Ausztriai Magyar Szervezetek Kerekasztala saját tagoldala bécsi magyar ifjúsági tagszervezetként tartja nyilván. Nyilvános bemutatásuk szerint azért szerveződtek, hogy Bécsben legyen egy aktív fiatal magyar csapat, amely részt vállal a közösségi életben és képes megfogalmazni a saját generáció számára fontos kérdéseket. A szervezet az AchtUngarn fesztivál ifjúsági programjaiban is megjelent: vezetője bécsi magyar fiatalokkal beszélgetett az ausztriai magyar identitásról és a generációs tapasztalatokról.",
         "milestones": [
           {
+            "year": "2023",
+            "title": "Kerekasztal-tagként dokumentált ifjúsági szerep",
+            "description": "A Kerekasztal nyilvános bemutatása aktív bécsi magyar fiatal közösségként írja le a szervezetet.",
+            "sourceUrl": "https://rolunk.at/nepcsoportunk/20-tagegyesuletet-fog-ossze-az-ausztriai-magyar-szervezetek-kerekasztala/"
+          },
+          {
+            "year": "2025",
+            "title": "AchtUngarn ifjúsági program",
+            "description": "A szervezet képviselője bécsi magyar fiatalokkal beszélgetett az ausztriai magyar identitásról.",
+            "sourceUrl": "https://rolunk.at/nepcsoportunk/achtungarn-magyar-kulturalis-kavalkad-a-praterben/"
+          },
+          {
             "year": "2026",
-            "title": "Kerekasztal-tagság dokumentálva",
-            "description": "A Kerekasztal hivatalos tagoldala önálló tagszervezetként sorolja fel.",
+            "title": "Kerekasztal-tagság megerősítve",
+            "description": "A hivatalos tagoldal továbbra is önálló tagszervezetként sorolja fel.",
             "sourceUrl": "https://kerekasztal.at/tagok/"
           }
         ]
       },
-      "entityClass": "organization"
+      "entityClass": "organization",
+      "calendarSources": [
+        {
+          "label": "Kerekasztal – közös programok és tagszervezeti események",
+          "url": "https://kerekasztal.at/",
+          "kind": "umbrella-calendar",
+          "scope": "umbrella",
+          "ingestEvents": false
+        },
+        {
+          "label": "AchtUngarn – Kerekasztal kulturális fesztivál",
+          "url": "https://kerekasztal.at/",
+          "kind": "umbrella-event-series",
+          "scope": "umbrella",
+          "ingestEvents": false
+        }
+      ]
     },
     {
       "id": "haus-der-volksgruppen-oberwart",
@@ -10710,34 +10947,45 @@
       "state": "vorarlberg",
       "city": "Bregenz",
       "type": "tartományi könyvtár magyar nyelvű tartalommal",
-      "intro": "A Vorarlbergi Tartományi Könyvtár fizikai állományában magyar nyelvű könyvek, folyóiratok és régióhoz kapcsolódó magyar fordítások is megtalálhatók. Az ORF 2026-os felmérése 17 magyar nyelvű fizikai tételt dokumentált.",
+      "intro": "A Vorarlberger Landesbibliothek Bregenzben működő tudományos univerzális és regionális könyvtár. Fizikai állományában magyar nyelvű könyvek és folyóiratok is megtalálhatók; emellett a könyvtár kutatási, digitális archívumi, kiállítási és kulturális programokat kínál, amelyeket saját eseménynaptárán, Facebookon és Instagramon is kommunikál.",
       "website": "https://vlb.vorarlberg.at/",
-      "facebook": null,
-      "instagram": null,
+      "facebook": "https://www.facebook.com/VorarlbergerLandesbibliothek",
+      "instagram": "https://www.instagram.com/vorarlbergerlandesbibliothek",
       "eventSources": [],
       "categories": [
         "irodalom",
         "kultura"
       ],
       "history": {
-        "summary": "A Vorarlberger Landesbibliothek regionális tudományos könyvtár. A 2026-os ORF-adatfelvétel külön magyar nyelvű fizikai állományt is dokumentált.",
+        "summary": "A Vorarlberger Landesbibliothek Bregenzben működő regionális tudományos könyvtár, amely klasszikus könyvtári szolgáltatások mellett digitális gyűjteményeket, rádió- és televízióarchívumot, különleges gyűjteményeket, kutatási támogatást, kiállításokat, könyvbemutatókat és kulturális rendezvényeket működtet. Az ORF 2026-os adatfelvétele 17 magyar nyelvű fizikai tételt dokumentált. A DORAPP-ban ezért host-intézményként szerepel: nem magyar szervezet, hanem olyan osztrák intézmény, ahol konkrét magyar nyelvű állomány igazolt.",
         "milestones": [
           {
             "year": "2026",
-            "title": "17 magyar nyelvű fizikai tétel",
+            "title": "Magyar nyelvű fizikai állomány dokumentálva",
             "description": "A könyvtár közlése alapján 17 magyar nyelvű fizikai tétel szerepelt az állományban.",
             "sourceUrl": "https://volksgruppen.orf.at/magyarok/stories/3362082/"
+          },
+          {
+            "year": "2026",
+            "title": "Folyamatos kulturális eseménynaptár",
+            "description": "A hivatalos Was passiert? felület kiállításokat, könyvbemutatókat, koncerteket és képzéseket közöl.",
+            "sourceUrl": "https://vlb.vorarlberg.at/was-passiert/"
           }
         ]
       },
       "activities": [
         "magyar nyelvű könyvek és folyóiratok hozzáférhetővé tétele",
-        "regionális kutatási szolgáltatás"
+        "regionális és tudományos kutatási szolgáltatás",
+        "digitális archívumok és különleges gyűjtemények",
+        "kiállítások és könyvbemutatók",
+        "koncertek, előadások és Teaching Library programok"
       ],
       "targetGroups": [
         "Vorarlbergben élő magyar olvasók",
-        "kutatók",
-        "magyar nyelvű forrásokat keresők"
+        "kutatók és diákok",
+        "magyar nyelvű forrásokat keresők",
+        "regionális kulturális és történeti kutatók",
+        "könyvtári és kulturális programok közönsége"
       ],
       "languages": [
         "német",
@@ -10751,13 +10999,48 @@
           "type": "official"
         },
         {
-          "label": "ORF Magyarok – Vorarlbergi Tartományi Könyvtár",
+          "label": "ORF Magyarok – magyar nyelvű állomány",
           "url": "https://volksgruppen.orf.at/magyarok/stories/3362082/",
           "type": "public-broadcaster"
+        },
+        {
+          "label": "Vorarlberger Landesbibliothek – eseménynaptár",
+          "url": "https://vlb.vorarlberg.at/was-passiert/",
+          "type": "official"
+        },
+        {
+          "label": "Vorarlberger Landesbibliothek – hivatalos social csatornák",
+          "url": "https://vlb.vorarlberg.at/faq/weitere-services",
+          "type": "official"
         }
       ],
       "entityClass": "host-institution",
-      "classificationNote": "Nem magyar szervezet; osztrák tartományi könyvtár igazolt magyar nyelvű állománnyal."
+      "classificationNote": "Nem magyar szervezet; osztrák tartományi könyvtár igazolt magyar nyelvű állománnyal.",
+      "calendarSources": [
+        {
+          "label": "Vorarlberger Landesbibliothek – Veranstaltungskalender",
+          "url": "https://vlb.vorarlberg.at/was-passiert/",
+          "kind": "official-calendar",
+          "scope": "host",
+          "ingestEvents": false
+        },
+        {
+          "label": "Vorarlberger Landesbibliothek – Facebook",
+          "url": "https://www.facebook.com/VorarlbergerLandesbibliothek",
+          "kind": "social-calendar",
+          "platform": "facebook",
+          "scope": "host",
+          "ingestEvents": false
+        },
+        {
+          "label": "Vorarlberger Landesbibliothek – Instagram",
+          "url": "https://www.instagram.com/vorarlbergerlandesbibliothek",
+          "kind": "social-calendar",
+          "platform": "instagram",
+          "scope": "host",
+          "ingestEvents": false
+        }
+      ]
     },
     {
       "id": "burgenlaendische-landesbibliothek-hungarian",
@@ -11061,10 +11344,10 @@
       "state": "tirol",
       "city": "Innsbruck",
       "type": "városi könyvtár magyar nyelvtanulási kínálattal",
-      "intro": "Az innsbrucki városi könyvtár nyelvtanulási gyűjteménye 43 nyelvhez kínál médiákat; ezek között a magyar nyelv is szerepel. A szolgáltatás a magyarul tanulók és a többnyelvű családok számára is hozzáférhető.",
+      "intro": "A Stadtbibliothek Innsbruck többnyelvű városi könyvtár, amelynek nyelvtanulási médiái között a magyar a dokumentált 43 nyelv egyike. A magyar szolgáltatás a könyvtár szélesebb nyelvi, oktatási és közösségi infrastruktúrájába illeszkedik; az intézmény saját rendezvényteremmel, gyermek- és ifjúsági programokkal, workshopokkal és rendszeresen frissülő eseménynaptárral működik.",
       "website": "https://stadtbibliothek.innsbruck.gv.at/",
       "facebook": null,
-      "instagram": null,
+      "instagram": "https://www.instagram.com/stadtbibliothek.innsbruck/",
       "eventSources": [],
       "categories": [
         "oktatas",
@@ -11072,24 +11355,34 @@
         "kultura"
       ],
       "history": {
-        "summary": "A Stadtbibliothek Innsbruck többnyelvű szolgáltatásában a magyar nem külön szépirodalmi gyűjteményként, hanem dokumentált nyelvtanulási médiaként jelenik meg.",
+        "summary": "A Stadtbibliothek Innsbruck modern, nyilvános városi könyvtár és kulturális találkozóhely. A könyvtár nyelvtanulási kínálatában a magyar a hivatalosan dokumentált 43 nyelv egyike. Az intézmény rendszeresen szervez felolvasásokat, beszélgetéseket, olvasóköröket, gyermekprogramokat és kreatív workshopokat, amelyeket saját online Veranstaltungskalenderben és Instagram-csatornáján kommunikál. A DORAPP-ban host-intézményként szerepel: nem magyar szervezet, hanem olyan osztrák közintézmény, ahol igazoltan van magyar nyelvű szolgáltatás.",
         "milestones": [
           {
             "year": "2026",
-            "title": "Magyar a 43 tanulható nyelv között",
-            "description": "A könyvtár saját tájékoztatója a magyar nyelvet a 43 nyelvhez rendelkezésre álló Sprachlernmedien között sorolja fel.",
+            "title": "Magyar a 43 nyelvtanulási nyelv között",
+            "description": "A könyvtár tájékoztatója a magyart a rendelkezésre álló Sprachlernmedien nyelvei között sorolja fel.",
             "sourceUrl": "https://stadtbibliothek.innsbruck.gv.at/de/newsletter/newsletter/11-0.html?lProductID=107568&sWeb=stadtbibliothek.innsbruck.gv.at"
+          },
+          {
+            "year": "2026",
+            "title": "Aktív eseménynaptár",
+            "description": "A hivatalos programnaptár folyamatosan közöl olvasási, kulturális, gyermek- és workshop programokat.",
+            "sourceUrl": "https://stadtbibliothek.innsbruck.gv.at/de/programm/veranstaltungskalender/5-0.html"
           }
         ]
       },
       "activities": [
-        "magyar nyelvtanulási médiák",
-        "nyilvános könyvtári szolgáltatás"
+        "magyar nyelvtanulási médiák hozzáférhetővé tétele",
+        "nyilvános könyvtári és digitális szolgáltatások",
+        "felolvasások és olvasókörök",
+        "gyermek- és ifjúsági programok",
+        "kreatív és nyelvi workshopok"
       ],
       "targetGroups": [
         "magyarul tanulók",
         "Innsbruck többnyelvű lakossága",
-        "magyar családok"
+        "magyar és többnyelvű családok",
+        "gyermekek, fiatalok és felnőtt olvasók"
       ],
       "languages": [
         "német",
@@ -11101,10 +11394,37 @@
           "label": "Stadtbibliothek Innsbruck – többnyelvű kínálat",
           "url": "https://stadtbibliothek.innsbruck.gv.at/de/newsletter/newsletter/11-0.html?lProductID=107568&sWeb=stadtbibliothek.innsbruck.gv.at",
           "type": "municipal"
+        },
+        {
+          "label": "Stadtbibliothek Innsbruck – hivatalos eseménynaptár",
+          "url": "https://stadtbibliothek.innsbruck.gv.at/de/programm/veranstaltungskalender/5-0.html",
+          "type": "municipal"
+        },
+        {
+          "label": "BVÖ – Stadtbibliothek Innsbruck, hivatalos Instagram-hivatkozással",
+          "url": "https://www.bvoe.at/bibliotheken/bibliotheksadressen/stadtbibliothek-innsbruck",
+          "type": "institutional"
         }
       ],
       "entityClass": "host-institution",
-      "classificationNote": "Nem magyar szervezet; Innsbruck városi könyvtára igazolt magyar nyelvtanulási médiával."
+      "classificationNote": "Nem magyar szervezet; Innsbruck városi könyvtára igazolt magyar nyelvtanulási médiával.",
+      "calendarSources": [
+        {
+          "label": "Stadtbibliothek Innsbruck – Veranstaltungskalender",
+          "url": "https://stadtbibliothek.innsbruck.gv.at/de/programm/veranstaltungskalender/5-0.html",
+          "kind": "official-calendar",
+          "scope": "host",
+          "ingestEvents": false
+        },
+        {
+          "label": "Stadtbibliothek Innsbruck – Instagram",
+          "url": "https://www.instagram.com/stadtbibliothek.innsbruck/",
+          "kind": "social-calendar",
+          "platform": "instagram",
+          "scope": "host",
+          "ingestEvents": false
+        }
+      ]
     },
     {
       "id": "ak-akademie-kaernten-hungarian",
@@ -11112,7 +11432,7 @@
       "state": "kaernten",
       "city": "Klagenfurt / online",
       "type": "felnőttképzési szolgáltató magyar online nyelvkurzussal",
-      "intro": "Az AK-Akademie Kärnten online nyelvi tréningjében a magyar az aktuálisan választható nyelvek egyike, A1 szintig. A képzés idő- és helyfüggetlen online formában érhető el.",
+      "intro": "Az AK-Akademie Kärnten digitális felnőttképzési kínálatában a magyar jelenleg A1 szintig választható online nyelvi tréningként érhető el. A kurzus idő- és helyfüggetlen, interaktív tanulóplatformon működik, önálló tempóban végezhető leckékkel, kiejtési, szókincs-, hallás- és olvasásértési gyakorlatokkal, valamint szintfelmérési lehetőséggel.",
       "website": "https://www.ak-akademie.at/kurs/online-sprachentraining",
       "facebook": null,
       "instagram": null,
@@ -11123,23 +11443,34 @@
         "oktatas"
       ],
       "history": {
-        "summary": "Az AK-Akademie Kärnten digitális nyelvi kínálata több európai és világnyelvet tartalmaz; a 2026-ban publikált aktuális listán a magyar A1 szintig elérhető.",
+        "summary": "Az AK-Akademie Kärnten az Arbeiterkammer Kärnten felnőttképzési platformja, amely több képzési területen kínál tanfolyamokat. Az online nyelvi tréningben a magyar 2026-ban A1 szintig szerepel a választható nyelvek között. A képzés szolgáltatója a Kärntner Berufsförderungsinstitut GmbH; a hozzáférés licencalapú, és a résztvevők idő- és helyfüggetlenül használhatják az interaktív tanulófelületet. A DORAPP-ban host-intézményként jelenik meg, mert ez nem magyar szervezet, hanem konkrét magyar nyelvi szolgáltatást kínáló osztrák képzési platform.",
         "milestones": [
           {
             "year": "2026",
             "title": "Magyar online nyelvi tréning A1 szintig",
-            "description": "Az aktuális kurzusoldal a magyar nyelvet A1 szintig választható online képzésként sorolja fel.",
+            "description": "Az aktuális kurzusoldal a magyar nyelvet A1 szintig elérhető online képzésként sorolja fel.",
+            "sourceUrl": "https://www.ak-akademie.at/kurs/online-sprachentraining"
+          },
+          {
+            "year": "2026",
+            "title": "Rugalmas, folyamatos belépésű képzés",
+            "description": "A kurzusoldal szerint a belépés bármikor lehetséges, a tananyag önálló tempóban dolgozható fel.",
             "sourceUrl": "https://www.ak-akademie.at/kurs/online-sprachentraining"
           }
         ]
       },
       "activities": [
-        "online magyar nyelvtanulás",
-        "felnőtt nyelvi képzés"
+        "online magyar nyelvtanulás A1 szintig",
+        "interaktív leckék és gyakorlati nyelvi feladatok",
+        "kiejtés- és szókincsfejlesztés",
+        "hallás- és olvasásértési gyakorlás",
+        "online szintfelmérés és önértékelés"
       ],
       "targetGroups": [
-        "magyarul tanuló felnőttek",
-        "karintiai és ausztriai online tanulók"
+        "magyarul tanuló kezdő felnőttek",
+        "nyelvtudásukat felfrissítő újrakezdők",
+        "karintiai és más ausztriai online tanulók",
+        "idő- és helyfüggetlen képzést keresők"
       ],
       "languages": [
         "német",
@@ -11154,7 +11485,16 @@
         }
       ],
       "entityClass": "host-institution",
-      "classificationNote": "Nem magyar szervezet; karintiai felnőttképzési szolgáltató aktuális magyar nyelvkurzussal."
+      "classificationNote": "Nem magyar szervezet; karintiai felnőttképzési szolgáltató aktuális magyar nyelvkurzussal.",
+      "calendarSources": [
+        {
+          "label": "AK-Akademie – magyar online nyelvi tréning és elérhető időpontok",
+          "url": "https://www.ak-akademie.at/kurs/online-sprachentraining",
+          "kind": "official-course-calendar",
+          "scope": "self",
+          "ingestEvents": true
+        }
+      ]
     }
   ],
   "umbrellaOrganizations": [
