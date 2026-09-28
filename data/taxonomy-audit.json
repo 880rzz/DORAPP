@@ -1,9 +1,9 @@
 {
-  "updated": "2026-09-28T18:45:27.624806+00:00",
+  "updated": "2026-09-28T18:47:07.846475+00:00",
   "summary": {
     "organizations": 158,
-    "organizationFlags": 2,
-    "organizationPagesChecked": 356,
+    "organizationFlags": 1,
+    "organizationPagesChecked": 353,
     "education": 106,
     "educationFlags": 0,
     "events": 29,
@@ -913,7 +913,7 @@
       "errors": [
         {
           "url": "https://bornemisza.at/",
-          "error": "<urlopen error [Errno 111] Connection refused>"
+          "error": "<urlopen error timed out>"
         },
         {
           "url": "https://www.kozpontiszovetseg.at/event-details/dr-janosi-zoltan-irodalomtortenesz-iro-kolto",
@@ -1130,23 +1130,20 @@
       "activityCategories": [],
       "signals": [
         "oktatas",
+        "szinhaz",
         "media",
-        "irodalom"
+        "irodalom",
+        "muveszet",
+        "csalad"
       ],
-      "pagesChecked": 2,
+      "pagesChecked": 3,
       "checkedUrls": [
         "https://culture.hu/hu/wien",
+        "https://culture.hu/hu/wien/esemenyek",
         "https://culture.hu/de/wien/jubilaum"
       ],
-      "errors": [
-        {
-          "url": "https://culture.hu/hu/wien/esemenyek",
-          "error": "The read operation timed out"
-        }
-      ],
-      "flags": [
-        "weak-source-signal:muveszet"
-      ]
+      "errors": [],
+      "flags": []
     },
     {
       "id": "collegium-pazmanianum",
@@ -1490,27 +1487,10 @@
         "kultura"
       ],
       "activityCategories": [],
-      "signals": [
-        "oktatas",
-        "neptanc",
-        "szinhaz",
-        "media",
-        "egyhaz",
-        "diak",
-        "irodalom",
-        "muveszet"
-      ],
-      "pagesChecked": 2,
-      "checkedUrls": [
-        "https://europaclub.at/",
-        "https://europaclub.at/rolunk/europa-club-tortenete/"
-      ],
-      "errors": [
-        {
-          "url": "https://europaclub.at/rendezvenyek/meghivok/",
-          "error": "The read operation timed out"
-        }
-      ],
+      "signals": [],
+      "pagesChecked": 0,
+      "checkedUrls": [],
+      "errors": [],
       "flags": []
     },
     {
@@ -1994,16 +1974,12 @@
         "muveszet",
         "csalad"
       ],
-      "pagesChecked": 1,
+      "pagesChecked": 2,
       "checkedUrls": [
+        "https://kalaka-club.at/",
         "https://www.korosiprogram.hu/partnereink/ausztriai-magyarok-gazdasagi-erdekkozossege-kalaka-klub"
       ],
-      "errors": [
-        {
-          "url": "https://kalaka-club.at/",
-          "error": "HTTP Error 500: Internal Server Error"
-        }
-      ],
+      "errors": [],
       "flags": []
     },
     {
@@ -3962,21 +3938,23 @@
         "neptanc"
       ],
       "signals": [
-        "oktatas",
         "nepzene",
         "media",
         "diak",
         "muveszet",
-        "sport",
-        "csalad"
+        "sport"
       ],
-      "pagesChecked": 3,
+      "pagesChecked": 2,
       "checkedUrls": [
-        "https://ungarball.at/",
         "https://volksgruppen.orf.at/v2/magyarok/stories/2694653/",
         "https://www.flickr.com/photos/vipach/55099423490"
       ],
-      "errors": [],
+      "errors": [
+        {
+          "url": "https://ungarball.at/",
+          "error": "HTTP Error 403: Forbidden"
+        }
+      ],
       "flags": []
     },
     {
@@ -3988,16 +3966,18 @@
         "kultura"
       ],
       "activityCategories": [],
-      "signals": [
-        "oktatas",
-        "csalad"
-      ],
-      "pagesChecked": 2,
-      "checkedUrls": [
-        "https://ungarball.at/",
-        "https://ungarball.at/impressum"
-      ],
+      "signals": [],
+      "pagesChecked": 0,
+      "checkedUrls": [],
       "errors": [
+        {
+          "url": "https://ungarball.at/",
+          "error": "HTTP Error 403: Forbidden"
+        },
+        {
+          "url": "https://ungarball.at/impressum",
+          "error": "HTTP Error 403: Forbidden"
+        },
         {
           "url": "https://www.kozpontiszovetseg.at/tagszervezetek",
           "error": "HTTP Error 429: Too Many Requests"
