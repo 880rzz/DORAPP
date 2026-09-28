@@ -1,12 +1,12 @@
 {
-  "updated": "2026-09-28T13:53:36.714024+00:00",
+  "updated": "2026-09-28T15:57:01.684004+00:00",
   "summary": {
-    "organizations": 152,
+    "organizations": 153,
     "organizationFlags": 0,
-    "organizationPagesChecked": 328,
+    "organizationPagesChecked": 330,
     "education": 106,
     "educationFlags": 0,
-    "events": 28,
+    "events": 29,
     "eventFlags": 0
   },
   "organizations": [
@@ -38,6 +38,31 @@
       "checkedUrls": [
         "https://kerekasztal.at/",
         "https://volksgruppen.orf.at/magyarok/stories/3368109/"
+      ],
+      "errors": [],
+      "flags": []
+    },
+    {
+      "id": "ak-buecherei-eisenstadt-hungarian",
+      "name": "AK-Bücherei Eisenstadt – magyar gyermekkönyvek",
+      "entityClass": "host-institution",
+      "categories": [
+        "irodalom",
+        "kultura",
+        "oktatas"
+      ],
+      "activityCategories": [],
+      "signals": [
+        "oktatas",
+        "media",
+        "irodalom",
+        "sport",
+        "csalad"
+      ],
+      "pagesChecked": 2,
+      "checkedUrls": [
+        "https://bgld.arbeiterkammer.at/service/buecherei/akbuechereieisenstadt/index.html",
+        "https://bgld.arbeiterkammer.at/beratung/Bildung/arbeitswelt/Buecherei-Angebote.html"
       ],
       "errors": [],
       "flags": []
@@ -377,7 +402,15 @@
       ],
       "activityCategories": [],
       "signals": [
-        "enekkar"
+        "oktatas",
+        "neptanc",
+        "nepzene",
+        "enekkar",
+        "media",
+        "diak",
+        "irodalom",
+        "muveszet",
+        "csalad"
       ],
       "pagesChecked": 2,
       "checkedUrls": [
@@ -976,13 +1009,17 @@
         "sport",
         "csalad"
       ],
-      "pagesChecked": 3,
+      "pagesChecked": 2,
       "checkedUrls": [
-        "https://www.burgenlandicserkesz.at/",
         "https://volksgruppen.orf.at/magyarok/stories/3333230/",
         "https://podiverzum.hu/podcast/orf-magyarok-podcast/idoutazas-es-megemlekezes-az-alsoori-cserkeszdelutanon-deaf57f3"
       ],
-      "errors": [],
+      "errors": [
+        {
+          "url": "https://www.burgenlandicserkesz.at/",
+          "error": "The read operation timed out"
+        }
+      ],
       "flags": []
     },
     {
@@ -1239,7 +1276,10 @@
         "neptanc",
         "nepzene",
         "enekkar",
+        "szinhaz",
         "media",
+        "diak",
+        "irodalom",
         "sport",
         "csalad"
       ],
@@ -1289,7 +1329,6 @@
         "nepzene",
         "media",
         "egyhaz",
-        "irodalom",
         "muveszet",
         "sport",
         "csalad"
@@ -1436,6 +1475,7 @@
         "egyhaz",
         "irodalom",
         "muveszet",
+        "sport",
         "csalad"
       ],
       "pagesChecked": 3,
@@ -1460,6 +1500,7 @@
         "oktatas",
         "szinhaz",
         "media",
+        "egyhaz",
         "irodalom",
         "muveszet",
         "csalad"
@@ -1874,7 +1915,7 @@
       "errors": [
         {
           "url": "https://www.askoe.at/de/verband-vereine/askoe-vereine/clubshow-10438",
-          "error": "HTTP Error 406: Not Acceptable"
+          "error": "HTTP Error 404: Not Found"
         }
       ],
       "flags": []
@@ -2205,7 +2246,11 @@
       ],
       "activityCategories": [],
       "signals": [
+        "oktatas",
+        "nepzene",
         "szinhaz",
+        "media",
+        "egyhaz",
         "irodalom",
         "muveszet",
         "csalad"
@@ -2382,7 +2427,7 @@
       "errors": [
         {
           "url": "https://www.magyarszo.at/",
-          "error": "<urlopen error timed out>"
+          "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'www.magyarszo.at'. (_ssl.c:1010)>"
         }
       ],
       "flags": []
@@ -2474,7 +2519,13 @@
       ],
       "activityCategories": [],
       "signals": [
-        "diak"
+        "neptanc",
+        "media",
+        "diak",
+        "irodalom",
+        "muveszet",
+        "sport",
+        "csalad"
       ],
       "pagesChecked": 3,
       "checkedUrls": [
@@ -3247,7 +3298,10 @@
         "neptanc",
         "nepzene",
         "enekkar",
+        "szinhaz",
         "media",
+        "diak",
+        "muveszet",
         "csalad"
       ],
       "pagesChecked": 3,
@@ -3685,20 +3739,18 @@
       "activityCategories": [],
       "signals": [
         "szinhaz",
+        "media",
+        "irodalom",
         "muveszet",
         "csalad"
       ],
-      "pagesChecked": 2,
+      "pagesChecked": 3,
       "checkedUrls": [
         "https://svung.at/",
-        "https://shop.svung.at/"
+        "https://shop.svung.at/",
+        "https://www.svung.at/"
       ],
-      "errors": [
-        {
-          "url": "https://www.svung.at/",
-          "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1010)>"
-        }
-      ],
+      "errors": [],
       "flags": []
     },
     {
@@ -3792,7 +3844,10 @@
         "neptanc",
         "nepzene",
         "enekkar",
+        "szinhaz",
         "media",
+        "diak",
+        "muveszet",
         "csalad"
       ],
       "pagesChecked": 3,
