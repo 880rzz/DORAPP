@@ -4340,9 +4340,7 @@
       "website": "https://volksgruppen.orf.at/magyarok/",
       "facebook": null,
       "instagram": null,
-      "eventSources": [
-        "https://volksgruppen.orf.at/magyarok/"
-      ],
+      "eventSources": [],
       "evidenceSources": [
         {
           "label": "ORF Magyarok – A magyar népcsoport és a műsorkínálat",
@@ -4392,7 +4390,15 @@
       "email": "ungarn@orf.at",
       "profileVerifiedAt": "2026-09-25",
       "entityClass": "media",
-      "calendarSources": []
+      "calendarSources": [
+        {
+          "label": "Szerkesztőségi/publication feed – discovery/evidence, nem organizer event source",
+          "url": "https://volksgruppen.orf.at/magyarok/",
+          "kind": "editorial-feed",
+          "scope": "self",
+          "ingestEvents": false
+        }
+      ]
     },
     {
       "id": "alsoori-kultur-tanc",
@@ -9144,9 +9150,7 @@
       "website": "https://rolunk.at/",
       "facebook": null,
       "instagram": null,
-      "eventSources": [
-        "https://rolunk.at/"
-      ],
+      "eventSources": [],
       "affiliations": [
         {
           "organizationId": "bukv",
@@ -9203,7 +9207,15 @@
       "email": "office@rolunk.at",
       "profileVerifiedAt": "2026-09-25",
       "entityClass": "media",
-      "calendarSources": []
+      "calendarSources": [
+        {
+          "label": "Szerkesztőségi/publication feed – discovery/evidence, nem organizer event source",
+          "url": "https://rolunk.at/",
+          "kind": "editorial-feed",
+          "scope": "self",
+          "ingestEvents": false
+        }
+      ]
     },
     {
       "id": "becsi-naplo",
@@ -9215,10 +9227,7 @@
       "website": "https://www.becsinaplo.at/",
       "facebook": null,
       "instagram": null,
-      "eventSources": [
-        "https://www.becsinaplo.at/",
-        "https://www.becsinaplo.at/blog"
-      ],
+      "eventSources": [],
       "evidenceSources": [
         {
           "label": "Bécsi Napló – aktuális oldal és impresszum",
@@ -9282,7 +9291,22 @@
       "phone": "+43 1 532 6049",
       "profileVerifiedAt": "2026-09-25",
       "entityClass": "media",
-      "calendarSources": [],
+      "calendarSources": [
+        {
+          "label": "Szerkesztőségi/publication feed – discovery/evidence, nem organizer event source",
+          "url": "https://www.becsinaplo.at/",
+          "kind": "editorial-feed",
+          "scope": "self",
+          "ingestEvents": false
+        },
+        {
+          "label": "Szerkesztőségi/publication feed – discovery/evidence, nem organizer event source",
+          "url": "https://www.becsinaplo.at/blog",
+          "kind": "editorial-feed",
+          "scope": "self",
+          "ingestEvents": false
+        }
+      ],
       "parentOrganizationId": "kozponti-szovetseg",
       "classificationNote": "A Bécsi Napló külön media entitás, amelynek a Központi Szövetség a tulajdonosa és kiadója. Nem önálló egyesület; saját szerkesztőségi web- és e-mail-csatornával működő kiadvány."
     },
@@ -9300,9 +9324,7 @@
       "website": "https://www.becsiszelet.at/",
       "facebook": null,
       "instagram": null,
-      "eventSources": [
-        "https://www.becsiszelet.at/"
-      ],
+      "eventSources": [],
       "affiliations": [
         {
           "organizationId": "kozponti-szovetseg",
@@ -9355,7 +9377,15 @@
         ]
       },
       "entityClass": "media",
-      "calendarSources": [],
+      "calendarSources": [
+        {
+          "label": "Szerkesztőségi/publication feed – discovery/evidence, nem organizer event source",
+          "url": "https://www.becsiszelet.at/",
+          "kind": "editorial-feed",
+          "scope": "self",
+          "ingestEvents": false
+        }
+      ],
       "parentOrganizationId": "kozponti-szovetseg",
       "classificationNote": "A Bécsi Szelet külön media entitás, amelyet a Központi Szövetség indított el Bécs-központú közösségi és programtartalmakra. Szervezeti besorolása a Bécsi Naplóhoz hasonlóan Központi Szövetséghez tartozó médiaprojekt; nem BMI-program. A BMI-vel közös office@magyariskola.at cím működési kontakt, nem tulajdonosi kapcsolat. Vízer Helga főszerkesztői szerepe a következő nyilvános oldalfrissítéssel kerül ki; addig nem tekintendő külső forrásból publikusan verifikált adatnak.",
       "people": [
@@ -10639,9 +10669,7 @@
       "website": "https://www.radiohu.hu/",
       "facebook": "https://www.facebook.com/www.radiohu.hu",
       "instagram": "https://www.instagram.com/radiohu.hu/",
-      "eventSources": [
-        "https://www.radiohu.hu/"
-      ],
+      "eventSources": [],
       "evidenceSources": [
         {
           "label": "RádióHU – aktuális főoldal",
@@ -10697,6 +10725,13 @@
           "url": "https://www.instagram.com/radiohu.hu/",
           "kind": "social-calendar",
           "platform": "instagram",
+          "scope": "self",
+          "ingestEvents": false
+        },
+        {
+          "label": "Szerkesztőségi/publication feed – discovery/evidence, nem organizer event source",
+          "url": "https://www.radiohu.hu/",
+          "kind": "editorial-feed",
           "scope": "self",
           "ingestEvents": false
         }
