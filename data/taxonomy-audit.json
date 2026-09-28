@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-28T18:39:05.430005+00:00",
+  "updated": "2026-09-28T18:40:14.092294+00:00",
   "summary": {
     "organizations": 158,
     "organizationFlags": 1,
@@ -910,7 +910,7 @@
         },
         {
           "url": "https://www.kozpontiszovetseg.at/bornemisza-peter-tarsasag",
-          "error": "HTTP Error 404: Not Found"
+          "error": "HTTP Error 429: Too Many Requests"
         }
       ],
       "flags": []
@@ -1928,17 +1928,13 @@
         "muveszet",
         "csalad"
       ],
-      "pagesChecked": 2,
+      "pagesChecked": 3,
       "checkedUrls": [
         "https://www.facebook.com/IMIKE2019UJKV/",
+        "https://www.instagram.com/imike_ujkv/",
         "https://rolunk.at/nepcsoportunk/sziveben-magyar/"
       ],
-      "errors": [
-        {
-          "url": "https://www.instagram.com/imike_ujkv/",
-          "error": "HTTP Error 429: Too Many Requests"
-        }
-      ],
+      "errors": [],
       "flags": []
     },
     {
@@ -2246,13 +2242,17 @@
         "muveszet",
         "csalad"
       ],
-      "pagesChecked": 3,
+      "pagesChecked": 2,
       "checkedUrls": [
         "https://www.kozpontiszovetseg.at/",
-        "https://www.kozpontiszovetseg.at/r%C3%B3lunk",
-        "https://www.kozpontiszovetseg.at/kapcsolat"
+        "https://www.kozpontiszovetseg.at/r%C3%B3lunk"
       ],
-      "errors": [],
+      "errors": [
+        {
+          "url": "https://www.kozpontiszovetseg.at/kapcsolat",
+          "error": "HTTP Error 429: Too Many Requests"
+        }
+      ],
       "flags": []
     },
     {
