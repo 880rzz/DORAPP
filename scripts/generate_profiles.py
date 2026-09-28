@@ -95,7 +95,20 @@ for o in db["organizations"]:
     calendar_html="<ul class=\"source-list\">"+"".join(f'<li><a href="{esc(c.get("url"))}" target="_blank" rel="noopener external">{esc(c.get("label") or c.get("url"))}</a>{(" · "+esc(c.get("platform"))) if c.get("platform") else ""}{(" · automatikus import" if c.get("ingestEvents") else " · ellenőrzött hivatkozás")}</li>' for c in calendars if c.get("url"))+"</ul>" if calendars else "<p>Nincs külön igazolt eseménynaptár vagy social programforrás rögzítve.</p>"
     page_url=f"{BASE_URL}/szervezetek/{o['id']}.html"
     publisher={"@type":"Organization","@id":BASE_URL+"/#publisher","name":"Ausztriai Magyar Egyesületek és Szervezetek Központi Szövetsége","url":"https://www.kozpontiszovetseg.at/","identifier":{"@type":"PropertyValue","propertyID":"ZVR","value":"079797621"}}
-    schema_type="Library" if o.get("entityClass")=="host-institution" and any(k in (o.get("type","")+" "+o.get("name","")).casefold() for k in ("könyvtár","bibliothek","library")) else "Organization"
+    entity_class=o.get("entityClass")
+    haystack=(o.get("type","")+" "+o.get("name","")).casefold()
+    if entity_class=="host-institution" and any(k in haystack for k in ("könyvtár","bibliothek","library")):
+        schema_type="Library"
+    elif entity_class=="activity":
+        schema_type="EventSeries"
+    elif entity_class=="media":
+        schema_type="CreativeWork"
+    elif entity_class=="project":
+        schema_type="Project"
+    elif entity_class=="group":
+        schema_type="Organization"
+    else:
+        schema_type="Organization"
     org_schema={"@type":schema_type,"@id":page_url+"#organization","name":o["name"],"description":o["intro"],
        "url":page_url,"sameAs":[x for x in [o.get("website"),o.get("facebook"),o.get("instagram")] if x],
        **({"dateModified":o.get("profileVerifiedAt")} if o.get("profileVerifiedAt") else {}),
