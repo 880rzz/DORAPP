@@ -1004,7 +1004,7 @@
       "state": "wien",
       "city": "Wien",
       "type": "karitatív és kulturális magyar egyesület",
-      "intro": "A Szent István Egylet / Sankt Stephan Verein 1918-ban alapított bécsi magyar kulturális és jótékonysági egyesület. Történeti közösségi szerepe mellett ma is aktív: ösztöndíjprogramot működtet, kulturális és társasági eseményeket szervez, és az egyesület rendezi a hagyományos Szent István Bált / Ungarballt a Palais Auerspergben.",
+      "intro": "Az 1918-ban Bécsben alapított Szent István Egylet / St. Stephan Verein történelmi magyar keresztény-karitatív és kulturális egyesület. Működésének meghatározó eleme az évente megrendezett jótékonysági magyar bál, az Ungarball / Szent István Bál; bevételeiből és adományokból ösztöndíjakat és más karitatív kezdeményezéseket támogat.",
       "website": "https://ungarball.at/",
       "facebook": null,
       "instagram": null,
@@ -1013,29 +1013,19 @@
       ],
       "evidenceSources": [
         {
-          "label": "Szent István Egylet / Ungarball – hivatalos oldal",
+          "label": "St. Stephan Verein / Ungarball – hivatalos oldal",
           "url": "https://ungarball.at/",
           "type": "official"
         },
         {
-          "label": "Szent István Egylet – Impresszum és ZVR-adatok",
-          "url": "https://ungarball.at/impressum",
-          "type": "official"
-        },
-        {
-          "label": "Központi Szövetség – tagszervezetek",
+          "label": "Központi Szövetség – Szent István Egylet tagszervezeti adat",
           "url": "https://www.kozpontiszovetseg.at/tagszervezetek",
           "type": "institutional"
         },
         {
-          "label": "Deutsche Nationalbibliothek – centenáriumi kötet",
+          "label": "Deutsche Nationalbibliothek – Szent István Egylet 100",
           "url": "https://d-nb.info/1189235617/34",
           "type": "reference"
-        },
-        {
-          "label": "Sankt Stephan Ball 2026 – hivatalos fotóalbum leírás",
-          "url": "https://www.flickr.com/photos/vipach/55099423490",
-          "type": "first-party"
         }
       ],
       "memberships": [
@@ -1050,46 +1040,58 @@
         "kozosseg"
       ],
       "history": {
-        "summary": "A Szent István Egylet / Sankt Stephan Verein alapítási dátuma a hivatalos impresszum szerint 1918. október 21. A bécsi magyar közösségi élet egyik régi szervezete, amely keresztény, karitatív, kulturális és társasági tevékenységet folytat. A szervezet történetéről centenáriumi kötet is megjelent. A mai működés központi eleme az ösztöndíjprogram, valamint a Szent István Bál / Ungarball, amelynek bevételét a szervezet jótékonysági és ösztöndíj-célokra fordítja. A hivatalos oldal 2025-re és 2026-ra is több saját programot dokumentál: jótékonysági bál, múzeumi vezetés, nyári koktél, közgyűlés, közösségi est és kulturális programok.",
+        "summary": "A Szent István Egylet 1918-ban alakult Bécsben Irma Esterházy, született Andrássy vezetésével. Kezdetben az Ausztriában élő rászoruló magyarok támogatása volt központi feladata, amelyet az éves jótékonysági bálak bevételeiből és adományokból finanszírozott. A második világháború miatt a bál 1940-től szünetelt, majd 1962-ben a Palais Schwarzenbergben Ungarball néven indult újra. 1990-től ismét Szent István Bálként működött a bécsi Magyar Nagykövetségen, 2025-től pedig a Palais Auersperg ad otthont neki. 1993 óta az egylet ösztöndíjalapja elsősorban a magyar kisebbségi régiók tehetséges, rászoruló középiskolásait segíti; 2025-ben 212 diáknak ítéltek oda ösztöndíjat.",
         "milestones": [
           {
             "year": "1918",
-            "title": "A Szent István Egylet megalakulása",
-            "description": "A hivatalos impresszum szerint a Sankt Stephan Verein 1918. október 21-én jött létre Bécsben.",
-            "sourceUrl": "https://ungarball.at/impressum"
+            "title": "A Szent István Egylet megalapítása",
+            "description": "Az egylet Bécsben, Irma Esterházy vezetésével jön létre karitatív magyar közösségi céllal.",
+            "sourceUrl": "https://ungarball.at/"
+          },
+          {
+            "year": "1962",
+            "title": "Az Ungarball újraindul",
+            "description": "A háborús szünet után a Palais Schwarzenbergben ismét megrendezik az egylet jótékonysági magyar bálját.",
+            "sourceUrl": "https://ungarball.at/"
+          },
+          {
+            "year": "1993",
+            "title": "Ösztöndíjprogram kisebbségi magyar diákoknak",
+            "description": "Az egylet ösztöndíjalapja ettől az időszaktól a magyar kisebbségi régiók tehetséges és rászoruló diákjait támogatja.",
+            "sourceUrl": "https://ungarball.at/"
           },
           {
             "year": "2018",
-            "title": "Centenárium",
-            "description": "A szervezet százéves történetéről külön történeti kötet jelent meg.",
+            "title": "Centenáriumi történeti kötet",
+            "description": "Megjelenik Ferenczy Klára kétnyelvű kötete az egylet százéves történetéről.",
             "sourceUrl": "https://d-nb.info/1189235617/34"
           },
           {
             "year": "2025",
-            "title": "Aktív kulturális és jótékonysági programév",
-            "description": "A hivatalos oldal bál, múzeumi vezetés, nyári koktél, közgyűlés, közösségi est és Josephinum-program megrendezését dokumentálja.",
+            "title": "A bál visszatér a Palais Auerspergbe",
+            "description": "Biztonsági okokból a Magyar Nagykövetség helyett ismét a Palais Auersperg lesz a jótékonysági bál helyszíne.",
             "sourceUrl": "https://ungarball.at/"
           },
           {
             "year": "2026",
-            "title": "Szent István Bál / Ungarball",
-            "description": "2026. február 14-én a Palais Auerspergben rendezték meg a szervezet hagyományos jótékonysági bálját.",
+            "title": "Szent István Bál / Wohltätigkeitsball",
+            "description": "A hagyományos jótékonysági bál február 14-én a Palais Auerspergben kerül megrendezésre.",
             "sourceUrl": "https://ungarball.at/"
           }
         ]
       },
       "activities": [
-        "Szent István Bál / Ungarball jótékonysági bál szervezése",
-        "ösztöndíjprogram magyar iskolások támogatására",
-        "kulturális látogatások, tárlatvezetések és közösségi estek",
-        "magyar közösségi és társasági programok Bécsben",
-        "karitatív támogatások és adománygyűjtés"
+        "éves Szent István Bál / Ungarball jótékonysági bál",
+        "ösztöndíjprogram magyar kisebbségi régiók rászoruló diákjainak",
+        "karitatív támogatások és adománygyűjtés",
+        "tagi kulturális és társasági programok",
+        "magyar közösségi hagyományok ápolása Bécsben"
       ],
       "targetGroups": [
-        "Bécsben és Ausztriában élő magyarok",
-        "magyar kulturális és társasági programok közönsége",
-        "jótékonysági és ösztöndíjprogramok támogatói",
-        "magyar diákok és családok a támogatott régiókban"
+        "Bécs és Ausztria magyar közössége",
+        "magyar kulturális és jótékonysági programok támogatói",
+        "magyar kisebbségi régiók tehetséges, rászoruló diákjai",
+        "bécsi magyar bálhagyomány iránt érdeklődők"
       ],
       "languages": [
         "magyar",
@@ -1099,11 +1101,11 @@
       "profileVerifiedAt": "2026-09-28",
       "entityClass": "organization",
       "phone": "+43 664 930 74 51",
-      "address": "Döblergasse 2, 1070 Wien",
-      "contactUrl": "https://ungarball.at/impressum",
+      "address": "Döblergasse 2, 1070 Wien, Österreich",
+      "contactUrl": "https://ungarball.at/",
       "calendarSources": [
         {
-          "label": "Szent István Egylet / Ungarball – hivatalos programok",
+          "label": "St. Stephan Verein – hivatalos program és Ungarball",
           "url": "https://ungarball.at/",
           "kind": "official-calendar",
           "scope": "self",
