@@ -1,9 +1,11 @@
 {
-  "updated": "2026-09-28T15:59:58.030779+00:00",
+  "updated": "2026-09-28T16:10:15.268489+00:00",
   "articles": {
+    "svung": [],
+    "oeius": [],
     "napraforgocskak": [],
     "napraforgok": [],
-    "oeius": [],
+    "kozponti-szovetseg": [],
     "kalaka-club": [
       {
         "title": "Bécsi Napló archívum – Kaláka-Club történet",
@@ -28,8 +30,6 @@
         "source": "ORF Volksgruppen"
       }
     ],
-    "lean-in-femspace": [],
-    "gimi-svung": [],
     "egy-sima-egy-forditott": [
       {
         "title": "ORF Magyarok – Egy sima, egy fordított",
@@ -37,7 +37,7 @@
         "source": "ORF Volksgruppen"
       }
     ],
-    "svung": [],
+    "gimi-svung": [],
     "duna-filharmonia": [
       {
         "title": "ORF Magyarok – A Duna Filharmónia Németóváron",
@@ -62,8 +62,8 @@
         "source": "Bécsi Napló"
       }
     ],
-    "kozponti-szovetseg": [],
     "cserkesz-72": [],
+    "lean-in-femspace": [],
     "becsi-magyar-iskola": [],
     "bmi-aspern-magyaroktatas": [],
     "bmi-seestadt-magyaroktatas": [],
@@ -111,33 +111,6 @@
     "evangelikus-gyulekezet": [],
     "reformatus-szolgalat": [],
     "katolikus-wien": [],
-    "mde-vus": [],
-    "szent-istvan-egylet": [],
-    "amaped-klosterneuburg": [],
-    "kultpult": [
-      {
-        "title": "Anyák napi jazzjátszótér Bécsben- Dés Andrással, Fenyvesi Mártonnal és Lamm Dáviddal- Kultpult",
-        "url": "https://rolunk.at/esemenyek/anyak-napi-jazzjatszoter-becsben-des-andrassal-fenyvesi-martonnal-es-lamm-daviddal-kultpult/",
-        "source": "Rólunk.at"
-      },
-      {
-        "title": "Gryllusok #itthonotthona- Kultpult",
-        "url": "https://rolunk.at/esemenyek/gryllusok-itthonotthona-kultpult/",
-        "source": "Rólunk.at"
-      },
-      {
-        "title": "Mély levegő – elindult a KultPult 2025/26-os évada",
-        "url": "https://rolunk.at/kultura/mely-levego-elindult-a-kultpult-2025-26-os-evada/",
-        "source": "Rólunk.at"
-      },
-      {
-        "title": "Lassan- Márfi Márk és Für Anikó- KultPult-#itthonotthon",
-        "url": "https://rolunk.at/esemenyek/lassan-marfi-mark-es-fur-aniko-kultpult-itthonotthon/",
-        "source": "Rólunk.at"
-      }
-    ],
-    "amaped-st-poelten": [],
-    "bukv": [],
     "kuwu": [
       {
         "title": "Rólunk.at – KUWU, a bécsújhelyi magyar közösség",
@@ -160,8 +133,11 @@
         "source": "Rólunk.at"
       }
     ],
-    "ori-banda": [],
-    "ori-banda-nepdalkor": [],
+    "mde-vus": [],
+    "amaped-klosterneuburg": [],
+    "szent-istvan-egylet": [],
+    "amaped-st-poelten": [],
+    "bukv": [],
     "becsi-magyar-iskolaegyesulet": [
       {
         "title": "ORF Magyarok – Évnyitó és szülői értekezlet",
@@ -186,6 +162,30 @@
       {
         "title": "„A technika a kezükben van, mi megtanítjuk, hogyan használják jól”– médiatábor a Bécsi Magyar Iskolaegyesületnél",
         "url": "https://rolunk.at/fiatalok/a-technika-a-kezukben-van-mi-megtanitjuk-hogyan-hasznaljak-jol-mediatabor-a-becsi-magyar-iskolaegyesuletnel/",
+        "source": "Rólunk.at"
+      }
+    ],
+    "ori-banda": [],
+    "ori-banda-nepdalkor": [],
+    "kultpult": [
+      {
+        "title": "Anyák napi jazzjátszótér Bécsben- Dés Andrással, Fenyvesi Mártonnal és Lamm Dáviddal- Kultpult",
+        "url": "https://rolunk.at/esemenyek/anyak-napi-jazzjatszoter-becsben-des-andrassal-fenyvesi-martonnal-es-lamm-daviddal-kultpult/",
+        "source": "Rólunk.at"
+      },
+      {
+        "title": "Gryllusok #itthonotthona- Kultpult",
+        "url": "https://rolunk.at/esemenyek/gryllusok-itthonotthona-kultpult/",
+        "source": "Rólunk.at"
+      },
+      {
+        "title": "Mély levegő – elindult a KultPult 2025/26-os évada",
+        "url": "https://rolunk.at/kultura/mely-levego-elindult-a-kultpult-2025-26-os-evada/",
+        "source": "Rólunk.at"
+      },
+      {
+        "title": "Lassan- Márfi Márk és Für Anikó- KultPult-#itthonotthon",
+        "url": "https://rolunk.at/esemenyek/lassan-marfi-mark-es-fur-aniko-kultpult-itthonotthon/",
         "source": "Rólunk.at"
       }
     ],
@@ -361,9 +361,6 @@
     ],
     "katolikus-graz": [],
     "salzung": [],
-    "linzi-magyar-gyermekkonyvtar": [],
-    "salzung-brumi-ovi": [],
-    "salzung-pitypang-suli": [],
     "amaped-baden": [
       {
         "title": "Megújult Benedek Elek-tankönyvet mutatott be az AMAPED családi napján",
@@ -384,6 +381,15 @@
         "title": "Magyar mint származási nyelv oktatása az AMAPED-nél",
         "url": "https://rolunk.at/fiatalok/magyar-mint-szarmazasi-nyelv-oktatasa-az-amaped-nel/",
         "source": "Rólunk.at"
+      }
+    ],
+    "salzung-brumi-ovi": [],
+    "salzung-pitypang-suli": [],
+    "salzung-minikonyvtar": [
+      {
+        "title": "ORF Magyarok – Élettel teli a salzburgi minikönyvtár (2026)",
+        "url": "https://volksgruppen.orf.at/magyarok/stories/3356535/",
+        "source": "ORF Volksgruppen"
       }
     ],
     "magyarhaz-innsbruck": [],
@@ -409,30 +415,15 @@
         "source": "Rólunk.at"
       }
     ],
-    "vhs-burgenland": [
+    "amaped-schwechat": [
       {
-        "title": "ORF Magyarok – Őszi programok a Burgenlandi Magyarok Népfőiskoláján",
-        "url": "https://volksgruppen.orf.at/magyarok/stories/3372036/",
-        "source": "ORF Volksgruppen"
-      },
-      {
-        "title": "Több jubileumot is ünnepel idén a Burgenlandi Magyarok Népfőiskolája",
-        "url": "https://rolunk.at/aktualis/tobb-jubileumot-is-unnepel-iden-a-burgenlandi-magyarok-nepfoiskolaja/",
+        "title": "Gazdag ősz, izgalmas tél az AMAPED-ben",
+        "url": "https://rolunk.at/aktualis/gazdag-osz-izgalmas-tel-az-amaped-ben/",
         "source": "Rólunk.at"
       },
       {
-        "title": "35 évet ünnepelt a Burgenlandi Magyarok Népfőiskolája",
-        "url": "https://rolunk.at/nepcsoportunk/35-evet-unnepelt-a-burgenlandi-magyarok-nepfoiskolaja/",
-        "source": "Rólunk.at"
-      },
-      {
-        "title": "Szemeszterkezdés, nyári tábori jelentkezés a jubiláló Burgenlandi Magyarok Népfőiskoláján",
-        "url": "https://rolunk.at/aktualis/szemeszterkezdes-nyari-tabori-jelentkezes-a-jubilalo-burgenlandi-magyarok-nepfoiskolajan/",
-        "source": "Rólunk.at"
-      },
-      {
-        "title": "A Burgenlandi Magyarok Népfőiskolája",
-        "url": "https://rolunk.at/nepcsoportunk/a-burgenlandi-magyarok-nepfoiskolaja/",
+        "title": "Indul a tanév az AMAPED-ben",
+        "url": "https://rolunk.at/nepcsoportunk/indul-a-tanev-az-amaped-ben/",
         "source": "Rólunk.at"
       }
     ],
@@ -537,15 +528,25 @@
         "source": "ORF Volksgruppen"
       }
     ],
-    "amaped-schwechat": [
+    "umiz": [
       {
-        "title": "Gazdag ősz, izgalmas tél az AMAPED-ben",
-        "url": "https://rolunk.at/aktualis/gazdag-osz-izgalmas-tel-az-amaped-ben/",
+        "title": "Az UMIZ4KIDS a 25. Savaria Karneválon",
+        "url": "https://rolunk.at/artikel-mit-ubersetzung/az-umiz4kids-a-25-szombathelyi-tortenelmi-karnevalon/",
         "source": "Rólunk.at"
       },
       {
-        "title": "Indul a tanév az AMAPED-ben",
-        "url": "https://rolunk.at/nepcsoportunk/indul-a-tanev-az-amaped-ben/",
+        "title": "Kosárfonás az alsóőri UMIZ4KIDS-műhelyben",
+        "url": "https://rolunk.at/fiatalok/kosarfonas-az-alsoori-umiz4kids-muhelyben/",
+        "source": "Rólunk.at"
+      },
+      {
+        "title": "Ausztria olvas: négy új UMIZ 4 KIDS füzet jelent meg",
+        "url": "https://rolunk.at/aktualis/ausztria-olvas-negy-uj-umiz-4-kids-fuzet-jelent-meg/",
+        "source": "Rólunk.at"
+      },
+      {
+        "title": "Umiz4kids.at: új weboldal a többnyelvűségért",
+        "url": "https://rolunk.at/aktualis/umiz4kids-at-uj-weboldal-a-tobbnyelvusegert/",
         "source": "Rólunk.at"
       }
     ],
@@ -602,25 +603,30 @@
       }
     ],
     "becsi-magyar-munkasegylet": [],
-    "umiz": [
+    "vhs-burgenland": [
       {
-        "title": "Az UMIZ4KIDS a 25. Savaria Karneválon",
-        "url": "https://rolunk.at/artikel-mit-ubersetzung/az-umiz4kids-a-25-szombathelyi-tortenelmi-karnevalon/",
+        "title": "ORF Magyarok – Őszi programok a Burgenlandi Magyarok Népfőiskoláján",
+        "url": "https://volksgruppen.orf.at/magyarok/stories/3372036/",
+        "source": "ORF Volksgruppen"
+      },
+      {
+        "title": "Több jubileumot is ünnepel idén a Burgenlandi Magyarok Népfőiskolája",
+        "url": "https://rolunk.at/aktualis/tobb-jubileumot-is-unnepel-iden-a-burgenlandi-magyarok-nepfoiskolaja/",
         "source": "Rólunk.at"
       },
       {
-        "title": "Kosárfonás az alsóőri UMIZ4KIDS-műhelyben",
-        "url": "https://rolunk.at/fiatalok/kosarfonas-az-alsoori-umiz4kids-muhelyben/",
+        "title": "35 évet ünnepelt a Burgenlandi Magyarok Népfőiskolája",
+        "url": "https://rolunk.at/nepcsoportunk/35-evet-unnepelt-a-burgenlandi-magyarok-nepfoiskolaja/",
         "source": "Rólunk.at"
       },
       {
-        "title": "Ausztria olvas: négy új UMIZ 4 KIDS füzet jelent meg",
-        "url": "https://rolunk.at/aktualis/ausztria-olvas-negy-uj-umiz-4-kids-fuzet-jelent-meg/",
+        "title": "Szemeszterkezdés, nyári tábori jelentkezés a jubiláló Burgenlandi Magyarok Népfőiskoláján",
+        "url": "https://rolunk.at/aktualis/szemeszterkezdes-nyari-tabori-jelentkezes-a-jubilalo-burgenlandi-magyarok-nepfoiskolajan/",
         "source": "Rólunk.at"
       },
       {
-        "title": "Umiz4kids.at: új weboldal a többnyelvűségért",
-        "url": "https://rolunk.at/aktualis/umiz4kids-at-uj-weboldal-a-tobbnyelvusegert/",
+        "title": "A Burgenlandi Magyarok Népfőiskolája",
+        "url": "https://rolunk.at/nepcsoportunk/a-burgenlandi-magyarok-nepfoiskolaja/",
         "source": "Rólunk.at"
       }
     ],
@@ -655,13 +661,7 @@
         "source": "ORF Volksgruppen"
       }
     ],
-    "salzung-minikonyvtar": [
-      {
-        "title": "ORF Magyarok – Élettel teli a salzburgi minikönyvtár (2026)",
-        "url": "https://volksgruppen.orf.at/magyarok/stories/3356535/",
-        "source": "ORF Volksgruppen"
-      }
-    ],
+    "linzi-magyar-gyermekkonyvtar": [],
     "macko-kucko-linz": [
       {
         "title": "Rólunk.at – felső-ausztriai családi közösségek",
@@ -957,6 +957,9 @@
       }
     ],
     "ak-buecherei-eisenstadt-hungarian": [],
+    "stadtbibliothek-salzburg-hungarian": [],
+    "stadtbibliothek-innsbruck-hungarian": [],
+    "ak-akademie-kaernten-hungarian": [],
     "programapik": [
       {
         "title": "Rólunk.at – Aktív apukák és felső-ausztriai farsang",
@@ -975,6 +978,7 @@
       }
     ],
     "vipach": [],
+    "die-bruecke-medien-kulturelles-podium": [],
     "salzung-hatartalanul": [
       {
         "title": "Közösség és kultúra – SalzUng határtalanul",
@@ -982,7 +986,6 @@
         "source": "Rólunk.at"
       }
     ],
-    "die-bruecke-medien-kulturelles-podium": [],
     "bibliothek-im-zentrum-hungarian": [
       {
         "title": "ORF Magyarok – Magyar könyvek Bécsújhelyen",
