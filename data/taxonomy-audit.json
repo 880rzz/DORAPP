@@ -1,9 +1,9 @@
 {
-  "updated": "2026-09-28T18:13:44.099454+00:00",
+  "updated": "2026-09-28T18:27:30.231261+00:00",
   "summary": {
-    "organizations": 157,
-    "organizationFlags": 0,
-    "organizationPagesChecked": 346,
+    "organizations": 158,
+    "organizationFlags": 1,
+    "organizationPagesChecked": 353,
     "education": 106,
     "educationFlags": 0,
     "events": 29,
@@ -1472,10 +1472,27 @@
         "kultura"
       ],
       "activityCategories": [],
-      "signals": [],
-      "pagesChecked": 0,
-      "checkedUrls": [],
-      "errors": [],
+      "signals": [
+        "oktatas",
+        "neptanc",
+        "szinhaz",
+        "media",
+        "egyhaz",
+        "diak",
+        "irodalom",
+        "muveszet"
+      ],
+      "pagesChecked": 2,
+      "checkedUrls": [
+        "https://europaclub.at/",
+        "https://europaclub.at/rolunk/europa-club-tortenete/"
+      ],
+      "errors": [
+        {
+          "url": "https://europaclub.at/rendezvenyek/meghivok/",
+          "error": "The read operation timed out"
+        }
+      ],
       "flags": []
     },
     {
@@ -1910,17 +1927,13 @@
         "muveszet",
         "csalad"
       ],
-      "pagesChecked": 2,
+      "pagesChecked": 3,
       "checkedUrls": [
         "https://www.facebook.com/IMIKE2019UJKV/",
+        "https://www.instagram.com/imike_ujkv/",
         "https://rolunk.at/nepcsoportunk/sziveben-magyar/"
       ],
-      "errors": [
-        {
-          "url": "https://www.instagram.com/imike_ujkv/",
-          "error": "HTTP Error 429: Too Many Requests"
-        }
-      ],
+      "errors": [],
       "flags": []
     },
     {
@@ -2219,19 +2232,21 @@
       ],
       "activityCategories": [],
       "signals": [
-        "oktatas"
+        "oktatas",
+        "neptanc",
+        "nepzene",
+        "szinhaz",
+        "media",
+        "irodalom",
+        "muveszet",
+        "csalad"
       ],
-      "pagesChecked": 0,
-      "checkedUrls": [],
+      "pagesChecked": 2,
+      "checkedUrls": [
+        "https://www.kozpontiszovetseg.at/",
+        "https://www.kozpontiszovetseg.at/r%C3%B3lunk"
+      ],
       "errors": [
-        {
-          "url": "https://www.kozpontiszovetseg.at/",
-          "error": "HTTP Error 429: Too Many Requests"
-        },
-        {
-          "url": "https://www.kozpontiszovetseg.at/r%C3%B3lunk",
-          "error": "HTTP Error 429: Too Many Requests"
-        },
         {
           "url": "https://www.kozpontiszovetseg.at/kapcsolat",
           "error": "HTTP Error 429: Too Many Requests"
@@ -2675,6 +2690,46 @@
       ],
       "errors": [],
       "flags": []
+    },
+    {
+      "id": "music-and-words",
+      "name": "Music & Words",
+      "entityClass": "organization",
+      "categories": [
+        "irodalom",
+        "kultura",
+        "rendezvenyszervezes",
+        "szinhaz",
+        "zene"
+      ],
+      "activityCategories": [],
+      "signals": [
+        "oktatas",
+        "neptanc",
+        "nepzene",
+        "szinhaz",
+        "media",
+        "egyhaz",
+        "diak",
+        "irodalom",
+        "muveszet",
+        "sport",
+        "csalad"
+      ],
+      "pagesChecked": 2,
+      "checkedUrls": [
+        "https://volksgruppen.orf.at/magyarok/stories/3260275/",
+        "https://rolunk.at/kultura/teljesen-meg-nem-erkeztem-meg-sehova-koltai-robert-becsben/"
+      ],
+      "errors": [
+        {
+          "url": "https://events.eventjet.at/e/fellegi-adam-a-ferfi-eletenek-3-korszaka-beethoven-a-szerelmes-a-hos-es-a-boelcs/",
+          "error": "HTTP Error 404: Not Found"
+        }
+      ],
+      "flags": [
+        "legacy-offering-category-on-entity"
+      ]
     },
     {
       "id": "napraforgocskak",
