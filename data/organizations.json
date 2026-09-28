@@ -690,9 +690,7 @@
       "website": "https://volksgruppen.orf.at/magyarok/stories/3352222/",
       "facebook": null,
       "instagram": null,
-      "eventSources": [
-        "https://volksgruppen.orf.at/magyarok/stories/3352222/"
-      ],
+      "eventSources": [],
       "affiliations": [
         {
           "organizationId": "becsi-irodalmi-muhely",
@@ -741,7 +739,15 @@
       ],
       "entityClass": "project",
       "contactUrl": "https://volksgruppen.orf.at/magyarok/stories/3352222/",
-      "calendarSources": []
+      "calendarSources": [
+        {
+          "label": "Dokumentált egyszeri esemény / bizonyítékforrás",
+          "url": "https://volksgruppen.orf.at/magyarok/stories/3352222/",
+          "kind": "documented-event-source",
+          "scope": "self",
+          "ingestEvents": false
+        }
+      ]
     },
     {
       "id": "kalaka-club",
@@ -1150,9 +1156,7 @@
       "website": "https://bornemisza.at/",
       "facebook": null,
       "instagram": null,
-      "eventSources": [
-        "https://www.kozpontiszovetseg.at/event-details/dr-janosi-zoltan-irodalomtortenesz-iro-kolto"
-      ],
+      "eventSources": [],
       "evidenceSources": [
         {
           "label": "Központi Szövetség – Bornemisza Péter Társaság története",
@@ -1211,7 +1215,15 @@
       "email": "bornemiszapetertarsasag@gmail.com",
       "profileVerifiedAt": "2026-09-25",
       "entityClass": "organization",
-      "calendarSources": []
+      "calendarSources": [
+        {
+          "label": "Dokumentált egyszeri esemény / bizonyítékforrás",
+          "url": "https://www.kozpontiszovetseg.at/event-details/dr-janosi-zoltan-irodalomtortenesz-iro-kolto",
+          "kind": "documented-event-source",
+          "scope": "self",
+          "ingestEvents": false
+        }
+      ]
     },
     {
       "id": "duna-filharmonia",
@@ -1223,9 +1235,7 @@
       "website": "https://donauphilharmonie.at/",
       "facebook": null,
       "instagram": null,
-      "eventSources": [
-        "https://www.kozpontiszovetseg.at/event-details/zene-es-talalkozas"
-      ],
+      "eventSources": [],
       "memberships": [
         {
           "umbrellaId": "kozponti-szovetseg",
@@ -1323,7 +1333,7 @@
           "url": "https://www.kozpontiszovetseg.at/event-details/zene-es-talalkozas",
           "kind": "institutional-event-source",
           "scope": "self",
-          "ingestEvents": true
+          "ingestEvents": false
         }
       ],
       "classificationNote": "Önálló bejegyzett szervezet/baráti kör, ZVR 1137618189. A saját donauphilharmonie.at domain igazolt; aktuális saját Facebook/Instagram-profilt nem azonosítottunk. Katona Ágnes alapítói és művészeti vezetői szerepe intézményi forrásokkal dokumentált.",
@@ -4981,10 +4991,7 @@
       "website": "https://rolunk.at/kultura/az-olvasas-mint-kozos-nyelv-magyar-nyelvu-konyvtar-linzben/",
       "facebook": null,
       "instagram": null,
-      "eventSources": [
-        "https://kupfticket.com/en/events/boldizsar-ildiko",
-        "https://kupfticket.com/en/events/kadar-annamaria"
-      ],
+      "eventSources": [],
       "activities": [
         "irodalmi és meseterápiás estek",
         "önismereti és közösségi beszélgetések",
@@ -5032,7 +5039,22 @@
       "entityClass": "project",
       "email": "kapcsolat@hungaromedia.at",
       "contactUrl": "https://linktr.ee/hungaromedia",
-      "calendarSources": [],
+      "calendarSources": [
+        {
+          "label": "Dokumentált egyszeri esemény / bizonyítékforrás",
+          "url": "https://kupfticket.com/en/events/boldizsar-ildiko",
+          "kind": "documented-event-source",
+          "scope": "self",
+          "ingestEvents": false
+        },
+        {
+          "label": "Dokumentált egyszeri esemény / bizonyítékforrás",
+          "url": "https://kupfticket.com/en/events/kadar-annamaria",
+          "kind": "documented-event-source",
+          "scope": "self",
+          "ingestEvents": false
+        }
+      ],
       "classificationNote": "A Mesés Női Kör a HungaroMedia saját közösségi-kulturális programsorozata, nem önálló egyesület. A HungaroMedia kontaktjai parent infrastruktúraként értelmezendők."
     },
     {
@@ -5216,9 +5238,7 @@
       "website": "https://volksgruppen.orf.at/magyarok/stories/3340511/",
       "facebook": null,
       "instagram": null,
-      "eventSources": [
-        "https://volksgruppen.orf.at/magyarok/stories/3340511/"
-      ],
+      "eventSources": [],
       "activities": [
         "rendszeres klubtalálkozók",
         "magyar nóták és közösségi éneklés",
@@ -5267,7 +5287,15 @@
       "entityClass": "group",
       "email": "enikoe.toekes@takeda.com",
       "contactUrl": null,
-      "calendarSources": []
+      "calendarSources": [
+        {
+          "label": "Dokumentált egyszeri esemény / bizonyítékforrás",
+          "url": "https://volksgruppen.orf.at/magyarok/stories/3340511/",
+          "kind": "documented-event-source",
+          "scope": "self",
+          "ingestEvents": false
+        }
+      ]
     },
     {
       "id": "wels-hetvegi-iskola",
@@ -11324,9 +11352,7 @@
       "website": "https://volksgruppen.orf.at/magyarok/stories/3339181/",
       "facebook": null,
       "instagram": null,
-      "eventSources": [
-        "https://volksgruppen.orf.at/magyarok/stories/3339181/"
-      ],
+      "eventSources": [],
       "affiliations": [
         {
           "organizationId": "imike",
@@ -11395,7 +11421,15 @@
       "parentOrganizationId": "imike",
       "email": "ujkv.ibk@gmail.com",
       "contactUrl": "https://www.facebook.com/IMIKE2019UJKV/",
-      "calendarSources": []
+      "calendarSources": [
+        {
+          "label": "Dokumentált egyszeri esemény / bizonyítékforrás",
+          "url": "https://volksgruppen.orf.at/magyarok/stories/3339181/",
+          "kind": "documented-event-source",
+          "scope": "self",
+          "ingestEvents": false
+        }
+      ]
     },
     {
       "id": "achtungarn-fesztival",
@@ -11705,9 +11739,7 @@
       "website": "https://volksgruppen.orf.at/magyarok/stories/3362931/",
       "facebook": null,
       "instagram": null,
-      "eventSources": [
-        "https://volksgruppen.orf.at/magyarok/stories/3362931/"
-      ],
+      "eventSources": [],
       "founded": "2024",
       "history": {
         "summary": "A szülői közösség több mint két éve indította el a könyvcserére épülő kezdeményezést. Két teljes tanévet vitt végig havi találkozókkal; 2026-ra a gyűjtemény több mint 200 kötetre nőtt, a program pedig családi olvasó-, mese- és kézműves közösséggé fejlődött.",
@@ -11751,7 +11783,15 @@
       "entityClass": "project",
       "classificationNote": "Közösségi kezdeményezés, nem jogi szervezet. A megnevezés leíró név az ORF által dokumentált gyerekkönyvklub és közösségi könyvtár alapján.",
       "contactUrl": "https://volksgruppen.orf.at/magyarok/stories/3362931/",
-      "calendarSources": []
+      "calendarSources": [
+        {
+          "label": "Dokumentált egyszeri esemény / bizonyítékforrás",
+          "url": "https://volksgruppen.orf.at/magyarok/stories/3362931/",
+          "kind": "documented-event-source",
+          "scope": "self",
+          "ingestEvents": false
+        }
+      ]
     },
     {
       "id": "olvashow",
@@ -11763,9 +11803,7 @@
       "website": "https://volksgruppen.orf.at/magyarok/stories/3353774/",
       "facebook": null,
       "instagram": null,
-      "eventSources": [
-        "https://volksgruppen.orf.at/magyarok/stories/3353774/"
-      ],
+      "eventSources": [],
       "affiliations": [
         {
           "organizationId": "becsi-magyar-iskola",
@@ -11849,9 +11887,7 @@
       "website": "https://volksgruppen.orf.at/magyarok/stories/3358259/",
       "facebook": null,
       "instagram": null,
-      "eventSources": [
-        "https://volksgruppen.orf.at/magyarok/stories/3358259/"
-      ],
+      "eventSources": [],
       "categories": [
         "irodalom",
         "kozosseg"
@@ -12004,9 +12040,7 @@
       "website": "https://volksgruppen.orf.at/magyarok/stories/3368141/",
       "facebook": null,
       "instagram": null,
-      "eventSources": [
-        "https://volksgruppen.orf.at/magyarok/stories/3368141/"
-      ],
+      "eventSources": [],
       "affiliations": [
         {
           "organizationId": "kalaka-club",
@@ -12062,7 +12096,15 @@
       "entityClass": "activity",
       "classificationNote": "Évente ismétlődő ünnepségsorozat; az egyes évek külön eseményrekordként kezelhetők.",
       "contactUrl": "https://kalaka-club.at/",
-      "calendarSources": []
+      "calendarSources": [
+        {
+          "label": "Dokumentált egyszeri esemény / bizonyítékforrás",
+          "url": "https://volksgruppen.orf.at/magyarok/stories/3368141/",
+          "kind": "documented-event-source",
+          "scope": "self",
+          "ingestEvents": false
+        }
+      ]
     },
     {
       "id": "magyar-csaladi-nap-becs",
@@ -12074,9 +12116,7 @@
       "website": "https://volksgruppen.orf.at/magyarok/stories/3371860/",
       "facebook": null,
       "instagram": null,
-      "eventSources": [
-        "https://volksgruppen.orf.at/magyarok/stories/3371860/"
-      ],
+      "eventSources": [],
       "affiliations": [
         {
           "organizationId": "cserkesz-72",
@@ -12143,7 +12183,15 @@
       "classificationNote": "2025-ben indult, 2026-ban folytatott visszatérő családi programsorozat.",
       "email": "becs@cserkesz.at",
       "contactUrl": "https://cserkesz.at/",
-      "calendarSources": []
+      "calendarSources": [
+        {
+          "label": "Dokumentált egyszeri esemény / bizonyítékforrás",
+          "url": "https://volksgruppen.orf.at/magyarok/stories/3371860/",
+          "kind": "documented-event-source",
+          "scope": "self",
+          "ingestEvents": false
+        }
+      ]
     },
     {
       "id": "bmkbe",
@@ -13441,9 +13489,7 @@
       "website": null,
       "facebook": "https://www.facebook.com/share/1YXeCFjNnK/?mibextid=wwXIfr",
       "instagram": null,
-      "eventSources": [
-        "https://events.eventjet.at/e/fellegi-adam-a-ferfi-eletenek-3-korszaka-beethoven-a-szerelmes-a-hos-es-a-boelcs/"
-      ],
+      "eventSources": [],
       "categories": [
         "kultura",
         "zene",
@@ -13531,7 +13577,7 @@
           "url": "https://events.eventjet.at/e/fellegi-adam-a-ferfi-eletenek-3-korszaka-beethoven-a-szerelmes-a-hos-es-a-boelcs/",
           "kind": "ticketing-event-source",
           "scope": "self",
-          "ingestEvents": true
+          "ingestEvents": false
         }
       ],
       "classificationNote": "Aktív bécsi magyar kulturális programszervező kezdeményezés. Alapító és szervező: Felcser Viktória. A megadott Facebook share-link hivatalos social forrásként rögzítve; kanonikus Facebook vanity URL és igazolt Instagram-profil külön még nem azonosított.",
