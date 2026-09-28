@@ -392,7 +392,7 @@
       },
       "entityClass": "group",
       "classificationOverride": "stable-group",
-      "classificationNote": "Önálló, tartósan működő színjátszó csoport; a heti foglalkozás külön oktatási/kurzusrekordban szerepel. A közös SVUNG e-mail, telefon és Facebook parent csatorna; a rekord külön korosztályos csoportot reprezentál, nem külön egyesületet.",
+      "classificationNote": "Önálló, tartósan működő színjátszó csoport; a heti foglalkozás külön oktatási/kurzusrekordban szerepel. A közös SVUNG e-mail, telefon és Facebook parent csatorna; a rekord külön korosztályos csoportot reprezentál, nem külön egyesületet. A BMI eseményoldal a foglalkozás bécsi host/jelentkezési felülete; a csoport szervezeti parentje a SVUNG, nem a BMI.",
       "calendarSources": [
         {
           "label": "SVUNG – Facebook",
@@ -401,6 +401,13 @@
           "platform": "facebook",
           "scope": "parent",
           "ingestEvents": false
+        },
+        {
+          "label": "Bécsi Magyar Iskola – foglalkozás eseményoldal",
+          "url": "https://www.magyariskola.at/event-details/kicsisvung-2026",
+          "kind": "host-event-page",
+          "scope": "host",
+          "ingestEvents": true
         }
       ],
       "email": "pohlbalazs@svung.at",
@@ -468,7 +475,7 @@
       },
       "entityClass": "group",
       "classificationOverride": "stable-group",
-      "classificationNote": "Önálló, tartósan működő színjátszó csoport; a heti foglalkozás külön oktatási/kurzusrekordban szerepel. A közös SVUNG e-mail, telefon és Facebook parent csatorna; a rekord külön korosztályos csoportot reprezentál, nem külön egyesületet.",
+      "classificationNote": "Önálló, tartósan működő színjátszó csoport; a heti foglalkozás külön oktatási/kurzusrekordban szerepel. A közös SVUNG e-mail, telefon és Facebook parent csatorna; a rekord külön korosztályos csoportot reprezentál, nem külön egyesületet. A BMI eseményoldal a foglalkozás bécsi host/jelentkezési felülete; a csoport szervezeti parentje a SVUNG, nem a BMI.",
       "email": "pohlbalazs@svung.at",
       "address": "Schwedenplatz 2, Top 9, 1010 Wien, Austria",
       "contactUrl": "https://www.magyariskola.at/event-details/gimisvung-2026",
@@ -1501,7 +1508,8 @@
           "scope": "parent",
           "ingestEvents": false
         }
-      ]
+      ],
+      "classificationNote": "A Bécsi Magyar Iskola saját magyar nyelvi oktatási programhelyszíne. A BMI parentOrganizationId, web, e-mail és jelentkezési infrastruktúra ezért saját/parent kapcsolat, nem külsős host-viszony."
     },
     {
       "id": "bmi-seestadt-magyaroktatas",
@@ -1574,7 +1582,8 @@
           "scope": "parent",
           "ingestEvents": false
         }
-      ]
+      ],
+      "classificationNote": "A Bécsi Magyar Iskola saját magyar nyelvi oktatási programhelyszíne. A BMI parentOrganizationId, web, e-mail és jelentkezési infrastruktúra ezért saját/parent kapcsolat, nem külsős host-viszony."
     },
     {
       "id": "bmi-becscraft",
@@ -1756,7 +1765,8 @@
         ]
       },
       "entityClass": "project",
-      "calendarSources": []
+      "calendarSources": [],
+      "classificationNote": " A BMI a személyes bécsi csoport helyszíne/együttműködő partnere; a Fecske Klub saját fecskeklub.at domainnel és saját kapcsolattal rendelkező külön projekt."
     },
     {
       "id": "amaped",
@@ -10368,7 +10378,8 @@
       "email": "hierholcza@gmail.com",
       "profileVerifiedAt": "2026-09-25",
       "entityClass": "group",
-      "calendarSources": []
+      "calendarSources": [],
+      "classificationNote": " A BMI együttműködő partner/helyszín; a maMUT saját szervezeti identitása és musicaltarsulat.at oldala külön marad."
     },
     {
       "id": "die-bruecke-medien-kulturelles-podium",
