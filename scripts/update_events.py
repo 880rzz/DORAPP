@@ -186,6 +186,12 @@ def event_key(e):
     # This intentionally ignores timezone serialization differences (+02:00 vs no offset).
     return (str(e.get("organizationId") or ""), canonical_text(e.get("name") or ""), local_day(e.get("startDate")))
 
+def source_event_key(e):
+    # The same detail page cannot represent separate events merely because a
+    # broad calendar URL is attached to more than one directory record.
+    source=str(e.get("sourceUrl") or "").strip().rstrip("/").casefold()
+    return (source,canonical_text(e.get("name") or ""),local_day(e.get("startDate"))) if source else None
+
 def event_score(e):
     start=str(e.get("startDate") or "")
     tz_bonus=2 if re.search(r"(Z|[+-]\\d{2}:?\\d{2})$",start) else 0
@@ -222,7 +228,15 @@ def dedupe_events(items):
     for e in items:
         k=event_key(e)
         merged[k]=merge_event(merged[k],e) if k in merged else e
-    return list(merged.values())
+    by_source={}
+    passthrough=[]
+    for e in merged.values():
+        k=source_event_key(e)
+        if not k:
+            passthrough.append(e)
+        else:
+            by_source[k]=merge_event(by_source[k],e) if k in by_source else e
+    return passthrough+list(by_source.values())
 
 def futureish(start):
     try:

@@ -113,6 +113,7 @@ for o in orgs:
 orgset=set(ids)
 eventids=[]
 event_semantic_keys=set()
+event_source_keys=set()
 def _event_semantic_key(e):
     name=re.sub(r"[^a-z0-9áéíóöőúüű]+"," ",str(e.get("name","")).casefold()).strip()
     start=str(e.get("startDate",""))
@@ -123,6 +124,11 @@ for e in evdb.get("events",[]):
     sk=_event_semantic_key(e)
     if sk in event_semantic_keys: errors.append(f"semantic duplicate event: {e.get('organizationId')} -> {e.get('name')} @ {str(e.get('startDate',''))[:10]}")
     event_semantic_keys.add(sk)
+    source_url=str(e.get("sourceUrl") or "").strip().rstrip("/").casefold()
+    source_key=(source_url,sk[1],sk[2])
+    if source_url and source_key in event_source_keys:
+        errors.append(f"cross-organization duplicate event source: {e.get('name')} @ {sk[2]} -> {e.get('sourceUrl')}")
+    event_source_keys.add(source_key)
     if e.get("organizationId") not in orgset: errors.append(f"orphan event: {e.get('id')}")
     if not e.get("name") or not e.get("startDate") or not e.get("sourceUrl"): errors.append(f"incomplete event: {e.get('id')}")
     cats=e.get("programCategories") or []
