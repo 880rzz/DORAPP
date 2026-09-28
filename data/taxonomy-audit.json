@@ -1,9 +1,9 @@
 {
-  "updated": "2026-09-28T20:14:18.155018+00:00",
+  "updated": "2026-09-28T20:22:11.628919+00:00",
   "summary": {
     "organizations": 158,
     "organizationFlags": 1,
-    "organizationPagesChecked": 325,
+    "organizationPagesChecked": 333,
     "education": 106,
     "educationFlags": 0,
     "events": 29,
@@ -126,24 +126,18 @@
       ],
       "activityCategories": [],
       "signals": [
-        "egyhaz"
+        "media",
+        "egyhaz",
+        "muveszet",
+        "csalad"
       ],
-      "pagesChecked": 0,
-      "checkedUrls": [],
-      "errors": [
-        {
-          "url": "https://www.martinus.at/",
-          "error": "<urlopen error timed out>"
-        },
-        {
-          "url": "https://www.martinus.at/pfarre/1127/kalender",
-          "error": "<urlopen error timed out>"
-        },
-        {
-          "url": "https://www.martinus.at/unterwart",
-          "error": "<urlopen error timed out>"
-        }
+      "pagesChecked": 3,
+      "checkedUrls": [
+        "https://www.martinus.at/",
+        "https://www.martinus.at/pfarre/1127/kalender",
+        "https://www.martinus.at/unterwart"
       ],
+      "errors": [],
       "flags": []
     },
     {
@@ -287,7 +281,7 @@
       ],
       "errors": [
         {
-          "url": "https://amaped.at/naptar/",
+          "url": "https://amaped.at/rendezvenyek-2/",
           "error": "HTTP Error 404: Not Found"
         }
       ],
@@ -905,11 +899,11 @@
       "errors": [
         {
           "url": "https://bornemisza.at/",
-          "error": "<urlopen error timed out>"
+          "error": "<urlopen error [Errno 111] Connection refused>"
         },
         {
           "url": "https://www.kozpontiszovetseg.at/bornemisza-peter-tarsasag",
-          "error": "HTTP Error 429: Too Many Requests"
+          "error": "HTTP Error 404: Not Found"
         },
         {
           "url": "https://www.kozpontiszovetseg.at/event-details/dr-janosi-zoltan-irodalomtortenesz-iro-kolto",
@@ -1480,10 +1474,27 @@
         "kultura"
       ],
       "activityCategories": [],
-      "signals": [],
-      "pagesChecked": 0,
-      "checkedUrls": [],
-      "errors": [],
+      "signals": [
+        "oktatas",
+        "neptanc",
+        "szinhaz",
+        "media",
+        "egyhaz",
+        "diak",
+        "irodalom",
+        "muveszet"
+      ],
+      "pagesChecked": 2,
+      "checkedUrls": [
+        "https://europaclub.at/",
+        "https://europaclub.at/rolunk/europa-club-tortenete/"
+      ],
+      "errors": [
+        {
+          "url": "https://europaclub.at/rendezvenyek/meghivok/",
+          "error": "The read operation timed out"
+        }
+      ],
       "flags": []
     },
     {
@@ -1578,24 +1589,16 @@
       ],
       "activityCategories": [],
       "signals": [
+        "media",
         "egyhaz"
       ],
-      "pagesChecked": 0,
-      "checkedUrls": [],
-      "errors": [
-        {
-          "url": "https://www.martinus.at/pfarre/1122",
-          "error": "<urlopen error timed out>"
-        },
-        {
-          "url": "https://www.martinus.at/pfarre/1122/kalender",
-          "error": "<urlopen error timed out>"
-        },
-        {
-          "url": "https://www.martinus.at/pfarre/1122/kalender/calendar/1808040.html",
-          "error": "<urlopen error timed out>"
-        }
+      "pagesChecked": 3,
+      "checkedUrls": [
+        "https://www.martinus.at/pfarre/1122",
+        "https://www.martinus.at/pfarre/1122/kalender",
+        "https://www.martinus.at/pfarre/1122/kalender/calendar/1808040.html"
       ],
+      "errors": [],
       "flags": []
     },
     {
@@ -1967,12 +1970,16 @@
         "muveszet",
         "csalad"
       ],
-      "pagesChecked": 2,
+      "pagesChecked": 1,
       "checkedUrls": [
-        "https://kalaka-club.at/",
         "https://www.korosiprogram.hu/partnereink/ausztriai-magyarok-gazdasagi-erdekkozossege-kalaka-klub"
       ],
-      "errors": [],
+      "errors": [
+        {
+          "url": "https://kalaka-club.at/",
+          "error": "HTTP Error 500: Internal Server Error"
+        }
+      ],
       "flags": []
     },
     {
@@ -2212,15 +2219,17 @@
       ],
       "activityCategories": [],
       "signals": [
-        "oktatas"
+        "oktatas",
+        "szinhaz",
+        "irodalom",
+        "muveszet",
+        "csalad"
       ],
-      "pagesChecked": 0,
-      "checkedUrls": [],
+      "pagesChecked": 1,
+      "checkedUrls": [
+        "https://www.kozpontiszovetseg.at/"
+      ],
       "errors": [
-        {
-          "url": "https://www.kozpontiszovetseg.at/",
-          "error": "HTTP Error 429: Too Many Requests"
-        },
         {
           "url": "https://www.kozpontiszovetseg.at/r%C3%B3lunk",
           "error": "HTTP Error 429: Too Many Requests"
@@ -2431,7 +2440,7 @@
       "errors": [
         {
           "url": "https://www.magyarszo.at/",
-          "error": "<urlopen error timed out>"
+          "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'www.magyarszo.at'. (_ssl.c:1010)>"
         }
       ],
       "flags": []
