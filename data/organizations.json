@@ -11971,7 +11971,7 @@
       "state": "burgenland",
       "city": "Oberwart / Felsőőr",
       "type": "népcsoporti kulturális és közösségi központ",
-      "intro": "A 2026. szeptember 26-án hivatalosan megnyitott felsőőri Népcsoportok Háza a burgenlandi magyar, horvát és roma népcsoport intézményeinek közös kulturális, oktatási és közösségi központja. A házban többek között a Burgenlandi Magyar Kultúregyesület és a Burgenlandi Magyarok Népfőiskolája működik.",
+      "intro": "A 2026. szeptember 26-án hivatalosan megnyitott felsőőri Népcsoportok Háza a burgenlandi magyar, horvát és roma népcsoport intézményeinek közös kulturális, oktatási és közösségi központja. A mintegy 6000 m²-es épületben a Burgenlandi Magyar Kultúregyesület és a Burgenlandi Magyarok Népfőiskolája mellett a Horvát Kultúregyesület, a Roma-Service, a Roma Volkshochschule Burgenland és a többnyelvű Radio MORA is működik; közös szemináriumi és közösségi terek, könyvtár, próba- és vágószoba, rendezvényterem, vendégszobák és nyilvános vendéglátási funkciók egészítik ki.",
       "website": "https://bukv.at/",
       "facebook": null,
       "instagram": null,
@@ -11983,10 +11983,12 @@
       "founded": "2026-09-26",
       "activities": [
         "népcsoporti kulturális és közösségi programok",
-        "semináriumok és képzések",
+        "semináriumok, képzések és workshopok",
         "közös rendezvények és találkozók",
         "könyvtári és közösségi szolgáltatások",
-        "magyar, horvát és roma intézmények együttműködésének helyszíne"
+        "magyar, horvát és roma intézmények együttműködésének helyszíne",
+        "rendezvényterem, próba- és médiatér biztosítása",
+        "vendég- és közösségi infrastruktúra működtetése"
       ],
       "targetGroups": [
         "burgenlandi magyar, horvát és roma közösségek",
@@ -12012,8 +12014,8 @@
       ],
       "evidenceSources": [
         {
-          "label": "Land Burgenland – hivatalos megnyitási közlemény",
-          "url": "https://www.burgenland.at/news-detail/lh-doskozil-laedt-bevoelkerung-zur-eroeffnung-des-jahrhundertprojekts-haus-der-volksgruppen/",
+          "label": "Land Burgenland – Haus der Volksgruppen hivatalos megnyitása",
+          "url": "https://www.burgenland.at/service/medienservice/aktuelle-meldungen/detail/lh-doskozil-haus-der-volksgruppen-setzt-meilenstein-fuer-vielfalt-und-zusammenhalt/",
           "type": "government"
         },
         {
@@ -12022,13 +12024,13 @@
           "type": "public-broadcaster"
         },
         {
-          "label": "Radio MORA – a házban működő népcsoporti szervezetek",
-          "url": "https://www.radio-mora.at/blog/haus-der-volksgruppen-in-oberwart-wird-feierlich-eroeffnet/",
-          "type": "institutional"
+          "label": "Stadtgemeinde Oberwart – Haus der Volksgruppen eseményhelyszín",
+          "url": "https://www.oberwart.gv.at/stadt/termine/detail/termin/50-jahre-volksgruppengesetz-erreichtes-status-quo",
+          "type": "municipal"
         }
       ],
       "history": {
-        "summary": "A projekt a Burgenland fennállásának 100. évfordulójához kapcsolódó kezdeményezésből nőtt ki. A korábbi felsőőri városi internátust mintegy 6000 négyzetméteres, többfunkciós népcsoporti központtá alakították. A kulcsokat 2026 áprilisában adták át, ezt próbaüzem követte, majd 2026. szeptember 26-án, a Nyelvek Európai Napján hivatalosan is megnyitották az intézményt.",
+        "summary": "A projekt alapját a Burgenland 100 éves jubileumához kapcsolódó 2021-es kezdeményezés és a 2022-ben aláírt Letter of Intent teremtette meg. A korábbi felsőőri városi internátus részbeni megőrzésével és átépítésével mintegy 6000 négyzetméteres, többfunkciós népcsoporti központ jött létre. A kulcsokat 2026 tavaszán adták át a használó szervezeteknek, ezt több hónapos próbaüzem követte, majd 2026. szeptember 26-án, a Nyelvek Európai Napjához kapcsolódva hivatalosan is megnyitották a házat.",
         "milestones": [
           {
             "date": "2026-04-27",
@@ -12048,17 +12050,24 @@
       "address": "Schulgasse 33, 7400 Oberwart, Austria",
       "email": "office@bukv.at",
       "phone": "+43 3352 38489",
-      "contactUrl": "https://bukv.at/",
+      "contactUrl": "https://www.oberwart.gv.at/",
       "calendarSources": [
         {
-          "label": "Népcsoportok Háza / BUKV – aktuális programok",
-          "url": "https://bukv.at/",
-          "kind": "host-calendar",
+          "label": "Stadtgemeinde Oberwart – rendezvénynaptár",
+          "url": "https://www.oberwart.gv.at/",
+          "kind": "municipal-calendar",
           "scope": "host",
+          "ingestEvents": false
+        },
+        {
+          "label": "Burgenlandi Magyar Kultúregyesület – programok",
+          "url": "https://bukv.at/",
+          "kind": "resident-organization-calendar",
+          "scope": "related",
           "ingestEvents": false
         }
       ],
-      "classificationNote": "A háznak külön önálló weboldala jelenleg nincs igazolva; a BUKV mint bent működő magyar intézmény publikus kapcsolati felülete van megadva."
+      "classificationNote": "Közös burgenlandi népcsoporti intézmény, nem kizárólag magyar szervezet. A magyar közösségi relevanciát a házban működő BUKV és Burgenlandi Magyarok Népfőiskolája adja. Az általános városi/host naptár nem automatikus magyar eseményforrás."
     },
     {
       "id": "univie-finnougristik-library",
