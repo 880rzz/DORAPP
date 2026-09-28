@@ -1873,6 +1873,13 @@
       "entityClass": "project",
       "calendarSources": [
         {
+          "label": "Fecske Klub – saját program- és időpontoldal",
+          "url": "https://fecskeklub.at/",
+          "kind": "official-program-calendar",
+          "scope": "self",
+          "ingestEvents": true
+        },
+        {
           "label": "Bécsi Magyar Iskola – Fecske Klub 2026 host/regisztrációs oldal",
           "url": "https://www.magyariskola.at/event-details/fecskeklub-2026",
           "kind": "host-event-page",
@@ -7693,6 +7700,11 @@
       ],
       "evidenceSources": [
         {
+          "label": "Burgenlandi Cserkészet – hivatalos oldal",
+          "url": "https://burgenlandicserkesz.at/en/",
+          "type": "official"
+        },
+        {
           "label": "ORF Magyarok – Kenderkóc és új burgenlandi cserkészet",
           "url": "https://volksgruppen.orf.at/magyarok/stories/3333230/",
           "type": "public-broadcaster"
@@ -7738,7 +7750,19 @@
       "profileVerifiedAt": "2026-09-25",
       "entityClass": "group",
       "contactUrl": "https://www.burgenlandicserkesz.at/",
-      "calendarSources": []
+      "calendarSources": [
+        {
+          "label": "Burgenlandi Cserkészet – saját programoldal",
+          "url": "https://www.burgenlandicserkesz.at/",
+          "kind": "official-program-source",
+          "scope": "self",
+          "ingestEvents": true
+        }
+      ],
+      "email": "burgenlandicserkesz@gmail.com",
+      "phone": "+43 690 10275232",
+      "zvr": "1591586607",
+      "classificationNote": "A hivatalos oldal a Christliche Ungarische Pfadfinderverein ZVR 1591586607 egyesületet nevezi meg; a Burgenlandi Magyar Cserkészet ennek működő cserkészközössége, és a Külföldi Magyar Cserkészszövetség részeként határozza meg magát."
     },
     {
       "id": "alsoori-katolikus",
