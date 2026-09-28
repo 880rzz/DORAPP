@@ -85,8 +85,30 @@ for o in orgs:
     for key in ("website","facebook","instagram"):
         u=o.get(key)
         if u and not str(u).startswith(("https://","http://")): errors.append(f"invalid {key}: {o.get('id')} -> {u}")
-    for u in o.get("eventSources",[]):
-        if not str(u).startswith(("https://","http://")): errors.append(f"invalid event source: {o.get('id')} -> {u}")
+    event_source_urls=[]
+    for raw in o.get("eventSources",[]):
+        u=raw.get("url") if isinstance(raw,dict) else raw
+        if not str(u).startswith(("https://","http://")):
+            errors.append(f"invalid event source: {o.get('id')} -> {u}")
+        else:
+            event_source_urls.append(str(u).strip())
+    calendar_urls={}
+    for c in o.get("calendarSources",[]) or []:
+        if not isinstance(c,dict):
+            errors.append(f"invalid calendar source: {o.get('id')}")
+            continue
+        u=str(c.get("url") or "").strip()
+        if not u.startswith(("https://","http://")):
+            errors.append(f"invalid calendar source URL: {o.get('id')} -> {u}")
+            continue
+        if u in calendar_urls and calendar_urls[u] != c.get("ingestEvents"):
+            errors.append(f"conflicting calendar ingestion flags: {o.get('id')} -> {u}")
+        calendar_urls[u]=c.get("ingestEvents")
+        if c.get("ingestEvents") not in (True,False):
+            errors.append(f"calendar source missing boolean ingestEvents: {o.get('id')} -> {u}")
+    for u in event_source_urls:
+        if calendar_urls.get(u) is False:
+            errors.append(f"event source explicitly disabled by calendar metadata: {o.get('id')} -> {u}")
     history=o.get("history") or {}
     if history and not isinstance(history,dict):
         errors.append(f"invalid history object: {o.get('id')}")
