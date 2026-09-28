@@ -392,7 +392,7 @@
       },
       "entityClass": "group",
       "classificationOverride": "stable-group",
-      "classificationNote": "Önálló, tartósan működő színjátszó csoport; a heti foglalkozás külön oktatási/kurzusrekordban szerepel.",
+      "classificationNote": "Önálló, tartósan működő színjátszó csoport; a heti foglalkozás külön oktatási/kurzusrekordban szerepel. A közös SVUNG e-mail, telefon és Facebook parent csatorna; a rekord külön korosztályos csoportot reprezentál, nem külön egyesületet.",
       "calendarSources": [
         {
           "label": "SVUNG – Facebook",
@@ -405,7 +405,14 @@
       ],
       "email": "pohlbalazs@svung.at",
       "phone": "+43 677 61752041",
-      "contactUrl": "https://svung.at/"
+      "contactUrl": "https://svung.at/",
+      "affiliations": [
+        {
+          "organizationId": "svung",
+          "label": "SVUNG gyermek/ifjúsági színjátszó csoport",
+          "sourceUrl": "https://www.magyariskola.at/event-details/kicsisvung-2026"
+        }
+      ]
     },
     {
       "id": "gimi-svung",
@@ -461,7 +468,7 @@
       },
       "entityClass": "group",
       "classificationOverride": "stable-group",
-      "classificationNote": "Önálló, tartósan működő színjátszó csoport; a heti foglalkozás külön oktatási/kurzusrekordban szerepel.",
+      "classificationNote": "Önálló, tartósan működő színjátszó csoport; a heti foglalkozás külön oktatási/kurzusrekordban szerepel. A közös SVUNG e-mail, telefon és Facebook parent csatorna; a rekord külön korosztályos csoportot reprezentál, nem külön egyesületet.",
       "email": "pohlbalazs@svung.at",
       "address": "Schwedenplatz 2, Top 9, 1010 Wien, Austria",
       "contactUrl": "https://www.magyariskola.at/event-details/gimisvung-2026",
@@ -482,7 +489,14 @@
           "ingestEvents": false
         }
       ],
-      "phone": "+43 677 61752041"
+      "phone": "+43 677 61752041",
+      "affiliations": [
+        {
+          "organizationId": "svung",
+          "label": "SVUNG gyermek/ifjúsági színjátszó csoport",
+          "sourceUrl": "https://www.magyariskola.at/event-details/gimisvung-2026"
+        }
+      ]
     },
     {
       "id": "cserkesz-72",
@@ -2410,7 +2424,15 @@
           "scope": "parent",
           "ingestEvents": false
         }
-      ]
+      ],
+      "affiliations": [
+        {
+          "organizationId": "delibab",
+          "label": "A Délibáb Bécsi Magyar Kultúregyesület keretében működő csoport",
+          "sourceUrl": "https://www.wukv.at/sample-page/"
+        }
+      ],
+      "classificationNote": " A csoport a Délibáb/WUKV keretében működik; a közös e-mail és esetleges közös social a parent egyesület infrastruktúrája, nem duplikáció."
     },
     {
       "id": "szivarvany-gyermektanc",
@@ -2507,7 +2529,15 @@
           "scope": "parent",
           "ingestEvents": false
         }
-      ]
+      ],
+      "affiliations": [
+        {
+          "organizationId": "delibab",
+          "label": "A Délibáb Bécsi Magyar Kultúregyesület keretében működő csoport",
+          "sourceUrl": "https://www.wukv.at/sample-page/"
+        }
+      ],
+      "classificationNote": " A csoport a Délibáb/WUKV keretében működik; a közös e-mail és esetleges közös social a parent egyesület infrastruktúrája, nem duplikáció."
     },
     {
       "id": "rezsarkantyu-citera",
@@ -2581,7 +2611,15 @@
       "entityClass": "group",
       "email": "wukv.delibab@gmail.com",
       "contactUrl": "https://www.wukv.at/",
-      "calendarSources": []
+      "calendarSources": [],
+      "affiliations": [
+        {
+          "organizationId": "delibab",
+          "label": "A Délibáb Bécsi Magyar Kultúregyesület keretében működő csoport",
+          "sourceUrl": "https://www.wukv.at/sample-page/"
+        }
+      ],
+      "classificationNote": " A csoport a Délibáb/WUKV keretében működik; a közös e-mail és esetleges közös social a parent egyesület infrastruktúrája, nem duplikáció."
     },
     {
       "id": "roppenj-pengeto",
@@ -2654,7 +2692,15 @@
       "entityClass": "group",
       "email": "wukv.delibab@gmail.com",
       "contactUrl": "https://www.wukv.at/",
-      "calendarSources": []
+      "calendarSources": [],
+      "affiliations": [
+        {
+          "organizationId": "delibab",
+          "label": "A Délibáb Bécsi Magyar Kultúregyesület keretében működő csoport",
+          "sourceUrl": "https://www.wukv.at/sample-page/"
+        }
+      ],
+      "classificationNote": " A csoport a Délibáb/WUKV keretében működik; a közös e-mail és esetleges közös social a parent egyesület infrastruktúrája, nem duplikáció."
     },
     {
       "id": "kerekasztal",
