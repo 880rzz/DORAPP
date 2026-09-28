@@ -42,9 +42,17 @@ for o in db["organizations"]:
     target_groups=o.get("targetGroups") or []
     target_html="<ul class=\"source-list\">"+"".join(f'<li>{esc(x)}</li>' for x in target_groups)+"</ul>" if target_groups else ""
     languages=o.get("languages") or []
+    parent_for_contact=parents.get(o.get("parentOrganizationId")) if o.get("parentOrganizationId") else None
     contact_bits=[]
     if o.get("email"): contact_bits.append(f'<a href="mailto:{esc(o.get("email"))}">{esc(o.get("email"))}</a>')
     if o.get("phone"): contact_bits.append(f'<a href="tel:{esc(o.get("phone"))}">{esc(o.get("phone"))}</a>')
+    if o.get("address"): contact_bits.append("Cím: "+esc(o.get("address")))
+    if o.get("contactUrl"): contact_bits.append(f'<a href="{esc(o.get("contactUrl"))}" target="_blank" rel="noopener external">Kapcsolat / hivatalos referencia ↗</a>')
+    if not o.get("email") and parent_for_contact and parent_for_contact.get("email"): contact_bits.append(f'Kapcsolódó szervezet e-mail: <a href="mailto:{esc(parent_for_contact.get("email"))}">{esc(parent_for_contact.get("email"))}</a>')
+    if not o.get("phone") and parent_for_contact and parent_for_contact.get("phone"): contact_bits.append(f'Kapcsolódó szervezet telefon: <a href="tel:{esc(parent_for_contact.get("phone"))}">{esc(parent_for_contact.get("phone"))}</a>')
+    if not o.get("contactUrl") and parent_for_contact:
+        parent_contact=parent_for_contact.get("contactUrl") or parent_for_contact.get("website") or parent_for_contact.get("facebook") or parent_for_contact.get("instagram")
+        if parent_contact: contact_bits.append(f'<a href="{esc(parent_contact)}" target="_blank" rel="noopener external">Kapcsolódó szervezet elérhetősége ↗</a>')
     if languages: contact_bits.append("Nyelv: "+", ".join(esc(x) for x in languages))
     if o.get("profileVerifiedAt"): contact_bits.append("Profiladatok ellenőrizve: "+esc(o.get("profileVerifiedAt")))
     contact_html="<p>"+"<br>".join(contact_bits)+"</p>" if contact_bits else ""
