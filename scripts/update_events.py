@@ -12,7 +12,7 @@ ORG_FILE=ROOT/"data/organizations.json"
 EVENT_FILE=ROOT/"data/events.json"
 HEALTH_FILE=ROOT/"data/source-health.json"
 UA="Mozilla/5.0 (compatible; DORAPP-AustriaHungarianPrograms/1.4; +https://github.com/880rzz/DORAPP)"
-HOST_MIN_INTERVAL=0.8
+HOST_MIN_INTERVAL=1.5
 _HOST_GUARD=threading.Lock()
 _HOST_LOCKS={}
 _HOST_LAST={}
@@ -68,7 +68,8 @@ def fetch(url:str)->tuple[str,str]:
                         retry_after=float(headers.get("Retry-After") or 0)
                     except (TypeError,ValueError):
                         retry_after=0.0
-                time.sleep(max(1.5*(attempt+1),min(retry_after,15.0)))
+                fallback=5.0*(attempt+1) if code==429 else 2.0*(attempt+1)
+                time.sleep(max(fallback,min(retry_after,30.0)))
                 continue
             raise
     raise last
