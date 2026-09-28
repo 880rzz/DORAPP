@@ -48,8 +48,8 @@ for o in orgs:
             errors.append(f"activity must not use entity categories: {o.get('id')}")
         if not o.get("activityCategories"):
             errors.append(f"activity missing activityCategories: {o.get('id')}")
-        if not o.get("parentOrganizationId"):
-            errors.append(f"activity missing parent organization: {o.get('id')}")
+        if not o.get("parentOrganizationId") and not o.get("operatedBy"):
+            errors.append(f"activity missing parent organization or operator: {o.get('id')}")
     elif o.get("activityCategories"):
         errors.append(f"non-activity uses activityCategories: {o.get('id')}")
     for a in o.get("affiliations",[]):
