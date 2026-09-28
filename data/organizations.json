@@ -1198,8 +1198,8 @@
       "state": "wien",
       "city": "Wien",
       "type": "zenei-kulturális",
-      "intro": "A Nemzetközi Duna Filharmónia 2003-ban alakult Katona Ágnes kezdeményezésére. Projektalapú, határokon átnyúló komolyzenei együttműködés, amelynek zenészei több közép-európai országból érkeznek; koncertjei kulturális és történelmi emlékhelyekhez is kapcsolódnak.",
-      "website": null,
+      "intro": "A Nemzetközi Duna Filharmónia 2003-ban alakult Katona Ágnes kezdeményezésére. Projektalapú, határokon átnyúló komolyzenei együttműködés: a Duna menti és közép-európai országok muzsikusait különleges koncertekre fogja össze. Katona Ágnes a projekt alapítója és művészeti vezetője; ezt 2025/26-os intézményi források is megerősítik.",
+      "website": "https://donauphilharmonie.at/",
       "facebook": null,
       "instagram": null,
       "eventSources": [
@@ -1272,10 +1272,25 @@
           "label": "HVG – Centrope Díj Katona Ágnesnek",
           "url": "https://hvg.hu/kultura/20141111_Centropedij",
           "type": "secondary"
+        },
+        {
+          "label": "Duna Filharmónia – saját domain",
+          "url": "https://donauphilharmonie.at/",
+          "type": "official"
+        },
+        {
+          "label": "Központi Szövetség – Katona Ágnes, alapító és művészeti vezető",
+          "url": "https://www.kozpontiszovetseg.at/post/szent-istv%C3%A1n-szobr%C3%A1nak-koszor%C3%BAz%C3%A1sa",
+          "type": "institutional"
+        },
+        {
+          "label": "Központi Szövetség – IDP kamarakoncert Hainburg",
+          "url": "https://www.kozpontiszovetseg.at/post/idp-kamarakoncert-hainburg",
+          "type": "institutional"
         }
       ],
       "entityClass": "organization",
-      "contactUrl": "https://www.kozpontiszovetseg.at/event-details/zene-es-talalkozas",
+      "contactUrl": "https://donauphilharmonie.at/",
       "calendarSources": [
         {
           "label": "Központi Szövetség – Duna Filharmónia kapcsolódó esemény",
@@ -1285,8 +1300,14 @@
           "ingestEvents": true
         }
       ],
-      "classificationNote": "Önálló jelenlegi web/social profil nem igazolt; a projekt eseményei intézményi és sajtóforrásokon keresztül dokumentáltak.",
+      "classificationNote": "A saját donauphilharmonie.at domain igazolt; aktuális saját Facebook/Instagram-profilt nem azonosítottunk. Katona Ágnes alapítói és művészeti vezetői szerepét 2025/26-os Központi Szövetség-forrás is megerősíti.",
       "publicChannels": [
+        {
+          "label": "Duna Filharmónia – hivatalos weboldal",
+          "url": "https://donauphilharmonie.at/",
+          "kind": "official-website",
+          "ownership": "self"
+        },
         {
           "label": "Központi Szövetség – Duna Filharmónia eseményoldal",
           "url": "https://www.kozpontiszovetseg.at/event-details/zene-es-talalkozas",
@@ -10507,13 +10528,13 @@
         "kozosseg"
       ],
       "history": {
-        "summary": "A Semmelweis Magyar Orvosok Egyesülete a 2000-es évek elején jött létre Bécsben magyar, magyar származású és magyarul beszélő, Ausztriában dolgozó orvosok szakmai és közösségi összefogására. Az elérhető történeti források az alapítás évét eltérően 2002-re, illetve 2003-ra teszik, ezért a DORAPP nem rögzít egyetlen bizonytalan alapítási évet. A szervezet szakmai továbbképzéseket és a Központi Szövetséggel közös, közérthető orvosi előadásokat is szervezett.",
+        "summary": "A Semmelweis Magyar Orvosok Egyesülete 2002-ben alakult Ausztriában a magyar, magyar származású és magyarul beszélő orvosok tudományos és baráti összefogására. Az ORF 2013-as összefoglalója mintegy 120 tagot, félévente 3–4 magyar nyelvű továbbképzési találkozót és Dr. Birtalan Ivánt elnökként dokumentál. A szervezet később a Központi Szövetséggel közösen a nagyközönségnek szóló egészségügyi előadásokat is szervezett.",
         "milestones": [
           {
-            "year": "2002/2003",
-            "title": "Megalakulás Bécsben",
-            "description": "A történeti források 2002-es, illetve 2003-as alapítást említenek; az eltérést a rekord explicit módon megőrzi.",
-            "sourceUrl": "https://volksgruppen.orf.at/v2/magyarok/stories/2764323/"
+            "year": "2002",
+            "title": "Megalakulás",
+            "description": "Az ORF 2013-as szervezeti összefoglalója szerint a Semmelweis Ignác nevét viselő ausztriai magyar orvosegyesület 2002-ben alakult.",
+            "sourceUrl": "https://volksgruppenv1.orf.at/magyarok/aktualis/stories/40298.html"
           },
           {
             "year": "2016",
@@ -10557,7 +10578,7 @@
         }
       ],
       "entityClass": "organization",
-      "classificationNote": "A jelenlegi önálló web/social és aktuális működési státusz nincs külön igazolva; történeti szakmai közösségként, forrásolt intézményi kapcsolattal szerepel.",
+      "classificationNote": "Történeti szakmai közösség; az ORF 2013-ban mintegy 120 taggal és Dr. Birtalan Iván elnökségével dokumentálta. Jelenlegi önálló web/social, közvetlen publikus kontakt és 2026-os vezetés nem igazolt, ezért ezeket nem töltjük ki.",
       "contactUrl": "https://www.kozpontiszovetseg.at/kapcsolat",
       "calendarSources": [
         {
@@ -10581,7 +10602,8 @@
           "kind": "media-profile",
           "ownership": "independent"
         }
-      ]
+      ],
+      "founded": "2002"
     },
     {
       "id": "becsi-magyar-otthon",
@@ -11908,7 +11930,7 @@
       "state": "wien",
       "city": "Wien",
       "type": "ifjúsági közösségi egyesület",
-      "intro": "A Polgári Magyar Fiatalok Egyesülete bécsi magyar ifjúsági közösség, amely a fiatal generáció láthatóbb részvételét, véleményének megjelenését és közösségi szerepvállalását erősíti. A Kerekasztal tagszervezeteként más bécsi magyar egyesületekkel közös kulturális és ifjúsági programokban is részt vesz. A 2025-ös AchtUngarn fesztiválról szóló beszámoló Juhász Balázst az egyesület elnökeként azonosítja.",
+      "intro": "A Polgári Magyar Fiatalok Egyesülete bécsi magyar ifjúsági és civil közösség. Közéleti, kulturális és közösségi programokat szervez, és az ausztriai magyar fiatalok tapasztalatait közvetíti a nyilvánosság és döntéshozók felé. A szervezet elnöke 2025-ben dokumentáltan Juhász Balázs.",
       "website": null,
       "facebook": null,
       "instagram": null,
@@ -11929,7 +11951,8 @@
         "ifjúsági beszélgetések és generációs témák megjelenítése",
         "közös kulturális rendezvényeken való részvétel",
         "fiatalok közösségi szerepvállalásának ösztönzése",
-        "kapcsolódás a Kerekasztal tagszervezeteinek programjaihoz"
+        "kapcsolódás a Kerekasztal tagszervezeteinek programjaihoz",
+        "ausztriai magyar fiatalok érdekképviseleti és civil kezdeményezései"
       ],
       "targetGroups": [
         "Bécsben élő magyar fiatalok",
@@ -11956,6 +11979,11 @@
           "label": "Rólunk.at – AchtUngarn ifjúsági programok",
           "url": "https://rolunk.at/nepcsoportunk/achtungarn-magyar-kulturalis-kavalkad-a-praterben/",
           "type": "community-media"
+        },
+        {
+          "label": "ORF Magyarok – Polgári Magyar Fiatalok határhelyzeti civil kezdeményezése",
+          "url": "https://volksgruppen.orf.at/magyarok/stories/3061248/",
+          "type": "public-broadcaster"
         }
       ],
       "history": {
