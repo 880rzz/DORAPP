@@ -1,9 +1,9 @@
 {
-  "updated": "2026-09-28T18:30:03.271901+00:00",
+  "updated": "2026-09-28T18:31:41.263922+00:00",
   "summary": {
     "organizations": 158,
     "organizationFlags": 1,
-    "organizationPagesChecked": 349,
+    "organizationPagesChecked": 353,
     "education": 106,
     "educationFlags": 0,
     "events": 29,
@@ -900,7 +900,7 @@
       "errors": [
         {
           "url": "https://bornemisza.at/",
-          "error": "<urlopen error [Errno 111] Connection refused>"
+          "error": "<urlopen error timed out>"
         },
         {
           "url": "https://www.kozpontiszovetseg.at/event-details/dr-janosi-zoltan-irodalomtortenesz-iro-kolto",
@@ -1118,21 +1118,18 @@
       "signals": [
         "oktatas",
         "szinhaz",
+        "media",
         "irodalom",
         "muveszet",
         "csalad"
       ],
-      "pagesChecked": 2,
+      "pagesChecked": 3,
       "checkedUrls": [
         "https://culture.hu/hu/wien",
-        "https://culture.hu/hu/wien/esemenyek"
+        "https://culture.hu/hu/wien/esemenyek",
+        "https://culture.hu/de/wien/jubilaum"
       ],
-      "errors": [
-        {
-          "url": "https://culture.hu/de/wien/jubilaum",
-          "error": "HTTP Error 502: Bad Gateway"
-        }
-      ],
+      "errors": [],
       "flags": []
     },
     {
@@ -1477,10 +1474,27 @@
         "kultura"
       ],
       "activityCategories": [],
-      "signals": [],
-      "pagesChecked": 0,
-      "checkedUrls": [],
-      "errors": [],
+      "signals": [
+        "oktatas",
+        "neptanc",
+        "szinhaz",
+        "media",
+        "egyhaz",
+        "diak",
+        "irodalom",
+        "muveszet"
+      ],
+      "pagesChecked": 2,
+      "checkedUrls": [
+        "https://europaclub.at/",
+        "https://europaclub.at/rolunk/europa-club-tortenete/"
+      ],
+      "errors": [
+        {
+          "url": "https://europaclub.at/rendezvenyek/meghivok/",
+          "error": "The read operation timed out"
+        }
+      ],
       "flags": []
     },
     {
@@ -2456,7 +2470,7 @@
       "errors": [
         {
           "url": "https://www.magyarszo.at/",
-          "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'www.magyarszo.at'. (_ssl.c:1010)>"
+          "error": "<urlopen error timed out>"
         }
       ],
       "flags": []
@@ -2471,21 +2485,20 @@
       ],
       "activityCategories": [],
       "signals": [
+        "egyhaz",
         "diak",
         "irodalom",
+        "muveszet",
+        "sport",
         "csalad"
       ],
-      "pagesChecked": 2,
+      "pagesChecked": 3,
       "checkedUrls": [
         "https://huheim.at/hu/home/",
+        "https://magyarhaz.at/",
         "https://huheim.at/hu/about/"
       ],
-      "errors": [
-        {
-          "url": "https://magyarhaz.at/",
-          "error": "Remote end closed connection without response"
-        }
-      ],
+      "errors": [],
       "flags": []
     },
     {
