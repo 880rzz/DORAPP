@@ -5031,9 +5031,7 @@
       "website": "https://www.unterwart.at/heimathaus-unterwart/",
       "facebook": null,
       "instagram": null,
-      "eventSources": [
-        "https://www.unterwart.at/heimathaus-unterwart/"
-      ],
+      "eventSources": [],
       "categories": [
         "kultura"
       ],
@@ -5095,11 +5093,11 @@
       "entityClass": "organization",
       "calendarSources": [
         {
-          "label": "Alsóőri Otthon / Unterwarter Heimathaus – automatikus eseményforrás",
+          "label": "Unterwart község – Heimathaus intézményi profil",
           "url": "https://www.unterwart.at/heimathaus-unterwart/",
-          "kind": "official-event-source",
-          "scope": "self",
-          "ingestEvents": true
+          "kind": "municipal-institution-profile",
+          "scope": "host",
+          "ingestEvents": false
         }
       ],
       "founded": "1965",
@@ -8450,9 +8448,7 @@
       "website": "https://evang.at/adressen/siget-in-der-wart/",
       "facebook": null,
       "instagram": null,
-      "eventSources": [
-        "https://evang.at/adressen/siget-in-der-wart/"
-      ],
+      "eventSources": [],
       "memberships": [
         {
           "umbrellaId": "evangelische-kirche-austria",
@@ -8525,11 +8521,11 @@
       "contactUrl": "https://evang.at/adressen/siget-in-der-wart/",
       "calendarSources": [
         {
-          "label": "Őriszigeti Evangélikus Egyházközség – automatikus eseményforrás",
+          "label": "Őriszigeti evangélikus gyülekezet – hivatalos gyülekezeti profil és istentiszteleti rend",
           "url": "https://evang.at/adressen/siget-in-der-wart/",
-          "kind": "official-event-source",
+          "kind": "official-parish-profile",
           "scope": "self",
-          "ingestEvents": true
+          "ingestEvents": false
         }
       ],
       "email": "pg.siget@evang.at",
@@ -9597,7 +9593,6 @@
       "facebook": null,
       "instagram": null,
       "eventSources": [
-        "https://culture.hu/hu/wien",
         "https://culture.hu/hu/wien/esemenyek"
       ],
       "evidenceSources": [
@@ -9669,9 +9664,9 @@
         {
           "label": "Collegium Hungaricum Wien – Magyar Kulturális Intézet – automatikus eseményforrás",
           "url": "https://culture.hu/hu/wien",
-          "kind": "official-event-source",
+          "kind": "official-website",
           "scope": "self",
-          "ingestEvents": true
+          "ingestEvents": false
         },
         {
           "label": "Collegium Hungaricum Wien – Magyar Kulturális Intézet – automatikus eseményforrás",
