@@ -1,9 +1,9 @@
 {
-  "updated": "2026-09-28T18:59:43.082447+00:00",
+  "updated": "2026-09-28T19:07:14.718942+00:00",
   "summary": {
     "organizations": 158,
     "organizationFlags": 0,
-    "organizationPagesChecked": 341,
+    "organizationPagesChecked": 339,
     "education": 106,
     "educationFlags": 0,
     "events": 29,
@@ -281,13 +281,17 @@
         "sport",
         "csalad"
       ],
-      "pagesChecked": 3,
+      "pagesChecked": 2,
       "checkedUrls": [
         "https://amaped.at/",
-        "https://amaped.at/rolunk/",
-        "https://amaped.at/category/locations/"
+        "https://amaped.at/rolunk/"
       ],
-      "errors": [],
+      "errors": [
+        {
+          "url": "https://amaped.at/naptar/",
+          "error": "HTTP Error 404: Not Found"
+        }
+      ],
       "flags": []
     },
     {
@@ -895,16 +899,11 @@
       ],
       "activityCategories": [],
       "signals": [
-        "oktatas",
-        "szinhaz",
-        "media",
         "irodalom",
         "muveszet"
       ],
-      "pagesChecked": 1,
-      "checkedUrls": [
-        "https://www.kozpontiszovetseg.at/event-details/dr-janosi-zoltan-irodalomtortenesz-iro-kolto"
-      ],
+      "pagesChecked": 0,
+      "checkedUrls": [],
       "errors": [
         {
           "url": "https://bornemisza.at/",
@@ -912,7 +911,11 @@
         },
         {
           "url": "https://www.kozpontiszovetseg.at/bornemisza-peter-tarsasag",
-          "error": "HTTP Error 404: Not Found"
+          "error": "HTTP Error 429: Too Many Requests"
+        },
+        {
+          "url": "https://www.kozpontiszovetseg.at/event-details/dr-janosi-zoltan-irodalomtortenesz-iro-kolto",
+          "error": "HTTP Error 429: Too Many Requests"
         }
       ],
       "flags": []
@@ -1001,8 +1004,8 @@
       "pagesChecked": 3,
       "checkedUrls": [
         "https://bukv.at/",
-        "https://bukv.at/hu/a-bmke-rol/",
-        "https://bukv.at/hu/kapcsolat/"
+        "https://bukv.at/hu/veranstaltungen-hu/",
+        "https://bukv.at/hu/a-bmke-rol/"
       ],
       "errors": [],
       "flags": []
@@ -3353,8 +3356,8 @@
       "pagesChecked": 3,
       "checkedUrls": [
         "https://reformatus.at/",
-        "https://www.reformatus.at/",
-        "https://www.reformatus.at/events/2026/"
+        "https://www.reformatus.at/events/2026/",
+        "https://www.reformatus.at/"
       ],
       "errors": [],
       "flags": []
@@ -3883,7 +3886,7 @@
       "checkedUrls": [
         "https://svung.at/",
         "https://shop.svung.at/",
-        "https://www.svung.at/"
+        "https://www.svung.at/show/aktualis-eloadasok/"
       ],
       "errors": [],
       "flags": []
