@@ -1,9 +1,9 @@
 {
-  "updated": "2026-09-28T18:43:47.990382+00:00",
+  "updated": "2026-09-28T18:45:27.624806+00:00",
   "summary": {
     "organizations": 158,
-    "organizationFlags": 1,
-    "organizationPagesChecked": 362,
+    "organizationFlags": 2,
+    "organizationPagesChecked": 356,
     "education": 106,
     "educationFlags": 0,
     "events": 29,
@@ -73,21 +73,18 @@
       ],
       "activityCategories": [],
       "signals": [
+        "oktatas",
+        "media",
         "irodalom",
+        "sport",
         "csalad"
       ],
-      "pagesChecked": 0,
-      "checkedUrls": [],
-      "errors": [
-        {
-          "url": "https://bgld.arbeiterkammer.at/service/buecherei/akbuechereieisenstadt/index.html",
-          "error": "<urlopen error timed out>"
-        },
-        {
-          "url": "https://bgld.arbeiterkammer.at/beratung/Bildung/arbeitswelt/Buecherei-Angebote.html",
-          "error": "<urlopen error timed out>"
-        }
+      "pagesChecked": 2,
+      "checkedUrls": [
+        "https://bgld.arbeiterkammer.at/service/buecherei/akbuechereieisenstadt/index.html",
+        "https://bgld.arbeiterkammer.at/beratung/Bildung/arbeitswelt/Buecherei-Angebote.html"
       ],
+      "errors": [],
       "flags": []
     },
     {
@@ -133,18 +130,24 @@
       ],
       "activityCategories": [],
       "signals": [
-        "media",
-        "egyhaz",
-        "muveszet",
-        "csalad"
+        "egyhaz"
       ],
-      "pagesChecked": 3,
-      "checkedUrls": [
-        "https://www.martinus.at/",
-        "https://www.martinus.at/pfarre/1127/kalender",
-        "https://www.martinus.at/unterwart"
+      "pagesChecked": 0,
+      "checkedUrls": [],
+      "errors": [
+        {
+          "url": "https://www.martinus.at/",
+          "error": "<urlopen error timed out>"
+        },
+        {
+          "url": "https://www.martinus.at/pfarre/1127/kalender",
+          "error": "<urlopen error timed out>"
+        },
+        {
+          "url": "https://www.martinus.at/unterwart",
+          "error": "<urlopen error timed out>"
+        }
       ],
-      "errors": [],
       "flags": []
     },
     {
@@ -614,8 +617,6 @@
       "activityCategories": [],
       "signals": [
         "oktatas",
-        "neptanc",
-        "nepzene",
         "szinhaz",
         "media",
         "irodalom",
@@ -623,13 +624,17 @@
         "sport",
         "csalad"
       ],
-      "pagesChecked": 3,
+      "pagesChecked": 2,
       "checkedUrls": [
         "https://www.becsinaplo.at/",
-        "https://www.becsinaplo.at/blog",
-        "https://www.kozpontiszovetseg.at/r%C3%B3lunk"
+        "https://www.becsinaplo.at/blog"
       ],
-      "errors": [],
+      "errors": [
+        {
+          "url": "https://www.kozpontiszovetseg.at/r%C3%B3lunk",
+          "error": "HTTP Error 429: Too Many Requests"
+        }
+      ],
       "flags": []
     },
     {
@@ -642,12 +647,18 @@
       ],
       "activityCategories": [],
       "signals": [
+        "oktatas",
         "media",
+        "diak",
+        "irodalom",
         "muveszet",
+        "sport",
         "csalad"
       ],
-      "pagesChecked": 0,
-      "checkedUrls": [],
+      "pagesChecked": 1,
+      "checkedUrls": [
+        "https://volksgruppen.orf.at/magyarok/stories/3336275/"
+      ],
       "errors": [
         {
           "url": "https://www.becsiszelet.at/",
@@ -721,8 +732,10 @@
       ],
       "signals": [
         "oktatas",
+        "enekkar",
         "szinhaz",
         "media",
+        "egyhaz",
         "diak",
         "irodalom",
         "muveszet",
@@ -895,14 +908,16 @@
         "irodalom",
         "muveszet"
       ],
-      "pagesChecked": 1,
-      "checkedUrls": [
-        "https://www.kozpontiszovetseg.at/event-details/dr-janosi-zoltan-irodalomtortenesz-iro-kolto"
-      ],
+      "pagesChecked": 0,
+      "checkedUrls": [],
       "errors": [
         {
           "url": "https://bornemisza.at/",
           "error": "<urlopen error [Errno 111] Connection refused>"
+        },
+        {
+          "url": "https://www.kozpontiszovetseg.at/event-details/dr-janosi-zoltan-irodalomtortenesz-iro-kolto",
+          "error": "HTTP Error 429: Too Many Requests"
         },
         {
           "url": "https://www.kozpontiszovetseg.at/bornemisza-peter-tarsasag",
@@ -1115,20 +1130,23 @@
       "activityCategories": [],
       "signals": [
         "oktatas",
-        "szinhaz",
         "media",
-        "irodalom",
-        "muveszet",
-        "csalad"
+        "irodalom"
       ],
-      "pagesChecked": 3,
+      "pagesChecked": 2,
       "checkedUrls": [
         "https://culture.hu/hu/wien",
-        "https://culture.hu/hu/wien/esemenyek",
         "https://culture.hu/de/wien/jubilaum"
       ],
-      "errors": [],
-      "flags": []
+      "errors": [
+        {
+          "url": "https://culture.hu/hu/wien/esemenyek",
+          "error": "The read operation timed out"
+        }
+      ],
+      "flags": [
+        "weak-source-signal:muveszet"
+      ]
     },
     {
       "id": "collegium-pazmanianum",
@@ -1588,16 +1606,24 @@
       ],
       "activityCategories": [],
       "signals": [
-        "media",
         "egyhaz"
       ],
-      "pagesChecked": 3,
-      "checkedUrls": [
-        "https://www.martinus.at/pfarre/1122",
-        "https://www.martinus.at/pfarre/1122/kalender",
-        "https://www.martinus.at/pfarre/1122/kalender/calendar/1808040.html"
+      "pagesChecked": 0,
+      "checkedUrls": [],
+      "errors": [
+        {
+          "url": "https://www.martinus.at/pfarre/1122",
+          "error": "<urlopen error timed out>"
+        },
+        {
+          "url": "https://www.martinus.at/pfarre/1122/kalender",
+          "error": "<urlopen error timed out>"
+        },
+        {
+          "url": "https://www.martinus.at/pfarre/1122/kalender/calendar/1808040.html",
+          "error": "<urlopen error timed out>"
+        }
       ],
-      "errors": [],
       "flags": []
     },
     {
