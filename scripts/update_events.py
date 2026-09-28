@@ -399,28 +399,20 @@ def main():
         return row,collected
 
     def ingest_sources(org):
-        """Return the single canonical set of automatic event sources.
+        """Return the canonical set of automatic event sources.
 
-        calendarSources[].ingestEvents is the authority. eventSources remains
-        supported for backwards compatibility, but cannot silently disagree:
-        explicit calendar metadata with ingestEvents=false suppresses the same URL.
+        calendarSources[].ingestEvents is the sole ingestion authority.
+        eventSources is retained only as backwards-compatible directory metadata;
+        every eventSources URL must also be mapped into calendarSources, which the
+        directory validator enforces. This prevents a legacy-only URL from
+        silently bypassing an explicit ingestion decision.
         """
-        calendars=org.get("calendarSources") or []
-        explicitly_disabled={
-            str(c.get("url") or "").strip()
-            for c in calendars
-            if isinstance(c,dict) and c.get("url") and c.get("ingestEvents") is False
-        }
         sources=[]
-        for c in calendars:
+        for c in org.get("calendarSources") or []:
             if isinstance(c,dict) and c.get("ingestEvents") is True and c.get("url"):
                 u=str(c["url"]).strip()
                 if u and u not in sources:
                     sources.append(u)
-        for raw in org.get("eventSources",[]) or []:
-            u=str(raw.get("url") if isinstance(raw,dict) else raw or "").strip()
-            if u and u not in explicitly_disabled and u not in sources:
-                sources.append(u)
         return sources
 
     jobs=[(org,source) for org in orgdb["organizations"] for source in ingest_sources(org)]
