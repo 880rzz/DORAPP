@@ -3458,7 +3458,15 @@
           "ingestEvents": false
         }
       ],
-      "contactUrl": "https://amaped.at/"
+      "contactUrl": "https://amaped.at/",
+      "affiliations": [
+        {
+          "organizationId": "amaped",
+          "label": "AMAPED oktatási helyszín/csoport",
+          "sourceUrl": "https://amaped.at/category/locations/"
+        }
+      ],
+      "classificationNote": "Az AMAPED helyi oktatási helyszíne/csoportja, nem külön egyesület. A web- és közösségi csatornák az AMAPED parent infrastruktúrájához tartoznak; a rekord a földrajzilag külön működő programhelyszínt reprezentálja."
     },
     {
       "id": "amaped-klosterneuburg",
@@ -3557,7 +3565,15 @@
           "ingestEvents": false
         }
       ],
-      "contactUrl": "https://amaped.at/"
+      "contactUrl": "https://amaped.at/",
+      "affiliations": [
+        {
+          "organizationId": "amaped",
+          "label": "AMAPED oktatási helyszín/csoport",
+          "sourceUrl": "https://amaped.at/category/locations/"
+        }
+      ],
+      "classificationNote": "Az AMAPED helyi oktatási helyszíne/csoportja, nem külön egyesület. A web- és közösségi csatornák az AMAPED parent infrastruktúrájához tartoznak; a rekord a földrajzilag külön működő programhelyszínt reprezentálja."
     },
     {
       "id": "amaped-schwechat",
@@ -3650,7 +3666,15 @@
           "ingestEvents": false
         }
       ],
-      "contactUrl": "https://amaped.at/"
+      "contactUrl": "https://amaped.at/",
+      "affiliations": [
+        {
+          "organizationId": "amaped",
+          "label": "AMAPED oktatási helyszín/csoport",
+          "sourceUrl": "https://amaped.at/category/locations/"
+        }
+      ],
+      "classificationNote": "Az AMAPED helyi oktatási helyszíne/csoportja, nem külön egyesület. A web- és közösségi csatornák az AMAPED parent infrastruktúrájához tartoznak; a rekord a földrajzilag külön működő programhelyszínt reprezentálja."
     },
     {
       "id": "amaped-st-poelten",
@@ -3732,7 +3756,15 @@
           "ingestEvents": false
         }
       ],
-      "contactUrl": "https://amaped.at/"
+      "contactUrl": "https://amaped.at/",
+      "affiliations": [
+        {
+          "organizationId": "amaped",
+          "label": "AMAPED oktatási helyszín/csoport",
+          "sourceUrl": "https://amaped.at/category/locations/"
+        }
+      ],
+      "classificationNote": "Az AMAPED helyi oktatási helyszíne/csoportja, nem külön egyesület. A web- és közösségi csatornák az AMAPED parent infrastruktúrájához tartoznak; a rekord a földrajzilag külön működő programhelyszínt reprezentálja."
     },
     {
       "id": "bukv",
@@ -6355,7 +6387,15 @@
       "entityClass": "institution",
       "email": "info@salzung.com",
       "contactUrl": "https://www.salzung.com/hu",
-      "calendarSources": []
+      "calendarSources": [],
+      "affiliations": [
+        {
+          "organizationId": "salzung",
+          "label": "A SalzUNG által szervezett magyar oktatási program",
+          "sourceUrl": "https://volksgruppen.orf.at/magyarok/stories/3170368/"
+        }
+      ],
+      "classificationNote": "A Pitypang Suli a SalzUNG által szervezett anyanyelvi oktatási program, nem önálló egyesület. A SalzUNG web/e-mail a parent szervezet infrastruktúrája."
     },
     {
       "id": "salzburgi-neptanc",
