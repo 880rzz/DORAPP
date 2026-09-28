@@ -1,9 +1,9 @@
 {
-  "updated": "2026-09-28T18:27:30.231261+00:00",
+  "updated": "2026-09-28T18:30:03.271901+00:00",
   "summary": {
     "organizations": 158,
     "organizationFlags": 1,
-    "organizationPagesChecked": 353,
+    "organizationPagesChecked": 349,
     "education": 106,
     "educationFlags": 0,
     "events": 29,
@@ -785,13 +785,14 @@
         "diak",
         "irodalom",
         "muveszet",
+        "sport",
         "csalad"
       ],
       "pagesChecked": 3,
       "checkedUrls": [
-        "https://amaped.at/",
         "https://rolunk.at/nepcsoportunk/almaban-is-magyar/",
-        "https://rolunk.at/nepcsoportunk/20-tagegyesuletet-fog-ossze-az-ausztriai-magyar-szervezetek-kerekasztala/"
+        "https://rolunk.at/nepcsoportunk/20-tagegyesuletet-fog-ossze-az-ausztriai-magyar-szervezetek-kerekasztala/",
+        "https://volksgruppen.orf.at/magyarok/stories/3163489/"
       ],
       "errors": [],
       "flags": []
@@ -1117,18 +1118,21 @@
       "signals": [
         "oktatas",
         "szinhaz",
-        "media",
         "irodalom",
         "muveszet",
         "csalad"
       ],
-      "pagesChecked": 3,
+      "pagesChecked": 2,
       "checkedUrls": [
         "https://culture.hu/hu/wien",
-        "https://culture.hu/hu/wien/esemenyek",
-        "https://culture.hu/de/wien/jubilaum"
+        "https://culture.hu/hu/wien/esemenyek"
       ],
-      "errors": [],
+      "errors": [
+        {
+          "url": "https://culture.hu/de/wien/jubilaum",
+          "error": "HTTP Error 502: Bad Gateway"
+        }
+      ],
       "flags": []
     },
     {
@@ -1361,6 +1365,7 @@
         "oktatas",
         "neptanc",
         "nepzene",
+        "enekkar",
         "media",
         "egyhaz",
         "muveszet",
@@ -1369,8 +1374,8 @@
       ],
       "pagesChecked": 2,
       "checkedUrls": [
-        "https://volksgruppen.orf.at/v2/magyarok/stories/2914449/",
-        "https://hvg.hu/kultura/20141111_Centropedij"
+        "https://donauphilharmonie.at/",
+        "https://volksgruppen.orf.at/v2/magyarok/stories/2914449/"
       ],
       "errors": [
         {
@@ -1472,27 +1477,10 @@
         "kultura"
       ],
       "activityCategories": [],
-      "signals": [
-        "oktatas",
-        "neptanc",
-        "szinhaz",
-        "media",
-        "egyhaz",
-        "diak",
-        "irodalom",
-        "muveszet"
-      ],
-      "pagesChecked": 2,
-      "checkedUrls": [
-        "https://europaclub.at/",
-        "https://europaclub.at/rolunk/europa-club-tortenete/"
-      ],
-      "errors": [
-        {
-          "url": "https://europaclub.at/rendezvenyek/meghivok/",
-          "error": "The read operation timed out"
-        }
-      ],
+      "signals": [],
+      "pagesChecked": 0,
+      "checkedUrls": [],
+      "errors": [],
       "flags": []
     },
     {
@@ -2483,20 +2471,21 @@
       ],
       "activityCategories": [],
       "signals": [
-        "egyhaz",
         "diak",
         "irodalom",
-        "muveszet",
-        "sport",
         "csalad"
       ],
-      "pagesChecked": 3,
+      "pagesChecked": 2,
       "checkedUrls": [
         "https://huheim.at/hu/home/",
-        "https://magyarhaz.at/",
         "https://huheim.at/hu/about/"
       ],
-      "errors": [],
+      "errors": [
+        {
+          "url": "https://magyarhaz.at/",
+          "error": "Remote end closed connection without response"
+        }
+      ],
       "flags": []
     },
     {
