@@ -1,9 +1,9 @@
 {
-  "updated": "2026-09-28T18:37:56.270828+00:00",
+  "updated": "2026-09-28T18:39:05.430005+00:00",
   "summary": {
     "organizations": 158,
     "organizationFlags": 1,
-    "organizationPagesChecked": 352,
+    "organizationPagesChecked": 354,
     "education": 106,
     "educationFlags": 0,
     "events": 29,
@@ -910,7 +910,7 @@
         },
         {
           "url": "https://www.kozpontiszovetseg.at/bornemisza-peter-tarsasag",
-          "error": "HTTP Error 429: Too Many Requests"
+          "error": "HTTP Error 404: Not Found"
         }
       ],
       "flags": []
@@ -1831,10 +1831,7 @@
       "activityCategories": [],
       "signals": [
         "oktatas",
-        "neptanc",
         "nepzene",
-        "enekkar",
-        "szinhaz",
         "media",
         "egyhaz",
         "irodalom",
@@ -1844,9 +1841,9 @@
       ],
       "pagesChecked": 3,
       "checkedUrls": [
-        "https://bukv.at/",
         "https://www.burgenland.at/service/medienservice/aktuelle-meldungen/detail/lh-doskozil-haus-der-volksgruppen-setzt-meilenstein-fuer-vielfalt-und-zusammenhalt/",
-        "https://burgenland.orf.at/stories/3372614/"
+        "https://burgenland.orf.at/stories/3372614/",
+        "https://www.oberwart.gv.at/stadt/termine/detail/termin/50-jahre-volksgruppengesetz-erreichtes-status-quo"
       ],
       "errors": [],
       "flags": []
@@ -1931,13 +1928,17 @@
         "muveszet",
         "csalad"
       ],
-      "pagesChecked": 3,
+      "pagesChecked": 2,
       "checkedUrls": [
         "https://www.facebook.com/IMIKE2019UJKV/",
-        "https://www.instagram.com/imike_ujkv/",
         "https://rolunk.at/nepcsoportunk/sziveben-magyar/"
       ],
-      "errors": [],
+      "errors": [
+        {
+          "url": "https://www.instagram.com/imike_ujkv/",
+          "error": "HTTP Error 429: Too Many Requests"
+        }
+      ],
       "flags": []
     },
     {
@@ -2236,24 +2237,22 @@
       ],
       "activityCategories": [],
       "signals": [
-        "oktatas"
+        "oktatas",
+        "neptanc",
+        "nepzene",
+        "szinhaz",
+        "media",
+        "irodalom",
+        "muveszet",
+        "csalad"
       ],
-      "pagesChecked": 0,
-      "checkedUrls": [],
-      "errors": [
-        {
-          "url": "https://www.kozpontiszovetseg.at/",
-          "error": "HTTP Error 429: Too Many Requests"
-        },
-        {
-          "url": "https://www.kozpontiszovetseg.at/r%C3%B3lunk",
-          "error": "HTTP Error 429: Too Many Requests"
-        },
-        {
-          "url": "https://www.kozpontiszovetseg.at/kapcsolat",
-          "error": "HTTP Error 429: Too Many Requests"
-        }
+      "pagesChecked": 3,
+      "checkedUrls": [
+        "https://www.kozpontiszovetseg.at/",
+        "https://www.kozpontiszovetseg.at/r%C3%B3lunk",
+        "https://www.kozpontiszovetseg.at/kapcsolat"
       ],
+      "errors": [],
       "flags": []
     },
     {
