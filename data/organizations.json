@@ -10997,6 +10997,164 @@
       ],
       "entityClass": "host-institution",
       "classificationNote": "Nem magyar szervezet; osztrák munkáskamarai könyvtár igazolt magyar gyermekkönyv-kínálattal."
+    },
+    {
+      "id": "stadtbibliothek-salzburg-hungarian",
+      "name": "Stadt:Bibliothek Salzburg – magyar nyelvű kínálat",
+      "state": "salzburg",
+      "city": "Salzburg",
+      "type": "városi könyvtár magyar nyelvű és nyelvtanulási tartalmakkal",
+      "intro": "Salzburg városi könyvtára katalógusában külön Ungarisch nyelvi szűrőt biztosít. A kínálatban magyar nyelvű és magyar nyelvtanulást segítő fizikai és digitális médiák is megtalálhatók.",
+      "website": "https://buch.stadt-salzburg.at/",
+      "facebook": null,
+      "instagram": null,
+      "eventSources": [],
+      "categories": [
+        "irodalom",
+        "oktatas",
+        "kultura"
+      ],
+      "history": {
+        "summary": "A Stadt:Bibliothek Salzburg többnyelvű katalógusában a magyar külön kereshető nyelv. A 2026-os katalógusban magyar nyelvtanulási anyagok és magyar nyelvű digitális/nyomtatott médiák is elérhetők.",
+        "milestones": [
+          {
+            "year": "2026",
+            "title": "Magyar nyelv külön katalógusszűrőként",
+            "description": "A könyvtár bővített keresője az Ungarisch nyelvet külön választható kategóriaként kínálja.",
+            "sourceUrl": "https://buch.stadt-salzburg.at/Mediensuche/Erweiterte-Suche"
+          }
+        ]
+      },
+      "activities": [
+        "magyar nyelvű médiák hozzáférhetővé tétele",
+        "magyar nyelvtanulási anyagok",
+        "digitális magyar tartalmak"
+      ],
+      "targetGroups": [
+        "Salzburgban élő magyar olvasók",
+        "magyarul tanulók",
+        "többnyelvű családok"
+      ],
+      "languages": [
+        "német",
+        "magyar"
+      ],
+      "profileVerifiedAt": "2026-09-28",
+      "evidenceSources": [
+        {
+          "label": "Stadt:Bibliothek Salzburg – Erweiterte Suche",
+          "url": "https://buch.stadt-salzburg.at/Mediensuche/Erweiterte-Suche",
+          "type": "municipal"
+        },
+        {
+          "label": "Stadt:Bibliothek Salzburg – Németül könnyüszerrel",
+          "url": "https://buch.stadt-salzburg.gv.at/Mediensuche/Einfache-Suche?detail=6&focusModule=searchmodule&pagesize=50&searchhash=OCLC_c58b9092580f15d9d195d8ca279d096abfc183c4&top=y",
+          "type": "municipal"
+        }
+      ],
+      "entityClass": "host-institution",
+      "classificationNote": "Nem magyar szervezet; Salzburg városi könyvtára igazolt magyar nyelvű és nyelvtanulási kínálattal."
+    },
+    {
+      "id": "stadtbibliothek-innsbruck-hungarian",
+      "name": "Stadtbibliothek Innsbruck – magyar nyelvtanulási média",
+      "state": "tirol",
+      "city": "Innsbruck",
+      "type": "városi könyvtár magyar nyelvtanulási kínálattal",
+      "intro": "Az innsbrucki városi könyvtár nyelvtanulási gyűjteménye 43 nyelvhez kínál médiákat; ezek között a magyar nyelv is szerepel. A szolgáltatás a magyarul tanulók és a többnyelvű családok számára is hozzáférhető.",
+      "website": "https://stadtbibliothek.innsbruck.gv.at/",
+      "facebook": null,
+      "instagram": null,
+      "eventSources": [],
+      "categories": [
+        "oktatas",
+        "irodalom",
+        "kultura"
+      ],
+      "history": {
+        "summary": "A Stadtbibliothek Innsbruck többnyelvű szolgáltatásában a magyar nem külön szépirodalmi gyűjteményként, hanem dokumentált nyelvtanulási médiaként jelenik meg.",
+        "milestones": [
+          {
+            "year": "2026",
+            "title": "Magyar a 43 tanulható nyelv között",
+            "description": "A könyvtár saját tájékoztatója a magyar nyelvet a 43 nyelvhez rendelkezésre álló Sprachlernmedien között sorolja fel.",
+            "sourceUrl": "https://stadtbibliothek.innsbruck.gv.at/de/newsletter/newsletter/11-0.html?lProductID=107568&sWeb=stadtbibliothek.innsbruck.gv.at"
+          }
+        ]
+      },
+      "activities": [
+        "magyar nyelvtanulási médiák",
+        "nyilvános könyvtári szolgáltatás"
+      ],
+      "targetGroups": [
+        "magyarul tanulók",
+        "Innsbruck többnyelvű lakossága",
+        "magyar családok"
+      ],
+      "languages": [
+        "német",
+        "magyar"
+      ],
+      "profileVerifiedAt": "2026-09-28",
+      "evidenceSources": [
+        {
+          "label": "Stadtbibliothek Innsbruck – többnyelvű kínálat",
+          "url": "https://stadtbibliothek.innsbruck.gv.at/de/newsletter/newsletter/11-0.html?lProductID=107568&sWeb=stadtbibliothek.innsbruck.gv.at",
+          "type": "municipal"
+        }
+      ],
+      "entityClass": "host-institution",
+      "classificationNote": "Nem magyar szervezet; Innsbruck városi könyvtára igazolt magyar nyelvtanulási médiával."
+    },
+    {
+      "id": "ak-akademie-kaernten-hungarian",
+      "name": "AK-Akademie Kärnten – online magyar nyelvi tréning",
+      "state": "kaernten",
+      "city": "Klagenfurt / online",
+      "type": "felnőttképzési szolgáltató magyar online nyelvkurzussal",
+      "intro": "Az AK-Akademie Kärnten online nyelvi tréningjében a magyar az aktuálisan választható nyelvek egyike, A1 szintig. A képzés idő- és helyfüggetlen online formában érhető el.",
+      "website": "https://www.ak-akademie.at/kurs/online-sprachentraining",
+      "facebook": null,
+      "instagram": null,
+      "eventSources": [
+        "https://www.ak-akademie.at/kurs/online-sprachentraining"
+      ],
+      "categories": [
+        "oktatas"
+      ],
+      "history": {
+        "summary": "Az AK-Akademie Kärnten digitális nyelvi kínálata több európai és világnyelvet tartalmaz; a 2026-ban publikált aktuális listán a magyar A1 szintig elérhető.",
+        "milestones": [
+          {
+            "year": "2026",
+            "title": "Magyar online nyelvi tréning A1 szintig",
+            "description": "Az aktuális kurzusoldal a magyar nyelvet A1 szintig választható online képzésként sorolja fel.",
+            "sourceUrl": "https://www.ak-akademie.at/kurs/online-sprachentraining"
+          }
+        ]
+      },
+      "activities": [
+        "online magyar nyelvtanulás",
+        "felnőtt nyelvi képzés"
+      ],
+      "targetGroups": [
+        "magyarul tanuló felnőttek",
+        "karintiai és ausztriai online tanulók"
+      ],
+      "languages": [
+        "német",
+        "magyar"
+      ],
+      "profileVerifiedAt": "2026-09-28",
+      "evidenceSources": [
+        {
+          "label": "AK-Akademie Kärnten – Online Sprachentraining",
+          "url": "https://www.ak-akademie.at/kurs/online-sprachentraining",
+          "type": "official"
+        }
+      ],
+      "entityClass": "host-institution",
+      "classificationNote": "Nem magyar szervezet; karintiai felnőttképzési szolgáltató aktuális magyar nyelvkurzussal."
     }
   ],
   "umbrellaOrganizations": [
