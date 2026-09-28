@@ -1,8 +1,9 @@
 {
-  "updated": "2026-09-28T14:01:40.724533+00:00",
+  "updated": "2026-09-28T15:59:58.030779+00:00",
   "articles": {
+    "napraforgocskak": [],
     "napraforgok": [],
-    "cserkesz-72": [],
+    "oeius": [],
     "kalaka-club": [
       {
         "title": "Bécsi Napló archívum – Kaláka-Club történet",
@@ -15,11 +16,32 @@
         "source": "ORF Volksgruppen"
       }
     ],
+    "becsi-irodalmi-muhely": [
+      {
+        "title": "ORF Magyarok – Közösségépítés az irodalmon keresztül",
+        "url": "https://volksgruppen.orf.at/magyarok/stories/3273948/",
+        "source": "ORF Volksgruppen"
+      },
+      {
+        "title": "ORF Magyarok – Műfordító műhely Bécsben",
+        "url": "https://volksgruppen.orf.at/magyarok/stories/3315120/",
+        "source": "ORF Volksgruppen"
+      }
+    ],
+    "lean-in-femspace": [],
     "gimi-svung": [],
     "egy-sima-egy-forditott": [
       {
         "title": "ORF Magyarok – Egy sima, egy fordított",
         "url": "https://volksgruppen.orf.at/magyarok/stories/3352222/",
+        "source": "ORF Volksgruppen"
+      }
+    ],
+    "svung": [],
+    "duna-filharmonia": [
+      {
+        "title": "ORF Magyarok – A Duna Filharmónia Németóváron",
+        "url": "https://volksgruppen.orf.at/v2/magyarok/stories/2914449/",
         "source": "ORF Volksgruppen"
       }
     ],
@@ -40,30 +62,8 @@
         "source": "Bécsi Napló"
       }
     ],
-    "svung": [],
-    "oeius": [],
-    "becsi-irodalmi-muhely": [
-      {
-        "title": "ORF Magyarok – Közösségépítés az irodalmon keresztül",
-        "url": "https://volksgruppen.orf.at/magyarok/stories/3273948/",
-        "source": "ORF Volksgruppen"
-      },
-      {
-        "title": "ORF Magyarok – Műfordító műhely Bécsben",
-        "url": "https://volksgruppen.orf.at/magyarok/stories/3315120/",
-        "source": "ORF Volksgruppen"
-      }
-    ],
-    "lean-in-femspace": [],
     "kozponti-szovetseg": [],
-    "napraforgocskak": [],
-    "duna-filharmonia": [
-      {
-        "title": "ORF Magyarok – A Duna Filharmónia Németóváron",
-        "url": "https://volksgruppen.orf.at/v2/magyarok/stories/2914449/",
-        "source": "ORF Volksgruppen"
-      }
-    ],
+    "cserkesz-72": [],
     "becsi-magyar-iskola": [],
     "bmi-aspern-magyaroktatas": [],
     "bmi-seestadt-magyaroktatas": [],
@@ -111,33 +111,9 @@
     "evangelikus-gyulekezet": [],
     "reformatus-szolgalat": [],
     "katolikus-wien": [],
-    "szent-istvan-egylet": [],
-    "kuwu": [
-      {
-        "title": "Rólunk.at – KUWU, a bécsújhelyi magyar közösség",
-        "url": "https://rolunk.at/nepcsoportunk/kuwu-avagy-a-legfiatalabb-ausztriai-magyar-egyesulet/",
-        "source": "Rólunk.at"
-      },
-      {
-        "title": "ORF – Indulnak az őszi programok Bécsújhelyen",
-        "url": "https://volksgruppen.orf.at/magyarok/stories/3323331/",
-        "source": "ORF Volksgruppen"
-      },
-      {
-        "title": "ORF – Magyar kultúregyesület alakult Bécsújhelyen",
-        "url": "https://volksgruppen.orf.at/magyarok/stories/3200356/",
-        "source": "ORF Volksgruppen"
-      },
-      {
-        "title": "Az Ausztriában bejegyzett magyar egyesületek listája",
-        "url": "https://rolunk.at/ausztriai-magyar-egyesuletek/",
-        "source": "Rólunk.at"
-      }
-    ],
-    "amaped-klosterneuburg": [],
     "mde-vus": [],
-    "amaped-st-poelten": [],
-    "bukv": [],
+    "szent-istvan-egylet": [],
+    "amaped-klosterneuburg": [],
     "kultpult": [
       {
         "title": "Anyák napi jazzjátszótér Bécsben- Dés Andrással, Fenyvesi Mártonnal és Lamm Dáviddal- Kultpult",
@@ -157,6 +133,30 @@
       {
         "title": "Lassan- Márfi Márk és Für Anikó- KultPult-#itthonotthon",
         "url": "https://rolunk.at/esemenyek/lassan-marfi-mark-es-fur-aniko-kultpult-itthonotthon/",
+        "source": "Rólunk.at"
+      }
+    ],
+    "amaped-st-poelten": [],
+    "bukv": [],
+    "kuwu": [
+      {
+        "title": "Rólunk.at – KUWU, a bécsújhelyi magyar közösség",
+        "url": "https://rolunk.at/nepcsoportunk/kuwu-avagy-a-legfiatalabb-ausztriai-magyar-egyesulet/",
+        "source": "Rólunk.at"
+      },
+      {
+        "title": "ORF – Indulnak az őszi programok Bécsújhelyen",
+        "url": "https://volksgruppen.orf.at/magyarok/stories/3323331/",
+        "source": "ORF Volksgruppen"
+      },
+      {
+        "title": "ORF – Magyar kultúregyesület alakult Bécsújhelyen",
+        "url": "https://volksgruppen.orf.at/magyarok/stories/3200356/",
+        "source": "ORF Volksgruppen"
+      },
+      {
+        "title": "Az Ausztriában bejegyzett magyar egyesületek listája",
+        "url": "https://rolunk.at/ausztriai-magyar-egyesuletek/",
         "source": "Rólunk.at"
       }
     ],
@@ -361,18 +361,7 @@
     ],
     "katolikus-graz": [],
     "salzung": [],
-    "amaped-schwechat": [
-      {
-        "title": "Gazdag ősz, izgalmas tél az AMAPED-ben",
-        "url": "https://rolunk.at/aktualis/gazdag-osz-izgalmas-tel-az-amaped-ben/",
-        "source": "Rólunk.at"
-      },
-      {
-        "title": "Indul a tanév az AMAPED-ben",
-        "url": "https://rolunk.at/nepcsoportunk/indul-a-tanev-az-amaped-ben/",
-        "source": "Rólunk.at"
-      }
-    ],
+    "linzi-magyar-gyermekkonyvtar": [],
     "salzung-brumi-ovi": [],
     "salzung-pitypang-suli": [],
     "amaped-baden": [
@@ -420,7 +409,33 @@
         "source": "Rólunk.at"
       }
     ],
-    "linzi-magyar-gyermekkonyvtar": [],
+    "vhs-burgenland": [
+      {
+        "title": "ORF Magyarok – Őszi programok a Burgenlandi Magyarok Népfőiskoláján",
+        "url": "https://volksgruppen.orf.at/magyarok/stories/3372036/",
+        "source": "ORF Volksgruppen"
+      },
+      {
+        "title": "Több jubileumot is ünnepel idén a Burgenlandi Magyarok Népfőiskolája",
+        "url": "https://rolunk.at/aktualis/tobb-jubileumot-is-unnepel-iden-a-burgenlandi-magyarok-nepfoiskolaja/",
+        "source": "Rólunk.at"
+      },
+      {
+        "title": "35 évet ünnepelt a Burgenlandi Magyarok Népfőiskolája",
+        "url": "https://rolunk.at/nepcsoportunk/35-evet-unnepelt-a-burgenlandi-magyarok-nepfoiskolaja/",
+        "source": "Rólunk.at"
+      },
+      {
+        "title": "Szemeszterkezdés, nyári tábori jelentkezés a jubiláló Burgenlandi Magyarok Népfőiskoláján",
+        "url": "https://rolunk.at/aktualis/szemeszterkezdes-nyari-tabori-jelentkezes-a-jubilalo-burgenlandi-magyarok-nepfoiskolajan/",
+        "source": "Rólunk.at"
+      },
+      {
+        "title": "A Burgenlandi Magyarok Népfőiskolája",
+        "url": "https://rolunk.at/nepcsoportunk/a-burgenlandi-magyarok-nepfoiskolaja/",
+        "source": "Rólunk.at"
+      }
+    ],
     "cserkesz-79": [
       {
         "title": "Rólunk.at – Szívében magyar",
@@ -522,30 +537,15 @@
         "source": "ORF Volksgruppen"
       }
     ],
-    "vhs-burgenland": [
+    "amaped-schwechat": [
       {
-        "title": "ORF Magyarok – Őszi programok a Burgenlandi Magyarok Népfőiskoláján",
-        "url": "https://volksgruppen.orf.at/magyarok/stories/3372036/",
-        "source": "ORF Volksgruppen"
-      },
-      {
-        "title": "Több jubileumot is ünnepel idén a Burgenlandi Magyarok Népfőiskolája",
-        "url": "https://rolunk.at/aktualis/tobb-jubileumot-is-unnepel-iden-a-burgenlandi-magyarok-nepfoiskolaja/",
+        "title": "Gazdag ősz, izgalmas tél az AMAPED-ben",
+        "url": "https://rolunk.at/aktualis/gazdag-osz-izgalmas-tel-az-amaped-ben/",
         "source": "Rólunk.at"
       },
       {
-        "title": "35 évet ünnepelt a Burgenlandi Magyarok Népfőiskolája",
-        "url": "https://rolunk.at/nepcsoportunk/35-evet-unnepelt-a-burgenlandi-magyarok-nepfoiskolaja/",
-        "source": "Rólunk.at"
-      },
-      {
-        "title": "Szemeszterkezdés, nyári tábori jelentkezés a jubiláló Burgenlandi Magyarok Népfőiskoláján",
-        "url": "https://rolunk.at/aktualis/szemeszterkezdes-nyari-tabori-jelentkezes-a-jubilalo-burgenlandi-magyarok-nepfoiskolajan/",
-        "source": "Rólunk.at"
-      },
-      {
-        "title": "A Burgenlandi Magyarok Népfőiskolája",
-        "url": "https://rolunk.at/nepcsoportunk/a-burgenlandi-magyarok-nepfoiskolaja/",
+        "title": "Indul a tanév az AMAPED-ben",
+        "url": "https://rolunk.at/nepcsoportunk/indul-a-tanev-az-amaped-ben/",
         "source": "Rólunk.at"
       }
     ],
@@ -956,7 +956,7 @@
         "source": "ORF Volksgruppen"
       }
     ],
-    "vipach": [],
+    "ak-buecherei-eisenstadt-hungarian": [],
     "programapik": [
       {
         "title": "Rólunk.at – Aktív apukák és felső-ausztriai farsang",
@@ -974,6 +974,7 @@
         "source": "Rólunk.at"
       }
     ],
+    "vipach": [],
     "salzung-hatartalanul": [
       {
         "title": "Közösség és kultúra – SalzUng határtalanul",
