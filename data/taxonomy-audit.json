@@ -1,9 +1,9 @@
 {
-  "updated": "2026-09-28T16:51:53.774015+00:00",
+  "updated": "2026-09-28T16:54:16.744134+00:00",
   "summary": {
-    "organizations": 157,
+    "organizations": 158,
     "organizationFlags": 0,
-    "organizationPagesChecked": 353,
+    "organizationPagesChecked": 351,
     "education": 106,
     "educationFlags": 0,
     "events": 29,
@@ -922,15 +922,10 @@
       "activityCategories": [],
       "signals": [
         "oktatas",
-        "szinhaz",
-        "media",
-        "irodalom",
         "muveszet"
       ],
-      "pagesChecked": 1,
-      "checkedUrls": [
-        "https://www.brandart.studio/tagfelvetel"
-      ],
+      "pagesChecked": 0,
+      "checkedUrls": [],
       "errors": [
         {
           "url": "https://brandart.studio/",
@@ -938,6 +933,10 @@
         },
         {
           "url": "https://www.brandart.studio/",
+          "error": "HTTP Error 429: Too Many Requests"
+        },
+        {
+          "url": "https://www.brandart.studio/tagfelvetel",
           "error": "HTTP Error 429: Too Many Requests"
         }
       ],
@@ -1362,20 +1361,23 @@
         "oktatas",
         "neptanc",
         "nepzene",
-        "szinhaz",
         "media",
         "egyhaz",
         "muveszet",
         "sport",
         "csalad"
       ],
-      "pagesChecked": 3,
+      "pagesChecked": 2,
       "checkedUrls": [
-        "https://www.kozpontiszovetseg.at/event-details/zene-es-talalkozas",
         "https://volksgruppen.orf.at/v2/magyarok/stories/2914449/",
         "https://hvg.hu/kultura/20141111_Centropedij"
       ],
-      "errors": [],
+      "errors": [
+        {
+          "url": "https://www.kozpontiszovetseg.at/event-details/zene-es-talalkozas",
+          "error": "HTTP Error 429: Too Many Requests"
+        }
+      ],
       "flags": []
     },
     {
@@ -1470,27 +1472,10 @@
         "kultura"
       ],
       "activityCategories": [],
-      "signals": [
-        "oktatas",
-        "neptanc",
-        "szinhaz",
-        "media",
-        "egyhaz",
-        "diak",
-        "irodalom",
-        "muveszet"
-      ],
-      "pagesChecked": 2,
-      "checkedUrls": [
-        "https://europaclub.at/",
-        "https://europaclub.at/rolunk/europa-club-tortenete/"
-      ],
-      "errors": [
-        {
-          "url": "https://europaclub.at/rendezvenyek/meghivok/",
-          "error": "The read operation timed out"
-        }
-      ],
+      "signals": [],
+      "pagesChecked": 0,
+      "checkedUrls": [],
+      "errors": [],
       "flags": []
     },
     {
@@ -1922,13 +1907,17 @@
         "muveszet",
         "csalad"
       ],
-      "pagesChecked": 3,
+      "pagesChecked": 2,
       "checkedUrls": [
         "https://www.facebook.com/IMIKE2019UJKV/",
-        "https://www.instagram.com/imike_ujkv/",
         "https://rolunk.at/nepcsoportunk/sziveben-magyar/"
       ],
-      "errors": [],
+      "errors": [
+        {
+          "url": "https://www.instagram.com/imike_ujkv/",
+          "error": "HTTP Error 429: Too Many Requests"
+        }
+      ],
       "flags": []
     },
     {
@@ -4020,6 +4009,31 @@
         "https://umiz.at/",
         "https://umiz.at/hu/rolunk/toertenetuenk/",
         "https://umiz.at/impressum/"
+      ],
+      "errors": [],
+      "flags": []
+    },
+    {
+      "id": "ungarball-szent-istvan-bal",
+      "name": "Szent István Bál / Ungarball",
+      "entityClass": "activity",
+      "categories": [],
+      "activityCategories": [
+        "zene",
+        "neptanc",
+        "kozosseg",
+        "felnott"
+      ],
+      "signals": [
+        "oktatas",
+        "muveszet",
+        "csalad"
+      ],
+      "pagesChecked": 3,
+      "checkedUrls": [
+        "https://ungarball.at/",
+        "https://ungarball.at/impressum",
+        "https://www.flickr.com/photos/vipach/55099423490"
       ],
       "errors": [],
       "flags": []
