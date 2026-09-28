@@ -1,9 +1,9 @@
 {
-  "updated": "2026-09-28T20:12:49.954517+00:00",
+  "updated": "2026-09-28T20:14:18.155018+00:00",
   "summary": {
     "organizations": 158,
     "organizationFlags": 1,
-    "organizationPagesChecked": 328,
+    "organizationPagesChecked": 325,
     "education": 106,
     "educationFlags": 0,
     "events": 29,
@@ -296,7 +296,7 @@
     {
       "id": "amaped-baden",
       "name": "AMAPED Baden",
-      "entityClass": "organization",
+      "entityClass": "institution",
       "categories": [
         "oktatas"
       ],
@@ -324,7 +324,7 @@
     {
       "id": "amaped-klosterneuburg",
       "name": "AMAPED Klosterneuburg",
-      "entityClass": "organization",
+      "entityClass": "institution",
       "categories": [
         "oktatas"
       ],
@@ -352,7 +352,7 @@
     {
       "id": "amaped-schwechat",
       "name": "AMAPED Schwechat",
-      "entityClass": "organization",
+      "entityClass": "institution",
       "categories": [
         "oktatas"
       ],
@@ -380,7 +380,7 @@
     {
       "id": "amaped-st-poelten",
       "name": "AMAPED St. Pölten",
-      "entityClass": "organization",
+      "entityClass": "institution",
       "categories": [
         "oktatas"
       ],
@@ -905,7 +905,7 @@
       "errors": [
         {
           "url": "https://bornemisza.at/",
-          "error": "<urlopen error [Errno 111] Connection refused>"
+          "error": "<urlopen error timed out>"
         },
         {
           "url": "https://www.kozpontiszovetseg.at/bornemisza-peter-tarsasag",
@@ -1480,27 +1480,10 @@
         "kultura"
       ],
       "activityCategories": [],
-      "signals": [
-        "oktatas",
-        "neptanc",
-        "szinhaz",
-        "media",
-        "egyhaz",
-        "diak",
-        "irodalom",
-        "muveszet"
-      ],
-      "pagesChecked": 2,
-      "checkedUrls": [
-        "https://europaclub.at/",
-        "https://europaclub.at/rolunk/europa-club-tortenete/"
-      ],
-      "errors": [
-        {
-          "url": "https://europaclub.at/rendezvenyek/meghivok/",
-          "error": "The read operation timed out"
-        }
-      ],
+      "signals": [],
+      "pagesChecked": 0,
+      "checkedUrls": [],
+      "errors": [],
       "flags": []
     },
     {
@@ -1984,16 +1967,12 @@
         "muveszet",
         "csalad"
       ],
-      "pagesChecked": 1,
+      "pagesChecked": 2,
       "checkedUrls": [
+        "https://kalaka-club.at/",
         "https://www.korosiprogram.hu/partnereink/ausztriai-magyarok-gazdasagi-erdekkozossege-kalaka-klub"
       ],
-      "errors": [
-        {
-          "url": "https://kalaka-club.at/",
-          "error": "HTTP Error 500: Internal Server Error"
-        }
-      ],
+      "errors": [],
       "flags": []
     },
     {
@@ -2233,21 +2212,19 @@
       ],
       "activityCategories": [],
       "signals": [
-        "oktatas",
-        "neptanc",
-        "nepzene",
-        "szinhaz",
-        "media",
-        "irodalom",
-        "muveszet",
-        "csalad"
+        "oktatas"
       ],
-      "pagesChecked": 2,
-      "checkedUrls": [
-        "https://www.kozpontiszovetseg.at/",
-        "https://www.kozpontiszovetseg.at/r%C3%B3lunk"
-      ],
+      "pagesChecked": 0,
+      "checkedUrls": [],
       "errors": [
+        {
+          "url": "https://www.kozpontiszovetseg.at/",
+          "error": "HTTP Error 429: Too Many Requests"
+        },
+        {
+          "url": "https://www.kozpontiszovetseg.at/r%C3%B3lunk",
+          "error": "HTTP Error 429: Too Many Requests"
+        },
         {
           "url": "https://www.kozpontiszovetseg.at/kapcsolat",
           "error": "HTTP Error 429: Too Many Requests"
@@ -2454,7 +2431,7 @@
       "errors": [
         {
           "url": "https://www.magyarszo.at/",
-          "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'www.magyarszo.at'. (_ssl.c:1010)>"
+          "error": "<urlopen error timed out>"
         }
       ],
       "flags": []
