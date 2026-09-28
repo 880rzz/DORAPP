@@ -1,9 +1,9 @@
 {
-  "updated": "2026-09-28T11:38:40.803749+00:00",
+  "updated": "2026-09-28T13:49:50.278241+00:00",
   "summary": {
-    "organizations": 145,
-    "organizationFlags": 0,
-    "organizationPagesChecked": 314,
+    "organizations": 150,
+    "organizationFlags": 1,
+    "organizationPagesChecked": 318,
     "education": 106,
     "educationFlags": 0,
     "events": 28,
@@ -599,6 +599,34 @@
       "flags": []
     },
     {
+      "id": "bibliothek-im-zentrum-hungarian",
+      "name": "Bibliothek im Zentrum Wiener Neustadt – magyar könyvek",
+      "entityClass": "host-institution",
+      "categories": [
+        "irodalom",
+        "kultura",
+        "oktatas"
+      ],
+      "activityCategories": [],
+      "signals": [
+        "oktatas",
+        "szinhaz",
+        "media",
+        "egyhaz",
+        "diak",
+        "irodalom",
+        "sport",
+        "csalad"
+      ],
+      "pagesChecked": 2,
+      "checkedUrls": [
+        "https://www.wiener-neustadt.at/index.php/de/kultur-tourismus/stadtbuecherei",
+        "https://volksgruppen.orf.at/magyarok/stories/3369413/"
+      ],
+      "errors": [],
+      "flags": []
+    },
+    {
       "id": "bmi-aspern-magyaroktatas",
       "name": "Bécsi Magyar Iskola – Magyar nyelv Aspern",
       "entityClass": "activity",
@@ -883,6 +911,34 @@
       ],
       "errors": [],
       "flags": []
+    },
+    {
+      "id": "burgenlaendische-landesbibliothek-hungarian",
+      "name": "Burgenländische Landesbibliothek – magyar nyelvű állomány",
+      "entityClass": "host-institution",
+      "categories": [
+        "irodalom",
+        "kultura",
+        "oktatas"
+      ],
+      "activityCategories": [],
+      "signals": [
+        "media",
+        "egyhaz",
+        "irodalom",
+        "muveszet",
+        "sport",
+        "csalad"
+      ],
+      "pagesChecked": 2,
+      "checkedUrls": [
+        "https://www.burgenland.at/themen/wissenschaft/landesbibliothek/",
+        "https://volksgruppen.orf.at/magyarok/stories/3361229/"
+      ],
+      "errors": [],
+      "flags": [
+        "weak-source-signal:oktatas"
+      ]
     },
     {
       "id": "burgenlandi-magyar-cserkeszet",
@@ -1219,6 +1275,7 @@
         "nepzene",
         "media",
         "egyhaz",
+        "irodalom",
         "muveszet",
         "sport",
         "csalad"
@@ -1328,27 +1385,10 @@
         "kultura"
       ],
       "activityCategories": [],
-      "signals": [
-        "oktatas",
-        "neptanc",
-        "szinhaz",
-        "media",
-        "egyhaz",
-        "diak",
-        "irodalom",
-        "muveszet"
-      ],
-      "pagesChecked": 2,
-      "checkedUrls": [
-        "https://europaclub.at/",
-        "https://europaclub.at/rolunk/europa-club-tortenete/"
-      ],
-      "errors": [
-        {
-          "url": "https://europaclub.at/rendezvenyek/meghivok/",
-          "error": "The read operation timed out"
-        }
-      ],
+      "signals": [],
+      "pagesChecked": 0,
+      "checkedUrls": [],
+      "errors": [],
       "flags": []
     },
     {
@@ -1501,23 +1541,24 @@
       ],
       "activityCategories": [],
       "signals": [
-        "oktatas",
-        "nepzene",
-        "szinhaz",
-        "media",
-        "egyhaz",
-        "diak",
-        "irodalom",
-        "muveszet",
         "csalad"
       ],
-      "pagesChecked": 3,
-      "checkedUrls": [
-        "https://femconnectgraz.at/",
-        "https://femconnectgraz.at/graci-programok/",
-        "https://femconnectgraz.at/events/"
+      "pagesChecked": 0,
+      "checkedUrls": [],
+      "errors": [
+        {
+          "url": "https://femconnectgraz.at/",
+          "error": "The read operation timed out"
+        },
+        {
+          "url": "https://femconnectgraz.at/graci-programok/",
+          "error": "The read operation timed out"
+        },
+        {
+          "url": "https://femconnectgraz.at/events/",
+          "error": "The read operation timed out"
+        }
       ],
-      "errors": [],
       "flags": []
     },
     {
@@ -2317,7 +2358,7 @@
       "errors": [
         {
           "url": "https://www.magyarszo.at/",
-          "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'www.magyarszo.at'. (_ssl.c:1010)>"
+          "error": "<urlopen error timed out>"
         }
       ],
       "flags": []
@@ -3539,6 +3580,29 @@
       "flags": []
     },
     {
+      "id": "stadtbibliothek-graz-hungarian",
+      "name": "Stadtbibliothek Graz – magyar nyelvű gyűjtemény",
+      "entityClass": "host-institution",
+      "categories": [
+        "irodalom",
+        "kultura",
+        "oktatas"
+      ],
+      "activityCategories": [],
+      "signals": [
+        "oktatas",
+        "media",
+        "irodalom",
+        "csalad"
+      ],
+      "pagesChecked": 1,
+      "checkedUrls": [
+        "https://stadtbibliothek.graz.at/Angebote/Sprachenbibliothek/Sprachen-im-Depot"
+      ],
+      "errors": [],
+      "flags": []
+    },
+    {
       "id": "sunido-linz-steyr",
       "name": "Sünidő Linz és Steyr",
       "entityClass": "project",
@@ -3718,6 +3782,32 @@
       "flags": []
     },
     {
+      "id": "univie-finnougristik-library",
+      "name": "Universität Wien – Finnugrisztikai Könyvtár / Hungarica-gyűjtemény",
+      "entityClass": "host-institution",
+      "categories": [
+        "irodalom",
+        "kultura",
+        "oktatas"
+      ],
+      "activityCategories": [],
+      "signals": [
+        "oktatas",
+        "media",
+        "egyhaz",
+        "irodalom",
+        "muveszet",
+        "sport"
+      ],
+      "pagesChecked": 2,
+      "checkedUrls": [
+        "https://bibliothek.univie.ac.at/fb-finnougristik/",
+        "https://volksgruppen.orf.at/magyarok/stories/3358806/"
+      ],
+      "errors": [],
+      "flags": []
+    },
+    {
       "id": "vhs-burgenland",
       "name": "Burgenlandi Magyarok Népfőiskolája",
       "entityClass": "institution",
@@ -3819,6 +3909,29 @@
         "https://bukv.at/volkstanzgruppe-virgonc/",
         "https://bukv.at/",
         "https://bukv.at/hu/virgonc-neptanccsoport/"
+      ],
+      "errors": [],
+      "flags": []
+    },
+    {
+      "id": "vorarlberger-landesbibliothek-hungarian",
+      "name": "Vorarlberger Landesbibliothek – magyar nyelvű állomány",
+      "entityClass": "host-institution",
+      "categories": [
+        "irodalom",
+        "kultura"
+      ],
+      "activityCategories": [],
+      "signals": [
+        "media",
+        "egyhaz",
+        "irodalom",
+        "sport"
+      ],
+      "pagesChecked": 2,
+      "checkedUrls": [
+        "https://vlb.vorarlberg.at/",
+        "https://volksgruppen.orf.at/magyarok/stories/3362082/"
       ],
       "errors": [],
       "flags": []
