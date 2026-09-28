@@ -4262,7 +4262,14 @@
         "német"
       ],
       "profileVerifiedAt": "2026-09-25",
-      "entityClass": "project"
+      "entityClass": "project",
+      "affiliations": [
+        {
+          "organizationId": "stadtbibliothek-linz-hungarian",
+          "label": "A magyar gyermek- és ifjúsági gyűjtemény fogadóintézménye",
+          "sourceUrl": "https://volksgruppen.orf.at/magyarok/stories/3351276/"
+        }
+      ]
     },
     {
       "id": "felso-ausztriai-magyarok",
@@ -10808,6 +10815,127 @@
       ],
       "entityClass": "host-institution",
       "classificationNote": "Nem magyar szervezet; osztrák tartományi könyvtár kiemelkedő magyar nyelvű állománnyal."
+    },
+    {
+      "id": "stadtbibliothek-linz-hungarian",
+      "name": "Stadtbibliothek Wissensturm Linz – magyar nyelvű gyűjtemény",
+      "state": "oberoesterreich",
+      "city": "Linz",
+      "type": "városi könyvtár magyar nyelvű állománnyal",
+      "intro": "A linzi Stadtbibliothek Wissensturm idegennyelvű könyvtárában magyar nyelvű felnőtt-, gyermek- és ifjúsági könyvek is elérhetők. A HungaroMedia együttműködésével 2025–2026-ban több mint 200 magyar gyermek- és ifjúsági könyv került a kölcsönözhető állományba, magyar felolvasásokkal kiegészítve.",
+      "website": "https://wissensturm.linz.at/bibliothek/wissensturm.php",
+      "facebook": null,
+      "instagram": null,
+      "eventSources": [],
+      "categories": [
+        "irodalom",
+        "kultura",
+        "oktatas"
+      ],
+      "history": {
+        "summary": "A Stadtbibliothek Linz 2007 óta működtet idegennyelvű könyvtári részleget, amelyben a magyar nyelv is jelen van. A HungaroMedia együttműködése 2025-től jelentősen bővítette a magyar gyermek- és ifjúsági kínálatot.",
+        "milestones": [
+          {
+            "year": "2025",
+            "title": "Magyar gyermekkönyv-állomány bővítése",
+            "description": "A HungaroMedia együttműködésével több mint 150, később több mint 200 magyar gyermek- és ifjúsági könyv került az állományba.",
+            "sourceUrl": "https://volksgruppen.orf.at/magyarok/stories/3351276/"
+          }
+        ]
+      },
+      "activities": [
+        "magyar könyvek kölcsönzése",
+        "magyar gyermek- és ifjúsági irodalom",
+        "magyar nyelvű felolvasások",
+        "idegennyelvű könyvtári szolgáltatás"
+      ],
+      "targetGroups": [
+        "Linz és Felső-Ausztria magyar családjai",
+        "magyarul olvasó gyermekek és fiatalok",
+        "magyar nyelvű olvasók"
+      ],
+      "languages": [
+        "német",
+        "magyar"
+      ],
+      "profileVerifiedAt": "2026-09-28",
+      "evidenceSources": [
+        {
+          "label": "Wissensturm Linz – Fremdsprachenbibliothek",
+          "url": "https://wissensturm.linz.at/Integration.php",
+          "type": "municipal"
+        },
+        {
+          "label": "ORF Magyarok – Népszerűek a magyar könyvek Linzben",
+          "url": "https://volksgruppen.orf.at/magyarok/stories/3351276/",
+          "type": "public-broadcaster"
+        }
+      ],
+      "entityClass": "host-institution",
+      "classificationNote": "Nem magyar szervezet; linzi városi könyvtár igazolt magyar nyelvű állománnyal és magyar partnerprogrammal."
+    },
+    {
+      "id": "buechereien-wien-hungarian",
+      "name": "Büchereien Wien – magyar nyelvű könyvtári kínálat",
+      "state": "wien",
+      "city": "Wien",
+      "type": "városi könyvtárhálózat magyar nyelvű médiákkal",
+      "intro": "A Büchereien Wien városi könyvtárhálózat többnyelvű kínálatában magyar nyelvű könyvek is elérhetők. A hálózat része a Kinderbücherei der Weltsprachen, amely több mint 50 nyelven tart gyermek- és ifjúsági médiát.",
+      "website": "https://buechereien.wien.gv.at/B%C3%BCchereien-Wien",
+      "facebook": null,
+      "instagram": null,
+      "eventSources": [],
+      "categories": [
+        "irodalom",
+        "kultura",
+        "csalad"
+      ],
+      "history": {
+        "summary": "A bécsi városi könyvtárhálózat tudatosan többnyelvű szolgáltatást épít. Az ORF 2026-os körképe magyar könyveket is dokumentált a hálózatban; a Világnyelvek Gyermekkönyvtára több mint 50 nyelvű állománnyal működik.",
+        "milestones": [
+          {
+            "year": "2015",
+            "title": "Kinderbücherei der Weltsprachen",
+            "description": "Bécs létrehozta a világnyelvek gyermekkönyvtárát, amely ma több mint 50 nyelvű médiát kínál.",
+            "sourceUrl": "https://buechereien.wien.gv.at/B%C3%BCchereien-Wien/Standorte-%C3%96ffnungszeiten/Zweigstellen/Kinderb%C3%BCcherei-der-Weltsprachen"
+          },
+          {
+            "year": "2026",
+            "title": "Magyar kínálat dokumentálása",
+            "description": "Az ORF Magyarok a bécsi könyvtárhálózat többnyelvű kínálatán belül magyar könyvek elérhetőségét is bemutatta.",
+            "sourceUrl": "https://volksgruppen.orf.at/magyarok/stories/3355470/"
+          }
+        ]
+      },
+      "activities": [
+        "magyar nyelvű könyvek kölcsönzése",
+        "többnyelvű gyermekirodalom",
+        "városi könyvtári szolgáltatás"
+      ],
+      "targetGroups": [
+        "Bécsben élő magyar olvasók",
+        "magyar családok és gyermekek",
+        "többnyelvű olvasók"
+      ],
+      "languages": [
+        "német",
+        "magyar"
+      ],
+      "profileVerifiedAt": "2026-09-28",
+      "evidenceSources": [
+        {
+          "label": "Büchereien Wien – Kinderbücherei der Weltsprachen",
+          "url": "https://buechereien.wien.gv.at/B%C3%BCchereien-Wien/Standorte-%C3%96ffnungszeiten/Zweigstellen/Kinderb%C3%BCcherei-der-Weltsprachen",
+          "type": "municipal"
+        },
+        {
+          "label": "ORF Magyarok – Magyar könyvek és többnyelvűség Bécsben",
+          "url": "https://volksgruppen.orf.at/magyarok/stories/3355470/",
+          "type": "public-broadcaster"
+        }
+      ],
+      "entityClass": "host-institution",
+      "classificationNote": "Nem magyar szervezet; bécsi városi könyvtárhálózat dokumentált magyar nyelvű kínálattal."
     }
   ],
   "umbrellaOrganizations": [
