@@ -5026,7 +5026,7 @@
       "name": "Alsóőri Otthon / Unterwarter Heimathaus",
       "state": "burgenland",
       "city": "Unterwart / Alsóőr",
-      "type": "helytörténeti közösség",
+      "type": "helytörténeti múzeumot fenntartó egyesület",
       "intro": "Az Alsóőri Otthon / Unterwarter Heimathaus a település magyar paraszti és helytörténeti örökségének gyűjteménye és bemutatóhelye. Az egyesület több mint ezer tárgyból álló helyi gyűjteményt gondoz és rendszeres nyílt napokat, kulturális programokat szervez.",
       "website": "https://www.unterwart.at/heimathaus-unterwart/",
       "facebook": null,
@@ -5085,6 +5085,11 @@
           "label": "Rólunk.at – ausztriai magyar egyesületek listája",
           "url": "https://rolunk.at/ausztriai-magyar-egyesuletek/",
           "type": "community-media"
+        },
+        {
+          "label": "Land Burgenland – Heimathaus Unterwart",
+          "url": "https://www.burgenland.at/service/museen-burgen-und-schloesser-im-burgenland/museum-detail/heimathaus-unterwart/",
+          "type": "government"
         }
       ],
       "entityClass": "organization",
@@ -5096,7 +5101,9 @@
           "scope": "self",
           "ingestEvents": true
         }
-      ]
+      ],
+      "founded": "1965",
+      "classificationNote": "Az Unterwarter Heimathaus – Alsóőri Otthon 1965-ben alapított egyesület, amely a helytörténeti múzeumot működteti. A községi oldal a múzeum hivatalos nyilvános oldala; a községi e-mail ezért intézményi kapcsolati csatorna, nem az egyesület saját domainje."
     },
     {
       "id": "kozep-burgenlandi",
@@ -7255,7 +7262,9 @@
           "scope": "self",
           "ingestEvents": true
         }
-      ]
+      ],
+      "zvr": "768679342",
+      "classificationNote": "Az intézmény saját impresszuma szerint a jogi szervezet neve Innsbrucki Magyar Diákotthon és Kulturális Központ, ZVR 768679342. A huheim.at a jelenlegi hivatalos webhely; a magyarhaz.at külön programforrásként marad, amíg annak eseményfunkciója elérhető."
     },
     {
       "id": "imike",
@@ -8522,7 +8531,10 @@
           "scope": "self",
           "ingestEvents": true
         }
-      ]
+      ],
+      "email": "pg.siget@evang.at",
+      "phone": "+43 699 18877136",
+      "classificationNote": "Az evang.at oldal az Evangelische Kirche in Österreich hivatalos címtárában a helyi Pfarrgemeinde saját rekordja; ezért nem külső hostoldalként, hanem az egyházközség hivatalos intézményi profiljaként kezelendő."
     },
     {
       "id": "reformatus-ifjusagi-olvasokor",
