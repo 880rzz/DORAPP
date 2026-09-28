@@ -1,9 +1,9 @@
 {
-  "updated": "2026-09-28T13:49:50.278241+00:00",
+  "updated": "2026-09-28T13:52:39.778198+00:00",
   "summary": {
-    "organizations": 150,
+    "organizations": 152,
     "organizationFlags": 1,
-    "organizationPagesChecked": 318,
+    "organizationPagesChecked": 329,
     "education": 106,
     "educationFlags": 0,
     "events": 28,
@@ -881,6 +881,34 @@
       "flags": []
     },
     {
+      "id": "buechereien-wien-hungarian",
+      "name": "Büchereien Wien – magyar nyelvű könyvtári kínálat",
+      "entityClass": "host-institution",
+      "categories": [
+        "csalad",
+        "irodalom",
+        "kultura"
+      ],
+      "activityCategories": [],
+      "signals": [
+        "oktatas",
+        "media",
+        "egyhaz",
+        "diak",
+        "irodalom",
+        "sport",
+        "csalad"
+      ],
+      "pagesChecked": 3,
+      "checkedUrls": [
+        "https://buechereien.wien.gv.at/B%C3%BCchereien-Wien",
+        "https://buechereien.wien.gv.at/B%C3%BCchereien-Wien/Standorte-%C3%96ffnungszeiten/Zweigstellen/Kinderb%C3%BCcherei-der-Weltsprachen",
+        "https://volksgruppen.orf.at/magyarok/stories/3355470/"
+      ],
+      "errors": [],
+      "flags": []
+    },
+    {
       "id": "bukv",
       "name": "Burgenlandi Magyar Kultúregyesület",
       "entityClass": "organization",
@@ -1385,10 +1413,27 @@
         "kultura"
       ],
       "activityCategories": [],
-      "signals": [],
-      "pagesChecked": 0,
-      "checkedUrls": [],
-      "errors": [],
+      "signals": [
+        "oktatas",
+        "neptanc",
+        "szinhaz",
+        "media",
+        "egyhaz",
+        "diak",
+        "irodalom",
+        "muveszet"
+      ],
+      "pagesChecked": 2,
+      "checkedUrls": [
+        "https://europaclub.at/",
+        "https://europaclub.at/rolunk/europa-club-tortenete/"
+      ],
+      "errors": [
+        {
+          "url": "https://europaclub.at/rendezvenyek/meghivok/",
+          "error": "The read operation timed out"
+        }
+      ],
       "flags": []
     },
     {
@@ -1541,24 +1586,23 @@
       ],
       "activityCategories": [],
       "signals": [
+        "oktatas",
+        "nepzene",
+        "szinhaz",
+        "media",
+        "egyhaz",
+        "diak",
+        "irodalom",
+        "muveszet",
         "csalad"
       ],
-      "pagesChecked": 0,
-      "checkedUrls": [],
-      "errors": [
-        {
-          "url": "https://femconnectgraz.at/",
-          "error": "The read operation timed out"
-        },
-        {
-          "url": "https://femconnectgraz.at/graci-programok/",
-          "error": "The read operation timed out"
-        },
-        {
-          "url": "https://femconnectgraz.at/events/",
-          "error": "The read operation timed out"
-        }
+      "pagesChecked": 3,
+      "checkedUrls": [
+        "https://femconnectgraz.at/",
+        "https://femconnectgraz.at/graci-programok/",
+        "https://femconnectgraz.at/events/"
       ],
+      "errors": [],
       "flags": []
     },
     {
@@ -2358,7 +2402,7 @@
       "errors": [
         {
           "url": "https://www.magyarszo.at/",
-          "error": "<urlopen error timed out>"
+          "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'www.magyarszo.at'. (_ssl.c:1010)>"
         }
       ],
       "flags": []
@@ -3598,6 +3642,35 @@
       "pagesChecked": 1,
       "checkedUrls": [
         "https://stadtbibliothek.graz.at/Angebote/Sprachenbibliothek/Sprachen-im-Depot"
+      ],
+      "errors": [],
+      "flags": []
+    },
+    {
+      "id": "stadtbibliothek-linz-hungarian",
+      "name": "Stadtbibliothek Wissensturm Linz – magyar nyelvű gyűjtemény",
+      "entityClass": "host-institution",
+      "categories": [
+        "irodalom",
+        "kultura",
+        "oktatas"
+      ],
+      "activityCategories": [],
+      "signals": [
+        "oktatas",
+        "szinhaz",
+        "media",
+        "egyhaz",
+        "irodalom",
+        "muveszet",
+        "sport",
+        "csalad"
+      ],
+      "pagesChecked": 3,
+      "checkedUrls": [
+        "https://wissensturm.linz.at/bibliothek/wissensturm.php",
+        "https://wissensturm.linz.at/Integration.php",
+        "https://volksgruppen.orf.at/magyarok/stories/3351276/"
       ],
       "errors": [],
       "flags": []
