@@ -12200,7 +12200,7 @@
       "city": "Oberwart / Felsőőr",
       "type": "népcsoporti kulturális és közösségi központ",
       "intro": "A 2026. szeptember 26-án hivatalosan megnyitott felsőőri Népcsoportok Háza a burgenlandi magyar, horvát és roma népcsoport intézményeinek közös kulturális, oktatási és közösségi központja. A mintegy 6000 m²-es épületben a Burgenlandi Magyar Kultúregyesület és a Burgenlandi Magyarok Népfőiskolája mellett a Horvát Kultúregyesület, a Roma-Service, a Roma Volkshochschule Burgenland és a többnyelvű Radio MORA is működik; közös szemináriumi és közösségi terek, könyvtár, próba- és vágószoba, rendezvényterem, vendégszobák és nyilvános vendéglátási funkciók egészítik ki.",
-      "website": "https://bukv.at/",
+      "website": null,
       "facebook": null,
       "instagram": null,
       "eventSources": [],
@@ -12276,8 +12276,8 @@
       },
       "entityClass": "institution",
       "address": "Schulgasse 33, 7400 Oberwart, Austria",
-      "email": "office@bukv.at",
-      "phone": "+43 3352 38489",
+      "email": null,
+      "phone": null,
       "contactUrl": "https://www.oberwart.gv.at/",
       "calendarSources": [
         {
@@ -12295,7 +12295,15 @@
           "ingestEvents": false
         }
       ],
-      "classificationNote": "Közös burgenlandi népcsoporti intézmény, nem kizárólag magyar szervezet. A magyar közösségi relevanciát a házban működő BUKV és Burgenlandi Magyarok Népfőiskolája adja. Az általános városi/host naptár nem automatikus magyar eseményforrás."
+      "classificationNote": "Közös burgenlandi népcsoporti intézmény, nem kizárólag magyar szervezet. A BUKV honlapja, e-mailje és telefonszáma a házban működő magyar rezidens szervezet elérhetősége, ezért nem a Népcsoportok Háza saját kontaktjaként szerepel. Az általános városi/host naptár nem automatikus magyar eseményforrás.",
+      "publicChannels": [
+        {
+          "label": "BUKV – a házban működő magyar rezidens szervezet",
+          "url": "https://bukv.at/",
+          "kind": "resident-organization",
+          "ownership": "related"
+        }
+      ]
     },
     {
       "id": "univie-finnougristik-library",
