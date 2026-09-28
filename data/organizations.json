@@ -5566,9 +5566,7 @@
       "website": "https://ne-felejts.weebly.com/",
       "facebook": null,
       "instagram": null,
-      "eventSources": [
-        "https://ne-felejts.weebly.com/events"
-      ],
+      "eventSources": [],
       "evidenceSources": [
         {
           "label": "ORF Magyarok – Új néptánccsoport gyerekeknek Linzben",
@@ -5606,7 +5604,15 @@
       "entityClass": "group",
       "email": "nefelejtsneptanc@gmail.com",
       "contactUrl": "https://ne-felejts.weebly.com/",
-      "calendarSources": []
+      "calendarSources": [
+        {
+          "label": "Parent szervezet programforrása – nem automatikus child ingestion",
+          "url": "https://ne-felejts.weebly.com/events",
+          "kind": "parent-calendar",
+          "scope": "parent",
+          "ingestEvents": false
+        }
+      ]
     },
     {
       "id": "cserkesz-80",
@@ -6601,7 +6607,6 @@
       "facebook": "https://www.facebook.com/Salzburgi.Magyar.Neptancegyuttes/",
       "instagram": "https://www.instagram.com/salzburgi.neptanc/",
       "eventSources": [
-        "https://salzung.com/hu/",
         "https://www.facebook.com/Salzburgi.Magyar.Neptancegyuttes/"
       ],
       "categories": [
@@ -6673,6 +6678,13 @@
           "kind": "social-calendar",
           "platform": "instagram",
           "scope": "self",
+          "ingestEvents": false
+        },
+        {
+          "label": "Parent szervezet programforrása – nem automatikus child ingestion",
+          "url": "https://salzung.com/hu/",
+          "kind": "parent-calendar",
+          "scope": "parent",
           "ingestEvents": false
         }
       ]
