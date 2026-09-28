@@ -1,9 +1,9 @@
 {
-  "updated": "2026-09-28T16:48:47.011008+00:00",
+  "updated": "2026-09-28T16:50:46.841271+00:00",
   "summary": {
     "organizations": 157,
     "organizationFlags": 0,
-    "organizationPagesChecked": 347,
+    "organizationPagesChecked": 349,
     "education": 106,
     "educationFlags": 0,
     "events": 29,
@@ -785,14 +785,13 @@
         "diak",
         "irodalom",
         "muveszet",
-        "sport",
         "csalad"
       ],
       "pagesChecked": 3,
       "checkedUrls": [
+        "https://amaped.at/",
         "https://rolunk.at/nepcsoportunk/almaban-is-magyar/",
-        "https://rolunk.at/nepcsoportunk/20-tagegyesuletet-fog-ossze-az-ausztriai-magyar-szervezetek-kerekasztala/",
-        "https://volksgruppen.orf.at/magyarok/stories/3163489/"
+        "https://rolunk.at/nepcsoportunk/20-tagegyesuletet-fog-ossze-az-ausztriai-magyar-szervezetek-kerekasztala/"
       ],
       "errors": [],
       "flags": []
@@ -1473,9 +1472,15 @@
         "kultura"
       ],
       "activityCategories": [],
-      "signals": [],
-      "pagesChecked": 0,
-      "checkedUrls": [],
+      "signals": [
+        "oktatas",
+        "media",
+        "irodalom"
+      ],
+      "pagesChecked": 1,
+      "checkedUrls": [
+        "https://europaclub.at/"
+      ],
       "errors": [],
       "flags": []
     },
@@ -1811,15 +1816,19 @@
       "activityCategories": [],
       "signals": [
         "oktatas",
+        "neptanc",
+        "nepzene",
+        "enekkar",
+        "szinhaz",
         "media",
         "sport",
         "csalad"
       ],
       "pagesChecked": 3,
       "checkedUrls": [
+        "https://bukv.at/",
         "https://www.burgenland.at/news-detail/lh-doskozil-laedt-bevoelkerung-zur-eroeffnung-des-jahrhundertprojekts-haus-der-volksgruppen/",
-        "https://burgenland.orf.at/stories/3372614/",
-        "https://www.radio-mora.at/blog/haus-der-volksgruppen-in-oberwart-wird-feierlich-eroeffnet/"
+        "https://burgenland.orf.at/stories/3372614/"
       ],
       "errors": [],
       "flags": []
@@ -1904,13 +1913,17 @@
         "muveszet",
         "csalad"
       ],
-      "pagesChecked": 3,
+      "pagesChecked": 2,
       "checkedUrls": [
         "https://www.facebook.com/IMIKE2019UJKV/",
-        "https://www.instagram.com/imike_ujkv/",
         "https://rolunk.at/nepcsoportunk/sziveben-magyar/"
       ],
-      "errors": [],
+      "errors": [
+        {
+          "url": "https://www.instagram.com/imike_ujkv/",
+          "error": "HTTP Error 429: Too Many Requests"
+        }
+      ],
       "flags": []
     },
     {
@@ -2804,8 +2817,9 @@
         "sport",
         "csalad"
       ],
-      "pagesChecked": 2,
+      "pagesChecked": 3,
       "checkedUrls": [
+        "https://vorsitzendenkonferenz.org/",
         "https://rolunk.at/ausztriai-magyar-egyesuletek/",
         "https://volksgruppen.orf.at/magyarok/stories/3302381/"
       ],
@@ -3836,17 +3850,13 @@
         "muveszet",
         "csalad"
       ],
-      "pagesChecked": 2,
+      "pagesChecked": 3,
       "checkedUrls": [
         "https://svung.at/",
-        "https://shop.svung.at/"
+        "https://shop.svung.at/",
+        "https://www.svung.at/"
       ],
-      "errors": [
-        {
-          "url": "https://www.svung.at/",
-          "error": "The read operation timed out"
-        }
-      ],
+      "errors": [],
       "flags": []
     },
     {
