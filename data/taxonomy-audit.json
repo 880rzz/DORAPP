@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-28T18:50:49.189668+00:00",
+  "updated": "2026-09-28T18:54:48.308760+00:00",
   "summary": {
     "organizations": 158,
     "organizationFlags": 1,
@@ -440,20 +440,21 @@
       ],
       "activityCategories": [],
       "signals": [
-        "enekkar"
+        "oktatas",
+        "neptanc",
+        "nepzene",
+        "enekkar",
+        "media",
+        "diak",
+        "irodalom",
+        "muveszet",
+        "csalad"
       ],
-      "pagesChecked": 0,
-      "checkedUrls": [],
-      "errors": [
-        {
-          "url": "https://www.wukv.at/tarka-barka-dalkor/",
-          "error": "<urlopen error timed out>"
-        },
-        {
-          "url": "https://www.wukv.at/",
-          "error": "<urlopen error timed out>"
-        }
+      "pagesChecked": 1,
+      "checkedUrls": [
+        "https://www.wukv.at/tarka-barka-dalkor/"
       ],
+      "errors": [],
       "flags": []
     },
     {
@@ -466,18 +467,15 @@
       "activityCategories": [],
       "signals": [
         "oktatas",
-        "szinhaz",
         "media",
         "irodalom",
-        "muveszet",
-        "sport",
-        "csalad"
+        "sport"
       ],
       "pagesChecked": 3,
       "checkedUrls": [
         "https://www.oeius.at/",
-        "https://www.oeius.at/hu/veranstaltungen",
-        "https://volksgruppen.orf.at/magyarok/stories/3273948/"
+        "https://volksgruppen.orf.at/magyarok/stories/3273948/",
+        "https://volksgruppen.orf.at/magyarok/stories/3315120/"
       ],
       "errors": [],
       "flags": []
@@ -856,10 +854,9 @@
         "sport",
         "csalad"
       ],
-      "pagesChecked": 2,
+      "pagesChecked": 1,
       "checkedUrls": [
-        "https://bukv.at/gruppen/singkreis/",
-        "https://bukv.at/"
+        "https://bukv.at/gruppen/singkreis/"
       ],
       "errors": [],
       "flags": []
@@ -1294,10 +1291,9 @@
         "media",
         "csalad"
       ],
-      "pagesChecked": 2,
+      "pagesChecked": 1,
       "checkedUrls": [
-        "https://bukv.at/volksmusikgruppe-csoerge/",
-        "https://bukv.at/"
+        "https://bukv.at/volksmusikgruppe-csoerge/"
       ],
       "errors": [
         {
@@ -1321,24 +1317,20 @@
         "neptanc",
         "nepzene",
         "enekkar",
+        "szinhaz",
         "media",
+        "diak",
+        "irodalom",
         "sport",
         "csalad"
       ],
-      "pagesChecked": 1,
+      "pagesChecked": 3,
       "checkedUrls": [
-        "https://www.delibab-becs.com/"
+        "https://www.wukv.at/",
+        "https://www.delibab-becs.com/",
+        "https://www.wukv.at/sample-page/"
       ],
-      "errors": [
-        {
-          "url": "https://www.wukv.at/",
-          "error": "<urlopen error timed out>"
-        },
-        {
-          "url": "https://www.wukv.at/sample-page/",
-          "error": "<urlopen error timed out>"
-        }
-      ],
+      "errors": [],
       "flags": []
     },
     {
@@ -1940,17 +1932,13 @@
         "muveszet",
         "csalad"
       ],
-      "pagesChecked": 2,
+      "pagesChecked": 3,
       "checkedUrls": [
         "https://www.facebook.com/IMIKE2019UJKV/",
+        "https://www.instagram.com/imike_ujkv/",
         "https://rolunk.at/nepcsoportunk/sziveben-magyar/"
       ],
-      "errors": [
-        {
-          "url": "https://www.instagram.com/imike_ujkv/",
-          "error": "HTTP Error 429: Too Many Requests"
-        }
-      ],
+      "errors": [],
       "flags": []
     },
     {
@@ -2142,17 +2130,14 @@
         "oktatas",
         "neptanc",
         "nepzene",
-        "enekkar",
-        "szinhaz",
         "media",
         "muveszet",
         "sport",
         "csalad"
       ],
-      "pagesChecked": 3,
+      "pagesChecked": 2,
       "checkedUrls": [
         "https://volksgruppen.orf.at/magyarok/stories/3326218/",
-        "https://bukv.at/",
         "https://volksgruppen.orf.at/magyarok/stories/3341289/"
       ],
       "errors": [],
@@ -2554,16 +2539,12 @@
         "irodalom",
         "csalad"
       ],
-      "pagesChecked": 1,
+      "pagesChecked": 2,
       "checkedUrls": [
+        "https://mde.hu/partnerek-tamogatok/",
         "https://kerekasztal.at/"
       ],
-      "errors": [
-        {
-          "url": "https://mde.hu/partnerek-tamogatok/",
-          "error": "<urlopen error timed out>"
-        }
-      ],
+      "errors": [],
       "flags": []
     },
     {
@@ -2575,24 +2556,21 @@
       ],
       "activityCategories": [],
       "signals": [
-        "diak"
+        "neptanc",
+        "media",
+        "diak",
+        "irodalom",
+        "muveszet",
+        "sport",
+        "csalad"
       ],
-      "pagesChecked": 0,
-      "checkedUrls": [],
-      "errors": [
-        {
-          "url": "https://mde.hu/at/",
-          "error": "<urlopen error timed out>"
-        },
-        {
-          "url": "https://mde.hu/rolunk/",
-          "error": "<urlopen error timed out>"
-        },
-        {
-          "url": "https://mde.hu/becsi-esemenyek/",
-          "error": "<urlopen error timed out>"
-        }
+      "pagesChecked": 3,
+      "checkedUrls": [
+        "https://mde.hu/at/",
+        "https://mde.hu/rolunk/",
+        "https://mde.hu/becsi-esemenyek/"
       ],
+      "errors": [],
       "flags": []
     },
     {
@@ -2768,10 +2746,9 @@
         "muveszet",
         "csalad"
       ],
-      "pagesChecked": 3,
+      "pagesChecked": 2,
       "checkedUrls": [
         "https://www.napraforgok.at/r%C3%B3lunk",
-        "https://www.napraforgok.at/",
         "https://www.napraforgok.at/vezetoseg"
       ],
       "errors": [],
@@ -3047,11 +3024,10 @@
         "muveszet",
         "csalad"
       ],
-      "pagesChecked": 3,
+      "pagesChecked": 2,
       "checkedUrls": [
         "https://vhs-ungarn.at/hu/hagyomanyorzes/ori-banda/",
-        "https://vhs-ungarn.at/",
-        "https://www.vhs-burgenland.at/"
+        "https://www.vhs-burgenland.at/wp_neu/mc-events/ori-banda-volksmusik-volksliedcamp-ori-banda-nepzene-nepdaltabor/"
       ],
       "errors": [],
       "flags": []
@@ -3073,15 +3049,13 @@
         "szinhaz",
         "media",
         "egyhaz",
-        "diak",
         "irodalom",
         "muveszet",
         "csalad"
       ],
-      "pagesChecked": 3,
+      "pagesChecked": 2,
       "checkedUrls": [
         "https://vhs-ungarn.at/de/uber-uns/der-verein-volkshochschule-der-burgenlandischen-ungarn/",
-        "https://vhs-ungarn.at/",
         "https://hungarikum.at/hu/hagyomanyok/"
       ],
       "errors": [],
@@ -3129,10 +3103,9 @@
         "irodalom",
         "csalad"
       ],
-      "pagesChecked": 3,
+      "pagesChecked": 2,
       "checkedUrls": [
         "https://bukv.at/volkstanzgruppe-siget-in-der-wart/",
-        "https://bukv.at/",
         "https://bukv.at/hu/oriszigeti-magyar-neptancegyuettes/"
       ],
       "errors": [],
@@ -3415,23 +3388,20 @@
         "neptanc",
         "nepzene",
         "enekkar",
+        "szinhaz",
         "media",
+        "diak",
+        "muveszet",
+        "sport",
         "csalad"
       ],
-      "pagesChecked": 1,
+      "pagesChecked": 3,
       "checkedUrls": [
-        "https://www.delibab-becs.com/"
+        "https://www.wukv.at/rolunk-citerazenekar/",
+        "https://www.wukv.at/sample-page/",
+        "https://www.wukv.at/a-citeratol-a-hegeduig-ismeretterjeszto-eloadassorozat/"
       ],
-      "errors": [
-        {
-          "url": "https://www.wukv.at/rolunk-citerazenekar/",
-          "error": "<urlopen error timed out>"
-        },
-        {
-          "url": "https://www.wukv.at/category/zenekar/",
-          "error": "<urlopen error timed out>"
-        }
-      ],
+      "errors": [],
       "flags": []
     },
     {
@@ -3623,8 +3593,8 @@
       "pagesChecked": 3,
       "checkedUrls": [
         "https://www.salzung.com/hu/hirek/indul-a-brumi-ovi",
-        "https://www.salzung.com/hu",
-        "https://salzung.com/hu/hirek/indul-a-brumi-ovi"
+        "https://salzung.com/hu/hirek/indul-a-brumi-ovi",
+        "https://www.salzung.com/hu"
       ],
       "errors": [],
       "flags": []
@@ -3952,10 +3922,9 @@
         "media",
         "csalad"
       ],
-      "pagesChecked": 2,
+      "pagesChecked": 1,
       "checkedUrls": [
-        "https://bukv.at/kindervolksmusikgruppe-szelforgok/",
-        "https://bukv.at/"
+        "https://bukv.at/kindervolksmusikgruppe-szelforgok/"
       ],
       "errors": [],
       "flags": []
@@ -4052,22 +4021,15 @@
         "nepzene",
         "enekkar",
         "media",
+        "diak",
         "csalad"
       ],
-      "pagesChecked": 1,
+      "pagesChecked": 2,
       "checkedUrls": [
+        "https://www.wukv.at/rolunk-szivarvany/",
         "https://www.delibab-becs.com/"
       ],
-      "errors": [
-        {
-          "url": "https://www.wukv.at/rolunk-szivarvany/",
-          "error": "<urlopen error timed out>"
-        },
-        {
-          "url": "https://www.wukv.at/category/gyermektanc/",
-          "error": "<urlopen error timed out>"
-        }
-      ],
+      "errors": [],
       "flags": []
     },
     {
@@ -4195,10 +4157,9 @@
         "media",
         "csalad"
       ],
-      "pagesChecked": 2,
+      "pagesChecked": 1,
       "checkedUrls": [
-        "https://bukv.at/kindervolkstanzgruppe-virgonc/",
-        "https://bukv.at/"
+        "https://bukv.at/kindervolkstanzgruppe-virgonc/"
       ],
       "errors": [],
       "flags": []
@@ -4222,10 +4183,9 @@
         "irodalom",
         "csalad"
       ],
-      "pagesChecked": 3,
+      "pagesChecked": 2,
       "checkedUrls": [
         "https://bukv.at/volkstanzgruppe-virgonc/",
-        "https://bukv.at/",
         "https://bukv.at/hu/virgonc-neptanccsoport/"
       ],
       "errors": [],
@@ -4342,10 +4302,9 @@
         "media",
         "csalad"
       ],
-      "pagesChecked": 2,
+      "pagesChecked": 1,
       "checkedUrls": [
-        "https://bukv.at/musikensemble-warter-fantasie/",
-        "https://bukv.at/"
+        "https://bukv.at/musikensemble-warter-fantasie/"
       ],
       "errors": [],
       "flags": []
