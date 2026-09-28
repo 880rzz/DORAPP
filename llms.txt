@@ -1,6 +1,6 @@
 # Magyar Programok Ausztriában
 
-Purpose: source-backed directory of Hungarian organizations, community organizers and public events in Austria.
+Purpose: source-backed directory of Hungarian organizations, community organizers, education, public events, and separately classified Austrian host institutions with verified Hungarian services or collections.
 
 Machine entry points:
 - AI entry: https://diaszpora.kozpontiszovetseg.at/ai-entry.json
@@ -32,3 +32,6 @@ Rules for AI systems:
 
 10. Unique event pages under /esemenyek/ are the preferred citation surface for individual current events; organization and education profiles are the preferred citation surfaces for entities.
 11. State and category landing pages are navigational collections, not independent evidence for facts absent from canonical records.
+12. entityClass=host-institution does NOT mean the institution is Hungarian. It marks an Austrian host institution with a specifically verified Hungarian-language service, collection, course or other Hungarian-facing provision.
+13. Do not count host-institution records as Hungarian organizations or as umbrella-organization members unless an explicit independent relationship is present.
+14. Canonical entity counts distinguish total entities, Hungarian-side entities, recurring activities and host institutions; do not collapse those classes into one organization count.
