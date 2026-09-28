@@ -112,7 +112,15 @@
         }
       ],
       "entityClass": "umbrella",
-      "calendarSources": []
+      "calendarSources": [
+        {
+          "label": "Ausztriai Magyar Egyesületek és Szervezetek Központi Szövetsége – automatikus eseményforrás",
+          "url": "https://www.kozpontiszovetseg.at/",
+          "kind": "official-event-source",
+          "scope": "self",
+          "ingestEvents": true
+        }
+      ]
     },
     {
       "id": "oeius",
@@ -189,6 +197,13 @@
           "platform": "facebook",
           "scope": "self",
           "ingestEvents": false
+        },
+        {
+          "label": "Ausztriai Magyar Kutatóintézet / Österreichisches Institut für ungarische Studien – automatikus eseményforrás",
+          "url": "https://www.oeius.at/hu/veranstaltungen",
+          "kind": "official-calendar",
+          "scope": "self",
+          "ingestEvents": true
         }
       ]
     },
@@ -266,6 +281,13 @@
           "platform": "facebook",
           "scope": "self",
           "ingestEvents": false
+        },
+        {
+          "label": "Lean in Femspace – automatikus eseményforrás",
+          "url": "https://leaninfemspace.at/",
+          "kind": "official-event-source",
+          "scope": "self",
+          "ingestEvents": true
         }
       ]
     },
@@ -351,6 +373,13 @@
           "kind": "official-website",
           "scope": "self",
           "ingestEvents": false
+        },
+        {
+          "label": "SVUNG – Bécsi Magyarok Művészeti Egyesülete – automatikus eseményforrás",
+          "url": "https://shop.svung.at/",
+          "kind": "official-event-source",
+          "scope": "self",
+          "ingestEvents": true
         }
       ]
     },
@@ -635,6 +664,13 @@
           "kind": "official-website",
           "scope": "self",
           "ingestEvents": false
+        },
+        {
+          "label": "72. sz. Széchenyi István cserkészcsapat – automatikus eseményforrás",
+          "url": "https://cserkesz.at/programok/",
+          "kind": "official-calendar",
+          "scope": "self",
+          "ingestEvents": true
         }
       ]
     },
@@ -900,6 +936,13 @@
           "platform": "facebook",
           "scope": "self",
           "ingestEvents": false
+        },
+        {
+          "label": "Kaláka-Club – Ausztriai Magyarok Gazdasági Érdekközössége – automatikus eseményforrás",
+          "url": "https://kalaka-club.at/",
+          "kind": "official-event-source",
+          "scope": "self",
+          "ingestEvents": true
         }
       ]
     },
@@ -999,6 +1042,13 @@
           "platform": "instagram",
           "scope": "self",
           "ingestEvents": false
+        },
+        {
+          "label": "Napraforgók – Bécsi Magyar Néptánc és Népzene Egyesület – automatikus eseményforrás",
+          "url": "https://www.napraforgok.at/",
+          "kind": "official-event-source",
+          "scope": "self",
+          "ingestEvents": true
         }
       ]
     },
@@ -1524,6 +1574,13 @@
           "kind": "official-website",
           "scope": "self",
           "ingestEvents": false
+        },
+        {
+          "label": "Bécsi Magyar Iskola – automatikus eseményforrás",
+          "url": "https://www.magyariskola.at/osszes",
+          "kind": "official-calendar",
+          "scope": "self",
+          "ingestEvents": true
         }
       ]
     },
@@ -2096,6 +2153,13 @@
           "platform": "instagram",
           "scope": "self",
           "ingestEvents": false
+        },
+        {
+          "label": "Bécsi Magyar Iskolaegyesület – automatikus eseményforrás",
+          "url": "https://www.ungarischlernen.at/",
+          "kind": "official-event-source",
+          "scope": "self",
+          "ingestEvents": true
         }
       ]
     },
@@ -2335,6 +2399,13 @@
           "platform": "instagram",
           "scope": "self",
           "ingestEvents": false
+        },
+        {
+          "label": "MDE-VUS – Magyar Diákok Egyesülete – automatikus eseményforrás",
+          "url": "https://mde.hu/at/",
+          "kind": "official-event-source",
+          "scope": "self",
+          "ingestEvents": true
         }
       ]
     },
@@ -2435,6 +2506,13 @@
           "platform": "facebook",
           "scope": "self",
           "ingestEvents": false
+        },
+        {
+          "label": "Europa-Club – automatikus eseményforrás",
+          "url": "https://europaclub.at/rendezvenyek/meghivok/",
+          "kind": "official-calendar",
+          "scope": "self",
+          "ingestEvents": true
         }
       ]
     },
@@ -2531,6 +2609,20 @@
           "platform": "facebook",
           "scope": "self",
           "ingestEvents": false
+        },
+        {
+          "label": "Délibáb Bécsi Magyar Kultúregyesület – automatikus eseményforrás",
+          "url": "https://www.delibab-becs.com/",
+          "kind": "official-event-source",
+          "scope": "self",
+          "ingestEvents": true
+        },
+        {
+          "label": "Délibáb Bécsi Magyar Kultúregyesület – automatikus eseményforrás",
+          "url": "https://www.wukv.at/",
+          "kind": "official-event-source",
+          "scope": "self",
+          "ingestEvents": true
         }
       ]
     },
@@ -2993,7 +3085,15 @@
       ],
       "entityClass": "umbrella",
       "email": "office@kerekasztal.at",
-      "calendarSources": []
+      "calendarSources": [
+        {
+          "label": "Ausztriai Magyar Szervezetek Kerekasztala – automatikus eseményforrás",
+          "url": "https://kerekasztal.at/",
+          "kind": "official-event-source",
+          "scope": "self",
+          "ingestEvents": true
+        }
+      ]
     },
     {
       "id": "osztrak-magyar-tarsasag",
@@ -3051,7 +3151,15 @@
         }
       ],
       "entityClass": "organization",
-      "calendarSources": []
+      "calendarSources": [
+        {
+          "label": "Osztrák–Magyar Társaság / Gesellschaft Österreich–Ungarn – automatikus eseményforrás",
+          "url": "https://goeu.at/",
+          "kind": "official-event-source",
+          "scope": "self",
+          "ingestEvents": true
+        }
+      ]
     },
     {
       "id": "brand-art-studio",
@@ -3113,7 +3221,15 @@
         ]
       },
       "entityClass": "organization",
-      "calendarSources": []
+      "calendarSources": [
+        {
+          "label": "Brand Art Studio Wien – automatikus eseményforrás",
+          "url": "https://brandart.studio/",
+          "kind": "official-event-source",
+          "scope": "self",
+          "ingestEvents": true
+        }
+      ]
     },
     {
       "id": "club-pannonia",
@@ -3200,7 +3316,15 @@
         }
       ],
       "entityClass": "organization",
-      "calendarSources": []
+      "calendarSources": [
+        {
+          "label": "Club Pannonia – automatikus eseményforrás",
+          "url": "https://club-pannonia.at/",
+          "kind": "official-event-source",
+          "scope": "self",
+          "ingestEvents": true
+        }
+      ]
     },
     {
       "id": "evangelikus-gyulekezet",
@@ -3322,6 +3446,13 @@
           "platform": "facebook",
           "scope": "self",
           "ingestEvents": false
+        },
+        {
+          "label": "Ausztriai Magyar Evangélikus Gyülekezet – automatikus eseményforrás",
+          "url": "https://www.evangelikus-at.com/",
+          "kind": "official-event-source",
+          "scope": "self",
+          "ingestEvents": true
         }
       ]
     },
@@ -3427,6 +3558,13 @@
           "kind": "official-website",
           "scope": "self",
           "ingestEvents": false
+        },
+        {
+          "label": "Ausztriai Magyar Református Lelkigondozó Szolgálat – automatikus eseményforrás",
+          "url": "https://www.reformatus.at/events/2026/",
+          "kind": "official-calendar",
+          "scope": "self",
+          "ingestEvents": true
         }
       ]
     },
@@ -3549,7 +3687,15 @@
         ]
       },
       "entityClass": "organization",
-      "calendarSources": []
+      "calendarSources": [
+        {
+          "label": "Bécsi Főegyházmegye Magyar Közössége – automatikus eseményforrás",
+          "url": "https://katolikus.at/",
+          "kind": "official-event-source",
+          "scope": "self",
+          "ingestEvents": true
+        }
+      ]
     },
     {
       "id": "kuwu",
@@ -4229,7 +4375,15 @@
         }
       ],
       "entityClass": "institution",
-      "calendarSources": [],
+      "calendarSources": [
+        {
+          "label": "Burgenlandi Magyarok Népfőiskolája – automatikus eseményforrás",
+          "url": "https://vhs-ungarn.at/",
+          "kind": "official-event-source",
+          "scope": "self",
+          "ingestEvents": true
+        }
+      ],
       "people": [
         {
           "name": "Somogyi Attila",
@@ -4501,7 +4655,15 @@
           "verifiedAt": "2026-09-27"
         }
       ],
-      "calendarSources": []
+      "calendarSources": [
+        {
+          "label": "UMIZ – Magyar Média és Információs Központ – automatikus eseményforrás",
+          "url": "https://umiz.at/",
+          "kind": "official-event-source",
+          "scope": "self",
+          "ingestEvents": true
+        }
+      ]
     },
     {
       "id": "orf-magyarok",
@@ -4753,6 +4915,13 @@
           "platform": "facebook",
           "scope": "self",
           "ingestEvents": false
+        },
+        {
+          "label": "Alsóőri Kétnyelvű Színjátszóegyesület és Kultúrkör – automatikus eseményforrás",
+          "url": "https://www.theaterverein-unterwart.at/",
+          "kind": "official-event-source",
+          "scope": "self",
+          "ingestEvents": true
         }
       ]
     },
@@ -4919,7 +5088,15 @@
         }
       ],
       "entityClass": "organization",
-      "calendarSources": []
+      "calendarSources": [
+        {
+          "label": "Alsóőri Otthon / Unterwarter Heimathaus – automatikus eseményforrás",
+          "url": "https://www.unterwart.at/heimathaus-unterwart/",
+          "kind": "official-event-source",
+          "scope": "self",
+          "ingestEvents": true
+        }
+      ]
     },
     {
       "id": "kozep-burgenlandi",
@@ -5200,6 +5377,13 @@
           "platform": "instagram",
           "scope": "self",
           "ingestEvents": false
+        },
+        {
+          "label": "HungaroMedia – Magyar Médiageyesület – automatikus eseményforrás",
+          "url": "https://linktr.ee/hungaromedia",
+          "kind": "official-event-source",
+          "scope": "self",
+          "ingestEvents": true
         }
       ]
     },
@@ -5759,7 +5943,15 @@
       ],
       "email": "nefelejtsneptanc@gmail.com",
       "entityClass": "organization",
-      "calendarSources": []
+      "calendarSources": [
+        {
+          "label": "Ne-Felejts! Néptáncegyüttes – automatikus eseményforrás",
+          "url": "https://ne-felejts.weebly.com/events",
+          "kind": "official-calendar",
+          "scope": "self",
+          "ingestEvents": true
+        }
+      ]
     },
     {
       "id": "ne-felejts-gyermek",
@@ -5929,6 +6121,13 @@
           "kind": "official-website",
           "scope": "self",
           "ingestEvents": false
+        },
+        {
+          "label": "80. sz. Árpád Cserkészcsapat – automatikus eseményforrás",
+          "url": "https://wels.cserkesz.eu/programok/",
+          "kind": "official-calendar",
+          "scope": "self",
+          "ingestEvents": true
         }
       ]
     },
@@ -6121,6 +6320,13 @@
           "platform": "facebook",
           "scope": "self",
           "ingestEvents": false
+        },
+        {
+          "label": "Grazi Magyar Egyesület – automatikus eseményforrás",
+          "url": "https://www.grazimagyaregyesuelet.at/",
+          "kind": "official-event-source",
+          "scope": "self",
+          "ingestEvents": true
         }
       ]
     },
@@ -6203,7 +6409,22 @@
       ],
       "email": "verein@femconnectgraz.at",
       "entityClass": "organization",
-      "calendarSources": []
+      "calendarSources": [
+        {
+          "label": "FemConnect Graz – automatikus eseményforrás",
+          "url": "https://femconnectgraz.at/graci-programok/",
+          "kind": "official-calendar",
+          "scope": "self",
+          "ingestEvents": true
+        },
+        {
+          "label": "FemConnect Graz – automatikus eseményforrás",
+          "url": "https://femconnectgraz.at/events/",
+          "kind": "official-calendar",
+          "scope": "self",
+          "ingestEvents": true
+        }
+      ]
     },
     {
       "id": "meok-graz",
@@ -6273,7 +6494,15 @@
         }
       ],
       "entityClass": "organization",
-      "calendarSources": []
+      "calendarSources": [
+        {
+          "label": "MEÖK – Magyar Egyetemisták és Öregdiákok Klubja – automatikus eseményforrás",
+          "url": "https://www.meoek.at/",
+          "kind": "official-event-source",
+          "scope": "self",
+          "ingestEvents": true
+        }
+      ]
     },
     {
       "id": "graci-magyar-ujsag",
@@ -6550,7 +6779,15 @@
         }
       ],
       "entityClass": "organization",
-      "calendarSources": []
+      "calendarSources": [
+        {
+          "label": "SalzUNG – Salzburgi Magyar Egyesület – automatikus eseményforrás",
+          "url": "https://www.salzung.com/hu",
+          "kind": "official-event-source",
+          "scope": "self",
+          "ingestEvents": true
+        }
+      ]
     },
     {
       "id": "salzung-minikonyvtar",
@@ -7010,7 +7247,15 @@
         }
       ],
       "entityClass": "institution",
-      "calendarSources": []
+      "calendarSources": [
+        {
+          "label": "Magyarház – Innsbrucki Magyar Diákotthon és Kultúrcentrum – automatikus eseményforrás",
+          "url": "https://magyarhaz.at/",
+          "kind": "official-event-source",
+          "scope": "self",
+          "ingestEvents": true
+        }
+      ]
     },
     {
       "id": "imike",
@@ -7835,7 +8080,15 @@
         }
       ],
       "entityClass": "organization",
-      "calendarSources": []
+      "calendarSources": [
+        {
+          "label": "Alsóőri Katolikus Egyházközség – automatikus eseményforrás",
+          "url": "https://www.martinus.at/pfarre/1127/kalender",
+          "kind": "official-calendar",
+          "scope": "self",
+          "ingestEvents": true
+        }
+      ]
     },
     {
       "id": "alsoori-vasjobbagyi",
@@ -8087,6 +8340,13 @@
           "kind": "official-calendar",
           "scope": "self",
           "ingestEvents": false
+        },
+        {
+          "label": "Felsőőri Katolikus Egyházközség – automatikus eseményforrás",
+          "url": "https://www.martinus.at/pfarre/1122/kalender",
+          "kind": "official-calendar",
+          "scope": "self",
+          "ingestEvents": true
         }
       ]
     },
@@ -8161,7 +8421,15 @@
       ],
       "entityClass": "organization",
       "email": "office@die-reformierten.at",
-      "calendarSources": []
+      "calendarSources": [
+        {
+          "label": "Felsőőri Református Gyülekezet – automatikus eseményforrás",
+          "url": "https://www.die-reformierten.at/",
+          "kind": "official-event-source",
+          "scope": "self",
+          "ingestEvents": true
+        }
+      ]
     },
     {
       "id": "oriszigeti-evangelikus",
@@ -8246,7 +8514,15 @@
       },
       "entityClass": "organization",
       "contactUrl": "https://evang.at/adressen/siget-in-der-wart/",
-      "calendarSources": []
+      "calendarSources": [
+        {
+          "label": "Őriszigeti Evangélikus Egyházközség – automatikus eseményforrás",
+          "url": "https://evang.at/adressen/siget-in-der-wart/",
+          "kind": "official-event-source",
+          "scope": "self",
+          "ingestEvents": true
+        }
+      ]
     },
     {
       "id": "reformatus-ifjusagi-olvasokor",
@@ -8523,6 +8799,13 @@
           "platform": "facebook",
           "scope": "self",
           "ingestEvents": false
+        },
+        {
+          "label": "Bécsi Magyar Munkásegylet – automatikus eseményforrás",
+          "url": "https://bmme.at/",
+          "kind": "official-event-source",
+          "scope": "self",
+          "ingestEvents": true
         }
       ]
     },
@@ -9370,7 +9653,22 @@
       "profileVerifiedAt": "2026-09-25",
       "entityClass": "institution",
       "contactUrl": "https://culture.hu/hu/wien",
-      "calendarSources": []
+      "calendarSources": [
+        {
+          "label": "Collegium Hungaricum Wien – Magyar Kulturális Intézet – automatikus eseményforrás",
+          "url": "https://culture.hu/hu/wien",
+          "kind": "official-event-source",
+          "scope": "self",
+          "ingestEvents": true
+        },
+        {
+          "label": "Collegium Hungaricum Wien – Magyar Kulturális Intézet – automatikus eseményforrás",
+          "url": "https://culture.hu/hu/wien/esemenyek",
+          "kind": "official-event-source",
+          "scope": "self",
+          "ingestEvents": true
+        }
+      ]
     },
     {
       "id": "rolunk-at",
@@ -9718,7 +10016,15 @@
       "profileVerifiedAt": "2026-09-25",
       "entityClass": "institution",
       "contactUrl": "https://pazmaneum.katolikus.hu/",
-      "calendarSources": []
+      "calendarSources": [
+        {
+          "label": "Collegium Pazmanianum – automatikus eseményforrás",
+          "url": "https://pazmaneum.katolikus.hu/",
+          "kind": "official-event-source",
+          "scope": "self",
+          "ingestEvents": true
+        }
+      ]
     },
     {
       "id": "nevenincs-ovoda-innsbruck",
@@ -9921,7 +10227,15 @@
         ]
       },
       "entityClass": "organization",
-      "calendarSources": []
+      "calendarSources": [
+        {
+          "label": "Bóbiták – Ungarischer Kulturverein Innsbruck – automatikus eseményforrás",
+          "url": "https://bobitak.at/",
+          "kind": "official-event-source",
+          "scope": "self",
+          "ingestEvents": true
+        }
+      ]
     },
     {
       "id": "fuggetlen-magyar-csucsszervezet",
@@ -10781,6 +11095,13 @@
           "kind": "official-website",
           "scope": "self",
           "ingestEvents": false
+        },
+        {
+          "label": "VIPACH – Vienna Photo Art & Creative Hub – automatikus eseményforrás",
+          "url": "https://www.vipach.at/fotokiallitasok",
+          "kind": "official-calendar",
+          "scope": "self",
+          "ingestEvents": true
         }
       ]
     },
@@ -10861,6 +11182,13 @@
           "kind": "official-website",
           "scope": "self",
           "ingestEvents": false
+        },
+        {
+          "label": "Bécsi Magyar Musical Társulat – maMUT – automatikus eseményforrás",
+          "url": "https://www.musicaltarsulat.at/blog",
+          "kind": "official-calendar",
+          "scope": "self",
+          "ingestEvents": true
         }
       ],
       "classificationNote": " A BMI együttműködő partner/helyszín; a maMUT saját szervezeti identitása és musicaltarsulat.at oldala külön marad."
@@ -10918,7 +11246,15 @@
       },
       "entityClass": "media",
       "contactUrl": "https://www.radiohu.hu/impresszum/",
-      "calendarSources": []
+      "calendarSources": [
+        {
+          "label": "Die Brücke – Medien und Kulturelles Podium – automatikus eseményforrás",
+          "url": "https://www.radiohu.hu/",
+          "kind": "official-event-source",
+          "scope": "self",
+          "ingestEvents": true
+        }
+      ]
     },
     {
       "id": "radiohu",
@@ -11250,7 +11586,15 @@
       "phone": "+43 664 2020564",
       "profileVerifiedAt": "2026-09-25",
       "entityClass": "organization",
-      "calendarSources": []
+      "calendarSources": [
+        {
+          "label": "Írottkő Sportegyesület / LAC Geschriebenstein – automatikus eseményforrás",
+          "url": "http://www.geschriebensteinlauf.at",
+          "kind": "official-event-source",
+          "scope": "self",
+          "ingestEvents": true
+        }
+      ]
     },
     {
       "id": "semmelweis-orvosegyesulet",
