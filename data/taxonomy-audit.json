@@ -1,9 +1,9 @@
 {
-  "updated": "2026-09-28T19:45:17.199996+00:00",
+  "updated": "2026-09-28T20:07:50.437871+00:00",
   "summary": {
     "organizations": 158,
     "organizationFlags": 1,
-    "organizationPagesChecked": 327,
+    "organizationPagesChecked": 329,
     "education": 106,
     "educationFlags": 0,
     "events": 29,
@@ -909,7 +909,7 @@
         },
         {
           "url": "https://www.kozpontiszovetseg.at/bornemisza-peter-tarsasag",
-          "error": "HTTP Error 429: Too Many Requests"
+          "error": "HTTP Error 404: Not Found"
         },
         {
           "url": "https://www.kozpontiszovetseg.at/event-details/dr-janosi-zoltan-irodalomtortenesz-iro-kolto",
@@ -1482,20 +1482,22 @@
       "activityCategories": [],
       "signals": [
         "oktatas",
+        "neptanc",
+        "szinhaz",
         "media",
-        "irodalom"
+        "egyhaz",
+        "diak",
+        "irodalom",
+        "muveszet"
       ],
-      "pagesChecked": 1,
+      "pagesChecked": 2,
       "checkedUrls": [
-        "https://europaclub.at/"
+        "https://europaclub.at/",
+        "https://europaclub.at/rolunk/europa-club-tortenete/"
       ],
       "errors": [
         {
           "url": "https://europaclub.at/rendezvenyek/meghivok/",
-          "error": "The read operation timed out"
-        },
-        {
-          "url": "https://europaclub.at/rolunk/europa-club-tortenete/",
           "error": "The read operation timed out"
         }
       ],
@@ -1982,12 +1984,16 @@
         "muveszet",
         "csalad"
       ],
-      "pagesChecked": 2,
+      "pagesChecked": 1,
       "checkedUrls": [
-        "https://kalaka-club.at/",
         "https://www.korosiprogram.hu/partnereink/ausztriai-magyarok-gazdasagi-erdekkozossege-kalaka-klub"
       ],
-      "errors": [],
+      "errors": [
+        {
+          "url": "https://kalaka-club.at/",
+          "error": "HTTP Error 500: Internal Server Error"
+        }
+      ],
       "flags": []
     },
     {
@@ -2236,17 +2242,13 @@
         "muveszet",
         "csalad"
       ],
-      "pagesChecked": 2,
+      "pagesChecked": 3,
       "checkedUrls": [
         "https://www.kozpontiszovetseg.at/",
-        "https://www.kozpontiszovetseg.at/r%C3%B3lunk"
+        "https://www.kozpontiszovetseg.at/r%C3%B3lunk",
+        "https://www.kozpontiszovetseg.at/kapcsolat"
       ],
-      "errors": [
-        {
-          "url": "https://www.kozpontiszovetseg.at/kapcsolat",
-          "error": "HTTP Error 429: Too Many Requests"
-        }
-      ],
+      "errors": [],
       "flags": []
     },
     {
@@ -2465,21 +2467,18 @@
       "signals": [
         "egyhaz",
         "diak",
+        "irodalom",
         "muveszet",
         "sport",
         "csalad"
       ],
-      "pagesChecked": 2,
+      "pagesChecked": 3,
       "checkedUrls": [
+        "https://huheim.at/hu/home/",
         "https://magyarhaz.at/",
         "https://huheim.at/hu/about/"
       ],
-      "errors": [
-        {
-          "url": "https://huheim.at/hu/home/",
-          "error": "Remote end closed connection without response"
-        }
-      ],
+      "errors": [],
       "flags": []
     },
     {
