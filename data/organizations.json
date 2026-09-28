@@ -1326,7 +1326,7 @@
         {
           "label": "Központi Szövetség – Duna Filharmónia Baráti Kör, ZVR és kontakt",
           "url": "https://www.kozpontiszovetseg.at/tagszervezetek",
-          "type": "umbrella-official"
+          "type": "institutional"
         }
       ],
       "entityClass": "organization",
@@ -1622,12 +1622,12 @@
         {
           "label": "Creative Science – BécsCraft hivatalos programoldal",
           "url": "https://www.creativescience.hu/programjaink/becs-craft-workshop/",
-          "type": "official-provider"
+          "type": "official"
         },
         {
           "label": "BMI – BécsCraft külsős szolgáltatói státusz és helyszín",
           "url": "https://www.magyariskola.at/event-details/becs-craft-nyari-tabor-2026",
-          "type": "official-host"
+          "type": "institutional"
         }
       ],
       "activities": [
@@ -1692,15 +1692,16 @@
       "classificationNote": "Külsős partnerprogram. A Creative Science a program szolgáltatója/programgazdája; a Bécsi Magyar Iskola a bécsi helyszínt biztosítja. A BMI saját oldala ezt kifejezetten rögzíti. A BMI nem parent organization, ezért a parentOrganizationId eltávolítva; a BMI kapcsolat host affiliationként marad.",
       "affiliations": [
         {
-          "label": "Creative Science – külsős programgazda/szolgáltató",
-          "sourceUrl": "https://www.creativescience.hu/programjaink/becs-craft-workshop/"
-        },
-        {
           "organizationId": "becsi-magyar-iskola",
           "label": "Bécsi Magyar Iskola – bécsi helyszíngazda / host",
           "sourceUrl": "https://www.magyariskola.at/event-details/becs-craft-nyari-tabor-2026"
         }
-      ]
+      ],
+      "operatedBy": {
+        "name": "Creative Science",
+        "url": "https://www.creativescience.hu/programjaink/becs-craft-workshop/",
+        "relationship": "external-provider"
+      }
     },
     {
       "id": "fecske-klub",
@@ -2059,7 +2060,7 @@
         {
           "label": "KultPult – ÁSZF / szervezői és cégadatok",
           "url": "https://kultpult.eu/wp-content/uploads/2024/06/Altalanos-Szerzodesi-Feltetelek-kultpult.pdf",
-          "type": "official-legal"
+          "type": "official"
         },
         {
           "label": "ORF Magyarok – KultPult és Bencze Mariann",
@@ -8300,17 +8301,17 @@
         {
           "label": "Magyar Országgyűlés – NÖB jegyzőkönyv, BÉMOSZTE bemutatkozás (2012)",
           "url": "https://www.parlament.hu/documents/static/biz39/bizjkv39/NOB/1211281.pdf",
-          "type": "primary-institutional"
+          "type": "institutional"
         },
         {
           "label": "AMAPED – 2019-es tanévnyitó, BÉMOSZTE elnöki részvétel",
           "url": "https://amaped.at/2019/09/17/2019-ben-is-megnyitotta-kapuit-az-amaped/",
-          "type": "partner-institutional"
+          "type": "institutional"
         },
         {
           "label": "Rólunk.at – bejegyzett ausztriai magyar egyesületek, BÉMOSZTE kontakt",
           "url": "https://rolunk.at/ausztriai-magyar-egyesuletek/",
-          "type": "community-directory"
+          "type": "community-media"
         }
       ],
       "memberships": [
@@ -8423,12 +8424,12 @@
         {
           "label": "FOROST 2002 – EMAE történeti webes jelenlét",
           "url": "https://www.forost.uni-muenchen.de/fo_library/forost_Arbeitspapier_04.pdf",
-          "type": "academic-reference"
+          "type": "reference"
         },
         {
           "label": "Magyar Országgyűlés – EMAE 25 éves jubileum és történeti szerep (2012)",
           "url": "https://www.parlament.hu/documents/static/biz39/bizjkv39/NOB/1211281.pdf",
-          "type": "primary-institutional"
+          "type": "institutional"
         },
         {
           "label": "Bundeskanzleramt – Volksgruppenförderung 2014, EMAE",
@@ -12395,12 +12396,12 @@
         {
           "label": "Atalon – Radda István életrajzi interjú, BMKBE elnöki szerep",
           "url": "https://atalon.hu/vilagjarok-klubja-becs-2eyhjn",
-          "type": "biographical-interview"
+          "type": "secondary"
         },
         {
           "label": "Kárpát-medencei civil szervezeti jegyzék – Magyar Kultúrcentrum Baráti Körének Egyesülete",
           "url": "https://www.karpatikum.hu/doc/Karpat_medence.pdf",
-          "type": "directory"
+          "type": "reference"
         }
       ],
       "history": {
@@ -13646,10 +13647,8 @@
       "eventSources": [],
       "categories": [
         "kultura",
-        "zene",
         "szinhaz",
-        "irodalom",
-        "rendezvenyszervezes"
+        "irodalom"
       ],
       "founded": "2023",
       "history": {
@@ -13714,7 +13713,7 @@
         {
           "label": "Eventjet – Fellegi Ádám, szervező Felcser Viktória",
           "url": "https://events.eventjet.at/e/fellegi-adam-a-ferfi-eletenek-3-korszaka-beethoven-a-szerelmes-a-hos-es-a-boelcs/",
-          "type": "ticketing-event"
+          "type": "first-party"
         }
       ],
       "contactUrl": "https://www.magyariskola.at/tamogatoink-farsangi-bal",
