@@ -1176,7 +1176,7 @@
         "német"
       ],
       "email": "agnes.katona@gmx.org",
-      "profileVerifiedAt": "2026-09-26",
+      "profileVerifiedAt": "2026-09-28",
       "evidenceSources": [
         {
           "label": "ORF Magyarok – A Duna Filharmónia Németóváron",
@@ -1194,7 +1194,18 @@
           "type": "secondary"
         }
       ],
-      "entityClass": "organization"
+      "entityClass": "organization",
+      "contactUrl": "https://www.kozpontiszovetseg.at/event-details/zene-es-talalkozas",
+      "calendarSources": [
+        {
+          "label": "Központi Szövetség – Duna Filharmónia kapcsolódó esemény",
+          "url": "https://www.kozpontiszovetseg.at/event-details/zene-es-talalkozas",
+          "kind": "institutional-event-source",
+          "scope": "self",
+          "ingestEvents": true
+        }
+      ],
+      "classificationNote": "Önálló jelenlegi web/social profil nem igazolt; a projekt eseményei intézményi és sajtóforrásokon keresztül dokumentáltak."
     },
     {
       "id": "becsi-magyar-iskola",
@@ -1828,8 +1839,8 @@
       "type": "diákszervezet",
       "intro": "Az 1999-ben alapított MDE‑VUS önkéntes, nonprofit bécsi magyar diákszervezet, amely tájékoztatással, érdekképviselettel, közösségi, kulturális és szakmai programokkal támogatja a Bécsben tanuló magyar hallgatókat.",
       "website": "https://mde.hu/at/",
-      "facebook": null,
-      "instagram": null,
+      "facebook": "https://www.facebook.com/MDEVUS",
+      "instagram": "https://www.instagram.com/mdevus/",
       "eventSources": [
         "https://mde.hu/at/"
       ],
@@ -1873,7 +1884,7 @@
         "német"
       ],
       "email": "info@mde.hu",
-      "profileVerifiedAt": "2026-09-25",
+      "profileVerifiedAt": "2026-09-28",
       "evidenceSources": [
         {
           "label": "MDE-VUS – Rólunk",
@@ -1891,7 +1902,9 @@
           "type": "official"
         }
       ],
-      "entityClass": "organization"
+      "entityClass": "organization",
+      "address": "Mariahilfer Straße 1/D, 1060 Wien, Austria",
+      "contactUrl": "https://mde.hu/partnerek-tamogatok/"
     },
     {
       "id": "europa-club",
@@ -6131,7 +6144,7 @@
         "német"
       ],
       "email": "ujkv.ibk@gmail.com",
-      "profileVerifiedAt": "2026-09-25",
+      "profileVerifiedAt": "2026-09-28",
       "evidenceSources": [
         {
           "label": "Rólunk.at – Szívében magyar / IMIKE bemutatása",
@@ -6159,7 +6172,8 @@
           "type": "institutional"
         }
       ],
-      "entityClass": "organization"
+      "entityClass": "organization",
+      "contactUrl": "https://www.facebook.com/IMIKE2019UJKV/"
     },
     {
       "id": "imeasz",
@@ -7450,7 +7464,7 @@
       "city": "Wien",
       "type": "oktatást támogató egyesület",
       "intro": "A Bécsi Magyar Oktatást Segítő Szülők és Támogatók Egyesülete a bécsi magyar anyanyelvi oktatás, a családok és az oktatási közösség civil támogatója. Szülői részvétellel segíti a magyar nyelvű oktatási és közösségi programok működését, kapcsolatot teremt családok, pedagógusok és szervezetek között.",
-      "website": null,
+      "website": "https://amaped.at/",
       "facebook": null,
       "instagram": null,
       "eventSources": [],
@@ -7498,7 +7512,7 @@
         "magyar",
         "német"
       ],
-      "profileVerifiedAt": "2026-09-25",
+      "profileVerifiedAt": "2026-09-28",
       "history": {
         "summary": "A Bécsi Magyar Oktatást Segítő Szülők és Támogatók Egyesülete a bécsi magyar anyanyelvi oktatás civil hátterének része. Szülői és támogatói közösségként segíti az oktatási programok működését, a családok és pedagógusok közötti együttműködést, valamint a kapcsolódó kulturális kezdeményezéseket.",
         "milestones": [
@@ -7512,7 +7526,18 @@
       },
       "email": "eleonoranagy@aon.at",
       "founded": "2012",
-      "entityClass": "organization"
+      "entityClass": "organization",
+      "contactUrl": "https://amaped.at/",
+      "calendarSources": [
+        {
+          "label": "AMAPED – kapcsolódó oktatási és családi programok",
+          "url": "https://amaped.at/rendezvenyek/",
+          "kind": "partner-calendar",
+          "scope": "related",
+          "ingestEvents": false
+        }
+      ],
+      "classificationNote": "Önálló egyesület; az AMAPED oldala a kapcsolódó oktatási közösségi infrastruktúra hivatalos felülete."
     },
     {
       "id": "erdelyi-magyarok-ausztriai",
@@ -7557,7 +7582,7 @@
         "magyar",
         "német"
       ],
-      "profileVerifiedAt": "2026-09-25",
+      "profileVerifiedAt": "2026-09-28",
       "history": {
         "summary": "Az Erdélyi Magyarok Ausztriai Egyesülete az Ausztriában élő erdélyi magyarok közösségi és kulturális kapcsolatait szervezi. A szervezet történeti emlékezetet, erdélyi magyar identitást és közösségi kapcsolatokat ápoló programokon keresztül kapcsolódik az ausztriai magyar civil élethez.",
         "milestones": [
@@ -7569,7 +7594,18 @@
           }
         ]
       },
-      "entityClass": "organization"
+      "entityClass": "organization",
+      "contactUrl": "https://rolunk.at/ausztriai-magyar-egyesuletek/",
+      "calendarSources": [
+        {
+          "label": "Rólunk.at – ausztriai magyar közösségi programok",
+          "url": "https://rolunk.at/",
+          "kind": "community-calendar",
+          "scope": "related",
+          "ingestEvents": false
+        }
+      ],
+      "classificationNote": "2026-ig nem találtunk igazolt önálló web- vagy social profilt; a szervezet nyilvános jelenlétét intézményi és sajtóforrások dokumentálják."
     },
     {
       "id": "pax-romana",
@@ -7607,6 +7643,11 @@
           "label": "Kerekasztal – tagszervezeti blokk (KMÉM)",
           "url": "https://kerekasztal.at/",
           "type": "institutional"
+        },
+        {
+          "label": "Rólunk.at – aktuális egyesületi lista és kapcsolat",
+          "url": "https://rolunk.at/ausztriai-magyar-egyesuletek/",
+          "type": "community-media"
         }
       ],
       "categories": [
@@ -7652,13 +7693,24 @@
         "magyar",
         "német"
       ],
-      "profileVerifiedAt": "2026-09-27",
+      "profileVerifiedAt": "2026-09-28",
       "entityClass": "organization",
       "memberships": [
         {
           "umbrellaId": "kerekasztal",
           "sourceUrl": "https://kerekasztal.at/",
           "verifiedAt": "2026-09-27"
+        }
+      ],
+      "email": "kmem.wien@gmail.com",
+      "contactUrl": "https://rolunk.at/ausztriai-magyar-egyesuletek/",
+      "calendarSources": [
+        {
+          "label": "Kerekasztal – közös programok",
+          "url": "https://kerekasztal.at/",
+          "kind": "umbrella-calendar",
+          "scope": "umbrella",
+          "ingestEvents": false
         }
       ]
     },
@@ -7669,7 +7721,7 @@
       "city": "Wien",
       "type": "népcsoporti együttműködés",
       "intro": "Az ausztriai népcsoporttanácsok vezetőinek együttműködési fóruma. A konferencia a hivatalosan elismert népcsoportok közös érdekeinek egyeztetését, tapasztalatcseréjét és képviseletét támogatja, beleértve a magyar népcsoportot érintő nyelvi, kulturális és intézményi ügyeket.",
-      "website": null,
+      "website": "https://vorsitzendenkonferenz.org/",
       "facebook": null,
       "instagram": null,
       "eventSources": [],
@@ -7683,6 +7735,16 @@
           "label": "ORF Magyarok – Sajtótájékoztató: veszélyben a soknyelvűség",
           "url": "https://volksgruppen.orf.at/magyarok/stories/3302381/",
           "type": "public-broadcaster"
+        },
+        {
+          "label": "Rólunk.at – aktuális egyesületi lista és kapcsolat",
+          "url": "https://rolunk.at/ausztriai-magyar-egyesuletek/",
+          "type": "community-media"
+        },
+        {
+          "label": "Osztrák állami jelentés – Vorsitzendenkonferenz",
+          "url": "https://www.bundeskanzleramt.gv.at/dam/jcr%3A345e6405-afc4-4fdd-807e-0a0c410bce02/6._at_staatenbericht_sprachencharta_en.pdf",
+          "type": "government"
         }
       ],
       "categories": [
@@ -7704,7 +7766,7 @@
         "német",
         "magyar"
       ],
-      "profileVerifiedAt": "2026-09-25",
+      "profileVerifiedAt": "2026-09-28",
       "history": {
         "summary": "A Népcsoporttanácsi Elnökök Állandó Konferenciája az ausztriai népcsoporttanácsok vezetőinek koordinációs fóruma. A konferencia a hivatalosan elismert népcsoportok közös ügyeinek egyeztetését, intézményi tapasztalatcseréjét és érdekképviseletét szolgálja.",
         "milestones": [
@@ -7716,7 +7778,18 @@
           }
         ]
       },
-      "entityClass": "umbrella"
+      "entityClass": "umbrella",
+      "email": "buero@vorsitzendenkonferenz.org",
+      "contactUrl": "https://vorsitzendenkonferenz.org/",
+      "calendarSources": [
+        {
+          "label": "Vorsitzendenkonferenz – hivatalos hírek és állásfoglalások",
+          "url": "https://vorsitzendenkonferenz.org/",
+          "kind": "official-calendar",
+          "scope": "self",
+          "ingestEvents": false
+        }
+      ]
     },
     {
       "id": "programapik",
@@ -8404,7 +8477,7 @@
       "languages": [
         "magyar"
       ],
-      "profileVerifiedAt": "2026-09-25",
+      "profileVerifiedAt": "2026-09-28",
       "history": {
         "summary": "A NeveNincs Óvoda az innsbrucki magyar kisgyermekes családok közösségi és anyanyelvi programja. 2020-ban már rendszeresen működő baba–mama és óvodai foglalkozásként dokumentálták, magyar mondókákkal, népdalokkal és közösségi találkozásokkal. 2026-ban az Innsbrucki Magyar Ifjúsági és Kultúregyesület továbbra is támogatja rendszeres működését.",
         "milestones": [
@@ -8422,7 +8495,41 @@
           }
         ]
       },
-      "entityClass": "institution"
+      "entityClass": "institution",
+      "email": "ujkv.ibk@gmail.com",
+      "contactUrl": "https://www.facebook.com/IMIKE2019UJKV/",
+      "calendarSources": [
+        {
+          "label": "IMIKE – Facebook programforrás",
+          "url": "https://www.facebook.com/IMIKE2019UJKV/",
+          "kind": "social-calendar",
+          "platform": "facebook",
+          "scope": "parent",
+          "ingestEvents": false
+        },
+        {
+          "label": "IMIKE – Instagram",
+          "url": "https://www.instagram.com/imike_ujkv/",
+          "kind": "social-calendar",
+          "platform": "instagram",
+          "scope": "parent",
+          "ingestEvents": false
+        },
+        {
+          "label": "NeveNincs Óvoda – dokumentált eseményoldal",
+          "url": "https://allevents.in/org/nevenincs-%C3%93voda-imike/20899972",
+          "kind": "secondary-event-calendar",
+          "scope": "self",
+          "ingestEvents": false
+        }
+      ],
+      "affiliations": [
+        {
+          "organizationId": "imike",
+          "label": "Az IMIKE által támogatott és működtetett gyermekközösség",
+          "sourceUrl": "https://volksgruppen.orf.at/magyarok/stories/3337903/"
+        }
+      ]
     },
     {
       "id": "bobitak-innsbruck",
@@ -8538,7 +8645,7 @@
         "magyar",
         "német"
       ],
-      "profileVerifiedAt": "2026-09-27",
+      "profileVerifiedAt": "2026-09-28",
       "history": {
         "summary": "Az Ausztriai Független Magyar Kultúregyesületek Csúcsszervezete korábban országos ernyőszervezetként szerepelt az ausztriai magyar népcsoport intézményi rendszerében. Korábbi BMKE-források és osztrák kormányzati támogatási dokumentumok önálló szervezeti szereplőként tartották nyilván. A Rólunk.at 2025-ös nickelsdorfi Kossuth-megemlékezésről szóló beszámolója már kifejezetten megszűnt szervezetként említi.",
         "milestones": [
@@ -8557,7 +8664,11 @@
         ]
       },
       "entityClass": "umbrella",
-      "status": "ceased"
+      "status": "ceased",
+      "email": "steip-hundsheim@gmx.at",
+      "contactUrl": "https://bukv.at/hu/linkek/",
+      "calendarSources": [],
+      "classificationNote": "Történeti, megszűnt ernyőszervezet. Aktuális saját web/social csatorna nem igazolt; a megadott kapcsolat történeti/intézményi forrásból származik."
     },
     {
       "id": "virgonc-unterwart",
@@ -9482,9 +9593,9 @@
       "city": "Wien",
       "type": "alumni- és közösségi egyesület",
       "intro": "A bécsi Magyar Diákok Egyesületéhez kapcsolódó alumni közösség, amely a korábbi MDE-tagok kapcsolatát, szakmai és közösségi hálóját tartja össze, és együttműködik az aktív diákszervezettel.",
-      "website": null,
-      "facebook": null,
-      "instagram": null,
+      "website": "https://mde.hu/partnerek-tamogatok/",
+      "facebook": "https://www.facebook.com/MDEVUS",
+      "instagram": "https://www.instagram.com/mdevus/",
       "eventSources": [],
       "affiliations": [
         {
@@ -9532,7 +9643,7 @@
         "magyar",
         "német"
       ],
-      "profileVerifiedAt": "2026-09-25",
+      "profileVerifiedAt": "2026-09-28",
       "history": {
         "summary": "Az MDE Alumni a bécsi Magyar Diákok Egyesületéhez kapcsolódó korábbi tagok és végzett hallgatók közössége. Az aktív MDE-VUS partner- és támogatói hálózatában jelenik meg, és szakmai, közösségi és generációs kapcsolatot biztosít az egykori és jelenlegi bécsi magyar diákok között.",
         "milestones": [
@@ -9544,7 +9655,35 @@
           }
         ]
       },
-      "entityClass": "organization"
+      "entityClass": "organization",
+      "email": "info@mde.hu",
+      "address": "Mariahilfer Straße 1/D, 1060 Wien, Austria",
+      "contactUrl": "https://mde.hu/partnerek-tamogatok/",
+      "calendarSources": [
+        {
+          "label": "MDE-VUS – események és alumni-kapcsolódás",
+          "url": "https://mde.hu/",
+          "kind": "parent-calendar",
+          "scope": "parent",
+          "ingestEvents": false
+        },
+        {
+          "label": "MDE-VUS – Facebook",
+          "url": "https://www.facebook.com/MDEVUS",
+          "kind": "social-calendar",
+          "platform": "facebook",
+          "scope": "parent",
+          "ingestEvents": false
+        },
+        {
+          "label": "MDE-VUS – Instagram",
+          "url": "https://www.instagram.com/mdevus/",
+          "kind": "social-calendar",
+          "platform": "instagram",
+          "scope": "parent",
+          "ingestEvents": false
+        }
+      ]
     },
     {
       "id": "irottko-sportegyesulet",
@@ -9680,7 +9819,7 @@
         "magyar",
         "német"
       ],
-      "profileVerifiedAt": "2026-09-26",
+      "profileVerifiedAt": "2026-09-28",
       "evidenceSources": [
         {
           "label": "Kőrösi Csoma Sándor Program – Központi Szövetség és tagszervezetei",
@@ -9699,7 +9838,17 @@
         }
       ],
       "entityClass": "organization",
-      "classificationNote": "A jelenlegi Központi Szövetség tagszervezeti oldalán nem szerepel; ezért a kapcsolat affiliation, nem membership. Az aktuális működési státusz nincs külön bizonyítva."
+      "classificationNote": "A jelenlegi önálló web/social és aktuális működési státusz nincs külön igazolva; történeti szakmai közösségként, forrásolt intézményi kapcsolattal szerepel.",
+      "contactUrl": "https://www.kozpontiszovetseg.at/kapcsolat",
+      "calendarSources": [
+        {
+          "label": "Központi Szövetség – kapcsolódó nyilvános programok",
+          "url": "https://www.kozpontiszovetseg.at/",
+          "kind": "affiliate-calendar",
+          "scope": "related",
+          "ingestEvents": false
+        }
+      ]
     },
     {
       "id": "becsi-magyar-otthon",
@@ -10948,7 +11097,7 @@
         "magyar",
         "német"
       ],
-      "profileVerifiedAt": "2026-09-27",
+      "profileVerifiedAt": "2026-09-28",
       "evidenceSources": [
         {
           "label": "Kerekasztal – tagok",
@@ -10967,7 +11116,18 @@
           }
         ]
       },
-      "entityClass": "organization"
+      "entityClass": "organization",
+      "contactUrl": "https://kerekasztal.at/tagok/",
+      "calendarSources": [
+        {
+          "label": "Kerekasztal – tagszervezeti programok",
+          "url": "https://kerekasztal.at/",
+          "kind": "umbrella-calendar",
+          "scope": "umbrella",
+          "ingestEvents": false
+        }
+      ],
+      "classificationNote": "Önálló tagszervezet, de 2026-ig nem találtunk igazolt saját web/social csatornát; a Kerekasztal hivatalos tagoldala a publikus referenciapont."
     },
     {
       "id": "polgari-magyar-fiatalok",
@@ -11064,7 +11224,9 @@
           "scope": "umbrella",
           "ingestEvents": false
         }
-      ]
+      ],
+      "contactUrl": "https://kerekasztal.at/tagok/",
+      "classificationNote": "Önálló Kerekasztal-tagszervezet; 2026-ig nem találtunk igazolt saját web/social profilt, ezért a Kerekasztal hivatalos tag- és programfelülete szolgál publikus referenciaként."
     },
     {
       "id": "haus-der-volksgruppen-oberwart",
@@ -11073,7 +11235,7 @@
       "city": "Oberwart / Felsőőr",
       "type": "népcsoporti kulturális és közösségi központ",
       "intro": "A 2026. szeptember 26-án hivatalosan megnyitott felsőőri Népcsoportok Háza a burgenlandi magyar, horvát és roma népcsoport intézményeinek közös kulturális, oktatási és közösségi központja. A házban többek között a Burgenlandi Magyar Kultúregyesület és a Burgenlandi Magyarok Népfőiskolája működik.",
-      "website": null,
+      "website": "https://bukv.at/",
       "facebook": null,
       "instagram": null,
       "eventSources": [],
@@ -11098,7 +11260,7 @@
         "magyar",
         "német"
       ],
-      "profileVerifiedAt": "2026-09-27",
+      "profileVerifiedAt": "2026-09-28",
       "affiliations": [
         {
           "organizationId": "bukv",
@@ -11145,7 +11307,21 @@
           }
         ]
       },
-      "entityClass": "institution"
+      "entityClass": "institution",
+      "address": "Schulgasse 33, 7400 Oberwart, Austria",
+      "email": "office@bukv.at",
+      "phone": "+43 3352 38489",
+      "contactUrl": "https://bukv.at/",
+      "calendarSources": [
+        {
+          "label": "Népcsoportok Háza / BUKV – aktuális programok",
+          "url": "https://bukv.at/",
+          "kind": "host-calendar",
+          "scope": "host",
+          "ingestEvents": false
+        }
+      ],
+      "classificationNote": "A háznak külön önálló weboldala jelenleg nincs igazolva; a BUKV mint bent működő magyar intézmény publikus kapcsolati felülete van megadva."
     },
     {
       "id": "univie-finnougristik-library",
