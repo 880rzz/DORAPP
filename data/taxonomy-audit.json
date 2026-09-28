@@ -1,9 +1,9 @@
 {
-  "updated": "2026-09-28T18:57:17.075901+00:00",
+  "updated": "2026-09-28T18:59:43.082447+00:00",
   "summary": {
     "organizations": 158,
     "organizationFlags": 0,
-    "organizationPagesChecked": 338,
+    "organizationPagesChecked": 341,
     "education": 106,
     "educationFlags": 0,
     "events": 29,
@@ -24,19 +24,15 @@
       ],
       "signals": [
         "oktatas",
-        "neptanc",
         "nepzene",
         "szinhaz",
         "media",
-        "egyhaz",
-        "diak",
         "irodalom",
         "sport",
         "csalad"
       ],
-      "pagesChecked": 2,
+      "pagesChecked": 1,
       "checkedUrls": [
-        "https://kerekasztal.at/",
         "https://volksgruppen.orf.at/magyarok/stories/3368109/"
       ],
       "errors": [],
@@ -593,10 +589,6 @@
       ],
       "errors": [
         {
-          "url": "https://www.kozpontiszovetseg.at/",
-          "error": "HTTP Error 429: Too Many Requests"
-        },
-        {
           "url": "https://www.kozpontiszovetseg.at/r%C3%B3lunk",
           "error": "HTTP Error 429: Too Many Requests"
         }
@@ -903,11 +895,16 @@
       ],
       "activityCategories": [],
       "signals": [
+        "oktatas",
+        "szinhaz",
+        "media",
         "irodalom",
         "muveszet"
       ],
-      "pagesChecked": 0,
-      "checkedUrls": [],
+      "pagesChecked": 1,
+      "checkedUrls": [
+        "https://www.kozpontiszovetseg.at/event-details/dr-janosi-zoltan-irodalomtortenesz-iro-kolto"
+      ],
       "errors": [
         {
           "url": "https://bornemisza.at/",
@@ -915,11 +912,7 @@
         },
         {
           "url": "https://www.kozpontiszovetseg.at/bornemisza-peter-tarsasag",
-          "error": "HTTP Error 429: Too Many Requests"
-        },
-        {
-          "url": "https://www.kozpontiszovetseg.at/event-details/dr-janosi-zoltan-irodalomtortenesz-iro-kolto",
-          "error": "HTTP Error 429: Too Many Requests"
+          "error": "HTTP Error 404: Not Found"
         }
       ],
       "flags": []
@@ -1935,17 +1928,13 @@
         "muveszet",
         "csalad"
       ],
-      "pagesChecked": 2,
+      "pagesChecked": 3,
       "checkedUrls": [
         "https://www.facebook.com/IMIKE2019UJKV/",
+        "https://www.instagram.com/imike_ujkv/",
         "https://rolunk.at/nepcsoportunk/sziveben-magyar/"
       ],
-      "errors": [
-        {
-          "url": "https://www.instagram.com/imike_ujkv/",
-          "error": "HTTP Error 429: Too Many Requests"
-        }
-      ],
+      "errors": [],
       "flags": []
     },
     {
@@ -2241,19 +2230,21 @@
       ],
       "activityCategories": [],
       "signals": [
-        "oktatas"
+        "oktatas",
+        "neptanc",
+        "nepzene",
+        "szinhaz",
+        "media",
+        "irodalom",
+        "muveszet",
+        "csalad"
       ],
-      "pagesChecked": 0,
-      "checkedUrls": [],
+      "pagesChecked": 2,
+      "checkedUrls": [
+        "https://www.kozpontiszovetseg.at/",
+        "https://www.kozpontiszovetseg.at/r%C3%B3lunk"
+      ],
       "errors": [
-        {
-          "url": "https://www.kozpontiszovetseg.at/",
-          "error": "HTTP Error 429: Too Many Requests"
-        },
-        {
-          "url": "https://www.kozpontiszovetseg.at/r%C3%B3lunk",
-          "error": "HTTP Error 429: Too Many Requests"
-        },
         {
           "url": "https://www.kozpontiszovetseg.at/kapcsolat",
           "error": "HTTP Error 429: Too Many Requests"
@@ -2274,10 +2265,6 @@
       "pagesChecked": 0,
       "checkedUrls": [],
       "errors": [
-        {
-          "url": "https://www.kozpontiszovetseg.at/",
-          "error": "HTTP Error 429: Too Many Requests"
-        },
         {
           "url": "https://www.kozpontiszovetseg.at/r%C3%B3lunk",
           "error": "HTTP Error 429: Too Many Requests"
@@ -2627,9 +2614,9 @@
       ],
       "pagesChecked": 3,
       "checkedUrls": [
-        "https://rolunk.at/kultura/az-olvasas-mint-kozos-nyelv-magyar-nyelvu-konyvtar-linzben/",
         "https://volksgruppen.orf.at/magyarok/stories/3336653/",
-        "https://kupfticket.com/en/events/boldizsar-ildiko"
+        "https://kupfticket.com/en/events/boldizsar-ildiko",
+        "https://rolunk.at/kultura/az-olvasas-mint-kozos-nyelv-magyar-nyelvu-konyvtar-linzben/"
       ],
       "errors": [],
       "flags": []
@@ -2657,8 +2644,8 @@
       ],
       "pagesChecked": 2,
       "checkedUrls": [
-        "https://rolunk.at/magazin/ti-is-tancoltok-csardast/",
-        "https://www.korosiprogram.hu/partnereink/mi-magyarok-egymasert"
+        "https://www.korosiprogram.hu/partnereink/mi-magyarok-egymasert",
+        "https://rolunk.at/magazin/ti-is-tancoltok-csardast/"
       ],
       "errors": [],
       "flags": []
@@ -3135,8 +3122,8 @@
       ],
       "pagesChecked": 2,
       "checkedUrls": [
-        "https://volksgruppen.orf.at/magyarok/stories/3340511/",
-        "https://rolunk.at/aktualis/mar-55-eve-az-operencias-tengeren-tul-kettos-jubileum-a-felso-ausztriai-magyaroknal/"
+        "https://rolunk.at/aktualis/mar-55-eve-az-operencias-tengeren-tul-kettos-jubileum-a-felso-ausztriai-magyaroknal/",
+        "https://volksgruppen.orf.at/magyarok/stories/3340511/"
       ],
       "errors": [],
       "flags": []
@@ -3344,9 +3331,9 @@
       ],
       "pagesChecked": 3,
       "checkedUrls": [
-        "https://volksgruppen.orf.at/magyarok/stories/3353560/",
         "https://volksgruppen.orf.at/magyarok/stories/3345907/",
-        "https://rolunk.at/kultura/uj-rendezovel-keszul-az-idei-eloadas/"
+        "https://rolunk.at/kultura/uj-rendezovel-keszul-az-idei-eloadas/",
+        "https://rolunk.at/kultura/tevedesek-ejszakaja-premier-a-felsoori-szinjatszoknal/"
       ],
       "errors": [],
       "flags": []
