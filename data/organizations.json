@@ -10432,7 +10432,7 @@
       "state": "wien",
       "city": "Wien / online",
       "type": "magyar könyvcsere- és olvasóközösség",
-      "intro": "Bécsi magyar könyves közösség, amely könyvajánlásra, beszélgetésre, könyvmegosztásra és cserére kapcsolja össze az olvasókat; személyes könyvcsere-programokat is szervez.",
+      "intro": "A Bécsi Könyvbazár magyar könyves közösség, amely Facebookon indult azért, hogy Bécsben élő magyar olvasókat kapcsoljon össze könyvajánlás, beszélgetés, könyvmegosztás és csere céljából. Az online közösség személyes találkozókat is szervez; 2026-ban például könyvcsere-pikniket tartott a Praterben.",
       "website": "https://volksgruppen.orf.at/magyarok/stories/3358259/",
       "facebook": null,
       "instagram": null,
@@ -10444,30 +10444,31 @@
         "kozosseg"
       ],
       "history": {
-        "summary": "A Bécsi Könyvbazár közösségi felületen indult magyar könyves közösségként. A tagok könyveket ajánlanak és cserélnek; 2026-ban személyes csere-bere pikniket is szerveztek a Praterben.",
+        "summary": "A Bécsi Könyvbazár közösségi médiában létrejött magyar olvasóközösség. A kezdeményezés célja, hogy a Bécsben élő magyarok ne csak könyveket ajánljanak egymásnak, hanem a már kiolvasott köteteket megosszák vagy elcseréljék. 2026 júniusában a közösség a Praterben szervezett csere-bere pikniket, ahol a könyvcsere személyes közösségi találkozással kapcsolódott össze. Az ORF beszámolója szerint a projekt mögött az olvasás öröme és a magyar közösségi kapcsolatok erősítése áll.",
         "milestones": [
           {
             "year": "2026",
-            "title": "Csere-bere piknik",
-            "description": "A közösség a Praterben személyes könyvcsere-találkozót szervezett.",
+            "title": "Csere-bere piknik a Praterben",
+            "description": "A Bécsi Könyvbazár személyes könyvcsere-találkozót szervezett a Praterben.",
             "sourceUrl": "https://volksgruppen.orf.at/magyarok/stories/3358259/"
           }
         ]
       },
       "activities": [
-        "magyar könyvek cseréje",
-        "könyvajánlás",
-        "olvasóközösségi beszélgetések",
-        "könyvcsere-találkozók"
+        "magyar könyvek ajánlása és cseréje",
+        "online olvasóközösségi beszélgetések",
+        "személyes könyvcsere-találkozók",
+        "közösségi olvasásnépszerűsítés"
       ],
       "targetGroups": [
         "Bécsben élő magyar olvasók",
-        "magyar könyveket kereső közösség"
+        "magyar könyveket kereső felnőttek és családok",
+        "könyvcserére és olvasóközösségre nyitott érdeklődők"
       ],
       "languages": [
         "magyar"
       ],
-      "profileVerifiedAt": "2026-09-26",
+      "profileVerifiedAt": "2026-09-28",
       "evidenceSources": [
         {
           "label": "ORF Magyarok – Csere-bere pikniket tart a Bécsi Könyvbazár",
@@ -10476,7 +10477,16 @@
         }
       ],
       "entityClass": "project",
-      "classificationNote": "Névvel működő közösségi kezdeményezés; nem jogi egyesület."
+      "classificationNote": "Névvel működő közösségi kezdeményezés; nem jogi egyesület.",
+      "calendarSources": [
+        {
+          "label": "ORF Magyarok – dokumentált Bécsi Könyvbazár esemény",
+          "url": "https://volksgruppen.orf.at/magyarok/stories/3358259/",
+          "kind": "media-event-source",
+          "scope": "self",
+          "ingestEvents": false
+        }
+      ]
     },
     {
       "id": "collegium-hungaricum-konyvtar",
@@ -10484,7 +10494,7 @@
       "state": "wien",
       "city": "Wien",
       "type": "magyar kulturális és kutatási könyvtár",
-      "intro": "A Collegium Hungaricum Wien épületében működő, több mint 15 000 kötetes magyar kulturális könyvtár. Magyar, német és angol nyelvű, magyar vonatkozású állományával az ausztriai magyar olvasóközönség, kutatók és diákok fontos bécsi forráshelye.",
+      "intro": "A Collegium Hungaricum Wien könyvtára a bécsi magyar kulturális intézet részeként több mint 15 000 kötetes Hungarica-gyűjteményt biztosít magyar, német és angol nyelven. A könyvtár kutatók, diákok, családok és a kortárs magyar kultúra iránt érdeklődők számára kínál hozzáférést irodalmi, történelmi, kulturális és gyermekkönyvi anyagokhoz.",
       "website": "https://culture.hu/hu/wien",
       "facebook": null,
       "instagram": null,
@@ -10503,41 +10513,72 @@
         "oktatas"
       ],
       "history": {
-        "summary": "A Collegium Hungaricum bécsi könyvtára évtizedek óta szolgálja az Ausztriában élő magyarokat, kutatókat és diákokat. 2026-ban állománya meghaladta a 15 000 kötetet.",
+        "summary": "A Collegium Hungaricum Wien könyvtára a bécsi magyar kulturális intézet tudás- és forrásközpontja. Állománya 2026-ban meghaladta a 15 000 kötetet, és a magyar nyelvű könyvek mellett jelentős német és angol Hungarica-anyagot is tartalmaz. A gyűjtemény a magyar irodalom, történelem, művészet és társadalomtudomány területét egyaránt lefedi, és a Collegium Hungaricum kiállítási, előadási és kulturális programkínálatához kapcsolódik. A könyvtár előzetes bejelentkezéssel látogatható.",
         "milestones": [
           {
             "year": "2026",
-            "title": "15 000+ kötetes állomány",
-            "description": "Az ORF könyvtári körképe több mint 15 000 kötetes, soknyelvű Hungarica-gyűjteményt dokumentál.",
+            "title": "15 000+ kötetes Hungarica-gyűjtemény",
+            "description": "Az ORF könyvtári körképe több mint 15 000 kötetes gyűjteményt dokumentál.",
             "sourceUrl": "https://volksgruppen.orf.at/magyarok/stories/3358308/"
+          },
+          {
+            "year": "2026",
+            "title": "Könyvtári hozzáférés előzetes bejelentkezéssel",
+            "description": "A Collegium Hungaricum hivatalos kapcsolati oldala a könyvtár látogatását office@chwien.at címen történő előzetes egyeztetéshez köti.",
+            "sourceUrl": "https://culture.hu/hu/wien/elerhetoseg"
           }
         ]
       },
       "activities": [
-        "magyar könyvtári szolgáltatás",
-        "kutatás támogatása",
+        "magyar és Hungarica könyvtári szolgáltatás",
+        "kutatók és diákok szakirodalmi támogatása",
+        "kortárs magyar irodalom és kultúra hozzáférhetővé tétele",
         "gyermek- és történelmi gyűjtemény",
-        "kortárs magyar irodalom hozzáférhetővé tétele"
+        "kapcsolódás a Collegium Hungaricum kulturális programjaihoz"
       ],
       "targetGroups": [
         "Ausztriában élő magyar olvasók",
-        "kutatók és diákok",
-        "magyar kultúra iránt érdeklődők"
+        "kutatók és egyetemi hallgatók",
+        "magyar kultúra iránt érdeklődő osztrák és nemzetközi közönség",
+        "családok és diákok"
       ],
       "languages": [
         "magyar",
         "német",
         "angol"
       ],
-      "profileVerifiedAt": "2026-09-26",
+      "profileVerifiedAt": "2026-09-28",
       "evidenceSources": [
+        {
+          "label": "Collegium Hungaricum Wien – elérhetőség és könyvtár",
+          "url": "https://culture.hu/hu/wien/elerhetoseg",
+          "type": "official"
+        },
         {
           "label": "ORF Magyarok – Magyar könyvtár a CH Bécsben",
           "url": "https://volksgruppen.orf.at/magyarok/stories/3358308/",
           "type": "public-broadcaster"
+        },
+        {
+          "label": "Collegium Hungaricum Wien – aktuális kulturális programok",
+          "url": "https://culture.hu/hu/wien",
+          "type": "official"
         }
       ],
-      "entityClass": "institution"
+      "entityClass": "institution",
+      "email": "office@chwien.at",
+      "phone": "+43 1 214 05 81-0",
+      "address": "Hollandstraße 4, 1020 Wien, Austria",
+      "contactUrl": "https://culture.hu/hu/wien/elerhetoseg",
+      "calendarSources": [
+        {
+          "label": "Collegium Hungaricum Wien – aktuális programok",
+          "url": "https://culture.hu/hu/wien",
+          "kind": "parent-calendar",
+          "scope": "parent",
+          "ingestEvents": false
+        }
+      ]
     },
     {
       "id": "szent-istvan-unnep-becs",
@@ -10926,7 +10967,7 @@
       "state": "wien",
       "city": "Wien",
       "type": "egyetemi szakkönyvtár magyar gyűjteménnyel",
-      "intro": "A Bécsi Egyetem finnugrisztikai szakkönyvtára Ausztriában kiemelkedő Hungarica-gyűjteményt működtet. A magyar vonatkozású állomány 2026-ban mintegy 12–13 ezer kötetet foglal magában, a magyar nyelv, irodalom, történelem és kultúra kutatásához.",
+      "intro": "A Bécsi Egyetem Finnugrisztikai Könyvtára a Universität Wien szakbibliotékai hálózatának része, és Ausztria egyik legjelentősebb magyar vonatkozású tudományos gyűjteményét kezeli. A Hungarica-állomány mintegy 12–13 ezer kötetével a magyar nyelv, irodalom, történelem és kultúra kutatásának fontos bécsi forráshelye.",
       "website": "https://bibliothek.univie.ac.at/fb-finnougristik/",
       "facebook": null,
       "instagram": null,
@@ -10937,25 +10978,33 @@
         "kultura"
       ],
       "history": {
-        "summary": "A gyűjtemény a Bécsi Egyetem finnugrisztikai oktatásához és kutatásához kapcsolódik. Az ORF 2026-os körképe szerint a Hungarica-állomány mintegy 12–13 ezer kötet.",
+        "summary": "A finnugrisztikai könyvtári gyűjtemény a Bécsi Egyetem finnugor nyelvészeti, irodalmi és kulturális kutatásához kapcsolódik. A 2026-os ORF-körkép szerint a magyar vonatkozású Hungarica-állomány mintegy 12–13 ezer kötetet foglal magában, ami Ausztriában kiemelkedő kutatási bázist jelent. A könyvtár nyomtatott és elektronikus szakirodalomhoz, folyóiratokhoz és egyetemi kutatáshoz biztosít hozzáférést, saját szak-katalógussal és személyes kutatói szolgáltatással.",
         "milestones": [
           {
             "year": "2026",
             "title": "12–13 ezer kötetes Hungarica-állomány",
-            "description": "Az ORF Magyarok 2026 júniusában Ausztriában páratlan gazdagságú magyar szakgyűjteményként mutatta be.",
+            "description": "Az ORF Magyarok Ausztria egyik legjelentősebb magyar szakgyűjteményeként mutatja be.",
             "sourceUrl": "https://volksgruppen.orf.at/magyarok/stories/3358806/"
+          },
+          {
+            "year": "2026",
+            "title": "Aktív egyetemi szakbibliotéka",
+            "description": "A Universität Wien saját oldala aktuális nyitvatartást, szak-katalógust és kutatói kapcsolatot közöl.",
+            "sourceUrl": "https://bibliothek.univie.ac.at/fb-finnougristik/"
           }
         ]
       },
       "activities": [
-        "Hungarica-kutatás támogatása",
-        "magyar nyelvi és irodalmi szakirodalom hozzáférhetővé tétele",
-        "egyetemi könyvtári szolgáltatás"
+        "Hungarica-kutatás és szakirodalmi hozzáférés",
+        "magyar nyelvi és irodalmi gyűjtemény kezelése",
+        "egyetemi hallgatók és kutatók könyvtári támogatása",
+        "szak-katalógus és elektronikus források biztosítása"
       ],
       "targetGroups": [
-        "kutatók",
-        "egyetemi hallgatók",
-        "magyar nyelv és kultúra iránt érdeklődők"
+        "magyar nyelvészeti és irodalmi kutatók",
+        "egyetemi hallgatók és oktatók",
+        "Hungarica-forrásokat kereső kutatók",
+        "magyar kultúra tudományos vizsgálata iránt érdeklődők"
       ],
       "languages": [
         "magyar",
@@ -10976,7 +11025,20 @@
         }
       ],
       "entityClass": "host-institution",
-      "classificationNote": "Nem magyar szervezet; osztrák egyetemi intézmény jelentős magyar szolgáltatással/gyűjteménnyel."
+      "classificationNote": "Nem magyar szervezet; osztrák egyetemi intézmény jelentős magyar szolgáltatással/gyűjteménnyel.",
+      "email": "fb-bilispli.ub@univie.ac.at",
+      "phone": "+43 1 4277 16641",
+      "address": "Campus der Universität Wien, Spitalgasse 2-4, Hof 7.2, 1090 Wien, Austria",
+      "contactUrl": "https://bibliothek.univie.ac.at/fb-finnougristik/",
+      "calendarSources": [
+        {
+          "label": "Universitätsbibliothek Wien – Finno-Ugristik News & Events",
+          "url": "https://bibliothek.univie.ac.at/fb-finnougristik/",
+          "kind": "host-calendar",
+          "scope": "host",
+          "ingestEvents": false
+        }
+      ]
     },
     {
       "id": "stadtbibliothek-graz-hungarian",
@@ -10984,7 +11046,7 @@
       "state": "steiermark",
       "city": "Graz",
       "type": "városi könyvtár magyar nyelvű állománnyal",
-      "intro": "A Grazi Városi Könyvtár többnyelvű kínálatában magyar nyelvű felnőtt- és gyermekkönyvek, valamint magyar nyelvtanulási anyagok is elérhetők. A hivatalos nyelvi kínálat az Ungarisch / Magyar kategóriát külön is jelöli.",
+      "intro": "A Stadtbibliothek Graz többnyelvű városi könyvtárhálózatában a magyar külön elérhető nyelv. Felnőtteknek magyar szépirodalmi és ismeretterjesztő könyvek rendelhetők a központi nyelvi depóból, gyermekeknek pedig több fiókban magyar és többnyelvű könyvek érhetők el; a Zanklhof nyelvtanulási központ magyar tananyagokat is kínál.",
       "website": "https://stadtbibliothek.graz.at/Angebote/Sprachenbibliothek/Sprachen-im-Depot",
       "facebook": null,
       "instagram": null,
@@ -10995,18 +11057,35 @@
         "oktatas"
       ],
       "history": {
-        "summary": "A Stadtbibliothek Graz többnyelvű könyvtári szolgáltatásának részeként magyar nyelvű könyveket és nyelvtanulási anyagokat is kínál több fiókban és a nyelvi raktárból.",
-        "milestones": []
+        "summary": "A Stadtbibliothek Graz interkulturális és többnyelvű könyvtári szolgáltatást működtet. A hivatalos kínálatban a magyar az elérhető nyelvek egyike: a Depot Andräschule felnőtt magyar könyvei bármely fiókba ingyenesen megrendelhetők, Graz Süd gyermekrészlegén magyar könyvek is találhatók, a Zanklhof pedig nyelvtanulási médiákat biztosít magyarhoz is. A könyvtár ezen túl LABUKA gyermekprogramokat, ifjúsági eseményeket, workshopokat és nyilvános kulturális programokat szervez.",
+        "milestones": [
+          {
+            "year": "2024",
+            "title": "Magyar a többnyelvű könyvtári kínálatban",
+            "description": "A könyvtár interkulturális tájékoztatója magyar felnőtt-, gyermek- és nyelvtanulási anyagokat dokumentál.",
+            "sourceUrl": "https://stadtbibliothek.graz.at/Portals/0/adam/Content/b2kuaV22rEye8W20hKafwQ/Text/Bibliothek_interkulturell_2105_2024_100x210mm_finalfinalfinal.pdf"
+          },
+          {
+            "year": "2026",
+            "title": "Magyar külön könyvtári nyelvként",
+            "description": "A Stadtbibliothek aktuális egyszerű nyelvű oldala az Ungarisch nyelvet a kínálat részeként sorolja fel.",
+            "sourceUrl": "https://stadtbibliothek.graz.at/Stadtbibliothek-Graz-einfach-erkl%C3%A4rt"
+          }
+        ]
       },
       "activities": [
-        "magyar nyelvű könyvek kölcsönzése",
-        "magyar nyelvtanulási anyagok",
-        "többnyelvű gyermekirodalom"
+        "magyar nyelvű könyvek kölcsönzése és fiókközi rendelése",
+        "magyar nyelvtanulási médiák",
+        "magyar és többnyelvű gyermekkönyvek",
+        "LABUKA gyermekprogramok és kulturális események",
+        "workshopok és ifjúsági könyvtári programok"
       ],
       "targetGroups": [
-        "Grazban élő magyar olvasók",
+        "Grazban élő magyar felnőttek",
+        "magyar és többnyelvű családok",
         "magyarul tanulók",
-        "többnyelvű családok"
+        "gyermekek és fiatalok",
+        "interkulturális könyvtári szolgáltatást keresők"
       ],
       "languages": [
         "német",
@@ -11015,13 +11094,34 @@
       "profileVerifiedAt": "2026-09-28",
       "evidenceSources": [
         {
-          "label": "Stadtbibliothek Graz – Sprachen im Depot",
-          "url": "https://stadtbibliothek.graz.at/Angebote/Sprachenbibliothek/Sprachen-im-Depot",
-          "type": "official"
+          "label": "Stadtbibliothek Graz – magyar és többnyelvű kínálat",
+          "url": "https://stadtbibliothek.graz.at/Stadtbibliothek-Graz-einfach-erkl%C3%A4rt",
+          "type": "municipal"
+        },
+        {
+          "label": "Stadtbibliothek Graz – interkulturális könyvtári kínálat",
+          "url": "https://stadtbibliothek.graz.at/Portals/0/adam/Content/b2kuaV22rEye8W20hKafwQ/Text/Bibliothek_interkulturell_2105_2024_100x210mm_finalfinalfinal.pdf",
+          "type": "municipal"
+        },
+        {
+          "label": "Stadtbibliothek Graz – aktuális események",
+          "url": "https://stadtbibliothek.graz.at/",
+          "type": "municipal"
         }
       ],
       "entityClass": "host-institution",
-      "classificationNote": "Nem magyar szervezet; osztrák városi könyvtár igazolt magyar nyelvű szolgáltatással."
+      "classificationNote": "Nem magyar szervezet; osztrák városi könyvtár igazolt magyar nyelvű szolgáltatással.",
+      "phone": "+43 316 872-800",
+      "contactUrl": "https://stadtbibliothek.graz.at/Kontakt",
+      "calendarSources": [
+        {
+          "label": "Stadtbibliothek Graz – Veranstaltungen",
+          "url": "https://stadtbibliothek.graz.at/",
+          "kind": "official-calendar",
+          "scope": "host",
+          "ingestEvents": false
+        }
+      ]
     },
     {
       "id": "bibliothek-im-zentrum-hungarian",
