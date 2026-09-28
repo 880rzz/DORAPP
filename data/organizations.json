@@ -601,9 +601,7 @@
       "website": "https://www.oeius.at/",
       "facebook": null,
       "instagram": null,
-      "eventSources": [
-        "https://www.oeius.at/hu/veranstaltungen"
-      ],
+      "eventSources": [],
       "memberships": [
         {
           "umbrellaId": "kozponti-szovetseg",
@@ -673,7 +671,15 @@
         ]
       },
       "entityClass": "organization",
-      "calendarSources": []
+      "calendarSources": [
+        {
+          "label": "Kapcsolódó parent/host/projektforrás – nem automatikus eseményforrás",
+          "url": "https://www.oeius.at/hu/veranstaltungen",
+          "kind": "evidence-calendar",
+          "scope": "related",
+          "ingestEvents": false
+        }
+      ]
     },
     {
       "id": "egy-sima-egy-forditott",
@@ -955,9 +961,7 @@
       "website": "https://www.napraforgok.at/r%C3%B3lunk",
       "facebook": "https://www.facebook.com/napraforgok.becs",
       "instagram": null,
-      "eventSources": [
-        "https://www.napraforgok.at/"
-      ],
+      "eventSources": [],
       "evidenceSources": [
         {
           "label": "Napraforgók – gyermekcsoport bemutatása",
@@ -1013,7 +1017,7 @@
           "url": "https://www.napraforgok.at/",
           "kind": "official-calendar",
           "scope": "parent",
-          "ingestEvents": true
+          "ingestEvents": false
         },
         {
           "label": "Napraforgók – Facebook",
@@ -1675,7 +1679,7 @@
           "url": "https://www.magyariskola.at/event-details/becscraft-2026",
           "kind": "host-event-page",
           "scope": "host",
-          "ingestEvents": true
+          "ingestEvents": false
         },
         {
           "label": "Bécsi Magyar Iskola – összes program",
@@ -2402,9 +2406,7 @@
       "website": "https://www.wukv.at/tarka-barka-dalkor/",
       "facebook": "https://www.facebook.com/wukvdelibab",
       "instagram": null,
-      "eventSources": [
-        "https://www.wukv.at/"
-      ],
+      "eventSources": [],
       "evidenceSources": [
         {
           "label": "Délibáb / WUKV – Barka Népdalkör története",
@@ -2495,10 +2497,7 @@
       "website": "https://www.wukv.at/rolunk-szivarvany/",
       "facebook": "https://www.facebook.com/wukvdelibab",
       "instagram": null,
-      "eventSources": [
-        "https://www.wukv.at/category/gyermektanc/",
-        "https://www.delibab-becs.com/"
-      ],
+      "eventSources": [],
       "evidenceSources": [
         {
           "label": "Délibáb Bécs – működő csoportok",
@@ -2575,6 +2574,13 @@
           "platform": "facebook",
           "scope": "parent",
           "ingestEvents": false
+        },
+        {
+          "label": "Kapcsolódó parent/host/projektforrás – nem automatikus eseményforrás",
+          "url": "https://www.wukv.at/category/gyermektanc/",
+          "kind": "evidence-calendar",
+          "scope": "parent",
+          "ingestEvents": false
         }
       ],
       "affiliations": [
@@ -2601,10 +2607,7 @@
       "website": "https://www.wukv.at/rolunk-citerazenekar/",
       "facebook": null,
       "instagram": null,
-      "eventSources": [
-        "https://www.delibab-becs.com/",
-        "https://www.wukv.at/category/zenekar/"
-      ],
+      "eventSources": [],
       "evidenceSources": [
         {
           "label": "Délibáb / WUKV – az egyesület működő csoportjai",
@@ -2658,7 +2661,22 @@
       "entityClass": "group",
       "email": "wukv.delibab@gmail.com",
       "contactUrl": "https://www.wukv.at/",
-      "calendarSources": [],
+      "calendarSources": [
+        {
+          "label": "Kapcsolódó parent/host/projektforrás – nem automatikus eseményforrás",
+          "url": "https://www.delibab-becs.com/",
+          "kind": "evidence-calendar",
+          "scope": "parent",
+          "ingestEvents": false
+        },
+        {
+          "label": "Kapcsolódó parent/host/projektforrás – nem automatikus eseményforrás",
+          "url": "https://www.wukv.at/category/zenekar/",
+          "kind": "evidence-calendar",
+          "scope": "parent",
+          "ingestEvents": false
+        }
+      ],
       "affiliations": [
         {
           "organizationId": "delibab",
@@ -2683,9 +2701,7 @@
       "website": "https://www.delibab-becs.com/",
       "facebook": null,
       "instagram": null,
-      "eventSources": [
-        "https://www.delibab-becs.com/"
-      ],
+      "eventSources": [],
       "evidenceSources": [
         {
           "label": "Rólunk.at – Délibáb 75 jubileumi film",
@@ -2739,7 +2755,15 @@
       "entityClass": "group",
       "email": "wukv.delibab@gmail.com",
       "contactUrl": "https://www.wukv.at/",
-      "calendarSources": [],
+      "calendarSources": [
+        {
+          "label": "Kapcsolódó parent/host/projektforrás – nem automatikus eseményforrás",
+          "url": "https://www.delibab-becs.com/",
+          "kind": "evidence-calendar",
+          "scope": "parent",
+          "ingestEvents": false
+        }
+      ],
       "affiliations": [
         {
           "organizationId": "delibab",
@@ -4059,10 +4083,7 @@
       "website": "https://vhs-ungarn.at/hu/hagyomanyorzes/ori-banda/",
       "facebook": null,
       "instagram": null,
-      "eventSources": [
-        "https://vhs-ungarn.at/",
-        "https://www.vhs-burgenland.at/"
-      ],
+      "eventSources": [],
       "evidenceSources": [
         {
           "label": "VHS Ungarn – Őri Banda",
@@ -4121,7 +4142,22 @@
       "profileVerifiedAt": "2026-09-25",
       "entityClass": "group",
       "contactUrl": "https://vhs-ungarn.at/",
-      "calendarSources": [],
+      "calendarSources": [
+        {
+          "label": "Kapcsolódó parent/host/projektforrás – nem automatikus eseményforrás",
+          "url": "https://vhs-ungarn.at/",
+          "kind": "evidence-calendar",
+          "scope": "parent",
+          "ingestEvents": false
+        },
+        {
+          "label": "Kapcsolódó parent/host/projektforrás – nem automatikus eseményforrás",
+          "url": "https://www.vhs-burgenland.at/",
+          "kind": "evidence-calendar",
+          "scope": "parent",
+          "ingestEvents": false
+        }
+      ],
       "classificationNote": "A Burgenlandi Magyarok Népfőiskolája keretében működő hagyományőrző csoport; a VHS kontaktjai parent infrastruktúra. Nem önálló egyesület."
     },
     {
@@ -4139,9 +4175,7 @@
       "website": "https://vhs-ungarn.at/de/uber-uns/der-verein-volkshochschule-der-burgenlandischen-ungarn/",
       "facebook": null,
       "instagram": null,
-      "eventSources": [
-        "https://vhs-ungarn.at/"
-      ],
+      "eventSources": [],
       "evidenceSources": [
         {
           "label": "Hungarikum.at – burgenlandi magyar hagyományok",
@@ -4198,7 +4232,7 @@
           "url": "https://vhs-ungarn.at/",
           "kind": "parent-calendar",
           "scope": "parent",
-          "ingestEvents": true
+          "ingestEvents": false
         }
       ],
       "classificationNote": "A Burgenlandi Magyarok Népfőiskolája keretében működő hagyományőrző csoport; a VHS kontaktjai parent infrastruktúra. Nem önálló egyesület."
@@ -6118,9 +6152,7 @@
       "website": "https://www.grazimagyaregyesuelet.at/magyar-katolikus-k%C3%B6z%C3%B6ss%C3%A9g-magyar-evang%C3%A9likus-gy%C3%BClekezet/",
       "facebook": null,
       "instagram": null,
-      "eventSources": [
-        "https://www.grazimagyaregyesuelet.at/magyar-katolikus-k%C3%B6z%C3%B6ss%C3%A9g-magyar-evang%C3%A9likus-gy%C3%BClekezet/"
-      ],
+      "eventSources": [],
       "memberships": [
         {
           "umbrellaId": "kozponti-szovetseg",
@@ -6186,7 +6218,15 @@
       "profileVerifiedAt": "2026-09-25",
       "entityClass": "organization",
       "email": "otto.molnar@laposte.net",
-      "calendarSources": []
+      "calendarSources": [
+        {
+          "label": "Kapcsolódó parent/host/projektforrás – nem automatikus eseményforrás",
+          "url": "https://www.grazimagyaregyesuelet.at/magyar-katolikus-k%C3%B6z%C3%B6ss%C3%A9g-magyar-evang%C3%A9likus-gy%C3%BClekezet/",
+          "kind": "evidence-calendar",
+          "scope": "related",
+          "ingestEvents": false
+        }
+      ]
     },
     {
       "id": "salzung",
@@ -6297,9 +6337,7 @@
       "website": "https://www.salzung.com/hu",
       "facebook": null,
       "instagram": null,
-      "eventSources": [
-        "https://www.salzung.com/hu"
-      ],
+      "eventSources": [],
       "founded": "2020-10",
       "history": {
         "summary": "A Salzburgi Magyar Egyesület 2020 októberében indította el a Minikönyvtár projektet. A kezdeti gyűjtemény 200–220 magyar könyvet tartalmazott, és a könyvtár hamar könyvklubokkal, online író-olvasó találkozókkal és egész ausztriai diaszpórát megszólító olvasási kampányokkal bővült.",
@@ -6361,7 +6399,15 @@
       "entityClass": "project",
       "email": "info@salzung.com",
       "contactUrl": "https://www.salzung.com/hu",
-      "calendarSources": []
+      "calendarSources": [
+        {
+          "label": "Kapcsolódó parent/host/projektforrás – nem automatikus eseményforrás",
+          "url": "https://www.salzung.com/hu",
+          "kind": "evidence-calendar",
+          "scope": "parent",
+          "ingestEvents": false
+        }
+      ]
     },
     {
       "id": "salzung-brumi-ovi",
@@ -6377,9 +6423,7 @@
       "website": "https://www.salzung.com/hu/hirek/indul-a-brumi-ovi",
       "facebook": "https://www.facebook.com/salzung",
       "instagram": null,
-      "eventSources": [
-        "https://www.salzung.com/hu"
-      ],
+      "eventSources": [],
       "evidenceSources": [
         {
           "label": "SalzUNG – Indul a Brumi Ovi",
@@ -6446,7 +6490,7 @@
           "url": "https://www.salzung.com/hu",
           "kind": "official-calendar",
           "scope": "parent",
-          "ingestEvents": true
+          "ingestEvents": false
         },
         {
           "label": "SalzUNG – Facebook Messenger / közösségi kapcsolat",
@@ -6480,9 +6524,7 @@
       "website": "https://salzung.com/hu/projektek/oktatas",
       "facebook": null,
       "instagram": null,
-      "eventSources": [
-        "https://salzung.com/hu/projektek/oktatas"
-      ],
+      "eventSources": [],
       "evidenceSources": [
         {
           "label": "SalzUNG – Pitypang Suli",
@@ -6529,7 +6571,15 @@
       "entityClass": "institution",
       "email": "info@salzung.com",
       "contactUrl": "https://www.salzung.com/hu",
-      "calendarSources": [],
+      "calendarSources": [
+        {
+          "label": "Kapcsolódó parent/host/projektforrás – nem automatikus eseményforrás",
+          "url": "https://salzung.com/hu/projektek/oktatas",
+          "kind": "evidence-calendar",
+          "scope": "parent",
+          "ingestEvents": false
+        }
+      ],
       "affiliations": [
         {
           "organizationId": "salzung",
@@ -9695,9 +9745,7 @@
       "website": "https://bukv.at/volkstanzgruppe-virgonc/",
       "facebook": null,
       "instagram": null,
-      "eventSources": [
-        "https://bukv.at/"
-      ],
+      "eventSources": [],
       "evidenceSources": [
         {
           "label": "BMKE – Virgonc Néptánccsoport",
@@ -9737,7 +9785,15 @@
       "profileVerifiedAt": "2026-09-25",
       "entityClass": "group",
       "contactUrl": "https://bukv.at/",
-      "calendarSources": [],
+      "calendarSources": [
+        {
+          "label": "Kapcsolódó parent/host/projektforrás – nem automatikus eseményforrás",
+          "url": "https://bukv.at/",
+          "kind": "evidence-calendar",
+          "scope": "parent",
+          "ingestEvents": false
+        }
+      ],
       "classificationNote": "A BUKV hivatalos csoportjegyzékében az egyesület csoportjaként szerepel; a BUKV web/e-mail/telefon parent infrastruktúra, nem külön szervezeti tulajdon."
     },
     {
@@ -9754,9 +9810,7 @@
       "website": "https://bukv.at/kindervolkstanzgruppe-virgonc/",
       "facebook": null,
       "instagram": null,
-      "eventSources": [
-        "https://bukv.at/"
-      ],
+      "eventSources": [],
       "evidenceSources": [
         {
           "label": "BMKE – Gyermek-Virgonc",
@@ -9828,9 +9882,7 @@
       "website": "https://volksgruppen.orf.at/magyarok/stories/3326218/",
       "facebook": null,
       "instagram": null,
-      "eventSources": [
-        "https://bukv.at/"
-      ],
+      "eventSources": [],
       "evidenceSources": [
         {
           "label": "ORF Magyarok – Kenderkóc indulása",
@@ -9873,7 +9925,15 @@
       "email": "office@bukv.at",
       "phone": "+43 3352 38489",
       "contactUrl": "https://bukv.at/",
-      "calendarSources": [],
+      "calendarSources": [
+        {
+          "label": "Kapcsolódó parent/host/projektforrás – nem automatikus eseményforrás",
+          "url": "https://bukv.at/",
+          "kind": "evidence-calendar",
+          "scope": "parent",
+          "ingestEvents": false
+        }
+      ],
       "classificationNote": "A BUKV hivatalos csoportjegyzékében az egyesület csoportjaként szerepel; a BUKV web/e-mail/telefon parent infrastruktúra, nem külön szervezeti tulajdon."
     },
     {
@@ -9890,9 +9950,7 @@
       "website": "https://bukv.at/volkstanzgruppe-siget-in-der-wart/",
       "facebook": null,
       "instagram": null,
-      "eventSources": [
-        "https://bukv.at/"
-      ],
+      "eventSources": [],
       "evidenceSources": [
         {
           "label": "BMKE – Őriszigeti Magyar Néptáncegyüttes",
@@ -9932,7 +9990,15 @@
       },
       "entityClass": "group",
       "contactUrl": "https://bukv.at/",
-      "calendarSources": [],
+      "calendarSources": [
+        {
+          "label": "Kapcsolódó parent/host/projektforrás – nem automatikus eseményforrás",
+          "url": "https://bukv.at/",
+          "kind": "evidence-calendar",
+          "scope": "parent",
+          "ingestEvents": false
+        }
+      ],
       "classificationNote": "A BUKV hivatalos csoportjegyzékében az egyesület csoportjaként szerepel; a BUKV web/e-mail/telefon parent infrastruktúra, nem külön szervezeti tulajdon."
     },
     {
@@ -9950,9 +10016,7 @@
       "website": "https://bukv.at/volksmusikgruppe-csoerge/",
       "facebook": null,
       "instagram": null,
-      "eventSources": [
-        "https://bukv.at/"
-      ],
+      "eventSources": [],
       "evidenceSources": [
         {
           "label": "BMKE – Csörge Népzenekar",
@@ -9999,7 +10063,15 @@
       "profileVerifiedAt": "2026-09-25",
       "entityClass": "group",
       "contactUrl": "https://bukv.at/",
-      "calendarSources": [],
+      "calendarSources": [
+        {
+          "label": "Kapcsolódó parent/host/projektforrás – nem automatikus eseményforrás",
+          "url": "https://bukv.at/",
+          "kind": "evidence-calendar",
+          "scope": "parent",
+          "ingestEvents": false
+        }
+      ],
       "classificationNote": "A BUKV hivatalos csoportjegyzékében az egyesület csoportjaként szerepel; a BUKV web/e-mail/telefon parent infrastruktúra, nem külön szervezeti tulajdon."
     },
     {
@@ -10017,9 +10089,7 @@
       "website": "https://bukv.at/kindervolksmusikgruppe-szelforgok/",
       "facebook": null,
       "instagram": null,
-      "eventSources": [
-        "https://bukv.at/"
-      ],
+      "eventSources": [],
       "evidenceSources": [
         {
           "label": "BMKE – Szélforgók gyermek népzenei csoport",
@@ -10059,7 +10129,15 @@
       "profileVerifiedAt": "2026-09-25",
       "entityClass": "group",
       "contactUrl": "https://bukv.at/",
-      "calendarSources": [],
+      "calendarSources": [
+        {
+          "label": "Kapcsolódó parent/host/projektforrás – nem automatikus eseményforrás",
+          "url": "https://bukv.at/",
+          "kind": "evidence-calendar",
+          "scope": "parent",
+          "ingestEvents": false
+        }
+      ],
       "classificationNote": "A BUKV hivatalos csoportjegyzékében az egyesület csoportjaként szerepel; a BUKV web/e-mail/telefon parent infrastruktúra, nem külön szervezeti tulajdon."
     },
     {
@@ -10076,9 +10154,7 @@
       "website": "https://bukv.at/gruppen/singkreis/",
       "facebook": null,
       "instagram": null,
-      "eventSources": [
-        "https://bukv.at/"
-      ],
+      "eventSources": [],
       "evidenceSources": [
         {
           "label": "BMKE – Singkreis",
@@ -10134,7 +10210,15 @@
       "email": "office@bukv.at",
       "phone": "+43 3352 38489",
       "contactUrl": "https://bukv.at/",
-      "calendarSources": [],
+      "calendarSources": [
+        {
+          "label": "Kapcsolódó parent/host/projektforrás – nem automatikus eseményforrás",
+          "url": "https://bukv.at/",
+          "kind": "evidence-calendar",
+          "scope": "parent",
+          "ingestEvents": false
+        }
+      ],
       "classificationNote": "A BUKV hivatalos csoportjegyzékében az egyesület csoportjaként szerepel; a BUKV web/e-mail/telefon parent infrastruktúra, nem külön szervezeti tulajdon."
     },
     {
@@ -10151,9 +10235,7 @@
       "website": "https://bukv.at/musikensemble-warter-fantasie/",
       "facebook": null,
       "instagram": null,
-      "eventSources": [
-        "https://bukv.at/"
-      ],
+      "eventSources": [],
       "evidenceSources": [
         {
           "label": "BMKE – Musikensemble Warter Fantasie",
@@ -10194,7 +10276,15 @@
       "email": "office@bukv.at",
       "phone": "+43 3352 38489",
       "contactUrl": "https://bukv.at/",
-      "calendarSources": [],
+      "calendarSources": [
+        {
+          "label": "Kapcsolódó parent/host/projektforrás – nem automatikus eseményforrás",
+          "url": "https://bukv.at/",
+          "kind": "evidence-calendar",
+          "scope": "parent",
+          "ingestEvents": false
+        }
+      ],
       "classificationNote": "A BUKV hivatalos csoportjegyzékében az egyesület csoportjaként szerepel; a BUKV web/e-mail/telefon parent infrastruktúra, nem külön szervezeti tulajdon."
     },
     {
@@ -10211,9 +10301,7 @@
       "website": "https://www.grazimagyaregyesuelet.at/",
       "facebook": "https://www.facebook.com/Grazi.Magyar.Egyesuelet",
       "instagram": null,
-      "eventSources": [
-        "https://www.grazimagyaregyesuelet.at/"
-      ],
+      "eventSources": [],
       "evidenceSources": [
         {
           "label": "Grazi Magyar Egyesület – hivatalos oldal",
@@ -10964,9 +11052,7 @@
       "website": "https://www.kozpontiszovetseg.at/",
       "facebook": null,
       "instagram": null,
-      "eventSources": [
-        "https://www.kozpontiszovetseg.at/"
-      ],
+      "eventSources": [],
       "affiliations": [
         {
           "organizationId": "kozponti-szovetseg",
@@ -11020,7 +11106,15 @@
       "entityClass": "institution",
       "classificationNote": "A Központi Szövetség saját intézménye és székhelye; nem külön tagszervezet.",
       "contactUrl": "https://www.kozpontiszovetseg.at/",
-      "calendarSources": []
+      "calendarSources": [
+        {
+          "label": "Kapcsolódó parent/host/projektforrás – nem automatikus eseményforrás",
+          "url": "https://www.kozpontiszovetseg.at/",
+          "kind": "evidence-calendar",
+          "scope": "related",
+          "ingestEvents": false
+        }
+      ]
     },
     {
       "id": "orseg-naptar",
@@ -11122,9 +11216,7 @@
       "website": "https://www.kozpontiszovetseg.at/",
       "facebook": null,
       "instagram": null,
-      "eventSources": [
-        "https://www.kozpontiszovetseg.at/"
-      ],
+      "eventSources": [],
       "affiliations": [
         {
           "organizationId": "kozponti-szovetseg",
@@ -11177,7 +11269,15 @@
       "email": "iroda@kozpontiszovetseg.at",
       "phone": "+43 1 532 60 48",
       "contactUrl": "https://www.kozpontiszovetseg.at/",
-      "calendarSources": []
+      "calendarSources": [
+        {
+          "label": "Kapcsolódó parent/host/projektforrás – nem automatikus eseményforrás",
+          "url": "https://www.kozpontiszovetseg.at/",
+          "kind": "evidence-calendar",
+          "scope": "parent",
+          "ingestEvents": false
+        }
+      ]
     },
     {
       "id": "sodalitas-kiadoi-projekt",
@@ -11249,9 +11349,7 @@
       "website": "https://www.salzung.com/hu/projektek/hatartalanul",
       "facebook": null,
       "instagram": null,
-      "eventSources": [
-        "https://www.salzung.com/hu/projektek/hatartalanul"
-      ],
+      "eventSources": [],
       "affiliations": [
         {
           "organizationId": "salzung",
@@ -11301,7 +11399,15 @@
       "entityClass": "project",
       "classificationNote": "Többéves, önálló névvel és aloldallal rendelkező művészeti projekt.",
       "contactUrl": "https://www.salzung.com/hu/projektek/hatartalanul",
-      "calendarSources": []
+      "calendarSources": [
+        {
+          "label": "Kapcsolódó parent/host/projektforrás – nem automatikus eseményforrás",
+          "url": "https://www.salzung.com/hu/projektek/hatartalanul",
+          "kind": "evidence-calendar",
+          "scope": "related",
+          "ingestEvents": false
+        }
+      ]
     },
     {
       "id": "salzung-igy-lettunk-magyarok",
@@ -11313,9 +11419,7 @@
       "website": "https://www.salzung.com/hu/projektek/igylettunkmagyarok",
       "facebook": null,
       "instagram": null,
-      "eventSources": [
-        "https://www.salzung.com/hu/projektek/igylettunkmagyarok"
-      ],
+      "eventSources": [],
       "affiliations": [
         {
           "organizationId": "salzung",
@@ -11364,7 +11468,15 @@
       "entityClass": "project",
       "classificationNote": "Önálló névvel, célcsoporttal, kiadvánnyal és projektoldallal rendelkező diaszpóra-oktatási projekt.",
       "contactUrl": "https://www.salzung.com/hu/projektek/igylettunkmagyarok",
-      "calendarSources": []
+      "calendarSources": [
+        {
+          "label": "Kapcsolódó parent/host/projektforrás – nem automatikus eseményforrás",
+          "url": "https://www.salzung.com/hu/projektek/igylettunkmagyarok",
+          "kind": "evidence-calendar",
+          "scope": "related",
+          "ingestEvents": false
+        }
+      ]
     },
     {
       "id": "ausztriai-diaszpora-iskolatabor",
@@ -11541,9 +11653,7 @@
       "website": "https://www.grazimagyaregyesuelet.at/",
       "facebook": null,
       "instagram": null,
-      "eventSources": [
-        "https://www.grazimagyaregyesuelet.at/"
-      ],
+      "eventSources": [],
       "affiliations": [
         {
           "organizationId": "grazi-magyar-egyesulet",
@@ -11601,7 +11711,15 @@
       "classificationNote": "Történeti, évente ismétlődő bálsorozat; az egyes évek az eseménynaptárba tartoznak. A grazimagyaregyesuelet.at és gme1888@gmx.at a Grazi Magyar Egyesület parent infrastruktúrája; a rekord rendezvénysorozatot reprezentál, nem külön egyesületet.",
       "email": "gme1888@gmx.at",
       "contactUrl": "https://www.grazimagyaregyesuelet.at/",
-      "calendarSources": []
+      "calendarSources": [
+        {
+          "label": "Kapcsolódó parent/host/projektforrás – nem automatikus eseményforrás",
+          "url": "https://www.grazimagyaregyesuelet.at/",
+          "kind": "evidence-calendar",
+          "scope": "parent",
+          "ingestEvents": false
+        }
+      ]
     },
     {
       "id": "rolunk-szolunk-tabor",
