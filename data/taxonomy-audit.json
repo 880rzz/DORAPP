@@ -1,9 +1,9 @@
 {
-  "updated": "2026-09-28T16:41:33.404775+00:00",
+  "updated": "2026-09-28T16:42:47.485606+00:00",
   "summary": {
     "organizations": 157,
-    "organizationFlags": 1,
-    "organizationPagesChecked": 344,
+    "organizationFlags": 0,
+    "organizationPagesChecked": 352,
     "education": 106,
     "educationFlags": 0,
     "events": 29,
@@ -130,24 +130,18 @@
       ],
       "activityCategories": [],
       "signals": [
-        "egyhaz"
+        "media",
+        "egyhaz",
+        "muveszet",
+        "csalad"
       ],
-      "pagesChecked": 0,
-      "checkedUrls": [],
-      "errors": [
-        {
-          "url": "https://www.martinus.at/",
-          "error": "<urlopen error timed out>"
-        },
-        {
-          "url": "https://www.martinus.at/pfarre/1127/kalender",
-          "error": "<urlopen error timed out>"
-        },
-        {
-          "url": "https://www.martinus.at/unterwart",
-          "error": "<urlopen error timed out>"
-        }
+      "pagesChecked": 3,
+      "checkedUrls": [
+        "https://www.martinus.at/",
+        "https://www.martinus.at/pfarre/1127/kalender",
+        "https://www.martinus.at/unterwart"
       ],
+      "errors": [],
       "flags": []
     },
     {
@@ -1116,23 +1110,20 @@
       "activityCategories": [],
       "signals": [
         "oktatas",
+        "szinhaz",
         "media",
-        "irodalom"
+        "irodalom",
+        "muveszet",
+        "csalad"
       ],
-      "pagesChecked": 2,
+      "pagesChecked": 3,
       "checkedUrls": [
         "https://culture.hu/hu/wien",
+        "https://culture.hu/hu/wien/esemenyek",
         "https://culture.hu/de/wien/jubilaum"
       ],
-      "errors": [
-        {
-          "url": "https://culture.hu/hu/wien/esemenyek",
-          "error": "The read operation timed out"
-        }
-      ],
-      "flags": [
-        "weak-source-signal:muveszet"
-      ]
+      "errors": [],
+      "flags": []
     },
     {
       "id": "collegium-pazmanianum",
@@ -1574,24 +1565,16 @@
       ],
       "activityCategories": [],
       "signals": [
+        "media",
         "egyhaz"
       ],
-      "pagesChecked": 0,
-      "checkedUrls": [],
-      "errors": [
-        {
-          "url": "https://www.martinus.at/pfarre/1122",
-          "error": "<urlopen error timed out>"
-        },
-        {
-          "url": "https://www.martinus.at/pfarre/1122/kalender",
-          "error": "<urlopen error timed out>"
-        },
-        {
-          "url": "https://www.martinus.at/pfarre/1122/kalender/calendar/1808040.html",
-          "error": "<urlopen error timed out>"
-        }
+      "pagesChecked": 3,
+      "checkedUrls": [
+        "https://www.martinus.at/pfarre/1122",
+        "https://www.martinus.at/pfarre/1122/kalender",
+        "https://www.martinus.at/pfarre/1122/kalender/calendar/1808040.html"
       ],
+      "errors": [],
       "flags": []
     },
     {
@@ -1906,13 +1889,17 @@
         "muveszet",
         "csalad"
       ],
-      "pagesChecked": 3,
+      "pagesChecked": 2,
       "checkedUrls": [
         "https://www.facebook.com/IMIKE2019UJKV/",
-        "https://www.instagram.com/imike_ujkv/",
         "https://rolunk.at/nepcsoportunk/sziveben-magyar/"
       ],
-      "errors": [],
+      "errors": [
+        {
+          "url": "https://www.instagram.com/imike_ujkv/",
+          "error": "HTTP Error 429: Too Many Requests"
+        }
+      ],
       "flags": []
     },
     {
@@ -2683,9 +2670,10 @@
         "neptanc",
         "nepzene",
         "enekkar",
-        "szinhaz",
+        "cserkesz",
         "media",
         "egyhaz",
+        "diak",
         "irodalom",
         "muveszet",
         "csalad"
@@ -2694,7 +2682,7 @@
       "checkedUrls": [
         "https://www.napraforgok.at/r%C3%B3lunk",
         "https://www.napraforgok.at/",
-        "https://www.magyariskola.at/event-details/napraforgocskak-2026"
+        "https://www.napraforgok.at/vezetoseg"
       ],
       "errors": [],
       "flags": []
@@ -2988,17 +2976,22 @@
       "activityCategories": [],
       "signals": [
         "oktatas",
+        "neptanc",
         "nepzene",
         "enekkar",
+        "szinhaz",
+        "media",
+        "egyhaz",
         "diak",
         "irodalom",
         "muveszet",
         "csalad"
       ],
-      "pagesChecked": 2,
+      "pagesChecked": 3,
       "checkedUrls": [
         "https://vhs-ungarn.at/de/uber-uns/der-verein-volkshochschule-der-burgenlandischen-ungarn/",
-        "https://vhs-ungarn.at/"
+        "https://vhs-ungarn.at/",
+        "https://hungarikum.at/hu/hagyomanyok/"
       ],
       "errors": [],
       "flags": []
@@ -3521,15 +3514,17 @@
       "activityCategories": [],
       "signals": [
         "oktatas",
-        "neptanc",
+        "enekkar",
+        "szinhaz",
         "irodalom",
         "muveszet",
         "csalad"
       ],
-      "pagesChecked": 2,
+      "pagesChecked": 3,
       "checkedUrls": [
-        "https://salzung.com/hu/esemenyek/esemeny-blog",
-        "https://salzung.com/hu/?start=8"
+        "https://www.salzung.com/hu/hirek/indul-a-brumi-ovi",
+        "https://www.salzung.com/hu",
+        "https://salzung.com/hu/hirek/indul-a-brumi-ovi"
       ],
       "errors": [],
       "flags": []
