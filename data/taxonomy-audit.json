@@ -1,8 +1,8 @@
 {
-  "updated": "2026-09-28T19:21:40.672526+00:00",
+  "updated": "2026-09-28T19:23:28.793693+00:00",
   "summary": {
     "organizations": 158,
-    "organizationFlags": 0,
+    "organizationFlags": 1,
     "organizationPagesChecked": 327,
     "education": 106,
     "educationFlags": 0,
@@ -1476,10 +1476,27 @@
         "kultura"
       ],
       "activityCategories": [],
-      "signals": [],
-      "pagesChecked": 0,
-      "checkedUrls": [],
-      "errors": [],
+      "signals": [
+        "oktatas",
+        "neptanc",
+        "szinhaz",
+        "media",
+        "egyhaz",
+        "diak",
+        "irodalom",
+        "muveszet"
+      ],
+      "pagesChecked": 2,
+      "checkedUrls": [
+        "https://europaclub.at/",
+        "https://europaclub.at/rolunk/europa-club-tortenete/"
+      ],
+      "errors": [
+        {
+          "url": "https://europaclub.at/rendezvenyek/meghivok/",
+          "error": "The read operation timed out"
+        }
+      ],
       "flags": []
     },
     {
@@ -1641,13 +1658,17 @@
         "muveszet",
         "csalad"
       ],
-      "pagesChecked": 3,
+      "pagesChecked": 2,
       "checkedUrls": [
         "https://femconnectgraz.at/",
-        "https://femconnectgraz.at/graci-programok/",
-        "https://femconnectgraz.at/events/"
+        "https://femconnectgraz.at/graci-programok/"
       ],
-      "errors": [],
+      "errors": [
+        {
+          "url": "https://femconnectgraz.at/events/",
+          "error": "HTTP Error 520: <none>"
+        }
+      ],
       "flags": []
     },
     {
@@ -2208,21 +2229,19 @@
       ],
       "activityCategories": [],
       "signals": [
-        "oktatas",
-        "neptanc",
-        "nepzene",
-        "szinhaz",
-        "media",
-        "irodalom",
-        "muveszet",
-        "csalad"
+        "oktatas"
       ],
-      "pagesChecked": 2,
-      "checkedUrls": [
-        "https://www.kozpontiszovetseg.at/",
-        "https://www.kozpontiszovetseg.at/r%C3%B3lunk"
-      ],
+      "pagesChecked": 0,
+      "checkedUrls": [],
       "errors": [
+        {
+          "url": "https://www.kozpontiszovetseg.at/",
+          "error": "HTTP Error 429: Too Many Requests"
+        },
+        {
+          "url": "https://www.kozpontiszovetseg.at/r%C3%B3lunk",
+          "error": "HTTP Error 429: Too Many Requests"
+        },
         {
           "url": "https://www.kozpontiszovetseg.at/kapcsolat",
           "error": "HTTP Error 429: Too Many Requests"
@@ -2446,21 +2465,18 @@
       "signals": [
         "egyhaz",
         "diak",
+        "irodalom",
         "muveszet",
         "sport",
         "csalad"
       ],
-      "pagesChecked": 2,
+      "pagesChecked": 3,
       "checkedUrls": [
+        "https://huheim.at/hu/home/",
         "https://magyarhaz.at/",
         "https://huheim.at/hu/about/"
       ],
-      "errors": [
-        {
-          "url": "https://huheim.at/hu/home/",
-          "error": "Remote end closed connection without response"
-        }
-      ],
+      "errors": [],
       "flags": []
     },
     {
@@ -3596,7 +3612,9 @@
         "https://www.salzung.com/hu/projektek/igylettunkmagyarok"
       ],
       "errors": [],
-      "flags": []
+      "flags": [
+        "possible-activity-classification"
+      ]
     },
     {
       "id": "salzung-minikonyvtar",
