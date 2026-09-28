@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-27",
+  "updated": "2026-09-28",
   "sourcePolicy": "Official organization sources preferred; umbrella directories and Austrian-Hungarian community media used as secondary verification. Missing social/event links remain null rather than guessed.",
   "states": [
     {
@@ -10530,6 +10530,284 @@
         ]
       },
       "entityClass": "institution"
+    },
+    {
+      "id": "univie-finnougristik-library",
+      "name": "Universität Wien – Finnugrisztikai Könyvtár / Hungarica-gyűjtemény",
+      "state": "wien",
+      "city": "Wien",
+      "type": "egyetemi szakkönyvtár magyar gyűjteménnyel",
+      "intro": "A Bécsi Egyetem finnugrisztikai szakkönyvtára Ausztriában kiemelkedő Hungarica-gyűjteményt működtet. A magyar vonatkozású állomány 2026-ban mintegy 12–13 ezer kötetet foglal magában, a magyar nyelv, irodalom, történelem és kultúra kutatásához.",
+      "website": "https://bibliothek.univie.ac.at/fb-finnougristik/",
+      "facebook": null,
+      "instagram": null,
+      "eventSources": [],
+      "categories": [
+        "irodalom",
+        "oktatas",
+        "kultura"
+      ],
+      "history": {
+        "summary": "A gyűjtemény a Bécsi Egyetem finnugrisztikai oktatásához és kutatásához kapcsolódik. Az ORF 2026-os körképe szerint a Hungarica-állomány mintegy 12–13 ezer kötet.",
+        "milestones": [
+          {
+            "year": "2026",
+            "title": "12–13 ezer kötetes Hungarica-állomány",
+            "description": "Az ORF Magyarok 2026 júniusában Ausztriában páratlan gazdagságú magyar szakgyűjteményként mutatta be.",
+            "sourceUrl": "https://volksgruppen.orf.at/magyarok/stories/3358806/"
+          }
+        ]
+      },
+      "activities": [
+        "Hungarica-kutatás támogatása",
+        "magyar nyelvi és irodalmi szakirodalom hozzáférhetővé tétele",
+        "egyetemi könyvtári szolgáltatás"
+      ],
+      "targetGroups": [
+        "kutatók",
+        "egyetemi hallgatók",
+        "magyar nyelv és kultúra iránt érdeklődők"
+      ],
+      "languages": [
+        "magyar",
+        "német",
+        "angol"
+      ],
+      "profileVerifiedAt": "2026-09-28",
+      "evidenceSources": [
+        {
+          "label": "Universitätsbibliothek Wien – Finno-Ugristik",
+          "url": "https://bibliothek.univie.ac.at/fb-finnougristik/",
+          "type": "official"
+        },
+        {
+          "label": "ORF Magyarok – Magyar könyvtár a Bécsi Egyetemen",
+          "url": "https://volksgruppen.orf.at/magyarok/stories/3358806/",
+          "type": "public-broadcaster"
+        }
+      ],
+      "entityClass": "host-institution",
+      "classificationNote": "Nem magyar szervezet; osztrák egyetemi intézmény jelentős magyar szolgáltatással/gyűjteménnyel."
+    },
+    {
+      "id": "stadtbibliothek-graz-hungarian",
+      "name": "Stadtbibliothek Graz – magyar nyelvű gyűjtemény",
+      "state": "steiermark",
+      "city": "Graz",
+      "type": "városi könyvtár magyar nyelvű állománnyal",
+      "intro": "A Grazi Városi Könyvtár többnyelvű kínálatában magyar nyelvű felnőtt- és gyermekkönyvek, valamint magyar nyelvtanulási anyagok is elérhetők. A hivatalos nyelvi kínálat az Ungarisch / Magyar kategóriát külön is jelöli.",
+      "website": "https://stadtbibliothek.graz.at/Angebote/Sprachenbibliothek/Sprachen-im-Depot",
+      "facebook": null,
+      "instagram": null,
+      "eventSources": [],
+      "categories": [
+        "irodalom",
+        "kultura",
+        "oktatas"
+      ],
+      "history": {
+        "summary": "A Stadtbibliothek Graz többnyelvű könyvtári szolgáltatásának részeként magyar nyelvű könyveket és nyelvtanulási anyagokat is kínál több fiókban és a nyelvi raktárból.",
+        "milestones": []
+      },
+      "activities": [
+        "magyar nyelvű könyvek kölcsönzése",
+        "magyar nyelvtanulási anyagok",
+        "többnyelvű gyermekirodalom"
+      ],
+      "targetGroups": [
+        "Grazban élő magyar olvasók",
+        "magyarul tanulók",
+        "többnyelvű családok"
+      ],
+      "languages": [
+        "német",
+        "magyar"
+      ],
+      "profileVerifiedAt": "2026-09-28",
+      "evidenceSources": [
+        {
+          "label": "Stadtbibliothek Graz – Sprachen im Depot",
+          "url": "https://stadtbibliothek.graz.at/Angebote/Sprachenbibliothek/Sprachen-im-Depot",
+          "type": "official"
+        }
+      ],
+      "entityClass": "host-institution",
+      "classificationNote": "Nem magyar szervezet; osztrák városi könyvtár igazolt magyar nyelvű szolgáltatással."
+    },
+    {
+      "id": "bibliothek-im-zentrum-hungarian",
+      "name": "Bibliothek im Zentrum Wiener Neustadt – magyar könyvek",
+      "state": "niederoesterreich",
+      "city": "Wiener Neustadt",
+      "type": "városi és főiskolai könyvtár magyar nyelvű állománnyal",
+      "intro": "A Wiener Neustadt-i Bibliothek im Zentrum a városi könyvtár és az FH Wiener Neustadt közös könyvtára. A 80 ezres fizikai állomány idegennyelvű részében magyar felnőtt- és gyermekkönyvek is találhatók, és igény esetén további címek előrendelhetők.",
+      "website": "https://www.wiener-neustadt.at/index.php/de/kultur-tourismus/stadtbuecherei",
+      "facebook": null,
+      "instagram": null,
+      "eventSources": [],
+      "categories": [
+        "irodalom",
+        "kultura",
+        "oktatas"
+      ],
+      "history": {
+        "summary": "2019 óta a Stadtbücherei Wiener Neustadt és az FH Wiener Neustadt könyvtára közös Bibliothek im Zentrumként működik. Az ORF 2026-os körképe magyar nyelvű felnőtt- és gyermekkönyvek jelenlétét is dokumentálja.",
+        "milestones": [
+          {
+            "year": "2019",
+            "title": "A Bibliothek im Zentrum létrejötte",
+            "description": "A városi és főiskolai könyvtár közös intézménnyé egyesült.",
+            "sourceUrl": "https://www.wiener-neustadt.at/index.php/de/kultur-tourismus/stadtbuecherei"
+          },
+          {
+            "year": "2026",
+            "title": "Magyar állomány dokumentálása",
+            "description": "Az ORF Magyarok magyar felnőtt- és gyermekkönyveket talált az idegennyelvű állományban.",
+            "sourceUrl": "https://volksgruppen.orf.at/magyarok/stories/3369413/"
+          }
+        ]
+      },
+      "activities": [
+        "magyar könyvek kölcsönzése",
+        "könyvelőrendelés igény szerint",
+        "nyilvános könyvtári szolgáltatás"
+      ],
+      "targetGroups": [
+        "Wiener Neustadt és környéke magyar olvasói",
+        "családok",
+        "hallgatók"
+      ],
+      "languages": [
+        "német",
+        "magyar"
+      ],
+      "profileVerifiedAt": "2026-09-28",
+      "evidenceSources": [
+        {
+          "label": "Stadt Wiener Neustadt – Bibliothek im Zentrum",
+          "url": "https://www.wiener-neustadt.at/index.php/de/kultur-tourismus/stadtbuecherei",
+          "type": "municipal"
+        },
+        {
+          "label": "ORF Magyarok – Magyar könyvek Bécsújhelyen",
+          "url": "https://volksgruppen.orf.at/magyarok/stories/3369413/",
+          "type": "public-broadcaster"
+        }
+      ],
+      "entityClass": "host-institution",
+      "classificationNote": "Nem magyar szervezet; osztrák nyilvános/főiskolai könyvtár magyar nyelvű állománnyal."
+    },
+    {
+      "id": "vorarlberger-landesbibliothek-hungarian",
+      "name": "Vorarlberger Landesbibliothek – magyar nyelvű állomány",
+      "state": "vorarlberg",
+      "city": "Bregenz",
+      "type": "tartományi könyvtár magyar nyelvű tartalommal",
+      "intro": "A Vorarlbergi Tartományi Könyvtár fizikai állományában magyar nyelvű könyvek, folyóiratok és régióhoz kapcsolódó magyar fordítások is megtalálhatók. Az ORF 2026-os felmérése 17 magyar nyelvű fizikai tételt dokumentált.",
+      "website": "https://vlb.vorarlberg.at/",
+      "facebook": null,
+      "instagram": null,
+      "eventSources": [],
+      "categories": [
+        "irodalom",
+        "kultura"
+      ],
+      "history": {
+        "summary": "A Vorarlberger Landesbibliothek regionális tudományos könyvtár. A 2026-os ORF-adatfelvétel külön magyar nyelvű fizikai állományt is dokumentált.",
+        "milestones": [
+          {
+            "year": "2026",
+            "title": "17 magyar nyelvű fizikai tétel",
+            "description": "A könyvtár közlése alapján 17 magyar nyelvű fizikai tétel szerepelt az állományban.",
+            "sourceUrl": "https://volksgruppen.orf.at/magyarok/stories/3362082/"
+          }
+        ]
+      },
+      "activities": [
+        "magyar nyelvű könyvek és folyóiratok hozzáférhetővé tétele",
+        "regionális kutatási szolgáltatás"
+      ],
+      "targetGroups": [
+        "Vorarlbergben élő magyar olvasók",
+        "kutatók",
+        "magyar nyelvű forrásokat keresők"
+      ],
+      "languages": [
+        "német",
+        "magyar"
+      ],
+      "profileVerifiedAt": "2026-09-28",
+      "evidenceSources": [
+        {
+          "label": "Vorarlberger Landesbibliothek – hivatalos oldal",
+          "url": "https://vlb.vorarlberg.at/",
+          "type": "official"
+        },
+        {
+          "label": "ORF Magyarok – Vorarlbergi Tartományi Könyvtár",
+          "url": "https://volksgruppen.orf.at/magyarok/stories/3362082/",
+          "type": "public-broadcaster"
+        }
+      ],
+      "entityClass": "host-institution",
+      "classificationNote": "Nem magyar szervezet; osztrák tartományi könyvtár igazolt magyar nyelvű állománnyal."
+    },
+    {
+      "id": "burgenlaendische-landesbibliothek-hungarian",
+      "name": "Burgenländische Landesbibliothek – magyar nyelvű állomány",
+      "state": "burgenland",
+      "city": "Mattersburg / Kismarton",
+      "type": "tartományi tudományos könyvtár jelentős magyar állománnyal",
+      "intro": "A Burgenlandi Tartományi Könyvtár tudományos és regionális gyűjteményében több ezer magyar nyelvű tétel található. A könyvtár 2026-os katalógusadata szerint magyar nyelvre szűrve 9 671 találat jelent meg, ebből mintegy 8 000 könyv és kötet.",
+      "website": "https://www.burgenland.at/themen/wissenschaft/landesbibliothek/",
+      "facebook": null,
+      "instagram": null,
+      "eventSources": [],
+      "categories": [
+        "irodalom",
+        "kultura",
+        "oktatas"
+      ],
+      "history": {
+        "summary": "A Burgenländische Landesbibliothek több mint 120 ezer könyves tudományos és közigazgatási könyvtár. A magyar nyelvű anyag különösen jelentős a tartomány történeti és népcsoporti kapcsolatai miatt.",
+        "milestones": [
+          {
+            "year": "2026",
+            "title": "9 671 magyar nyelvű katalógustétel",
+            "description": "Az ORF Magyarok által közölt könyvtári adat szerint nyelvi szűréssel 9 671 magyar tétel jelent meg a katalógusban.",
+            "sourceUrl": "https://volksgruppen.orf.at/magyarok/stories/3361229/"
+          }
+        ]
+      },
+      "activities": [
+        "magyar nyelvű könyvek és periodikák hozzáférhetővé tétele",
+        "Burgenland-kutatás",
+        "tudományos könyvtári szolgáltatás"
+      ],
+      "targetGroups": [
+        "burgenlandi magyar olvasók",
+        "kutatók",
+        "helytörténeti és népcsoporti kutatók"
+      ],
+      "languages": [
+        "német",
+        "magyar"
+      ],
+      "profileVerifiedAt": "2026-09-28",
+      "evidenceSources": [
+        {
+          "label": "Land Burgenland – Landesbibliothek",
+          "url": "https://www.burgenland.at/themen/wissenschaft/landesbibliothek/",
+          "type": "government"
+        },
+        {
+          "label": "ORF Magyarok – Burgenlandi Tartományi Könyvtár",
+          "url": "https://volksgruppen.orf.at/magyarok/stories/3361229/",
+          "type": "public-broadcaster"
+        }
+      ],
+      "entityClass": "host-institution",
+      "classificationNote": "Nem magyar szervezet; osztrák tartományi könyvtár kiemelkedő magyar nyelvű állománnyal."
     }
   ],
   "umbrellaOrganizations": [
@@ -10828,6 +11106,10 @@
     {
       "id": "activity",
       "label": "Rendszeres foglalkozás"
+    },
+    {
+      "id": "host-institution",
+      "label": "Osztrák intézmény magyar szolgáltatással"
     }
   ],
   "activityCategoryDefinitions": [
