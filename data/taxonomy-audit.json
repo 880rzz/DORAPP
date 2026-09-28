@@ -1,9 +1,9 @@
 {
-  "updated": "2026-09-28T16:32:00.968795+00:00",
+  "updated": "2026-09-28T16:33:07.782058+00:00",
   "summary": {
     "organizations": 156,
     "organizationFlags": 0,
-    "organizationPagesChecked": 342,
+    "organizationPagesChecked": 340,
     "education": 106,
     "educationFlags": 0,
     "events": 29,
@@ -440,7 +440,15 @@
       ],
       "activityCategories": [],
       "signals": [
-        "enekkar"
+        "oktatas",
+        "neptanc",
+        "nepzene",
+        "enekkar",
+        "media",
+        "diak",
+        "irodalom",
+        "muveszet",
+        "csalad"
       ],
       "pagesChecked": 2,
       "checkedUrls": [
@@ -1302,7 +1310,10 @@
         "neptanc",
         "nepzene",
         "enekkar",
+        "szinhaz",
         "media",
+        "diak",
+        "irodalom",
         "sport",
         "csalad"
       ],
@@ -1350,20 +1361,23 @@
         "oktatas",
         "neptanc",
         "nepzene",
-        "szinhaz",
         "media",
         "egyhaz",
         "muveszet",
         "sport",
         "csalad"
       ],
-      "pagesChecked": 3,
+      "pagesChecked": 2,
       "checkedUrls": [
-        "https://www.kozpontiszovetseg.at/event-details/zene-es-talalkozas",
         "https://volksgruppen.orf.at/v2/magyarok/stories/2914449/",
         "https://hvg.hu/kultura/20141111_Centropedij"
       ],
-      "errors": [],
+      "errors": [
+        {
+          "url": "https://www.kozpontiszovetseg.at/event-details/zene-es-talalkozas",
+          "error": "HTTP Error 429: Too Many Requests"
+        }
+      ],
       "flags": []
     },
     {
@@ -1495,6 +1509,7 @@
         "egyhaz",
         "irodalom",
         "muveszet",
+        "sport",
         "csalad"
       ],
       "pagesChecked": 3,
@@ -1519,6 +1534,7 @@
         "oktatas",
         "szinhaz",
         "media",
+        "egyhaz",
         "irodalom",
         "muveszet",
         "csalad"
@@ -1904,13 +1920,17 @@
         "muveszet",
         "csalad"
       ],
-      "pagesChecked": 3,
+      "pagesChecked": 2,
       "checkedUrls": [
         "https://www.facebook.com/IMIKE2019UJKV/",
-        "https://www.instagram.com/imike_ujkv/",
         "https://rolunk.at/nepcsoportunk/sziveben-magyar/"
       ],
-      "errors": [],
+      "errors": [
+        {
+          "url": "https://www.instagram.com/imike_ujkv/",
+          "error": "HTTP Error 429: Too Many Requests"
+        }
+      ],
       "flags": []
     },
     {
@@ -1933,7 +1953,7 @@
       "errors": [
         {
           "url": "https://www.askoe.at/de/verband-vereine/askoe-vereine/clubshow-10438",
-          "error": "HTTP Error 406: Not Acceptable"
+          "error": "HTTP Error 404: Not Found"
         }
       ],
       "flags": []
@@ -2210,20 +2230,20 @@
       "activityCategories": [],
       "signals": [
         "oktatas",
-        "neptanc",
-        "nepzene",
         "szinhaz",
-        "media",
         "irodalom",
         "muveszet",
         "csalad"
       ],
-      "pagesChecked": 2,
+      "pagesChecked": 1,
       "checkedUrls": [
-        "https://www.kozpontiszovetseg.at/",
-        "https://www.kozpontiszovetseg.at/r%C3%B3lunk"
+        "https://www.kozpontiszovetseg.at/"
       ],
       "errors": [
+        {
+          "url": "https://www.kozpontiszovetseg.at/r%C3%B3lunk",
+          "error": "HTTP Error 429: Too Many Requests"
+        },
         {
           "url": "https://www.kozpontiszovetseg.at/kapcsolat",
           "error": "HTTP Error 429: Too Many Requests"
@@ -2264,7 +2284,11 @@
       ],
       "activityCategories": [],
       "signals": [
+        "oktatas",
+        "nepzene",
         "szinhaz",
+        "media",
+        "egyhaz",
         "irodalom",
         "muveszet",
         "csalad"
@@ -2441,7 +2465,7 @@
       "errors": [
         {
           "url": "https://www.magyarszo.at/",
-          "error": "<urlopen error timed out>"
+          "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'www.magyarszo.at'. (_ssl.c:1010)>"
         }
       ],
       "flags": []
@@ -2533,7 +2557,13 @@
       ],
       "activityCategories": [],
       "signals": [
-        "diak"
+        "neptanc",
+        "media",
+        "diak",
+        "irodalom",
+        "muveszet",
+        "sport",
+        "csalad"
       ],
       "pagesChecked": 3,
       "checkedUrls": [
@@ -3314,7 +3344,10 @@
         "neptanc",
         "nepzene",
         "enekkar",
+        "szinhaz",
         "media",
+        "diak",
+        "muveszet",
         "csalad"
       ],
       "pagesChecked": 3,
@@ -3808,20 +3841,18 @@
       "activityCategories": [],
       "signals": [
         "szinhaz",
+        "media",
+        "irodalom",
         "muveszet",
         "csalad"
       ],
-      "pagesChecked": 2,
+      "pagesChecked": 3,
       "checkedUrls": [
         "https://svung.at/",
-        "https://shop.svung.at/"
+        "https://shop.svung.at/",
+        "https://www.svung.at/"
       ],
-      "errors": [
-        {
-          "url": "https://www.svung.at/",
-          "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1010)>"
-        }
-      ],
+      "errors": [],
       "flags": []
     },
     {
@@ -3915,7 +3946,10 @@
         "neptanc",
         "nepzene",
         "enekkar",
+        "szinhaz",
         "media",
+        "diak",
+        "muveszet",
         "csalad"
       ],
       "pagesChecked": 3,
