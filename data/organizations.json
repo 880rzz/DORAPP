@@ -1578,24 +1578,33 @@
     },
     {
       "id": "bmi-becscraft",
-      "name": "Bécsi Magyar Iskola – BécsCraft",
+      "name": "BécsCraft – Creative Science partnerprogram a Bécsi Magyar Iskolában",
       "state": "wien",
       "city": "Wien",
       "type": "kreatív digitális és építészeti műhely",
       "categories": [],
-      "parentOrganizationId": "becsi-magyar-iskola",
-      "intro": "A Bécsi Magyar Iskola BécsCraft műhelye 6–15 éveseknek szóló heti kreatív program, amely városi felfedezést, építészeti megfigyelést és Minecraft-alapú digitális alkotást kapcsol össze. A gyerekek valódi bécsi helyszíneket vizsgálnak meg, majd térbeli és digitális formában újraalkotják azokat.",
-      "website": "https://www.magyariskola.at/event-details/becscraft-2026",
+      "intro": "A BécsCraft a Creative Science külsős, 6–15 éveseknek szóló kreatív digitális és építészeti programja Bécsben. A foglalkozások a városi felfedezést, építészeti megfigyelést és Minecraft-alapú digitális alkotást kapcsolják össze. A Bécsi Magyar Iskola a program bécsi helyszínét biztosítja; a BMI saját eseményoldala kifejezetten külsős szolgáltató által megrendezett programként jelöli.",
+      "website": "https://www.creativescience.hu/programjaink/becs-craft-workshop/",
       "facebook": null,
       "instagram": null,
       "eventSources": [
-        "https://www.magyariskola.at/event-details/becscraft-2026"
+        "https://www.creativescience.hu/programjaink/becs-craft-workshop/"
       ],
       "evidenceSources": [
         {
           "label": "BMI – BécsCraft 2026",
           "url": "https://www.magyariskola.at/event-details/becscraft-2026",
           "type": "official"
+        },
+        {
+          "label": "Creative Science – BécsCraft hivatalos programoldal",
+          "url": "https://www.creativescience.hu/programjaink/becs-craft-workshop/",
+          "type": "official-provider"
+        },
+        {
+          "label": "BMI – BécsCraft külsős szolgáltatói státusz és helyszín",
+          "url": "https://www.magyariskola.at/event-details/becs-craft-nyari-tabor-2026",
+          "type": "official-host"
         }
       ],
       "activities": [
@@ -1632,30 +1641,41 @@
         "gyermek",
         "ifjusag"
       ],
-      "email": "office@magyariskola.at",
-      "phone": "+43 650 331 2090",
-      "contactUrl": "https://www.magyariskola.at/",
+      "email": "korchma07@gmail.com",
+      "contactUrl": "https://www.creativescience.hu/programjaink/becs-craft-workshop/",
       "calendarSources": [
         {
-          "label": "Bécsi Magyar Iskola – BécsCraft programoldal",
-          "url": "https://www.magyariskola.at/event-details/becscraft-2026",
-          "kind": "official-course-calendar",
+          "label": "Creative Science – BécsCraft program",
+          "url": "https://www.creativescience.hu/programjaink/becs-craft-workshop/",
+          "kind": "provider-program-page",
           "scope": "self",
+          "ingestEvents": true
+        },
+        {
+          "label": "Bécsi Magyar Iskola – BécsCraft host eseményoldal",
+          "url": "https://www.magyariskola.at/event-details/becscraft-2026",
+          "kind": "host-event-page",
+          "scope": "host",
           "ingestEvents": true
         },
         {
           "label": "Bécsi Magyar Iskola – összes program",
           "url": "https://www.magyariskola.at/osszes",
-          "kind": "parent-calendar",
-          "scope": "parent",
+          "kind": "host-calendar",
+          "scope": "host",
           "ingestEvents": false
         }
       ],
-      "classificationNote": "A BécsCraft a Bécsi Magyar Iskola helyszínén futó, Creative Science által szakmailag megvalósított partnerprogram. A BMI web/e-mail a helyszíni/jelentkezési infrastruktúra; a program nem önálló egyesület.",
+      "classificationNote": "Külsős partnerprogram. A Creative Science a program szolgáltatója/programgazdája; a Bécsi Magyar Iskola a bécsi helyszínt biztosítja. A BMI saját oldala ezt kifejezetten rögzíti. A BMI nem parent organization, ezért a parentOrganizationId eltávolítva; a BMI kapcsolat host affiliationként marad.",
       "affiliations": [
         {
-          "label": "Creative Science – szakmai programgazda",
+          "label": "Creative Science – külsős programgazda/szolgáltató",
           "sourceUrl": "https://www.creativescience.hu/programjaink/becs-craft-workshop/"
+        },
+        {
+          "organizationId": "becsi-magyar-iskola",
+          "label": "Bécsi Magyar Iskola – bécsi helyszíngazda / host",
+          "sourceUrl": "https://www.magyariskola.at/event-details/becs-craft-nyari-tabor-2026"
         }
       ]
     },
