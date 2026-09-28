@@ -111,7 +111,8 @@
           "type": "institutional"
         }
       ],
-      "entityClass": "umbrella"
+      "entityClass": "umbrella",
+      "calendarSources": []
     },
     {
       "id": "oeius",
@@ -179,7 +180,17 @@
         }
       ],
       "email": "andrea.seidler@univie.ac.at",
-      "entityClass": "organization"
+      "entityClass": "organization",
+      "calendarSources": [
+        {
+          "label": "Ausztriai Magyar Kutatóintézet / Österreichisches Institut für ungarische Studien – Facebook",
+          "url": "https://www.facebook.com/OEIUS",
+          "kind": "social-calendar",
+          "platform": "facebook",
+          "scope": "self",
+          "ingestEvents": false
+        }
+      ]
     },
     {
       "id": "lean-in-femspace",
@@ -246,7 +257,17 @@
         ]
       },
       "email": "leaninfemspace@gmail.com",
-      "entityClass": "organization"
+      "entityClass": "organization",
+      "calendarSources": [
+        {
+          "label": "Lean in Femspace – Facebook",
+          "url": "https://www.facebook.com/leaninfemspace/",
+          "kind": "social-calendar",
+          "platform": "facebook",
+          "scope": "self",
+          "ingestEvents": false
+        }
+      ]
     },
     {
       "id": "svung",
@@ -307,7 +328,17 @@
           "type": "official"
         }
       ],
-      "entityClass": "organization"
+      "entityClass": "organization",
+      "calendarSources": [
+        {
+          "label": "SVUNG – Bécsi Magyarok Művészeti Egyesülete – Facebook",
+          "url": "https://www.facebook.com/Svung.Wien",
+          "kind": "social-calendar",
+          "platform": "facebook",
+          "scope": "self",
+          "ingestEvents": false
+        }
+      ]
     },
     {
       "id": "kicsi-svung",
@@ -536,7 +567,8 @@
       ],
       "email": "becs@cserkesz.at",
       "profileVerifiedAt": "2026-09-25",
-      "entityClass": "organization"
+      "entityClass": "organization",
+      "calendarSources": []
     },
     {
       "id": "becsi-irodalmi-muhely",
@@ -619,7 +651,8 @@
           }
         ]
       },
-      "entityClass": "organization"
+      "entityClass": "organization",
+      "calendarSources": []
     },
     {
       "id": "egy-sima-egy-forditott",
@@ -686,7 +719,8 @@
         }
       ],
       "entityClass": "project",
-      "contactUrl": "https://volksgruppen.orf.at/magyarok/stories/3352222/"
+      "contactUrl": "https://volksgruppen.orf.at/magyarok/stories/3352222/",
+      "calendarSources": []
     },
     {
       "id": "kalaka-club",
@@ -769,7 +803,17 @@
         }
       ],
       "entityClass": "organization",
-      "contactUrl": "https://kalaka-club.at/"
+      "contactUrl": "https://kalaka-club.at/",
+      "calendarSources": [
+        {
+          "label": "Kaláka-Club – Ausztriai Magyarok Gazdasági Érdekközössége – Facebook",
+          "url": "https://www.facebook.com/profile.php?id=100069108893600",
+          "kind": "social-calendar",
+          "platform": "facebook",
+          "scope": "self",
+          "ingestEvents": false
+        }
+      ]
     },
     {
       "id": "napraforgok",
@@ -850,7 +894,25 @@
           "type": "official"
         }
       ],
-      "entityClass": "organization"
+      "entityClass": "organization",
+      "calendarSources": [
+        {
+          "label": "Napraforgók – Bécsi Magyar Néptánc és Népzene Egyesület – Facebook",
+          "url": "https://www.facebook.com/napraforgok.becs",
+          "kind": "social-calendar",
+          "platform": "facebook",
+          "scope": "self",
+          "ingestEvents": false
+        },
+        {
+          "label": "Napraforgók – Bécsi Magyar Néptánc és Népzene Egyesület – Instagram",
+          "url": "https://www.instagram.com/napraforgok.becs",
+          "kind": "social-calendar",
+          "platform": "instagram",
+          "scope": "self",
+          "ingestEvents": false
+        }
+      ]
     },
     {
       "id": "napraforgocskak",
@@ -1120,7 +1182,8 @@
       ],
       "email": "bornemiszapetertarsasag@gmail.com",
       "profileVerifiedAt": "2026-09-25",
-      "entityClass": "organization"
+      "entityClass": "organization",
+      "calendarSources": []
     },
     {
       "id": "duna-filharmonia",
@@ -1316,7 +1379,8 @@
           "type": "official"
         }
       ],
-      "entityClass": "institution"
+      "entityClass": "institution",
+      "calendarSources": []
     },
     {
       "id": "bmi-aspern-magyaroktatas",
@@ -1616,7 +1680,8 @@
           }
         ]
       },
-      "entityClass": "project"
+      "entityClass": "project",
+      "calendarSources": []
     },
     {
       "id": "amaped",
@@ -1695,7 +1760,17 @@
           "type": "official"
         }
       ],
-      "entityClass": "organization"
+      "entityClass": "organization",
+      "calendarSources": [
+        {
+          "label": "AMAPED – Ausztriai Magyar Pedagógusok Egyesülete – Facebook",
+          "url": "https://www.facebook.com/profile.php?id=100076361554158",
+          "kind": "social-calendar",
+          "platform": "facebook",
+          "scope": "self",
+          "ingestEvents": false
+        }
+      ]
     },
     {
       "id": "becsi-magyar-iskolaegyesulet",
@@ -1783,7 +1858,25 @@
         }
       ],
       "entityClass": "organization",
-      "founded": "1926-12-26"
+      "founded": "1926-12-26",
+      "calendarSources": [
+        {
+          "label": "Bécsi Magyar Iskolaegyesület – Facebook",
+          "url": "https://www.facebook.com/ungarischer.schulverein",
+          "kind": "social-calendar",
+          "platform": "facebook",
+          "scope": "self",
+          "ingestEvents": false
+        },
+        {
+          "label": "Bécsi Magyar Iskolaegyesület – Instagram",
+          "url": "https://www.instagram.com/schulverein",
+          "kind": "social-calendar",
+          "platform": "instagram",
+          "scope": "self",
+          "ingestEvents": false
+        }
+      ]
     },
     {
       "id": "kultpult",
@@ -1853,7 +1946,8 @@
           "type": "official"
         }
       ],
-      "entityClass": "organization"
+      "entityClass": "organization",
+      "calendarSources": []
     },
     {
       "id": "mde-vus",
@@ -1928,7 +2022,25 @@
       ],
       "entityClass": "organization",
       "address": "Mariahilfer Straße 1/D, 1060 Wien, Austria",
-      "contactUrl": "https://mde.hu/partnerek-tamogatok/"
+      "contactUrl": "https://mde.hu/partnerek-tamogatok/",
+      "calendarSources": [
+        {
+          "label": "MDE-VUS – Magyar Diákok Egyesülete – Facebook",
+          "url": "https://www.facebook.com/MDEVUS",
+          "kind": "social-calendar",
+          "platform": "facebook",
+          "scope": "self",
+          "ingestEvents": false
+        },
+        {
+          "label": "MDE-VUS – Magyar Diákok Egyesülete – Instagram",
+          "url": "https://www.instagram.com/mdevus/",
+          "kind": "social-calendar",
+          "platform": "instagram",
+          "scope": "self",
+          "ingestEvents": false
+        }
+      ]
     },
     {
       "id": "europa-club",
@@ -2018,7 +2130,17 @@
           "type": "official"
         }
       ],
-      "entityClass": "organization"
+      "entityClass": "organization",
+      "calendarSources": [
+        {
+          "label": "Europa-Club – Facebook",
+          "url": "https://www.facebook.com/Europa-Club-B%C3%A9cs-478055442397522/",
+          "kind": "social-calendar",
+          "platform": "facebook",
+          "scope": "self",
+          "ingestEvents": false
+        }
+      ]
     },
     {
       "id": "delibab",
@@ -2104,7 +2226,17 @@
         }
       ],
       "entityClass": "organization",
-      "classificationNote": "A jelenlegi saját források aktív néptánc-, népdal- és citerazenei működést igazolnak. A korábbi színjátszócsoport régi WUKV-forrás szerint szünetel, ezért nem aktív szervezeti kategória."
+      "classificationNote": "A jelenlegi saját források aktív néptánc-, népdal- és citerazenei működést igazolnak. A korábbi színjátszócsoport régi WUKV-forrás szerint szünetel, ezért nem aktív szervezeti kategória.",
+      "calendarSources": [
+        {
+          "label": "Délibáb Bécsi Magyar Kultúregyesület – Facebook",
+          "url": "https://www.facebook.com/wukvdelibab",
+          "kind": "social-calendar",
+          "platform": "facebook",
+          "scope": "self",
+          "ingestEvents": false
+        }
+      ]
     },
     {
       "id": "barka-nepdalkor",
@@ -2359,7 +2491,8 @@
       },
       "entityClass": "group",
       "email": "wukv.delibab@gmail.com",
-      "contactUrl": "https://www.wukv.at/"
+      "contactUrl": "https://www.wukv.at/",
+      "calendarSources": []
     },
     {
       "id": "roppenj-pengeto",
@@ -2431,7 +2564,8 @@
       },
       "entityClass": "group",
       "email": "wukv.delibab@gmail.com",
-      "contactUrl": "https://www.wukv.at/"
+      "contactUrl": "https://www.wukv.at/",
+      "calendarSources": []
     },
     {
       "id": "kerekasztal",
@@ -2502,7 +2636,8 @@
         }
       ],
       "entityClass": "umbrella",
-      "email": "office@kerekasztal.at"
+      "email": "office@kerekasztal.at",
+      "calendarSources": []
     },
     {
       "id": "osztrak-magyar-tarsasag",
@@ -2559,7 +2694,8 @@
           "type": "official"
         }
       ],
-      "entityClass": "organization"
+      "entityClass": "organization",
+      "calendarSources": []
     },
     {
       "id": "brand-art-studio",
@@ -2620,7 +2756,8 @@
           }
         ]
       },
-      "entityClass": "organization"
+      "entityClass": "organization",
+      "calendarSources": []
     },
     {
       "id": "club-pannonia",
@@ -2706,7 +2843,8 @@
           "type": "official"
         }
       ],
-      "entityClass": "organization"
+      "entityClass": "organization",
+      "calendarSources": []
     },
     {
       "id": "evangelikus-gyulekezet",
@@ -2819,7 +2957,17 @@
       "email": "maegy.austria@gmail.com",
       "phone": "+43 677 62906270",
       "profileVerifiedAt": "2026-09-25",
-      "entityClass": "organization"
+      "entityClass": "organization",
+      "calendarSources": [
+        {
+          "label": "Ausztriai Magyar Evangélikus Gyülekezet – Facebook",
+          "url": "https://www.facebook.com/evangelikusat/",
+          "kind": "social-calendar",
+          "platform": "facebook",
+          "scope": "self",
+          "ingestEvents": false
+        }
+      ]
     },
     {
       "id": "reformatus-szolgalat",
@@ -2916,7 +3064,8 @@
           }
         ]
       },
-      "entityClass": "organization"
+      "entityClass": "organization",
+      "calendarSources": []
     },
     {
       "id": "katolikus-wien",
@@ -3036,7 +3185,8 @@
           }
         ]
       },
-      "entityClass": "organization"
+      "entityClass": "organization",
+      "calendarSources": []
     },
     {
       "id": "kuwu",
@@ -3117,7 +3267,17 @@
       ],
       "email": "kuwu.wn@gmail.com",
       "profileVerifiedAt": "2026-09-25",
-      "entityClass": "organization"
+      "entityClass": "organization",
+      "calendarSources": [
+        {
+          "label": "KUWU – Bécsújhely és környéki Magyarok Kulturális Egyesülete – Facebook",
+          "url": "https://www.facebook.com/profile.php?id=100089555537895",
+          "kind": "social-calendar",
+          "platform": "facebook",
+          "scope": "self",
+          "ingestEvents": false
+        }
+      ]
     },
     {
       "id": "amaped-baden",
@@ -3584,7 +3744,8 @@
       "email": "office@bukv.at",
       "phone": "+43 3352 38489",
       "profileVerifiedAt": "2026-09-25",
-      "entityClass": "organization"
+      "entityClass": "organization",
+      "calendarSources": []
     },
     {
       "id": "vhs-burgenland",
@@ -3659,7 +3820,8 @@
           "type": "public-broadcaster"
         }
       ],
-      "entityClass": "institution"
+      "entityClass": "institution",
+      "calendarSources": []
     },
     {
       "id": "ori-banda",
@@ -3737,7 +3899,8 @@
       "phone": "+43 676 3752773",
       "profileVerifiedAt": "2026-09-25",
       "entityClass": "group",
-      "contactUrl": "https://vhs-ungarn.at/"
+      "contactUrl": "https://vhs-ungarn.at/",
+      "calendarSources": []
     },
     {
       "id": "ori-banda-nepdalkor",
@@ -3902,7 +4065,8 @@
           "sourceUrl": "https://kerekasztal.at/tagok/",
           "verifiedAt": "2026-09-27"
         }
-      ]
+      ],
+      "calendarSources": []
     },
     {
       "id": "orf-magyarok",
@@ -3969,7 +4133,8 @@
       ],
       "email": "ungarn@orf.at",
       "profileVerifiedAt": "2026-09-25",
-      "entityClass": "media"
+      "entityClass": "media",
+      "calendarSources": []
     },
     {
       "id": "alsoori-kultur-tanc",
@@ -4041,7 +4206,17 @@
           }
         ]
       },
-      "entityClass": "organization"
+      "entityClass": "organization",
+      "calendarSources": [
+        {
+          "label": "Alsóőri Magyar Kultúr- és Táncegyesület – Facebook",
+          "url": "https://www.facebook.com/profile.php?id=100088924551185",
+          "kind": "social-calendar",
+          "platform": "facebook",
+          "scope": "self",
+          "ingestEvents": false
+        }
+      ]
     },
     {
       "id": "alsoori-szinjatszo",
@@ -4130,7 +4305,17 @@
           "type": "official"
         }
       ],
-      "entityClass": "organization"
+      "entityClass": "organization",
+      "calendarSources": [
+        {
+          "label": "Alsóőri Kétnyelvű Színjátszóegyesület és Kultúrkör – Facebook",
+          "url": "https://www.facebook.com/Zweisprachiger-Theaterverein-und-Kulturkreis-Unterwart-110195580434233/",
+          "kind": "social-calendar",
+          "platform": "facebook",
+          "scope": "self",
+          "ingestEvents": false
+        }
+      ]
     },
     {
       "id": "alsoori-enekkar",
@@ -4294,7 +4479,8 @@
           "type": "community-media"
         }
       ],
-      "entityClass": "organization"
+      "entityClass": "organization",
+      "calendarSources": []
     },
     {
       "id": "kozep-burgenlandi",
@@ -4376,7 +4562,17 @@
       ],
       "entityClass": "organization",
       "email": "mbukv@gmx.at",
-      "contactUrl": "https://www.facebook.com/MittelburgenlaendischerUngarischerKulturverein/"
+      "contactUrl": "https://www.facebook.com/MittelburgenlaendischerUngarischerKulturverein/",
+      "calendarSources": [
+        {
+          "label": "Közép-Burgenlandi Magyar Kultúregyesület – Facebook",
+          "url": "https://www.facebook.com/MittelburgenlaendischerUngarischerKulturverein/",
+          "kind": "social-calendar",
+          "platform": "facebook",
+          "scope": "self",
+          "ingestEvents": false
+        }
+      ]
     },
     {
       "id": "csalafinta-neptanc",
@@ -4455,7 +4651,8 @@
         ]
       },
       "entityClass": "group",
-      "contactUrl": "https://rolunk.at/kultura/minden-magyarok-tanca-a-csalafinta-neptanccsoport-budapesten-szerepelt/"
+      "contactUrl": "https://rolunk.at/kultura/minden-magyarok-tanca-a-csalafinta-neptanccsoport-budapesten-szerepelt/",
+      "calendarSources": []
     },
     {
       "id": "hungaromedia",
@@ -4535,7 +4732,25 @@
           }
         ]
       },
-      "entityClass": "media"
+      "entityClass": "media",
+      "calendarSources": [
+        {
+          "label": "HungaroMedia – Magyar Médiageyesület – Facebook",
+          "url": "https://www.facebook.com/HungaroMediaAT",
+          "kind": "social-calendar",
+          "platform": "facebook",
+          "scope": "self",
+          "ingestEvents": false
+        },
+        {
+          "label": "HungaroMedia – Magyar Médiageyesület – Instagram",
+          "url": "https://www.instagram.com/hungaromedia",
+          "kind": "social-calendar",
+          "platform": "instagram",
+          "scope": "self",
+          "ingestEvents": false
+        }
+      ]
     },
     {
       "id": "meses-noi-kor-linz",
@@ -4603,7 +4818,8 @@
       },
       "entityClass": "project",
       "email": "kapcsolat@hungaromedia.at",
-      "contactUrl": "https://linktr.ee/hungaromedia"
+      "contactUrl": "https://linktr.ee/hungaromedia",
+      "calendarSources": []
     },
     {
       "id": "linzi-magyar-gyermekkonyvtar",
@@ -4678,7 +4894,8 @@
         }
       ],
       "email": "kapcsolat@hungaromedia.at",
-      "contactUrl": "https://linktr.ee/hungaromedia"
+      "contactUrl": "https://linktr.ee/hungaromedia",
+      "calendarSources": []
     },
     {
       "id": "felso-ausztriai-magyarok",
@@ -4834,7 +5051,8 @@
       },
       "entityClass": "group",
       "email": "enikoe.toekes@takeda.com",
-      "contactUrl": null
+      "contactUrl": null,
+      "calendarSources": []
     },
     {
       "id": "wels-hetvegi-iskola",
@@ -4939,7 +5157,17 @@
           "sourceUrl": "https://volksgruppen.orf.at/magyarok/stories/3327962/"
         }
       ],
-      "contactUrl": null
+      "contactUrl": null,
+      "calendarSources": [
+        {
+          "label": "Felső-Ausztriai Hétvégi Magyar Óvoda és Iskola – Facebook",
+          "url": "https://www.facebook.com/profile.php?id=100057286665201",
+          "kind": "social-calendar",
+          "platform": "facebook",
+          "scope": "self",
+          "ingestEvents": false
+        }
+      ]
     },
     {
       "id": "ne-felejts",
@@ -5031,7 +5259,8 @@
         }
       ],
       "email": "nefelejtsneptanc@gmail.com",
-      "entityClass": "organization"
+      "entityClass": "organization",
+      "calendarSources": []
     },
     {
       "id": "ne-felejts-gyermek",
@@ -5086,7 +5315,8 @@
       "profileVerifiedAt": "2026-09-25",
       "entityClass": "group",
       "email": "nefelejtsneptanc@gmail.com",
-      "contactUrl": "https://ne-felejts.weebly.com/"
+      "contactUrl": "https://ne-felejts.weebly.com/",
+      "calendarSources": []
     },
     {
       "id": "cserkesz-80",
@@ -5179,7 +5409,8 @@
       "email": "wels@cserkesz.eu",
       "phone": "+43 660 6750725",
       "profileVerifiedAt": "2026-09-25",
-      "entityClass": "organization"
+      "entityClass": "organization",
+      "calendarSources": []
     },
     {
       "id": "katolikus-linz",
@@ -5361,7 +5592,17 @@
         }
       ],
       "entityClass": "organization",
-      "email": "gme1888@gmx.at"
+      "email": "gme1888@gmx.at",
+      "calendarSources": [
+        {
+          "label": "Grazi Magyar Egyesület – Facebook",
+          "url": "https://www.facebook.com/Grazi.Magyar.Egyesuelet",
+          "kind": "social-calendar",
+          "platform": "facebook",
+          "scope": "self",
+          "ingestEvents": false
+        }
+      ]
     },
     {
       "id": "femconnect-graz",
@@ -5441,7 +5682,8 @@
         }
       ],
       "email": "verein@femconnectgraz.at",
-      "entityClass": "organization"
+      "entityClass": "organization",
+      "calendarSources": []
     },
     {
       "id": "meok-graz",
@@ -5510,7 +5752,8 @@
           "type": "official"
         }
       ],
-      "entityClass": "organization"
+      "entityClass": "organization",
+      "calendarSources": []
     },
     {
       "id": "graci-magyar-ujsag",
@@ -5599,7 +5842,8 @@
       ],
       "email": "office@meoek.net",
       "profileVerifiedAt": "2026-09-28",
-      "entityClass": "media"
+      "entityClass": "media",
+      "calendarSources": []
     },
     {
       "id": "katolikus-graz",
@@ -5678,7 +5922,8 @@
       ],
       "profileVerifiedAt": "2026-09-25",
       "entityClass": "organization",
-      "email": "otto.molnar@laposte.net"
+      "email": "otto.molnar@laposte.net",
+      "calendarSources": []
     },
     {
       "id": "salzung",
@@ -5770,7 +6015,8 @@
           "type": "official"
         }
       ],
-      "entityClass": "organization"
+      "entityClass": "organization",
+      "calendarSources": []
     },
     {
       "id": "salzung-minikonyvtar",
@@ -5851,7 +6097,8 @@
       ],
       "entityClass": "project",
       "email": "info@salzung.com",
-      "contactUrl": "https://www.salzung.com/hu"
+      "contactUrl": "https://www.salzung.com/hu",
+      "calendarSources": []
     },
     {
       "id": "salzung-brumi-ovi",
@@ -5945,6 +6192,14 @@
           "platform": "facebook",
           "scope": "parent",
           "ingestEvents": false
+        },
+        {
+          "label": "SalzUNG – Brumi Ovi – Facebook",
+          "url": "https://www.facebook.com/salzung",
+          "kind": "social-calendar",
+          "platform": "facebook",
+          "scope": "self",
+          "ingestEvents": false
         }
       ]
     },
@@ -6010,7 +6265,8 @@
       },
       "entityClass": "institution",
       "email": "info@salzung.com",
-      "contactUrl": "https://www.salzung.com/hu"
+      "contactUrl": "https://www.salzung.com/hu",
+      "calendarSources": []
     },
     {
       "id": "salzburgi-neptanc",
@@ -6079,7 +6335,25 @@
       "profileVerifiedAt": "2026-09-25",
       "entityClass": "group",
       "email": "info@salzung.com",
-      "contactUrl": "https://www.salzung.com/hu"
+      "contactUrl": "https://www.salzung.com/hu",
+      "calendarSources": [
+        {
+          "label": "Salzburgi Magyar Néptáncegyüttes – Facebook",
+          "url": "https://www.facebook.com/Salzburgi.Magyar.Neptancegyuttes/",
+          "kind": "social-calendar",
+          "platform": "facebook",
+          "scope": "self",
+          "ingestEvents": false
+        },
+        {
+          "label": "Salzburgi Magyar Néptáncegyüttes – Instagram",
+          "url": "https://www.instagram.com/salzburgi.neptanc/",
+          "kind": "social-calendar",
+          "platform": "instagram",
+          "scope": "self",
+          "ingestEvents": false
+        }
+      ]
     },
     {
       "id": "magyarhaz-innsbruck",
@@ -6171,7 +6445,8 @@
           "type": "official"
         }
       ],
-      "entityClass": "institution"
+      "entityClass": "institution",
+      "calendarSources": []
     },
     {
       "id": "imike",
@@ -6264,7 +6539,25 @@
         }
       ],
       "entityClass": "organization",
-      "contactUrl": "https://www.facebook.com/IMIKE2019UJKV/"
+      "contactUrl": "https://www.facebook.com/IMIKE2019UJKV/",
+      "calendarSources": [
+        {
+          "label": "IMIKE – Innsbrucki Magyar Ifjúsági és Kultúregyesület – Facebook",
+          "url": "https://www.facebook.com/IMIKE2019UJKV/",
+          "kind": "social-calendar",
+          "platform": "facebook",
+          "scope": "self",
+          "ingestEvents": false
+        },
+        {
+          "label": "IMIKE – Innsbrucki Magyar Ifjúsági és Kultúregyesület – Instagram",
+          "url": "https://www.instagram.com/imike_ujkv/",
+          "kind": "social-calendar",
+          "platform": "instagram",
+          "scope": "self",
+          "ingestEvents": false
+        }
+      ]
     },
     {
       "id": "imeasz",
@@ -6472,7 +6765,17 @@
           }
         ]
       },
-      "entityClass": "organization"
+      "entityClass": "organization",
+      "calendarSources": [
+        {
+          "label": "79. sz. Dr. Kozma György SJ cserkészcsapat – Facebook",
+          "url": "https://www.facebook.com/InnsbruckiMagyarCserkeszek/",
+          "kind": "social-calendar",
+          "platform": "facebook",
+          "scope": "self",
+          "ingestEvents": false
+        }
+      ]
     },
     {
       "id": "katolikus-innsbruck",
@@ -6731,7 +7034,17 @@
           "type": "institutional"
         }
       ],
-      "entityClass": "organization"
+      "entityClass": "organization",
+      "calendarSources": [
+        {
+          "label": "Mi Magyarok Egymásért – Facebook",
+          "url": "https://www.facebook.com/profile.php?id=61550875215206",
+          "kind": "social-calendar",
+          "platform": "facebook",
+          "scope": "self",
+          "ingestEvents": false
+        }
+      ]
     },
     {
       "id": "vukk-kaernten",
@@ -6874,7 +7187,8 @@
       ],
       "profileVerifiedAt": "2026-09-25",
       "entityClass": "group",
-      "contactUrl": "https://www.burgenlandicserkesz.at/"
+      "contactUrl": "https://www.burgenlandicserkesz.at/",
+      "calendarSources": []
     },
     {
       "id": "alsoori-katolikus",
@@ -6946,7 +7260,8 @@
           "type": "institutional"
         }
       ],
-      "entityClass": "organization"
+      "entityClass": "organization",
+      "calendarSources": []
     },
     {
       "id": "alsoori-vasjobbagyi",
@@ -7103,7 +7418,17 @@
           "verifiedAt": "2026-09-27"
         }
       ],
-      "email": "uknb@gmx.at"
+      "email": "uknb@gmx.at",
+      "calendarSources": [
+        {
+          "label": "Észak-burgenlandi Magyar Kulturális Egyesület – Facebook",
+          "url": "https://www.facebook.com/%C3%89szak-burgenlandi-Magyar-Kultur%C3%A1lis-Egyes%C3%BClet-110216087363944/",
+          "kind": "social-calendar",
+          "platform": "facebook",
+          "scope": "self",
+          "ingestEvents": false
+        }
+      ]
     },
     {
       "id": "felsoori-katolikus",
@@ -7263,7 +7588,8 @@
         }
       ],
       "entityClass": "organization",
-      "email": "office@die-reformierten.at"
+      "email": "office@die-reformierten.at",
+      "calendarSources": []
     },
     {
       "id": "oriszigeti-evangelikus",
@@ -7347,7 +7673,8 @@
         ]
       },
       "entityClass": "organization",
-      "contactUrl": "https://evang.at/adressen/siget-in-der-wart/"
+      "contactUrl": "https://evang.at/adressen/siget-in-der-wart/",
+      "calendarSources": []
     },
     {
       "id": "reformatus-ifjusagi-olvasokor",
@@ -7432,7 +7759,17 @@
         }
       ],
       "entityClass": "organization",
-      "email": "office@die-reformierten.at"
+      "email": "office@die-reformierten.at",
+      "calendarSources": [
+        {
+          "label": "Református Ifjúsági Olvasókör – Facebook",
+          "url": "https://www.facebook.com/Fels%C5%91%C5%91ri-Reform%C3%A1tus-Ifj%C3%BAs%C3%A1gi-Olvas%C3%B3k%C3%B6r-421949981307391/",
+          "kind": "social-calendar",
+          "platform": "facebook",
+          "scope": "self",
+          "ingestEvents": false
+        }
+      ]
     },
     {
       "id": "reformatus-olvasokor-szinjatszo",
@@ -7516,7 +7853,8 @@
       "profileVerifiedAt": "2026-09-25",
       "entityClass": "group",
       "email": "office@die-reformierten.at",
-      "contactUrl": null
+      "contactUrl": null,
+      "calendarSources": []
     },
     {
       "id": "becsi-magyar-munkasegylet",
@@ -7593,7 +7931,17 @@
           }
         ]
       },
-      "entityClass": "organization"
+      "entityClass": "organization",
+      "calendarSources": [
+        {
+          "label": "Bécsi Magyar Munkásegylet – Facebook",
+          "url": "https://www.facebook.com/VereinBMME/",
+          "kind": "social-calendar",
+          "platform": "facebook",
+          "scope": "self",
+          "ingestEvents": false
+        }
+      ]
     },
     {
       "id": "bmi-szulok-tamogatok",
@@ -8022,7 +8370,17 @@
       },
       "entityClass": "project",
       "phone": "+43 660 6837357",
-      "contactUrl": "https://www.facebook.com/groups/485905963955994/"
+      "contactUrl": "https://www.facebook.com/groups/485905963955994/",
+      "calendarSources": [
+        {
+          "label": "ProgramApik – Facebook",
+          "url": "https://www.facebook.com/groups/485905963955994/",
+          "kind": "social-calendar",
+          "platform": "facebook",
+          "scope": "self",
+          "ingestEvents": false
+        }
+      ]
     },
     {
       "id": "macko-kucko-linz",
@@ -8082,7 +8440,17 @@
         ]
       },
       "entityClass": "project",
-      "contactUrl": "https://www.facebook.com/groups/1283180622014969/"
+      "contactUrl": "https://www.facebook.com/groups/1283180622014969/",
+      "calendarSources": [
+        {
+          "label": "Mackó-Kuckó Linz – Facebook",
+          "url": "https://www.facebook.com/groups/1283180622014969/",
+          "kind": "social-calendar",
+          "platform": "facebook",
+          "scope": "self",
+          "ingestEvents": false
+        }
+      ]
     },
     {
       "id": "noi-kor-wels",
@@ -8146,7 +8514,17 @@
         ]
       },
       "entityClass": "project",
-      "contactUrl": "https://www.facebook.com/profile.php?id=61555536511644"
+      "contactUrl": "https://www.facebook.com/profile.php?id=61555536511644",
+      "calendarSources": [
+        {
+          "label": "Női Kör Wels – Facebook",
+          "url": "https://www.facebook.com/profile.php?id=61555536511644",
+          "kind": "social-calendar",
+          "platform": "facebook",
+          "scope": "self",
+          "ingestEvents": false
+        }
+      ]
     },
     {
       "id": "sunido-linz-steyr",
@@ -8220,7 +8598,17 @@
       ],
       "founded": "2022",
       "entityClass": "project",
-      "contactUrl": "https://www.facebook.com/groups/610893464159214/"
+      "contactUrl": "https://www.facebook.com/groups/610893464159214/",
+      "calendarSources": [
+        {
+          "label": "Sünidő Linz és Steyr – Facebook",
+          "url": "https://www.facebook.com/groups/610893464159214/",
+          "kind": "social-calendar",
+          "platform": "facebook",
+          "scope": "self",
+          "ingestEvents": false
+        }
+      ]
     },
     {
       "id": "collegium-hungaricum-wien",
@@ -8300,7 +8688,8 @@
       ],
       "profileVerifiedAt": "2026-09-25",
       "entityClass": "institution",
-      "contactUrl": "https://culture.hu/hu/wien"
+      "contactUrl": "https://culture.hu/hu/wien",
+      "calendarSources": []
     },
     {
       "id": "rolunk-at",
@@ -8374,7 +8763,8 @@
       ],
       "email": "office@rolunk.at",
       "profileVerifiedAt": "2026-09-25",
-      "entityClass": "media"
+      "entityClass": "media",
+      "calendarSources": []
     },
     {
       "id": "becsi-naplo",
@@ -8452,7 +8842,8 @@
       "email": "redaktion@becsinaplo.at",
       "phone": "+43 1 532 6049",
       "profileVerifiedAt": "2026-09-25",
-      "entityClass": "media"
+      "entityClass": "media",
+      "calendarSources": []
     },
     {
       "id": "becsi-szelet",
@@ -8517,7 +8908,8 @@
           }
         ]
       },
-      "entityClass": "media"
+      "entityClass": "media",
+      "calendarSources": []
     },
     {
       "id": "collegium-pazmanianum",
@@ -8603,7 +8995,8 @@
       ],
       "profileVerifiedAt": "2026-09-25",
       "entityClass": "institution",
-      "contactUrl": "https://pazmaneum.katolikus.hu/"
+      "contactUrl": "https://pazmaneum.katolikus.hu/",
+      "calendarSources": []
     },
     {
       "id": "nevenincs-ovoda-innsbruck",
@@ -8793,7 +9186,8 @@
           }
         ]
       },
-      "entityClass": "organization"
+      "entityClass": "organization",
+      "calendarSources": []
     },
     {
       "id": "fuggetlen-magyar-csucsszervezet",
@@ -8937,7 +9331,8 @@
       "phone": "+43 3352 38489",
       "profileVerifiedAt": "2026-09-25",
       "entityClass": "group",
-      "contactUrl": "https://bukv.at/"
+      "contactUrl": "https://bukv.at/",
+      "calendarSources": []
     },
     {
       "id": "virgonc-gyermek",
@@ -9070,7 +9465,8 @@
       "entityClass": "group",
       "email": "office@bukv.at",
       "phone": "+43 3352 38489",
-      "contactUrl": "https://bukv.at/"
+      "contactUrl": "https://bukv.at/",
+      "calendarSources": []
     },
     {
       "id": "oriszigeti-neptanc",
@@ -9127,7 +9523,8 @@
         ]
       },
       "entityClass": "group",
-      "contactUrl": "https://bukv.at/"
+      "contactUrl": "https://bukv.at/",
+      "calendarSources": []
     },
     {
       "id": "csorge-nepzene",
@@ -9192,7 +9589,8 @@
       "phone": "+43 3352 38489",
       "profileVerifiedAt": "2026-09-25",
       "entityClass": "group",
-      "contactUrl": "https://bukv.at/"
+      "contactUrl": "https://bukv.at/",
+      "calendarSources": []
     },
     {
       "id": "szelforgok-nepzene",
@@ -9250,7 +9648,8 @@
       "phone": "+43 3352 38489",
       "profileVerifiedAt": "2026-09-25",
       "entityClass": "group",
-      "contactUrl": "https://bukv.at/"
+      "contactUrl": "https://bukv.at/",
+      "calendarSources": []
     },
     {
       "id": "bmke-singkreis",
@@ -9323,7 +9722,8 @@
       "entityClass": "group",
       "email": "office@bukv.at",
       "phone": "+43 3352 38489",
-      "contactUrl": "https://bukv.at/"
+      "contactUrl": "https://bukv.at/",
+      "calendarSources": []
     },
     {
       "id": "warter-fantasie",
@@ -9381,7 +9781,8 @@
       "entityClass": "group",
       "email": "office@bukv.at",
       "phone": "+43 3352 38489",
-      "contactUrl": "https://bukv.at/"
+      "contactUrl": "https://bukv.at/",
+      "calendarSources": []
     },
     {
       "id": "grazi-magyar-neptanc",
@@ -9576,7 +9977,8 @@
       "email": "office@vipach.at",
       "phone": "+43 677 616 55592",
       "profileVerifiedAt": "2026-09-25",
-      "entityClass": "organization"
+      "entityClass": "organization",
+      "calendarSources": []
     },
     {
       "id": "mamut-musical",
@@ -9648,7 +10050,8 @@
       ],
       "email": "hierholcza@gmail.com",
       "profileVerifiedAt": "2026-09-25",
-      "entityClass": "group"
+      "entityClass": "group",
+      "calendarSources": []
     },
     {
       "id": "die-bruecke-medien-kulturelles-podium",
@@ -9702,7 +10105,8 @@
         ]
       },
       "entityClass": "media",
-      "contactUrl": "https://www.radiohu.hu/impresszum/"
+      "contactUrl": "https://www.radiohu.hu/impresszum/",
+      "calendarSources": []
     },
     {
       "id": "radiohu",
@@ -9762,7 +10166,25 @@
         ]
       },
       "entityClass": "media",
-      "contactUrl": "https://www.radiohu.hu/impresszum/"
+      "contactUrl": "https://www.radiohu.hu/impresszum/",
+      "calendarSources": [
+        {
+          "label": "RádióHU – Ausztria magyar hangja – Facebook",
+          "url": "https://www.facebook.com/www.radiohu.hu",
+          "kind": "social-calendar",
+          "platform": "facebook",
+          "scope": "self",
+          "ingestEvents": false
+        },
+        {
+          "label": "RádióHU – Ausztria magyar hangja – Instagram",
+          "url": "https://www.instagram.com/radiohu.hu/",
+          "kind": "social-calendar",
+          "platform": "instagram",
+          "scope": "self",
+          "ingestEvents": false
+        }
+      ]
     },
     {
       "id": "magyar-szo-ausztriaban",
@@ -9819,6 +10241,14 @@
           "label": "Magyar Szó Ausztriában – aktuális hírek és programajánlók",
           "url": "https://www.magyarszo.at/",
           "kind": "editorial-calendar",
+          "scope": "self",
+          "ingestEvents": false
+        },
+        {
+          "label": "Magyar Szó Ausztriában – Facebook",
+          "url": "https://www.facebook.com/magyarszo.at",
+          "kind": "social-calendar",
+          "platform": "facebook",
           "scope": "self",
           "ingestEvents": false
         }
@@ -10002,7 +10432,8 @@
       ],
       "phone": "+43 664 2020564",
       "profileVerifiedAt": "2026-09-25",
-      "entityClass": "organization"
+      "entityClass": "organization",
+      "calendarSources": []
     },
     {
       "id": "semmelweis-orvosegyesulet",
@@ -10167,7 +10598,8 @@
       ],
       "entityClass": "institution",
       "classificationNote": "A Központi Szövetség saját intézménye és székhelye; nem külön tagszervezet.",
-      "contactUrl": "https://www.kozpontiszovetseg.at/"
+      "contactUrl": "https://www.kozpontiszovetseg.at/",
+      "calendarSources": []
     },
     {
       "id": "orseg-naptar",
@@ -10323,7 +10755,8 @@
       "parentOrganizationId": "kozponti-szovetseg",
       "email": "iroda@kozpontiszovetseg.at",
       "phone": "+43 1 532 60 48",
-      "contactUrl": "https://www.kozpontiszovetseg.at/"
+      "contactUrl": "https://www.kozpontiszovetseg.at/",
+      "calendarSources": []
     },
     {
       "id": "sodalitas-kiadoi-projekt",
@@ -10446,7 +10879,8 @@
       ],
       "entityClass": "project",
       "classificationNote": "Többéves, önálló névvel és aloldallal rendelkező művészeti projekt.",
-      "contactUrl": "https://www.salzung.com/hu/projektek/hatartalanul"
+      "contactUrl": "https://www.salzung.com/hu/projektek/hatartalanul",
+      "calendarSources": []
     },
     {
       "id": "salzung-igy-lettunk-magyarok",
@@ -10508,7 +10942,8 @@
       ],
       "entityClass": "project",
       "classificationNote": "Önálló névvel, célcsoporttal, kiadvánnyal és projektoldallal rendelkező diaszpóra-oktatási projekt.",
-      "contactUrl": "https://www.salzung.com/hu/projektek/igylettunkmagyarok"
+      "contactUrl": "https://www.salzung.com/hu/projektek/igylettunkmagyarok",
+      "calendarSources": []
     },
     {
       "id": "ausztriai-diaszpora-iskolatabor",
@@ -10590,7 +11025,8 @@
       ],
       "parentOrganizationId": "imike",
       "email": "ujkv.ibk@gmail.com",
-      "contactUrl": "https://www.facebook.com/IMIKE2019UJKV/"
+      "contactUrl": "https://www.facebook.com/IMIKE2019UJKV/",
+      "calendarSources": []
     },
     {
       "id": "achtungarn-fesztival",
@@ -10737,7 +11173,8 @@
       "entityClass": "activity",
       "classificationNote": "Történeti, évente ismétlődő bálsorozat; az egyes évek az eseménynaptárba tartoznak.",
       "email": "gme1888@gmx.at",
-      "contactUrl": "https://www.grazimagyaregyesuelet.at/"
+      "contactUrl": "https://www.grazimagyaregyesuelet.at/",
+      "calendarSources": []
     },
     {
       "id": "rolunk-szolunk-tabor",
@@ -10809,7 +11246,8 @@
       "entityClass": "activity",
       "classificationNote": "Évente ismétlődő táborprogram; az egyes évek az eseménynaptárba tartoznak.",
       "email": "kapcsolat@hungaromedia.at",
-      "contactUrl": "https://linktr.ee/hungaromedia"
+      "contactUrl": "https://linktr.ee/hungaromedia",
+      "calendarSources": []
     },
     {
       "id": "mime-neptanc",
@@ -10880,7 +11318,8 @@
       ],
       "entityClass": "group",
       "email": "mime.vorarlberg@gmail.com",
-      "contactUrl": null
+      "contactUrl": null,
+      "calendarSources": []
     },
     {
       "id": "salzburgi-gyerekkonyvklub",
@@ -10942,7 +11381,8 @@
       ],
       "entityClass": "project",
       "classificationNote": "Közösségi kezdeményezés, nem jogi szervezet. A megnevezés leíró név az ORF által dokumentált gyerekkönyvklub és közösségi könyvtár alapján.",
-      "contactUrl": "https://volksgruppen.orf.at/magyarok/stories/3362931/"
+      "contactUrl": "https://volksgruppen.orf.at/magyarok/stories/3362931/",
+      "calendarSources": []
     },
     {
       "id": "olvashow",
@@ -11252,7 +11692,8 @@
       ],
       "entityClass": "activity",
       "classificationNote": "Évente ismétlődő ünnepségsorozat; az egyes évek külön eseményrekordként kezelhetők.",
-      "contactUrl": "https://kalaka-club.at/"
+      "contactUrl": "https://kalaka-club.at/",
+      "calendarSources": []
     },
     {
       "id": "magyar-csaladi-nap-becs",
@@ -11332,7 +11773,8 @@
       "entityClass": "activity",
       "classificationNote": "2025-ben indult, 2026-ban folytatott visszatérő családi programsorozat.",
       "email": "becs@cserkesz.at",
-      "contactUrl": "https://cserkesz.at/"
+      "contactUrl": "https://cserkesz.at/",
+      "calendarSources": []
     },
     {
       "id": "bmkbe",
