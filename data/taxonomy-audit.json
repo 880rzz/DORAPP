@@ -1,9 +1,9 @@
 {
-  "updated": "2026-09-28T19:14:14.212474+00:00",
+  "updated": "2026-09-28T19:15:53.711730+00:00",
   "summary": {
     "organizations": 158,
     "organizationFlags": 0,
-    "organizationPagesChecked": 339,
+    "organizationPagesChecked": 332,
     "education": 106,
     "educationFlags": 0,
     "events": 29,
@@ -1106,9 +1106,9 @@
       ],
       "pagesChecked": 3,
       "checkedUrls": [
-        "https://culture.hu/hu/wien",
         "https://culture.hu/hu/wien/elerhetoseg",
-        "https://volksgruppen.orf.at/magyarok/stories/3358308/"
+        "https://volksgruppen.orf.at/magyarok/stories/3358308/",
+        "https://culture.hu/hu/wien"
       ],
       "errors": [],
       "flags": []
@@ -1479,27 +1479,10 @@
         "kultura"
       ],
       "activityCategories": [],
-      "signals": [
-        "oktatas",
-        "neptanc",
-        "szinhaz",
-        "media",
-        "egyhaz",
-        "diak",
-        "irodalom",
-        "muveszet"
-      ],
-      "pagesChecked": 2,
-      "checkedUrls": [
-        "https://europaclub.at/",
-        "https://europaclub.at/rolunk/europa-club-tortenete/"
-      ],
-      "errors": [
-        {
-          "url": "https://europaclub.at/rendezvenyek/meghivok/",
-          "error": "The read operation timed out"
-        }
-      ],
+      "signals": [],
+      "pagesChecked": 0,
+      "checkedUrls": [],
+      "errors": [],
       "flags": []
     },
     {
@@ -1895,12 +1878,15 @@
         "muveszet",
         "csalad"
       ],
-      "pagesChecked": 2,
+      "pagesChecked": 1,
       "checkedUrls": [
-        "https://imeasz.at/",
         "https://www.petofiprogram.hu/hirek/hazat-csereltek-de-szivet-nem-kifogyhatatlan-otletekkel-peldas-aktivitassal-orzik"
       ],
       "errors": [
+        {
+          "url": "https://imeasz.at/",
+          "error": "Remote end closed connection without response"
+        },
         {
           "url": "https://www.kozpontiszovetseg.at/tagszervezetek",
           "error": "HTTP Error 429: Too Many Requests"
@@ -2232,21 +2218,19 @@
       ],
       "activityCategories": [],
       "signals": [
-        "oktatas",
-        "neptanc",
-        "nepzene",
-        "szinhaz",
-        "media",
-        "irodalom",
-        "muveszet",
-        "csalad"
+        "oktatas"
       ],
-      "pagesChecked": 2,
-      "checkedUrls": [
-        "https://www.kozpontiszovetseg.at/",
-        "https://www.kozpontiszovetseg.at/r%C3%B3lunk"
-      ],
+      "pagesChecked": 0,
+      "checkedUrls": [],
       "errors": [
+        {
+          "url": "https://www.kozpontiszovetseg.at/",
+          "error": "HTTP Error 429: Too Many Requests"
+        },
+        {
+          "url": "https://www.kozpontiszovetseg.at/r%C3%B3lunk",
+          "error": "HTTP Error 429: Too Many Requests"
+        },
         {
           "url": "https://www.kozpontiszovetseg.at/kapcsolat",
           "error": "HTTP Error 429: Too Many Requests"
@@ -2364,16 +2348,12 @@
       ],
       "activityCategories": [],
       "signals": [
-        "oktatas",
-        "szinhaz",
         "media",
         "irodalom",
-        "sport",
         "csalad"
       ],
-      "pagesChecked": 2,
+      "pagesChecked": 1,
       "checkedUrls": [
-        "https://wissensturm.linz.at/bibliothek/",
         "https://www.linz.at/medienservice/2025/202508_132151.php"
       ],
       "errors": [],
@@ -2811,14 +2791,12 @@
       "signals": [
         "oktatas",
         "neptanc",
-        "nepzene",
         "media",
         "sport",
         "csalad"
       ],
-      "pagesChecked": 2,
+      "pagesChecked": 1,
       "checkedUrls": [
-        "https://ne-felejts.weebly.com/",
         "https://volksgruppen.orf.at/magyarok/stories/3335688/"
       ],
       "errors": [],
@@ -3042,8 +3020,8 @@
       ],
       "pagesChecked": 2,
       "checkedUrls": [
-        "https://vhs-ungarn.at/de/uber-uns/der-verein-volkshochschule-der-burgenlandischen-ungarn/",
-        "https://hungarikum.at/hu/hagyomanyok/"
+        "https://hungarikum.at/hu/hagyomanyok/",
+        "https://vhs-ungarn.at/de/uber-uns/der-verein-volkshochschule-der-burgenlandischen-ungarn/"
       ],
       "errors": [],
       "flags": []
@@ -3478,9 +3456,9 @@
       ],
       "pagesChecked": 3,
       "checkedUrls": [
-        "https://www.delibab-becs.com/",
         "https://rolunk.at/nepcsoportunk/isten-eltessen-sokaig-delibab-becsi-magyar-kulturegyesulet-delibab-75-cimu-film/",
-        "https://rolunk.at/aktualis/a-haza-mi-magunk-vagyunk-marcius-15-i-unnepseg-magyarorszag-becsi-nagykovetsegen/"
+        "https://rolunk.at/aktualis/a-haza-mi-magunk-vagyunk-marcius-15-i-unnepseg-magyarorszag-becsi-nagykovetsegen/",
+        "https://www.delibab-becs.com/"
       ],
       "errors": [],
       "flags": []
@@ -3642,6 +3620,8 @@
         "oktatas",
         "enekkar",
         "szinhaz",
+        "media",
+        "egyhaz",
         "diak",
         "irodalom",
         "muveszet",
@@ -3650,9 +3630,9 @@
       ],
       "pagesChecked": 3,
       "checkedUrls": [
-        "https://www.salzung.com/hu",
         "https://www.salzung.com/hu/projektek/minikonyvtar/minikoenyvtar",
-        "https://salzung.com/hu/hirek/tervezett-programjaink-a-2021-es-evben"
+        "https://salzung.com/hu/hirek/tervezett-programjaink-a-2021-es-evben",
+        "https://volksgruppen.orf.at/magyarok/stories/3356535/"
       ],
       "errors": [],
       "flags": []
