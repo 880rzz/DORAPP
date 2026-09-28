@@ -1,9 +1,9 @@
 {
-  "updated": "2026-09-28T18:33:20.973148+00:00",
+  "updated": "2026-09-28T18:35:58.751520+00:00",
   "summary": {
     "organizations": 158,
     "organizationFlags": 1,
-    "organizationPagesChecked": 351,
+    "organizationPagesChecked": 353,
     "education": 106,
     "educationFlags": 0,
     "events": 29,
@@ -817,11 +817,13 @@
         "diak",
         "irodalom",
         "muveszet",
+        "sport",
         "csalad"
       ],
-      "pagesChecked": 1,
+      "pagesChecked": 2,
       "checkedUrls": [
-        "https://kerekasztal.at/tagok/"
+        "https://kerekasztal.at/tagok/",
+        "https://atalon.hu/vilagjarok-klubja-becs-2eyhjn"
       ],
       "errors": [],
       "flags": []
@@ -1647,23 +1649,21 @@
       ],
       "activityCategories": [],
       "signals": [
-        "oktatas",
-        "nepzene",
-        "szinhaz",
-        "media",
         "egyhaz",
-        "diak",
         "irodalom",
-        "muveszet",
         "csalad"
       ],
-      "pagesChecked": 3,
+      "pagesChecked": 2,
       "checkedUrls": [
-        "https://femconnectgraz.at/",
         "https://femconnectgraz.at/graci-programok/",
         "https://femconnectgraz.at/events/"
       ],
-      "errors": [],
+      "errors": [
+        {
+          "url": "https://femconnectgraz.at/",
+          "error": "HTTP Error 520: <none>"
+        }
+      ],
       "flags": []
     },
     {
@@ -2234,19 +2234,21 @@
       ],
       "activityCategories": [],
       "signals": [
-        "oktatas"
+        "oktatas",
+        "neptanc",
+        "nepzene",
+        "szinhaz",
+        "media",
+        "irodalom",
+        "muveszet",
+        "csalad"
       ],
-      "pagesChecked": 0,
-      "checkedUrls": [],
+      "pagesChecked": 2,
+      "checkedUrls": [
+        "https://www.kozpontiszovetseg.at/",
+        "https://www.kozpontiszovetseg.at/r%C3%B3lunk"
+      ],
       "errors": [
-        {
-          "url": "https://www.kozpontiszovetseg.at/",
-          "error": "HTTP Error 429: Too Many Requests"
-        },
-        {
-          "url": "https://www.kozpontiszovetseg.at/r%C3%B3lunk",
-          "error": "HTTP Error 429: Too Many Requests"
-        },
         {
           "url": "https://www.kozpontiszovetseg.at/kapcsolat",
           "error": "HTTP Error 429: Too Many Requests"
@@ -2468,7 +2470,7 @@
       "errors": [
         {
           "url": "https://www.magyarszo.at/",
-          "error": "<urlopen error timed out>"
+          "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'www.magyarszo.at'. (_ssl.c:1010)>"
         }
       ],
       "flags": []
