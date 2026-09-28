@@ -1215,7 +1215,21 @@
           "ingestEvents": true
         }
       ],
-      "classificationNote": "Önálló jelenlegi web/social profil nem igazolt; a projekt eseményei intézményi és sajtóforrásokon keresztül dokumentáltak."
+      "classificationNote": "Önálló jelenlegi web/social profil nem igazolt; a projekt eseményei intézményi és sajtóforrásokon keresztül dokumentáltak.",
+      "publicChannels": [
+        {
+          "label": "Központi Szövetség – Duna Filharmónia eseményoldal",
+          "url": "https://www.kozpontiszovetseg.at/event-details/zene-es-talalkozas",
+          "kind": "institutional-profile",
+          "ownership": "related"
+        },
+        {
+          "label": "ORF Magyarok – Duna Filharmónia háttér",
+          "url": "https://volksgruppen.orf.at/v2/magyarok/stories/2914449/",
+          "kind": "media-profile",
+          "ownership": "independent"
+        }
+      ]
     },
     {
       "id": "becsi-magyar-iskola",
@@ -7729,7 +7743,21 @@
           "ingestEvents": false
         }
       ],
-      "classificationNote": "2026-ig nem találtunk igazolt önálló web- vagy social profilt; a szervezet nyilvános jelenlétét intézményi és sajtóforrások dokumentálják."
+      "classificationNote": "2026-ig nem találtunk igazolt önálló web- vagy social profilt; a szervezet nyilvános jelenlétét intézményi és sajtóforrások dokumentálják.",
+      "publicChannels": [
+        {
+          "label": "Rólunk.at – ausztriai magyar egyesületi jegyzék",
+          "url": "https://rolunk.at/ausztriai-magyar-egyesuletek/",
+          "kind": "community-directory",
+          "ownership": "independent"
+        },
+        {
+          "label": "ORF Magyarok – Erdélyi Magyarok Ausztriai Egyesülete",
+          "url": "https://volksgruppen.orf.at/magyarok/stories/3286420/",
+          "kind": "media-profile",
+          "ownership": "independent"
+        }
+      ]
     },
     {
       "id": "pax-romana",
@@ -7835,6 +7863,26 @@
           "kind": "umbrella-calendar",
           "scope": "umbrella",
           "ingestEvents": false
+        }
+      ],
+      "publicChannels": [
+        {
+          "label": "ICMICA–MIIC Pax Romana – Österreich",
+          "url": "https://www.icmica-miic.org/2012/03/oesterreich/",
+          "kind": "movement-profile",
+          "ownership": "related"
+        },
+        {
+          "label": "Kerekasztal – tagszervezeti és programfelület",
+          "url": "https://kerekasztal.at/",
+          "kind": "umbrella-profile",
+          "ownership": "related"
+        },
+        {
+          "label": "Rólunk.at – ausztriai magyar egyesületi jegyzék",
+          "url": "https://rolunk.at/ausztriai-magyar-egyesuletek/",
+          "kind": "community-directory",
+          "ownership": "independent"
         }
       ]
     },
@@ -8660,6 +8708,28 @@
           "label": "Az IMIKE által támogatott és működtetett gyermekközösség",
           "sourceUrl": "https://volksgruppen.orf.at/magyarok/stories/3337903/"
         }
+      ],
+      "publicChannels": [
+        {
+          "label": "IMIKE – Facebook",
+          "url": "https://www.facebook.com/IMIKE2019UJKV/",
+          "kind": "social",
+          "platform": "facebook",
+          "ownership": "parent"
+        },
+        {
+          "label": "IMIKE – Instagram",
+          "url": "https://www.instagram.com/imike_ujkv/",
+          "kind": "social",
+          "platform": "instagram",
+          "ownership": "parent"
+        },
+        {
+          "label": "NeveNincs Óvoda – eseményoldal",
+          "url": "https://allevents.in/org/nevenincs-%C3%93voda-imike/20899972",
+          "kind": "event-profile",
+          "ownership": "third-party"
+        }
       ]
     },
     {
@@ -8801,7 +8871,21 @@
       "calendarSources": [],
       "classificationNote": "Történeti, megszűnt ernyőszervezet. Aktuális saját web/social csatorna nem igazolt; a megadott kapcsolat történeti/intézményi forrásból származik.",
       "calendarStatus": "not-applicable",
-      "calendarStatusNote": "A szervezet megszűnt; aktuális eseménynaptár nem értelmezhető."
+      "calendarStatusNote": "A szervezet megszűnt; aktuális eseménynaptár nem értelmezhető.",
+      "publicChannels": [
+        {
+          "label": "BMKE – történeti szervezeti linkjegyzék",
+          "url": "https://bukv.at/hu/linkek/",
+          "kind": "institutional-reference",
+          "ownership": "independent"
+        },
+        {
+          "label": "ORF Magyarok – Csúcsszervezet történeti háttér",
+          "url": "https://volksgruppen.orf.at/magyarok/stories/3199288/",
+          "kind": "media-profile",
+          "ownership": "independent"
+        }
+      ]
     },
     {
       "id": "virgonc-unterwart",
@@ -10006,6 +10090,20 @@
           "kind": "affiliate-calendar",
           "scope": "related",
           "ingestEvents": false
+        }
+      ],
+      "publicChannels": [
+        {
+          "label": "Kőrösi Csoma Sándor Program – történeti intézményi kapcsolat",
+          "url": "https://www.korosiprogram.hu/partnereink/ausztriai-magyar-egyesuletek-es-szervezetek-kozponti-szovetsege-es-tagszervezetei",
+          "kind": "institutional-reference",
+          "ownership": "independent"
+        },
+        {
+          "label": "ORF Magyarok – Semmelweis Magyar Orvosok Egyesülete",
+          "url": "https://volksgruppen.orf.at/v2/magyarok/stories/2764323/",
+          "kind": "media-profile",
+          "ownership": "independent"
         }
       ]
     },
@@ -11307,7 +11405,15 @@
           "ingestEvents": false
         }
       ],
-      "classificationNote": "Önálló tagszervezet, de 2026-ig nem találtunk igazolt saját web/social csatornát; a Kerekasztal hivatalos tagoldala a publikus referenciapont."
+      "classificationNote": "Önálló tagszervezet, de 2026-ig nem találtunk igazolt saját web/social csatornát; a Kerekasztal hivatalos tagoldala a publikus referenciapont.",
+      "publicChannels": [
+        {
+          "label": "Kerekasztal – hivatalos tagoldal",
+          "url": "https://kerekasztal.at/tagok/",
+          "kind": "umbrella-profile",
+          "ownership": "related"
+        }
+      ]
     },
     {
       "id": "polgari-magyar-fiatalok",
@@ -11406,7 +11512,21 @@
         }
       ],
       "contactUrl": "https://kerekasztal.at/tagok/",
-      "classificationNote": "Önálló Kerekasztal-tagszervezet; 2026-ig nem találtunk igazolt saját web/social profilt, ezért a Kerekasztal hivatalos tag- és programfelülete szolgál publikus referenciaként."
+      "classificationNote": "Önálló Kerekasztal-tagszervezet; 2026-ig nem találtunk igazolt saját web/social profilt, ezért a Kerekasztal hivatalos tag- és programfelülete szolgál publikus referenciaként.",
+      "publicChannels": [
+        {
+          "label": "Kerekasztal – hivatalos tagoldal",
+          "url": "https://kerekasztal.at/tagok/",
+          "kind": "umbrella-profile",
+          "ownership": "related"
+        },
+        {
+          "label": "Rólunk.at – Kerekasztal tagszervezeti bemutatás",
+          "url": "https://rolunk.at/nepcsoportunk/20-tagegyesuletet-fog-ossze-az-ausztriai-magyar-szervezetek-kerekasztala/",
+          "kind": "community-profile",
+          "ownership": "independent"
+        }
+      ]
     },
     {
       "id": "haus-der-volksgruppen-oberwart",
