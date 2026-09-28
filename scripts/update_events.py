@@ -398,7 +398,32 @@ def main():
             row["error"]=msg[:220]
         return row,collected
 
-    jobs=[(org,source) for org in orgdb["organizations"] for source in org.get("eventSources",[])]
+    def ingest_sources(org):
+        """Return the single canonical set of automatic event sources.
+
+        calendarSources[].ingestEvents is the authority. eventSources remains
+        supported for backwards compatibility, but cannot silently disagree:
+        explicit calendar metadata with ingestEvents=false suppresses the same URL.
+        """
+        calendars=org.get("calendarSources") or []
+        explicitly_disabled={
+            str(c.get("url") or "").strip()
+            for c in calendars
+            if isinstance(c,dict) and c.get("url") and c.get("ingestEvents") is False
+        }
+        sources=[]
+        for c in calendars:
+            if isinstance(c,dict) and c.get("ingestEvents") is True and c.get("url"):
+                u=str(c["url"]).strip()
+                if u and u not in sources:
+                    sources.append(u)
+        for raw in org.get("eventSources",[]) or []:
+            u=str(raw.get("url") if isinstance(raw,dict) else raw or "").strip()
+            if u and u not in explicitly_disabled and u not in sources:
+                sources.append(u)
+        return sources
+
+    jobs=[(org,source) for org in orgdb["organizations"] for source in ingest_sources(org)]
     with ThreadPoolExecutor(max_workers=8) as pool:
         futures=[pool.submit(audit_source,org,source) for org,source in jobs]
         for future in as_completed(futures):
