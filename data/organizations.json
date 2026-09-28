@@ -11915,7 +11915,7 @@
       "state": "wien",
       "city": "Wien",
       "type": "kulturális támogató egyesület",
-      "intro": "A Bécsi Magyar Kultúrcentrum Barátainak Egyesülete a Bécsben és Bécs környékén élő magyar diákok magyarországi nyári táborainak anyagi és erkölcsi támogatását tekinti fő feladatának.",
+      "intro": "A Bécsi Magyar Kultúrcentrum Barátai / Magyar Kultúrcentrum Baráti Körének Egyesülete bécsi magyar kulturális támogató szervezet. Fő feladata a Bécsben és környékén élő magyar diákok magyarországi nyári táborainak anyagi és erkölcsi támogatása. Történeti vezetőjeként Radda István dokumentált, aki a bécsi magyar szervezeti élet több intézményében is szerepet vállalt.",
       "website": null,
       "facebook": null,
       "instagram": null,
@@ -11934,12 +11934,14 @@
       ],
       "activities": [
         "bécsi és Bécs környéki magyar diákok támogatása",
-        "magyarországi nyári táborok anyagi és erkölcsi támogatása",
-        "kulturális közösségi támogatás"
+        "magyarországi nyári táborok anyagi támogatása",
+        "magyarországi nyári táborok erkölcsi és közösségi támogatása",
+        "magyar kulturális és ifjúsági kapcsolatok erősítése"
       ],
       "targetGroups": [
         "Bécsben és környékén élő magyar diákok",
-        "magyar nyári táborok résztvevői"
+        "magyarországi nyári táborok résztvevői",
+        "bécsi magyar családok és oktatási közösségek"
       ],
       "languages": [
         "magyar",
@@ -11951,11 +11953,27 @@
           "label": "Kerekasztal – tagok",
           "url": "https://kerekasztal.at/tagok/",
           "type": "institutional"
+        },
+        {
+          "label": "Atalon – Radda István életrajzi interjú, BMKBE elnöki szerep",
+          "url": "https://atalon.hu/vilagjarok-klubja-becs-2eyhjn",
+          "type": "biographical-interview"
+        },
+        {
+          "label": "Kárpát-medencei civil szervezeti jegyzék – Magyar Kultúrcentrum Baráti Körének Egyesülete",
+          "url": "https://www.karpatikum.hu/doc/Karpat_medence.pdf",
+          "type": "directory"
         }
       ],
       "history": {
-        "summary": "A Bécsi Magyar Kultúrcentrum Barátai a Kerekasztal saját tagoldalán szereplő tagszervezet. A nyilvános leírás szerint tevékenységének fő célja a Bécsben és környékén élő magyar diákok magyarországi nyári táborainak támogatása.",
+        "summary": "A Magyar Kultúrcentrum Baráti Körének Egyesülete történeti forrásokban önálló bécsi magyar szervezetként jelenik meg. Tevékenységének fő célja a Bécsben és környékén élő magyar diákok magyarországi nyári táborainak támogatása. Radda István életrajzi interjúja szerint az egyesület elnöke volt; később a Kerekasztal vezetésében is szerepet vállalt. A szervezetet civil-szervezeti jegyzékek is külön entitásként tartották nyilván, miközben saját jelenlegi web/social felület továbbra sem azonosítható.",
         "milestones": [
+          {
+            "year": "2000-es/2010-es évek",
+            "title": "Radda István elnöki szerepe",
+            "description": "Radda István életrajzi interjúja a Bécsi Magyar Kultúrcentrum Baráti Kör korábbi elnökeként dokumentálja.",
+            "sourceUrl": "https://atalon.hu/vilagjarok-klubja-becs-2eyhjn"
+          },
           {
             "year": "2026",
             "title": "Kerekasztal-tagság dokumentálva",
@@ -11975,7 +11993,7 @@
           "ingestEvents": false
         }
       ],
-      "classificationNote": "Önálló Kerekasztal-tagszervezet. A nyilvánosan igazolható profil jelenleg a Bécsben és környékén élő magyar diákok magyarországi nyári táborainak anyagi és erkölcsi támogatására korlátozódik; saját web/social, közvetlen publikus kontakt, aktuális vezető és alapítási év nem azonosítható kellő bizonyossággal. Ezeket szándékosan nem találgatjuk.",
+      "classificationNote": "Önálló bécsi magyar támogató egyesület. Történeti elnökként Radda István dokumentált. Jelenlegi saját web/social, közvetlen publikus kontakt, aktuális vezető és pontos alapítási év továbbra sem igazolt; ezeket nem következtetjük ki.",
       "publicChannels": [
         {
           "label": "Kerekasztal – hivatalos tagoldal",
