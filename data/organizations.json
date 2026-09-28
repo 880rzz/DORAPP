@@ -1650,6 +1650,13 @@
           "scope": "parent",
           "ingestEvents": false
         }
+      ],
+      "classificationNote": "A BécsCraft a Bécsi Magyar Iskola helyszínén futó, Creative Science által szakmailag megvalósított partnerprogram. A BMI web/e-mail a helyszíni/jelentkezési infrastruktúra; a program nem önálló egyesület.",
+      "affiliations": [
+        {
+          "label": "Creative Science – szakmai programgazda",
+          "sourceUrl": "https://www.creativescience.hu/programjaink/becs-craft-workshop/"
+        }
       ]
     },
     {
@@ -10155,7 +10162,8 @@
           "ingestEvents": false
         }
       ],
-      "email": "gme1888@gmx.at"
+      "email": "gme1888@gmx.at",
+      "classificationNote": "A grazimagyaregyesuelet.at és gme1888@gmx.at a Grazi Magyar Egyesület parent infrastruktúrája; a rekord működő csoportot reprezentál, nem külön egyesületet."
     },
     {
       "id": "vipach",
@@ -11466,7 +11474,7 @@
         }
       ],
       "entityClass": "activity",
-      "classificationNote": "Történeti, évente ismétlődő bálsorozat; az egyes évek az eseménynaptárba tartoznak.",
+      "classificationNote": "Történeti, évente ismétlődő bálsorozat; az egyes évek az eseménynaptárba tartoznak. A grazimagyaregyesuelet.at és gme1888@gmx.at a Grazi Magyar Egyesület parent infrastruktúrája; a rekord rendezvénysorozatot reprezentál, nem külön egyesületet.",
       "email": "gme1888@gmx.at",
       "contactUrl": "https://www.grazimagyaregyesuelet.at/",
       "calendarSources": []
