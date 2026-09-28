@@ -1154,9 +1154,7 @@
       "website": "https://ungarball.at/",
       "facebook": null,
       "instagram": null,
-      "eventSources": [
-        "https://ungarball.at/"
-      ],
+      "eventSources": [],
       "evidenceSources": [
         {
           "label": "St. Stephan Verein – hivatalos Impressum és vezetőség",
@@ -1256,11 +1254,11 @@
       "contactUrl": "https://ungarball.at/impressum",
       "calendarSources": [
         {
-          "label": "St. Stephan Verein – hivatalos program és Ungarball",
+          "label": "Szent István Bál – kapcsolódó hivatalos eseményoldal",
           "url": "https://ungarball.at/",
-          "kind": "official-calendar",
-          "scope": "self",
-          "ingestEvents": true
+          "kind": "related-event-page",
+          "scope": "related",
+          "ingestEvents": false
         }
       ],
       "founded": "1918"
@@ -11129,7 +11127,7 @@
       "facebook": null,
       "instagram": null,
       "eventSources": [
-        "https://www.musicaltarsulat.at/blog"
+        "https://www.musicaltarsulat.at/"
       ],
       "evidenceSources": [
         {
@@ -11186,18 +11184,18 @@
       "entityClass": "group",
       "calendarSources": [
         {
-          "label": "Általános saját weboldal – discovery/evidence, nem elsődleges eseményfeed",
+          "label": "Bécsi Magyar Musical Társulat – aktuális program és Musical Studio",
           "url": "https://www.musicaltarsulat.at/",
-          "kind": "official-website",
-          "scope": "self",
-          "ingestEvents": false
-        },
-        {
-          "label": "Bécsi Magyar Musical Társulat – maMUT – automatikus eseményforrás",
-          "url": "https://www.musicaltarsulat.at/blog",
-          "kind": "official-calendar",
+          "kind": "official-program-source",
           "scope": "self",
           "ingestEvents": true
+        },
+        {
+          "label": "maMUT – blog / tartalmi archívum",
+          "url": "https://www.musicaltarsulat.at/blog",
+          "kind": "official-news",
+          "scope": "self",
+          "ingestEvents": false
         }
       ],
       "classificationNote": "A maMUT saját hivatalos oldala szerint az Ausztriai Magyar Egyesületek és Szervezetek Központi Szövetségének égisze alatt működik; a Bécsi Magyar Iskola együttműködő partner. Ezért a Központi Szövetség parent, a BMI affiliation.",
