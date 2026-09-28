@@ -373,7 +373,7 @@
         "szinhaz"
       ],
       "parentOrganizationId": "svung",
-      "intro": "A SVUNG – Bécsi Magyar Színház gimnazistáknak szóló magyar nyelvű drámacsoportja. A 2026/27-es tanévben heti rendszerességgel működik a Bécsi Magyar Iskolában.",
+      "intro": "A Gimi Svung a SVUNG – Bécsi Magyar Színház magyar nyelvű drámafoglalkozása 12–18 éves gimnazistáknak. A heti műhely improvizációval, szituációs gyakorlatokkal, dráma- és jelenetírással fejleszti a magyar nyelvi kifejezőkészséget, önbizalmat, empátiát és kreativitást, miközben a tanév végére saját színpadi produkció létrehozását célozza.",
       "website": "https://www.magyariskola.at/event-details/gimisvung-2026",
       "facebook": null,
       "instagram": null,
@@ -388,35 +388,48 @@
         }
       ],
       "activities": [
-        "magyar nyelvű drámafoglalkozások",
-        "improvizáció és színpadi jelenetek",
-        "ifjúsági színházi alkotómunka",
-        "heti közösségi próba és előadás-előkészítés"
+        "improvizációs és szituációs gyakorlatok",
+        "magyar nyelvi és kommunikációs készségfejlesztés",
+        "dráma- és jelenetírás",
+        "önismereti és empátiát fejlesztő gyakorlatok",
+        "saját színpadi produkció létrehozása"
       ],
       "targetGroups": [
-        "magyarul beszélő gimnazisták",
-        "színjátszás iránt érdeklődő bécsi fiatalok",
-        "magyar ifjúsági közösséget keresők"
+        "12–18 éves magyarul beszélő gimnazisták",
+        "Bécsben élő magyar és kétnyelvű fiatalok",
+        "színház és kreatív önkifejezés iránt érdeklődő diákok"
       ],
       "languages": [
         "magyar"
       ],
-      "profileVerifiedAt": "2026-09-25",
+      "profileVerifiedAt": "2026-09-28",
       "founded": "2024",
       "history": {
-        "summary": "A Gimi Svung a Bécsi Magyar Iskola 2024/25-ös tanévi megújulásakor indult új drámacsoportként, kifejezetten a középiskolás korosztály számára. A program a Svung színházi közegére épít, és a drámajátékot, önkifejezést, beszédkészséget és magabiztos színpadi jelenlétet fejleszti.",
+        "summary": "A Gimi Svung a SVUNG – Bécsi Magyar Színház és a Bécsi Magyar Iskola együttműködésében működő, tanéven át futó drámapedagógiai program. A 2026/27-es tanévben szeptember 18-tól péntekenként 16:30–18:00 között várja a 12–18 éves fiatalokat a Schwedenplatzon. A foglalkozásokat Pohl Balázs drámapedagógus, a SVUNG művészeti vezetője irányítja, időnként a társulat más tagjaival együtt. A program fókusza a nyelvi és személyiségfejlesztés, az önálló gondolkodás és saját színpadi produkció létrehozása.",
         "milestones": [
           {
-            "year": "2024/25",
-            "title": "A Gimi Svung indulása",
-            "description": "A Bécsi Magyar Iskola megújult programkínálatában elindul a középiskolások drámacsoportja.",
-            "sourceUrl": "https://www.magyariskola.at/tortenetunk"
+            "year": "2026/27",
+            "title": "Tanéves Gimi Svung-program",
+            "description": "A program szeptember 18-tól péntekenként működik a Bécsi Magyar Iskolában.",
+            "sourceUrl": "https://www.magyariskola.at/event-details/gimisvung-2026"
           }
         ]
       },
       "entityClass": "group",
       "classificationOverride": "stable-group",
-      "classificationNote": "Önálló, tartósan működő színjátszó csoport; a heti foglalkozás külön oktatási/kurzusrekordban szerepel."
+      "classificationNote": "Önálló, tartósan működő színjátszó csoport; a heti foglalkozás külön oktatási/kurzusrekordban szerepel.",
+      "email": "pohlbalazs@svung.at",
+      "address": "Schwedenplatz 2, Top 9, 1010 Wien, Austria",
+      "contactUrl": "https://www.magyariskola.at/event-details/gimisvung-2026",
+      "calendarSources": [
+        {
+          "label": "Bécsi Magyar Iskola – Gimi Svung 2026/27",
+          "url": "https://www.magyariskola.at/event-details/gimisvung-2026",
+          "kind": "official-course-calendar",
+          "scope": "self",
+          "ingestEvents": true
+        }
+      ]
     },
     {
       "id": "cserkesz-72",
@@ -825,59 +838,79 @@
         "neptanc"
       ],
       "parentOrganizationId": "napraforgok",
-      "intro": "A Napraforgócskák a Napraforgók bécsi gyermeknéptánccsoportja, amely 6–15 éves gyerekeknek tart rendszeres magyar néptánc-foglalkozásokat Bécsben, illetve időszakosan Badenben.",
+      "intro": "A Napraforgócskák a Napraforgók – Bécsi Magyar Néptánc és Népzene Egyesület gyermekcsoportja. A foglalkozások a magyar néptáncot, ritmust, csujjogatást és közös muzsikálást játékos formában adják tovább, miközben a gyerekek a bécsi magyar néptáncos közösség természetes utánpótlását alkotják.",
       "website": "https://www.napraforgok.at/r%C3%B3lunk",
-      "facebook": null,
+      "facebook": "https://www.facebook.com/napraforgok.becs",
       "instagram": null,
       "eventSources": [
-        "https://www.napraforgok.at/",
-        "https://www.magyariskola.at/event-details/napraforgocskak-2026"
+        "https://www.napraforgok.at/"
       ],
       "evidenceSources": [
         {
-          "label": "Napraforgók – csoportok és vezetők",
-          "url": "https://www.napraforgok.at/vezetoseg",
+          "label": "Napraforgók – gyermekcsoport bemutatása",
+          "url": "https://www.napraforgok.at/r%C3%B3lunk",
           "type": "official"
         },
         {
-          "label": "Bécsi Magyar Iskola – Napraforgócskák 2026",
-          "url": "https://www.magyariskola.at/event-details/napraforgocskak-2026",
-          "type": "institutional"
+          "label": "Napraforgók – vezetőség és Napraforgócskák tanárai",
+          "url": "https://www.napraforgok.at/vezetoseg",
+          "type": "official"
         }
       ],
       "activities": [
-        "gyermeknéptánc",
-        "magyar népzene és ritmusjáték",
-        "közösségi és hagyományőrző gyermekfoglalkozások",
-        "színpadi fellépések"
+        "magyar néptánc oktatása gyermekeknek",
+        "ritmus- és mozgásfejlesztés",
+        "népi játékok és csujjogatások",
+        "fellépések és táncházi részvétel",
+        "élő népzenei élmény"
       ],
       "targetGroups": [
-        "6–15 éves magyar vagy magyarul tanuló gyermekek",
-        "bécsi és badeni magyar családok"
+        "Bécsben élő magyar gyermekek",
+        "néptánc iránt érdeklődő családok",
+        "magyar népi kultúrához kapcsolódni kívánó gyermekek"
       ],
       "languages": [
         "magyar"
       ],
       "email": "napraforgok.tancegyuttes@gmail.com",
-      "profileVerifiedAt": "2026-09-25",
+      "profileVerifiedAt": "2026-09-28",
       "history": {
-        "summary": "A Napraforgócskák a Napraforgók Bécsi Magyar Néptánc és Népzene Egyesület gyermekcsoportja. Létrejötte a Napraforgók művészeti vezetéséhez kapcsolódik; a csoportot 2023 óta Varga Bernadette és Veres Tamás vezeti. A gyermekek rendszeresen Bécsben próbálnak, és a Bécsen kívül élők számára külön hosszabb alkalmakat is szerveznek.",
+        "summary": "A Napraforgócskák a Napraforgók gyermeknéptánc-csoportjaként működik Bécsben. A csoportot 2023 óta Varga Bernadette és Veres Tamás vezeti; a gyerekek korosztályukhoz igazított formában ismerkednek a Kárpát-medencei néptánccal, ritmussal és népi kultúrával. A csoport rendszeresen kapcsolódik a Napraforgók táncházi és színpadi programjaihoz, és élő népzenei kísérettel is fellép.",
         "milestones": [
           {
             "year": "2023",
-            "title": "Új gyermekcsoport-vezetés",
-            "description": "A Napraforgócskákat 2023-tól Varga Bernadette és Veres Tamás vezeti.",
+            "title": "Új tanári vezetés",
+            "description": "A gyermekcsoport vezetését Varga Bernadette és Veres Tamás veszi át.",
             "sourceUrl": "https://www.napraforgok.at/r%C3%B3lunk"
           },
           {
             "year": "2026",
-            "title": "Aktív bécsi és badeni gyermekprogram",
-            "description": "A csoport heti bécsi próbákkal és kétheti badeni alkalommal működik.",
-            "sourceUrl": "https://www.napraforgok.at/"
+            "title": "Aktív gyermeknéptánc-közösség",
+            "description": "A Napraforgók hivatalos oldala továbbra is önálló gyermekcsoportként mutatja be.",
+            "sourceUrl": "https://www.napraforgok.at/r%C3%B3lunk"
           }
         ]
       },
-      "entityClass": "group"
+      "entityClass": "group",
+      "address": "Schwedenplatz 2 / Laurenzerberg 5, 1010 Wien, Top 8, Austria",
+      "contactUrl": "https://www.napraforgok.at/",
+      "calendarSources": [
+        {
+          "label": "Napraforgók – táncházak és események",
+          "url": "https://www.napraforgok.at/",
+          "kind": "official-calendar",
+          "scope": "parent",
+          "ingestEvents": true
+        },
+        {
+          "label": "Napraforgók – Facebook",
+          "url": "https://www.facebook.com/napraforgok.becs",
+          "kind": "social-calendar",
+          "platform": "facebook",
+          "scope": "parent",
+          "ingestEvents": false
+        }
+      ]
     },
     {
       "id": "szent-istvan-egylet",
@@ -3566,7 +3599,7 @@
         "nepzene"
       ],
       "parentOrganizationId": "vhs-burgenland",
-      "intro": "A Burgenlandi Magyarok Népfőiskolájának hagyományőrző népdalköre, amely elsősorban az Őrvidék magyar népdalkincsét és szokásanyagát ápolja.",
+      "intro": "Az Őri Banda a Burgenlandi Magyarok Népfőiskolájához tartozó hagyományőrző citerazenekar és népdalkör. A csoport a burgenlandi magyar népdal- és népzenei örökséget ápolja, különösen az alsóőri hagyományokat, és a korábbi Alsóőri Citeraegyüttes zenei örökségének folytatója.",
       "website": "https://vhs-ungarn.at/de/uber-uns/der-verein-volkshochschule-der-burgenlandischen-ungarn/",
       "facebook": null,
       "instagram": null,
@@ -3575,42 +3608,63 @@
       ],
       "evidenceSources": [
         {
-          "label": "VHS Ungarn – saját hagyományőrző csoportok",
+          "label": "Hungarikum.at – burgenlandi magyar hagyományok",
+          "url": "https://hungarikum.at/hu/hagyomanyok/",
+          "type": "institutional"
+        },
+        {
+          "label": "Burgenlandi Magyarok Népfőiskolája – hivatalos bemutatkozás",
           "url": "https://vhs-ungarn.at/de/uber-uns/der-verein-volkshochschule-der-burgenlandischen-ungarn/",
           "type": "official"
         }
       ],
       "founded": "2012",
       "history": {
-        "summary": "Az Őri Banda Népdalkör 2012-ben jött létre a Burgenlandi Magyarok Népfőiskolája keretében. Elsősorban az Őrvidék magyar népdalkincsét, helyi énekes hagyományait és szokásanyagát ápolja, szoros szakmai kapcsolatban az Őri Banda népzenei együttessel.",
+        "summary": "Az Őri Banda a Burgenlandi Magyarok Népfőiskolájának hagyományőrző zenei csoportja. A csoport a Szeberényi Lajos professzor által alapított Alsóőri Citeraegyüttes utódjaként működik, és a burgenlandi magyar népdal- és népzenei hagyományokat viszi tovább. A citerazene, közös éneklés és közösségi fellépések révén a helyi magyar kulturális örökség élő továbbadását szolgálja.",
         "milestones": [
           {
-            "year": "2012",
-            "title": "A népdalkör megalakulása",
-            "description": "A Burgenlandi Magyarok Népfőiskoláján létrejön az Őri Banda Népdalkör.",
-            "sourceUrl": "https://vhs-ungarn.at/hu/hagyomanyorzes/ori-banda/"
+            "year": "1990",
+            "title": "A Népfőiskola megalakulása",
+            "description": "Létrejön a Burgenlandi Magyarok Népfőiskolája, amelynek keretében később az Őri Banda is működik.",
+            "sourceUrl": "https://hungarikum.at/hu/hagyomanyok/"
+          },
+          {
+            "year": "2026",
+            "title": "Hagyományőrző citerazenekar és népdalkör",
+            "description": "Az aktuális bemutatások az Őri Bandát a Népfőiskolához tartozó aktív hagyományőrző csoportként írják le.",
+            "sourceUrl": "https://hungarikum.at/hu/hagyomanyok/"
           }
         ]
       },
       "activities": [
-        "őrvidéki magyar népdalok tanulása és előadása",
-        "népdalköri próbák",
-        "népzenei és hagyományőrző táborok",
+        "burgenlandi magyar népdalok éneklése",
+        "citera- és népzenei hagyományápolás",
         "közösségi és kulturális fellépések",
-        "helyi magyar szokásanyag ápolása"
+        "helyi magyar zenei örökség továbbadása",
+        "kapcsolódás a Népfőiskola kulturális programjaihoz"
       ],
       "targetGroups": [
-        "burgenlandi magyar népdalénekesek",
-        "népzene és helyi hagyomány iránt érdeklődők",
-        "magyar közösségi rendezvények közönsége"
+        "burgenlandi magyar közösség",
+        "magyar népzene és népdal iránt érdeklődők",
+        "hagyományőrző kulturális rendezvények közönsége"
       ],
       "languages": [
         "magyar"
       ],
       "email": "vhs.ungarn@gmail.com",
       "phone": "+43 676 3752773",
-      "profileVerifiedAt": "2026-09-25",
-      "entityClass": "group"
+      "profileVerifiedAt": "2026-09-28",
+      "entityClass": "group",
+      "contactUrl": "https://vhs-ungarn.at/",
+      "calendarSources": [
+        {
+          "label": "Burgenlandi Magyarok Népfőiskolája – programok",
+          "url": "https://vhs-ungarn.at/",
+          "kind": "parent-calendar",
+          "scope": "parent",
+          "ingestEvents": true
+        }
+      ]
     },
     {
       "id": "umiz",
@@ -5605,52 +5659,90 @@
         "oktatas"
       ],
       "parentOrganizationId": "salzung",
-      "intro": "A SalzUNG Brumi Ovi 3–6 éves gyermekeknek szóló magyar nyelvű óvodai közösségi program Salzburgban, játékos, zenés, nyelvi és hagyományőrző foglalkozásokkal.",
-      "website": "https://salzung.com/hu/esemenyek/esemeny-blog",
-      "facebook": null,
+      "intro": "A Brumi Ovi a SalzUNG – Salzburgi Magyar Egyesület magyar nyelvű óvodai közössége 3–6 éves gyermekek számára. A foglalkozások mesével, zenével, kézművességgel, képességfejlesztő játékokkal és közösségi élményekkel erősítik az anyanyelvet, a magyar kulturális kötődést és a többnyelvű környezetben felnövő gyerekek biztonságérzetét.",
+      "website": "https://www.salzung.com/hu/hirek/indul-a-brumi-ovi",
+      "facebook": "https://www.facebook.com/salzung",
       "instagram": null,
       "eventSources": [
-        "https://salzung.com/hu/esemenyek/esemeny-blog"
+        "https://www.salzung.com/hu"
       ],
       "evidenceSources": [
         {
-          "label": "SalzUNG – Brumi Ovi",
-          "url": "https://salzung.com/hu/?start=8",
+          "label": "SalzUNG – Indul a Brumi Ovi",
+          "url": "https://salzung.com/hu/hirek/indul-a-brumi-ovi",
+          "type": "official"
+        },
+        {
+          "label": "SalzUNG – aktuális programok",
+          "url": "https://www.salzung.com/hu",
+          "type": "official"
+        },
+        {
+          "label": "SalzUNG – éves beszámoló 2021",
+          "url": "https://www.salzung.com/hu/rolunk/eves-beszamolo-2021",
           "type": "official"
         }
       ],
       "activities": [
-        "magyar nyelvi óvodai foglalkozások",
-        "mondókák, ének és zene",
-        "játékos hagyományőrzés",
-        "közösségi gyermekprogramok"
+        "magyar mese- és zenés foglalkozások",
+        "kézműves és kreatív tevékenységek",
+        "kognitív és nyelvi képességfejlesztés",
+        "magyar kulturális értékek átadása",
+        "szülő-gyermek közösségépítés"
       ],
       "targetGroups": [
-        "3–6 éves magyar vagy magyarul tanuló gyermekek",
-        "salzburgi magyar családok"
+        "3–6 éves salzburgi magyar és kétnyelvű gyermekek",
+        "magyar anyanyelvi közeget kereső családok",
+        "többnyelvű nevelésben érintett szülők"
       ],
       "languages": [
         "magyar"
       ],
-      "profileVerifiedAt": "2026-09-25",
+      "profileVerifiedAt": "2026-09-28",
       "history": {
-        "summary": "A SalzUNG Brumi Ovi dokumentáltan legalább 2021 óta heti rendszerességgel működik Salzburgban. A 3–6 éves gyermekek magyar anyanyelvi fejlődését zenei, kézműves, képességfejlesztő és csoportjátékos foglalkozásokkal támogatja, a szülők aktív bevonásával.",
+        "summary": "A Brumi Ovi a SalzUNG Magyar Iskolai Programjának kisgyermekes ága. A program célja, hogy a német nyelvi környezetben élő 3–6 éves gyermekek rendszeres magyar nyelvi és kulturális közeget kapjanak. A foglalkozásokon mese, zene, kézművesség, kognitív fejlesztés és csoportjáték kapcsolódik össze, miközben a szülők is részt vesznek a tanultak otthoni megerősítésében. A Brumi Ovi a SalzUNG teljes gyermek- és családi programrendszeréhez kapcsolódik.",
         "milestones": [
           {
             "year": "2021",
-            "title": "Dokumentált heti működés",
-            "description": "A SalzUNG éves programterve a Brumi Ovit a rendszeres anyanyelvi oktatási programok között sorolja fel.",
-            "sourceUrl": "https://salzung.com/hu/hirek/tervezett-programjaink-a-2021-es-evben"
+            "title": "A SalzUNG magyar iskolai programjának része",
+            "description": "A szervezet éves beszámolója a Brumi Ovit a magyar iskolai program kisgyermekes ágaként említi.",
+            "sourceUrl": "https://www.salzung.com/hu/rolunk/eves-beszamolo-2021"
           },
           {
             "year": "2024",
-            "title": "Új tanévi indulás",
-            "description": "A SalzUNG 2024 őszén ismét meghirdeti a Brumi Ovit.",
-            "sourceUrl": "https://salzung.com/hu/?start=8"
+            "title": "Újrainduló Brumi Ovi",
+            "description": "A SalzUNG külön felhívásban hirdeti meg a 3–6 éveseknek szóló programot.",
+            "sourceUrl": "https://salzung.com/hu/hirek/indul-a-brumi-ovi"
+          },
+          {
+            "year": "2025",
+            "title": "Aktív heti óvodai foglalkozás",
+            "description": "A SalzUNG aktuális programoldala rendszeres Brumi Ovi foglalkozást jelez.",
+            "sourceUrl": "https://www.salzung.com/hu"
           }
         ]
       },
-      "entityClass": "institution"
+      "entityClass": "institution",
+      "email": "salzburgerhunverein@gmail.com",
+      "phone": "+43 681 81649386",
+      "contactUrl": "https://m.me/salzung",
+      "calendarSources": [
+        {
+          "label": "SalzUNG – események és hírek",
+          "url": "https://www.salzung.com/hu",
+          "kind": "official-calendar",
+          "scope": "parent",
+          "ingestEvents": true
+        },
+        {
+          "label": "SalzUNG – Facebook Messenger / közösségi kapcsolat",
+          "url": "https://m.me/salzung",
+          "kind": "social-contact",
+          "platform": "facebook",
+          "scope": "parent",
+          "ingestEvents": false
+        }
+      ]
     },
     {
       "id": "salzung-pitypang-suli",
