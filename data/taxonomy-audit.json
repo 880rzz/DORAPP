@@ -1,12 +1,12 @@
 {
-  "updated": "2026-09-28T01:10:58.960048+00:00",
+  "updated": "2026-09-28T11:38:40.803749+00:00",
   "summary": {
     "organizations": 145,
-    "organizationFlags": 1,
-    "organizationPagesChecked": 310,
+    "organizationFlags": 0,
+    "organizationPagesChecked": 314,
     "education": 106,
     "educationFlags": 0,
-    "events": 27,
+    "events": 28,
     "eventFlags": 0
   },
   "organizations": [
@@ -453,7 +453,6 @@
       "signals": [
         "oktatas",
         "enekkar",
-        "cserkesz",
         "szinhaz",
         "media",
         "egyhaz",
@@ -559,6 +558,7 @@
         "media",
         "irodalom",
         "muveszet",
+        "sport",
         "csalad"
       ],
       "pagesChecked": 2,
@@ -972,23 +972,20 @@
       "activityCategories": [],
       "signals": [
         "oktatas",
+        "szinhaz",
         "media",
-        "irodalom"
+        "irodalom",
+        "muveszet",
+        "csalad"
       ],
-      "pagesChecked": 2,
+      "pagesChecked": 3,
       "checkedUrls": [
         "https://culture.hu/hu/wien",
+        "https://culture.hu/hu/wien/esemenyek",
         "https://culture.hu/de/wien/jubilaum"
       ],
-      "errors": [
-        {
-          "url": "https://culture.hu/hu/wien/esemenyek",
-          "error": "The read operation timed out"
-        }
-      ],
-      "flags": [
-        "weak-source-signal:muveszet"
-      ]
+      "errors": [],
+      "flags": []
     },
     {
       "id": "collegium-pazmanianum",
@@ -1222,6 +1219,7 @@
         "nepzene",
         "media",
         "egyhaz",
+        "muveszet",
         "sport",
         "csalad"
       ],
@@ -1330,10 +1328,27 @@
         "kultura"
       ],
       "activityCategories": [],
-      "signals": [],
-      "pagesChecked": 0,
-      "checkedUrls": [],
-      "errors": [],
+      "signals": [
+        "oktatas",
+        "neptanc",
+        "szinhaz",
+        "media",
+        "egyhaz",
+        "diak",
+        "irodalom",
+        "muveszet"
+      ],
+      "pagesChecked": 2,
+      "checkedUrls": [
+        "https://europaclub.at/",
+        "https://europaclub.at/rolunk/europa-club-tortenete/"
+      ],
+      "errors": [
+        {
+          "url": "https://europaclub.at/rendezvenyek/meghivok/",
+          "error": "The read operation timed out"
+        }
+      ],
       "flags": []
     },
     {
@@ -1761,17 +1776,13 @@
         "muveszet",
         "csalad"
       ],
-      "pagesChecked": 2,
+      "pagesChecked": 3,
       "checkedUrls": [
         "https://www.facebook.com/IMIKE2019UJKV/",
+        "https://www.instagram.com/imike_ujkv/",
         "https://rolunk.at/nepcsoportunk/sziveben-magyar/"
       ],
-      "errors": [
-        {
-          "url": "https://www.instagram.com/imike_ujkv/",
-          "error": "HTTP Error 429: Too Many Requests"
-        }
-      ],
+      "errors": [],
       "flags": []
     },
     {
@@ -2071,20 +2082,20 @@
       "activityCategories": [],
       "signals": [
         "oktatas",
+        "neptanc",
+        "nepzene",
         "szinhaz",
+        "media",
         "irodalom",
         "muveszet",
         "csalad"
       ],
-      "pagesChecked": 1,
+      "pagesChecked": 2,
       "checkedUrls": [
-        "https://www.kozpontiszovetseg.at/"
+        "https://www.kozpontiszovetseg.at/",
+        "https://www.kozpontiszovetseg.at/r%C3%B3lunk"
       ],
       "errors": [
-        {
-          "url": "https://www.kozpontiszovetseg.at/r%C3%B3lunk",
-          "error": "HTTP Error 429: Too Many Requests"
-        },
         {
           "url": "https://www.kozpontiszovetseg.at/kapcsolat",
           "error": "HTTP Error 429: Too Many Requests"
@@ -2794,8 +2805,6 @@
       "signals": [
         "cserkesz",
         "media",
-        "irodalom",
-        "muveszet",
         "sport"
       ],
       "pagesChecked": 3,
@@ -3133,7 +3142,6 @@
         "media",
         "egyhaz",
         "irodalom",
-        "muveszet",
         "sport"
       ],
       "pagesChecked": 3,
@@ -3618,24 +3626,15 @@
         "kultura"
       ],
       "activityCategories": [],
-      "signals": [
-        "oktatas",
-        "neptanc",
-        "nepzene",
-        "cserkesz",
-        "szinhaz",
-        "egyhaz",
-        "diak",
-        "irodalom",
-        "muveszet",
-        "sport",
-        "csalad"
+      "signals": [],
+      "pagesChecked": 0,
+      "checkedUrls": [],
+      "errors": [
+        {
+          "url": "https://www.kozpontiszovetseg.at/tagszervezetek",
+          "error": "HTTP Error 429: Too Many Requests"
+        }
       ],
-      "pagesChecked": 1,
-      "checkedUrls": [
-        "https://www.kozpontiszovetseg.at/tagszervezetek"
-      ],
-      "errors": [],
       "flags": []
     },
     {
