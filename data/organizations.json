@@ -844,7 +844,9 @@
           "kind": "media-profile",
           "ownership": "independent"
         }
-      ]
+      ],
+      "parentOrganizationId": "becsi-irodalmi-muhely",
+      "classificationNote": "A könyvklub a Bécsi Irodalmi Műhelyből kinőtt, annak tevékenységi körét bővítő projekt; a Központi Szövetség székháza rendszeres találkozóhely, nem tulajdonos."
     },
     {
       "id": "kalaka-club",
@@ -11194,7 +11196,8 @@
           "ingestEvents": true
         }
       ],
-      "classificationNote": " A BMI együttműködő partner/helyszín; a maMUT saját szervezeti identitása és musicaltarsulat.at oldala külön marad."
+      "classificationNote": "A maMUT saját hivatalos oldala szerint az Ausztriai Magyar Egyesületek és Szervezetek Központi Szövetségének égisze alatt működik; a Bécsi Magyar Iskola együttműködő partner. Ezért a Központi Szövetség parent, a BMI affiliation.",
+      "parentOrganizationId": "kozponti-szovetseg"
     },
     {
       "id": "die-bruecke-medien-kulturelles-podium",
