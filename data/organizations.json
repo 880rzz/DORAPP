@@ -4812,9 +4812,7 @@
       "website": "https://rolunk.at/kultura/minden-magyarok-tanca-a-csalafinta-neptanccsoport-budapesten-szerepelt/",
       "facebook": null,
       "instagram": null,
-      "eventSources": [
-        "https://rolunk.at/tag/kozep-burgenlandi-magyar-kulturegyesulet/"
-      ],
+      "eventSources": [],
       "evidenceSources": [
         {
           "label": "Rólunk.at – Minden Magyarok Tánca 2026",
@@ -4875,7 +4873,15 @@
       },
       "entityClass": "group",
       "contactUrl": "https://rolunk.at/kultura/minden-magyarok-tanca-a-csalafinta-neptanccsoport-budapesten-szerepelt/",
-      "calendarSources": []
+      "calendarSources": [
+        {
+          "label": "Sajtó-/dokumentációs forrás – nem automatikus naptár",
+          "url": "https://rolunk.at/tag/kozep-burgenlandi-magyar-kulturegyesulet/",
+          "kind": "evidence-source",
+          "scope": "related",
+          "ingestEvents": false
+        }
+      ]
     },
     {
       "id": "hungaromedia",
@@ -5072,9 +5078,7 @@
       "website": "https://wissensturm.linz.at/bibliothek/",
       "facebook": null,
       "instagram": null,
-      "eventSources": [
-        "https://rolunk.at/kultura/az-olvasas-mint-kozos-nyelv-magyar-nyelvu-konyvtar-linzben/"
-      ],
+      "eventSources": [],
       "evidenceSources": [
         {
           "label": "Stadt Linz – Sprachenvielfalt in der Stadtbibliothek",
@@ -5131,7 +5135,15 @@
       ],
       "email": "kapcsolat@hungaromedia.at",
       "contactUrl": "https://linktr.ee/hungaromedia",
-      "calendarSources": [],
+      "calendarSources": [
+        {
+          "label": "Sajtó-/dokumentációs forrás – nem automatikus naptár",
+          "url": "https://rolunk.at/kultura/az-olvasas-mint-kozos-nyelv-magyar-nyelvu-konyvtar-linzben/",
+          "kind": "evidence-source",
+          "scope": "related",
+          "ingestEvents": false
+        }
+      ],
       "classificationNote": "A magyar gyermek- és ifjúsági könyvtári részleg a HungaroMedia kezdeményezésével kibővített gyűjtemény a Linzi Városi Könyvtárban. HungaroMedia = projektgazda/kezdeményező; Stadtbibliothek Linz = fogadóintézmény. Nem önálló egyesület."
     },
     {
@@ -6012,9 +6024,7 @@
       "website": "https://www.gracimagyarujsag.at/",
       "facebook": null,
       "instagram": null,
-      "eventSources": [
-        "https://www.meoek.at/"
-      ],
+      "eventSources": [],
       "affiliations": [
         {
           "organizationId": "meok-graz",
@@ -6086,7 +6096,15 @@
       "email": "office@meoek.net",
       "profileVerifiedAt": "2026-09-28",
       "entityClass": "media",
-      "calendarSources": [],
+      "calendarSources": [
+        {
+          "label": "MEÖK – kiadói/parent oldal",
+          "url": "https://www.meoek.at/",
+          "kind": "publisher-source",
+          "scope": "parent",
+          "ingestEvents": false
+        }
+      ],
       "parentOrganizationId": "meok-graz",
       "classificationNote": "A Gráci Magyar Újság a MEÖK 2000 óta megjelenő információs lapja, nem önálló egyesület. A 2025-ös kiadvány szerint a gracimagyarujsag.at és a meoek.at technikailag ugyanahhoz a MEÖK által fenntartott tartalomhoz vezet; a szerkesztőségi e-mail parent infrastruktúra."
     },
@@ -8039,9 +8057,7 @@
       "website": "https://volksgruppen.orf.at/magyarok/stories/3353560/",
       "facebook": null,
       "instagram": null,
-      "eventSources": [
-        "https://volksgruppen.orf.at/magyarok/"
-      ],
+      "eventSources": [],
       "evidenceSources": [
         {
           "label": "ORF Magyarok – Broadway Felsőőrben",
@@ -8107,7 +8123,15 @@
       "entityClass": "group",
       "email": "office@die-reformierten.at",
       "contactUrl": null,
-      "calendarSources": []
+      "calendarSources": [
+        {
+          "label": "Sajtó-/dokumentációs forrás – nem automatikus naptár",
+          "url": "https://volksgruppen.orf.at/magyarok/",
+          "kind": "evidence-source",
+          "scope": "related",
+          "ingestEvents": false
+        }
+      ]
     },
     {
       "id": "becsi-magyar-munkasegylet",
@@ -11589,9 +11613,7 @@
       "website": "https://rolunk.at/magazin/sokszinu-gyerekek-vagany-szulok-a-hungaromedia-taboraban/",
       "facebook": null,
       "instagram": null,
-      "eventSources": [
-        "https://rolunk.at/magazin/sokszinu-gyerekek-vagany-szulok-a-hungaromedia-taboraban/"
-      ],
+      "eventSources": [],
       "affiliations": [
         {
           "organizationId": "hungaromedia",
@@ -11650,7 +11672,15 @@
       "classificationNote": "A Rólunk szólunk a HungaroMedia saját, évente ismétlődő nyári tábora; nem önálló szervezet. Az egyes évek konkrét időpontjai az eseménynaptárba tartoznak.",
       "email": "kapcsolat@hungaromedia.at",
       "contactUrl": "https://linktr.ee/hungaromedia",
-      "calendarSources": []
+      "calendarSources": [
+        {
+          "label": "Sajtó-/dokumentációs forrás – nem automatikus naptár",
+          "url": "https://rolunk.at/magazin/sokszinu-gyerekek-vagany-szulok-a-hungaromedia-taboraban/",
+          "kind": "evidence-source",
+          "scope": "related",
+          "ingestEvents": false
+        }
+      ]
     },
     {
       "id": "mime-neptanc",
@@ -11666,9 +11696,7 @@
       "website": "https://rolunk.at/magazin/ti-is-tancoltok-csardast/",
       "facebook": null,
       "instagram": null,
-      "eventSources": [
-        "https://rolunk.at/magazin/ti-is-tancoltok-csardast/"
-      ],
+      "eventSources": [],
       "affiliations": [
         {
           "organizationId": "mime-vorarlberg",
@@ -11722,7 +11750,15 @@
       "entityClass": "group",
       "email": "mime.vorarlberg@gmail.com",
       "contactUrl": null,
-      "calendarSources": []
+      "calendarSources": [
+        {
+          "label": "Sajtó-/dokumentációs forrás – nem automatikus naptár",
+          "url": "https://rolunk.at/magazin/ti-is-tancoltok-csardast/",
+          "kind": "evidence-source",
+          "scope": "related",
+          "ingestEvents": false
+        }
+      ]
     },
     {
       "id": "salzburgi-gyerekkonyvklub",
