@@ -1287,6 +1287,11 @@
           "label": "Központi Szövetség – IDP kamarakoncert Hainburg",
           "url": "https://www.kozpontiszovetseg.at/post/idp-kamarakoncert-hainburg",
           "type": "institutional"
+        },
+        {
+          "label": "Központi Szövetség – Duna Filharmónia Baráti Kör, ZVR és kontakt",
+          "url": "https://www.kozpontiszovetseg.at/tagszervezetek",
+          "type": "umbrella-official"
         }
       ],
       "entityClass": "organization",
@@ -1300,7 +1305,7 @@
           "ingestEvents": true
         }
       ],
-      "classificationNote": "A saját donauphilharmonie.at domain igazolt; aktuális saját Facebook/Instagram-profilt nem azonosítottunk. Katona Ágnes alapítói és művészeti vezetői szerepét 2025/26-os Központi Szövetség-forrás is megerősíti.",
+      "classificationNote": "Önálló bejegyzett szervezet/baráti kör, ZVR 1137618189. A saját donauphilharmonie.at domain igazolt; aktuális saját Facebook/Instagram-profilt nem azonosítottunk. Katona Ágnes alapítói és művészeti vezetői szerepe intézményi forrásokkal dokumentált.",
       "publicChannels": [
         {
           "label": "Duna Filharmónia – hivatalos weboldal",
@@ -1320,7 +1325,8 @@
           "kind": "media-profile",
           "ownership": "independent"
         }
-      ]
+      ],
+      "zvr": "1137618189"
     },
     {
       "id": "becsi-magyar-iskola",
@@ -8130,6 +8136,11 @@
           "label": "Magyar Országgyűlés – EMAE 25 éves jubileum és történeti szerep (2012)",
           "url": "https://www.parlament.hu/documents/static/biz39/bizjkv39/NOB/1211281.pdf",
           "type": "primary-institutional"
+        },
+        {
+          "label": "Bundeskanzleramt – Volksgruppenförderung 2014, EMAE",
+          "url": "https://www.bundeskanzleramt.gv.at/dam/jcr%3Ad4110980-34c3-4a55-a05d-6316411f6b8b/vg_foerderung_2014.pdf",
+          "type": "government"
         }
       ],
       "categories": [
@@ -8186,6 +8197,12 @@
             "title": "25 éves jubileum",
             "description": "Az egyesület 2012-ben az Országgyűlés Nemzeti összetartozás bizottsága előtt 25 éves fennállásáról számolt be; akkori titkára Piroska Ferenc volt.",
             "sourceUrl": "https://www.parlament.hu/documents/static/biz39/bizjkv39/NOB/1211281.pdf"
+          },
+          {
+            "year": "2014",
+            "title": "Osztrák népcsoporti támogatás dokumentálva",
+            "description": "Az osztrák szövetségi népcsoporti támogatási jelentés az EMAE-t önálló támogatott magyar népcsoporti egyesületként sorolja, 2 500 euró támogatással.",
+            "sourceUrl": "https://www.bundeskanzleramt.gv.at/dam/jcr%3Ad4110980-34c3-4a55-a05d-6316411f6b8b/vg_foerderung_2014.pdf"
           }
         ]
       },
