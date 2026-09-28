@@ -351,7 +351,7 @@
       ],
       "parentOrganizationId": "svung",
       "intro": "A SVUNG – Bécsi Magyar Színház 8–13 éveseknek szóló magyar nyelvű drámacsoportja. Heti foglalkozásokon drámajáték, improvizáció és színpadi alkotás keretében fejleszti a kommunikációt, önbizalmat és magyar nyelvhasználatot.",
-      "website": "https://www.magyariskola.at/event-details/kicsisvung-2026",
+      "website": null,
       "facebook": "https://www.facebook.com/Svung.Wien",
       "instagram": null,
       "eventSources": [
@@ -419,6 +419,14 @@
           "label": "SVUNG gyermek/ifjúsági színjátszó csoport",
           "sourceUrl": "https://www.magyariskola.at/event-details/kicsisvung-2026"
         }
+      ],
+      "publicChannels": [
+        {
+          "label": "Kicsi Svung – magyar gyermekszínjátszó csoport – kapcsolódó nyilvános forrás",
+          "url": "https://www.magyariskola.at/event-details/kicsisvung-2026",
+          "kind": "host-profile",
+          "ownership": "host"
+        }
       ]
     },
     {
@@ -432,7 +440,7 @@
       ],
       "parentOrganizationId": "svung",
       "intro": "A Gimi Svung a SVUNG – Bécsi Magyar Színház magyar nyelvű drámafoglalkozása 12–18 éves gimnazistáknak. A heti műhely improvizációval, szituációs gyakorlatokkal, dráma- és jelenetírással fejleszti a magyar nyelvi kifejezőkészséget, önbizalmat, empátiát és kreativitást, miközben a tanév végére saját színpadi produkció létrehozását célozza.",
-      "website": "https://www.magyariskola.at/event-details/gimisvung-2026",
+      "website": null,
       "facebook": "https://www.facebook.com/Svung.Wien",
       "instagram": null,
       "eventSources": [
@@ -502,6 +510,14 @@
           "organizationId": "svung",
           "label": "SVUNG gyermek/ifjúsági színjátszó csoport",
           "sourceUrl": "https://www.magyariskola.at/event-details/gimisvung-2026"
+        }
+      ],
+      "publicChannels": [
+        {
+          "label": "Gimi Svung – magyar gimnazista drámacsoport – kapcsolódó nyilvános forrás",
+          "url": "https://www.magyariskola.at/event-details/gimisvung-2026",
+          "kind": "host-profile",
+          "ownership": "host"
         }
       ]
     },
@@ -693,7 +709,7 @@
         "kozosseg"
       ],
       "intro": "2025 novemberében indult bécsi magyar könyvklub, amely havi rendszerességgel beszélget magyar és más nyelvekről fordított irodalmi művekről. A három alapító a Bécsi Irodalmi Műhely fordítóműhelyében találkozott; a klub rendszeres találkozóhelye a Központi Szövetség székháza.",
-      "website": "https://volksgruppen.orf.at/magyarok/stories/3352222/",
+      "website": null,
       "facebook": null,
       "instagram": null,
       "eventSources": [],
@@ -752,6 +768,14 @@
           "kind": "documented-event-source",
           "scope": "self",
           "ingestEvents": false
+        }
+      ],
+      "publicChannels": [
+        {
+          "label": "Egy sima, egy fordított – Bécsi Könyvklub – kapcsolódó nyilvános forrás",
+          "url": "https://volksgruppen.orf.at/magyarok/stories/3352222/",
+          "kind": "media-profile",
+          "ownership": "independent"
         }
       ]
     },
@@ -1460,7 +1484,7 @@
       "categories": [],
       "parentOrganizationId": "becsi-magyar-iskola",
       "intro": "A Bécsi Magyar Iskola asperni magyar nyelvi csoportja 6–10 éves kisiskolásoknak kínál heti rendszerességű, differenciált anyanyelvi fejlesztést. A foglalkozások az olvasás, írás, szókincs és beszédkészség fejlesztését magyar kulturális tartalmakkal és közösségi élménnyel kapcsolják össze.",
-      "website": "https://www.magyariskola.at/event-details/magyaroktatas-kedd-2026",
+      "website": null,
       "facebook": null,
       "instagram": null,
       "eventSources": [
@@ -1523,7 +1547,15 @@
           "ingestEvents": false
         }
       ],
-      "classificationNote": "A Bécsi Magyar Iskola saját magyar nyelvi oktatási programhelyszíne. A BMI parentOrganizationId, web, e-mail és jelentkezési infrastruktúra ezért saját/parent kapcsolat, nem külsős host-viszony."
+      "classificationNote": "A Bécsi Magyar Iskola saját magyar nyelvi oktatási programhelyszíne. A BMI parentOrganizationId, web, e-mail és jelentkezési infrastruktúra ezért saját/parent kapcsolat, nem külsős host-viszony.",
+      "publicChannels": [
+        {
+          "label": "Bécsi Magyar Iskola – Magyar nyelv Aspern – kapcsolódó nyilvános forrás",
+          "url": "https://www.magyariskola.at/event-details/magyaroktatas-kedd-2026",
+          "kind": "parent-profile",
+          "ownership": "parent"
+        }
+      ]
     },
     {
       "id": "bmi-seestadt-magyaroktatas",
@@ -1534,7 +1566,7 @@
       "categories": [],
       "parentOrganizationId": "becsi-magyar-iskola",
       "intro": "A Bécsi Magyar Iskola seestadti magyar nyelvi csoportja 6–10 éves kisiskolásoknak biztosít heti, differenciált anyanyelvi fejlesztést. A program az olvasási és íráskészség, a szókincs és a magyar nyelvű önkifejezés fejlesztését kulturális és közösségi tartalmakkal egészíti ki.",
-      "website": "https://www.magyariskola.at/event-details/magyarnyelv-szerda-2026",
+      "website": null,
       "facebook": null,
       "instagram": null,
       "eventSources": [
@@ -1597,7 +1629,15 @@
           "ingestEvents": false
         }
       ],
-      "classificationNote": "A Bécsi Magyar Iskola saját magyar nyelvi oktatási programhelyszíne. A BMI parentOrganizationId, web, e-mail és jelentkezési infrastruktúra ezért saját/parent kapcsolat, nem külsős host-viszony."
+      "classificationNote": "A Bécsi Magyar Iskola saját magyar nyelvi oktatási programhelyszíne. A BMI parentOrganizationId, web, e-mail és jelentkezési infrastruktúra ezért saját/parent kapcsolat, nem külsős host-viszony.",
+      "publicChannels": [
+        {
+          "label": "Bécsi Magyar Iskola – Magyar nyelv Seestadt – kapcsolódó nyilvános forrás",
+          "url": "https://www.magyariskola.at/event-details/magyarnyelv-szerda-2026",
+          "kind": "parent-profile",
+          "ownership": "parent"
+        }
+      ]
     },
     {
       "id": "bmi-becscraft",
@@ -4870,7 +4910,7 @@
       ],
       "parentOrganizationId": "kozep-burgenlandi",
       "intro": "A Közép-burgenlandi Magyar Kultúregyesület felsőpulyai néptánccsoportja. Magyar néptáncanyaggal rendszeresen fellép helyi, ausztriai és magyarországi közösségi, kulturális és hagyományőrző rendezvényeken; 2026-ban harmadik alkalommal vett részt a budapesti Országos Táncháztalálkozó Minden Magyarok Tánca programjában.",
-      "website": "https://rolunk.at/kultura/minden-magyarok-tanca-a-csalafinta-neptanccsoport-budapesten-szerepelt/",
+      "website": null,
       "facebook": null,
       "instagram": null,
       "eventSources": [],
@@ -4941,6 +4981,14 @@
           "kind": "evidence-source",
           "scope": "related",
           "ingestEvents": false
+        }
+      ],
+      "publicChannels": [
+        {
+          "label": "Csalafinta Néptánccsoport – kapcsolódó nyilvános forrás",
+          "url": "https://rolunk.at/kultura/minden-magyarok-tanca-a-csalafinta-neptanccsoport-budapesten-szerepelt/",
+          "kind": "media-profile",
+          "ownership": "independent"
         }
       ]
     },
@@ -5055,7 +5103,7 @@
       ],
       "parentOrganizationId": "hungaromedia",
       "intro": "A HungaroMedia keretében működő linzi női irodalmi és közösségi kör. Mesékhez, önismerethez, női élettapasztalatokhoz és irodalomhoz kapcsolódó beszélgetéseket, felolvasásokat és nyitott esteket szervez.",
-      "website": "https://rolunk.at/kultura/az-olvasas-mint-kozos-nyelv-magyar-nyelvu-konyvtar-linzben/",
+      "website": null,
       "facebook": null,
       "instagram": null,
       "eventSources": [],
@@ -5122,7 +5170,15 @@
           "ingestEvents": false
         }
       ],
-      "classificationNote": "A Mesés Női Kör a HungaroMedia saját közösségi-kulturális programsorozata, nem önálló egyesület. A HungaroMedia kontaktjai parent infrastruktúraként értelmezendők."
+      "classificationNote": "A Mesés Női Kör a HungaroMedia saját közösségi-kulturális programsorozata, nem önálló egyesület. A HungaroMedia kontaktjai parent infrastruktúraként értelmezendők.",
+      "publicChannels": [
+        {
+          "label": "Mesés Női Kör Linz – kapcsolódó nyilvános forrás",
+          "url": "https://rolunk.at/kultura/az-olvasas-mint-kozos-nyelv-magyar-nyelvu-konyvtar-linzben/",
+          "kind": "media-profile",
+          "ownership": "independent"
+        }
+      ]
     },
     {
       "id": "linzi-magyar-gyermekkonyvtar",
@@ -5308,7 +5364,7 @@
       ],
       "parentOrganizationId": "felso-ausztriai-magyarok",
       "intro": "A Felső-Ausztriai Magyarok Kultúregyesületének 55 év felettiekből álló dalárdája és közösségi klubja. Tagjai rendszeresen találkoznak, közösen énekelnek és felső-ausztriai magyar rendezvényeken lépnek fel.",
-      "website": "https://volksgruppen.orf.at/magyarok/stories/3340511/",
+      "website": null,
       "facebook": null,
       "instagram": null,
       "eventSources": [],
@@ -5367,6 +5423,14 @@
           "kind": "documented-event-source",
           "scope": "self",
           "ingestEvents": false
+        }
+      ],
+      "publicChannels": [
+        {
+          "label": "Örök Fiatalok Klubja – ÖFK – kapcsolódó nyilvános forrás",
+          "url": "https://volksgruppen.orf.at/magyarok/stories/3340511/",
+          "kind": "media-profile",
+          "ownership": "independent"
         }
       ]
     },
@@ -8143,7 +8207,7 @@
       ],
       "parentOrganizationId": "reformatus-ifjusagi-olvasokor",
       "intro": "A Felsőőri Református Ifjúsági Olvasókör magyar nyelvű amatőr színjátszócsoportja. A társulat hosszú hagyományra építve minden évben magyar nyelvű vígjátékokkal és bohózatokkal lép színpadra, és a magyar nyelv aktív használatát közösségi színházi formában erősíti.",
-      "website": "https://volksgruppen.orf.at/magyarok/stories/3353560/",
+      "website": null,
       "facebook": null,
       "instagram": null,
       "eventSources": [],
@@ -8219,6 +8283,14 @@
           "kind": "evidence-source",
           "scope": "related",
           "ingestEvents": false
+        }
+      ],
+      "publicChannels": [
+        {
+          "label": "Felsőőri Református Ifjúsági Olvasókör – Színjátszócsoport – kapcsolódó nyilvános forrás",
+          "url": "https://volksgruppen.orf.at/magyarok/stories/3353560/",
+          "kind": "media-profile",
+          "ownership": "independent"
         }
       ]
     },
@@ -9942,7 +10014,7 @@
       ],
       "parentOrganizationId": "bukv",
       "intro": "A Kenderkóc a Burgenlandi Magyar Kultúregyesület 2025-ben indított felsőőri gyermeknéptánccsoportja. Játékos formában tanít magyar néptáncot, körjátékokat, népdalokat és mondókákat.",
-      "website": "https://volksgruppen.orf.at/magyarok/stories/3326218/",
+      "website": null,
       "facebook": null,
       "instagram": null,
       "eventSources": [],
@@ -9997,7 +10069,15 @@
           "ingestEvents": false
         }
       ],
-      "classificationNote": "A BUKV hivatalos csoportjegyzékében az egyesület csoportjaként szerepel; a BUKV web/e-mail/telefon parent infrastruktúra, nem külön szervezeti tulajdon."
+      "classificationNote": "A BUKV hivatalos csoportjegyzékében az egyesület csoportjaként szerepel; a BUKV web/e-mail/telefon parent infrastruktúra, nem külön szervezeti tulajdon.",
+      "publicChannels": [
+        {
+          "label": "Kenderkóc – BMKE Gyermeknéptánccsoport – kapcsolódó nyilvános forrás",
+          "url": "https://volksgruppen.orf.at/magyarok/stories/3326218/",
+          "kind": "media-profile",
+          "ownership": "independent"
+        }
+      ]
     },
     {
       "id": "oriszigeti-neptanc",
@@ -11117,7 +11197,7 @@
       "city": "Wien",
       "type": "magyar közösségi és kulturális központ",
       "intro": "A Központi Szövetség bécsi székhelye és közösségi intézménye a Schwedenplatz 2. alatt. A helyszín magyar oktatási, kulturális, szervezeti és közösségi tevékenységeknek ad otthont, és több ausztriai magyar szervezet számára is találkozási infrastruktúrát biztosít.",
-      "website": "https://www.kozpontiszovetseg.at/",
+      "website": null,
       "facebook": null,
       "instagram": null,
       "eventSources": [],
@@ -11182,6 +11262,14 @@
           "scope": "related",
           "ingestEvents": false
         }
+      ],
+      "publicChannels": [
+        {
+          "label": "Bécsi Magyar Otthon – kapcsolódó nyilvános forrás",
+          "url": "https://www.kozpontiszovetseg.at/",
+          "kind": "parent-profile",
+          "ownership": "related"
+        }
       ]
     },
     {
@@ -11191,7 +11279,7 @@
       "city": "Wien",
       "type": "magyar–német–horvát kulturális falinaptár",
       "intro": "Az Őrség a Központi Szövetség 1985 óta megjelenő magyar–német–horvát falinaptára és kulturális kiadványa. A naptár az ausztriai magyar népcsoport tartós médiaterméke: egyszerre őriz közösségi és kulturális emlékezetet, közvetít három nyelvi közeg között, és a Központi Szövetség több évtizedes kiadói tevékenységéhez kapcsolódik.",
-      "website": "https://www.kozpontiszovetseg.at/r%C3%B3lunk",
+      "website": null,
       "facebook": null,
       "instagram": null,
       "eventSources": [],
@@ -11272,7 +11360,15 @@
           "ingestEvents": false
         }
       ],
-      "contactUrl": "https://www.kozpontiszovetseg.at/r%C3%B3lunk"
+      "contactUrl": "https://www.kozpontiszovetseg.at/r%C3%B3lunk",
+      "publicChannels": [
+        {
+          "label": "Őrség – háromnyelvű falinaptár – kapcsolódó nyilvános forrás",
+          "url": "https://www.kozpontiszovetseg.at/r%C3%B3lunk",
+          "kind": "parent-profile",
+          "ownership": "related"
+        }
+      ]
     },
     {
       "id": "kufstein-tanacskozas",
@@ -11281,7 +11377,7 @@
       "city": "Wien / Kufstein",
       "type": "kisebbségi és diaszpóra konferenciasorozat",
       "intro": "A Központi Szövetség 1990 óta kétévente megrendezett konferenciasorozata, amely a magyar kisebbségi, diaszpóra-, identitás- és közösségpolitikai kérdések szakmai megvitatásának fóruma.",
-      "website": "https://www.kozpontiszovetseg.at/",
+      "website": null,
       "facebook": null,
       "instagram": null,
       "eventSources": [],
@@ -11345,6 +11441,14 @@
           "scope": "parent",
           "ingestEvents": false
         }
+      ],
+      "publicChannels": [
+        {
+          "label": "Kufstein Tanácskozás – kapcsolódó nyilvános forrás",
+          "url": "https://www.kozpontiszovetseg.at/",
+          "kind": "parent-profile",
+          "ownership": "parent"
+        }
       ]
     },
     {
@@ -11354,7 +11458,7 @@
       "city": "Wien",
       "type": "irodalmi és kulturális kiadói projekt",
       "intro": "A Központi Szövetség Sodalitás néven végzett alkalmi kiadói tevékenysége, amelyben kiemelten Ausztriában élő magyar szerzők és az ausztriai magyarsághoz kapcsolódó művek megjelentetése kap szerepet.",
-      "website": "https://www.kozpontiszovetseg.at/r%C3%B3lunk",
+      "website": null,
       "facebook": null,
       "instagram": null,
       "eventSources": [],
@@ -11405,7 +11509,15 @@
           "ingestEvents": false
         }
       ],
-      "contactUrl": "https://www.kozpontiszovetseg.at/kapcsolat"
+      "contactUrl": "https://www.kozpontiszovetseg.at/kapcsolat",
+      "publicChannels": [
+        {
+          "label": "Sodalitás – Központi Szövetség kiadói tevékenysége – kapcsolódó nyilvános forrás",
+          "url": "https://www.kozpontiszovetseg.at/r%C3%B3lunk",
+          "kind": "parent-profile",
+          "ownership": "related"
+        }
+      ]
     },
     {
       "id": "salzung-hatartalanul",
@@ -11553,7 +11665,7 @@
       "city": "Mutters / Tirol",
       "type": "országos diaszpóra iskolatábor",
       "intro": "Nyugat-ausztriai központtal működő, több régió magyar fiataljait összekapcsoló diaszpóra iskolatábor. A programot a Külföldi Magyar Cserkészszövetség keretében, az Innsbrucki Magyar Ifjúsági és Kultúregyesület, a 79. sz. Dr. Kozma György SJ Cserkészcsapat és helyi pedagógusok közreműködésével rendezik.",
-      "website": "https://volksgruppen.orf.at/magyarok/stories/3339181/",
+      "website": null,
       "facebook": null,
       "instagram": null,
       "eventSources": [],
@@ -11633,6 +11745,14 @@
           "scope": "self",
           "ingestEvents": false
         }
+      ],
+      "publicChannels": [
+        {
+          "label": "Ausztriai Diaszpóra Iskolatábor – kapcsolódó nyilvános forrás",
+          "url": "https://volksgruppen.orf.at/magyarok/stories/3339181/",
+          "kind": "media-profile",
+          "ownership": "independent"
+        }
       ]
     },
     {
@@ -11642,7 +11762,7 @@
       "city": "Wien",
       "type": "magyar kulturális fesztiválsorozat",
       "intro": "Az Ausztriai Magyar Szervezetek Kerekasztala által szervezett, több műveltségi területet összekapcsoló bécsi magyar kulturális fesztiválsorozat. A rendezvény 2026-ban ötödik alkalommal valósult meg.",
-      "website": "https://kerekasztal.at/",
+      "website": null,
       "facebook": null,
       "instagram": null,
       "eventSources": [],
@@ -11709,7 +11829,15 @@
         }
       ],
       "contactUrl": "https://kerekasztal.at/",
-      "email": "office@kerekasztal.at"
+      "email": "office@kerekasztal.at",
+      "publicChannels": [
+        {
+          "label": "AchtUngarn Fesztivál – kapcsolódó nyilvános forrás",
+          "url": "https://kerekasztal.at/",
+          "kind": "parent-profile",
+          "ownership": "parent"
+        }
+      ]
     },
     {
       "id": "grazi-magyar-bal",
@@ -11796,7 +11924,7 @@
       "city": "Linz",
       "type": "magyar nyelvű gyermek- és ifjúsági élménytábor",
       "intro": "A HungaroMedia rendszeres linzi nyári tábora, amely magyar nyelven drámapedagógiai, vizuális, mozgásos és közösségi programokat kínál Ausztriában élő gyermekeknek és fiataloknak. 2026-ban harmadik alkalommal rendezték meg.",
-      "website": "https://rolunk.at/magazin/sokszinu-gyerekek-vagany-szulok-a-hungaromedia-taboraban/",
+      "website": null,
       "facebook": null,
       "instagram": null,
       "eventSources": [],
@@ -11866,6 +11994,14 @@
           "scope": "related",
           "ingestEvents": false
         }
+      ],
+      "publicChannels": [
+        {
+          "label": "Rólunk szólunk – HungaroMedia nyári tábor – kapcsolódó nyilvános forrás",
+          "url": "https://rolunk.at/magazin/sokszinu-gyerekek-vagany-szulok-a-hungaromedia-taboraban/",
+          "kind": "media-profile",
+          "ownership": "independent"
+        }
       ]
     },
     {
@@ -11879,7 +12015,7 @@
       ],
       "parentOrganizationId": "mime-vorarlberg",
       "intro": "A Mi Magyarok Egymásért vorarlbergi magyar néptáncközössége. A felnőtt csoport kéthetente próbál Feldkirchben, az egyesület pedig gyermekeknek is biztosít néptánc-programokat és rendszeres próbalehetőséget.",
-      "website": "https://rolunk.at/magazin/ti-is-tancoltok-csardast/",
+      "website": null,
       "facebook": null,
       "instagram": null,
       "eventSources": [],
@@ -11944,6 +12080,14 @@
           "scope": "related",
           "ingestEvents": false
         }
+      ],
+      "publicChannels": [
+        {
+          "label": "MIME – Vorarlbergi Magyar Néptánccsoport – kapcsolódó nyilvános forrás",
+          "url": "https://rolunk.at/magazin/ti-is-tancoltok-csardast/",
+          "kind": "media-profile",
+          "ownership": "independent"
+        }
       ]
     },
     {
@@ -11958,7 +12102,7 @@
         "kozosseg"
       ],
       "intro": "Salzburgban működő, szülői kezdeményezésből létrejött magyar gyerekkönyvklub és közösségi könyvtár. A közösség havonta találkozik a Bewohnerservice Gnigl helyiségében; a könyvkölcsönzés mellett mesélés, kézműves és éneklős foglalkozások kapcsolódnak az alkalmakhoz.",
-      "website": "https://volksgruppen.orf.at/magyarok/stories/3362931/",
+      "website": null,
       "facebook": null,
       "instagram": null,
       "eventSources": [],
@@ -12013,6 +12157,14 @@
           "scope": "self",
           "ingestEvents": false
         }
+      ],
+      "publicChannels": [
+        {
+          "label": "Salzburgi magyar gyerekkönyvklub és közösségi könyvtár – kapcsolódó nyilvános forrás",
+          "url": "https://volksgruppen.orf.at/magyarok/stories/3362931/",
+          "kind": "media-profile",
+          "ownership": "independent"
+        }
       ]
     },
     {
@@ -12022,7 +12174,7 @@
       "city": "Wien",
       "type": "éves magyar irodalmi vetélkedő",
       "intro": "A Bécsi Magyar Iskola és a Bécsi Magyar Iskolaegyesület közös, évről évre megrendezett olvasási és irodalmi vetélkedője. A 2026-os nyolcadik alkalmon 22 csapatban több mint 70 diák vett részt.",
-      "website": "https://volksgruppen.orf.at/magyarok/stories/3353774/",
+      "website": null,
       "facebook": null,
       "instagram": null,
       "eventSources": [],
@@ -12097,6 +12249,14 @@
           "scope": "self",
           "ingestEvents": false
         }
+      ],
+      "publicChannels": [
+        {
+          "label": "OlvaShow – magyar irodalmi vetélkedő – kapcsolódó nyilvános forrás",
+          "url": "https://volksgruppen.orf.at/magyarok/stories/3353774/",
+          "kind": "media-profile",
+          "ownership": "independent"
+        }
       ]
     },
     {
@@ -12106,7 +12266,7 @@
       "city": "Wien / online",
       "type": "magyar könyvcsere- és olvasóközösség",
       "intro": "A Bécsi Könyvbazár magyar könyves közösség, amely Facebookon indult azért, hogy Bécsben élő magyar olvasókat kapcsoljon össze könyvajánlás, beszélgetés, könyvmegosztás és csere céljából. Az online közösség személyes találkozókat is szervez; 2026-ban például könyvcsere-pikniket tartott a Praterben.",
-      "website": "https://volksgruppen.orf.at/magyarok/stories/3358259/",
+      "website": null,
       "facebook": null,
       "instagram": null,
       "eventSources": [],
@@ -12158,7 +12318,15 @@
           "ingestEvents": false
         }
       ],
-      "contactUrl": "https://volksgruppen.orf.at/magyarok/stories/3358259/"
+      "contactUrl": "https://volksgruppen.orf.at/magyarok/stories/3358259/",
+      "publicChannels": [
+        {
+          "label": "Bécsi Könyvbazár – kapcsolódó nyilvános forrás",
+          "url": "https://volksgruppen.orf.at/magyarok/stories/3358259/",
+          "kind": "media-profile",
+          "ownership": "independent"
+        }
+      ]
     },
     {
       "id": "collegium-hungaricum-konyvtar",
@@ -12259,7 +12427,7 @@
       "city": "Wien – Stephansdom",
       "type": "éves magyar egyházi és közösségi ünnepség",
       "intro": "A bécsi magyar közösség hagyományos, évente megrendezett Szent István-ünnepe a Stephansdomban. A Kaláka Club és a Collegium Pazmaneum közös szervezésében ünnepi magyar mise, kenyérszentelés és közösségi találkozás kapcsolódik az államalapítás ünnepéhez.",
-      "website": "https://volksgruppen.orf.at/magyarok/stories/3368141/",
+      "website": null,
       "facebook": null,
       "instagram": null,
       "eventSources": [],
@@ -12326,6 +12494,14 @@
           "scope": "self",
           "ingestEvents": false
         }
+      ],
+      "publicChannels": [
+        {
+          "label": "Bécsi Szent István-ünnep és kenyérszentelés – kapcsolódó nyilvános forrás",
+          "url": "https://volksgruppen.orf.at/magyarok/stories/3368141/",
+          "kind": "media-profile",
+          "ownership": "independent"
+        }
       ]
     },
     {
@@ -12335,7 +12511,7 @@
       "city": "Wien – Donaupark",
       "type": "éves magyar családi és közösségi nap",
       "intro": "A 72. sz. Széchenyi István Cserkészcsapat nyitott bécsi családi programsorozata, amely játékokkal, zenével, néptánccal, meseszínházzal és magyar közösségi bemutatkozásokkal kapcsolja össze a Bécsben és környékén élő magyar családokat.",
-      "website": "https://volksgruppen.orf.at/magyarok/stories/3371860/",
+      "website": null,
       "facebook": null,
       "instagram": null,
       "eventSources": [],
@@ -12412,6 +12588,14 @@
           "kind": "documented-event-source",
           "scope": "self",
           "ingestEvents": false
+        }
+      ],
+      "publicChannels": [
+        {
+          "label": "Magyar Családi Nap – Bécs – kapcsolódó nyilvános forrás",
+          "url": "https://volksgruppen.orf.at/magyarok/stories/3371860/",
+          "kind": "media-profile",
+          "ownership": "independent"
         }
       ]
     },
