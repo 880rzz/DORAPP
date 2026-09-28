@@ -1,7 +1,7 @@
 {
-  "updated": "2026-09-28T15:57:01.684004+00:00",
+  "updated": "2026-09-28T16:01:15.995916+00:00",
   "summary": {
-    "organizations": 153,
+    "organizations": 156,
     "organizationFlags": 0,
     "organizationPagesChecked": 330,
     "education": 106,
@@ -38,6 +38,25 @@
       "checkedUrls": [
         "https://kerekasztal.at/",
         "https://volksgruppen.orf.at/magyarok/stories/3368109/"
+      ],
+      "errors": [],
+      "flags": []
+    },
+    {
+      "id": "ak-akademie-kaernten-hungarian",
+      "name": "AK-Akademie Kärnten – online magyar nyelvi tréning",
+      "entityClass": "host-institution",
+      "categories": [
+        "oktatas"
+      ],
+      "activityCategories": [],
+      "signals": [
+        "oktatas",
+        "sport"
+      ],
+      "pagesChecked": 1,
+      "checkedUrls": [
+        "https://www.ak-akademie.at/kurs/online-sprachentraining"
       ],
       "errors": [],
       "flags": []
@@ -110,24 +129,18 @@
       ],
       "activityCategories": [],
       "signals": [
-        "egyhaz"
+        "media",
+        "egyhaz",
+        "muveszet",
+        "csalad"
       ],
-      "pagesChecked": 0,
-      "checkedUrls": [],
-      "errors": [
-        {
-          "url": "https://www.martinus.at/",
-          "error": "<urlopen error timed out>"
-        },
-        {
-          "url": "https://www.martinus.at/pfarre/1127/kalender",
-          "error": "<urlopen error timed out>"
-        },
-        {
-          "url": "https://www.martinus.at/unterwart",
-          "error": "<urlopen error timed out>"
-        }
+      "pagesChecked": 3,
+      "checkedUrls": [
+        "https://www.martinus.at/",
+        "https://www.martinus.at/pfarre/1127/kalender",
+        "https://www.martinus.at/unterwart"
       ],
+      "errors": [],
       "flags": []
     },
     {
@@ -402,22 +415,20 @@
       ],
       "activityCategories": [],
       "signals": [
-        "oktatas",
-        "neptanc",
-        "nepzene",
-        "enekkar",
-        "media",
-        "diak",
-        "irodalom",
-        "muveszet",
-        "csalad"
+        "enekkar"
       ],
-      "pagesChecked": 2,
-      "checkedUrls": [
-        "https://www.wukv.at/tarka-barka-dalkor/",
-        "https://www.wukv.at/"
+      "pagesChecked": 0,
+      "checkedUrls": [],
+      "errors": [
+        {
+          "url": "https://www.wukv.at/tarka-barka-dalkor/",
+          "error": "<urlopen error timed out>"
+        },
+        {
+          "url": "https://www.wukv.at/",
+          "error": "<urlopen error timed out>"
+        }
       ],
-      "errors": [],
       "flags": []
     },
     {
@@ -1009,17 +1020,13 @@
         "sport",
         "csalad"
       ],
-      "pagesChecked": 2,
+      "pagesChecked": 3,
       "checkedUrls": [
+        "https://www.burgenlandicserkesz.at/",
         "https://volksgruppen.orf.at/magyarok/stories/3333230/",
         "https://podiverzum.hu/podcast/orf-magyarok-podcast/idoutazas-es-megemlekezes-az-alsoori-cserkeszdelutanon-deaf57f3"
       ],
-      "errors": [
-        {
-          "url": "https://www.burgenlandicserkesz.at/",
-          "error": "The read operation timed out"
-        }
-      ],
+      "errors": [],
       "flags": []
     },
     {
@@ -1276,20 +1283,24 @@
         "neptanc",
         "nepzene",
         "enekkar",
-        "szinhaz",
         "media",
-        "diak",
-        "irodalom",
         "sport",
         "csalad"
       ],
-      "pagesChecked": 3,
+      "pagesChecked": 1,
       "checkedUrls": [
-        "https://www.wukv.at/",
-        "https://www.delibab-becs.com/",
-        "https://www.wukv.at/sample-page/"
+        "https://www.delibab-becs.com/"
       ],
-      "errors": [],
+      "errors": [
+        {
+          "url": "https://www.wukv.at/",
+          "error": "<urlopen error timed out>"
+        },
+        {
+          "url": "https://www.wukv.at/sample-page/",
+          "error": "<urlopen error timed out>"
+        }
+      ],
       "flags": []
     },
     {
@@ -1554,24 +1565,16 @@
       ],
       "activityCategories": [],
       "signals": [
+        "media",
         "egyhaz"
       ],
-      "pagesChecked": 0,
-      "checkedUrls": [],
-      "errors": [
-        {
-          "url": "https://www.martinus.at/pfarre/1122",
-          "error": "<urlopen error timed out>"
-        },
-        {
-          "url": "https://www.martinus.at/pfarre/1122/kalender",
-          "error": "<urlopen error timed out>"
-        },
-        {
-          "url": "https://www.martinus.at/pfarre/1122/kalender/calendar/1808040.html",
-          "error": "<urlopen error timed out>"
-        }
+      "pagesChecked": 3,
+      "checkedUrls": [
+        "https://www.martinus.at/pfarre/1122",
+        "https://www.martinus.at/pfarre/1122/kalender",
+        "https://www.martinus.at/pfarre/1122/kalender/calendar/1808040.html"
       ],
+      "errors": [],
       "flags": []
     },
     {
@@ -1886,13 +1889,17 @@
         "muveszet",
         "csalad"
       ],
-      "pagesChecked": 3,
+      "pagesChecked": 2,
       "checkedUrls": [
         "https://www.facebook.com/IMIKE2019UJKV/",
-        "https://www.instagram.com/imike_ujkv/",
         "https://rolunk.at/nepcsoportunk/sziveben-magyar/"
       ],
-      "errors": [],
+      "errors": [
+        {
+          "url": "https://www.instagram.com/imike_ujkv/",
+          "error": "HTTP Error 429: Too Many Requests"
+        }
+      ],
       "flags": []
     },
     {
@@ -2502,12 +2509,16 @@
         "irodalom",
         "csalad"
       ],
-      "pagesChecked": 2,
+      "pagesChecked": 1,
       "checkedUrls": [
-        "https://mde.hu/partnerek-tamogatok/",
         "https://kerekasztal.at/"
       ],
-      "errors": [],
+      "errors": [
+        {
+          "url": "https://mde.hu/partnerek-tamogatok/",
+          "error": "<urlopen error timed out>"
+        }
+      ],
       "flags": []
     },
     {
@@ -2519,21 +2530,24 @@
       ],
       "activityCategories": [],
       "signals": [
-        "neptanc",
-        "media",
-        "diak",
-        "irodalom",
-        "muveszet",
-        "sport",
-        "csalad"
+        "diak"
       ],
-      "pagesChecked": 3,
-      "checkedUrls": [
-        "https://mde.hu/at/",
-        "https://mde.hu/rolunk/",
-        "https://mde.hu/becsi-esemenyek/"
+      "pagesChecked": 0,
+      "checkedUrls": [],
+      "errors": [
+        {
+          "url": "https://mde.hu/at/",
+          "error": "<urlopen error timed out>"
+        },
+        {
+          "url": "https://mde.hu/rolunk/",
+          "error": "<urlopen error timed out>"
+        },
+        {
+          "url": "https://mde.hu/becsi-esemenyek/",
+          "error": "<urlopen error timed out>"
+        }
       ],
-      "errors": [],
       "flags": []
     },
     {
@@ -3298,19 +3312,23 @@
         "neptanc",
         "nepzene",
         "enekkar",
-        "szinhaz",
         "media",
-        "diak",
-        "muveszet",
         "csalad"
       ],
-      "pagesChecked": 3,
+      "pagesChecked": 1,
       "checkedUrls": [
-        "https://www.wukv.at/rolunk-citerazenekar/",
-        "https://www.delibab-becs.com/",
-        "https://www.wukv.at/category/zenekar/"
+        "https://www.delibab-becs.com/"
       ],
-      "errors": [],
+      "errors": [
+        {
+          "url": "https://www.wukv.at/rolunk-citerazenekar/",
+          "error": "<urlopen error timed out>"
+        },
+        {
+          "url": "https://www.wukv.at/category/zenekar/",
+          "error": "<urlopen error timed out>"
+        }
+      ],
       "flags": []
     },
     {
@@ -3672,6 +3690,32 @@
       "flags": []
     },
     {
+      "id": "stadtbibliothek-innsbruck-hungarian",
+      "name": "Stadtbibliothek Innsbruck – magyar nyelvtanulási média",
+      "entityClass": "host-institution",
+      "categories": [
+        "irodalom",
+        "kultura",
+        "oktatas"
+      ],
+      "activityCategories": [],
+      "signals": [
+        "oktatas",
+        "media",
+        "diak",
+        "irodalom",
+        "sport",
+        "csalad"
+      ],
+      "pagesChecked": 2,
+      "checkedUrls": [
+        "https://stadtbibliothek.innsbruck.gv.at/",
+        "https://stadtbibliothek.innsbruck.gv.at/de/newsletter/newsletter/11-0.html?lProductID=107568&sWeb=stadtbibliothek.innsbruck.gv.at"
+      ],
+      "errors": [],
+      "flags": []
+    },
+    {
       "id": "stadtbibliothek-linz-hungarian",
       "name": "Stadtbibliothek Wissensturm Linz – magyar nyelvű gyűjtemény",
       "entityClass": "host-institution",
@@ -3696,6 +3740,34 @@
         "https://wissensturm.linz.at/bibliothek/wissensturm.php",
         "https://wissensturm.linz.at/Integration.php",
         "https://volksgruppen.orf.at/magyarok/stories/3351276/"
+      ],
+      "errors": [],
+      "flags": []
+    },
+    {
+      "id": "stadtbibliothek-salzburg-hungarian",
+      "name": "Stadt:Bibliothek Salzburg – magyar nyelvű kínálat",
+      "entityClass": "host-institution",
+      "categories": [
+        "irodalom",
+        "kultura",
+        "oktatas"
+      ],
+      "activityCategories": [],
+      "signals": [
+        "oktatas",
+        "media",
+        "egyhaz",
+        "diak",
+        "irodalom",
+        "muveszet",
+        "csalad"
+      ],
+      "pagesChecked": 3,
+      "checkedUrls": [
+        "https://buch.stadt-salzburg.at/",
+        "https://buch.stadt-salzburg.at/Mediensuche/Erweiterte-Suche",
+        "https://buch.stadt-salzburg.gv.at/Mediensuche/Einfache-Suche?detail=6&focusModule=searchmodule&pagesize=50&searchhash=OCLC_c58b9092580f15d9d195d8ca279d096abfc183c4&top=y"
       ],
       "errors": [],
       "flags": []
@@ -3844,19 +3916,23 @@
         "neptanc",
         "nepzene",
         "enekkar",
-        "szinhaz",
         "media",
-        "diak",
-        "muveszet",
         "csalad"
       ],
-      "pagesChecked": 3,
+      "pagesChecked": 1,
       "checkedUrls": [
-        "https://www.wukv.at/rolunk-szivarvany/",
-        "https://www.wukv.at/category/gyermektanc/",
         "https://www.delibab-becs.com/"
       ],
-      "errors": [],
+      "errors": [
+        {
+          "url": "https://www.wukv.at/rolunk-szivarvany/",
+          "error": "<urlopen error timed out>"
+        },
+        {
+          "url": "https://www.wukv.at/category/gyermektanc/",
+          "error": "<urlopen error timed out>"
+        }
+      ],
       "flags": []
     },
     {
