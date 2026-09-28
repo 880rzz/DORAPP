@@ -1,9 +1,9 @@
 {
-  "updated": "2026-09-28T18:47:07.846475+00:00",
+  "updated": "2026-09-28T18:48:04.291092+00:00",
   "summary": {
     "organizations": 158,
     "organizationFlags": 1,
-    "organizationPagesChecked": 353,
+    "organizationPagesChecked": 356,
     "education": 106,
     "educationFlags": 0,
     "events": 29,
@@ -905,19 +905,20 @@
       ],
       "activityCategories": [],
       "signals": [
+        "oktatas",
+        "szinhaz",
+        "media",
         "irodalom",
         "muveszet"
       ],
-      "pagesChecked": 0,
-      "checkedUrls": [],
+      "pagesChecked": 1,
+      "checkedUrls": [
+        "https://www.kozpontiszovetseg.at/event-details/dr-janosi-zoltan-irodalomtortenesz-iro-kolto"
+      ],
       "errors": [
         {
           "url": "https://bornemisza.at/",
-          "error": "<urlopen error timed out>"
-        },
-        {
-          "url": "https://www.kozpontiszovetseg.at/event-details/dr-janosi-zoltan-irodalomtortenesz-iro-kolto",
-          "error": "HTTP Error 429: Too Many Requests"
+          "error": "<urlopen error [Errno 111] Connection refused>"
         },
         {
           "url": "https://www.kozpontiszovetseg.at/bornemisza-peter-tarsasag",
@@ -936,10 +937,15 @@
       "activityCategories": [],
       "signals": [
         "oktatas",
+        "szinhaz",
+        "media",
+        "irodalom",
         "muveszet"
       ],
-      "pagesChecked": 0,
-      "checkedUrls": [],
+      "pagesChecked": 1,
+      "checkedUrls": [
+        "https://www.brandart.studio/tagfelvetel"
+      ],
       "errors": [
         {
           "url": "https://brandart.studio/",
@@ -947,10 +953,6 @@
         },
         {
           "url": "https://www.brandart.studio/",
-          "error": "HTTP Error 429: Too Many Requests"
-        },
-        {
-          "url": "https://www.brandart.studio/tagfelvetel",
           "error": "HTTP Error 429: Too Many Requests"
         }
       ],
@@ -1922,13 +1924,17 @@
         "muveszet",
         "csalad"
       ],
-      "pagesChecked": 3,
+      "pagesChecked": 2,
       "checkedUrls": [
         "https://www.facebook.com/IMIKE2019UJKV/",
-        "https://www.instagram.com/imike_ujkv/",
         "https://rolunk.at/nepcsoportunk/sziveben-magyar/"
       ],
-      "errors": [],
+      "errors": [
+        {
+          "url": "https://www.instagram.com/imike_ujkv/",
+          "error": "HTTP Error 429: Too Many Requests"
+        }
+      ],
       "flags": []
     },
     {
@@ -1974,12 +1980,16 @@
         "muveszet",
         "csalad"
       ],
-      "pagesChecked": 2,
+      "pagesChecked": 1,
       "checkedUrls": [
-        "https://kalaka-club.at/",
         "https://www.korosiprogram.hu/partnereink/ausztriai-magyarok-gazdasagi-erdekkozossege-kalaka-klub"
       ],
-      "errors": [],
+      "errors": [
+        {
+          "url": "https://kalaka-club.at/",
+          "error": "HTTP Error 500: Internal Server Error"
+        }
+      ],
       "flags": []
     },
     {
@@ -3938,23 +3948,21 @@
         "neptanc"
       ],
       "signals": [
+        "oktatas",
         "nepzene",
         "media",
         "diak",
         "muveszet",
-        "sport"
+        "sport",
+        "csalad"
       ],
-      "pagesChecked": 2,
+      "pagesChecked": 3,
       "checkedUrls": [
+        "https://ungarball.at/",
         "https://volksgruppen.orf.at/v2/magyarok/stories/2694653/",
         "https://www.flickr.com/photos/vipach/55099423490"
       ],
-      "errors": [
-        {
-          "url": "https://ungarball.at/",
-          "error": "HTTP Error 403: Forbidden"
-        }
-      ],
+      "errors": [],
       "flags": []
     },
     {
@@ -3966,18 +3974,16 @@
         "kultura"
       ],
       "activityCategories": [],
-      "signals": [],
-      "pagesChecked": 0,
-      "checkedUrls": [],
+      "signals": [
+        "oktatas",
+        "csalad"
+      ],
+      "pagesChecked": 2,
+      "checkedUrls": [
+        "https://ungarball.at/",
+        "https://ungarball.at/impressum"
+      ],
       "errors": [
-        {
-          "url": "https://ungarball.at/",
-          "error": "HTTP Error 403: Forbidden"
-        },
-        {
-          "url": "https://ungarball.at/impressum",
-          "error": "HTTP Error 403: Forbidden"
-        },
         {
           "url": "https://www.kozpontiszovetseg.at/tagszervezetek",
           "error": "HTTP Error 429: Too Many Requests"
