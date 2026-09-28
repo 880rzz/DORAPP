@@ -1,9 +1,9 @@
 {
-  "updated": "2026-09-28T17:31:15.937466+00:00",
+  "updated": "2026-09-28T17:53:09.043974+00:00",
   "summary": {
     "organizations": 157,
     "organizationFlags": 0,
-    "organizationPagesChecked": 350,
+    "organizationPagesChecked": 349,
     "education": 106,
     "educationFlags": 0,
     "events": 29,
@@ -891,19 +891,20 @@
       ],
       "activityCategories": [],
       "signals": [
+        "oktatas",
+        "szinhaz",
+        "media",
         "irodalom",
         "muveszet"
       ],
-      "pagesChecked": 0,
-      "checkedUrls": [],
+      "pagesChecked": 1,
+      "checkedUrls": [
+        "https://www.kozpontiszovetseg.at/event-details/dr-janosi-zoltan-irodalomtortenesz-iro-kolto"
+      ],
       "errors": [
         {
           "url": "https://bornemisza.at/",
           "error": "<urlopen error [Errno 111] Connection refused>"
-        },
-        {
-          "url": "https://www.kozpontiszovetseg.at/event-details/dr-janosi-zoltan-irodalomtortenesz-iro-kolto",
-          "error": "HTTP Error 429: Too Many Requests"
         },
         {
           "url": "https://www.kozpontiszovetseg.at/bornemisza-peter-tarsasag",
@@ -922,17 +923,17 @@
       "activityCategories": [],
       "signals": [
         "oktatas",
+        "media",
+        "irodalom",
         "muveszet"
       ],
-      "pagesChecked": 0,
-      "checkedUrls": [],
+      "pagesChecked": 1,
+      "checkedUrls": [
+        "https://www.brandart.studio/"
+      ],
       "errors": [
         {
           "url": "https://brandart.studio/",
-          "error": "HTTP Error 429: Too Many Requests"
-        },
-        {
-          "url": "https://www.brandart.studio/",
           "error": "HTTP Error 429: Too Many Requests"
         },
         {
@@ -1361,23 +1362,20 @@
         "oktatas",
         "neptanc",
         "nepzene",
+        "szinhaz",
         "media",
         "egyhaz",
         "muveszet",
         "sport",
         "csalad"
       ],
-      "pagesChecked": 2,
+      "pagesChecked": 3,
       "checkedUrls": [
+        "https://www.kozpontiszovetseg.at/event-details/zene-es-talalkozas",
         "https://volksgruppen.orf.at/v2/magyarok/stories/2914449/",
         "https://hvg.hu/kultura/20141111_Centropedij"
       ],
-      "errors": [
-        {
-          "url": "https://www.kozpontiszovetseg.at/event-details/zene-es-talalkozas",
-          "error": "HTTP Error 429: Too Many Requests"
-        }
-      ],
+      "errors": [],
       "flags": []
     },
     {
@@ -1655,13 +1653,17 @@
         "muveszet",
         "csalad"
       ],
-      "pagesChecked": 3,
+      "pagesChecked": 2,
       "checkedUrls": [
         "https://femconnectgraz.at/",
-        "https://femconnectgraz.at/graci-programok/",
         "https://femconnectgraz.at/events/"
       ],
-      "errors": [],
+      "errors": [
+        {
+          "url": "https://femconnectgraz.at/graci-programok/",
+          "error": "HTTP Error 520: <none>"
+        }
+      ],
       "flags": []
     },
     {
@@ -2234,20 +2236,20 @@
       "activityCategories": [],
       "signals": [
         "oktatas",
-        "neptanc",
-        "nepzene",
         "szinhaz",
-        "media",
         "irodalom",
         "muveszet",
         "csalad"
       ],
-      "pagesChecked": 2,
+      "pagesChecked": 1,
       "checkedUrls": [
-        "https://www.kozpontiszovetseg.at/",
-        "https://www.kozpontiszovetseg.at/r%C3%B3lunk"
+        "https://www.kozpontiszovetseg.at/"
       ],
       "errors": [
+        {
+          "url": "https://www.kozpontiszovetseg.at/r%C3%B3lunk",
+          "error": "HTTP Error 429: Too Many Requests"
+        },
         {
           "url": "https://www.kozpontiszovetseg.at/kapcsolat",
           "error": "HTTP Error 429: Too Many Requests"
@@ -2828,13 +2830,17 @@
         "sport",
         "csalad"
       ],
-      "pagesChecked": 3,
+      "pagesChecked": 2,
       "checkedUrls": [
-        "https://vorsitzendenkonferenz.org/",
         "https://rolunk.at/ausztriai-magyar-egyesuletek/",
         "https://volksgruppen.orf.at/magyarok/stories/3302381/"
       ],
-      "errors": [],
+      "errors": [
+        {
+          "url": "https://vorsitzendenkonferenz.org/",
+          "error": "<urlopen error [Errno 101] Network is unreachable>"
+        }
+      ],
       "flags": []
     },
     {
@@ -3938,10 +3944,9 @@
         "oktatas",
         "csalad"
       ],
-      "pagesChecked": 2,
+      "pagesChecked": 1,
       "checkedUrls": [
-        "https://ungarball.at/",
-        "https://ungarball.at/impressum"
+        "https://ungarball.at/"
       ],
       "errors": [
         {
