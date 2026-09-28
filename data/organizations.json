@@ -4148,7 +4148,7 @@
         "német"
       ],
       "email": "office@alsoori-enekkar.at",
-      "profileVerifiedAt": "2026-09-25",
+      "profileVerifiedAt": "2026-09-28",
       "evidenceSources": [
         {
           "label": "Rólunk.at – Az Alsóőri Énekkar Magyarországon és a lugasban énekelt",
@@ -4195,7 +4195,24 @@
           }
         ]
       },
-      "entityClass": "organization"
+      "entityClass": "organization",
+      "calendarSources": [
+        {
+          "label": "Alsóőri Énekkar – hivatalos weboldal",
+          "url": "https://www.alsoori-enekkar.at/",
+          "kind": "official-calendar",
+          "scope": "self",
+          "ingestEvents": false
+        },
+        {
+          "label": "Alsóőri Énekkar – Facebook",
+          "url": "https://www.facebook.com/alsoorienekkar",
+          "kind": "social-calendar",
+          "platform": "facebook",
+          "scope": "self",
+          "ingestEvents": false
+        }
+      ]
     },
     {
       "id": "alsoori-otthon",
@@ -4330,7 +4347,7 @@
         "magyar",
         "német"
       ],
-      "profileVerifiedAt": "2026-09-25",
+      "profileVerifiedAt": "2026-09-28",
       "evidenceSources": [
         {
           "label": "Rólunk.at – Húszéves a Középburgenlandi Magyar Kultúregyesület",
@@ -4343,7 +4360,9 @@
           "type": "official-publication"
         }
       ],
-      "entityClass": "organization"
+      "entityClass": "organization",
+      "email": "mbukv@gmx.at",
+      "contactUrl": "https://www.facebook.com/MittelburgenlaendischerUngarischerKulturverein/"
     },
     {
       "id": "csalafinta-neptanc",
@@ -4722,9 +4741,19 @@
         "magyar",
         "német"
       ],
-      "profileVerifiedAt": "2026-09-25",
+      "profileVerifiedAt": "2026-09-28",
       "entityClass": "organization",
-      "email": "enikoe.toekes@takeda.com"
+      "email": "enikoe.toekes@takeda.com",
+      "calendarSources": [
+        {
+          "label": "Felső-Ausztriai Magyarok – Facebook",
+          "url": "https://www.facebook.com/profile.php?id=61585964764924",
+          "kind": "social-calendar",
+          "platform": "facebook",
+          "scope": "self",
+          "ingestEvents": false
+        }
+      ]
     },
     {
       "id": "orok-fiatalok-klubja",
@@ -5197,7 +5226,7 @@
         "német"
       ],
       "email": "ernest.szabo@dioezese-linz.at",
-      "profileVerifiedAt": "2026-09-25",
+      "profileVerifiedAt": "2026-09-28",
       "founded": "1999",
       "history": {
         "summary": "A Linzi Magyar Katolikus Közösség mai lelkipásztori struktúrája 1999-től Szabó Ernő atya szolgálatához kapcsolódik. A magyar katolikus lelkipásztori központ kezdetben a Senefelderstraße 6. alatti nővérek házában működött; 2004 és 2012 között a Petrinumban kapott helyet, majd 2012-ben Welsbe költözött. A közösség Linzben és Welsben rendszeres magyar szentmiséket tart.",
@@ -5222,7 +5251,16 @@
           }
         ]
       },
-      "entityClass": "organization"
+      "entityClass": "organization",
+      "calendarSources": [
+        {
+          "label": "Ausztriai magyar katolikus közösségek – programok",
+          "url": "https://ausztria.katolikus.at/",
+          "kind": "official-calendar",
+          "scope": "self",
+          "ingestEvents": false
+        }
+      ]
     },
     {
       "id": "grazi-magyar-egyesulet",
@@ -6486,8 +6524,17 @@
         "német"
       ],
       "email": "pepat@ikbnet.at",
-      "profileVerifiedAt": "2026-09-26",
-      "entityClass": "organization"
+      "profileVerifiedAt": "2026-09-28",
+      "entityClass": "organization",
+      "calendarSources": [
+        {
+          "label": "Diözese Innsbruck – magyar közösség",
+          "url": "https://www.dibk.at/Media/Organisationen/muttersprachliche-seelsorge",
+          "kind": "official-calendar",
+          "scope": "self",
+          "ingestEvents": false
+        }
+      ]
     },
     {
       "id": "vorarlbergi-magyar-egyesulet",
@@ -6568,8 +6615,18 @@
         "német"
       ],
       "email": "office@vukk.at",
-      "profileVerifiedAt": "2026-09-25",
-      "entityClass": "organization"
+      "profileVerifiedAt": "2026-09-28",
+      "entityClass": "organization",
+      "calendarSources": [
+        {
+          "label": "Vorarlbergi Magyar Egyesület – Facebook",
+          "url": "https://www.facebook.com/profile.php?id=61551073885214",
+          "kind": "social-calendar",
+          "platform": "facebook",
+          "scope": "self",
+          "ingestEvents": false
+        }
+      ]
     },
     {
       "id": "mime-vorarlberg",
@@ -6704,7 +6761,7 @@
         "magyar",
         "német"
       ],
-      "profileVerifiedAt": "2026-09-27",
+      "profileVerifiedAt": "2026-09-28",
       "evidenceSources": [
         {
           "label": "ORF Magyarok – hétvégi magyar iskola Klagenfurtban",
@@ -6723,7 +6780,16 @@
         }
       ],
       "entityClass": "organization",
-      "contactUrl": "https://vukk.at/"
+      "contactUrl": "https://vukk.at/",
+      "calendarSources": [
+        {
+          "label": "VUKK – hivatalos programok",
+          "url": "https://vukk.at/",
+          "kind": "official-calendar",
+          "scope": "self",
+          "ingestEvents": false
+        }
+      ]
     },
     {
       "id": "burgenlandi-magyar-cserkeszet",
@@ -6915,7 +6981,7 @@
         "magyar",
         "német"
       ],
-      "profileVerifiedAt": "2026-09-25",
+      "profileVerifiedAt": "2026-09-28",
       "history": {
         "summary": "Az Alsóőri–Vasjobbágyi Magyar Baráti Kör Alsóőr és Vasjobbágy közösségei közötti magyar kulturális kapcsolatokat ápolja. A közösség dokumentáltan részt vesz alsóőri hagyományőrző programokban, és a két település közötti személyes, családi és kulturális kapcsolatok fenntartását szolgálja.",
         "milestones": [
@@ -6928,7 +6994,18 @@
         ]
       },
       "founded": "2019",
-      "entityClass": "organization"
+      "entityClass": "organization",
+      "contactUrl": "https://www.facebook.com/profile.php?id=61551237606191",
+      "calendarSources": [
+        {
+          "label": "Alsóőri–Vasjobbágyi Magyar Baráti Kör – Facebook",
+          "url": "https://www.facebook.com/profile.php?id=61551237606191",
+          "kind": "social-calendar",
+          "platform": "facebook",
+          "scope": "self",
+          "ingestEvents": false
+        }
+      ]
     },
     {
       "id": "eszak-burgenlandi",
@@ -7876,7 +7953,7 @@
       "languages": [
         "magyar"
       ],
-      "profileVerifiedAt": "2026-09-25",
+      "profileVerifiedAt": "2026-09-28",
       "evidenceSources": [
         {
           "label": "Rólunk.at – Aktív apukák és felső-ausztriai farsang",
@@ -7900,7 +7977,9 @@
           }
         ]
       },
-      "entityClass": "project"
+      "entityClass": "project",
+      "phone": "+43 660 6837357",
+      "contactUrl": "https://www.facebook.com/groups/485905963955994/"
     },
     {
       "id": "macko-kucko-linz",
@@ -7940,7 +8019,7 @@
       "languages": [
         "magyar"
       ],
-      "profileVerifiedAt": "2026-09-25",
+      "profileVerifiedAt": "2026-09-28",
       "evidenceSources": [
         {
           "label": "Rólunk.at – felső-ausztriai családi közösségek",
@@ -7959,7 +8038,8 @@
           }
         ]
       },
-      "entityClass": "project"
+      "entityClass": "project",
+      "contactUrl": "https://www.facebook.com/groups/1283180622014969/"
     },
     {
       "id": "noi-kor-wels",
@@ -8022,7 +8102,8 @@
           }
         ]
       },
-      "entityClass": "project"
+      "entityClass": "project",
+      "contactUrl": "https://www.facebook.com/profile.php?id=61555536511644"
     },
     {
       "id": "sunido-linz-steyr",
@@ -8071,7 +8152,7 @@
       "languages": [
         "magyar"
       ],
-      "profileVerifiedAt": "2026-09-25",
+      "profileVerifiedAt": "2026-09-28",
       "evidenceSources": [
         {
           "label": "Rólunk.at – Októbertől anyanyelvi oktatás indul Linzben",
@@ -8095,7 +8176,8 @@
         }
       ],
       "founded": "2022",
-      "entityClass": "project"
+      "entityClass": "project",
+      "contactUrl": "https://www.facebook.com/groups/610893464159214/"
     },
     {
       "id": "collegium-hungaricum-wien",
@@ -8717,7 +8799,9 @@
       "email": "steip-hundsheim@gmx.at",
       "contactUrl": "https://bukv.at/hu/linkek/",
       "calendarSources": [],
-      "classificationNote": "Történeti, megszűnt ernyőszervezet. Aktuális saját web/social csatorna nem igazolt; a megadott kapcsolat történeti/intézményi forrásból származik."
+      "classificationNote": "Történeti, megszűnt ernyőszervezet. Aktuális saját web/social csatorna nem igazolt; a megadott kapcsolat történeti/intézményi forrásból származik.",
+      "calendarStatus": "not-applicable",
+      "calendarStatusNote": "A szervezet megszűnt; aktuális eseménynaptár nem értelmezhető."
     },
     {
       "id": "virgonc-unterwart",
@@ -9637,7 +9721,7 @@
       "languages": [
         "magyar"
       ],
-      "profileVerifiedAt": "2026-09-25",
+      "profileVerifiedAt": "2026-09-28",
       "history": {
         "summary": "A Magyar Szó Ausztriában a RádióHU-val közös szerkesztőségi és kiadói háttérben működő magyar nyelvű online médium. Az impresszum alapján mindkét felület mögött a hohenemsi Die Brücke – Medien und Kulturelles Podium áll, közös szerkesztőségi infrastruktúrával.",
         "milestones": [
@@ -9650,7 +9734,16 @@
         ]
       },
       "entityClass": "media",
-      "contactUrl": "https://www.radiohu.hu/impresszum/"
+      "contactUrl": "https://www.radiohu.hu/impresszum/",
+      "calendarSources": [
+        {
+          "label": "Magyar Szó Ausztriában – aktuális hírek és programajánlók",
+          "url": "https://www.magyarszo.at/",
+          "kind": "editorial-calendar",
+          "scope": "self",
+          "ingestEvents": false
+        }
+      ]
     },
     {
       "id": "mde-alumni",
@@ -11634,7 +11727,16 @@
       ],
       "entityClass": "host-institution",
       "classificationNote": "Nem magyar szervezet; osztrák nyilvános/főiskolai könyvtár magyar nyelvű állománnyal.",
-      "contactUrl": "https://www.wiener-neustadt.at/index.php/de/kultur-tourismus/stadtbuecherei"
+      "contactUrl": "https://www.wiener-neustadt.at/index.php/de/kultur-tourismus/stadtbuecherei",
+      "calendarSources": [
+        {
+          "label": "Bibliothek im Zentrum – hivatalos könyvtári programok",
+          "url": "https://www.wiener-neustadt.at/index.php/de/kultur-tourismus/stadtbuecherei",
+          "kind": "host-calendar",
+          "scope": "host",
+          "ingestEvents": false
+        }
+      ]
     },
     {
       "id": "vorarlberger-landesbibliothek-hungarian",
@@ -11793,7 +11895,16 @@
       ],
       "entityClass": "host-institution",
       "classificationNote": "Nem magyar szervezet; osztrák tartományi könyvtár kiemelkedő magyar nyelvű állománnyal.",
-      "contactUrl": "https://www.burgenland.at/themen/wissenschaft/landesbibliothek/"
+      "contactUrl": "https://www.burgenland.at/themen/wissenschaft/landesbibliothek/",
+      "calendarSources": [
+        {
+          "label": "Burgenländische Landesbibliothek – hivatalos programok",
+          "url": "https://www.burgenland.at/themen/wissenschaft/landesbibliothek/",
+          "kind": "host-calendar",
+          "scope": "host",
+          "ingestEvents": false
+        }
+      ]
     },
     {
       "id": "stadtbibliothek-linz-hungarian",
@@ -11852,7 +11963,16 @@
       ],
       "entityClass": "host-institution",
       "classificationNote": "Nem magyar szervezet; linzi városi könyvtár igazolt magyar nyelvű állománnyal és magyar partnerprogrammal.",
-      "contactUrl": "https://wissensturm.linz.at/bibliothek/wissensturm.php"
+      "contactUrl": "https://wissensturm.linz.at/bibliothek/wissensturm.php",
+      "calendarSources": [
+        {
+          "label": "Stadtbibliothek Linz – rendezvények",
+          "url": "https://wissensturm.linz.at/bibliothek/veranstaltungen.php",
+          "kind": "host-calendar",
+          "scope": "host",
+          "ingestEvents": false
+        }
+      ]
     },
     {
       "id": "buechereien-wien-hungarian",
@@ -11916,7 +12036,16 @@
       ],
       "entityClass": "host-institution",
       "classificationNote": "Nem magyar szervezet; bécsi városi könyvtárhálózat dokumentált magyar nyelvű kínálattal.",
-      "contactUrl": "https://buechereien.wien.gv.at/B%C3%BCchereien-Wien"
+      "contactUrl": "https://buechereien.wien.gv.at/B%C3%BCchereien-Wien",
+      "calendarSources": [
+        {
+          "label": "Büchereien Wien – rendezvények",
+          "url": "https://buechereien.wien.gv.at/",
+          "kind": "host-calendar",
+          "scope": "host",
+          "ingestEvents": false
+        }
+      ]
     },
     {
       "id": "ak-buecherei-eisenstadt-hungarian",
@@ -11979,7 +12108,16 @@
       ],
       "entityClass": "host-institution",
       "classificationNote": "Nem magyar szervezet; osztrák munkáskamarai könyvtár igazolt magyar gyermekkönyv-kínálattal.",
-      "contactUrl": "https://bgld.arbeiterkammer.at/service/buecherei/akbuechereieisenstadt/index.html"
+      "contactUrl": "https://bgld.arbeiterkammer.at/service/buecherei/akbuechereieisenstadt/index.html",
+      "calendarSources": [
+        {
+          "label": "AK-Bücherei Eisenstadt – könyvtári programok",
+          "url": "https://bgld.arbeiterkammer.at/service/buecherei/akbuechereieisenstadt/index.html",
+          "kind": "host-calendar",
+          "scope": "host",
+          "ingestEvents": false
+        }
+      ]
     },
     {
       "id": "stadtbibliothek-salzburg-hungarian",
@@ -12037,7 +12175,16 @@
       ],
       "entityClass": "host-institution",
       "classificationNote": "Nem magyar szervezet; Salzburg városi könyvtára igazolt magyar nyelvű és nyelvtanulási kínálattal.",
-      "contactUrl": "https://buch.stadt-salzburg.at/"
+      "contactUrl": "https://buch.stadt-salzburg.at/",
+      "calendarSources": [
+        {
+          "label": "Stadt:Bibliothek Salzburg – rendezvények és katalógus",
+          "url": "https://buch.stadt-salzburg.at/",
+          "kind": "host-calendar",
+          "scope": "host",
+          "ingestEvents": false
+        }
+      ]
     },
     {
       "id": "stadtbibliothek-innsbruck-hungarian",
