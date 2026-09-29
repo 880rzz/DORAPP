@@ -6338,7 +6338,6 @@
       "facebook": null,
       "instagram": null,
       "eventSources": [
-        "https://femconnectgraz.at/graci-programok/",
         "https://femconnectgraz.at/events/"
       ],
       "memberships": [
@@ -6408,14 +6407,14 @@
       "entityClass": "organization",
       "calendarSources": [
         {
-          "label": "FemConnect Graz – automatikus eseményforrás",
+          "label": "FemConnect Graz – Gráci programok beágyazott nézet; a /events/ a kanonikus eseményforrás",
           "url": "https://femconnectgraz.at/graci-programok/",
-          "kind": "official-calendar",
+          "kind": "embedded-program-view",
           "scope": "self",
-          "ingestEvents": true
+          "ingestEvents": false
         },
         {
-          "label": "FemConnect Graz – automatikus eseményforrás",
+          "label": "FemConnect Graz – kanonikus eseménynaptár",
           "url": "https://femconnectgraz.at/events/",
           "kind": "official-calendar",
           "scope": "self",
