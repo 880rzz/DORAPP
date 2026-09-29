@@ -1483,7 +1483,7 @@
       "type": "oktatási és közösségi",
       "intro": "A Központi Szövetség fenntartásában működő Bécsi Magyar Iskola 1987 óta biztosít magyar nyelvű délutáni és hétvégi oktatást, óvodai és közösségi programokat gyermekeknek, fiataloknak és felnőtteknek.",
       "website": "https://www.magyariskola.at/",
-      "facebook": null,
+      "facebook": "https://www.facebook.com/groups/becsimagyariskola/",
       "instagram": null,
       "eventSources": [
         "https://www.magyariskola.at/esemenyek"
@@ -1541,7 +1541,7 @@
       ],
       "email": "office@magyariskola.at",
       "phone": "+43 650 331 2090",
-      "profileVerifiedAt": "2026-09-25",
+      "profileVerifiedAt": "2026-09-29",
       "evidenceSources": [
         {
           "label": "Bécsi Magyar Iskola – Rólunk",
@@ -1557,6 +1557,11 @@
           "label": "Bécsi Magyar Iskola – Kapcsolat",
           "url": "https://www.magyariskola.at/kapcsolat",
           "type": "official"
+        },
+        {
+          "label": "Bécsi Magyar Iskola – hivatalos Facebook-közösség",
+          "url": "https://www.facebook.com/groups/becsimagyariskola/",
+          "type": "official-social"
         }
       ],
       "entityClass": "institution",
@@ -1574,6 +1579,22 @@
           "kind": "official-calendar",
           "scope": "self",
           "ingestEvents": true
+        },
+        {
+          "label": "Bécsi Magyar Iskola – hivatalos Facebook-közösség – esemény-discovery",
+          "url": "https://www.facebook.com/groups/becsimagyariskola/",
+          "kind": "social-event-discovery",
+          "platform": "facebook",
+          "scope": "self",
+          "ingestEvents": false
+        }
+      ],
+      "publicChannels": [
+        {
+          "label": "Bécsi Magyar Iskola – hivatalos Facebook-közösség",
+          "url": "https://www.facebook.com/groups/becsimagyariskola/",
+          "kind": "facebook-community",
+          "ownership": "self"
         }
       ]
     },
@@ -4576,7 +4597,7 @@
       "type": "média és kulturális központ",
       "intro": "Az alsóőri UMIZ – Magyar Média- és Információs Központ a burgenlandi magyarság könyvtári, dokumentációs, kutatási és kulturális tudásközpontja. Gyökerei az 1973-ban létrejött alsóőri könyv- és levéltárig nyúlnak vissza; az UMIZ intézményi formája 2000-ben, egy határon átnyúló EU-INTERREG projekt keretében jött létre.",
       "website": "https://umiz.at/",
-      "facebook": null,
+      "facebook": "https://facebook.com/130421850314055",
       "instagram": null,
       "eventSources": [],
       "regionalNetworks": [
@@ -4624,7 +4645,7 @@
         "magyar",
         "német"
       ],
-      "profileVerifiedAt": "2026-09-27",
+      "profileVerifiedAt": "2026-09-29",
       "evidenceSources": [
         {
           "label": "UMIZ – Történetünk",
@@ -4640,6 +4661,11 @@
           "label": "Kerekasztal – tagok",
           "url": "https://kerekasztal.at/tagok/",
           "type": "institutional"
+        },
+        {
+          "label": "UMIZ – hivatalos Facebook",
+          "url": "https://facebook.com/130421850314055",
+          "type": "official-social"
         }
       ],
       "email": "office@umiz.at",
@@ -4659,6 +4685,22 @@
           "kind": "official-website",
           "scope": "self",
           "ingestEvents": false
+        },
+        {
+          "label": "UMIZ – hivatalos Facebook – esemény-discovery",
+          "url": "https://facebook.com/130421850314055",
+          "kind": "social-event-discovery",
+          "platform": "facebook",
+          "scope": "self",
+          "ingestEvents": false
+        }
+      ],
+      "publicChannels": [
+        {
+          "label": "UMIZ – hivatalos Facebook",
+          "url": "https://facebook.com/130421850314055",
+          "kind": "facebook",
+          "ownership": "self"
         }
       ]
     },
