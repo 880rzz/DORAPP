@@ -3049,7 +3049,9 @@
       "website": "https://kerekasztal.at/",
       "facebook": null,
       "instagram": null,
-      "eventSources": [],
+      "eventSources": [
+        "https://wp.kerekasztal.at/events/"
+      ],
       "categories": [
         "kozosseg"
       ],
@@ -3087,7 +3089,7 @@
         "magyar",
         "német"
       ],
-      "profileVerifiedAt": "2026-09-25",
+      "profileVerifiedAt": "2026-09-29",
       "evidenceSources": [
         {
           "label": "Kőrösi Csoma Sándor Program – Kerekasztal bemutatása",
@@ -3103,6 +3105,11 @@
           "label": "Collegium Hungaricum – AchtUngarn 2026",
           "url": "https://culture.hu/hu/wien/hirek/programok-szeptemberben",
           "type": "institutional"
+        },
+        {
+          "label": "Kerekasztal – hivatalos eseménylista",
+          "url": "https://wp.kerekasztal.at/events/",
+          "type": "official"
         }
       ],
       "entityClass": "umbrella",
@@ -3114,6 +3121,21 @@
           "kind": "official-website",
           "scope": "self",
           "ingestEvents": false
+        },
+        {
+          "label": "Ausztriai Magyar Szervezetek Kerekasztala – hivatalos eseménylista",
+          "url": "https://wp.kerekasztal.at/events/",
+          "kind": "official-calendar",
+          "scope": "self",
+          "ingestEvents": true
+        }
+      ],
+      "publicChannels": [
+        {
+          "label": "Kerekasztal – Események",
+          "url": "https://wp.kerekasztal.at/events/",
+          "kind": "official-program-page",
+          "ownership": "self"
         }
       ]
     },
