@@ -857,9 +857,7 @@
       "website": "https://kalaka-club.at/",
       "facebook": "https://www.facebook.com/profile.php?id=100069108893600",
       "instagram": null,
-      "eventSources": [
-        "https://kalaka-club.at/"
-      ],
+      "eventSources": [],
       "memberships": [
         {
           "umbrellaId": "kozponti-szovetseg",
@@ -939,11 +937,11 @@
           "ingestEvents": false
         },
         {
-          "label": "Kaláka-Club – Ausztriai Magyarok Gazdasági Érdekközössége – automatikus eseményforrás",
+          "label": "Kaláka-Club – Ausztriai Magyarok Gazdasági Érdekközössége – hivatalos oldal; stabil eseményfeed nem igazolt",
           "url": "https://kalaka-club.at/",
-          "kind": "official-event-source",
+          "kind": "official-website",
           "scope": "self",
-          "ingestEvents": true
+          "ingestEvents": false
         }
       ]
     },
@@ -2317,7 +2315,7 @@
       "facebook": "https://www.facebook.com/MDEVUS",
       "instagram": "https://www.instagram.com/mdevus/",
       "eventSources": [
-        "https://mde.hu/at/"
+        "https://mde.hu/becsi-esemenyek/"
       ],
       "memberships": [
         {
@@ -2398,9 +2396,9 @@
           "ingestEvents": false
         },
         {
-          "label": "MDE-VUS – Magyar Diákok Egyesülete – automatikus eseményforrás",
-          "url": "https://mde.hu/at/",
-          "kind": "official-event-source",
+          "label": "MDE-VUS – bécsi események",
+          "url": "https://mde.hu/becsi-esemenyek/",
+          "kind": "official-calendar",
           "scope": "self",
           "ingestEvents": true
         }
@@ -3101,9 +3099,7 @@
       "website": "https://goeu.at/",
       "facebook": null,
       "instagram": null,
-      "eventSources": [
-        "https://goeu.at/"
-      ],
+      "eventSources": [],
       "categories": [
         "kultura",
         "kozosseg"
@@ -3149,11 +3145,11 @@
       "entityClass": "organization",
       "calendarSources": [
         {
-          "label": "Osztrák–Magyar Társaság / Gesellschaft Österreich–Ungarn – automatikus eseményforrás",
+          "label": "Osztrák–Magyar Társaság / Gesellschaft Österreich–Ungarn – hivatalos oldal; stabil eseményfeed nem igazolt",
           "url": "https://goeu.at/",
-          "kind": "official-event-source",
+          "kind": "official-website",
           "scope": "self",
-          "ingestEvents": true
+          "ingestEvents": false
         }
       ]
     },
@@ -3237,9 +3233,7 @@
       "website": "https://club-pannonia.at/",
       "facebook": null,
       "instagram": null,
-      "eventSources": [
-        "https://club-pannonia.at/"
-      ],
+      "eventSources": [],
       "memberships": [
         {
           "umbrellaId": "kerekasztal",
@@ -3314,11 +3308,11 @@
       "entityClass": "organization",
       "calendarSources": [
         {
-          "label": "Club Pannonia – automatikus eseményforrás",
+          "label": "Club Pannonia – hivatalos oldal; stabil eseményfeed nem igazolt",
           "url": "https://club-pannonia.at/",
-          "kind": "official-event-source",
+          "kind": "official-website",
           "scope": "self",
-          "ingestEvents": true
+          "ingestEvents": false
         }
       ]
     },
@@ -4579,9 +4573,7 @@
       "website": "https://umiz.at/",
       "facebook": null,
       "instagram": null,
-      "eventSources": [
-        "https://umiz.at/"
-      ],
+      "eventSources": [],
       "regionalNetworks": [
         {
           "networkId": "burgenland-bmke-network",
@@ -4657,11 +4649,11 @@
       ],
       "calendarSources": [
         {
-          "label": "UMIZ – Magyar Média és Információs Központ – automatikus eseményforrás",
+          "label": "UMIZ – Magyar Média és Információs Központ – hivatalos oldal; stabil eseményfeed nem igazolt",
           "url": "https://umiz.at/",
-          "kind": "official-event-source",
+          "kind": "official-website",
           "scope": "self",
-          "ingestEvents": true
+          "ingestEvents": false
         }
       ]
     },
@@ -7181,9 +7173,7 @@
       "website": "https://huheim.at/hu/home/",
       "facebook": null,
       "instagram": null,
-      "eventSources": [
-        "https://magyarhaz.at/"
-      ],
+      "eventSources": [],
       "memberships": [
         {
           "umbrellaId": "kozponti-szovetseg",
@@ -7264,11 +7254,11 @@
       "entityClass": "institution",
       "calendarSources": [
         {
-          "label": "Magyarház – Innsbrucki Magyar Diákotthon és Kultúrcentrum – automatikus eseményforrás",
-          "url": "https://magyarhaz.at/",
-          "kind": "official-event-source",
+          "label": "Magyar Diákotthon Innsbruck – hivatalos oldal; eseményfeed nem igazolt",
+          "url": "https://huheim.at/hu/home/",
+          "kind": "official-website",
           "scope": "self",
-          "ingestEvents": true
+          "ingestEvents": false
         }
       ],
       "zvr": "768679342",
@@ -11236,9 +11226,7 @@
       "website": "https://www.radiohu.hu/impresszum/",
       "facebook": null,
       "instagram": null,
-      "eventSources": [
-        "https://www.radiohu.hu/"
-      ],
+      "eventSources": [],
       "evidenceSources": [
         {
           "label": "RádióHU – Impresszum",
@@ -11277,11 +11265,11 @@
       "contactUrl": "https://www.radiohu.hu/impresszum/",
       "calendarSources": [
         {
-          "label": "Die Brücke – Medien und Kulturelles Podium – automatikus eseményforrás",
+          "label": "Die Brücke – Medien und Kulturelles Podium – hivatalos oldal; stabil eseményfeed nem igazolt",
           "url": "https://www.radiohu.hu/",
-          "kind": "official-event-source",
+          "kind": "official-website",
           "scope": "self",
-          "ingestEvents": true
+          "ingestEvents": false
         }
       ]
     },
