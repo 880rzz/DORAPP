@@ -1,12 +1,12 @@
 {
-  "updated": "2026-09-28T20:27:00.172684+00:00",
+  "updated": "2026-09-29T01:18:55.116726+00:00",
   "summary": {
     "organizations": 158,
-    "organizationFlags": 1,
-    "organizationPagesChecked": 325,
-    "education": 106,
+    "organizationFlags": 2,
+    "organizationPagesChecked": 314,
+    "education": 107,
     "educationFlags": 0,
-    "events": 29,
+    "events": 42,
     "eventFlags": 0
   },
   "organizations": [
@@ -48,6 +48,7 @@
       "activityCategories": [],
       "signals": [
         "oktatas",
+        "egyhaz",
         "irodalom",
         "sport"
       ],
@@ -280,17 +281,13 @@
         "sport",
         "csalad"
       ],
-      "pagesChecked": 2,
+      "pagesChecked": 3,
       "checkedUrls": [
         "https://amaped.at/",
+        "https://amaped.at/rendezvenyek/",
         "https://amaped.at/rolunk/"
       ],
-      "errors": [
-        {
-          "url": "https://amaped.at/rendezvenyek-2/",
-          "error": "HTTP Error 404: Not Found"
-        }
-      ],
+      "errors": [],
       "flags": []
     },
     {
@@ -439,21 +436,16 @@
       ],
       "activityCategories": [],
       "signals": [
-        "oktatas",
-        "neptanc",
-        "nepzene",
-        "enekkar",
-        "media",
-        "diak",
-        "irodalom",
-        "muveszet",
-        "csalad"
+        "enekkar"
       ],
-      "pagesChecked": 1,
-      "checkedUrls": [
-        "https://www.wukv.at/tarka-barka-dalkor/"
+      "pagesChecked": 0,
+      "checkedUrls": [],
+      "errors": [
+        {
+          "url": "https://www.wukv.at/tarka-barka-dalkor/",
+          "error": "<urlopen error timed out>"
+        }
       ],
-      "errors": [],
       "flags": []
     },
     {
@@ -905,7 +897,7 @@
       "errors": [
         {
           "url": "https://bornemisza.at/",
-          "error": "<urlopen error timed out>"
+          "error": "<urlopen error [Errno 111] Connection refused>"
         },
         {
           "url": "https://www.kozpontiszovetseg.at/bornemisza-peter-tarsasag",
@@ -1126,20 +1118,23 @@
       "activityCategories": [],
       "signals": [
         "oktatas",
-        "szinhaz",
         "media",
-        "irodalom",
-        "muveszet",
-        "csalad"
+        "irodalom"
       ],
-      "pagesChecked": 3,
+      "pagesChecked": 2,
       "checkedUrls": [
         "https://culture.hu/hu/wien",
-        "https://culture.hu/hu/wien/esemenyek",
         "https://culture.hu/de/wien/jubilaum"
       ],
-      "errors": [],
-      "flags": []
+      "errors": [
+        {
+          "url": "https://culture.hu/hu/wien/esemenyek",
+          "error": "The read operation timed out"
+        }
+      ],
+      "flags": [
+        "weak-source-signal:muveszet"
+      ]
     },
     {
       "id": "collegium-pazmanianum",
@@ -1318,17 +1313,18 @@
         "nepzene",
         "enekkar",
         "media",
-        "diak",
-        "irodalom",
         "sport",
         "csalad"
       ],
-      "pagesChecked": 2,
+      "pagesChecked": 1,
       "checkedUrls": [
-        "https://www.wukv.at/",
         "https://www.delibab-becs.com/"
       ],
       "errors": [
+        {
+          "url": "https://www.wukv.at/",
+          "error": "<urlopen error timed out>"
+        },
         {
           "url": "https://www.wukv.at/sample-page/",
           "error": "<urlopen error timed out>"
@@ -1483,27 +1479,10 @@
         "kultura"
       ],
       "activityCategories": [],
-      "signals": [
-        "oktatas",
-        "neptanc",
-        "szinhaz",
-        "media",
-        "egyhaz",
-        "diak",
-        "irodalom",
-        "muveszet"
-      ],
-      "pagesChecked": 2,
-      "checkedUrls": [
-        "https://europaclub.at/",
-        "https://europaclub.at/rolunk/europa-club-tortenete/"
-      ],
-      "errors": [
-        {
-          "url": "https://europaclub.at/rendezvenyek/meghivok/",
-          "error": "The read operation timed out"
-        }
-      ],
+      "signals": [],
+      "pagesChecked": 0,
+      "checkedUrls": [],
+      "errors": [],
       "flags": []
     },
     {
@@ -1520,14 +1499,13 @@
         "egyhaz",
         "irodalom",
         "muveszet",
-        "sport",
         "csalad"
       ],
       "pagesChecked": 3,
       "checkedUrls": [
         "https://www.evangelikus-at.com/",
-        "https://www.evangelikus-at.com/ueber-uns",
-        "https://www.evangelikus.hu/hu/hireink/beszamolo/becsben-ulesezett-a-magyar-evangelikus-tanacskozo-testulet"
+        "https://www.evangelikus-at.com/istentiszteleteink",
+        "https://www.evangelikus-at.com/ueber-uns"
       ],
       "errors": [],
       "flags": []
@@ -2531,12 +2509,16 @@
         "irodalom",
         "csalad"
       ],
-      "pagesChecked": 2,
+      "pagesChecked": 1,
       "checkedUrls": [
-        "https://mde.hu/partnerek-tamogatok/",
         "https://kerekasztal.at/"
       ],
-      "errors": [],
+      "errors": [
+        {
+          "url": "https://mde.hu/partnerek-tamogatok/",
+          "error": "<urlopen error timed out>"
+        }
+      ],
       "flags": []
     },
     {
@@ -2548,21 +2530,24 @@
       ],
       "activityCategories": [],
       "signals": [
-        "neptanc",
-        "media",
-        "diak",
-        "irodalom",
-        "muveszet",
-        "sport",
-        "csalad"
+        "diak"
       ],
-      "pagesChecked": 3,
-      "checkedUrls": [
-        "https://mde.hu/at/",
-        "https://mde.hu/rolunk/",
-        "https://mde.hu/becsi-esemenyek/"
+      "pagesChecked": 0,
+      "checkedUrls": [],
+      "errors": [
+        {
+          "url": "https://mde.hu/at/",
+          "error": "<urlopen error timed out>"
+        },
+        {
+          "url": "https://mde.hu/rolunk/",
+          "error": "<urlopen error timed out>"
+        },
+        {
+          "url": "https://mde.hu/becsi-esemenyek/",
+          "error": "<urlopen error timed out>"
+        }
       ],
-      "errors": [],
       "flags": []
     },
     {
@@ -3347,17 +3332,13 @@
         "egyhaz",
         "csalad"
       ],
-      "pagesChecked": 2,
+      "pagesChecked": 3,
       "checkedUrls": [
+        "https://reformatus.at/",
         "https://www.reformatus.at/events/2026/",
         "https://www.reformatus.at/"
       ],
-      "errors": [
-        {
-          "url": "https://reformatus.at/",
-          "error": "<urlopen error timed out>"
-        }
-      ],
+      "errors": [],
       "flags": []
     },
     {
@@ -3370,24 +3351,24 @@
       ],
       "activityCategories": [],
       "signals": [
-        "oktatas",
-        "neptanc",
-        "nepzene",
-        "enekkar",
-        "szinhaz",
-        "media",
-        "diak",
-        "muveszet",
-        "sport",
-        "csalad"
+        "nepzene"
       ],
-      "pagesChecked": 3,
-      "checkedUrls": [
-        "https://www.wukv.at/rolunk-citerazenekar/",
-        "https://www.wukv.at/sample-page/",
-        "https://www.wukv.at/a-citeratol-a-hegeduig-ismeretterjeszto-eloadassorozat/"
+      "pagesChecked": 0,
+      "checkedUrls": [],
+      "errors": [
+        {
+          "url": "https://www.wukv.at/rolunk-citerazenekar/",
+          "error": "<urlopen error timed out>"
+        },
+        {
+          "url": "https://www.wukv.at/sample-page/",
+          "error": "<urlopen error timed out>"
+        },
+        {
+          "url": "https://www.wukv.at/a-citeratol-a-hegeduig-ismeretterjeszto-eloadassorozat/",
+          "error": "<urlopen error timed out>"
+        }
       ],
-      "errors": [],
       "flags": []
     },
     {
@@ -3552,8 +3533,8 @@
       "pagesChecked": 3,
       "checkedUrls": [
         "https://www.salzung.com/hu",
-        "https://www.salzung.com/hu/rolunk/az-egyesulet-bemutatasa",
-        "https://www.salzung.com/hu/rolunk/"
+        "https://salzung.com/hu/esemenyek/kozelgo-esemenyek",
+        "https://www.salzung.com/hu/rolunk/az-egyesulet-bemutatasa"
       ],
       "errors": [],
       "flags": []
@@ -4010,15 +3991,18 @@
         "nepzene",
         "enekkar",
         "media",
-        "diak",
         "csalad"
       ],
-      "pagesChecked": 2,
+      "pagesChecked": 1,
       "checkedUrls": [
-        "https://www.wukv.at/rolunk-szivarvany/",
         "https://www.delibab-becs.com/"
       ],
-      "errors": [],
+      "errors": [
+        {
+          "url": "https://www.wukv.at/rolunk-szivarvany/",
+          "error": "<urlopen error timed out>"
+        }
+      ],
       "flags": []
     },
     {
