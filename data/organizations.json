@@ -8075,11 +8075,20 @@
       "entityClass": "organization",
       "calendarSources": [
         {
-          "label": "Alsóőri Katolikus Egyházközség – automatikus eseményforrás",
+          "label": "Alsóőri Katolikus Egyházközség – hivatalos naptár, csak igazolt magyar közösségi események",
           "url": "https://www.martinus.at/pfarre/1127/kalender",
           "kind": "official-calendar",
           "scope": "self",
-          "ingestEvents": true
+          "ingestEvents": true,
+          "includeRegex": [
+            "magyar",
+            "ungarisch",
+            "ungarische",
+            "ungarischer",
+            "ungarischen",
+            "ungarisches"
+          ],
+          "filterPolicy": "hungarian-community-only"
         }
       ]
     },
@@ -8335,11 +8344,20 @@
           "ingestEvents": false
         },
         {
-          "label": "Felsőőri Katolikus Egyházközség – automatikus eseményforrás",
+          "label": "Felsőőri Katolikus Egyházközség – hivatalos naptár, csak igazolt magyar közösségi események",
           "url": "https://www.martinus.at/pfarre/1122/kalender",
           "kind": "official-calendar",
           "scope": "self",
-          "ingestEvents": true
+          "ingestEvents": true,
+          "includeRegex": [
+            "magyar",
+            "ungarisch",
+            "ungarische",
+            "ungarischer",
+            "ungarischen",
+            "ungarisches"
+          ],
+          "filterPolicy": "hungarian-community-only"
         }
       ]
     },
