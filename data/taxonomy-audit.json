@@ -1,9 +1,9 @@
 {
-  "updated": "2026-09-29T06:03:51.894214+00:00",
+  "updated": "2026-09-29T06:05:59.446802+00:00",
   "summary": {
     "organizations": 158,
     "organizationFlags": 1,
-    "organizationPagesChecked": 325,
+    "organizationPagesChecked": 326,
     "education": 107,
     "educationFlags": 0,
     "events": 42,
@@ -724,10 +724,8 @@
       ],
       "signals": [
         "oktatas",
-        "enekkar",
         "szinhaz",
         "media",
-        "egyhaz",
         "diak",
         "irodalom",
         "muveszet",
@@ -904,7 +902,7 @@
       "errors": [
         {
           "url": "https://bornemisza.at/",
-          "error": "<urlopen error timed out>"
+          "error": "<urlopen error [Errno 111] Connection refused>"
         },
         {
           "url": "https://www.kozpontiszovetseg.at/bornemisza-peter-tarsasag",
@@ -1480,14 +1478,25 @@
       "activityCategories": [],
       "signals": [
         "oktatas",
+        "neptanc",
+        "szinhaz",
         "media",
-        "irodalom"
+        "egyhaz",
+        "diak",
+        "irodalom",
+        "muveszet"
       ],
-      "pagesChecked": 1,
+      "pagesChecked": 2,
       "checkedUrls": [
-        "https://europaclub.at/"
+        "https://europaclub.at/",
+        "https://europaclub.at/rolunk/europa-club-tortenete/"
       ],
-      "errors": [],
+      "errors": [
+        {
+          "url": "https://europaclub.at/rendezvenyek/meghivok/",
+          "error": "The read operation timed out"
+        }
+      ],
       "flags": []
     },
     {
@@ -2435,7 +2444,7 @@
       "errors": [
         {
           "url": "https://www.magyarszo.at/",
-          "error": "<urlopen error timed out>"
+          "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'www.magyarszo.at'. (_ssl.c:1010)>"
         }
       ],
       "flags": []
