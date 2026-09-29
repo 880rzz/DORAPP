@@ -5849,9 +5849,7 @@
       "website": "https://ne-felejts.weebly.com/",
       "facebook": null,
       "instagram": null,
-      "eventSources": [
-        "https://ne-felejts.weebly.com/events"
-      ],
+      "eventSources": [],
       "memberships": [
         {
           "umbrellaId": "kerekasztal",
@@ -5932,11 +5930,11 @@
       "entityClass": "organization",
       "calendarSources": [
         {
-          "label": "Ne-Felejts! Néptáncegyüttes – automatikus eseményforrás",
+          "label": "Ne-Felejts! – fellépés- és tevékenységarchívum; aktuális eseményfeed nem igazolt",
           "url": "https://ne-felejts.weebly.com/events",
-          "kind": "official-calendar",
+          "kind": "activity-archive",
           "scope": "self",
-          "ingestEvents": true
+          "ingestEvents": false
         }
       ]
     },
