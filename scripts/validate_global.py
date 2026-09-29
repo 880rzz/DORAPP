@@ -6,10 +6,14 @@ DATA=ROOT/"data"
 errors=[]
 g=json.loads((DATA/"global.json").read_text(encoding="utf-8"))
 seen=set()
+if g.get("countryCodeStandard")!="ISO 3166-1 alpha-2": errors.append("unexpected country code standard")
+if g.get("countryUniverseSize")!=249 or len(g.get("countries",[]))!=249: errors.append(f"expected 249 ISO country entries, got {len(g.get('countries',[]))}")
 for c in g.get("countries",[]):
     iso=str(c.get("iso2",""))
     if len(iso)!=2 or iso.lower()!=iso: errors.append(f"invalid ISO2: {iso}")
     if iso in seen: errors.append(f"duplicate country: {iso}")
+    if c.get("researchStatus") not in {"unresearched","researching","partial","reviewed","verified-zero"}: errors.append(f"invalid research status: {iso}")
+    if c.get("route")!=f"countries/{iso}/": errors.append(f"invalid country route: {iso}")
     seen.add(iso)
     p=DATA/"countries"/iso
     if not p.is_dir(): errors.append(f"missing country data dir: {iso}"); continue
