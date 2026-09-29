@@ -1943,9 +1943,7 @@
       "website": "https://amaped.at/",
       "facebook": "https://www.facebook.com/profile.php?id=100076361554158",
       "instagram": null,
-      "eventSources": [
-        "https://amaped.at/rendezvenyek-2/"
-      ],
+      "eventSources": [],
       "memberships": [
         {
           "umbrellaId": "kerekasztal",
@@ -2013,6 +2011,11 @@
           "label": "AMAPED – hivatalos rendezvényoldal",
           "url": "https://amaped.at/rendezvenyek/",
           "type": "official"
+        },
+        {
+          "label": "AMAPED – Facebook események",
+          "url": "https://www.facebook.com/share/1daRJj3QUu/?mibextid=wwXIfr",
+          "type": "official-social"
         }
       ],
       "entityClass": "organization",
@@ -2026,11 +2029,19 @@
           "ingestEvents": false
         },
         {
-          "label": "AMAPED – hivatalos rendezvényoldal",
+          "label": "AMAPED – korábbi rendezvényoldal; jelenleg 404",
           "url": "https://amaped.at/rendezvenyek-2/",
-          "kind": "official-calendar",
+          "kind": "retired-calendar",
           "scope": "self",
-          "ingestEvents": true
+          "ingestEvents": false
+        },
+        {
+          "label": "AMAPED – hivatalos Facebook eseményforrás",
+          "url": "https://www.facebook.com/share/1daRJj3QUu/?mibextid=wwXIfr",
+          "kind": "social-event-source",
+          "platform": "facebook",
+          "scope": "self",
+          "ingestEvents": false
         }
       ],
       "publicChannels": [
@@ -2038,6 +2049,12 @@
           "label": "AMAPED – Rendezvények",
           "url": "https://amaped.at/rendezvenyek/",
           "kind": "official-program-page",
+          "ownership": "self"
+        },
+        {
+          "label": "AMAPED – Facebook események",
+          "url": "https://www.facebook.com/share/1daRJj3QUu/?mibextid=wwXIfr",
+          "kind": "social-events",
           "ownership": "self"
         }
       ]
