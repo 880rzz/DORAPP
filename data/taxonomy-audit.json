@@ -1,9 +1,9 @@
 {
-  "updated": "2026-09-29T04:32:08.464275+00:00",
+  "updated": "2026-09-29T04:39:19.267514+00:00",
   "summary": {
     "organizations": 158,
     "organizationFlags": 1,
-    "organizationPagesChecked": 327,
+    "organizationPagesChecked": 325,
     "education": 107,
     "educationFlags": 0,
     "events": 42,
@@ -281,13 +281,17 @@
         "sport",
         "csalad"
       ],
-      "pagesChecked": 3,
+      "pagesChecked": 2,
       "checkedUrls": [
         "https://amaped.at/",
-        "https://amaped.at/rendezvenyek/",
         "https://amaped.at/rolunk/"
       ],
-      "errors": [],
+      "errors": [
+        {
+          "url": "https://amaped.at/rendezvenyek-2/",
+          "error": "HTTP Error 404: Not Found"
+        }
+      ],
       "flags": []
     },
     {
@@ -722,10 +726,8 @@
       ],
       "signals": [
         "oktatas",
-        "enekkar",
         "szinhaz",
         "media",
-        "egyhaz",
         "diak",
         "irodalom",
         "muveszet",
@@ -935,11 +937,11 @@
           "error": "HTTP Error 429: Too Many Requests"
         },
         {
-          "url": "https://www.brandart.studio/event-list",
+          "url": "https://www.brandart.studio/",
           "error": "HTTP Error 429: Too Many Requests"
         },
         {
-          "url": "https://www.brandart.studio/",
+          "url": "https://www.brandart.studio/tagfelvetel",
           "error": "HTTP Error 429: Too Many Requests"
         }
       ],
@@ -1486,13 +1488,17 @@
         "irodalom",
         "muveszet"
       ],
-      "pagesChecked": 3,
+      "pagesChecked": 2,
       "checkedUrls": [
         "https://europaclub.at/",
-        "https://europaclub.at/rolunk/europa-club-tortenete/",
-        "https://europaclub.at/de/kontakt/"
+        "https://europaclub.at/rolunk/europa-club-tortenete/"
       ],
-      "errors": [],
+      "errors": [
+        {
+          "url": "https://europaclub.at/rendezvenyek/meghivok/",
+          "error": "The read operation timed out"
+        }
+      ],
       "flags": []
     },
     {
@@ -1656,8 +1662,8 @@
       "pagesChecked": 3,
       "checkedUrls": [
         "https://femconnectgraz.at/",
-        "https://femconnectgraz.at/graci-programok/",
-        "https://femconnectgraz.at/events/"
+        "https://femconnectgraz.at/events/",
+        "https://femconnectgraz.at/rolunk-2/"
       ],
       "errors": [],
       "flags": []
@@ -2542,8 +2548,8 @@
       "pagesChecked": 3,
       "checkedUrls": [
         "https://mde.hu/at/",
-        "https://mde.hu/becsi-esemenyek/",
-        "https://mde.hu/rolunk/"
+        "https://mde.hu/rolunk/",
+        "https://mde.hu/becsi-esemenyek/"
       ],
       "errors": [],
       "flags": []
@@ -2768,15 +2774,17 @@
         "oktatas",
         "neptanc",
         "nepzene",
-        "enekkar",
-        "muveszet",
+        "cserkesz",
+        "media",
+        "egyhaz",
+        "sport",
         "csalad"
       ],
       "pagesChecked": 3,
       "checkedUrls": [
         "https://ne-felejts.weebly.com/",
-        "https://ne-felejts.weebly.com/events",
-        "https://ne-felejts.weebly.com/uumlber-uns.html"
+        "https://ne-felejts.weebly.com/uumlber-uns.html",
+        "https://volksgruppen.orf.at/magyarok/stories/3173798/"
       ],
       "errors": [],
       "flags": []
@@ -4076,8 +4084,8 @@
       "pagesChecked": 3,
       "checkedUrls": [
         "https://vhs-ungarn.at/",
-        "https://vhs-ungarn.at/hu/rolunk/a-burgenlandi-magyarok-nepfoiskolaja-egyesulet/",
-        "https://vhs-ungarn.at/hu/kapcsolat/"
+        "https://vhs-ungarn.at/hu/program/",
+        "https://vhs-ungarn.at/hu/rolunk/a-burgenlandi-magyarok-nepfoiskolaja-egyesulet/"
       ],
       "errors": [],
       "flags": []
@@ -4102,8 +4110,8 @@
       "pagesChecked": 3,
       "checkedUrls": [
         "https://www.vipach.at/",
-        "https://www.vipach.at/fotokiallitasok",
-        "https://www.vipach.at/bemutatkozas?lang=en"
+        "https://www.vipach.at/bemutatkozas?lang=en",
+        "https://www.vipach.at/kapcsolat"
       ],
       "errors": [],
       "flags": []
