@@ -2421,7 +2421,7 @@
       "facebook": "https://www.facebook.com/Europa-Club-B%C3%A9cs-478055442397522/",
       "instagram": null,
       "eventSources": [
-        "https://europaclub.at/rendezvenyek/meghivok/"
+        "https://europaclub.at/"
       ],
       "memberships": [
         {
@@ -2509,8 +2509,8 @@
           "ingestEvents": false
         },
         {
-          "label": "Europa-Club – automatikus eseményforrás",
-          "url": "https://europaclub.at/rendezvenyek/meghivok/",
+          "label": "Europa-Club – hivatalos eseménynaptár",
+          "url": "https://europaclub.at/",
           "kind": "official-calendar",
           "scope": "self",
           "ingestEvents": true
@@ -3173,7 +3173,7 @@
       "facebook": null,
       "instagram": null,
       "eventSources": [
-        "https://brandart.studio/"
+        "https://www.brandart.studio/event-list"
       ],
       "categories": [
         "muveszet"
@@ -3224,8 +3224,8 @@
       "entityClass": "organization",
       "calendarSources": [
         {
-          "label": "Brand Art Studio Wien – automatikus eseményforrás",
-          "url": "https://brandart.studio/",
+          "label": "Brand Art Studio Wien – hivatalos eseménylista",
+          "url": "https://www.brandart.studio/event-list",
           "kind": "official-event-source",
           "scope": "self",
           "ingestEvents": true
