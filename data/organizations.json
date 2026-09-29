@@ -3011,9 +3011,7 @@
       "website": "https://kerekasztal.at/",
       "facebook": null,
       "instagram": null,
-      "eventSources": [
-        "https://kerekasztal.at/"
-      ],
+      "eventSources": [],
       "categories": [
         "kozosseg"
       ],
@@ -3073,11 +3071,11 @@
       "email": "office@kerekasztal.at",
       "calendarSources": [
         {
-          "label": "Ausztriai Magyar Szervezetek Kerekasztala – automatikus eseményforrás",
+          "label": "Ausztriai Magyar Szervezetek Kerekasztala – hivatalos oldal; stabil aktuális saját eseményfeed nem igazolt",
           "url": "https://kerekasztal.at/",
-          "kind": "official-event-source",
+          "kind": "official-website",
           "scope": "self",
-          "ingestEvents": true
+          "ingestEvents": false
         }
       ]
     },
@@ -3155,9 +3153,7 @@
       "website": "https://brandart.studio/",
       "facebook": null,
       "instagram": null,
-      "eventSources": [
-        "https://www.brandart.studio/event-list"
-      ],
+      "eventSources": [],
       "categories": [
         "muveszet"
       ],
@@ -3207,11 +3203,11 @@
       "entityClass": "organization",
       "calendarSources": [
         {
-          "label": "Brand Art Studio Wien – hivatalos eseménylista",
+          "label": "Brand Art Studio Wien – eseménylista; jelenleg jövőbeli aktuális esemény nem igazolt",
           "url": "https://www.brandart.studio/event-list",
-          "kind": "official-event-source",
+          "kind": "official-event-archive",
           "scope": "self",
-          "ingestEvents": true
+          "ingestEvents": false
         }
       ]
     },
