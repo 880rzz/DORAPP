@@ -6699,7 +6699,7 @@
       "type": "kulturális egyesület",
       "intro": "Az 1993-ban alapított SalzUNG – Salzburgi Magyar Egyesület a Salzburg városában és tartományában élő magyar közösséget fogja össze. Kulturális, oktatási, családi és identitásőrző programokkal segíti, hogy a helyi magyarok „itthon, Salzburgban” is megőrizzék nyelvüket és gyökereiket.",
       "website": "https://www.salzung.com/hu",
-      "facebook": null,
+      "facebook": "https://www.facebook.com/salzung/",
       "instagram": null,
       "eventSources": [
         "https://salzung.com/hu/esemenyek/kozelgo-esemenyek"
@@ -6779,6 +6779,11 @@
           "label": "SalzUNG – anyanyelvi oktatás",
           "url": "https://salzung.com/hu/projektek/oktatas",
           "type": "official"
+        },
+        {
+          "label": "SalzUNG – Facebook",
+          "url": "https://www.facebook.com/salzung/",
+          "type": "official-social"
         }
       ],
       "entityClass": "organization",
@@ -6789,6 +6794,22 @@
           "kind": "official-calendar",
           "scope": "self",
           "ingestEvents": true
+        },
+        {
+          "label": "SalzUNG – hivatalos Facebook programcsatorna",
+          "url": "https://www.facebook.com/salzung/",
+          "kind": "social-event-discovery",
+          "platform": "facebook",
+          "scope": "self",
+          "ingestEvents": false
+        }
+      ],
+      "publicChannels": [
+        {
+          "label": "SalzUNG – Facebook",
+          "url": "https://www.facebook.com/salzung/",
+          "kind": "facebook",
+          "ownership": "self"
         }
       ]
     },
