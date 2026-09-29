@@ -1,9 +1,9 @@
 {
-  "updated": "2026-09-29T06:16:09.978740+00:00",
+  "updated": "2026-09-29T06:25:42.918697+00:00",
   "summary": {
     "organizations": 158,
     "organizationFlags": 1,
-    "organizationPagesChecked": 327,
+    "organizationPagesChecked": 326,
     "education": 107,
     "educationFlags": 0,
     "events": 42,
@@ -908,7 +908,7 @@
         },
         {
           "url": "https://www.kozpontiszovetseg.at/bornemisza-peter-tarsasag",
-          "error": "HTTP Error 404: Not Found"
+          "error": "HTTP Error 429: Too Many Requests"
         },
         {
           "url": "https://www.kozpontiszovetseg.at/event-details/dr-janosi-zoltan-irodalomtortenesz-iro-kolto",
@@ -2153,18 +2153,16 @@
         "neptanc",
         "cserkesz",
         "szinhaz",
-        "media",
         "egyhaz",
         "diak",
         "irodalom",
-        "sport",
         "csalad"
       ],
       "pagesChecked": 3,
       "checkedUrls": [
         "https://kerekasztal.at/",
-        "https://www.korosiprogram.hu/partnereink/ausztriai-magyar-szervezetek-kerekasztala",
-        "https://volksgruppen.orf.at/magyarok/stories/3336303/"
+        "https://wp.kerekasztal.at/events/",
+        "https://www.korosiprogram.hu/partnereink/ausztriai-magyar-szervezetek-kerekasztala"
       ],
       "errors": [],
       "flags": []
@@ -2258,19 +2256,15 @@
         "felnott",
         "kozosseg"
       ],
-      "signals": [
-        "oktatas",
-        "neptanc",
-        "nepzene",
-        "szinhaz",
-        "media",
-        "irodalom"
+      "signals": [],
+      "pagesChecked": 0,
+      "checkedUrls": [],
+      "errors": [
+        {
+          "url": "https://www.kozpontiszovetseg.at/r%C3%B3lunk",
+          "error": "HTTP Error 429: Too Many Requests"
+        }
       ],
-      "pagesChecked": 1,
-      "checkedUrls": [
-        "https://www.kozpontiszovetseg.at/r%C3%B3lunk"
-      ],
-      "errors": [],
       "flags": []
     },
     {
