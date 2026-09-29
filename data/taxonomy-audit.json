@@ -1,9 +1,9 @@
 {
-  "updated": "2026-09-29T06:29:03.508869+00:00",
+  "updated": "2026-09-29T11:18:39.120365+00:00",
   "summary": {
     "organizations": 158,
     "organizationFlags": 1,
-    "organizationPagesChecked": 327,
+    "organizationPagesChecked": 323,
     "education": 107,
     "educationFlags": 0,
     "events": 42,
@@ -507,9 +507,7 @@
       "activityCategories": [],
       "signals": [
         "oktatas",
-        "neptanc",
         "enekkar",
-        "cserkesz",
         "szinhaz",
         "media",
         "egyhaz",
@@ -896,16 +894,11 @@
       ],
       "activityCategories": [],
       "signals": [
-        "oktatas",
-        "szinhaz",
-        "media",
         "irodalom",
         "muveszet"
       ],
-      "pagesChecked": 1,
-      "checkedUrls": [
-        "https://www.kozpontiszovetseg.at/event-details/dr-janosi-zoltan-irodalomtortenesz-iro-kolto"
-      ],
+      "pagesChecked": 0,
+      "checkedUrls": [],
       "errors": [
         {
           "url": "https://bornemisza.at/",
@@ -913,7 +906,11 @@
         },
         {
           "url": "https://www.kozpontiszovetseg.at/bornemisza-peter-tarsasag",
-          "error": "HTTP Error 404: Not Found"
+          "error": "HTTP Error 429: Too Many Requests"
+        },
+        {
+          "url": "https://www.kozpontiszovetseg.at/event-details/dr-janosi-zoltan-irodalomtortenesz-iro-kolto",
+          "error": "HTTP Error 429: Too Many Requests"
         }
       ],
       "flags": []
@@ -1479,27 +1476,10 @@
         "kultura"
       ],
       "activityCategories": [],
-      "signals": [
-        "oktatas",
-        "neptanc",
-        "szinhaz",
-        "media",
-        "egyhaz",
-        "diak",
-        "irodalom",
-        "muveszet"
-      ],
-      "pagesChecked": 2,
-      "checkedUrls": [
-        "https://europaclub.at/",
-        "https://europaclub.at/rolunk/europa-club-tortenete/"
-      ],
-      "errors": [
-        {
-          "url": "https://europaclub.at/rendezvenyek/meghivok/",
-          "error": "The read operation timed out"
-        }
-      ],
+      "signals": [],
+      "pagesChecked": 0,
+      "checkedUrls": [],
+      "errors": [],
       "flags": []
     },
     {
@@ -1949,14 +1929,15 @@
       ],
       "activityCategories": [],
       "signals": [
-        "sport",
-        "csalad"
+        "sport"
       ],
-      "pagesChecked": 1,
-      "checkedUrls": [
-        "http://www.geschriebensteinlauf.at"
-      ],
+      "pagesChecked": 0,
+      "checkedUrls": [],
       "errors": [
+        {
+          "url": "http://www.geschriebensteinlauf.at",
+          "error": "The read operation timed out"
+        },
         {
           "url": "https://www.askoe.at/de/verband-vereine/askoe-vereine/clubshow-10438",
           "error": "HTTP Error 404: Not Found"
@@ -2232,10 +2213,7 @@
       "activityCategories": [],
       "signals": [
         "oktatas",
-        "neptanc",
-        "nepzene",
         "szinhaz",
-        "media",
         "irodalom",
         "muveszet",
         "csalad"
@@ -2243,11 +2221,11 @@
       "pagesChecked": 2,
       "checkedUrls": [
         "https://www.kozpontiszovetseg.at/",
-        "https://www.kozpontiszovetseg.at/r%C3%B3lunk"
+        "https://www.kozpontiszovetseg.at/event-list"
       ],
       "errors": [
         {
-          "url": "https://www.kozpontiszovetseg.at/event-list",
+          "url": "https://www.kozpontiszovetseg.at/r%C3%B3lunk",
           "error": "HTTP Error 429: Too Many Requests"
         }
       ],
@@ -2963,8 +2941,8 @@
       ],
       "activityCategories": [],
       "signals": [
-        "cserkesz",
         "media",
+        "irodalom",
         "sport"
       ],
       "pagesChecked": 3,
