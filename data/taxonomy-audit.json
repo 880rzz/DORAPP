@@ -1,9 +1,9 @@
 {
-  "updated": "2026-09-29T04:24:09.776687+00:00",
+  "updated": "2026-09-29T04:29:15.452166+00:00",
   "summary": {
     "organizations": 158,
-    "organizationFlags": 2,
-    "organizationPagesChecked": 328,
+    "organizationFlags": 1,
+    "organizationPagesChecked": 327,
     "education": 107,
     "educationFlags": 0,
     "events": 42,
@@ -127,24 +127,18 @@
       ],
       "activityCategories": [],
       "signals": [
-        "egyhaz"
+        "media",
+        "egyhaz",
+        "muveszet",
+        "csalad"
       ],
-      "pagesChecked": 0,
-      "checkedUrls": [],
-      "errors": [
-        {
-          "url": "https://www.martinus.at/",
-          "error": "<urlopen error timed out>"
-        },
-        {
-          "url": "https://www.martinus.at/pfarre/1127/kalender",
-          "error": "<urlopen error timed out>"
-        },
-        {
-          "url": "https://www.martinus.at/unterwart",
-          "error": "<urlopen error timed out>"
-        }
+      "pagesChecked": 3,
+      "checkedUrls": [
+        "https://www.martinus.at/",
+        "https://www.martinus.at/pfarre/1127/kalender",
+        "https://www.martinus.at/unterwart"
       ],
+      "errors": [],
       "flags": []
     },
     {
@@ -220,13 +214,17 @@
         "muveszet",
         "csalad"
       ],
-      "pagesChecked": 3,
+      "pagesChecked": 2,
       "checkedUrls": [
-        "https://www.theaterverein-unterwart.at/",
         "https://www.theaterverein-unterwart.at/uber-uns/",
         "https://www.theaterverein-unterwart.at/fotogalerie/"
       ],
-      "errors": [],
+      "errors": [
+        {
+          "url": "https://www.theaterverein-unterwart.at/",
+          "error": "The read operation timed out"
+        }
+      ],
       "flags": []
     },
     {
@@ -722,10 +720,8 @@
       ],
       "signals": [
         "oktatas",
-        "enekkar",
         "szinhaz",
         "media",
-        "egyhaz",
         "diak",
         "irodalom",
         "muveszet",
@@ -1123,23 +1119,20 @@
       "activityCategories": [],
       "signals": [
         "oktatas",
+        "szinhaz",
         "media",
-        "irodalom"
+        "irodalom",
+        "muveszet",
+        "csalad"
       ],
-      "pagesChecked": 2,
+      "pagesChecked": 3,
       "checkedUrls": [
         "https://culture.hu/hu/wien",
+        "https://culture.hu/hu/wien/esemenyek",
         "https://culture.hu/de/wien/jubilaum"
       ],
-      "errors": [
-        {
-          "url": "https://culture.hu/hu/wien/esemenyek",
-          "error": "The read operation timed out"
-        }
-      ],
-      "flags": [
-        "weak-source-signal:muveszet"
-      ]
+      "errors": [],
+      "flags": []
     },
     {
       "id": "collegium-pazmanianum",
@@ -1348,10 +1341,9 @@
         "irodalom",
         "csalad"
       ],
-      "pagesChecked": 2,
+      "pagesChecked": 1,
       "checkedUrls": [
-        "https://www.radiohu.hu/impresszum/",
-        "https://www.radiohu.hu/"
+        "https://www.radiohu.hu/impresszum/"
       ],
       "errors": [],
       "flags": []
@@ -1480,22 +1472,9 @@
         "kultura"
       ],
       "activityCategories": [],
-      "signals": [
-        "oktatas",
-        "neptanc",
-        "szinhaz",
-        "media",
-        "egyhaz",
-        "diak",
-        "irodalom",
-        "muveszet"
-      ],
-      "pagesChecked": 3,
-      "checkedUrls": [
-        "https://europaclub.at/",
-        "https://europaclub.at/rolunk/europa-club-tortenete/",
-        "https://europaclub.at/de/kontakt/"
-      ],
+      "signals": [],
+      "pagesChecked": 0,
+      "checkedUrls": [],
       "errors": [],
       "flags": []
     },
@@ -1590,24 +1569,16 @@
       ],
       "activityCategories": [],
       "signals": [
+        "media",
         "egyhaz"
       ],
-      "pagesChecked": 0,
-      "checkedUrls": [],
-      "errors": [
-        {
-          "url": "https://www.martinus.at/pfarre/1122",
-          "error": "<urlopen error timed out>"
-        },
-        {
-          "url": "https://www.martinus.at/pfarre/1122/kalender",
-          "error": "<urlopen error timed out>"
-        },
-        {
-          "url": "https://www.martinus.at/pfarre/1122/kalender/calendar/1808040.html",
-          "error": "<urlopen error timed out>"
-        }
+      "pagesChecked": 3,
+      "checkedUrls": [
+        "https://www.martinus.at/pfarre/1122",
+        "https://www.martinus.at/pfarre/1122/kalender",
+        "https://www.martinus.at/pfarre/1122/kalender/calendar/1808040.html"
       ],
+      "errors": [],
       "flags": []
     },
     {
@@ -1736,13 +1707,17 @@
         "muveszet",
         "csalad"
       ],
-      "pagesChecked": 3,
+      "pagesChecked": 2,
       "checkedUrls": [
-        "https://www.gracimagyarujsag.at/",
         "https://www.meoek.at/",
         "https://www.meoek.at/mediatar/"
       ],
-      "errors": [],
+      "errors": [
+        {
+          "url": "https://www.gracimagyarujsag.at/",
+          "error": "The read operation timed out"
+        }
+      ],
       "flags": []
     },
     {
@@ -2283,15 +2258,13 @@
         "nepzene",
         "szinhaz",
         "media",
-        "egyhaz",
         "irodalom",
         "muveszet",
         "csalad"
       ],
-      "pagesChecked": 3,
+      "pagesChecked": 2,
       "checkedUrls": [
         "https://kultpult.eu/",
-        "https://kultpult.eu/category/programok/",
         "https://kultpult.eu/itthonotthon/"
       ],
       "errors": [],
@@ -2464,18 +2437,15 @@
       ],
       "activityCategories": [],
       "signals": [
-        "egyhaz",
         "diak",
         "irodalom",
-        "muveszet",
-        "sport",
         "csalad"
       ],
       "pagesChecked": 3,
       "checkedUrls": [
         "https://huheim.at/hu/home/",
-        "https://magyarhaz.at/",
-        "https://huheim.at/hu/about/"
+        "https://huheim.at/hu/about/",
+        "https://huheim.at/hu/hu_impressum/"
       ],
       "errors": [],
       "flags": []
@@ -2551,8 +2521,8 @@
       "pagesChecked": 3,
       "checkedUrls": [
         "https://mde.hu/at/",
-        "https://mde.hu/rolunk/",
-        "https://mde.hu/becsi-esemenyek/"
+        "https://mde.hu/becsi-esemenyek/",
+        "https://mde.hu/rolunk/"
       ],
       "errors": [],
       "flags": []
@@ -2569,16 +2539,19 @@
         "media",
         "egyhaz",
         "diak",
-        "irodalom",
         "muveszet",
         "csalad"
       ],
-      "pagesChecked": 2,
+      "pagesChecked": 1,
       "checkedUrls": [
-        "https://www.meoek.at/",
         "https://www.meoek.at/rendezok/"
       ],
-      "errors": [],
+      "errors": [
+        {
+          "url": "https://www.meoek.at/",
+          "error": "The read operation timed out"
+        }
+      ],
       "flags": []
     },
     {
@@ -3875,8 +3848,8 @@
       "pagesChecked": 3,
       "checkedUrls": [
         "https://svung.at/",
-        "https://shop.svung.at/",
-        "https://www.svung.at/show/aktualis-eloadasok/"
+        "https://www.svung.at/show/aktualis-eloadasok/",
+        "https://www.svung.at/"
       ],
       "errors": [],
       "flags": []
