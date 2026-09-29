@@ -27,7 +27,7 @@ for rfo in rolunk_founders:
 if len(ids)!=len(set(ids)): errors.append("duplicate organization id")
 name_keys=[" ".join(str(o.get("name","")).casefold().split()) for o in orgs]
 if len(name_keys)!=len(set(name_keys)): errors.append("duplicate organization name")
-valid_evidence_types={"official","official-publication","institutional","public-broadcaster","first-party","government","church-official","municipal","community-media","reference","secondary"}
+valid_evidence_types={"official","official-publication","institutional","public-broadcaster","first-party","government","church-official","municipal","community-media","reference","secondary","official-social"}
 for o in orgs:
     if o.get("state") not in states: errors.append(f"unknown state: {o.get('id')} -> {o.get('state')}")
     if not o.get("name") or not o.get("city") or not o.get("intro"): errors.append(f"incomplete organization: {o.get('id')}")
