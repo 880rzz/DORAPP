@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-28",
+  "updated": "2026-09-29",
   "sourcePolicy": "Official organization sources preferred; umbrella directories and Austrian-Hungarian community media used as secondary verification. Missing social/event links remain null rather than guessed.",
   "states": [
     {
@@ -1953,7 +1953,7 @@
       "facebook": "https://www.facebook.com/profile.php?id=100076361554158",
       "instagram": null,
       "eventSources": [
-        "https://amaped.at/rendezvenyek-2/"
+        "https://amaped.at/rendezvenyek/"
       ],
       "memberships": [
         {
@@ -2017,6 +2017,11 @@
           "label": "AMAPED – aktuális kapcsolat és programinformáció",
           "url": "https://amaped.at/2026/02/11/szeretettel-varunk-mindenkit-foglalkozasainkon-a-tavaszi-felevben-is/",
           "type": "official"
+        },
+        {
+          "label": "AMAPED – hivatalos rendezvényoldal",
+          "url": "https://amaped.at/rendezvenyek/",
+          "type": "official"
         }
       ],
       "entityClass": "organization",
@@ -2031,7 +2036,7 @@
         },
         {
           "label": "AMAPED – hivatalos rendezvényoldal",
-          "url": "https://amaped.at/rendezvenyek-2/",
+          "url": "https://amaped.at/rendezvenyek/",
           "kind": "official-calendar",
           "scope": "self",
           "ingestEvents": true
@@ -2040,7 +2045,7 @@
       "publicChannels": [
         {
           "label": "AMAPED – Rendezvények",
-          "url": "https://amaped.at/rendezvenyek-2/",
+          "url": "https://amaped.at/rendezvenyek/",
           "kind": "official-program-page",
           "ownership": "self"
         }
@@ -3333,7 +3338,7 @@
       "facebook": "https://www.facebook.com/evangelikusat/",
       "instagram": null,
       "eventSources": [
-        "https://www.evangelikus-at.com/"
+        "https://www.evangelikus-at.com/istentiszteleteink"
       ],
       "memberships": [
         {
@@ -3432,7 +3437,7 @@
       ],
       "email": "maegy.austria@gmail.com",
       "phone": "+43 677 62906270",
-      "profileVerifiedAt": "2026-09-25",
+      "profileVerifiedAt": "2026-09-29",
       "entityClass": "organization",
       "calendarSources": [
         {
@@ -3444,9 +3449,9 @@
           "ingestEvents": false
         },
         {
-          "label": "Ausztriai Magyar Evangélikus Gyülekezet – automatikus eseményforrás",
-          "url": "https://www.evangelikus-at.com/",
-          "kind": "official-event-source",
+          "label": "Ausztriai Magyar Evangélikus Gyülekezet – istentiszteletek",
+          "url": "https://www.evangelikus-at.com/istentiszteleteink",
+          "kind": "official-calendar",
           "scope": "self",
           "ingestEvents": true
         }
@@ -6174,6 +6179,11 @@
           "label": "KCSP – Szabó Ernő linzi magyar lelkész portréja",
           "url": "https://www.korosiprogram.hu/tudastar/szorvanybol-diaszporaba-szabo-erno-linzi-magyar-lelkesz-portreja",
           "type": "institutional"
+        },
+        {
+          "label": "Diözese Linz – magyar istentiszteleti rend",
+          "url": "https://www.dioezese-linz.at/institution/8038/ueberuns/gottesdiensteveranstaltun/article/21612.html",
+          "type": "official"
         }
       ],
       "categories": [
@@ -6225,6 +6235,13 @@
         {
           "label": "Ausztriai magyar katolikus közösségek – programok",
           "url": "https://ausztria.katolikus.at/",
+          "kind": "official-calendar",
+          "scope": "self",
+          "ingestEvents": false
+        },
+        {
+          "label": "Diözese Linz – magyar istentiszteleti rend",
+          "url": "https://www.dioezese-linz.at/institution/8038/ueberuns/gottesdiensteveranstaltun/article/21612.html",
           "kind": "official-calendar",
           "scope": "self",
           "ingestEvents": false
@@ -6704,7 +6721,7 @@
       "facebook": null,
       "instagram": null,
       "eventSources": [
-        "https://www.salzung.com/hu"
+        "https://salzung.com/hu/esemenyek/kozelgo-esemenyek"
       ],
       "memberships": [
         {
@@ -6786,9 +6803,9 @@
       "entityClass": "organization",
       "calendarSources": [
         {
-          "label": "SalzUNG – Salzburgi Magyar Egyesület – automatikus eseményforrás",
-          "url": "https://www.salzung.com/hu",
-          "kind": "official-event-source",
+          "label": "SalzUNG – közelgő események",
+          "url": "https://salzung.com/hu/esemenyek/kozelgo-esemenyek",
+          "kind": "official-calendar",
           "scope": "self",
           "ingestEvents": true
         }
@@ -7793,6 +7810,12 @@
             "title": "Néptánccsoport bemutatkozása",
             "description": "A MIME keretében működő néptánccsoport hivatalosan is bemutatkozik a vorarlbergi magyar közönség előtt.",
             "sourceUrl": "https://rolunk.at/magazin/tancolo-hagyomanyok/"
+          },
+          {
+            "year": "2026",
+            "title": "Négy helyszínre bővült az elsőnyelvi oktatás",
+            "description": "A 2026/27-es tanévre 71 gyermek jelentkezett magyar elsőnyelvi oktatásra Bregenzben, Dornbirnban, Hohenemsben és Feldkirchben; Feldkirchben tíz elsős külön csoportot alkot.",
+            "sourceUrl": "https://rolunk.at/aktualis/71-gyermek-jelentkezett-az-elsonyelvi-oktatasra-vorarlbergben/"
           }
         ]
       },
@@ -7815,7 +7838,7 @@
         "német"
       ],
       "email": "mime.vorarlberg@gmail.com",
-      "profileVerifiedAt": "2026-09-25",
+      "profileVerifiedAt": "2026-09-29",
       "evidenceSources": [
         {
           "label": "Rólunk.at – MIME megalakulása",
@@ -7835,6 +7858,11 @@
         {
           "label": "Rólunk.at – elsőnyelvi oktatás Vorarlbergben",
           "url": "https://rolunk.at/aktualis/osszefogas-az-elsonyelvi-oktatasert-vorarlbergben/",
+          "type": "community-media"
+        },
+        {
+          "label": "Rólunk.at – 71 gyermek a 2026/27-es elsőnyelvi oktatásban",
+          "url": "https://rolunk.at/aktualis/71-gyermek-jelentkezett-az-elsonyelvi-oktatasra-vorarlbergben/",
           "type": "community-media"
         },
         {

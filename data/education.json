@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-26",
+  "updated": "2026-09-29",
   "methodology": "Az intézmények csak akkor kerülnek be, ha magyar nyelvű oktatásukat vagy magyar közösségi programjukat ORF, hivatalos intézményi oldal, Bildungsdirektion vagy más elsődleges/intézményi forrás igazolja. Az officialSiteMentionsHungarian mező azt jelzi, hogy a saját honlapon találtunk-e külön magyar tartalmat.",
   "institutions": [
     {
@@ -120,9 +120,9 @@
       ],
       "type": "állami elsőnyelvi oktatás",
       "website": "https://www.vstabor.at/",
-      "officialSiteMentionsHungarian": false,
+      "officialSiteMentionsHungarian": true,
       "summary": "Heti magyar elsőnyelvi oktatás két csoportban.",
-      "sourceUrl": "https://volksgruppen.orf.at/magyarok/stories/3327962/",
+      "sourceUrl": "https://www.vstabor.at/team/muttersprachenlehrerinnen/",
       "verifiedFor": "2025/26",
       "recordClass": "institution"
     },
@@ -314,8 +314,8 @@
       "website": "https://www.vs-mittersill.salzburg.at/",
       "officialSiteMentionsHungarian": true,
       "summary": "Heti magyar nyelvi oktatás.",
-      "sourceUrl": "https://volksgruppen.orf.at/magyarok/stories/3334658/",
-      "verifiedFor": "2025/26",
+      "sourceUrl": "https://www.vs-mittersill.salzburg.at/schulpartner/lehrerinnen.html",
+      "verifiedFor": "2026/27",
       "recordClass": "institution"
     },
     {
@@ -1784,6 +1784,26 @@
       "officialSiteMentionsHungarian": true,
       "summary": "A KUGA 2026 őszén magyar nyelvkurzusokat hirdet kezdő és enyhén haladó felnőtteknek Großwarasdorfban. A szolgáltató nem magyar szervezetként, hanem a régió többnyelvű kulturális intézményeként jelenik meg a DORAPP oktatási rétegében.",
       "sourceUrl": "https://www.kuga.at/",
+      "verifiedFor": "2026 ősz",
+      "recordClass": "course",
+      "activityCategories": [
+        "magyar-nyelv",
+        "felnott"
+      ]
+    },
+    {
+      "id": "wifi-steiermark-hungarian-a1-2026",
+      "name": "WIFI Steiermark – Ungarisch A1, Teil 1",
+      "state": "steiermark",
+      "city": "Graz",
+      "level": [
+        "adult"
+      ],
+      "type": "felnőtt magyar nyelvkurzus",
+      "website": "https://www.stmk.wifi.at/kurs/6420x-ungarisch-verstehen-und-anwenden-a1-teil1",
+      "officialSiteMentionsHungarian": true,
+      "summary": "A WIFI Steiermark 2026. október 5. és december 14. között hétfőnként 18:00–20:45 között tartott, 30 órás magyar A1 kezdő nyelvkurzusa Grazban. A hivatalos kurzusdíj 330 euró.",
+      "sourceUrl": "https://www.stmk.wifi.at/kurs/6420x-ungarisch-verstehen-und-anwenden-a1-teil1",
       "verifiedFor": "2026 ősz",
       "recordClass": "course",
       "activityCategories": [
