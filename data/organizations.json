@@ -1917,7 +1917,7 @@
         "magyar"
       ],
       "email": "dora.falusi@fecskeklub.at",
-      "profileVerifiedAt": "2026-09-25",
+      "profileVerifiedAt": "2026-09-29",
       "history": {
         "summary": "A Fecske Klub egy bécsi magyar család saját kulturális-nevelési igényéből nőtt ki. Falusi Dóra családja 2021-ben költözött Bécsbe; a klub később ebből a családi tapasztalatból fejlődött strukturált, többféléves kultúrtörténeti és tudományos programmá, amely ma személyesen Bécsben és online is elérhető.",
         "milestones": [
@@ -1952,7 +1952,8 @@
           "ingestEvents": false
         }
       ],
-      "classificationNote": " A BMI a személyes bécsi csoport helyszíne/együttműködő partnere; a Fecske Klub saját fecskeklub.at domainnel és saját kapcsolattal rendelkező külön projekt."
+      "classificationNote": " A BMI a személyes bécsi csoport helyszíne/együttműködő partnere; a Fecske Klub saját fecskeklub.at domainnel és saját kapcsolattal rendelkező külön projekt.",
+      "phone": "+43 660 9725 359"
     },
     {
       "id": "amaped",
@@ -3147,7 +3148,9 @@
       "website": "https://goeu.at/",
       "facebook": null,
       "instagram": null,
-      "eventSources": [],
+      "eventSources": [
+        "https://goeu.at/"
+      ],
       "categories": [
         "kultura",
         "kozosseg"
@@ -3182,7 +3185,7 @@
       ],
       "email": "info@goeu.at",
       "phone": "+43 1 922 52 60",
-      "profileVerifiedAt": "2026-09-25",
+      "profileVerifiedAt": "2026-09-29",
       "evidenceSources": [
         {
           "label": "Gesellschaft Österreich–Ungarn – hivatalos oldal",
@@ -3193,11 +3196,11 @@
       "entityClass": "organization",
       "calendarSources": [
         {
-          "label": "Osztrák–Magyar Társaság / Gesellschaft Österreich–Ungarn – hivatalos oldal; stabil eseményfeed nem igazolt",
+          "label": "Gesellschaft Österreich–Ungarn – hivatalos, strukturált eseménylista",
           "url": "https://goeu.at/",
-          "kind": "official-website",
+          "kind": "official-program-calendar",
           "scope": "self",
-          "ingestEvents": false
+          "ingestEvents": true
         }
       ]
     },
