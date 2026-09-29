@@ -1,9 +1,9 @@
 {
-  "updated": "2026-09-29T01:18:55.116726+00:00",
+  "updated": "2026-09-29T04:24:09.776687+00:00",
   "summary": {
     "organizations": 158,
     "organizationFlags": 2,
-    "organizationPagesChecked": 314,
+    "organizationPagesChecked": 328,
     "education": 107,
     "educationFlags": 0,
     "events": 42,
@@ -436,16 +436,21 @@
       ],
       "activityCategories": [],
       "signals": [
-        "enekkar"
+        "oktatas",
+        "neptanc",
+        "nepzene",
+        "enekkar",
+        "media",
+        "diak",
+        "irodalom",
+        "muveszet",
+        "csalad"
       ],
-      "pagesChecked": 0,
-      "checkedUrls": [],
-      "errors": [
-        {
-          "url": "https://www.wukv.at/tarka-barka-dalkor/",
-          "error": "<urlopen error timed out>"
-        }
+      "pagesChecked": 1,
+      "checkedUrls": [
+        "https://www.wukv.at/tarka-barka-dalkor/"
       ],
+      "errors": [],
       "flags": []
     },
     {
@@ -930,11 +935,11 @@
           "error": "HTTP Error 429: Too Many Requests"
         },
         {
-          "url": "https://www.brandart.studio/",
+          "url": "https://www.brandart.studio/event-list",
           "error": "HTTP Error 429: Too Many Requests"
         },
         {
-          "url": "https://www.brandart.studio/tagfelvetel",
+          "url": "https://www.brandart.studio/",
           "error": "HTTP Error 429: Too Many Requests"
         }
       ],
@@ -1312,24 +1317,20 @@
         "neptanc",
         "nepzene",
         "enekkar",
+        "szinhaz",
         "media",
+        "diak",
+        "irodalom",
         "sport",
         "csalad"
       ],
-      "pagesChecked": 1,
+      "pagesChecked": 3,
       "checkedUrls": [
-        "https://www.delibab-becs.com/"
+        "https://www.wukv.at/",
+        "https://www.delibab-becs.com/",
+        "https://www.wukv.at/sample-page/"
       ],
-      "errors": [
-        {
-          "url": "https://www.wukv.at/",
-          "error": "<urlopen error timed out>"
-        },
-        {
-          "url": "https://www.wukv.at/sample-page/",
-          "error": "<urlopen error timed out>"
-        }
-      ],
+      "errors": [],
       "flags": []
     },
     {
@@ -1479,9 +1480,22 @@
         "kultura"
       ],
       "activityCategories": [],
-      "signals": [],
-      "pagesChecked": 0,
-      "checkedUrls": [],
+      "signals": [
+        "oktatas",
+        "neptanc",
+        "szinhaz",
+        "media",
+        "egyhaz",
+        "diak",
+        "irodalom",
+        "muveszet"
+      ],
+      "pagesChecked": 3,
+      "checkedUrls": [
+        "https://europaclub.at/",
+        "https://europaclub.at/rolunk/europa-club-tortenete/",
+        "https://europaclub.at/de/kontakt/"
+      ],
       "errors": [],
       "flags": []
     },
@@ -2509,16 +2523,12 @@
         "irodalom",
         "csalad"
       ],
-      "pagesChecked": 1,
+      "pagesChecked": 2,
       "checkedUrls": [
+        "https://mde.hu/partnerek-tamogatok/",
         "https://kerekasztal.at/"
       ],
-      "errors": [
-        {
-          "url": "https://mde.hu/partnerek-tamogatok/",
-          "error": "<urlopen error timed out>"
-        }
-      ],
+      "errors": [],
       "flags": []
     },
     {
@@ -2530,24 +2540,21 @@
       ],
       "activityCategories": [],
       "signals": [
-        "diak"
+        "neptanc",
+        "media",
+        "diak",
+        "irodalom",
+        "muveszet",
+        "sport",
+        "csalad"
       ],
-      "pagesChecked": 0,
-      "checkedUrls": [],
-      "errors": [
-        {
-          "url": "https://mde.hu/at/",
-          "error": "<urlopen error timed out>"
-        },
-        {
-          "url": "https://mde.hu/rolunk/",
-          "error": "<urlopen error timed out>"
-        },
-        {
-          "url": "https://mde.hu/becsi-esemenyek/",
-          "error": "<urlopen error timed out>"
-        }
+      "pagesChecked": 3,
+      "checkedUrls": [
+        "https://mde.hu/at/",
+        "https://mde.hu/rolunk/",
+        "https://mde.hu/becsi-esemenyek/"
       ],
+      "errors": [],
       "flags": []
     },
     {
@@ -3351,24 +3358,24 @@
       ],
       "activityCategories": [],
       "signals": [
-        "nepzene"
+        "oktatas",
+        "neptanc",
+        "nepzene",
+        "enekkar",
+        "szinhaz",
+        "media",
+        "diak",
+        "muveszet",
+        "sport",
+        "csalad"
       ],
-      "pagesChecked": 0,
-      "checkedUrls": [],
-      "errors": [
-        {
-          "url": "https://www.wukv.at/rolunk-citerazenekar/",
-          "error": "<urlopen error timed out>"
-        },
-        {
-          "url": "https://www.wukv.at/sample-page/",
-          "error": "<urlopen error timed out>"
-        },
-        {
-          "url": "https://www.wukv.at/a-citeratol-a-hegeduig-ismeretterjeszto-eloadassorozat/",
-          "error": "<urlopen error timed out>"
-        }
+      "pagesChecked": 3,
+      "checkedUrls": [
+        "https://www.wukv.at/rolunk-citerazenekar/",
+        "https://www.wukv.at/sample-page/",
+        "https://www.wukv.at/a-citeratol-a-hegeduig-ismeretterjeszto-eloadassorozat/"
       ],
+      "errors": [],
       "flags": []
     },
     {
@@ -3991,18 +3998,15 @@
         "nepzene",
         "enekkar",
         "media",
+        "diak",
         "csalad"
       ],
-      "pagesChecked": 1,
+      "pagesChecked": 2,
       "checkedUrls": [
+        "https://www.wukv.at/rolunk-szivarvany/",
         "https://www.delibab-becs.com/"
       ],
-      "errors": [
-        {
-          "url": "https://www.wukv.at/rolunk-szivarvany/",
-          "error": "<urlopen error timed out>"
-        }
-      ],
+      "errors": [],
       "flags": []
     },
     {
