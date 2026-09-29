@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-29T01:08:47+00:00",
+  "updated": "2026-09-29T01:19:40.768355+00:00",
   "programCategoryDefinitions": [
     {
       "id": "gyermek",
@@ -95,7 +95,7 @@
       "attendanceMode": "https://schema.org/OfflineEventAttendanceMode",
       "sourceUrl": "https://www.reformatus.at/events/2026/",
       "discoveredFrom": "https://www.reformatus.at/events/2026/",
-      "verifiedAt": "2026-09-28T20:26:48.375920+00:00",
+      "verifiedAt": "2026-09-29T01:18:28.467630+00:00",
       "programCategories": [
         "gyermek"
       ]
@@ -138,7 +138,7 @@
       "image": "https://static.wixstatic.com/media/b0aee1_698e8084d89b449badbd6b76ff715139~mv2.png/v1/fill/w_1254,h_1254,al_c/b0aee1_698e8084d89b449badbd6b76ff715139~mv2.png",
       "sourceUrl": "https://www.magyariskola.at/event-details/oromzene-2026",
       "discoveredFrom": "https://www.magyariskola.at/osszes",
-      "verifiedAt": "2026-09-28T20:26:28.738680+00:00",
+      "verifiedAt": "2026-09-29T01:18:05.721812+00:00",
       "programCategories": [
         "gyermek",
         "zene"
@@ -167,7 +167,7 @@
       "image": "https://femconnectgraz.at/wp-content/uploads/2026/09/D-stajer-kirandulas.jpeg",
       "sourceUrl": "https://femconnectgraz.at/event/del-stajerorszagi-kirandulas/",
       "discoveredFrom": "https://femconnectgraz.at/events/",
-      "verifiedAt": "2026-09-28T20:27:08.211969+00:00",
+      "verifiedAt": "2026-09-29T01:18:44.843715+00:00",
       "programCategories": [
         "kirandulas"
       ]
@@ -195,7 +195,35 @@
       "image": "https://static.wixstatic.com/media/b0aee1_01531ee5162542b79b4043ab5433e107~mv2.png/v1/fill/w_1254,h_1254,al_c/b0aee1_01531ee5162542b79b4043ab5433e107~mv2.png",
       "sourceUrl": "https://www.magyariskola.at/event-details/rekreacio-2026",
       "discoveredFrom": "https://www.magyariskola.at/osszes",
-      "verifiedAt": "2026-09-28T20:26:30.350560+00:00",
+      "verifiedAt": "2026-09-29T01:18:07.326756+00:00",
+      "programCategories": [
+        "kozosseg"
+      ]
+    },
+    {
+      "id": "evangelikus-gyulekezet-aratási-hálaadó-istentisztelet-bécs-2026-10-04t10-00-00-02-00",
+      "organizationId": "evangelikus-gyulekezet",
+      "name": "Aratási hálaadó istentisztelet – Bécs",
+      "organizer": "Ausztriai Magyar Evangélikus Gyülekezet",
+      "state": "wien",
+      "city": "Wien",
+      "venue": "Markuskirche – Wien-Ottakring",
+      "address": "Thaliastraße 156, 1160 Wien, Ausztria",
+      "startDate": "2026-10-04T10:00:00+02:00",
+      "endDate": "",
+      "description": "Kétnyelvű, úrvacsorás aratási hálaadó istentisztelet a helyi osztrák gyülekezettel közösen, amelyet közös ebéd követ.",
+      "eventStatus": "https://schema.org/EventScheduled",
+      "attendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+      "registrationUrl": null,
+      "price": null,
+      "priceCurrency": null,
+      "availability": null,
+      "performers": [],
+      "audience": null,
+      "image": null,
+      "sourceUrl": "https://rolunk.at/aktualis/evangelikus-istentisztelet-grazban-es-becsben/",
+      "discoveredFrom": "https://rolunk.at/aktualis/evangelikus-istentisztelet-grazban-es-becsben/",
+      "verifiedAt": "2026-09-29T01:08:47+00:00",
       "programCategories": [
         "kozosseg"
       ]
@@ -251,11 +279,39 @@
       "image": "https://femconnectgraz.at/wp-content/uploads/2026/09/Zenei-elokeszito.jpeg",
       "sourceUrl": "https://femconnectgraz.at/event/zenei-elokeszito-4-10-eves-gyermekeknek/",
       "discoveredFrom": "https://femconnectgraz.at/events/",
-      "verifiedAt": "2026-09-28T20:27:08.212060+00:00",
+      "verifiedAt": "2026-09-29T01:18:44.843779+00:00",
       "programCategories": [
         "gyermek",
         "zene",
         "workshop"
+      ]
+    },
+    {
+      "id": "evangelikus-gyulekezet-magyar-evangélikus-istentisztelet-graz-2026-10-11t16-00-00-02-00",
+      "organizationId": "evangelikus-gyulekezet",
+      "name": "Magyar evangélikus istentisztelet – Graz",
+      "organizer": "Ausztriai Magyar Evangélikus Gyülekezet",
+      "state": "steiermark",
+      "city": "Graz",
+      "venue": "Heilandskirche Graz",
+      "address": "Kaiser-Josef-Platz 9, 8010 Graz, Ausztria",
+      "startDate": "2026-10-11T16:00:00+02:00",
+      "endDate": "2026-10-11T17:00:00+02:00",
+      "description": "Magyar nyelvű evangélikus istentisztelet Grazban.",
+      "eventStatus": "https://schema.org/EventScheduled",
+      "attendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+      "registrationUrl": null,
+      "price": null,
+      "priceCurrency": null,
+      "availability": null,
+      "performers": [],
+      "audience": null,
+      "image": null,
+      "sourceUrl": "https://www.evangelikus-at.com/istentiszteleteink/2026/10/11/magyar-evanglikus-istentisztelet-graz",
+      "discoveredFrom": "https://www.evangelikus-at.com/istentiszteleteink",
+      "verifiedAt": "2026-09-29T01:08:47+00:00",
+      "programCategories": [
+        "kozosseg"
       ]
     },
     {
@@ -281,7 +337,7 @@
       "attendanceMode": "https://schema.org/OfflineEventAttendanceMode",
       "sourceUrl": "https://www.reformatus.at/events/2026/",
       "discoveredFrom": "https://www.reformatus.at/events/2026/",
-      "verifiedAt": "2026-09-28T20:26:48.375871+00:00",
+      "verifiedAt": "2026-09-29T01:18:28.467582+00:00",
       "programCategories": [
         "gyermek"
       ]
@@ -322,7 +378,7 @@
       "image": "https://femconnectgraz.at/wp-content/uploads/2026/07/Gyerekirodalmi-delutan-Vadadi-Adriennel.png",
       "sourceUrl": "https://femconnectgraz.at/event/vadadi-adrien-gyermekirodalom/",
       "discoveredFrom": "https://femconnectgraz.at/events/",
-      "verifiedAt": "2026-09-28T20:27:08.212113+00:00",
+      "verifiedAt": "2026-09-29T01:18:44.843828+00:00",
       "programCategories": [
         "gyermek",
         "irodalom"
@@ -351,10 +407,40 @@
       "image": "",
       "sourceUrl": "https://wels.cserkesz.eu/events/cserkesztalalkozo-2-2-9-2-9-4-2-2-2-2/",
       "discoveredFrom": "https://wels.cserkesz.eu/programok/",
-      "verifiedAt": "2026-09-28T20:27:00.761089+00:00",
+      "verifiedAt": "2026-09-29T01:18:38.547243+00:00",
       "programCategories": [
         "cserkesz",
         "megemlekezes"
+      ]
+    },
+    {
+      "id": "becsi-magyar-iskola-az-ősztündér-kötényének-titka-schwedenplatz-2026-10-17t16-00-00-02-00",
+      "organizationId": "becsi-magyar-iskola",
+      "name": "Az Ősztündér Kötényének Titka | Schwedenplatz",
+      "organizer": "Bécsi Magyar Iskola",
+      "state": "wien",
+      "city": "Wien",
+      "venue": "Bécsi Magyar Iskola | 9 -es ajtó",
+      "address": "Schwedenpl. 2, 1010 Wien, Ausztria",
+      "startDate": "2026-10-17T16:00:00+02:00",
+      "endDate": "2026-10-17T18:00:00+02:00",
+      "description": "Kreatív őszi közösségi foglalkozás 3 éves kortól természetes anyagokkal, ajtódíszkészítéssel, tökfaragással és arcfestéssel. A részvételi hozzájárulás 5 éves kor felett 8 euró, 5 év alatt díjmentes.",
+      "eventStatus": "https://schema.org/EventScheduled",
+      "attendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+      "registrationUrl": "https://www.magyariskola.at/event-details/osztunder",
+      "price": "0.00–8.00",
+      "priceCurrency": "EUR",
+      "availability": "https://schema.org/InStock",
+      "performers": [],
+      "audience": "3 éves kortól",
+      "image": null,
+      "sourceUrl": "https://www.magyariskola.at/event-details/osztunder",
+      "discoveredFrom": "https://www.magyariskola.at/osszes",
+      "verifiedAt": "2026-09-29T01:08:47+00:00",
+      "programCategories": [
+        "gyermek",
+        "workshop",
+        "zene"
       ]
     },
     {
@@ -380,7 +466,7 @@
       "image": "https://femconnectgraz.at/wp-content/uploads/2026/09/elso-magyar-vallalkozoi-est-GRaz.webp",
       "sourceUrl": "https://femconnectgraz.at/event/1-magyar-vallalkozoi-est/",
       "discoveredFrom": "https://femconnectgraz.at/events/",
-      "verifiedAt": "2026-09-28T20:27:08.212160+00:00",
+      "verifiedAt": "2026-09-29T01:18:44.843874+00:00",
       "programCategories": [
         "kozosseg"
       ]
@@ -400,6 +486,37 @@
         "gyermek",
         "zene",
         "szinhaz"
+      ]
+    },
+    {
+      "id": "becsi-magyar-iskola-rekreáció-bmi-partner-program-schwedenplatz-2026-10-18t10-00-00-02-00",
+      "organizationId": "becsi-magyar-iskola",
+      "name": "ReKreáció | BMI Partner Program | Schwedenplatz",
+      "organizer": "Bécsi Magyar Iskola",
+      "state": "wien",
+      "city": "Wien",
+      "venue": "Bécsi Magyar Iskola | 8 -as ajtó",
+      "address": "Schwedenpl. 2, 1010 Wien, Ausztria",
+      "startDate": "2026-10-18T10:00:00+02:00",
+      "endDate": "2026-10-18T13:00:00+02:00",
+      "description": "Kéthetente vasárnap tartott kreatív közösségi műhely 18 éven felülieknek, alkalmanként 20 eurós részvételi díjjal.",
+      "eventStatus": "https://schema.org/EventScheduled",
+      "attendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+      "registrationUrl": "https://www.magyariskola.at/event-details/rekreacio-2026",
+      "price": "20.00",
+      "priceCurrency": "EUR",
+      "availability": "https://schema.org/InStock",
+      "performers": [
+        "Egri Mónika"
+      ],
+      "audience": "18+",
+      "image": null,
+      "sourceUrl": "https://www.magyariskola.at/event-details/rekreacio-2026",
+      "discoveredFrom": "https://www.magyariskola.at/osszes",
+      "verifiedAt": "2026-09-29T01:08:47+00:00",
+      "programCategories": [
+        "workshop",
+        "kozosseg"
       ]
     },
     {
@@ -425,7 +542,7 @@
       "attendanceMode": "https://schema.org/OfflineEventAttendanceMode",
       "sourceUrl": "https://www.reformatus.at/events/2026/",
       "discoveredFrom": "https://www.reformatus.at/events/2026/",
-      "verifiedAt": "2026-09-28T20:26:48.375822+00:00",
+      "verifiedAt": "2026-09-29T01:18:28.467534+00:00",
       "programCategories": [
         "gyermek",
         "zene"
@@ -460,6 +577,38 @@
       ]
     },
     {
+      "id": "becsi-magyar-iskola-csináljuk-a-forradalmat-schwedenplatz-2026-10-24t13-00-00-02-00",
+      "organizationId": "becsi-magyar-iskola",
+      "name": "CSINÁLJUK A FORRADALMAT! | Schwedenplatz",
+      "organizer": "Bécsi Magyar Iskola, Fecske Klub és Dunakavics Alkotókör",
+      "state": "wien",
+      "city": "Wien",
+      "venue": "Bécsi Magyar Iskola | 9 -es ajtó",
+      "address": "Schwedenpl. 2, 1010 Wien, Ausztria",
+      "startDate": "2026-10-24T13:00:00+02:00",
+      "endDate": "2026-10-24T15:00:00+02:00",
+      "description": "Interaktív, kreatív gyermekprogram az 1956-os forradalom 70. évfordulóján, 7 éves kortól. A résztvevők játékos feladatokon keresztül dolgozzák fel az eseményeket; a 8 eurós részvétel előzetes regisztrációhoz kötött.",
+      "eventStatus": "https://schema.org/EventScheduled",
+      "attendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+      "registrationUrl": "https://www.magyariskola.at/event-details/csinaljuk-a-forradalmat-schwedenplatz",
+      "price": "8.00",
+      "priceCurrency": "EUR",
+      "availability": "https://schema.org/InStock",
+      "performers": [
+        "Falusi Dóra",
+        "Kolozsvári–Dörögdi Orsolya"
+      ],
+      "audience": "7 éves kortól",
+      "image": null,
+      "sourceUrl": "https://www.magyariskola.at/event-details/csinaljuk-a-forradalmat-schwedenplatz",
+      "discoveredFrom": "https://www.magyariskola.at/osszes",
+      "verifiedAt": "2026-09-29T01:08:47+00:00",
+      "programCategories": [
+        "gyermek",
+        "megemlekezes"
+      ]
+    },
+    {
       "id": "cserkesz-80-cserkésztalálkozó-2026-10-24t13-30-2-00",
       "organizationId": "cserkesz-80",
       "name": "Cserkésztalálkozó",
@@ -482,9 +631,40 @@
       "image": "",
       "sourceUrl": "https://wels.cserkesz.eu/events/cserkesztalalkozo-2-2-9-2-9-3-2/",
       "discoveredFrom": "https://wels.cserkesz.eu/programok/",
-      "verifiedAt": "2026-09-28T20:27:00.761159+00:00",
+      "verifiedAt": "2026-09-29T01:18:38.547306+00:00",
       "programCategories": [
         "cserkesz"
+      ]
+    },
+    {
+      "id": "becsi-magyar-iskola-táltos-dob-és-örömzene-schwedenplatz-2026-10-24t15-30-00-02-00",
+      "organizationId": "becsi-magyar-iskola",
+      "name": "Táltos dob és örömzene | Schwedenplatz",
+      "organizer": "Bécsi Magyar Iskola és Regélő Fehér Táltos Hagyományőrző Egyesület",
+      "state": "wien",
+      "city": "Wien",
+      "venue": "Bécsi Magyar Iskola | 9 -es ajtó",
+      "address": "Schwedenpl. 2, 1010 Wien, Ausztria",
+      "startDate": "2026-10-24T15:30:00+02:00",
+      "endDate": "",
+      "description": "Havi táltosdobos gyermekfoglalkozás 6–14 éveseknek, amelyet generációközi közös örömzene követ. Gyermekeknek 70 euró/félév, felnőtteknek 35 euró/félév, az alkalmi örömzene 5 euró.",
+      "eventStatus": "https://schema.org/EventScheduled",
+      "attendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+      "registrationUrl": "https://www.magyariskola.at/event-details/taltos-dob-es-oromzene-schwedenplatz",
+      "price": "5.00–70.00",
+      "priceCurrency": "EUR",
+      "availability": "https://schema.org/InStock",
+      "performers": [
+        "Regélő Fehér Táltos Hagyományőrző Egyesület Dobcsapata"
+      ],
+      "audience": "6–14 éves gyermekek és felnőttek",
+      "image": null,
+      "sourceUrl": "https://www.magyariskola.at/event-details/taltos-dob-es-oromzene-schwedenplatz",
+      "discoveredFrom": "https://www.magyariskola.at/osszes",
+      "verifiedAt": "2026-09-29T01:08:47+00:00",
+      "programCategories": [
+        "gyermek",
+        "zene"
       ]
     },
     {
@@ -510,7 +690,7 @@
       "attendanceMode": "https://schema.org/OfflineEventAttendanceMode",
       "sourceUrl": "https://www.reformatus.at/events/2026/",
       "discoveredFrom": "https://www.reformatus.at/events/2026/",
-      "verifiedAt": "2026-09-28T20:26:48.375769+00:00",
+      "verifiedAt": "2026-09-29T01:18:28.467481+00:00",
       "programCategories": [
         "gyermek"
       ]
@@ -538,7 +718,7 @@
       "attendanceMode": "https://schema.org/OfflineEventAttendanceMode",
       "sourceUrl": "https://www.reformatus.at/events/2026/",
       "discoveredFrom": "https://www.reformatus.at/events/2026/",
-      "verifiedAt": "2026-09-28T20:26:48.375712+00:00",
+      "verifiedAt": "2026-09-29T01:18:28.467425+00:00",
       "programCategories": [
         "gyermek"
       ]
@@ -566,9 +746,71 @@
       "image": "https://femconnectgraz.at/wp-content/uploads/2026/08/Tapanyagok-utvesztoje.jpg",
       "sourceUrl": "https://femconnectgraz.at/event/tapanyagok-utvesztoje/",
       "discoveredFrom": "https://femconnectgraz.at/events/",
-      "verifiedAt": "2026-09-28T20:27:08.212208+00:00",
+      "verifiedAt": "2026-09-29T01:18:44.843921+00:00",
       "programCategories": [
         "workshop"
+      ]
+    },
+    {
+      "id": "vhs-burgenland-warter-őrvidéki-mulatság-2026-11-14",
+      "organizationId": "vhs-burgenland",
+      "name": "Warter / Őrvidéki Mulatság",
+      "organizer": "Burgenlandi Magyarok Népfőiskolája",
+      "state": "burgenland",
+      "city": "Oberwart / Felsőőr",
+      "venue": "Haus der Volksgruppen / Népcsoportok Háza",
+      "address": "Schulgasse 33, 7400 Oberwart, Ausztria",
+      "startDate": "2026-11-14",
+      "endDate": "",
+      "description": "A Burgenlandi Magyarok Népfőiskolája hagyományos Őrvidéki Mulatsága a felsőőri Népcsoportok Házában; az alkalom az Őri Banda fennállásának 25. évfordulóját is ünnepli.",
+      "eventStatus": "https://schema.org/EventScheduled",
+      "attendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+      "registrationUrl": null,
+      "price": null,
+      "priceCurrency": null,
+      "availability": null,
+      "performers": [
+        "Őri Banda"
+      ],
+      "audience": null,
+      "image": null,
+      "sourceUrl": "https://rolunk.at/aktualis/meghirdette-programjait-a-nepfoiskola/",
+      "discoveredFrom": "https://volksgruppen.orf.at/magyarok/stories/3372036/",
+      "verifiedAt": "2026-09-29T01:08:47+00:00",
+      "programCategories": [
+        "zene",
+        "kozosseg"
+      ]
+    },
+    {
+      "id": "becsi-magyar-iskola-rekreáció-bmi-partner-program-schwedenplatz-2026-11-15t10-00-00-01-00",
+      "organizationId": "becsi-magyar-iskola",
+      "name": "ReKreáció | BMI Partner Program | Schwedenplatz",
+      "organizer": "Bécsi Magyar Iskola",
+      "state": "wien",
+      "city": "Wien",
+      "venue": "Bécsi Magyar Iskola | 8 -as ajtó",
+      "address": "Schwedenpl. 2, 1010 Wien, Ausztria",
+      "startDate": "2026-11-15T10:00:00+01:00",
+      "endDate": "2026-11-15T13:00:00+01:00",
+      "description": "Kéthetente vasárnap tartott kreatív közösségi műhely 18 éven felülieknek, alkalmanként 20 eurós részvételi díjjal.",
+      "eventStatus": "https://schema.org/EventScheduled",
+      "attendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+      "registrationUrl": "https://www.magyariskola.at/event-details/rekreacio-2026",
+      "price": "20.00",
+      "priceCurrency": "EUR",
+      "availability": "https://schema.org/InStock",
+      "performers": [
+        "Egri Mónika"
+      ],
+      "audience": "18+",
+      "image": null,
+      "sourceUrl": "https://www.magyariskola.at/event-details/rekreacio-2026",
+      "discoveredFrom": "https://www.magyariskola.at/osszes",
+      "verifiedAt": "2026-09-29T01:08:47+00:00",
+      "programCategories": [
+        "workshop",
+        "kozosseg"
       ]
     },
     {
@@ -594,10 +836,42 @@
       "attendanceMode": "https://schema.org/OfflineEventAttendanceMode",
       "sourceUrl": "https://www.reformatus.at/events/2026/",
       "discoveredFrom": "https://www.reformatus.at/events/2026/",
-      "verifiedAt": "2026-09-28T20:26:48.375654+00:00",
+      "verifiedAt": "2026-09-29T01:18:28.467368+00:00",
       "programCategories": [
         "gyermek",
         "megemlekezes"
+      ]
+    },
+    {
+      "id": "kozponti-szovetseg-a-csodáért-dolgozni-kell-beszélgetés-darvasi-lászlóval-2026-11-17t19-00-00-01-00",
+      "organizationId": "kozponti-szovetseg",
+      "name": "A csodáért dolgozni kell – Beszélgetés Darvasi Lászlóval",
+      "organizer": "Ausztriai Magyar Egyesületek és Szervezetek Központi Szövetsége",
+      "state": "wien",
+      "city": "Wien",
+      "venue": "Központi Szövetség – Schwedenplatz",
+      "address": "Schwedenpl. 2, 1010 Wien, Ausztria",
+      "startDate": "2026-11-17T19:00:00+01:00",
+      "endDate": "2026-11-17T21:00:00+01:00",
+      "description": "A Schwedenplatzi beszélgetések 12. estjén Darvasi László író új novelláskötetéről és a Neandervölgyiek című nagyregényéről beszélget Lendvai Zsókával, majd felolvas egy novellát. A normál jegy 15 euró, a diákjegy 10 euró, az ÖIUS-tagok belépése díjmentes.",
+      "eventStatus": "https://schema.org/EventScheduled",
+      "attendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+      "registrationUrl": "https://www.kozpontiszovetseg.at/event-details/darvasi-laszlo",
+      "price": "0.00–15.00",
+      "priceCurrency": "EUR",
+      "availability": "https://schema.org/InStock",
+      "performers": [
+        "Darvasi László",
+        "Lendvai Zsóka"
+      ],
+      "audience": null,
+      "image": null,
+      "sourceUrl": "https://www.kozpontiszovetseg.at/event-details/darvasi-laszlo",
+      "discoveredFrom": "https://www.kozpontiszovetseg.at/",
+      "verifiedAt": "2026-09-29T01:08:47+00:00",
+      "programCategories": [
+        "irodalom",
+        "diak"
       ]
     },
     {
@@ -623,7 +897,7 @@
       "image": "",
       "sourceUrl": "https://wels.cserkesz.eu/events/cserkesztalalkozo-2-2-9-2-9-4-3/",
       "discoveredFrom": "https://wels.cserkesz.eu/programok/",
-      "verifiedAt": "2026-09-28T20:27:00.761272+00:00",
+      "verifiedAt": "2026-09-29T01:18:38.547415+00:00",
       "programCategories": [
         "cserkesz"
       ]
@@ -640,6 +914,34 @@
       "programCategories": [
         "gyermek",
         "zene"
+      ]
+    },
+    {
+      "id": "evangelikus-gyulekezet-magyar-evangélikus-istentisztelet-graz-2026-11-22t16-00-00-01-00",
+      "organizationId": "evangelikus-gyulekezet",
+      "name": "Magyar evangélikus istentisztelet – Graz",
+      "organizer": "Ausztriai Magyar Evangélikus Gyülekezet",
+      "state": "steiermark",
+      "city": "Graz",
+      "venue": "Heilandskirche Graz",
+      "address": "Kaiser-Josef-Platz 9, 8010 Graz, Ausztria",
+      "startDate": "2026-11-22T16:00:00+01:00",
+      "endDate": "2026-11-22T17:00:00+01:00",
+      "description": "Magyar nyelvű evangélikus istentisztelet Grazban.",
+      "eventStatus": "https://schema.org/EventScheduled",
+      "attendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+      "registrationUrl": null,
+      "price": null,
+      "priceCurrency": null,
+      "availability": null,
+      "performers": [],
+      "audience": null,
+      "image": null,
+      "sourceUrl": "https://www.evangelikus-at.com/istentiszteleteink/2026/11/22/magyar-evanglikus-istentisztelet-graz",
+      "discoveredFrom": "https://www.evangelikus-at.com/istentiszteleteink",
+      "verifiedAt": "2026-09-29T01:08:47+00:00",
+      "programCategories": [
+        "kozosseg"
       ]
     },
     {
@@ -665,9 +967,40 @@
       "attendanceMode": "https://schema.org/OfflineEventAttendanceMode",
       "sourceUrl": "https://www.reformatus.at/events/2026/",
       "discoveredFrom": "https://www.reformatus.at/events/2026/",
-      "verifiedAt": "2026-09-28T20:26:48.375569+00:00",
+      "verifiedAt": "2026-09-29T01:18:28.467287+00:00",
       "programCategories": [
         "gyermek"
+      ]
+    },
+    {
+      "id": "becsi-magyar-iskola-rekreáció-bmi-partner-program-schwedenplatz-2026-11-29t10-00-00-01-00",
+      "organizationId": "becsi-magyar-iskola",
+      "name": "ReKreáció | BMI Partner Program | Schwedenplatz",
+      "organizer": "Bécsi Magyar Iskola",
+      "state": "wien",
+      "city": "Wien",
+      "venue": "Bécsi Magyar Iskola | 8 -as ajtó",
+      "address": "Schwedenpl. 2, 1010 Wien, Ausztria",
+      "startDate": "2026-11-29T10:00:00+01:00",
+      "endDate": "2026-11-29T13:00:00+01:00",
+      "description": "Kéthetente vasárnap tartott kreatív közösségi műhely 18 éven felülieknek, alkalmanként 20 eurós részvételi díjjal.",
+      "eventStatus": "https://schema.org/EventScheduled",
+      "attendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+      "registrationUrl": "https://www.magyariskola.at/event-details/rekreacio-2026",
+      "price": "20.00",
+      "priceCurrency": "EUR",
+      "availability": "https://schema.org/InStock",
+      "performers": [
+        "Egri Mónika"
+      ],
+      "audience": "18+",
+      "image": null,
+      "sourceUrl": "https://www.magyariskola.at/event-details/rekreacio-2026",
+      "discoveredFrom": "https://www.magyariskola.at/osszes",
+      "verifiedAt": "2026-09-29T01:08:47+00:00",
+      "programCategories": [
+        "workshop",
+        "kozosseg"
       ]
     },
     {
@@ -693,9 +1026,40 @@
       "image": "",
       "sourceUrl": "https://wels.cserkesz.eu/events/cserkesztalalkozo-2-2-9-2-9-4/",
       "discoveredFrom": "https://wels.cserkesz.eu/programok/",
-      "verifiedAt": "2026-09-28T20:27:00.761219+00:00",
+      "verifiedAt": "2026-09-29T01:18:38.547366+00:00",
       "programCategories": [
         "cserkesz"
+      ]
+    },
+    {
+      "id": "becsi-magyar-iskola-rekreáció-bmi-partner-program-schwedenplatz-2026-12-13t10-00-00-01-00",
+      "organizationId": "becsi-magyar-iskola",
+      "name": "ReKreáció | BMI Partner Program | Schwedenplatz",
+      "organizer": "Bécsi Magyar Iskola",
+      "state": "wien",
+      "city": "Wien",
+      "venue": "Bécsi Magyar Iskola | 8 -as ajtó",
+      "address": "Schwedenpl. 2, 1010 Wien, Ausztria",
+      "startDate": "2026-12-13T10:00:00+01:00",
+      "endDate": "2026-12-13T13:00:00+01:00",
+      "description": "Kéthetente vasárnap tartott kreatív közösségi műhely 18 éven felülieknek, alkalmanként 20 eurós részvételi díjjal.",
+      "eventStatus": "https://schema.org/EventScheduled",
+      "attendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+      "registrationUrl": "https://www.magyariskola.at/event-details/rekreacio-2026",
+      "price": "20.00",
+      "priceCurrency": "EUR",
+      "availability": "https://schema.org/InStock",
+      "performers": [
+        "Egri Mónika"
+      ],
+      "audience": "18+",
+      "image": null,
+      "sourceUrl": "https://www.magyariskola.at/event-details/rekreacio-2026",
+      "discoveredFrom": "https://www.magyariskola.at/osszes",
+      "verifiedAt": "2026-09-29T01:08:47+00:00",
+      "programCategories": [
+        "workshop",
+        "kozosseg"
       ]
     },
     {
@@ -721,9 +1085,37 @@
       "image": "",
       "sourceUrl": "https://wels.cserkesz.eu/events/cserkesztalalkozo-2-2-9-2-9-4-2-2/",
       "discoveredFrom": "https://wels.cserkesz.eu/programok/",
-      "verifiedAt": "2026-09-28T20:27:00.761367+00:00",
+      "verifiedAt": "2026-09-29T01:18:38.547508+00:00",
       "programCategories": [
         "cserkesz"
+      ]
+    },
+    {
+      "id": "evangelikus-gyulekezet-magyar-evangélikus-istentisztelet-graz-2026-12-20t16-00-00-01-00",
+      "organizationId": "evangelikus-gyulekezet",
+      "name": "Magyar evangélikus istentisztelet – Graz",
+      "organizer": "Ausztriai Magyar Evangélikus Gyülekezet",
+      "state": "steiermark",
+      "city": "Graz",
+      "venue": "Heilandskirche Graz",
+      "address": "Kaiser-Josef-Platz 9, 8010 Graz, Ausztria",
+      "startDate": "2026-12-20T16:00:00+01:00",
+      "endDate": "2026-12-20T17:00:00+01:00",
+      "description": "Magyar nyelvű evangélikus istentisztelet Grazban.",
+      "eventStatus": "https://schema.org/EventScheduled",
+      "attendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+      "registrationUrl": null,
+      "price": null,
+      "priceCurrency": null,
+      "availability": null,
+      "performers": [],
+      "audience": null,
+      "image": null,
+      "sourceUrl": "https://www.evangelikus-at.com/istentiszteleteink/2026/12/20/magyar-evanglikus-istentisztelet-graz",
+      "discoveredFrom": "https://www.evangelikus-at.com/istentiszteleteink",
+      "verifiedAt": "2026-09-29T01:08:47+00:00",
+      "programCategories": [
+        "kozosseg"
       ]
     },
     {
@@ -749,7 +1141,7 @@
       "image": "",
       "sourceUrl": "https://wels.cserkesz.eu/events/cserkesztalalkozo-2-2-9-2-9-4-2/",
       "discoveredFrom": "https://wels.cserkesz.eu/programok/",
-      "verifiedAt": "2026-09-28T20:27:00.761320+00:00",
+      "verifiedAt": "2026-09-29T01:18:38.547462+00:00",
       "programCategories": [
         "cserkesz"
       ]
@@ -810,363 +1202,6 @@
         "cserkesz",
         "megemlekezes"
       ]
-    },
-    {
-      "id": "kozponti-szovetseg-a-csodáért-dolgozni-kell-beszélgetés-darvasi-lászlóval-2026-11-17t19-00-00-01-00",
-      "organizationId": "kozponti-szovetseg",
-      "name": "A csodáért dolgozni kell – Beszélgetés Darvasi Lászlóval",
-      "organizer": "Ausztriai Magyar Egyesületek és Szervezetek Központi Szövetsége",
-      "state": "wien",
-      "city": "Wien",
-      "venue": "Központi Szövetség – Schwedenplatz",
-      "address": "Schwedenpl. 2, 1010 Wien, Ausztria",
-      "startDate": "2026-11-17T19:00:00+01:00",
-      "endDate": "2026-11-17T21:00:00+01:00",
-      "description": "A Schwedenplatzi beszélgetések 12. estjén Darvasi László író új novelláskötetéről és a Neandervölgyiek című nagyregényéről beszélget Lendvai Zsókával, majd felolvas egy novellát. A normál jegy 15 euró, a diákjegy 10 euró, az ÖIUS-tagok belépése díjmentes.",
-      "eventStatus": "https://schema.org/EventScheduled",
-      "attendanceMode": "https://schema.org/OfflineEventAttendanceMode",
-      "registrationUrl": "https://www.kozpontiszovetseg.at/event-details/darvasi-laszlo",
-      "price": "0.00–15.00",
-      "priceCurrency": "EUR",
-      "availability": "https://schema.org/InStock",
-      "performers": [
-        "Darvasi László",
-        "Lendvai Zsóka"
-      ],
-      "audience": null,
-      "image": null,
-      "sourceUrl": "https://www.kozpontiszovetseg.at/event-details/darvasi-laszlo",
-      "discoveredFrom": "https://www.kozpontiszovetseg.at/",
-      "verifiedAt": "2026-09-29T01:08:47+00:00",
-      "programCategories": [
-        "irodalom"
-      ]
-    },
-    {
-      "id": "becsi-magyar-iskola-az-ősztündér-kötényének-titka-schwedenplatz-2026-10-17t16-00-00-02-00",
-      "organizationId": "becsi-magyar-iskola",
-      "name": "Az Ősztündér Kötényének Titka | Schwedenplatz",
-      "organizer": "Bécsi Magyar Iskola",
-      "state": "wien",
-      "city": "Wien",
-      "venue": "Bécsi Magyar Iskola | 9 -es ajtó",
-      "address": "Schwedenpl. 2, 1010 Wien, Ausztria",
-      "startDate": "2026-10-17T16:00:00+02:00",
-      "endDate": "2026-10-17T18:00:00+02:00",
-      "description": "Kreatív őszi közösségi foglalkozás 3 éves kortól természetes anyagokkal, ajtódíszkészítéssel, tökfaragással és arcfestéssel. A részvételi hozzájárulás 5 éves kor felett 8 euró, 5 év alatt díjmentes.",
-      "eventStatus": "https://schema.org/EventScheduled",
-      "attendanceMode": "https://schema.org/OfflineEventAttendanceMode",
-      "registrationUrl": "https://www.magyariskola.at/event-details/osztunder",
-      "price": "0.00–8.00",
-      "priceCurrency": "EUR",
-      "availability": "https://schema.org/InStock",
-      "performers": [],
-      "audience": "3 éves kortól",
-      "image": null,
-      "sourceUrl": "https://www.magyariskola.at/event-details/osztunder",
-      "discoveredFrom": "https://www.magyariskola.at/osszes",
-      "verifiedAt": "2026-09-29T01:08:47+00:00",
-      "programCategories": [
-        "gyermek",
-        "workshop"
-      ]
-    },
-    {
-      "id": "becsi-magyar-iskola-csináljuk-a-forradalmat-schwedenplatz-2026-10-24t13-00-00-02-00",
-      "organizationId": "becsi-magyar-iskola",
-      "name": "CSINÁLJUK A FORRADALMAT! | Schwedenplatz",
-      "organizer": "Bécsi Magyar Iskola, Fecske Klub és Dunakavics Alkotókör",
-      "state": "wien",
-      "city": "Wien",
-      "venue": "Bécsi Magyar Iskola | 9 -es ajtó",
-      "address": "Schwedenpl. 2, 1010 Wien, Ausztria",
-      "startDate": "2026-10-24T13:00:00+02:00",
-      "endDate": "2026-10-24T15:00:00+02:00",
-      "description": "Interaktív, kreatív gyermekprogram az 1956-os forradalom 70. évfordulóján, 7 éves kortól. A résztvevők játékos feladatokon keresztül dolgozzák fel az eseményeket; a 8 eurós részvétel előzetes regisztrációhoz kötött.",
-      "eventStatus": "https://schema.org/EventScheduled",
-      "attendanceMode": "https://schema.org/OfflineEventAttendanceMode",
-      "registrationUrl": "https://www.magyariskola.at/event-details/csinaljuk-a-forradalmat-schwedenplatz",
-      "price": "8.00",
-      "priceCurrency": "EUR",
-      "availability": "https://schema.org/InStock",
-      "performers": [
-        "Falusi Dóra",
-        "Kolozsvári–Dörögdi Orsolya"
-      ],
-      "audience": "7 éves kortól",
-      "image": null,
-      "sourceUrl": "https://www.magyariskola.at/event-details/csinaljuk-a-forradalmat-schwedenplatz",
-      "discoveredFrom": "https://www.magyariskola.at/osszes",
-      "verifiedAt": "2026-09-29T01:08:47+00:00",
-      "programCategories": [
-        "gyermek",
-        "megemlekezes"
-      ]
-    },
-    {
-      "id": "becsi-magyar-iskola-táltos-dob-és-örömzene-schwedenplatz-2026-10-24t15-30-00-02-00",
-      "organizationId": "becsi-magyar-iskola",
-      "name": "Táltos dob és örömzene | Schwedenplatz",
-      "organizer": "Bécsi Magyar Iskola és Regélő Fehér Táltos Hagyományőrző Egyesület",
-      "state": "wien",
-      "city": "Wien",
-      "venue": "Bécsi Magyar Iskola | 9 -es ajtó",
-      "address": "Schwedenpl. 2, 1010 Wien, Ausztria",
-      "startDate": "2026-10-24T15:30:00+02:00",
-      "endDate": "",
-      "description": "Havi táltosdobos gyermekfoglalkozás 6–14 éveseknek, amelyet generációközi közös örömzene követ. Gyermekeknek 70 euró/félév, felnőtteknek 35 euró/félév, az alkalmi örömzene 5 euró.",
-      "eventStatus": "https://schema.org/EventScheduled",
-      "attendanceMode": "https://schema.org/OfflineEventAttendanceMode",
-      "registrationUrl": "https://www.magyariskola.at/event-details/taltos-dob-es-oromzene-schwedenplatz",
-      "price": "5.00–70.00",
-      "priceCurrency": "EUR",
-      "availability": "https://schema.org/InStock",
-      "performers": [
-        "Regélő Fehér Táltos Hagyományőrző Egyesület Dobcsapata"
-      ],
-      "audience": "6–14 éves gyermekek és felnőttek",
-      "image": null,
-      "sourceUrl": "https://www.magyariskola.at/event-details/taltos-dob-es-oromzene-schwedenplatz",
-      "discoveredFrom": "https://www.magyariskola.at/osszes",
-      "verifiedAt": "2026-09-29T01:08:47+00:00",
-      "programCategories": [
-        "gyermek",
-        "zene"
-      ]
-    },
-    {
-      "id": "becsi-magyar-iskola-rekreáció-bmi-partner-program-schwedenplatz-2026-10-18t10-00-00-02-00",
-      "organizationId": "becsi-magyar-iskola",
-      "name": "ReKreáció | BMI Partner Program | Schwedenplatz",
-      "organizer": "Bécsi Magyar Iskola",
-      "state": "wien",
-      "city": "Wien",
-      "venue": "Bécsi Magyar Iskola | 8 -as ajtó",
-      "address": "Schwedenpl. 2, 1010 Wien, Ausztria",
-      "startDate": "2026-10-18T10:00:00+02:00",
-      "endDate": "2026-10-18T13:00:00+02:00",
-      "description": "Kéthetente vasárnap tartott kreatív közösségi műhely 18 éven felülieknek, alkalmanként 20 eurós részvételi díjjal.",
-      "eventStatus": "https://schema.org/EventScheduled",
-      "attendanceMode": "https://schema.org/OfflineEventAttendanceMode",
-      "registrationUrl": "https://www.magyariskola.at/event-details/rekreacio-2026",
-      "price": "20.00",
-      "priceCurrency": "EUR",
-      "availability": "https://schema.org/InStock",
-      "performers": ["Egri Mónika"],
-      "audience": "18+",
-      "image": null,
-      "sourceUrl": "https://www.magyariskola.at/event-details/rekreacio-2026",
-      "discoveredFrom": "https://www.magyariskola.at/osszes",
-      "verifiedAt": "2026-09-29T01:08:47+00:00",
-      "programCategories": ["workshop", "kozosseg"]
-    },
-    {
-      "id": "becsi-magyar-iskola-rekreáció-bmi-partner-program-schwedenplatz-2026-11-15t10-00-00-01-00",
-      "organizationId": "becsi-magyar-iskola",
-      "name": "ReKreáció | BMI Partner Program | Schwedenplatz",
-      "organizer": "Bécsi Magyar Iskola",
-      "state": "wien",
-      "city": "Wien",
-      "venue": "Bécsi Magyar Iskola | 8 -as ajtó",
-      "address": "Schwedenpl. 2, 1010 Wien, Ausztria",
-      "startDate": "2026-11-15T10:00:00+01:00",
-      "endDate": "2026-11-15T13:00:00+01:00",
-      "description": "Kéthetente vasárnap tartott kreatív közösségi műhely 18 éven felülieknek, alkalmanként 20 eurós részvételi díjjal.",
-      "eventStatus": "https://schema.org/EventScheduled",
-      "attendanceMode": "https://schema.org/OfflineEventAttendanceMode",
-      "registrationUrl": "https://www.magyariskola.at/event-details/rekreacio-2026",
-      "price": "20.00",
-      "priceCurrency": "EUR",
-      "availability": "https://schema.org/InStock",
-      "performers": ["Egri Mónika"],
-      "audience": "18+",
-      "image": null,
-      "sourceUrl": "https://www.magyariskola.at/event-details/rekreacio-2026",
-      "discoveredFrom": "https://www.magyariskola.at/osszes",
-      "verifiedAt": "2026-09-29T01:08:47+00:00",
-      "programCategories": ["workshop", "kozosseg"]
-    },
-    {
-      "id": "becsi-magyar-iskola-rekreáció-bmi-partner-program-schwedenplatz-2026-11-29t10-00-00-01-00",
-      "organizationId": "becsi-magyar-iskola",
-      "name": "ReKreáció | BMI Partner Program | Schwedenplatz",
-      "organizer": "Bécsi Magyar Iskola",
-      "state": "wien",
-      "city": "Wien",
-      "venue": "Bécsi Magyar Iskola | 8 -as ajtó",
-      "address": "Schwedenpl. 2, 1010 Wien, Ausztria",
-      "startDate": "2026-11-29T10:00:00+01:00",
-      "endDate": "2026-11-29T13:00:00+01:00",
-      "description": "Kéthetente vasárnap tartott kreatív közösségi műhely 18 éven felülieknek, alkalmanként 20 eurós részvételi díjjal.",
-      "eventStatus": "https://schema.org/EventScheduled",
-      "attendanceMode": "https://schema.org/OfflineEventAttendanceMode",
-      "registrationUrl": "https://www.magyariskola.at/event-details/rekreacio-2026",
-      "price": "20.00",
-      "priceCurrency": "EUR",
-      "availability": "https://schema.org/InStock",
-      "performers": ["Egri Mónika"],
-      "audience": "18+",
-      "image": null,
-      "sourceUrl": "https://www.magyariskola.at/event-details/rekreacio-2026",
-      "discoveredFrom": "https://www.magyariskola.at/osszes",
-      "verifiedAt": "2026-09-29T01:08:47+00:00",
-      "programCategories": ["workshop", "kozosseg"]
-    },
-    {
-      "id": "becsi-magyar-iskola-rekreáció-bmi-partner-program-schwedenplatz-2026-12-13t10-00-00-01-00",
-      "organizationId": "becsi-magyar-iskola",
-      "name": "ReKreáció | BMI Partner Program | Schwedenplatz",
-      "organizer": "Bécsi Magyar Iskola",
-      "state": "wien",
-      "city": "Wien",
-      "venue": "Bécsi Magyar Iskola | 8 -as ajtó",
-      "address": "Schwedenpl. 2, 1010 Wien, Ausztria",
-      "startDate": "2026-12-13T10:00:00+01:00",
-      "endDate": "2026-12-13T13:00:00+01:00",
-      "description": "Kéthetente vasárnap tartott kreatív közösségi műhely 18 éven felülieknek, alkalmanként 20 eurós részvételi díjjal.",
-      "eventStatus": "https://schema.org/EventScheduled",
-      "attendanceMode": "https://schema.org/OfflineEventAttendanceMode",
-      "registrationUrl": "https://www.magyariskola.at/event-details/rekreacio-2026",
-      "price": "20.00",
-      "priceCurrency": "EUR",
-      "availability": "https://schema.org/InStock",
-      "performers": ["Egri Mónika"],
-      "audience": "18+",
-      "image": null,
-      "sourceUrl": "https://www.magyariskola.at/event-details/rekreacio-2026",
-      "discoveredFrom": "https://www.magyariskola.at/osszes",
-      "verifiedAt": "2026-09-29T01:08:47+00:00",
-      "programCategories": ["workshop", "kozosseg"]
-    },
-    {
-      "id": "vhs-burgenland-warter-őrvidéki-mulatság-2026-11-14",
-      "organizationId": "vhs-burgenland",
-      "name": "Warter / Őrvidéki Mulatság",
-      "organizer": "Burgenlandi Magyarok Népfőiskolája",
-      "state": "burgenland",
-      "city": "Oberwart / Felsőőr",
-      "venue": "Haus der Volksgruppen / Népcsoportok Háza",
-      "address": "Schulgasse 33, 7400 Oberwart, Ausztria",
-      "startDate": "2026-11-14",
-      "endDate": "",
-      "description": "A Burgenlandi Magyarok Népfőiskolája hagyományos Őrvidéki Mulatsága a felsőőri Népcsoportok Házában; az alkalom az Őri Banda fennállásának 25. évfordulóját is ünnepli.",
-      "eventStatus": "https://schema.org/EventScheduled",
-      "attendanceMode": "https://schema.org/OfflineEventAttendanceMode",
-      "registrationUrl": null,
-      "price": null,
-      "priceCurrency": null,
-      "availability": null,
-      "performers": ["Őri Banda"],
-      "audience": null,
-      "image": null,
-      "sourceUrl": "https://rolunk.at/aktualis/meghirdette-programjait-a-nepfoiskola/",
-      "discoveredFrom": "https://volksgruppen.orf.at/magyarok/stories/3372036/",
-      "verifiedAt": "2026-09-29T01:08:47+00:00",
-      "programCategories": ["zene", "kozosseg"]
-    },
-    {
-      "id": "evangelikus-gyulekezet-aratási-hálaadó-istentisztelet-bécs-2026-10-04t10-00-00-02-00",
-      "organizationId": "evangelikus-gyulekezet",
-      "name": "Aratási hálaadó istentisztelet – Bécs",
-      "organizer": "Ausztriai Magyar Evangélikus Gyülekezet",
-      "state": "wien",
-      "city": "Wien",
-      "venue": "Markuskirche – Wien-Ottakring",
-      "address": "Thaliastraße 156, 1160 Wien, Ausztria",
-      "startDate": "2026-10-04T10:00:00+02:00",
-      "endDate": "",
-      "description": "Kétnyelvű, úrvacsorás aratási hálaadó istentisztelet a helyi osztrák gyülekezettel közösen, amelyet közös ebéd követ.",
-      "eventStatus": "https://schema.org/EventScheduled",
-      "attendanceMode": "https://schema.org/OfflineEventAttendanceMode",
-      "registrationUrl": null,
-      "price": null,
-      "priceCurrency": null,
-      "availability": null,
-      "performers": [],
-      "audience": null,
-      "image": null,
-      "sourceUrl": "https://rolunk.at/aktualis/evangelikus-istentisztelet-grazban-es-becsben/",
-      "discoveredFrom": "https://rolunk.at/aktualis/evangelikus-istentisztelet-grazban-es-becsben/",
-      "verifiedAt": "2026-09-29T01:08:47+00:00",
-      "programCategories": ["kozosseg"]
-    },
-    {
-      "id": "evangelikus-gyulekezet-magyar-evangélikus-istentisztelet-graz-2026-10-11t16-00-00-02-00",
-      "organizationId": "evangelikus-gyulekezet",
-      "name": "Magyar evangélikus istentisztelet – Graz",
-      "organizer": "Ausztriai Magyar Evangélikus Gyülekezet",
-      "state": "steiermark",
-      "city": "Graz",
-      "venue": "Heilandskirche Graz",
-      "address": "Kaiser-Josef-Platz 9, 8010 Graz, Ausztria",
-      "startDate": "2026-10-11T16:00:00+02:00",
-      "endDate": "2026-10-11T17:00:00+02:00",
-      "description": "Magyar nyelvű evangélikus istentisztelet Grazban.",
-      "eventStatus": "https://schema.org/EventScheduled",
-      "attendanceMode": "https://schema.org/OfflineEventAttendanceMode",
-      "registrationUrl": null,
-      "price": null,
-      "priceCurrency": null,
-      "availability": null,
-      "performers": [],
-      "audience": null,
-      "image": null,
-      "sourceUrl": "https://www.evangelikus-at.com/istentiszteleteink/2026/10/11/magyar-evanglikus-istentisztelet-graz",
-      "discoveredFrom": "https://www.evangelikus-at.com/istentiszteleteink",
-      "verifiedAt": "2026-09-29T01:08:47+00:00",
-      "programCategories": ["kozosseg"]
-    },
-    {
-      "id": "evangelikus-gyulekezet-magyar-evangélikus-istentisztelet-graz-2026-11-22t16-00-00-01-00",
-      "organizationId": "evangelikus-gyulekezet",
-      "name": "Magyar evangélikus istentisztelet – Graz",
-      "organizer": "Ausztriai Magyar Evangélikus Gyülekezet",
-      "state": "steiermark",
-      "city": "Graz",
-      "venue": "Heilandskirche Graz",
-      "address": "Kaiser-Josef-Platz 9, 8010 Graz, Ausztria",
-      "startDate": "2026-11-22T16:00:00+01:00",
-      "endDate": "2026-11-22T17:00:00+01:00",
-      "description": "Magyar nyelvű evangélikus istentisztelet Grazban.",
-      "eventStatus": "https://schema.org/EventScheduled",
-      "attendanceMode": "https://schema.org/OfflineEventAttendanceMode",
-      "registrationUrl": null,
-      "price": null,
-      "priceCurrency": null,
-      "availability": null,
-      "performers": [],
-      "audience": null,
-      "image": null,
-      "sourceUrl": "https://www.evangelikus-at.com/istentiszteleteink/2026/11/22/magyar-evanglikus-istentisztelet-graz",
-      "discoveredFrom": "https://www.evangelikus-at.com/istentiszteleteink",
-      "verifiedAt": "2026-09-29T01:08:47+00:00",
-      "programCategories": ["kozosseg"]
-    },
-    {
-      "id": "evangelikus-gyulekezet-magyar-evangélikus-istentisztelet-graz-2026-12-20t16-00-00-01-00",
-      "organizationId": "evangelikus-gyulekezet",
-      "name": "Magyar evangélikus istentisztelet – Graz",
-      "organizer": "Ausztriai Magyar Evangélikus Gyülekezet",
-      "state": "steiermark",
-      "city": "Graz",
-      "venue": "Heilandskirche Graz",
-      "address": "Kaiser-Josef-Platz 9, 8010 Graz, Ausztria",
-      "startDate": "2026-12-20T16:00:00+01:00",
-      "endDate": "2026-12-20T17:00:00+01:00",
-      "description": "Magyar nyelvű evangélikus istentisztelet Grazban.",
-      "eventStatus": "https://schema.org/EventScheduled",
-      "attendanceMode": "https://schema.org/OfflineEventAttendanceMode",
-      "registrationUrl": null,
-      "price": null,
-      "priceCurrency": null,
-      "availability": null,
-      "performers": [],
-      "audience": null,
-      "image": null,
-      "sourceUrl": "https://www.evangelikus-at.com/istentiszteleteink/2026/12/20/magyar-evanglikus-istentisztelet-graz",
-      "discoveredFrom": "https://www.evangelikus-at.com/istentiszteleteink",
-      "verifiedAt": "2026-09-29T01:08:47+00:00",
-      "programCategories": ["kozosseg"]
     }
   ]
 }
