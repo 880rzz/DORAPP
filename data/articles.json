@@ -1,12 +1,13 @@
 {
-  "updated": "2026-09-29T04:32:33.866234+00:00",
+  "updated": "2026-09-29T04:35:53.820714+00:00",
   "articles": {
+    "cserkesz-72": [],
     "szent-istvan-egylet": [],
     "gimi-svung": [],
     "napraforgocskak": [],
     "napraforgok": [],
-    "kozponti-szovetseg": [],
     "svung": [],
+    "oeius": [],
     "kicsi-svung": [],
     "kalaka-club": [
       {
@@ -21,6 +22,7 @@
       }
     ],
     "lean-in-femspace": [],
+    "kozponti-szovetseg": [],
     "egy-sima-egy-forditott": [
       {
         "title": "ORF Magyarok – Egy sima, egy fordított",
@@ -40,7 +42,13 @@
         "source": "ORF Volksgruppen"
       }
     ],
-    "oeius": [],
+    "duna-filharmonia": [
+      {
+        "title": "ORF Magyarok – A Duna Filharmónia Németóváron",
+        "url": "https://volksgruppen.orf.at/v2/magyarok/stories/2914449/",
+        "source": "ORF Volksgruppen"
+      }
+    ],
     "bornemisza-peter-tarsasag": [
       {
         "title": "ORF – Mi újság, írók? Bécsben",
@@ -56,14 +64,6 @@
         "title": "Bécsi Napló – BPT rendes évi közgyűlés",
         "url": "https://www.becsinaplo.eu/rendes-evi-kozgyules",
         "source": "Bécsi Napló"
-      }
-    ],
-    "cserkesz-72": [],
-    "duna-filharmonia": [
-      {
-        "title": "ORF Magyarok – A Duna Filharmónia Németóváron",
-        "url": "https://volksgruppen.orf.at/v2/magyarok/stories/2914449/",
-        "source": "ORF Volksgruppen"
       }
     ],
     "becsi-magyar-iskola": [],
@@ -149,32 +149,17 @@
     ],
     "ori-banda": [],
     "umiz": [],
-    "bukv": [
+    "ori-banda-nepdalkor": [
       {
-        "title": "Hímes tojás festés workshop- Középburgenlandi Magyar Kultúregyesület",
-        "url": "https://rolunk.at/esemenyek/himes-tojas-festes-workshop-kozepburgenlandi-magyar-kulturegyesulet/",
-        "source": "Rólunk.at"
-      },
-      {
-        "title": "Farsangi délután gyerekeknek- Közéburgenlandi Magyar Kultúregyesület.",
-        "url": "https://rolunk.at/esemenyek/farsangi-delutan-gyerekeknek-kozeburgenlandi-magyar-kulturegyesulet/",
-        "source": "Rólunk.at"
-      },
-      {
-        "title": "Karácsonyi bütykölde és ajándékkészítés gyerekeknek -A Középburgenlandi magyar kultúregyesülettel",
-        "url": "https://rolunk.at/esemenyek/karacsonyi-butykolde-es-ajandekkeszites-gyerekeknek-a-kozepburgenlandi-magyar-kulturegyesulettel/",
-        "source": "Rólunk.at"
-      },
-      {
-        "title": "Meghívó-A Középburgenlandi Magyar Kultúregyesület karácsonyi ünnepségére",
-        "url": "https://rolunk.at/esemenyek/meghivo-a-kozepburgenlandi-magyar-kulturegyesulet-karacsonyi-unnepsegere/",
+        "title": "Húszéves az Őri Banda – jubileumi mulatság",
+        "url": "https://rolunk.at/kultura/huszeves-az-ori-banda-mulatsaggal-unnepeltek-a-jubileumot/",
         "source": "Rólunk.at"
       }
     ],
-    "barka-nepdalkor": [
+    "europa-club": [
       {
-        "title": "Nyílt workshop – Barka Bécsi Magyar Népdalkör",
-        "url": "https://rolunk.at/esemenyek/nyilt-workshop-barka-becsi-magyar-nepdalkor/",
+        "title": "Elhunyt Dr. Smuk András, az Europa-Club elnöke \"> Elhunyt Dr. Smuk András, az Europa-Club elnöke",
+        "url": "https://rolunk.at/nepcsoportunk/elhunyt-dr-smuk-andras-az-europa-club-elnoke/",
         "source": "Rólunk.at"
       }
     ],
@@ -265,10 +250,10 @@
         "source": "ORF Volksgruppen"
       }
     ],
-    "europa-club": [
+    "barka-nepdalkor": [
       {
-        "title": "Elhunyt Dr. Smuk András, az Europa-Club elnöke \"> Elhunyt Dr. Smuk András, az Europa-Club elnöke",
-        "url": "https://rolunk.at/nepcsoportunk/elhunyt-dr-smuk-andras-az-europa-club-elnoke/",
+        "title": "Nyílt workshop – Barka Bécsi Magyar Népdalkör",
+        "url": "https://rolunk.at/esemenyek/nyilt-workshop-barka-becsi-magyar-nepdalkor/",
         "source": "Rólunk.at"
       }
     ],
@@ -305,17 +290,42 @@
       }
     ],
     "grazi-magyar-egyesulet": [],
-    "ori-banda-nepdalkor": [
+    "bukv": [
       {
-        "title": "Húszéves az Őri Banda – jubileumi mulatság",
-        "url": "https://rolunk.at/kultura/huszeves-az-ori-banda-mulatsaggal-unnepeltek-a-jubileumot/",
+        "title": "Hímes tojás festés workshop- Középburgenlandi Magyar Kultúregyesület",
+        "url": "https://rolunk.at/esemenyek/himes-tojas-festes-workshop-kozepburgenlandi-magyar-kulturegyesulet/",
+        "source": "Rólunk.at"
+      },
+      {
+        "title": "Farsangi délután gyerekeknek- Közéburgenlandi Magyar Kultúregyesület.",
+        "url": "https://rolunk.at/esemenyek/farsangi-delutan-gyerekeknek-kozeburgenlandi-magyar-kulturegyesulet/",
+        "source": "Rólunk.at"
+      },
+      {
+        "title": "Karácsonyi bütykölde és ajándékkészítés gyerekeknek -A Középburgenlandi magyar kultúregyesülettel",
+        "url": "https://rolunk.at/esemenyek/karacsonyi-butykolde-es-ajandekkeszites-gyerekeknek-a-kozepburgenlandi-magyar-kulturegyesulettel/",
+        "source": "Rólunk.at"
+      },
+      {
+        "title": "Meghívó-A Középburgenlandi Magyar Kultúregyesület karácsonyi ünnepségére",
+        "url": "https://rolunk.at/esemenyek/meghivo-a-kozepburgenlandi-magyar-kulturegyesulet-karacsonyi-unnepsegere/",
         "source": "Rólunk.at"
       }
     ],
-    "rezsarkantyu-citera": [
+    "orf-magyarok": [
       {
-        "title": "Rólunk.at – Délibáb gála 2025",
-        "url": "https://rolunk.at/kultura/galaval-unnepelt-a-delibab/",
+        "title": "ORF Magyarok – A magyar népcsoport és a műsorkínálat",
+        "url": "https://volksgruppen.orf.at/magyarok/stories/3355959/",
+        "source": "ORF Volksgruppen"
+      },
+      {
+        "title": "ORF Magyar Népcsoport-szerkesztőség – kapcsolat",
+        "url": "https://volksgruppen.orf.at/magyarok/stories/kapcsolat/",
+        "source": "ORF Volksgruppen"
+      },
+      {
+        "title": "Új magyar nyelvű népcsoporti magazin az ORF III műsorán",
+        "url": "https://rolunk.at/aktualis/uj-magyar-nyelvu-nepcsoporti-magazin-az-orf-iii-musoran/",
         "source": "Rólunk.at"
       }
     ],
@@ -336,20 +346,10 @@
       }
     ],
     "salzung-brumi-ovi": [],
-    "orf-magyarok": [
+    "rezsarkantyu-citera": [
       {
-        "title": "ORF Magyarok – A magyar népcsoport és a műsorkínálat",
-        "url": "https://volksgruppen.orf.at/magyarok/stories/3355959/",
-        "source": "ORF Volksgruppen"
-      },
-      {
-        "title": "ORF Magyar Népcsoport-szerkesztőség – kapcsolat",
-        "url": "https://volksgruppen.orf.at/magyarok/stories/kapcsolat/",
-        "source": "ORF Volksgruppen"
-      },
-      {
-        "title": "Új magyar nyelvű népcsoporti magazin az ORF III műsorán",
-        "url": "https://rolunk.at/aktualis/uj-magyar-nyelvu-nepcsoporti-magazin-az-orf-iii-musoran/",
+        "title": "Rólunk.at – Délibáb gála 2025",
+        "url": "https://rolunk.at/kultura/galaval-unnepelt-a-delibab/",
         "source": "Rólunk.at"
       }
     ],
@@ -436,38 +436,7 @@
         "source": "Rólunk.at"
       }
     ],
-    "wels-hetvegi-iskola": [
-      {
-        "title": "Rólunk.at – 22 éves a magyaroktatás Felső-Ausztriában",
-        "url": "https://rolunk.at/nepcsoportunk/iden-mar-22-eves-a-magyaroktatas-felso-ausztriaban/",
-        "source": "Rólunk.at"
-      },
-      {
-        "title": "Rólunk.at – 25 éves jubileum",
-        "url": "https://rolunk.at/aktualis/messze-a-hazatol-megis-otthon-25-eves-a-felso-ausztriai-hetvegi-magyar-iskola-es-ovoda/",
-        "source": "Rólunk.at"
-      },
-      {
-        "title": "Rólunk.at – ausztriai magyar egyesületek listája",
-        "url": "https://rolunk.at/ausztriai-magyar-egyesuletek/",
-        "source": "Rólunk.at"
-      },
-      {
-        "title": "55 éves a Felső-Ausztriai Magyarok Kultúregyesülete és 20+ éves a Hétvégi Óvoda és Iskola",
-        "url": "https://rolunk.at/esemenyek/55-eves-a-felso-ausztriai-magyarok-kulturegyesulete-es-20-eves-a-hetvegi-ovoda-es-iskola/",
-        "source": "Rólunk.at"
-      },
-      {
-        "title": "Hétvégi Magyar Iskolák Találkozója Budapesten",
-        "url": "https://rolunk.at/aktualis/hetvegi-magyar-iskolak-talalkozoja-budapesten/",
-        "source": "Rólunk.at"
-      },
-      {
-        "title": "Irodalmi délután, Húsvéti Nyuszibuli és családi kirándulás: tavaszi programok a felső-ausztriai magyaroknál",
-        "url": "https://rolunk.at/nepcsoportunk/irodalmi-delutan-husveti-nyuszibuli-es-csaladi-kirandulas-tavaszi-programok-a-felso-ausztriai-magyaroknal/",
-        "source": "Rólunk.at"
-      }
-    ],
+    "salzung-pitypang-suli": [],
     "burgenlandi-magyar-cserkeszet": [
       {
         "title": "ORF Magyarok – Kenderkóc és új burgenlandi cserkészet",
@@ -511,7 +480,38 @@
       }
     ],
     "felsoori-katolikus": [],
-    "salzung-pitypang-suli": [],
+    "wels-hetvegi-iskola": [
+      {
+        "title": "Rólunk.at – 22 éves a magyaroktatás Felső-Ausztriában",
+        "url": "https://rolunk.at/nepcsoportunk/iden-mar-22-eves-a-magyaroktatas-felso-ausztriaban/",
+        "source": "Rólunk.at"
+      },
+      {
+        "title": "Rólunk.at – 25 éves jubileum",
+        "url": "https://rolunk.at/aktualis/messze-a-hazatol-megis-otthon-25-eves-a-felso-ausztriai-hetvegi-magyar-iskola-es-ovoda/",
+        "source": "Rólunk.at"
+      },
+      {
+        "title": "Rólunk.at – ausztriai magyar egyesületek listája",
+        "url": "https://rolunk.at/ausztriai-magyar-egyesuletek/",
+        "source": "Rólunk.at"
+      },
+      {
+        "title": "55 éves a Felső-Ausztriai Magyarok Kultúregyesülete és 20+ éves a Hétvégi Óvoda és Iskola",
+        "url": "https://rolunk.at/esemenyek/55-eves-a-felso-ausztriai-magyarok-kulturegyesulete-es-20-eves-a-hetvegi-ovoda-es-iskola/",
+        "source": "Rólunk.at"
+      },
+      {
+        "title": "Hétvégi Magyar Iskolák Találkozója Budapesten",
+        "url": "https://rolunk.at/aktualis/hetvegi-magyar-iskolak-talalkozoja-budapesten/",
+        "source": "Rólunk.at"
+      },
+      {
+        "title": "Irodalmi délután, Húsvéti Nyuszibuli és családi kirándulás: tavaszi programok a felső-ausztriai magyaroknál",
+        "url": "https://rolunk.at/nepcsoportunk/irodalmi-delutan-husveti-nyuszibuli-es-csaladi-kirandulas-tavaszi-programok-a-felso-ausztriai-magyaroknal/",
+        "source": "Rólunk.at"
+      }
+    ],
     "oriszigeti-evangelikus": [],
     "reformatus-ifjusagi-olvasokor": [
       {
@@ -552,10 +552,25 @@
         "source": "Rólunk.at"
       }
     ],
-    "meok-graz": [
+    "femconnect-graz": [
       {
-        "title": "Jót tett a generációváltás – Interjú Kovács Dénessel, a gráci Egyetemisták Klubjának leköszönő elnökével",
-        "url": "https://rolunk.at/nepcsoportunk/jot-tett-a-generaciovaltas-interju-kovacs-denessel-g/",
+        "title": "Hol jobb nőnek lenni- FemConnect Graz",
+        "url": "https://rolunk.at/esemenyek/hol-jobb-nonek-lenni-femconnect-graz/",
+        "source": "Rólunk.at"
+      },
+      {
+        "title": "Milyen lesz a gyerekeink jövője? (Workshop 3.) FemConnect Graz",
+        "url": "https://rolunk.at/esemenyek/milyen-lesz-a-gyerekeink-jovoje-workshop-3-femconnect-graz/",
+        "source": "Rólunk.at"
+      },
+      {
+        "title": "Munka-család-magánélet egyensúly (Workshop 2.) FemConnect Graz",
+        "url": "https://rolunk.at/esemenyek/munka-csalad-maganelet-egyensuly-workshop-2-femconnect-graz/",
+        "source": "Rólunk.at"
+      },
+      {
+        "title": "Nehézségek a szülői szerepben (Workshop 1.)- FemConnect Graz",
+        "url": "https://rolunk.at/esemenyek/nehezsegek-a-szuloi-szerepben-workshop-1-femconnect-graz/",
         "source": "Rólunk.at"
       }
     ],
@@ -581,30 +596,10 @@
         "source": "Rólunk.at"
       }
     ],
-    "vorarlbergi-magyar-egyesulet": [
+    "meok-graz": [
       {
-        "title": "Rólunk.at – Egy éves a Vorarlbergi Magyar Egyesület",
-        "url": "https://rolunk.at/aktualis/egy-eves-a-vorarlbergi-magyar-egyesulet/",
-        "source": "Rólunk.at"
-      },
-      {
-        "title": "ORF Magyarok – Szent István-ünnep Vorarlbergben",
-        "url": "https://volksgruppen.orf.at/magyarok/stories/3269351/",
-        "source": "ORF Volksgruppen"
-      },
-      {
-        "title": "ORF Magyarok – Új tavasz, új remények Vorarlbergben",
-        "url": "https://volksgruppen.orf.at/magyarok/stories/3197605/",
-        "source": "ORF Volksgruppen"
-      },
-      {
-        "title": "Művészeti nyári tábor a Vorarlbergi Magyar Egyesületnél",
-        "url": "https://rolunk.at/aktualis/muveszeti-nyari-tabor-a-vorarlbergi-magyar-egyesuletnel/",
-        "source": "Rólunk.at"
-      },
-      {
-        "title": "Magyar nyelvű oktatás és egyesületalapítás a vorarlbergi magyaroknál",
-        "url": "https://rolunk.at/nepcsoportunk/magyar-nyelvu-oktatas-es-egyesuletalapitas-a-vorarlbergi-magyaroknal/",
+        "title": "Jót tett a generációváltás – Interjú Kovács Dénessel, a gráci Egyetemisták Klubjának leköszönő elnökével",
+        "url": "https://rolunk.at/nepcsoportunk/jot-tett-a-generaciovaltas-interju-kovacs-denessel-g/",
         "source": "Rólunk.at"
       }
     ],
@@ -685,25 +680,30 @@
         "source": "ORF Volksgruppen"
       }
     ],
-    "femconnect-graz": [
+    "vorarlbergi-magyar-egyesulet": [
       {
-        "title": "Hol jobb nőnek lenni- FemConnect Graz",
-        "url": "https://rolunk.at/esemenyek/hol-jobb-nonek-lenni-femconnect-graz/",
+        "title": "Rólunk.at – Egy éves a Vorarlbergi Magyar Egyesület",
+        "url": "https://rolunk.at/aktualis/egy-eves-a-vorarlbergi-magyar-egyesulet/",
         "source": "Rólunk.at"
       },
       {
-        "title": "Milyen lesz a gyerekeink jövője? (Workshop 3.) FemConnect Graz",
-        "url": "https://rolunk.at/esemenyek/milyen-lesz-a-gyerekeink-jovoje-workshop-3-femconnect-graz/",
+        "title": "ORF Magyarok – Szent István-ünnep Vorarlbergben",
+        "url": "https://volksgruppen.orf.at/magyarok/stories/3269351/",
+        "source": "ORF Volksgruppen"
+      },
+      {
+        "title": "ORF Magyarok – Új tavasz, új remények Vorarlbergben",
+        "url": "https://volksgruppen.orf.at/magyarok/stories/3197605/",
+        "source": "ORF Volksgruppen"
+      },
+      {
+        "title": "Művészeti nyári tábor a Vorarlbergi Magyar Egyesületnél",
+        "url": "https://rolunk.at/aktualis/muveszeti-nyari-tabor-a-vorarlbergi-magyar-egyesuletnel/",
         "source": "Rólunk.at"
       },
       {
-        "title": "Munka-család-magánélet egyensúly (Workshop 2.) FemConnect Graz",
-        "url": "https://rolunk.at/esemenyek/munka-csalad-maganelet-egyensuly-workshop-2-femconnect-graz/",
-        "source": "Rólunk.at"
-      },
-      {
-        "title": "Nehézségek a szülői szerepben (Workshop 1.)- FemConnect Graz",
-        "url": "https://rolunk.at/esemenyek/nehezsegek-a-szuloi-szerepben-workshop-1-femconnect-graz/",
+        "title": "Magyar nyelvű oktatás és egyesületalapítás a vorarlbergi magyaroknál",
+        "url": "https://rolunk.at/nepcsoportunk/magyar-nyelvu-oktatas-es-egyesuletalapitas-a-vorarlbergi-magyaroknal/",
         "source": "Rólunk.at"
       }
     ],
@@ -770,29 +770,6 @@
     ],
     "oriszigeti-neptanc": [],
     "csorge-nepzene": [],
-    "becsi-magyar-munkasegylet": [],
-    "bmke-singkreis": [],
-    "warter-fantasie": [],
-    "grazi-magyar-neptanc": [],
-    "vipach": [],
-    "collegium-hungaricum-wien": [
-      {
-        "title": "Őszi programok a Collegium Hungaricumban",
-        "url": "https://rolunk.at/kultura/oszi-programok-a-collegium-hungaricumban/",
-        "source": "Rólunk.at"
-      },
-      {
-        "title": "A balatoni legenda – Ötvös Csöpi a Collegium Hungaricumban",
-        "url": "https://rolunk.at/magazin/a-balatoni-legenda-otvos-csopi-a-collegium-hungaricumban/",
-        "source": "Rólunk.at"
-      },
-      {
-        "title": "BALATON+RETRO avagy Közösségi fotókiállítás a Collegium Hungaricumban",
-        "url": "https://rolunk.at/magazin/balatonretro-avagy-kozossegi-fotokiallitas-a-collegium-hungaricumban/",
-        "source": "Rólunk.at"
-      }
-    ],
-    "die-bruecke-medien-kulturelles-podium": [],
     "felsoori-reformatus": [
       {
         "title": "ORF Magyarok – 250 éves a felsőőri református templom",
@@ -822,6 +799,29 @@
       {
         "title": "A többnyelvűség érték – előadás a felsőőri református népiskoláról",
         "url": "https://rolunk.at/kultura/a-tobbnyelvuseg-ertek-eloadas-a-felsoori-reformatus-nepiskolarol/",
+        "source": "Rólunk.at"
+      }
+    ],
+    "bmke-singkreis": [],
+    "warter-fantasie": [],
+    "grazi-magyar-neptanc": [],
+    "vipach": [],
+    "becsi-magyar-munkasegylet": [],
+    "die-bruecke-medien-kulturelles-podium": [],
+    "collegium-hungaricum-wien": [
+      {
+        "title": "Őszi programok a Collegium Hungaricumban",
+        "url": "https://rolunk.at/kultura/oszi-programok-a-collegium-hungaricumban/",
+        "source": "Rólunk.at"
+      },
+      {
+        "title": "A balatoni legenda – Ötvös Csöpi a Collegium Hungaricumban",
+        "url": "https://rolunk.at/magazin/a-balatoni-legenda-otvos-csopi-a-collegium-hungaricumban/",
+        "source": "Rólunk.at"
+      },
+      {
+        "title": "BALATON+RETRO avagy Közösségi fotókiállítás a Collegium Hungaricumban",
+        "url": "https://rolunk.at/magazin/balatonretro-avagy-kozossegi-fotokiallitas-a-collegium-hungaricumban/",
         "source": "Rólunk.at"
       }
     ],
@@ -931,13 +931,7 @@
         "source": "ORF Volksgruppen"
       }
     ],
-    "mamut-musical": [
-      {
-        "title": "A papírtól a színpadig – egy gyerekmusical margójára",
-        "url": "https://rolunk.at/kultura/a-papirtol-a-szinpadig-egy-gyerekmusical-margojara/",
-        "source": "Rólunk.at"
-      }
-    ],
+    "radiohu": [],
     "collegium-hungaricum-konyvtar": [
       {
         "title": "ORF Magyarok – Magyar könyvtár a CH Bécsben",
@@ -945,7 +939,13 @@
         "source": "ORF Volksgruppen"
       }
     ],
-    "radiohu": [],
+    "semmelweis-orvosegyesulet": [
+      {
+        "title": "ORF Magyarok – Kérem a következőt: orvostudomány mindenkinek",
+        "url": "https://volksgruppen.orf.at/v2/magyarok/stories/2764323/",
+        "source": "ORF Volksgruppen"
+      }
+    ],
     "magyar-csaladi-nap-becs": [
       {
         "title": "ORF Magyarok – Családi nap közösségépítő erővel",
@@ -992,11 +992,11 @@
         "source": "ORF Volksgruppen"
       }
     ],
-    "semmelweis-orvosegyesulet": [
+    "mamut-musical": [
       {
-        "title": "ORF Magyarok – Kérem a következőt: orvostudomány mindenkinek",
-        "url": "https://volksgruppen.orf.at/v2/magyarok/stories/2764323/",
-        "source": "ORF Volksgruppen"
+        "title": "A papírtól a színpadig – egy gyerekmusical margójára",
+        "url": "https://rolunk.at/kultura/a-papirtol-a-szinpadig-egy-gyerekmusical-margojara/",
+        "source": "Rólunk.at"
       }
     ],
     "burgenlaendische-landesbibliothek-hungarian": [
@@ -1043,18 +1043,6 @@
         "source": "Rólunk.at"
       }
     ],
-    "becsi-magyar-otthon": [
-      {
-        "title": "„Az otthon szeretete”: közösség, identitás és hazaszeretet Bécsben",
-        "url": "https://rolunk.at/kultura/az-otthon-szeretete-kozosseg-identitas-es-hazaszeretet-becsben/",
-        "source": "Rólunk.at"
-      },
-      {
-        "title": "OIKOPHILIA- Az otthon szeretete",
-        "url": "https://rolunk.at/esemenyek/oikophilia-az-otthon-szeretete/",
-        "source": "Rólunk.at"
-      }
-    ],
     "magyar-szo-ausztriaban": [
       {
         "title": "Szingliként Ausztriában – a társkeresés lélektana az emigrációban",
@@ -1072,6 +1060,18 @@
         "source": "Rólunk.at"
       }
     ],
+    "becsi-magyar-otthon": [
+      {
+        "title": "„Az otthon szeretete”: közösség, identitás és hazaszeretet Bécsben",
+        "url": "https://rolunk.at/kultura/az-otthon-szeretete-kozosseg-identitas-es-hazaszeretet-becsben/",
+        "source": "Rólunk.at"
+      },
+      {
+        "title": "OIKOPHILIA- Az otthon szeretete",
+        "url": "https://rolunk.at/esemenyek/oikophilia-az-otthon-szeretete/",
+        "source": "Rólunk.at"
+      }
+    ],
     "becsi-konyvbazar": [
       {
         "title": "ORF Magyarok – Csere-bere pikniket tart a Bécsi Könyvbazár",
@@ -1079,17 +1079,17 @@
         "source": "ORF Volksgruppen"
       }
     ],
-    "szent-istvan-unnep-becs": [
-      {
-        "title": "ORF Magyarok – Kenyérszentelés és ünnepi mise 2026",
-        "url": "https://volksgruppen.orf.at/magyarok/stories/3368141/",
-        "source": "ORF Volksgruppen"
-      }
-    ],
     "vorarlberger-landesbibliothek-hungarian": [
       {
         "title": "ORF Magyarok – magyar nyelvű állomány",
         "url": "https://volksgruppen.orf.at/magyarok/stories/3362082/",
+        "source": "ORF Volksgruppen"
+      }
+    ],
+    "szent-istvan-unnep-becs": [
+      {
+        "title": "ORF Magyarok – Kenyérszentelés és ünnepi mise 2026",
+        "url": "https://volksgruppen.orf.at/magyarok/stories/3368141/",
         "source": "ORF Volksgruppen"
       }
     ]
