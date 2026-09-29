@@ -1,9 +1,9 @@
 {
-  "updated": "2026-09-29T06:26:39.914720+00:00",
+  "updated": "2026-09-29T06:29:03.508869+00:00",
   "summary": {
     "organizations": 158,
     "organizationFlags": 1,
-    "organizationPagesChecked": 324,
+    "organizationPagesChecked": 327,
     "education": 107,
     "educationFlags": 0,
     "events": 42,
@@ -724,8 +724,10 @@
       ],
       "signals": [
         "oktatas",
+        "enekkar",
         "szinhaz",
         "media",
+        "egyhaz",
         "diak",
         "irodalom",
         "muveszet",
@@ -894,11 +896,16 @@
       ],
       "activityCategories": [],
       "signals": [
+        "oktatas",
+        "szinhaz",
+        "media",
         "irodalom",
         "muveszet"
       ],
-      "pagesChecked": 0,
-      "checkedUrls": [],
+      "pagesChecked": 1,
+      "checkedUrls": [
+        "https://www.kozpontiszovetseg.at/event-details/dr-janosi-zoltan-irodalomtortenesz-iro-kolto"
+      ],
       "errors": [
         {
           "url": "https://bornemisza.at/",
@@ -906,11 +913,7 @@
         },
         {
           "url": "https://www.kozpontiszovetseg.at/bornemisza-peter-tarsasag",
-          "error": "HTTP Error 429: Too Many Requests"
-        },
-        {
-          "url": "https://www.kozpontiszovetseg.at/event-details/dr-janosi-zoltan-irodalomtortenesz-iro-kolto",
-          "error": "HTTP Error 429: Too Many Requests"
+          "error": "HTTP Error 404: Not Found"
         }
       ],
       "flags": []
@@ -1476,10 +1479,27 @@
         "kultura"
       ],
       "activityCategories": [],
-      "signals": [],
-      "pagesChecked": 0,
-      "checkedUrls": [],
-      "errors": [],
+      "signals": [
+        "oktatas",
+        "neptanc",
+        "szinhaz",
+        "media",
+        "egyhaz",
+        "diak",
+        "irodalom",
+        "muveszet"
+      ],
+      "pagesChecked": 2,
+      "checkedUrls": [
+        "https://europaclub.at/",
+        "https://europaclub.at/rolunk/europa-club-tortenete/"
+      ],
+      "errors": [
+        {
+          "url": "https://europaclub.at/rendezvenyek/meghivok/",
+          "error": "The read operation timed out"
+        }
+      ],
       "flags": []
     },
     {
@@ -2212,7 +2232,10 @@
       "activityCategories": [],
       "signals": [
         "oktatas",
+        "neptanc",
+        "nepzene",
         "szinhaz",
+        "media",
         "irodalom",
         "muveszet",
         "csalad"
@@ -2220,11 +2243,11 @@
       "pagesChecked": 2,
       "checkedUrls": [
         "https://www.kozpontiszovetseg.at/",
-        "https://www.kozpontiszovetseg.at/event-list"
+        "https://www.kozpontiszovetseg.at/r%C3%B3lunk"
       ],
       "errors": [
         {
-          "url": "https://www.kozpontiszovetseg.at/r%C3%B3lunk",
+          "url": "https://www.kozpontiszovetseg.at/event-list",
           "error": "HTTP Error 429: Too Many Requests"
         }
       ],
