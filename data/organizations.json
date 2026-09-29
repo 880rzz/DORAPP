@@ -302,7 +302,6 @@
       "facebook": "https://www.facebook.com/Svung.Wien",
       "instagram": null,
       "eventSources": [
-        "https://shop.svung.at/",
         "https://www.svung.at/show/aktualis-eloadasok/"
       ],
       "memberships": [
@@ -375,11 +374,11 @@
           "ingestEvents": false
         },
         {
-          "label": "SVUNG – Bécsi Magyarok Művészeti Egyesülete – automatikus eseményforrás",
+          "label": "SVUNG – jegyértékesítési/shop felület; nem kanonikus eseménynaptár",
           "url": "https://shop.svung.at/",
-          "kind": "official-event-source",
+          "kind": "official-shop",
           "scope": "self",
-          "ingestEvents": true
+          "ingestEvents": false
         }
       ]
     },
@@ -1755,9 +1754,7 @@
       "website": "https://www.creativescience.hu/programjaink/becs-craft-workshop/",
       "facebook": null,
       "instagram": null,
-      "eventSources": [
-        "https://www.creativescience.hu/programjaink/becs-craft-workshop/"
-      ],
+      "eventSources": [],
       "evidenceSources": [
         {
           "label": "BMI – BécsCraft 2026",
@@ -1813,11 +1810,11 @@
       "contactUrl": "https://www.creativescience.hu/programjaink/becs-craft-workshop/",
       "calendarSources": [
         {
-          "label": "Creative Science – BécsCraft program",
+          "label": "BécsCraft – szolgáltatói programoldal; dokumentáció, nem eseményfeed",
           "url": "https://www.creativescience.hu/programjaink/becs-craft-workshop/",
           "kind": "provider-program-page",
           "scope": "self",
-          "ingestEvents": true
+          "ingestEvents": false
         },
         {
           "label": "Bécsi Magyar Iskola – BécsCraft host eseményoldal",
@@ -2175,8 +2172,7 @@
       "facebook": "https://www.facebook.com/kultpult",
       "instagram": null,
       "eventSources": [
-        "https://kultpult.eu/",
-        "https://kultpult.eu/category/programok/"
+        "https://kultpult.eu/"
       ],
       "categories": [
         "kultura"
@@ -2269,11 +2265,11 @@
           "ingestEvents": true
         },
         {
-          "label": "KultPult – programarchívum",
+          "label": "KultPult – programarchívum; a kanonikus programforrás külön aktív",
           "url": "https://kultpult.eu/category/programok/",
           "kind": "official-program-archive",
           "scope": "self",
-          "ingestEvents": true
+          "ingestEvents": false
         },
         {
           "label": "KultPult – Facebook",
@@ -2528,8 +2524,7 @@
       "facebook": "https://www.facebook.com/wukvdelibab",
       "instagram": null,
       "eventSources": [
-        "https://www.delibab-becs.com/",
-        "https://www.wukv.at/"
+        "https://www.delibab-becs.com/"
       ],
       "memberships": [
         {
@@ -2619,11 +2614,11 @@
           "ingestEvents": true
         },
         {
-          "label": "Délibáb Bécsi Magyar Kultúregyesület – automatikus eseményforrás",
+          "label": "WUKV – kapcsolódó hivatalos oldal; nem a Délibáb kanonikus saját eseményforrása",
           "url": "https://www.wukv.at/",
-          "kind": "official-event-source",
+          "kind": "related-organization-site",
           "scope": "self",
-          "ingestEvents": true
+          "ingestEvents": false
         }
       ]
     },
@@ -5302,9 +5297,7 @@
       "website": "https://linktr.ee/hungaromedia",
       "facebook": "https://www.facebook.com/HungaroMediaAT",
       "instagram": "https://www.instagram.com/hungaromedia",
-      "eventSources": [
-        "https://linktr.ee/hungaromedia"
-      ],
+      "eventSources": [],
       "regionalNetworks": [
         {
           "networkId": "oberoesterreich-programapik-network",
@@ -5389,11 +5382,11 @@
           "ingestEvents": false
         },
         {
-          "label": "HungaroMedia – Magyar Médiageyesület – automatikus eseményforrás",
+          "label": "HungaroMedia – hivatalos linkgyűjtő; nem stabil eseményfeed",
           "url": "https://linktr.ee/hungaromedia",
-          "kind": "official-event-source",
+          "kind": "official-link-hub",
           "scope": "self",
-          "ingestEvents": true
+          "ingestEvents": false
         }
       ]
     },
@@ -14278,9 +14271,7 @@
       "website": "https://www.ak-akademie.at/kurs/online-sprachentraining",
       "facebook": null,
       "instagram": null,
-      "eventSources": [
-        "https://www.ak-akademie.at/kurs/online-sprachentraining"
-      ],
+      "eventSources": [],
       "categories": [
         "oktatas"
       ],
@@ -14330,11 +14321,11 @@
       "classificationNote": "Nem magyar szervezet; karintiai felnőttképzési szolgáltató aktuális magyar nyelvkurzussal.",
       "calendarSources": [
         {
-          "label": "AK-Akademie – magyar online nyelvi tréning és elérhető időpontok",
+          "label": "AK-Akademie – magyar kurzusoldal; dokumentáció, nem eseményfeed",
           "url": "https://www.ak-akademie.at/kurs/online-sprachentraining",
-          "kind": "official-course-calendar",
+          "kind": "official-course-page",
           "scope": "self",
-          "ingestEvents": true
+          "ingestEvents": false
         }
       ],
       "contactUrl": "https://www.ak-akademie.at/kurs/online-sprachentraining"
