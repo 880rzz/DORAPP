@@ -1,8 +1,8 @@
 {
-  "updated": "2026-09-29T04:41:30.637769+00:00",
+  "updated": "2026-09-29T05:59:35.248541+00:00",
   "summary": {
     "organizations": 158,
-    "organizationFlags": 1,
+    "organizationFlags": 3,
     "organizationPagesChecked": 323,
     "education": 107,
     "educationFlags": 0,
@@ -440,15 +440,7 @@
       ],
       "activityCategories": [],
       "signals": [
-        "oktatas",
-        "neptanc",
-        "nepzene",
-        "enekkar",
-        "media",
-        "diak",
-        "irodalom",
-        "muveszet",
-        "csalad"
+        "enekkar"
       ],
       "pagesChecked": 1,
       "checkedUrls": [
@@ -511,6 +503,7 @@
       "activityCategories": [],
       "signals": [
         "oktatas",
+        "neptanc",
         "enekkar",
         "szinhaz",
         "media",
@@ -522,7 +515,7 @@
       "pagesChecked": 3,
       "checkedUrls": [
         "https://www.magyariskola.at/",
-        "https://www.magyariskola.at/osszes",
+        "https://www.magyariskola.at/esemenyek",
         "https://www.magyariskola.at/r%C3%B3lunk"
       ],
       "errors": [],
@@ -726,9 +719,10 @@
       ],
       "signals": [
         "oktatas",
+        "enekkar",
         "szinhaz",
         "media",
-        "diak",
+        "egyhaz",
         "irodalom",
         "muveszet",
         "csalad"
@@ -1125,20 +1119,23 @@
       "activityCategories": [],
       "signals": [
         "oktatas",
-        "szinhaz",
         "media",
-        "irodalom",
-        "muveszet",
-        "csalad"
+        "irodalom"
       ],
-      "pagesChecked": 3,
+      "pagesChecked": 2,
       "checkedUrls": [
         "https://culture.hu/hu/wien",
-        "https://culture.hu/hu/wien/esemenyek",
         "https://culture.hu/de/wien/jubilaum"
       ],
-      "errors": [],
-      "flags": []
+      "errors": [
+        {
+          "url": "https://culture.hu/hu/wien/esemenyek",
+          "error": "The read operation timed out"
+        }
+      ],
+      "flags": [
+        "weak-source-signal:muveszet"
+      ]
     },
     {
       "id": "collegium-pazmanianum",
@@ -1316,10 +1313,7 @@
         "neptanc",
         "nepzene",
         "enekkar",
-        "szinhaz",
         "media",
-        "diak",
-        "irodalom",
         "sport",
         "csalad"
       ],
@@ -1478,10 +1472,27 @@
         "kultura"
       ],
       "activityCategories": [],
-      "signals": [],
-      "pagesChecked": 0,
-      "checkedUrls": [],
-      "errors": [],
+      "signals": [
+        "oktatas",
+        "neptanc",
+        "szinhaz",
+        "media",
+        "egyhaz",
+        "diak",
+        "irodalom",
+        "muveszet"
+      ],
+      "pagesChecked": 2,
+      "checkedUrls": [
+        "https://europaclub.at/",
+        "https://europaclub.at/rolunk/europa-club-tortenete/"
+      ],
+      "errors": [
+        {
+          "url": "https://europaclub.at/rendezvenyek/meghivok/",
+          "error": "The read operation timed out"
+        }
+      ],
       "flags": []
     },
     {
@@ -1519,11 +1530,6 @@
       ],
       "activityCategories": [],
       "signals": [
-        "oktatas",
-        "media",
-        "egyhaz",
-        "irodalom",
-        "muveszet",
         "csalad"
       ],
       "pagesChecked": 3,
@@ -1533,7 +1539,9 @@
         "https://fecskeklub.at/titkok-nyomaban/"
       ],
       "errors": [],
-      "flags": []
+      "flags": [
+        "weak-source-signal:oktatas"
+      ]
     },
     {
       "id": "felso-ausztriai-magyarok",
@@ -1941,7 +1949,7 @@
       "errors": [
         {
           "url": "https://www.askoe.at/de/verband-vereine/askoe-vereine/clubshow-10438",
-          "error": "HTTP Error 404: Not Found"
+          "error": "HTTP Error 406: Not Acceptable"
         }
       ],
       "flags": []
@@ -2214,10 +2222,7 @@
       "activityCategories": [],
       "signals": [
         "oktatas",
-        "neptanc",
-        "nepzene",
         "szinhaz",
-        "media",
         "irodalom",
         "muveszet",
         "csalad"
@@ -2225,11 +2230,11 @@
       "pagesChecked": 2,
       "checkedUrls": [
         "https://www.kozpontiszovetseg.at/",
-        "https://www.kozpontiszovetseg.at/r%C3%B3lunk"
+        "https://www.kozpontiszovetseg.at/event-list"
       ],
       "errors": [
         {
-          "url": "https://www.kozpontiszovetseg.at/kapcsolat",
+          "url": "https://www.kozpontiszovetseg.at/r%C3%B3lunk",
           "error": "HTTP Error 429: Too Many Requests"
         }
       ],
@@ -2264,18 +2269,16 @@
       ],
       "activityCategories": [],
       "signals": [
-        "oktatas",
-        "nepzene",
         "szinhaz",
-        "media",
         "irodalom",
         "muveszet",
         "csalad"
       ],
-      "pagesChecked": 2,
+      "pagesChecked": 3,
       "checkedUrls": [
         "https://kultpult.eu/",
-        "https://kultpult.eu/itthonotthon/"
+        "https://kultpult.eu/itthonotthon/",
+        "https://kultpult.eu/wp-content/uploads/2024/06/Altalanos-Szerzodesi-Feltetelek-kultpult.pdf"
       ],
       "errors": [],
       "flags": []
@@ -2432,7 +2435,7 @@
       "errors": [
         {
           "url": "https://www.magyarszo.at/",
-          "error": "<urlopen error timed out>"
+          "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'www.magyarszo.at'. (_ssl.c:1010)>"
         }
       ],
       "flags": []
@@ -2520,13 +2523,7 @@
       ],
       "activityCategories": [],
       "signals": [
-        "neptanc",
-        "media",
-        "diak",
-        "irodalom",
-        "muveszet",
-        "sport",
-        "csalad"
+        "diak"
       ],
       "pagesChecked": 3,
       "checkedUrls": [
@@ -3340,16 +3337,7 @@
       ],
       "activityCategories": [],
       "signals": [
-        "oktatas",
-        "neptanc",
-        "nepzene",
-        "enekkar",
-        "szinhaz",
-        "media",
-        "diak",
-        "muveszet",
-        "sport",
-        "csalad"
+        "nepzene"
       ],
       "pagesChecked": 3,
       "checkedUrls": [
@@ -3849,18 +3837,23 @@
       "activityCategories": [],
       "signals": [
         "szinhaz",
-        "media",
-        "irodalom",
         "muveszet",
         "csalad"
       ],
-      "pagesChecked": 3,
+      "pagesChecked": 1,
       "checkedUrls": [
-        "https://svung.at/",
-        "https://www.svung.at/show/aktualis-eloadasok/",
-        "https://www.svung.at/"
+        "https://svung.at/"
       ],
-      "errors": [],
+      "errors": [
+        {
+          "url": "https://www.svung.at/show/aktualis-eloadasok/",
+          "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1010)>"
+        },
+        {
+          "url": "https://www.svung.at/",
+          "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1010)>"
+        }
+      ],
       "flags": []
     },
     {
@@ -3980,7 +3973,6 @@
         "nepzene",
         "enekkar",
         "media",
-        "diak",
         "csalad"
       ],
       "pagesChecked": 2,
