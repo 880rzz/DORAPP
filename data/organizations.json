@@ -217,9 +217,7 @@
       "website": "https://leaninfemspace.at/",
       "facebook": "https://www.facebook.com/leaninfemspace/",
       "instagram": null,
-      "eventSources": [
-        "https://leaninfemspace.at/"
-      ],
+      "eventSources": [],
       "memberships": [
         {
           "umbrellaId": "kozponti-szovetseg",
@@ -283,11 +281,11 @@
           "ingestEvents": false
         },
         {
-          "label": "Lean in Femspace – automatikus eseményforrás",
+          "label": "Lean in Femspace – hivatalos oldal; stabil saját eseményfeed nem igazolt",
           "url": "https://leaninfemspace.at/",
-          "kind": "official-event-source",
+          "kind": "official-website",
           "scope": "self",
-          "ingestEvents": true
+          "ingestEvents": false
         }
       ]
     },
@@ -955,9 +953,7 @@
       "website": "https://www.napraforgok.at/",
       "facebook": "https://www.facebook.com/napraforgok.becs",
       "instagram": "https://www.instagram.com/napraforgok.becs",
-      "eventSources": [
-        "https://www.napraforgok.at/"
-      ],
+      "eventSources": [],
       "memberships": [
         {
           "umbrellaId": "kozponti-szovetseg",
@@ -1043,11 +1039,11 @@
           "ingestEvents": false
         },
         {
-          "label": "Napraforgók – Bécsi Magyar Néptánc és Népzene Egyesület – automatikus eseményforrás",
+          "label": "Napraforgók – Bécsi Magyar Néptánc és Népzene Egyesület – hivatalos oldal; stabil saját eseményfeed nem igazolt",
           "url": "https://www.napraforgok.at/",
-          "kind": "official-event-source",
+          "kind": "official-website",
           "scope": "self",
-          "ingestEvents": true
+          "ingestEvents": false
         }
       ]
     },
@@ -2056,9 +2052,7 @@
       "website": "https://www.ungarischlernen.at/",
       "facebook": "https://www.facebook.com/ungarischer.schulverein",
       "instagram": "https://www.instagram.com/schulverein",
-      "eventSources": [
-        "https://www.ungarischlernen.at/"
-      ],
+      "eventSources": [],
       "memberships": [
         {
           "umbrellaId": "kerekasztal",
@@ -2151,11 +2145,11 @@
           "ingestEvents": false
         },
         {
-          "label": "Bécsi Magyar Iskolaegyesület – automatikus eseményforrás",
+          "label": "Bécsi Magyar Iskolaegyesület – hivatalos oldal; stabil saját eseményfeed nem igazolt",
           "url": "https://www.ungarischlernen.at/",
-          "kind": "official-event-source",
+          "kind": "official-website",
           "scope": "self",
-          "ingestEvents": true
+          "ingestEvents": false
         }
       ]
     },
@@ -4821,9 +4815,7 @@
       "website": "https://www.theaterverein-unterwart.at/",
       "facebook": "https://www.facebook.com/Zweisprachiger-Theaterverein-und-Kulturkreis-Unterwart-110195580434233/",
       "instagram": null,
-      "eventSources": [
-        "https://www.theaterverein-unterwart.at/"
-      ],
+      "eventSources": [],
       "categories": [
         "szinhaz"
       ],
@@ -4909,11 +4901,11 @@
           "ingestEvents": false
         },
         {
-          "label": "Alsóőri Kétnyelvű Színjátszóegyesület és Kultúrkör – automatikus eseményforrás",
+          "label": "Alsóőri Kétnyelvű Színjátszóegyesület és Kultúrkör – hivatalos oldal; stabil saját eseményfeed nem igazolt",
           "url": "https://www.theaterverein-unterwart.at/",
-          "kind": "official-event-source",
+          "kind": "official-website",
           "scope": "self",
-          "ingestEvents": true
+          "ingestEvents": false
         }
       ]
     },
@@ -6243,9 +6235,7 @@
       "website": "https://www.grazimagyaregyesuelet.at/",
       "facebook": "https://www.facebook.com/Grazi.Magyar.Egyesuelet",
       "instagram": null,
-      "eventSources": [
-        "https://www.grazimagyaregyesuelet.at/"
-      ],
+      "eventSources": [],
       "memberships": [
         {
           "umbrellaId": "kozponti-szovetseg",
@@ -6329,11 +6319,11 @@
           "ingestEvents": false
         },
         {
-          "label": "Grazi Magyar Egyesület – automatikus eseményforrás",
+          "label": "Grazi Magyar Egyesület – hivatalos oldal; stabil saját eseményfeed nem igazolt",
           "url": "https://www.grazimagyaregyesuelet.at/",
-          "kind": "official-event-source",
+          "kind": "official-website",
           "scope": "self",
-          "ingestEvents": true
+          "ingestEvents": false
         }
       ]
     },
@@ -6443,9 +6433,7 @@
       "website": "https://www.meoek.at/",
       "facebook": null,
       "instagram": null,
-      "eventSources": [
-        "https://www.meoek.at/"
-      ],
+      "eventSources": [],
       "memberships": [
         {
           "umbrellaId": "kozponti-szovetseg",
@@ -6503,11 +6491,11 @@
       "entityClass": "organization",
       "calendarSources": [
         {
-          "label": "MEÖK – Magyar Egyetemisták és Öregdiákok Klubja – automatikus eseményforrás",
+          "label": "MEÖK – Magyar Egyetemisták és Öregdiákok Klubja – hivatalos oldal; stabil saját eseményfeed nem igazolt",
           "url": "https://www.meoek.at/",
-          "kind": "official-event-source",
+          "kind": "official-website",
           "scope": "self",
-          "ingestEvents": true
+          "ingestEvents": false
         }
       ]
     },
@@ -8378,9 +8366,7 @@
       "website": "https://www.die-reformierten.at/",
       "facebook": null,
       "instagram": null,
-      "eventSources": [
-        "https://www.die-reformierten.at/"
-      ],
+      "eventSources": [],
       "categories": [
         "egyhaz"
       ],
@@ -8441,11 +8427,11 @@
       "email": "office@die-reformierten.at",
       "calendarSources": [
         {
-          "label": "Felsőőri Református Gyülekezet – automatikus eseményforrás",
+          "label": "Felsőőri Református Gyülekezet – hivatalos oldal; stabil saját eseményfeed nem igazolt",
           "url": "https://www.die-reformierten.at/",
-          "kind": "official-event-source",
+          "kind": "official-website",
           "scope": "self",
-          "ingestEvents": true
+          "ingestEvents": false
         }
       ]
     },
@@ -8745,9 +8731,7 @@
       "website": "https://bmme.at/",
       "facebook": "https://www.facebook.com/VereinBMME/",
       "instagram": null,
-      "eventSources": [
-        "https://bmme.at/"
-      ],
+      "eventSources": [],
       "categories": [
         "kozosseg"
       ],
@@ -8820,11 +8804,11 @@
           "ingestEvents": false
         },
         {
-          "label": "Bécsi Magyar Munkásegylet – automatikus eseményforrás",
+          "label": "Bécsi Magyar Munkásegylet – hivatalos oldal; stabil saját eseményfeed nem igazolt",
           "url": "https://bmme.at/",
-          "kind": "official-event-source",
+          "kind": "official-website",
           "scope": "self",
-          "ingestEvents": true
+          "ingestEvents": false
         }
       ]
     },
@@ -9959,9 +9943,7 @@
       "website": "https://pazmaneum.katolikus.hu/",
       "facebook": null,
       "instagram": null,
-      "eventSources": [
-        "https://pazmaneum.katolikus.hu/"
-      ],
+      "eventSources": [],
       "evidenceSources": [
         {
           "label": "Collegium Pazmanianum – Történet",
@@ -10036,11 +10018,11 @@
       "contactUrl": "https://pazmaneum.katolikus.hu/",
       "calendarSources": [
         {
-          "label": "Collegium Pazmanianum – automatikus eseményforrás",
+          "label": "Collegium Pazmanianum – hivatalos oldal; stabil saját eseményfeed nem igazolt",
           "url": "https://pazmaneum.katolikus.hu/",
-          "kind": "official-event-source",
+          "kind": "official-website",
           "scope": "self",
-          "ingestEvents": true
+          "ingestEvents": false
         }
       ]
     },
@@ -10193,9 +10175,7 @@
       "website": "https://bobitak.at/",
       "facebook": null,
       "instagram": null,
-      "eventSources": [
-        "https://bobitak.at/"
-      ],
+      "eventSources": [],
       "evidenceSources": [
         {
           "label": "Bóbiták – hivatalos oldal és bemutatkozás",
@@ -10247,11 +10227,11 @@
       "entityClass": "organization",
       "calendarSources": [
         {
-          "label": "Bóbiták – Ungarischer Kulturverein Innsbruck – automatikus eseményforrás",
+          "label": "Bóbiták – Ungarischer Kulturverein Innsbruck – hivatalos oldal; stabil saját eseményfeed nem igazolt",
           "url": "https://bobitak.at/",
-          "kind": "official-event-source",
+          "kind": "official-website",
           "scope": "self",
-          "ingestEvents": true
+          "ingestEvents": false
         }
       ]
     },
@@ -11533,9 +11513,7 @@
       "website": "http://www.geschriebensteinlauf.at",
       "facebook": null,
       "instagram": null,
-      "eventSources": [
-        "http://www.geschriebensteinlauf.at"
-      ],
+      "eventSources": [],
       "memberships": [
         {
           "umbrellaId": "kozponti-szovetseg",
@@ -11605,11 +11583,11 @@
       "entityClass": "organization",
       "calendarSources": [
         {
-          "label": "Írottkő Sportegyesület / LAC Geschriebenstein – automatikus eseményforrás",
+          "label": "Írottkő Sportegyesület / LAC Geschriebenstein – hivatalos oldal; stabil saját eseményfeed nem igazolt",
           "url": "http://www.geschriebensteinlauf.at",
-          "kind": "official-event-source",
+          "kind": "official-website",
           "scope": "self",
-          "ingestEvents": true
+          "ingestEvents": false
         }
       ]
     },
