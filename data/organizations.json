@@ -3049,9 +3049,7 @@
       "website": "https://kerekasztal.at/",
       "facebook": null,
       "instagram": null,
-      "eventSources": [
-        "https://wp.kerekasztal.at/events/"
-      ],
+      "eventSources": [],
       "categories": [
         "kozosseg"
       ],
@@ -3123,11 +3121,11 @@
           "ingestEvents": false
         },
         {
-          "label": "Ausztriai Magyar Szervezetek Kerekasztala – hivatalos eseménylista",
+          "label": "Kerekasztal – hivatalos, tagszervezeti eseményeket is aggregáló eseménylista",
           "url": "https://wp.kerekasztal.at/events/",
-          "kind": "official-calendar",
+          "kind": "umbrella-event-discovery",
           "scope": "self",
-          "ingestEvents": true
+          "ingestEvents": false
         }
       ],
       "publicChannels": [
