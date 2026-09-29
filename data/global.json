@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "countPolicy": "organizationCount excludes entityClass=activity; all counts are generated from canonical country data",
+  "countries": [
+    {
+      "iso2": "at",
+      "iso3": "AUT",
+      "name": {
+        "hu": "Ausztria",
+        "de": "Österreich",
+        "en": "Austria"
+      },
+      "locales": [
+        "de-AT",
+        "hu"
+      ],
+      "researchStatus": "reviewed",
+      "canonicalDataMode": "legacy-compatibility-mirror",
+      "canonicalLegacyPaths": {
+        "organizations": "data/organizations.json",
+        "events": "data/events.json",
+        "education": "data/education.json"
+      },
+      "countryDataPath": "data/countries/at/",
+      "route": "countries/at/",
+      "counts": {
+        "organizations": 146,
+        "activities": 12,
+        "entities": 158,
+        "events": 42,
+        "education": 107
+      }
+    }
+  ]
+}
