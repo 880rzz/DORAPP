@@ -2308,9 +2308,7 @@
       "website": "https://mde.hu/at/",
       "facebook": "https://www.facebook.com/MDEVUS",
       "instagram": "https://www.instagram.com/mdevus/",
-      "eventSources": [
-        "https://mde.hu/becsi-esemenyek/"
-      ],
+      "eventSources": [],
       "memberships": [
         {
           "umbrellaId": "kerekasztal",
@@ -2390,11 +2388,11 @@
           "ingestEvents": false
         },
         {
-          "label": "MDE-VUS – bécsi események",
+          "label": "MDE-VUS – bécsi programtípusok és rendszeres események áttekintése; aktuális dátumfeed nem igazolt",
           "url": "https://mde.hu/becsi-esemenyek/",
-          "kind": "official-calendar",
+          "kind": "program-overview",
           "scope": "self",
-          "ingestEvents": true
+          "ingestEvents": false
         }
       ]
     },
