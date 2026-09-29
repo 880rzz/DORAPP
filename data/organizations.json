@@ -4300,7 +4300,7 @@
       "facebook": null,
       "instagram": null,
       "eventSources": [
-        "https://vhs-ungarn.at/"
+        "https://vhs-ungarn.at/hu/program/"
       ],
       "regionalNetworks": [
         {
@@ -4365,9 +4365,9 @@
       "entityClass": "institution",
       "calendarSources": [
         {
-          "label": "Burgenlandi Magyarok Népfőiskolája – automatikus eseményforrás",
-          "url": "https://vhs-ungarn.at/",
-          "kind": "official-event-source",
+          "label": "Burgenlandi Magyarok Népfőiskolája – hivatalos programoldal",
+          "url": "https://vhs-ungarn.at/hu/program/",
+          "kind": "official-program-source",
           "scope": "self",
           "ingestEvents": true
         }
