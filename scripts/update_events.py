@@ -361,12 +361,21 @@ def collect_page(url,org,root_source):
     found.extend(reformatus_table_events(body,org,url,root_source))
     return found,links(body,url),ct
 
+def source_event_allowed(event, source_cfg):
+    """Apply explicit per-source inclusion rules after extraction."""
+    patterns=source_cfg.get("includeRegex") or []
+    if not patterns:
+        return True
+    haystack=" ".join(clean_text(event.get(k)) for k in ("name","description","venue","address"))
+    return any(re.search(pattern,haystack,re.I) for pattern in patterns)
+
 def main():
     orgdb=json.loads(ORG_FILE.read_text(encoding="utf-8"))
     old=json.loads(EVENT_FILE.read_text(encoding="utf-8")) if EVENT_FILE.exists() else {"events":[]}
     merged={e["id"]:e for e in old.get("events",[]) if futureish(e.get("startDate"))}
     health=[]
-    def audit_source(org,source):
+    def audit_source(org,source_cfg):
+        source=source_cfg["url"]
         row={"organizationId":org["id"],"source":source,"checkedAt":datetime.now(timezone.utc).isoformat(),
              "status":"unknown","eventsFound":0,"pagesChecked":0}
         collected=[]
@@ -380,6 +389,7 @@ def main():
                 except Exception:
                     continue
             collected=dedupe_events(collected)
+            collected=[e for e in collected if source_event_allowed(e,source_cfg)]
             row["eventsFound"]=len(collected)
             row["status"]="ok-events" if collected else "ok-no-structured-event"
         except Exception as ex:
@@ -412,12 +422,12 @@ def main():
             if isinstance(c,dict) and c.get("ingestEvents") is True and c.get("url"):
                 u=str(c["url"]).strip()
                 if u and u not in sources:
-                    sources.append(u)
+                    cfg=dict(c); cfg["url"]=u; sources.append(cfg)
         return sources
 
-    jobs=[(org,source) for org in orgdb["organizations"] for source in ingest_sources(org)]
+    jobs=[(org,source_cfg) for org in orgdb["organizations"] for source_cfg in ingest_sources(org)]
     with ThreadPoolExecutor(max_workers=8) as pool:
-        futures=[pool.submit(audit_source,org,source) for org,source in jobs]
+        futures=[pool.submit(audit_source,org,source_cfg) for org,source_cfg in jobs]
         for future in as_completed(futures):
             row,collected=future.result()
             health.append(row)
