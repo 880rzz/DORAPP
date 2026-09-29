@@ -7370,9 +7370,7 @@
       "website": "https://imeasz.at/",
       "facebook": null,
       "instagram": null,
-      "eventSources": [
-        "https://imeasz.at/"
-      ],
+      "eventSources": [],
       "memberships": [
         {
           "umbrellaId": "kozponti-szovetseg",
@@ -7469,11 +7467,11 @@
       "entityClass": "organization",
       "calendarSources": [
         {
-          "label": "IMEASZ – hivatalos weboldal és aktuális programok",
+          "label": "IMEASZ – Innsbrucki Magyar Egyetemisták és Akadémikusok Szövetsége – hivatalos oldal; stabil saját eseményfeed nem igazolt",
           "url": "https://imeasz.at/",
-          "kind": "official-calendar",
+          "kind": "official-website",
           "scope": "self",
-          "ingestEvents": true
+          "ingestEvents": false
         },
         {
           "label": "Bécsi Napló – innsbrucki eseménylista / IMEASZ programok",
@@ -7939,9 +7937,7 @@
       "website": "https://www.burgenlandicserkesz.at/",
       "facebook": null,
       "instagram": null,
-      "eventSources": [
-        "https://www.burgenlandicserkesz.at/"
-      ],
+      "eventSources": [],
       "memberships": [
         {
           "umbrellaId": "kmcssz-europa",
@@ -8003,11 +7999,11 @@
       "contactUrl": "https://www.burgenlandicserkesz.at/",
       "calendarSources": [
         {
-          "label": "Burgenlandi Cserkészet – saját programoldal",
+          "label": "Burgenlandi Magyar Cserkészet – hivatalos oldal; stabil saját eseményfeed nem igazolt",
           "url": "https://www.burgenlandicserkesz.at/",
-          "kind": "official-program-source",
+          "kind": "official-website",
           "scope": "self",
-          "ingestEvents": true
+          "ingestEvents": false
         }
       ],
       "email": "burgenlandicserkesz@gmail.com",
