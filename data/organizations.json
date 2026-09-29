@@ -60,7 +60,7 @@
       "facebook": null,
       "instagram": null,
       "eventSources": [
-        "https://www.kozpontiszovetseg.at/"
+        "https://www.kozpontiszovetseg.at/event-list"
       ],
       "categories": [
         "kozosseg"
@@ -114,9 +114,9 @@
       "entityClass": "umbrella",
       "calendarSources": [
         {
-          "label": "Ausztriai Magyar Egyesületek és Szervezetek Központi Szövetsége – automatikus eseményforrás",
-          "url": "https://www.kozpontiszovetseg.at/",
-          "kind": "official-event-source",
+          "label": "Központi Szövetség – hivatalos eseménylista",
+          "url": "https://www.kozpontiszovetseg.at/event-list",
+          "kind": "official-calendar",
           "scope": "self",
           "ingestEvents": true
         }
@@ -1486,7 +1486,7 @@
       "facebook": null,
       "instagram": null,
       "eventSources": [
-        "https://www.magyariskola.at/osszes"
+        "https://www.magyariskola.at/esemenyek"
       ],
       "categories": [
         "oktatas"
@@ -1569,8 +1569,8 @@
           "ingestEvents": false
         },
         {
-          "label": "Bécsi Magyar Iskola – automatikus eseményforrás",
-          "url": "https://www.magyariskola.at/osszes",
+          "label": "Bécsi Magyar Iskola – hivatalos eseménynaptár",
+          "url": "https://www.magyariskola.at/esemenyek",
           "kind": "official-calendar",
           "scope": "self",
           "ingestEvents": true
