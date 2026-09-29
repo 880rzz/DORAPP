@@ -10987,9 +10987,7 @@
       "website": "https://www.vipach.at/",
       "facebook": null,
       "instagram": null,
-      "eventSources": [
-        "https://www.vipach.at/fotokiallitasok"
-      ],
+      "eventSources": [],
       "evidenceSources": [
         {
           "label": "VIPACH – hivatalos főoldal",
@@ -11090,11 +11088,11 @@
           "ingestEvents": false
         },
         {
-          "label": "VIPACH – Vienna Photo Art & Creative Hub – automatikus eseményforrás",
+          "label": "VIPACH – kiállítási archívum; nem aktuális eseménynaptár",
           "url": "https://www.vipach.at/fotokiallitasok",
-          "kind": "official-calendar",
+          "kind": "exhibition-archive",
           "scope": "self",
-          "ingestEvents": true
+          "ingestEvents": false
         }
       ]
     },
