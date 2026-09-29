@@ -1,9 +1,9 @@
 {
-  "updated": "2026-09-29T06:05:59.446802+00:00",
+  "updated": "2026-09-29T06:16:09.978740+00:00",
   "summary": {
     "organizations": 158,
     "organizationFlags": 1,
-    "organizationPagesChecked": 326,
+    "organizationPagesChecked": 327,
     "education": 107,
     "educationFlags": 0,
     "events": 42,
@@ -724,8 +724,10 @@
       ],
       "signals": [
         "oktatas",
+        "enekkar",
         "szinhaz",
         "media",
+        "egyhaz",
         "diak",
         "irodalom",
         "muveszet",
@@ -906,7 +908,7 @@
         },
         {
           "url": "https://www.kozpontiszovetseg.at/bornemisza-peter-tarsasag",
-          "error": "HTTP Error 429: Too Many Requests"
+          "error": "HTTP Error 404: Not Found"
         },
         {
           "url": "https://www.kozpontiszovetseg.at/event-details/dr-janosi-zoltan-irodalomtortenesz-iro-kolto",
@@ -2256,15 +2258,19 @@
         "felnott",
         "kozosseg"
       ],
-      "signals": [],
-      "pagesChecked": 0,
-      "checkedUrls": [],
-      "errors": [
-        {
-          "url": "https://www.kozpontiszovetseg.at/r%C3%B3lunk",
-          "error": "HTTP Error 429: Too Many Requests"
-        }
+      "signals": [
+        "oktatas",
+        "neptanc",
+        "nepzene",
+        "szinhaz",
+        "media",
+        "irodalom"
       ],
+      "pagesChecked": 1,
+      "checkedUrls": [
+        "https://www.kozpontiszovetseg.at/r%C3%B3lunk"
+      ],
+      "errors": [],
       "flags": []
     },
     {
