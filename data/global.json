@@ -182,23 +182,12 @@
     },
     {
       "iso2": "at",
-      "iso3": "AUT",
       "name": {
         "hu": "Ausztria",
         "de": "Österreich",
         "en": "Austria"
       },
-      "locales": [
-        "de-AT",
-        "hu"
-      ],
       "researchStatus": "reviewed",
-      "canonicalDataMode": "legacy-compatibility-mirror",
-      "canonicalLegacyPaths": {
-        "organizations": "data/organizations.json",
-        "events": "data/events.json",
-        "education": "data/education.json"
-      },
       "countryDataPath": "data/countries/at/",
       "route": "countries/at/",
       "counts": {
@@ -207,6 +196,17 @@
         "entities": 158,
         "events": 39,
         "education": 107
+      },
+      "iso3": "AUT",
+      "locales": [
+        "de-AT",
+        "hu"
+      ],
+      "canonicalDataMode": "legacy-compatibility-mirror",
+      "canonicalLegacyPaths": {
+        "organizations": "data/organizations.json",
+        "events": "data/events.json",
+        "education": "data/education.json"
       }
     },
     {
