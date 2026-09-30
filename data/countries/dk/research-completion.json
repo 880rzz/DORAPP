@@ -1,0 +1,86 @@
+{
+  "schemaVersion": 1,
+  "country": "dk",
+  "countryName": "Denmark",
+  "assessedAt": "2026-09-30",
+  "completionStandard": "DORAPP country research completion means every required discovery category has been explicitly reviewed, all strong candidates have been resolved to canonical/rejected/insufficient-evidence status, canonical entities have evidence and routes, derived counts validate, source-health runs, and production deploy succeeds.",
+  "status": "reviewed",
+  "coverage": [
+    {
+      "category": "associations-and-umbrellas",
+      "status": "reviewed"
+    },
+    {
+      "category": "informal-communities",
+      "status": "reviewed"
+    },
+    {
+      "category": "nurseries-and-schools",
+      "status": "reviewed"
+    },
+    {
+      "category": "universities-and-student-groups",
+      "status": "reviewed"
+    },
+    {
+      "category": "folk-dance-music-choirs-theatre",
+      "status": "reviewed"
+    },
+    {
+      "category": "scouts",
+      "status": "reviewed-no-standalone-verified-entity"
+    },
+    {
+      "category": "churches-and-religious-services",
+      "status": "reviewed-no-standalone-verified-entity"
+    },
+    {
+      "category": "family-youth-senior-groups",
+      "status": "reviewed"
+    },
+    {
+      "category": "media-and-publications",
+      "status": "reviewed-no-standalone-verified-entity"
+    },
+    {
+      "category": "libraries-book-clubs",
+      "status": "reviewed-no-standalone-verified-entity"
+    },
+    {
+      "category": "private-organizers-recurring-initiatives",
+      "status": "reviewed"
+    },
+    {
+      "category": "host-institutions-with-Hungarian-services",
+      "status": "reviewed"
+    }
+  ],
+  "sourceClassesReviewed": [
+    "official organization websites",
+    "Danish public/CVR-derived registries",
+    "Hungarian Embassy Copenhagen",
+    "Kőrösi Csoma Sándor Program",
+    "Copenhagen municipal mother-tongue school",
+    "diaspora network directories",
+    "current event/community discovery"
+  ],
+  "unresolvedStrongCandidates": [],
+  "canonicalOrganizationIds": [
+    "dan-magyar-egyesulet",
+    "dama-dan-magyar-kulturalis-egyesulet",
+    "aalborgi-magyarok-tarsasaga",
+    "hya-denmark",
+    "alba-hungarica",
+    "dansk-ungarsk-venskabsforening"
+  ],
+  "canonicalEducationIds": [
+    "koppenhagai-magyar-iskola",
+    "dama-hetvegi-magyar-iskola",
+    "kobenhavn-modersmaalsskole-ungarsk"
+  ],
+  "notes": [
+    "Koppenhágai Magyar Iskola is modeled as an education program/activity, not a second organization count, because the public evidence ties it to the same CVR/legal association layer as Dán-Magyar Egyesület.",
+    "Occasional Hungarian-language ecumenical services in Copenhagen are modeled as events/services of existing community organizers unless a separate permanent Hungarian congregation is evidenced.",
+    "No standalone Danish Hungarian scout organization was verified in the broad 2026-09-30 research pass."
+  ]
+}
