@@ -31,6 +31,20 @@ urls += [(f"{BASE}/esemenyek/{quote(x['id'])}.html",str(x.get("verifiedAt") or e
 urls += [(f"{BASE}/tartomanyok/{x['id']}.html",org_updated) for x in org.get("states",[])]
 urls += [(f"{BASE}/kategoriak/{x['id']}.html",org_updated) for x in org.get("categoryDefinitions",[])]
 urls += [(f"{BASE}/countries/{x['iso2']}/",global_updated) for x in globaldb.get("countries",[])]
+for c in globaldb.get("countries",[]):
+    iso=c["iso2"]
+    if iso=="at":
+        continue
+    p=ROOT/"data"/"countries"/iso/"organizations.json"
+    if not p.exists():
+        continue
+    try:
+        doc=json.loads(p.read_text(encoding="utf-8"))
+    except Exception:
+        continue
+    for o in doc.get("organizations",[]):
+        if o.get("id"):
+            urls.append((f"{BASE}/countries/{iso}/organizations/{quote(o['id'])}.html",str(o.get("profileVerifiedAt") or global_updated)[:10]))
 
 xml=['<?xml version="1.0" encoding="UTF-8"?>','<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">']
 for u,lastmod in urls:
