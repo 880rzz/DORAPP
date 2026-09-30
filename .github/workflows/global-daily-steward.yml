@@ -6,6 +6,8 @@ on:
   workflow_dispatch:
   push:
     paths:
+      - "data/countries/**"
+      - "data/global.json"
       - ".github/workflows/global-daily-steward.yml"
       - "scripts/global_country_research.py"
       - "scripts/generate_global_compat.py"
