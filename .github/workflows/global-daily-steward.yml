@@ -56,9 +56,9 @@ jobs:
       - name: Rebuild global compatibility and validate
         run: |
           python scripts/generate_global_compat.py
-          python scripts/validate_global.py
           python scripts/generate_country_pages.py
           python scripts/generate_global_profiles.py
+          python scripts/validate_global.py
           node --check app.js
           python scripts/validate_directory.py
           python scripts/validate_static_output.py
