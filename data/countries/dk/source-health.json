@@ -1,0 +1,77 @@
+{
+  "updated": "2026-09-30T09:16:52+00:00",
+  "sources": [
+    {
+      "id": "dan-magyar-egyesulet",
+      "url": "https://www.dan-magyar.dk/",
+      "sourceRole": "official-website",
+      "status": "ok",
+      "httpStatus": 200,
+      "resolvedUrl": "https://www.dan-magyar.dk/",
+      "contentType": "text/html; charset=utf-8",
+      "checkedAt": "2026-09-30T09:16:52+00:00",
+      "removalAuthority": false,
+      "note": null
+    },
+    {
+      "id": "dama-dan-magyar-kulturalis-egyesulet",
+      "url": "https://damaklub.dk/",
+      "sourceRole": "official-website",
+      "status": "tls-error",
+      "httpStatus": null,
+      "resolvedUrl": "https://damaklub.dk/",
+      "contentType": "",
+      "checkedAt": "2026-09-30T09:16:52+00:00",
+      "removalAuthority": false,
+      "note": "Technical failure alone is never evidence for entity removal."
+    },
+    {
+      "id": "aalborgi-magyarok-tarsasaga",
+      "url": "https://copenhagen.mfa.gov.hu/hu/articles/kituentetes-atadas-es-palasti-mate-gitarkoncertje-aalborgban",
+      "sourceRole": "primary-evidence",
+      "status": "ok",
+      "httpStatus": 200,
+      "resolvedUrl": "https://copenhagen.mfa.gov.hu/hu/articles/kituentetes-atadas-es-palasti-mate-gitarkoncertje-aalborgban",
+      "contentType": "text/html; charset=utf-8",
+      "checkedAt": "2026-09-30T09:16:52+00:00",
+      "removalAuthority": false,
+      "note": null
+    },
+    {
+      "id": "hya-denmark",
+      "url": "https://hungarianyouthassociation.squarespace.com/denmark",
+      "sourceRole": "official-website",
+      "status": "http-error",
+      "httpStatus": 404,
+      "resolvedUrl": "https://hungarianyouthassociation.squarespace.com/denmark",
+      "contentType": "",
+      "checkedAt": "2026-09-30T09:16:52+00:00",
+      "removalAuthority": false,
+      "note": "Technical failure alone is never evidence for entity removal."
+    },
+    {
+      "id": "alba-hungarica",
+      "url": "https://www.postage.dk/virksomhed/1205415-alba-hungarica/",
+      "sourceRole": "primary-evidence",
+      "status": "ok",
+      "httpStatus": 200,
+      "resolvedUrl": "https://www.postage.dk/virksomhed/1205415-alba-hungarica/",
+      "contentType": "text/html; charset=utf-8",
+      "checkedAt": "2026-09-30T09:16:52+00:00",
+      "removalAuthority": false,
+      "note": null
+    },
+    {
+      "id": "dansk-ungarsk-venskabsforening",
+      "url": "https://www.proff.dk/firma/dansk-ungarsk-venskabsforening/kjellerup/medlemsorganisationer/0J482VI10PU",
+      "sourceRole": "primary-evidence",
+      "status": "site-blocked",
+      "httpStatus": 403,
+      "resolvedUrl": "https://www.proff.dk/firma/dansk-ungarsk-venskabsforening/kjellerup/medlemsorganisationer/0J482VI10PU",
+      "contentType": "",
+      "checkedAt": "2026-09-30T09:16:52+00:00",
+      "removalAuthority": false,
+      "note": "Technical failure alone is never evidence for entity removal."
+    }
+  ]
+}
