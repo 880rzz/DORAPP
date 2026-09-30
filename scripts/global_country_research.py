@@ -8,7 +8,7 @@ DATA = ROOT / "data"
 GLOBAL = DATA / "global.json"
 STATE = DATA / "research-state.json"
 RUNS = DATA / "daily-runs"
-BATCH_SIZE = 3
+BATCH_SIZE = 8
 TIMEOUT = 20
 UA = "DORAPP-Global-Steward/1.0 (+https://diaszpora.kozpontiszovetseg.at/)"
 
