@@ -62,13 +62,36 @@ def main():
         rows=[]
         for o in org.get("organizations",[]):
             url=o.get("website")
-            if not url: continue
+            source_role="official-website"
+            if not url:
+                trusted={"official","government","institutional","registry","first-party-person"}
+                evidence=[e for e in (o.get("evidenceSources") or []) if e.get("url") and e.get("type") in trusted]
+                if evidence:
+                    url=evidence[0]["url"]
+                    source_role="primary-evidence"
+            if not url:
+                rows.append({
+                  "id":o.get("id"),
+                  "url":None,
+                  "sourceRole":"none",
+                  "status":"no-verifiable-web-source",
+                  "httpStatus":None,
+                  "resolvedUrl":None,
+                  "contentType":"",
+                  "checkedAt":checked,
+                  "removalAuthority":False,
+                  "note":"No web source is available; this is a data-quality review condition, not removal evidence."
+                })
+                bad+=1
+                total+=1
+                continue
             status,code,final,ctype=check(url)
             total+=1
             if status!="ok": bad+=1
             rows.append({
               "id":o.get("id"),
               "url":url,
+              "sourceRole":source_role,
               "status":status,
               "httpStatus":code,
               "resolvedUrl":final,
