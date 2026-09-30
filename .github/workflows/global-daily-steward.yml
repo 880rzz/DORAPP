@@ -9,6 +9,8 @@ on:
       - ".github/workflows/global-daily-steward.yml"
       - "scripts/global_country_research.py"
       - "scripts/generate_global_compat.py"
+      - "scripts/enrich_country_registry.py"
+      - "scripts/verify_discovery_candidates.py"
 
 permissions:
   contents: write
@@ -30,8 +32,14 @@ jobs:
           git fetch origin main
           git reset --hard origin/main
 
+      - name: Enrich country registry names
+        run: python scripts/enrich_country_registry.py
+
       - name: Run deterministic country research batch
         run: python scripts/global_country_research.py
+
+      - name: Qualify discovery candidates
+        run: python scripts/verify_discovery_candidates.py
 
       - name: Rebuild global compatibility and validate
         run: |
@@ -44,13 +52,13 @@ jobs:
 
       - name: Commit material changes safely
         run: |
-          if [ -z "$(git status --porcelain -- data/global.json data/research-state.json data/daily-runs data/countries countries)" ]; then
+          if [ -z "$(git status --porcelain -- data/global.json data/research-state.json data/verification-queue.json data/daily-runs data/countries countries)" ]; then
             echo "No material global research changes"
             exit 0
           fi
           git config user.name "dorapp-global-steward[bot]"
           git config user.email "actions@users.noreply.github.com"
-          git add data/global.json data/research-state.json data/daily-runs data/countries countries
+          git add data/global.json data/research-state.json data/verification-queue.json data/daily-runs data/countries countries
           git commit -m "chore(global): rotate diaspora research batch"
           for attempt in 1 2 3; do
             if git push origin HEAD:main; then
