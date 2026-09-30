@@ -29,6 +29,11 @@ events=EV.get("events",[])
 categories=ORG.get("categoryDefinitions",[])
 DATA_MODIFIED=max(str(x or "")[:10] for x in (ORG.get("updated"),EDU.get("updated"),EV.get("updated")) if x)
 
+expected_event_files={f'{event["id"]}.html' for event in events}
+for path in EVENT_DIR.glob("*.html"):
+    if path.name not in expected_event_files:
+        path.unlink()
+
 PUBLISHER={
   "@type":"Organization",
   "@id":BASE+"/#publisher",

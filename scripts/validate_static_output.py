@@ -54,6 +54,11 @@ for x in ev.get("events",[]):
     url=f'{BASE}/esemenyek/{encoded}.html'
     check_page(f'esemenyek/{x["id"]}.html',url,url+"#event")
 
+expected_event_pages={f'{x["id"]}.html' for x in ev.get("events",[])}
+for path in (ROOT/"esemenyek").glob("*.html"):
+    if path.name not in expected_event_pages:
+        errors.append(f"stale generated event page: esemenyek/{path.name}")
+
 for country in globaldb.get("countries",[]):
     iso=country["iso2"]
     path=ROOT/"countries"/iso/"index.html"
