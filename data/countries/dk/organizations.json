@@ -1,0 +1,243 @@
+{
+  "updated": "2026-09-30",
+  "sourcePolicy": "Danish country dataset. First-party, official registry, embassy/institutional and established diaspora sources are preferred. Activities are modeled as child programs rather than separate organizations where ownership is evidenced.",
+  "organizations": [
+    {
+      "id": "dan-magyar-egyesulet",
+      "name": "Dán-Magyar Egyesület",
+      "country": "dk",
+      "region": "Hovedstaden",
+      "city": "Hillerød",
+      "type": "community association",
+      "entityClass": "organization",
+      "legalForm": "Frivillig forening",
+      "cvr": "37194573",
+      "founded": "2015-11-01",
+      "website": "https://www.dan-magyar.dk/",
+      "facebook": "https://www.facebook.com/danmagyaregyesulet",
+      "intro": "Dániában élő magyarok közösségi és kulturális egyesülete; programokat, közösségi eseményeket és kulturális kezdeményezéseket szervez.",
+      "activities": [
+        "közösségi programok",
+        "kulturális események",
+        "családi programok",
+        "táncház és zenei programok",
+        "önkéntes közösségépítés"
+      ],
+      "childPrograms": [
+        "koppenhagai-magyar-iskola"
+      ],
+      "profileVerifiedAt": "2026-09-30",
+      "evidenceSources": [
+        {
+          "label": "Dán-Magyar Egyesület – hivatalos oldal",
+          "url": "https://www.dan-magyar.dk/",
+          "type": "official"
+        },
+        {
+          "label": "Koppenhágai önkormányzat – jóváhagyott egyesületek (CVR 37194573)",
+          "url": "https://www.kk.dk/sites/default/files/2024-10/Godkendte%20foreninger%20pr.%2029.10.2024_0.pdf",
+          "type": "government"
+        },
+        {
+          "label": "Magyarország Nagykövetsége Koppenhága – közös táncház",
+          "url": "https://koppenhaga.mfa.gov.hu/hun/news/nepzenei-koncert-es-tanchaz-koppenhagaban",
+          "type": "institutional"
+        },
+        {
+          "label": "Proff/CVR – Dán-Magyar Egyesület",
+          "url": "https://www.proff.dk/firma/d%C3%A1n-magyar-egyes%C3%BClet/hiller%C3%B8d/medlemsorganisationer/GVSI7AI10PU",
+          "type": "registry"
+        }
+      ],
+      "calendarSources": [
+        {
+          "label": "Dán-Magyar Egyesület – események",
+          "url": "https://www.dan-magyar.dk/esemenyek/",
+          "kind": "official-calendar",
+          "scope": "self",
+          "ingestEvents": true
+        }
+      ]
+    },
+    {
+      "id": "dama-dan-magyar-kulturalis-egyesulet",
+      "name": "DÁMA Dán–Magyar Kulturális Egyesület",
+      "country": "dk",
+      "region": "Syddanmark",
+      "city": "Haderslev",
+      "type": "cultural association",
+      "entityClass": "organization",
+      "legalForm": "Frivillig forening",
+      "cvr": "40255931",
+      "founded": "2019",
+      "website": "https://damaklub.dk/",
+      "email": "damaklub.dk@gmail.com",
+      "phone": "+45 52 65 76 61",
+      "intro": "Dániában élő magyar családokat összefogó nonprofit kulturális egyesület, közösségi rendezvényekkel, magyar nyelvi és hagyományőrző programokkal.",
+      "activities": [
+        "magyar kulturális rendezvények",
+        "hétvégi magyar iskola",
+        "óvodai és gyermekfoglalkozások",
+        "néptánc",
+        "családi programok"
+      ],
+      "childPrograms": [
+        "dama-hetvegi-magyar-iskola"
+      ],
+      "profileVerifiedAt": "2026-09-30",
+      "evidenceSources": [
+        {
+          "label": "DÁMA – hivatalos oldal",
+          "url": "https://damaklub.dk/",
+          "type": "official"
+        },
+        {
+          "label": "DÁMA – Rólunk",
+          "url": "https://damaklub.dk/rolunk/",
+          "type": "official"
+        },
+        {
+          "label": "DÁMA – Kapcsolat / CVR",
+          "url": "https://damaklub.dk/kapcsolat/",
+          "type": "official"
+        },
+        {
+          "label": "Kőrösi Csoma Sándor Program – DÁMA",
+          "url": "https://www.korosiprogram.hu/partnereink/dama-dan-magyar-kulturalis-egyesulet",
+          "type": "institutional"
+        }
+      ],
+      "calendarSources": [
+        {
+          "label": "DÁMA – események és hírek",
+          "url": "https://damaklub.dk/",
+          "kind": "official-website",
+          "scope": "self",
+          "ingestEvents": false
+        }
+      ]
+    },
+    {
+      "id": "aalborgi-magyarok-tarsasaga",
+      "name": "Aalborgi Magyarok Társasága",
+      "country": "dk",
+      "region": "Nordjylland",
+      "city": "Aalborg",
+      "type": "community association",
+      "entityClass": "organization",
+      "founded": "2010",
+      "intro": "Észak-Jütland magyar közösségi egyesülete, amely nemzeti, kulturális és családi programokat szervez Aalborgban és környékén.",
+      "profileVerifiedAt": "2026-09-30",
+      "evidenceSources": [
+        {
+          "label": "Magyarország Nagykövetsége Koppenhága – Aalborgi Magyarok Társasága története",
+          "url": "https://copenhagen.mfa.gov.hu/hu/articles/kituentetes-atadas-es-palasti-mate-gitarkoncertje-aalborgban",
+          "type": "institutional"
+        },
+        {
+          "label": "Magyarország Nagykövetsége Koppenhága – közös március 15-i program",
+          "url": "https://copenhagen.mfa.gov.hu/hu/articles/marcius-15-ei-megemlekezes-es-nemzeti-uennepi-fogadas-koppenhagaban-es-aalborgban",
+          "type": "institutional"
+        },
+        {
+          "label": "Egyesületi nap 2026 – host listing",
+          "url": "https://happeningnext.com/event/egyes%C3%BCleti-nap-2026-eid3a0e11ffo5",
+          "type": "secondary"
+        }
+      ],
+      "calendarSources": [
+        {
+          "label": "Aalborgi Magyarok Társasága – közösségi események",
+          "url": "https://happeningnext.com/event/egyes%C3%BCleti-nap-2026-eid3a0e11ffo5",
+          "kind": "secondary-event-discovery",
+          "scope": "self",
+          "ingestEvents": false
+        }
+      ]
+    },
+    {
+      "id": "hya-denmark",
+      "name": "Hungarian Youth Association – Denmark",
+      "country": "dk",
+      "scope": "national",
+      "type": "student and youth network",
+      "entityClass": "organization",
+      "website": "https://hungarianyouthassociation.squarespace.com/denmark",
+      "email": "denmark@hunyouth.org",
+      "intro": "A Hungarian Youth Association dániai országos hálózata, amely dániai egyetemeken tanuló és fiatal felnőtt magyarokat kapcsol össze.",
+      "activities": [
+        "egyetemi és diákközösségi kapcsolatépítés",
+        "külföldi tanulmányi tájékoztatás",
+        "közösségi események"
+      ],
+      "profileVerifiedAt": "2026-09-30",
+      "evidenceSources": [
+        {
+          "label": "HYA Denmark – hivatalos országoldal",
+          "url": "https://hungarianyouthassociation.squarespace.com/denmark",
+          "type": "official"
+        }
+      ]
+    },
+    {
+      "id": "alba-hungarica",
+      "name": "Alba Hungarica",
+      "country": "dk",
+      "region": "Midtjylland",
+      "city": "Ulstrup",
+      "type": "community association",
+      "entityClass": "organization",
+      "legalForm": "Frivillig forening",
+      "cvr": "44359774",
+      "founded": "2023-10-10",
+      "phone": "+45 53 33 48 47",
+      "email": "blenesieniko@yahoo.com",
+      "intro": "Közép-jütlandi magyar közösségi egyesület, amely a helyi magyar közösség számára szervez programokat és közösségi eseményeket.",
+      "profileVerifiedAt": "2026-09-30",
+      "evidenceSources": [
+        {
+          "label": "Dán nyilvános CVR/DAR-adatokra épülő regiszterprofil",
+          "url": "https://www.postage.dk/virksomhed/1205415-alba-hungarica/",
+          "type": "registry"
+        },
+        {
+          "label": "Krak/Proff – Alba Hungarica CVR 44359774",
+          "url": "https://www.krak.dk/alba%2Bhungarica%2Bulstrup/172505836/firma",
+          "type": "registry"
+        },
+        {
+          "label": "Egyesületi elnöki profil – helyi magyar közösségi tevékenység",
+          "url": "https://dk.linkedin.com/in/enik%C5%91bl%C3%A9nesi",
+          "type": "first-party-person"
+        }
+      ]
+    },
+    {
+      "id": "dansk-ungarsk-venskabsforening",
+      "name": "Dansk-Ungarsk Venskabsforening",
+      "country": "dk",
+      "region": "Midtjylland",
+      "city": "Kjellerup",
+      "type": "friendship association",
+      "entityClass": "organization",
+      "legalForm": "Frivillig forening",
+      "cvr": "32109799",
+      "founded": "2009-05-13",
+      "phone": "+45 86 88 23 49",
+      "intro": "Dán–magyar baráti egyesület, amely civil és kulturális kapcsolatokon keresztül támogatja a dán–magyar közösségi kapcsolatokat.",
+      "profileVerifiedAt": "2026-09-30",
+      "evidenceSources": [
+        {
+          "label": "Proff/CVR – Dansk-Ungarsk Venskabsforening",
+          "url": "https://www.proff.dk/firma/dansk-ungarsk-venskabsforening/kjellerup/medlemsorganisationer/0J482VI10PU",
+          "type": "registry"
+        },
+        {
+          "label": "Magyar–Dán Kulturális Egyesület – partnerkapcsolat bemutatása",
+          "url": "https://mdkulturalisegyesulet.hu/",
+          "type": "institutional"
+        }
+      ]
+    }
+  ]
+}
