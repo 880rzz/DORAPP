@@ -20,7 +20,7 @@ permissions:
   contents: write
 
 concurrency:
-  group: dorapp-global-daily-steward
+  group: dorapp-global-daily-steward-v2
   cancel-in-progress: true
 
 jobs:
