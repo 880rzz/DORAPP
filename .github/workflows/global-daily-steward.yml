@@ -14,6 +14,7 @@ on:
       - "scripts/verify_first_party_sites.py"
       - "scripts/promote_verified_entities.py"
       - "scripts/generate_global_profiles.py"
+      - "scripts/audit_global_source_health.py"
 
 permissions:
   contents: write
@@ -52,6 +53,9 @@ jobs:
 
       - name: Promote location-verified entities
         run: python scripts/promote_verified_entities.py
+
+      - name: Audit canonical source health
+        run: python scripts/audit_global_source_health.py
 
       - name: Rebuild global compatibility and validate
         run: |
