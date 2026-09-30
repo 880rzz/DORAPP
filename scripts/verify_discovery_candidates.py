@@ -2,6 +2,7 @@
 import json, re, urllib.parse, urllib.request
 from pathlib import Path
 from datetime import datetime, timezone
+from concurrent.futures import ThreadPoolExecutor, as_completed
 
 ROOT=Path(__file__).resolve().parents[1]
 DATA=ROOT/"data"
@@ -92,21 +93,34 @@ def main():
     checked=now_iso()
     current=[]
 
+    docs={}
+    tasks=[]
     for iso in attempted:
-        c=by.get(iso)
-        if not c: continue
+        country=by.get(iso)
+        if not country:
+            continue
         p=DATA/"countries"/iso/"discovery-sources.json"
-        if not p.exists(): continue
+        if not p.exists():
+            continue
         doc=json.loads(p.read_text(encoding="utf-8"))
+        docs[iso]=(p,doc)
         for item in doc.get("sources",[]):
-            if item.get("sourceType")!="wikipedia-discovery":
-                continue
+            if item.get("sourceType")=="wikipedia-discovery":
+                tasks.append((iso,country,item))
+
+    with ThreadPoolExecutor(max_workers=8) as pool:
+        future_map={pool.submit(qualified_item,item,country,checked):(iso,item) for iso,country,item in tasks}
+        for future in as_completed(future_map):
+            iso,item=future_map[future]
             try:
-                q=qualified_item(item,c,checked)
-                if q: current.append(q)
+                q=future.result()
+                if q:
+                    current.append(q)
             except Exception as e:
                 item["verificationCheckedAt"]=checked
                 item["verificationError"]=type(e).__name__
+
+    for iso,(p,doc) in docs.items():
         doc["verificationUpdated"]=checked
         p.write_text(json.dumps(doc,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
 
