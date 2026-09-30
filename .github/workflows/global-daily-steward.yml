@@ -4,6 +4,11 @@ on:
   schedule:
     - cron: "17 2 * * *"
   workflow_dispatch:
+  push:
+    paths:
+      - ".github/workflows/global-daily-steward.yml"
+      - "scripts/global_country_research.py"
+      - "scripts/generate_global_compat.py"
 
 permissions:
   contents: write
