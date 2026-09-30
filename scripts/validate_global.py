@@ -35,6 +35,14 @@ def validate_completion(iso,p,c):
         for row in coverage:
             if not str(row.get("status","")).startswith("reviewed"):
                 errors.append(f"incomplete research coverage: {iso}/{row.get('category')}")
+        org_doc=read_json(p/"organizations.json") if (p/"organizations.json").exists() else {"organizations":[]}
+        edu_doc=read_json(p/"education.json") if (p/"education.json").exists() else {"institutions":[]}
+        actual_org=sorted(o.get("id") for o in org_doc.get("organizations",[]) if o.get("id"))
+        actual_edu=sorted(e.get("id") for e in edu_doc.get("institutions",edu_doc.get("education",edu_doc.get("items",[]))) if e.get("id"))
+        if sorted(comp.get("canonicalOrganizationIds") or [])!=actual_org:
+            errors.append(f"completion organization inventory drift: {iso}")
+        if sorted(comp.get("canonicalEducationIds") or [])!=actual_edu:
+            errors.append(f"completion education inventory drift: {iso}")
 
 g=read_json(DATA/"global.json")
 seen=set()
@@ -101,6 +109,30 @@ for c in g.get("countries",[]):
 
         edu_path=p/"education.json"
         edu_doc=read_json(edu_path) if edu_path.exists() else {"institutions":[]}
+        edu_items=edu_doc.get("institutions",edu_doc.get("education",edu_doc.get("items",[])))
+        org_ids={o.get("id") for o in org_doc.get("organizations",[]) if o.get("id")}
+        edu_ids=set()
+        for e in edu_items:
+            eid=e.get("id")
+            if not eid:
+                errors.append(f"missing education id: {iso}")
+                continue
+            if eid in edu_ids:
+                errors.append(f"duplicate education id: {iso}/{eid}")
+            edu_ids.add(eid)
+            if e.get("country")!=iso:
+                errors.append(f"education country mismatch: {iso}/{eid}")
+            if not e.get("city"):
+                errors.append(f"missing education city: {iso}/{eid}")
+            evidence=e.get("evidenceSources") or []
+            if not any(x.get("url") and x.get("type") in TRUSTED_EVIDENCE for x in evidence):
+                errors.append(f"missing trusted education evidence: {iso}/{eid}")
+            operator=e.get("operatorId")
+            if operator and operator not in org_ids:
+                errors.append(f"unknown education operator: {iso}/{eid}->{operator}")
+            profile=ROOT/"countries"/iso/"education"/f"{eid}.html"
+            if not profile.exists():
+                errors.append(f"missing generated education profile: {iso}/{eid}")
 
         org_items=org_doc.get("organizations",[])
         expected={
@@ -108,7 +140,7 @@ for c in g.get("countries",[]):
             "activities":sum(1 for o in org_items if o.get("entityClass")=="activity"),
             "entities":len(org_items),
             "events":0,
-            "education":len(edu_doc.get("institutions",edu_doc.get("education",edu_doc.get("items",[]))))
+            "education":len(edu_items)
         }
         event_path=p/"events.json"
         if event_path.exists():
