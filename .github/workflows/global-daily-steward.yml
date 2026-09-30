@@ -45,15 +45,19 @@ jobs:
         run: python scripts/enrich_country_registry.py
 
       - name: Run deterministic country research batch
+        if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
         run: python scripts/global_country_research.py
 
       - name: Qualify discovery candidates
+        if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
         run: python scripts/verify_discovery_candidates.py
 
       - name: Verify first-party sites
+        if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
         run: python scripts/verify_first_party_sites.py
 
       - name: Promote location-verified entities
+        if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
         run: python scripts/promote_verified_entities.py
 
       - name: Audit canonical source health
