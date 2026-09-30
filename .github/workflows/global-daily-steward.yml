@@ -1,0 +1,61 @@
+name: DORAPP Global Daily Steward
+
+on:
+  schedule:
+    - cron: "17 2 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: dorapp-global-daily-steward
+  cancel-in-progress: false
+
+jobs:
+  research:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Reconcile with latest main
+        run: |
+          git fetch origin main
+          git reset --hard origin/main
+
+      - name: Run deterministic country research batch
+        run: python scripts/global_country_research.py
+
+      - name: Rebuild global compatibility and validate
+        run: |
+          python scripts/generate_global_compat.py
+          python scripts/validate_global.py
+          python scripts/generate_country_pages.py
+          node --check app.js
+          python scripts/validate_directory.py
+          python scripts/validate_static_output.py
+
+      - name: Commit material changes safely
+        run: |
+          if [ -z "$(git status --porcelain -- data/global.json data/research-state.json data/daily-runs data/countries countries)" ]; then
+            echo "No material global research changes"
+            exit 0
+          fi
+          git config user.name "dorapp-global-steward[bot]"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/global.json data/research-state.json data/daily-runs data/countries countries
+          git commit -m "chore(global): rotate diaspora research batch"
+          for attempt in 1 2 3; do
+            if git push origin HEAD:main; then
+              exit 0
+            fi
+            echo "Push race on attempt $attempt; rebasing on latest main"
+            git fetch origin main
+            git rebase origin/main || {
+              git rebase --abort || true
+              exit 1
+            }
+          done
+          exit 1
