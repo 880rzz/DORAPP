@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 import json, re, html as htmlmod, urllib.parse, urllib.request
 from datetime import datetime, timezone
+from concurrent.futures import ThreadPoolExecutor, as_completed
 from pathlib import Path
 
 ROOT=Path(__file__).resolve().parents[1]
@@ -81,6 +82,68 @@ def identity_tokens(title):
     stop={"hungarian","magyar","association","community","school","church","club","society","of","the","in","and","egyesulet","kozosseg","iskola"}
     return {x for x in re.findall(r"[a-zA-ZÀ-ž0-9]{4,}",norm(title)) if x not in stop}
 
+def verify_item(item,c,checked):
+    iso=item.get("country")
+    names=c.get("name") or {}
+    tokens=identity_tokens(item.get("title"))
+    best=None
+    for url in item.get("firstPartyCandidates",[])[:8]:
+        try:
+            final_url,raw,_=fetch(url)
+            text=strip_html(raw)
+            if not text:
+                continue
+            org_signal=bool(re.search(r"\b(hungarian|magyar)\b",text)) and bool(re.search(r"\b(association|community|school|church|club|society|cultural|scout|choir|theatre|foundation|center|centre|egyesulet|kozosseg|iskola|templom|cserkesz)\b",text))
+            token_hits=sum(1 for t in tokens if t in text)
+            for obj in jsonld_objects(raw):
+                types=type_set(obj)&ORG_TYPES
+                if not types:
+                    continue
+                name=obj.get("name")
+                if not name:
+                    continue
+                addr=address_parts(obj)
+                addr_country=addr.get("addressCountry")
+                if isinstance(addr_country,dict):
+                    addr_country=addr_country.get("name")
+                locality=addr.get("addressLocality")
+                region=addr.get("addressRegion")
+                if not country_match(addr_country,iso,names,text):
+                    continue
+                identity_ok=token_hits>=1 or norm(name) in text
+                score=(3 if org_signal else 0)+(2 if identity_ok else 0)+(2 if locality else 0)+(1 if region else 0)
+                candidate={
+                  "country":iso,
+                  "name":name,
+                  "entityType":next(iter(types)),
+                  "website":final_url,
+                  "city":locality,
+                  "region":region,
+                  "addressCountry":addr_country or iso.upper(),
+                  "secondaryUrl":item.get("secondaryUrl"),
+                  "verifiedAt":checked,
+                  "verificationScore":score,
+                  "verificationMethod":"first-party HTML + JSON-LD organization + country match",
+                }
+                if not best or candidate["verificationScore"]>best["verificationScore"]:
+                    best=candidate
+        except Exception:
+            continue
+
+    if best and best["verificationScore"]>=7 and best.get("city"):
+        item["firstPartyStatus"]="verified-promotion-ready"
+        item["firstPartyVerifiedAt"]=checked
+        item["verifiedUrl"]=best["website"]
+        return best
+    if best:
+        item["firstPartyStatus"]="verified-partial"
+        item["firstPartyVerifiedAt"]=checked
+        item["verifiedUrl"]=best["website"]
+        return None
+    item["firstPartyStatus"]="no-strong-first-party-proof"
+    item["firstPartyVerifiedAt"]=checked
+    return None
+
 def main():
     if not QUEUE.exists():
         print("No verification queue yet")
@@ -90,65 +153,28 @@ def main():
     q=json.loads(QUEUE.read_text(encoding="utf-8"))
     checked=now_iso()
     ready=[]
-    processed=0
+    work=[]
     for item in q.get("items",[]):
-        if processed>=MAX_ITEMS: break
+        if len(work)>=MAX_ITEMS:
+            break
         iso=item.get("country")
-        c=by.get(iso)
-        if not c: continue
-        names=c.get("name") or {}
-        tokens=identity_tokens(item.get("title"))
-        best=None
-        for url in item.get("firstPartyCandidates",[])[:8]:
+        country=by.get(iso)
+        if country:
+            work.append((item,country))
+
+    with ThreadPoolExecutor(max_workers=6) as pool:
+        futures={pool.submit(verify_item,item,country,checked):item for item,country in work}
+        for future in as_completed(futures):
             try:
-                final_url,raw,_=fetch(url)
-                text=strip_html(raw)
-                if not text: continue
-                org_signal=bool(re.search(r"\b(hungarian|magyar)\b",text)) and bool(re.search(r"\b(association|community|school|church|club|society|cultural|scout|choir|theatre|foundation|center|centre|egyesulet|kozosseg|iskola|templom|cserkesz)\b",text))
-                token_hits=sum(1 for t in tokens if t in text)
-                for obj in jsonld_objects(raw):
-                    if not (type_set(obj)&ORG_TYPES): continue
-                    name=obj.get("name")
-                    if not name: continue
-                    addr=address_parts(obj)
-                    addr_country=addr.get("addressCountry")
-                    if isinstance(addr_country,dict):
-                        addr_country=addr_country.get("name")
-                    locality=addr.get("addressLocality")
-                    region=addr.get("addressRegion")
-                    if not country_match(addr_country,iso,names,text): continue
-                    identity_ok=token_hits>=1 or norm(name) in text
-                    score=(3 if org_signal else 0)+(2 if identity_ok else 0)+(2 if locality else 0)+(1 if region else 0)
-                    candidate={
-                      "country":iso,
-                      "name":name,
-                      "entityType":next(iter(type_set(obj)&ORG_TYPES)),
-                      "website":final_url,
-                      "city":locality,
-                      "region":region,
-                      "addressCountry":addr_country or iso.upper(),
-                      "secondaryUrl":item.get("secondaryUrl"),
-                      "verifiedAt":checked,
-                      "verificationScore":score,
-                      "verificationMethod":"first-party HTML + JSON-LD organization + country match",
-                    }
-                    if not best or candidate["verificationScore"]>best["verificationScore"]:
-                        best=candidate
+                candidate=future.result()
+                if candidate:
+                    ready.append(candidate)
             except Exception:
-                continue
-        processed+=1
-        if best and best["verificationScore"]>=7 and best.get("city"):
-            item["firstPartyStatus"]="verified-promotion-ready"
-            item["firstPartyVerifiedAt"]=checked
-            item["verifiedUrl"]=best["website"]
-            ready.append(best)
-        elif best:
-            item["firstPartyStatus"]="verified-partial"
-            item["firstPartyVerifiedAt"]=checked
-            item["verifiedUrl"]=best["website"]
-        else:
-            item["firstPartyStatus"]="no-strong-first-party-proof"
-            item["firstPartyVerifiedAt"]=checked
+                item=futures[future]
+                item["firstPartyStatus"]="verification-error"
+                item["firstPartyVerifiedAt"]=checked
+
+    processed=len(work)
     q["updated"]=checked
     QUEUE.write_text(json.dumps(q,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
 
