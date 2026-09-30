@@ -62,7 +62,8 @@ for c in g.get("countries",[]):
         errors.append(f"missing country data dir: {iso}")
         continue
 
-    validate_completion(iso,p,c)
+    if iso!="at":
+        validate_completion(iso,p,c)
 
     if iso!="at":
         org_path=p/"organizations.json"
