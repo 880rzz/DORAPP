@@ -13,14 +13,14 @@ TIMEOUT = 20
 UA = "DORAPP-Global-Steward/1.0 (+https://diaszpora.kozpontiszovetseg.at/)"
 
 QUERY_TEMPLATES = [
-    ("hu", "magyar egyesület {country}"),
-    ("hu", "magyar közösség {country}"),
-    ("hu", "magyar iskola {country}"),
-    ("hu", "magyar cserkész {country}"),
-    ("en", "Hungarian association {country}"),
-    ("en", "Hungarian community {country}"),
-    ("en", "Hungarian school {country}"),
-    ("en", "Hungarian church {country}"),
+    ("hu", "\"{country}\" magyar egyesület"),
+    ("hu", "\"{country}\" magyar közösség"),
+    ("hu", "\"{country}\" magyar iskola"),
+    ("hu", "\"{country}\" magyar cserkész"),
+    ("en", "\"{country}\" Hungarian association"),
+    ("en", "\"{country}\" Hungarian community"),
+    ("en", "\"{country}\" Hungarian school"),
+    ("en", "\"{country}\" Hungarian church"),
 ]
 
 def now_iso():
