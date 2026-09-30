@@ -22,7 +22,7 @@ permissions:
   contents: write
 
 concurrency:
-  group: dorapp-global-daily-steward-v3
+  group: dorapp-global-${{ github.event_name }}-v1
   cancel-in-progress: true
 
 jobs:
