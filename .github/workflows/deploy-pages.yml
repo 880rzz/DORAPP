@@ -31,8 +31,9 @@ jobs:
           python -m json.tool data/global.json >/dev/null
           python scripts/generate_country_pages.py
           python scripts/generate_global_profiles.py
+          python scripts/generate_global_education_profiles.py
           python scripts/validate_global.py
-          python -m py_compile scripts/update_events.py scripts/update_articles.py scripts/audit_education_sites.py scripts/validate_directory.py scripts/validate_global.py scripts/generate_global_compat.py scripts/generate_country_pages.py scripts/generate_global_profiles.py scripts/global_country_research.py scripts/enrich_country_registry.py scripts/verify_discovery_candidates.py scripts/verify_first_party_sites.py scripts/promote_verified_entities.py scripts/audit_global_source_health.py scripts/validate_static_output.py scripts/generate_profiles.py scripts/generate_education_profiles.py scripts/generate_sitemap.py scripts/generate_reference_pages.py scripts/submit_indexnow.py
+          python -m py_compile scripts/update_events.py scripts/update_articles.py scripts/audit_education_sites.py scripts/validate_directory.py scripts/validate_global.py scripts/generate_global_compat.py scripts/generate_country_pages.py scripts/generate_global_profiles.py scripts/generate_global_education_profiles.py scripts/global_country_research.py scripts/enrich_country_registry.py scripts/verify_discovery_candidates.py scripts/verify_first_party_sites.py scripts/promote_verified_entities.py scripts/audit_global_source_health.py scripts/validate_static_output.py scripts/generate_profiles.py scripts/generate_education_profiles.py scripts/generate_sitemap.py scripts/generate_reference_pages.py scripts/submit_indexnow.py
           node --check app.js
           node --check ui.js
           python scripts/validate_directory.py
