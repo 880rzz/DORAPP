@@ -1102,10 +1102,11 @@
     {
       "iso2": "dk",
       "name": {
+        "hu": "Dánia",
         "en": "Denmark",
         "officialEn": "Kingdom of Denmark"
       },
-      "researchStatus": "researching",
+      "researchStatus": "reviewed",
       "countryDataPath": "data/countries/dk/",
       "route": "countries/dk/",
       "counts": {
@@ -1117,7 +1118,12 @@
       },
       "iso3": "DNK",
       "lastResearchAttemptAt": "2026-09-30T06:30:54+00:00",
-      "discoveryCandidateCount": 48
+      "discoveryCandidateCount": 48,
+      "lastBroadVerifiedAt": "2026-09-30",
+      "locales": [
+        "da-DK",
+        "hu"
+      ]
     },
     {
       "iso2": "dm",
