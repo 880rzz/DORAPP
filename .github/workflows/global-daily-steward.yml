@@ -11,6 +11,9 @@ on:
       - "scripts/generate_global_compat.py"
       - "scripts/enrich_country_registry.py"
       - "scripts/verify_discovery_candidates.py"
+      - "scripts/verify_first_party_sites.py"
+      - "scripts/promote_verified_entities.py"
+      - "scripts/generate_global_profiles.py"
 
 permissions:
   contents: write
@@ -44,24 +47,31 @@ jobs:
       - name: Qualify discovery candidates
         run: python scripts/verify_discovery_candidates.py
 
+      - name: Verify first-party sites
+        run: python scripts/verify_first_party_sites.py
+
+      - name: Promote location-verified entities
+        run: python scripts/promote_verified_entities.py
+
       - name: Rebuild global compatibility and validate
         run: |
           python scripts/generate_global_compat.py
           python scripts/validate_global.py
           python scripts/generate_country_pages.py
+          python scripts/generate_global_profiles.py
           node --check app.js
           python scripts/validate_directory.py
           python scripts/validate_static_output.py
 
       - name: Commit material changes safely
         run: |
-          if [ -z "$(git status --porcelain -- data/global.json data/research-state.json data/verification-queue.json data/daily-runs data/countries countries)" ]; then
+          if [ -z "$(git status --porcelain -- data/global.json data/research-state.json data/verification-queue.json data/promotion-ready.json data/daily-runs data/countries countries)" ]; then
             echo "No material global research changes"
             exit 0
           fi
           git config user.name "dorapp-global-steward[bot]"
           git config user.email "actions@users.noreply.github.com"
-          git add data/global.json data/research-state.json data/verification-queue.json data/daily-runs data/countries countries
+          git add data/global.json data/research-state.json data/verification-queue.json data/promotion-ready.json data/daily-runs data/countries countries
           git commit -m "chore(global): rotate diaspora research batch"
           for attempt in 1 2 3; do
             if git push origin HEAD:main; then
