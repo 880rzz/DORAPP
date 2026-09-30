@@ -9,6 +9,7 @@ BASE="https://diaszpora.kozpontiszovetseg.at"
 org=json.loads((ROOT/"data/organizations.json").read_text(encoding="utf-8"))
 edu=json.loads((ROOT/"data/education.json").read_text(encoding="utf-8"))
 ev=json.loads((ROOT/"data/events.json").read_text(encoding="utf-8"))
+globaldb=json.loads((ROOT/"data/global.json").read_text(encoding="utf-8"))
 
 org_updated=str(org.get("updated") or "")[:10]
 edu_updated=str(edu.get("updated") or "")[:10]
@@ -29,6 +30,7 @@ urls += [(f"{BASE}/oktatas/{x['id']}.html",edu_updated) for x in edu.get("instit
 urls += [(f"{BASE}/esemenyek/{quote(x['id'])}.html",str(x.get("verifiedAt") or event_updated)[:10]) for x in ev.get("events",[])]
 urls += [(f"{BASE}/tartomanyok/{x['id']}.html",org_updated) for x in org.get("states",[])]
 urls += [(f"{BASE}/kategoriak/{x['id']}.html",org_updated) for x in org.get("categoryDefinitions",[])]
+urls += [(f"{BASE}/countries/{x['iso2']}/",global_updated) for x in globaldb.get("countries",[])]
 
 xml=['<?xml version="1.0" encoding="UTF-8"?>','<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">']
 for u,lastmod in urls:

@@ -7,6 +7,7 @@ BASE="https://diaszpora.kozpontiszovetseg.at"
 org=json.loads((ROOT/"data/organizations.json").read_text(encoding="utf-8"))
 edu=json.loads((ROOT/"data/education.json").read_text(encoding="utf-8"))
 ev=json.loads((ROOT/"data/events.json").read_text(encoding="utf-8"))
+globaldb=json.loads((ROOT/"data/global.json").read_text(encoding="utf-8"))
 sitemap=(ROOT/"sitemap.xml").read_text(encoding="utf-8")
 errors=[]
 
@@ -52,6 +53,27 @@ for x in ev.get("events",[]):
     encoded=quote(x["id"])
     url=f'{BASE}/esemenyek/{encoded}.html'
     check_page(f'esemenyek/{x["id"]}.html',url,url+"#event")
+
+for country in globaldb.get("countries",[]):
+    iso=country["iso2"]
+    path=ROOT/"countries"/iso/"index.html"
+    canonical=f"{BASE}/countries/{iso}/"
+    if not path.exists():
+        errors.append(f"missing generated country page: countries/{iso}/index.html")
+        continue
+    text=path.read_text(encoding="utf-8")
+    if f'<link rel="canonical" href="{canonical}">' not in text: errors.append(f"canonical mismatch: countries/{iso}/index.html")
+    if '<meta name="robots" content="index,follow' not in text: errors.append(f"robots meta missing: countries/{iso}/index.html")
+    if "googletagmanager.com/gtag/js" in text: errors.append(f"non-consent analytics bootstrap present: countries/{iso}/index.html")
+    if "ui.js" not in text: errors.append(f"shared consent/navigation controller missing: countries/{iso}/index.html")
+    if canonical not in sitemap: errors.append(f"sitemap missing: {canonical}")
+    blocks=re.findall(r'<script type="application/ld\+json">(.*?)</script>',text,re.S)
+    try:
+        payload=json.loads(blocks[0])
+        if payload.get("@type")!="CollectionPage" or payload.get("url")!=canonical:
+            errors.append(f"country schema mismatch: countries/{iso}/index.html")
+    except Exception as ex:
+        errors.append(f"invalid country json-ld: countries/{iso}/index.html -> {ex}")
 
 for p in ("llms.txt","ai.txt","ai-entry.json","entity.jsonld","robots.txt","sitemap.xml","forrasok.html","adatminoseg.html","ui.js"):
     if not (ROOT/p).exists(): errors.append(f"missing trust/search artifact: {p}")

@@ -102,6 +102,34 @@ def addr_text(location):
 def slug(s): return re.sub(r"[^a-z0-9áéíóöőúüű]+","-",str(s).lower()).strip("-")
 def event_id(org_id,name,start): return f"{org_id}-{slug(name)}-{slug(start)}"[:180]
 
+def normalize_iso_datetime(value):
+    """Canonicalize loose Schema.org dates before they reach public JSON."""
+    s=str(value or "").strip()
+    m=re.fullmatch(
+        r"(\d{4})-(\d{1,2})-(\d{1,2})(?:T(\d{1,2}):(\d{2})(?::(\d{2})(\.\d+)?)?(Z|[+-]\d{1,2}:\d{2})?)?",
+        s,
+    )
+    if not m:
+        return s
+    year,month,day,hour,minute,second,fraction,offset=m.groups()
+    result=f"{year}-{int(month):02d}-{int(day):02d}"
+    if hour is None:
+        return result
+    result+=f"T{int(hour):02d}:{minute}"
+    if second is not None:
+        result+=f":{second}{fraction or ''}"
+    if offset:
+        if offset!="Z":
+            sign=offset[0]
+            offset_hour,offset_minute=offset[1:].split(":",1)
+            offset=f"{sign}{int(offset_hour):02d}:{offset_minute}"
+        result+=offset
+    try:
+        datetime.fromisoformat(result.replace("Z","+00:00"))
+    except ValueError:
+        return s
+    return result
+
 def text_value(v):
     if isinstance(v,str): return clean_text(v)
     if isinstance(v,dict): return clean_text(v.get("name") or v.get("description") or "")
@@ -134,7 +162,7 @@ def people_names(v):
     return out
 
 def normalize(x,org,source,discovered_from=None):
-    name=str(x.get("name") or "").strip(); start=x.get("startDate")
+    name=str(x.get("name") or "").strip(); start=normalize_iso_datetime(x.get("startDate"))
     if not name or not start: return None
     venue,address=addr_text(x.get("location"))
     registration,price,currency,availability=offer_details(x.get("offers"))
@@ -145,7 +173,7 @@ def normalize(x,org,source,discovered_from=None):
     audience_text=text_value(audience)
     return {"id":event_id(org["id"],name,start),"organizationId":org["id"],"name":name,"organizer":org["name"],
             "state":org["state"],"city":org["city"],"venue":venue,"address":address,
-            "startDate":str(start),"endDate":str(x.get("endDate") or ""),
+            "startDate":str(start),"endDate":normalize_iso_datetime(x.get("endDate")),
             "description":clean_text(x.get("description")),
             "eventStatus":text_value(x.get("eventStatus")) or None,
             "attendanceMode":text_value(x.get("eventAttendanceMode")) or None,
@@ -373,6 +401,9 @@ def main():
     orgdb=json.loads(ORG_FILE.read_text(encoding="utf-8"))
     old=json.loads(EVENT_FILE.read_text(encoding="utf-8")) if EVENT_FILE.exists() else {"events":[]}
     merged={e["id"]:e for e in old.get("events",[]) if futureish(e.get("startDate"))}
+    for event in merged.values():
+        event["startDate"]=normalize_iso_datetime(event.get("startDate"))
+        event["endDate"]=normalize_iso_datetime(event.get("endDate"))
     health=[]
     def audit_source(org,source_cfg):
         source=source_cfg["url"]

@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 import json,sys,re
+from datetime import datetime
 from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1]
 orgdb=json.loads((ROOT/"data/organizations.json").read_text(encoding="utf-8"))
@@ -155,6 +156,17 @@ for e in evdb.get("events",[]):
     event_source_keys.add(source_key)
     if e.get("organizationId") not in orgset: errors.append(f"orphan event: {e.get('id')}")
     if not e.get("name") or not e.get("startDate") or not e.get("sourceUrl"): errors.append(f"incomplete event: {e.get('id')}")
+    for key in ("startDate","endDate"):
+        value=str(e.get(key) or "")
+        if not value:
+            continue
+        if not re.fullmatch(r"\d{4}-\d{2}-\d{2}(?:T\d{2}:\d{2}(?::\d{2}(?:\.\d+)?)?(?:Z|[+-]\d{2}:\d{2})?)?",value):
+            errors.append(f"invalid event {key}: {e.get('id')} -> {value}")
+            continue
+        try:
+            datetime.fromisoformat(value.replace("Z","+00:00"))
+        except ValueError:
+            errors.append(f"invalid event {key}: {e.get('id')} -> {value}")
     cats=e.get("programCategories") or []
     if not cats:
         errors.append(f"event missing programCategories: {e.get('id')}")
