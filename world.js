@@ -188,6 +188,8 @@ function bindWorldMap(){
   let pointerY = 0;
   let startX = 0;
   let startY = 0;
+  let dragDistance = 0;
+  let suppressCountryClickUntil = 0;
   const minScale = 1;
   const maxScale = 6;
 
@@ -202,7 +204,9 @@ function bindWorldMap(){
   const applyTransform = () => {
     clampPan();
     obj.style.transform = `translate3d(${x}px,${y}px,0) scale(${scale})`;
-    viewport.classList.toggle("is-zoomed", scale > 1);
+    const zoomed = scale > 1;
+    viewport.classList.toggle("is-zoomed", zoomed);
+    obj.style.pointerEvents = zoomed ? "none" : "auto";
     const z = $("#worldMapZoomValue");
     if(z) z.textContent = Math.round(scale*100)+"%";
   };
@@ -219,15 +223,20 @@ function bindWorldMap(){
   },{passive:false});
   viewport.addEventListener("pointerdown",e=>{
     if(scale<=1) return;
-    dragging=true;pointerX=e.clientX;pointerY=e.clientY;startX=x;startY=y;
+    dragging=true;pointerX=e.clientX;pointerY=e.clientY;startX=x;startY=y;dragDistance=0;
+    e.preventDefault();
     viewport.setPointerCapture?.(e.pointerId);
     viewport.classList.add("is-dragging");
   });
   viewport.addEventListener("pointermove",e=>{
     if(!dragging) return;
-    x=startX+(e.clientX-pointerX);y=startY+(e.clientY-pointerY);applyTransform();
+    const dx=e.clientX-pointerX,dy=e.clientY-pointerY;
+    dragDistance=Math.max(dragDistance,Math.hypot(dx,dy));
+    x=startX+dx;y=startY+dy;applyTransform();
   });
   const endDrag=e=>{
+    if(!dragging) return;
+    if(dragDistance>5) suppressCountryClickUntil=performance.now()+250;
     dragging=false;viewport.classList.remove("is-dragging");
     try{viewport.releasePointerCapture?.(e.pointerId)}catch(_){}
   };
@@ -294,7 +303,10 @@ function bindWorldMap(){
       el.setAttribute("tabindex","0");
       el.setAttribute("role","link");
       const go = () => location.href = country.route;
-      el.addEventListener("click",go);
+      el.addEventListener("click",e => {
+        if(performance.now()<suppressCountryClickUntil){e.preventDefault();return;}
+        go();
+      });
       el.addEventListener("keydown",e => {
         if(e.key === "Enter" || e.key === " "){e.preventDefault();go();}
       });
