@@ -476,6 +476,107 @@
         }
       ],
       "calendarSources": []
+    },
+    {
+      "id": "egyben-belgium",
+      "name": "EgyBeN – Egyensúlyban Belgiumban",
+      "country": "be",
+      "scope": "national",
+      "type": "Hungarian professional helper network",
+      "entityClass": "organization",
+      "website": "https://egyben.wixsite.com/belgiumi-segitok",
+      "intro": "Belgiumban élő magyar ajkú segítő szakemberek nyitott szakmai közössége és információs hálózata.",
+      "activities": [
+        "szakmai közösség",
+        "információmegosztás",
+        "magyar nyelvű segítő szakemberek kapcsolati hálója"
+      ],
+      "targetGroups": [
+        "Belgiumban élő magyar ajkú segítő szakemberek",
+        "magyar nyelvű segítséget keresők"
+      ],
+      "profileVerifiedAt": "2026-10-01",
+      "evidenceSources": [
+        {
+          "label": "EgyBeN – hivatalos bemutatkozás",
+          "url": "https://egyben.wixsite.com/belgiumi-segitok",
+          "type": "official"
+        }
+      ],
+      "calendarSources": []
+    },
+    {
+      "id": "magyarorszag-eu-allando-kepviselet-brusszel",
+      "name": "Magyarország Európai Unió melletti Állandó Képviselete",
+      "country": "be",
+      "region": "Brussels-Capital",
+      "city": "Brussels",
+      "type": "permanent representation to the European Union",
+      "entityClass": "host-institution",
+      "website": "https://eu-brusszel.mfa.gov.hu/en",
+      "email": "sec.beu@mfa.gov.hu",
+      "phone": "+32 2 234 12 00",
+      "address": "Rue de Trèves 92-98, 1040 Brussels, Belgium",
+      "intro": "Magyarország Európai Unió melletti brüsszeli állandó képviselete, amely az uniós döntéshozatalban képviseli a magyar álláspontot és magyar intézményi kapcsolódási pontként működik Brüsszelben.",
+      "activities": [
+        "EU-képviselet",
+        "intézményi kapcsolatok",
+        "szakpolitikai koordináció",
+        "sajtókapcsolatok"
+      ],
+      "profileVerifiedAt": "2026-10-01",
+      "evidenceSources": [
+        {
+          "label": "Permanent Representation of Hungary to the European Union – official site",
+          "url": "https://eu-brusszel.mfa.gov.hu/en",
+          "type": "government"
+        },
+        {
+          "label": "Permanent Representation – contact",
+          "url": "https://eu-brusszel.mfa.gov.hu/en/contact",
+          "type": "government"
+        }
+      ],
+      "calendarSources": [
+        {
+          "label": "Permanent Representation – news and highlights",
+          "url": "https://eu-brusszel.mfa.gov.hu/en/articles",
+          "kind": "government-news-events",
+          "scope": "self",
+          "ingestEvents": false
+        }
+      ]
+    },
+    {
+      "id": "eurologus",
+      "name": "EUrologus",
+      "country": "be",
+      "region": "Brussels-Capital",
+      "city": "Brussels",
+      "type": "Hungarian-language EU news and analysis publication",
+      "entityClass": "media",
+      "website": "https://hvg.hu/eurologus",
+      "intro": "Brüsszelből napi rendszerességgel készülő magyar nyelvű EU-hír- és elemző kiadvány, amely 2012 óta foglalkozik európai uniós ügyekkel.",
+      "activities": [
+        "magyar nyelvű EU-hírek",
+        "elemzés",
+        "podcast",
+        "brüsszeli tudósítás"
+      ],
+      "profileVerifiedAt": "2026-10-01",
+      "evidenceSources": [
+        {
+          "label": "EUrologus – HVG rovat",
+          "url": "https://hvg.hu/eurologus",
+          "type": "official"
+        },
+        {
+          "label": "Journalismfund Europe – EUrologus profile",
+          "url": "https://www.journalismfund.eu/media/eurologus",
+          "type": "institutional"
+        }
+      ],
+      "calendarSources": []
     }
   ]
 }
