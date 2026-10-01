@@ -34,7 +34,22 @@
           "inclusionRule": "Only explicitly named special/community occasions or dates presented as publishable public programme items; do not turn routine lessons into public events automatically."
         }
       ],
-      "founded": "1999"
+      "founded": "1999",
+      "publicChannels": [
+        {
+          "label": "Facebook – Kincskereső Oskola",
+          "platform": "Facebook",
+          "url": "https://www.facebook.com/kincskereso.oskola/",
+          "ownership": "self"
+        }
+      ],
+      "activities": [
+        "magyar nyelv és irodalom",
+        "magyar kultúra",
+        "óvodai és iskolaelőkészítő foglalkozás",
+        "iskolás csoportok",
+        "Tiniklub"
+      ]
     },
     {
       "id": "hagai-magyar-ovoda-es-iskola",
@@ -94,6 +109,29 @@
           "url": "https://www.amstelveeni-magyariskola.nl/rolunk/",
           "type": "official"
         }
+      ],
+      "publicChannels": [
+        {
+          "label": "Facebook – Amstelveeni Magyar OviSuli",
+          "platform": "Facebook",
+          "url": "https://www.facebook.com/amstelveenimagyariskola/",
+          "ownership": "self"
+        }
+      ],
+      "calendarSources": [
+        {
+          "label": "Amstelveeni Magyar OviSuli – hírek és programközlések",
+          "url": "https://www.amstelveeni-magyariskola.nl/hirek/",
+          "kind": "official-news-events",
+          "scope": "self",
+          "ingestEvents": false
+        }
+      ],
+      "activities": [
+        "baba-mama csoport",
+        "óvodai csoportok",
+        "iskolaelőkészítő",
+        "magyar nyelvi és kulturális foglalkozások"
       ]
     },
     {
@@ -123,6 +161,21 @@
           "label": "Heritage Language Education Network – Eindhoven Hungarian profile, updated 2026",
           "url": "https://www.hlenet.org/directory",
           "type": "institutional"
+        }
+      ],
+      "activities": [
+        "baba-mama csoport",
+        "óvodai és iskolai csoportok",
+        "magyar nyelvi és kulturális foglalkozások",
+        "családi közösség"
+      ],
+      "calendarSources": [
+        {
+          "label": "Eindhoveni Magyar Ovi-Suli – foglalkozások és hírek",
+          "url": "https://eindhoveni-ovisuli.nl/",
+          "kind": "official-news-events",
+          "scope": "self",
+          "ingestEvents": false
         }
       ]
     }
