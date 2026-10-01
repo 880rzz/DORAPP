@@ -29,9 +29,11 @@ def check(url):
                 return "site-blocked",code,final,ctype
             if code>=400:
                 return "http-error",code,final,ctype
-            if "html" not in ctype:
-                return "content-invalid",code,final,ctype
-            return "ok",code,final,ctype
+            if "html" in ctype:
+                return "ok",code,final,ctype
+            if any(kind in ctype for kind in ("application/pdf","application/json","application/xml","text/xml","text/plain","application/rss+xml","application/atom+xml")):
+                return "ok-non-html",code,final,ctype
+            return "parser-gap",code,final,ctype
     except urllib.error.HTTPError as e:
         if e.code==429:return "rate-limited",e.code,url,""
         if e.code in (401,403):return "site-blocked",e.code,url,""
@@ -87,7 +89,7 @@ def main():
                 continue
             status,code,final,ctype=check(url)
             total+=1
-            if status!="ok": bad+=1
+            if status not in {"ok","ok-non-html"}: bad+=1
             rows.append({
               "id":o.get("id"),
               "url":url,
@@ -98,7 +100,14 @@ def main():
               "contentType":ctype,
               "checkedAt":checked,
               "removalAuthority":False,
-              "note":"Technical failure alone is never evidence for entity removal." if status!="ok" else None
+              "note":(
+                "Reachable non-HTML evidence source; availability is healthy, content parsing is format-specific."
+                if status=="ok-non-html" else
+                "Reachable source with an unsupported content type; parser coverage is missing, not source validity."
+                if status=="parser-gap" else
+                "Technical failure alone is never evidence for entity removal."
+                if status!="ok" else None
+              )
             })
         if rows:
             out=DATA/"countries"/iso/"source-health.json"
