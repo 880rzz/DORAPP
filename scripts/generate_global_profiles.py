@@ -15,8 +15,6 @@ def main():
     generated=0
     for c in g.get("countries",[]):
         iso=c["iso2"]
-        if iso=="at":
-            continue
         doc=read(DATA/"countries"/iso/"organizations.json",{"organizations":[]})
         for o in doc.get("organizations",[]):
             eid=o.get("id")
