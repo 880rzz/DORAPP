@@ -1,0 +1,341 @@
+{
+  "updated": "2026-10-01",
+  "sourcePolicy": "Belgium country dataset. First-party organization, government, institutional and church sources are preferred. Brussels Hungarian House (Hôtel Saintenoy) and the state-operated House of Hungary / Magyarország Háza are modeled as separate entities.",
+  "organizations": [
+    {
+      "id": "brusszeli-magyar-haz",
+      "name": "Magyar Ház Brüsszel / Hôtel Saintenoy",
+      "country": "be",
+      "region": "Brussels-Capital",
+      "city": "Ixelles",
+      "type": "Hungarian community and cultural house",
+      "entityClass": "organization",
+      "website": "https://www.magyarhazbrusszel.be/",
+      "address": "Rue de l'Arbre Bénit 123, 1050 Ixelles, Belgium",
+      "intro": "A brüsszeli magyar közösség történelmi közösségi és kulturális háza, rendszeres kulturális, irodalmi, zenei és közösségi programokkal.",
+      "activities": [
+        "közösségi programok",
+        "kulturális rendezvények",
+        "könyvtár és könyvklub",
+        "zenei programok",
+        "nemzeti megemlékezések"
+      ],
+      "profileVerifiedAt": "2026-10-01",
+      "evidenceSources": [
+        {
+          "label": "Magyar Ház Brüsszel – hivatalos oldal",
+          "url": "https://www.magyarhazbrusszel.be/",
+          "type": "official"
+        },
+        {
+          "label": "Brüsszeli Magyar Katolikus Közösség – Magyar Ház kapcsolat",
+          "url": "https://www.bmkk.be/contact/",
+          "type": "institutional"
+        }
+      ],
+      "calendarSources": [
+        {
+          "label": "Magyar Ház Brüsszel – hírek és programok",
+          "url": "https://www.magyarhazbrusszel.be/2026/",
+          "kind": "official-news-events",
+          "scope": "self",
+          "ingestEvents": true
+        }
+      ]
+    },
+    {
+      "id": "magyarorszag-haza-brusszel",
+      "name": "Magyarország Háza – Brüsszel",
+      "country": "be",
+      "region": "Brussels-Capital",
+      "city": "Brussels",
+      "type": "state cultural and diplomatic venue",
+      "entityClass": "host-institution",
+      "website": "https://maisondelahongrie-bruxelles.hu/",
+      "address": "Rue de la Loi 9, 1000 Bruxelles, Belgium",
+      "intro": "A magyar állam által működtetett brüsszeli reprezentációs és kulturális helyszín a Rue de la Loi 9. szám alatt; nem azonos a történelmi Magyar Ház / Hôtel Saintenoy közösségi házzal.",
+      "activities": [
+        "kulturális programok",
+        "diplomáciai rendezvények",
+        "reprezentáció"
+      ],
+      "profileVerifiedAt": "2026-10-01",
+      "evidenceSources": [
+        {
+          "label": "Magyarország Háza – hivatalos kapcsolat",
+          "url": "https://maisondelahongrie-bruxelles.hu/kapcsolat/",
+          "type": "official"
+        },
+        {
+          "label": "Brüsszeli Magyar Ház Nonprofit Kft. – szervezeti dokumentum",
+          "url": "https://maisondelahongrie-bruxelles.hu/wp-content/uploads/2025/02/3_2025_II.20.-Ugyvezetoi-utastitas_-A-Brusszeli-Magyar-Haz-Nonprofit-Kft.-Szervezeti-es-Mukodesi-Szabalyzatanak-2.-sz.-mod.pdf",
+          "type": "official"
+        }
+      ],
+      "calendarSources": []
+    },
+    {
+      "id": "liszt-intezet-brusszel",
+      "name": "Liszt Intézet – Magyar Kulturális Központ Brüsszel",
+      "country": "be",
+      "region": "Brussels-Capital",
+      "city": "Brussels",
+      "type": "Hungarian cultural institute",
+      "entityClass": "host-institution",
+      "website": "https://culture.hu/en/brussels",
+      "intro": "A brüsszeli Liszt Intézet 2004 óta magyar kulturális, oktatási és tudományos programokat szervez Belgiumban, és kapcsolatot tart a helyi magyar közösséggel.",
+      "activities": [
+        "koncertek",
+        "kiállítások",
+        "előadások",
+        "gyermekprogramok",
+        "nyelvoktatás",
+        "tudományos rendezvények",
+        "könyvtár"
+      ],
+      "profileVerifiedAt": "2026-10-01",
+      "evidenceSources": [
+        {
+          "label": "Liszt Institute Brussels – About us",
+          "url": "https://culture.hu/en/brussels/aboutus-en",
+          "type": "official"
+        }
+      ],
+      "calendarSources": [
+        {
+          "label": "Liszt Institute Brussels – official programme",
+          "url": "https://culture.hu/en/brussels",
+          "kind": "official-calendar",
+          "scope": "self",
+          "ingestEvents": false
+        }
+      ]
+    },
+    {
+      "id": "magyarorszag-nagykovetsege-brusszel",
+      "name": "Magyarország Nagykövetsége Brüsszel",
+      "country": "be",
+      "region": "Brussels-Capital",
+      "city": "Brussels",
+      "type": "embassy",
+      "entityClass": "host-institution",
+      "website": "https://brusszel.mfa.gov.hu/",
+      "intro": "Magyarország belgiumi nagykövetsége; konzuli, diplomáciai és a belgiumi magyar közösséget érintő intézményi feladatokkal.",
+      "activities": [
+        "konzuli ügyek",
+        "diplomácia",
+        "közösségi kapcsolatok",
+        "nemzeti megemlékezések"
+      ],
+      "profileVerifiedAt": "2026-10-01",
+      "evidenceSources": [
+        {
+          "label": "Magyarország Nagykövetsége Brüsszel – hivatalos oldal",
+          "url": "https://brusszel.mfa.gov.hu/",
+          "type": "government"
+        }
+      ],
+      "calendarSources": [
+        {
+          "label": "Nagykövetség – hírek és közösségi események",
+          "url": "https://brusszel.mfa.gov.hu/hu/articles",
+          "kind": "government-news-events",
+          "scope": "self",
+          "ingestEvents": false
+        }
+      ]
+    },
+    {
+      "id": "brusszeli-magyar-katolikus-kozosseg",
+      "name": "Brüsszeli Magyar Katolikus Közösség",
+      "country": "be",
+      "region": "Brussels-Capital",
+      "city": "Ixelles",
+      "type": "Hungarian Catholic community",
+      "entityClass": "organization",
+      "founded": "1930",
+      "website": "https://www.bmkk.be/",
+      "phone": "+32 487 61 40 63",
+      "address": "Rue de l'Arbre Bénit 123, 1050 Ixelles, Belgium",
+      "intro": "Brüsszeli magyar katolikus közösség és lelkészség, rendszeres magyar nyelvű szentmisékkel, hitoktatással és közösségi programokkal.",
+      "activities": [
+        "magyar nyelvű szentmisék",
+        "hitoktatás",
+        "szentségi felkészítés",
+        "közösségi programok"
+      ],
+      "profileVerifiedAt": "2026-10-01",
+      "evidenceSources": [
+        {
+          "label": "Brüsszeli Magyar Katolikus Közösség – hivatalos oldal",
+          "url": "https://www.bmkk.be/",
+          "type": "official"
+        },
+        {
+          "label": "Katolikus Egyház Brüsszel – magyar közösség",
+          "url": "https://www.catho-bruxelles.be/nos-services/vivre-la-fraternite/carl/",
+          "type": "institutional"
+        },
+        {
+          "label": "MKPK diaszpóra – Mission Catholique Hongroise",
+          "url": "https://diaszpora.katolikus.hu/kozossegek/mission-catholique-hongroise",
+          "type": "institutional"
+        }
+      ],
+      "calendarSources": [
+        {
+          "label": "BMKK – hírek",
+          "url": "https://www.bmkk.be/archive/news/",
+          "kind": "official-news-events",
+          "scope": "self",
+          "ingestEvents": true
+        }
+      ],
+      "affiliations": [
+        {
+          "organizationId": "brusszeli-magyar-haz",
+          "label": "Közösségi helyszínkapcsolat"
+        }
+      ]
+    },
+    {
+      "id": "belgiumi-magyar-protestans-gyulekezet",
+      "name": "Belgiumi Magyar Protestáns Gyülekezet",
+      "country": "be",
+      "region": "Brussels-Capital",
+      "city": "Brussels",
+      "type": "Hungarian Protestant congregation",
+      "entityClass": "organization",
+      "website": "https://www.protestans.be/",
+      "address": "Place du Musée 2, 1000 Bruxelles, Belgium",
+      "intro": "Belgiumi magyar református és evangélikus gyülekezet, rendszeres magyar nyelvű brüsszeli istentiszteletekkel és online alkalmakkal.",
+      "activities": [
+        "magyar nyelvű istentiszteletek",
+        "vasárnapi iskola",
+        "online istentisztelet",
+        "közösségi alkalmak"
+      ],
+      "profileVerifiedAt": "2026-10-01",
+      "evidenceSources": [
+        {
+          "label": "Belgiumi Magyar Protestáns Gyülekezet – hivatalos oldal",
+          "url": "https://www.protestans.be/",
+          "type": "official"
+        }
+      ],
+      "calendarSources": [
+        {
+          "label": "Belgiumi Magyar Protestáns Gyülekezet – események",
+          "url": "https://www.protestans.be/",
+          "kind": "official-calendar",
+          "scope": "self",
+          "ingestEvents": true
+        }
+      ]
+    },
+    {
+      "id": "82-bathory-istvan-cserkeszcsapat",
+      "name": "82. sz. Báthory István Cserkészcsapat",
+      "country": "be",
+      "region": "Brussels-Capital",
+      "city": "Brussels",
+      "type": "Hungarian scout troop",
+      "entityClass": "organization",
+      "website": "https://www.cserkesz.be/",
+      "email": "info@cserkesz.be",
+      "intro": "Brüsszelben működő magyar cserkészcsapat, a Külföldi Magyar Cserkészszövetség európai kerületének része.",
+      "activities": [
+        "cserkészet",
+        "magyar kulturális nevelés",
+        "ifjúsági közösség",
+        "táborok",
+        "csapatprogramok"
+      ],
+      "profileVerifiedAt": "2026-10-01",
+      "affiliations": [
+        {
+          "organization": "Külföldi Magyar Cserkészszövetség – Európa",
+          "relationship": "member troop"
+        }
+      ],
+      "evidenceSources": [
+        {
+          "label": "82. Báthory István Cserkészcsapat – hivatalos oldal",
+          "url": "https://www.cserkesz.be/",
+          "type": "official"
+        },
+        {
+          "label": "KMCSSZ Európa – brüsszeli csapat",
+          "url": "https://www.cserkesz.eu/rolunk/",
+          "type": "institutional"
+        }
+      ],
+      "calendarSources": [
+        {
+          "label": "82. Báthory István cserkészcsapat – programok",
+          "url": "https://www.cserkesz.be/",
+          "kind": "official-calendar",
+          "scope": "self",
+          "ingestEvents": true
+        }
+      ]
+    },
+    {
+      "id": "vilagfa-ensemble-brussels",
+      "name": "Világfa Ensemble",
+      "country": "be",
+      "region": "Brussels-Capital",
+      "city": "Ixelles",
+      "type": "Hungarian and Transylvanian folk dance ensemble",
+      "entityClass": "organization",
+      "founded": "2002",
+      "website": "https://www.vilagfa.be/hu/",
+      "intro": "Brüsszeli magyar és erdélyi néptáncegyüttes, amely 2002 óta hagyományőrző táncokkal, próbákkal, táncházakkal és fellépésekkel foglalkozik.",
+      "activities": [
+        "magyar néptánc",
+        "erdélyi néptánc",
+        "moldvai tánc",
+        "táncház",
+        "fellépések",
+        "táncoktatás"
+      ],
+      "serviceLocations": [
+        {
+          "city": "Ixelles",
+          "label": "Próbák",
+          "address": "Albert Demuyter, rue Volta 18, 1050 Ixelles"
+        }
+      ],
+      "profileVerifiedAt": "2026-10-01",
+      "evidenceSources": [
+        {
+          "label": "Világfa Ensemble – hivatalos magyar oldal",
+          "url": "https://www.vilagfa.be/hu/",
+          "type": "official"
+        },
+        {
+          "label": "Hungarian Folklife Association directory",
+          "url": "https://hungarianfolklife.org/directory/",
+          "type": "institutional"
+        }
+      ],
+      "calendarSources": [
+        {
+          "label": "Világfa Ensemble – hírek és események",
+          "url": "https://www.vilagfa.be/hu/",
+          "kind": "official-news-events",
+          "scope": "self",
+          "ingestEvents": true
+        }
+      ],
+      "publicChannels": [
+        {
+          "label": "Facebook – Világfa",
+          "platform": "Facebook",
+          "url": "https://www.facebook.com/vilagfa",
+          "ownership": "self"
+        }
+      ]
+    }
+  ]
+}
