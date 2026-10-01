@@ -374,10 +374,14 @@
     {
       "iso2": "be",
       "name": {
+        "hu": "Belgium",
+        "nl": "België",
+        "fr": "Belgique",
+        "de": "Belgien",
         "en": "Belgium",
         "officialEn": "Kingdom of Belgium"
       },
-      "researchStatus": "unresearched",
+      "researchStatus": "researching",
       "countryDataPath": "data/countries/be/",
       "route": "countries/be/",
       "counts": {
@@ -387,7 +391,16 @@
         "events": 0,
         "education": 0
       },
-      "iso3": "BEL"
+      "iso3": "BEL",
+      "locales": [
+        "nl-BE",
+        "fr-BE",
+        "de-BE",
+        "hu",
+        "en"
+      ],
+      "lastResearchAttemptAt": "2026-10-01",
+      "discoveryCandidateCount": 0
     },
     {
       "iso2": "bf",
