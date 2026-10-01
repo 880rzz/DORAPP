@@ -154,6 +154,8 @@ function addMapCountLabel(doc, el, country, ready){
   let box;
   try{ box = el.getBBox(); }catch(_){ return; }
   if(!box || !Number.isFinite(box.x) || !Number.isFinite(box.y)) return;
+  const count = Number(country.counts?.organizations || 0);
+  if(count <= 0) return;
   const ns = "http://www.w3.org/2000/svg";
   const text = doc.createElementNS(ns,"text");
   text.setAttribute("x", String(box.x + box.width/2));
@@ -161,21 +163,90 @@ function addMapCountLabel(doc, el, country, ready){
   text.setAttribute("text-anchor","middle");
   text.setAttribute("dominant-baseline","central");
   text.setAttribute("font-family","Arial, sans-serif");
-  text.setAttribute("font-weight","700");
-  text.setAttribute("font-size", box.width < 8 || box.height < 8 ? "3.5" : "5.5");
-  text.setAttribute("fill", ready ? "#ffffff" : "#5f6166");
-  text.setAttribute("stroke", ready ? "#7b1d24" : "#d7d8db");
-  text.setAttribute("stroke-width","1.4");
+  text.setAttribute("font-weight","800");
+  text.setAttribute("font-size", box.width < 8 || box.height < 8 ? "4.2" : "6.2");
+  text.setAttribute("fill", ready ? "#24475d" : "#5f6166");
+  text.setAttribute("stroke","#ffffff");
+  text.setAttribute("stroke-width","2");
   text.setAttribute("paint-order","stroke");
   text.setAttribute("pointer-events","none");
   text.setAttribute("aria-hidden","true");
-  text.textContent = String(country.counts?.organizations ?? 0);
+  text.textContent = String(count);
   (el.parentNode || doc.documentElement).appendChild(text);
 }
 
 function bindWorldMap(){
   const obj = $("#worldMap");
-  if(!obj) return;
+  const viewport = $("#worldMapViewport");
+  if(!obj || !viewport) return;
+
+  let scale = 1;
+  let x = 0;
+  let y = 0;
+  let dragging = false;
+  let pointerX = 0;
+  let pointerY = 0;
+  let startX = 0;
+  let startY = 0;
+  const minScale = 1;
+  const maxScale = 6;
+
+  const clampPan = () => {
+    if(scale <= 1){ x = 0; y = 0; return; }
+    const rect = viewport.getBoundingClientRect();
+    const maxX = rect.width * (scale - 1) / 2;
+    const maxY = rect.height * (scale - 1) / 2;
+    x = Math.max(-maxX, Math.min(maxX, x));
+    y = Math.max(-maxY, Math.min(maxY, y));
+  };
+  const applyTransform = () => {
+    clampPan();
+    obj.style.transform = `translate3d(${x}px,${y}px,0) scale(${scale})`;
+    viewport.classList.toggle("is-zoomed", scale > 1);
+    const z = $("#worldMapZoomValue");
+    if(z) z.textContent = Math.round(scale*100)+"%";
+  };
+  const setScale = (next) => {
+    scale = Math.max(minScale,Math.min(maxScale,next));
+    applyTransform();
+  };
+  $("#worldMapZoomIn")?.addEventListener("click",()=>setScale(scale*1.45));
+  $("#worldMapZoomOut")?.addEventListener("click",()=>setScale(scale/1.45));
+  $("#worldMapZoomReset")?.addEventListener("click",()=>{scale=1;x=0;y=0;applyTransform();});
+  viewport.addEventListener("wheel",e=>{
+    e.preventDefault();
+    setScale(scale*(e.deltaY<0?1.18:1/1.18));
+  },{passive:false});
+  viewport.addEventListener("pointerdown",e=>{
+    if(scale<=1) return;
+    dragging=true;pointerX=e.clientX;pointerY=e.clientY;startX=x;startY=y;
+    viewport.setPointerCapture?.(e.pointerId);
+    viewport.classList.add("is-dragging");
+  });
+  viewport.addEventListener("pointermove",e=>{
+    if(!dragging) return;
+    x=startX+(e.clientX-pointerX);y=startY+(e.clientY-pointerY);applyTransform();
+  });
+  const endDrag=e=>{
+    dragging=false;viewport.classList.remove("is-dragging");
+    try{viewport.releasePointerCapture?.(e.pointerId)}catch(_){}
+  };
+  viewport.addEventListener("pointerup",endDrag);
+  viewport.addEventListener("pointercancel",endDrag);
+
+  let pinchDistance = 0;
+  viewport.addEventListener("touchstart",e=>{
+    if(e.touches.length===2){
+      pinchDistance=Math.hypot(e.touches[0].clientX-e.touches[1].clientX,e.touches[0].clientY-e.touches[1].clientY);
+    }
+  },{passive:true});
+  viewport.addEventListener("touchmove",e=>{
+    if(e.touches.length!==2 || !pinchDistance) return;
+    const d=Math.hypot(e.touches[0].clientX-e.touches[1].clientX,e.touches[0].clientY-e.touches[1].clientY);
+    setScale(scale*(d/pinchDistance));pinchDistance=d;
+  },{passive:true});
+  viewport.addEventListener("touchend",()=>{pinchDistance=0},{passive:true});
+
   obj.addEventListener("load", () => {
     const doc = obj.contentDocument;
     if(!doc) return;
@@ -184,14 +255,15 @@ function bindWorldMap(){
       if(el.matches?.("path,polygon,rect,circle,ellipse")) el.style.fill = fill;
       el.querySelectorAll?.("path,polygon,rect,circle,ellipse").forEach(n => n.style.fill = fill);
     };
-    const base = "#d7d8db";
-    const readyColor = "#7b1d24";
-    const hoverColor = "#551419";
+    const base = "#d9dde1";
+    const readyColor = "#a9c9dc";
+    const readyHover = "#82aec8";
+    const buildingHover = "#c4cbd1";
 
     doc.documentElement.style.background = "#fff";
     doc.querySelectorAll("path,polygon,rect,circle,ellipse").forEach(el => {
       el.style.fill = base;
-      el.style.stroke = "#fff";
+      el.style.stroke = "#ffffff";
       el.style.strokeWidth = ".65";
       el.style.transition = "fill .14s ease";
     });
@@ -199,41 +271,39 @@ function bindWorldMap(){
     const processed = new Set();
     doc.querySelectorAll("[id]").forEach(el => {
       const iso = String(el.id||"").toLowerCase();
-      const c = byIso[iso];
-      if(!c || processed.has(iso)) return;
+      const country = byIso[iso];
+      if(!country || processed.has(iso)) return;
       processed.add(iso);
-      const ready = isReady(c);
-      paint(el, ready ? readyColor : base);
-      const label = countryLabel(c);
-      const count = c.counts?.organizations || 0;
-      const status = ready ? count+" szervezet" : count+" ellenőrzött szervezet · még nincs kész";
-      el.setAttribute("aria-label", label+" · "+status);
+      const ready = isReady(country);
+      const count = Number(country.counts?.organizations || 0);
+      const baseFill = ready ? readyColor : base;
+      paint(el,baseFill);
+      const label = countryLabel(country);
+      const status = ready ? count+" szervezet · kész ország" : count+" ellenőrzött szervezet · kutatás alatt";
+      el.setAttribute("aria-label",label+" · "+status);
 
       const statusEl = $("#worldMapStatus");
       const over = () => {
-        if(ready) paint(el,hoverColor);
+        paint(el,ready ? readyHover : buildingHover);
         if(statusEl) statusEl.textContent = label+" · "+status;
       };
-      const out = () => paint(el, ready ? readyColor : base);
+      const out = () => paint(el,baseFill);
       el.addEventListener("mouseenter",over);
       el.addEventListener("mouseleave",out);
-
       el.style.cursor = "pointer";
       el.setAttribute("tabindex","0");
       el.setAttribute("role","link");
-      const go = () => location.href = c.route;
+      const go = () => location.href = country.route;
       el.addEventListener("click",go);
       el.addEventListener("keydown",e => {
-        if(e.key === "Enter" || e.key === " "){
-          e.preventDefault();
-          go();
-        }
+        if(e.key === "Enter" || e.key === " "){e.preventDefault();go();}
       });
       el.addEventListener("focus",over);
       el.addEventListener("blur",out);
-      addMapCountLabel(doc,el,c,ready);
+      addMapCountLabel(doc,el,country,ready);
     });
   });
+  applyTransform();
 }
 
 function formatDate(value){
