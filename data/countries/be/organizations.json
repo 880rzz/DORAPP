@@ -577,6 +577,88 @@
         }
       ],
       "calendarSources": []
+    },
+    {
+      "id": "voxpat",
+      "name": "VoxPat",
+      "country": "be",
+      "region": "Brussels-Capital",
+      "city": "Brussels",
+      "type": "Hungarian choir",
+      "entityClass": "organization",
+      "founded": "2018",
+      "website": "https://voxpat.be/hu/index",
+      "intro": "Brüsszeli magyar gyökerű kórus, amely 2018 februárjában alakult és hetente próbál a Den Dam flamand kulturális központban.",
+      "activities": [
+        "kóruséneklés",
+        "magyar kóruskultúra",
+        "koncertek",
+        "belga-magyar zenei kapcsolatok"
+      ],
+      "profileVerifiedAt": "2026-10-01",
+      "evidenceSources": [
+        {
+          "label": "VoxPat – hivatalos magyar bemutatkozás",
+          "url": "https://voxpat.be/hu/index",
+          "type": "official"
+        }
+      ],
+      "calendarSources": [
+        {
+          "label": "VoxPat – hivatalos oldal",
+          "url": "https://voxpat.be/hu/index",
+          "kind": "official-news-events",
+          "scope": "self",
+          "ingestEvents": false
+        }
+      ]
+    },
+    {
+      "id": "konyvter-brusszeli-gyermekkonyvtar",
+      "name": "Könyvtér – Brüsszeli Gyermek- és Ifjúsági Könyvtár",
+      "country": "be",
+      "region": "Brussels-Capital",
+      "city": "Brussels",
+      "type": "Hungarian children and youth library",
+      "entityClass": "organization",
+      "founded": "2025-06-01",
+      "legalForm": "ASBL / VZW",
+      "registrationId": "1024.076.708",
+      "intro": "2025-ben létrejött önálló brüsszeli nonprofit gyermek- és ifjúsági könyvtár, amely magyar nyelvű könyveket, kölcsönzést, olvasásösztönző programokat és családi irodalmi eseményeket kínál a belgiumi magyar közösségnek.",
+      "activities": [
+        "magyar gyermekkönyvtár",
+        "ifjúsági könyvtár",
+        "könyvkölcsönzés",
+        "olvasásnépszerűsítés",
+        "gyermekirodalmi programok"
+      ],
+      "targetGroups": [
+        "Belgiumban élő magyar gyermekek",
+        "fiatalok",
+        "családok"
+      ],
+      "profileVerifiedAt": "2026-10-01",
+      "evidenceSources": [
+        {
+          "label": "Liszt Intézet Brüsszel – Könyvtér bemutatása",
+          "url": "https://culture.hu/hu/brussels/konyvtar-2",
+          "type": "institutional"
+        },
+        {
+          "label": "OSZK EPA – Háromka: A brüsszeli magyar gyermek- és ifjúsági könyvtár alapítása",
+          "url": "https://epa.oszk.hu/05000/05033/00011/pdf/EPA05033_haromka_2025_6.pdf",
+          "type": "institutional"
+        }
+      ],
+      "calendarSources": [
+        {
+          "label": "Liszt Intézet – Könyvtér események",
+          "url": "https://culture.hu/hu/brussels",
+          "kind": "institutional-events",
+          "scope": "clearly-attributed-konyvter-events",
+          "ingestEvents": false
+        }
+      ]
     }
   ]
 }
