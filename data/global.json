@@ -4209,10 +4209,11 @@
     {
       "iso2": "us",
       "name": {
+        "hu": "Amerikai Egyesült Államok",
         "en": "United States",
         "officialEn": "United States of America"
       },
-      "researchStatus": "unresearched",
+      "researchStatus": "partial",
       "countryDataPath": "data/countries/us/",
       "route": "countries/us/",
       "counts": {
@@ -4222,7 +4223,14 @@
         "events": 0,
         "education": 0
       },
-      "iso3": "USA"
+      "iso3": "USA",
+      "locales": [
+        "en-US",
+        "hu"
+      ],
+      "lastResearchAttemptAt": "2026-10-01",
+      "discoveryCandidateCount": 0,
+      "lastBroadVerifiedAt": null
     },
     {
       "iso2": "uy",
