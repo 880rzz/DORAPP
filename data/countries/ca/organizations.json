@@ -331,6 +331,244 @@
           "ingestEvents": false
         }
       ]
+    },
+    {
+      "id": "hungarian-scouts-toronto",
+      "name": "Hungarian Scouts Toronto – 20. Árpád Vezér and 42. Szent Kinga Scout Troops",
+      "country": "ca",
+      "region": "Ontario",
+      "city": "Toronto",
+      "type": "Hungarian scout organization",
+      "entityClass": "organization",
+      "website": "https://www.hungarianscoutstoronto.org/",
+      "email": "cserkeszek-20-42@outlook.com",
+      "intro": "Torontói magyar cserkészközösség, amely a 20. Árpád Vezér fiú- és a 42. Szent Kinga leánycserkészcsapatot fogja össze magyar nyelvi, kulturális és szabadtéri nevelési programokkal.",
+      "activities": [
+        "cserkészet",
+        "magyar nyelv és kultúra",
+        "szabadtéri nevelés",
+        "ifjúsági közösség",
+        "táborok"
+      ],
+      "profileVerifiedAt": "2026-10-01",
+      "evidenceSources": [
+        {
+          "label": "Hungarian Scouts Toronto – official site",
+          "url": "https://www.hungarianscoutstoronto.org/",
+          "type": "official"
+        }
+      ],
+      "calendarSources": [
+        {
+          "label": "Hungarian Scouts Toronto – upcoming events",
+          "url": "https://www.hungarianscoutstoronto.org/",
+          "kind": "official-calendar",
+          "scope": "self",
+          "ingestEvents": false
+        }
+      ]
+    },
+    {
+      "id": "st-elizabeth-hungary-parish-toronto",
+      "name": "St. Elizabeth of Hungary Parish – Toronto",
+      "country": "ca",
+      "region": "Ontario",
+      "city": "Toronto",
+      "type": "Hungarian Roman Catholic parish",
+      "entityClass": "organization",
+      "website": "https://stelizabethofhungary.archtoronto.org/en/",
+      "email": "stelizabethofhungary@archtoronto.org",
+      "phone": "+1 416-225-3300",
+      "address": "432 Sheppard Avenue East, Toronto, ON M2N 3B7, Canada",
+      "intro": "Torontói magyar katolikus plébánia rendszeres magyar nyelvű szentmisékkel, közösségi és oktatási programokkal.",
+      "activities": [
+        "magyar nyelvű szentmise",
+        "katolikus közösség",
+        "oktatási programok",
+        "közösségi események"
+      ],
+      "profileVerifiedAt": "2026-10-01",
+      "evidenceSources": [
+        {
+          "label": "St. Elizabeth of Hungary Parish – official site",
+          "url": "https://stelizabethofhungary.archtoronto.org/en/",
+          "type": "official"
+        },
+        {
+          "label": "Archdiocese of Toronto – Hungarian mass schedule",
+          "url": "https://www.archtoronto.org/en/contact-us/find-a-parish/?address=&cLatLng=&city=&massLanguage=&massTime=&massType=&page=5&parish=&postalCode=m5g",
+          "type": "institutional"
+        },
+        {
+          "label": "Consulate General of Hungary Toronto – churches",
+          "url": "https://toronto.mfa.gov.hu/hu/tor_egyh%C3%A1zak_hmsz",
+          "type": "government"
+        }
+      ],
+      "calendarSources": [
+        {
+          "label": "St. Elizabeth parish – events calendar",
+          "url": "https://stelizabethofhungary.archtoronto.org/en/",
+          "kind": "official-calendar",
+          "scope": "self",
+          "ingestEvents": false
+        }
+      ]
+    },
+    {
+      "id": "hungarian-booklovers-heritage-library-toronto",
+      "name": "Hungarian Booklovers Heritage Library / Magyar Hagyományőrző Könyvtár Toronto",
+      "country": "ca",
+      "region": "Ontario",
+      "city": "Toronto",
+      "type": "Hungarian library and book community",
+      "entityClass": "organization",
+      "founded": "2000",
+      "website": "https://www.torontokonyvtar.ca/",
+      "email": "konyvbaratok.toronto@gmail.com",
+      "phone": "+1 416-225-3300",
+      "address": "432 Sheppard Ave E, North York, ON M2N 3B7, Canada",
+      "intro": "Torontói magyar könyvtári és könyvbarát közösség magyar nyelvű gyűjteménnyel és közösségi olvasási programokkal.",
+      "activities": [
+        "magyar könyvtár",
+        "könyvklub",
+        "irodalom",
+        "közösségi olvasás"
+      ],
+      "profileVerifiedAt": "2026-10-01",
+      "evidenceSources": [
+        {
+          "label": "Hungarian Booklovers Heritage Library – official site",
+          "url": "https://www.torontokonyvtar.ca/",
+          "type": "official"
+        },
+        {
+          "label": "NAHC – current membership",
+          "url": "https://kmosz-nahc.ca/en/membership/",
+          "type": "institutional"
+        }
+      ],
+      "calendarSources": []
+    },
+    {
+      "id": "our-lady-hungary-parish-vancouver",
+      "name": "Our Lady of Hungary Parish – Vancouver / Magyarok Nagyasszonya Egyházközség",
+      "country": "ca",
+      "region": "British Columbia",
+      "city": "Vancouver",
+      "type": "Hungarian Roman Catholic parish",
+      "entityClass": "organization",
+      "founded": "1962",
+      "website": "https://ourladyofhungary.ca/",
+      "phone": "+1 604-253-2577",
+      "address": "1810 East 7th Avenue, Vancouver, BC V5N 1S2, Canada",
+      "intro": "Vancouver magyar katolikus egyházközsége, amely 1962 óta működik, és minden vasárnap magyar nyelvű szentmisét tart.",
+      "activities": [
+        "magyar nyelvű szentmise",
+        "katolikus közösség",
+        "közösségi programok",
+        "kulturális örökség"
+      ],
+      "profileVerifiedAt": "2026-10-01",
+      "evidenceSources": [
+        {
+          "label": "Our Lady of Hungary Parish Vancouver – official site",
+          "url": "https://ourladyofhungary.ca/",
+          "type": "official"
+        },
+        {
+          "label": "Archdiocese of Vancouver – parish listing",
+          "url": "https://rcav.org/policies/241",
+          "type": "institutional"
+        }
+      ],
+      "calendarSources": [
+        {
+          "label": "Our Lady of Hungary Parish – official parish site",
+          "url": "https://ourladyofhungary.ca/",
+          "kind": "official-news-events",
+          "scope": "self",
+          "ingestEvents": false
+        }
+      ]
+    },
+    {
+      "id": "28-ferenc-kolcsey-scouts-ottawa",
+      "name": "28. Ferenc Kölcsey Hungarian Scouts – Ottawa",
+      "country": "ca",
+      "region": "Ontario",
+      "city": "Ottawa",
+      "type": "Hungarian scout troop",
+      "entityClass": "organization",
+      "intro": "Ottawai magyar cserkészcsapat, amely szombatonként magyarul beszélő gyermekeknek szervez cserkészfoglalkozásokat az Ottawa Hungarian Community Centre-ben.",
+      "activities": [
+        "cserkészet",
+        "magyar nyelv és kultúra",
+        "ifjúsági közösség"
+      ],
+      "serviceLocations": [
+        {
+          "city": "Ottawa",
+          "label": "Foglalkozások",
+          "address": "Ottawa Hungarian Community Centre, 43 Capital Drive, Ottawa, ON K2G 0E7"
+        }
+      ],
+      "profileVerifiedAt": "2026-10-01",
+      "evidenceSources": [
+        {
+          "label": "OHCC – Hungarian organizations in Ottawa",
+          "url": "https://omh-ohcc.ca/en/hungarian-living-in-the-ottawa-valley/hungarian-organizations-in-ottawa/",
+          "type": "official"
+        },
+        {
+          "label": "Kanadai Magyar Diaszpóra – Ottawa community directory",
+          "url": "https://kanadaimagyardiaszpora.com/kozossegeink/ottawa/",
+          "type": "institutional"
+        }
+      ],
+      "affiliations": [
+        {
+          "organizationId": "ottawa-hungarian-community-centre",
+          "label": "Közösségi helyszín és kapcsolódás"
+        }
+      ],
+      "calendarSources": []
+    },
+    {
+      "id": "our-lady-hungary-parish-montreal",
+      "name": "Our Lady of Hungary Parish – Montréal / Magyarok Nagyasszonya Egyházközség",
+      "country": "ca",
+      "region": "Quebec",
+      "city": "Montréal",
+      "type": "Hungarian Roman Catholic parish",
+      "entityClass": "organization",
+      "address": "90 Rue Guizot Ouest, Montréal, QC H2P 1L4, Canada",
+      "phone": "+1 514-387-9503",
+      "intro": "Montréali magyar katolikus egyházközség, magyar nyelvű vasárnapi szentmisével és magyar közösségi programokkal.",
+      "activities": [
+        "magyar nyelvű szentmise",
+        "katolikus közösség",
+        "cserkészethez és közösségi programokhoz kapcsolódó élet"
+      ],
+      "profileVerifiedAt": "2026-10-01",
+      "evidenceSources": [
+        {
+          "label": "Diocese of Montreal – Our Lady of Hungary",
+          "url": "https://diocesemontreal.org/en/node/7431",
+          "type": "institutional"
+        },
+        {
+          "label": "Hungarian Heritage in Canada – Montréal parish",
+          "url": "https://hungarianheritageincanada.ca/en/place/our-lady-of-hungary-parish-montreal-qc",
+          "type": "institutional"
+        },
+        {
+          "label": "Hungarian Catholic Mission – Montréal parish",
+          "url": "https://www.hungariancatholicmission.com/faith/churches/catholic-canada/ourladyofhungaryparish-qc.pdf",
+          "type": "institutional"
+        }
+      ],
+      "calendarSources": []
     }
   ]
 }
