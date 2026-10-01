@@ -1,0 +1,104 @@
+{
+  "schemaVersion": 1,
+  "country": "be",
+  "countryName": "Belgium",
+  "assessedAt": "2026-10-01",
+  "completionStandard": "DORAPP country research completion means every required discovery category has been explicitly reviewed, all strong candidates have been resolved to canonical/rejected/insufficient-evidence status, canonical entities have evidence and routes, derived counts validate, source-health runs, and production deploy succeeds.",
+  "status": "reviewed",
+  "coverage": [
+    {
+      "category": "associations-and-umbrellas",
+      "status": "reviewed"
+    },
+    {
+      "category": "informal-communities",
+      "status": "reviewed"
+    },
+    {
+      "category": "nurseries-and-schools",
+      "status": "reviewed"
+    },
+    {
+      "category": "universities-and-student-groups",
+      "status": "reviewed"
+    },
+    {
+      "category": "folk-dance-music-choirs-theatre",
+      "status": "reviewed"
+    },
+    {
+      "category": "scouts",
+      "status": "reviewed"
+    },
+    {
+      "category": "churches-and-religious-services",
+      "status": "reviewed"
+    },
+    {
+      "category": "family-youth-senior-groups",
+      "status": "reviewed"
+    },
+    {
+      "category": "media-and-publications",
+      "status": "reviewed"
+    },
+    {
+      "category": "libraries-book-clubs",
+      "status": "reviewed"
+    },
+    {
+      "category": "private-organizers-recurring-initiatives",
+      "status": "reviewed"
+    },
+    {
+      "category": "host-institutions-with-Hungarian-services",
+      "status": "reviewed"
+    }
+  ],
+  "sourceClassesReviewed": [
+    "official organization and school websites",
+    "Hungarian diplomatic and EU/NATO institutional websites",
+    "Belgian and Hungarian institutional directories",
+    "first-party church and congregation websites",
+    "first-party event/program pages",
+    "student and youth network sources",
+    "current community, cultural and media sites",
+    "library and diaspora education sources"
+  ],
+  "unresolvedStrongCandidates": [],
+  "canonicalOrganizationIds": [
+    "82-bathory-istvan-cserkeszcsapat",
+    "arcfam-asbl",
+    "belgiumi-magyar-protestans-gyulekezet",
+    "brusszeli-magyar-haz",
+    "brusszeli-magyar-katolikus-kozosseg",
+    "carpathia-asbl",
+    "egyben-belgium",
+    "eurologus",
+    "hatartalan-tortenelem",
+    "hya-belgium",
+    "konyvter-brusszeli-gyermekkonyvtar",
+    "liszt-intezet-brusszel",
+    "magyarorszag-eu-allando-kepviselet-brusszel",
+    "magyarorszag-haza-brusszel",
+    "magyarorszag-nagykovetsege-brusszel",
+    "magyarorszag-nato-allando-kepviselet-brusszel",
+    "vilagfa-ensemble-brussels",
+    "viola-dance-ensemble-brussels",
+    "voxpat"
+  ],
+  "canonicalEducationIds": [
+    "arcfam-artschool",
+    "bobita-brussels",
+    "brusszeli-tanoda",
+    "hatartalan-tortenelem-oktatas"
+  ],
+  "notes": [
+    "Brussels-Capital carries the majority of verified entities; Bóbita provides verified Walloon Brabant education coverage.",
+    "The historic Hungarian House / Hôtel Saintenoy and the state-operated House of Hungary are modeled as separate entities.",
+    "Könyvtér is modeled as an independent ASBL/VZW, not as a Liszt Institute child organization.",
+    "Belgiumi Magyarok Szövetsége is not carried forward as a live organization.",
+    "Leuven Magyar Ház and Liège community references remain discovery-only because current first-party organizational identity could not be established.",
+    "Routine recurring lessons are not promoted into the public event calendar unless the source presents them as public/community events."
+  ]
+}
