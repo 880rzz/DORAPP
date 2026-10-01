@@ -1,126 +1,221 @@
 {
-  "updated": "2026-10-01T05:00:00+00:00",
+  "updated": "2026-10-01T05:18:12+00:00",
   "sources": [
     {
       "id": "hollandiai-magyar-szovetseg",
       "url": "https://www.hongaarsefederatie.nl/",
       "sourceRole": "official-website",
-      "status": "ok",
-      "checkedAt": "2026-10-01T05:00:00+00:00",
-      "removalAuthority": false
+      "status": "http-error",
+      "httpStatus": 503,
+      "resolvedUrl": "https://www.hongaarsefederatie.nl/",
+      "contentType": "",
+      "checkedAt": "2026-10-01T05:18:12+00:00",
+      "removalAuthority": false,
+      "note": "Technical failure alone is never evidence for entity removal."
     },
     {
       "id": "hungaria-club-1929",
       "url": "https://www.hungariaclub1929.nl/",
       "sourceRole": "official-website",
       "status": "ok",
-      "checkedAt": "2026-10-01T05:00:00+00:00",
-      "removalAuthority": false
+      "httpStatus": 200,
+      "resolvedUrl": "https://www.hungariaclub1929.nl/",
+      "contentType": "text/html; charset=utf-8",
+      "checkedAt": "2026-10-01T05:18:12+00:00",
+      "removalAuthority": false,
+      "note": null
+    },
+    {
+      "id": "hya-netherlands",
+      "url": "https://www.hunyouth.org/",
+      "sourceRole": "official-website",
+      "status": "http-error",
+      "httpStatus": 404,
+      "resolvedUrl": "https://www.hunyouth.org/",
+      "contentType": "",
+      "checkedAt": "2026-10-01T05:18:12+00:00",
+      "removalAuthority": false,
+      "note": "Technical failure alone is never evidence for entity removal."
     },
     {
       "id": "70-attila-cserkeszcsapat",
       "url": "https://cserkesz.nl/",
       "sourceRole": "official-website",
       "status": "ok",
-      "checkedAt": "2026-10-01T05:00:00+00:00",
-      "removalAuthority": false
+      "httpStatus": 200,
+      "resolvedUrl": "https://cserkesz.nl/",
+      "contentType": "text/html; charset=utf-8",
+      "checkedAt": "2026-10-01T05:18:12+00:00",
+      "removalAuthority": false,
+      "note": null
     },
     {
-      "id": "stihon",
-      "url": "https://www.stihon.eu/",
+      "id": "hollandiai-mikes-kelemen-kor",
+      "url": "https://www.federatio.org/mikes.html",
       "sourceRole": "official-website",
       "status": "ok",
-      "checkedAt": "2026-10-01T05:00:00+00:00",
-      "removalAuthority": false
+      "httpStatus": 200,
+      "resolvedUrl": "https://www.federatio.org/mikes.html",
+      "contentType": "text/html",
+      "checkedAt": "2026-10-01T05:18:12+00:00",
+      "removalAuthority": false,
+      "note": null
     },
     {
-      "id": "amszterdami-magyar-szalon",
-      "url": "https://magyarszalon.nl/",
+      "id": "hagai-magyar-reformatus-gyulekezet",
+      "url": "https://www.federatio.org/protes.html",
       "sourceRole": "official-website",
       "status": "ok",
-      "checkedAt": "2026-10-01T05:00:00+00:00",
-      "removalAuthority": false
+      "httpStatus": 200,
+      "resolvedUrl": "https://www.federatio.org/protes.html",
+      "contentType": "text/html",
+      "checkedAt": "2026-10-01T05:18:12+00:00",
+      "removalAuthority": false,
+      "note": null
     },
     {
-      "id": "hollandiai-magyarok",
-      "url": "https://www.hollandiaimagyarok.nl/",
+      "id": "amszterdami-magyar-reformatus-gyulekezet",
+      "url": "https://www.federatio.org/protes.html",
       "sourceRole": "official-website",
       "status": "ok",
-      "checkedAt": "2026-10-01T05:00:00+00:00",
-      "removalAuthority": false
+      "httpStatus": 200,
+      "resolvedUrl": "https://www.federatio.org/protes.html",
+      "contentType": "text/html",
+      "checkedAt": "2026-10-01T05:18:12+00:00",
+      "removalAuthority": false,
+      "note": null
+    },
+    {
+      "id": "rotterdami-magyar-reformatus-gyulekezet",
+      "url": "https://www.federatio.org/protes.html",
+      "sourceRole": "official-website",
+      "status": "ok",
+      "httpStatus": 200,
+      "resolvedUrl": "https://www.federatio.org/protes.html",
+      "contentType": "text/html",
+      "checkedAt": "2026-10-01T05:18:12+00:00",
+      "removalAuthority": false,
+      "note": null
     },
     {
       "id": "zwollei-magyar-reformatus-egyhazkozseg",
       "url": "https://zwolleireformatus.nl/",
       "sourceRole": "official-website",
       "status": "ok",
-      "checkedAt": "2026-10-01T05:00:00+00:00",
-      "removalAuthority": false
+      "httpStatus": 200,
+      "resolvedUrl": "https://zwolleireformatus.nl/",
+      "contentType": "text/html; charset=utf-8",
+      "checkedAt": "2026-10-01T05:18:12+00:00",
+      "removalAuthority": false,
+      "note": null
+    },
+    {
+      "id": "stihon",
+      "url": "https://www.stihon.eu/",
+      "sourceRole": "official-website",
+      "status": "ok",
+      "httpStatus": 200,
+      "resolvedUrl": "https://www.stihon.eu/",
+      "contentType": "text/html; charset=utf-8",
+      "checkedAt": "2026-10-01T05:18:12+00:00",
+      "removalAuthority": false,
+      "note": null
+    },
+    {
+      "id": "amszterdami-magyar-szalon",
+      "url": "https://magyarszalon.nl/",
+      "sourceRole": "official-website",
+      "status": "ok",
+      "httpStatus": 200,
+      "resolvedUrl": "https://magyarszalon.nl/",
+      "contentType": "text/html; charset=utf-8",
+      "checkedAt": "2026-10-01T05:18:12+00:00",
+      "removalAuthority": false,
+      "note": null
+    },
+    {
+      "id": "hollandiai-magyarok",
+      "url": "https://www.hollandiaimagyarok.nl/",
+      "sourceRole": "official-website",
+      "status": "ok",
+      "httpStatus": 200,
+      "resolvedUrl": "https://hollandiaimagyarok.nl/",
+      "contentType": "text/html; charset=utf-8",
+      "checkedAt": "2026-10-01T05:18:12+00:00",
+      "removalAuthority": false,
+      "note": null
+    },
+    {
+      "id": "hagai-magyar-enekkar",
+      "url": "https://haga.mfa.gov.hu/",
+      "sourceRole": "primary-evidence",
+      "status": "ok",
+      "httpStatus": 200,
+      "resolvedUrl": "https://haga.mfa.gov.hu/",
+      "contentType": "text/html; charset=utf-8",
+      "checkedAt": "2026-10-01T05:18:12+00:00",
+      "removalAuthority": false,
+      "note": null
+    },
+    {
+      "id": "amszterdami-magyar-korus",
+      "url": "https://magyarszalon.nl/magunkrol/",
+      "sourceRole": "primary-evidence",
+      "status": "ok",
+      "httpStatus": 200,
+      "resolvedUrl": "https://magyarszalon.nl/magunkrol/",
+      "contentType": "text/html; charset=utf-8",
+      "checkedAt": "2026-10-01T05:18:12+00:00",
+      "removalAuthority": false,
+      "note": null
     },
     {
       "id": "magyarorszag-nagykovetsege-haga",
       "url": "https://haga.mfa.gov.hu/",
-      "sourceRole": "government",
+      "sourceRole": "official-website",
       "status": "ok",
-      "checkedAt": "2026-10-01T05:00:00+00:00",
-      "removalAuthority": false
+      "httpStatus": 200,
+      "resolvedUrl": "https://haga.mfa.gov.hu/",
+      "contentType": "text/html; charset=utf-8",
+      "checkedAt": "2026-10-01T05:18:12+00:00",
+      "removalAuthority": false,
+      "note": null
+    },
+    {
+      "id": "magyar-fiatalok-hollandiaban",
+      "url": "https://www.hongaarsefederatie.nl/wp-content/uploads/2025/02/HMH2025_torzs_INTERNETRE_VEGLEGES_v2.pdf",
+      "sourceRole": "primary-evidence",
+      "status": "http-error",
+      "httpStatus": 503,
+      "resolvedUrl": "https://www.hongaarsefederatie.nl/wp-content/uploads/2025/02/HMH2025_torzs_INTERNETRE_VEGLEGES_v2.pdf",
+      "contentType": "",
+      "checkedAt": "2026-10-01T05:18:12+00:00",
+      "removalAuthority": false,
+      "note": "Technical failure alone is never evidence for entity removal."
     },
     {
       "id": "mikes-international",
       "url": "https://www.federatio.org/mikes_int.html",
       "sourceRole": "official-website",
       "status": "ok",
-      "checkedAt": "2026-10-01T05:00:00+00:00",
-      "removalAuthority": false
-    },
-    {
-      "id": "hollandiai-mikes-kelemen-kor",
-      "url": "https://www.federatio.org/mikes.html",
-      "sourceRole": "institutional-page",
-      "status": "ok",
-      "checkedAt": "2026-10-01T05:00:00+00:00",
-      "removalAuthority": false
-    },
-    {
-      "id": "hagai-magyar-ovoda-es-iskola",
-      "url": "https://www.federatio.org/hmoi.html",
-      "sourceRole": "institutional-page",
-      "status": "ok",
-      "checkedAt": "2026-10-01T05:00:00+00:00",
-      "removalAuthority": false
-    },
-    {
-      "id": "kincskereso-oskola",
-      "url": "https://kincskereso-oskola.nl/",
-      "sourceRole": "official-website",
-      "status": "ok",
-      "checkedAt": "2026-10-01T05:00:00+00:00",
-      "removalAuthority": false
-    },
-    {
-      "id": "amstelveeni-magyar-ovisuli",
-      "url": "https://www.amstelveeni-magyariskola.nl/",
-      "sourceRole": "official-website",
-      "status": "ok",
-      "checkedAt": "2026-10-01T05:00:00+00:00",
-      "removalAuthority": false
-    },
-    {
-      "id": "eindhoveni-magyar-ovisuli",
-      "url": "https://eindhoveni-ovisuli.nl/",
-      "sourceRole": "official-website",
-      "status": "ok",
-      "checkedAt": "2026-10-01T05:00:00+00:00",
-      "removalAuthority": false
-    },
-    {
-      "id": "hya-netherlands",
-      "url": "https://www.hunyouth.org/",
-      "sourceRole": "official-website",
-      "status": "needs-follow-up",
-      "checkedAt": "2026-10-01T05:00:00+00:00",
+      "httpStatus": 200,
+      "resolvedUrl": "https://www.federatio.org/mikes_int.html",
+      "contentType": "text/html",
+      "checkedAt": "2026-10-01T05:18:12+00:00",
       "removalAuthority": false,
-      "note": "Retained from current HYA Netherlands government-hosted guide even if the network root is intermittently unavailable."
+      "note": null
+    },
+    {
+      "id": "hollandiai-magyar-romai-katolikus-egyhazkozsegi-tanacs",
+      "url": "https://www.hongaarsefederatie.nl/nemzeti-unnepek/",
+      "sourceRole": "primary-evidence",
+      "status": "http-error",
+      "httpStatus": 503,
+      "resolvedUrl": "https://www.hongaarsefederatie.nl/nemzeti-unnepek/",
+      "contentType": "",
+      "checkedAt": "2026-10-01T05:18:12+00:00",
+      "removalAuthority": false,
+      "note": "Technical failure alone is never evidence for entity removal."
     }
   ]
 }
