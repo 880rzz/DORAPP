@@ -199,7 +199,7 @@
       ]
     },
     {
-      "id": "belgiumi-magyar-protestans-gyulekekezet",
+      "id": "belgiumi-magyar-protestans-gyulekezet",
       "name": "Belgiumi Magyar Protestáns Gyülekezet",
       "country": "be",
       "region": "Brussels-Capital",
@@ -208,7 +208,7 @@
       "entityClass": "organization",
       "website": "https://www.protestans.be/",
       "address": "Place du Musée 2, 1000 Bruxelles, Belgium",
-      "intro": "Belgiumi magyar református és evangélikus gyülekezet, rendszeres magyar nyelvű brüsszeli istentiszteletekkel és online alkalmak­kal.",
+      "intro": "Belgiumi magyar református és evangélikus gyülekezet, rendszeres magyar nyelvű brüsszeli istentiszteletekkel és online alkalmakkal.",
       "activities": [
         "magyar nyelvű istentiszteletek",
         "vasárnapi iskola",
@@ -230,6 +230,110 @@
           "kind": "official-calendar",
           "scope": "self",
           "ingestEvents": true
+        }
+      ]
+    },
+    {
+      "id": "82-bathory-istvan-cserkeszcsapat",
+      "name": "82. sz. Báthory István Cserkészcsapat",
+      "country": "be",
+      "region": "Brussels-Capital",
+      "city": "Brussels",
+      "type": "Hungarian scout troop",
+      "entityClass": "organization",
+      "website": "https://www.cserkesz.be/",
+      "email": "info@cserkesz.be",
+      "intro": "Brüsszelben működő magyar cserkészcsapat, a Külföldi Magyar Cserkészszövetség európai kerületének része.",
+      "activities": [
+        "cserkészet",
+        "magyar kulturális nevelés",
+        "ifjúsági közösség",
+        "táborok",
+        "csapatprogramok"
+      ],
+      "profileVerifiedAt": "2026-10-01",
+      "affiliations": [
+        {
+          "organization": "Külföldi Magyar Cserkészszövetség – Európa",
+          "relationship": "member troop"
+        }
+      ],
+      "evidenceSources": [
+        {
+          "label": "82. Báthory István Cserkészcsapat – hivatalos oldal",
+          "url": "https://www.cserkesz.be/",
+          "type": "official"
+        },
+        {
+          "label": "KMCSSZ Európa – brüsszeli csapat",
+          "url": "https://www.cserkesz.eu/rolunk/",
+          "type": "institutional"
+        }
+      ],
+      "calendarSources": [
+        {
+          "label": "82. Báthory István cserkészcsapat – programok",
+          "url": "https://www.cserkesz.be/",
+          "kind": "official-calendar",
+          "scope": "self",
+          "ingestEvents": true
+        }
+      ]
+    },
+    {
+      "id": "vilagfa-ensemble-brussels",
+      "name": "Világfa Ensemble",
+      "country": "be",
+      "region": "Brussels-Capital",
+      "city": "Ixelles",
+      "type": "Hungarian and Transylvanian folk dance ensemble",
+      "entityClass": "organization",
+      "founded": "2002",
+      "website": "https://www.vilagfa.be/hu/",
+      "intro": "Brüsszeli magyar és erdélyi néptáncegyüttes, amely 2002 óta hagyományőrző táncokkal, próbákkal, táncházakkal és fellépésekkel foglalkozik.",
+      "activities": [
+        "magyar néptánc",
+        "erdélyi néptánc",
+        "moldvai tánc",
+        "táncház",
+        "fellépések",
+        "táncoktatás"
+      ],
+      "serviceLocations": [
+        {
+          "city": "Ixelles",
+          "label": "Próbák",
+          "address": "Albert Demuyter, rue Volta 18, 1050 Ixelles"
+        }
+      ],
+      "profileVerifiedAt": "2026-10-01",
+      "evidenceSources": [
+        {
+          "label": "Világfa Ensemble – hivatalos magyar oldal",
+          "url": "https://www.vilagfa.be/hu/",
+          "type": "official"
+        },
+        {
+          "label": "Hungarian Folklife Association directory",
+          "url": "https://hungarianfolklife.org/directory/",
+          "type": "institutional"
+        }
+      ],
+      "calendarSources": [
+        {
+          "label": "Világfa Ensemble – hírek és események",
+          "url": "https://www.vilagfa.be/hu/",
+          "kind": "official-news-events",
+          "scope": "self",
+          "ingestEvents": true
+        }
+      ],
+      "publicChannels": [
+        {
+          "label": "Facebook – Világfa",
+          "platform": "Facebook",
+          "url": "https://www.facebook.com/vilagfa",
+          "ownership": "self"
         }
       ]
     }
