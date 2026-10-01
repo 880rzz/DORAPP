@@ -2737,6 +2737,45 @@
         }
       ],
       "calendarSources": []
+    },
+    {
+      "id": "association-hungarian-american-academicians",
+      "name": "Association of Hungarian American Academicians (AHAA–AMAT)",
+      "country": "us",
+      "region": "Tennessee",
+      "city": "Memphis",
+      "type": "Hungarian-American academic association",
+      "entityClass": "organization",
+      "scope": "national",
+      "website": "https://ahaa-amat.org/",
+      "address": "3375 Waynoka Avenue, Memphis, TN 38111",
+      "intro": "Amerikai magyar tudományos ernyőszervezet, amely az Egyesült Államokban működő magyar tudósközösségeket és az MTA amerikai köztestületi hálózatát kapcsolja össze. Hivatalos címe Memphisben található.",
+      "activities": [
+        "tudományos közösség",
+        "akadémiai kapcsolatok",
+        "konferenciák",
+        "magyar-amerikai tudományos hálózat"
+      ],
+      "profileVerifiedAt": "2026-10-01",
+      "evidenceSources": [
+        {
+          "label": "AHAA–AMAT official site",
+          "url": "https://ahaa-amat.org/",
+          "type": "official"
+        },
+        {
+          "label": "Hungarian Academy of Sciences – external bodies",
+          "url": "https://mta.hu/magyar-tudomanyossag-kulfoldon/az-mta-hataron-tuli-testuletei-105353",
+          "type": "institutional"
+        }
+      ],
+      "calendarSources": [
+        {
+          "label": "AHAA–AMAT conferences",
+          "url": "https://ahaa-amat.org/conferences/",
+          "ingestEvents": false
+        }
+      ]
     }
   ]
 }
