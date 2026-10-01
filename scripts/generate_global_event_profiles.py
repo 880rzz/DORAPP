@@ -14,9 +14,6 @@ def esc(v): return html.escape(str(v or ""),quote=True)
 
 def main():
     # Generated event profiles are canonical build artifacts: remove stale pages first.
-    for base in (ROOT/"esemenyek",):
-        if base.exists():
-            for path in base.glob("*.html"): path.unlink()
     for country_dir in (ROOT/"countries").glob("*") if (ROOT/"countries").exists() else []:
         event_dir=country_dir/"events"
         if event_dir.exists():
