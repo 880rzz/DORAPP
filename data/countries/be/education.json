@@ -37,6 +37,81 @@
           "ingestEvents": false
         }
       ]
+    },
+    {
+      "id": "brusszeli-tanoda",
+      "name": "Brüsszeli Tanoda Fejlesztőház",
+      "country": "be",
+      "region": "Brussels-Capital",
+      "city": "Woluwe-Saint-Pierre",
+      "type": "Hungarian education and development centre",
+      "website": "https://brusszelitanoda.hu/",
+      "email": "brusszelitanoda@gmail.com",
+      "phone": "+32 477 08 62 00",
+      "venue": "Rue François Gay 168A, 1150 Woluwe-Saint-Pierre, Brussels, Belgium",
+      "intro": "Magyar nyelvi, irodalmi, történelmi és fejlesztő foglalkozásokat kínáló brüsszeli oktatási és közösségi tér gyermekeknek és felnőtteknek.",
+      "verifiedAt": "2026-10-01",
+      "activities": [
+        "magyar nyelv és irodalom",
+        "magyar történelem",
+        "logopédia",
+        "gyógypedagógia",
+        "mozgásfejlesztés",
+        "kamasz klub",
+        "táborok"
+      ],
+      "evidenceSources": [
+        {
+          "label": "Brüsszeli Tanoda – hivatalos oldal",
+          "url": "https://brusszelitanoda.hu/",
+          "type": "official"
+        },
+        {
+          "label": "Brüsszeli Tanoda – oktatás",
+          "url": "https://brusszelitanoda.hu/oktatas/",
+          "type": "official"
+        }
+      ],
+      "calendarSources": [
+        {
+          "label": "Brüsszeli Tanoda – közösségi programok",
+          "url": "https://brusszelitanoda.hu/kozossegi-ter/",
+          "kind": "official-news-events",
+          "scope": "self",
+          "ingestEvents": false
+        }
+      ]
+    },
+    {
+      "id": "hatartalan-tortenelem-oktatas",
+      "name": "Határtalan Történelem – magyar történelemoktatás",
+      "country": "be",
+      "region": "Brussels-Capital",
+      "city": "Brussels",
+      "type": "Hungarian history education",
+      "website": "https://www.hatartalantortenelem.com/",
+      "operatorId": "hatartalan-tortenelem",
+      "intro": "Külföldön élő magyar gyermekeknek szóló élményalapú magyar történelemoktatás, rendszeres online órákkal és digitális tananyagokkal.",
+      "verifiedAt": "2026-10-01",
+      "activities": [
+        "magyar történelem",
+        "online oktatás",
+        "8–18 éves korosztály",
+        "vizsgafelkészítés"
+      ],
+      "evidenceSources": [
+        {
+          "label": "Határtalan Történelem – bemutatkozás",
+          "url": "https://www.hatartalantortenelem.com/bemutatkozas/",
+          "type": "official"
+        },
+        {
+          "label": "Határtalan Történelem – ÁSZF",
+          "url": "https://www.hatartalantortenelem.com/altalanos-szerzodesi-feltetelek/",
+          "type": "official"
+        }
+      ],
+      "calendarSources": []
     }
   ]
 }
