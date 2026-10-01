@@ -146,10 +146,7 @@ function renderCountryList(){
     const ready = isReady(c);
     const count = c.counts?.organizations || 0;
     const status = ready ? (c.researchStatus === "verified-zero" ? count+" ellenőrzött szervezet" : count+" szervezet") : count+" ellenőrzött · készül";
-    if(ready){
-      return '<a href="'+esc(c.route)+'"><strong>'+esc(countryLabel(c))+'</strong><span>'+esc(status)+'</span></a>';
-    }
-    return '<div class="country-unavailable" aria-disabled="true"><strong>'+esc(countryLabel(c))+'</strong><span>'+esc(status)+'</span></div>';
+    return '<a href="'+esc(c.route)+'" class="'+(ready?'country-ready':'country-building')+'"><strong>'+esc(countryLabel(c))+'</strong><span>'+esc(status)+'</span></a>';
   }).join("");
 }
 
@@ -221,24 +218,19 @@ function bindWorldMap(){
       el.addEventListener("mouseenter",over);
       el.addEventListener("mouseleave",out);
 
-      if(ready){
-        el.style.cursor = "pointer";
-        el.setAttribute("tabindex","0");
-        el.setAttribute("role","link");
-        const go = () => location.href = c.route;
-        el.addEventListener("click",go);
-        el.addEventListener("keydown",e => {
-          if(e.key === "Enter" || e.key === " "){
-            e.preventDefault();
-            go();
-          }
-        });
-        el.addEventListener("focus",over);
-        el.addEventListener("blur",out);
-      }else{
-        el.style.cursor = "default";
-        el.setAttribute("aria-disabled","true");
-      }
+      el.style.cursor = "pointer";
+      el.setAttribute("tabindex","0");
+      el.setAttribute("role","link");
+      const go = () => location.href = c.route;
+      el.addEventListener("click",go);
+      el.addEventListener("keydown",e => {
+        if(e.key === "Enter" || e.key === " "){
+          e.preventDefault();
+          go();
+        }
+      });
+      el.addEventListener("focus",over);
+      el.addEventListener("blur",out);
       addMapCountLabel(doc,el,c,ready);
     });
   });
@@ -286,7 +278,7 @@ async function init(){
     "#naptar":"countries/at/#programok",
     "#oktatas":"countries/at/#oktatas",
     "#szervezetek":"countries/at/#kozossegek",
-    "#terkep":"countries/at/#teruleti-attekintes"
+    "#terkep":"countries/at/#terkep"
   };
   if(legacyHashRoutes[location.hash]){
     location.replace(legacyHashRoutes[location.hash]);

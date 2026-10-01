@@ -73,6 +73,19 @@ for country in globaldb.get("countries",[]):
     if f'<meta name="robots" content="{expected_robots}"' not in text: errors.append(f"robots meta mismatch: countries/{iso}/index.html")
     if "googletagmanager.com/gtag/js" in text: errors.append(f"non-consent analytics bootstrap present: countries/{iso}/index.html")
     if "ui.js" not in text: errors.append(f"shared consent/navigation controller missing: countries/{iso}/index.html")
+    if 'id="terkep"' not in text or "country-map-board" not in text:
+        errors.append(f"country territorial map missing: countries/{iso}/index.html")
+    data_dir=ROOT/"data"/"countries"/iso
+    has_country_data=False
+    for data_name, keys in (("organizations.json",("organizations","items")),("education.json",("institutions","education","items")),("events.json",("events","items"))):
+        dp=data_dir/data_name
+        if not dp.exists(): continue
+        doc=json.loads(dp.read_text(encoding="utf-8"))
+        if any(isinstance(doc.get(k),list) and doc.get(k) for k in keys):
+            has_country_data=True
+    if has_country_data:
+        for token in ('id="kereso"','id="countryOrgGrid"','id="countryEducationGrid"','id="countryEventGrid"',"country.js"):
+            if token not in text: errors.append(f"Austria-parity country component missing ({token}): countries/{iso}/index.html")
     if ready and canonical not in sitemap: errors.append(f"sitemap missing: {canonical}")
     if not ready and canonical in sitemap: errors.append(f"unfinished country leaked into sitemap: {canonical}")
     blocks=re.findall(r'<script type="application/ld\+json">(.*?)</script>',text,re.S)
@@ -83,7 +96,21 @@ for country in globaldb.get("countries",[]):
     except Exception as ex:
         errors.append(f"invalid country json-ld: countries/{iso}/index.html -> {ex}")
 
-for p in ("llms.txt","ai.txt","ai-entry.json","entity.jsonld","robots.txt","sitemap.xml","forrasok.html","adatminoseg.html","ui.js","world.js","data/global-search-index.json","data/global-events.json"):
+for country in globaldb.get("countries",[]):
+    iso=country["iso2"]
+    org_path=ROOT/"data"/"countries"/iso/"organizations.json"
+    if not org_path.exists(): continue
+    odoc=json.loads(org_path.read_text(encoding="utf-8"))
+    for item in odoc.get("organizations",odoc.get("items",[])):
+        if item.get("entityClass")=="activity" or not item.get("id"): continue
+        profile=ROOT/"countries"/iso/"organizations"/f"{item['id']}.html"
+        if not profile.exists(): continue
+        profile_text=profile.read_text(encoding="utf-8")
+        for token in ("Kapcsolati háló","Hova töltik fel az eseményeiket?","Közösségi oldalak és nyilvános csatornák","Ellenőrző források"):
+            if token not in profile_text:
+                errors.append(f"rich organization profile layer missing ({token}): {iso}/{item['id']}")
+
+for p in ("llms.txt","ai.txt","ai-entry.json","entity.jsonld","robots.txt","sitemap.xml","forrasok.html","adatminoseg.html","ui.js","world.js","country.js","data/global-search-index.json","data/global-events.json"):
     if not (ROOT/p).exists(): errors.append(f"missing trust/search artifact: {p}")
 
 for p in ("index.html","forrasok.html","szervezet.html"):

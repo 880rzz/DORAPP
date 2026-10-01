@@ -91,3 +91,36 @@ inspect -> verify -> implement -> validate -> commit -> workflows -> deploy -> l
 
 ## Definition of done
 Documentation alone is not completion. World map, global search, country routing, Austria compatibility, validators, daily workflows, structured metadata and production deployment must operate together.
+
+
+## COUNTRY EXPERIENCE PARITY
+
+Every country route is one instance of the same system that the original Austria implementation established.
+
+A country page must provide:
+- a first-level administrative map (state/province/region/canton/etc.) above the directory, with the verified Hungarian organization count displayed inside each administrative unit where geometry permits;
+- the administrative map acts as a filter, not decoration;
+- a complex AND-search system for region, city, organization, activity, program, contact name/email/phone, address/venue and free text;
+- organization cards in the same information hierarchy as the original Austria directory;
+- education and current/future program sections using the same active country filters;
+- unfinished countries remain visually grey on the world map, but their country route can still open and clearly states its research status;
+- counts always come from canonical verified data and are never manually invented.
+
+Every canonical organization profile must support, where evidence exists:
+- full description and type;
+- founding/history and milestones;
+- activities and target groups;
+- website and public social channels;
+- email, phone, contact page and physical/service locations;
+- parent organization, affiliations, umbrella memberships and regional networks;
+- current/future events attributable to the organization;
+- explicit calendar/event sources showing where the organization publishes programs and whether a source is ingestible automatically;
+- articles/background material and evidence sources;
+- Organization/ProfilePage/Breadcrumb structured data mirroring verified public facts.
+
+Missing information stays explicitly absent. Never invent a social profile, relationship, event source, contact detail or history field to make a profile look complete.
+
+Administrative geometry:
+- country maps are generated from Natural Earth Admin 1 public-domain geometry and persisted into repository-owned SVG assets;
+- local country datasets may override region display names and geometry aliases where local-language naming differs;
+- if Admin 1 geometry is unavailable for a territory, preserve a clearly labelled first-level region-list fallback until a verified repo-owned geometry source is added.
