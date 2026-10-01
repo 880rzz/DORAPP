@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-01T07:55:00+00:00",
+  "updated": "2026-10-01T14:15:00+00:00",
   "country": "us",
   "researchRole": "United States discovery is being executed as national + regional/state batches. Embassy regional directories are discovery hubs; canonical publication requires first-party or trusted institutional evidence.",
   "coverage": [
@@ -250,6 +250,16 @@
       "sources": [
         "https://webarchivum.oszk.hu/miaseed/?offset=8&order=asc&reszgyujt_rovid=MUVHAZ&sort=url_sort_mia_text_sort"
       ]
+    },
+    {
+      "id": "hungarian-cultural-association-indiana-university",
+      "resolution": "promoted-canonical",
+      "reason": "Current Indiana University institutional directory and Hungarian Studies program confirm an active Hungarian cultural association."
+    },
+    {
+      "id": "our-lady-of-hungary-parish-south-bend",
+      "resolution": "hold-not-canonical",
+      "reason": "Current 2026 diocesan event evidence confirms activity, but one institutional event source is insufficient under the canonical publication gate; retain as discovery candidate pending first-party or second corroborating current evidence."
     }
   ]
 }
