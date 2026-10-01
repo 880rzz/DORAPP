@@ -83,7 +83,87 @@
       "sourceType": "official-calendar",
       "verifiedAt": "2026-10-01",
       "note": "A forrás a dátumot és a közös ünnepet igazolja; pontos kezdési idő még nincs publikálva."
+    },
+    {
+      "id": "stichting-magyar-nota-ogto-gadje-2026-10-18",
+      "name": "Stichting Magyar Nóta – Orkest Ogto Gadjè",
+      "country": "nl",
+      "region": "Zuid-Holland",
+      "city": "Den Haag",
+      "startDate": "2026-10-18T15:00:00+02:00",
+      "endDate": "2026-10-18T17:30:00+02:00",
+      "organizerId": "stichting-magyar-nota",
+      "venue": "Bodega De Posthoorn, Lange Voorhout 39A, Den Haag",
+      "sourceUrl": "https://www.magyarnota.nl/magyar-nota-nl/activiteiten-magyarnota/",
+      "sourceType": "official-calendar",
+      "verifiedAt": "2026-10-01"
+    },
+    {
+      "id": "stichting-magyar-nota-radio-budapest-2026-11-22",
+      "name": "Stichting Magyar Nóta – Orkest Radio Budapest",
+      "country": "nl",
+      "region": "Zuid-Holland",
+      "city": "Den Haag",
+      "startDate": "2026-11-22T15:00:00+01:00",
+      "endDate": "2026-11-22T17:30:00+01:00",
+      "organizerId": "stichting-magyar-nota",
+      "venue": "Bodega De Posthoorn, Lange Voorhout 39A, Den Haag",
+      "sourceUrl": "https://www.magyarnota.nl/magyar-nota-nl/activiteiten-magyarnota/",
+      "sourceType": "official-calendar",
+      "verifiedAt": "2026-10-01"
+    },
+    {
+      "id": "zwolle-istentisztelet-2026-11-08",
+      "name": "Magyar református istentisztelet – Zwolle",
+      "country": "nl",
+      "region": "Overijssel",
+      "city": "Zwolle",
+      "startDate": "2026-11-08T14:30:00+01:00",
+      "organizerId": "zwollei-magyar-reformatus-egyhazkozseg",
+      "venue": "Lutherse Kerk, Koestraat 2-4, 8011 NK Zwolle",
+      "sourceUrl": "https://zwolleireformatus.nl/",
+      "sourceType": "official-calendar",
+      "verifiedAt": "2026-10-01"
+    },
+    {
+      "id": "zwolle-advent-2026-11-29",
+      "name": "Advent első vasárnapja – magyar református istentisztelet Zwolle",
+      "country": "nl",
+      "region": "Overijssel",
+      "city": "Zwolle",
+      "startDate": "2026-11-29T14:30:00+01:00",
+      "organizerId": "zwollei-magyar-reformatus-egyhazkozseg",
+      "venue": "Lutherse Kerk, Koestraat 2-4, 8011 NK Zwolle",
+      "sourceUrl": "https://zwolleireformatus.nl/",
+      "sourceType": "official-calendar",
+      "verifiedAt": "2026-10-01"
+    },
+    {
+      "id": "zwolle-istentisztelet-2026-12-13",
+      "name": "Magyar református istentisztelet – Zwolle",
+      "country": "nl",
+      "region": "Overijssel",
+      "city": "Zwolle",
+      "startDate": "2026-12-13T14:30:00+01:00",
+      "organizerId": "zwollei-magyar-reformatus-egyhazkozseg",
+      "venue": "Lutherse Kerk, Koestraat 2-4, 8011 NK Zwolle",
+      "sourceUrl": "https://zwolleireformatus.nl/",
+      "sourceType": "official-calendar",
+      "verifiedAt": "2026-10-01"
+    },
+    {
+      "id": "zwolle-karacsony-2026-12-26",
+      "name": "Karácsony másodnapja – magyar református istentisztelet Zwolle",
+      "country": "nl",
+      "region": "Overijssel",
+      "city": "Zwolle",
+      "startDate": "2026-12-26T11:00:00+01:00",
+      "organizerId": "zwollei-magyar-reformatus-egyhazkozseg",
+      "venue": "Lutherse Kerk, Koestraat 2-4, 8011 NK Zwolle",
+      "sourceUrl": "https://zwolleireformatus.nl/",
+      "sourceType": "official-calendar",
+      "verifiedAt": "2026-10-01"
     }
   ],
-  "note": "Future event layer includes only current/future records supported by direct first-party or official institutional calendars. Unknown times remain explicit rather than inferred."
+  "note": "Future event layer includes only current/future records supported by direct first-party or official institutional calendars. Unknown times remain explicit rather than inferred. Routine weekly/monthly services are only materialized when the current source publishes a specific 2026 date/time."
 }

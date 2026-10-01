@@ -1,6 +1,6 @@
 {
   "updated": "2026-10-01",
-  "sourcePolicy": "Netherlands country dataset. First-party official sites and the Hollandiai Magyar Szövetség national umbrella directory are preferred. Shared contact details or cross-listing alone do not establish identity or parentage.",
+  "sourcePolicy": "Netherlands country dataset. First-party official sites are preferred, followed by current umbrella, government, church-network and institutional directories. Shared contact details or cross-listing alone do not establish identity or parentage. Historical federation lists are discovery-only unless current evidence exists.",
   "organizations": [
     {
       "id": "hollandiai-magyar-szovetseg",
@@ -35,6 +35,42 @@
           "kind": "official-calendar",
           "scope": "self-and-clearly-attributed-partners",
           "ingestEvents": true
+        }
+      ],
+      "email": "federatio_hollandia@yahoo.com",
+      "address": "Laan op Zuid 1477, 3072 DB Rotterdam",
+      "registrationId": "41199636",
+      "languages": [
+        "hu",
+        "nl"
+      ],
+      "history": {
+        "summary": "A Hollandiai Magyar Szövetséget 1957-ben az Amszterdami Hungaria Club 1929 és a Hollandiai Mikes Kelemen Kör alapította az egész hollandiai magyar közösség országos összefogására.",
+        "milestones": [
+          {
+            "year": "1957",
+            "title": "Megalakulás",
+            "description": "Az Amszterdami Hungaria Club 1929 és a Hollandiai Mikes Kelemen Kör létrehozza a szövetséget.",
+            "sourceUrl": "https://www.hongaarsefederatie.nl/magunkrol/"
+          }
+        ]
+      },
+      "affiliations": [
+        {
+          "organizationId": "hungaria-club-1929",
+          "label": "Alapító szervezet"
+        },
+        {
+          "organizationId": "hollandiai-mikes-kelemen-kor",
+          "label": "Alapító szervezet"
+        }
+      ],
+      "publicChannels": [
+        {
+          "label": "Facebook",
+          "platform": "Facebook",
+          "url": "https://www.facebook.com/HollandiaiMagyarSz/",
+          "ownership": "self"
         }
       ]
     },
@@ -82,6 +118,39 @@
           "scope": "self",
           "ingestEvents": true
         }
+      ],
+      "address": "Grand Café Frankendael, Middenweg 116, 1097 BT Amsterdam",
+      "history": {
+        "summary": "A klub 1929 szeptemberében alakult, és saját bemutatása szerint a legrégebbi folyamatosan működő hollandiai magyar kulturális-társadalmi egyesület.",
+        "milestones": [
+          {
+            "date": "1929-09",
+            "title": "Alapítás",
+            "description": "A klubot az első világháború után Hollandiában maradt magyar közösség tagjai hozták létre.",
+            "sourceUrl": "https://www.hungariaclub1929.nl/club-tortenete/"
+          }
+        ]
+      },
+      "memberships": [
+        {
+          "name": "Hollandiai Magyar Szövetség",
+          "url": "https://www.hongaarsefederatie.nl/",
+          "label": "Országos ernyőszervezeti kapcsolódás"
+        }
+      ],
+      "publicChannels": [
+        {
+          "label": "Facebook – Magyar Club Amszterdamban / Hungaria Club 1929",
+          "platform": "Facebook",
+          "url": "https://www.facebook.com/groups/1557753864481993/",
+          "ownership": "self"
+        },
+        {
+          "label": "YouTube – HungariaClub1929",
+          "platform": "YouTube",
+          "url": "https://www.youtube.com/channel/UCEYi_NIN8J0WHK_SIf1x9OQ",
+          "ownership": "self"
+        }
       ]
     },
     {
@@ -91,9 +160,9 @@
       "scope": "national",
       "type": "student and youth network",
       "entityClass": "organization",
-      "website": "https://www.hunyouth.org/",
-      "email": "info@hunyouth.org",
-      "intro": "A Hungarian Youth Association hollandiai hálózata, amely a Hollandiában tanuló és élő magyar fiatalok kapcsolatépítését támogatja.",
+      "website": "https://www.hunyouth.org/netherlands",
+      "email": "netherlands@hunyouth.org",
+      "intro": "A Hungarian Youth Association hollandiai nemzeti bizottsága, amely a Hollandiában tanuló magyar egyetemistákat és fiatalokat közösségi, információs és érdekképviseleti hálózatba kapcsolja.",
       "activities": [
         "fiatalok és hallgatók kapcsolatépítése",
         "közösségi programok",
@@ -102,8 +171,8 @@
       "profileVerifiedAt": "2026-10-01",
       "evidenceSources": [
         {
-          "label": "Hungarian Youth Association – országos hálózat és HYA Netherlands",
-          "url": "https://www.hunyouth.org/",
+          "label": "HYA Netherlands – hivatalos országoldal",
+          "url": "https://www.hunyouth.org/netherlands",
           "type": "official"
         },
         {
@@ -111,7 +180,8 @@
           "url": "https://haga.mfa.gov.hu/asset/view/146780/HYA%20NL%20Guide.pdf",
           "type": "government"
         }
-      ]
+      ],
+      "publicChannels": []
     },
     {
       "id": "70-attila-cserkeszcsapat",
@@ -154,6 +224,22 @@
           "scope": "self",
           "ingestEvents": false
         }
+      ],
+      "serviceLocations": [
+        {
+          "city": "Zeist",
+          "label": "Rendszeres csapatgyűlések és közösségi alkalmak"
+        },
+        {
+          "city": "Den Haag",
+          "label": "A csapat beszámolói szerint itt is tartanak csapatgyűléseket"
+        }
+      ],
+      "memberships": [
+        {
+          "name": "Külföldi Magyar Cserkészszövetség",
+          "label": "Cserkészszövetségi kapcsolódás"
+        }
       ]
     },
     {
@@ -163,9 +249,9 @@
       "type": "cultural and intellectual association",
       "entityClass": "organization",
       "founded": "1951",
-      "website": "https://www.federatio.org/mikes.html",
-      "email": "mikes_hollandia@yahoo.com",
-      "intro": "1951-ben alapított hollandiai magyar kulturális és értelmiségi kör, tanulmányi napokkal és évközi közösségi programokkal.",
+      "website": "https://mikeskelemenkor.nl/",
+      "email": "hollandiaimikes@gmail.com",
+      "intro": "1951-ben alapított hollandiai magyar kulturális és értelmiségi közösség, amely előadásokat, kulturális találkozókat és tanulmányi programokat szervez.",
       "activities": [
         "tanulmányi napok",
         "kulturális programok",
@@ -175,18 +261,40 @@
       "profileVerifiedAt": "2026-10-01",
       "evidenceSources": [
         {
-          "label": "Hollandiai Mikes Kelemen Kör – szervezeti oldal",
-          "url": "https://www.federatio.org/mikes.html",
-          "type": "institutional"
+          "label": "Hollandiai Mikes Kelemen Kör – hivatalos oldal",
+          "url": "https://mikeskelemenkor.nl/",
+          "type": "official"
         },
         {
-          "label": "Hollandiai Magyar Szövetség – kapcsolatok",
-          "url": "https://www.hongaarsefederatie.nl/",
+          "label": "Hollandiai Mikes Kelemen Kör – partnerkapcsolatok és elérhetőség",
+          "url": "https://mikeskelemenkor.nl/ajanlas/",
+          "type": "official"
+        },
+        {
+          "label": "Történeti intézményi oldal",
+          "url": "https://www.federatio.org/mikes.html",
           "type": "institutional"
         }
       ],
       "region": "Utrecht",
-      "city": "Vianen"
+      "city": "Vianen",
+      "legalForm": "stichting",
+      "memberships": [
+        {
+          "name": "Hollandiai Magyar Szövetség",
+          "url": "https://www.hongaarsefederatie.nl/",
+          "label": "Országos ernyőszervezeti kapcsolódás"
+        }
+      ],
+      "calendarSources": [
+        {
+          "label": "Hollandiai Mikes Kelemen Kör – hivatalos oldal/programközlések",
+          "url": "https://mikeskelemenkor.nl/",
+          "kind": "official-news-events",
+          "scope": "self",
+          "ingestEvents": false
+        }
+      ]
     },
     {
       "id": "hagai-magyar-reformatus-gyulekezet",
@@ -210,6 +318,26 @@
           "url": "https://zwolleireformatus.nl/magyar-nyelvu-protestans-reformatus-gyulekezetek-hollandiaban/",
           "type": "institutional"
         }
+      ],
+      "email": "csanady@federatio.org",
+      "address": "Heilige Familiekerk, Kamperfoelieplein 29, Den Haag",
+      "publicChannels": [
+        {
+          "label": "Facebook – Hágai Magyar Református Gyülekezet",
+          "platform": "Facebook",
+          "url": "https://www.facebook.com/groups/1565898767001214/",
+          "ownership": "self"
+        }
+      ],
+      "calendarSources": [
+        {
+          "label": "Hollandiai magyar református gyülekezetek – 2026 szolgálati rend",
+          "url": "https://www.federatio.org/protes.html",
+          "kind": "official-institutional-calendar",
+          "scope": "self",
+          "ingestEvents": true,
+          "inclusionRule": "Only the Den Haag/Hága column and explicitly attributed Haag events."
+        }
       ]
     },
     {
@@ -222,7 +350,6 @@
       "entityClass": "organization",
       "founded": "2018",
       "website": "https://www.federatio.org/protes.html",
-      "parentId": "hagai-magyar-reformatus-gyulekezet",
       "intro": "2018-ban a Hágai Magyar Református Gyülekezet kezdeményezésére létrejött amszterdami magyar református közösség.",
       "profileVerifiedAt": "2026-10-01",
       "evidenceSources": [
@@ -236,6 +363,27 @@
           "url": "https://zwolleireformatus.nl/magyar-nyelvu-protestans-reformatus-gyulekezetek-hollandiaban/",
           "type": "institutional"
         }
+      ],
+      "parentOrganizationId": "hagai-magyar-reformatus-gyulekezet",
+      "address": "Vrijburg Kerk, Herman Gorterstraat 31, Amsterdam",
+      "email": "paal.karoly@gmail.com",
+      "publicChannels": [
+        {
+          "label": "Facebook – Amszterdami Magyar Református Istentisztelet",
+          "platform": "Facebook",
+          "url": "https://www.facebook.com/groups/469704446834620/",
+          "ownership": "self"
+        }
+      ],
+      "calendarSources": [
+        {
+          "label": "Hollandiai magyar református gyülekezetek – 2026 szolgálati rend",
+          "url": "https://www.federatio.org/protes.html",
+          "kind": "official-institutional-calendar",
+          "scope": "self",
+          "ingestEvents": true,
+          "inclusionRule": "Only the Amsterdam column and explicitly attributed Amsterdam events."
+        }
       ]
     },
     {
@@ -248,7 +396,6 @@
       "entityClass": "organization",
       "founded": "2018",
       "website": "https://www.federatio.org/protes.html",
-      "parentId": "hagai-magyar-reformatus-gyulekezet",
       "intro": "2018-ban a Hágai Magyar Református Gyülekezet kezdeményezésére létrejött rotterdami magyar református közösség.",
       "profileVerifiedAt": "2026-10-01",
       "evidenceSources": [
@@ -261,6 +408,27 @@
           "label": "Zwollei Magyar Református Egyházközség – hollandiai magyar gyülekezetek",
           "url": "https://zwolleireformatus.nl/magyar-nyelvu-protestans-reformatus-gyulekezetek-hollandiaban/",
           "type": "institutional"
+        }
+      ],
+      "parentOrganizationId": "hagai-magyar-reformatus-gyulekezet",
+      "address": "Gebouw De Heuvel, Grotekerkplein 5, 3011 GC Rotterdam",
+      "email": "szaboemokeneszmely@gmail.com",
+      "publicChannels": [
+        {
+          "label": "Facebook – Rotterdami Magyar Református Istentisztelet",
+          "platform": "Facebook",
+          "url": "https://www.facebook.com/groups/191844434959616/",
+          "ownership": "self"
+        }
+      ],
+      "calendarSources": [
+        {
+          "label": "Hollandiai magyar református gyülekezetek – 2026 szolgálati rend",
+          "url": "https://www.federatio.org/protes.html",
+          "kind": "official-institutional-calendar",
+          "scope": "self",
+          "ingestEvents": true,
+          "inclusionRule": "Only the Rotterdam column and explicitly attributed Rotterdam events."
         }
       ]
     },
@@ -285,6 +453,25 @@
           "label": "Hollandiai magyar református gyülekezetek",
           "url": "https://zwolleireformatus.nl/magyar-nyelvu-protestans-reformatus-gyulekezetek-hollandiaban/",
           "type": "official"
+        }
+      ],
+      "address": "Lutherse Kerk, Koestraat 2-4, 8011 NK Zwolle",
+      "publicChannels": [
+        {
+          "label": "Facebook – Magyar református istentisztelet Zwolle",
+          "platform": "Facebook",
+          "url": "https://www.facebook.com/refistentiszteletzwolleban/",
+          "ownership": "self"
+        }
+      ],
+      "calendarSources": [
+        {
+          "label": "Zwollei Harangszó és szolgálati rend",
+          "url": "https://zwolleireformatus.nl/",
+          "kind": "official-calendar-news",
+          "scope": "self-and-vianen",
+          "ingestEvents": true,
+          "inclusionRule": "Only events explicitly assigned to Zwolle for this organization; Vianen is a separate child congregation."
         }
       ]
     },
@@ -363,6 +550,13 @@
           "url": "https://magyarszalon.nl/magunkrol/",
           "type": "official"
         }
+      ],
+      "memberships": [
+        {
+          "name": "Hollandiai Magyar Szövetség",
+          "url": "https://www.hongaarsefederatie.nl/",
+          "label": "Hollandiai magyar szervezeti háló"
+        }
       ]
     },
     {
@@ -404,6 +598,14 @@
           "scope": "self",
           "ingestEvents": false
         }
+      ],
+      "publicChannels": [
+        {
+          "label": "Facebook – Hollandiai Magyarok",
+          "platform": "Facebook",
+          "url": "https://www.facebook.com/HMagyarok/",
+          "ownership": "self"
+        }
       ]
     },
     {
@@ -431,6 +633,14 @@
           "label": "Magyarország Nagykövetsége Hága – 2022 Családi Nap",
           "url": "https://haga.mfa.gov.hu/hu/articles/toebb-mint-ezren-uennepeltek-a-magyar-csaladi-napon-wassenaarban",
           "type": "government"
+        }
+      ],
+      "publicChannels": [
+        {
+          "label": "Facebook – Hágai Magyar Énekkar",
+          "platform": "Facebook",
+          "url": "https://www.facebook.com/hagaimagyarenekkar/",
+          "ownership": "self"
         }
       ]
     },
@@ -460,6 +670,14 @@
           "label": "Magyarország Nagykövetsége Hága – közös fellépés",
           "url": "https://haga.mfa.gov.hu/hu/articles/toebb-mint-ezren-uennepeltek-a-magyar-csaladi-napon-wassenaarban",
           "type": "government"
+        }
+      ],
+      "publicChannels": [
+        {
+          "label": "Facebook – Amszterdami Magyar Kórus",
+          "platform": "Facebook",
+          "url": "https://www.facebook.com/hongaarskoor/",
+          "ownership": "self"
         }
       ]
     },
@@ -569,14 +787,14 @@
     },
     {
       "id": "hollandiai-magyar-romai-katolikus-egyhazkozsegi-tanacs",
-      "name": "Hollandiai Magyar Római Katolikus Egyházközségi Tanács",
+      "name": "Hollandiai Magyar Katolikus Közösség",
       "country": "nl",
       "scope": "national",
-      "city": "Den Haag",
-      "type": "Hungarian Roman Catholic community council",
+      "city": "Wassenaar",
+      "type": "Hungarian Roman Catholic community",
       "entityClass": "organization",
       "email": "hagai.magyar.katolikusok@gmail.com",
-      "intro": "A hollandiai magyar római katolikus közösség országos szervezeti kapcsolódási pontja, több holland város magyar nyelvű katolikus alkalmainak közösségi koordinációjával.",
+      "intro": "A hollandiai magyar katolikusok országos közösségi kapcsolódási pontja, magyar nyelvű szentmisékkel és egyházi-közösségi programokkal.",
       "activities": [
         "magyar nyelvű katolikus közösségi élet",
         "szentmisék",
@@ -586,14 +804,178 @@
       "profileVerifiedAt": "2026-10-01",
       "evidenceSources": [
         {
-          "label": "Hollandiai Magyar Szövetség – 2026 nemzeti ünnepek, katolikus tanács",
-          "url": "https://www.hongaarsefederatie.nl/nemzeti-unnepek/",
+          "label": "Életünk – hollandiai magyar katolikus közösségi címtár 2025",
+          "url": "https://epa.hu/04000/04031/00620/pdf/EPA04031_eletunk_2025_11.pdf",
           "type": "institutional"
         },
         {
-          "label": "Hollandiai Magyar Szövetség – 2025 Hírmondó, egyházi közösségek",
-          "url": "https://www.hongaarsefederatie.nl/wp-content/uploads/2025/02/HMH2025_torzs_INTERNETRE_VEGLEGES_v2.pdf",
+          "label": "Zwollei református oldal – hollandiai magyar katolikus közösségi hivatkozás",
+          "url": "https://zwolleireformatus.nl/magyar-nyelvu-protestans-reformatus-gyulekezetek-hollandiaban/",
           "type": "institutional"
+        }
+      ],
+      "region": "Zuid-Holland",
+      "address": "Hyacinthstraat 22, 2241 VT Wassenaar",
+      "publicChannels": [
+        {
+          "label": "Facebook – Hágai Magyar Katolikusok",
+          "platform": "Facebook",
+          "url": "https://www.facebook.com/HagaiMagyarKatolikusok/",
+          "ownership": "self"
+        },
+        {
+          "label": "Facebook – Hollandiai Egyházközségi Tanács",
+          "platform": "Facebook",
+          "url": "https://www.facebook.com/EKThollandiai/",
+          "ownership": "self"
+        }
+      ]
+    },
+    {
+      "id": "vianeni-magyar-reformatus-gyulekezet",
+      "name": "Vianeni Magyar Református Gyülekezet",
+      "country": "nl",
+      "region": "Utrecht",
+      "city": "Vianen",
+      "type": "Hungarian Reformed congregation",
+      "entityClass": "organization",
+      "parentOrganizationId": "zwollei-magyar-reformatus-egyhazkozseg",
+      "address": "Sportpark Blankensteijn, Langeweg 6B, Vianen",
+      "email": "s.uzonka@gmail.com",
+      "phone": "+31 6 19986225",
+      "intro": "Vianenben működő magyar református közösség, amely a Zwollei Magyar Református Egyházközség megbízásából rendszeres magyar nyelvű istentiszteleteket tart.",
+      "activities": [
+        "magyar nyelvű istentisztelet",
+        "református közösségi élet",
+        "lelkigondozás"
+      ],
+      "profileVerifiedAt": "2026-10-01",
+      "evidenceSources": [
+        {
+          "label": "Zwollei Harangszó 2026/5 – Vianen 2026 szolgálati rend",
+          "url": "https://zwolleireformatus.nl/wp-content/uploads/2026/04/zwolle-2026-5.pdf",
+          "type": "official"
+        },
+        {
+          "label": "Hollandiai magyar református gyülekezetek – Vianen",
+          "url": "https://zwolleireformatus.nl/magyar-nyelvu-protestans-reformatus-gyulekezetek-hollandiaban/",
+          "type": "official"
+        }
+      ],
+      "calendarSources": [
+        {
+          "label": "Zwollei Harangszó – Vianen szolgálati rend",
+          "url": "https://zwolleireformatus.nl/wp-content/uploads/2026/04/zwolle-2026-5.pdf",
+          "kind": "official-calendar-pdf",
+          "scope": "self",
+          "ingestEvents": true,
+          "inclusionRule": "Only events under the VIANEN heading."
+        }
+      ],
+      "publicChannels": [
+        {
+          "label": "Facebook – a zwollei gyülekezet közös csatornája",
+          "platform": "Facebook",
+          "url": "https://www.facebook.com/refistentiszteletzwolleban/",
+          "ownership": "parent"
+        }
+      ]
+    },
+    {
+      "id": "stichting-magyar-nota",
+      "name": "Stichting Magyar Nóta",
+      "country": "nl",
+      "region": "Utrecht",
+      "city": "Utrecht",
+      "type": "Hungarian music cultural foundation",
+      "entityClass": "organization",
+      "legalForm": "stichting",
+      "founded": "2013",
+      "website": "https://www.magyarnota.nl/",
+      "email": "info@magyarnota.nl",
+      "phone": "+31 6 43128835",
+      "address": "Maliesingel 17, 3581 BD Utrecht",
+      "registrationId": "59319178",
+      "intro": "Holland kulturális alapítvány, amely a Magyar Nóta és a magyarországi cigányzenei hagyomány hollandiai megőrzését, oktatását és koncertéletét támogatja.",
+      "activities": [
+        "Magyar Nóta és cigányzene megőrzése",
+        "koncertek",
+        "mesterkurzusok",
+        "zenei oktatás",
+        "magyar–holland kulturális csere"
+      ],
+      "profileVerifiedAt": "2026-10-01",
+      "evidenceSources": [
+        {
+          "label": "Stichting Magyar Nóta – hivatalos oldal",
+          "url": "https://www.magyarnota.nl/",
+          "type": "official"
+        },
+        {
+          "label": "Stichting Magyar Nóta – az alapítvány",
+          "url": "https://www.magyarnota.nl/magyar-nota-nl/de-stichting/",
+          "type": "official"
+        },
+        {
+          "label": "Stichting Magyar Nóta – 2026–2027 programok",
+          "url": "https://www.magyarnota.nl/magyar-nota-nl/activiteiten-magyarnota/",
+          "type": "official"
+        }
+      ],
+      "calendarSources": [
+        {
+          "label": "Stichting Magyar Nóta – Activiteiten 2026–2027",
+          "url": "https://www.magyarnota.nl/magyar-nota-nl/activiteiten-magyarnota/",
+          "kind": "official-calendar",
+          "scope": "self",
+          "ingestEvents": true
+        }
+      ]
+    },
+    {
+      "id": "hollandiai-magyarok-gyulekezete",
+      "name": "Hollandiai Magyarok Gyülekezete (HMGY)",
+      "country": "nl",
+      "region": "Zuid-Holland",
+      "city": "Rotterdam",
+      "type": "Hungarian evangelical Christian congregation",
+      "entityClass": "organization",
+      "founded": "2007",
+      "website": "https://hmgy.nl/",
+      "email": "kapcsolat@hmgy.nl",
+      "address": "Krabbendijkestraat 520, 3084 LP Rotterdam",
+      "intro": "Rotterdami magyar nyelvű evangéliumi keresztény gyülekezet, heti istentiszteletekkel és közösségi programokkal.",
+      "activities": [
+        "magyar nyelvű istentisztelet",
+        "bibliai közösség",
+        "családi és közösségi programok",
+        "szociális segítség"
+      ],
+      "profileVerifiedAt": "2026-10-01",
+      "evidenceSources": [
+        {
+          "label": "OSZK Webarchívum – Hollandiai Magyar Gyülekezet aktív seed 2026",
+          "url": "https://webarchivum.oszk.hu/miaseed/?offset=17&order=desc&reszgyujt_rovid=VALLAS&sort=reszgyujt_rovid_mia_text_sort",
+          "type": "institutional"
+        },
+        {
+          "label": "Rotterdam nemzetközi keresztény közösségi címtár",
+          "url": "https://skinrotterdam.nl/wp-content/uploads/2024/04/Kerkengids-Rotterdam.pdf",
+          "type": "institutional"
+        },
+        {
+          "label": "Kerk op de Kaart – magyar közösség Rotterdam",
+          "url": "https://www.kerkopdekaart.nl/Kerk/id%3DFD20BD84-AAD7-4051-B7E7-F48F5F3F2C4B",
+          "type": "institutional"
+        }
+      ],
+      "calendarSources": [
+        {
+          "label": "HMGY hivatalos honlap",
+          "url": "https://hmgy.nl/",
+          "kind": "official-website",
+          "scope": "self",
+          "ingestEvents": false
         }
       ]
     }
