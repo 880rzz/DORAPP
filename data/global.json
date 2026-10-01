@@ -3012,10 +3012,12 @@
     {
       "iso2": "nl",
       "name": {
+        "hu": "Hollandia",
+        "nl": "Nederland",
         "en": "Netherlands",
         "officialEn": "Kingdom of the Netherlands"
       },
-      "researchStatus": "unresearched",
+      "researchStatus": "reviewed",
       "countryDataPath": "data/countries/nl/",
       "route": "countries/nl/",
       "counts": {
@@ -3025,7 +3027,15 @@
         "events": 0,
         "education": 0
       },
-      "iso3": "NLD"
+      "iso3": "NLD",
+      "locales": [
+        "nl-NL",
+        "hu",
+        "en"
+      ],
+      "lastBroadVerifiedAt": "2026-10-01",
+      "lastResearchAttemptAt": "2026-10-01",
+      "discoveryCandidateCount": 0
     },
     {
       "iso2": "no",

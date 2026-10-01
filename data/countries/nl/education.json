@@ -1,0 +1,130 @@
+{
+  "updated": "2026-10-01",
+  "institutions": [
+    {
+      "id": "kincskereso-oskola",
+      "name": "Kincskereső Oskola",
+      "country": "nl",
+      "region": "Utrecht",
+      "city": "Maarssen",
+      "type": "weekend/community school",
+      "website": "https://kincskereso-oskola.nl/",
+      "intro": "Hollandiai magyar közösségi iskola rendszeres magyar nyelvi és kulturális foglalkozásokkal Maarssenben.",
+      "venue": "Kerkgebouw De Ark, Duivenkamp 844, 3607 WG Maarssen",
+      "verifiedAt": "2026-10-01",
+      "evidenceSources": [
+        {
+          "label": "Kincskereső Oskola – hivatalos oldal",
+          "url": "https://kincskereso-oskola.nl/",
+          "type": "official"
+        },
+        {
+          "label": "Kincskereső Oskola – 2026/27 program",
+          "url": "https://kincskereso-oskola.nl/program/",
+          "type": "official"
+        }
+      ],
+      "calendarSources": [
+        {
+          "label": "Kincskereső Oskola – tanévi program",
+          "url": "https://kincskereso-oskola.nl/program/",
+          "kind": "official-calendar",
+          "scope": "self",
+          "ingestEvents": true,
+          "inclusionRule": "Only explicitly named special/community occasions or dates presented as publishable public programme items; do not turn routine lessons into public events automatically."
+        }
+      ],
+      "founded": "1999"
+    },
+    {
+      "id": "hagai-magyar-ovoda-es-iskola",
+      "name": "Hágai Magyar Óvoda és Iskola",
+      "country": "nl",
+      "region": "Zuid-Holland",
+      "city": "Den Haag",
+      "type": "weekend/community school",
+      "founded": "2006",
+      "intro": "Hágában működő magyar óvoda és iskola, amely a magyar nyelv, kultúra és hagyományok megőrzésére épít.",
+      "verifiedAt": "2026-10-01",
+      "evidenceSources": [
+        {
+          "label": "Hágai Magyar Óvoda és Iskola – intézményi oldal",
+          "url": "https://www.federatio.org/hmoi.html",
+          "type": "institutional"
+        },
+        {
+          "label": "Hollandiai Magyar Szövetség – hivatalos kapcsolati lista",
+          "url": "https://www.hongaarsefederatie.nl/",
+          "type": "institutional"
+        }
+      ],
+      "website": "https://www.federatio.org/hmoi.html",
+      "venue": "Buurthuis ’t Lindenkwadrant, 2e Braamstraat 6, 2563 HJ Den Haag",
+      "calendarSources": [
+        {
+          "label": "Hágai Magyar Óvoda és Iskola – 2026/27 tanévi dátumok",
+          "url": "https://www.federatio.org/hmoi.html",
+          "kind": "official-calendar",
+          "scope": "self",
+          "ingestEvents": true,
+          "inclusionRule": "Only named public celebrations or community events; routine school sessions are not public events."
+        }
+      ]
+    },
+    {
+      "id": "amstelveeni-magyar-ovisuli",
+      "name": "Amstelveeni Magyar OviSuli",
+      "country": "nl",
+      "region": "Noord-Holland",
+      "city": "Amstelveen",
+      "type": "weekend/community school",
+      "founded": "2012",
+      "website": "https://www.amstelveeni-magyariskola.nl/",
+      "email": "magyarovisuli@gmail.com",
+      "intro": "Amstelveenben működő magyar hétvégi iskola és óvodai közösség, több korcsoporttal, anyanyelvápolással és kulturális programokkal.",
+      "verifiedAt": "2026-10-01",
+      "evidenceSources": [
+        {
+          "label": "Amstelveeni Magyar OviSuli – hivatalos oldal",
+          "url": "https://www.amstelveeni-magyariskola.nl/",
+          "type": "official"
+        },
+        {
+          "label": "Amstelveeni Magyar OviSuli – Rólunk",
+          "url": "https://www.amstelveeni-magyariskola.nl/rolunk/",
+          "type": "official"
+        }
+      ]
+    },
+    {
+      "id": "eindhoveni-magyar-ovisuli",
+      "name": "Eindhoveni Magyar Ovi-Suli",
+      "country": "nl",
+      "region": "Noord-Brabant",
+      "city": "Eindhoven",
+      "type": "weekend/community school",
+      "founded": "2010",
+      "website": "https://eindhoveni-ovisuli.nl/",
+      "venue": "Basisschool De Troubadour, Maria van Bourgondielaan 2d, 5616 EE Eindhoven",
+      "intro": "Eindhovenben működő magyar hétvégi ovi-suli, amely élményalapú anyanyelvi és kulturális foglalkozásokat biztosít a diaszpórában élő gyermekeknek.",
+      "verifiedAt": "2026-10-01",
+      "evidenceSources": [
+        {
+          "label": "Eindhoveni Magyar Ovi-Suli – hivatalos oldal",
+          "url": "https://eindhoveni-ovisuli.nl/",
+          "type": "official"
+        },
+        {
+          "label": "Eindhoveni Magyar Ovi-Suli – kapcsolat",
+          "url": "https://eindhoveni-ovisuli.nl/kapcsolat/",
+          "type": "official"
+        },
+        {
+          "label": "Heritage Language Education Network – Eindhoven Hungarian profile, updated 2026",
+          "url": "https://www.hlenet.org/directory",
+          "type": "institutional"
+        }
+      ]
+    }
+  ]
+}
