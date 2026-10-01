@@ -1,0 +1,1547 @@
+{
+  "updated": "2026-10-01",
+  "sourcePolicy": "United States country dataset. Prefer first-party official sites, Hungarian diplomatic mission directories and current umbrella/member directories. The United States is researched in national plus regional/state batches; partial coverage is never presented as complete.",
+  "organizations": [
+    {
+      "id": "hungarian-american-coalition",
+      "name": "Hungarian American Coalition",
+      "country": "us",
+      "scope": "national",
+      "city": "Washington",
+      "region": "District of Columbia",
+      "type": "national Hungarian American umbrella organization",
+      "entityClass": "umbrella",
+      "legalForm": "501(c)(3) nonprofit",
+      "founded": "1991",
+      "website": "https://hacusa.org/",
+      "email": "hac@hacusa.org",
+      "phone": "+1 202-296-9505",
+      "intro": "Országos amerikai magyar ernyőszervezet, amely közösségi, oktatási, kulturális és érdekképviseleti programokat működtet, és saját közösségi naptárt tart fenn.",
+      "activities": [
+        "országos közösségi koordináció",
+        "oktatás és kultúra",
+        "közösségi események",
+        "ösztöndíjak",
+        "amerikai magyar szervezetek hálózata"
+      ],
+      "profileVerifiedAt": "2026-10-01",
+      "evidenceSources": [
+        {
+          "label": "Hungarian American Coalition – official site",
+          "url": "https://hacusa.org/",
+          "type": "official"
+        },
+        {
+          "label": "Embassy of Hungary Washington – national diaspora organizations",
+          "url": "https://washington.mfa.gov.hu/page/fobb-orszagos-diaszpora-szervezetek-es-egyesueletek",
+          "type": "government"
+        }
+      ],
+      "calendarSources": [
+        {
+          "label": "Hungarian American Community Calendar",
+          "url": "https://hacusa.org/",
+          "kind": "umbrella-calendar",
+          "scope": "clearly-attributed-members-and-partners",
+          "ingestEvents": false
+        }
+      ]
+    },
+    {
+      "id": "kmcssz",
+      "name": "Külföldi Magyar Cserkészszövetség / Hungarian Scout Association in Exteris",
+      "country": "us",
+      "scope": "national",
+      "city": "Morris Plains",
+      "region": "New Jersey",
+      "type": "Hungarian scout association",
+      "entityClass": "umbrella",
+      "founded": "1948",
+      "website": "https://kmcssz.org/",
+      "phone": "+1 973-400-8628",
+      "intro": "New Jersey-i központú világméretű magyar cserkészszövetség; az Egyesült Államokban több helyi cserkészcsapatot és országos programot fog össze.",
+      "activities": [
+        "magyar cserkészet",
+        "ifjúsági nevelés",
+        "vezetőképzés",
+        "táborok",
+        "helyi cserkészcsapatok"
+      ],
+      "profileVerifiedAt": "2026-10-01",
+      "evidenceSources": [
+        {
+          "label": "KMCSSZ – official site",
+          "url": "https://kmcssz.org/",
+          "type": "official"
+        },
+        {
+          "label": "Hungarian Embassy Washington – Northeast directory",
+          "url": "https://washington.mfa.gov.hu/en/northeast",
+          "type": "government"
+        }
+      ],
+      "calendarSources": [
+        {
+          "label": "KMCSSZ – 2026 camps and programs",
+          "url": "https://kmcssz.org/taborok-vkjubi/",
+          "kind": "official-calendar",
+          "scope": "self",
+          "ingestEvents": false
+        }
+      ]
+    },
+    {
+      "id": "american-hungarian-educators-association",
+      "name": "American Hungarian Educators Association (AHEA)",
+      "country": "us",
+      "scope": "national",
+      "city": "Cleveland",
+      "region": "Ohio",
+      "type": "professional and scholarly education association",
+      "entityClass": "organization",
+      "legalForm": "501(c)(3) nonprofit",
+      "founded": "1974",
+      "website": "https://ahea.net/",
+      "email": "aheausa@gmail.com",
+      "intro": "Amerikai magyar oktatók, kutatók és Hungarian Studies szakemberek országos szakmai szervezete.",
+      "activities": [
+        "Hungarian Studies",
+        "oktatói hálózat",
+        "konferenciák",
+        "tudományos publikációk",
+        "magyar kultúra oktatása"
+      ],
+      "profileVerifiedAt": "2026-10-01",
+      "evidenceSources": [
+        {
+          "label": "AHEA – official site",
+          "url": "https://ahea.net/",
+          "type": "official"
+        },
+        {
+          "label": "AHEA – organization information",
+          "url": "https://ahea.net/join/",
+          "type": "official"
+        }
+      ]
+    },
+    {
+      "id": "kossuth-foundation",
+      "name": "Kossuth Foundation",
+      "country": "us",
+      "region": "District of Columbia",
+      "city": "Washington",
+      "type": "Hungarian cultural and educational foundation",
+      "entityClass": "organization",
+      "website": "https://kossuthfoundation.org/",
+      "email": "info@kossuthfoundation.org",
+      "address": "2001 Massachusetts Ave NW, Washington, DC 20036",
+      "intro": "Washingtoni magyar kulturális és oktatási alapítvány, Kossuth House közösségi térrel, magyar nyelvprogrammal és könyvtárral.",
+      "activities": [
+        "magyar nyelvoktatás",
+        "könyvtár",
+        "kulturális események",
+        "kiállítások",
+        "közösségi programok"
+      ],
+      "profileVerifiedAt": "2026-10-01",
+      "evidenceSources": [
+        {
+          "label": "Kossuth Foundation – official site",
+          "url": "https://kossuthfoundation.org/",
+          "type": "official"
+        },
+        {
+          "label": "Embassy of Hungary Washington – Washington DC organizations",
+          "url": "https://washington.mfa.gov.hu/en/washington-dc",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "hungarian-house-new-york",
+      "name": "Hungarian House of New York / Magyar Ház",
+      "country": "us",
+      "region": "New York",
+      "city": "New York",
+      "type": "Hungarian community and cultural center",
+      "entityClass": "institution",
+      "legalForm": "501(c)(3) nonprofit",
+      "founded": "1964",
+      "website": "https://www.hungarianhouse.org/",
+      "email": "hungarianhousenyc@gmail.com",
+      "phone": "+1 212-249-9360",
+      "address": "213 East 82nd Street, New York, NY 10028",
+      "intro": "New York-i magyar közösségi és kulturális központ, könyvtárral, kiállításokkal, koncertekkel és közösségi eseményekkel.",
+      "activities": [
+        "kulturális központ",
+        "koncertek",
+        "kiállítások",
+        "könyvtár",
+        "cserkészet",
+        "közösségi programok"
+      ],
+      "profileVerifiedAt": "2026-10-01",
+      "evidenceSources": [
+        {
+          "label": "Hungarian House – official site",
+          "url": "https://www.hungarianhouse.org/",
+          "type": "official"
+        },
+        {
+          "label": "Embassy of Hungary Washington – Northeast directory",
+          "url": "https://washington.mfa.gov.hu/en/northeast",
+          "type": "government"
+        }
+      ],
+      "calendarSources": [
+        {
+          "label": "Hungarian House – Events & Tickets",
+          "url": "https://www.hungarianhouse.org/event-list",
+          "kind": "official-calendar",
+          "scope": "self",
+          "ingestEvents": true
+        }
+      ]
+    },
+    {
+      "id": "american-hungarian-foundation",
+      "name": "American Hungarian Foundation",
+      "country": "us",
+      "region": "New Jersey",
+      "city": "New Brunswick",
+      "type": "Hungarian American cultural and historical foundation",
+      "entityClass": "institution",
+      "website": "https://www.ahfoundation.org/",
+      "email": "info@ahfoundation.org",
+      "phone": "+1 732-846-5777",
+      "address": "300 Somerset Street, New Brunswick, NJ 08903",
+      "intro": "New Brunswick-i amerikai magyar kulturális és történeti alapítvány múzeumi, archívumi és könyvtári gyűjteménnyel.",
+      "activities": [
+        "múzeum",
+        "archívum",
+        "könyvtár",
+        "kulturális események",
+        "történeti örökség"
+      ],
+      "profileVerifiedAt": "2026-10-01",
+      "evidenceSources": [
+        {
+          "label": "American Hungarian Foundation – official site",
+          "url": "https://www.ahfoundation.org/",
+          "type": "official"
+        },
+        {
+          "label": "Embassy of Hungary Washington – Northeast directory",
+          "url": "https://washington.mfa.gov.hu/en/northeast",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "united-hungarian-societies-cleveland",
+      "name": "United Hungarian Societies",
+      "country": "us",
+      "region": "Ohio",
+      "city": "Cleveland",
+      "type": "regional Hungarian American umbrella organization",
+      "entityClass": "umbrella",
+      "founded": "1902",
+      "website": "https://hungariancleveland.org/",
+      "intro": "Greater Cleveland amerikai magyar szervezeteit összefogó regionális ernyőszervezet, saját közösségi eseménynaptárral.",
+      "activities": [
+        "regionális szervezeti koordináció",
+        "magyar kulturális örökség",
+        "közösségi események",
+        "tagintézmények naptára"
+      ],
+      "profileVerifiedAt": "2026-10-01",
+      "evidenceSources": [
+        {
+          "label": "United Hungarian Societies – official site",
+          "url": "https://hungariancleveland.org/",
+          "type": "official"
+        },
+        {
+          "label": "United Hungarian Societies – About",
+          "url": "https://hungariancleveland.org/about/",
+          "type": "official"
+        }
+      ],
+      "calendarSources": [
+        {
+          "label": "UHS Cleveland Events Calendar",
+          "url": "https://hungariancleveland.org/calendar/",
+          "kind": "umbrella-calendar",
+          "scope": "clearly-attributed-members-and-self",
+          "ingestEvents": true
+        }
+      ]
+    },
+    {
+      "id": "bocskai-radio",
+      "name": "Bocskai Rádió",
+      "country": "us",
+      "region": "Ohio",
+      "city": "Cleveland",
+      "type": "Hungarian language community media",
+      "entityClass": "media",
+      "website": "https://www.bocskairadio.org/",
+      "email": "studio@bocskairadio.org",
+      "phone": "+1 216-202-0486",
+      "intro": "Cleveland központú magyar nyelvű közösségi rádió és médiafelület, amerikai magyar hírekkel, kultúrával és közösségi információval.",
+      "activities": [
+        "magyar nyelvű rádió",
+        "közösségi hírek",
+        "kultúra",
+        "irodalom",
+        "zene"
+      ],
+      "profileVerifiedAt": "2026-10-01",
+      "evidenceSources": [
+        {
+          "label": "Bocskai Rádió – About us",
+          "url": "https://www.bocskairadio.org/en/about-us/",
+          "type": "official"
+        },
+        {
+          "label": "United Hungarian Societies – member organization",
+          "url": "https://hungariancleveland.org/",
+          "type": "institutional"
+        }
+      ]
+    },
+    {
+      "id": "embassy-of-hungary-washington",
+      "name": "Embassy of Hungary, Washington D.C.",
+      "country": "us",
+      "scope": "national",
+      "region": "District of Columbia",
+      "city": "Washington",
+      "type": "Hungarian diplomatic mission",
+      "entityClass": "institution",
+      "website": "https://washington.mfa.gov.hu/",
+      "intro": "Magyarország washingtoni nagykövetsége, amely országos és regionális amerikai magyar diaszpóra-szervezeti tájékoztatást is fenntart.",
+      "activities": [
+        "diplomácia",
+        "konzuli tájékoztatás",
+        "diaszpóra kapcsolattartás",
+        "kulturális és oktatási kapcsolatok"
+      ],
+      "profileVerifiedAt": "2026-10-01",
+      "evidenceSources": [
+        {
+          "label": "Embassy of Hungary Washington – official site",
+          "url": "https://washington.mfa.gov.hu/",
+          "type": "government"
+        },
+        {
+          "label": "Diaspora communities today",
+          "url": "https://washington.mfa.gov.hu/hu/a-diaszpora-koezoessegek-napjainkban",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "hungarian-society-of-massachusetts",
+      "name": "Hungarian Society of Massachusetts",
+      "country": "us",
+      "region": "Massachusetts",
+      "city": "Belmont",
+      "type": "Hungarian cultural and community association",
+      "entityClass": "organization",
+      "website": "https://www.newenglandhungarians.org/",
+      "intro": "Boston és New England magyar közösségét kulturális, oktatási és közösségi programokkal összefogó nonprofit szervezet.",
+      "activities": [
+        "közösségi programok",
+        "magyar kultúra",
+        "oktatás",
+        "családi rendezvények"
+      ],
+      "profileVerifiedAt": "2026-10-01",
+      "evidenceSources": [
+        {
+          "label": "Embassy of Hungary Washington – Northeast",
+          "url": "https://washington.mfa.gov.hu/en/northeast",
+          "type": "government"
+        },
+        {
+          "label": "Hungarian Society / New England Hungarians – Boskola community layer",
+          "url": "https://www.newenglandhungarians.org/boskola",
+          "type": "official"
+        }
+      ]
+    },
+    {
+      "id": "minnesota-hungarians",
+      "name": "Minnesota Hungarians",
+      "country": "us",
+      "region": "Minnesota",
+      "city": "Saint Louis Park",
+      "type": "Hungarian cultural and community nonprofit",
+      "entityClass": "organization",
+      "website": "https://www.minnesotahungarians.com/",
+      "address": "5009 Excelsior Blvd Suite 154, St. Louis Park, MN 55416",
+      "intro": "Több mint százéves minnesotai magyar közösségi szervezet kulturális, oktatási, művészeti és jótékonysági programokkal.",
+      "activities": [
+        "magyar kultúra",
+        "oktatás",
+        "közösségi események",
+        "néptánc",
+        "jótékonyság"
+      ],
+      "profileVerifiedAt": "2026-10-01",
+      "evidenceSources": [
+        {
+          "label": "Minnesota Hungarians – official site",
+          "url": "https://www.minnesotahungarians.com/about-us",
+          "type": "official"
+        },
+        {
+          "label": "Embassy of Hungary Washington – Midwest",
+          "url": "https://washington.mfa.gov.hu/en/midwest",
+          "type": "government"
+        }
+      ],
+      "calendarSources": [
+        {
+          "label": "Minnesota Hungarians – upcoming events",
+          "url": "https://www.minnesotahungarians.com/",
+          "kind": "official-calendar",
+          "scope": "self",
+          "ingestEvents": true
+        }
+      ]
+    },
+    {
+      "id": "united-magyar-house-los-angeles",
+      "name": "United Magyar House / Egyesült Magyar Ház",
+      "country": "us",
+      "region": "California",
+      "city": "Los Angeles",
+      "type": "Hungarian cultural and community center",
+      "entityClass": "institution",
+      "website": "https://www.unitedmagyarhouse.org/",
+      "email": "egyesultmagyarhaz@gmail.com",
+      "phone": "+1 323-734-1453",
+      "address": "1975 W Washington Blvd, Los Angeles, CA 90018",
+      "intro": "Los Angeles-i magyar közösségi és kulturális ház, több mint százéves helyi szervezeti hagyománnyal.",
+      "activities": [
+        "közösségi ház",
+        "kulturális programok",
+        "magyar hagyományok",
+        "rendezvények"
+      ],
+      "profileVerifiedAt": "2026-10-01",
+      "evidenceSources": [
+        {
+          "label": "United Magyar House – official site",
+          "url": "https://www.unitedmagyarhouse.org/",
+          "type": "official"
+        },
+        {
+          "label": "Embassy of Hungary Washington – West Coast",
+          "url": "https://washington.mfa.gov.hu/en/westcoast-northwest-hawaii",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "house-of-hungary-san-diego",
+      "name": "House of Hungary San Diego",
+      "country": "us",
+      "region": "California",
+      "city": "San Diego",
+      "type": "Hungarian cultural and community house",
+      "entityClass": "institution",
+      "legalForm": "501(c)(3) nonprofit",
+      "website": "https://sdmagyar.org/",
+      "address": "2159 Pan American Plaza, Balboa Park, San Diego, CA 92101",
+      "intro": "Balboa Parkban működő magyar kulturális ház, amely magyar történelmet, kultúrát, szokásokat és hagyományokat mutat be.",
+      "activities": [
+        "kulturális ház",
+        "iskola",
+        "könyvtár",
+        "közösségi programok",
+        "magyar hagyományok"
+      ],
+      "profileVerifiedAt": "2026-10-01",
+      "evidenceSources": [
+        {
+          "label": "House of Hungary San Diego – official site",
+          "url": "https://sdmagyar.org/",
+          "type": "official"
+        },
+        {
+          "label": "Embassy of Hungary Washington – West Coast",
+          "url": "https://washington.mfa.gov.hu/en/westcoast-northwest-hawaii",
+          "type": "government"
+        }
+      ],
+      "calendarSources": [
+        {
+          "label": "House of Hungary San Diego – event calendar",
+          "url": "https://sdmagyar.org/",
+          "kind": "official-calendar",
+          "scope": "self",
+          "ingestEvents": true
+        }
+      ]
+    },
+    {
+      "id": "hungarian-american-association-washington",
+      "name": "Hungarian American Association of Washington",
+      "country": "us",
+      "region": "Washington",
+      "city": "Seattle",
+      "type": "Hungarian cultural and community association",
+      "entityClass": "organization",
+      "website": "https://sites.google.com/hungarianamerican.org/haaw-english/home",
+      "address": "720 Seneca St Ste 107 #805, Seattle, WA 98101",
+      "intro": "Washington állam magyar közösségi szervezete, iskolai, cserkész-, néptánc- és közösségi programokkal.",
+      "activities": [
+        "közösség",
+        "iskola",
+        "cserkészet",
+        "néptánc",
+        "események"
+      ],
+      "profileVerifiedAt": "2026-10-01",
+      "evidenceSources": [
+        {
+          "label": "Hungarian American Association of Washington – official site",
+          "url": "https://sites.google.com/hungarianamerican.org/haaw-english/home",
+          "type": "official"
+        },
+        {
+          "label": "Embassy of Hungary Washington – West Coast",
+          "url": "https://washington.mfa.gov.hu/en/westcoast-northwest-hawaii",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "austin-hungarian-association",
+      "name": "Austin Hungarian Association",
+      "country": "us",
+      "region": "Texas",
+      "city": "Austin",
+      "type": "Hungarian cultural and community association",
+      "entityClass": "organization",
+      "website": "https://austinhungarianassociation.org/",
+      "intro": "Austin és környéke magyar közösségi szervezete, kulturális és közösségi kapcsolódási pont.",
+      "activities": [
+        "közösség",
+        "magyar kultúra",
+        "események"
+      ],
+      "profileVerifiedAt": "2026-10-01",
+      "evidenceSources": [
+        {
+          "label": "Embassy of Hungary Washington – Southwest",
+          "url": "https://washington.mfa.gov.hu/en/southwest",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "hungarian-american-cultural-association-houston",
+      "name": "Hungarian American Cultural Association of Houston",
+      "country": "us",
+      "region": "Texas",
+      "city": "Houston",
+      "type": "Hungarian cultural association",
+      "entityClass": "organization",
+      "website": "http://www.hacahouston.org/",
+      "intro": "Houston térségének amerikai magyar kulturális egyesülete.",
+      "activities": [
+        "magyar kultúra",
+        "közösségi események",
+        "kapcsolatépítés"
+      ],
+      "profileVerifiedAt": "2026-10-01",
+      "evidenceSources": [
+        {
+          "label": "Embassy of Hungary Washington – Southwest",
+          "url": "https://washington.mfa.gov.hu/en/southwest",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "hungarian-club-of-georgia",
+      "name": "Hungarian Club of Georgia",
+      "country": "us",
+      "region": "Georgia",
+      "city": "Atlanta",
+      "type": "Hungarian cultural and community organization",
+      "entityClass": "organization",
+      "website": "https://www.gahungarians.com/",
+      "intro": "Georgia állam magyar közösségi és kulturális szervezete.",
+      "activities": [
+        "közösség",
+        "magyar kultúra",
+        "rendezvények"
+      ],
+      "profileVerifiedAt": "2026-10-01",
+      "evidenceSources": [
+        {
+          "label": "Embassy of Hungary Washington – Southeast",
+          "url": "https://washington.mfa.gov.hu/en/southeast",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "cleveland-hungarian-heritage-society",
+      "name": "Cleveland Hungarian Heritage Society / Cleveland Hungarian Museum",
+      "country": "us",
+      "region": "Ohio",
+      "city": "Cleveland",
+      "type": "Hungarian heritage society, museum and library",
+      "entityClass": "institution",
+      "legalForm": "501(c)(3) nonprofit",
+      "founded": "1985",
+      "website": "https://clevelandhungarianmuseum.org/",
+      "email": "museum@clevelandhungarianmuseum.org",
+      "phone": "+1 216-523-3900",
+      "address": "1301 East 9th Street, Cleveland, OH 44114",
+      "intro": "A Northeast Ohio-i magyar örökséget gyűjtő, megőrző és bemutató társaság, amely múzeumot és könyvtárat működtet.",
+      "activities": [
+        "múzeum",
+        "könyvtár",
+        "archívum",
+        "kiállítások",
+        "előadások",
+        "kulturális örökség"
+      ],
+      "profileVerifiedAt": "2026-10-01",
+      "evidenceSources": [
+        {
+          "label": "Cleveland Hungarian Museum – official site",
+          "url": "https://clevelandhungarianmuseum.org/",
+          "type": "official"
+        },
+        {
+          "label": "United Hungarian Societies – member network",
+          "url": "https://hungariancleveland.org/",
+          "type": "institutional"
+        }
+      ],
+      "calendarSources": [
+        {
+          "label": "Cleveland Hungarian Museum – events",
+          "url": "https://clevelandhungarianmuseum.org/",
+          "kind": "official-calendar",
+          "scope": "self",
+          "ingestEvents": true
+        }
+      ]
+    },
+    {
+      "id": "west-side-hungarian-reformed-church-cleveland",
+      "name": "West Side Hungarian Reformed Church",
+      "country": "us",
+      "region": "Ohio",
+      "city": "Cleveland",
+      "type": "Hungarian Reformed congregation",
+      "entityClass": "organization",
+      "founded": "1906",
+      "email": "WSHReformedChurch@gmail.com",
+      "phone": "+1 216-476-3736",
+      "address": "15300 Puritas Ave, Cleveland, OH 44135",
+      "intro": "Cleveland nyugati oldalán működő magyar református gyülekezet magyar és angol nyelvű istentiszteletekkel.",
+      "activities": [
+        "magyar református istentisztelet",
+        "egyházi közösség",
+        "közösségi rendezvények"
+      ],
+      "profileVerifiedAt": "2026-10-01",
+      "evidenceSources": [
+        {
+          "label": "United Hungarian Societies – Hungarian Church Services",
+          "url": "https://hungariancleveland.org/hungarian-church-services/",
+          "type": "institutional"
+        },
+        {
+          "label": "United Church of Christ – congregation profile",
+          "url": "https://www.ucc.org/church/west-side-hungarian-reformed-church-ucc/",
+          "type": "institutional"
+        }
+      ]
+    },
+    {
+      "id": "hungarian-community-church-georgia",
+      "name": "Hungarian Community Church of Georgia",
+      "country": "us",
+      "region": "Georgia",
+      "city": "Gainesville",
+      "type": "Hungarian community church",
+      "entityClass": "organization",
+      "legalForm": "nonprofit",
+      "founded": "2008",
+      "website": "https://www.hungarianchurch.org/",
+      "intro": "Georgia magyar közösségi egyháza, magyar nyelvű istentiszteletekkel, oktatással és kulturális-közösségi programokkal.",
+      "activities": [
+        "magyar istentisztelet",
+        "magyar oktatás",
+        "közösségi programok",
+        "kulturális örökség"
+      ],
+      "profileVerifiedAt": "2026-10-01",
+      "evidenceSources": [
+        {
+          "label": "Hungarian Community Church of Georgia – official site",
+          "url": "https://www.hungarianchurch.org/?lang=en",
+          "type": "official"
+        },
+        {
+          "label": "Embassy of Hungary Washington – Southeast",
+          "url": "https://washington.mfa.gov.hu/en/southeast",
+          "type": "government"
+        }
+      ],
+      "calendarSources": [
+        {
+          "label": "HCCG – upcoming events",
+          "url": "https://www.hungarianchurch.org/?lang=en",
+          "kind": "official-calendar",
+          "scope": "self",
+          "ingestEvents": true
+        }
+      ]
+    },
+    {
+      "id": "hungarian-reformed-church-san-francisco",
+      "name": "Hungarian Reformed Church of San Francisco and Vicinity",
+      "country": "us",
+      "region": "California",
+      "city": "Newark",
+      "type": "Hungarian Reformed congregation",
+      "entityClass": "organization",
+      "website": "https://www.reformatustemplom.com/",
+      "address": "35660 Cedar Blvd, Newark, CA 94560",
+      "intro": "San Francisco Bay Area magyar nyelvű református gyülekezete.",
+      "activities": [
+        "magyar református istentisztelet",
+        "közösségi ebéd",
+        "egyházi közösség"
+      ],
+      "profileVerifiedAt": "2026-10-01",
+      "evidenceSources": [
+        {
+          "label": "Hungarian Reformed Church of San Francisco – official site",
+          "url": "https://www.reformatustemplom.com/",
+          "type": "official"
+        },
+        {
+          "label": "Embassy of Hungary Washington – West Coast",
+          "url": "https://washington.mfa.gov.hu/en/westcoast-northwest-hawaii",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "st-stephen-king-hungary-church-chicago",
+      "name": "St. Stephen King of Hungary Roman Catholic Church",
+      "country": "us",
+      "region": "Illinois",
+      "city": "Chicago",
+      "type": "Hungarian Roman Catholic church",
+      "entityClass": "organization",
+      "website": "https://stephenchurch.org/",
+      "email": "chicago@stephenchurch.org",
+      "phone": "+1 773-486-1896",
+      "address": "2015 W Augusta Blvd, Chicago, IL 60622",
+      "intro": "Chicagói magyar római katolikus templom magyar nyelvű közösségi és vallási szolgálattal.",
+      "activities": [
+        "magyar katolikus mise",
+        "egyházi közösség",
+        "magyar iskola"
+      ],
+      "profileVerifiedAt": "2026-10-01",
+      "evidenceSources": [
+        {
+          "label": "St. Stephen King of Hungary Church – official site",
+          "url": "https://stephenchurch.org/templom/",
+          "type": "official"
+        },
+        {
+          "label": "Embassy of Hungary Washington – Midwest",
+          "url": "https://washington.mfa.gov.hu/en/midwest",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "amit-us",
+      "name": "AMIT – Amerikai Magyar Iskolák Találkozója",
+      "country": "us",
+      "scope": "national",
+      "city": "New York",
+      "region": "New York",
+      "type": "Hungarian school network and education platform",
+      "entityClass": "umbrella",
+      "website": "https://amit-ny.org/",
+      "intro": "Amerikai magyar hétvégi iskolákat összekapcsoló oktatási hálózat, pedagógiai tudásmegosztással, konferenciákkal és partnerintézményi rendszerrel.",
+      "activities": [
+        "magyar iskolahálózat",
+        "pedagógiai konferenciák",
+        "tananyagfejlesztés",
+        "vizsgáztatási tájékoztatás",
+        "iskolai együttműködés"
+      ],
+      "profileVerifiedAt": "2026-10-01",
+      "evidenceSources": [
+        {
+          "label": "AMIT – official site",
+          "url": "https://amit-ny.org/",
+          "type": "official"
+        },
+        {
+          "label": "Embassy of Hungary Washington – national diaspora organizations",
+          "url": "https://washington.mfa.gov.hu/page/fobb-orszagos-diaszpora-szervezetek-es-egyesueletek",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "hungarianhub",
+      "name": "HungarianHub",
+      "country": "us",
+      "scope": "national",
+      "city": "Daytona Beach",
+      "region": "Florida",
+      "type": "Hungarian community directory and media platform",
+      "entityClass": "media",
+      "website": "https://hungarianhub.com/",
+      "intro": "Amerikai magyar közösségi kereső, szervezeti és programplatform, amely országos discovery-forrásként segíti a magyar közösségek, helyek és események feltárását.",
+      "activities": [
+        "közösségi címtár",
+        "programok",
+        "szervezetek",
+        "diaszpóra hírek",
+        "országos discovery"
+      ],
+      "profileVerifiedAt": "2026-10-01",
+      "evidenceSources": [
+        {
+          "label": "HungarianHub – official site",
+          "url": "https://hungarianhub.com/",
+          "type": "official"
+        }
+      ],
+      "calendarSources": [
+        {
+          "label": "HungarianHub – program discovery",
+          "url": "https://hungarianhub.com/",
+          "kind": "mixed-directory-calendar",
+          "scope": "discovery-only",
+          "ingestEvents": false
+        }
+      ]
+    },
+    {
+      "id": "consulate-general-hungary-new-york",
+      "name": "Consulate General of Hungary in New York",
+      "country": "us",
+      "region": "New York",
+      "city": "New York",
+      "type": "Hungarian diplomatic mission",
+      "entityClass": "institution",
+      "website": "https://newyork.mfa.gov.hu/",
+      "intro": "Magyarország New York-i főkonzulátusa, konzuli és diaszpóra-kapcsolati szolgáltatásokkal.",
+      "activities": [
+        "konzuli ügyintézés",
+        "diaszpóra kapcsolattartás",
+        "magyar kulturális kapcsolatok"
+      ],
+      "profileVerifiedAt": "2026-10-01",
+      "evidenceSources": [
+        {
+          "label": "Embassy of Hungary Washington – U.S. consulates",
+          "url": "https://washington.mfa.gov.hu/en/consulates",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "consulate-general-hungary-chicago",
+      "name": "Consulate General of Hungary in Chicago",
+      "country": "us",
+      "region": "Illinois",
+      "city": "Chicago",
+      "type": "Hungarian diplomatic mission",
+      "entityClass": "institution",
+      "website": "https://chicago.mfa.gov.hu/",
+      "email": "mission.chi@mfa.gov.hu",
+      "address": "303 East Wacker Drive, Chicago, IL 60601",
+      "intro": "Magyarország chicagói főkonzulátusa, a középnyugati államok konzuli és diaszpóra-kapcsolati központja.",
+      "activities": [
+        "konzuli ügyintézés",
+        "diaszpóra kapcsolattartás",
+        "közösségi kapcsolatok"
+      ],
+      "profileVerifiedAt": "2026-10-01",
+      "evidenceSources": [
+        {
+          "label": "Embassy of Hungary Washington – U.S. consulates",
+          "url": "https://washington.mfa.gov.hu/en/consulates",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "consulate-general-hungary-los-angeles",
+      "name": "Consulate General of Hungary in Los Angeles",
+      "country": "us",
+      "region": "California",
+      "city": "Los Angeles",
+      "type": "Hungarian diplomatic mission",
+      "entityClass": "institution",
+      "website": "https://losangeles.mfa.gov.hu/",
+      "email": "mission.los@mfa.gov.hu",
+      "address": "11766 Wilshire Blvd, Suite 410, Los Angeles, CA 90025",
+      "intro": "Magyarország Los Angeles-i főkonzulátusa, az Egyesült Államok nyugati és délnyugati régióinak jelentős részét lefedő konzuli képviselet.",
+      "activities": [
+        "konzuli ügyintézés",
+        "diaszpóra kapcsolattartás",
+        "kihelyezett konzuli napok"
+      ],
+      "profileVerifiedAt": "2026-10-01",
+      "evidenceSources": [
+        {
+          "label": "Embassy of Hungary Washington – U.S. consulates",
+          "url": "https://washington.mfa.gov.hu/en/consulates",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "vice-consulate-hungary-houston",
+      "name": "Vice Consulate of Hungary in Houston",
+      "country": "us",
+      "region": "Texas",
+      "city": "Houston",
+      "type": "Hungarian diplomatic mission",
+      "entityClass": "institution",
+      "website": "https://losangeles.mfa.gov.hu/",
+      "email": "houston@mfa.gov.hu",
+      "address": "5847 San Felipe St, Suite 1700, Houston, TX 77057",
+      "intro": "Magyarország houstoni alkonzulátusa konzuli szolgáltatásokkal.",
+      "activities": [
+        "konzuli ügyintézés",
+        "diaszpóra kapcsolattartás"
+      ],
+      "profileVerifiedAt": "2026-10-01",
+      "evidenceSources": [
+        {
+          "label": "Embassy of Hungary Washington – U.S. consulates",
+          "url": "https://washington.mfa.gov.hu/en/consulates",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "vice-consulate-hungary-miami",
+      "name": "Vice Consulate of Hungary in Miami",
+      "country": "us",
+      "region": "Florida",
+      "city": "Coral Gables",
+      "type": "Hungarian diplomatic mission",
+      "entityClass": "institution",
+      "website": "https://newyork.mfa.gov.hu/",
+      "email": "consulate.mia@mfa.gov.hu",
+      "address": "2121 Ponce de Leon Blvd, Suite 732, Coral Gables, FL 33134",
+      "intro": "Magyarország miami alkonzulátusa floridai és regionális konzuli szolgáltatásokkal.",
+      "activities": [
+        "konzuli ügyintézés",
+        "diaszpóra kapcsolattartás"
+      ],
+      "profileVerifiedAt": "2026-10-01",
+      "evidenceSources": [
+        {
+          "label": "Embassy of Hungary Washington – U.S. consulates",
+          "url": "https://washington.mfa.gov.hu/en/consulates",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "liszt-institute-new-york",
+      "name": "Liszt Institute New York",
+      "country": "us",
+      "region": "New York",
+      "city": "New York",
+      "type": "Hungarian cultural institute",
+      "entityClass": "institution",
+      "website": "https://culture.hu/us/new-york",
+      "email": "info@culturehungary.org",
+      "address": "227 East 52nd Street, New York, NY 10022",
+      "intro": "New York-i magyar kulturális intézet, amely magyar művészeti és kulturális programokat mutat be az Egyesült Államokban.",
+      "activities": [
+        "kulturális diplomácia",
+        "kiállítások",
+        "zene",
+        "irodalom",
+        "magyar kulturális programok"
+      ],
+      "profileVerifiedAt": "2026-10-01",
+      "evidenceSources": [
+        {
+          "label": "Consulate General of Hungary New York – U.S. representations",
+          "url": "https://newyork.mfa.gov.hu/en/consular-districts",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "hungarian-association-cleveland",
+      "name": "Hungarian Association / Magyar Társaság",
+      "country": "us",
+      "region": "Ohio",
+      "city": "Lakewood",
+      "type": "Hungarian cultural and scholarly association",
+      "entityClass": "organization",
+      "website": "https://hungarianassociation.com/",
+      "email": "magyar.tarsasag@gmail.com",
+      "phone": "+1 216-651-4929",
+      "intro": "Cleveland központú magyar kulturális és tudományos egyesület, a Magyar Kongresszus és a Krónika hagyományának fenntartója.",
+      "activities": [
+        "Magyar Kongresszus",
+        "előadások",
+        "könyv- és kulturális programok",
+        "Krónika kiadvány"
+      ],
+      "profileVerifiedAt": "2026-10-01",
+      "evidenceSources": [
+        {
+          "label": "Hungarian Association – official site and 2026 Congress",
+          "url": "https://hungarianassociation.com/",
+          "type": "official"
+        }
+      ],
+      "calendarSources": [
+        {
+          "label": "Hungarian Association – 2026 events",
+          "url": "https://hungarianassociation.com/esemenyek/",
+          "kind": "official-calendar",
+          "scope": "self",
+          "ingestEvents": true
+        }
+      ]
+    },
+    {
+      "id": "chicago-hungarian-cultural-advisory-council",
+      "name": "Chicago Hungarian Cultural Advisory Council / Chicagói Magyar Kultúrtanács",
+      "country": "us",
+      "region": "Illinois",
+      "city": "Chicago",
+      "type": "regional Hungarian community council",
+      "entityClass": "umbrella",
+      "website": "https://www.chicagohungarians.com/",
+      "intro": "A chicagói magyar szervezeteket és programokat összekapcsoló regionális kulturális tanács, saját közösségi naptárral és tagsági listával.",
+      "activities": [
+        "regionális szervezeti koordináció",
+        "közösségi naptár",
+        "magyar kultúra",
+        "iskolák és cserkészet"
+      ],
+      "profileVerifiedAt": "2026-10-01",
+      "evidenceSources": [
+        {
+          "label": "Chicago Hungarians – official calendar",
+          "url": "https://www.chicagohungarians.com/",
+          "type": "official"
+        },
+        {
+          "label": "Chicago Hungarian organizations and council membership",
+          "url": "https://chicagohungarians.com/index.php?page=members.htm",
+          "type": "official"
+        }
+      ],
+      "calendarSources": [
+        {
+          "label": "Chicago Hungarians – community calendar",
+          "url": "https://www.chicagohungarians.com/",
+          "kind": "umbrella-calendar",
+          "scope": "clearly-attributed-members-and-self",
+          "ingestEvents": true
+        }
+      ]
+    },
+    {
+      "id": "hungarian-american-club-triangle",
+      "name": "Hungarian-American Club of the Triangle",
+      "country": "us",
+      "region": "North Carolina",
+      "city": "Durham",
+      "type": "Hungarian community club",
+      "entityClass": "organization",
+      "website": "https://nchungarians.org/",
+      "intro": "Észak-Karolina Raleigh–Durham–Chapel Hill térségének magyar közösségi klubja, havi találkozókkal és kulturális programokkal.",
+      "activities": [
+        "havi közösségi találkozók",
+        "magyar kultúra",
+        "családi programok",
+        "regionális kapcsolattartás"
+      ],
+      "profileVerifiedAt": "2026-10-01",
+      "evidenceSources": [
+        {
+          "label": "Hungarian-American Club of the Triangle – official site",
+          "url": "https://nchungarians.org/",
+          "type": "official"
+        }
+      ],
+      "calendarSources": [
+        {
+          "label": "NC Hungarians – Calendar",
+          "url": "https://nchungarians.org/",
+          "kind": "official-calendar",
+          "scope": "self",
+          "ingestEvents": false,
+          "note": "Enable only after current dated event entries are individually verified."
+        }
+      ]
+    },
+    {
+      "id": "american-hungarian-library-historical-society",
+      "name": "American Hungarian Library and Historical Society",
+      "country": "us",
+      "region": "New York",
+      "city": "New York",
+      "type": "Hungarian library, archive and cultural society",
+      "entityClass": "institution",
+      "legalForm": "501(c)(3) nonprofit",
+      "founded": "1955",
+      "website": "https://www.hungarianlibrary.org/",
+      "email": "info@hungarianlibrary.org",
+      "phone": "+1 646-630-5895",
+      "address": "215 E 82nd St, New York, NY 10028",
+      "intro": "New York egyik legrégebbi magyar kulturális intézménye, könyvtárral, archívummal, nyelvkurzusokkal és egész éves kulturális programokkal.",
+      "activities": [
+        "könyvtár",
+        "digitális archívum",
+        "magyar nyelvkurzusok",
+        "irodalmi estek",
+        "előadások",
+        "kiállítások"
+      ],
+      "profileVerifiedAt": "2026-10-01",
+      "evidenceSources": [
+        {
+          "label": "American Hungarian Library – official site",
+          "url": "https://www.hungarianlibrary.org/",
+          "type": "official"
+        },
+        {
+          "label": "American Hungarian Library – history and organization",
+          "url": "https://www.hungarianlibrary.org/about",
+          "type": "official"
+        }
+      ],
+      "calendarSources": [
+        {
+          "label": "AHLHS events",
+          "url": "https://www.hungarianlibrary.org/ahlhs-events",
+          "kind": "official-calendar",
+          "scope": "self",
+          "ingestEvents": true
+        }
+      ]
+    },
+    {
+      "id": "colorado-hungarian-club",
+      "name": "Coloradói Magyar Klub",
+      "country": "us",
+      "region": "Colorado",
+      "city": "Denver",
+      "type": "Hungarian cultural and community club",
+      "entityClass": "organization",
+      "founded": "1963",
+      "website": "https://huclub.org/",
+      "intro": "Colorado magyar közösségi klubja, rendszeres találkozókkal, családi programokkal és kulturális eseményekkel.",
+      "activities": [
+        "közösségi találkozók",
+        "családi programok",
+        "magyar kultúra",
+        "események"
+      ],
+      "profileVerifiedAt": "2026-10-01",
+      "evidenceSources": [
+        {
+          "label": "Coloradói Magyar Klub – official site",
+          "url": "https://huclub.org/",
+          "type": "official"
+        },
+        {
+          "label": "Embassy of Hungary Washington – Midwest directory",
+          "url": "https://washington.mfa.gov.hu/en/midwest",
+          "type": "government"
+        }
+      ],
+      "calendarSources": [
+        {
+          "label": "Coloradói Magyar Klub – current events",
+          "url": "https://huclub.org/",
+          "kind": "official-calendar",
+          "scope": "self",
+          "ingestEvents": true
+        }
+      ]
+    },
+    {
+      "id": "william-penn-association",
+      "name": "William Penn Association",
+      "country": "us",
+      "region": "Pennsylvania",
+      "city": "Pittsburgh",
+      "type": "Hungarian American fraternal benefit society",
+      "entityClass": "organization",
+      "website": "https://wpalife.org/",
+      "phone": "+1 412-231-2979",
+      "address": "709 Brighton Road, Pittsburgh, PA 15233",
+      "intro": "Pittsburgh központú nonprofit fraternal benefit society, amely biztosítási és jótékonysági tevékenysége mellett magyar kulturális örökségápolást is végez.",
+      "activities": [
+        "magyar kulturális örökség",
+        "jótékonyság",
+        "ösztöndíjak",
+        "fraternal közösség"
+      ],
+      "profileVerifiedAt": "2026-10-01",
+      "evidenceSources": [
+        {
+          "label": "William Penn Association – official site",
+          "url": "https://wpalife.org/",
+          "type": "official"
+        },
+        {
+          "label": "William Penn Association – About",
+          "url": "https://wpalife.org/about/",
+          "type": "official"
+        }
+      ]
+    },
+    {
+      "id": "tisza-ensemble",
+      "name": "Tisza Ensemble",
+      "country": "us",
+      "region": "Maryland",
+      "city": "Silver Spring",
+      "type": "Hungarian folk dance ensemble",
+      "entityClass": "group",
+      "legalForm": "501(c)(3) nonprofit",
+      "website": "https://tiszaensemble.org/",
+      "intro": "Washington D.C. térségében működő magyar néptáncegyüttes, amely rendszeres táncórákat, fellépéseket, táncházakat és workshopokat szervez.",
+      "activities": [
+        "magyar néptánc",
+        "táncház",
+        "workshop",
+        "színpadi fellépés",
+        "népzene"
+      ],
+      "profileVerifiedAt": "2026-10-01",
+      "evidenceSources": [
+        {
+          "label": "Tisza Ensemble – official site and 2026 program",
+          "url": "https://tiszaensemble.org/",
+          "type": "official"
+        }
+      ]
+    },
+    {
+      "id": "csurdongolo-folk-ensemble",
+      "name": "Csűrdöngölő Folk Ensemble",
+      "country": "us",
+      "region": "New Jersey",
+      "city": "New Brunswick",
+      "type": "Hungarian folk dance ensemble",
+      "entityClass": "group",
+      "legalForm": "501(c)(3) nonprofit",
+      "founded": "1998",
+      "website": "https://www.csurfolk.org/",
+      "intro": "New Brunswick-i magyar néptáncegyüttes, amely tánc-, zene- és viselethagyományokat őriz, valamint nyilvános táncházakat és gyermekprogramokat szervez.",
+      "activities": [
+        "magyar néptánc",
+        "népzene",
+        "táncház",
+        "gyermek néptánc",
+        "kulturális fellépések"
+      ],
+      "profileVerifiedAt": "2026-10-01",
+      "evidenceSources": [
+        {
+          "label": "Csűrdöngölő Folk Ensemble – official site",
+          "url": "https://www.csurfolk.org/",
+          "type": "official"
+        }
+      ],
+      "calendarSources": [
+        {
+          "label": "Csűrdöngölő – official events",
+          "url": "https://www.csurfolk.org/events.html",
+          "kind": "official-calendar",
+          "scope": "self",
+          "ingestEvents": true
+        }
+      ]
+    },
+    {
+      "id": "hungary-foundation",
+      "name": "Hungary Foundation",
+      "country": "us",
+      "region": "District of Columbia",
+      "city": "Washington",
+      "type": "Hungarian-American educational and cultural foundation",
+      "entityClass": "organization",
+      "legalForm": "501(c)(3) nonprofit",
+      "founded": "2013",
+      "website": "https://www.hungaryfoundation.org/",
+      "email": "hf@hungaryfoundation.org",
+      "phone": "+1 202-627-6810",
+      "address": "1455 Pennsylvania Ave NW, Suite 400, Washington, DC 20004",
+      "intro": "Washingtoni, független amerikai nonprofit alapítvány oktatási, kulturális, szakmai ösztöndíj- és diaszpóra-programokkal.",
+      "activities": [
+        "ösztöndíjak",
+        "gyakornoki programok",
+        "kulturális programok",
+        "diaszpóra digitális kezdeményezések",
+        "akadémiai kapcsolatok"
+      ],
+      "profileVerifiedAt": "2026-10-01",
+      "evidenceSources": [
+        {
+          "label": "Hungary Foundation – official site",
+          "url": "https://www.hungaryfoundation.org/",
+          "type": "official"
+        },
+        {
+          "label": "Hungary Foundation – About Us",
+          "url": "https://www.hungaryfoundation.org/about-us/",
+          "type": "official"
+        }
+      ]
+    },
+    {
+      "id": "hungarian-human-rights-foundation",
+      "name": "Hungarian Human Rights Foundation",
+      "country": "us",
+      "region": "New York",
+      "city": "New York",
+      "type": "Hungarian-American human rights nonprofit",
+      "entityClass": "organization",
+      "legalForm": "501(c)(3) nonprofit",
+      "founded": "1976",
+      "website": "https://hhrf.org/",
+      "email": "info@hhrf.org",
+      "phone": "+1 212-289-5488",
+      "address": "120 East 90th Street, Suite 5D, New York, NY 10128",
+      "intro": "New York-i magyar-amerikai nonprofit szervezet, amely közép- és kelet-európai magyar kisebbségi közösségek emberi jogi helyzetét dokumentálja és oktatási, ifjúsági programokat is működtet.",
+      "activities": [
+        "emberi jogi dokumentáció",
+        "elemzés",
+        "oktatás",
+        "ifjúsági programok",
+        "ReConnect Hungary"
+      ],
+      "profileVerifiedAt": "2026-10-01",
+      "evidenceSources": [
+        {
+          "label": "HHRF – official site",
+          "url": "https://hhrf.org/",
+          "type": "official"
+        },
+        {
+          "label": "HHRF – mission statement",
+          "url": "https://hhrf.org/about/mission-statement/",
+          "type": "official"
+        },
+        {
+          "label": "HHRF – contact and nonprofit information",
+          "url": "https://hhrf.org/contact/",
+          "type": "official"
+        }
+      ]
+    },
+    {
+      "id": "american-hungarian-federation",
+      "name": "American Hungarian Federation",
+      "country": "us",
+      "scope": "national",
+      "region": "District of Columbia",
+      "city": "Washington",
+      "type": "Hungarian-American federation",
+      "entityClass": "umbrella",
+      "founded": "1906",
+      "website": "https://www.americanhungarianfederation.org/",
+      "intro": "Történelmi amerikai magyar szövetség, amely magyar-amerikai kulturális, közösségi és érdekképviseleti ügyekben működik.",
+      "activities": [
+        "közösségi ernyőszervezet",
+        "magyar kulturális örökség",
+        "közösségi programok",
+        "érdekképviselet"
+      ],
+      "profileVerifiedAt": "2026-10-01",
+      "evidenceSources": [
+        {
+          "label": "American Hungarian Federation – official site",
+          "url": "https://www.americanhungarianfederation.org/",
+          "type": "official"
+        },
+        {
+          "label": "Embassy of Hungary Washington – Washington D.C. organizations",
+          "url": "https://washington.mfa.gov.hu/en/washington-dc",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "hungarian-settlement-museum-louisiana",
+      "name": "Hungarian Settlement Museum",
+      "country": "us",
+      "region": "Louisiana",
+      "city": "Hammond",
+      "type": "Hungarian heritage museum",
+      "entityClass": "institution",
+      "website": "https://hungarianmuseum.com/",
+      "phone": "+1 225-209-5020",
+      "address": "27455 Highway 43, Hammond, LA 70403",
+      "intro": "A louisianai Hungarian Settlement történetét és tárgyi örökségét őrző nonprofit múzeum.",
+      "activities": [
+        "múzeum",
+        "helytörténet",
+        "magyar-amerikai örökség",
+        "archívum",
+        "közösségi emlékezet"
+      ],
+      "profileVerifiedAt": "2026-10-01",
+      "evidenceSources": [
+        {
+          "label": "Hungarian Settlement Museum – official site",
+          "url": "https://hungarianmuseum.com/",
+          "type": "official"
+        },
+        {
+          "label": "Louisiana Legislature – nonprofit museum record",
+          "url": "https://www.legis.la.gov/legis/NGO/NgoDoc.aspx?NgoId=2119&search=ALL",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "arpadhon-hungarian-settlement-cultural-association",
+      "name": "Arpadhon Hungarian Settlement Cultural Association",
+      "country": "us",
+      "region": "Louisiana",
+      "city": "Albany",
+      "type": "Hungarian settlement cultural association",
+      "entityClass": "organization",
+      "legalForm": "nonprofit",
+      "website": "https://www.magyars.org/",
+      "address": "29025 Hwy 43, Albany, LA 70711",
+      "intro": "A louisianai Albany–Springfield Hungarian Settlement magyar kulturális örökségét és közösségi hagyományait fenntartó nonprofit egyesület.",
+      "activities": [
+        "magyar kulturális örökség",
+        "Hungarian Heritage Day",
+        "szüreti közösségi programok",
+        "helytörténet"
+      ],
+      "profileVerifiedAt": "2026-10-01",
+      "evidenceSources": [
+        {
+          "label": "Arpadhon Hungarian Settlement Cultural Association – official site",
+          "url": "https://www.magyars.org/",
+          "type": "official"
+        },
+        {
+          "label": "AHSCA – About",
+          "url": "https://www.magyars.org/about",
+          "type": "official"
+        }
+      ],
+      "calendarSources": [
+        {
+          "label": "AHSCA annual community events",
+          "url": "https://www.magyars.org/about",
+          "kind": "official-recurring-events",
+          "scope": "self",
+          "ingestEvents": false,
+          "note": "Recurring-event pattern is discovery evidence; publish individual years only after a dated first-party confirmation."
+        }
+      ]
+    },
+    {
+      "id": "hungarian-community-church-daytona-beach",
+      "name": "Hungarian Community Church – Daytona Beach",
+      "country": "us",
+      "region": "Florida",
+      "city": "Daytona Beach",
+      "type": "Hungarian community church",
+      "entityClass": "organization",
+      "website": "https://www.hungariancommunitychurch.org/",
+      "email": "hunchurch@gmail.com",
+      "phone": "+1 386-589-9327",
+      "address": "620 S Grandview Ave, Daytona Beach, FL 32118",
+      "intro": "Daytona Beach-i magyar közösségi egyházi kapcsolódási pont.",
+      "activities": [
+        "egyházi közösség",
+        "magyar közösségi alkalmak"
+      ],
+      "profileVerifiedAt": "2026-10-01",
+      "evidenceSources": [
+        {
+          "label": "Hungarian Community Church – current contact page",
+          "url": "https://www.hungariancommunitychurch.org/contactus",
+          "type": "official"
+        },
+        {
+          "label": "Embassy of Hungary Washington – Southeast directory",
+          "url": "https://washington.mfa.gov.hu/en/southeast",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "metroplex-magyar-cultural-circle",
+      "name": "Metroplex Magyar Cultural Circle",
+      "country": "us",
+      "region": "Texas",
+      "city": "Trophy Club",
+      "type": "Hungarian cultural and community association",
+      "entityClass": "organization",
+      "website": "https://magyarszo.net/",
+      "phone": "+1 817-829-2180",
+      "address": "2007 Churchill Downs, Trophy Club, TX 76262",
+      "intro": "Dallas–Fort Worth térségének magyar kulturális és közösségi szervezete, rendszeres ünnepi, családi és kulturális programokkal.",
+      "activities": [
+        "közösségi események",
+        "magyar ünnepek",
+        "nyelvi és kulturális programok",
+        "családi rendezvények"
+      ],
+      "profileVerifiedAt": "2026-10-01",
+      "evidenceSources": [
+        {
+          "label": "Metroplex Magyar Cultural Circle – current official site",
+          "url": "https://magyarszo.net/en",
+          "type": "official"
+        },
+        {
+          "label": "Embassy of Hungary Washington – Southwest directory",
+          "url": "https://washington.mfa.gov.hu/en/southwest",
+          "type": "government"
+        }
+      ],
+      "calendarSources": [
+        {
+          "label": "MMCC current event calendar",
+          "url": "https://magyarszo.net/events/2026-10",
+          "kind": "official-calendar",
+          "scope": "self",
+          "ingestEvents": true
+        }
+      ]
+    }
+  ]
+}
