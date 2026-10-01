@@ -79,7 +79,7 @@ def map_html(iso, regions, counts):
         for key,label,map_name in regions
     )
     svg=ROOT/"assets"/"maps"/f"{iso}.svg"
-    actual=(f'<object id="countrySubdivisionMap" class="country-subdivision-map" data="../../assets/maps/{esc(iso)}.svg" type="image/svg+xml" aria-label="{esc(iso.upper())} tartományi térképe"></object>' if svg.exists() else '')
+    actual=(f'<div class="country-map-interactive"><div class="country-map-toolbar" aria-label="Térkép nagyítása"><button type="button" data-country-map-zoom-out aria-label="Kicsinyítés">−</button><button type="button" data-country-map-zoom-in aria-label="Nagyítás">+</button><button type="button" data-country-map-reset aria-label="Térkép alaphelyzet">↺</button><span data-country-map-status aria-live="polite">100%</span></div><div class="country-map-viewport"><object id="countrySubdivisionMap" class="country-subdivision-map" data="../../assets/maps/{esc(iso)}.svg" type="image/svg+xml" aria-label="{esc(iso.upper())} tartományi térképe"></object></div></div>' if svg.exists() else '')
     return (
         '<div class="country-map-shell">'
         + actual +

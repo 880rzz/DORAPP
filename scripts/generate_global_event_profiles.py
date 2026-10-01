@@ -13,6 +13,11 @@ def read(p,d):
 def esc(v): return html.escape(str(v or ""),quote=True)
 
 def main():
+    # Generated event profiles are canonical build artifacts: remove stale pages first.
+    for country_dir in (ROOT/"countries").glob("*") if (ROOT/"countries").exists() else []:
+        event_dir=country_dir/"events"
+        if event_dir.exists():
+            for path in event_dir.glob("*.html"): path.unlink()
     registry=read(DATA/"global.json",{"countries":[]})
     generated=0
     for c in registry.get("countries",[]):

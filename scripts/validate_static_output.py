@@ -121,6 +121,14 @@ for p in ("index.html","forrasok.html","szervezet.html"):
         errors.append(f"shared consent/navigation controller missing: {p}")
 
 
+country_js = (ROOT / "country.js").read_text(encoding="utf-8")
+for token in ("pointerdown", "pointermove", "pointerup", "pointercancel", "setPointerCapture", "scale", "translate3d", "data-country-map-reset", "clamp"):
+    if token not in country_js: errors.append(f"country map pan/zoom regression: missing {token}")
+for iso in ("at", "nl", "be", "us"):
+    page = (ROOT / "countries" / iso / "index.html").read_text(encoding="utf-8")
+    if 'country-map-viewport' not in page or 'data-country-map-zoom-in' not in page: errors.append(f"{iso}: shared country map controller markup missing")
+    if 'id="kereso"' in page and page.index('id="kereso"') > page.index('id="terkep"'): errors.append(f"{iso}: search must remain above map")
+
 print(f"static_output organizations={len(org.get('organizations',[]))} education={len(edu.get('institutions',[]))} events={len(ev.get('events',[]))}")
 if errors:
     print("\n".join("ERROR: "+x for x in errors))

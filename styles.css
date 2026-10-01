@@ -205,3 +205,17 @@
   .world-map-toolbar button{width:42px;height:42px}
   .world-map-status{font-size:.8rem;line-height:1.45}
 }
+
+
+/* Shared country-map pointer pan/zoom controller */
+.country-map-interactive{display:grid;gap:10px}
+.country-map-toolbar{display:flex;align-items:center;gap:7px}
+.country-map-toolbar button{display:grid;place-items:center;width:42px;height:42px;padding:0;border:1px solid #cfd3d7;border-radius:11px;background:#fff;color:#25282b;font:700 1.15rem/1 system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;cursor:pointer}
+.country-map-toolbar button:disabled{opacity:.38;cursor:not-allowed}
+.country-map-toolbar button:hover:not(:disabled),.country-map-toolbar button:focus-visible{background:#f1f4f6;border-color:#9da7ae;outline:none}
+.country-map-toolbar span{margin-left:3px;color:var(--muted);font-size:.78rem;font-variant-numeric:tabular-nums}
+.country-map-viewport{position:relative;overflow:hidden;width:100%;aspect-ratio:1000/650;border:1px solid var(--line);border-radius:24px;background:#fafafa;touch-action:pan-y}
+.country-map-viewport.is-zoomed{cursor:grab;touch-action:none}
+.country-map-viewport.is-dragging{cursor:grabbing}
+.country-map-viewport .country-subdivision-map{width:100%;height:100%;aspect-ratio:auto;border:0;border-radius:0;transform-origin:center center;will-change:transform}
+@media(max-width:620px){.country-map-viewport{border-radius:18px}.country-map-toolbar button{width:44px;height:44px}}
