@@ -2654,6 +2654,52 @@
         }
       ],
       "calendarSources": []
+    },
+    {
+      "id": "saint-mary-of-victories-hungarian-parish",
+      "name": "Saint Mary of Victories – Hungarian Parish",
+      "country": "us",
+      "region": "Missouri",
+      "city": "St. Louis",
+      "type": "Catholic parish and Hungarian heritage community",
+      "entityClass": "host-institution",
+      "website": "https://www.smov.info/",
+      "email": "welcome@smov.info",
+      "phone": "(314) 231-8101",
+      "address": "744 South 3rd Street, Saint Louis, MO 63102-1645",
+      "intro": "Saint Louis történelmi katolikus temploma és ma is működő magyar örökségi közössége. A templom saját 2026-os felülete magyar plébániai örökséget, magyar nyelvi elemeket és aktuális közösségi programokat dokumentál.",
+      "activities": [
+        "katolikus közösség",
+        "magyar örökség",
+        "magyar nyelvi elemek",
+        "közösségi programok",
+        "Hungarian Freedom Day"
+      ],
+      "profileVerifiedAt": "2026-10-01",
+      "evidenceSources": [
+        {
+          "label": "Saint Mary of Victories – official site",
+          "url": "https://www.smov.info/",
+          "type": "official"
+        },
+        {
+          "label": "Saint Mary of Victories – Hungarian Parish",
+          "url": "https://www.smov.info/pages/hungarian-parish.html",
+          "type": "official"
+        },
+        {
+          "label": "Saint Mary of Victories – public calendar",
+          "url": "https://www.smov.info/public-calendar.php",
+          "type": "official"
+        }
+      ],
+      "calendarSources": [
+        {
+          "label": "Saint Mary of Victories public calendar",
+          "url": "https://www.smov.info/public-calendar.php",
+          "ingestEvents": false
+        }
+      ]
     }
   ]
 }
