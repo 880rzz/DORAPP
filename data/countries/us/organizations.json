@@ -1542,6 +1542,1083 @@
           "ingestEvents": true
         }
       ]
+    },
+    {
+      "id": "hungarian-cultural-society-connecticut",
+      "name": "Hungarian Cultural Society of Connecticut",
+      "country": "us",
+      "region": "Connecticut",
+      "city": "Cheshire",
+      "type": "Hungarian cultural association",
+      "entityClass": "organization",
+      "website": "http://www.hcsc.us/",
+      "address": "762 Bethany Mountain Road, Cheshire, CT 06410",
+      "intro": "Connecticuti magyar kulturális egyesület, amely az amerikai magyar kulturális örökség megőrzését és a magyar közösségi élet támogatását szolgálja.",
+      "activities": [
+        "magyar kulturális örökség",
+        "közösségi programok",
+        "jótékonysági rendezvények",
+        "magyar kisebbségi közösségek támogatása"
+      ],
+      "profileVerifiedAt": "2026-10-01",
+      "evidenceSources": [
+        {
+          "label": "Hungarian American Coalition – Hungarian Cultural Society of Connecticut",
+          "url": "https://hacusa.org/hungarian-cultural-society-of-connecticut/",
+          "type": "institutional"
+        },
+        {
+          "label": "Embassy of Hungary Washington – Northeast Hungarian organizations",
+          "url": "https://washington.mfa.gov.hu/en/northeast",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "bodnar-gabor-scout-troop-boston",
+      "name": "2. sz. Bodnár Gábor Cserkészcsapat – Boston",
+      "country": "us",
+      "region": "Massachusetts",
+      "city": "Belmont",
+      "type": "Hungarian scout troop",
+      "entityClass": "organization",
+      "founded": "2003",
+      "website": "https://www.newenglandhungarians.org/bostoni-cserkeszet/csapatunk",
+      "intro": "A bostoni magyar közösség cserkészcsapata, a Külföldi Magyar Cserkészszövetség teljes jogú csapata és a Massachusetts-i Magyar Egyesülethez kapcsolódó ifjúsági közösség.",
+      "activities": [
+        "cserkészet",
+        "magyar nyelvi és kulturális nevelés",
+        "ifjúsági közösség",
+        "táborok"
+      ],
+      "parentOrganizationId": "hungarian-society-of-massachusetts",
+      "memberships": [
+        {
+          "name": "Külföldi Magyar Cserkészszövetség",
+          "url": "https://kmcssz.org/",
+          "label": "Cserkészszövetségi tagság"
+        }
+      ],
+      "profileVerifiedAt": "2026-10-01",
+      "evidenceSources": [
+        {
+          "label": "Bostoni cserkészcsapat – first-party bemutatkozás",
+          "url": "https://www.newenglandhungarians.org/bostoni-cserkeszet/csapatunk",
+          "type": "official"
+        },
+        {
+          "label": "Hungarian Society of Massachusetts – bylaws, scout affiliation",
+          "url": "https://bostonhungarians.org/wp-content/uploads/2022/02/HSM-Bylaws-since-2022-February-9.pdf",
+          "type": "official"
+        },
+        {
+          "label": "Embassy of Hungary Washington – Northeast Hungarian organizations",
+          "url": "https://washington.mfa.gov.hu/en/northeast",
+          "type": "government"
+        }
+      ],
+      "calendarSources": [
+        {
+          "label": "Hungarian Society of Massachusetts – Boston Hungarian community calendar",
+          "url": "https://bostonhungarians.org/",
+          "kind": "official-community-calendar",
+          "scope": "related",
+          "ingestEvents": false
+        }
+      ]
+    },
+    {
+      "id": "philadelphia-vicinity-hungarian-sports-club",
+      "name": "Philadelphia & Vicinity Hungarian Sports Club / Magyar Tanya",
+      "country": "us",
+      "region": "Pennsylvania",
+      "city": "Barto",
+      "type": "Hungarian cultural and sports club",
+      "entityClass": "organization",
+      "founded": "1961",
+      "website": "https://magyartanya.org/",
+      "email": "info@magyartanya.org",
+      "phone": "+1 610-845-0811",
+      "address": "1495 Huffs Church Road, Barto, PA 19504",
+      "intro": "A Philadelphia környéki magyar közösség nonprofit kulturális és sportklubja, a Magyar Tanya közösségi helyszínnel, magyar kulturális napokkal, ünnepekkel, sport- és családi programokkal.",
+      "activities": [
+        "magyar kulturális események",
+        "sport",
+        "családi programok",
+        "nemzeti ünnepek",
+        "közösségi hétvégék",
+        "magyar gasztronómia"
+      ],
+      "history": {
+        "summary": "A klub 1961-ben alakult nonprofit szervezetként; Pennsylvania államban 1963. április 18-án jegyezték be.",
+        "milestones": [
+          {
+            "year": "1961",
+            "title": "Megalakulás",
+            "description": "A Philadelphia és környéki magyar közösség létrehozza a klubot.",
+            "sourceUrl": "https://magyartanya.org/index.php/enus/the-club-en/membership-en"
+          },
+          {
+            "date": "1963-04-18",
+            "title": "Pennsylvania charter",
+            "description": "A szervezetet Pennsylvania államban hivatalosan bejegyzik.",
+            "sourceUrl": "https://magyartanya.org/index.php/enus/the-club-en/membership-en"
+          }
+        ]
+      },
+      "profileVerifiedAt": "2026-10-01",
+      "evidenceSources": [
+        {
+          "label": "Magyar Tanya – 2026 membership and organization data",
+          "url": "https://magyartanya.org/index.php/enus/the-club-en/membership-en",
+          "type": "official"
+        },
+        {
+          "label": "Magyar Tanya – 2026 event calendar",
+          "url": "https://magyartanya.org/index.php/enus/events-en/events-en",
+          "type": "official"
+        }
+      ],
+      "calendarSources": [
+        {
+          "label": "Magyar Tanya – eseménynaptár",
+          "url": "https://magyartanya.org/index.php/enus/events-en/events-en",
+          "kind": "official-calendar",
+          "scope": "self",
+          "ingestEvents": true
+        }
+      ]
+    },
+    {
+      "id": "batori-jozsef-scout-troop-washington",
+      "name": "4. sz. Bátori József Cserkészcsapat – Washington, D.C.",
+      "country": "us",
+      "region": "Virginia",
+      "city": "Falls Church",
+      "type": "Hungarian scout troop",
+      "entityClass": "organization",
+      "founded": "1974",
+      "website": "https://www.dccserkesz.org/",
+      "email": "dccserkesz@gmail.com",
+      "address": "128 S. Spring St, Falls Church, VA 22046",
+      "intro": "A Washington, D.C. térség magyar cserkészcsapata, amely a magyar nyelv, kultúra és cserkészhagyomány továbbadását szolgálja rendszeres szombati foglalkozásokkal.",
+      "activities": [
+        "cserkészet",
+        "magyar nyelvi és kulturális nevelés",
+        "néptánc",
+        "ifjúsági programok",
+        "táborok"
+      ],
+      "memberships": [
+        {
+          "name": "Külföldi Magyar Cserkészszövetség",
+          "url": "https://kmcssz.org/",
+          "label": "Cserkészszövetségi tagság"
+        }
+      ],
+      "history": {
+        "summary": "A washingtoni magyar cserkészcsapat 1974 őszén alakult Bolváry Pál atya irányításával, és Bátori József piarista atya nevét vette fel.",
+        "milestones": [
+          {
+            "year": "1974",
+            "title": "Megalakulás",
+            "description": "A Washington környéki magyar cserkészcsapat megalakulása.",
+            "sourceUrl": "https://www.dccserkesz.org/cserkszet-washingtonban"
+          }
+        ]
+      },
+      "profileVerifiedAt": "2026-10-01",
+      "evidenceSources": [
+        {
+          "label": "Hungarian Scouts of Washington – official site",
+          "url": "https://www.dccserkesz.org/",
+          "type": "official"
+        },
+        {
+          "label": "Embassy of Hungary Washington – diaspora organizations",
+          "url": "https://washington.mfa.gov.hu/hu/a-nagykoevetseg-konzuli-kerueleteben-mukoedo-diaszpora-szervezetek",
+          "type": "government"
+        }
+      ],
+      "calendarSources": [
+        {
+          "label": "Hungarian Scouts of Washington – calendar",
+          "url": "https://www.dccserkesz.org/calendar",
+          "kind": "official-calendar",
+          "scope": "self",
+          "ingestEvents": false
+        }
+      ]
+    },
+    {
+      "id": "american-hungarian-heritage-house",
+      "name": "American Hungarian Heritage House / Washingtoni Magyar Ház",
+      "country": "us",
+      "region": "Virginia",
+      "city": "Ashburn",
+      "type": "Hungarian cultural heritage organization",
+      "entityClass": "organization",
+      "website": "https://americanhungarianheritagehouse.org/",
+      "address": "43878 Camellia Street, Ashburn, VA 20147",
+      "intro": "A Washington, D.C. térség amerikai-magyar közösségi és kulturális szervezete, amely kulturális, oktatási és vallási programokhoz biztosít közösségi keretet és támogatást.",
+      "activities": [
+        "magyar kulturális programok",
+        "oktatási programok",
+        "közösségi események",
+        "vallási közösségi támogatás"
+      ],
+      "profileVerifiedAt": "2026-10-01",
+      "evidenceSources": [
+        {
+          "label": "Hungarian American Coalition – American Hungarian Heritage House",
+          "url": "https://hacusa.org/american-hungarian-heritage-house/",
+          "type": "institutional"
+        },
+        {
+          "label": "Embassy of Hungary Washington – Washington, D.C. organizations",
+          "url": "https://washington.mfa.gov.hu/en/washington-dc",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "st-stephen-hungarian-catholic-community-washington",
+      "name": "St. Stephen of Hungary Catholic Community – Washington, D.C. and Vicinity",
+      "country": "us",
+      "region": "Maryland",
+      "city": "Rockville",
+      "type": "Hungarian Roman Catholic community",
+      "entityClass": "organization",
+      "website": "https://washingtonhungariancatholic.com/",
+      "address": "St. Elizabeth Catholic Church, 917 Montrose Road, Rockville, MD 20852",
+      "intro": "A Washington, D.C. környéki magyar katolikus közösség, amely rendszeres magyar nyelvű szentmiséket és közösségi alkalmakat tart Rockville-ben.",
+      "activities": [
+        "magyar nyelvű szentmise",
+        "katolikus közösségi élet",
+        "gyermekfoglalkozás",
+        "agapé",
+        "vallási ünnepek"
+      ],
+      "profileVerifiedAt": "2026-10-01",
+      "evidenceSources": [
+        {
+          "label": "St. Stephen of Hungary Catholic Community – official site",
+          "url": "https://washingtonhungariancatholic.com/",
+          "type": "official"
+        },
+        {
+          "label": "Embassy of Hungary Washington – diaspora organizations",
+          "url": "https://washington.mfa.gov.hu/hu/a-nagykoevetseg-konzuli-kerueleteben-mukoedo-diaszpora-szervezetek",
+          "type": "government"
+        }
+      ],
+      "calendarSources": [
+        {
+          "label": "St. Stephen Hungarian Catholic Community – events",
+          "url": "https://washingtonhungariancatholic.com/events/",
+          "kind": "official-calendar",
+          "scope": "self",
+          "ingestEvents": true
+        }
+      ]
+    },
+    {
+      "id": "american-hungarian-friends-of-scouting-cleveland",
+      "name": "American Hungarian Friends of Scouting – Cleveland",
+      "country": "us",
+      "region": "Ohio",
+      "city": "Cleveland",
+      "type": "Hungarian scout support organization",
+      "entityClass": "organization",
+      "legalForm": "501(c)(3) nonprofit",
+      "website": "https://csbk.org/en/",
+      "email": "elnok@csbk.org",
+      "address": "P.O. Box 6783, Cleveland, OH 44101",
+      "intro": "A clevelandi magyar cserkészcsapatok hivatalos támogató nonprofit szervezete, amely a négy helyi csapat, a cserkészközpont és a Teleki Pál Cserkészpark működését támogatja.",
+      "activities": [
+        "cserkészet támogatása",
+        "magyar kulturális programok",
+        "cserkészbál",
+        "magyar fesztivál",
+        "cserkészközpont és táborhely fenntartása"
+      ],
+      "profileVerifiedAt": "2026-10-01",
+      "evidenceSources": [
+        {
+          "label": "American Hungarian Friends of Scouting – current official site",
+          "url": "https://csbk.org/en/",
+          "type": "official"
+        },
+        {
+          "label": "AHFS – 2025 Hungarian Festival and four active Cleveland scout troops",
+          "url": "https://csbk.org/en/together-for-hungarian-scouting-in-cleveland-69th-hungarian-festival/",
+          "type": "official"
+        }
+      ],
+      "calendarSources": [
+        {
+          "label": "AHFS – Event Calendar",
+          "url": "https://csbk.org/en/events/",
+          "kind": "official-calendar",
+          "scope": "self-and-supported-troops",
+          "ingestEvents": false
+        }
+      ]
+    },
+    {
+      "id": "cleveland-hungarian-scout-folk-ensemble",
+      "name": "Clevelandi Cserkész Regös Csoport / Hungarian Scout Folk Ensemble",
+      "country": "us",
+      "region": "Ohio",
+      "city": "Cleveland",
+      "type": "Hungarian scout folk ensemble",
+      "entityClass": "group",
+      "founded": "1973",
+      "website": "https://www.clevelandregos.org/en/",
+      "email": "clevelandregos@gmail.com",
+      "phone": "+1 440-331-0391",
+      "address": "1860 West 22nd Street, Cleveland, OH 44113",
+      "intro": "1973 óta működő clevelandi magyar cserkész népművészeti együttes, amely magyar néptáncot, éneket, kézművességet és hagyományokat ápol és mutat be.",
+      "activities": [
+        "magyar néptánc",
+        "népzene és ének",
+        "népművészet",
+        "kézművesség",
+        "kulturális fellépések"
+      ],
+      "affiliations": [
+        {
+          "organizationId": "american-hungarian-friends-of-scouting-cleveland",
+          "label": "Clevelandi cserkészközösségi kapcsolódás"
+        }
+      ],
+      "profileVerifiedAt": "2026-10-01",
+      "evidenceSources": [
+        {
+          "label": "Hungarian Scout Folk Ensemble – current official site",
+          "url": "https://www.clevelandregos.org/en/",
+          "type": "official"
+        },
+        {
+          "label": "Hungarian Scout Folk Ensemble – history",
+          "url": "https://www.clevelandregos.org/en/the-history-of-the-regos-folk-ensemble/",
+          "type": "official"
+        }
+      ],
+      "calendarSources": [
+        {
+          "label": "Regös news and performances",
+          "url": "https://www.clevelandregos.org/en/",
+          "kind": "official-news-events",
+          "scope": "self",
+          "ingestEvents": false
+        }
+      ]
+    },
+    {
+      "id": "gorgey-arthur-scout-troop-14-cleveland",
+      "name": "14. sz. Görgey Arthur Cserkészcsapat – Cleveland",
+      "country": "us",
+      "region": "Ohio",
+      "city": "Cleveland",
+      "type": "Hungarian scout troop",
+      "entityClass": "organization",
+      "website": "https://www.clevelandcserkesz.org/",
+      "email": "14cspk@gmail.com",
+      "parentOrganizationId": "american-hungarian-friends-of-scouting-cleveland",
+      "memberships": [
+        {
+          "name": "Külföldi Magyar Cserkészszövetség",
+          "url": "https://kmcssz.org/",
+          "label": "Cserkészszövetségi tagság"
+        }
+      ],
+      "intro": "Cleveland egyik jelenleg működő magyar fiú cserkészcsapata, a helyi magyar cserkészet és a Külföldi Magyar Cserkészszövetség hálózatában.",
+      "activities": [
+        "cserkészet",
+        "magyar nyelvi és kulturális nevelés",
+        "táborok",
+        "közösségi szolgálat"
+      ],
+      "profileVerifiedAt": "2026-10-01",
+      "evidenceSources": [
+        {
+          "label": "AHFS – Troop 14 current profile",
+          "url": "https://csbk.org/en/troop-14/",
+          "type": "official"
+        },
+        {
+          "label": "AHFS – 2025 current four Cleveland scout troops",
+          "url": "https://csbk.org/en/together-for-hungarian-scouting-in-cleveland-69th-hungarian-festival/",
+          "type": "official"
+        }
+      ]
+    },
+    {
+      "id": "bessenyei-gyorgy-scout-troop-22-cleveland",
+      "name": "22. sz. Bessenyei György Cserkészcsapat – Cleveland",
+      "country": "us",
+      "region": "Ohio",
+      "city": "Cleveland",
+      "type": "Hungarian scout troop",
+      "entityClass": "organization",
+      "website": "https://www.clevelandcserkesz.org/",
+      "parentOrganizationId": "american-hungarian-friends-of-scouting-cleveland",
+      "memberships": [
+        {
+          "name": "Külföldi Magyar Cserkészszövetség",
+          "url": "https://kmcssz.org/",
+          "label": "Cserkészszövetségi tagság"
+        }
+      ],
+      "intro": "Cleveland egyik jelenleg működő magyar cserkészcsapata, a helyi magyar cserkészet és a Külföldi Magyar Cserkészszövetség hálózatában.",
+      "activities": [
+        "cserkészet",
+        "magyar nyelvi és kulturális nevelés",
+        "táborok",
+        "közösségi szolgálat"
+      ],
+      "profileVerifiedAt": "2026-10-01",
+      "evidenceSources": [
+        {
+          "label": "AHFS – 2025 current four Cleveland scout troops",
+          "url": "https://csbk.org/en/together-for-hungarian-scouting-in-cleveland-69th-hungarian-festival/",
+          "type": "official"
+        },
+        {
+          "label": "KMCSSZ troop inventory – Troop 22 Cleveland",
+          "url": "https://www.clevelandcserkesz.org/wp-content/uploads/2012/12/100HuCserk.pdf",
+          "type": "official"
+        }
+      ]
+    },
+    {
+      "id": "szilagyi-erzsebet-scout-troop-33-cleveland",
+      "name": "33. sz. Szilágyi Erzsébet Cserkészcsapat – Cleveland",
+      "country": "us",
+      "region": "Ohio",
+      "city": "Cleveland",
+      "type": "Hungarian girl scout troop",
+      "entityClass": "organization",
+      "website": "https://www.clevelandcserkesz.org/",
+      "parentOrganizationId": "american-hungarian-friends-of-scouting-cleveland",
+      "memberships": [
+        {
+          "name": "Külföldi Magyar Cserkészszövetség",
+          "url": "https://kmcssz.org/",
+          "label": "Cserkészszövetségi tagság"
+        }
+      ],
+      "intro": "Cleveland egyik jelenleg működő magyar leánycserkész-csapata, a helyi magyar cserkészet és a Külföldi Magyar Cserkészszövetség hálózatában.",
+      "activities": [
+        "cserkészet",
+        "magyar nyelvi és kulturális nevelés",
+        "táborok",
+        "közösségi szolgálat"
+      ],
+      "profileVerifiedAt": "2026-10-01",
+      "evidenceSources": [
+        {
+          "label": "AHFS – 2025 current four Cleveland scout troops",
+          "url": "https://csbk.org/en/together-for-hungarian-scouting-in-cleveland-69th-hungarian-festival/",
+          "type": "official"
+        },
+        {
+          "label": "KMCSSZ troop inventory – Troop 33 Cleveland",
+          "url": "https://www.clevelandcserkesz.org/wp-content/uploads/2012/12/100HuCserk.pdf",
+          "type": "official"
+        }
+      ]
+    },
+    {
+      "id": "zrinyi-ilona-scout-troop-34-cleveland",
+      "name": "34. sz. Zrínyi Ilona Cserkészcsapat – Cleveland",
+      "country": "us",
+      "region": "Ohio",
+      "city": "Cleveland",
+      "type": "Hungarian girl scout troop",
+      "entityClass": "organization",
+      "website": "https://www.clevelandcserkesz.org/",
+      "email": "34cspk@gmail.com",
+      "parentOrganizationId": "american-hungarian-friends-of-scouting-cleveland",
+      "memberships": [
+        {
+          "name": "Külföldi Magyar Cserkészszövetség",
+          "url": "https://kmcssz.org/",
+          "label": "Cserkészszövetségi tagság"
+        }
+      ],
+      "intro": "Cleveland egyik jelenleg működő magyar leánycserkész-csapata, saját vezetői kapcsolattal és a helyi magyar cserkészhálózat részeként.",
+      "activities": [
+        "cserkészet",
+        "magyar nyelvi és kulturális nevelés",
+        "táborok",
+        "közösségi szolgálat"
+      ],
+      "profileVerifiedAt": "2026-10-01",
+      "evidenceSources": [
+        {
+          "label": "AHFS – Troop 34 current profile",
+          "url": "https://csbk.org/en/troop-34/",
+          "type": "official"
+        },
+        {
+          "label": "AHFS – 2025 current four Cleveland scout troops",
+          "url": "https://csbk.org/en/together-for-hungarian-scouting-in-cleveland-69th-hungarian-festival/",
+          "type": "official"
+        }
+      ]
+    },
+    {
+      "id": "hungarian-club-of-chicago",
+      "name": "Hungarian (Magyar) Club of Chicago",
+      "country": "us",
+      "region": "Illinois",
+      "city": "Chicago",
+      "type": "Hungarian cultural and community club",
+      "entityClass": "organization",
+      "legalForm": "501(c)(3) nonprofit",
+      "founded": "1922",
+      "website": "https://www.hungarianclubofchicago.com/",
+      "email": "info@hungarianclubofchicago.com",
+      "intro": "1922 óta működő chicagói magyar kulturális és közösségi klub, ösztöndíjprogrammal, bálokkal, családi és hagyományőrző eseményekkel.",
+      "activities": [
+        "magyar kulturális programok",
+        "közösségi események",
+        "ösztöndíjak",
+        "gálabál",
+        "családi programok"
+      ],
+      "profileVerifiedAt": "2026-10-01",
+      "evidenceSources": [
+        {
+          "label": "Hungarian Club of Chicago – official current site",
+          "url": "https://www.hungarianclubofchicago.com/",
+          "type": "official"
+        },
+        {
+          "label": "Chicago Hungarian Cultural Advisory Council – current organizations",
+          "url": "https://www.chicagohungarians.com/index.php?page=chiorg.htm",
+          "type": "institutional"
+        }
+      ],
+      "calendarSources": [
+        {
+          "label": "Hungarian Club of Chicago – events",
+          "url": "https://www.hungarianclubofchicago.com/",
+          "kind": "official-events",
+          "scope": "self",
+          "ingestEvents": false
+        }
+      ]
+    },
+    {
+      "id": "hunyadi-matyas-scout-troop-19-chicago",
+      "name": "19. sz. Hunyadi Mátyás Cserkészcsapat – Chicago",
+      "country": "us",
+      "region": "Illinois",
+      "city": "Palatine",
+      "type": "Hungarian scout troop",
+      "entityClass": "organization",
+      "email": "hunyadimatyas19cspk@gmail.com",
+      "intro": "A chicagói magyar közösség jelenleg működő cserkészcsapata, rendszeres szombati foglalkozásokkal Palatine térségében.",
+      "activities": [
+        "cserkészet",
+        "magyar nyelvi és kulturális nevelés",
+        "ifjúsági közösség",
+        "táborok"
+      ],
+      "memberships": [
+        {
+          "name": "Külföldi Magyar Cserkészszövetség",
+          "url": "https://kmcssz.org/",
+          "label": "Cserkészszövetségi tagság"
+        }
+      ],
+      "profileVerifiedAt": "2026-10-01",
+      "evidenceSources": [
+        {
+          "label": "Chicago Hungarian Cultural Advisory Council – current organizations",
+          "url": "https://www.chicagohungarians.com/index.php?page=chiorg.htm",
+          "type": "institutional"
+        },
+        {
+          "label": "Chicago Hungarians – 2026 program calendar",
+          "url": "https://chicagohungarians.com/index.php?page=chiold.htm",
+          "type": "institutional"
+        }
+      ],
+      "calendarSources": [
+        {
+          "label": "Chicago Hungarians – current community calendar",
+          "url": "https://chicagohungarians.com/index.php?page=chiold.htm",
+          "kind": "institutional-calendar",
+          "scope": "self-when-attributed",
+          "ingestEvents": true,
+          "inclusionRule": "Only rows explicitly attributed to Hunyadi Mátyás Cserkészcsapat."
+        }
+      ]
+    },
+    {
+      "id": "borozda-hungarian-ensemble-chicago",
+      "name": "Borozda Hungarian Ensemble – Chicago",
+      "country": "us",
+      "region": "Illinois",
+      "city": "Chicago",
+      "type": "Hungarian folk dance ensemble",
+      "entityClass": "group",
+      "intro": "Chicagóban működő magyar néptáncegyüttes, a helyi magyar kulturális közösség aktív tagja.",
+      "activities": [
+        "magyar néptánc",
+        "kulturális fellépések",
+        "hagyományőrzés"
+      ],
+      "publicChannels": [
+        {
+          "label": "Facebook – Borozda Ensemble",
+          "platform": "Facebook",
+          "url": "https://www.facebook.com/borozdaensemble",
+          "ownership": "self"
+        }
+      ],
+      "profileVerifiedAt": "2026-10-01",
+      "evidenceSources": [
+        {
+          "label": "Hungarian Folklife Association – current North America directory",
+          "url": "https://hungarianfolklife.org/directory/",
+          "type": "institutional"
+        },
+        {
+          "label": "Chicago Hungarian Cultural Advisory Council – current members",
+          "url": "https://chicagohungarians.com/index.php?page=members.htm",
+          "type": "institutional"
+        }
+      ]
+    },
+    {
+      "id": "norridge-united-church-of-christ-hungarian",
+      "name": "Norridge United Church of Christ – Hungarian Reformed Community",
+      "country": "us",
+      "region": "Illinois",
+      "city": "Norridge",
+      "type": "Hungarian Reformed / UCC congregation",
+      "entityClass": "organization",
+      "address": "8260 W Foster Ave, Norridge, IL 60706",
+      "phone": "+1 708-456-3398",
+      "email": "norridgeunited@yahoo.com",
+      "intro": "Norridge-ben működő református/UCC gyülekezet magyar közösségi jelenléttel, a chicagói magyar szervezeti hálózat aktív tagja.",
+      "activities": [
+        "istentisztelet",
+        "magyar református közösségi élet",
+        "ökumenikus programok",
+        "magyar közösségi rendezvények"
+      ],
+      "profileVerifiedAt": "2026-10-01",
+      "evidenceSources": [
+        {
+          "label": "United Church of Christ – current congregation directory",
+          "url": "https://www.ucc.org/church/united-church-of-christ-102/",
+          "type": "institutional"
+        },
+        {
+          "label": "Calvin Synod – current congregations",
+          "url": "https://calvinsynod.org/mission/congregations/",
+          "type": "institutional"
+        },
+        {
+          "label": "Chicago Hungarian Cultural Advisory Council – current organizations",
+          "url": "https://www.chicagohungarians.com/index.php?page=chiorg.htm",
+          "type": "institutional"
+        }
+      ]
+    },
+    {
+      "id": "holy-cross-hungarian-catholic-church-detroit",
+      "name": "Holy Cross Hungarian Roman Catholic Church – Detroit",
+      "country": "us",
+      "region": "Michigan",
+      "city": "Detroit",
+      "type": "Hungarian Roman Catholic parish",
+      "entityClass": "organization",
+      "founded": "1905",
+      "website": "https://holycrosshungarian.com/",
+      "phone": "+1 313-842-1133",
+      "address": "8423 South St, Detroit, MI 48209",
+      "intro": "Detroit ma is működő magyar katolikus plébániája, amely rendszeres magyar nyelvű misével és magyar közösségi hagyományokkal szolgálja a térség közösségét.",
+      "activities": [
+        "magyar nyelvű szentmise",
+        "katolikus közösségi élet",
+        "magyar hagyományőrzés",
+        "vallási ünnepek"
+      ],
+      "profileVerifiedAt": "2026-10-01",
+      "evidenceSources": [
+        {
+          "label": "Holy Cross Hungarian Roman Catholic Church – official current site",
+          "url": "https://holycrosshungarian.com/",
+          "type": "official"
+        },
+        {
+          "label": "Archdiocese of Detroit – current parish listing",
+          "url": "https://www.massfinder.org/parishes/116",
+          "type": "institutional"
+        },
+        {
+          "label": "Embassy of Hungary Washington – Midwest organizations",
+          "url": "https://washington.mfa.gov.hu/en/midwest",
+          "type": "government"
+        }
+      ],
+      "calendarSources": [
+        {
+          "label": "Holy Cross parish current site",
+          "url": "https://holycrosshungarian.com/",
+          "kind": "official-news-services",
+          "scope": "self",
+          "ingestEvents": false
+        }
+      ]
+    },
+    {
+      "id": "american-hungarian-reformed-church-allen-park",
+      "name": "American Hungarian Reformed Church – Allen Park",
+      "country": "us",
+      "region": "Michigan",
+      "city": "Allen Park",
+      "type": "Hungarian Reformed congregation",
+      "entityClass": "organization",
+      "phone": "+1 313-382-1001",
+      "address": "9901 Allen Rd, Allen Park, MI 48101",
+      "intro": "Metro Detroit jelenlegi magyar református gyülekezete, kétnyelvű – köztük magyar – istentiszteleti és közösségi szolgálattal.",
+      "activities": [
+        "magyar református istentisztelet",
+        "kétnyelvű gyülekezeti élet",
+        "közösségi szolgálat"
+      ],
+      "memberships": [
+        {
+          "name": "Hungarian Reformed Church in America",
+          "url": "https://hrca.us/",
+          "label": "Egyházi kapcsolódás"
+        },
+        {
+          "name": "Calvin Synod – United Church of Christ",
+          "url": "https://calvinsynod.org/",
+          "label": "Egyházi kapcsolódás"
+        }
+      ],
+      "profileVerifiedAt": "2026-10-01",
+      "evidenceSources": [
+        {
+          "label": "Hungarian Reformed Church network – current US congregations",
+          "url": "https://www.mrchurchnj.org/contact-mrc-s-in-the-usa.html",
+          "type": "institutional"
+        },
+        {
+          "label": "Quarter Detroit – current 2026 congregation verification",
+          "url": "https://quarterdetroit.com/place/?lang=en&slug=american-hungarian-reformed-church-allen-park",
+          "type": "institutional"
+        },
+        {
+          "label": "Embassy of Hungary Washington – Midwest organizations",
+          "url": "https://washington.mfa.gov.hu/en/midwest",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "first-hungarian-baptist-church-lincoln-park",
+      "name": "First Hungarian Baptist Church – Lincoln Park",
+      "country": "us",
+      "region": "Michigan",
+      "city": "Lincoln Park",
+      "type": "Hungarian Baptist congregation",
+      "entityClass": "organization",
+      "phone": "+1 313-703-7597",
+      "address": "1362 Chandler Ave, Lincoln Park, MI 48146",
+      "intro": "Lincoln Parkban működő magyar baptista gyülekezet, a detroiti magyar vallási közösségi hálózat része.",
+      "activities": [
+        "baptista istentisztelet",
+        "magyar közösségi élet",
+        "vallási programok"
+      ],
+      "publicChannels": [
+        {
+          "label": "Facebook – First Hungarian Baptist Church Detroit",
+          "platform": "Facebook",
+          "url": "https://www.facebook.com/FHBCHDetroit/",
+          "ownership": "self"
+        }
+      ],
+      "profileVerifiedAt": "2026-10-01",
+      "evidenceSources": [
+        {
+          "label": "Southern Baptist Convention – current church directory",
+          "url": "https://churches.sbc.net/church/first-hungarian-baptist-church/",
+          "type": "institutional"
+        },
+        {
+          "label": "City of Lincoln Park – 2025 community resource guide",
+          "url": "https://www.citylp.com/DocumentCenter/View/248/Lincoln-Park-Community-Resource-Guide-2025-PDF",
+          "type": "government"
+        },
+        {
+          "label": "Embassy of Hungary Washington – Midwest organizations",
+          "url": "https://washington.mfa.gov.hu/en/midwest",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "hungarian-cultural-center-detroit",
+      "name": "Hungarian Cultural Center – Detroit / Magyar Kultúrközpont",
+      "country": "us",
+      "region": "Michigan",
+      "city": "Taylor",
+      "type": "Hungarian cultural and community center",
+      "entityClass": "organization",
+      "website": "http://www.hungariandetroit.com/",
+      "email": "postmaster@hungariandetroit.com",
+      "phone": "+1 734-946-6161",
+      "address": "26257 Goddard Rd, Taylor, MI 48180",
+      "intro": "Detroit térségének magyar kulturális és közösségi központja Taylorban, amely közösségi és kulturális rendezvényeknek ad otthont.",
+      "activities": [
+        "magyar kulturális programok",
+        "közösségi rendezvények",
+        "hagyományőrzés",
+        "közösségi helyszín"
+      ],
+      "profileVerifiedAt": "2026-10-01",
+      "evidenceSources": [
+        {
+          "label": "Embassy of Hungary Washington – current Midwest organizations",
+          "url": "https://washington.mfa.gov.hu/en/midwest",
+          "type": "government"
+        },
+        {
+          "label": "Quarter Detroit – current Hungarian Cultural Center profile",
+          "url": "https://quarterdetroit.com/",
+          "type": "institutional"
+        }
+      ]
+    },
+    {
+      "id": "carolinas-hungarian-group",
+      "name": "Carolinas Hungarian Group / Karolinai Magyar Csoport",
+      "country": "us",
+      "region": "North Carolina",
+      "city": "Charlotte",
+      "type": "Hungarian cultural and community group",
+      "entityClass": "organization",
+      "website": "https://www.karolinaimagyarok.com/",
+      "email": "carolinashungarians@gmail.com",
+      "address": "2501 Oxford Pl, Charlotte, NC 28207",
+      "intro": "Észak- és Dél-Karolina magyar és magyar-amerikai közösségi szervezete, amely magyar kultúrát, nyelvet és örökséget ápol családi táborokkal, találkozókkal, ünnepekkel és fesztiválokkal.",
+      "activities": [
+        "magyar kulturális programok",
+        "családi táborok",
+        "nemzeti és vallási ünnepek",
+        "közösségi találkozók",
+        "hagyományőrzés"
+      ],
+      "profileVerifiedAt": "2026-10-01",
+      "evidenceSources": [
+        {
+          "label": "Carolinas Hungarian Group – official current site",
+          "url": "https://www.karolinaimagyarok.com/",
+          "type": "official"
+        },
+        {
+          "label": "Embassy of Hungary Washington – Southeast organizations",
+          "url": "https://washington.mfa.gov.hu/en/southeast",
+          "type": "government"
+        }
+      ],
+      "calendarSources": [
+        {
+          "label": "Carolinas Hungarian Group – upcoming events",
+          "url": "https://www.karolinaimagyarok.com/ucoming-events",
+          "kind": "official-calendar",
+          "scope": "self",
+          "ingestEvents": true
+        }
+      ]
+    },
+    {
+      "id": "hungarian-church-in-the-carolinas",
+      "name": "Hungarian Church in the Carolinas / Karolinai Magyar Egyház",
+      "country": "us",
+      "region": "North Carolina",
+      "city": "Charlotte",
+      "type": "Hungarian Reformed / ecumenical church community",
+      "entityClass": "organization",
+      "founded": "2009",
+      "website": "https://www.carolinashungarianchurch.org/",
+      "email": "kozmazsuzsa@yahoo.com",
+      "phone": "+1 314-201-2401",
+      "address": "2501 Oxford Pl, Charlotte, NC 28207",
+      "intro": "2009-ben alapított karolinai magyar keresztény közösség, református hagyományra épülő, ökumenikus magyar istentiszteletekkel és közösségi szolgálattal.",
+      "activities": [
+        "magyar nyelvű istentisztelet",
+        "református és ökumenikus közösségi élet",
+        "családi tábor",
+        "lelkigondozás"
+      ],
+      "affiliations": [
+        {
+          "organizationId": "carolinas-hungarian-group",
+          "label": "Szoros közösségi együttműködés"
+        }
+      ],
+      "profileVerifiedAt": "2026-10-01",
+      "evidenceSources": [
+        {
+          "label": "Hungarian Church in the Carolinas – official current site",
+          "url": "https://www.carolinashungarianchurch.org/",
+          "type": "official"
+        },
+        {
+          "label": "Hungarian Church in the Carolinas – Hungarian current page",
+          "url": "https://hu.carolinashungarianchurch.org/",
+          "type": "official"
+        }
+      ]
+    },
+    {
+      "id": "hungarian-academy-washington",
+      "name": "Hungarian Academy / Washington DC Magyar Iskola és Óvoda",
+      "country": "us",
+      "region": "Virginia",
+      "city": "Falls Church",
+      "type": "Hungarian education nonprofit",
+      "entityClass": "organization",
+      "legalForm": "nonprofit",
+      "founded": "2009",
+      "website": "https://www.dcmagyar.org/",
+      "email": "dcmagyariskola@gmail.com",
+      "intro": "A Washington DC–Maryland–Virginia térség első magyar iskolája és óvodája; 2009-ben indult, 2013 óta bejegyzett nonprofit Hungarian Academy néven.",
+      "activities": [
+        "magyar nyelvoktatás",
+        "óvoda",
+        "iskolai oktatás",
+        "magyar történelem és földrajz",
+        "néptánc és népdal",
+        "ünnepek"
+      ],
+      "profileVerifiedAt": "2026-10-01",
+      "evidenceSources": [
+        {
+          "label": "Hungarian Academy – official 2026/27 site",
+          "url": "https://www.dcmagyar.org/",
+          "type": "official"
+        },
+        {
+          "label": "Hungarian Academy – about us",
+          "url": "https://www.dcmagyar.org/about-us",
+          "type": "official"
+        },
+        {
+          "label": "Embassy of Hungary Washington – diaspora organizations",
+          "url": "https://washington.mfa.gov.hu/hu/a-nagykoevetseg-konzuli-kerueleteben-mukoedo-diaszpora-szervezetek",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "hungarian-reformed-church-washington-dc",
+      "name": "Washingtoni Magyar Református Egyház / Hungarian Reformed Church DC",
+      "country": "us",
+      "region": "District of Columbia",
+      "city": "Washington",
+      "type": "Hungarian Reformed congregation",
+      "entityClass": "organization",
+      "website": "https://hungarianreformedchurchdc.org/",
+      "phone": "+1 703-444-2048",
+      "address": "Oxnam Chapel, Wesley Theological Seminary, 4500 Massachusetts Ave NW, Washington, DC 20016",
+      "intro": "A Washington, D.C. és környéke magyar közösségét szolgáló református gyülekezet, havi magyar istentiszteletekkel, bibliaórákkal és gyermekfoglalkozásokkal.",
+      "activities": [
+        "magyar református istentisztelet",
+        "bibliaóra",
+        "vasárnapi iskola",
+        "gyermekfoglalkozás",
+        "közösségi agapé"
+      ],
+      "profileVerifiedAt": "2026-10-01",
+      "evidenceSources": [
+        {
+          "label": "Washingtoni Magyar Református Egyház – official current site",
+          "url": "https://hungarianreformedchurchdc.org/index.php/en-us/",
+          "type": "official"
+        },
+        {
+          "label": "Washingtoni Magyar Református Egyház – services and events",
+          "url": "https://hungarianreformedchurchdc.org/index.php/en-us/services",
+          "type": "official"
+        },
+        {
+          "label": "Embassy of Hungary Washington – diaspora organizations",
+          "url": "https://washington.mfa.gov.hu/hu/a-nagykoevetseg-konzuli-kerueleteben-mukoedo-diaszpora-szervezetek",
+          "type": "government"
+        }
+      ],
+      "calendarSources": [
+        {
+          "label": "Washingtoni Magyar Református Egyház – services and event calendar",
+          "url": "https://hungarianreformedchurchdc.org/index.php/en-us/services",
+          "kind": "official-calendar",
+          "scope": "self",
+          "ingestEvents": true
+        }
+      ]
+    },
+    {
+      "id": "hungarian-reformed-church-phoenix",
+      "name": "Phoenixi Magyar Református Egyház / Hungarian Reformed Church in Phoenix",
+      "country": "us",
+      "region": "Arizona",
+      "city": "Phoenix",
+      "type": "Hungarian Reformed congregation",
+      "entityClass": "organization",
+      "founded": "1972",
+      "website": "https://hungarianrefchurchphx.com/",
+      "email": "reformedchurchphoenix72@gmail.com",
+      "phone": "+1 602-997-0373",
+      "address": "1822 W Vogel Ave, Phoenix, AZ 85021",
+      "intro": "1972 óta működő phoenixi magyar református gyülekezet, a Hungarian Reformed Church in America hálózatában, rendszeres magyar istentisztelettel.",
+      "activities": [
+        "magyar református istentisztelet",
+        "magyar közösségi élet",
+        "vallási és kulturális örökség"
+      ],
+      "memberships": [
+        {
+          "name": "Hungarian Reformed Church in America",
+          "url": "https://hrca.us/",
+          "label": "Egyházi tagság"
+        }
+      ],
+      "profileVerifiedAt": "2026-10-01",
+      "evidenceSources": [
+        {
+          "label": "Hungarian Reformed Church in Phoenix – official current site",
+          "url": "https://hungarianrefchurchphx.com/",
+          "type": "official"
+        },
+        {
+          "label": "Hungarian Reformed Church in Phoenix – about",
+          "url": "https://hungarianrefchurchphx.com/about/",
+          "type": "official"
+        }
+      ],
+      "calendarSources": [
+        {
+          "label": "Hungarian Reformed Church in Phoenix – current services",
+          "url": "https://hungarianrefchurchphx.com/",
+          "kind": "official-services",
+          "scope": "self",
+          "ingestEvents": false
+        }
+      ]
     }
   ]
 }
