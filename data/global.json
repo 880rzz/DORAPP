@@ -722,9 +722,12 @@
     {
       "iso2": "ca",
       "name": {
-        "en": "Canada"
+        "hu": "Kanada",
+        "en": "Canada",
+        "fr": "Canada",
+        "officialEn": "Canada"
       },
-      "researchStatus": "unresearched",
+      "researchStatus": "researching",
       "countryDataPath": "data/countries/ca/",
       "route": "countries/ca/",
       "counts": {
@@ -734,7 +737,14 @@
         "events": 0,
         "education": 0
       },
-      "iso3": "CAN"
+      "iso3": "CAN",
+      "locales": [
+        "en-CA",
+        "fr-CA",
+        "hu"
+      ],
+      "lastResearchAttemptAt": "2026-10-01",
+      "discoveryCandidateCount": 0
     },
     {
       "iso2": "cc",
