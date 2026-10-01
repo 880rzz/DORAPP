@@ -5,8 +5,19 @@
     "verified-zero"
   ],
   "generatedFrom": "data/global.json + reviewed country datasets",
-  "count": 1066,
+  "count": 1155,
   "items": [
+    {
+      "type": "program",
+      "id": "oktober-23-megemlekezes-haga-2026",
+      "label": "1956-os forradalom és szabadságharc hollandiai megemlékezése",
+      "country": "nl",
+      "countryLabel": "Hollandia",
+      "city": "Den Haag",
+      "meta": "2026-10-25T00:00:00+01:00 · Den Haag · Kloosterkerk, Lange Voorhout 4, 2514 ED Den Haag",
+      "href": "countries/nl/events/oktober-23-megemlekezes-haga-2026.html",
+      "search": "1956-os forradalom es szabadsagharc hollandiai megemlekezese den haag zuid-holland kloosterkerk, lange voorhout 4, 2514 ed den haag"
+    },
     {
       "type": "program",
       "id": "cserkesz-80-1956-os-megemlékezés-linz-2026-10-17t14-00-2-00",
@@ -17,6 +28,17 @@
       "meta": "2026-10-17T14:00+02:00 · Wels",
       "href": "countries/at/events/cserkesz-80-1956-os-megeml%C3%A9kez%C3%A9s-linz-2026-10-17t14-00-2-00.html",
       "search": "1956-os megemlekezes - linz wels 80. sz. arpad cserkeszcsapat 1956-os megemlekezes - linz"
+    },
+    {
+      "type": "organization",
+      "id": "70-attila-cserkeszcsapat",
+      "label": "70. Attila Cserkészcsapat",
+      "country": "nl",
+      "countryLabel": "Hollandia",
+      "city": "Zeist",
+      "meta": "Zeist · Hungarian scout troop",
+      "href": "countries/nl/organizations/70-attila-cserkeszcsapat.html",
+      "search": "70. attila cserkeszcsapat zeist utrecht hungarian scout troop hollandiaban mukodo magyar cserkeszcsapat, rendszeres kozossegi es nevelesi foglalkozasokkal. cserkeszet magyar kulturalis neveles csapatgyulesek taborok ifjusagi kozosseg"
     },
     {
       "type": "organization",
@@ -513,6 +535,71 @@
       "meta": "Ausztria",
       "href": "countries/at/?q=amat%C5%91r%20sz%C3%ADnj%C3%A1tsz%C3%A1s",
       "search": "amator szinjatszas ausztria at"
+    },
+    {
+      "type": "city",
+      "id": "amstelveen",
+      "label": "Amstelveen",
+      "country": "nl",
+      "countryLabel": "Hollandia",
+      "meta": "Hollandia",
+      "href": "countries/nl/?city=Amstelveen",
+      "search": "amstelveen hollandia nl"
+    },
+    {
+      "type": "organization",
+      "subtype": "education",
+      "id": "amstelveeni-magyar-ovisuli",
+      "label": "Amstelveeni Magyar OviSuli",
+      "country": "nl",
+      "countryLabel": "Hollandia",
+      "city": "Amstelveen",
+      "meta": "Amstelveen · weekend/community school",
+      "href": "countries/nl/education/amstelveeni-magyar-ovisuli.html",
+      "search": "amstelveeni magyar ovisuli amstelveen noord-holland weekend/community school amstelveenben mukodo magyar hetvegi iskola es ovodai kozosseg, tobb korcsoporttal, anyanyelvapolassal es kulturalis programokkal."
+    },
+    {
+      "type": "city",
+      "id": "amsterdam",
+      "label": "Amsterdam",
+      "country": "nl",
+      "countryLabel": "Hollandia",
+      "meta": "Hollandia",
+      "href": "countries/nl/?city=Amsterdam",
+      "search": "amsterdam hollandia nl"
+    },
+    {
+      "type": "organization",
+      "id": "amszterdami-magyar-korus",
+      "label": "Amszterdami Magyar Kórus",
+      "country": "nl",
+      "countryLabel": "Hollandia",
+      "city": "Amsterdam",
+      "meta": "Amsterdam · Hungarian choir",
+      "href": "countries/nl/organizations/amszterdami-magyar-korus.html",
+      "search": "amszterdami magyar korus amsterdam noord-holland hungarian choir amszterdam es kornyeke magyar kozossegehez kotodo vegyeskar, magyar es nemzetkozi korusrepertoarral. korusenekles koncertek magyar kulturalis esemenyek"
+    },
+    {
+      "type": "organization",
+      "id": "amszterdami-magyar-reformatus-gyulekezet",
+      "label": "Amszterdami Magyar Református Gyülekezet",
+      "country": "nl",
+      "countryLabel": "Hollandia",
+      "city": "Amsterdam",
+      "meta": "Amsterdam · Hungarian Reformed congregation",
+      "href": "countries/nl/organizations/amszterdami-magyar-reformatus-gyulekezet.html",
+      "search": "amszterdami magyar reformatus gyulekezet amsterdam noord-holland hungarian reformed congregation 2018-ban a hagai magyar reformatus gyulekezet kezdemenyezesere letrejott amszterdami magyar reformatus kozosseg."
+    },
+    {
+      "type": "organization",
+      "id": "amszterdami-magyar-szalon",
+      "label": "Amszterdami Magyar Szalon",
+      "country": "nl",
+      "countryLabel": "Hollandia",
+      "city": "Amsterdam",
+      "meta": "Amsterdam · cultural foundation and salon",
+      "href": "countries/nl/organizations/amszterdami-magyar-szalon.html",
+      "search": "amszterdami magyar szalon amsterdam noord-holland cultural foundation and salon fuggetlen, nonprofit amszterdami magyar kulturalis szalon, irodalmi, zenei es kozossegi programokkal. irodalmi estek zenei programok konyvvasar kulturalis talalkozok"
     },
     {
       "type": "organization",
@@ -1699,6 +1786,16 @@
     },
     {
       "type": "activity",
+      "id": "csapatgyulesek",
+      "label": "csapatgyűlések",
+      "country": "nl",
+      "countryLabel": "Hollandia",
+      "meta": "Hollandia",
+      "href": "countries/nl/?q=csapatgy%C5%B1l%C3%A9sek",
+      "search": "csapatgyulesek hollandia nl"
+    },
+    {
+      "type": "activity",
       "id": "cserkesz- es kiscserkeszfoglalkozasok",
       "label": "cserkész- és kiscserkészfoglalkozások",
       "country": "at",
@@ -1706,6 +1803,16 @@
       "meta": "Ausztria",
       "href": "countries/at/?q=cserk%C3%A9sz-%20%C3%A9s%20kiscserk%C3%A9szfoglalkoz%C3%A1sok",
       "search": "cserkesz- es kiscserkeszfoglalkozasok ausztria at"
+    },
+    {
+      "type": "activity",
+      "id": "cserkeszet",
+      "label": "cserkészet",
+      "country": "nl",
+      "countryLabel": "Hollandia",
+      "meta": "Hollandia",
+      "href": "countries/nl/?q=cserk%C3%A9szet",
+      "search": "cserkeszet hollandia nl"
     },
     {
       "type": "activity",
@@ -1872,6 +1979,16 @@
     },
     {
       "type": "city",
+      "id": "den haag",
+      "label": "Den Haag",
+      "country": "nl",
+      "countryLabel": "Hollandia",
+      "meta": "Hollandia",
+      "href": "countries/nl/?city=Den%20Haag",
+      "search": "den haag hollandia nl"
+    },
+    {
+      "type": "city",
       "id": "deutschlandsberg",
       "label": "Deutschlandsberg",
       "country": "at",
@@ -1879,6 +1996,16 @@
       "meta": "Ausztria",
       "href": "countries/at/?city=Deutschlandsberg",
       "search": "deutschlandsberg ausztria at"
+    },
+    {
+      "type": "activity",
+      "id": "diaszpora iskolatabor",
+      "label": "diaszpóra iskolatábor",
+      "country": "nl",
+      "countryLabel": "Hollandia",
+      "meta": "Hollandia",
+      "href": "countries/nl/?q=diaszp%C3%B3ra%20iskolat%C3%A1bor",
+      "search": "diaszpora iskolatabor hollandia nl"
     },
     {
       "type": "activity",
@@ -1930,6 +2057,16 @@
       "meta": "Ausztria",
       "href": "countries/at/?q=digit%C3%A1lis%20gyermekk%C3%B6nyvt%C3%A1ri%20hozz%C3%A1f%C3%A9r%C3%A9s",
       "search": "digitalis gyermekkonyvtari hozzaferes ausztria at"
+    },
+    {
+      "type": "activity",
+      "id": "digitalis konyvtar",
+      "label": "digitális könyvtár",
+      "country": "nl",
+      "countryLabel": "Hollandia",
+      "meta": "Hollandia",
+      "href": "countries/nl/?q=digit%C3%A1lis%20k%C3%B6nyvt%C3%A1r",
+      "search": "digitalis konyvtar hollandia nl"
     },
     {
       "type": "activity",
@@ -2057,6 +2194,16 @@
     },
     {
       "type": "activity",
+      "id": "egyetemi es foiskolai kozosseg",
+      "label": "egyetemi és főiskolai közösség",
+      "country": "nl",
+      "countryLabel": "Hollandia",
+      "meta": "Hollandia",
+      "href": "countries/nl/?q=egyetemi%20%C3%A9s%20f%C5%91iskolai%20k%C3%B6z%C3%B6ss%C3%A9g",
+      "search": "egyetemi es foiskolai kozosseg hollandia nl"
+    },
+    {
+      "type": "activity",
       "id": "egyetemi hallgatok es kutatok konyvtari tamogatasa",
       "label": "egyetemi hallgatók és kutatók könyvtári támogatása",
       "country": "at",
@@ -2168,6 +2315,28 @@
     },
     {
       "type": "city",
+      "id": "eindhoven",
+      "label": "Eindhoven",
+      "country": "nl",
+      "countryLabel": "Hollandia",
+      "meta": "Hollandia",
+      "href": "countries/nl/?city=Eindhoven",
+      "search": "eindhoven hollandia nl"
+    },
+    {
+      "type": "organization",
+      "subtype": "education",
+      "id": "eindhoveni-magyar-ovisuli",
+      "label": "Eindhoveni Magyar Ovi-Suli",
+      "country": "nl",
+      "countryLabel": "Hollandia",
+      "city": "Eindhoven",
+      "meta": "Eindhoven · weekend/community school",
+      "href": "countries/nl/education/eindhoveni-magyar-ovisuli.html",
+      "search": "eindhoveni magyar ovi-suli eindhoven noord-brabant weekend/community school eindhovenben mukodo magyar hetvegi ovi-suli, amely elmenyalapu anyanyelvi es kulturalis foglalkozasokat biztosit a diaszporaban elo gyermekeknek."
+    },
+    {
+      "type": "city",
       "id": "eisenstadt / kismarton",
       "label": "Eisenstadt / Kismarton",
       "country": "at",
@@ -2178,6 +2347,16 @@
     },
     {
       "type": "activity",
+      "id": "elektronikus folyoirat",
+      "label": "elektronikus folyóirat",
+      "country": "nl",
+      "countryLabel": "Hollandia",
+      "meta": "Hollandia",
+      "href": "countries/nl/?q=elektronikus%20foly%C3%B3irat",
+      "search": "elektronikus folyoirat hollandia nl"
+    },
+    {
+      "type": "activity",
       "id": "elo nepzenei elmeny",
       "label": "élő népzenei élmény",
       "country": "at",
@@ -2185,6 +2364,16 @@
       "meta": "Ausztria",
       "href": "countries/at/?q=%C3%A9l%C5%91%20n%C3%A9pzenei%20%C3%A9lm%C3%A9ny",
       "search": "elo nepzenei elmeny ausztria at"
+    },
+    {
+      "type": "activity",
+      "id": "eloadasok",
+      "label": "előadások",
+      "country": "nl",
+      "countryLabel": "Hollandia",
+      "meta": "Hollandia",
+      "href": "countries/nl/?q=el%C5%91ad%C3%A1sok",
+      "search": "eloadasok hollandia nl"
     },
     {
       "type": "activity",
@@ -2696,6 +2885,16 @@
       "meta": "Ausztria",
       "href": "countries/at/?q=fesztiv%C3%A1lok%20%C3%A9s%20egy%C3%BCttm%C5%B1k%C3%B6d%C3%A9sek",
       "search": "fesztivalok es egyuttmukodesek ausztria at"
+    },
+    {
+      "type": "activity",
+      "id": "fiatalok es hallgatok kapcsolatepitese",
+      "label": "fiatalok és hallgatók kapcsolatépítése",
+      "country": "nl",
+      "countryLabel": "Hollandia",
+      "meta": "Hollandia",
+      "href": "countries/nl/?q=fiatalok%20%C3%A9s%20hallgat%C3%B3k%20kapcsolat%C3%A9p%C3%ADt%C3%A9se",
+      "search": "fiatalok es hallgatok kapcsolatepitese hollandia nl"
     },
     {
       "type": "activity",
@@ -3312,6 +3511,40 @@
       "search": "haderslev dania dk"
     },
     {
+      "type": "organization",
+      "id": "hagai-magyar-enekkar",
+      "label": "Hágai Magyar Énekkar",
+      "country": "nl",
+      "countryLabel": "Hollandia",
+      "city": "Den Haag",
+      "meta": "Den Haag · Hungarian choir",
+      "href": "countries/nl/organizations/hagai-magyar-enekkar.html",
+      "search": "hagai magyar enekkar den haag zuid-holland hungarian choir hagaban mukodo magyar enekkar, rendszeres kulturalis es unnepi fellepesekkel. korusenekles koncertek magyar kulturalis rendezvenyek"
+    },
+    {
+      "type": "organization",
+      "subtype": "education",
+      "id": "hagai-magyar-ovoda-es-iskola",
+      "label": "Hágai Magyar Óvoda és Iskola",
+      "country": "nl",
+      "countryLabel": "Hollandia",
+      "city": "Den Haag",
+      "meta": "Den Haag · weekend/community school",
+      "href": "countries/nl/education/hagai-magyar-ovoda-es-iskola.html",
+      "search": "hagai magyar ovoda es iskola den haag zuid-holland weekend/community school hagaban mukodo magyar ovoda es iskola, amely a magyar nyelv, kultura es hagyomanyok megorzesere epit."
+    },
+    {
+      "type": "organization",
+      "id": "hagai-magyar-reformatus-gyulekezet",
+      "label": "Hágai Magyar Református Gyülekezet",
+      "country": "nl",
+      "countryLabel": "Hollandia",
+      "city": "Den Haag",
+      "meta": "Den Haag · Hungarian Reformed congregation",
+      "href": "countries/nl/organizations/hagai-magyar-reformatus-gyulekezet.html",
+      "search": "hagai magyar reformatus gyulekezet den haag zuid-holland hungarian reformed congregation az 1960-as evekben alapitott hagai magyar reformatus gyulekezet, magyar nyelvu istentiszteletekkel es kozossegi szolgalattal."
+    },
+    {
       "type": "activity",
       "id": "hagyomanyorzo es ifjusagi programok",
       "label": "hagyományőrző és ifjúsági programok",
@@ -3714,6 +3947,16 @@
       "search": "hillerød dania dk"
     },
     {
+      "type": "activity",
+      "id": "hirlevel es evkonyv",
+      "label": "hírlevél és évkönyv",
+      "country": "nl",
+      "countryLabel": "Hollandia",
+      "meta": "Hollandia",
+      "href": "countries/nl/?q=h%C3%ADrlev%C3%A9l%20%C3%A9s%20%C3%A9vk%C3%B6nyv",
+      "search": "hirlevel es evkonyv hollandia nl"
+    },
+    {
       "type": "city",
       "id": "hohenems",
       "label": "Hohenems",
@@ -3734,6 +3977,124 @@
       "search": "hohenems / online ausztria at"
     },
     {
+      "type": "country",
+      "id": "nl",
+      "label": "Hollandia",
+      "country": "nl",
+      "countryLabel": "Hollandia",
+      "href": "countries/nl/",
+      "search": "hollandia nl nld hollandia nederland netherlands kingdom of the netherlands"
+    },
+    {
+      "type": "activity",
+      "id": "hollandiai eletviteli tajekoztatas",
+      "label": "hollandiai életviteli tájékoztatás",
+      "country": "nl",
+      "countryLabel": "Hollandia",
+      "meta": "Hollandia",
+      "href": "countries/nl/?q=hollandiai%20%C3%A9letviteli%20t%C3%A1j%C3%A9koztat%C3%A1s",
+      "search": "hollandiai eletviteli tajekoztatas hollandia nl"
+    },
+    {
+      "type": "organization",
+      "id": "stihon",
+      "label": "Hollandiai és Nyugat-európai Magyar Ifjúsági és Kulturális Alapítvány (StiHon)",
+      "country": "nl",
+      "countryLabel": "Hollandia",
+      "city": "Amstelveen",
+      "meta": "Amstelveen · youth and cultural foundation",
+      "href": "countries/nl/organizations/stihon.html",
+      "search": "hollandiai es nyugat-europai magyar ifjusagi es kulturalis alapitvany (stihon) amstelveen noord-holland youth and cultural foundation hollandiaban mukodo nonprofit magyar ifjusagi es kulturalis alapitvany, amely oktatasi, cserkesz-, csaladi es diaszporakozossegi programokat szervez es tamogat. diaszpora iskolatabor oktatasi projektek ifjusagi kozossegek kulturalis programok nyugat-europai kozossegi egyuttmukodes"
+    },
+    {
+      "type": "organization",
+      "id": "hollandiai-magyar-romai-katolikus-egyhazkozsegi-tanacs",
+      "label": "Hollandiai Magyar Római Katolikus Egyházközségi Tanács",
+      "country": "nl",
+      "countryLabel": "Hollandia",
+      "city": "Den Haag",
+      "meta": "Den Haag · Hungarian Roman Catholic community council",
+      "href": "countries/nl/organizations/hollandiai-magyar-romai-katolikus-egyhazkozsegi-tanacs.html",
+      "search": "hollandiai magyar romai katolikus egyhazkozsegi tanacs den haag hungarian roman catholic community council a hollandiai magyar romai katolikus kozosseg orszagos szervezeti kapcsolodasi pontja, tobb holland varos magyar nyelvu katolikus alkalmainak kozossegi koordinaciojaval. magyar nyelvu katolikus kozossegi elet szentmisek okumenikus unnepek kozossegi kapcsolattartas"
+    },
+    {
+      "type": "organization",
+      "id": "hollandiai-magyar-szovetseg",
+      "label": "Hollandiai Magyar Szövetség",
+      "country": "nl",
+      "countryLabel": "Hollandia",
+      "city": "",
+      "meta": "national umbrella organization",
+      "href": "countries/nl/organizations/hollandiai-magyar-szovetseg.html",
+      "search": "hollandiai magyar szovetseg national umbrella organization a hollandiai magyar szervezeteket orszagos szinten osszefogo ernyoszervezet es kozossegi informacios kozpont. orszagos erdekkepviselet kozossegi koordinacio nemzeti unnepek hirlevel es evkonyv orszagos kozossegi esemenyek"
+    },
+    {
+      "type": "organization",
+      "id": "hollandiai-magyarok",
+      "label": "Hollandiai Magyarok",
+      "country": "nl",
+      "countryLabel": "Hollandia",
+      "city": "Den Haag",
+      "meta": "Den Haag · community and media platform",
+      "href": "countries/nl/organizations/hollandiai-magyarok.html",
+      "search": "hollandiai magyarok den haag community and media platform orszagos online magyar kozossegi es informacios platform, amely rendezvenyeket es kozossegi programokat is szervez. kozossegi informacio rendezvenyek workshopok podcast hollandiai eletviteli tajekoztatas"
+    },
+    {
+      "type": "organization",
+      "id": "hollandiai-mikes-kelemen-kor",
+      "label": "Hollandiai Mikes Kelemen Kör",
+      "country": "nl",
+      "countryLabel": "Hollandia",
+      "city": "Vianen",
+      "meta": "Vianen · cultural and intellectual association",
+      "href": "countries/nl/organizations/hollandiai-mikes-kelemen-kor.html",
+      "search": "hollandiai mikes kelemen kor vianen utrecht cultural and intellectual association 1951-ben alapitott hollandiai magyar kulturalis es ertelmisegi kor, tanulmanyi napokkal es evkozi kozossegi programokkal. tanulmanyi napok kulturalis programok eloadasok magyar muveltseg apolasa"
+    },
+    {
+      "type": "organization",
+      "id": "hungaria-club-1929",
+      "label": "Hungaria Club 1929",
+      "country": "nl",
+      "countryLabel": "Hollandia",
+      "city": "Amsterdam",
+      "meta": "Amsterdam · cultural and community club",
+      "href": "countries/nl/organizations/hungaria-club-1929.html",
+      "search": "hungaria club 1929 amsterdam noord-holland cultural and community club amszterdami magyar kulturalis es tarsadalmi klub, rendszeres kozossegi es kulturalis programokkal. klubdelutanok magyar kulturalis programok nemzeti megemlekezesek kozossegi rendezvenyek"
+    },
+    {
+      "type": "program",
+      "id": "hungaria-club-1929-karacsony-2026",
+      "label": "Hungaria Club 1929 – Kerstviering",
+      "country": "nl",
+      "countryLabel": "Hollandia",
+      "city": "Amsterdam",
+      "meta": "2026-12-13T14:00:00+01:00 · Amsterdam · Grand Café Frankendael, Middenweg 116, 1097 BT Amsterdam",
+      "href": "countries/nl/events/hungaria-club-1929-karacsony-2026.html",
+      "search": "hungaria club 1929 – kerstviering amsterdam noord-holland grand cafe frankendael, middenweg 116, 1097 bt amsterdam"
+    },
+    {
+      "type": "program",
+      "id": "hungaria-club-1929-teatime-2026-11-15",
+      "label": "Hungaria Club 1929 – Teatime",
+      "country": "nl",
+      "countryLabel": "Hollandia",
+      "city": "Amsterdam",
+      "meta": "2026-11-15T14:00:00+01:00 · Amsterdam · Grand Café Frankendael, Middenweg 116, 1097 BT Amsterdam",
+      "href": "countries/nl/events/hungaria-club-1929-teatime-2026-11-15.html",
+      "search": "hungaria club 1929 – teatime amsterdam noord-holland grand cafe frankendael, middenweg 116, 1097 bt amsterdam"
+    },
+    {
+      "type": "program",
+      "id": "hungaria-club-1929-szureti-bal-2026",
+      "label": "Hungaria Club 1929 – Wijnoogstfeest",
+      "country": "nl",
+      "countryLabel": "Hollandia",
+      "city": "Amsterdam",
+      "meta": "2026-10-11T14:00:00+02:00 · Amsterdam · Grand Café Frankendael, Middenweg 116, 1097 BT Amsterdam",
+      "href": "countries/nl/events/hungaria-club-1929-szureti-bal-2026.html",
+      "search": "hungaria club 1929 – wijnoogstfeest amsterdam noord-holland grand cafe frankendael, middenweg 116, 1097 bt amsterdam"
+    },
+    {
       "type": "organization",
       "id": "hya-denmark",
       "label": "Hungarian Youth Association – Denmark",
@@ -3743,6 +4104,17 @@
       "meta": "student and youth network",
       "href": "countries/dk/organizations/hya-denmark.html",
       "search": "hungarian youth association – denmark student and youth network a hungarian youth association daniai orszagos halozata, amely daniai egyetemeken tanulo es fiatal felnott magyarokat kapcsol ossze. egyetemi es diakkozossegi kapcsolatepites kulfoldi tanulmanyi tajekoztatas kozossegi esemenyek"
+    },
+    {
+      "type": "organization",
+      "id": "hya-netherlands",
+      "label": "Hungarian Youth Association – Netherlands",
+      "country": "nl",
+      "countryLabel": "Hollandia",
+      "city": "",
+      "meta": "student and youth network",
+      "href": "countries/nl/organizations/hya-netherlands.html",
+      "search": "hungarian youth association – netherlands student and youth network a hungarian youth association hollandiai halozata, amely a hollandiaban tanulo es elo magyar fiatalok kapcsolatepiteset tamogatja. fiatalok es hallgatok kapcsolatepitese kozossegi programok kulfoldi tanulmanyi tajekoztatas"
     },
     {
       "type": "activity",
@@ -3828,6 +4200,26 @@
     },
     {
       "type": "activity",
+      "id": "ifjusagi kozosseg",
+      "label": "ifjúsági közösség",
+      "country": "nl",
+      "countryLabel": "Hollandia",
+      "meta": "Hollandia",
+      "href": "countries/nl/?q=ifj%C3%BAs%C3%A1gi%20k%C3%B6z%C3%B6ss%C3%A9g",
+      "search": "ifjusagi kozosseg hollandia nl"
+    },
+    {
+      "type": "activity",
+      "id": "ifjusagi kozossegek",
+      "label": "ifjúsági közösségek",
+      "country": "nl",
+      "countryLabel": "Hollandia",
+      "meta": "Hollandia",
+      "href": "countries/nl/?q=ifj%C3%BAs%C3%A1gi%20k%C3%B6z%C3%B6ss%C3%A9gek",
+      "search": "ifjusagi kozossegek hollandia nl"
+    },
+    {
+      "type": "activity",
       "id": "ifjusagi kozossegepites",
       "label": "ifjúsági közösségépítés",
       "country": "at",
@@ -3835,6 +4227,16 @@
       "meta": "Ausztria",
       "href": "countries/at/?q=ifj%C3%BAs%C3%A1gi%20k%C3%B6z%C3%B6ss%C3%A9g%C3%A9p%C3%ADt%C3%A9s",
       "search": "ifjusagi kozossegepites ausztria at"
+    },
+    {
+      "type": "activity",
+      "id": "ifjusagi programok",
+      "label": "ifjúsági programok",
+      "country": "nl",
+      "countryLabel": "Hollandia",
+      "meta": "Hollandia",
+      "href": "countries/nl/?q=ifj%C3%BAs%C3%A1gi%20programok",
+      "search": "ifjusagi programok hollandia nl"
     },
     {
       "type": "activity",
@@ -4086,6 +4488,16 @@
     },
     {
       "type": "activity",
+      "id": "irodalmi estek",
+      "label": "irodalmi estek",
+      "country": "nl",
+      "countryLabel": "Hollandia",
+      "meta": "Hollandia",
+      "href": "countries/nl/?q=irodalmi%20estek",
+      "search": "irodalmi estek hollandia nl"
+    },
+    {
+      "type": "activity",
       "id": "irodalmi estek es konyvbemutatok",
       "label": "irodalmi estek és könyvbemutatók",
       "country": "at",
@@ -4271,6 +4683,16 @@
       "meta": "Ausztria",
       "href": "countries/at/?q=kapcsolat%C3%A9p%C3%ADt%C3%A9s",
       "search": "kapcsolatepites ausztria at"
+    },
+    {
+      "type": "activity",
+      "id": "kapcsolatepites",
+      "label": "kapcsolatépítés",
+      "country": "nl",
+      "countryLabel": "Hollandia",
+      "meta": "Hollandia",
+      "href": "countries/nl/?q=kapcsolat%C3%A9p%C3%ADt%C3%A9s",
+      "search": "kapcsolatepites hollandia nl"
     },
     {
       "type": "activity",
@@ -4670,6 +5092,18 @@
     {
       "type": "organization",
       "subtype": "education",
+      "id": "kincskereso-oskola",
+      "label": "Kincskereső Oskola",
+      "country": "nl",
+      "countryLabel": "Hollandia",
+      "city": "Maarssen",
+      "meta": "Maarssen · weekend/community school",
+      "href": "countries/nl/education/kincskereso-oskola.html",
+      "search": "kincskereso oskola maarssen utrecht weekend/community school hollandiai magyar kozossegi iskola rendszeres magyar nyelvi es kulturalis foglalkozasokkal maarssenben."
+    },
+    {
+      "type": "organization",
+      "subtype": "education",
       "id": "kindergarten-rotenturm-hungarian",
       "label": "Kindergarten Rotenturm – magyar kétnyelvű nevelés",
       "country": "at",
@@ -4753,6 +5187,16 @@
     },
     {
       "type": "activity",
+      "id": "klubdelutanok",
+      "label": "klubdélutánok",
+      "country": "nl",
+      "countryLabel": "Hollandia",
+      "meta": "Hollandia",
+      "href": "countries/nl/?q=klubd%C3%A9lut%C3%A1nok",
+      "search": "klubdelutanok hollandia nl"
+    },
+    {
+      "type": "activity",
       "id": "kodaly-modszeru zenei elokeszites",
       "label": "Kodály-módszerű zenei előkészítés",
       "country": "at",
@@ -4790,6 +5234,16 @@
       "meta": "Ausztria",
       "href": "countries/at/?q=koncertek",
       "search": "koncertek ausztria at"
+    },
+    {
+      "type": "activity",
+      "id": "koncertek",
+      "label": "koncertek",
+      "country": "nl",
+      "countryLabel": "Hollandia",
+      "meta": "Hollandia",
+      "href": "countries/nl/?q=koncertek",
+      "search": "koncertek hollandia nl"
     },
     {
       "type": "activity",
@@ -4893,6 +5347,16 @@
     },
     {
       "type": "activity",
+      "id": "konyvkiadas",
+      "label": "könyvkiadás",
+      "country": "nl",
+      "countryLabel": "Hollandia",
+      "meta": "Hollandia",
+      "href": "countries/nl/?q=k%C3%B6nyvkiad%C3%A1s",
+      "search": "konyvkiadas hollandia nl"
+    },
+    {
+      "type": "activity",
       "id": "konyvklubok",
       "label": "könyvklubok",
       "country": "at",
@@ -4940,6 +5404,26 @@
       "meta": "Ausztria",
       "href": "countries/at/?q=k%C3%B6nyvt%C3%A1ri%20%C3%A9s%20szerkeszt%C5%91s%C3%A9gi%20infrastrukt%C3%BAra",
       "search": "konyvtari es szerkesztosegi infrastruktura ausztria at"
+    },
+    {
+      "type": "activity",
+      "id": "konyvvasar",
+      "label": "könyvvásár",
+      "country": "nl",
+      "countryLabel": "Hollandia",
+      "meta": "Hollandia",
+      "href": "countries/nl/?q=k%C3%B6nyvv%C3%A1s%C3%A1r",
+      "search": "konyvvasar hollandia nl"
+    },
+    {
+      "type": "activity",
+      "id": "konzuli ugyintezes",
+      "label": "konzuli ügyintézés",
+      "country": "nl",
+      "countryLabel": "Hollandia",
+      "meta": "Hollandia",
+      "href": "countries/nl/?q=konzuli%20%C3%BCgyint%C3%A9z%C3%A9s",
+      "search": "konzuli ugyintezes hollandia nl"
     },
     {
       "type": "organization",
@@ -5012,6 +5496,16 @@
       "meta": "Ausztria",
       "href": "countries/at/?q=kort%C3%A1rs%20magyar%20irodalom%20%C3%A9s%20kult%C3%BAra%20hozz%C3%A1f%C3%A9rhet%C5%91v%C3%A9%20t%C3%A9tele",
       "search": "kortars magyar irodalom es kultura hozzaferhetove tetele ausztria at"
+    },
+    {
+      "type": "activity",
+      "id": "korusenekles",
+      "label": "kóruséneklés",
+      "country": "nl",
+      "countryLabel": "Hollandia",
+      "meta": "Hollandia",
+      "href": "countries/nl/?q=k%C3%B3rus%C3%A9nekl%C3%A9s",
+      "search": "korusenekles hollandia nl"
     },
     {
       "type": "activity",
@@ -5406,6 +5900,16 @@
     },
     {
       "type": "activity",
+      "id": "kozossegi informacio",
+      "label": "közösségi információ",
+      "country": "nl",
+      "countryLabel": "Hollandia",
+      "meta": "Hollandia",
+      "href": "countries/nl/?q=k%C3%B6z%C3%B6ss%C3%A9gi%20inform%C3%A1ci%C3%B3",
+      "search": "kozossegi informacio hollandia nl"
+    },
+    {
+      "type": "activity",
       "id": "kozossegi informaciok",
       "label": "közösségi információk",
       "country": "at",
@@ -5413,6 +5917,26 @@
       "meta": "Ausztria",
       "href": "countries/at/?q=k%C3%B6z%C3%B6ss%C3%A9gi%20inform%C3%A1ci%C3%B3k",
       "search": "kozossegi informaciok ausztria at"
+    },
+    {
+      "type": "activity",
+      "id": "kozossegi kapcsolattartas",
+      "label": "közösségi kapcsolattartás",
+      "country": "nl",
+      "countryLabel": "Hollandia",
+      "meta": "Hollandia",
+      "href": "countries/nl/?q=k%C3%B6z%C3%B6ss%C3%A9gi%20kapcsolattart%C3%A1s",
+      "search": "kozossegi kapcsolattartas hollandia nl"
+    },
+    {
+      "type": "activity",
+      "id": "kozossegi koordinacio",
+      "label": "közösségi koordináció",
+      "country": "nl",
+      "countryLabel": "Hollandia",
+      "meta": "Hollandia",
+      "href": "countries/nl/?q=k%C3%B6z%C3%B6ss%C3%A9gi%20koordin%C3%A1ci%C3%B3",
+      "search": "kozossegi koordinacio hollandia nl"
     },
     {
       "type": "activity",
@@ -5433,6 +5957,26 @@
       "meta": "Dánia",
       "href": "countries/dk/?q=k%C3%B6z%C3%B6ss%C3%A9gi%20programok",
       "search": "kozossegi programok dania dk"
+    },
+    {
+      "type": "activity",
+      "id": "kozossegi programok",
+      "label": "közösségi programok",
+      "country": "nl",
+      "countryLabel": "Hollandia",
+      "meta": "Hollandia",
+      "href": "countries/nl/?q=k%C3%B6z%C3%B6ss%C3%A9gi%20programok",
+      "search": "kozossegi programok hollandia nl"
+    },
+    {
+      "type": "activity",
+      "id": "kozossegi rendezvenyek",
+      "label": "közösségi rendezvények",
+      "country": "nl",
+      "countryLabel": "Hollandia",
+      "meta": "Hollandia",
+      "href": "countries/nl/?q=k%C3%B6z%C3%B6ss%C3%A9gi%20rendezv%C3%A9nyek",
+      "search": "kozossegi rendezvenyek hollandia nl"
     },
     {
       "type": "activity",
@@ -5505,6 +6049,16 @@
       "meta": "Dánia",
       "href": "countries/dk/?q=k%C3%BClf%C3%B6ldi%20tanulm%C3%A1nyi%20t%C3%A1j%C3%A9koztat%C3%A1s",
       "search": "kulfoldi tanulmanyi tajekoztatas dania dk"
+    },
+    {
+      "type": "activity",
+      "id": "kulfoldi tanulmanyi tajekoztatas",
+      "label": "külföldi tanulmányi tájékoztatás",
+      "country": "nl",
+      "countryLabel": "Hollandia",
+      "meta": "Hollandia",
+      "href": "countries/nl/?q=k%C3%BClf%C3%B6ldi%20tanulm%C3%A1nyi%20t%C3%A1j%C3%A9koztat%C3%A1s",
+      "search": "kulfoldi tanulmanyi tajekoztatas hollandia nl"
     },
     {
       "type": "organization",
@@ -5669,6 +6223,16 @@
     },
     {
       "type": "activity",
+      "id": "kulturalis programok",
+      "label": "kulturális programok",
+      "country": "nl",
+      "countryLabel": "Hollandia",
+      "meta": "Hollandia",
+      "href": "countries/nl/?q=kultur%C3%A1lis%20programok",
+      "search": "kulturalis programok hollandia nl"
+    },
+    {
+      "type": "activity",
       "id": "kulturalis rendezvenyek",
       "label": "kulturális rendezvények",
       "country": "at",
@@ -5716,6 +6280,16 @@
       "meta": "Ausztria",
       "href": "countries/at/?q=kultur%C3%A1lis%20rendezv%C3%A9nyek%20%C3%A9s%20utaz%C3%A1sok",
       "search": "kulturalis rendezvenyek es utazasok ausztria at"
+    },
+    {
+      "type": "activity",
+      "id": "kulturalis talalkozok",
+      "label": "kulturális találkozók",
+      "country": "nl",
+      "countryLabel": "Hollandia",
+      "meta": "Hollandia",
+      "href": "countries/nl/?q=kultur%C3%A1lis%20tal%C3%A1lkoz%C3%B3k",
+      "search": "kulturalis talalkozok hollandia nl"
     },
     {
       "type": "activity",
@@ -5892,6 +6466,16 @@
       "meta": "Ausztria",
       "href": "countries/at/?q=logop%C3%A9diai%20%C3%A9s%20fejleszt%C5%91%20programok",
       "search": "logopediai es fejleszto programok ausztria at"
+    },
+    {
+      "type": "city",
+      "id": "maarssen",
+      "label": "Maarssen",
+      "country": "nl",
+      "countryLabel": "Hollandia",
+      "meta": "Hollandia",
+      "href": "countries/nl/?city=Maarssen",
+      "search": "maarssen hollandia nl"
     },
     {
       "type": "organization",
@@ -6136,6 +6720,17 @@
       "meta": "2026-12-20T16:00:00+01:00 · Graz · Heilandskirche Graz",
       "href": "countries/at/events/evangelikus-gyulekezet-magyar-evang%C3%A9likus-istentisztelet-graz-2026-12-20t16-00-00-01-00.html",
       "search": "magyar evangelikus istentisztelet – graz graz heilandskirche graz ausztriai magyar evangelikus gyulekezet magyar nyelvu evangelikus istentisztelet grazban."
+    },
+    {
+      "type": "organization",
+      "id": "magyar-fiatalok-hollandiaban",
+      "label": "Magyar Fiatalok Hollandiában (MaFi)",
+      "country": "nl",
+      "countryLabel": "Hollandia",
+      "city": "Den Haag",
+      "meta": "Den Haag · student and youth community",
+      "href": "countries/nl/organizations/magyar-fiatalok-hollandiaban.html",
+      "search": "magyar fiatalok hollandiaban (mafi) den haag student and youth community hollandiaban tanulo es elo magyar fiatalok kozossege, rendszeres talalkozokkal es eloadasokkal. egyetemi es foiskolai kozosseg eloadasok kapcsolatepites ifjusagi programok"
     },
     {
       "type": "activity",
@@ -6389,6 +6984,16 @@
     },
     {
       "type": "activity",
+      "id": "magyar kulturalis esemenyek",
+      "label": "magyar kulturális események",
+      "country": "nl",
+      "countryLabel": "Hollandia",
+      "meta": "Hollandia",
+      "href": "countries/nl/?q=magyar%20kultur%C3%A1lis%20esem%C3%A9nyek",
+      "search": "magyar kulturalis esemenyek hollandia nl"
+    },
+    {
+      "type": "activity",
       "id": "magyar kulturalis identitas erositese",
       "label": "magyar kulturális identitás erősítése",
       "country": "at",
@@ -6396,6 +7001,26 @@
       "meta": "Ausztria",
       "href": "countries/at/?q=magyar%20kultur%C3%A1lis%20identit%C3%A1s%20er%C5%91s%C3%ADt%C3%A9se",
       "search": "magyar kulturalis identitas erositese ausztria at"
+    },
+    {
+      "type": "activity",
+      "id": "magyar kulturalis neveles",
+      "label": "magyar kulturális nevelés",
+      "country": "nl",
+      "countryLabel": "Hollandia",
+      "meta": "Hollandia",
+      "href": "countries/nl/?q=magyar%20kultur%C3%A1lis%20nevel%C3%A9s",
+      "search": "magyar kulturalis neveles hollandia nl"
+    },
+    {
+      "type": "activity",
+      "id": "magyar kulturalis programok",
+      "label": "magyar kulturális programok",
+      "country": "nl",
+      "countryLabel": "Hollandia",
+      "meta": "Hollandia",
+      "href": "countries/nl/?q=magyar%20kultur%C3%A1lis%20programok",
+      "search": "magyar kulturalis programok hollandia nl"
     },
     {
       "type": "activity",
@@ -6426,6 +7051,16 @@
       "meta": "Dánia",
       "href": "countries/dk/?q=magyar%20kultur%C3%A1lis%20rendezv%C3%A9nyek",
       "search": "magyar kulturalis rendezvenyek dania dk"
+    },
+    {
+      "type": "activity",
+      "id": "magyar kulturalis rendezvenyek",
+      "label": "magyar kulturális rendezvények",
+      "country": "nl",
+      "countryLabel": "Hollandia",
+      "meta": "Hollandia",
+      "href": "countries/nl/?q=magyar%20kultur%C3%A1lis%20rendezv%C3%A9nyek",
+      "search": "magyar kulturalis rendezvenyek hollandia nl"
     },
     {
       "type": "activity",
@@ -6466,6 +7101,16 @@
       "meta": "Ausztria",
       "href": "countries/at/?q=magyar%20mond%C3%B3k%C3%A1k%2C%20dalok%20%C3%A9s%20k%C3%B6z%C3%B6s%20j%C3%A1t%C3%A9k%20kisgyermekekkel",
       "search": "magyar mondokak, dalok es kozos jatek kisgyermekekkel ausztria at"
+    },
+    {
+      "type": "activity",
+      "id": "magyar muveltseg apolasa",
+      "label": "magyar műveltség ápolása",
+      "country": "nl",
+      "countryLabel": "Hollandia",
+      "meta": "Hollandia",
+      "href": "countries/nl/?q=magyar%20m%C5%B1velts%C3%A9g%20%C3%A1pol%C3%A1sa",
+      "search": "magyar muveltseg apolasa hollandia nl"
     },
     {
       "type": "activity",
@@ -6939,6 +7584,16 @@
     },
     {
       "type": "activity",
+      "id": "magyar nyelvu katolikus kozossegi elet",
+      "label": "magyar nyelvű katolikus közösségi élet",
+      "country": "nl",
+      "countryLabel": "Hollandia",
+      "meta": "Hollandia",
+      "href": "countries/nl/?q=magyar%20nyelv%C5%B1%20katolikus%20k%C3%B6z%C3%B6ss%C3%A9gi%20%C3%A9let",
+      "search": "magyar nyelvu katolikus kozossegi elet hollandia nl"
+    },
+    {
+      "type": "activity",
       "id": "magyar nyelvu katolikus szentmisek",
       "label": "magyar nyelvű katolikus szentmisék",
       "country": "at",
@@ -7198,6 +7853,17 @@
       "search": "magyar ovodai foglalkozasok ausztria at"
     },
     {
+      "type": "program",
+      "id": "zwolle-istenztelet-2026-10-11",
+      "label": "Magyar református istentisztelet – Zwolle",
+      "country": "nl",
+      "countryLabel": "Hollandia",
+      "city": "Zwolle",
+      "meta": "2026-10-11T14:30:00+02:00 · Zwolle · Lutherse Kerk, Koestraat 2-4, 8011 NK Zwolle",
+      "href": "countries/nl/events/zwolle-istenztelet-2026-10-11.html",
+      "search": "magyar reformatus istentisztelet – zwolle zwolle overijssel lutherse kerk, koestraat 2-4, 8011 nk zwolle"
+    },
+    {
       "type": "activity",
       "id": "magyar riportok tobbnyelvu orf nepcsoporti musorokban",
       "label": "magyar riportok többnyelvű ORF népcsoporti műsorokban",
@@ -7329,6 +7995,16 @@
       "search": "magyar, nemet es angol nyelvoktatas ausztria at"
     },
     {
+      "type": "activity",
+      "id": "magyar-holland kapcsolatok",
+      "label": "magyar-holland kapcsolatok",
+      "country": "nl",
+      "countryLabel": "Hollandia",
+      "meta": "Hollandia",
+      "href": "countries/nl/?q=magyar-holland%20kapcsolatok",
+      "search": "magyar-holland kapcsolatok hollandia nl"
+    },
+    {
       "type": "organization",
       "id": "magyarhaz-innsbruck",
       "label": "Magyarház – Innsbrucki Magyar Diákotthon és Kultúrcentrum",
@@ -7338,6 +8014,17 @@
       "meta": "Innsbruck · kulturális központ",
       "href": "countries/at/organizations/magyarhaz-innsbruck.html",
       "search": "magyarhaz – innsbrucki magyar diakotthon es kulturcentrum innsbruck kulturalis kozpont az 1956-os magyar menekulthullam nyoman letrejott innsbrucki magyar diakotthon es kulturcentrum ma 21 szobas nemzetkozi kollegium es kozossegi-kulturalis helyszin, amely megfizetheto lakhatassal es kozossegi terrel tamogatja a hallgatokat. egyetemi hallgatok kollegiumi elhelyezese kozossegi diakelet es kapcsolatepites kulturalis rendezvenyek es szeminariumok helyszinenek biztositasa nemzetkozi hallgatoi kozosseg mukodtetese"
+    },
+    {
+      "type": "organization",
+      "id": "magyarorszag-nagykovetsege-haga",
+      "label": "Magyarország Nagykövetsége Hága",
+      "country": "nl",
+      "countryLabel": "Hollandia",
+      "city": "Den Haag",
+      "meta": "Den Haag · embassy and consular institution",
+      "href": "countries/nl/organizations/magyarorszag-nagykovetsege-haga.html",
+      "search": "magyarorszag nagykovetsege haga den haag zuid-holland embassy and consular institution magyarorszag hollandiai diplomaciai kepviselete, amely konzuli szolgaltatasokat es a hollandiai magyar kozosseget megszolito kulturalis programokat is biztosit. konzuli ugyintezes kulturalis programok kozossegi kapcsolattartas magyar-holland kapcsolatok"
     },
     {
       "type": "activity",
@@ -7557,6 +8244,17 @@
       "meta": "Vorarlberg · magyar kisgyermekes zenei nevelés",
       "href": "countries/at/education/mime-zenebolcsode-zeneovi.html",
       "search": "mi magyarok egymasert – zenebolcsode, ringato es zeneovi vorarlberg magyar kisgyermekes zenei neveles a mi magyarok egymasert 2018 ota magyar nyelvu ringatot, zenebolcsit, zeneovit es iskolaelokeszitot tart vorarlbergben."
+    },
+    {
+      "type": "organization",
+      "id": "mikes-international",
+      "label": "Mikes International",
+      "country": "nl",
+      "countryLabel": "Hollandia",
+      "city": "Den Haag",
+      "meta": "Den Haag · publishing and digital library foundation",
+      "href": "countries/nl/organizations/mikes-international.html",
+      "search": "mikes international den haag zuid-holland publishing and digital library foundation hagai magyar szellemi forum es kiadoi alapitvany, elektronikus folyoirattal, bibliotheca mikes international digitalis konyvtarral es tudomanyos-kulturalis kiadvanyokkal. elektronikus folyoirat digitalis konyvtar konyvkiadas tudomanyos es kulturalis publikaciok"
     },
     {
       "type": "organization",
@@ -7849,6 +8547,26 @@
       "meta": "Ausztria",
       "href": "countries/at/?q=nemzeti%20%C3%A9s%20t%C3%B6rt%C3%A9nelmi%20megeml%C3%A9kez%C3%A9sek",
       "search": "nemzeti es tortenelmi megemlekezesek ausztria at"
+    },
+    {
+      "type": "activity",
+      "id": "nemzeti megemlekezesek",
+      "label": "nemzeti megemlékezések",
+      "country": "nl",
+      "countryLabel": "Hollandia",
+      "meta": "Hollandia",
+      "href": "countries/nl/?q=nemzeti%20megeml%C3%A9kez%C3%A9sek",
+      "search": "nemzeti megemlekezesek hollandia nl"
+    },
+    {
+      "type": "activity",
+      "id": "nemzeti unnepek",
+      "label": "nemzeti ünnepek",
+      "country": "nl",
+      "countryLabel": "Hollandia",
+      "meta": "Hollandia",
+      "href": "countries/nl/?q=nemzeti%20%C3%BCnnepek",
+      "search": "nemzeti unnepek hollandia nl"
     },
     {
       "type": "organization",
@@ -8277,6 +8995,16 @@
       "search": "nyitott kulturalis programok ausztria at"
     },
     {
+      "type": "activity",
+      "id": "nyugat-europai kozossegi egyuttmukodes",
+      "label": "nyugat-európai közösségi együttműködés",
+      "country": "nl",
+      "countryLabel": "Hollandia",
+      "meta": "Hollandia",
+      "href": "countries/nl/?q=nyugat-eur%C3%B3pai%20k%C3%B6z%C3%B6ss%C3%A9gi%20egy%C3%BCttm%C5%B1k%C3%B6d%C3%A9s",
+      "search": "nyugat-europai kozossegi egyuttmukodes hollandia nl"
+    },
+    {
       "type": "city",
       "id": "oberpullendorf / felsopulya",
       "label": "Oberpullendorf / Felsőpulya",
@@ -8318,6 +9046,16 @@
     },
     {
       "type": "activity",
+      "id": "oktatasi projektek",
+      "label": "oktatási projektek",
+      "country": "nl",
+      "countryLabel": "Hollandia",
+      "meta": "Hollandia",
+      "href": "countries/nl/?q=oktat%C3%A1si%20projektek",
+      "search": "oktatasi projektek hollandia nl"
+    },
+    {
+      "type": "activity",
       "id": "okumenikus es kereszteny tarsadalmi parbeszed",
       "label": "ökumenikus és keresztény társadalmi párbeszéd",
       "country": "at",
@@ -8335,6 +9073,16 @@
       "meta": "Ausztria",
       "href": "countries/at/?q=%C3%B6kumenikus%20kapcsolatok",
       "search": "okumenikus kapcsolatok ausztria at"
+    },
+    {
+      "type": "activity",
+      "id": "okumenikus unnepek",
+      "label": "ökumenikus ünnepek",
+      "country": "nl",
+      "countryLabel": "Hollandia",
+      "meta": "Hollandia",
+      "href": "countries/nl/?q=%C3%B6kumenikus%20%C3%BCnnepek",
+      "search": "okumenikus unnepek hollandia nl"
     },
     {
       "type": "activity",
@@ -8547,6 +9295,26 @@
     },
     {
       "type": "activity",
+      "id": "orszagos erdekkepviselet",
+      "label": "országos érdekképviselet",
+      "country": "nl",
+      "countryLabel": "Hollandia",
+      "meta": "Hollandia",
+      "href": "countries/nl/?q=orsz%C3%A1gos%20%C3%A9rdekk%C3%A9pviselet",
+      "search": "orszagos erdekkepviselet hollandia nl"
+    },
+    {
+      "type": "activity",
+      "id": "orszagos kozossegi esemenyek",
+      "label": "országos közösségi események",
+      "country": "nl",
+      "countryLabel": "Hollandia",
+      "meta": "Hollandia",
+      "href": "countries/nl/?q=orsz%C3%A1gos%20k%C3%B6z%C3%B6ss%C3%A9gi%20esem%C3%A9nyek",
+      "search": "orszagos kozossegi esemenyek hollandia nl"
+    },
+    {
+      "type": "activity",
       "id": "orszagos magyar katolikus kozossegi koordinacio",
       "label": "országos magyar katolikus közösségi koordináció",
       "country": "at",
@@ -8720,6 +9488,16 @@
     },
     {
       "type": "activity",
+      "id": "podcast",
+      "label": "podcast",
+      "country": "nl",
+      "countryLabel": "Hollandia",
+      "meta": "Hollandia",
+      "href": "countries/nl/?q=podcast",
+      "search": "podcast hollandia nl"
+    },
+    {
+      "type": "activity",
       "id": "podcast es archiv tartalmak",
       "label": "podcast és archív tartalmak",
       "country": "at",
@@ -8845,6 +9623,17 @@
     },
     {
       "type": "program",
+      "id": "reformacio-unnepe-zwolle-2026",
+      "label": "Reformáció ünnepe – közös hollandiai magyar református istentisztelet",
+      "country": "nl",
+      "countryLabel": "Hollandia",
+      "city": "Zwolle",
+      "meta": "2026-10-31T00:00:00+01:00 · Zwolle",
+      "href": "countries/nl/events/reformacio-unnepe-zwolle-2026.html",
+      "search": "reformacio unnepe – kozos hollandiai magyar reformatus istentisztelet zwolle overijssel"
+    },
+    {
+      "type": "program",
       "id": "reformatus-szolgalat-reformációi-istentisztelet-és-úrvacsora-2026-10-25t17-00-00-01-00",
       "label": "Reformációi istentisztelet és úrvacsora",
       "country": "at",
@@ -8949,6 +9738,16 @@
       "meta": "Ausztria",
       "href": "countries/at/?q=rendezv%C3%A9ny-%20%C3%A9s%20k%C3%B6z%C3%B6ss%C3%A9gi%20besz%C3%A1mol%C3%B3k",
       "search": "rendezveny- es kozossegi beszamolok ausztria at"
+    },
+    {
+      "type": "activity",
+      "id": "rendezvenyek",
+      "label": "rendezvények",
+      "country": "nl",
+      "countryLabel": "Hollandia",
+      "meta": "Hollandia",
+      "href": "countries/nl/?q=rendezv%C3%A9nyek",
+      "search": "rendezvenyek hollandia nl"
     },
     {
       "type": "activity",
@@ -9112,6 +9911,27 @@
       "meta": "Ausztria",
       "href": "countries/at/?city=Rotenturm%20an%20der%20Pinka%20/%20Vasv%C3%B6r%C3%B6sv%C3%A1r",
       "search": "rotenturm an der pinka / vasvorosvar ausztria at"
+    },
+    {
+      "type": "city",
+      "id": "rotterdam",
+      "label": "Rotterdam",
+      "country": "nl",
+      "countryLabel": "Hollandia",
+      "meta": "Hollandia",
+      "href": "countries/nl/?city=Rotterdam",
+      "search": "rotterdam hollandia nl"
+    },
+    {
+      "type": "organization",
+      "id": "rotterdami-magyar-reformatus-gyulekezet",
+      "label": "Rotterdami Magyar Református Gyülekezet",
+      "country": "nl",
+      "countryLabel": "Hollandia",
+      "city": "Rotterdam",
+      "meta": "Rotterdam · Hungarian Reformed congregation",
+      "href": "countries/nl/organizations/rotterdami-magyar-reformatus-gyulekezet.html",
+      "search": "rotterdami magyar reformatus gyulekezet rotterdam zuid-holland hungarian reformed congregation 2018-ban a hagai magyar reformatus gyulekezet kezdemenyezesere letrejott rotterdami magyar reformatus kozosseg."
     },
     {
       "type": "city",
@@ -9579,6 +10399,16 @@
     },
     {
       "type": "activity",
+      "id": "szentmisek",
+      "label": "szentmisék",
+      "country": "nl",
+      "countryLabel": "Hollandia",
+      "meta": "Hollandia",
+      "href": "countries/nl/?q=szentmis%C3%A9k",
+      "search": "szentmisek hollandia nl"
+    },
+    {
+      "type": "activity",
       "id": "szervezetek kozotti koordinacio",
       "label": "szervezetek közötti koordináció",
       "country": "at",
@@ -9687,6 +10517,16 @@
       "meta": "Ausztria",
       "href": "countries/at/?q=sz%C3%BCreti%20felvonul%C3%A1s%20%C3%A9s%20b%C3%A1l",
       "search": "szureti felvonulas es bal ausztria at"
+    },
+    {
+      "type": "activity",
+      "id": "taborok",
+      "label": "táborok",
+      "country": "nl",
+      "countryLabel": "Hollandia",
+      "meta": "Hollandia",
+      "href": "countries/nl/?q=t%C3%A1borok",
+      "search": "taborok hollandia nl"
     },
     {
       "type": "activity",
@@ -9921,6 +10761,16 @@
     },
     {
       "type": "activity",
+      "id": "tanulmanyi napok",
+      "label": "tanulmányi napok",
+      "country": "nl",
+      "countryLabel": "Hollandia",
+      "meta": "Hollandia",
+      "href": "countries/nl/?q=tanulm%C3%A1nyi%20napok",
+      "search": "tanulmanyi napok hollandia nl"
+    },
+    {
+      "type": "activity",
       "id": "tanulmanyutak es szakmai networking",
       "label": "tanulmányutak és szakmai networking",
       "country": "at",
@@ -10061,6 +10911,16 @@
       "meta": "Ausztria",
       "href": "countries/at/?city=Traiskirchen",
       "search": "traiskirchen ausztria at"
+    },
+    {
+      "type": "activity",
+      "id": "tudomanyos es kulturalis publikaciok",
+      "label": "tudományos és kulturális publikációk",
+      "country": "nl",
+      "countryLabel": "Hollandia",
+      "meta": "Hollandia",
+      "href": "countries/nl/?q=tudom%C3%A1nyos%20%C3%A9s%20kultur%C3%A1lis%20publik%C3%A1ci%C3%B3k",
+      "search": "tudomanyos es kulturalis publikaciok hollandia nl"
     },
     {
       "type": "activity",
@@ -10249,6 +11109,16 @@
       "meta": "Ausztria",
       "href": "countries/at/?q=vezet%C5%91k%C3%A9pz%C3%A9s",
       "search": "vezetokepzes ausztria at"
+    },
+    {
+      "type": "city",
+      "id": "vianen",
+      "label": "Vianen",
+      "country": "nl",
+      "countryLabel": "Hollandia",
+      "meta": "Hollandia",
+      "href": "countries/nl/?city=Vianen",
+      "search": "vianen hollandia nl"
     },
     {
       "type": "activity",
@@ -10983,6 +11853,16 @@
     },
     {
       "type": "activity",
+      "id": "workshopok",
+      "label": "workshopok",
+      "country": "nl",
+      "countryLabel": "Hollandia",
+      "meta": "Hollandia",
+      "href": "countries/nl/?q=workshopok",
+      "search": "workshopok hollandia nl"
+    },
+    {
+      "type": "activity",
       "id": "workshopok es beszelgetesek",
       "label": "workshopok és beszélgetések",
       "country": "at",
@@ -11010,6 +11890,16 @@
       "meta": "Ausztria",
       "href": "countries/at/?q=workshopok%2C%20s%C3%A9t%C3%A1k%20%C3%A9s%20k%C3%B6z%C3%B6ss%C3%A9gi%20kir%C3%A1ndul%C3%A1sok",
       "search": "workshopok, setak es kozossegi kirandulasok ausztria at"
+    },
+    {
+      "type": "city",
+      "id": "zeist",
+      "label": "Zeist",
+      "country": "nl",
+      "countryLabel": "Hollandia",
+      "meta": "Hollandia",
+      "href": "countries/nl/?city=Zeist",
+      "search": "zeist hollandia nl"
     },
     {
       "type": "city",
@@ -11064,6 +11954,16 @@
     },
     {
       "type": "activity",
+      "id": "zenei programok",
+      "label": "zenei programok",
+      "country": "nl",
+      "countryLabel": "Hollandia",
+      "meta": "Hollandia",
+      "href": "countries/nl/?q=zenei%20programok",
+      "search": "zenei programok hollandia nl"
+    },
+    {
+      "type": "activity",
       "id": "zenes es tancos rendezvenyek",
       "label": "zenés és táncos rendezvények",
       "country": "at",
@@ -11071,6 +11971,27 @@
       "meta": "Ausztria",
       "href": "countries/at/?q=zen%C3%A9s%20%C3%A9s%20t%C3%A1ncos%20rendezv%C3%A9nyek",
       "search": "zenes es tancos rendezvenyek ausztria at"
+    },
+    {
+      "type": "city",
+      "id": "zwolle",
+      "label": "Zwolle",
+      "country": "nl",
+      "countryLabel": "Hollandia",
+      "meta": "Hollandia",
+      "href": "countries/nl/?city=Zwolle",
+      "search": "zwolle hollandia nl"
+    },
+    {
+      "type": "organization",
+      "id": "zwollei-magyar-reformatus-egyhazkozseg",
+      "label": "Zwollei Magyar Evangéliumi Református Egyházközség",
+      "country": "nl",
+      "countryLabel": "Hollandia",
+      "city": "Zwolle",
+      "meta": "Zwolle · Hungarian Reformed congregation",
+      "href": "countries/nl/organizations/zwollei-magyar-reformatus-egyhazkozseg.html",
+      "search": "zwollei magyar evangeliumi reformatus egyhazkozseg zwolle overijssel hungarian reformed congregation zwolleban mukodo magyar nyelvu reformatus kozosseg, rendszeres istentiszteletekkel es kozossegi szolgalattal."
     }
   ]
 }
