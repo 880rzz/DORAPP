@@ -84,6 +84,74 @@
         }
       ],
       "calendarSources": []
+    },
+    {
+      "id": "szent-laszlo-magyar-iskola-vancouver",
+      "name": "Szent László Magyar Iskola – Vancouver",
+      "country": "ca",
+      "region": "British Columbia",
+      "city": "Vancouver",
+      "type": "Hungarian heritage/community school",
+      "founded": "1960",
+      "website": "https://www.szlmagyariskola.ca/hu/",
+      "venue": "1810 East 7th Avenue, Vancouver, BC V5N 1S2, Canada",
+      "intro": "1960-ban alapított vancouveri magyar iskola gyermek- és felnőttcsoportokkal, magyar nyelvi, olvasási, írási és kulturális oktatással.",
+      "verifiedAt": "2026-10-01",
+      "activities": [
+        "magyar mint idegen nyelv",
+        "írás és olvasás",
+        "gyermekcsoportok",
+        "felnőtt csoport",
+        "magyar kultúra"
+      ],
+      "evidenceSources": [
+        {
+          "label": "Szent László Magyar Iskola – official site",
+          "url": "https://www.szlmagyariskola.ca/hu/",
+          "type": "official"
+        },
+        {
+          "label": "Szent László Magyar Iskola – history",
+          "url": "https://www.szlmagyariskola.ca/hu/about/",
+          "type": "official"
+        }
+      ],
+      "calendarSources": [
+        {
+          "label": "Szent László Magyar Iskola – naptár",
+          "url": "https://www.szlmagyariskola.ca/hu/news/calendar/",
+          "kind": "official-calendar",
+          "scope": "self",
+          "ingestEvents": false
+        }
+      ]
+    },
+    {
+      "id": "okanagani-magyar-iskola",
+      "name": "Hungarian School of Okanagan / Okanagani Magyar Iskola",
+      "country": "ca",
+      "region": "British Columbia",
+      "city": "West Kelowna",
+      "type": "Hungarian language and heritage school",
+      "operatorId": "okanagan-hungarian-society",
+      "website": "https://www.okanaganimagyarhaz.com/tanulj-magyarul",
+      "venue": "Okanagani Magyar Ház, 1670 Ross Road, West Kelowna, BC V1Z 1L9, Canada",
+      "intro": "Az Okanagani Magyar Ház magyar nyelvi és kulturális oktatási programja gyermekeknek és felnőtteknek, kezdő és haladó szinten.",
+      "verifiedAt": "2026-10-01",
+      "activities": [
+        "magyar nyelv",
+        "gyermekoktatás",
+        "felnőttoktatás",
+        "magyar örökség és kultúra"
+      ],
+      "evidenceSources": [
+        {
+          "label": "Okanagani Magyar Ház – Tanuljunk Magyarul",
+          "url": "https://www.okanaganimagyarhaz.com/tanulj-magyarul",
+          "type": "official"
+        }
+      ],
+      "calendarSources": []
     }
   ]
 }
