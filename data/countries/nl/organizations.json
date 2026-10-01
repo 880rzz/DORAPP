@@ -1,0 +1,601 @@
+{
+  "updated": "2026-10-01",
+  "sourcePolicy": "Netherlands country dataset. First-party official sites and the Hollandiai Magyar Szövetség national umbrella directory are preferred. Shared contact details or cross-listing alone do not establish identity or parentage.",
+  "organizations": [
+    {
+      "id": "hollandiai-magyar-szovetseg",
+      "name": "Hollandiai Magyar Szövetség",
+      "country": "nl",
+      "scope": "national",
+      "type": "national umbrella organization",
+      "entityClass": "umbrella",
+      "legalForm": "stichting",
+      "founded": "1957",
+      "website": "https://www.hongaarsefederatie.nl/",
+      "intro": "A hollandiai magyar szervezeteket országos szinten összefogó ernyőszervezet és közösségi információs központ.",
+      "activities": [
+        "országos érdekképviselet",
+        "közösségi koordináció",
+        "nemzeti ünnepek",
+        "hírlevél és évkönyv",
+        "országos közösségi események"
+      ],
+      "profileVerifiedAt": "2026-10-01",
+      "evidenceSources": [
+        {
+          "label": "Hollandiai Magyar Szövetség – hivatalos oldal",
+          "url": "https://www.hongaarsefederatie.nl/",
+          "type": "official"
+        }
+      ],
+      "calendarSources": [
+        {
+          "label": "Hollandiai Magyar Szövetség – események",
+          "url": "https://www.hongaarsefederatie.nl/esemenyek/",
+          "kind": "official-calendar",
+          "scope": "self-and-clearly-attributed-partners",
+          "ingestEvents": true
+        }
+      ]
+    },
+    {
+      "id": "hungaria-club-1929",
+      "name": "Hungaria Club 1929",
+      "country": "nl",
+      "region": "Noord-Holland",
+      "city": "Amsterdam",
+      "type": "cultural and community club",
+      "entityClass": "organization",
+      "founded": "1929",
+      "website": "https://www.hungariaclub1929.nl/",
+      "email": "hungariaclub1929@gmail.com",
+      "intro": "Amszterdami magyar kulturális és társadalmi klub, rendszeres közösségi és kulturális programokkal.",
+      "activities": [
+        "klubdélutánok",
+        "magyar kulturális programok",
+        "nemzeti megemlékezések",
+        "közösségi rendezvények"
+      ],
+      "profileVerifiedAt": "2026-10-01",
+      "evidenceSources": [
+        {
+          "label": "Hungaria Club 1929 – hivatalos oldal",
+          "url": "https://www.hungariaclub1929.nl/",
+          "type": "official"
+        },
+        {
+          "label": "Hungaria Club 1929 – 2026 programnaptár",
+          "url": "https://www.hungariaclub1929.nl/nl/programma/",
+          "type": "official"
+        },
+        {
+          "label": "Hollandiai Magyar Szövetség – kapcsolatok",
+          "url": "https://www.hongaarsefederatie.nl/",
+          "type": "institutional"
+        }
+      ],
+      "calendarSources": [
+        {
+          "label": "Hungaria Club 1929 – programnaptár",
+          "url": "https://www.hungariaclub1929.nl/nl/programma/",
+          "kind": "official-calendar",
+          "scope": "self",
+          "ingestEvents": true
+        }
+      ]
+    },
+    {
+      "id": "hya-netherlands",
+      "name": "Hungarian Youth Association – Netherlands",
+      "country": "nl",
+      "scope": "national",
+      "type": "student and youth network",
+      "entityClass": "organization",
+      "website": "https://www.hunyouth.org/",
+      "email": "info@hunyouth.org",
+      "intro": "A Hungarian Youth Association hollandiai hálózata, amely a Hollandiában tanuló és élő magyar fiatalok kapcsolatépítését támogatja.",
+      "activities": [
+        "fiatalok és hallgatók kapcsolatépítése",
+        "közösségi programok",
+        "külföldi tanulmányi tájékoztatás"
+      ],
+      "profileVerifiedAt": "2026-10-01",
+      "evidenceSources": [
+        {
+          "label": "Hungarian Youth Association – országos hálózat és HYA Netherlands",
+          "url": "https://www.hunyouth.org/",
+          "type": "official"
+        },
+        {
+          "label": "Magyarország Nagykövetsége Hága – HYA Netherlands Guide",
+          "url": "https://haga.mfa.gov.hu/asset/view/146780/HYA%20NL%20Guide.pdf",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "70-attila-cserkeszcsapat",
+      "name": "70. Attila Cserkészcsapat",
+      "country": "nl",
+      "region": "Utrecht",
+      "city": "Zeist",
+      "type": "Hungarian scout troop",
+      "entityClass": "organization",
+      "website": "https://cserkesz.nl/",
+      "email": "info@cserkesz.nl",
+      "phone": "+31 6 44449578",
+      "intro": "Hollandiában működő magyar cserkészcsapat, rendszeres közösségi és nevelési foglalkozásokkal.",
+      "activities": [
+        "cserkészet",
+        "magyar kulturális nevelés",
+        "csapatgyűlések",
+        "táborok",
+        "ifjúsági közösség"
+      ],
+      "affiliations": [
+        {
+          "organization": "Külföldi Magyar Cserkészszövetség",
+          "relationship": "registered member"
+        }
+      ],
+      "profileVerifiedAt": "2026-10-01",
+      "evidenceSources": [
+        {
+          "label": "70. Attila Cserkészcsapat – hivatalos oldal",
+          "url": "https://cserkesz.nl/",
+          "type": "official"
+        }
+      ],
+      "calendarSources": [
+        {
+          "label": "70. Attila Cserkészcsapat – hírek és beszámolók",
+          "url": "https://cserkesz.nl/kincseslada/hirek-beszamolok/",
+          "kind": "official-news-events",
+          "scope": "self",
+          "ingestEvents": false
+        }
+      ]
+    },
+    {
+      "id": "hollandiai-mikes-kelemen-kor",
+      "name": "Hollandiai Mikes Kelemen Kör",
+      "country": "nl",
+      "type": "cultural and intellectual association",
+      "entityClass": "organization",
+      "founded": "1951",
+      "website": "https://www.federatio.org/mikes.html",
+      "email": "mikes_hollandia@yahoo.com",
+      "intro": "1951-ben alapított hollandiai magyar kulturális és értelmiségi kör, tanulmányi napokkal és évközi közösségi programokkal.",
+      "activities": [
+        "tanulmányi napok",
+        "kulturális programok",
+        "előadások",
+        "magyar műveltség ápolása"
+      ],
+      "profileVerifiedAt": "2026-10-01",
+      "evidenceSources": [
+        {
+          "label": "Hollandiai Mikes Kelemen Kör – szervezeti oldal",
+          "url": "https://www.federatio.org/mikes.html",
+          "type": "institutional"
+        },
+        {
+          "label": "Hollandiai Magyar Szövetség – kapcsolatok",
+          "url": "https://www.hongaarsefederatie.nl/",
+          "type": "institutional"
+        }
+      ],
+      "region": "Utrecht",
+      "city": "Vianen"
+    },
+    {
+      "id": "hagai-magyar-reformatus-gyulekezet",
+      "name": "Hágai Magyar Református Gyülekezet",
+      "country": "nl",
+      "region": "Zuid-Holland",
+      "city": "Den Haag",
+      "type": "Hungarian Reformed congregation",
+      "entityClass": "organization",
+      "website": "https://www.federatio.org/protes.html",
+      "intro": "Az 1960-as években alapított hágai magyar református gyülekezet, magyar nyelvű istentiszteletekkel és közösségi szolgálattal.",
+      "profileVerifiedAt": "2026-10-01",
+      "evidenceSources": [
+        {
+          "label": "Magyar Református Gyülekezetek Hollandiában – Hága, Amszterdam, Rotterdam",
+          "url": "https://www.federatio.org/protes.html",
+          "type": "institutional"
+        },
+        {
+          "label": "Zwollei Magyar Református Egyházközség – hollandiai magyar gyülekezetek",
+          "url": "https://zwolleireformatus.nl/magyar-nyelvu-protestans-reformatus-gyulekezetek-hollandiaban/",
+          "type": "institutional"
+        }
+      ]
+    },
+    {
+      "id": "amszterdami-magyar-reformatus-gyulekezet",
+      "name": "Amszterdami Magyar Református Gyülekezet",
+      "country": "nl",
+      "region": "Noord-Holland",
+      "city": "Amsterdam",
+      "type": "Hungarian Reformed congregation",
+      "entityClass": "organization",
+      "founded": "2018",
+      "website": "https://www.federatio.org/protes.html",
+      "parentId": "hagai-magyar-reformatus-gyulekezet",
+      "intro": "2018-ban a Hágai Magyar Református Gyülekezet kezdeményezésére létrejött amszterdami magyar református közösség.",
+      "profileVerifiedAt": "2026-10-01",
+      "evidenceSources": [
+        {
+          "label": "Magyar Református Gyülekezetek Hollandiában – Hága, Amszterdam, Rotterdam",
+          "url": "https://www.federatio.org/protes.html",
+          "type": "institutional"
+        },
+        {
+          "label": "Zwollei Magyar Református Egyházközség – hollandiai magyar gyülekezetek",
+          "url": "https://zwolleireformatus.nl/magyar-nyelvu-protestans-reformatus-gyulekezetek-hollandiaban/",
+          "type": "institutional"
+        }
+      ]
+    },
+    {
+      "id": "rotterdami-magyar-reformatus-gyulekezet",
+      "name": "Rotterdami Magyar Református Gyülekezet",
+      "country": "nl",
+      "region": "Zuid-Holland",
+      "city": "Rotterdam",
+      "type": "Hungarian Reformed congregation",
+      "entityClass": "organization",
+      "founded": "2018",
+      "website": "https://www.federatio.org/protes.html",
+      "parentId": "hagai-magyar-reformatus-gyulekezet",
+      "intro": "2018-ban a Hágai Magyar Református Gyülekezet kezdeményezésére létrejött rotterdami magyar református közösség.",
+      "profileVerifiedAt": "2026-10-01",
+      "evidenceSources": [
+        {
+          "label": "Magyar Református Gyülekezetek Hollandiában – Hága, Amszterdam, Rotterdam",
+          "url": "https://www.federatio.org/protes.html",
+          "type": "institutional"
+        },
+        {
+          "label": "Zwollei Magyar Református Egyházközség – hollandiai magyar gyülekezetek",
+          "url": "https://zwolleireformatus.nl/magyar-nyelvu-protestans-reformatus-gyulekezetek-hollandiaban/",
+          "type": "institutional"
+        }
+      ]
+    },
+    {
+      "id": "zwollei-magyar-reformatus-egyhazkozseg",
+      "name": "Zwollei Magyar Evangéliumi Református Egyházközség",
+      "country": "nl",
+      "region": "Overijssel",
+      "city": "Zwolle",
+      "type": "Hungarian Reformed congregation",
+      "entityClass": "organization",
+      "website": "https://zwolleireformatus.nl/",
+      "intro": "Zwolléban működő magyar nyelvű református közösség, rendszeres istentiszteletekkel és közösségi szolgálattal.",
+      "profileVerifiedAt": "2026-10-01",
+      "evidenceSources": [
+        {
+          "label": "Zwollei Magyar Református Egyházközség – hivatalos oldal",
+          "url": "https://zwolleireformatus.nl/",
+          "type": "official"
+        },
+        {
+          "label": "Hollandiai magyar református gyülekezetek",
+          "url": "https://zwolleireformatus.nl/magyar-nyelvu-protestans-reformatus-gyulekezetek-hollandiaban/",
+          "type": "official"
+        }
+      ]
+    },
+    {
+      "id": "stihon",
+      "name": "Hollandiai és Nyugat-európai Magyar Ifjúsági és Kulturális Alapítvány (StiHon)",
+      "country": "nl",
+      "scope": "national",
+      "type": "youth and cultural foundation",
+      "entityClass": "organization",
+      "legalForm": "stichting",
+      "registrationId": "80214452",
+      "website": "https://www.stihon.eu/",
+      "email": "info@stihon.eu",
+      "intro": "Hollandiában működő nonprofit magyar ifjúsági és kulturális alapítvány, amely oktatási, cserkész-, családi és diaszpóraközösségi programokat szervez és támogat.",
+      "activities": [
+        "diaszpóra iskolatábor",
+        "oktatási projektek",
+        "ifjúsági közösségek",
+        "kulturális programok",
+        "nyugat-európai közösségi együttműködés"
+      ],
+      "profileVerifiedAt": "2026-10-01",
+      "evidenceSources": [
+        {
+          "label": "StiHon – Rólunk",
+          "url": "https://www.stihon.eu/rolunk/",
+          "type": "official"
+        },
+        {
+          "label": "StiHon – hivatalos oldal",
+          "url": "https://www.stihon.eu/",
+          "type": "official"
+        },
+        {
+          "label": "Hollandiai Magyar Szövetség – Családi Nap 2026",
+          "url": "https://www.hongaarsefederatie.nl/hollandiai-magyar-csaladi-nap-2026/",
+          "type": "institutional"
+        }
+      ],
+      "calendarSources": [
+        {
+          "label": "StiHon – hírek és programok",
+          "url": "https://www.stihon.eu/",
+          "kind": "official-news-events",
+          "scope": "self",
+          "ingestEvents": false
+        }
+      ],
+      "region": "Noord-Holland",
+      "city": "Amstelveen"
+    },
+    {
+      "id": "amszterdami-magyar-szalon",
+      "name": "Amszterdami Magyar Szalon",
+      "country": "nl",
+      "region": "Noord-Holland",
+      "city": "Amsterdam",
+      "type": "cultural foundation and salon",
+      "entityClass": "organization",
+      "legalForm": "stichting",
+      "founded": "2008",
+      "website": "https://magyarszalon.nl/",
+      "email": "info@magyarszalon.nl",
+      "intro": "Független, nonprofit amszterdami magyar kulturális szalon, irodalmi, zenei és közösségi programokkal.",
+      "activities": [
+        "irodalmi estek",
+        "zenei programok",
+        "könyvvásár",
+        "kulturális találkozók"
+      ],
+      "profileVerifiedAt": "2026-10-01",
+      "evidenceSources": [
+        {
+          "label": "Amszterdami Magyar Szalon – Bemutatkozás",
+          "url": "https://magyarszalon.nl/magunkrol/",
+          "type": "official"
+        }
+      ]
+    },
+    {
+      "id": "hollandiai-magyarok",
+      "name": "Hollandiai Magyarok",
+      "country": "nl",
+      "scope": "national",
+      "city": "Den Haag",
+      "type": "community and media platform",
+      "entityClass": "media",
+      "founded": "2011",
+      "website": "https://www.hollandiaimagyarok.nl/",
+      "intro": "Országos online magyar közösségi és információs platform, amely rendezvényeket és közösségi programokat is szervez.",
+      "activities": [
+        "közösségi információ",
+        "rendezvények",
+        "workshopok",
+        "podcast",
+        "hollandiai életviteli tájékoztatás"
+      ],
+      "profileVerifiedAt": "2026-10-01",
+      "evidenceSources": [
+        {
+          "label": "Hollandiai Magyarok – saját bemutatkozás",
+          "url": "https://www.hollandiaimagyarok.nl/a-kikotozes-3-resz-hollandiai-magyarok-podcast/",
+          "type": "official"
+        },
+        {
+          "label": "Magyarország Nagykövetsége Hága – Családi Nap együttműködés",
+          "url": "https://haga.mfa.gov.hu/hu/articles/toebb-mint-ezren-uennepeltek-a-magyar-csaladi-napon-wassenaarban",
+          "type": "government"
+        }
+      ],
+      "calendarSources": [
+        {
+          "label": "Hollandiai Magyarok – rendezvények",
+          "url": "https://hollandiaimagyarok.nl/rendezveny/",
+          "kind": "official-events",
+          "scope": "self",
+          "ingestEvents": false
+        }
+      ]
+    },
+    {
+      "id": "hagai-magyar-enekkar",
+      "name": "Hágai Magyar Énekkar",
+      "country": "nl",
+      "region": "Zuid-Holland",
+      "city": "Den Haag",
+      "type": "Hungarian choir",
+      "entityClass": "group",
+      "intro": "Hágában működő magyar énekkar, rendszeres kulturális és ünnepi fellépésekkel.",
+      "activities": [
+        "kóruséneklés",
+        "koncertek",
+        "magyar kulturális rendezvények"
+      ],
+      "profileVerifiedAt": "2026-10-01",
+      "evidenceSources": [
+        {
+          "label": "Magyarország Nagykövetsége Hága – Adventi koncert és közös programok",
+          "url": "https://haga.mfa.gov.hu/",
+          "type": "government"
+        },
+        {
+          "label": "Magyarország Nagykövetsége Hága – 2022 Családi Nap",
+          "url": "https://haga.mfa.gov.hu/hu/articles/toebb-mint-ezren-uennepeltek-a-magyar-csaladi-napon-wassenaarban",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "amszterdami-magyar-korus",
+      "name": "Amszterdami Magyar Kórus",
+      "country": "nl",
+      "region": "Noord-Holland",
+      "city": "Amsterdam",
+      "type": "Hungarian choir",
+      "entityClass": "group",
+      "founded": "2014",
+      "intro": "Amszterdam és környéke magyar közösségéhez kötődő vegyeskar, magyar és nemzetközi kórusrepertoárral.",
+      "activities": [
+        "kóruséneklés",
+        "koncertek",
+        "magyar kulturális események"
+      ],
+      "profileVerifiedAt": "2026-10-01",
+      "evidenceSources": [
+        {
+          "label": "Amszterdami Magyar Szalon – a kórus létrejötte",
+          "url": "https://magyarszalon.nl/magunkrol/",
+          "type": "official"
+        },
+        {
+          "label": "Magyarország Nagykövetsége Hága – közös fellépés",
+          "url": "https://haga.mfa.gov.hu/hu/articles/toebb-mint-ezren-uennepeltek-a-magyar-csaladi-napon-wassenaarban",
+          "type": "government"
+        }
+      ]
+    },
+    {
+      "id": "magyarorszag-nagykovetsege-haga",
+      "name": "Magyarország Nagykövetsége Hága",
+      "country": "nl",
+      "region": "Zuid-Holland",
+      "city": "Den Haag",
+      "type": "embassy and consular institution",
+      "entityClass": "institution",
+      "website": "https://haga.mfa.gov.hu/",
+      "email": "mission.hga@mfa.gov.hu",
+      "phone": "+31 70 222 3939",
+      "address": "Hogeweg 14, 2585 JD Den Haag",
+      "intro": "Magyarország hollandiai diplomáciai képviselete, amely konzuli szolgáltatásokat és a hollandiai magyar közösséget megszólító kulturális programokat is biztosít.",
+      "activities": [
+        "konzuli ügyintézés",
+        "kulturális programok",
+        "közösségi kapcsolattartás",
+        "magyar-holland kapcsolatok"
+      ],
+      "profileVerifiedAt": "2026-10-01",
+      "evidenceSources": [
+        {
+          "label": "Magyarország Nagykövetsége Hága – hivatalos oldal",
+          "url": "https://haga.mfa.gov.hu/",
+          "type": "government"
+        },
+        {
+          "label": "Elérhetőségek",
+          "url": "https://haga.mfa.gov.hu/hu/elerhetosegek",
+          "type": "government"
+        }
+      ],
+      "calendarSources": [
+        {
+          "label": "Nagykövetségi hírek és programok",
+          "url": "https://haga.mfa.gov.hu/",
+          "kind": "official-news-events",
+          "scope": "self",
+          "ingestEvents": false
+        }
+      ]
+    },
+    {
+      "id": "magyar-fiatalok-hollandiaban",
+      "name": "Magyar Fiatalok Hollandiában (MaFi)",
+      "country": "nl",
+      "scope": "national",
+      "city": "Den Haag",
+      "type": "student and youth community",
+      "entityClass": "organization",
+      "intro": "Hollandiában tanuló és élő magyar fiatalok közössége, rendszeres találkozókkal és előadásokkal.",
+      "activities": [
+        "egyetemi és főiskolai közösség",
+        "előadások",
+        "kapcsolatépítés",
+        "ifjúsági programok"
+      ],
+      "profileVerifiedAt": "2026-10-01",
+      "evidenceSources": [
+        {
+          "label": "Hollandiai Magyar Szövetség – MaFi bemutatás",
+          "url": "https://www.hongaarsefederatie.nl/wp-content/uploads/2025/02/HMH2025_torzs_INTERNETRE_VEGLEGES_v2.pdf",
+          "type": "institutional"
+        },
+        {
+          "label": "Hollandiai Magyar Szövetség – NYEOMSZSZ beszámoló, MaFi mint holland tagszervezet",
+          "url": "https://www.hongaarsefederatie.nl/beszamolo-nyugat-europai-orszagos-magyar-szervezetek-kozgyulese/",
+          "type": "institutional"
+        }
+      ]
+    },
+    {
+      "id": "mikes-international",
+      "name": "Mikes International",
+      "country": "nl",
+      "region": "Zuid-Holland",
+      "city": "Den Haag",
+      "type": "publishing and digital library foundation",
+      "entityClass": "media",
+      "legalForm": "stichting",
+      "founded": "2001",
+      "website": "https://www.federatio.org/mikes_int.html",
+      "email": "mikes_int@federatio.org",
+      "intro": "Hágai magyar szellemi fórum és kiadói alapítvány, elektronikus folyóirattal, Bibliotheca Mikes International digitális könyvtárral és tudományos-kulturális kiadványokkal.",
+      "activities": [
+        "elektronikus folyóirat",
+        "digitális könyvtár",
+        "könyvkiadás",
+        "tudományos és kulturális publikációk"
+      ],
+      "profileVerifiedAt": "2026-10-01",
+      "evidenceSources": [
+        {
+          "label": "Mikes International – hivatalos bemutatás és kiadói adatok",
+          "url": "https://www.federatio.org/mikes_int.html",
+          "type": "official"
+        },
+        {
+          "label": "Bibliotheca Mikes International katalógus",
+          "url": "https://www.federatio.org/mikes_bibl.html",
+          "type": "official"
+        }
+      ]
+    },
+    {
+      "id": "hollandiai-magyar-romai-katolikus-egyhazkozsegi-tanacs",
+      "name": "Hollandiai Magyar Római Katolikus Egyházközségi Tanács",
+      "country": "nl",
+      "scope": "national",
+      "city": "Den Haag",
+      "type": "Hungarian Roman Catholic community council",
+      "entityClass": "organization",
+      "email": "hagai.magyar.katolikusok@gmail.com",
+      "intro": "A hollandiai magyar római katolikus közösség országos szervezeti kapcsolódási pontja, több holland város magyar nyelvű katolikus alkalmainak közösségi koordinációjával.",
+      "activities": [
+        "magyar nyelvű katolikus közösségi élet",
+        "szentmisék",
+        "ökumenikus ünnepek",
+        "közösségi kapcsolattartás"
+      ],
+      "profileVerifiedAt": "2026-10-01",
+      "evidenceSources": [
+        {
+          "label": "Hollandiai Magyar Szövetség – 2026 nemzeti ünnepek, katolikus tanács",
+          "url": "https://www.hongaarsefederatie.nl/nemzeti-unnepek/",
+          "type": "institutional"
+        },
+        {
+          "label": "Hollandiai Magyar Szövetség – 2025 Hírmondó, egyházi közösségek",
+          "url": "https://www.hongaarsefederatie.nl/wp-content/uploads/2025/02/HMH2025_torzs_INTERNETRE_VEGLEGES_v2.pdf",
+          "type": "institutional"
+        }
+      ]
+    }
+  ]
+}

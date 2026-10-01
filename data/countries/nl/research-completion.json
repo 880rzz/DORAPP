@@ -1,0 +1,102 @@
+{
+  "schemaVersion": 1,
+  "country": "nl",
+  "countryName": "Netherlands",
+  "assessedAt": "2026-10-01",
+  "completionStandard": "DORAPP country research completion means every required discovery category has been explicitly reviewed, all strong candidates have been resolved to canonical/rejected/insufficient-evidence status, canonical entities have evidence and routes, derived counts validate, source-health runs, and production deploy succeeds.",
+  "status": "reviewed",
+  "coverage": [
+    {
+      "category": "associations-and-umbrellas",
+      "status": "reviewed"
+    },
+    {
+      "category": "informal-communities",
+      "status": "reviewed"
+    },
+    {
+      "category": "nurseries-and-schools",
+      "status": "reviewed"
+    },
+    {
+      "category": "universities-and-student-groups",
+      "status": "reviewed"
+    },
+    {
+      "category": "folk-dance-music-choirs-theatre",
+      "status": "reviewed"
+    },
+    {
+      "category": "scouts",
+      "status": "reviewed"
+    },
+    {
+      "category": "churches-and-religious-services",
+      "status": "reviewed"
+    },
+    {
+      "category": "family-youth-senior-groups",
+      "status": "reviewed"
+    },
+    {
+      "category": "media-and-publications",
+      "status": "reviewed"
+    },
+    {
+      "category": "libraries-book-clubs",
+      "status": "reviewed"
+    },
+    {
+      "category": "private-organizers-recurring-initiatives",
+      "status": "reviewed"
+    },
+    {
+      "category": "host-institutions-with-Hungarian-services",
+      "status": "reviewed"
+    }
+  ],
+  "sourceClassesReviewed": [
+    "official organization and school websites",
+    "Hollandiai Magyar Szövetség national umbrella directory and annual publications",
+    "Hungarian Embassy The Hague",
+    "first-party church and congregation sites",
+    "first-party event calendars",
+    "current Hungarian youth/student network documentation",
+    "current community and media portals",
+    "diaspora publishing and digital-library sources"
+  ],
+  "unresolvedStrongCandidates": [],
+  "canonicalOrganizationIds": [
+    "70-attila-cserkeszcsapat",
+    "amszterdami-magyar-korus",
+    "amszterdami-magyar-reformatus-gyulekezet",
+    "amszterdami-magyar-szalon",
+    "hagai-magyar-enekkar",
+    "hagai-magyar-reformatus-gyulekezet",
+    "hollandiai-magyar-romai-katolikus-egyhazkozsegi-tanacs",
+    "hollandiai-magyar-szovetseg",
+    "hollandiai-magyarok",
+    "hollandiai-mikes-kelemen-kor",
+    "hungaria-club-1929",
+    "hya-netherlands",
+    "magyar-fiatalok-hollandiaban",
+    "magyarorszag-nagykovetsege-haga",
+    "mikes-international",
+    "rotterdami-magyar-reformatus-gyulekezet",
+    "stihon",
+    "zwollei-magyar-reformatus-egyhazkozseg"
+  ],
+  "canonicalEducationIds": [
+    "amstelveeni-magyar-ovisuli",
+    "eindhoveni-magyar-ovisuli",
+    "hagai-magyar-ovoda-es-iskola",
+    "kincskereso-oskola"
+  ],
+  "notes": [
+    "The map organization count intentionally includes civil/community groups and official/institutional organizations, while child activities are excluded.",
+    "HYA Netherlands and MaFi are retained as distinct youth/student networks because current evidence describes separate network identities.",
+    "Mikes International is modeled separately from the Hollandiai Mikes Kelemen Kör because it is a separately registered publishing foundation with its own publication and digital-library layer.",
+    "Routine weekend-school sessions are not promoted into the public event calendar; only explicitly named public/community events qualify.",
+    "Historical clubs without sufficient current evidence remain excluded rather than being carried forward from legacy directories."
+  ]
+}
