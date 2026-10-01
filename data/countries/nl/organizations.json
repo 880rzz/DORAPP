@@ -940,9 +940,8 @@
       "city": "Rotterdam",
       "type": "Hungarian evangelical Christian congregation",
       "entityClass": "organization",
-      "founded": "2007",
       "website": "https://hmgy.nl/",
-      "email": "kapcsolat@hmgy.nl",
+      "email": "magyar.gyulekezet@gmail.com",
       "address": "Krabbendijkestraat 520, 3084 LP Rotterdam",
       "intro": "Rotterdami magyar nyelvű evangéliumi keresztény gyülekezet, heti istentiszteletekkel és közösségi programokkal.",
       "activities": [
@@ -954,18 +953,18 @@
       "profileVerifiedAt": "2026-10-01",
       "evidenceSources": [
         {
-          "label": "OSZK Webarchívum – Hollandiai Magyar Gyülekezet aktív seed 2026",
-          "url": "https://webarchivum.oszk.hu/miaseed/?offset=17&order=desc&reszgyujt_rovid=VALLAS&sort=reszgyujt_rovid_mia_text_sort",
+          "label": "SKIN Rotterdam – jelenlegi csatlakozott gyülekezetek",
+          "url": "https://skinrotterdam.nl/aangesloten-kerken/",
           "type": "institutional"
         },
         {
-          "label": "Rotterdam nemzetközi keresztény közösségi címtár",
+          "label": "SKIN Rotterdam – nemzetközi keresztény közösségi címtár",
           "url": "https://skinrotterdam.nl/wp-content/uploads/2024/04/Kerkengids-Rotterdam.pdf",
           "type": "institutional"
         },
         {
-          "label": "Kerk op de Kaart – magyar közösség Rotterdam",
-          "url": "https://www.kerkopdekaart.nl/Kerk/id%3DFD20BD84-AAD7-4051-B7E7-F48F5F3F2C4B",
+          "label": "OSZK Webarchívum – HMGY aktív webarchívumi seed",
+          "url": "https://webarchivum.oszk.hu/miaseed/?offset=17&order=desc&reszgyujt_rovid=VALLAS&sort=reszgyujt_rovid_mia_text_sort",
           "type": "institutional"
         }
       ],
@@ -977,7 +976,18 @@
           "scope": "self",
           "ingestEvents": false
         }
-      ]
+      ],
+      "history": {
+        "summary": "A rotterdami magyar nyelvű evangéliumi közösség jelenlegi holland intézményi címtára 2010-et jelöl meg működésének kezdeteként. Korábbi magyar közösségi források ennél korábbi gyülekezeti működést is említenek, ezért önálló alapítási évet nem állítunk.",
+        "milestones": [
+          {
+            "year": "2010",
+            "title": "Jelenlegi intézményi címtár szerinti kezdés",
+            "description": "A SKIN Rotterdam jelenlegi közösségi útmutatója 2010-et ad meg a gyülekezet működésének kezdeteként.",
+            "sourceUrl": "https://skinrotterdam.nl/wp-content/uploads/2024/04/Kerkengids-Rotterdam.pdf"
+          }
+        ]
+      }
     }
   ]
 }
