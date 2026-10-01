@@ -199,12 +199,83 @@
     const s=$("#countryMapSummary");
     if(s) s.textContent=activeRegion ? `${regionLabel(activeRegion)}: ${counts[activeRegion]||0} ellenőrzött magyar szervezet` : `${Object.values(counts).reduce((a,b)=>a+b,0)} ellenőrzött szervezet a területi bontásban`;
   }
+
+  function bindCountryMapController(obj, doc){
+    const viewport=obj.closest(".country-map-viewport");
+    if(!viewport || !doc?.documentElement) return;
+    const surface=doc.documentElement;
+    const toolbar=viewport.parentElement?.querySelector(".country-map-toolbar");
+    const zoomIn=toolbar?.querySelector("[data-country-map-zoom-in]");
+    const zoomOut=toolbar?.querySelector("[data-country-map-zoom-out]");
+    const resetBtn=toolbar?.querySelector("[data-country-map-reset]");
+    const status=toolbar?.querySelector("[data-country-map-status]");
+    const pointers=new Map();
+    let scale=1, x=0, y=0, dragStart=null, pinchStart=null, moved=false;
+    const MIN=1, MAX=3, STEP=.5;
+    function clamp(){
+      const rect=viewport.getBoundingClientRect();
+      const maxX=Math.max(0,rect.width*(scale-1)/2);
+      const maxY=Math.max(0,rect.height*(scale-1)/2);
+      x=Math.max(-maxX,Math.min(maxX,x)); y=Math.max(-maxY,Math.min(maxY,y));
+      if(scale<=1){x=0;y=0;}
+    }
+    function render(){
+      clamp();
+      obj.style.transform=`translate3d(${x}px,${y}px,0) scale(${scale})`;
+      viewport.classList.toggle("is-zoomed",scale>1);
+      if(status) status.textContent=`${Math.round(scale*100)}%`;
+      if(zoomOut) zoomOut.disabled=scale<=MIN;
+      if(zoomIn) zoomIn.disabled=scale>=MAX;
+    }
+    function setScale(next, clientX, clientY){
+      const old=scale; scale=Math.max(MIN,Math.min(MAX,next));
+      if(clientX!=null && clientY!=null && old!==scale){
+        const r=viewport.getBoundingClientRect(), dx=clientX-(r.left+r.width/2), dy=clientY-(r.top+r.height/2), ratio=scale/old;
+        x=dx-(dx-x)*ratio; y=dy-(dy-y)*ratio;
+      }
+      render();
+    }
+    function reset(){scale=1;x=0;y=0;pointers.clear();dragStart=null;pinchStart=null;render();}
+    zoomIn?.addEventListener("click",()=>setScale(scale+STEP));
+    zoomOut?.addEventListener("click",()=>setScale(scale-STEP));
+    resetBtn?.addEventListener("click",reset);
+    const point=e=>({x:e.clientX,y:e.clientY});
+    surface.style.touchAction="none";
+    surface.addEventListener("pointerdown",e=>{
+      pointers.set(e.pointerId,point(e)); moved=false;
+      try{surface.setPointerCapture(e.pointerId);}catch(_){}
+      if(pointers.size===1 && scale>1){dragStart={px:e.clientX,py:e.clientY,x,y};viewport.classList.add("is-dragging");}
+      else if(pointers.size===2){const p=[...pointers.values()];pinchStart={distance:Math.hypot(p[1].x-p[0].x,p[1].y-p[0].y),scale};dragStart=null;viewport.classList.add("is-dragging");}
+    });
+    surface.addEventListener("pointermove",e=>{
+      if(!pointers.has(e.pointerId)) return;
+      pointers.set(e.pointerId,point(e));
+      if(pointers.size===2){
+        const p=[...pointers.values()], distance=Math.hypot(p[1].x-p[0].x,p[1].y-p[0].y), cx=(p[0].x+p[1].x)/2, cy=(p[0].y+p[1].y)/2;
+        if(pinchStart?.distance){setScale(pinchStart.scale*distance/pinchStart.distance,cx,cy);moved=true;e.preventDefault();}
+      }else if(dragStart && scale>1){
+        const dx=e.clientX-dragStart.px, dy=e.clientY-dragStart.py;
+        if(Math.abs(dx)+Math.abs(dy)>4)moved=true;
+        x=dragStart.x+dx;y=dragStart.y+dy;render();e.preventDefault();
+      }
+    },{passive:false});
+    function endPointer(e){pointers.delete(e.pointerId);try{surface.releasePointerCapture(e.pointerId);}catch(_){}if(pointers.size<2)pinchStart=null;if(!pointers.size){dragStart=null;viewport.classList.remove("is-dragging");}}
+    surface.addEventListener("pointerup",endPointer);
+    surface.addEventListener("pointercancel",endPointer);
+    surface.addEventListener("click",e=>{if(moved){e.preventDefault();e.stopPropagation();moved=false;}},true);
+    surface.addEventListener("wheel",e=>{if(!(e.ctrlKey||e.metaKey||scale>1))return;e.preventDefault();setScale(scale+(e.deltaY<0?STEP:-STEP),e.clientX,e.clientY);},{passive:false});
+    window.addEventListener("resize",render,{passive:true});
+    window.addEventListener("orientationchange",render,{passive:true});
+    render();
+  }
+
   function bindSubdivisionSvg(){
     const obj=$("#countrySubdivisionMap");
     if(!obj) return;
     obj.addEventListener("load",()=>{
       const doc=obj.contentDocument;
       if(!doc) return;
+      bindCountryMapController(obj,doc);
       const buttons=$(".country-region-button");
       const byMapName=new Map(buttons.map(b=>[norm(b.dataset.mapRegion||b.querySelector("span")?.textContent||""),b]));
       const ns="http://www.w3.org/2000/svg";
