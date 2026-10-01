@@ -68,10 +68,13 @@ for country in globaldb.get("countries",[]):
         continue
     text=path.read_text(encoding="utf-8")
     if f'<link rel="canonical" href="{canonical}">' not in text: errors.append(f"canonical mismatch: countries/{iso}/index.html")
-    if '<meta name="robots" content="index,follow' not in text: errors.append(f"robots meta missing: countries/{iso}/index.html")
+    ready=country.get("researchStatus") in {"reviewed","verified-zero"}
+    expected_robots='index,follow' if ready else 'noindex,follow'
+    if f'<meta name="robots" content="{expected_robots}"' not in text: errors.append(f"robots meta mismatch: countries/{iso}/index.html")
     if "googletagmanager.com/gtag/js" in text: errors.append(f"non-consent analytics bootstrap present: countries/{iso}/index.html")
     if "ui.js" not in text: errors.append(f"shared consent/navigation controller missing: countries/{iso}/index.html")
-    if canonical not in sitemap: errors.append(f"sitemap missing: {canonical}")
+    if ready and canonical not in sitemap: errors.append(f"sitemap missing: {canonical}")
+    if not ready and canonical in sitemap: errors.append(f"unfinished country leaked into sitemap: {canonical}")
     blocks=re.findall(r'<script type="application/ld\+json">(.*?)</script>',text,re.S)
     try:
         payload=json.loads(blocks[0])
@@ -80,7 +83,7 @@ for country in globaldb.get("countries",[]):
     except Exception as ex:
         errors.append(f"invalid country json-ld: countries/{iso}/index.html -> {ex}")
 
-for p in ("llms.txt","ai.txt","ai-entry.json","entity.jsonld","robots.txt","sitemap.xml","forrasok.html","adatminoseg.html","ui.js"):
+for p in ("llms.txt","ai.txt","ai-entry.json","entity.jsonld","robots.txt","sitemap.xml","forrasok.html","adatminoseg.html","ui.js","world.js","data/global-search-index.json","data/global-events.json"):
     if not (ROOT/p).exists(): errors.append(f"missing trust/search artifact: {p}")
 
 for p in ("index.html","forrasok.html","szervezet.html"):

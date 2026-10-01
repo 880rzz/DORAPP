@@ -1,89 +1,106 @@
 <!doctype html>
-<html lang="hu-AT">
+<html lang="hu">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-<link rel="icon" href="https://diaszpora.kozpontiszovetseg.at/favicon.svg" type="image/svg+xml"><title>DORAPP | Magyar diaszpóra világtérkép, közösségek és események</title>
-<meta name="description" content="Magyar közösségek, szervezetek és programok egész Ausztriából. Keresés tartomány, város és esemény szerint, ellenőrzött forrásokkal.">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<title>DORAPP | Magyar diaszpóra világtérkép és programnaptár</title>
+<meta name="description" content="Magyar közösségek, szervezetek és programok világszerte. Keress országra, városra, szervezetre, tevékenységre vagy programra, vagy válassz országot a térképen.">
 <meta name="robots" content="index,follow,max-snippet:-1,max-image-preview:large">
 <meta name="theme-color" content="#ffffff">
 <link rel="canonical" href="https://diaszpora.kozpontiszovetseg.at/">
-<link rel="alternate" type="application/ld+json" href="https://diaszpora.kozpontiszovetseg.at/entity.jsonld" title="DORAPP entity graph">
-<meta property="og:type" content="website"><meta property="og:site_name" content="Magyar Programok Ausztriában"><meta property="og:title" content="Magyar Programok Ausztriában"><meta property="og:description" content="Ausztriai magyar szervezetek, oktatás és ellenőrzött programok országos, forrásalapú címtára."><meta property="og:url" content="https://diaszpora.kozpontiszovetseg.at/"><meta property="og:image" content="https://diaszpora.kozpontiszovetseg.at/og-diaszpora.jpg"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:image:type" content="image/jpeg"><meta name="twitter:image" content="https://diaszpora.kozpontiszovetseg.at/og-diaszpora.jpg"><meta name="twitter:card" content="summary_large_image">
-<link rel="stylesheet" href="styles.css?v=20260929-directory-1">
+<link rel="stylesheet" href="styles.css?v=20261001-world-home-2">
 <script type="application/ld+json">
-{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://diaszpora.kozpontiszovetseg.at/#publisher","name":"Ausztriai Magyar Egyesületek és Szervezetek Központi Szövetsége","url":"https://www.kozpontiszovetseg.at/","identifier":{"@type":"PropertyValue","propertyID":"ZVR","value":"079797621"}},{"@type":"WebSite","@id":"https://diaszpora.kozpontiszovetseg.at/#website","name":"Magyar Programok Ausztriában","url":"https://diaszpora.kozpontiszovetseg.at/","inLanguage":"hu-AT","publisher":{"@id":"https://diaszpora.kozpontiszovetseg.at/#publisher"}},{"@type":"CollectionPage","@id":"https://diaszpora.kozpontiszovetseg.at/#page","name":"Magyar Programok Ausztriában","url":"https://diaszpora.kozpontiszovetseg.at/","isPartOf":{"@id":"https://diaszpora.kozpontiszovetseg.at/#website"},"publisher":{"@id":"https://diaszpora.kozpontiszovetseg.at/#publisher"},"inLanguage":"hu-AT","about":{"@type":"Thing","name":"Ausztriai magyar közösségi programok, szervezetek és oktatás"}},{"@type":"Dataset","@id":"https://diaszpora.kozpontiszovetseg.at/#dataset","name":"Ausztriai magyar szervezetek, események és oktatási helyek","description":"Forrásalapú országos adatbázis az Ausztriában működő magyar közösségekről, oktatási helyekről és nyilvános programokról.","url":"https://diaszpora.kozpontiszovetseg.at/","creator":{"@id":"https://diaszpora.kozpontiszovetseg.at/#publisher"},"license":"https://diaszpora.kozpontiszovetseg.at/forrasok.html","spatialCoverage":{"@type":"Country","name":"Austria"},"keywords":["ausztriai magyarok","magyar szervezetek Ausztriában","magyar programok Ausztriában","magyar oktatás Ausztriában","diaszpóra"],"distribution":[{"@type":"DataDownload","encodingFormat":"application/json","contentUrl":"https://diaszpora.kozpontiszovetseg.at/data/organizations.json"},{"@type":"DataDownload","encodingFormat":"application/json","contentUrl":"https://diaszpora.kozpontiszovetseg.at/data/events.json"},{"@type":"DataDownload","encodingFormat":"application/json","contentUrl":"https://diaszpora.kozpontiszovetseg.at/data/education.json"},{"@type":"DataDownload","encodingFormat":"application/json","contentUrl":"https://diaszpora.kozpontiszovetseg.at/data/articles.json"}]}]}
+{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://diaszpora.kozpontiszovetseg.at/#publisher","name":"Ausztriai Magyar Egyesületek és Szervezetek Központi Szövetsége","url":"https://www.kozpontiszovetseg.at/","identifier":{"@type":"PropertyValue","propertyID":"ZVR","value":"079797621"}},{"@type":"WebSite","@id":"https://diaszpora.kozpontiszovetseg.at/#website","name":"DORAPP","url":"https://diaszpora.kozpontiszovetseg.at/","inLanguage":"hu","publisher":{"@id":"https://diaszpora.kozpontiszovetseg.at/#publisher"}},{"@type":"CollectionPage","@id":"https://diaszpora.kozpontiszovetseg.at/#page","name":"DORAPP magyar diaszpóra világtérkép és programnaptár","url":"https://diaszpora.kozpontiszovetseg.at/","isPartOf":{"@id":"https://diaszpora.kozpontiszovetseg.at/#website"},"about":{"@type":"Thing","name":"Magyar diaszpóra közösségek és programok világszerte"}}]}
 </script>
 </head>
-<body>
+<body class="world-home">
 <a class="skip" href="#main">Ugrás a tartalomhoz</a>
-<header class="topbar"><div class="wrap navrow"><a class="brand" href="./"><span class="mark">AT×HU</span><span>Magyar Programok Ausztriában</span></a><nav><a href="#naptar">Programok</a><a href="#oktatas">Oktatás</a><a href="#szervezetek">Közösségek</a><a href="#terkep">Térkép</a><a href="forrasok.html">Források</a></nav></div></header>
+<header class="topbar">
+  <div class="wrap navrow">
+    <a class="brand" href="./"><span class="mark">HU</span><span>DORAPP</span></a>
+    <nav aria-label="Fő navigáció">
+      <a href="#programnaptar">Programnaptár</a>
+      <a href="forrasok.html">Források</a>
+      <a href="adatminoseg.html">Adatminőség</a>
+    </nav>
+  </div>
+</header>
+
 <main id="main">
-<section id="vilag" class="section world-entry"><div class="wrap"><div class="eyebrow">DORAPP Worldwide</div><h1>Magyar közösségek <span>világszerte.</span></h1><p class="lead">Válassz országot a térképen, vagy használd az akadálymentes országlistát. A kutatás alatt álló országokat nem jelenítjük meg tévesen nulla találatként.</p><div class="world-map-shell"><object id="worldMap" class="world-map" data="assets/world-map.svg" type="image/svg+xml" aria-label="Interaktív világtérkép országválasztó"></object><div id="worldMapStatus" class="world-map-status" aria-live="polite"></div></div><div class="world-country-tools"><label for="worldCountrySearch">Ország keresése</label><input id="worldCountrySearch" type="search" autocomplete="off" placeholder="Ország vagy ISO-kód…"><div id="worldCountryList" class="world-country-list" aria-label="Országok listája"></div></div><p class="map-credit">Térképgeometria: Simple World Map (Al MacDonald / Fritz Lekschas), CC BY-SA 3.0. Repository-owned asset.</p></div></section>
-<section class="hero"><div class="wrap"><div class="eyebrow">Magyar közösségek Ausztriában</div><h1>Minden magyar program, oktatás és közösség. <span>Egy helyen.</span></h1><p class="lead">145 közösség, 106 oktatási lehetőség és aktuális programok Ausztria mind a 9 tartományából — ellenőrzött források alapján.</p>
-<div class="choice-grid" aria-label="Mit keresel?">
-<a class="choice-card primary-choice" href="#naptar"><span>01</span><strong>Programot keresek</strong><small>Mi történik mostanában?</small></a>
-<a class="choice-card" href="#oktatas"><span>02</span><strong>Magyar oktatást keresek</strong><small>Bölcsődétől az egyetemig.</small></a>
-<a class="choice-card" href="#szervezetek"><span>03</span><strong>Közösséget keresek</strong><small>Találj helyet, ahová kapcsolódhatsz.</small></a>
-</div>
-<p class="hero-proof"><strong>Naponta frissül.</strong> Amit nem tudunk hiteles forrásból ellenőrizni, azt nem állítjuk tényként.</p>
-</div></section>
+<section id="vilag" class="world-gateway">
+  <div class="wrap world-gateway-inner">
+    <div class="world-intro">
+      <div class="eyebrow">DORAPP Worldwide</div>
+      <h1>Magyar közösségek <span>világszerte.</span></h1>
+      <p>Keress országra, városra, szervezetre, tevékenységre vagy programra. Vagy válassz országot közvetlenül a térképen.</p>
+    </div>
 
-<section id="terkep" class="section"><div class="wrap"><div class="section-head"><div><div class="eyebrow">Hol vagy?</div><h2>Hol keresel?</h2><p>Válassz tartományt. Megmutatjuk a helyi közösségeket, oktatást és programokat.</p></div><button id="allStates" class="text-btn" type="button" hidden>Vissza egész Ausztriához</button></div>
-<div class="austria-map" aria-label="Ausztria tartományai">
-<img src="https://commons.wikimedia.org/wiki/Special:Redirect/file/Karte_%C3%96sterreich_Bundesl%C3%A4nder.svg" alt="Ausztria tartományainak térképe" loading="eager">
-<button data-state="vorarlberg" style="left:8%;top:55%">Vorarlberg <i></i></button>
-<button data-state="tirol" style="left:25%;top:58%">Tirol <i></i></button>
-<button data-state="salzburg" style="left:46%;top:52%">Salzburg <i></i></button>
-<button data-state="oberoesterreich" style="left:58%;top:32%">Felső-Ausztria <i></i></button>
-<button data-state="niederoesterreich" style="left:76%;top:28%">Alsó-Ausztria <i></i></button>
-<button data-state="wien" style="left:88%;top:35%">Bécs <i></i></button>
-<button data-state="steiermark" style="left:64%;top:61%">Stájerország <i></i></button>
-<button data-state="kaernten" style="left:48%;top:77%">Karintia <i></i></button>
-<button data-state="burgenland" style="left:82%;top:62%">Burgenland <i></i></button>
-</div><p class="map-credit">Térképalap: Wikimedia Commons, Lencer, CC BY-SA 2.5.</p>
-<div id="stateSummary" class="state-summary" aria-live="polite"></div></div></section>
+    <div class="global-search" role="search">
+      <label for="globalSearch">Globális kereső</label>
+      <div class="global-search-control">
+        <input id="globalSearch" type="search" autocomplete="off" spellcheck="false"
+          placeholder="Pl. Hollandia, Amsterdam, cserkészet, magyar iskola, koncert…"
+          aria-autocomplete="list" aria-controls="globalSearchSuggestions" aria-expanded="false">
+        <span class="global-search-icon" aria-hidden="true">⌕</span>
+      </div>
+      <div id="globalSearchSuggestions" class="global-search-suggestions" role="listbox" hidden></div>
+      <p class="global-search-hint">A legördülő találatok a már ellenőrzött országadatbázisokból származnak.</p>
+    </div>
 
+    <div class="world-map-shell">
+      <object id="worldMap" class="world-map" data="assets/world-map.svg" type="image/svg+xml" aria-label="Interaktív világtérkép országválasztó"></object>
+      <div id="worldMapStatus" class="world-map-status" aria-live="polite">A bordó országok megnyithatók. A szürke országok adatbázisa még épül. A szám az aktuálisan ellenőrzött szervezetek darabszáma.</div>
+    </div>
 
+    <div class="world-legend" aria-label="Térkép jelmagyarázat">
+      <span><i class="legend-ready"></i>Kész ország</span>
+      <span><i class="legend-building"></i>Kutatás alatt</span>
+      <span><b>#</b> Civil és hivatalos szervezetek együtt</span>
+    </div>
 
+    <details class="country-directory">
+      <summary>Országlista megnyitása</summary>
+      <div id="worldCountryList" class="world-country-list" aria-label="Országok listája"></div>
+    </details>
 
+    <p class="map-credit">Térképgeometria: Simple World Map (Al MacDonald / Fritz Lekschas), CC BY-SA 3.0. Repository-owned asset.</p>
+  </div>
+</section>
 
-<section id="kereso" class="section directory-search"><div class="wrap"><div class="section-head"><div><div class="eyebrow">Globális kereső</div><h2>Találd meg, amit keresel.</h2><p>Egy helyen szűrhetsz országra, tartományra, városra, szervezetre, kapcsolatra, címre és programra. A választási listák mindig ABC-sorrendben jelennek meg.</p></div></div><div class="directory-search-grid"><label>Ország<select id="directoryCountry"><option value="">Minden ország</option></select></label><label>Tartomány<select id="directoryState"><option value="">Egész Ausztria</option></select></label><label>Város<select id="directoryCity"><option value="">Minden város</option></select></label><label>Szervezet<select id="directoryOrganization"><option value="">Minden szervezet</option></select></label><label>Program<select id="directoryProgram"><option value="">Minden program</option></select></label><label>Kapcsolat<input id="directoryContact" type="search" autocomplete="off" placeholder="Név, e-mail vagy telefon"></label><label>Cím<input id="directoryAddress" type="search" autocomplete="off" placeholder="Utca, helyszín vagy cím"></label><label class="directory-query">Szabad keresés<input id="directoryQuery" type="search" autocomplete="off" placeholder="Szervezet, tevékenység, program, helyszín…"></label><button id="directoryReset" class="directory-reset" type="button">Szűrők törlése</button></div><div id="directoryResultCount" class="result-count" aria-live="polite"></div><div id="directoryResults" class="directory-results"></div><div id="directoryEmpty" class="empty" hidden>Nincs a feltételeknek megfelelő találat.</div></div></section>
-
-<section id="szervezetek" class="section muted"><div class="wrap"><div class="section-head"><div><div class="eyebrow">Közösségek</div><h2>Közösségek.</h2><p>Egyesületek, kulturális csoportok, tánc, cserkészet, egyház és más magyar kapcsolódási pontok.</p></div><div class="org-filters"><div class="searchbox"><label for="orgSearch">Keresés</label><input id="orgSearch" type="search" list="orgSuggestions" autocomplete="off" placeholder="Név, város vagy programtípus…"><datalist id="orgSuggestions"></datalist></div><select id="orgEntityClass" aria-label="Entitástípus"><option value="">Minden entitástípus</option><option value="host-institution">Magyar szolgáltatást nyújtó osztrák intézmények</option></select><select id="orgCategory" aria-label="Közösségtípus"><option value="">Minden közösségtípus</option></select></div></div><div id="orgResultCount" class="result-count" aria-live="polite"></div><div id="orgGrid" class="cards"></div></div></section>
-
-<section id="foglalkozasok" class="section"><div class="wrap"><div class="section-head"><div><div class="eyebrow">Rendszeres foglalkozások</div><h2>Órák, műhelyek, klubok.</h2><p>Itt csak a visszatérő foglalkozások jelennek meg. Ezek nem önálló iskolák vagy egyesületek, hanem egy szervezethez kapcsolódó programok.</p></div><div class="activity-filters"><select id="activityCategory" aria-label="Foglalkozástípus"><option value="">Minden foglalkozástípus</option></select><input id="activitySearch" type="search" placeholder="Foglalkozás neve vagy helyszín…"></div></div><div id="activityGrid" class="cards"></div><div id="activityEmpty" class="empty" hidden>Most nem találtunk ide illő foglalkozást.</div></div></section>
-
-<section id="oktatas" class="section"><div class="wrap"><div class="section-head"><div><div class="eyebrow">Magyar oktatás</div><h2>Magyar oktatás.</h2><p>Bölcsődétől és óvodától az iskolán át az egyetemig.</p></div><div class="education-filters"><select id="educationState" aria-label="Tartomány szűrése"><option value="">Egész Ausztria</option></select><select id="educationLevel" aria-label="Oktatási szint"><option value="">Minden korosztály</option><option value="nursery">Bölcsőde / 0–3 év</option><option value="kindergarten">Óvoda / 3–6 év</option><option value="primary">Népiskola</option><option value="secondary">Középiskola</option><option value="tertiary">Felsőoktatás</option><option value="adult">Felnőttoktatás</option></select><input id="educationSearch" type="search" list="educationSuggestions" autocomplete="off" placeholder="Iskola, város vagy képzés…"><datalist id="educationSuggestions"></datalist></div></div><div id="educationResultCount" class="result-count" aria-live="polite"></div><div id="educationGrid" class="cards"></div><div id="educationEmpty" class="empty" hidden>Most nem találtunk ide illő oktatási helyet.</div></div></section>
-
-<section id="naptar" class="section muted"><div class="wrap"><div class="section-head"><div><div class="eyebrow">Programok</div><h2>Programok.</h2><p>Aktuális események, eredeti forrással és szervezői információval.</p></div><div class="calendar-filters"><select id="eventState" aria-label="Tartomány szűrése"><option value="">Egész Ausztria</option></select><select id="eventUmbrella" aria-label="Szervezeti hálózat szűrése"><option value="">Minden közösség</option></select><select id="eventCategory" aria-label="Programtípus"><option value="">Minden programtípus</option></select><input id="eventSearch" type="search" list="eventSuggestions" autocomplete="off" placeholder="Program, város vagy helyszín…"><datalist id="eventSuggestions"></datalist></div></div><div id="eventResultCount" class="result-count" aria-live="polite"></div><div id="eventGrid" class="event-grid"></div><div id="eventEmpty" class="empty" hidden>Most nem találtunk ide illő közelgő programot.</div></div></section>
-
-<section class="section reference-intro"><div class="wrap trust-grid"><div><div class="eyebrow">Ha mélyebbre mennél</div><h2>A rendszer mögött teljes országos tudástérkép van.</h2></div><div><p>A gyors keresés után tartomány, téma vagy nagyobb szervezeti háló szerint is böngészhetsz. Ez a réteg a keresők és AI rendszerek számára is egyértelmű, forrásolt kapcsolatokat ad.</p></div></div></section>
-
-<section id="tudasoldalak" class="section"><div class="wrap"><div class="section-head"><div><div class="eyebrow">Országos tudástérkép</div><h2>Tartományok és témák szerint is böngészhető.</h2><p>Ezek a statikus gyűjtőoldalak közvetlen, indexelhető útvonalat adnak a keresőknek és AI rendszereknek a forrással igazolt profilokhoz.</p></div></div>
-<div class="membership-list">
-<a class="membership" href="tartomanyok/wien.html"><span>Tartomány</span><strong>Bécs</strong></a>
-<a class="membership" href="tartomanyok/niederoesterreich.html"><span>Tartomány</span><strong>Alsó-Ausztria</strong></a>
-<a class="membership" href="tartomanyok/burgenland.html"><span>Tartomány</span><strong>Burgenland / Őrvidék</strong></a>
-<a class="membership" href="tartomanyok/oberoesterreich.html"><span>Tartomány</span><strong>Felső-Ausztria</strong></a>
-<a class="membership" href="tartomanyok/steiermark.html"><span>Tartomány</span><strong>Stájerország</strong></a>
-<a class="membership" href="tartomanyok/salzburg.html"><span>Tartomány</span><strong>Salzburg</strong></a>
-<a class="membership" href="tartomanyok/tirol.html"><span>Tartomány</span><strong>Tirol</strong></a>
-<a class="membership" href="tartomanyok/vorarlberg.html"><span>Tartomány</span><strong>Vorarlberg</strong></a>
-<a class="membership" href="tartomanyok/kaernten.html"><span>Tartomány</span><strong>Karintia</strong></a>
-<a class="membership" href="kategoriak/iskola.html"><span>Téma</span><strong>Iskolák és magyar oktatás</strong></a>
-<a class="membership" href="kategoriak/ovoda.html"><span>Téma</span><strong>Óvodák</strong></a>
-<a class="membership" href="kategoriak/neptanc.html"><span>Téma</span><strong>Néptánc</strong></a>
-<a class="membership" href="kategoriak/cserkesz.html"><span>Téma</span><strong>Cserkészet</strong></a>
-<a class="membership" href="kategoriak/szinhaz.html"><span>Téma</span><strong>Színház és musical</strong></a>
-<a class="membership" href="kategoriak/media.html"><span>Téma</span><strong>Magyar média Ausztriában</strong></a>
-<a class="membership" href="kategoriak/egyhaz.html"><span>Téma</span><strong>Egyházi közösségek</strong></a>
-</div></div></section>
-
-<section id="nagy-szervezetek" class="section muted"><div class="wrap"><div class="section-head"><div><div class="eyebrow">Négy országos kapcsolódási pont</div><h2>A Rólunk.at kuratóriumát adó szervezetek.</h2><p>BMKE, Kerekasztal, UMIZ és Központi Szövetség. Válassz egyet, és külön listázzuk a hozzá forrásoltan kapcsolódó szervezeteket és eseményeket.</p><p class="source-note"><a href="https://rolunk.at/rolunk/" target="_blank" rel="noopener external">Forrás: Rólunk.at – Rólunk ↗</a></p></div><button id="clearUmbrella" class="text-btn" type="button" hidden>Minden közösség</button></div><div id="umbrellaGrid" class="umbrella-grid"></div></div></section>
-
-<section class="section trust"><div class="wrap trust-grid"><div><div class="eyebrow">Mi alapján dolgozunk?</div><h2>Csak azt mutatjuk, amit vissza tudunk ellenőrizni.</h2></div><div><p>Elsőként mindig a szervezők saját oldalait nézzük. Ha egy időpont, helyszín vagy szervező nem egyértelmű, nem találgatunk. A cél az, hogy amit itt látsz, arra tényleg lehessen építeni.</p><a href="forrasok.html">Így gyűjtjük és frissítjük az adatokat →</a></div></div></section>
+<section id="programnaptar" class="global-calendar-section">
+  <div class="wrap">
+    <div class="section-head global-calendar-head">
+      <div>
+        <div class="eyebrow">Globális programnaptár</div>
+        <h2>Aktuális és jövőbeni magyar programok.</h2>
+        <p>Minden olyan közelgő program egy helyen, amelyhez ellenőrzött országadatbázis és forrás tartozik. Az országoldalakon ugyanennek a naptárnak az adott országra szűrt nézete jelenik meg.</p>
+      </div>
+      <div class="global-calendar-filters">
+        <label>Ország
+          <select id="globalCalendarCountry"><option value="">Minden ország</option></select>
+        </label>
+        <label>Keresés
+          <input id="globalCalendarSearch" type="search" autocomplete="off" placeholder="Program, város, helyszín, szervező…">
+        </label>
+      </div>
+    </div>
+    <div id="globalCalendarCount" class="result-count" aria-live="polite"></div>
+    <div id="globalCalendarGrid" class="global-calendar-grid"></div>
+    <div id="globalCalendarEmpty" class="empty" hidden>Nincs a szűrésnek megfelelő közelgő program.</div>
+  </div>
+</section>
 </main>
-<footer><div class="wrap footer-grid"><div><b>Magyar Programok Ausztriában</b><p>Egy közös hely azoknak, akik magyar programot, közösséget vagy kapcsolódási pontot keresnek Ausztriában.</p></div><div><a href="forrasok.html">Hogyan működik?</a><br><a href="adatminoseg.html">Adatminőség és transzparencia</a><br><a href="data/organizations.json">Szervezetek adatai</a><br><a href="data/events.json">Programadatok</a></div><div><p>Ha valami megváltozott, mindig a szervező legfrissebb hivatalos közlése az irányadó.</p><a href="https://www.kozpontiszovetseg.at/kapcsolat" target="_blank" rel="noopener external">Impresszum / kapcsolat ↗</a><br><a href="https://www.kozpontiszovetseg.at/post/gdpr-ai-trust" target="_blank" rel="noopener external">GDPR & AI Trust ↗</a><br>Fejlesztette a <a href="https://rolunk.at/aktualis/a-fiataloknak-ma-mar-bizonyitek-kell-egy-becsi-kreativ-kozosseg-uj-generaciot-epit/" target="_blank" rel="noopener external">Be Smart Kids Club csapata</a><br><a href="https://business.vipach.at" target="_blank" rel="noopener external">business.vipach.at</a></div></div></footer>
-<script src="app.js?v=20260929-directory-1" defer></script>
-<script src="ui.js?v=20260926-consent-nav" defer></script></body></html>
+
+<footer>
+  <div class="wrap footer-grid">
+    <div><b>DORAPP</b><p>Forrásalapú magyar diaszpóra-címtár és globális programnaptár.</p></div>
+    <div><a href="forrasok.html">Hogyan működik?</a><br><a href="adatminoseg.html">Adatminőség és transzparencia</a></div>
+    <div><a href="https://www.kozpontiszovetseg.at/kapcsolat" target="_blank" rel="noopener external">Impresszum / kapcsolat ↗</a><br><a href="https://www.kozpontiszovetseg.at/post/gdpr-ai-trust" target="_blank" rel="noopener external">GDPR & AI Trust ↗</a></div>
+  </div>
+</footer>
+
+<script src="world.js?v=20261001-world-home-2" defer></script>
+<script src="ui.js?v=20260926-consent-nav" defer></script>
+</body>
+</html>

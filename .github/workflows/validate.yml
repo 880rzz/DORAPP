@@ -1,0 +1,32 @@
+name: Validate DORAPP
+on:
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Validate global build
+        run: |
+          python -m json.tool data/organizations.json >/dev/null
+          python -m json.tool data/events.json >/dev/null
+          python -m json.tool data/education.json >/dev/null
+          python scripts/generate_global_compat.py
+          python scripts/generate_global_search_index.py
+          python scripts/generate_global_calendar.py
+          python scripts/generate_country_pages.py
+          python scripts/generate_global_profiles.py
+          python scripts/generate_global_education_profiles.py
+          python scripts/generate_global_event_profiles.py
+          python scripts/generate_sitemap.py
+          python scripts/validate_global.py
+          python -m py_compile scripts/generate_global_compat.py scripts/generate_global_search_index.py scripts/generate_global_calendar.py scripts/generate_country_pages.py scripts/generate_global_profiles.py scripts/generate_global_education_profiles.py scripts/generate_global_event_profiles.py scripts/generate_sitemap.py scripts/validate_global.py scripts/validate_static_output.py
+          node --check world.js
+          node --check ui.js
+          python -m json.tool data/global.json >/dev/null
+          python -m json.tool data/global-search-index.json >/dev/null
+          python -m json.tool data/global-events.json >/dev/null
+          python scripts/validate_static_output.py

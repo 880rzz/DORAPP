@@ -17,7 +17,6 @@ def main():
     generated=0
     for c in g.get("countries",[]):
         iso=c["iso2"]
-        if iso=="at": continue
         p=DATA/"countries"/iso/"education.json"
         if not p.exists(): continue
         doc=read(p,{"institutions":[]})
