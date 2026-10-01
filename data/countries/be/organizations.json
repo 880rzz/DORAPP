@@ -726,6 +726,55 @@
           "ingestEvents": false
         }
       ]
+    },
+    {
+      "id": "magyarorszag-nato-allando-kepviselet-brusszel",
+      "name": "Magyarország Állandó NATO Képviselete, Brüsszel",
+      "country": "be",
+      "region": "Brussels-Capital",
+      "city": "Brussels",
+      "type": "permanent delegation to NATO",
+      "entityClass": "host-institution",
+      "website": "https://nato-brusszel.mfa.gov.hu/en",
+      "email": "prt.nat@mfa.gov.hu",
+      "phone": "+32 2 707 3605",
+      "address": "Boulevard Leopold III, 1110 Brussels, Belgium",
+      "intro": "Magyarország NATO melletti brüsszeli állandó képviselete, amely a NATO-székházban működik és Magyarország intézményi képviseletét látja el a szövetségben.",
+      "activities": [
+        "NATO-képviselet",
+        "intézményi kapcsolatok",
+        "diplomáciai és szakpolitikai koordináció"
+      ],
+      "profileVerifiedAt": "2026-10-01",
+      "evidenceSources": [
+        {
+          "label": "Permanent Delegation of Hungary to NATO – official site",
+          "url": "https://nato-brusszel.mfa.gov.hu/en",
+          "type": "government"
+        },
+        {
+          "label": "Magyarország Állandó NATO Képviselete – kapcsolat",
+          "url": "https://nato-brusszel.mfa.gov.hu/hu/contact",
+          "type": "government"
+        }
+      ],
+      "publicChannels": [
+        {
+          "label": "X – NATO Hungary",
+          "platform": "X",
+          "url": "https://x.com/NATOHungary",
+          "ownership": "self"
+        }
+      ],
+      "calendarSources": [
+        {
+          "label": "Permanent Delegation to NATO – news",
+          "url": "https://nato-brusszel.mfa.gov.hu/en/articles",
+          "kind": "government-news-events",
+          "scope": "self",
+          "ingestEvents": false
+        }
+      ]
     }
   ]
 }
