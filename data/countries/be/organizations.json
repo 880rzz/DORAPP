@@ -659,6 +659,73 @@
           "ingestEvents": false
         }
       ]
+    },
+    {
+      "id": "arcfam-asbl",
+      "name": "arcFAM asbl",
+      "country": "be",
+      "region": "Brussels-Capital",
+      "city": "Brussels",
+      "type": "multilingual Hungarian cultural and arts association",
+      "entityClass": "organization",
+      "website": "https://arcfam.be/",
+      "intro": "Brüsszeli francia–angol–magyar kulturális és művészeti egyesület, amely magyar nyelvű és többnyelvű gyermekfoglalkozásokat, művészeti oktatást, színházi programokat és közösségi rendezvényeket szervez.",
+      "activities": [
+        "Csiribiri zenei foglalkozások",
+        "Mikkamakka gyermek színjátszás",
+        "Szövegelők",
+        "Pacsirta gyermekkórus",
+        "Ákom-Bákom tábor",
+        "művészeti iskola",
+        "magyar nyelvű színház",
+        "Brüsszeli Magyar Jótékonysági Bál"
+      ],
+      "targetGroups": [
+        "gyermekek",
+        "családok",
+        "brüsszeli magyar és nemzetközi közösség"
+      ],
+      "profileVerifiedAt": "2026-10-01",
+      "evidenceSources": [
+        {
+          "label": "arcFAM asbl – hivatalos bemutatkozás",
+          "url": "https://arcfam.be/arcfam-asbl/",
+          "type": "official"
+        },
+        {
+          "label": "arcFAM – Pacsirta kórus",
+          "url": "https://arcfam.be/pacsirta-korus/",
+          "type": "official"
+        },
+        {
+          "label": "arcFAM – színházi programok",
+          "url": "https://arcfam.be/szinhaz/",
+          "type": "official"
+        }
+      ],
+      "publicChannels": [
+        {
+          "label": "Facebook – arcFAM",
+          "platform": "Facebook",
+          "url": "https://www.facebook.com/arcfam.be",
+          "ownership": "self"
+        },
+        {
+          "label": "YouTube – arcFAM",
+          "platform": "YouTube",
+          "url": "https://www.youtube.com/@arcfam",
+          "ownership": "self"
+        }
+      ],
+      "calendarSources": [
+        {
+          "label": "arcFAM – program- és foglalkozásoldalak",
+          "url": "https://arcfam.be/",
+          "kind": "official-program-pages",
+          "scope": "self",
+          "ingestEvents": false
+        }
+      ]
     }
   ]
 }
