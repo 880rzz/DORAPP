@@ -49,14 +49,22 @@
     </div>
 
     <div class="world-map-shell">
-      <object id="worldMap" class="world-map" data="assets/world-map.svg" type="image/svg+xml" aria-label="Interaktív világtérkép országválasztó"></object>
-      <div id="worldMapStatus" class="world-map-status" aria-live="polite">A bordó országok megnyithatók. A szürke országok adatbázisa még épül. A szám az aktuálisan ellenőrzött szervezetek darabszáma.</div>
+      <div class="world-map-toolbar" aria-label="Térkép nagyítása">
+        <button id="worldMapZoomIn" type="button" aria-label="Nagyítás">+</button>
+        <button id="worldMapZoomOut" type="button" aria-label="Kicsinyítés">−</button>
+        <button id="worldMapZoomReset" type="button" class="world-map-reset" aria-label="Alaphelyzet">⌂</button>
+        <span id="worldMapZoomValue" aria-live="polite">100%</span>
+      </div>
+      <div id="worldMapViewport" class="world-map-viewport">
+        <object id="worldMap" class="world-map" data="assets/world-map.svg" type="image/svg+xml" aria-label="Interaktív, nagyítható világtérkép országválasztó"></object>
+      </div>
+      <div id="worldMapStatus" class="world-map-status" aria-live="polite">A pasztellkék országok elkészültek. A világosszürke országok kutatása még folyamatban van. A szám az ellenőrzött szervezetek darabszáma. Nagyíts a + gombbal, egérgörgővel vagy két ujjal.</div>
     </div>
 
     <div class="world-legend" aria-label="Térkép jelmagyarázat">
       <span><i class="legend-ready"></i>Kész ország</span>
       <span><i class="legend-building"></i>Kutatás alatt</span>
-      <span><b>#</b> Civil és hivatalos szervezetek együtt</span>
+      <span><b>#</b>Ellenőrzött szervezetek</span>
     </div>
 
     <details class="country-directory">
@@ -100,7 +108,7 @@
   </div>
 </footer>
 
-<script src="world.js?v=20261001-world-home-2" defer></script>
+<script src="world.js?v=20261001-world-map-zoom-1" defer></script>
 <script src="ui.js?v=20260926-consent-nav" defer></script>
 </body>
 </html>
