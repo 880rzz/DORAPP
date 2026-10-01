@@ -1,0 +1,336 @@
+{
+  "updated": "2026-10-01",
+  "sourcePolicy": "Canada country dataset. First-party organization, Hungarian diplomatic, Canadian government, current umbrella and institutional sources are preferred. Historical directory entries remain discovery-only until current identity is verified.",
+  "organizations": [
+    {
+      "id": "nahc-kmosz",
+      "name": "National Alliance of Hungarians in Canada (NAHC / KMOSZ)",
+      "country": "ca",
+      "scope": "national",
+      "type": "national umbrella organization",
+      "entityClass": "organization",
+      "website": "https://kmosz-nahc.ca/",
+      "intro": "Kanadai magyar országos ernyőszervezet, amely magyar közösségi, kulturális, szakmai és egyházi szervezetek együttműködését fogja össze.",
+      "activities": [
+        "országos érdekképviselet",
+        "szervezeti hálózat",
+        "kulturális együttműködés",
+        "diaszpóra-kapcsolatok"
+      ],
+      "profileVerifiedAt": "2026-10-01",
+      "evidenceSources": [
+        {
+          "label": "NAHC – organizational structure",
+          "url": "https://kmosz-nahc.ca/en/organizational-structure/",
+          "type": "official"
+        },
+        {
+          "label": "NAHC – current membership",
+          "url": "https://kmosz-nahc.ca/en/membership/",
+          "type": "official"
+        },
+        {
+          "label": "NAHC – goals",
+          "url": "https://kmosz-nahc.ca/en/our-goals/",
+          "type": "official"
+        }
+      ],
+      "calendarSources": []
+    },
+    {
+      "id": "hungarian-canadian-cultural-centre-toronto",
+      "name": "Hungarian Canadian Cultural Centre / Toronto Hungarian House",
+      "country": "ca",
+      "region": "Ontario",
+      "city": "Toronto",
+      "type": "Hungarian cultural and community centre",
+      "entityClass": "organization",
+      "website": "https://hccc.org/en/",
+      "email": "hcccoffice@yahoo.ca",
+      "phone": "+1 416-654-4926",
+      "address": "141 Sunrise Avenue, North York, ON M4A 1A9, Canada",
+      "intro": "Toronto és környéke központi magyar kulturális és közösségi intézménye, rendezvényekkel, klubokkal, megemlékezésekkel és oktatási-kulturális programokkal.",
+      "activities": [
+        "kulturális rendezvények",
+        "klubok",
+        "nemzeti megemlékezések",
+        "koncertek",
+        "színház",
+        "közösségi programok"
+      ],
+      "profileVerifiedAt": "2026-10-01",
+      "evidenceSources": [
+        {
+          "label": "Hungarian Canadian Cultural Centre – official site",
+          "url": "https://hccc.org/en/",
+          "type": "official"
+        },
+        {
+          "label": "Hungarian House Toronto – introduction",
+          "url": "https://hccc.org/en/introduction/",
+          "type": "official"
+        },
+        {
+          "label": "Consulate General of Hungary Toronto – Hungarian organizations",
+          "url": "https://toronto.mfa.gov.hu/hu/tor_hmsz",
+          "type": "government"
+        }
+      ],
+      "calendarSources": [
+        {
+          "label": "Hungarian House Toronto – events",
+          "url": "https://hccc.org/en/",
+          "kind": "official-calendar",
+          "scope": "self",
+          "ingestEvents": false
+        }
+      ]
+    },
+    {
+      "id": "ottawa-hungarian-community-centre",
+      "name": "Ottawa Hungarian Community Centre",
+      "country": "ca",
+      "region": "Ontario",
+      "city": "Ottawa",
+      "type": "Hungarian community centre",
+      "entityClass": "organization",
+      "founded": "1977-09-20",
+      "website": "https://omh-ohcc.ca/en/",
+      "email": "info@omh-ohcc.ca",
+      "phone": "+1 613-225-8754",
+      "address": "43 Capital Drive, Ottawa, ON K2G 0E7, Canada",
+      "intro": "Ottawa és a National Capital Region hivatalosan bejegyzett magyar nonprofit közösségi központja, kulturális, oktatási, könyvtári és szórakoztató programokkal.",
+      "activities": [
+        "közösségi programok",
+        "magyar nyelvoktatás",
+        "könyvtár",
+        "kulturális rendezvények",
+        "néptánc",
+        "zene"
+      ],
+      "profileVerifiedAt": "2026-10-01",
+      "evidenceSources": [
+        {
+          "label": "OHCC – official about page",
+          "url": "https://omh-ohcc.ca/en/about-us/",
+          "type": "official"
+        },
+        {
+          "label": "OHCC – contact",
+          "url": "https://omh-ohcc.ca/en/about-us/contact-information-and-hours-of-operation/",
+          "type": "official"
+        },
+        {
+          "label": "NAHC – current membership",
+          "url": "https://kmosz-nahc.ca/en/membership/",
+          "type": "institutional"
+        }
+      ],
+      "calendarSources": [
+        {
+          "label": "OHCC – events",
+          "url": "https://omh-ohcc.ca/en/events/",
+          "kind": "official-calendar",
+          "scope": "self",
+          "ingestEvents": true
+        }
+      ]
+    },
+    {
+      "id": "hungarian-canadian-club-waterloo-wellington",
+      "name": "Hungarian Canadian Club of Waterloo-Wellington / Kossuth Hall",
+      "country": "ca",
+      "region": "Ontario",
+      "city": "Cambridge",
+      "type": "Hungarian cultural and community club",
+      "entityClass": "organization",
+      "website": "https://www.kossuthclub.ca/",
+      "email": "info@kossuthclub.ca",
+      "phone": "+1 905-782-8237",
+      "address": "979 Kossuth Rd, Cambridge, ON N3H 4R6, Canada",
+      "intro": "A Cambridge–Guelph–Kitchener–Waterloo térség több mint öt évtizedes magyar közösségi központja, kulturális rendezvényekkel, megemlékezésekkel, néptánccal és iskolai programokkal.",
+      "activities": [
+        "kulturális rendezvények",
+        "Kossuth néptánc",
+        "magyar iskolai programok",
+        "bálok",
+        "megemlékezések"
+      ],
+      "profileVerifiedAt": "2026-10-01",
+      "evidenceSources": [
+        {
+          "label": "Kossuth Club – official about page",
+          "url": "https://www.kossuthclub.ca/index.php/en/about-us/about-the-club",
+          "type": "official"
+        }
+      ],
+      "calendarSources": [
+        {
+          "label": "Kossuth Club – upcoming events",
+          "url": "https://www.kossuthclub.ca/index.php/en/about-us/about-the-club",
+          "kind": "official-news-events",
+          "scope": "self",
+          "ingestEvents": false
+        }
+      ]
+    },
+    {
+      "id": "edmontoni-magyar-kulturkor",
+      "name": "Canadian Hungarian Cultural Society of Edmonton / Edmontoni Magyar Kultúrkör",
+      "country": "ca",
+      "region": "Alberta",
+      "city": "Edmonton",
+      "type": "Hungarian cultural society",
+      "entityClass": "organization",
+      "website": "https://edmontonimagyarkulturkor.com/",
+      "intro": "Edmonton és Észak-Alberta magyar kulturális közösségi szervezete, kulturális rendezvényekkel, néptánccal, sporttal, klubokkal és magyar közösségi programokkal.",
+      "activities": [
+        "kulturális rendezvények",
+        "néptánc",
+        "cserkészet támogatása",
+        "sport",
+        "klubok",
+        "megemlékezések"
+      ],
+      "profileVerifiedAt": "2026-10-01",
+      "evidenceSources": [
+        {
+          "label": "Edmontoni Magyar Kultúrkör – official current site",
+          "url": "https://edmontonimagyarkulturkor.com/",
+          "type": "official"
+        },
+        {
+          "label": "Hungarian Heritage in Canada – Edmonton society",
+          "url": "https://hungarianheritageincanada.ca/en/place/canadian-hungarian-cultural-society-of-edmonton-edmonton-ab",
+          "type": "institutional"
+        }
+      ],
+      "calendarSources": [
+        {
+          "label": "Edmontoni Magyar Kultúrkör – official news/events",
+          "url": "https://edmontonimagyarkulturkor.com/",
+          "kind": "official-news-events",
+          "scope": "self",
+          "ingestEvents": false
+        }
+      ]
+    },
+    {
+      "id": "hungarian-canadian-cultural-association-calgary",
+      "name": "Hungarian Canadian Cultural Association of Calgary",
+      "country": "ca",
+      "region": "Alberta",
+      "city": "Calgary",
+      "type": "Hungarian cultural association",
+      "entityClass": "organization",
+      "address": "231 Forge Road SE, Calgary, AB T2H 0S9, Canada",
+      "phone": "+1 403-259-8373",
+      "intro": "Calgary magyar kulturális egyesülete és Magyar Háza; célja a magyar kultúra, történelem, nyelv és hagyományok megőrzése és bemutatása Alberta magyar közösségében.",
+      "activities": [
+        "kulturális rendezvények",
+        "magyar nyelv és örökség",
+        "havi közösségi vacsorák",
+        "gyermekprogramok",
+        "megemlékezések"
+      ],
+      "profileVerifiedAt": "2026-10-01",
+      "evidenceSources": [
+        {
+          "label": "Hungarian Heritage in Canada – Calgary Hungarian Hall",
+          "url": "https://hungarianheritageincanada.ca/en/place/hungarian-canadian-cultural-association-of-calgary-ab-hungarian-hall",
+          "type": "institutional"
+        },
+        {
+          "label": "City of Calgary – Cross Cultural Connections",
+          "url": "https://www.calgary.ca/content/dam/www/csps/recreation/documents/arts-and-culture/cross-cultural-connections.pdf",
+          "type": "government"
+        }
+      ],
+      "calendarSources": []
+    },
+    {
+      "id": "hungarian-canadian-cultural-society-manitoba",
+      "name": "Hungarian Canadian Cultural Society of Manitoba / Szent István Hall",
+      "country": "ca",
+      "region": "Manitoba",
+      "city": "Winnipeg",
+      "type": "Hungarian cultural society",
+      "entityClass": "organization",
+      "address": "443 Selkirk Ave, Winnipeg, MB R2W 2M4, Canada",
+      "phone": "+1 204-582-0682",
+      "email": "info.hccswpg@gmail.com",
+      "intro": "Winnipeg magyar közösségi kulturális központja, amely a magyar nyelvi és kulturális örökség megőrzését kulturális rendezvényekkel, iskolával, kórussal és tánccal támogatja.",
+      "activities": [
+        "kulturális rendezvények",
+        "magyar iskola támogatása",
+        "kórus",
+        "néptánc",
+        "megemlékezések"
+      ],
+      "profileVerifiedAt": "2026-10-01",
+      "evidenceSources": [
+        {
+          "label": "211 Manitoba – Hungarian Canadian Cultural Society",
+          "url": "https://mb.211.ca/detail/44798881/",
+          "type": "institutional"
+        },
+        {
+          "label": "Hungarian Heritage in Canada – Manitoba society",
+          "url": "https://hungarianheritageincanada.ca/en/place/hungarian-canadian-cultural-society-of-manitoba-szent-istvan-hall",
+          "type": "institutional"
+        }
+      ],
+      "publicChannels": [
+        {
+          "label": "Facebook – HCCS Winnipeg",
+          "platform": "Facebook",
+          "url": "https://www.facebook.com/hccswpg/",
+          "ownership": "self"
+        }
+      ],
+      "calendarSources": []
+    },
+    {
+      "id": "embassy-hungary-ottawa",
+      "name": "Embassy of Hungary to Canada",
+      "country": "ca",
+      "region": "Ontario",
+      "city": "Ottawa",
+      "type": "embassy",
+      "entityClass": "host-institution",
+      "website": "https://ottawa.mfa.gov.hu/en",
+      "email": "mission.ott@mfa.gov.hu",
+      "phone": "+1 613-230-2717",
+      "address": "299 Waverley Street, Ottawa, ON K2P 0V9, Canada",
+      "intro": "Magyarország kanadai nagykövetsége és országos diplomáciai intézményi kapcsolódási pontja Ottawában.",
+      "activities": [
+        "diplomácia",
+        "konzuli szolgáltatások",
+        "közösségi kapcsolatok",
+        "kulturális és intézményi programok"
+      ],
+      "profileVerifiedAt": "2026-10-01",
+      "evidenceSources": [
+        {
+          "label": "Embassy of Hungary – official consular information",
+          "url": "https://ottawa.mfa.gov.hu/en/az-ottawai-nagykoevetseg-konzuli-hivatala",
+          "type": "government"
+        },
+        {
+          "label": "Government of Canada – foreign missions",
+          "url": "https://www.international.gc.ca/protocol-protocole/addresses.aspx?lang=eng",
+          "type": "government"
+        }
+      ],
+      "calendarSources": [
+        {
+          "label": "Embassy of Hungary Ottawa – news",
+          "url": "https://ottawa.mfa.gov.hu/en/articles",
+          "kind": "government-news-events",
+          "scope": "self",
+          "ingestEvents": false
+        }
+      ]
+    }
+  ]
+}
