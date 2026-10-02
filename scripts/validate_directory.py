@@ -156,6 +156,10 @@ for e in evdb.get("events",[]):
     event_source_keys.add(source_key)
     if e.get("organizationId") not in orgset: errors.append(f"orphan event: {e.get('id')}")
     if not e.get("name") or not e.get("startDate") or not e.get("sourceUrl"): errors.append(f"incomplete event: {e.get('id')}")
+    for key in ("name","organizer","venue","address","description"):
+        value=e.get(key)
+        if value and re.search(r"\\[nN,;]",str(value)):
+            errors.append(f"unnormalized event text: {e.get('id')} -> {key}")
     for key in ("startDate","endDate"):
         value=str(e.get(key) or "")
         if not value:

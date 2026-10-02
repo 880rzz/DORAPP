@@ -137,8 +137,8 @@ def text_value(v):
 
 def clean_text(v):
     s=unescape(str(v or ""))
-    s=re.sub(r"\\\\[nN]"," ",s)
-    s=s.replace(r"\\,",",").replace(r"\\;",";").replace(r"\\\\","\\")
+    s=re.sub(r"\\[nN]"," ",s)
+    s=s.replace(r"\,",",").replace(r"\;",";").replace(r"\\","\\")
     return re.sub(r"\s+"," ",re.sub(r"<[^>]+>"," ",s)).strip()
 
 def offer_details(v):
@@ -267,9 +267,10 @@ def dedupe_events(items):
             by_source[k]=merge_event(by_source[k],e) if k in by_source else e
     return passthrough+list(by_source.values())
 
-def futureish(start):
+def futureish(start,end=None):
     try:
-        s=str(start).replace("Z","+00:00"); d=datetime.fromisoformat(s)
+        value=end or start
+        s=str(value).replace("Z","+00:00"); d=datetime.fromisoformat(s)
         if d.tzinfo is None:d=d.replace(tzinfo=timezone.utc)
         return d>=datetime.now(timezone.utc)-timedelta(days=2)
     except Exception:return True
@@ -400,7 +401,7 @@ def source_event_allowed(event, source_cfg):
 def main():
     orgdb=json.loads(ORG_FILE.read_text(encoding="utf-8"))
     old=json.loads(EVENT_FILE.read_text(encoding="utf-8")) if EVENT_FILE.exists() else {"events":[]}
-    merged={e["id"]:e for e in old.get("events",[]) if futureish(e.get("startDate"))}
+    merged={e["id"]:e for e in old.get("events",[]) if futureish(e.get("startDate"),e.get("endDate"))}
     for event in merged.values():
         event["startDate"]=normalize_iso_datetime(event.get("startDate"))
         event["endDate"]=normalize_iso_datetime(event.get("endDate"))
@@ -412,11 +413,11 @@ def main():
         collected=[]
         try:
             events,candidates,_=collect_page(source,org,source); row["pagesChecked"]=1
-            collected.extend(e for e in events if futureish(e["startDate"]))
+            collected.extend(e for e in events if futureish(e["startDate"],e.get("endDate")))
             for u in candidates:
                 try:
                     subevents,_,_=collect_page(u,org,source); row["pagesChecked"]+=1
-                    collected.extend(e for e in subevents if futureish(e["startDate"]))
+                    collected.extend(e for e in subevents if futureish(e["startDate"],e.get("endDate")))
                 except Exception:
                     continue
             collected=dedupe_events(collected)

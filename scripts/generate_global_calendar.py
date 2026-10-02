@@ -47,7 +47,8 @@ for country in registry.get("countries", []):
     for event in payload.get("events", payload.get("items", [])):
         start_raw = event.get("startDate") or event.get("date")
         start = parse_start(start_raw)
-        if start is None or start < now:
+        end = parse_start(event.get("endDate"))
+        if start is None or (end or start) < now:
             continue
         eid = event.get("id")
         name = event.get("name") or event.get("title")
