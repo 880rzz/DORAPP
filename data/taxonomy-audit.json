@@ -1,12 +1,12 @@
 {
-  "updated": "2026-10-01T11:33:25.757386+00:00",
+  "updated": "2026-10-02T01:21:32.856960+00:00",
   "summary": {
     "organizations": 158,
-    "organizationFlags": 1,
+    "organizationFlags": 2,
     "organizationPagesChecked": 323,
     "education": 107,
     "educationFlags": 0,
-    "events": 37,
+    "events": 39,
     "eventFlags": 0
   },
   "organizations": [
@@ -506,6 +506,7 @@
       "activityCategories": [],
       "signals": [
         "oktatas",
+        "neptanc",
         "enekkar",
         "szinhaz",
         "media",
@@ -1121,20 +1122,23 @@
       "activityCategories": [],
       "signals": [
         "oktatas",
-        "szinhaz",
         "media",
-        "irodalom",
-        "muveszet",
-        "csalad"
+        "irodalom"
       ],
-      "pagesChecked": 3,
+      "pagesChecked": 2,
       "checkedUrls": [
         "https://culture.hu/hu/wien",
-        "https://culture.hu/hu/wien/esemenyek",
         "https://culture.hu/de/wien/jubilaum"
       ],
-      "errors": [],
-      "flags": []
+      "errors": [
+        {
+          "url": "https://culture.hu/hu/wien/esemenyek",
+          "error": "The read operation timed out"
+        }
+      ],
+      "flags": [
+        "weak-source-signal:muveszet"
+      ]
     },
     {
       "id": "collegium-pazmanianum",
@@ -1319,17 +1323,13 @@
         "sport",
         "csalad"
       ],
-      "pagesChecked": 2,
+      "pagesChecked": 3,
       "checkedUrls": [
         "https://www.wukv.at/",
-        "https://www.wukv.at/sample-page/"
+        "https://www.wukv.at/sample-page/",
+        "https://www.wukv.at/rolunk-delibab-neptanccsoport/"
       ],
-      "errors": [
-        {
-          "url": "https://www.delibab-becs.com/",
-          "error": "<urlopen error timed out>"
-        }
-      ],
+      "errors": [],
       "flags": []
     },
     {
@@ -2151,14 +2151,13 @@
       "signals": [
         "oktatas",
         "neptanc",
+        "nepzene",
         "cserkesz",
-        "szinhaz",
         "media",
         "egyhaz",
         "diak",
         "irodalom",
-        "sport",
-        "csalad"
+        "sport"
       ],
       "pagesChecked": 3,
       "checkedUrls": [
@@ -2511,11 +2510,10 @@
       "signals": [
         "oktatas",
         "neptanc",
-        "szinhaz",
+        "nepzene",
         "egyhaz",
         "diak",
-        "irodalom",
-        "csalad"
+        "irodalom"
       ],
       "pagesChecked": 2,
       "checkedUrls": [
@@ -3464,12 +3462,7 @@
         "https://rolunk.at/nepcsoportunk/isten-eltessen-sokaig-delibab-becsi-magyar-kulturegyesulet-delibab-75-cimu-film/",
         "https://rolunk.at/aktualis/a-haza-mi-magunk-vagyunk-marcius-15-i-unnepseg-magyarorszag-becsi-nagykovetsegen/"
       ],
-      "errors": [
-        {
-          "url": "https://www.delibab-becs.com/",
-          "error": "<urlopen error timed out>"
-        }
-      ],
+      "errors": [],
       "flags": []
     },
     {
@@ -4004,12 +3997,7 @@
       "checkedUrls": [
         "https://www.wukv.at/rolunk-szivarvany/"
       ],
-      "errors": [
-        {
-          "url": "https://www.delibab-becs.com/",
-          "error": "<urlopen error timed out>"
-        }
-      ],
+      "errors": [],
       "flags": []
     },
     {
