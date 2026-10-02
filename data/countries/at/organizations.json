@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-29",
+  "updated": "2026-10-02",
   "sourcePolicy": "Official organization sources preferred; umbrella directories and Austrian-Hungarian community media used as secondary verification. Missing social/event links remain null rather than guessed.",
   "states": [
     {
@@ -2553,7 +2553,7 @@
       "facebook": "https://www.facebook.com/wukvdelibab",
       "instagram": null,
       "eventSources": [
-        "https://www.delibab-becs.com/"
+        "https://www.wukv.at/"
       ],
       "memberships": [
         {
@@ -2601,7 +2601,7 @@
         "német"
       ],
       "email": "wukv.delibab@gmail.com",
-      "profileVerifiedAt": "2026-09-25",
+      "profileVerifiedAt": "2026-10-02",
       "evidenceSources": [
         {
           "label": "Délibáb – Az egyesület",
@@ -2637,17 +2637,10 @@
         },
         {
           "label": "Délibáb Bécsi Magyar Kultúregyesület – automatikus eseményforrás",
-          "url": "https://www.delibab-becs.com/",
+          "url": "https://www.wukv.at/",
           "kind": "official-event-source",
           "scope": "self",
           "ingestEvents": true
-        },
-        {
-          "label": "WUKV – kapcsolódó hivatalos oldal; nem a Délibáb kanonikus saját eseményforrása",
-          "url": "https://www.wukv.at/",
-          "kind": "related-organization-site",
-          "scope": "self",
-          "ingestEvents": false
         }
       ]
     },
@@ -2712,13 +2705,6 @@
       "calendarSources": [
         {
           "label": "Délibáb Bécsi Magyar Kultúregyesület – hivatalos programforrás",
-          "url": "https://www.delibab-becs.com/",
-          "kind": "parent-calendar",
-          "scope": "parent",
-          "ingestEvents": false
-        },
-        {
-          "label": "Délibáb Bécsi Magyar Kultúregyesület – hivatalos programforrás",
           "url": "https://www.wukv.at/",
           "kind": "parent-calendar",
           "scope": "parent",
@@ -2758,11 +2744,6 @@
       "instagram": null,
       "eventSources": [],
       "evidenceSources": [
-        {
-          "label": "Délibáb Bécs – működő csoportok",
-          "url": "https://www.delibab-becs.com/",
-          "type": "official"
-        },
         {
           "label": "WUKV – Szivárvány",
           "url": "https://www.wukv.at/rolunk-szivarvany/",
@@ -2812,13 +2793,6 @@
       "email": "wukv.delibab@gmail.com",
       "contactUrl": "https://www.wukv.at/",
       "calendarSources": [
-        {
-          "label": "Délibáb Bécsi Magyar Kultúregyesület – hivatalos programforrás",
-          "url": "https://www.delibab-becs.com/",
-          "kind": "parent-calendar",
-          "scope": "parent",
-          "ingestEvents": false
-        },
         {
           "label": "Délibáb Bécsi Magyar Kultúregyesület – hivatalos programforrás",
           "url": "https://www.wukv.at/",
@@ -2923,13 +2897,6 @@
       "calendarSources": [
         {
           "label": "Kapcsolódó parent/host/projektforrás – nem automatikus eseményforrás",
-          "url": "https://www.delibab-becs.com/",
-          "kind": "evidence-calendar",
-          "scope": "parent",
-          "ingestEvents": false
-        },
-        {
-          "label": "Kapcsolódó parent/host/projektforrás – nem automatikus eseményforrás",
           "url": "https://www.wukv.at/category/zenekar/",
           "kind": "evidence-calendar",
           "scope": "parent",
@@ -2971,11 +2938,6 @@
           "label": "Rólunk.at – március 15-i ünnepség",
           "url": "https://rolunk.at/aktualis/a-haza-mi-magunk-vagyunk-marcius-15-i-unnepseg-magyarorszag-becsi-nagykovetsegen/",
           "type": "community-media"
-        },
-        {
-          "label": "Délibáb Bécs – működő csoportok és citerazenekarok",
-          "url": "https://www.delibab-becs.com/",
-          "type": "official"
         }
       ],
       "activities": [
@@ -3014,15 +2976,7 @@
       "entityClass": "group",
       "email": "wukv.delibab@gmail.com",
       "contactUrl": "https://www.wukv.at/",
-      "calendarSources": [
-        {
-          "label": "Kapcsolódó parent/host/projektforrás – nem automatikus eseményforrás",
-          "url": "https://www.delibab-becs.com/",
-          "kind": "evidence-calendar",
-          "scope": "parent",
-          "ingestEvents": false
-        }
-      ],
+      "calendarSources": [],
       "affiliations": [
         {
           "organizationId": "delibab",
@@ -3034,7 +2988,7 @@
       "publicChannels": [
         {
           "label": "Röppenj Pengető Citerazenekar – kapcsolódó nyilvános forrás",
-          "url": "https://www.delibab-becs.com/",
+          "url": "https://www.wukv.at/",
           "kind": "parent-profile",
           "ownership": "parent"
         }
