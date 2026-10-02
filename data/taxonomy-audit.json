@@ -1,8 +1,8 @@
 {
-  "updated": "2026-10-02T01:21:32.856960+00:00",
+  "updated": "2026-10-02T11:02:42.559042+00:00",
   "summary": {
     "organizations": 158,
-    "organizationFlags": 2,
+    "organizationFlags": 1,
     "organizationPagesChecked": 323,
     "education": 107,
     "educationFlags": 0,
@@ -101,8 +101,7 @@
         "egyhaz",
         "irodalom",
         "muveszet",
-        "sport",
-        "csalad"
+        "sport"
       ],
       "pagesChecked": 2,
       "checkedUrls": [
@@ -1122,23 +1121,24 @@
       "activityCategories": [],
       "signals": [
         "oktatas",
+        "szinhaz",
         "media",
-        "irodalom"
+        "irodalom",
+        "muveszet",
+        "csalad"
       ],
       "pagesChecked": 2,
       "checkedUrls": [
-        "https://culture.hu/hu/wien",
+        "https://culture.hu/hu/wien/esemenyek",
         "https://culture.hu/de/wien/jubilaum"
       ],
       "errors": [
         {
-          "url": "https://culture.hu/hu/wien/esemenyek",
-          "error": "The read operation timed out"
+          "url": "https://culture.hu/hu/wien",
+          "error": "<urlopen error timed out>"
         }
       ],
-      "flags": [
-        "weak-source-signal:muveszet"
-      ]
+      "flags": []
     },
     {
       "id": "collegium-pazmanianum",
@@ -1178,7 +1178,6 @@
         "nepzene",
         "szinhaz",
         "media",
-        "egyhaz",
         "irodalom",
         "muveszet",
         "sport",
@@ -2308,7 +2307,6 @@
         "nepzene",
         "szinhaz",
         "media",
-        "egyhaz",
         "irodalom",
         "muveszet",
         "sport",
@@ -2332,7 +2330,8 @@
       ],
       "activityCategories": [],
       "signals": [
-        "csalad"
+        "diak",
+        "muveszet"
       ],
       "pagesChecked": 1,
       "checkedUrls": [
@@ -2445,7 +2444,7 @@
       "errors": [
         {
           "url": "https://www.magyarszo.at/",
-          "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'www.magyarszo.at'. (_ssl.c:1010)>"
+          "error": "<urlopen error timed out>"
         }
       ],
       "flags": []
@@ -2589,7 +2588,6 @@
         "nepzene",
         "szinhaz",
         "media",
-        "egyhaz",
         "diak",
         "irodalom",
         "muveszet",
@@ -3390,6 +3388,7 @@
         "media",
         "egyhaz",
         "irodalom",
+        "muveszet",
         "sport",
         "csalad"
       ],
@@ -4201,7 +4200,6 @@
         "nepzene",
         "szinhaz",
         "media",
-        "egyhaz",
         "diak",
         "irodalom",
         "muveszet",
