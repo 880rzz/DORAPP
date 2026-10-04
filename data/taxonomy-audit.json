@@ -1,12 +1,12 @@
 {
-  "updated": "2026-10-03T10:21:27.677562+00:00",
+  "updated": "2026-10-04T11:05:17.621192+00:00",
   "summary": {
     "organizations": 158,
     "organizationFlags": 1,
-    "organizationPagesChecked": 322,
+    "organizationPagesChecked": 308,
     "education": 107,
     "educationFlags": 0,
-    "events": 39,
+    "events": 40,
     "eventFlags": 0
   },
   "organizations": [
@@ -507,6 +507,7 @@
         "oktatas",
         "neptanc",
         "enekkar",
+        "cserkesz",
         "szinhaz",
         "media",
         "egyhaz",
@@ -1127,17 +1128,13 @@
         "muveszet",
         "csalad"
       ],
-      "pagesChecked": 2,
+      "pagesChecked": 3,
       "checkedUrls": [
+        "https://culture.hu/hu/wien",
         "https://culture.hu/hu/wien/esemenyek",
         "https://culture.hu/de/wien/jubilaum"
       ],
-      "errors": [
-        {
-          "url": "https://culture.hu/hu/wien",
-          "error": "HTTP Error 502: Bad Gateway"
-        }
-      ],
+      "errors": [],
       "flags": []
     },
     {
@@ -1366,20 +1363,23 @@
         "neptanc",
         "nepzene",
         "enekkar",
-        "szinhaz",
         "media",
         "egyhaz",
         "muveszet",
         "sport",
         "csalad"
       ],
-      "pagesChecked": 3,
+      "pagesChecked": 2,
       "checkedUrls": [
         "https://donauphilharmonie.at/",
-        "https://volksgruppen.orf.at/v2/magyarok/stories/2914449/",
-        "https://www.kozpontiszovetseg.at/event-details/zene-es-talalkozas"
+        "https://volksgruppen.orf.at/v2/magyarok/stories/2914449/"
       ],
-      "errors": [],
+      "errors": [
+        {
+          "url": "https://www.kozpontiszovetseg.at/event-details/zene-es-talalkozas",
+          "error": "HTTP Error 429: Too Many Requests"
+        }
+      ],
       "flags": []
     },
     {
@@ -1474,21 +1474,25 @@
         "kultura"
       ],
       "activityCategories": [],
-      "signals": [],
-      "pagesChecked": 0,
-      "checkedUrls": [],
+      "signals": [
+        "oktatas",
+        "neptanc",
+        "szinhaz",
+        "media",
+        "egyhaz",
+        "diak",
+        "irodalom",
+        "muveszet"
+      ],
+      "pagesChecked": 2,
+      "checkedUrls": [
+        "https://europaclub.at/",
+        "https://europaclub.at/rolunk/europa-club-tortenete/"
+      ],
       "errors": [
         {
-          "url": "https://europaclub.at/",
-          "error": "<urlopen error timed out>"
-        },
-        {
           "url": "https://europaclub.at/rendezvenyek/meghivok/",
-          "error": "<urlopen error timed out>"
-        },
-        {
-          "url": "https://europaclub.at/rolunk/europa-club-tortenete/",
-          "error": "<urlopen error timed out>"
+          "error": "The read operation timed out"
         }
       ],
       "flags": []
@@ -2950,6 +2954,7 @@
       "signals": [
         "media",
         "irodalom",
+        "muveszet",
         "sport"
       ],
       "pagesChecked": 3,
@@ -3492,15 +3497,18 @@
         "neptanc",
         "cserkesz",
         "irodalom",
-        "muveszet",
         "csalad"
       ],
-      "pagesChecked": 2,
+      "pagesChecked": 1,
       "checkedUrls": [
-        "https://salzung.com/hu/?start=8",
         "https://www.korosiprogram.hu/hirek/salzburgi-neptanccsoport"
       ],
-      "errors": [],
+      "errors": [
+        {
+          "url": "https://salzung.com/hu/?start=8",
+          "error": "HTTP Error 429: Too Many Requests"
+        }
+      ],
       "flags": []
     },
     {
@@ -3514,19 +3522,24 @@
       "activityCategories": [],
       "signals": [
         "oktatas",
-        "enekkar",
-        "szinhaz",
-        "irodalom",
-        "muveszet",
         "csalad"
       ],
-      "pagesChecked": 3,
-      "checkedUrls": [
-        "https://www.salzung.com/hu",
-        "https://salzung.com/hu/esemenyek/kozelgo-esemenyek",
-        "https://www.salzung.com/hu/rolunk/az-egyesulet-bemutatasa"
+      "pagesChecked": 0,
+      "checkedUrls": [],
+      "errors": [
+        {
+          "url": "https://www.salzung.com/hu",
+          "error": "HTTP Error 429: Too Many Requests"
+        },
+        {
+          "url": "https://salzung.com/hu/esemenyek/kozelgo-esemenyek",
+          "error": "HTTP Error 429: Too Many Requests"
+        },
+        {
+          "url": "https://www.salzung.com/hu/rolunk/az-egyesulet-bemutatasa",
+          "error": "HTTP Error 429: Too Many Requests"
+        }
       ],
-      "errors": [],
       "flags": []
     },
     {
@@ -3538,20 +3551,24 @@
       ],
       "activityCategories": [],
       "signals": [
-        "oktatas",
-        "enekkar",
-        "szinhaz",
-        "irodalom",
-        "muveszet",
         "csalad"
       ],
-      "pagesChecked": 3,
-      "checkedUrls": [
-        "https://www.salzung.com/hu/hirek/indul-a-brumi-ovi",
-        "https://salzung.com/hu/hirek/indul-a-brumi-ovi",
-        "https://www.salzung.com/hu"
+      "pagesChecked": 0,
+      "checkedUrls": [],
+      "errors": [
+        {
+          "url": "https://www.salzung.com/hu/hirek/indul-a-brumi-ovi",
+          "error": "HTTP Error 429: Too Many Requests"
+        },
+        {
+          "url": "https://salzung.com/hu/hirek/indul-a-brumi-ovi",
+          "error": "HTTP Error 429: Too Many Requests"
+        },
+        {
+          "url": "https://www.salzung.com/hu",
+          "error": "HTTP Error 429: Too Many Requests"
+        }
       ],
-      "errors": [],
       "flags": []
     },
     {
@@ -3564,15 +3581,16 @@
       ],
       "activityCategories": [],
       "signals": [
-        "oktatas",
-        "irodalom",
         "muveszet"
       ],
-      "pagesChecked": 1,
-      "checkedUrls": [
-        "https://www.salzung.com/hu/projektek/hatartalanul"
+      "pagesChecked": 0,
+      "checkedUrls": [],
+      "errors": [
+        {
+          "url": "https://www.salzung.com/hu/projektek/hatartalanul",
+          "error": "HTTP Error 429: Too Many Requests"
+        }
       ],
-      "errors": [],
       "flags": []
     },
     {
@@ -3587,14 +3605,16 @@
       "activityCategories": [],
       "signals": [
         "oktatas",
-        "irodalom",
-        "muveszet"
+        "irodalom"
       ],
-      "pagesChecked": 1,
-      "checkedUrls": [
-        "https://www.salzung.com/hu/projektek/igylettunkmagyarok"
+      "pagesChecked": 0,
+      "checkedUrls": [],
+      "errors": [
+        {
+          "url": "https://www.salzung.com/hu/projektek/igylettunkmagyarok",
+          "error": "HTTP Error 429: Too Many Requests"
+        }
       ],
-      "errors": [],
       "flags": [
         "possible-activity-classification"
       ]
@@ -3610,24 +3630,26 @@
       ],
       "activityCategories": [],
       "signals": [
-        "oktatas",
-        "enekkar",
-        "szinhaz",
         "media",
         "egyhaz",
-        "diak",
         "irodalom",
-        "muveszet",
         "sport",
         "csalad"
       ],
-      "pagesChecked": 3,
+      "pagesChecked": 1,
       "checkedUrls": [
-        "https://www.salzung.com/hu/projektek/minikonyvtar/minikoenyvtar",
-        "https://salzung.com/hu/hirek/tervezett-programjaink-a-2021-es-evben",
         "https://volksgruppen.orf.at/magyarok/stories/3356535/"
       ],
-      "errors": [],
+      "errors": [
+        {
+          "url": "https://www.salzung.com/hu/projektek/minikonyvtar/minikoenyvtar",
+          "error": "HTTP Error 429: Too Many Requests"
+        },
+        {
+          "url": "https://salzung.com/hu/hirek/tervezett-programjaink-a-2021-es-evben",
+          "error": "HTTP Error 429: Too Many Requests"
+        }
+      ],
       "flags": []
     },
     {
@@ -3639,18 +3661,20 @@
       ],
       "activityCategories": [],
       "signals": [
-        "oktatas",
-        "neptanc",
-        "irodalom",
-        "muveszet",
-        "csalad"
+        "oktatas"
       ],
-      "pagesChecked": 2,
-      "checkedUrls": [
-        "https://salzung.com/hu/projektek/oktatas",
-        "https://salzung.com/hu/?start=8"
+      "pagesChecked": 0,
+      "checkedUrls": [],
+      "errors": [
+        {
+          "url": "https://salzung.com/hu/projektek/oktatas",
+          "error": "HTTP Error 429: Too Many Requests"
+        },
+        {
+          "url": "https://salzung.com/hu/?start=8",
+          "error": "HTTP Error 429: Too Many Requests"
+        }
       ],
-      "errors": [],
       "flags": []
     },
     {
@@ -3711,18 +3735,25 @@
       ],
       "activityCategories": [],
       "signals": [
-        "oktatas",
-        "szinhaz",
-        "media",
         "irodalom",
         "csalad"
       ],
-      "pagesChecked": 2,
-      "checkedUrls": [
-        "https://stadtbibliothek.graz.at/Angebote/Sprachenbibliothek/Sprachen-im-Depot",
-        "https://stadtbibliothek.graz.at/Stadtbibliothek-Graz-einfach-erkl%C3%A4rt"
+      "pagesChecked": 0,
+      "checkedUrls": [],
+      "errors": [
+        {
+          "url": "https://stadtbibliothek.graz.at/Angebote/Sprachenbibliothek/Sprachen-im-Depot",
+          "error": "The read operation timed out"
+        },
+        {
+          "url": "https://stadtbibliothek.graz.at/Stadtbibliothek-Graz-einfach-erkl%C3%A4rt",
+          "error": "The read operation timed out"
+        },
+        {
+          "url": "https://stadtbibliothek.graz.at/Portals/0/adam/Content/b2kuaV22rEye8W20hKafwQ/Text/Bibliothek_interkulturell_2105_2024_100x210mm_finalfinalfinal.pdf",
+          "error": "The read operation timed out"
+        }
       ],
-      "errors": [],
       "flags": []
     },
     {
@@ -3928,24 +3959,19 @@
       "activityCategories": [],
       "signals": [
         "oktatas",
-        "neptanc",
-        "nepzene",
-        "cserkesz",
-        "szinhaz",
-        "egyhaz",
-        "diak",
-        "irodalom",
-        "muveszet",
-        "sport",
         "csalad"
       ],
-      "pagesChecked": 3,
+      "pagesChecked": 2,
       "checkedUrls": [
         "https://ungarball.at/",
-        "https://ungarball.at/impressum",
-        "https://www.kozpontiszovetseg.at/tagszervezetek"
+        "https://ungarball.at/impressum"
       ],
-      "errors": [],
+      "errors": [
+        {
+          "url": "https://www.kozpontiszovetseg.at/tagszervezetek",
+          "error": "HTTP Error 429: Too Many Requests"
+        }
+      ],
       "flags": []
     },
     {
