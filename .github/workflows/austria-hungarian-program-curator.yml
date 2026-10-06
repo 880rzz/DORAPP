@@ -27,11 +27,13 @@ jobs:
       - name: Install deterministic build dependencies
         run: python -m pip install --disable-pip-version-check pycountry==24.6.1 pyshp==2.3.1
       - name: Compile curator
-        run: python -m py_compile scripts/update_events.py scripts/update_articles.py scripts/validate_directory.py
+        run: python -m py_compile scripts/update_events.py scripts/update_articles.py scripts/audit_taxonomy.py scripts/validate_directory.py
       - name: Refresh verified event sources
         run: python scripts/update_events.py
       - name: Refresh organization articles
         run: python scripts/update_articles.py
+      - name: Refresh taxonomy audit
+        run: python scripts/audit_taxonomy.py
       - name: Validate directory integrity
         run: python scripts/validate_directory.py
       - name: Validate JSON
@@ -41,6 +43,7 @@ jobs:
           python -m json.tool data/source-health.json >/dev/null
           python -m json.tool data/articles.json >/dev/null
           python -m json.tool data/education.json >/dev/null
+          python -m json.tool data/taxonomy-audit.json >/dev/null
       - name: Rebuild and validate published output
         run: |
           python scripts/generate_global_compat.py
@@ -59,13 +62,13 @@ jobs:
           python scripts/validate_static_output.py
       - name: Commit source-backed changes
         run: |
-          if [ -z "$(git status --porcelain -- data/events.json data/source-health.json data/articles.json data/global.json data/global-search-index.json data/global-events.json data/countries countries assets/maps sitemap.xml szervezetek oktatas esemenyek tartomanyok kategoriak entity.jsonld ai-entry.json adatminoseg.html)" ]; then
+          if [ -z "$(git status --porcelain -- data/events.json data/source-health.json data/articles.json data/taxonomy-audit.json data/global.json data/global-search-index.json data/global-events.json data/countries countries assets/maps sitemap.xml szervezetek oktatas esemenyek tartomanyok kategoriak entity.jsonld ai-entry.json adatminoseg.html)" ]; then
             echo "No data changes"
             exit 0
           fi
           git config user.name "austria-program-curator[bot]"
           git config user.email "actions@users.noreply.github.com"
-          git add data/events.json data/source-health.json data/articles.json data/education-site-health.json data/global.json data/global-search-index.json data/global-events.json data/countries countries assets/maps sitemap.xml szervezetek oktatas esemenyek tartomanyok kategoriak entity.jsonld ai-entry.json adatminoseg.html
+          git add data/events.json data/source-health.json data/articles.json data/taxonomy-audit.json data/education-site-health.json data/global.json data/global-search-index.json data/global-events.json data/countries countries assets/maps sitemap.xml szervezetek oktatas esemenyek tartomanyok kategoriak entity.jsonld ai-entry.json adatminoseg.html
           git commit -m "chore(events): daily source-backed refresh"
           for attempt in 1 2 3; do
             if git push origin HEAD:main; then
@@ -79,10 +82,12 @@ jobs:
               git reset --hard origin/main
               python scripts/update_events.py
               python scripts/update_articles.py
+              python scripts/audit_taxonomy.py
               python scripts/validate_directory.py
               python -m json.tool data/events.json >/dev/null
               python -m json.tool data/source-health.json >/dev/null
               python -m json.tool data/articles.json >/dev/null
+              python -m json.tool data/taxonomy-audit.json >/dev/null
               python scripts/generate_global_compat.py
               python scripts/generate_global_search_index.py
               python scripts/generate_global_calendar.py
@@ -97,7 +102,7 @@ jobs:
               python scripts/generate_sitemap.py
               python scripts/validate_global.py
               python scripts/validate_static_output.py
-              git add data/events.json data/source-health.json data/articles.json data/education-site-health.json data/global.json data/global-search-index.json data/global-events.json data/countries countries assets/maps sitemap.xml szervezetek oktatas esemenyek tartomanyok kategoriak entity.jsonld ai-entry.json adatminoseg.html
+              git add data/events.json data/source-health.json data/articles.json data/taxonomy-audit.json data/education-site-health.json data/global.json data/global-search-index.json data/global-events.json data/countries countries assets/maps sitemap.xml szervezetek oktatas esemenyek tartomanyok kategoriak entity.jsonld ai-entry.json adatminoseg.html
               if git diff --cached --quiet; then
                 echo "No data changes remain after rebasing"
                 exit 0
