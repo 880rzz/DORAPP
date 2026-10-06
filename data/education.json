@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-29",
+  "updated": "2026-10-06",
   "methodology": "Az intézmények csak akkor kerülnek be, ha magyar nyelvű oktatásukat vagy magyar közösségi programjukat ORF, hivatalos intézményi oldal, Bildungsdirektion vagy más elsődleges/intézményi forrás igazolja. Az officialSiteMentionsHungarian mező azt jelzi, hogy a saját honlapon találtunk-e külön magyar tartalmat.",
   "institutions": [
     {
@@ -199,11 +199,11 @@
         "primary"
       ],
       "type": "állami magyar nyelvi oktatás",
-      "website": "https://vs-campusmirabell.at/",
-      "officialSiteMentionsHungarian": false,
-      "summary": "Heti magyaroktatás Unverbindliche Übung formájában.",
-      "sourceUrl": "https://volksgruppen.orf.at/magyarok/stories/3334658/",
-      "verifiedFor": "2025/26",
+      "website": "https://vs-campusmirabell.at/unverbindliche-uebungen/",
+      "officialSiteMentionsHungarian": true,
+      "summary": "A Volksschule Campus Mirabell aktuális választható foglalkozásai között magyar anyanyelvi oktatás szerepel; az iskola címe Faberstraße 8, 5020 Salzburg.",
+      "sourceUrl": "https://vs-campusmirabell.at/unverbindliche-uebungen/",
+      "verifiedFor": "2026/27",
       "recordClass": "institution"
     },
     {
@@ -770,9 +770,9 @@
       ],
       "type": "gimnáziumi magyaroktatás",
       "website": "https://www.seebacher.ac.at/",
-      "officialSiteMentionsHungarian": true,
-      "summary": "A Seebacher Gymnasium saját jelenlegi iskolaprofilja a magyart a nyelvi kínálat részeként sorolja fel; a tantestületben külön magyar szakos pedagógus is szerepel.",
-      "sourceUrl": "https://www.seebacher.ac.at/de/inhalt/schulprofil-leitbild",
+      "officialSiteMentionsHungarian": false,
+      "summary": "A BG/BRG Graz Seebachergasse a 2026/27-es tanévben két magyar anyanyelvi kurzust kínál heti két órában, nyolcéves, C1 szintig vezető tanmenettel, valamint egy magyar mint idegen nyelv kurzust heti két órában, négyéves, B1 szintig vezető tanmenettel.",
+      "sourceUrl": "https://www.bildung-stmk.gv.at/unterricht/Mehrschulenkurse.html",
       "verifiedFor": "2026/27",
       "recordClass": "institution"
     },
@@ -1025,10 +1025,10 @@
         "primary"
       ],
       "type": "hétvégi magyar óvoda és iskola",
-      "website": "https://www.magyariskola.at/",
+      "website": "https://www.magyariskola.at/event-details/iskolabaden-2026",
       "officialSiteMentionsHungarian": true,
-      "summary": "A BMI 2026/27-ben először Badenben is indított magyar nyelvi csoportokat, köztük óvodai foglalkozást.",
-      "sourceUrl": "https://rolunk.at/nepcsoportunk/a-magyar-nyelvhez-jo-dolgok-kapcsolodnak-ovodai-foglalkozasok-becsben-es-badenben/",
+      "summary": "A Bécsi Magyar Iskola 2026/27-es badeni magyar nyelvi csoportja 1–2. osztályos, 7–8 éves gyermekeknek tart foglalkozást keddenként 16:00–17:30 között a Johannesgasse 9. alatt; az óvodai csoport külön helyszínen működik.",
+      "sourceUrl": "https://www.magyariskola.at/event-details/iskolabaden-2026",
       "verifiedFor": "2026/27",
       "recordClass": "education-unit"
     },
@@ -1495,10 +1495,10 @@
         "secondary"
       ],
       "type": "kreatív digitális és művészeti műhely",
-      "website": "https://www.vipach.at/bemutatkozas",
+      "website": "https://www.magyariskola.at/event-details/be-smart-kids-club",
       "officialSiteMentionsHungarian": true,
-      "summary": "A VIPACH 10–18 éveseknek szóló kreatív műhelye, amely a passzív képernyőhasználatot aktív alkotássá, digitális és vizuális készségekké alakítja.",
-      "sourceUrl": "https://www.vipach.at/bemutatkozas",
+      "summary": "A VIPACH Be Smart Kids Club 10–18 éves fiataloknak szóló, 2026-ban dokumentált kreatív digitális és művészeti műhely; a Bécsi Magyar Iskola partnerprogramjaként online és bécsi központtal működik.",
+      "sourceUrl": "https://www.magyariskola.at/event-details/be-smart-kids-club",
       "recordClass": "course",
       "activityCategories": [
         "kreativ-digitalis",

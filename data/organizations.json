@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-02",
+  "updated": "2026-10-06",
   "sourcePolicy": "Official organization sources preferred; umbrella directories and Austrian-Hungarian community media used as secondary verification. Missing social/event links remain null rather than guessed.",
   "states": [
     {
@@ -4223,6 +4223,16 @@
           "label": "BMKE – aktuális főoldal",
           "url": "https://bukv.at/",
           "type": "official"
+        },
+        {
+          "label": "BMKE – aktuális iroda a Népcsoportok Házában",
+          "url": "https://bukv.at/links/",
+          "type": "official"
+        },
+        {
+          "label": "ORF Magyarok – a Népcsoportok Háza megnyitása és a BMKE költözése",
+          "url": "https://volksgruppen.orf.at/magyarok/stories/3372794/",
+          "type": "public-broadcaster"
         }
       ],
       "categories": [
@@ -4279,7 +4289,7 @@
       ],
       "email": "office@bukv.at",
       "phone": "+43 3352 38489",
-      "profileVerifiedAt": "2026-09-25",
+      "profileVerifiedAt": "2026-10-06",
       "entityClass": "organization",
       "calendarSources": [
         {
@@ -4296,7 +4306,8 @@
           "scope": "self",
           "ingestEvents": false
         }
-      ]
+      ],
+      "address": "Schulgasse 33, Büro 4, 7400 Oberwart, Ausztria"
     },
     {
       "id": "vhs-burgenland",
@@ -6153,7 +6164,7 @@
       "city": "Linz",
       "type": "egyházi közösség",
       "intro": "A Linzi Magyar Katolikus Közösség Felső-Ausztria magyar híveinek egyik központja. Magyar nyelvű szentmiséket, egyházi és közösségi alkalmakat szervez; lelkipásztora az ausztriai magyar katolikus közösségek országos koordinációjában is szerepet vállal.",
-      "website": "https://ausztria.katolikus.at/",
+      "website": "https://diaszpora.katolikus.hu/kozossegek/ungarnseelsorgezentrum-d-diozese-linz",
       "facebook": null,
       "instagram": null,
       "eventSources": [],
@@ -6189,6 +6200,11 @@
           "label": "Diözese Linz – magyar istentiszteleti rend",
           "url": "https://www.dioezese-linz.at/institution/8038/ueberuns/gottesdiensteveranstaltun/article/21612.html",
           "type": "official"
+        },
+        {
+          "label": "Magyar Katolikus Püspöki Konferencia – Ungarnseelsorgezentrum der Diözese Linz",
+          "url": "https://diaszpora.katolikus.hu/kozossegek/ungarnseelsorgezentrum-d-diozese-linz",
+          "type": "church-official"
         }
       ],
       "categories": [
@@ -6210,7 +6226,7 @@
         "német"
       ],
       "email": "ernest.szabo@dioezese-linz.at",
-      "profileVerifiedAt": "2026-09-28",
+      "profileVerifiedAt": "2026-10-06",
       "founded": "1999",
       "history": {
         "summary": "A Linzi Magyar Katolikus Közösség mai lelkipásztori struktúrája 1999-től Szabó Ernő atya szolgálatához kapcsolódik. A magyar katolikus lelkipásztori központ kezdetben a Senefelderstraße 6. alatti nővérek házában működött; 2004 és 2012 között a Petrinumban kapott helyet, majd 2012-ben Welsbe költözött. A közösség Linzben és Welsben rendszeres magyar szentmiséket tart.",
@@ -6250,6 +6266,19 @@
           "kind": "official-calendar",
           "scope": "self",
           "ingestEvents": false
+        }
+      ],
+      "contactUrl": "https://diaszpora.katolikus.hu/kozossegek/ungarnseelsorgezentrum-d-diozese-linz",
+      "address": "Salzburger Straße 24, 4020 Linz, Ausztria",
+      "phone": "+43 732 341175",
+      "serviceLocations": [
+        {
+          "city": "Linz",
+          "label": "Guter Hirte – Am Steinbühel 31, 4030 Linz"
+        },
+        {
+          "city": "Wels",
+          "label": "St. Stephan/Lichtenegg – Königsederstraße 20, 4600 Wels"
         }
       ]
     },
@@ -7655,6 +7684,11 @@
           "label": "Diözese Innsbruck – Muttersprachliche Seelsorge, Ungarische Gemeinde (Stand September 2026)",
           "url": "https://www.dibk.at/Media/Organisationen/muttersprachliche-seelsorge",
           "type": "church-official"
+        },
+        {
+          "label": "Diözese Innsbruck – magyar közösség istentiszteleti rendje és kapcsolata (2026. szeptember)",
+          "url": "https://www.dibk.at/ngsite/content/download/204103/3693696",
+          "type": "church-official"
         }
       ],
       "categories": [
@@ -7685,8 +7719,8 @@
         "magyar",
         "német"
       ],
-      "email": "pepat@ikbnet.at",
-      "profileVerifiedAt": "2026-09-28",
+      "email": "arpad.sztankay@aon.at",
+      "profileVerifiedAt": "2026-10-06",
       "entityClass": "organization",
       "calendarSources": [
         {
@@ -7695,6 +7729,14 @@
           "kind": "official-calendar",
           "scope": "self",
           "ingestEvents": false
+        }
+      ],
+      "phone": "+43 699 1094 6181",
+      "address": "Richard-Wagner-Straße 3, 6020 Innsbruck, Ausztria",
+      "serviceLocations": [
+        {
+          "city": "Innsbruck",
+          "label": "Magyarház – Richard-Wagner-Straße 3.; a hónap második vasárnapján 15:00"
         }
       ]
     },
@@ -14587,6 +14629,153 @@
           "url": "https://events.eventjet.at/e/fellegi-adam-a-ferfi-eletenek-3-korszaka-beethoven-a-szerelmes-a-hos-es-a-boelcs/",
           "kind": "ticketing-profile",
           "ownership": "self"
+        }
+      ]
+    },
+    {
+      "id": "grazer-ungarisches-theater",
+      "name": "Grazer Ungarisches Theater",
+      "state": "steiermark",
+      "city": "Graz",
+      "type": "magyar színház és kulturális központ",
+      "intro": "A Grazer Ungarisches Theater 2024-ben alakult magyar nyelvű grazi színházi társulat és kulturális tér. Előadásai mellett kiállításoknak, zenei programoknak, beszélgetéseknek és közösségi művészeti alkalmaknak is helyet ad.",
+      "website": "https://grazerungarischestheater.com/",
+      "facebook": null,
+      "instagram": null,
+      "eventSources": [],
+      "categories": [
+        "szinhaz",
+        "muveszet",
+        "kozosseg"
+      ],
+      "founded": "2024-10",
+      "history": {
+        "summary": "A társulat 2024 októberében alakult Grazban. Saját játszóhelyét közösségi munkával hozta létre, majd magyar nyelvű előadások mellett galériával, zenei estekkel és más kulturális programokkal bővítette működését.",
+        "milestones": [
+          {
+            "date": "2024-10",
+            "title": "A társulat megalakulása",
+            "description": "Megalakul a Grazer Ungarisches Theater magyar nyelvű társulata.",
+            "sourceUrl": "https://volksgruppen.orf.at/magyarok/stories/3298895/"
+          },
+          {
+            "year": "2025",
+            "title": "Saját kulturális tér Grazban",
+            "description": "A társulat saját játszó- és kiállítóteret alakít ki a Franziskanergassén.",
+            "sourceUrl": "https://volksgruppen.orf.at/magyarok/stories/3306694/"
+          }
+        ]
+      },
+      "activities": [
+        "magyar nyelvű színházi előadások",
+        "kiállítások és képzőművészeti programok",
+        "zenei és beszélgetős estek",
+        "színművészeti műhely és közösségi kulturális programok"
+      ],
+      "targetGroups": [
+        "Grazban és Stájerországban élő magyarok",
+        "magyar és német nyelvű színházi közönség",
+        "kulturális és művészeti közösségek"
+      ],
+      "languages": [
+        "magyar",
+        "német"
+      ],
+      "profileVerifiedAt": "2026-10-06",
+      "email": "grazerungarischestheater@gmail.com",
+      "phone": "+43 650 7305284",
+      "address": "Franziskanergasse 4, 8010 Graz, Ausztria",
+      "evidenceSources": [
+        {
+          "label": "Grazer Ungarisches Theater – hivatalos oldal és kapcsolat",
+          "url": "https://grazerungarischestheater.com/",
+          "type": "official"
+        },
+        {
+          "label": "ORF Magyarok – WIR: Művészet és kultúra a GUT-ban",
+          "url": "https://volksgruppen.orf.at/magyarok/stories/3312129/",
+          "type": "public-broadcaster"
+        },
+        {
+          "label": "ORF Magyarok – Magyar színházak Ausztriában",
+          "url": "https://volksgruppen.orf.at/magyarok/stories/3298895/",
+          "type": "public-broadcaster"
+        }
+      ],
+      "entityClass": "organization",
+      "calendarSources": [
+        {
+          "label": "Grazer Ungarisches Theater – hivatalos programfelület",
+          "url": "https://grazerungarischestheater.com/",
+          "kind": "official-website",
+          "scope": "self",
+          "ingestEvents": false
+        }
+      ]
+    },
+    {
+      "id": "katolikus-salzburg",
+      "name": "Salzburgi Magyar Katolikus Közösség",
+      "state": "salzburg",
+      "city": "Salzburg",
+      "type": "egyházi közösség",
+      "intro": "A Salzburgi Magyar Katolikus Közösség az Erzdiözese Salzburg magyar nyelvű istentiszteleti közössége. Havonta magyar nyelvű szentmisét tart az orsolyita kolostorban, és lelkipásztori kapcsolódást biztosít a Salzburg környékén élő magyar híveknek.",
+      "website": "https://www.edsbg.at/seelsorge/weltkirche/anderssprachige-seelsorge/ungarische-gemeinde",
+      "facebook": null,
+      "instagram": null,
+      "eventSources": [
+        "https://www.edsbg.at/seelsorge/weltkirche/anderssprachige-seelsorge/ungarische-gemeinde"
+      ],
+      "categories": [
+        "egyhaz"
+      ],
+      "history": {
+        "summary": "Az Erzdiözese Salzburg hivatalos magyar nyelvű közössége rendszeres havi eucharisztikus alkalmat tart Salzburgban.",
+        "milestones": []
+      },
+      "activities": [
+        "magyar nyelvű szentmisék",
+        "lelkipásztori szolgálat",
+        "egyházi és közösségi alkalmak"
+      ],
+      "targetGroups": [
+        "Salzburgban és környékén élő magyar katolikusok",
+        "magyar családok és hívők"
+      ],
+      "languages": [
+        "magyar",
+        "német"
+      ],
+      "profileVerifiedAt": "2026-10-06",
+      "email": "jhajdu@gmx.at",
+      "phone": "+43 664 1296673",
+      "address": "Aignerstraße 135, 5061 Salzburg, Ausztria",
+      "evidenceSources": [
+        {
+          "label": "Erzdiözese Salzburg – Ungarisch-sprachige Gemeinde",
+          "url": "https://www.edsbg.at/seelsorge/weltkirche/anderssprachige-seelsorge/ungarische-gemeinde",
+          "type": "church-official"
+        },
+        {
+          "label": "Erzdiözese Salzburg – magyar közösségi tájékoztató (2026)",
+          "url": "https://www.edsbg.at/dl/klOKJmMJKNLMKJqx4KJK/ungarischsprachige_Gottesdienstgemeinde_Salzburg_pdf",
+          "type": "church-official"
+        }
+      ],
+      "entityClass": "organization",
+      "serviceLocations": [
+        {
+          "city": "Salzburg",
+          "label": "Ursulinenkloster – Aignerstraße 135.; a hónap harmadik szombatján 17:00"
+        }
+      ],
+      "calendarSources": [
+        {
+          "label": "Erzdiözese Salzburg – magyar közösség és istentiszteleti rend",
+          "url": "https://www.edsbg.at/seelsorge/weltkirche/anderssprachige-seelsorge/ungarische-gemeinde",
+          "kind": "official-calendar",
+          "scope": "self",
+          "ingestEvents": false
         }
       ]
     }
