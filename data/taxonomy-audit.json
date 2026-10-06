@@ -1,8 +1,8 @@
 {
-  "updated": "2026-10-06T11:59:03.840764+00:00",
+  "updated": "2026-10-06T20:24:05.942685+00:00",
   "summary": {
     "organizations": 160,
-    "organizationFlags": 1,
+    "organizationFlags": 2,
     "organizationPagesChecked": 313,
     "education": 107,
     "educationFlags": 0,
@@ -1125,20 +1125,23 @@
       "activityCategories": [],
       "signals": [
         "oktatas",
-        "szinhaz",
         "media",
-        "irodalom",
-        "muveszet",
-        "csalad"
+        "irodalom"
       ],
-      "pagesChecked": 3,
+      "pagesChecked": 2,
       "checkedUrls": [
         "https://culture.hu/hu/wien",
-        "https://culture.hu/hu/wien/esemenyek",
         "https://culture.hu/de/wien/jubilaum"
       ],
-      "errors": [],
-      "flags": []
+      "errors": [
+        {
+          "url": "https://culture.hu/hu/wien/esemenyek",
+          "error": "The read operation timed out"
+        }
+      ],
+      "flags": [
+        "weak-source-signal:muveszet"
+      ]
     },
     {
       "id": "collegium-pazmanianum",
@@ -1478,14 +1481,26 @@
       ],
       "activityCategories": [],
       "signals": [
+        "oktatas",
+        "neptanc",
+        "szinhaz",
         "media",
-        "irodalom"
+        "egyhaz",
+        "diak",
+        "irodalom",
+        "muveszet"
       ],
-      "pagesChecked": 1,
+      "pagesChecked": 2,
       "checkedUrls": [
-        "https://europaclub.at/"
+        "https://europaclub.at/",
+        "https://europaclub.at/rolunk/europa-club-tortenete/"
       ],
-      "errors": [],
+      "errors": [
+        {
+          "url": "https://europaclub.at/rendezvenyek/meghivok/",
+          "error": "The read operation timed out"
+        }
+      ],
       "flags": []
     },
     {
@@ -2477,7 +2492,7 @@
       "errors": [
         {
           "url": "https://www.magyarszo.at/",
-          "error": "<urlopen error timed out>"
+          "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'www.magyarszo.at'. (_ssl.c:1010)>"
         }
       ],
       "flags": []
