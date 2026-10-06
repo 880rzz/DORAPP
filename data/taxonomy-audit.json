@@ -1,12 +1,12 @@
 {
-  "updated": "2026-10-06T01:16:42.607017+00:00",
+  "updated": "2026-10-06T11:59:03.840764+00:00",
   "summary": {
     "organizations": 160,
     "organizationFlags": 1,
     "organizationPagesChecked": 313,
     "education": 107,
     "educationFlags": 0,
-    "events": 47,
+    "events": 45,
     "eventFlags": 0
   },
   "organizations": [
@@ -505,7 +505,9 @@
       "activityCategories": [],
       "signals": [
         "oktatas",
+        "neptanc",
         "enekkar",
+        "cserkesz",
         "szinhaz",
         "media",
         "egyhaz",
@@ -1476,26 +1478,14 @@
       ],
       "activityCategories": [],
       "signals": [
-        "oktatas",
-        "neptanc",
-        "szinhaz",
         "media",
-        "egyhaz",
-        "diak",
-        "irodalom",
-        "muveszet"
+        "irodalom"
       ],
-      "pagesChecked": 2,
+      "pagesChecked": 1,
       "checkedUrls": [
-        "https://europaclub.at/",
-        "https://europaclub.at/rolunk/europa-club-tortenete/"
+        "https://europaclub.at/"
       ],
-      "errors": [
-        {
-          "url": "https://europaclub.at/rendezvenyek/meghivok/",
-          "error": "The read operation timed out"
-        }
-      ],
+      "errors": [],
       "flags": []
     },
     {
@@ -2374,14 +2364,14 @@
         "kozosseg"
       ],
       "activityCategories": [],
-      "signals": [],
-      "pagesChecked": 0,
-      "checkedUrls": [],
+      "signals": [
+        "csalad"
+      ],
+      "pagesChecked": 1,
+      "checkedUrls": [
+        "https://leaninfemspace.at/"
+      ],
       "errors": [
-        {
-          "url": "https://leaninfemspace.at/",
-          "error": "HTTP Error 500: Internal Server Error"
-        },
         {
           "url": "https://www.kozpontiszovetseg.at/tagszervezetek",
           "error": "HTTP Error 429: Too Many Requests"
@@ -2487,7 +2477,7 @@
       "errors": [
         {
           "url": "https://www.magyarszo.at/",
-          "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'www.magyarszo.at'. (_ssl.c:1010)>"
+          "error": "<urlopen error timed out>"
         }
       ],
       "flags": []
@@ -2999,7 +2989,6 @@
         "oktatas",
         "media",
         "diak",
-        "irodalom",
         "muveszet",
         "sport",
         "csalad"
@@ -3432,6 +3421,7 @@
         "egyhaz",
         "irodalom",
         "muveszet",
+        "sport",
         "csalad"
       ],
       "pagesChecked": 2,
