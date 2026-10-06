@@ -53,8 +53,8 @@ jobs:
           git fetch origin main
           git reset --hard origin/main
 
-      - name: Install deterministic country metadata dependency
-        run: python -m pip install --disable-pip-version-check pycountry==24.6.1
+      - name: Install deterministic build dependencies
+        run: python -m pip install --disable-pip-version-check pycountry==24.6.1 pyshp==2.3.1
 
       - name: Enrich country registry names
         run: python scripts/enrich_country_registry.py
