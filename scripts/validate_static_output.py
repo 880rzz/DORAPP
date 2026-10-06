@@ -135,6 +135,15 @@ for key,expected in (
     if ai_entry.get("counts",{}).get(key)!=expected:
         errors.append(f"stale ai-entry count: {key}")
 
+taxonomy_audit=json.loads((ROOT/"data/taxonomy-audit.json").read_text(encoding="utf-8"))
+for key,expected in (
+    ("organizations",len(org.get("organizations",[]))),
+    ("education",len(edu.get("institutions",[]))),
+    ("events",len(ev.get("events",[]))),
+):
+    if taxonomy_audit.get("summary",{}).get(key)!=expected:
+        errors.append(f"stale taxonomy-audit count: {key}")
+
 for p in ("index.html","forrasok.html","szervezet.html"):
     text=(ROOT/p).read_text(encoding="utf-8")
     if "googletagmanager.com/gtag/js" in text or "gtag('config','G-1FC22JEX2F')" in text:
