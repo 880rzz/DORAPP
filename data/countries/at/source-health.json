@@ -1,10 +1,10 @@
 {
-  "updated": "2026-10-06T20:26:05.178300+00:00",
+  "updated": "2026-10-06T20:39:47.153445+00:00",
   "sources": [
     {
       "organizationId": "alsoori-katolikus",
       "source": "https://www.martinus.at/pfarre/1127/kalender",
-      "checkedAt": "2026-10-06T20:25:11.682879+00:00",
+      "checkedAt": "2026-10-06T20:38:51.660248+00:00",
       "status": "network-error",
       "eventsFound": 0,
       "pagesChecked": 0,
@@ -13,7 +13,7 @@
     {
       "organizationId": "becsi-magyar-iskola",
       "source": "https://www.magyariskola.at/esemenyek",
-      "checkedAt": "2026-10-06T20:24:54.777951+00:00",
+      "checkedAt": "2026-10-06T20:38:41.276674+00:00",
       "status": "ok-events",
       "eventsFound": 1,
       "pagesChecked": 7
@@ -21,7 +21,7 @@
     {
       "organizationId": "bukv",
       "source": "https://bukv.at/hu/veranstaltungen-hu/",
-      "checkedAt": "2026-10-06T20:24:59.505056+00:00",
+      "checkedAt": "2026-10-06T20:38:42.644079+00:00",
       "status": "ok-no-structured-event",
       "eventsFound": 0,
       "pagesChecked": 7
@@ -29,7 +29,7 @@
     {
       "organizationId": "collegium-hungaricum-wien",
       "source": "https://culture.hu/hu/wien/esemenyek",
-      "checkedAt": "2026-10-06T20:25:13.675787+00:00",
+      "checkedAt": "2026-10-06T20:38:56.610624+00:00",
       "status": "ok-no-structured-event",
       "eventsFound": 0,
       "pagesChecked": 3
@@ -37,7 +37,7 @@
     {
       "organizationId": "cserkesz-72",
       "source": "https://cserkesz.at/programok/",
-      "checkedAt": "2026-10-06T20:24:54.777335+00:00",
+      "checkedAt": "2026-10-06T20:38:41.275789+00:00",
       "status": "ok-no-structured-event",
       "eventsFound": 0,
       "pagesChecked": 7
@@ -45,7 +45,7 @@
     {
       "organizationId": "cserkesz-80",
       "source": "https://wels.cserkesz.eu/programok/",
-      "checkedAt": "2026-10-06T20:25:05.255673+00:00",
+      "checkedAt": "2026-10-06T20:38:43.127503+00:00",
       "status": "ok-events",
       "eventsFound": 6,
       "pagesChecked": 7
@@ -53,15 +53,16 @@
     {
       "organizationId": "delibab",
       "source": "https://www.wukv.at/",
-      "checkedAt": "2026-10-06T20:24:55.763821+00:00",
-      "status": "ok-no-structured-event",
+      "checkedAt": "2026-10-06T20:38:41.866501+00:00",
+      "status": "site-blocked",
       "eventsFound": 0,
-      "pagesChecked": 7
+      "pagesChecked": 0,
+      "error": "HTTP Error 403: Forbidden"
     },
     {
       "organizationId": "europa-club",
       "source": "https://europaclub.at/rendezvenyek/meghivok/",
-      "checkedAt": "2026-10-06T20:24:54.782709+00:00",
+      "checkedAt": "2026-10-06T20:38:41.284973+00:00",
       "status": "site-blocked",
       "eventsFound": 0,
       "pagesChecked": 0,
@@ -70,7 +71,7 @@
     {
       "organizationId": "evangelikus-gyulekezet",
       "source": "https://www.evangelikus-at.com/istentiszteleteink",
-      "checkedAt": "2026-10-06T20:24:57.092885+00:00",
+      "checkedAt": "2026-10-06T20:38:42.038637+00:00",
       "status": "ok-no-structured-event",
       "eventsFound": 0,
       "pagesChecked": 1
@@ -78,15 +79,16 @@
     {
       "organizationId": "fecske-klub",
       "source": "https://fecskeklub.at/",
-      "checkedAt": "2026-10-06T20:24:54.781202+00:00",
-      "status": "ok-no-structured-event",
+      "checkedAt": "2026-10-06T20:38:41.282271+00:00",
+      "status": "site-blocked",
       "eventsFound": 0,
-      "pagesChecked": 4
+      "pagesChecked": 0,
+      "error": "HTTP Error 403: Forbidden"
     },
     {
       "organizationId": "felsoori-katolikus",
       "source": "https://www.martinus.at/pfarre/1122/kalender",
-      "checkedAt": "2026-10-06T20:25:12.727884+00:00",
+      "checkedAt": "2026-10-06T20:38:55.322621+00:00",
       "status": "network-error",
       "eventsFound": 0,
       "pagesChecked": 0,
@@ -95,7 +97,7 @@
     {
       "organizationId": "femconnect-graz",
       "source": "https://femconnectgraz.at/events/",
-      "checkedAt": "2026-10-06T20:25:07.011648+00:00",
+      "checkedAt": "2026-10-06T20:38:44.665259+00:00",
       "status": "ok-events",
       "eventsFound": 6,
       "pagesChecked": 7
@@ -103,7 +105,7 @@
     {
       "organizationId": "katolikus-salzburg",
       "source": "https://www.edsbg.at/seelsorge/weltkirche/anderssprachige-seelsorge/ungarische-gemeinde",
-      "checkedAt": "2026-10-06T20:25:14.809675+00:00",
+      "checkedAt": "2026-10-06T20:38:56.996381+00:00",
       "status": "network-error",
       "eventsFound": 0,
       "pagesChecked": 0,
@@ -112,7 +114,7 @@
     {
       "organizationId": "katolikus-wien",
       "source": "https://katolikus.at/",
-      "checkedAt": "2026-10-06T20:24:58.098890+00:00",
+      "checkedAt": "2026-10-06T20:38:42.265514+00:00",
       "status": "ok-no-structured-event",
       "eventsFound": 0,
       "pagesChecked": 1
@@ -120,7 +122,7 @@
     {
       "organizationId": "kozponti-szovetseg",
       "source": "https://www.kozpontiszovetseg.at/event-list",
-      "checkedAt": "2026-10-06T20:24:54.775730+00:00",
+      "checkedAt": "2026-10-06T20:38:41.273840+00:00",
       "status": "rate-limited",
       "eventsFound": 0,
       "pagesChecked": 0,
@@ -129,15 +131,16 @@
     {
       "organizationId": "kultpult",
       "source": "https://kultpult.eu/",
-      "checkedAt": "2026-10-06T20:24:54.782204+00:00",
-      "status": "ok-no-structured-event",
+      "checkedAt": "2026-10-06T20:38:41.284268+00:00",
+      "status": "site-blocked",
       "eventsFound": 0,
-      "pagesChecked": 3
+      "pagesChecked": 0,
+      "error": "HTTP Error 403: Forbidden"
     },
     {
       "organizationId": "mamut-musical",
       "source": "https://www.musicaltarsulat.at/",
-      "checkedAt": "2026-10-06T20:25:13.837962+00:00",
+      "checkedAt": "2026-10-06T20:38:56.703086+00:00",
       "status": "ok-no-structured-event",
       "eventsFound": 0,
       "pagesChecked": 1
@@ -145,7 +148,7 @@
     {
       "organizationId": "oeius",
       "source": "https://www.oeius.at/hu/veranstaltungen",
-      "checkedAt": "2026-10-06T20:24:54.776423+00:00",
+      "checkedAt": "2026-10-06T20:38:41.274749+00:00",
       "status": "ok-no-structured-event",
       "eventsFound": 0,
       "pagesChecked": 3
@@ -153,7 +156,7 @@
     {
       "organizationId": "osztrak-magyar-tarsasag",
       "source": "https://goeu.at/",
-      "checkedAt": "2026-10-06T20:24:56.085675+00:00",
+      "checkedAt": "2026-10-06T20:38:41.941484+00:00",
       "status": "ok-no-structured-event",
       "eventsFound": 0,
       "pagesChecked": 1
@@ -161,7 +164,7 @@
     {
       "organizationId": "reformatus-szolgalat",
       "source": "https://www.reformatus.at/events/2026/",
-      "checkedAt": "2026-10-06T20:24:57.437894+00:00",
+      "checkedAt": "2026-10-06T20:38:42.138077+00:00",
       "status": "ok-events",
       "eventsFound": 6,
       "pagesChecked": 7
@@ -169,7 +172,7 @@
     {
       "organizationId": "salzung",
       "source": "https://salzung.com/hu/esemenyek/kozelgo-esemenyek",
-      "checkedAt": "2026-10-06T20:25:10.255361+00:00",
+      "checkedAt": "2026-10-06T20:38:50.835471+00:00",
       "status": "ok-no-structured-event",
       "eventsFound": 0,
       "pagesChecked": 1
@@ -177,23 +180,25 @@
     {
       "organizationId": "svung",
       "source": "https://www.svung.at/show/aktualis-eloadasok/",
-      "checkedAt": "2026-10-06T20:24:54.776822+00:00",
-      "status": "ok-no-structured-event",
+      "checkedAt": "2026-10-06T20:38:41.275285+00:00",
+      "status": "site-blocked",
       "eventsFound": 0,
-      "pagesChecked": 1
+      "pagesChecked": 0,
+      "error": "HTTP Error 403: Forbidden"
     },
     {
       "organizationId": "szent-istvan-bal",
       "source": "https://ungarball.at/",
-      "checkedAt": "2026-10-06T20:25:13.910570+00:00",
-      "status": "ok-no-structured-event",
+      "checkedAt": "2026-10-06T20:38:56.793322+00:00",
+      "status": "network-error",
       "eventsFound": 0,
-      "pagesChecked": 1
+      "pagesChecked": 0,
+      "error": "<urlopen error [Errno 101] Network is unreachable>"
     },
     {
       "organizationId": "vhs-burgenland",
       "source": "https://vhs-ungarn.at/hu/program/",
-      "checkedAt": "2026-10-06T20:25:05.127625+00:00",
+      "checkedAt": "2026-10-06T20:38:42.701689+00:00",
       "status": "ok-no-structured-event",
       "eventsFound": 0,
       "pagesChecked": 7
