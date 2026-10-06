@@ -18,8 +18,8 @@ jobs:
   audit:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v6
         with:
           python-version: "3.12"
       - name: Validate audit code and data
@@ -31,15 +31,20 @@ jobs:
         run: python scripts/audit_education_sites.py
       - name: Validate result
         run: python -m json.tool data/education-site-health.json >/dev/null
+      - name: Rebuild and validate public audit output
+        run: |
+          python scripts/generate_reference_pages.py
+          python scripts/generate_sitemap.py
+          python scripts/validate_static_output.py
       - name: Commit audit result
         run: |
-          if git diff --quiet -- data/education-site-health.json; then
+          if [ -z "$(git status --porcelain -- data/education-site-health.json esemenyek tartomanyok kategoriak entity.jsonld ai-entry.json adatminoseg.html sitemap.xml)" ]; then
             echo "No education site audit changes"
             exit 0
           fi
           git config user.name "dorapp-education-audit[bot]"
           git config user.email "actions@users.noreply.github.com"
-          git add data/education-site-health.json
+          git add data/education-site-health.json esemenyek tartomanyok kategoriak entity.jsonld ai-entry.json adatminoseg.html sitemap.xml
           git commit -m "chore(education): refresh website audit"
           for attempt in 1 2 3; do
             if git push origin HEAD:main; then
@@ -53,7 +58,10 @@ jobs:
               git reset --hard origin/main
               python scripts/audit_education_sites.py
               python -m json.tool data/education-site-health.json >/dev/null
-              git add data/education-site-health.json
+              python scripts/generate_reference_pages.py
+              python scripts/generate_sitemap.py
+              python scripts/validate_static_output.py
+              git add data/education-site-health.json esemenyek tartomanyok kategoriak entity.jsonld ai-entry.json adatminoseg.html sitemap.xml
               if git diff --cached --quiet; then
                 echo "No education audit changes remain after rebasing"
                 exit 0

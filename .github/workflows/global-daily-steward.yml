@@ -44,7 +44,7 @@ jobs:
   research:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
         with:
           fetch-depth: 0
 
@@ -100,15 +100,14 @@ jobs:
 
       - name: Commit material changes safely
         run: |
-          if [ -z "$(git status --porcelain -- data/global.json data/research-state.json data/verification-queue.json data/promotion-ready.json data/daily-runs data/countries countries)" ]; then
+          if [ -z "$(git status --porcelain -- data/global.json data/research-state.json data/verification-queue.json data/promotion-ready.json data/daily-runs data/countries data/global-search-index.json data/global-events.json countries assets/maps sitemap.xml esemenyek tartomanyok kategoriak entity.jsonld ai-entry.json adatminoseg.html)" ]; then
             echo "No material global research changes"
             exit 0
           fi
           git config user.name "dorapp-global-steward[bot]"
           git config user.email "actions@users.noreply.github.com"
-          git add data/global.json data/research-state.json data/verification-queue.json data/promotion-ready.json data/daily-runs data/countries countries
+          git add data/global.json data/research-state.json data/verification-queue.json data/promotion-ready.json data/daily-runs data/countries data/global-search-index.json data/global-events.json countries assets/maps sitemap.xml esemenyek tartomanyok kategoriak entity.jsonld ai-entry.json adatminoseg.html
           git commit -m "chore(global): rotate diaspora research batch"
-          git stash push --include-untracked --message "global steward generated validation output" >/dev/null || true
           for attempt in 1 2 3; do
             if git push origin HEAD:main; then
               exit 0

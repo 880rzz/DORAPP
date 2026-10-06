@@ -8,7 +8,7 @@ jobs:
   validate:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
       - name: Install country geography dependency
         run: python -m pip install pycountry==24.6.1 pyshp==2.3.1
       - name: Validate global build
@@ -24,9 +24,10 @@ jobs:
           python scripts/generate_global_profiles.py
           python scripts/generate_global_education_profiles.py
           python scripts/generate_global_event_profiles.py
+          python scripts/generate_reference_pages.py
           python scripts/generate_sitemap.py
           python scripts/validate_global.py
-          python -m py_compile scripts/generate_global_compat.py scripts/generate_global_search_index.py scripts/generate_global_calendar.py scripts/generate_country_region_maps.py scripts/generate_country_pages.py scripts/generate_global_profiles.py scripts/generate_global_education_profiles.py scripts/generate_global_event_profiles.py scripts/generate_sitemap.py scripts/validate_global.py scripts/validate_static_output.py
+          python -m py_compile scripts/generate_global_compat.py scripts/generate_global_search_index.py scripts/generate_global_calendar.py scripts/generate_country_region_maps.py scripts/generate_country_pages.py scripts/generate_global_profiles.py scripts/generate_global_education_profiles.py scripts/generate_global_event_profiles.py scripts/generate_reference_pages.py scripts/generate_sitemap.py scripts/validate_global.py scripts/validate_static_output.py
           node --check world.js
           node --check country.js
           node --check ui.js
