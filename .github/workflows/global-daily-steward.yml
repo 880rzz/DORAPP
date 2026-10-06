@@ -112,11 +112,39 @@ jobs:
             if git push origin HEAD:main; then
               exit 0
             fi
-            echo "Push race on attempt $attempt; rebasing on latest main"
+            echo "Push race on attempt $attempt; rebuilding on latest main"
             git fetch origin main
-            git rebase origin/main || {
-              git rebase --abort || true
-              exit 1
-            }
+            git reset --hard origin/main
+            python scripts/enrich_country_registry.py
+            if [ "${{ github.event_name }}" = "schedule" ] || [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+              python scripts/global_country_research.py
+              python scripts/verify_discovery_candidates.py
+              python scripts/verify_first_party_sites.py
+              python scripts/promote_verified_entities.py
+            fi
+            python scripts/audit_global_source_health.py
+            python scripts/generate_global_compat.py
+            python scripts/generate_global_search_index.py
+            python scripts/generate_global_calendar.py
+            python scripts/generate_country_region_maps.py
+            python scripts/generate_country_pages.py
+            python scripts/generate_global_profiles.py
+            python scripts/generate_global_education_profiles.py
+            python scripts/generate_global_event_profiles.py
+            python scripts/generate_reference_pages.py
+            python scripts/generate_sitemap.py
+            python scripts/validate_global.py
+            node --check app.js
+            node --check world.js
+            node --check country.js
+            node --check ui.js
+            python scripts/validate_directory.py
+            python scripts/validate_static_output.py
+            git add data/global.json data/research-state.json data/verification-queue.json data/promotion-ready.json data/daily-runs data/countries data/global-search-index.json data/global-events.json countries assets/maps sitemap.xml esemenyek tartomanyok kategoriak entity.jsonld ai-entry.json adatminoseg.html
+            if git diff --cached --quiet; then
+              echo "No material global changes remain after rebuild"
+              exit 0
+            fi
+            git commit -m "chore(global): rotate diaspora research batch"
           done
           exit 1
