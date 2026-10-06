@@ -1,12 +1,12 @@
 {
-  "updated": "2026-10-06T01:15:24.005680+00:00",
+  "updated": "2026-10-06T01:16:42.607017+00:00",
   "summary": {
     "organizations": 160,
     "organizationFlags": 1,
     "organizationPagesChecked": 313,
     "education": 107,
     "educationFlags": 0,
-    "events": 48,
+    "events": 47,
     "eventFlags": 0
   },
   "organizations": [
@@ -2279,15 +2279,12 @@
         "muveszet",
         "csalad"
       ],
-      "pagesChecked": 1,
+      "pagesChecked": 2,
       "checkedUrls": [
-        "https://www.kozpontiszovetseg.at/"
+        "https://www.kozpontiszovetseg.at/",
+        "https://www.kozpontiszovetseg.at/event-list"
       ],
       "errors": [
-        {
-          "url": "https://www.kozpontiszovetseg.at/event-list",
-          "error": "HTTP Error 429: Too Many Requests"
-        },
         {
           "url": "https://www.kozpontiszovetseg.at/r%C3%B3lunk",
           "error": "HTTP Error 429: Too Many Requests"
@@ -2377,27 +2374,17 @@
         "kozosseg"
       ],
       "activityCategories": [],
-      "signals": [
-        "oktatas",
-        "neptanc",
-        "nepzene",
-        "cserkesz",
-        "szinhaz",
-        "egyhaz",
-        "diak",
-        "irodalom",
-        "muveszet",
-        "sport",
-        "csalad"
-      ],
-      "pagesChecked": 1,
-      "checkedUrls": [
-        "https://www.kozpontiszovetseg.at/tagszervezetek"
-      ],
+      "signals": [],
+      "pagesChecked": 0,
+      "checkedUrls": [],
       "errors": [
         {
           "url": "https://leaninfemspace.at/",
           "error": "HTTP Error 500: Internal Server Error"
+        },
+        {
+          "url": "https://www.kozpontiszovetseg.at/tagszervezetek",
+          "error": "HTTP Error 429: Too Many Requests"
         }
       ],
       "flags": []
