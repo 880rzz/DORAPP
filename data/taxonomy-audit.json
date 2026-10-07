@@ -1,12 +1,12 @@
 {
-  "updated": "2026-10-07T02:08:53.277850+00:00",
+  "updated": "2026-10-07T11:06:19.161107+00:00",
   "summary": {
     "organizations": 160,
-    "organizationFlags": 2,
-    "organizationPagesChecked": 310,
+    "organizationFlags": 1,
+    "organizationPagesChecked": 317,
     "education": 108,
     "educationFlags": 0,
-    "events": 44,
+    "events": 45,
     "eventFlags": 0
   },
   "organizations": [
@@ -604,6 +604,8 @@
       "activityCategories": [],
       "signals": [
         "oktatas",
+        "neptanc",
+        "nepzene",
         "szinhaz",
         "media",
         "irodalom",
@@ -611,20 +613,13 @@
         "sport",
         "csalad"
       ],
-      "pagesChecked": 1,
+      "pagesChecked": 3,
       "checkedUrls": [
-        "https://www.becsinaplo.at/"
+        "https://www.becsinaplo.at/",
+        "https://www.kozpontiszovetseg.at/r%C3%B3lunk",
+        "https://www.kozpontiszovetseg.at/event-details/becsi-naplo"
       ],
-      "errors": [
-        {
-          "url": "https://www.kozpontiszovetseg.at/r%C3%B3lunk",
-          "error": "HTTP Error 429: Too Many Requests"
-        },
-        {
-          "url": "https://www.kozpontiszovetseg.at/event-details/becsi-naplo",
-          "error": "HTTP Error 429: Too Many Requests"
-        }
-      ],
+      "errors": [],
       "flags": []
     },
     {
@@ -696,7 +691,12 @@
       ],
       "signals": [
         "oktatas",
-        "irodalom"
+        "szinhaz",
+        "media",
+        "diak",
+        "irodalom",
+        "muveszet",
+        "csalad"
       ],
       "pagesChecked": 1,
       "checkedUrls": [
@@ -923,24 +923,18 @@
       "activityCategories": [],
       "signals": [
         "oktatas",
+        "szinhaz",
+        "media",
+        "irodalom",
         "muveszet"
       ],
-      "pagesChecked": 0,
-      "checkedUrls": [],
-      "errors": [
-        {
-          "url": "https://brandart.studio/",
-          "error": "HTTP Error 429: Too Many Requests"
-        },
-        {
-          "url": "https://www.brandart.studio/",
-          "error": "HTTP Error 429: Too Many Requests"
-        },
-        {
-          "url": "https://www.brandart.studio/tagfelvetel",
-          "error": "HTTP Error 429: Too Many Requests"
-        }
+      "pagesChecked": 3,
+      "checkedUrls": [
+        "https://brandart.studio/",
+        "https://www.brandart.studio/",
+        "https://www.brandart.studio/tagfelvetel"
       ],
+      "errors": [],
       "flags": []
     },
     {
@@ -1121,23 +1115,20 @@
       "activityCategories": [],
       "signals": [
         "oktatas",
+        "szinhaz",
         "media",
-        "irodalom"
+        "irodalom",
+        "muveszet",
+        "csalad"
       ],
-      "pagesChecked": 2,
+      "pagesChecked": 3,
       "checkedUrls": [
         "https://culture.hu/hu/wien",
+        "https://culture.hu/hu/wien/esemenyek",
         "https://culture.hu/de/wien/jubilaum"
       ],
-      "errors": [
-        {
-          "url": "https://culture.hu/hu/wien/esemenyek",
-          "error": "The read operation timed out"
-        }
-      ],
-      "flags": [
-        "weak-source-signal:muveszet"
-      ]
+      "errors": [],
+      "flags": []
     },
     {
       "id": "collegium-pazmanianum",
@@ -1476,10 +1467,27 @@
         "kultura"
       ],
       "activityCategories": [],
-      "signals": [],
-      "pagesChecked": 0,
-      "checkedUrls": [],
-      "errors": [],
+      "signals": [
+        "oktatas",
+        "neptanc",
+        "szinhaz",
+        "media",
+        "egyhaz",
+        "diak",
+        "irodalom",
+        "muveszet"
+      ],
+      "pagesChecked": 2,
+      "checkedUrls": [
+        "https://europaclub.at/",
+        "https://europaclub.at/rolunk/europa-club-tortenete/"
+      ],
+      "errors": [
+        {
+          "url": "https://europaclub.at/rendezvenyek/meghivok/",
+          "error": "The read operation timed out"
+        }
+      ],
       "flags": []
     },
     {
@@ -1955,15 +1963,14 @@
       ],
       "activityCategories": [],
       "signals": [
-        "sport"
+        "sport",
+        "csalad"
       ],
-      "pagesChecked": 0,
-      "checkedUrls": [],
+      "pagesChecked": 1,
+      "checkedUrls": [
+        "http://www.geschriebensteinlauf.at"
+      ],
       "errors": [
-        {
-          "url": "http://www.geschriebensteinlauf.at",
-          "error": "The read operation timed out"
-        },
         {
           "url": "https://www.askoe.at/de/verband-vereine/askoe-vereine/clubshow-10438",
           "error": "HTTP Error 404: Not Found"
@@ -2258,18 +2265,19 @@
       ],
       "activityCategories": [],
       "signals": [
-        "oktatas",
-        "szinhaz",
-        "irodalom",
-        "muveszet",
-        "csalad"
+        "oktatas"
       ],
-      "pagesChecked": 2,
-      "checkedUrls": [
-        "https://www.kozpontiszovetseg.at/",
-        "https://www.kozpontiszovetseg.at/event-list"
-      ],
+      "pagesChecked": 0,
+      "checkedUrls": [],
       "errors": [
+        {
+          "url": "https://www.kozpontiszovetseg.at/",
+          "error": "HTTP Error 429: Too Many Requests"
+        },
+        {
+          "url": "https://www.kozpontiszovetseg.at/event-list",
+          "error": "HTTP Error 429: Too Many Requests"
+        },
         {
           "url": "https://www.kozpontiszovetseg.at/r%C3%B3lunk",
           "error": "HTTP Error 429: Too Many Requests"
@@ -2360,7 +2368,8 @@
       ],
       "activityCategories": [],
       "signals": [
-        "csalad"
+        "diak",
+        "muveszet"
       ],
       "pagesChecked": 1,
       "checkedUrls": [
@@ -2472,7 +2481,7 @@
       "errors": [
         {
           "url": "https://www.magyarszo.at/",
-          "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'www.magyarszo.at'. (_ssl.c:1010)>"
+          "error": "<urlopen error timed out>"
         }
       ],
       "flags": []
