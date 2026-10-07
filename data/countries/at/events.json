@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-06T20:39:47.153445+00:00",
+  "updated": "2026-10-07T01:00:00+00:00",
   "programCategoryDefinitions": [
     {
       "id": "gyermek",
@@ -155,6 +155,34 @@
         "gyermek",
         "zene",
         "workshop"
+      ]
+    },
+    {
+      "eventStatus": "https://schema.org/EventScheduled",
+      "attendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+      "registrationUrl": null,
+      "price": null,
+      "priceCurrency": null,
+      "availability": null,
+      "performers": [],
+      "audience": null,
+      "image": null,
+      "id": "felsoori-katolikus-magyar-mise-2026-10-11",
+      "organizationId": "felsoori-katolikus",
+      "name": "Magyar mise",
+      "organizer": "Felsőőri Katolikus Egyházközség",
+      "state": "burgenland",
+      "city": "Oberwart / Felsőőr",
+      "venue": "Osterkirche",
+      "address": null,
+      "startDate": "2026-10-11T11:00:00+02:00",
+      "endDate": "2026-10-11T12:00:00+02:00",
+      "description": "Magyar nyelvű vasárnapi szentmise a felsőőri Osterkirchében.",
+      "sourceUrl": "https://www.martinus.at/pfarre/1122/kalender",
+      "discoveredFrom": "https://www.martinus.at/pfarre/1122/kalender",
+      "verifiedAt": "2026-10-07T01:00:00+00:00",
+      "programCategories": [
+        "kozosseg"
       ]
     },
     {
