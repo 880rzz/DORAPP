@@ -36,13 +36,23 @@
       "name": "Alaska",
       "status": "researching",
       "assessedAt": "2026-10-07",
-      "sourceClassesReviewed": [],
-      "evidenceSources": [],
+      "sourceClassesReviewed": [
+        "current diaspora/community reporting"
+      ],
+      "evidenceSources": [
+        {
+          "url": "https://www.hungarianconservative.com/articles/diaspora/hungarian-language-heritage-tunde-tedd-alaska/",
+          "type": "2025 diaspora interview",
+          "finding": "Reports about 20–30 permanent Hungarians and no real organized Hungarian community life, only friendship circles."
+        }
+      ],
       "canonicalOrganizationIds": [],
       "canonicalEducationIds": [],
       "rejectedCandidates": [],
       "unresolvedStrongCandidates": [],
-      "notes": []
+      "notes": [
+        "Strong verified-zero candidate for formal organizations, but diplomatic/consular and remaining required source classes must still be checked before zero certification."
+      ]
     },
     {
       "name": "Arizona",
@@ -360,13 +370,25 @@
       "name": "New Hampshire",
       "status": "researching",
       "assessedAt": "2026-10-07",
-      "sourceClassesReviewed": [],
-      "evidenceSources": [],
+      "sourceClassesReviewed": [
+        "Hungarian diplomatic and consular sources"
+      ],
+      "evidenceSources": [
+        {
+          "url": "https://www.hungarianconsulne.com/",
+          "type": "first-party honorary consulate",
+          "finding": "Officially appointed Honorary Consulate of Hungary in Derry, NH; serves ME, VT, NH, RI, MA."
+        }
+      ],
       "canonicalOrganizationIds": [],
       "canonicalEducationIds": [],
       "rejectedCandidates": [],
-      "unresolvedStrongCandidates": [],
-      "notes": []
+      "unresolvedStrongCandidates": [
+        "Honorary Consulate of Hungary — New England"
+      ],
+      "notes": [
+        "Confirmed current official Hungarian institutional presence; do not mark verified-zero. Remaining required source classes still need review."
+      ]
     },
     {
       "name": "New Jersey",
@@ -384,13 +406,25 @@
       "name": "New Mexico",
       "status": "researching",
       "assessedAt": "2026-10-07",
-      "sourceClassesReviewed": [],
-      "evidenceSources": [],
+      "sourceClassesReviewed": [
+        "Hungarian community and umbrella organizations"
+      ],
+      "evidenceSources": [
+        {
+          "url": "https://www.hacusa.org/userfiles/file/HATOG/DRAFT_HATOG_X_Final_Report_VF.pdf",
+          "type": "Hungarian American Coalition",
+          "finding": "Names Hungarian American Club of New Mexico, Albuquerque."
+        }
+      ],
       "canonicalOrganizationIds": [],
       "canonicalEducationIds": [],
       "rejectedCandidates": [],
-      "unresolvedStrongCandidates": [],
-      "notes": []
+      "unresolvedStrongCandidates": [
+        "Hungarian American Club of New Mexico"
+      ],
+      "notes": [
+        "Strong recent umbrella-source candidate; current first-party surface still required before canonical insertion."
+      ]
     },
     {
       "name": "New York",
@@ -492,13 +526,31 @@
       "name": "South Carolina",
       "status": "researching",
       "assessedAt": "2026-10-07",
-      "sourceClassesReviewed": [],
-      "evidenceSources": [],
+      "sourceClassesReviewed": [
+        "Hungarian community and umbrella organizations"
+      ],
+      "evidenceSources": [
+        {
+          "url": "https://hacusa.org/hungarian-americans-together-conference-held-at-marymount-university-in-arlington-va-may-19-21/",
+          "type": "Hungarian American Coalition",
+          "finding": "Documents Midlands Hungarians, Columbia, SC."
+        },
+        {
+          "url": "https://www.hacusa.org/userfiles/file/HATOG/HATOG7/HATOG7_FinalReport.pdf",
+          "type": "Hungarian American Coalition",
+          "finding": "Documents Carolinas Hungarian Group as a multi-state Carolinas community."
+        }
+      ],
       "canonicalOrganizationIds": [],
       "canonicalEducationIds": [],
       "rejectedCandidates": [],
-      "unresolvedStrongCandidates": [],
-      "notes": []
+      "unresolvedStrongCandidates": [
+        "Midlands Hungarians",
+        "Carolinas Hungarian Group"
+      ],
+      "notes": [
+        "Not a zero candidate. Avoid duplicating multi-state Carolinas Hungarian Group; model service area if canonical."
+      ]
     },
     {
       "name": "South Dakota",
