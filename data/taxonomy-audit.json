@@ -1,9 +1,9 @@
 {
-  "updated": "2026-10-07T11:06:19.161107+00:00",
+  "updated": "2026-10-07T11:43:14.295782+00:00",
   "summary": {
     "organizations": 160,
     "organizationFlags": 1,
-    "organizationPagesChecked": 317,
+    "organizationPagesChecked": 319,
     "education": 108,
     "educationFlags": 0,
     "events": 45,
@@ -604,8 +604,6 @@
       "activityCategories": [],
       "signals": [
         "oktatas",
-        "neptanc",
-        "nepzene",
         "szinhaz",
         "media",
         "irodalom",
@@ -613,13 +611,17 @@
         "sport",
         "csalad"
       ],
-      "pagesChecked": 3,
+      "pagesChecked": 2,
       "checkedUrls": [
         "https://www.becsinaplo.at/",
-        "https://www.kozpontiszovetseg.at/r%C3%B3lunk",
         "https://www.kozpontiszovetseg.at/event-details/becsi-naplo"
       ],
-      "errors": [],
+      "errors": [
+        {
+          "url": "https://www.kozpontiszovetseg.at/r%C3%B3lunk",
+          "error": "HTTP Error 429: Too Many Requests"
+        }
+      ],
       "flags": []
     },
     {
@@ -1901,24 +1903,22 @@
         "neptanc",
         "nepzene",
         "cserkesz",
+        "szinhaz",
         "media",
         "egyhaz",
         "diak",
         "irodalom",
         "muveszet",
+        "sport",
         "csalad"
       ],
-      "pagesChecked": 2,
+      "pagesChecked": 3,
       "checkedUrls": [
         "https://imeasz.at/",
+        "https://www.kozpontiszovetseg.at/tagszervezetek",
         "https://www.petofiprogram.hu/hirek/hazat-csereltek-de-szivet-nem-kifogyhatatlan-otletekkel-peldas-aktivitassal-orzik"
       ],
-      "errors": [
-        {
-          "url": "https://www.kozpontiszovetseg.at/tagszervezetek",
-          "error": "HTTP Error 429: Too Many Requests"
-        }
-      ],
+      "errors": [],
       "flags": []
     },
     {
@@ -2265,19 +2265,18 @@
       ],
       "activityCategories": [],
       "signals": [
-        "oktatas"
+        "oktatas",
+        "szinhaz",
+        "irodalom",
+        "muveszet",
+        "csalad"
       ],
-      "pagesChecked": 0,
-      "checkedUrls": [],
+      "pagesChecked": 2,
+      "checkedUrls": [
+        "https://www.kozpontiszovetseg.at/",
+        "https://www.kozpontiszovetseg.at/event-list"
+      ],
       "errors": [
-        {
-          "url": "https://www.kozpontiszovetseg.at/",
-          "error": "HTTP Error 429: Too Many Requests"
-        },
-        {
-          "url": "https://www.kozpontiszovetseg.at/event-list",
-          "error": "HTTP Error 429: Too Many Requests"
-        },
         {
           "url": "https://www.kozpontiszovetseg.at/r%C3%B3lunk",
           "error": "HTTP Error 429: Too Many Requests"
@@ -2481,7 +2480,7 @@
       "errors": [
         {
           "url": "https://www.magyarszo.at/",
-          "error": "<urlopen error timed out>"
+          "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'www.magyarszo.at'. (_ssl.c:1010)>"
         }
       ],
       "flags": []
