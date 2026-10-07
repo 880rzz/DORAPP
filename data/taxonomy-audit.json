@@ -1,12 +1,12 @@
 {
-  "updated": "2026-10-06T20:40:42.246096+00:00",
+  "updated": "2026-10-07T02:08:53.277850+00:00",
   "summary": {
     "organizations": 160,
     "organizationFlags": 2,
-    "organizationPagesChecked": 311,
-    "education": 107,
+    "organizationPagesChecked": 310,
+    "education": 108,
     "educationFlags": 0,
-    "events": 43,
+    "events": 44,
     "eventFlags": 0
   },
   "organizations": [
@@ -434,7 +434,15 @@
       ],
       "activityCategories": [],
       "signals": [
-        "enekkar"
+        "oktatas",
+        "neptanc",
+        "nepzene",
+        "enekkar",
+        "media",
+        "diak",
+        "irodalom",
+        "muveszet",
+        "csalad"
       ],
       "pagesChecked": 1,
       "checkedUrls": [
@@ -688,12 +696,7 @@
       ],
       "signals": [
         "oktatas",
-        "szinhaz",
-        "media",
-        "diak",
-        "irodalom",
-        "muveszet",
-        "csalad"
+        "irodalom"
       ],
       "pagesChecked": 1,
       "checkedUrls": [
@@ -722,13 +725,17 @@
         "muveszet",
         "csalad"
       ],
-      "pagesChecked": 3,
+      "pagesChecked": 2,
       "checkedUrls": [
-        "https://www.creativescience.hu/programjaink/becs-craft-workshop/",
         "https://www.magyariskola.at/event-details/becscraft-2026",
         "https://www.magyariskola.at/event-details/becs-craft-nyari-tabor-2026"
       ],
-      "errors": [],
+      "errors": [
+        {
+          "url": "https://www.creativescience.hu/programjaink/becs-craft-workshop/",
+          "error": "HTTP Error 404: Not Found"
+        }
+      ],
       "flags": []
     },
     {
@@ -893,7 +900,7 @@
       "errors": [
         {
           "url": "https://bornemisza.at/",
-          "error": "<urlopen error timed out>"
+          "error": "<urlopen error [Errno 111] Connection refused>"
         },
         {
           "url": "https://www.kozpontiszovetseg.at/bornemisza-peter-tarsasag",
@@ -1114,20 +1121,23 @@
       "activityCategories": [],
       "signals": [
         "oktatas",
-        "szinhaz",
         "media",
-        "irodalom",
-        "muveszet",
-        "csalad"
+        "irodalom"
       ],
-      "pagesChecked": 3,
+      "pagesChecked": 2,
       "checkedUrls": [
         "https://culture.hu/hu/wien",
-        "https://culture.hu/hu/wien/esemenyek",
         "https://culture.hu/de/wien/jubilaum"
       ],
-      "errors": [],
-      "flags": []
+      "errors": [
+        {
+          "url": "https://culture.hu/hu/wien/esemenyek",
+          "error": "The read operation timed out"
+        }
+      ],
+      "flags": [
+        "weak-source-signal:muveszet"
+      ]
     },
     {
       "id": "collegium-pazmanianum",
@@ -1300,9 +1310,14 @@
       ],
       "activityCategories": [],
       "signals": [
+        "oktatas",
         "neptanc",
         "nepzene",
         "enekkar",
+        "szinhaz",
+        "media",
+        "diak",
+        "irodalom",
         "sport",
         "csalad"
       ],
@@ -1461,27 +1476,10 @@
         "kultura"
       ],
       "activityCategories": [],
-      "signals": [
-        "oktatas",
-        "neptanc",
-        "szinhaz",
-        "media",
-        "egyhaz",
-        "diak",
-        "irodalom",
-        "muveszet"
-      ],
-      "pagesChecked": 2,
-      "checkedUrls": [
-        "https://europaclub.at/",
-        "https://europaclub.at/rolunk/europa-club-tortenete/"
-      ],
-      "errors": [
-        {
-          "url": "https://europaclub.at/rendezvenyek/meghivok/",
-          "error": "The read operation timed out"
-        }
-      ],
+      "signals": [],
+      "pagesChecked": 0,
+      "checkedUrls": [],
+      "errors": [],
       "flags": []
     },
     {
@@ -1519,6 +1517,11 @@
       ],
       "activityCategories": [],
       "signals": [
+        "oktatas",
+        "media",
+        "egyhaz",
+        "irodalom",
+        "muveszet",
         "csalad"
       ],
       "pagesChecked": 3,
@@ -1528,9 +1531,7 @@
         "https://fecskeklub.at/titkok-nyomaban/"
       ],
       "errors": [],
-      "flags": [
-        "weak-source-signal:oktatas"
-      ]
+      "flags": []
     },
     {
       "id": "felso-ausztriai-magyarok",
@@ -1954,17 +1955,18 @@
       ],
       "activityCategories": [],
       "signals": [
-        "sport",
-        "csalad"
+        "sport"
       ],
-      "pagesChecked": 1,
-      "checkedUrls": [
-        "http://www.geschriebensteinlauf.at"
-      ],
+      "pagesChecked": 0,
+      "checkedUrls": [],
       "errors": [
         {
+          "url": "http://www.geschriebensteinlauf.at",
+          "error": "The read operation timed out"
+        },
+        {
           "url": "https://www.askoe.at/de/verband-vereine/askoe-vereine/clubshow-10438",
-          "error": "HTTP Error 406: Not Acceptable"
+          "error": "HTTP Error 404: Not Found"
         }
       ],
       "flags": []
@@ -2256,19 +2258,18 @@
       ],
       "activityCategories": [],
       "signals": [
-        "oktatas"
+        "oktatas",
+        "szinhaz",
+        "irodalom",
+        "muveszet",
+        "csalad"
       ],
-      "pagesChecked": 0,
-      "checkedUrls": [],
+      "pagesChecked": 2,
+      "checkedUrls": [
+        "https://www.kozpontiszovetseg.at/",
+        "https://www.kozpontiszovetseg.at/event-list"
+      ],
       "errors": [
-        {
-          "url": "https://www.kozpontiszovetseg.at/",
-          "error": "HTTP Error 429: Too Many Requests"
-        },
-        {
-          "url": "https://www.kozpontiszovetseg.at/event-list",
-          "error": "HTTP Error 429: Too Many Requests"
-        },
         {
           "url": "https://www.kozpontiszovetseg.at/r%C3%B3lunk",
           "error": "HTTP Error 429: Too Many Requests"
@@ -2305,16 +2306,18 @@
       ],
       "activityCategories": [],
       "signals": [
+        "oktatas",
+        "nepzene",
         "szinhaz",
+        "media",
         "irodalom",
         "muveszet",
         "csalad"
       ],
-      "pagesChecked": 3,
+      "pagesChecked": 2,
       "checkedUrls": [
         "https://kultpult.eu/",
-        "https://kultpult.eu/itthonotthon/",
-        "https://kultpult.eu/wp-content/uploads/2024/06/Altalanos-Szerzodesi-Feltetelek-kultpult.pdf"
+        "https://kultpult.eu/itthonotthon/"
       ],
       "errors": [],
       "flags": []
@@ -2469,7 +2472,7 @@
       "errors": [
         {
           "url": "https://www.magyarszo.at/",
-          "error": "<urlopen error timed out>"
+          "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'www.magyarszo.at'. (_ssl.c:1010)>"
         }
       ],
       "flags": []
@@ -2556,7 +2559,13 @@
       ],
       "activityCategories": [],
       "signals": [
-        "diak"
+        "neptanc",
+        "media",
+        "diak",
+        "irodalom",
+        "muveszet",
+        "sport",
+        "csalad"
       ],
       "pagesChecked": 3,
       "checkedUrls": [
@@ -3369,7 +3378,16 @@
       ],
       "activityCategories": [],
       "signals": [
-        "nepzene"
+        "oktatas",
+        "neptanc",
+        "nepzene",
+        "enekkar",
+        "szinhaz",
+        "media",
+        "diak",
+        "muveszet",
+        "sport",
+        "csalad"
       ],
       "pagesChecked": 3,
       "checkedUrls": [
@@ -3884,6 +3902,8 @@
       "activityCategories": [],
       "signals": [
         "szinhaz",
+        "media",
+        "irodalom",
         "muveszet",
         "csalad"
       ],
@@ -3933,23 +3953,21 @@
         "neptanc"
       ],
       "signals": [
+        "oktatas",
         "nepzene",
         "media",
         "diak",
         "muveszet",
-        "sport"
+        "sport",
+        "csalad"
       ],
-      "pagesChecked": 2,
+      "pagesChecked": 3,
       "checkedUrls": [
+        "https://ungarball.at/",
         "https://volksgruppen.orf.at/v2/magyarok/stories/2694653/",
         "https://www.flickr.com/photos/vipach/55099423490"
       ],
-      "errors": [
-        {
-          "url": "https://ungarball.at/",
-          "error": "<urlopen error [Errno 101] Network is unreachable>"
-        }
-      ],
+      "errors": [],
       "flags": []
     },
     {
@@ -3961,18 +3979,16 @@
         "kultura"
       ],
       "activityCategories": [],
-      "signals": [],
-      "pagesChecked": 0,
-      "checkedUrls": [],
+      "signals": [
+        "oktatas",
+        "csalad"
+      ],
+      "pagesChecked": 2,
+      "checkedUrls": [
+        "https://ungarball.at/",
+        "https://ungarball.at/impressum"
+      ],
       "errors": [
-        {
-          "url": "https://ungarball.at/",
-          "error": "<urlopen error [Errno 101] Network is unreachable>"
-        },
-        {
-          "url": "https://ungarball.at/impressum",
-          "error": "<urlopen error [Errno 101] Network is unreachable>"
-        },
         {
           "url": "https://www.kozpontiszovetseg.at/tagszervezetek",
           "error": "HTTP Error 429: Too Many Requests"
@@ -4012,7 +4028,11 @@
       ],
       "activityCategories": [],
       "signals": [
+        "oktatas",
         "neptanc",
+        "nepzene",
+        "media",
+        "diak",
         "csalad"
       ],
       "pagesChecked": 1,
