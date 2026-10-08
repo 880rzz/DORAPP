@@ -1,29 +1,29 @@
 {
-  "updated": "2026-10-07T08:38:58+00:00",
+  "updated": "2026-10-08T08:58:14+00:00",
   "sources": [
     {
       "id": "brusszeli-magyar-haz",
       "url": "https://www.magyarhazbrusszel.be/",
       "sourceRole": "official-website",
-      "status": "ok",
-      "httpStatus": 200,
+      "status": "rate-limited",
+      "httpStatus": 429,
       "resolvedUrl": "https://www.magyarhazbrusszel.be/",
-      "contentType": "text/html; charset=utf-8",
-      "checkedAt": "2026-10-07T08:38:58+00:00",
+      "contentType": "",
+      "checkedAt": "2026-10-08T08:58:14+00:00",
       "removalAuthority": false,
-      "note": null
+      "note": "Technical failure alone is never evidence for entity removal."
     },
     {
       "id": "magyarorszag-haza-brusszel",
       "url": "https://maisondelahongrie-bruxelles.hu/",
       "sourceRole": "official-website",
-      "status": "ok",
-      "httpStatus": 200,
+      "status": "network-error",
+      "httpStatus": null,
       "resolvedUrl": "https://maisondelahongrie-bruxelles.hu/",
-      "contentType": "text/html; charset=utf-8",
-      "checkedAt": "2026-10-07T08:38:58+00:00",
+      "contentType": "",
+      "checkedAt": "2026-10-08T08:58:14+00:00",
       "removalAuthority": false,
-      "note": null
+      "note": "Technical failure alone is never evidence for entity removal."
     },
     {
       "id": "liszt-intezet-brusszel",
@@ -33,7 +33,7 @@
       "httpStatus": 200,
       "resolvedUrl": "https://culture.hu/en/brussels",
       "contentType": "text/html; charset=utf-8",
-      "checkedAt": "2026-10-07T08:38:58+00:00",
+      "checkedAt": "2026-10-08T08:58:14+00:00",
       "removalAuthority": false,
       "note": null
     },
@@ -45,7 +45,7 @@
       "httpStatus": 200,
       "resolvedUrl": "https://brusszel.mfa.gov.hu/",
       "contentType": "text/html; charset=utf-8",
-      "checkedAt": "2026-10-07T08:38:58+00:00",
+      "checkedAt": "2026-10-08T08:58:14+00:00",
       "removalAuthority": false,
       "note": null
     },
@@ -57,7 +57,7 @@
       "httpStatus": 200,
       "resolvedUrl": "https://www.bmkk.be/",
       "contentType": "text/html; charset=utf-8",
-      "checkedAt": "2026-10-07T08:38:58+00:00",
+      "checkedAt": "2026-10-08T08:58:14+00:00",
       "removalAuthority": false,
       "note": null
     },
@@ -69,7 +69,7 @@
       "httpStatus": 200,
       "resolvedUrl": "https://www.protestans.be/",
       "contentType": "text/html; charset=utf-8",
-      "checkedAt": "2026-10-07T08:38:58+00:00",
+      "checkedAt": "2026-10-08T08:58:14+00:00",
       "removalAuthority": false,
       "note": null
     },
@@ -81,7 +81,7 @@
       "httpStatus": 200,
       "resolvedUrl": "https://cserkesz.be/",
       "contentType": "text/html; charset=utf-8",
-      "checkedAt": "2026-10-07T08:38:58+00:00",
+      "checkedAt": "2026-10-08T08:58:14+00:00",
       "removalAuthority": false,
       "note": null
     },
@@ -93,7 +93,7 @@
       "httpStatus": 200,
       "resolvedUrl": "https://www.vilagfa.be/hu/",
       "contentType": "text/html; charset=utf-8",
-      "checkedAt": "2026-10-07T08:38:58+00:00",
+      "checkedAt": "2026-10-08T08:58:14+00:00",
       "removalAuthority": false,
       "note": null
     },
@@ -105,7 +105,7 @@
       "httpStatus": 200,
       "resolvedUrl": "https://www.hunyouth.org/",
       "contentType": "text/html;charset=utf-8",
-      "checkedAt": "2026-10-07T08:38:58+00:00",
+      "checkedAt": "2026-10-08T08:58:14+00:00",
       "removalAuthority": false,
       "note": null
     },
@@ -117,7 +117,7 @@
       "httpStatus": 200,
       "resolvedUrl": "https://www.korosiprogram.hu/partnereink/carpathia-asbl",
       "contentType": "text/html; charset=utf-8",
-      "checkedAt": "2026-10-07T08:38:58+00:00",
+      "checkedAt": "2026-10-08T08:58:14+00:00",
       "removalAuthority": false,
       "note": null
     },
@@ -129,7 +129,7 @@
       "httpStatus": 200,
       "resolvedUrl": "https://www.hatartalantortenelem.com/",
       "contentType": "text/html; charset=utf-8",
-      "checkedAt": "2026-10-07T08:38:58+00:00",
+      "checkedAt": "2026-10-08T08:58:14+00:00",
       "removalAuthority": false,
       "note": null
     },
@@ -141,7 +141,7 @@
       "httpStatus": 200,
       "resolvedUrl": "https://culture.hu/en/brussels/events/heritage-days-2024",
       "contentType": "text/html; charset=utf-8",
-      "checkedAt": "2026-10-07T08:38:58+00:00",
+      "checkedAt": "2026-10-08T08:58:14+00:00",
       "removalAuthority": false,
       "note": null
     },
@@ -153,7 +153,7 @@
       "httpStatus": 200,
       "resolvedUrl": "https://egyben.wixsite.com/belgiumi-segitok",
       "contentType": "text/html; charset=utf-8",
-      "checkedAt": "2026-10-07T08:38:58+00:00",
+      "checkedAt": "2026-10-08T08:58:14+00:00",
       "removalAuthority": false,
       "note": null
     },
@@ -165,7 +165,7 @@
       "httpStatus": 200,
       "resolvedUrl": "https://eu-brusszel.mfa.gov.hu/en",
       "contentType": "text/html; charset=utf-8",
-      "checkedAt": "2026-10-07T08:38:58+00:00",
+      "checkedAt": "2026-10-08T08:58:14+00:00",
       "removalAuthority": false,
       "note": null
     },
@@ -173,13 +173,13 @@
       "id": "eurologus",
       "url": "https://hvg.hu/eurologus",
       "sourceRole": "official-website",
-      "status": "ok",
-      "httpStatus": 200,
+      "status": "site-blocked",
+      "httpStatus": 403,
       "resolvedUrl": "https://hvg.hu/eurologus",
-      "contentType": "text/html; charset=utf-8",
-      "checkedAt": "2026-10-07T08:38:58+00:00",
+      "contentType": "",
+      "checkedAt": "2026-10-08T08:58:14+00:00",
       "removalAuthority": false,
-      "note": null
+      "note": "Technical failure alone is never evidence for entity removal."
     },
     {
       "id": "voxpat",
@@ -189,7 +189,7 @@
       "httpStatus": 200,
       "resolvedUrl": "https://voxpat.be/hu/index",
       "contentType": "text/html; charset=utf-8",
-      "checkedAt": "2026-10-07T08:38:58+00:00",
+      "checkedAt": "2026-10-08T08:58:14+00:00",
       "removalAuthority": false,
       "note": null
     },
@@ -201,7 +201,7 @@
       "httpStatus": 200,
       "resolvedUrl": "https://culture.hu/hu/brussels/konyvtar-2",
       "contentType": "text/html; charset=utf-8",
-      "checkedAt": "2026-10-07T08:38:58+00:00",
+      "checkedAt": "2026-10-08T08:58:14+00:00",
       "removalAuthority": false,
       "note": null
     },
@@ -213,7 +213,7 @@
       "httpStatus": 200,
       "resolvedUrl": "https://arcfam.be/",
       "contentType": "text/html; charset=utf-8",
-      "checkedAt": "2026-10-07T08:38:58+00:00",
+      "checkedAt": "2026-10-08T08:58:14+00:00",
       "removalAuthority": false,
       "note": null
     },
@@ -225,7 +225,7 @@
       "httpStatus": 200,
       "resolvedUrl": "https://nato-brusszel.mfa.gov.hu/en",
       "contentType": "text/html; charset=utf-8",
-      "checkedAt": "2026-10-07T08:38:58+00:00",
+      "checkedAt": "2026-10-08T08:58:14+00:00",
       "removalAuthority": false,
       "note": null
     }
