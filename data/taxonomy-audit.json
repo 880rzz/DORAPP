@@ -1,9 +1,9 @@
 {
-  "updated": "2026-10-09T11:20:16.844367+00:00",
+  "updated": "2026-10-09T11:50:28.315997+00:00",
   "summary": {
     "organizations": 160,
     "organizationFlags": 1,
-    "organizationPagesChecked": 331,
+    "organizationPagesChecked": 326,
     "education": 108,
     "educationFlags": 0,
     "events": 52,
@@ -125,18 +125,24 @@
       ],
       "activityCategories": [],
       "signals": [
-        "szinhaz",
-        "media",
-        "egyhaz",
-        "csalad"
+        "egyhaz"
       ],
-      "pagesChecked": 3,
-      "checkedUrls": [
-        "https://www.martinus.at/",
-        "https://www.martinus.at/pfarre/1127/kalender",
-        "https://www.martinus.at/unterwart"
+      "pagesChecked": 0,
+      "checkedUrls": [],
+      "errors": [
+        {
+          "url": "https://www.martinus.at/",
+          "error": "<urlopen error timed out>"
+        },
+        {
+          "url": "https://www.martinus.at/pfarre/1127/kalender",
+          "error": "<urlopen error timed out>"
+        },
+        {
+          "url": "https://www.martinus.at/unterwart",
+          "error": "<urlopen error timed out>"
+        }
       ],
-      "errors": [],
       "flags": []
     },
     {
@@ -166,12 +172,7 @@
       "checkedUrls": [
         "https://rolunk.at/ausztriai-magyar-egyesuletek/"
       ],
-      "errors": [
-        {
-          "url": "https://www.unterwart.at/wp-content/uploads/2025/01/Veranstaltkal2025.pdf",
-          "error": "<urlopen error timed out>"
-        }
-      ],
+      "errors": [],
       "flags": []
     },
     {
@@ -188,22 +189,17 @@
         "nepzene",
         "szinhaz",
         "media",
-        "irodalom"
+        "egyhaz",
+        "irodalom",
+        "sport",
+        "csalad"
       ],
-      "pagesChecked": 1,
+      "pagesChecked": 2,
       "checkedUrls": [
+        "https://www.unterwart.at/heimathaus-unterwart/",
         "https://rolunk.at/artikel-mit-ubersetzung/tag-der-offenen-tur-des-unterwarter-heimathauses/"
       ],
-      "errors": [
-        {
-          "url": "https://www.unterwart.at/heimathaus-unterwart/",
-          "error": "<urlopen error timed out>"
-        },
-        {
-          "url": "https://www.unterwart.at/wp-content/uploads/2025/01/Veranstaltkal2025.pdf",
-          "error": "<urlopen error timed out>"
-        }
-      ],
+      "errors": [],
       "flags": []
     },
     {
@@ -1065,23 +1061,16 @@
         "kultura"
       ],
       "activityCategories": [],
-      "signals": [],
-      "pagesChecked": 0,
-      "checkedUrls": [],
-      "errors": [
-        {
-          "url": "https://club-pannonia.at/",
-          "error": "<urlopen error timed out>"
-        },
-        {
-          "url": "https://www.club-pannonia.at/uber-uns/",
-          "error": "<urlopen error timed out>"
-        },
-        {
-          "url": "https://www.club-pannonia.at/mitgliedschaft/",
-          "error": "<urlopen error timed out>"
-        }
+      "signals": [
+        "diak"
       ],
+      "pagesChecked": 3,
+      "checkedUrls": [
+        "https://club-pannonia.at/",
+        "https://www.club-pannonia.at/uber-uns/",
+        "https://www.club-pannonia.at/mitgliedschaft/"
+      ],
+      "errors": [],
       "flags": []
     },
     {
@@ -1104,13 +1093,20 @@
         "sport",
         "csalad"
       ],
-      "pagesChecked": 3,
+      "pagesChecked": 1,
       "checkedUrls": [
-        "https://culture.hu/hu/wien/elerhetoseg",
-        "https://volksgruppen.orf.at/magyarok/stories/3358308/",
-        "https://culture.hu/hu/wien"
+        "https://volksgruppen.orf.at/magyarok/stories/3358308/"
       ],
-      "errors": [],
+      "errors": [
+        {
+          "url": "https://culture.hu/hu/wien/elerhetoseg",
+          "error": "<urlopen error timed out>"
+        },
+        {
+          "url": "https://culture.hu/hu/wien",
+          "error": "<urlopen error timed out>"
+        }
+      ],
       "flags": []
     },
     {
@@ -1123,20 +1119,24 @@
       ],
       "activityCategories": [],
       "signals": [
-        "oktatas",
-        "szinhaz",
-        "media",
-        "irodalom",
-        "muveszet",
-        "csalad"
+        "oktatas"
       ],
-      "pagesChecked": 3,
-      "checkedUrls": [
-        "https://culture.hu/hu/wien",
-        "https://culture.hu/hu/wien/esemenyek",
-        "https://culture.hu/de/wien/jubilaum"
+      "pagesChecked": 0,
+      "checkedUrls": [],
+      "errors": [
+        {
+          "url": "https://culture.hu/hu/wien",
+          "error": "<urlopen error timed out>"
+        },
+        {
+          "url": "https://culture.hu/hu/wien/esemenyek",
+          "error": "<urlopen error timed out>"
+        },
+        {
+          "url": "https://culture.hu/de/wien/jubilaum",
+          "error": "<urlopen error timed out>"
+        }
       ],
-      "errors": [],
       "flags": []
     },
     {
@@ -1203,21 +1203,19 @@
         "cserkesz",
         "szinhaz",
         "media",
+        "egyhaz",
+        "diak",
         "irodalom",
         "muveszet",
         "csalad"
       ],
-      "pagesChecked": 2,
+      "pagesChecked": 3,
       "checkedUrls": [
         "https://cserkesz.at/",
-        "https://cserkesz.at/programok/"
+        "https://cserkesz.at/programok/",
+        "https://cserkesz.at/csapattortenelem/"
       ],
-      "errors": [
-        {
-          "url": "https://cserkesz.at/csapattortenelem/",
-          "error": "The read operation timed out"
-        }
-      ],
+      "errors": [],
       "flags": []
     },
     {
@@ -1475,10 +1473,27 @@
         "kultura"
       ],
       "activityCategories": [],
-      "signals": [],
-      "pagesChecked": 0,
-      "checkedUrls": [],
-      "errors": [],
+      "signals": [
+        "oktatas",
+        "neptanc",
+        "szinhaz",
+        "media",
+        "egyhaz",
+        "diak",
+        "irodalom",
+        "muveszet"
+      ],
+      "pagesChecked": 2,
+      "checkedUrls": [
+        "https://europaclub.at/",
+        "https://europaclub.at/rolunk/europa-club-tortenete/"
+      ],
+      "errors": [
+        {
+          "url": "https://europaclub.at/rendezvenyek/meghivok/",
+          "error": "The read operation timed out"
+        }
+      ],
       "flags": []
     },
     {
@@ -1571,16 +1586,24 @@
       ],
       "activityCategories": [],
       "signals": [
-        "media",
         "egyhaz"
       ],
-      "pagesChecked": 3,
-      "checkedUrls": [
-        "https://www.martinus.at/pfarre/1122",
-        "https://www.martinus.at/pfarre/1122/kalender",
-        "https://www.martinus.at/pfarre/1122/kalender/calendar/1808040.html"
+      "pagesChecked": 0,
+      "checkedUrls": [],
+      "errors": [
+        {
+          "url": "https://www.martinus.at/pfarre/1122",
+          "error": "<urlopen error timed out>"
+        },
+        {
+          "url": "https://www.martinus.at/pfarre/1122/kalender",
+          "error": "<urlopen error timed out>"
+        },
+        {
+          "url": "https://www.martinus.at/pfarre/1122/kalender/calendar/1808040.html",
+          "error": "<urlopen error timed out>"
+        }
       ],
-      "errors": [],
       "flags": []
     },
     {
@@ -2089,14 +2112,16 @@
       "signals": [
         "egyhaz"
       ],
-      "pagesChecked": 1,
-      "checkedUrls": [
-        "https://www.edsbg.at/seelsorge/weltkirche/anderssprachige-seelsorge/ungarische-gemeinde"
-      ],
+      "pagesChecked": 0,
+      "checkedUrls": [],
       "errors": [
         {
+          "url": "https://www.edsbg.at/seelsorge/weltkirche/anderssprachige-seelsorge/ungarische-gemeinde",
+          "error": "<urlopen error timed out>"
+        },
+        {
           "url": "https://www.edsbg.at/dl/klOKJmMJKNLMKJqx4KJK/ungarischsprachige_Gottesdienstgemeinde_Salzburg_pdf",
-          "error": "HTTP Error 400: Bad Request"
+          "error": "<urlopen error timed out>"
         }
       ],
       "flags": []
