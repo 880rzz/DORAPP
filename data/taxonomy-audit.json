@@ -1,12 +1,12 @@
 {
-  "updated": "2026-10-09T01:45:40.774494+00:00",
+  "updated": "2026-10-09T11:20:16.844367+00:00",
   "summary": {
     "organizations": 160,
     "organizationFlags": 1,
-    "organizationPagesChecked": 315,
+    "organizationPagesChecked": 331,
     "education": 108,
     "educationFlags": 0,
-    "events": 51,
+    "events": 52,
     "eventFlags": 0
   },
   "organizations": [
@@ -125,24 +125,18 @@
       ],
       "activityCategories": [],
       "signals": [
-        "egyhaz"
+        "szinhaz",
+        "media",
+        "egyhaz",
+        "csalad"
       ],
-      "pagesChecked": 0,
-      "checkedUrls": [],
-      "errors": [
-        {
-          "url": "https://www.martinus.at/",
-          "error": "<urlopen error timed out>"
-        },
-        {
-          "url": "https://www.martinus.at/pfarre/1127/kalender",
-          "error": "<urlopen error timed out>"
-        },
-        {
-          "url": "https://www.martinus.at/unterwart",
-          "error": "<urlopen error timed out>"
-        }
+      "pagesChecked": 3,
+      "checkedUrls": [
+        "https://www.martinus.at/",
+        "https://www.martinus.at/pfarre/1127/kalender",
+        "https://www.martinus.at/unterwart"
       ],
+      "errors": [],
       "flags": []
     },
     {
@@ -172,7 +166,12 @@
       "checkedUrls": [
         "https://rolunk.at/ausztriai-magyar-egyesuletek/"
       ],
-      "errors": [],
+      "errors": [
+        {
+          "url": "https://www.unterwart.at/wp-content/uploads/2025/01/Veranstaltkal2025.pdf",
+          "error": "<urlopen error timed out>"
+        }
+      ],
       "flags": []
     },
     {
@@ -189,17 +188,22 @@
         "nepzene",
         "szinhaz",
         "media",
-        "egyhaz",
-        "irodalom",
-        "sport",
-        "csalad"
+        "irodalom"
       ],
-      "pagesChecked": 2,
+      "pagesChecked": 1,
       "checkedUrls": [
-        "https://www.unterwart.at/heimathaus-unterwart/",
         "https://rolunk.at/artikel-mit-ubersetzung/tag-der-offenen-tur-des-unterwarter-heimathauses/"
       ],
-      "errors": [],
+      "errors": [
+        {
+          "url": "https://www.unterwart.at/heimathaus-unterwart/",
+          "error": "<urlopen error timed out>"
+        },
+        {
+          "url": "https://www.unterwart.at/wp-content/uploads/2025/01/Veranstaltkal2025.pdf",
+          "error": "<urlopen error timed out>"
+        }
+      ],
       "flags": []
     },
     {
@@ -580,18 +584,18 @@
       "signals": [
         "oktatas",
         "neptanc",
-        "cserkesz"
+        "nepzene",
+        "cserkesz",
+        "szinhaz",
+        "media",
+        "irodalom"
       ],
-      "pagesChecked": 1,
+      "pagesChecked": 2,
       "checkedUrls": [
+        "https://www.kozpontiszovetseg.at/r%C3%B3lunk",
         "https://www.korosiprogram.hu/partnereink/ausztriai-magyar-egyesuletek-es-szervezetek-kozponti-szovetsege-es-tagszervezetei"
       ],
-      "errors": [
-        {
-          "url": "https://www.kozpontiszovetseg.at/r%C3%B3lunk",
-          "error": "HTTP Error 429: Too Many Requests"
-        }
-      ],
+      "errors": [],
       "flags": []
     },
     {
@@ -604,6 +608,8 @@
       "activityCategories": [],
       "signals": [
         "oktatas",
+        "neptanc",
+        "nepzene",
         "szinhaz",
         "media",
         "irodalom",
@@ -611,20 +617,13 @@
         "sport",
         "csalad"
       ],
-      "pagesChecked": 1,
+      "pagesChecked": 3,
       "checkedUrls": [
-        "https://www.becsinaplo.at/"
+        "https://www.becsinaplo.at/",
+        "https://www.kozpontiszovetseg.at/r%C3%B3lunk",
+        "https://www.kozpontiszovetseg.at/event-details/becsi-naplo"
       ],
-      "errors": [
-        {
-          "url": "https://www.kozpontiszovetseg.at/r%C3%B3lunk",
-          "error": "HTTP Error 429: Too Many Requests"
-        },
-        {
-          "url": "https://www.kozpontiszovetseg.at/event-details/becsi-naplo",
-          "error": "HTTP Error 429: Too Many Requests"
-        }
-      ],
+      "errors": [],
       "flags": []
     },
     {
@@ -638,6 +637,7 @@
       "activityCategories": [],
       "signals": [
         "oktatas",
+        "szinhaz",
         "media",
         "diak",
         "irodalom",
@@ -645,16 +645,12 @@
         "sport",
         "csalad"
       ],
-      "pagesChecked": 1,
+      "pagesChecked": 2,
       "checkedUrls": [
+        "https://www.becsiszelet.at/",
         "https://volksgruppen.orf.at/magyarok/stories/3336275/"
       ],
-      "errors": [
-        {
-          "url": "https://www.becsiszelet.at/",
-          "error": "HTTP Error 429: Too Many Requests"
-        }
-      ],
+      "errors": [],
       "flags": []
     },
     {
@@ -897,11 +893,16 @@
       ],
       "activityCategories": [],
       "signals": [
+        "oktatas",
+        "szinhaz",
+        "media",
         "irodalom",
         "muveszet"
       ],
-      "pagesChecked": 0,
-      "checkedUrls": [],
+      "pagesChecked": 1,
+      "checkedUrls": [
+        "https://www.kozpontiszovetseg.at/event-details/dr-janosi-zoltan-irodalomtortenesz-iro-kolto"
+      ],
       "errors": [
         {
           "url": "https://bornemisza.at/",
@@ -909,11 +910,7 @@
         },
         {
           "url": "https://www.kozpontiszovetseg.at/bornemisza-peter-tarsasag",
-          "error": "HTTP Error 429: Too Many Requests"
-        },
-        {
-          "url": "https://www.kozpontiszovetseg.at/event-details/dr-janosi-zoltan-irodalomtortenesz-iro-kolto",
-          "error": "HTTP Error 429: Too Many Requests"
+          "error": "HTTP Error 404: Not Found"
         }
       ],
       "flags": []
@@ -1068,16 +1065,23 @@
         "kultura"
       ],
       "activityCategories": [],
-      "signals": [
-        "diak"
+      "signals": [],
+      "pagesChecked": 0,
+      "checkedUrls": [],
+      "errors": [
+        {
+          "url": "https://club-pannonia.at/",
+          "error": "<urlopen error timed out>"
+        },
+        {
+          "url": "https://www.club-pannonia.at/uber-uns/",
+          "error": "<urlopen error timed out>"
+        },
+        {
+          "url": "https://www.club-pannonia.at/mitgliedschaft/",
+          "error": "<urlopen error timed out>"
+        }
       ],
-      "pagesChecked": 3,
-      "checkedUrls": [
-        "https://club-pannonia.at/",
-        "https://www.club-pannonia.at/uber-uns/",
-        "https://www.club-pannonia.at/mitgliedschaft/"
-      ],
-      "errors": [],
       "flags": []
     },
     {
@@ -1199,19 +1203,21 @@
         "cserkesz",
         "szinhaz",
         "media",
-        "egyhaz",
-        "diak",
         "irodalom",
         "muveszet",
         "csalad"
       ],
-      "pagesChecked": 3,
+      "pagesChecked": 2,
       "checkedUrls": [
         "https://cserkesz.at/",
-        "https://cserkesz.at/programok/",
-        "https://cserkesz.at/csapattortenelem/"
+        "https://cserkesz.at/programok/"
       ],
-      "errors": [],
+      "errors": [
+        {
+          "url": "https://cserkesz.at/csapattortenelem/",
+          "error": "The read operation timed out"
+        }
+      ],
       "flags": []
     },
     {
@@ -1361,23 +1367,20 @@
         "neptanc",
         "nepzene",
         "enekkar",
+        "szinhaz",
         "media",
         "egyhaz",
         "muveszet",
         "sport",
         "csalad"
       ],
-      "pagesChecked": 2,
+      "pagesChecked": 3,
       "checkedUrls": [
         "https://donauphilharmonie.at/",
-        "https://volksgruppen.orf.at/v2/magyarok/stories/2914449/"
+        "https://volksgruppen.orf.at/v2/magyarok/stories/2914449/",
+        "https://www.kozpontiszovetseg.at/event-details/zene-es-talalkozas"
       ],
-      "errors": [
-        {
-          "url": "https://www.kozpontiszovetseg.at/event-details/zene-es-talalkozas",
-          "error": "HTTP Error 429: Too Many Requests"
-        }
-      ],
+      "errors": [],
       "flags": []
     },
     {
@@ -1472,27 +1475,10 @@
         "kultura"
       ],
       "activityCategories": [],
-      "signals": [
-        "oktatas",
-        "neptanc",
-        "szinhaz",
-        "media",
-        "egyhaz",
-        "diak",
-        "irodalom",
-        "muveszet"
-      ],
-      "pagesChecked": 2,
-      "checkedUrls": [
-        "https://europaclub.at/",
-        "https://europaclub.at/rolunk/europa-club-tortenete/"
-      ],
-      "errors": [
-        {
-          "url": "https://europaclub.at/rendezvenyek/meghivok/",
-          "error": "The read operation timed out"
-        }
-      ],
+      "signals": [],
+      "pagesChecked": 0,
+      "checkedUrls": [],
+      "errors": [],
       "flags": []
     },
     {
@@ -1531,7 +1517,6 @@
       "activityCategories": [],
       "signals": [
         "oktatas",
-        "media",
         "egyhaz",
         "irodalom",
         "muveszet",
@@ -1586,24 +1571,16 @@
       ],
       "activityCategories": [],
       "signals": [
+        "media",
         "egyhaz"
       ],
-      "pagesChecked": 0,
-      "checkedUrls": [],
-      "errors": [
-        {
-          "url": "https://www.martinus.at/pfarre/1122",
-          "error": "<urlopen error timed out>"
-        },
-        {
-          "url": "https://www.martinus.at/pfarre/1122/kalender",
-          "error": "<urlopen error timed out>"
-        },
-        {
-          "url": "https://www.martinus.at/pfarre/1122/kalender/calendar/1808040.html",
-          "error": "<urlopen error timed out>"
-        }
+      "pagesChecked": 3,
+      "checkedUrls": [
+        "https://www.martinus.at/pfarre/1122",
+        "https://www.martinus.at/pfarre/1122/kalender",
+        "https://www.martinus.at/pfarre/1122/kalender/calendar/1808040.html"
       ],
+      "errors": [],
       "flags": []
     },
     {
@@ -1906,24 +1883,22 @@
         "neptanc",
         "nepzene",
         "cserkesz",
+        "szinhaz",
         "media",
         "egyhaz",
         "diak",
         "irodalom",
         "muveszet",
+        "sport",
         "csalad"
       ],
-      "pagesChecked": 2,
+      "pagesChecked": 3,
       "checkedUrls": [
         "https://imeasz.at/",
+        "https://www.kozpontiszovetseg.at/tagszervezetek",
         "https://www.petofiprogram.hu/hirek/hazat-csereltek-de-szivet-nem-kifogyhatatlan-otletekkel-peldas-aktivitassal-orzik"
       ],
-      "errors": [
-        {
-          "url": "https://www.kozpontiszovetseg.at/tagszervezetek",
-          "error": "HTTP Error 429: Too Many Requests"
-        }
-      ],
+      "errors": [],
       "flags": []
     },
     {
@@ -2052,22 +2027,24 @@
       "activityCategories": [],
       "signals": [
         "oktatas",
+        "neptanc",
+        "nepzene",
+        "cserkesz",
+        "szinhaz",
         "media",
         "egyhaz",
+        "diak",
         "irodalom",
+        "muveszet",
         "sport",
         "csalad"
       ],
-      "pagesChecked": 1,
+      "pagesChecked": 2,
       "checkedUrls": [
-        "https://www.dibk.at/Media/Organisationen/muttersprachliche-seelsorge"
+        "https://www.dibk.at/Media/Organisationen/muttersprachliche-seelsorge",
+        "https://www.kozpontiszovetseg.at/tagszervezetek"
       ],
-      "errors": [
-        {
-          "url": "https://www.kozpontiszovetseg.at/tagszervezetek",
-          "error": "HTTP Error 429: Too Many Requests"
-        }
-      ],
+      "errors": [],
       "flags": []
     },
     {
@@ -2112,16 +2089,14 @@
       "signals": [
         "egyhaz"
       ],
-      "pagesChecked": 0,
-      "checkedUrls": [],
+      "pagesChecked": 1,
+      "checkedUrls": [
+        "https://www.edsbg.at/seelsorge/weltkirche/anderssprachige-seelsorge/ungarische-gemeinde"
+      ],
       "errors": [
         {
-          "url": "https://www.edsbg.at/seelsorge/weltkirche/anderssprachige-seelsorge/ungarische-gemeinde",
-          "error": "<urlopen error timed out>"
-        },
-        {
           "url": "https://www.edsbg.at/dl/klOKJmMJKNLMKJqx4KJK/ungarischsprachige_Gottesdienstgemeinde_Salzburg_pdf",
-          "error": "<urlopen error timed out>"
+          "error": "HTTP Error 400: Bad Request"
         }
       ],
       "flags": []
@@ -2270,24 +2245,22 @@
       ],
       "activityCategories": [],
       "signals": [
-        "oktatas"
+        "oktatas",
+        "neptanc",
+        "nepzene",
+        "szinhaz",
+        "media",
+        "irodalom",
+        "muveszet",
+        "csalad"
       ],
-      "pagesChecked": 0,
-      "checkedUrls": [],
-      "errors": [
-        {
-          "url": "https://www.kozpontiszovetseg.at/",
-          "error": "HTTP Error 429: Too Many Requests"
-        },
-        {
-          "url": "https://www.kozpontiszovetseg.at/event-list",
-          "error": "HTTP Error 429: Too Many Requests"
-        },
-        {
-          "url": "https://www.kozpontiszovetseg.at/r%C3%B3lunk",
-          "error": "HTTP Error 429: Too Many Requests"
-        }
+      "pagesChecked": 3,
+      "checkedUrls": [
+        "https://www.kozpontiszovetseg.at/",
+        "https://www.kozpontiszovetseg.at/event-list",
+        "https://www.kozpontiszovetseg.at/r%C3%B3lunk"
       ],
+      "errors": [],
       "flags": []
     },
     {
@@ -2299,15 +2272,19 @@
         "felnott",
         "kozosseg"
       ],
-      "signals": [],
-      "pagesChecked": 0,
-      "checkedUrls": [],
-      "errors": [
-        {
-          "url": "https://www.kozpontiszovetseg.at/r%C3%B3lunk",
-          "error": "HTTP Error 429: Too Many Requests"
-        }
+      "signals": [
+        "oktatas",
+        "neptanc",
+        "nepzene",
+        "szinhaz",
+        "media",
+        "irodalom"
       ],
+      "pagesChecked": 1,
+      "checkedUrls": [
+        "https://www.kozpontiszovetseg.at/r%C3%B3lunk"
+      ],
+      "errors": [],
       "flags": []
     },
     {
@@ -2373,18 +2350,24 @@
       ],
       "activityCategories": [],
       "signals": [
+        "oktatas",
+        "neptanc",
+        "nepzene",
+        "cserkesz",
+        "szinhaz",
+        "egyhaz",
+        "diak",
+        "irodalom",
+        "muveszet",
+        "sport",
         "csalad"
       ],
-      "pagesChecked": 1,
+      "pagesChecked": 2,
       "checkedUrls": [
-        "https://leaninfemspace.at/"
+        "https://leaninfemspace.at/",
+        "https://www.kozpontiszovetseg.at/tagszervezetek"
       ],
-      "errors": [
-        {
-          "url": "https://www.kozpontiszovetseg.at/tagszervezetek",
-          "error": "HTTP Error 429: Too Many Requests"
-        }
-      ],
+      "errors": [],
       "flags": []
     },
     {
@@ -2485,7 +2468,7 @@
       "errors": [
         {
           "url": "https://www.magyarszo.at/",
-          "error": "<urlopen error timed out>"
+          "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'www.magyarszo.at'. (_ssl.c:1010)>"
         }
       ],
       "flags": []
@@ -3162,18 +3145,19 @@
       ],
       "activityCategories": [],
       "signals": [
-        "media"
+        "oktatas",
+        "neptanc",
+        "nepzene",
+        "szinhaz",
+        "media",
+        "irodalom"
       ],
-      "pagesChecked": 1,
+      "pagesChecked": 2,
       "checkedUrls": [
+        "https://www.kozpontiszovetseg.at/r%C3%B3lunk",
         "https://www.facebook.com/kozpontiszovetseg/?locale=hu_HU"
       ],
-      "errors": [
-        {
-          "url": "https://www.kozpontiszovetseg.at/r%C3%B3lunk",
-          "error": "HTTP Error 429: Too Many Requests"
-        }
-      ],
+      "errors": [],
       "flags": []
     },
     {
@@ -3755,16 +3739,18 @@
       ],
       "activityCategories": [],
       "signals": [
+        "oktatas",
+        "neptanc",
+        "nepzene",
+        "szinhaz",
+        "media",
         "irodalom"
       ],
-      "pagesChecked": 0,
-      "checkedUrls": [],
-      "errors": [
-        {
-          "url": "https://www.kozpontiszovetseg.at/r%C3%B3lunk",
-          "error": "HTTP Error 429: Too Many Requests"
-        }
+      "pagesChecked": 1,
+      "checkedUrls": [
+        "https://www.kozpontiszovetseg.at/r%C3%B3lunk"
       ],
+      "errors": [],
       "flags": []
     },
     {
@@ -3995,19 +3981,24 @@
       "activityCategories": [],
       "signals": [
         "oktatas",
+        "neptanc",
+        "nepzene",
+        "cserkesz",
+        "szinhaz",
+        "egyhaz",
+        "diak",
+        "irodalom",
+        "muveszet",
+        "sport",
         "csalad"
       ],
-      "pagesChecked": 2,
+      "pagesChecked": 3,
       "checkedUrls": [
         "https://ungarball.at/",
-        "https://ungarball.at/impressum"
+        "https://ungarball.at/impressum",
+        "https://www.kozpontiszovetseg.at/tagszervezetek"
       ],
-      "errors": [
-        {
-          "url": "https://www.kozpontiszovetseg.at/tagszervezetek",
-          "error": "HTTP Error 429: Too Many Requests"
-        }
-      ],
+      "errors": [],
       "flags": []
     },
     {
