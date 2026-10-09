@@ -1,9 +1,9 @@
 {
-  "updated": "2026-10-09T01:31:20.751435+00:00",
+  "updated": "2026-10-09T01:41:46.476840+00:00",
   "summary": {
     "organizations": 160,
-    "organizationFlags": 2,
-    "organizationPagesChecked": 316,
+    "organizationFlags": 1,
+    "organizationPagesChecked": 317,
     "education": 108,
     "educationFlags": 0,
     "events": 51,
@@ -604,6 +604,8 @@
       "activityCategories": [],
       "signals": [
         "oktatas",
+        "neptanc",
+        "nepzene",
         "szinhaz",
         "media",
         "irodalom",
@@ -611,15 +613,12 @@
         "sport",
         "csalad"
       ],
-      "pagesChecked": 1,
+      "pagesChecked": 2,
       "checkedUrls": [
-        "https://www.becsinaplo.at/"
+        "https://www.becsinaplo.at/",
+        "https://www.kozpontiszovetseg.at/r%C3%B3lunk"
       ],
       "errors": [
-        {
-          "url": "https://www.kozpontiszovetseg.at/r%C3%B3lunk",
-          "error": "HTTP Error 429: Too Many Requests"
-        },
         {
           "url": "https://www.kozpontiszovetseg.at/event-details/becsi-naplo",
           "error": "HTTP Error 429: Too Many Requests"
@@ -1120,23 +1119,20 @@
       "activityCategories": [],
       "signals": [
         "oktatas",
+        "szinhaz",
         "media",
-        "irodalom"
+        "irodalom",
+        "muveszet",
+        "csalad"
       ],
-      "pagesChecked": 2,
+      "pagesChecked": 3,
       "checkedUrls": [
         "https://culture.hu/hu/wien",
+        "https://culture.hu/hu/wien/esemenyek",
         "https://culture.hu/de/wien/jubilaum"
       ],
-      "errors": [
-        {
-          "url": "https://culture.hu/hu/wien/esemenyek",
-          "error": "The read operation timed out"
-        }
-      ],
-      "flags": [
-        "weak-source-signal:muveszet"
-      ]
+      "errors": [],
+      "flags": []
     },
     {
       "id": "collegium-pazmanianum",
@@ -1475,27 +1471,10 @@
         "kultura"
       ],
       "activityCategories": [],
-      "signals": [
-        "oktatas",
-        "neptanc",
-        "szinhaz",
-        "media",
-        "egyhaz",
-        "diak",
-        "irodalom",
-        "muveszet"
-      ],
-      "pagesChecked": 2,
-      "checkedUrls": [
-        "https://europaclub.at/",
-        "https://europaclub.at/rolunk/europa-club-tortenete/"
-      ],
-      "errors": [
-        {
-          "url": "https://europaclub.at/rendezvenyek/meghivok/",
-          "error": "The read operation timed out"
-        }
-      ],
+      "signals": [],
+      "pagesChecked": 0,
+      "checkedUrls": [],
+      "errors": [],
       "flags": []
     },
     {
@@ -2274,22 +2253,21 @@
       "activityCategories": [],
       "signals": [
         "oktatas",
+        "neptanc",
+        "nepzene",
         "szinhaz",
+        "media",
         "irodalom",
         "muveszet",
         "csalad"
       ],
-      "pagesChecked": 2,
+      "pagesChecked": 3,
       "checkedUrls": [
         "https://www.kozpontiszovetseg.at/",
-        "https://www.kozpontiszovetseg.at/event-list"
+        "https://www.kozpontiszovetseg.at/event-list",
+        "https://www.kozpontiszovetseg.at/r%C3%B3lunk"
       ],
-      "errors": [
-        {
-          "url": "https://www.kozpontiszovetseg.at/r%C3%B3lunk",
-          "error": "HTTP Error 429: Too Many Requests"
-        }
-      ],
+      "errors": [],
       "flags": []
     },
     {
@@ -2375,8 +2353,7 @@
       ],
       "activityCategories": [],
       "signals": [
-        "diak",
-        "muveszet"
+        "csalad"
       ],
       "pagesChecked": 1,
       "checkedUrls": [
@@ -2488,7 +2465,7 @@
       "errors": [
         {
           "url": "https://www.magyarszo.at/",
-          "error": "<urlopen error timed out>"
+          "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'www.magyarszo.at'. (_ssl.c:1010)>"
         }
       ],
       "flags": []
