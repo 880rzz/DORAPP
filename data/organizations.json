@@ -9759,10 +9759,10 @@
       "profileVerifiedAt": "2026-09-25",
       "entityClass": "institution",
       "contactUrl": "https://culture.hu/hu/wien",
-      "calendarSources": [
-        {
-          "label": "Collegium Hungaricum Wien – Magyar Kulturális Intézet – automatikus eseményforrás",
-          "url": "https://culture.hu/hu/wien",
+    "calendarSources": [
+      {
+        "label": "Collegium Hungaricum Wien – Magyar Kulturális Intézet – automatikus eseményforrás",
+        "url": "https://culture.hu/hu/wien",
           "kind": "official-website",
           "scope": "self",
           "ingestEvents": false
@@ -9771,10 +9771,17 @@
           "label": "Collegium Hungaricum Wien – Magyar Kulturális Intézet – automatikus eseményforrás",
           "url": "https://culture.hu/hu/wien/esemenyek",
           "kind": "official-event-source",
-          "scope": "self",
-          "ingestEvents": true
-        }
-      ]
+        "scope": "self",
+        "ingestEvents": true
+      },
+      {
+        "label": "Collegium Hungaricum Wien – hivatalos programhírek és tematikus eseményoldalak",
+        "url": "https://culture.hu/de/wien/blog",
+        "kind": "official-program-source",
+        "scope": "self",
+        "ingestEvents": false
+      }
+    ]
     },
     {
       "id": "rolunk-at",
