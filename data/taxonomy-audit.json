@@ -1,9 +1,9 @@
 {
-  "updated": "2026-10-09T11:50:28.315997+00:00",
+  "updated": "2026-10-10T01:54:12.352190+00:00",
   "summary": {
     "organizations": 160,
-    "organizationFlags": 1,
-    "organizationPagesChecked": 326,
+    "organizationFlags": 2,
+    "organizationPagesChecked": 328,
     "education": 108,
     "educationFlags": 0,
     "events": 50,
@@ -608,6 +608,7 @@
         "nepzene",
         "szinhaz",
         "media",
+        "egyhaz",
         "irodalom",
         "muveszet",
         "sport",
@@ -902,7 +903,7 @@
       "errors": [
         {
           "url": "https://bornemisza.at/",
-          "error": "<urlopen error timed out>"
+          "error": "<urlopen error [Errno 111] Connection refused>"
         },
         {
           "url": "https://www.kozpontiszovetseg.at/bornemisza-peter-tarsasag",
@@ -946,7 +947,6 @@
       ],
       "activityCategories": [],
       "signals": [
-        "oktatas",
         "media",
         "egyhaz",
         "diak",
@@ -954,13 +954,20 @@
         "sport",
         "csalad"
       ],
-      "pagesChecked": 3,
+      "pagesChecked": 1,
       "checkedUrls": [
-        "https://buechereien.wien.gv.at/B%C3%BCchereien-Wien",
-        "https://buechereien.wien.gv.at/B%C3%BCchereien-Wien/Standorte-%C3%96ffnungszeiten/Zweigstellen/Kinderb%C3%BCcherei-der-Weltsprachen",
         "https://volksgruppen.orf.at/magyarok/stories/3355470/"
       ],
-      "errors": [],
+      "errors": [
+        {
+          "url": "https://buechereien.wien.gv.at/B%C3%BCchereien-Wien",
+          "error": "HTTP Error 503: Service Unavailable"
+        },
+        {
+          "url": "https://buechereien.wien.gv.at/B%C3%BCchereien-Wien/Standorte-%C3%96ffnungszeiten/Zweigstellen/Kinderb%C3%BCcherei-der-Weltsprachen",
+          "error": "HTTP Error 503: Service Unavailable"
+        }
+      ],
       "flags": []
     },
     {
@@ -1093,20 +1100,13 @@
         "sport",
         "csalad"
       ],
-      "pagesChecked": 1,
+      "pagesChecked": 3,
       "checkedUrls": [
-        "https://volksgruppen.orf.at/magyarok/stories/3358308/"
+        "https://culture.hu/hu/wien/elerhetoseg",
+        "https://volksgruppen.orf.at/magyarok/stories/3358308/",
+        "https://culture.hu/hu/wien"
       ],
-      "errors": [
-        {
-          "url": "https://culture.hu/hu/wien/elerhetoseg",
-          "error": "<urlopen error timed out>"
-        },
-        {
-          "url": "https://culture.hu/hu/wien",
-          "error": "<urlopen error timed out>"
-        }
-      ],
+      "errors": [],
       "flags": []
     },
     {
@@ -1119,25 +1119,24 @@
       ],
       "activityCategories": [],
       "signals": [
-        "oktatas"
+        "oktatas",
+        "media",
+        "irodalom"
       ],
-      "pagesChecked": 0,
-      "checkedUrls": [],
+      "pagesChecked": 2,
+      "checkedUrls": [
+        "https://culture.hu/hu/wien",
+        "https://culture.hu/de/wien/jubilaum"
+      ],
       "errors": [
         {
-          "url": "https://culture.hu/hu/wien",
-          "error": "<urlopen error timed out>"
-        },
-        {
           "url": "https://culture.hu/hu/wien/esemenyek",
-          "error": "<urlopen error timed out>"
-        },
-        {
-          "url": "https://culture.hu/de/wien/jubilaum",
-          "error": "<urlopen error timed out>"
+          "error": "The read operation timed out"
         }
       ],
-      "flags": []
+      "flags": [
+        "weak-source-signal:muveszet"
+      ]
     },
     {
       "id": "collegium-pazmanianum",
