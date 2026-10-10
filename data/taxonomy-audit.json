@@ -1,9 +1,9 @@
 {
-  "updated": "2026-10-10T02:00:14.437833+00:00",
+  "updated": "2026-10-10T10:37:59.850255+00:00",
   "summary": {
     "organizations": 160,
     "organizationFlags": 1,
-    "organizationPagesChecked": 324,
+    "organizationPagesChecked": 329,
     "education": 108,
     "educationFlags": 0,
     "events": 50,
@@ -505,9 +505,7 @@
       "activityCategories": [],
       "signals": [
         "oktatas",
-        "neptanc",
         "enekkar",
-        "cserkesz",
         "szinhaz",
         "media",
         "egyhaz",
@@ -608,7 +606,6 @@
         "nepzene",
         "szinhaz",
         "media",
-        "egyhaz",
         "irodalom",
         "muveszet",
         "sport",
@@ -903,7 +900,7 @@
       "errors": [
         {
           "url": "https://bornemisza.at/",
-          "error": "<urlopen error timed out>"
+          "error": "<urlopen error [Errno 111] Connection refused>"
         },
         {
           "url": "https://www.kozpontiszovetseg.at/bornemisza-peter-tarsasag",
@@ -947,6 +944,7 @@
       ],
       "activityCategories": [],
       "signals": [
+        "oktatas",
         "media",
         "egyhaz",
         "diak",
@@ -954,20 +952,13 @@
         "sport",
         "csalad"
       ],
-      "pagesChecked": 1,
+      "pagesChecked": 3,
       "checkedUrls": [
+        "https://buechereien.wien.gv.at/B%C3%BCchereien-Wien",
+        "https://buechereien.wien.gv.at/B%C3%BCchereien-Wien/Standorte-%C3%96ffnungszeiten/Zweigstellen/Kinderb%C3%BCcherei-der-Weltsprachen",
         "https://volksgruppen.orf.at/magyarok/stories/3355470/"
       ],
-      "errors": [
-        {
-          "url": "https://buechereien.wien.gv.at/B%C3%BCchereien-Wien",
-          "error": "HTTP Error 503: Service Unavailable"
-        },
-        {
-          "url": "https://buechereien.wien.gv.at/B%C3%BCchereien-Wien/Standorte-%C3%96ffnungszeiten/Zweigstellen/Kinderb%C3%BCcherei-der-Weltsprachen",
-          "error": "HTTP Error 503: Service Unavailable"
-        }
-      ],
+      "errors": [],
       "flags": []
     },
     {
@@ -1036,25 +1027,24 @@
       ],
       "activityCategories": [],
       "signals": [
-        "oktatas",
-        "neptanc",
         "enekkar",
         "cserkesz",
         "media",
-        "egyhaz",
-        "irodalom",
         "sport",
         "csalad"
       ],
-      "pagesChecked": 2,
+      "pagesChecked": 1,
       "checkedUrls": [
-        "https://www.burgenlandicserkesz.at/",
-        "https://volksgruppen.orf.at/magyarok/stories/3333230/"
+        "https://www.burgenlandicserkesz.at/"
       ],
       "errors": [
         {
           "url": "https://burgenlandicserkesz.at/en/",
           "error": "HTTP Error 404: Not Found"
+        },
+        {
+          "url": "https://volksgruppen.orf.at/magyarok/stories/3333230/",
+          "error": "The read operation timed out"
         }
       ],
       "flags": []
@@ -1419,15 +1409,18 @@
         "egyhaz",
         "diak",
         "irodalom",
-        "muveszet",
-        "sport"
+        "muveszet"
       ],
-      "pagesChecked": 2,
+      "pagesChecked": 1,
       "checkedUrls": [
-        "https://volksgruppen.orf.at/magyarok/stories/3286420/",
         "https://rolunk.at/ausztriai-magyar-egyesuletek/"
       ],
-      "errors": [],
+      "errors": [
+        {
+          "url": "https://volksgruppen.orf.at/magyarok/stories/3286420/",
+          "error": "The read operation timed out"
+        }
+      ],
       "flags": []
     },
     {
@@ -1469,10 +1462,27 @@
         "kultura"
       ],
       "activityCategories": [],
-      "signals": [],
-      "pagesChecked": 0,
-      "checkedUrls": [],
-      "errors": [],
+      "signals": [
+        "oktatas",
+        "neptanc",
+        "szinhaz",
+        "media",
+        "egyhaz",
+        "diak",
+        "irodalom",
+        "muveszet"
+      ],
+      "pagesChecked": 2,
+      "checkedUrls": [
+        "https://europaclub.at/",
+        "https://europaclub.at/rolunk/europa-club-tortenete/"
+      ],
+      "errors": [
+        {
+          "url": "https://europaclub.at/rendezvenyek/meghivok/",
+          "error": "The read operation timed out"
+        }
+      ],
       "flags": []
     },
     {
@@ -2472,7 +2482,7 @@
       "errors": [
         {
           "url": "https://www.magyarszo.at/",
-          "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'www.magyarszo.at'. (_ssl.c:1010)>"
+          "error": "<urlopen error timed out>"
         }
       ],
       "flags": []
@@ -3779,12 +3789,7 @@
         "https://stadtbibliothek.graz.at/Angebote/Sprachenbibliothek/Sprachen-im-Depot",
         "https://stadtbibliothek.graz.at/Stadtbibliothek-Graz-einfach-erkl%C3%A4rt"
       ],
-      "errors": [
-        {
-          "url": "https://stadtbibliothek.graz.at/Portals/0/adam/Content/b2kuaV22rEye8W20hKafwQ/Text/Bibliothek_interkulturell_2105_2024_100x210mm_finalfinalfinal.pdf",
-          "error": "The read operation timed out"
-        }
-      ],
+      "errors": [],
       "flags": []
     },
     {
@@ -3962,23 +3967,21 @@
         "neptanc"
       ],
       "signals": [
+        "oktatas",
         "nepzene",
         "media",
         "diak",
         "muveszet",
-        "sport"
+        "sport",
+        "csalad"
       ],
-      "pagesChecked": 2,
+      "pagesChecked": 3,
       "checkedUrls": [
+        "https://ungarball.at/",
         "https://volksgruppen.orf.at/v2/magyarok/stories/2694653/",
         "https://www.flickr.com/photos/vipach/55099423490"
       ],
-      "errors": [
-        {
-          "url": "https://ungarball.at/",
-          "error": "HTTP Error 403: Forbidden"
-        }
-      ],
+      "errors": [],
       "flags": []
     },
     {
@@ -4003,20 +4006,13 @@
         "sport",
         "csalad"
       ],
-      "pagesChecked": 1,
+      "pagesChecked": 3,
       "checkedUrls": [
+        "https://ungarball.at/",
+        "https://ungarball.at/impressum",
         "https://www.kozpontiszovetseg.at/tagszervezetek"
       ],
-      "errors": [
-        {
-          "url": "https://ungarball.at/",
-          "error": "HTTP Error 403: Forbidden"
-        },
-        {
-          "url": "https://ungarball.at/impressum",
-          "error": "HTTP Error 403: Forbidden"
-        }
-      ],
+      "errors": [],
       "flags": []
     },
     {
