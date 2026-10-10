@@ -205,6 +205,11 @@ def classify_program_categories(e):
 def canonical_text(v):
     return re.sub(r"[^a-z0-9áéíóöőúüű]+"," ",clean_text(v).casefold()).strip()
 
+def canonical_event_title(v):
+    """Ignore source-added availability labels when comparing event identity."""
+    title=canonical_text(v)
+    return re.sub(r"^(?:teltház|sold out|ausverkauft)\s+","",title).strip()
+
 def local_day(start):
     s=str(start or "")
     m=re.match(r"^(\\d{4}-\\d{2}-\\d{2})",s)
@@ -213,13 +218,13 @@ def local_day(start):
 def event_key(e):
     # Semantic identity: same organizer + normalized title + local calendar day.
     # This intentionally ignores timezone serialization differences (+02:00 vs no offset).
-    return (str(e.get("organizationId") or ""), canonical_text(e.get("name") or ""), local_day(e.get("startDate")))
+    return (str(e.get("organizationId") or ""), canonical_event_title(e.get("name") or ""), local_day(e.get("startDate")))
 
 def source_event_key(e):
     # The same detail page cannot represent separate events merely because a
     # broad calendar URL is attached to more than one directory record.
     source=str(e.get("sourceUrl") or "").strip().rstrip("/").casefold()
-    return (source,canonical_text(e.get("name") or ""),local_day(e.get("startDate"))) if source else None
+    return (source,canonical_event_title(e.get("name") or ""),local_day(e.get("startDate"))) if source else None
 
 def event_score(e):
     start=str(e.get("startDate") or "")

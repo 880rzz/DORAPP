@@ -139,8 +139,12 @@ orgset=set(ids)
 eventids=[]
 event_semantic_keys=set()
 event_source_keys=set()
+def _canonical_event_title(value):
+    name=re.sub(r"[^a-z0-9áéíóöőúüű]+"," ",str(value or "").casefold()).strip()
+    return re.sub(r"^(?:teltház|sold out|ausverkauft)\s+","",name).strip()
+
 def _event_semantic_key(e):
-    name=re.sub(r"[^a-z0-9áéíóöőúüű]+"," ",str(e.get("name","")).casefold()).strip()
+    name=_canonical_event_title(e.get("name",""))
     start=str(e.get("startDate",""))
     day=start[:10]
     return (str(e.get("organizationId","")),name,day)
