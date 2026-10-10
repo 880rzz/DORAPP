@@ -1,9 +1,9 @@
 {
-  "updated": "2026-10-10T10:37:59.850255+00:00",
+  "updated": "2026-10-10T11:07:04.793461+00:00",
   "summary": {
     "organizations": 160,
     "organizationFlags": 1,
-    "organizationPagesChecked": 329,
+    "organizationPagesChecked": 331,
     "education": 108,
     "educationFlags": 0,
     "events": 50,
@@ -606,6 +606,7 @@
         "nepzene",
         "szinhaz",
         "media",
+        "egyhaz",
         "irodalom",
         "muveszet",
         "sport",
@@ -1027,24 +1028,25 @@
       ],
       "activityCategories": [],
       "signals": [
+        "oktatas",
+        "neptanc",
         "enekkar",
         "cserkesz",
         "media",
+        "egyhaz",
+        "irodalom",
         "sport",
         "csalad"
       ],
-      "pagesChecked": 1,
+      "pagesChecked": 2,
       "checkedUrls": [
-        "https://www.burgenlandicserkesz.at/"
+        "https://www.burgenlandicserkesz.at/",
+        "https://volksgruppen.orf.at/magyarok/stories/3333230/"
       ],
       "errors": [
         {
           "url": "https://burgenlandicserkesz.at/en/",
           "error": "HTTP Error 404: Not Found"
-        },
-        {
-          "url": "https://volksgruppen.orf.at/magyarok/stories/3333230/",
-          "error": "The read operation timed out"
         }
       ],
       "flags": []
@@ -1409,18 +1411,15 @@
         "egyhaz",
         "diak",
         "irodalom",
-        "muveszet"
+        "muveszet",
+        "sport"
       ],
-      "pagesChecked": 1,
+      "pagesChecked": 2,
       "checkedUrls": [
+        "https://volksgruppen.orf.at/magyarok/stories/3286420/",
         "https://rolunk.at/ausztriai-magyar-egyesuletek/"
       ],
-      "errors": [
-        {
-          "url": "https://volksgruppen.orf.at/magyarok/stories/3286420/",
-          "error": "The read operation timed out"
-        }
-      ],
+      "errors": [],
       "flags": []
     },
     {
