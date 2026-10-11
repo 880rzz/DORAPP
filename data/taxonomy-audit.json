@@ -1,12 +1,12 @@
 {
-  "updated": "2026-10-11T01:04:48.070113+00:00",
+  "updated": "2026-10-11T10:50:43.837428+00:00",
   "summary": {
     "organizations": 160,
-    "organizationFlags": 2,
-    "organizationPagesChecked": 335,
+    "organizationFlags": 1,
+    "organizationPagesChecked": 334,
     "education": 108,
     "educationFlags": 0,
-    "events": 52,
+    "events": 71,
     "eventFlags": 0
   },
   "organizations": [
@@ -499,7 +499,9 @@
       "activityCategories": [],
       "signals": [
         "oktatas",
+        "neptanc",
         "enekkar",
+        "cserkesz",
         "szinhaz",
         "media",
         "egyhaz",
@@ -527,7 +529,10 @@
       "signals": [
         "oktatas",
         "neptanc",
+        "nepzene",
+        "media",
         "irodalom",
+        "muveszet",
         "csalad"
       ],
       "pagesChecked": 3,
@@ -1109,23 +1114,20 @@
       "activityCategories": [],
       "signals": [
         "oktatas",
+        "szinhaz",
         "media",
-        "irodalom"
+        "irodalom",
+        "muveszet",
+        "csalad"
       ],
-      "pagesChecked": 2,
+      "pagesChecked": 3,
       "checkedUrls": [
         "https://culture.hu/hu/wien",
+        "https://culture.hu/hu/wien/esemenyek",
         "https://culture.hu/de/wien/jubilaum"
       ],
-      "errors": [
-        {
-          "url": "https://culture.hu/hu/wien/esemenyek",
-          "error": "The read operation timed out"
-        }
-      ],
-      "flags": [
-        "weak-source-signal:muveszet"
-      ]
+      "errors": [],
+      "flags": []
     },
     {
       "id": "collegium-pazmanianum",
@@ -2148,20 +2150,22 @@
       ],
       "activityCategories": [],
       "signals": [
-        "oktatas",
         "neptanc",
         "nepzene",
         "media",
-        "muveszet",
         "sport",
         "csalad"
       ],
-      "pagesChecked": 2,
+      "pagesChecked": 1,
       "checkedUrls": [
-        "https://volksgruppen.orf.at/magyarok/stories/3326218/",
         "https://volksgruppen.orf.at/magyarok/stories/3341289/"
       ],
-      "errors": [],
+      "errors": [
+        {
+          "url": "https://volksgruppen.orf.at/magyarok/stories/3326218/",
+          "error": "The read operation timed out"
+        }
+      ],
       "flags": []
     },
     {
@@ -2793,22 +2797,21 @@
       ],
       "activityCategories": [],
       "signals": [
-        "oktatas",
         "neptanc",
         "nepzene",
-        "cserkesz",
-        "media",
-        "egyhaz",
-        "sport",
         "csalad"
       ],
-      "pagesChecked": 3,
+      "pagesChecked": 2,
       "checkedUrls": [
         "https://ne-felejts.weebly.com/",
-        "https://ne-felejts.weebly.com/uumlber-uns.html",
-        "https://volksgruppen.orf.at/magyarok/stories/3173798/"
+        "https://ne-felejts.weebly.com/uumlber-uns.html"
       ],
-      "errors": [],
+      "errors": [
+        {
+          "url": "https://volksgruppen.orf.at/magyarok/stories/3173798/",
+          "error": "The read operation timed out"
+        }
+      ],
       "flags": []
     },
     {
