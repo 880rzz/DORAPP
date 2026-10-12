@@ -1,12 +1,12 @@
 {
-  "updated": "2026-10-11T11:22:17.496670+00:00",
+  "updated": "2026-10-12T01:10:17.586223+00:00",
   "summary": {
     "organizations": 160,
     "organizationFlags": 2,
-    "organizationPagesChecked": 330,
+    "organizationPagesChecked": 328,
     "education": 108,
     "educationFlags": 0,
-    "events": 71,
+    "events": 74,
     "eventFlags": 0
   },
   "organizations": [
@@ -633,7 +633,6 @@
       "activityCategories": [],
       "signals": [
         "oktatas",
-        "szinhaz",
         "media",
         "diak",
         "irodalom",
@@ -946,7 +945,6 @@
       ],
       "activityCategories": [],
       "signals": [
-        "oktatas",
         "media",
         "egyhaz",
         "diak",
@@ -954,13 +952,20 @@
         "sport",
         "csalad"
       ],
-      "pagesChecked": 3,
+      "pagesChecked": 1,
       "checkedUrls": [
-        "https://buechereien.wien.gv.at/B%C3%BCchereien-Wien",
-        "https://buechereien.wien.gv.at/B%C3%BCchereien-Wien/Standorte-%C3%96ffnungszeiten/Zweigstellen/Kinderb%C3%BCcherei-der-Weltsprachen",
         "https://volksgruppen.orf.at/magyarok/stories/3355470/"
       ],
-      "errors": [],
+      "errors": [
+        {
+          "url": "https://buechereien.wien.gv.at/B%C3%BCchereien-Wien",
+          "error": "HTTP Error 503: Service Unavailable"
+        },
+        {
+          "url": "https://buechereien.wien.gv.at/B%C3%BCchereien-Wien/Standorte-%C3%96ffnungszeiten/Zweigstellen/Kinderb%C3%BCcherei-der-Weltsprachen",
+          "error": "HTTP Error 503: Service Unavailable"
+        }
+      ],
       "flags": []
     },
     {
@@ -2484,7 +2489,7 @@
       "errors": [
         {
           "url": "https://www.magyarszo.at/",
-          "error": "<urlopen error timed out>"
+          "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'www.magyarszo.at'. (_ssl.c:1010)>"
         }
       ],
       "flags": []
@@ -2992,9 +2997,9 @@
       ],
       "activityCategories": [],
       "signals": [
-        "oktatas",
+        "nepzene",
+        "szinhaz",
         "media",
-        "diak",
         "irodalom",
         "muveszet",
         "sport",
