@@ -1,12 +1,12 @@
 {
-  "updated": "2026-10-12T01:10:17.586223+00:00",
+  "updated": "2026-10-12T01:14:57.694236+00:00",
   "summary": {
     "organizations": 160,
-    "organizationFlags": 2,
-    "organizationPagesChecked": 328,
+    "organizationFlags": 1,
+    "organizationPagesChecked": 330,
     "education": 108,
     "educationFlags": 0,
-    "events": 74,
+    "events": 69,
     "eventFlags": 0
   },
   "organizations": [
@@ -901,7 +901,7 @@
       "errors": [
         {
           "url": "https://bornemisza.at/",
-          "error": "<urlopen error [Errno 111] Connection refused>"
+          "error": "<urlopen error timed out>"
         },
         {
           "url": "https://www.kozpontiszovetseg.at/bornemisza-peter-tarsasag",
@@ -945,6 +945,7 @@
       ],
       "activityCategories": [],
       "signals": [
+        "oktatas",
         "media",
         "egyhaz",
         "diak",
@@ -952,20 +953,13 @@
         "sport",
         "csalad"
       ],
-      "pagesChecked": 1,
+      "pagesChecked": 3,
       "checkedUrls": [
+        "https://buechereien.wien.gv.at/B%C3%BCchereien-Wien",
+        "https://buechereien.wien.gv.at/B%C3%BCchereien-Wien/Standorte-%C3%96ffnungszeiten/Zweigstellen/Kinderb%C3%BCcherei-der-Weltsprachen",
         "https://volksgruppen.orf.at/magyarok/stories/3355470/"
       ],
-      "errors": [
-        {
-          "url": "https://buechereien.wien.gv.at/B%C3%BCchereien-Wien",
-          "error": "HTTP Error 503: Service Unavailable"
-        },
-        {
-          "url": "https://buechereien.wien.gv.at/B%C3%BCchereien-Wien/Standorte-%C3%96ffnungszeiten/Zweigstellen/Kinderb%C3%BCcherei-der-Weltsprachen",
-          "error": "HTTP Error 503: Service Unavailable"
-        }
-      ],
+      "errors": [],
       "flags": []
     },
     {
@@ -1118,23 +1112,23 @@
       "activityCategories": [],
       "signals": [
         "oktatas",
-        "media",
-        "irodalom"
+        "szinhaz",
+        "irodalom",
+        "muveszet",
+        "csalad"
       ],
       "pagesChecked": 2,
       "checkedUrls": [
         "https://culture.hu/hu/wien",
-        "https://culture.hu/de/wien/jubilaum"
+        "https://culture.hu/hu/wien/esemenyek"
       ],
       "errors": [
         {
-          "url": "https://culture.hu/hu/wien/esemenyek",
-          "error": "The read operation timed out"
+          "url": "https://culture.hu/de/wien/jubilaum",
+          "error": "HTTP Error 502: Bad Gateway"
         }
       ],
-      "flags": [
-        "weak-source-signal:muveszet"
-      ]
+      "flags": []
     },
     {
       "id": "collegium-pazmanianum",
