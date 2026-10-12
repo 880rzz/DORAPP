@@ -1,12 +1,12 @@
 {
-  "updated": "2026-10-12T01:14:57.694236+00:00",
+  "updated": "2026-10-12T01:20:45.731498+00:00",
   "summary": {
     "organizations": 160,
     "organizationFlags": 1,
-    "organizationPagesChecked": 330,
+    "organizationPagesChecked": 314,
     "education": 108,
     "educationFlags": 0,
-    "events": 69,
+    "events": 70,
     "eventFlags": 0
   },
   "organizations": [
@@ -507,6 +507,7 @@
         "oktatas",
         "neptanc",
         "enekkar",
+        "cserkesz",
         "szinhaz",
         "media",
         "egyhaz",
@@ -832,21 +833,24 @@
       ],
       "activityCategories": [],
       "signals": [
-        "oktatas",
-        "neptanc",
-        "nepzene",
-        "enekkar",
-        "szinhaz",
-        "media",
-        "egyhaz",
-        "sport",
-        "csalad"
+        "enekkar"
       ],
-      "pagesChecked": 1,
-      "checkedUrls": [
-        "https://bukv.at/gruppen/singkreis/"
+      "pagesChecked": 0,
+      "checkedUrls": [],
+      "errors": [
+        {
+          "url": "https://bukv.at/gruppen/singkreis/",
+          "error": "The read operation timed out"
+        },
+        {
+          "url": "https://bukv.at/wp-content/uploads/2023/10/H2023_Nr3.pdf",
+          "error": "<urlopen error timed out>"
+        },
+        {
+          "url": "https://bukv.at/wp-content/uploads/2021/08/02-Orvidek-ertekei-Schaetze-des-Burgenlandes.pdf",
+          "error": "<urlopen error timed out>"
+        }
       ],
-      "errors": [],
       "flags": []
     },
     {
@@ -1113,21 +1117,18 @@
       "signals": [
         "oktatas",
         "szinhaz",
+        "media",
         "irodalom",
         "muveszet",
         "csalad"
       ],
-      "pagesChecked": 2,
+      "pagesChecked": 3,
       "checkedUrls": [
         "https://culture.hu/hu/wien",
-        "https://culture.hu/hu/wien/esemenyek"
+        "https://culture.hu/hu/wien/esemenyek",
+        "https://culture.hu/de/wien/jubilaum"
       ],
-      "errors": [
-        {
-          "url": "https://culture.hu/de/wien/jubilaum",
-          "error": "HTTP Error 502: Bad Gateway"
-        }
-      ],
+      "errors": [],
       "flags": []
     },
     {
@@ -1272,21 +1273,18 @@
       "activityCategories": [],
       "signals": [
         "oktatas",
-        "neptanc",
-        "nepzene",
-        "enekkar",
-        "szinhaz",
-        "media",
-        "csalad"
+        "nepzene"
       ],
-      "pagesChecked": 1,
-      "checkedUrls": [
-        "https://bukv.at/volksmusikgruppe-csoerge/"
-      ],
+      "pagesChecked": 0,
+      "checkedUrls": [],
       "errors": [
         {
+          "url": "https://bukv.at/volksmusikgruppe-csoerge/",
+          "error": "The read operation timed out"
+        },
+        {
           "url": "https://bukv.at/hu/csoerge-nepzenekar/",
-          "error": "HTTP Error 404: Not Found"
+          "error": "<urlopen error timed out>"
         }
       ],
       "flags": []
@@ -1464,27 +1462,10 @@
         "kultura"
       ],
       "activityCategories": [],
-      "signals": [
-        "oktatas",
-        "neptanc",
-        "szinhaz",
-        "media",
-        "egyhaz",
-        "diak",
-        "irodalom",
-        "muveszet"
-      ],
-      "pagesChecked": 2,
-      "checkedUrls": [
-        "https://europaclub.at/",
-        "https://europaclub.at/rolunk/europa-club-tortenete/"
-      ],
-      "errors": [
-        {
-          "url": "https://europaclub.at/rendezvenyek/meghivok/",
-          "error": "The read operation timed out"
-        }
-      ],
+      "signals": [],
+      "pagesChecked": 0,
+      "checkedUrls": [],
+      "errors": [],
       "flags": []
     },
     {
@@ -2483,7 +2464,7 @@
       "errors": [
         {
           "url": "https://www.magyarszo.at/",
-          "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'www.magyarszo.at'. (_ssl.c:1010)>"
+          "error": "<urlopen error timed out>"
         }
       ],
       "flags": []
@@ -2652,22 +2633,20 @@
       "signals": [
         "oktatas",
         "neptanc",
-        "nepzene",
         "cserkesz",
-        "szinhaz",
-        "media",
-        "egyhaz",
-        "diak",
         "irodalom",
-        "muveszet",
         "csalad"
       ],
-      "pagesChecked": 2,
+      "pagesChecked": 1,
       "checkedUrls": [
-        "https://www.korosiprogram.hu/partnereink/mi-magyarok-egymasert",
-        "https://rolunk.at/magazin/ti-is-tancoltok-csardast/"
+        "https://www.korosiprogram.hu/partnereink/mi-magyarok-egymasert"
       ],
-      "errors": [],
+      "errors": [
+        {
+          "url": "https://rolunk.at/magazin/ti-is-tancoltok-csardast/",
+          "error": "<urlopen error timed out>"
+        }
+      ],
       "flags": []
     },
     {
@@ -2711,25 +2690,26 @@
       "activityCategories": [],
       "signals": [
         "oktatas",
-        "neptanc",
-        "nepzene",
         "enekkar",
         "szinhaz",
         "media",
         "egyhaz",
-        "diak",
         "irodalom",
         "muveszet",
         "sport",
         "csalad"
       ],
-      "pagesChecked": 3,
+      "pagesChecked": 2,
       "checkedUrls": [
         "https://volksgruppen.orf.at/magyarok/stories/3260275/",
-        "https://rolunk.at/kultura/teljesen-meg-nem-erkeztem-meg-sehova-koltai-robert-becsben/",
         "https://www.magyariskola.at/tamogatoink-farsangi-bal"
       ],
-      "errors": [],
+      "errors": [
+        {
+          "url": "https://rolunk.at/kultura/teljesen-meg-nem-erkeztem-meg-sehova-koltai-robert-becsben/",
+          "error": "<urlopen error timed out>"
+        }
+      ],
       "flags": []
     },
     {
@@ -3099,22 +3079,20 @@
       ],
       "activityCategories": [],
       "signals": [
-        "oktatas",
-        "neptanc",
-        "nepzene",
-        "enekkar",
-        "szinhaz",
-        "media",
-        "diak",
-        "irodalom",
-        "csalad"
+        "neptanc"
       ],
-      "pagesChecked": 2,
-      "checkedUrls": [
-        "https://bukv.at/volkstanzgruppe-siget-in-der-wart/",
-        "https://bukv.at/hu/oriszigeti-magyar-neptancegyuettes/"
+      "pagesChecked": 0,
+      "checkedUrls": [],
+      "errors": [
+        {
+          "url": "https://bukv.at/volkstanzgruppe-siget-in-der-wart/",
+          "error": "The read operation timed out"
+        },
+        {
+          "url": "https://bukv.at/hu/oriszigeti-magyar-neptancegyuettes/",
+          "error": "<urlopen error timed out>"
+        }
       ],
-      "errors": [],
       "flags": []
     },
     {
@@ -3228,22 +3206,27 @@
         "neptanc",
         "nepzene",
         "enekkar",
-        "szinhaz",
         "media",
         "egyhaz",
         "diak",
         "irodalom",
         "muveszet",
-        "sport",
         "csalad"
       ],
-      "pagesChecked": 3,
+      "pagesChecked": 1,
       "checkedUrls": [
-        "https://kerekasztal.at/tagok/",
-        "https://rolunk.at/nepcsoportunk/20-tagegyesuletet-fog-ossze-az-ausztriai-magyar-szervezetek-kerekasztala/",
-        "https://rolunk.at/nepcsoportunk/achtungarn-magyar-kulturalis-kavalkad-a-praterben/"
+        "https://kerekasztal.at/tagok/"
       ],
-      "errors": [],
+      "errors": [
+        {
+          "url": "https://rolunk.at/nepcsoportunk/20-tagegyesuletet-fog-ossze-az-ausztriai-magyar-szervezetek-kerekasztala/",
+          "error": "<urlopen error timed out>"
+        },
+        {
+          "url": "https://rolunk.at/nepcsoportunk/achtungarn-magyar-kulturalis-kavalkad-a-praterben/",
+          "error": "<urlopen error timed out>"
+        }
+      ],
       "flags": []
     },
     {
@@ -3453,22 +3436,22 @@
       ],
       "signals": [
         "oktatas",
-        "neptanc",
-        "nepzene",
         "szinhaz",
         "media",
-        "egyhaz",
-        "irodalom",
-        "muveszet",
-        "sport",
         "csalad"
       ],
-      "pagesChecked": 2,
-      "checkedUrls": [
-        "https://rolunk.at/magazin/sokszinu-gyerekek-vagany-szulok-a-hungaromedia-taboraban/",
-        "https://rolunk.at/aktualis/nyari-taborok-ausztriaban-2026/"
+      "pagesChecked": 0,
+      "checkedUrls": [],
+      "errors": [
+        {
+          "url": "https://rolunk.at/magazin/sokszinu-gyerekek-vagany-szulok-a-hungaromedia-taboraban/",
+          "error": "<urlopen error timed out>"
+        },
+        {
+          "url": "https://rolunk.at/aktualis/nyari-taborok-ausztriaban-2026/",
+          "error": "<urlopen error timed out>"
+        }
       ],
-      "errors": [],
       "flags": []
     },
     {
@@ -3889,20 +3872,23 @@
         "oktatas",
         "neptanc",
         "nepzene",
-        "cserkesz",
         "szinhaz",
         "media",
         "irodalom",
         "muveszet",
         "csalad"
       ],
-      "pagesChecked": 3,
+      "pagesChecked": 2,
       "checkedUrls": [
         "https://rolunk.at/?p=46523",
-        "https://rolunk.at/tag/sunido/",
-        "https://rolunk.at/magazin/aktiv-apukak-sztereotipiadontogetes-es-hatalmas-farsangi-buli-felso-ausztriaban/"
+        "https://rolunk.at/tag/sunido/"
       ],
-      "errors": [],
+      "errors": [
+        {
+          "url": "https://rolunk.at/magazin/aktiv-apukak-sztereotipiadontogetes-es-hatalmas-farsangi-buli-felso-ausztriaban/",
+          "error": "The read operation timed out"
+        }
+      ],
       "flags": []
     },
     {
@@ -3941,18 +3927,17 @@
       "activityCategories": [],
       "signals": [
         "oktatas",
-        "neptanc",
         "nepzene",
-        "enekkar",
-        "szinhaz",
-        "media",
         "csalad"
       ],
-      "pagesChecked": 1,
-      "checkedUrls": [
-        "https://bukv.at/kindervolksmusikgruppe-szelforgok/"
+      "pagesChecked": 0,
+      "checkedUrls": [],
+      "errors": [
+        {
+          "url": "https://bukv.at/kindervolksmusikgruppe-szelforgok/",
+          "error": "<urlopen error timed out>"
+        }
       ],
-      "errors": [],
       "flags": []
     },
     {
@@ -4202,22 +4187,20 @@
       ],
       "activityCategories": [],
       "signals": [
-        "oktatas",
-        "neptanc",
-        "nepzene",
-        "enekkar",
-        "szinhaz",
-        "media",
-        "diak",
-        "irodalom",
-        "csalad"
+        "neptanc"
       ],
-      "pagesChecked": 2,
-      "checkedUrls": [
-        "https://bukv.at/volkstanzgruppe-virgonc/",
-        "https://bukv.at/hu/virgonc-neptanccsoport/"
+      "pagesChecked": 0,
+      "checkedUrls": [],
+      "errors": [
+        {
+          "url": "https://bukv.at/volkstanzgruppe-virgonc/",
+          "error": "The read operation timed out"
+        },
+        {
+          "url": "https://bukv.at/hu/virgonc-neptanccsoport/",
+          "error": "<urlopen error timed out>"
+        }
       ],
-      "errors": [],
       "flags": []
     },
     {
@@ -4321,20 +4304,15 @@
         "zenekar"
       ],
       "activityCategories": [],
-      "signals": [
-        "oktatas",
-        "neptanc",
-        "nepzene",
-        "enekkar",
-        "szinhaz",
-        "media",
-        "csalad"
+      "signals": [],
+      "pagesChecked": 0,
+      "checkedUrls": [],
+      "errors": [
+        {
+          "url": "https://bukv.at/musikensemble-warter-fantasie/",
+          "error": "<urlopen error timed out>"
+        }
       ],
-      "pagesChecked": 1,
-      "checkedUrls": [
-        "https://bukv.at/musikensemble-warter-fantasie/"
-      ],
-      "errors": [],
       "flags": []
     },
     {
