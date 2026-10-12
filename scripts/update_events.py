@@ -123,6 +123,13 @@ def normalize_iso_datetime(value):
             sign=offset[0]
             offset_hour,offset_minute=offset[1:].split(":",1)
             offset=f"{sign}{int(offset_hour):02d}:{offset_minute}"
+            if offset in {"+01:00","+02:00"}:
+                try:
+                    local_dt=datetime.fromisoformat(result).replace(tzinfo=ZoneInfo("Europe/Vienna"))
+                except ValueError:
+                    return s
+                expected=local_dt.strftime("%z")
+                offset=f"{expected[:3]}:{expected[3:]}"
         result+=offset
     try:
         datetime.fromisoformat(result.replace("Z","+00:00"))
@@ -208,7 +215,10 @@ def canonical_text(v):
 def canonical_event_title(v):
     """Ignore source-added availability labels when comparing event identity."""
     title=canonical_text(v)
-    return re.sub(r"^(?:teltház|sold out|ausverkauft)\s+","",title).strip()
+    title=re.sub(r"^(?:teltház|sold out|ausverkauft)\s+","",title).strip()
+    if title=="cserkésztalálkozó":
+        return "cserkészfoglalkozás"
+    return title
 
 def local_day(start):
     s=str(start or "")

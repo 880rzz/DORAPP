@@ -141,7 +141,10 @@ event_semantic_keys=set()
 event_source_keys=set()
 def _canonical_event_title(value):
     name=re.sub(r"[^a-z0-9áéíóöőúüű]+"," ",str(value or "").casefold()).strip()
-    return re.sub(r"^(?:teltház|sold out|ausverkauft)\s+","",name).strip()
+    name=re.sub(r"^(?:teltház|sold out|ausverkauft)\s+","",name).strip()
+    if name=="cserkésztalálkozó":
+        return "cserkészfoglalkozás"
+    return name
 
 def _event_semantic_key(e):
     name=_canonical_event_title(e.get("name",""))
