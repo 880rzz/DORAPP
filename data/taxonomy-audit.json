@@ -1,9 +1,9 @@
 {
-  "updated": "2026-10-12T11:58:52.280158+00:00",
+  "updated": "2026-10-12T13:03:45.367763+00:00",
   "summary": {
     "organizations": 160,
     "organizationFlags": 2,
-    "organizationPagesChecked": 328,
+    "organizationPagesChecked": 338,
     "education": 108,
     "educationFlags": 0,
     "events": 70,
@@ -125,24 +125,18 @@
       ],
       "activityCategories": [],
       "signals": [
-        "egyhaz"
+        "media",
+        "egyhaz",
+        "muveszet",
+        "csalad"
       ],
-      "pagesChecked": 0,
-      "checkedUrls": [],
-      "errors": [
-        {
-          "url": "https://www.martinus.at/",
-          "error": "<urlopen error timed out>"
-        },
-        {
-          "url": "https://www.martinus.at/pfarre/1127/kalender",
-          "error": "<urlopen error timed out>"
-        },
-        {
-          "url": "https://www.martinus.at/unterwart",
-          "error": "<urlopen error timed out>"
-        }
+      "pagesChecked": 3,
+      "checkedUrls": [
+        "https://www.martinus.at/",
+        "https://www.martinus.at/pfarre/1127/kalender",
+        "https://www.martinus.at/unterwart"
       ],
+      "errors": [],
       "flags": []
     },
     {
@@ -465,17 +459,13 @@
         "irodalom",
         "sport"
       ],
-      "pagesChecked": 2,
+      "pagesChecked": 3,
       "checkedUrls": [
         "https://www.oeius.at/",
-        "https://volksgruppen.orf.at/magyarok/stories/3273948/"
+        "https://volksgruppen.orf.at/magyarok/stories/3273948/",
+        "https://volksgruppen.orf.at/magyarok/stories/3315120/"
       ],
-      "errors": [
-        {
-          "url": "https://volksgruppen.orf.at/magyarok/stories/3315120/",
-          "error": "The read operation timed out"
-        }
-      ],
+      "errors": [],
       "flags": []
     },
     {
@@ -511,6 +501,7 @@
         "oktatas",
         "neptanc",
         "enekkar",
+        "cserkesz",
         "szinhaz",
         "media",
         "egyhaz",
@@ -1116,20 +1107,23 @@
       "activityCategories": [],
       "signals": [
         "oktatas",
-        "szinhaz",
         "media",
-        "irodalom",
-        "muveszet",
-        "csalad"
+        "irodalom"
       ],
-      "pagesChecked": 3,
+      "pagesChecked": 2,
       "checkedUrls": [
         "https://culture.hu/hu/wien",
-        "https://culture.hu/hu/wien/esemenyek",
         "https://culture.hu/de/wien/jubilaum"
       ],
-      "errors": [],
-      "flags": []
+      "errors": [
+        {
+          "url": "https://culture.hu/hu/wien/esemenyek",
+          "error": "The read operation timed out"
+        }
+      ],
+      "flags": [
+        "weak-source-signal:muveszet"
+      ]
     },
     {
       "id": "collegium-pazmanianum",
@@ -1576,24 +1570,16 @@
       ],
       "activityCategories": [],
       "signals": [
+        "media",
         "egyhaz"
       ],
-      "pagesChecked": 0,
-      "checkedUrls": [],
-      "errors": [
-        {
-          "url": "https://www.martinus.at/pfarre/1122",
-          "error": "<urlopen error timed out>"
-        },
-        {
-          "url": "https://www.martinus.at/pfarre/1122/kalender",
-          "error": "<urlopen error timed out>"
-        },
-        {
-          "url": "https://www.martinus.at/pfarre/1122/kalender/calendar/1808040.html",
-          "error": "<urlopen error timed out>"
-        }
+      "pagesChecked": 3,
+      "checkedUrls": [
+        "https://www.martinus.at/pfarre/1122",
+        "https://www.martinus.at/pfarre/1122/kalender",
+        "https://www.martinus.at/pfarre/1122/kalender/calendar/1808040.html"
       ],
+      "errors": [],
       "flags": []
     },
     {
@@ -2102,16 +2088,14 @@
       "signals": [
         "egyhaz"
       ],
-      "pagesChecked": 0,
-      "checkedUrls": [],
+      "pagesChecked": 1,
+      "checkedUrls": [
+        "https://www.edsbg.at/seelsorge/weltkirche/anderssprachige-seelsorge/ungarische-gemeinde"
+      ],
       "errors": [
         {
-          "url": "https://www.edsbg.at/seelsorge/weltkirche/anderssprachige-seelsorge/ungarische-gemeinde",
-          "error": "<urlopen error timed out>"
-        },
-        {
           "url": "https://www.edsbg.at/dl/klOKJmMJKNLMKJqx4KJK/ungarischsprachige_Gottesdienstgemeinde_Salzburg_pdf",
-          "error": "<urlopen error timed out>"
+          "error": "HTTP Error 400: Bad Request"
         }
       ],
       "flags": []
@@ -2996,17 +2980,13 @@
         "muveszet",
         "sport"
       ],
-      "pagesChecked": 2,
+      "pagesChecked": 3,
       "checkedUrls": [
         "https://volksgruppen.orf.at/magyarok/",
+        "https://volksgruppen.orf.at/magyarok/stories/3355959/",
         "https://volksgruppen.orf.at/magyarok/stories/kapcsolat/"
       ],
-      "errors": [
-        {
-          "url": "https://volksgruppen.orf.at/magyarok/stories/3355959/",
-          "error": "The read operation timed out"
-        }
-      ],
+      "errors": [],
       "flags": []
     },
     {
@@ -4101,21 +4081,20 @@
       ],
       "activityCategories": [],
       "signals": [
-        "irodalom"
+        "oktatas",
+        "media",
+        "egyhaz",
+        "irodalom",
+        "muveszet",
+        "sport"
       ],
-      "pagesChecked": 1,
+      "pagesChecked": 2,
       "checkedUrls": [
-        "https://bibliothek.univie.ac.at/fb-finnougristik/"
+        "https://bibliothek.univie.ac.at/fb-finnougristik/",
+        "https://volksgruppen.orf.at/magyarok/stories/3358806/"
       ],
-      "errors": [
-        {
-          "url": "https://volksgruppen.orf.at/magyarok/stories/3358806/",
-          "error": "The read operation timed out"
-        }
-      ],
-      "flags": [
-        "weak-source-signal:oktatas"
-      ]
+      "errors": [],
+      "flags": []
     },
     {
       "id": "vhs-burgenland",
@@ -4269,17 +4248,13 @@
         "sport",
         "csalad"
       ],
-      "pagesChecked": 2,
+      "pagesChecked": 3,
       "checkedUrls": [
         "https://rolunk.at/aktualis/egy-eves-a-vorarlbergi-magyar-egyesulet/",
-        "https://volksgruppen.orf.at/magyarok/stories/3269351/"
+        "https://volksgruppen.orf.at/magyarok/stories/3269351/",
+        "https://volksgruppen.orf.at/magyarok/stories/3197605/"
       ],
-      "errors": [
-        {
-          "url": "https://volksgruppen.orf.at/magyarok/stories/3197605/",
-          "error": "The read operation timed out"
-        }
-      ],
+      "errors": [],
       "flags": []
     },
     {
