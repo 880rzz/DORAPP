@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-30T06:05:12+00:00",
+  "updated": "2026-10-13T09:23:48+00:00",
   "country": "am",
   "researchRole": "secondary discovery only; candidates require first-party verification before publication",
   "sources": [
@@ -10,7 +10,22 @@
       "language": "en",
       "query": "Hungarian association AM",
       "discoveredAt": "2026-09-30T06:05:12+00:00",
-      "status": "candidate"
+      "status": "rejected-low-signal",
+      "verificationCheckedAt": "2026-10-13T09:24:06+00:00",
+      "verificationScore": -2,
+      "firstPartyCandidates": [
+        "http://qosfc.com/new_legendsview.aspx?playerid=1035",
+        "http://www.englandstats.com/matchreport.php?mid=287",
+        "http://www.espn.co.uk/football/sport/story/27321.html",
+        "https://en.mlsz.hu/hir/-hungary-defeated-england-7-1-on-this-day-in-1954",
+        "https://scholar.google.com/scholar?q=%221954+Hungary+v+England+football+match%22",
+        "https://web.archive.org/web/20140113120026/http://www.espn.co.uk/football/sport/story/27321.html",
+        "https://www.bbc.com/news/magazine-25033749",
+        "https://www.google.com/search?&q=%221954+Hungary+v+England+football+match%22&tbs=bkt:s&tbm=bks"
+      ],
+      "entitySignal": false,
+      "countrySignal": false,
+      "hungarianSignal": false
     },
     {
       "title": "2026 Hungarian parliamentary election",
@@ -19,8 +34,23 @@
       "language": "en",
       "query": "Hungarian community AM",
       "discoveredAt": "2026-09-30T06:05:12+00:00",
-      "status": "candidate",
-      "lastSeenAt": "2026-09-30T06:05:12+00:00"
+      "status": "rejected-low-signal",
+      "lastSeenAt": "2026-09-30T06:05:12+00:00",
+      "verificationCheckedAt": "2026-10-13T09:24:06+00:00",
+      "verificationScore": 3,
+      "firstPartyCandidates": [
+        "https://1tv.ge/lang/en/news/pm-irakli-kobakhidze-thanks-viktor-orban-for-his-steadfast-support-for-georgia/",
+        "https://24.hu/belfold/2024/10/19/demokratikus-koalicio-gyurcsany-ferenc-2026-jeloltek/",
+        "https://24.hu/belfold/2024/12/17/valasztasi-torveny-modositas-korzethatarok-parlament-szavazas-elfogadtak/",
+        "https://24.hu/belfold/2025/06/25/government-aligned-polling-institutions-silence/",
+        "https://24.hu/belfold/2026/03/11/emir-kusturica-orban-viktor-tamogatas/",
+        "https://24.hu/belfold/2026/03/24/valasztas-jelolt-tisza-fidesz/",
+        "https://24.hu/belfold/2026/04/10/borokai-gabor-fidesz-kampany-magyar-peter-szemlelek/",
+        "https://24.hu/belfold/2026/04/11/toth-bertalan-tisza-szavazas/"
+      ],
+      "entitySignal": false,
+      "countrySignal": false,
+      "hungarianSignal": true
     },
     {
       "title": "A fiú csak rajzol (Family Guy)",
@@ -29,7 +59,17 @@
       "language": "hu",
       "query": "magyar cserkész AM",
       "discoveredAt": "2026-09-30T06:05:12+00:00",
-      "status": "candidate"
+      "status": "rejected-low-signal",
+      "verificationCheckedAt": "2026-10-13T09:24:06+00:00",
+      "verificationScore": 6,
+      "firstPartyCandidates": [
+        "https://www.boxofficemojo.com/title/tt0576972",
+        "https://www.imdb.com/title/tt0576972",
+        "https://www.rottentomatoes.com/tv/family_guy/s01/e06"
+      ],
+      "entitySignal": true,
+      "countrySignal": false,
+      "hungarianSignal": true
     },
     {
       "title": "AM (Arctic Monkeys album)",
@@ -38,7 +78,22 @@
       "language": "en",
       "query": "Hungarian association AM",
       "discoveredAt": "2026-09-30T06:05:12+00:00",
-      "status": "candidate"
+      "status": "rejected-low-signal",
+      "verificationCheckedAt": "2026-10-13T09:24:06+00:00",
+      "verificationScore": 4,
+      "firstPartyCandidates": [
+        "http://anydecentmusic.com/review/5806/Arctic-Monkeys-AM.aspx",
+        "http://aria.com.au/aria-charts-end-of-year-charts-top-100-albums-2014.htm",
+        "http://bestsellery.zpav.pl/wyroznienia/platynoweplyty/cd/archiwum.php?year=2016",
+        "http://centrodedesarrollodigital.com/amprofonanual/100.php",
+        "http://dutchcharts.nl/jaaroverzichten.asp?year=2014&cat=a",
+        "http://dutchcharts.nl/jaaroverzichten.asp?year=2016&cat=a",
+        "http://dutchcharts.nl/jaaroverzichten.asp?year=2017&cat=a",
+        "http://hitlisten.nu/top2021.asp"
+      ],
+      "entitySignal": true,
+      "countrySignal": false,
+      "hungarianSignal": false
     },
     {
       "title": "Aiud",
@@ -47,7 +102,115 @@
       "language": "en",
       "query": "Hungarian church AM",
       "discoveredAt": "2026-09-30T06:05:12+00:00",
-      "status": "candidate"
+      "status": "rejected-low-signal",
+      "verificationCheckedAt": "2026-10-13T09:24:06+00:00",
+      "verificationScore": 3,
+      "firstPartyCandidates": [
+        "http://www.aiud.ro/",
+        "http://www.recensamantromania.ro/wp-content/uploads/2013/07/sR_Tab_8.xls",
+        "https://aleph.nkp.cz/F/?func=find-c&local_base=aut&ccl_term=ica=ge771698&CON_LNG=ENG",
+        "https://catalogue.bnf.fr/ark:/12148/cb137350714",
+        "https://d-nb.info/gnd/4518988-2",
+        "https://data.bnf.fr/ark:/12148/cb137350714",
+        "https://en.climate-data.org/europe/romania/alba/aiud-15211/",
+        "https://geohack.toolforge.org/geohack.php?pagename=Aiud&params=46_18_44_N_23_43_45_E_region:RO"
+      ],
+      "entitySignal": true,
+      "countrySignal": false,
+      "hungarianSignal": true
+    },
+    {
+      "title": "Alen Grgić",
+      "url": "https://en.wikipedia.org/wiki/Alen_Grgi%C4%87",
+      "sourceType": "wikipedia-discovery",
+      "language": "en",
+      "query": "\"Armenia\" Hungarian association",
+      "discoveredAt": "2026-10-13T09:23:48+00:00",
+      "status": "rejected-low-signal",
+      "verificationCheckedAt": "2026-10-13T09:24:06+00:00",
+      "verificationScore": 3,
+      "firstPartyCandidates": [
+        "https://adatbank.mlsz.hu/player/1212056.html",
+        "https://int.soccerway.com/players/alen-grgi/307534/",
+        "https://nk-slaven-belupo.hr/novosti/alen-grgic-ponovno-u-plavom-dresu-slaven-belupa-ugovor-s-klubom-potpisao-na-godinu-i-pol-dana",
+        "https://nogometne-vijesti.hr/alen-grgic-novi-igrac-armenskog-prvaka/",
+        "https://semafor.hns.family/igraci/52327/alen-grgic/",
+        "https://www.germanijak.hr/nogomet/vijesti/alen-grgic-za-germanijak-nemam-poseban-motiv-protiv-rijeke-cujem-se-cesto-s-frukom-ceka-ga-velik-transfer/144148",
+        "https://www.sofascore.com/football/player/alen-grgic/344177"
+      ],
+      "entitySignal": true,
+      "countrySignal": true,
+      "hungarianSignal": false
+    },
+    {
+      "title": "András Gyürk",
+      "url": "https://en.wikipedia.org/wiki/Andr%C3%A1s_Gy%C3%BCrk",
+      "sourceType": "wikipedia-discovery",
+      "language": "en",
+      "query": "\"Armenia\" Hungarian school",
+      "discoveredAt": "2026-10-13T09:23:48+00:00",
+      "status": "rejected-low-signal",
+      "verificationCheckedAt": "2026-10-13T09:24:06+00:00",
+      "verificationScore": 2,
+      "firstPartyCandidates": [
+        "http://www.europarl.europa.eu/meps/en/23816",
+        "https://kecskemet365.hu/2024/06/10/megvan-hogy-melyik-magyar-partnak-hany-mandatuma-lesz-az-ep-ben-ok-21-en-jutottak-be-magyarorszagrol-az-europai-parlamentbe/",
+        "https://www.eppgroup.eu/about-us/members/andras-gyurk",
+        "https://www.europarl.europa.eu/ep-dif/23816_12-07-2004.PDF",
+        "https://www.europarl.europa.eu/meps/en/23816",
+        "https://www.europarl.europa.eu/meps/en/23816/ANDRAS_GYURK/cv",
+        "https://www.europarl.europa.eu/meps/en/23816/ANDRAS_GYURK/home",
+        "https://www.politico.eu/article/energy-our-kids-wont-have-to-pay-for-2/"
+      ],
+      "entitySignal": false,
+      "countrySignal": true,
+      "hungarianSignal": true
+    },
+    {
+      "title": "Antal Majnek",
+      "url": "https://en.wikipedia.org/wiki/Antal_Majnek",
+      "sourceType": "wikipedia-discovery",
+      "language": "en",
+      "query": "\"Armenia\" Hungarian church",
+      "discoveredAt": "2026-10-13T09:23:48+00:00",
+      "status": "rejected-low-signal",
+      "verificationCheckedAt": "2026-10-13T09:24:06+00:00",
+      "verificationScore": 1,
+      "firstPartyCandidates": [
+        "http://esu.com.ua/search_articles.php?id=60521",
+        "http://munkacs-diocese.org/en/index.php?option=com_content&view=article&id=5&Itemid=6",
+        "http://www.catholic-hierarchy.org/bishop/bmajnek.html",
+        "https://isni.org/isni/0000000113974662",
+        "https://munkacs-diocese.org/en/2022/01/29/resignation-of-the-ordinary-of-the-mukachevo-diocese-and-the-appointment-of-administrator/",
+        "https://scholar.google.com/scholar?q=%22Antal+Majnek%22",
+        "https://viaf.org/viaf/166682110",
+        "https://www.gcatholic.org/dioceses/diocese/muka1.htm"
+      ],
+      "entitySignal": false,
+      "countrySignal": false,
+      "hungarianSignal": false
+    },
+    {
+      "title": "Apostolic Nunciature to Hungary",
+      "url": "https://en.wikipedia.org/wiki/Apostolic_Nunciature_to_Hungary",
+      "sourceType": "wikipedia-discovery",
+      "language": "en",
+      "query": "\"Armenia\" Hungarian church",
+      "discoveredAt": "2026-10-13T09:23:48+00:00",
+      "status": "candidate",
+      "verificationCheckedAt": "2026-10-13T09:24:06+00:00",
+      "verificationError": "HTTPError"
+    },
+    {
+      "title": "Aranyszájú Szent János",
+      "url": "https://hu.wikipedia.org/wiki/Aranysz%C3%A1j%C3%BA_Szent_J%C3%A1nos",
+      "sourceType": "wikipedia-discovery",
+      "language": "hu",
+      "query": "\"Armenia\" magyar iskola",
+      "discoveredAt": "2026-10-13T09:23:48+00:00",
+      "status": "candidate",
+      "verificationCheckedAt": "2026-10-13T09:24:06+00:00",
+      "verificationError": "HTTPError"
     },
     {
       "title": "Argentínai magyarok",
@@ -56,7 +219,65 @@
       "language": "hu",
       "query": "magyar cserkész AM",
       "discoveredAt": "2026-09-30T06:05:12+00:00",
-      "status": "candidate"
+      "status": "candidate",
+      "verificationCheckedAt": "2026-10-13T09:24:06+00:00",
+      "verificationError": "HTTPError"
+    },
+    {
+      "title": "Armenian Americans",
+      "url": "https://en.wikipedia.org/wiki/Armenian_Americans",
+      "sourceType": "wikipedia-discovery",
+      "language": "en",
+      "query": "\"Armenia\" Hungarian church",
+      "discoveredAt": "2026-10-13T09:23:48+00:00",
+      "status": "candidate",
+      "verificationCheckedAt": "2026-10-13T09:24:06+00:00",
+      "verificationError": "HTTPError"
+    },
+    {
+      "title": "Armenian Catholic Church",
+      "url": "https://en.wikipedia.org/wiki/Armenian_Catholic_Church",
+      "sourceType": "wikipedia-discovery",
+      "language": "en",
+      "query": "\"Armenia\" Hungarian community",
+      "discoveredAt": "2026-10-13T09:23:48+00:00",
+      "status": "candidate",
+      "lastSeenAt": "2026-10-13T09:23:48+00:00",
+      "verificationCheckedAt": "2026-10-13T09:24:06+00:00",
+      "verificationError": "HTTPError"
+    },
+    {
+      "title": "Armenian genocide",
+      "url": "https://en.wikipedia.org/wiki/Armenian_genocide",
+      "sourceType": "wikipedia-discovery",
+      "language": "en",
+      "query": "\"Armenia\" Hungarian church",
+      "discoveredAt": "2026-10-13T09:23:48+00:00",
+      "status": "candidate",
+      "verificationCheckedAt": "2026-10-13T09:24:06+00:00",
+      "verificationError": "HTTPError"
+    },
+    {
+      "title": "Armenian population by country",
+      "url": "https://en.wikipedia.org/wiki/Armenian_population_by_country",
+      "sourceType": "wikipedia-discovery",
+      "language": "en",
+      "query": "\"Armenia\" Hungarian community",
+      "discoveredAt": "2026-10-13T09:23:48+00:00",
+      "status": "candidate",
+      "verificationCheckedAt": "2026-10-13T09:24:06+00:00",
+      "verificationError": "HTTPError"
+    },
+    {
+      "title": "Armenia–Hungary relations",
+      "url": "https://en.wikipedia.org/wiki/Armenia%E2%80%93Hungary_relations",
+      "sourceType": "wikipedia-discovery",
+      "language": "en",
+      "query": "\"Armenia\" Hungarian community",
+      "discoveredAt": "2026-10-13T09:23:48+00:00",
+      "status": "candidate",
+      "verificationCheckedAt": "2026-10-13T09:24:06+00:00",
+      "verificationError": "HTTPError"
     },
     {
       "title": "Austria-Hungary",
@@ -66,7 +287,9 @@
       "query": "Hungarian association AM",
       "discoveredAt": "2026-09-30T06:05:12+00:00",
       "status": "candidate",
-      "lastSeenAt": "2026-09-30T06:05:12+00:00"
+      "lastSeenAt": "2026-09-30T06:05:12+00:00",
+      "verificationCheckedAt": "2026-10-13T09:24:06+00:00",
+      "verificationError": "HTTPError"
     },
     {
       "title": "Az utolsó cserkész",
@@ -75,7 +298,9 @@
       "language": "hu",
       "query": "magyar cserkész AM",
       "discoveredAt": "2026-09-30T06:05:12+00:00",
-      "status": "candidate"
+      "status": "candidate",
+      "verificationCheckedAt": "2026-10-13T09:24:06+00:00",
+      "verificationError": "HTTPError"
     },
     {
       "title": "Braunau am Inn",
@@ -85,7 +310,9 @@
       "query": "Hungarian community AM",
       "discoveredAt": "2026-09-30T06:05:12+00:00",
       "status": "candidate",
-      "lastSeenAt": "2026-09-30T06:05:12+00:00"
+      "lastSeenAt": "2026-09-30T06:05:12+00:00",
+      "verificationCheckedAt": "2026-10-13T09:24:06+00:00",
+      "verificationError": "HTTPError"
     },
     {
       "title": "Bálint György Újságíró Akadémia",
@@ -94,7 +321,42 @@
       "language": "hu",
       "query": "magyar iskola AM",
       "discoveredAt": "2026-09-30T06:05:12+00:00",
-      "status": "candidate"
+      "status": "candidate",
+      "verificationCheckedAt": "2026-10-13T09:24:06+00:00",
+      "verificationError": "HTTPError"
+    },
+    {
+      "title": "Catholic Church in Hungary",
+      "url": "https://en.wikipedia.org/wiki/Catholic_Church_in_Hungary",
+      "sourceType": "wikipedia-discovery",
+      "language": "en",
+      "query": "\"Armenia\" Hungarian church",
+      "discoveredAt": "2026-10-13T09:23:48+00:00",
+      "status": "candidate",
+      "verificationCheckedAt": "2026-10-13T09:24:06+00:00",
+      "verificationError": "HTTPError"
+    },
+    {
+      "title": "Catholic Church in Serbia",
+      "url": "https://en.wikipedia.org/wiki/Catholic_Church_in_Serbia",
+      "sourceType": "wikipedia-discovery",
+      "language": "en",
+      "query": "\"Armenia\" Hungarian church",
+      "discoveredAt": "2026-10-13T09:23:48+00:00",
+      "status": "candidate",
+      "verificationCheckedAt": "2026-10-13T09:24:06+00:00",
+      "verificationError": "HTTPError"
+    },
+    {
+      "title": "Cs. Kovács Katalin",
+      "url": "https://hu.wikipedia.org/wiki/Cs._Kov%C3%A1cs_Katalin",
+      "sourceType": "wikipedia-discovery",
+      "language": "hu",
+      "query": "\"Armenia\" magyar iskola",
+      "discoveredAt": "2026-10-13T09:23:48+00:00",
+      "status": "candidate",
+      "verificationCheckedAt": "2026-10-13T09:24:06+00:00",
+      "verificationError": "HTTPError"
     },
     {
       "title": "Csik Ferenc Általános Iskola és Gimnázium",
@@ -103,7 +365,42 @@
       "language": "hu",
       "query": "magyar iskola AM",
       "discoveredAt": "2026-09-30T06:05:12+00:00",
-      "status": "candidate"
+      "status": "candidate",
+      "verificationCheckedAt": "2026-10-13T09:24:06+00:00",
+      "verificationError": "HTTPError"
+    },
+    {
+      "title": "Dalmácia (horvátországi régió)",
+      "url": "https://hu.wikipedia.org/wiki/Dalm%C3%A1cia_%28horv%C3%A1torsz%C3%A1gi_r%C3%A9gi%C3%B3%29",
+      "sourceType": "wikipedia-discovery",
+      "language": "hu",
+      "query": "\"Armenia\" magyar iskola",
+      "discoveredAt": "2026-10-13T09:23:48+00:00",
+      "status": "candidate",
+      "verificationCheckedAt": "2026-10-13T09:24:06+00:00",
+      "verificationError": "HTTPError"
+    },
+    {
+      "title": "Danilo Sekulić",
+      "url": "https://en.wikipedia.org/wiki/Danilo_Sekuli%C4%87",
+      "sourceType": "wikipedia-discovery",
+      "language": "en",
+      "query": "\"Armenia\" Hungarian association",
+      "discoveredAt": "2026-10-13T09:23:48+00:00",
+      "status": "candidate",
+      "verificationCheckedAt": "2026-10-13T09:24:06+00:00",
+      "verificationError": "HTTPError"
+    },
+    {
+      "title": "Danylo Ryabenko",
+      "url": "https://en.wikipedia.org/wiki/Danylo_Ryabenko",
+      "sourceType": "wikipedia-discovery",
+      "language": "en",
+      "query": "\"Armenia\" Hungarian association",
+      "discoveredAt": "2026-10-13T09:23:48+00:00",
+      "status": "candidate",
+      "verificationCheckedAt": "2026-10-13T09:24:06+00:00",
+      "verificationError": "HTTPError"
     },
     {
       "title": "Deadpool (film)",
@@ -112,7 +409,9 @@
       "language": "hu",
       "query": "magyar cserkész AM",
       "discoveredAt": "2026-09-30T06:05:12+00:00",
-      "status": "candidate"
+      "status": "candidate",
+      "verificationCheckedAt": "2026-10-13T09:24:06+00:00",
+      "verificationError": "HTTPError"
     },
     {
       "title": "Dharmaling Buddhista Közösség",
@@ -121,7 +420,20 @@
       "language": "hu",
       "query": "magyar közösség AM",
       "discoveredAt": "2026-09-30T06:05:12+00:00",
-      "status": "candidate"
+      "status": "candidate",
+      "verificationCheckedAt": "2026-10-13T09:24:06+00:00",
+      "verificationError": "HTTPError"
+    },
+    {
+      "title": "Dorians (band)",
+      "url": "https://en.wikipedia.org/wiki/Dorians_%28band%29",
+      "sourceType": "wikipedia-discovery",
+      "language": "en",
+      "query": "\"Armenia\" Hungarian school",
+      "discoveredAt": "2026-10-13T09:23:48+00:00",
+      "status": "candidate",
+      "verificationCheckedAt": "2026-10-13T09:24:06+00:00",
+      "verificationError": "HTTPError"
     },
     {
       "title": "Egyesült Nemzeti Szocialista Párt",
@@ -130,7 +442,9 @@
       "language": "hu",
       "query": "magyar egyesület AM",
       "discoveredAt": "2026-09-30T06:05:12+00:00",
-      "status": "candidate"
+      "status": "candidate",
+      "verificationCheckedAt": "2026-10-13T09:24:06+00:00",
+      "verificationError": "HTTPError"
     },
     {
       "title": "Elizabeth of Hungary",
@@ -139,7 +453,42 @@
       "language": "en",
       "query": "Hungarian church AM",
       "discoveredAt": "2026-09-30T06:05:12+00:00",
-      "status": "candidate"
+      "status": "candidate",
+      "verificationCheckedAt": "2026-10-13T09:24:06+00:00",
+      "verificationError": "HTTPError"
+    },
+    {
+      "title": "Face the Shadow",
+      "url": "https://hu.wikipedia.org/wiki/Face_the_Shadow",
+      "sourceType": "wikipedia-discovery",
+      "language": "hu",
+      "query": "\"Armenia\" magyar egyesület",
+      "discoveredAt": "2026-10-13T09:23:48+00:00",
+      "status": "candidate",
+      "verificationCheckedAt": "2026-10-13T09:24:06+00:00",
+      "verificationError": "HTTPError"
+    },
+    {
+      "title": "Feldsher",
+      "url": "https://en.wikipedia.org/wiki/Feldsher",
+      "sourceType": "wikipedia-discovery",
+      "language": "en",
+      "query": "\"Armenia\" Hungarian community",
+      "discoveredAt": "2026-10-13T09:23:48+00:00",
+      "status": "candidate",
+      "verificationCheckedAt": "2026-10-13T09:24:06+00:00",
+      "verificationError": "HTTPError"
+    },
+    {
+      "title": "France–Hungary relations",
+      "url": "https://en.wikipedia.org/wiki/France%E2%80%93Hungary_relations",
+      "sourceType": "wikipedia-discovery",
+      "language": "en",
+      "query": "\"Armenia\" Hungarian school",
+      "discoveredAt": "2026-10-13T09:23:48+00:00",
+      "status": "candidate",
+      "verificationCheckedAt": "2026-10-13T09:24:06+00:00",
+      "verificationError": "HTTPError"
     },
     {
       "title": "Frankfurt am Main",
@@ -148,7 +497,20 @@
       "language": "hu",
       "query": "magyar egyesület AM",
       "discoveredAt": "2026-09-30T06:05:12+00:00",
-      "status": "candidate"
+      "status": "candidate",
+      "verificationCheckedAt": "2026-10-13T09:24:06+00:00",
+      "verificationError": "HTTPError"
+    },
+    {
+      "title": "Freedom of religion in Hungary",
+      "url": "https://en.wikipedia.org/wiki/Freedom_of_religion_in_Hungary",
+      "sourceType": "wikipedia-discovery",
+      "language": "en",
+      "query": "\"Armenia\" Hungarian school",
+      "discoveredAt": "2026-10-13T09:23:48+00:00",
+      "status": "candidate",
+      "verificationCheckedAt": "2026-10-13T09:24:06+00:00",
+      "verificationError": "HTTPError"
     },
     {
       "title": "Gacs János",
@@ -157,7 +519,9 @@
       "language": "hu",
       "query": "magyar cserkész AM",
       "discoveredAt": "2026-09-30T06:05:12+00:00",
-      "status": "candidate"
+      "status": "candidate",
+      "verificationCheckedAt": "2026-10-13T09:24:06+00:00",
+      "verificationError": "HTTPError"
     },
     {
       "title": "Gödöllői Városi Múzeum",
@@ -166,7 +530,20 @@
       "language": "hu",
       "query": "magyar cserkész AM",
       "discoveredAt": "2026-09-30T06:05:12+00:00",
-      "status": "candidate"
+      "status": "candidate",
+      "verificationCheckedAt": "2026-10-13T09:24:06+00:00",
+      "verificationError": "HTTPError"
+    },
+    {
+      "title": "History of the Jews in Armenia",
+      "url": "https://en.wikipedia.org/wiki/History_of_the_Jews_in_Armenia",
+      "sourceType": "wikipedia-discovery",
+      "language": "en",
+      "query": "\"Armenia\" Hungarian community",
+      "discoveredAt": "2026-10-13T09:23:48+00:00",
+      "status": "candidate",
+      "verificationCheckedAt": "2026-10-13T09:24:06+00:00",
+      "verificationError": "HTTPError"
     },
     {
       "title": "Hungarian People's Army",
@@ -175,7 +552,9 @@
       "language": "en",
       "query": "Hungarian school AM",
       "discoveredAt": "2026-09-30T06:05:12+00:00",
-      "status": "candidate"
+      "status": "candidate",
+      "verificationCheckedAt": "2026-10-13T09:24:06+00:00",
+      "verificationError": "HTTPError"
     },
     {
       "title": "Hungarian Revolution of 1956",
@@ -185,7 +564,9 @@
       "query": "Hungarian association AM",
       "discoveredAt": "2026-09-30T06:05:12+00:00",
       "status": "candidate",
-      "lastSeenAt": "2026-09-30T06:05:12+00:00"
+      "lastSeenAt": "2026-09-30T06:05:12+00:00",
+      "verificationCheckedAt": "2026-10-13T09:24:06+00:00",
+      "verificationError": "HTTPError"
     },
     {
       "title": "Hungarian language",
@@ -195,7 +576,20 @@
       "query": "Hungarian association AM",
       "discoveredAt": "2026-09-30T06:05:12+00:00",
       "status": "candidate",
-      "lastSeenAt": "2026-09-30T06:05:12+00:00"
+      "lastSeenAt": "2026-09-30T06:05:12+00:00",
+      "verificationCheckedAt": "2026-10-13T09:24:06+00:00",
+      "verificationError": "HTTPError"
+    },
+    {
+      "title": "Hungarian passport",
+      "url": "https://en.wikipedia.org/wiki/Hungarian_passport",
+      "sourceType": "wikipedia-discovery",
+      "language": "en",
+      "query": "\"Armenia\" Hungarian community",
+      "discoveredAt": "2026-10-13T09:23:48+00:00",
+      "status": "candidate",
+      "verificationCheckedAt": "2026-10-13T09:24:06+00:00",
+      "verificationError": "HTTPError"
     },
     {
       "title": "Hungary",
@@ -205,7 +599,9 @@
       "query": "Hungarian association AM",
       "discoveredAt": "2026-09-30T06:05:12+00:00",
       "status": "candidate",
-      "lastSeenAt": "2026-09-30T06:05:12+00:00"
+      "lastSeenAt": "2026-09-30T06:05:12+00:00",
+      "verificationCheckedAt": "2026-10-13T09:24:06+00:00",
+      "verificationError": "HTTPError"
     },
     {
       "title": "Hét Láng közösség",
@@ -214,7 +610,9 @@
       "language": "hu",
       "query": "magyar közösség AM",
       "discoveredAt": "2026-09-30T06:05:12+00:00",
-      "status": "candidate"
+      "status": "candidate",
+      "verificationCheckedAt": "2026-10-13T09:24:06+00:00",
+      "verificationError": "HTTPError"
     },
     {
       "title": "I Am Who",
@@ -223,7 +621,9 @@
       "language": "en",
       "query": "Hungarian association AM",
       "discoveredAt": "2026-09-30T06:05:12+00:00",
-      "status": "candidate"
+      "status": "candidate",
+      "verificationCheckedAt": "2026-10-13T09:24:06+00:00",
+      "verificationError": "HTTPError"
     },
     {
       "title": "I Am... Sasha Fierce",
@@ -232,7 +632,31 @@
       "language": "en",
       "query": "Hungarian association AM",
       "discoveredAt": "2026-09-30T06:05:12+00:00",
-      "status": "candidate"
+      "status": "candidate",
+      "verificationCheckedAt": "2026-10-13T09:24:06+00:00",
+      "verificationError": "HTTPError"
+    },
+    {
+      "title": "Ikóniumi Szultánság",
+      "url": "https://hu.wikipedia.org/wiki/Ik%C3%B3niumi_Szult%C3%A1ns%C3%A1g",
+      "sourceType": "wikipedia-discovery",
+      "language": "hu",
+      "query": "\"Armenia\" magyar közösség",
+      "discoveredAt": "2026-10-13T09:23:48+00:00",
+      "status": "candidate",
+      "verificationCheckedAt": "2026-10-13T09:24:06+00:00",
+      "verificationError": "HTTPError"
+    },
+    {
+      "title": "Ishtvan Sekech",
+      "url": "https://en.wikipedia.org/wiki/Ishtvan_Sekech",
+      "sourceType": "wikipedia-discovery",
+      "language": "en",
+      "query": "\"Armenia\" Hungarian association",
+      "discoveredAt": "2026-10-13T09:23:48+00:00",
+      "status": "candidate",
+      "verificationCheckedAt": "2026-10-13T09:24:06+00:00",
+      "verificationError": "HTTPError"
     },
     {
       "title": "Iskola",
@@ -241,7 +665,31 @@
       "language": "hu",
       "query": "magyar iskola AM",
       "discoveredAt": "2026-09-30T06:05:12+00:00",
-      "status": "candidate"
+      "status": "candidate",
+      "verificationCheckedAt": "2026-10-13T09:24:06+00:00",
+      "verificationError": "HTTPError"
+    },
+    {
+      "title": "Jereván",
+      "url": "https://hu.wikipedia.org/wiki/Jerev%C3%A1n",
+      "sourceType": "wikipedia-discovery",
+      "language": "hu",
+      "query": "\"Armenia\" magyar egyesület",
+      "discoveredAt": "2026-10-13T09:23:48+00:00",
+      "status": "candidate",
+      "verificationCheckedAt": "2026-10-13T09:24:06+00:00",
+      "verificationError": "HTTPError"
+    },
+    {
+      "title": "Kanis",
+      "url": "https://hu.wikipedia.org/wiki/Kanis",
+      "sourceType": "wikipedia-discovery",
+      "language": "hu",
+      "query": "\"Armenia\" magyar közösség",
+      "discoveredAt": "2026-10-13T09:23:48+00:00",
+      "status": "candidate",
+      "verificationCheckedAt": "2026-10-13T09:24:06+00:00",
+      "verificationError": "HTTPError"
     },
     {
       "title": "Katolikus Shalom Közösség",
@@ -250,7 +698,9 @@
       "language": "hu",
       "query": "magyar közösség AM",
       "discoveredAt": "2026-09-30T06:05:12+00:00",
-      "status": "candidate"
+      "status": "candidate",
+      "verificationCheckedAt": "2026-10-13T09:24:06+00:00",
+      "verificationError": "HTTPError"
     },
     {
       "title": "Keresztény Élet közössége",
@@ -259,7 +709,20 @@
       "language": "hu",
       "query": "magyar közösség AM",
       "discoveredAt": "2026-09-30T06:05:12+00:00",
-      "status": "candidate"
+      "status": "candidate",
+      "verificationCheckedAt": "2026-10-13T09:24:06+00:00",
+      "verificationError": "HTTPError"
+    },
+    {
+      "title": "Kereszténység",
+      "url": "https://hu.wikipedia.org/wiki/Kereszt%C3%A9nys%C3%A9g",
+      "sourceType": "wikipedia-discovery",
+      "language": "hu",
+      "query": "\"Armenia\" magyar közösség",
+      "discoveredAt": "2026-10-13T09:23:48+00:00",
+      "status": "candidate",
+      "verificationCheckedAt": "2026-10-13T09:24:06+00:00",
+      "verificationError": "HTTPError"
     },
     {
       "title": "Kingdom of Hungary (1526–1867)",
@@ -268,7 +731,9 @@
       "language": "en",
       "query": "Hungarian school AM",
       "discoveredAt": "2026-09-30T06:05:12+00:00",
-      "status": "candidate"
+      "status": "candidate",
+      "verificationCheckedAt": "2026-10-13T09:24:06+00:00",
+      "verificationError": "HTTPError"
     },
     {
       "title": "Kingdom of Hungary (1920–1946)",
@@ -277,7 +742,31 @@
       "language": "en",
       "query": "Hungarian school AM",
       "discoveredAt": "2026-09-30T06:05:12+00:00",
-      "status": "candidate"
+      "status": "candidate",
+      "verificationCheckedAt": "2026-10-13T09:24:06+00:00",
+      "verificationError": "HTTPError"
+    },
+    {
+      "title": "Kisszállás",
+      "url": "https://hu.wikipedia.org/wiki/Kissz%C3%A1ll%C3%A1s",
+      "sourceType": "wikipedia-discovery",
+      "language": "hu",
+      "query": "\"Armenia\" magyar iskola",
+      "discoveredAt": "2026-10-13T09:23:48+00:00",
+      "status": "candidate",
+      "verificationCheckedAt": "2026-10-13T09:24:06+00:00",
+      "verificationError": "HTTPError"
+    },
+    {
+      "title": "Kolumbia",
+      "url": "https://hu.wikipedia.org/wiki/Kolumbia",
+      "sourceType": "wikipedia-discovery",
+      "language": "hu",
+      "query": "\"Armenia\" magyar közösség",
+      "discoveredAt": "2026-10-13T09:23:48+00:00",
+      "status": "candidate",
+      "verificationCheckedAt": "2026-10-13T09:24:06+00:00",
+      "verificationError": "HTTPError"
     },
     {
       "title": "Krisztina Téri Iskola",
@@ -286,7 +775,20 @@
       "language": "hu",
       "query": "magyar iskola AM",
       "discoveredAt": "2026-09-30T06:05:12+00:00",
-      "status": "candidate"
+      "status": "candidate",
+      "verificationCheckedAt": "2026-10-13T09:24:06+00:00",
+      "verificationError": "HTTPError"
+    },
+    {
+      "title": "Kölcsey Ferenc",
+      "url": "https://hu.wikipedia.org/wiki/K%C3%B6lcsey_Ferenc",
+      "sourceType": "wikipedia-discovery",
+      "language": "hu",
+      "query": "\"Armenia\" magyar iskola",
+      "discoveredAt": "2026-10-13T09:23:48+00:00",
+      "status": "candidate",
+      "verificationCheckedAt": "2026-10-13T09:24:06+00:00",
+      "verificationError": "HTTPError"
     },
     {
       "title": "Központi Általános Iskola",
@@ -295,7 +797,9 @@
       "language": "hu",
       "query": "magyar iskola AM",
       "discoveredAt": "2026-09-30T06:05:12+00:00",
-      "status": "candidate"
+      "status": "candidate",
+      "verificationCheckedAt": "2026-10-13T09:24:06+00:00",
+      "verificationError": "HTTPError"
     },
     {
       "title": "List of community radio stations in Hungary",
@@ -304,7 +808,9 @@
       "language": "en",
       "query": "Hungarian community AM",
       "discoveredAt": "2026-09-30T06:05:12+00:00",
-      "status": "candidate"
+      "status": "candidate",
+      "verificationCheckedAt": "2026-10-13T09:24:06+00:00",
+      "verificationError": "HTTPError"
     },
     {
       "title": "List of radio stations in Hungary",
@@ -313,7 +819,9 @@
       "language": "en",
       "query": "Hungarian community AM",
       "discoveredAt": "2026-09-30T06:05:12+00:00",
-      "status": "candidate"
+      "status": "candidate",
+      "verificationCheckedAt": "2026-10-13T09:24:06+00:00",
+      "verificationError": "HTTPError"
     },
     {
       "title": "Magyar Baráti Közösség",
@@ -322,7 +830,9 @@
       "language": "hu",
       "query": "magyar közösség AM",
       "discoveredAt": "2026-09-30T06:05:12+00:00",
-      "status": "candidate"
+      "status": "candidate",
+      "verificationCheckedAt": "2026-10-13T09:24:06+00:00",
+      "verificationError": "HTTPError"
     },
     {
       "title": "Magyar Cserkészszövetség",
@@ -331,7 +841,9 @@
       "language": "hu",
       "query": "magyar cserkész AM",
       "discoveredAt": "2026-09-30T06:05:12+00:00",
-      "status": "candidate"
+      "status": "candidate",
+      "verificationCheckedAt": "2026-10-13T09:24:06+00:00",
+      "verificationError": "HTTPError"
     },
     {
       "title": "Magyar Kurír (1911–)",
@@ -340,7 +852,9 @@
       "language": "hu",
       "query": "magyar egyesület AM",
       "discoveredAt": "2026-09-30T06:05:12+00:00",
-      "status": "candidate"
+      "status": "candidate",
+      "verificationCheckedAt": "2026-10-13T09:24:06+00:00",
+      "verificationError": "HTTPError"
     },
     {
       "title": "Magyar labdarúgókupa",
@@ -349,7 +863,9 @@
       "language": "hu",
       "query": "magyar egyesület AM",
       "discoveredAt": "2026-09-30T06:05:12+00:00",
-      "status": "candidate"
+      "status": "candidate",
+      "verificationCheckedAt": "2026-10-13T09:24:06+00:00",
+      "verificationError": "HTTPError"
     },
     {
       "title": "Magyar Írószövetség",
@@ -358,7 +874,9 @@
       "language": "hu",
       "query": "magyar egyesület AM",
       "discoveredAt": "2026-09-30T06:05:12+00:00",
-      "status": "candidate"
+      "status": "candidate",
+      "verificationCheckedAt": "2026-10-13T09:24:06+00:00",
+      "verificationError": "HTTPError"
     },
     {
       "title": "Magyar Örökség díj",
@@ -367,7 +885,9 @@
       "language": "hu",
       "query": "magyar egyesület AM",
       "discoveredAt": "2026-09-30T06:05:12+00:00",
-      "status": "candidate"
+      "status": "candidate",
+      "verificationCheckedAt": "2026-10-13T09:24:06+00:00",
+      "verificationError": "HTTPError"
     },
     {
       "title": "Magyarországi Eszperantó Szövetség",
@@ -376,7 +896,31 @@
       "language": "hu",
       "query": "magyar egyesület AM",
       "discoveredAt": "2026-09-30T06:05:12+00:00",
-      "status": "candidate"
+      "status": "candidate",
+      "verificationCheckedAt": "2026-10-13T09:24:06+00:00",
+      "verificationError": "HTTPError"
+    },
+    {
+      "title": "Milétosz (település)",
+      "url": "https://hu.wikipedia.org/wiki/Mil%C3%A9tosz_%28telep%C3%BCl%C3%A9s%29",
+      "sourceType": "wikipedia-discovery",
+      "language": "hu",
+      "query": "\"Armenia\" magyar iskola",
+      "discoveredAt": "2026-10-13T09:23:48+00:00",
+      "status": "candidate",
+      "verificationCheckedAt": "2026-10-13T09:24:06+00:00",
+      "verificationError": "HTTPError"
+    },
+    {
+      "title": "Murder of Gurgen Margaryan",
+      "url": "https://en.wikipedia.org/wiki/Murder_of_Gurgen_Margaryan",
+      "sourceType": "wikipedia-discovery",
+      "language": "en",
+      "query": "\"Armenia\" Hungarian school",
+      "discoveredAt": "2026-10-13T09:23:48+00:00",
+      "status": "candidate",
+      "verificationCheckedAt": "2026-10-13T09:24:06+00:00",
+      "verificationError": "HTTPError"
     },
     {
       "title": "Mühldorf am Inn",
@@ -385,7 +929,9 @@
       "language": "hu",
       "query": "magyar iskola AM",
       "discoveredAt": "2026-09-30T06:05:12+00:00",
-      "status": "candidate"
+      "status": "candidate",
+      "verificationCheckedAt": "2026-10-13T09:24:06+00:00",
+      "verificationError": "HTTPError"
     },
     {
       "title": "Osztrák–Magyar Monarchia",
@@ -394,7 +940,43 @@
       "language": "hu",
       "query": "magyar egyesület AM",
       "discoveredAt": "2026-09-30T06:05:12+00:00",
-      "status": "candidate"
+      "status": "candidate",
+      "verificationCheckedAt": "2026-10-13T09:24:06+00:00",
+      "verificationError": "HTTPError"
+    },
+    {
+      "title": "Puskás Akadémia FC",
+      "url": "https://en.wikipedia.org/wiki/Pusk%C3%A1s_Akad%C3%A9mia_FC",
+      "sourceType": "wikipedia-discovery",
+      "language": "en",
+      "query": "\"Armenia\" Hungarian association",
+      "discoveredAt": "2026-10-13T09:23:48+00:00",
+      "status": "candidate",
+      "verificationCheckedAt": "2026-10-13T09:24:06+00:00",
+      "verificationError": "HTTPError"
+    },
+    {
+      "title": "Puskás Akadémia FC",
+      "url": "https://hu.wikipedia.org/wiki/Pusk%C3%A1s_Akad%C3%A9mia_FC",
+      "sourceType": "wikipedia-discovery",
+      "language": "hu",
+      "query": "\"Armenia\" magyar egyesület",
+      "discoveredAt": "2026-10-13T09:23:48+00:00",
+      "status": "candidate",
+      "verificationCheckedAt": "2026-10-13T09:24:06+00:00",
+      "verificationError": "HTTPError"
+    },
+    {
+      "title": "Ramil Safarov",
+      "url": "https://en.wikipedia.org/wiki/Ramil_Safarov",
+      "sourceType": "wikipedia-discovery",
+      "language": "en",
+      "query": "\"Armenia\" Hungarian community",
+      "discoveredAt": "2026-10-13T09:23:48+00:00",
+      "status": "candidate",
+      "lastSeenAt": "2026-10-13T09:23:48+00:00",
+      "verificationCheckedAt": "2026-10-13T09:24:06+00:00",
+      "verificationError": "HTTPError"
     },
     {
       "title": "Ramsha",
@@ -403,7 +985,9 @@
       "language": "en",
       "query": "Hungarian church AM",
       "discoveredAt": "2026-09-30T06:05:12+00:00",
-      "status": "candidate"
+      "status": "candidate",
+      "verificationCheckedAt": "2026-10-13T09:24:06+00:00",
+      "verificationError": "HTTPError"
     },
     {
       "title": "Regnum Marianum Katolikus Közösség Egyesület",
@@ -412,7 +996,42 @@
       "language": "hu",
       "query": "magyar közösség AM",
       "discoveredAt": "2026-09-30T06:05:12+00:00",
-      "status": "candidate"
+      "status": "candidate",
+      "verificationCheckedAt": "2026-10-13T09:24:06+00:00",
+      "verificationError": "HTTPError"
+    },
+    {
+      "title": "Robert Hehedosh",
+      "url": "https://en.wikipedia.org/wiki/Robert_Hehedosh",
+      "sourceType": "wikipedia-discovery",
+      "language": "en",
+      "query": "\"Armenia\" Hungarian association",
+      "discoveredAt": "2026-10-13T09:23:48+00:00",
+      "status": "candidate",
+      "verificationCheckedAt": "2026-10-13T09:24:06+00:00",
+      "verificationError": "HTTPError"
+    },
+    {
+      "title": "Római Birodalom",
+      "url": "https://hu.wikipedia.org/wiki/R%C3%B3mai_Birodalom",
+      "sourceType": "wikipedia-discovery",
+      "language": "hu",
+      "query": "\"Armenia\" magyar közösség",
+      "discoveredAt": "2026-10-13T09:23:48+00:00",
+      "status": "candidate",
+      "verificationCheckedAt": "2026-10-13T09:24:06+00:00",
+      "verificationError": "HTTPError"
+    },
+    {
+      "title": "Satrapy of Armenia",
+      "url": "https://en.wikipedia.org/wiki/Satrapy_of_Armenia",
+      "sourceType": "wikipedia-discovery",
+      "language": "en",
+      "query": "\"Armenia\" Hungarian church",
+      "discoveredAt": "2026-10-13T09:23:48+00:00",
+      "status": "candidate",
+      "verificationCheckedAt": "2026-10-13T09:24:06+00:00",
+      "verificationError": "HTTPError"
     },
     {
       "title": "St. Stephen's Basilica",
@@ -421,7 +1040,9 @@
       "language": "en",
       "query": "Hungarian church AM",
       "discoveredAt": "2026-09-30T06:05:12+00:00",
-      "status": "candidate"
+      "status": "candidate",
+      "verificationCheckedAt": "2026-10-13T09:24:06+00:00",
+      "verificationError": "HTTPError"
     },
     {
       "title": "Szabó Magda Magyar–Angol Kéttannyelvű Általános Iskola",
@@ -430,7 +1051,20 @@
       "language": "hu",
       "query": "magyar iskola AM",
       "discoveredAt": "2026-09-30T06:05:12+00:00",
-      "status": "candidate"
+      "status": "candidate",
+      "verificationCheckedAt": "2026-10-13T09:24:06+00:00",
+      "verificationError": "HTTPError"
+    },
+    {
+      "title": "Szeleukida Birodalom",
+      "url": "https://hu.wikipedia.org/wiki/Szeleukida_Birodalom",
+      "sourceType": "wikipedia-discovery",
+      "language": "hu",
+      "query": "\"Armenia\" magyar iskola",
+      "discoveredAt": "2026-10-13T09:23:48+00:00",
+      "status": "candidate",
+      "verificationCheckedAt": "2026-10-13T09:24:06+00:00",
+      "verificationError": "HTTPError"
     },
     {
       "title": "Szentjánosbogár közösség",
@@ -439,7 +1073,43 @@
       "language": "hu",
       "query": "magyar közösség AM",
       "discoveredAt": "2026-09-30T06:05:12+00:00",
-      "status": "candidate"
+      "status": "candidate",
+      "verificationCheckedAt": "2026-10-13T09:24:06+00:00",
+      "verificationError": "HTTPError"
+    },
+    {
+      "title": "Szongott Kristóf",
+      "url": "https://hu.wikipedia.org/wiki/Szongott_Krist%C3%B3f",
+      "sourceType": "wikipedia-discovery",
+      "language": "hu",
+      "query": "\"Armenia\" magyar egyesület",
+      "discoveredAt": "2026-10-13T09:23:48+00:00",
+      "status": "candidate",
+      "verificationCheckedAt": "2026-10-13T09:24:06+00:00",
+      "verificationError": "HTTPError"
+    },
+    {
+      "title": "Szászánida Birodalom",
+      "url": "https://hu.wikipedia.org/wiki/Sz%C3%A1sz%C3%A1nida_Birodalom",
+      "sourceType": "wikipedia-discovery",
+      "language": "hu",
+      "query": "\"Armenia\" magyar közösség",
+      "discoveredAt": "2026-10-13T09:23:48+00:00",
+      "status": "candidate",
+      "verificationCheckedAt": "2026-10-13T09:24:06+00:00",
+      "verificationError": "HTTPError"
+    },
+    {
+      "title": "Varazdat Haroyan",
+      "url": "https://en.wikipedia.org/wiki/Varazdat_Haroyan",
+      "sourceType": "wikipedia-discovery",
+      "language": "en",
+      "query": "\"Armenia\" Hungarian association",
+      "discoveredAt": "2026-10-13T09:23:48+00:00",
+      "status": "candidate",
+      "lastSeenAt": "2026-10-13T09:23:48+00:00",
+      "verificationCheckedAt": "2026-10-13T09:24:06+00:00",
+      "verificationError": "HTTPError"
     },
     {
       "title": "Winden am See",
@@ -448,7 +1118,9 @@
       "language": "en",
       "query": "Hungarian community AM",
       "discoveredAt": "2026-09-30T06:05:12+00:00",
-      "status": "candidate"
+      "status": "candidate",
+      "verificationCheckedAt": "2026-10-13T09:24:06+00:00",
+      "verificationError": "HTTPError"
     },
     {
       "title": "Wood Badge",
@@ -457,7 +1129,20 @@
       "language": "hu",
       "query": "magyar cserkész AM",
       "discoveredAt": "2026-09-30T06:05:12+00:00",
-      "status": "candidate"
+      "status": "candidate",
+      "verificationCheckedAt": "2026-10-13T09:24:06+00:00",
+      "verificationError": "HTTPError"
+    },
+    {
+      "title": "Zavaczki Walter Levente",
+      "url": "https://hu.wikipedia.org/wiki/Zavaczki_Walter_Levente",
+      "sourceType": "wikipedia-discovery",
+      "language": "hu",
+      "query": "\"Armenia\" magyar iskola",
+      "discoveredAt": "2026-10-13T09:23:48+00:00",
+      "status": "candidate",
+      "verificationCheckedAt": "2026-10-13T09:24:06+00:00",
+      "verificationError": "HTTPError"
     },
     {
       "title": "Zichyújfalui Református Általános Iskola",
@@ -466,7 +1151,42 @@
       "language": "hu",
       "query": "magyar iskola AM",
       "discoveredAt": "2026-09-30T06:05:12+00:00",
-      "status": "candidate"
+      "status": "candidate",
+      "verificationCheckedAt": "2026-10-13T09:24:06+00:00",
+      "verificationError": "HTTPError"
+    },
+    {
+      "title": "Zoltán Nuridsány",
+      "url": "https://en.wikipedia.org/wiki/Zolt%C3%A1n_Nurids%C3%A1ny",
+      "sourceType": "wikipedia-discovery",
+      "language": "en",
+      "query": "\"Armenia\" Hungarian school",
+      "discoveredAt": "2026-10-13T09:23:48+00:00",
+      "status": "candidate",
+      "verificationCheckedAt": "2026-10-13T09:24:06+00:00",
+      "verificationError": "HTTPError"
+    },
+    {
+      "title": "Zsolt Hornyák",
+      "url": "https://en.wikipedia.org/wiki/Zsolt_Horny%C3%A1k",
+      "sourceType": "wikipedia-discovery",
+      "language": "en",
+      "query": "\"Armenia\" Hungarian association",
+      "discoveredAt": "2026-10-13T09:23:48+00:00",
+      "status": "candidate",
+      "verificationCheckedAt": "2026-10-13T09:24:06+00:00",
+      "verificationError": "HTTPError"
+    },
+    {
+      "title": "Árpád Duka-Zólyomi",
+      "url": "https://en.wikipedia.org/wiki/%C3%81rp%C3%A1d_Duka-Z%C3%B3lyomi",
+      "sourceType": "wikipedia-discovery",
+      "language": "en",
+      "query": "\"Armenia\" Hungarian community",
+      "discoveredAt": "2026-10-13T09:23:48+00:00",
+      "status": "candidate",
+      "verificationCheckedAt": "2026-10-13T09:24:06+00:00",
+      "verificationError": "HTTPError"
     },
     {
       "title": "Élet Kenyere közösség",
@@ -475,8 +1195,67 @@
       "language": "hu",
       "query": "magyar közösség AM",
       "discoveredAt": "2026-09-30T06:05:12+00:00",
-      "status": "candidate"
+      "status": "candidate",
+      "verificationCheckedAt": "2026-10-13T09:24:06+00:00",
+      "verificationError": "HTTPError"
+    },
+    {
+      "title": "Örmény labdarúgó-bajnokság (első osztály)",
+      "url": "https://hu.wikipedia.org/wiki/%C3%96rm%C3%A9ny_labdar%C3%BAg%C3%B3-bajnoks%C3%A1g_%28els%C5%91_oszt%C3%A1ly%29",
+      "sourceType": "wikipedia-discovery",
+      "language": "hu",
+      "query": "\"Armenia\" magyar egyesület",
+      "discoveredAt": "2026-10-13T09:23:48+00:00",
+      "status": "candidate",
+      "verificationCheckedAt": "2026-10-13T09:24:06+00:00",
+      "verificationError": "HTTPError"
+    },
+    {
+      "title": "Örmény-magyar irodalmi kapcsolatok",
+      "url": "https://hu.wikipedia.org/wiki/%C3%96rm%C3%A9ny-magyar_irodalmi_kapcsolatok",
+      "sourceType": "wikipedia-discovery",
+      "language": "hu",
+      "query": "\"Armenia\" magyar közösség",
+      "discoveredAt": "2026-10-13T09:23:48+00:00",
+      "status": "candidate",
+      "verificationCheckedAt": "2026-10-13T09:24:06+00:00",
+      "verificationError": "HTTPError"
+    },
+    {
+      "title": "Örmények",
+      "url": "https://hu.wikipedia.org/wiki/%C3%96rm%C3%A9nyek",
+      "sourceType": "wikipedia-discovery",
+      "language": "hu",
+      "query": "\"Armenia\" magyar egyesület",
+      "discoveredAt": "2026-10-13T09:23:48+00:00",
+      "status": "candidate",
+      "verificationCheckedAt": "2026-10-13T09:24:06+00:00",
+      "verificationError": "HTTPError"
+    },
+    {
+      "title": "Örményország",
+      "url": "https://hu.wikipedia.org/wiki/%C3%96rm%C3%A9nyorsz%C3%A1g",
+      "sourceType": "wikipedia-discovery",
+      "language": "hu",
+      "query": "\"Armenia\" magyar egyesület",
+      "discoveredAt": "2026-10-13T09:23:48+00:00",
+      "status": "candidate",
+      "lastSeenAt": "2026-10-13T09:23:48+00:00",
+      "verificationCheckedAt": "2026-10-13T09:24:06+00:00",
+      "verificationError": "HTTPError"
+    },
+    {
+      "title": "Örményország a Junior Eurovíziós Dalfesztiválokon",
+      "url": "https://hu.wikipedia.org/wiki/%C3%96rm%C3%A9nyorsz%C3%A1g_a_Junior_Eurov%C3%ADzi%C3%B3s_Dalfesztiv%C3%A1lokon",
+      "sourceType": "wikipedia-discovery",
+      "language": "hu",
+      "query": "\"Armenia\" magyar egyesület",
+      "discoveredAt": "2026-10-13T09:23:48+00:00",
+      "status": "candidate",
+      "verificationCheckedAt": "2026-10-13T09:24:06+00:00",
+      "verificationError": "HTTPError"
     }
   ],
-  "errors": []
+  "errors": [],
+  "verificationUpdated": "2026-10-13T09:24:06+00:00"
 }

@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-30T06:04:35+00:00",
+  "updated": "2026-10-13T09:23:48+00:00",
   "country": "af",
   "researchRole": "secondary discovery only; candidates require first-party verification before publication",
   "sources": [
@@ -10,7 +10,17 @@
       "language": "hu",
       "query": "magyar egyesület AF",
       "discoveredAt": "2026-09-30T06:04:35+00:00",
-      "status": "candidate"
+      "status": "rejected-low-signal",
+      "verificationCheckedAt": "2026-10-13T09:24:06+00:00",
+      "verificationScore": 1,
+      "firstPartyCandidates": [
+        "http://ssd.jpl.nasa.gov/sbdb.cgi?sstr=1445",
+        "https://ssd.jpl.nasa.gov/sbdb.cgi?sstr=20001445",
+        "https://www.minorplanetcenter.net/db_search/show_object?object_id=1445"
+      ],
+      "entitySignal": false,
+      "countrySignal": false,
+      "hungarianSignal": false
     },
     {
       "title": "2018-as rövid pályás úszó-világbajnokság",
@@ -19,7 +29,18 @@
       "language": "hu",
       "query": "magyar egyesület AF",
       "discoveredAt": "2026-09-30T06:04:35+00:00",
-      "status": "candidate"
+      "status": "rejected-low-signal",
+      "verificationCheckedAt": "2026-10-13T09:24:06+00:00",
+      "verificationScore": 1,
+      "firstPartyCandidates": [
+        "http://omegatiming.com/Competition?id=000112010CFFFFFFFFFFFFFFFFFFFFFF&sport=AQ&year=2018",
+        "https://musz.hu/verseny/rovidpalyas-vilagbajnoksag/",
+        "https://web.archive.org/web/20181209213209/http://omegatiming.com/Competition?id=000112010CFFFFFFFFFFFFFFFFFFFFFF&sport=AQ&year=2018",
+        "https://web.archive.org/web/20181210202635/https://musz.hu/verseny/rovidpalyas-vilagbajnoksag/"
+      ],
+      "entitySignal": false,
+      "countrySignal": false,
+      "hungarianSignal": false
     },
     {
       "title": "2021-es rövid pályás úszó-világbajnokság",
@@ -28,7 +49,42 @@
       "language": "hu",
       "query": "magyar egyesület AF",
       "discoveredAt": "2026-09-30T06:04:35+00:00",
-      "status": "candidate"
+      "status": "rejected-low-signal",
+      "verificationCheckedAt": "2026-10-13T09:24:06+00:00",
+      "verificationScore": 1,
+      "firstPartyCandidates": [
+        "http://www.nemzetisport.hu/uszas/uszas-abu-dzabiban-lesz-a-2020-as-rovidpalyas-uszo-vb-2427775",
+        "http://www.nemzetisport.hu/uszas/uszas-egy-evvel-elhalasztjak-az-abu-dzabi-rovid-palyas-vb-t-2763423",
+        "http://www.vizipolo.hu/fina-abu-dzabi-rendezheti-a-2020-as-rovid-palyas-vb-t/"
+      ],
+      "entitySignal": false,
+      "countrySignal": false,
+      "hungarianSignal": false
+    },
+    {
+      "title": "2021-es tálib hatalomátvétel Afganisztánban",
+      "url": "https://hu.wikipedia.org/wiki/2021-es_t%C3%A1lib_hatalom%C3%A1tv%C3%A9tel_Afganiszt%C3%A1nban",
+      "sourceType": "wikipedia-discovery",
+      "language": "hu",
+      "query": "\"Afghanistan\" magyar egyesület",
+      "discoveredAt": "2026-10-13T09:23:48+00:00",
+      "status": "rejected-low-signal",
+      "lastSeenAt": "2026-10-13T09:23:48+00:00",
+      "verificationCheckedAt": "2026-10-13T09:24:06+00:00",
+      "verificationScore": 1,
+      "firstPartyCandidates": [
+        "http://president.tj/ru/node/26124",
+        "http://tribune.com.pk/story/2312190/another-group-of-afghan-military-personnel-given-refuge-by-army-ispr",
+        "http://www.theguardian.com/world/2021/aug/10/taliban-fighters-capture-afghan-city-at-strategic-junction-north-of-kabul",
+        "http://www.theguardian.com/world/2021/aug/12/afghanistan-taliban-lashkar-gah--army-chief-is-replaced",
+        "http://www.theguardian.com/world/2021/aug/17/uk-to-take-20000-afghan-refugees-over-five-years-under-resettlement-plan",
+        "http://www.theguardian.com/world/2021/aug/18/panjshir-stands-strong-afghanistans-last-holdout-against-the-taliban",
+        "http://www.theguardian.com/world/2021/jul/07/armed-afghan-women-take-to-streets-in-show-of-defiance-against-taliban",
+        "http://www.theguardian.com/world/2021/jul/15/us-aims-to-woo-central-asian-leaders-for-secure-base-near-afghanistan"
+      ],
+      "entitySignal": false,
+      "countrySignal": false,
+      "hungarianSignal": false
     },
     {
       "title": "2026 Hungarian parliamentary election",
@@ -37,8 +93,47 @@
       "language": "en",
       "query": "Hungarian community AF",
       "discoveredAt": "2026-09-30T06:04:35+00:00",
-      "status": "candidate",
-      "lastSeenAt": "2026-09-30T06:04:35+00:00"
+      "status": "rejected-low-signal",
+      "lastSeenAt": "2026-09-30T06:04:35+00:00",
+      "verificationCheckedAt": "2026-10-13T09:24:06+00:00",
+      "verificationScore": 3,
+      "firstPartyCandidates": [
+        "https://1tv.ge/lang/en/news/pm-irakli-kobakhidze-thanks-viktor-orban-for-his-steadfast-support-for-georgia/",
+        "https://24.hu/belfold/2024/10/19/demokratikus-koalicio-gyurcsany-ferenc-2026-jeloltek/",
+        "https://24.hu/belfold/2024/12/17/valasztasi-torveny-modositas-korzethatarok-parlament-szavazas-elfogadtak/",
+        "https://24.hu/belfold/2025/06/25/government-aligned-polling-institutions-silence/",
+        "https://24.hu/belfold/2026/03/11/emir-kusturica-orban-viktor-tamogatas/",
+        "https://24.hu/belfold/2026/03/24/valasztas-jelolt-tisza-fidesz/",
+        "https://24.hu/belfold/2026/04/10/borokai-gabor-fidesz-kampany-magyar-peter-szemlelek/",
+        "https://24.hu/belfold/2026/04/11/toth-bertalan-tisza-szavazas/"
+      ],
+      "entitySignal": false,
+      "countrySignal": false,
+      "hungarianSignal": true
+    },
+    {
+      "title": "A buddhizmus története",
+      "url": "https://hu.wikipedia.org/wiki/A_buddhizmus_t%C3%B6rt%C3%A9nete",
+      "sourceType": "wikipedia-discovery",
+      "language": "hu",
+      "query": "\"Afghanistan\" magyar iskola",
+      "discoveredAt": "2026-10-13T09:23:48+00:00",
+      "status": "rejected-low-signal",
+      "verificationCheckedAt": "2026-10-13T09:24:06+00:00",
+      "verificationScore": 6,
+      "firstPartyCandidates": [
+        "http://a-buddha-ujja.hu/Article/Pali-nyelv-es-irodalom",
+        "http://afe.easia.columbia.edu/tps/300ce_ko.htm#buddhism",
+        "http://alfahir.hu/node/52617",
+        "http://archive.org/details/buddhistbirth00daviuoft",
+        "http://archives.dailynews.lk/2004/04/24/fea09.html",
+        "http://blogs.dickinson.edu/buddhistethics/files/2010/04/shakya991.pdf",
+        "http://blogs.dickinson.edu/buddhistethics/files/2010/05/prebish-article.pdf",
+        "http://buddhapestujsag.blog.hu/2010/06/12/dr_hetenyi_erno_es_a_magyarorszagi_buddhizmus_hoskora"
+      ],
+      "entitySignal": true,
+      "countrySignal": false,
+      "hungarianSignal": true
     },
     {
       "title": "AfD pro-Russia movement",
@@ -47,8 +142,96 @@
       "language": "en",
       "query": "Hungarian association AF",
       "discoveredAt": "2026-09-30T06:04:35+00:00",
-      "status": "candidate",
-      "lastSeenAt": "2026-09-30T06:04:35+00:00"
+      "status": "rejected-low-signal",
+      "lastSeenAt": "2026-09-30T06:04:35+00:00",
+      "verificationCheckedAt": "2026-10-13T09:24:06+00:00",
+      "verificationScore": 4,
+      "firstPartyCandidates": [
+        "https://correctiv.org/aktuelles/neue-rechte/2023/10/23/moeglicher-einfluss-des-fsb-auf-afd-abgeordnete-fragwuerdiger-lobbyist-war-2021-im-bundestag/",
+        "https://correctiv.org/faktencheck/hintergrund/2023/06/23/wie-afd-politiker-von-einem-prorussischen-propaganda-netzwerk-profitieren/",
+        "https://euromaidanpress.com/2025/07/26/german-afd-moves-to-expel-young-politician-who-fought-russians-in-ukraine/",
+        "https://jungle.world/artikel/2022/51/hilfe-fuer-russland",
+        "https://search.worldcat.org/issn/0044-2070",
+        "https://search.worldcat.org/issn/0174-4909",
+        "https://search.worldcat.org/issn/0190-8286",
+        "https://search.worldcat.org/issn/1865-2263"
+      ],
+      "entitySignal": true,
+      "countrySignal": false,
+      "hungarianSignal": false
+    },
+    {
+      "title": "Afganisztán",
+      "url": "https://hu.wikipedia.org/wiki/Afganiszt%C3%A1n",
+      "sourceType": "wikipedia-discovery",
+      "language": "hu",
+      "query": "\"Afghanistan\" magyar egyesület",
+      "discoveredAt": "2026-10-13T09:23:48+00:00",
+      "status": "rejected-low-signal",
+      "lastSeenAt": "2026-10-13T09:23:48+00:00",
+      "verificationCheckedAt": "2026-10-13T09:24:06+00:00",
+      "verificationScore": 1,
+      "firstPartyCandidates": [
+        "http://500px.com/blog/850/the-power-of-photography",
+        "http://afganisztan.lap.hu/",
+        "http://arg-advisor.gov.af/images/pdf/NRM(Natural%20Resource%20Management)_strategy_23_september.pdf",
+        "http://catalogo.bne.es/uhtbin/authoritybrowse.cgi?action=display&authority_id=XX450563",
+        "http://khyber.org/pacademy/journal3/index.php/path/article/view/265",
+        "http://konzuliszolgalat.kormany.hu/azsia",
+        "http://lccn.loc.gov/n79063030",
+        "http://lcweb2.loc.gov/frd/cs/aftoc.html"
+      ],
+      "entitySignal": false,
+      "countrySignal": false,
+      "hungarianSignal": false
+    },
+    {
+      "title": "Afganisztáni háború",
+      "url": "https://hu.wikipedia.org/wiki/Afganiszt%C3%A1ni_h%C3%A1bor%C3%BA",
+      "sourceType": "wikipedia-discovery",
+      "language": "hu",
+      "query": "\"Afghanistan\" magyar egyesület",
+      "discoveredAt": "2026-10-13T09:23:48+00:00",
+      "status": "rejected-low-signal",
+      "verificationCheckedAt": "2026-10-13T09:24:06+00:00",
+      "verificationScore": 1,
+      "firstPartyCandidates": [
+        "http://catalogo.bne.es/uhtbin/authoritybrowse.cgi?action=display&authority_id=XX549857",
+        "http://edition.cnn.com/2009/CRIME/07/30/robertson.al.qaeda.training/index.html",
+        "http://edition.cnn.com/SPECIALS/2009/afghanistan.war/index.html",
+        "http://english.defense.ro/misiuni/memoriam.php",
+        "http://icasualties.org/OEF/ByYear.aspx",
+        "http://lccn.loc.gov/sh2004004460",
+        "http://news.bbc.co.uk/2/hi/in_depth/south_asia/afghanistan_pakistan/default.stm",
+        "http://opencrs.com/document/RS22633"
+      ],
+      "entitySignal": false,
+      "countrySignal": false,
+      "hungarianSignal": false
+    },
+    {
+      "title": "Afghan Canadians",
+      "url": "https://en.wikipedia.org/wiki/Afghan_Canadians",
+      "sourceType": "wikipedia-discovery",
+      "language": "en",
+      "query": "\"Afghanistan\" Hungarian community",
+      "discoveredAt": "2026-10-13T09:23:48+00:00",
+      "status": "rejected-low-signal",
+      "verificationCheckedAt": "2026-10-13T09:24:06+00:00",
+      "verificationScore": 6,
+      "firstPartyCandidates": [
+        "http://www.theguardian.com/global/2019/oct/30/mozhdah-jamalzadah-afghanistan-oprah-winfrey",
+        "http://www12.statcan.gc.ca/census-recensement/2016/dp-pd/hlt-fst/imm/Table.cfm?Lang=E&T=31&Geo=01&SO=4D",
+        "https://recherche-collection-search.bac-lac.gc.ca/eng/Home/Record?app=natrec&IdNumber=135331&ecopy=P30-31_806",
+        "https://scholar.google.com/scholar?q=%22Afghan+Canadians%22",
+        "https://web.archive.org/web/20071111142042/http://canada-afghanistan.gc.ca/cip-pic/afghanistan/menu-en.asp",
+        "https://www.bbc.co.uk/news/world-asia-21426632",
+        "https://www.cbc.ca/news/canada/british-columbia/sikh-hindu-families-afghanistan-approved-settle-bc-1.4959759",
+        "https://www.cbc.ca/news/canada/nova-scotia/halifax-born-producer-gets-oscar-nod-for-short-film-1.1309500"
+      ],
+      "entitySignal": true,
+      "countrySignal": true,
+      "hungarianSignal": false
     },
     {
       "title": "African Library and Information Associations and Institutions",
@@ -57,8 +240,47 @@
       "language": "en",
       "query": "Hungarian association AF",
       "discoveredAt": "2026-09-30T06:04:35+00:00",
-      "status": "candidate",
-      "lastSeenAt": "2026-09-30T06:04:35+00:00"
+      "status": "rejected-low-signal",
+      "lastSeenAt": "2026-09-30T06:04:35+00:00",
+      "verificationCheckedAt": "2026-10-13T09:24:06+00:00",
+      "verificationScore": 4,
+      "firstPartyCandidates": [
+        "http://dl.aflia.net/Annual_Report_2018.pdf",
+        "http://dspace.knust.edu.gh/handle/123456789/4180",
+        "http://infojustice.org/archives/38691",
+        "http://library.ifla.org/2380/",
+        "http://uir.unisa.ac.za/bitstream/handle/10500/8781/10000901JB%202011%20African%20Summit%20Report%20NEW.pdf?sequence=1&isAllowed=y",
+        "http://unisapress.bookslive.co.za/blog/2016/07/07/the-future-of-libraries-in-africa-the-new-african-librarian-perspectives-from-the-continent/",
+        "http://www.angop.ao/angola/en_us/noticias/lazer-e-cultura/2019/9/44/Angola-roundtable-public-libraries-Ghana,8fd67f20-4a35-4221-95dc-e6873b6d2a39.html",
+        "http://www.bibalex.org/libraries/4summitbook/en/speakers/SpeakerDetails.aspx?ID=1030"
+      ],
+      "entitySignal": true,
+      "countrySignal": false,
+      "hungarianSignal": false
+    },
+    {
+      "title": "Afshar people",
+      "url": "https://en.wikipedia.org/wiki/Afshar_people",
+      "sourceType": "wikipedia-discovery",
+      "language": "en",
+      "query": "\"Afghanistan\" Hungarian community",
+      "discoveredAt": "2026-10-13T09:23:48+00:00",
+      "status": "rejected-low-signal",
+      "verificationCheckedAt": "2026-10-13T09:24:06+00:00",
+      "verificationScore": 0,
+      "firstPartyCandidates": [
+        "http://gatchina3000.ru/great-soviet-encyclopedia/bse/003/058.htm",
+        "http://repository.upenn.edu/dissertations/AAI3328565",
+        "http://www.iranicaonline.org/articles/afsar",
+        "https://archive.org/details/m.-c.-varlik-germiyan-ogullari-tarihi-1300-1429-1974./mode/2up",
+        "https://books.google.com/books?id=50pRBAAAQBAJ&pg=PA290",
+        "https://books.google.com/books?id=FnwsAQAAIAAJ&q=tilbasar",
+        "https://books.google.com/books?id=b6dcEAAAQBAJ&dq=av%C5%9Far+a%C4%9F%C4%B1rlama&pg=PA50",
+        "https://catalogue.bnf.fr/ark:/12148/cb119595384"
+      ],
+      "entitySignal": false,
+      "countrySignal": true,
+      "hungarianSignal": false
     },
     {
       "title": "Air France Flight 447",
@@ -67,7 +289,47 @@
       "language": "en",
       "query": "Hungarian school AF",
       "discoveredAt": "2026-09-30T06:04:35+00:00",
-      "status": "candidate"
+      "status": "rejected-low-signal",
+      "verificationCheckedAt": "2026-10-13T09:24:06+00:00",
+      "verificationScore": -2,
+      "firstPartyCandidates": [
+        "http://99percentinvisible.org/episode/children-of-the-magenta-automation-paradox-pt-1/",
+        "http://ad.easa.europa.eu/ad/2009-0195",
+        "http://ad.easa.europa.eu/ad/F-2001-353",
+        "http://alphasite.airfrance.com/en/s01/frequently-asked-questions/",
+        "http://alphasite.airfrance.com/en/s01/press-releases/#communique2546",
+        "http://alphasite.airfrance.com/flight-air-france-447-rio-de-janeiro-paris-charles-de-gaulle/press-releases/?L=1",
+        "http://alphasite.airfrance.com/flight-air-france-447-rio-de-janeiro-paris-charles-de-gaulle/press-releases/?L=1#communique2651",
+        "http://alphasite.airfrance.com/s01/communiques-de-presse/?L=1#communique2651"
+      ],
+      "entitySignal": false,
+      "countrySignal": false,
+      "hungarianSignal": false
+    },
+    {
+      "title": "Albánia",
+      "url": "https://hu.wikipedia.org/wiki/Alb%C3%A1nia",
+      "sourceType": "wikipedia-discovery",
+      "language": "hu",
+      "query": "\"Afghanistan\" magyar közösség",
+      "discoveredAt": "2026-10-13T09:23:48+00:00",
+      "status": "rejected-low-signal",
+      "lastSeenAt": "2026-10-13T09:23:48+00:00",
+      "verificationCheckedAt": "2026-10-13T09:24:06+00:00",
+      "verificationScore": 1,
+      "firstPartyCandidates": [
+        "http://catalogo.bne.es/uhtbin/authoritybrowse.cgi?action=display&authority_id=XX450686",
+        "http://databaza.instat.gov.al/pxweb/sq/DST/START__Census/Census1114/?rxid=defecd19-c039-4e8d-b40b-40aef743878a",
+        "http://gamapserver.who.int/gho/interactive_charts/mbd/hale_1/atlas.html",
+        "http://gamapserver.who.int/gho/interactive_charts/ncd/risk_factors/obesity/atlas.html",
+        "http://hdr.undp.org/en/content/income-gini-coefficient",
+        "http://hdr.undp.org/sites/default/files/2018_human_development_statistical_update.pdf",
+        "http://lccn.loc.gov/n83221467",
+        "http://seelawschool.org/pdf/2_Electoral_systems_in_Europe_and_the_case_of_Albania.pdf"
+      ],
+      "entitySignal": false,
+      "countrySignal": false,
+      "hungarianSignal": false
     },
     {
       "title": "Alice Weidel",
@@ -76,8 +338,23 @@
       "language": "en",
       "query": "Hungarian association AF",
       "discoveredAt": "2026-09-30T06:04:35+00:00",
-      "status": "candidate",
-      "lastSeenAt": "2026-09-30T06:04:35+00:00"
+      "status": "rejected-low-signal",
+      "lastSeenAt": "2026-09-30T06:04:35+00:00",
+      "verificationCheckedAt": "2026-10-13T09:24:06+00:00",
+      "verificationScore": 1,
+      "firstPartyCandidates": [
+        "http://alice-weidel.de/",
+        "http://www.businessinsider.com/germany-afd-alice-weidel-everything-you-need-to-know-2017-9/#her-views-were-not-always-extreme-her-old-friends-say-4",
+        "http://www.dw.com/en/afds-alice-weidel-the-pride-of-the-populists-a-mystery-to-everyone-else/a-40356769",
+        "http://www.dw.com/en/far-right-afd-leader-alice-weidel-employed-syrian-refugee-as-cleaner/a-40495560",
+        "http://www.spiegel.de/international/germany/the-new-face-of-afd-how-right-wing-is-alice-weidel-a-1146038.html",
+        "http://www.sueddeutsche.de/medien/gericht-weist-antrag-zurueck-satiriker-darf-afd-frau-weidel-als-nazi-schlampe-bezeichnen-1.3509959",
+        "http://www.swp.de/ulm/nachrichten/politik/_mit-voelkischem-gerede-kann-ich-nichts-anfangen_-12940413.html",
+        "http://www.swr.de/swraktuell/bw/afd-landesparteitag-in-kehl-weidel-wird-spitzenkandidatin-der-afd-bw/-/id=1622/did=18516492/nid=1622/svjpl3/index.html"
+      ],
+      "entitySignal": true,
+      "countrySignal": false,
+      "hungarianSignal": false
     },
     {
       "title": "Alternative for Germany",
@@ -86,8 +363,23 @@
       "language": "en",
       "query": "Hungarian association AF",
       "discoveredAt": "2026-09-30T06:04:35+00:00",
-      "status": "candidate",
-      "lastSeenAt": "2026-09-30T06:04:35+00:00"
+      "status": "rejected-low-signal",
+      "lastSeenAt": "2026-09-30T06:04:35+00:00",
+      "verificationCheckedAt": "2026-10-13T09:24:06+00:00",
+      "verificationScore": -2,
+      "firstPartyCandidates": [
+        "http://afd-thueringen.de/vorstand/",
+        "http://derstandard.at/2000031396307/Deutsche-AfD-und-FPOe-beschliessen-Zusammenarbeit",
+        "http://en.europeonline-magazine.eu/german-afd-lawmaker-evicted-from-conservative-group-in-eu-legislature_449694.html",
+        "http://en.europeonline-magazine.eu/german-afd-lawmaker-to-align-with-faction-of-frances-national-front_453117.html",
+        "http://euobserver.com/political/119366",
+        "http://library.fes.de/pdf-files/dialog/10641.pdf",
+        "http://openeuropeblog.blogspot.co.uk/2013/02/here-comes-german-anti-euro-party.html",
+        "http://stream.aljazeera.com/story/201404012147-0023610"
+      ],
+      "entitySignal": false,
+      "countrySignal": false,
+      "hungarianSignal": false
     },
     {
       "title": "Alternatíva Németországért",
@@ -96,8 +388,120 @@
       "language": "hu",
       "query": "magyar egyesület AF",
       "discoveredAt": "2026-09-30T06:04:35+00:00",
-      "status": "candidate",
-      "lastSeenAt": "2026-09-30T06:04:35+00:00"
+      "status": "rejected-low-signal",
+      "lastSeenAt": "2026-09-30T06:04:35+00:00",
+      "verificationCheckedAt": "2026-10-13T09:24:06+00:00",
+      "verificationScore": 1,
+      "firstPartyCandidates": [
+        "http://www.afd-havelland.de/Programme/Europaprogramm%20lang.pdf",
+        "http://www.justiz.nrw.de/nrwe/ovgs/vg%20koeln/j2021/13%20L%20105%2021%20Beschluss%2020210305.html",
+        "http://www.mainpost.de/ueberregional/politik/zeitgeschehen/Henkel-und-die-Ehrenmaenner;art16698,7922609",
+        "https://books.google.de/books?id=-9R4DAAAQBAJ&pg=PA2011",
+        "https://books.google.de/books?id=C7NsCwAAQBAJ&pg=PA205",
+        "https://books.google.de/books?id=bWNPBwAAQBAJ&pg=PA152",
+        "https://d-nb.info/gnd/1046235370",
+        "https://dejure.org/2022,4641"
+      ],
+      "entitySignal": false,
+      "countrySignal": false,
+      "hungarianSignal": false
+    },
+    {
+      "title": "Arundhati Roy",
+      "url": "https://hu.wikipedia.org/wiki/Arundhati_Roy",
+      "sourceType": "wikipedia-discovery",
+      "language": "hu",
+      "query": "\"Afghanistan\" magyar egyesület",
+      "discoveredAt": "2026-10-13T09:23:48+00:00",
+      "status": "rejected-low-signal",
+      "lastSeenAt": "2026-10-13T09:23:48+00:00",
+      "verificationCheckedAt": "2026-10-13T09:24:06+00:00",
+      "verificationScore": 1,
+      "firstPartyCandidates": [
+        "http://ask.bibsys.no/ask/action/result?cmd=&kilde=biblio&cql=bs.autid+%3D+90988632&feltselect=bs.autid",
+        "http://catalogo.bne.es/uhtbin/authoritybrowse.cgi?action=display&authority_id=XX1295297",
+        "http://epa.oszk.hu/01700/01739/00037/eszmelet_EPA01739_52.item365.htm",
+        "http://epa.oszk.hu/01700/01739/00047/eszmelet_EPA01739_62.item155.htm",
+        "http://hamvasklub.parknet.dk/ArundhatiRoy1.html",
+        "http://lccn.loc.gov/n89250447",
+        "http://sahitya-akademi.gov.in/awards/akademi%20samman_suchi.jsp#ENGLISH",
+        "http://www.guardian.co.uk/Archive/Article/0,4273,4283081,00.html"
+      ],
+      "entitySignal": false,
+      "countrySignal": false,
+      "hungarianSignal": false
+    },
+    {
+      "title": "Baglán tartomány",
+      "url": "https://hu.wikipedia.org/wiki/Bagl%C3%A1n_tartom%C3%A1ny",
+      "sourceType": "wikipedia-discovery",
+      "language": "hu",
+      "query": "\"Afghanistan\" magyar iskola",
+      "discoveredAt": "2026-10-13T09:23:48+00:00",
+      "status": "rejected-low-signal",
+      "verificationCheckedAt": "2026-10-13T09:24:06+00:00",
+      "verificationScore": 1,
+      "firstPartyCandidates": [
+        "http://wagnerpeter.blogspot.com/2006/08/baghlani-kormnyzk.html",
+        "http://wagnerpeter.blogspot.com/2007/06/ki-is-baghlani-kormnyz.html",
+        "http://wagnerpeter.blogspot.com/2008/01/j-baghlani-kormnyz.html",
+        "http://www.ccun.org/News/2007/November/6%20n/68%20Afghanis%20Massacred%20in%20a%20Non-Taliban%20%20Bomb%20Attack%20in%20Baghlan,%20Including%20Five%20Parliamentarians.htm",
+        "http://www.diplomatie.gouv.fr/en/IMG/pdf/Hungarian_development_efforts_in_Afghanistan.pdf",
+        "http://www.hm.gov.hu/files/9/5961/baghlan_tartomany_cimic_kezikonyve.pdf",
+        "http://www.hm.gov.hu/hirek/hazai_hirek/omlt_visszafogado#",
+        "http://www.hm.gov.hu/honvedseg/missziok/afganisztan_prt/magyar_katonak_baghlan_kapujaban"
+      ],
+      "entitySignal": false,
+      "countrySignal": false,
+      "hungarianSignal": false
+    },
+    {
+      "title": "Balazs Gardi",
+      "url": "https://en.wikipedia.org/wiki/Balazs_Gardi",
+      "sourceType": "wikipedia-discovery",
+      "language": "en",
+      "query": "\"Afghanistan\" Hungarian school",
+      "discoveredAt": "2026-10-13T09:23:48+00:00",
+      "status": "rejected-low-signal",
+      "verificationCheckedAt": "2026-10-13T09:24:06+00:00",
+      "verificationScore": 2,
+      "firstPartyCandidates": [
+        "http://balazsgardi.com/",
+        "http://digitaljournalist.org/issue0611/dis_gardi.html",
+        "http://www.graffitiofwar.com/the-basetrack-project.html",
+        "http://www.tedxdanubia.com/speaker/gardi-balazs",
+        "http://www.theguardian.com/media/2011/jul/06/afghanistan-war-iphone-images",
+        "https://actuphoto.com/18321-the-new-york-photo-festival-and-awards-2011.html",
+        "https://archive.nytimes.com/www.nytimes.com/imagepages/2012/10/15/us/JUMP-3.html",
+        "https://creativepro.com/getty-images-announces-three-new-winners-of-its-2005-grants-for-editorial-photography/"
+      ],
+      "entitySignal": false,
+      "countrySignal": true,
+      "hungarianSignal": true
+    },
+    {
+      "title": "Ben Anderson (journalist)",
+      "url": "https://en.wikipedia.org/wiki/Ben_Anderson_%28journalist%29",
+      "sourceType": "wikipedia-discovery",
+      "language": "en",
+      "query": "\"Afghanistan\" Hungarian school",
+      "discoveredAt": "2026-10-13T09:23:48+00:00",
+      "status": "rejected-low-signal",
+      "verificationCheckedAt": "2026-10-13T09:24:06+00:00",
+      "verificationScore": 0,
+      "firstPartyCandidates": [
+        "http://news.bbc.co.uk/2/hi/programmes/this_world/4714064.stm",
+        "http://www.cnn.com/2010/US/10/19/vbs.jim.frederick/index.html",
+        "http://www.curtisbrown.co.uk/ben-anderson/",
+        "http://www.kayeholland.com/portfolio/2014/8/17/where-the-experts-holiday-ben-anderson-author-filmmaker-and-a-winner-of-the-foreign-press-award",
+        "http://www.noworseenemy.com/",
+        "http://www.reddit.com/r/IAmA/comments/1eir41/iama_filmmaker_for_vice_ben_anderson_ive_been/ca0mz4p/",
+        "http://www.reddit.com/r/IAmA/comments/439xd1/im_a_war_correspondent_ive_spent_lots_of_time_in/czgph2y/",
+        "http://www.reddit.com/r/IAmA/comments/439xd1/im_a_war_correspondent_ive_spent_lots_of_time_in/czgr9sa/"
+      ],
+      "entitySignal": false,
+      "countrySignal": true,
+      "hungarianSignal": false
     },
     {
       "title": "Björn Höcke",
@@ -106,7 +510,22 @@
       "language": "en",
       "query": "Hungarian school AF",
       "discoveredAt": "2026-09-30T06:04:35+00:00",
-      "status": "candidate"
+      "status": "rejected-low-signal",
+      "verificationCheckedAt": "2026-10-13T09:24:06+00:00",
+      "verificationScore": -2,
+      "firstPartyCandidates": [
+        "http://afd-thueringen.de/vorstand/",
+        "http://meedia.de/2017/03/23/ein-richtiger-loser-vorname-afd-politiker-bernd-hoecke-wird-zum-running-gag-der-medien/",
+        "http://www.augsburger-allgemeine.de/panorama/Bjoern-Hoecke-Bernd-Hoecke-Wie-heisst-der-Mann-denn-nun-id41247442.html",
+        "http://www.der-lokalanzeiger.de/index.php/articles/8996/fraktionsvorsitzender-der-af-d-bj",
+        "http://www.deutschlandfunk.de/politikwissenschaftler-funke-die-afd-hat-sich.694.de.html?dram:article_id=334837",
+        "http://www.dw.com/en/germanys-right-wing-afd-seeks-to-expel-state-leader-over-holocaust-remarks/a-37525199",
+        "http://www.focus.de/regional/erfurt/parteien-hoecke-sorgt-erneut-mit-aeusserungen-fuer-wirbel_id_4715382.html",
+        "http://www.mdr.de/thueringen/afd-hoecke-e-mail100.html"
+      ],
+      "entitySignal": false,
+      "countrySignal": false,
+      "hungarianSignal": false
     },
     {
       "title": "Bruce Willis-filmográfia",
@@ -115,7 +534,22 @@
       "language": "hu",
       "query": "magyar cserkész AF",
       "discoveredAt": "2026-09-30T06:04:35+00:00",
-      "status": "candidate"
+      "status": "rejected-low-signal",
+      "verificationCheckedAt": "2026-10-13T09:24:06+00:00",
+      "verificationScore": 3,
+      "firstPartyCandidates": [
+        "http://iszdb.hu/?szemely=1241&lap=munkassag",
+        "http://iszdb.hu/?szemely=1241/",
+        "http://www.boxofficemojo.com/people/?view=Actor&sort=sumgross&p=.htm",
+        "http://www.magyarszinkron.hu/?module=movies&action=showperson&mpid=2697&category=actor",
+        "http://www.origo.hu/teve/20070926-top-10-osszenott-szinkronhangok.html?pIdx=2",
+        "https://catalog.afi.com/Person/237990-Bruce-Willis?isMiscCredit=False",
+        "https://port.hu/pls/pe/person.person?i_pers_id=2665",
+        "https://web.archive.org/web/20160306081944/http://www.origo.hu/teve/20070926-top-10-osszenott-szinkronhangok.html?pIdx=2"
+      ],
+      "entitySignal": false,
+      "countrySignal": false,
+      "hungarianSignal": true
     },
     {
       "title": "Budapest I. kerülete",
@@ -124,8 +558,23 @@
       "language": "hu",
       "query": "magyar közösség AF",
       "discoveredAt": "2026-09-30T06:04:35+00:00",
-      "status": "candidate",
-      "lastSeenAt": "2026-09-30T06:04:35+00:00"
+      "status": "rejected-low-signal",
+      "lastSeenAt": "2026-09-30T06:04:35+00:00",
+      "verificationCheckedAt": "2026-10-13T09:24:06+00:00",
+      "verificationScore": 3,
+      "firstPartyCandidates": [
+        "http://budapestanno.5mp.eu/web.php?a=budapestanno&o=OdTJqzEydL",
+        "http://hvg.hu/itthon/20180117_Oxygen_Wellness_a_budai_elit_lubickol_a_keruleti_gyerekeknek_igert_tanmedenceben",
+        "http://mek.oszk.hu/11200/11251/index.phtml",
+        "http://net.jogtar.hu/jr/gen/hjegy_doc.cgi?rendelettar=fovaros&dbnum=104&docid=A1200094.FOV&cpxdocid=null&cpxdate=null&ev=null&szam=null&tipus=null&pr=null&fun=null&menubar=y&toolbar=y",
+        "http://www.budavar.hu/",
+        "http://www.egyker.blog.hu/",
+        "http://www2.budavar.hu/index.php?menu=15",
+        "https://adt.arcanum.com/hu/view/EstiHirlap_1993_11/?pg=80&layout=s"
+      ],
+      "entitySignal": false,
+      "countrySignal": false,
+      "hungarianSignal": true
     },
     {
       "title": "Budapest II. kerülete",
@@ -134,7 +583,22 @@
       "language": "hu",
       "query": "magyar iskola AF",
       "discoveredAt": "2026-09-30T06:04:35+00:00",
-      "status": "candidate"
+      "status": "rejected-low-signal",
+      "verificationCheckedAt": "2026-10-13T09:24:06+00:00",
+      "verificationScore": 1,
+      "firstPartyCandidates": [
+        "http://beszelo.c3.hu/cikkek/szena-ter-1956",
+        "http://egypar.blog.hu/",
+        "http://epa.oszk.hu/02000/02007/00035/pdf/EPA2007_bp_regisegei_32_1998_059-075.pdf",
+        "http://epa.oszk.hu/02100/02120/00016/pdf/ORSZ_BPTM_TBM_16_085.pdf",
+        "http://epa.oszk.hu/03100/03122/00031/pdf/EPA03122_rubicon_2018_11-12_120-121.pdf",
+        "http://lexikon.katolikus.hu/F/Fels%C5%91v%C3%ADziv%C3%A1rosi%20Szent%20Anna%20pl%C3%A9b%C3%A1nia.html",
+        "http://net.jogtar.hu/jr/gen/hjegy_doc.cgi?rendelettar=fovaros&dbnum=104&docid=A1200094.FOV&cpxdocid=null&cpxdate=null&ev=null&szam=null&tipus=null&pr=null&fun=null&menubar=y&toolbar=y",
+        "http://orszagutiferencesek.hu/plebania/templomtortenet/"
+      ],
+      "entitySignal": false,
+      "countrySignal": false,
+      "hungarianSignal": false
     },
     {
       "title": "Budapest III. kerülete",
@@ -143,8 +607,23 @@
       "language": "hu",
       "query": "magyar közösség AF",
       "discoveredAt": "2026-09-30T06:04:35+00:00",
-      "status": "candidate",
-      "lastSeenAt": "2026-09-30T06:04:35+00:00"
+      "status": "rejected-low-signal",
+      "lastSeenAt": "2026-09-30T06:04:35+00:00",
+      "verificationCheckedAt": "2026-10-13T09:24:06+00:00",
+      "verificationScore": 3,
+      "firstPartyCandidates": [
+        "http://net.jogtar.hu/jr/gen/hjegy_doc.cgi?rendelettar=fovaros&dbnum=104&docid=A1200094.FOV",
+        "http://obudai.blog.hu/",
+        "http://obudaianziksz.hu/",
+        "http://rendeletek.obuda.hu/wp-content/uploads/2010/12/egys%C3%A9ges-39-2007.pdf",
+        "http://www.asrgazgyar.fw.hu/",
+        "http://www.mtafki.hu/konyvtar/kiadv/FE1996/FE19961-2_73-99.pdf",
+        "http://www.obuda.hu/",
+        "https://archives.hungaricana.hu/hu/archontologia/38577/?query=DB%3DTANPART"
+      ],
+      "entitySignal": false,
+      "countrySignal": false,
+      "hungarianSignal": true
     },
     {
       "title": "Budapest V. kerülete",
@@ -153,8 +632,23 @@
       "language": "hu",
       "query": "magyar közösség AF",
       "discoveredAt": "2026-09-30T06:04:35+00:00",
-      "status": "candidate",
-      "lastSeenAt": "2026-09-30T06:04:35+00:00"
+      "status": "rejected-low-signal",
+      "lastSeenAt": "2026-09-30T06:04:35+00:00",
+      "verificationCheckedAt": "2026-10-13T09:24:06+00:00",
+      "verificationScore": 3,
+      "firstPartyCandidates": [
+        "http://muemlekem.hu/muemlek?&helyseg_nev=budapest+5",
+        "http://net.jogtar.hu/jr/gen/hjegy_doc.cgi?rendelettar=fovaros&dbnum=104&docid=A1200094.FOV",
+        "http://www.aranytiz.hu/",
+        "http://www.belvaros-lipotvaros.hu/",
+        "https://geohack.toolforge.org/geohack.php?language=hu&pagename=Budapest_V._ker%C3%BClete&params=47_30_N_19_3_E_region:HU_type:city",
+        "https://nepszamlalas2022.ksh.hu/adatbazis/#/table/WBS003/N4IgFgpghgJiBcBtEAVAogGQPoGUBaWAggCKEogC6ANCAM4CWMECy6ASgKrYDiaA8gFZKNWhADGAF3oB7AHYtUASQCyaLAAU0bRX2LCQAM3oAbCRABOtBKADW9WXHghlUAA4gaEWRPP0IVpFYtLixeQQ9be0cQHAgJDxAANyhjAFd_BQAGTKEKAF9qIOx8IlJyKkiHBBi4hOS0jKQQNjUAYQSWrDZ2mk7uHua2wg61DA4RrD4Bzta9XrUAKQmAOWH5rGW-csHJ2YTltFVcNAANSgKqVhU1TW1dCJA7KqdY-Jp69IDkACZM7-_zhR8nkgA===",
+        "https://nepszamlalas2022.ksh.hu/adatbazis/#/table/WBS003/N4IgFgpghgJiBcBtEAVAogGQPoGUBaWAggCKEogC6ANCAM4CWMECy6ASgKrYDiaA8gFZKNWhADGAF3oB7AHYtUASQCyaLAAU0bRX2LCQAM3oAbCRABOtBKADW9WXHghlUAA4gaEWRPP0IVpFYtLixeQQ9be0cQHAgJDxAANyhjAFd_BQAGTKEKAF9qVhU1TW1dCJA7BwQYuITktIykEAAmTIBGdsoCqiDsfCJScipI6qdY-JoG9IDkADk0VVw0AA0EgCE0biwACQ4Nrax1_ZpN7e5FA_O2K6wAYRvTw_U-W95bwkeQM9wMW44ANK3HBoW5sV5PbacYFAyFYCHfQ5zQi3PQ0ABifC-yPI-Qo-TyQA",
+        "https://nepszamlalas2022.ksh.hu/adatbazis/#/table/WBS003/N4IgFgpghgJiBcBtEAVAogGQPoGUBaWAggCKEogC6ANCAM4CWMECy6ASgKrYDiaA8gFZKNWhADGAF3oB7AHYtUASQCyaLAAU0bRX2LCQAM3oAbCRABOtBKADW9WXHghlUAA4gaEWRPP0IVpFYtLixeQQ9be0cQHAgJDxAANyhjAFd_BQAGTKEKAF9qVhU1TW1dCJA7BwQYuITktIykEAAmTIBGdsoCqiDsfCJScipI6qdY-JoG9IDkDEUcAGkumnmlloS1xYBmTYXFgBY9pdyC_LygA="
+      ],
+      "entitySignal": false,
+      "countrySignal": false,
+      "hungarianSignal": true
     },
     {
       "title": "Budapest VI. kerülete",
@@ -163,7 +657,22 @@
       "language": "hu",
       "query": "magyar közösség AF",
       "discoveredAt": "2026-09-30T06:04:35+00:00",
-      "status": "candidate"
+      "status": "rejected-low-signal",
+      "verificationCheckedAt": "2026-10-13T09:24:06+00:00",
+      "verificationScore": 3,
+      "firstPartyCandidates": [
+        "http://acta.bibl.u-szeged.hu/45264/1/juridpol_078_083-093.pdf",
+        "http://net.jogtar.hu/jr/gen/hjegy_doc.cgi?rendelettar=fovaros&dbnum=104&docid=A1200094.FOV",
+        "http://njt.hu/cgi_bin/njt_doc.cgi?docid=140968.248458",
+        "http://njt.hu/cgi_bin/njt_doc.cgi?docid=142940.283327",
+        "http://www.terezvaros.hu/",
+        "https://2010-2014.kormany.hu/hu/mo/onkormanyzatisag-magyarorszagon",
+        "https://geohack.toolforge.org/geohack.php?language=hu&pagename=Budapest_VI._ker%C3%BClete&params=47_30_34.8_N_19_4_11.4_E_region:HU_type:city",
+        "https://kozigazgatas.magyarorszag.hu/intezmenyek/450132"
+      ],
+      "entitySignal": false,
+      "countrySignal": false,
+      "hungarianSignal": true
     },
     {
       "title": "Budapest X. kerülete",
@@ -172,7 +681,22 @@
       "language": "hu",
       "query": "magyar iskola AF",
       "discoveredAt": "2026-09-30T06:04:35+00:00",
-      "status": "candidate"
+      "status": "rejected-low-signal",
+      "verificationCheckedAt": "2026-10-13T09:24:06+00:00",
+      "verificationScore": 6,
+      "firstPartyCandidates": [
+        "http://apps.arcanum.hu/budapest/a111126.htm?v=pdf&a=pdfdata&id=Budapest_1973&pg=0&lang=hun#pg=176&zoom=f&l=s",
+        "http://apps.arcanum.hu/budapest/a111126.htm?v=pdf&a=pdfdata&id=Budapest_1973&pg=0&lang=hun#pg=189&zoom=f&l=s",
+        "http://budapest-ostroma.hu/1945-januar-7-esemenyei/",
+        "http://kobanya.info/index.php?option=com_content&view=article&id=4020:kbanya-jaroslaw-ket-jo-barat&catid=42:kozelet&Itemid=84",
+        "http://net.jogtar.hu/jr/gen/hjegy_doc.cgi?rendelettar=fovaros&dbnum=104&docid=A1200094.FOV",
+        "http://pataky.hu/",
+        "http://www.epa.oszk.hu/00000/00003/00024/urban.html",
+        "http://www.imdb.com/name/nm0844435/"
+      ],
+      "entitySignal": true,
+      "countrySignal": false,
+      "hungarianSignal": true
     },
     {
       "title": "Budapest XII. kerülete",
@@ -181,7 +705,22 @@
       "language": "hu",
       "query": "magyar iskola AF",
       "discoveredAt": "2026-09-30T06:04:35+00:00",
-      "status": "candidate"
+      "status": "rejected-low-signal",
+      "verificationCheckedAt": "2026-10-13T09:24:06+00:00",
+      "verificationScore": 3,
+      "firstPartyCandidates": [
+        "http://muemlekem.hu/muemlek?helyseg_nev=Budapest%2012",
+        "http://net.jogtar.hu/jr/gen/hjegy_doc.cgi?rendelettar=fovaros&dbnum=104&docid=A1200094.FOV",
+        "http://www.hegyvidek.hu/",
+        "https://geohack.toolforge.org/geohack.php?language=hu&pagename=Budapest_XII._ker%C3%BClete&params=47.5;19_region:HU_type:city",
+        "https://hegyvidek.hu/",
+        "https://hegyvidek.lap.hu/",
+        "https://hegyvidekujsag.hu/",
+        "https://nepszamlalas2022.ksh.hu/adatbazis/#/table/WBS003/N4IgFgpghgJiBcBtEAVAogGQPoGUBaWAggCKEogC6ANCAM4CWMECy6ASgKrYDiaA8gFZKNWhADGAF3oB7AHYtUASQCyaLAAU0bRX2LCQAM3oAbCRABOtBKADW9WXHghlUAA4gaEWRPP0IVpFYtLixeQQ9be0cQHAgJDxAANyhjAFd_BQAGAEYAJkoAX2pWFTVNbV0IkDsHBBi4hOS0jKQQXJzswuLUTFwCEjIqmujY-Jom9IDkADk0VVw0AA0EgCE0biwACQ5V9aw9GjWNlZ3Dve42XY3uRSusAGFLs431PjveO8InkCOsNjfnn9Tj89jg0HccABpCEYO4caGAgEgABifEuFCKGIKQA="
+      ],
+      "entitySignal": false,
+      "countrySignal": false,
+      "hungarianSignal": true
     },
     {
       "title": "Budapest XIII. kerülete",
@@ -190,7 +729,70 @@
       "language": "hu",
       "query": "magyar cserkész AF",
       "discoveredAt": "2026-09-30T06:04:35+00:00",
-      "status": "candidate"
+      "status": "rejected-low-signal",
+      "verificationCheckedAt": "2026-10-13T09:24:06+00:00",
+      "verificationScore": 3,
+      "firstPartyCandidates": [
+        "http://cspv.hu/09/11/kossuth_mozi/",
+        "http://darena.hu/index.php/arena/",
+        "http://epiteszforum.hu/bontjak-az-egykori-kisz-szekhazat",
+        "http://epiteszforum.hu/node/534",
+        "http://fovaros.katasztrofavedelem.hu/index.php?pageid=kerulet_mutat&ker=13",
+        "http://mek.oszk.hu/06400/06422/html/top_megye/megye5.htm",
+        "http://net.jogtar.hu/jr/gen/hjegy_doc.cgi?rendelettar=fovaros&dbnum=104&docid=A1200094.FOV",
+        "http://nol.hu/archivum/archiv-388554"
+      ],
+      "entitySignal": false,
+      "countrySignal": false,
+      "hungarianSignal": true
+    },
+    {
+      "title": "Catholic Church in Hungary",
+      "url": "https://en.wikipedia.org/wiki/Catholic_Church_in_Hungary",
+      "sourceType": "wikipedia-discovery",
+      "language": "en",
+      "query": "\"Afghanistan\" Hungarian church",
+      "discoveredAt": "2026-10-13T09:23:48+00:00",
+      "status": "rejected-low-signal",
+      "verificationCheckedAt": "2026-10-13T09:24:06+00:00",
+      "verificationScore": 6,
+      "firstPartyCandidates": [
+        "http://www.damian-hungs.de/geistliches/ostkirchen/griechisch-katholische-kirche-in-ungarn/",
+        "https://ec.europa.eu/commfrontoffice/publicopinion/index.cfm/Survey/getSurveyDetail/instruments/SPECIAL/surveyKy/2251",
+        "https://geohack.toolforge.org/geohack.php?pagename=Catholic_Church_in_Hungary&params=47.5107_N_19.0797_E_source:wikidata",
+        "https://katolikus.hu/en",
+        "https://search.worldcat.org/issn/0362-4331",
+        "https://www.nytimes.com/2025/04/21/world/europe/next-pope-francis-candidates.html",
+        "https://www.nytimes.com/2025/05/06/us/conclave-pope-conservative-catholics.html",
+        "https://www.theguardian.com/world/2025/apr/21/who-next-pope-francis-potential-candidates-succeed"
+      ],
+      "entitySignal": true,
+      "countrySignal": false,
+      "hungarianSignal": true
+    },
+    {
+      "title": "Catholic Church in Serbia",
+      "url": "https://en.wikipedia.org/wiki/Catholic_Church_in_Serbia",
+      "sourceType": "wikipedia-discovery",
+      "language": "en",
+      "query": "\"Afghanistan\" Hungarian church",
+      "discoveredAt": "2026-10-13T09:23:48+00:00",
+      "status": "rejected-low-signal",
+      "verificationCheckedAt": "2026-10-13T09:24:06+00:00",
+      "verificationScore": 6,
+      "firstPartyCandidates": [
+        "http://ceicem.org/",
+        "http://kbk.rs/",
+        "http://kc.org.rs/",
+        "http://licodu.cois.it/?p=4105&lang=en",
+        "http://radiomarija.rs/",
+        "https://books.google.com/books?id=2Wc-DWRzoeIC",
+        "https://books.google.com/books?id=7F3yDwAAQBAJ&pg=PT209",
+        "https://books.google.com/books?id=JF6LDwAAQBAJ&pg=PA155"
+      ],
+      "entitySignal": true,
+      "countrySignal": false,
+      "hungarianSignal": true
     },
     {
       "title": "Chat",
@@ -199,7 +801,21 @@
       "language": "hu",
       "query": "magyar közösség AF",
       "discoveredAt": "2026-09-30T06:04:35+00:00",
-      "status": "candidate"
+      "status": "rejected-low-signal",
+      "verificationCheckedAt": "2026-10-13T09:24:06+00:00",
+      "verificationScore": 1,
+      "firstPartyCandidates": [
+        "http://download.live.com/?sku=messenger",
+        "http://messenger.yahoo.com/",
+        "https://aleph.nkp.cz/F/?func=find-c&local_base=aut&ccl_term=ica=ph195825&CON_LNG=ENG",
+        "https://d-nb.info/gnd/4500079-7",
+        "https://id.ndl.go.jp/auth/ndlna/01190266",
+        "https://web.archive.org/web/20180718010747/http://messenger.yahoo.com/",
+        "https://www.messenger.com/"
+      ],
+      "entitySignal": false,
+      "countrySignal": false,
+      "hungarianSignal": false
     },
     {
       "title": "Christianity in Denmark",
@@ -208,8 +824,71 @@
       "language": "en",
       "query": "Hungarian community AF",
       "discoveredAt": "2026-09-30T06:04:35+00:00",
-      "status": "candidate",
-      "lastSeenAt": "2026-09-30T06:04:35+00:00"
+      "status": "rejected-low-signal",
+      "lastSeenAt": "2026-09-30T06:04:35+00:00",
+      "verificationCheckedAt": "2026-10-13T09:24:06+00:00",
+      "verificationScore": 1,
+      "firstPartyCandidates": [
+        "http://www.bwanet.org/about-us2/statistics#e",
+        "http://www.dst.dk/Site/Dst/Udgivelser/GetPubFile.aspx?id=19603&sid=folkt1",
+        "http://www.dst.dk/Site/Dst/Udgivelser/GetPubFile.aspx?id=19606&sid=hovedr1890",
+        "http://www.dst.dk/pukora/epub/Nyt/2002/NR226.pdf",
+        "http://www.dst.dk/pukora/epub/Nyt/2013/NR103.pdf",
+        "http://www.episcopiascandinavia.se/episcopia/istoric//",
+        "http://www.gallup.com/poll/13117/religion-europe-trust-filling-pews.aspx",
+        "http://www.katolsk.dk/1635/"
+      ],
+      "entitySignal": true,
+      "countrySignal": false,
+      "hungarianSignal": false
+    },
+    {
+      "title": "Constitution Protection Office",
+      "url": "https://en.wikipedia.org/wiki/Constitution_Protection_Office",
+      "sourceType": "wikipedia-discovery",
+      "language": "en",
+      "query": "\"Afghanistan\" Hungarian community",
+      "discoveredAt": "2026-10-13T09:23:48+00:00",
+      "status": "rejected-low-signal",
+      "verificationCheckedAt": "2026-10-13T09:24:06+00:00",
+      "verificationScore": 3,
+      "firstPartyCandidates": [
+        "http://www.tol.org/client/article/25103-hungarian-mep-spying-for-russia-may-lose-immunity.html",
+        "https://ah.gov.hu/",
+        "https://geohack.toolforge.org/geohack.php?pagename=Constitution_Protection_Office&params=47_27_59_N_19_02_41_E_type:landmark_region:HU",
+        "https://scholar.google.com/scholar?q=%22Constitution+Protection+Office%22",
+        "https://www.google.com/search?&q=%22Constitution+Protection+Office%22&tbs=bkt:s&tbm=bks",
+        "https://www.google.com/search?as_eq=wikipedia&q=%22Constitution+Protection+Office%22",
+        "https://www.google.com/search?tbm=nws&q=%22Constitution+Protection+Office%22+-wikipedia&tbs=ar:1",
+        "https://www.google.com/search?tbs=bks:1&q=%22Constitution+Protection+Office%22+-wikipedia"
+      ],
+      "entitySignal": true,
+      "countrySignal": false,
+      "hungarianSignal": true
+    },
+    {
+      "title": "Cserkészmozgalom Világszervezete",
+      "url": "https://hu.wikipedia.org/wiki/Cserk%C3%A9szmozgalom_Vil%C3%A1gszervezete",
+      "sourceType": "wikipedia-discovery",
+      "language": "hu",
+      "query": "\"Afghanistan\" magyar cserkész",
+      "discoveredAt": "2026-10-13T09:23:48+00:00",
+      "status": "rejected-low-signal",
+      "verificationCheckedAt": "2026-10-13T09:24:06+00:00",
+      "verificationScore": 4,
+      "firstPartyCandidates": [
+        "http://arquivo.pt/wayback/20090629035914/http://www.scout.org/en/about_scouting/mission_vision",
+        "http://catalogo.bne.es/uhtbin/authoritybrowse.cgi?action=display&authority_id=XX116905",
+        "http://lccn.loc.gov/n81101306",
+        "http://scout.org/",
+        "http://scout.org/en/our_organisation/governance/world_bureau/secretary_general/laszlo_nagy",
+        "http://scout.org/sites/default/files/library_files/WOSM_Constitution_EN.pdf",
+        "http://www.scout.org/",
+        "http://www.scout.org/en/about_scouting/mission_vision"
+      ],
+      "entitySignal": true,
+      "countrySignal": false,
+      "hungarianSignal": false
     },
     {
       "title": "Csifó Dorina",
@@ -218,7 +897,22 @@
       "language": "hu",
       "query": "magyar cserkész AF",
       "discoveredAt": "2026-09-30T06:04:35+00:00",
-      "status": "candidate"
+      "status": "rejected-low-signal",
+      "verificationCheckedAt": "2026-10-13T09:24:06+00:00",
+      "verificationScore": 3,
+      "firstPartyCandidates": [
+        "http://iszdb.hu/?szemely=1906",
+        "http://www.blikk.hu/blikk_sztarvilag/csifo-dorina-megjott-a-baba-2113079",
+        "http://www.blikk.hu/blikk_sztarvilag/ferjhez-ment-csifo-dorina-2064358",
+        "http://www.blikk.hu/blikk_sztarvilag/valasa-napjan-vesztette-el-apjat-csifodorina-2384073",
+        "http://www.borsonline.hu/20080625_csifo_dorina_zenekart_alapitott",
+        "http://www.magyarszinkron.hu/?module=movies&action=showperson&mpid=623&category=szineszno",
+        "http://www.szinhaziadattar.hu/",
+        "https://femina.hu/hazai_sztar/csifo-dorina-szinkron/"
+      ],
+      "entitySignal": false,
+      "countrySignal": false,
+      "hungarianSignal": true
     },
     {
       "title": "David Sakurai",
@@ -227,7 +921,22 @@
       "language": "en",
       "query": "Hungarian association AF",
       "discoveredAt": "2026-09-30T06:04:35+00:00",
-      "status": "candidate"
+      "status": "rejected-low-signal",
+      "verificationCheckedAt": "2026-10-13T09:24:06+00:00",
+      "verificationScore": -2,
+      "firstPartyCandidates": [
+        "http://homemadeasia.hu/interju-david-sakurai-liza-a-rokatunder/",
+        "http://hvg.hu/kultura/20150309_Nemzetkozi_fodijat_nyert_a_Liza_a_rokatun",
+        "http://www.asiansonfilm.com/2012/09/david-sakurai-interview-part-1-through-darkness-last-demon-slayer-eastern-army-dark-samurai/",
+        "http://www.asiansonfilm.com/2012/09/david-sakurai-interview-part-2-liza-the-fox-fairy/",
+        "http://www.cineuropa.org/nw.aspx?t=newsdetail&l=en&did=287789",
+        "http://www.dfi.dk/faktaomfilm/film/en/89582.aspx?id=89582",
+        "http://www.dfi.dk/faktaomfilm/film/en/89583.aspx?id=89583",
+        "http://www.dfi.dk/faktaomfilm/person/en/183409.aspx?id=183409"
+      ],
+      "entitySignal": false,
+      "countrySignal": false,
+      "hungarianSignal": false
     },
     {
       "title": "Deaths in 2026",
@@ -236,8 +945,48 @@
       "language": "en",
       "query": "Hungarian community AF",
       "discoveredAt": "2026-09-30T06:04:35+00:00",
-      "status": "candidate",
-      "lastSeenAt": "2026-09-30T06:04:35+00:00"
+      "status": "rejected-low-signal",
+      "lastSeenAt": "2026-09-30T06:04:35+00:00",
+      "verificationCheckedAt": "2026-10-13T09:24:06+00:00",
+      "verificationScore": 1,
+      "firstPartyCandidates": [
+        "http://www.croatiaweek.com/goran-bare-croatian-rock-singer-dies-aged-61/",
+        "http://www.news.cn/politics/20261008/3e562c618ec5437e9572a0bf79540167/c.html",
+        "https://7info.ru/russia/narodnyj-hudozhnik-rossii-shalva-bedoev-umer-v-masterskoj-v-moskve/",
+        "https://actualite.cd/2026/10/05/rdc-kalev-mutond-ancien-patron-des-renseignements-et-homme-de-confiance-de-joseph-kabila",
+        "https://aif.ru/sport/paralimpiyskiy-chempion-musa-taymazov-umer-v-42-goda",
+        "https://amu.tv/253884/",
+        "https://anticapitalistresistance.org/alan-thornett-1937-2026-a-working-class-leader-who-faced-the-apocalypse/",
+        "https://balkaninsight.com/2026/10/01/bosnian-serb-wartime-leader-biljana-plavsic-dies-aged-96/bi/"
+      ],
+      "entitySignal": false,
+      "countrySignal": false,
+      "hungarianSignal": false
+    },
+    {
+      "title": "Donald L. Ritter",
+      "url": "https://en.wikipedia.org/wiki/Donald_L._Ritter",
+      "sourceType": "wikipedia-discovery",
+      "language": "en",
+      "query": "\"Afghanistan\" Hungarian community",
+      "discoveredAt": "2026-10-13T09:23:48+00:00",
+      "status": "rejected-low-signal",
+      "lastSeenAt": "2026-10-13T09:23:48+00:00",
+      "verificationCheckedAt": "2026-10-13T09:24:06+00:00",
+      "verificationScore": -2,
+      "firstPartyCandidates": [
+        "http://articles.mcall.com/1998-07-05/news/3218322_1_ritter-universities-voting",
+        "http://bioguide.congress.gov/scripts/biodisplay.pl?index=R000277",
+        "http://donritter.org/",
+        "http://www.afghanistan-foundation.org/",
+        "https://d-nb.info/gnd/1351279815",
+        "https://web.archive.org/web/20140221204657/http://articles.mcall.com/1998-07-05/news/3218322_1_ritter-universities-voting",
+        "https://web.archive.org/web/20140611052934/http://www.highbeam.com/doc/1G1-119454233.html",
+        "https://web.archive.org/web/20190130025844/http://afghanistan-foundation.org/"
+      ],
+      "entitySignal": false,
+      "countrySignal": false,
+      "hungarianSignal": false
     },
     {
       "title": "Ellenállás (film)",
@@ -246,7 +995,70 @@
       "language": "hu",
       "query": "magyar cserkész AF",
       "discoveredAt": "2026-09-30T06:04:35+00:00",
-      "status": "candidate"
+      "status": "rejected-low-signal",
+      "verificationCheckedAt": "2026-10-13T09:24:06+00:00",
+      "verificationScore": 1,
+      "firstPartyCandidates": [
+        "http://www.iszdb.hu/?audio=36748/",
+        "https://deadline.com/2017/05/jesse-eisenberg-to-play-marcel-marceau-in-resistance-1202097379/",
+        "https://deadline.com/2018/10/ed-harris-edgar-ramirez-clemence-poesy-jesse-eisenberg-resistance-marcel-marceau-afm-1202491944/",
+        "https://deadline.com/2019/11/jesse-eisenberg-ww2-pic-resistance-lands-ifc-1202782111/",
+        "https://deadline.com/2020/03/resistance-ifc-films-tape-full-moon-films-music-box-films-kino-lorber-1202893250/",
+        "https://forward.com/culture/442444/introducing-marcel-marceau-resistance-fighter-starring-jesse-eisenberg/",
+        "https://port.hu/jump/movie-219870",
+        "https://wikidata-externalid-url.toolforge.org/?p=345&url_prefix=https://www.imdb.com/&id=tt6914122"
+      ],
+      "entitySignal": false,
+      "countrySignal": false,
+      "hungarianSignal": false
+    },
+    {
+      "title": "Enduring Freedom hadművelet",
+      "url": "https://hu.wikipedia.org/wiki/Enduring_Freedom_hadm%C5%B1velet",
+      "sourceType": "wikipedia-discovery",
+      "language": "hu",
+      "query": "\"Afghanistan\" magyar egyesület",
+      "discoveredAt": "2026-10-13T09:23:48+00:00",
+      "status": "rejected-low-signal",
+      "verificationCheckedAt": "2026-10-13T09:24:06+00:00",
+      "verificationScore": 1,
+      "firstPartyCandidates": [
+        "http://english.peopledaily.com.cn/90001/90777/90851/6979612.html",
+        "http://icasualties.org/oef/",
+        "http://lccn.loc.gov/sh2009009638",
+        "http://www.defenselink.mil/news/casualty.pdf",
+        "http://www.dol.gov/owcp/dlhwc/dbaallnation.htm",
+        "http://www.fas.org/sgp/crs/natsec/RL33110.pdf",
+        "http://www.mod.uk/DefenceInternet/AboutDefence/CorporatePublications/DoctrineOperationsandDiplomacyPublications/OperationsInAfghanistan/OpHerrickCasualtyAndFatalityTables.htm",
+        "http://www.mod.uk/NR/rdonlyres/03645441-065E-4E0A-9F62-B8AEBDAC8151/0/opherrickcasualtytablesto15june2010.pdf"
+      ],
+      "entitySignal": false,
+      "countrySignal": false,
+      "hungarianSignal": false
+    },
+    {
+      "title": "Essential Killing",
+      "url": "https://en.wikipedia.org/wiki/Essential_Killing",
+      "sourceType": "wikipedia-discovery",
+      "language": "en",
+      "query": "\"Afghanistan\" Hungarian association",
+      "discoveredAt": "2026-10-13T09:23:48+00:00",
+      "status": "rejected-low-signal",
+      "verificationCheckedAt": "2026-10-13T09:24:06+00:00",
+      "verificationScore": -2,
+      "firstPartyCandidates": [
+        "http://moviecitynews.com/2011/01/essential-killing-director-jerzy-skolimowski/",
+        "http://wiadomosci.gazeta.pl/Wiadomosci/1,80276,8413082,Nie_interesuje_mnie_polityka.html",
+        "http://www.essentialkilling.com/",
+        "http://www.filmneweurope.com/news/poland/fne-venice-iff-2010-interview-with-jerzy-skolimowski",
+        "http://www.iofilm.co.uk/awards/essential-killing-takes-triple-at-venice",
+        "http://www.list.co.uk/article/33344-polish-director-writer-and-actor-jerzy-skolimowski-on-new-film-essential-killing/",
+        "http://www.nannimagazine.it/articolo/5587/-Essential-killing--intervista-a-Jerzy-Skolimowski",
+        "http://www.rtl.be/loisirs/cinema/news/20802/-the-artist-recoit-le-grand-prix-de-l-union-de-la-critique-de-cinema"
+      ],
+      "entitySignal": false,
+      "countrySignal": false,
+      "hungarianSignal": false
     },
     {
       "title": "Europe of Sovereign Nations Group",
@@ -255,7 +1067,22 @@
       "language": "en",
       "query": "Hungarian association AF",
       "discoveredAt": "2026-09-30T06:04:35+00:00",
-      "status": "candidate"
+      "status": "rejected-low-signal",
+      "verificationCheckedAt": "2026-10-13T09:24:06+00:00",
+      "verificationScore": -2,
+      "firstPartyCandidates": [
+        "https://agendapublica.es/noticia/19594/ultraderecha-ue-integracion-inmigracion-transicion-meloni-orban",
+        "https://d-nb.info/gnd/1337109096",
+        "https://dennikn.sk/4110488/mazurek-vysvetluje-odmietnutie-od-frakcie-extremistov-na-google-su-moje-fotky-bez-vlasov-a-obvinenia-ze-popieram-holokaust/",
+        "https://esn-group.eu/",
+        "https://europeelects.eu/european-union/",
+        "https://notesfrompoland.com/2024/07/10/split-in-polish-far-right-confederation-as-half-its-meps-join-germanys-afd-in-new-eu-grouping/",
+        "https://perspektive-online.net/2024/07/gegen-das-establishment-wie-die-afd-ihr-buergerliches-profil-schaerft/",
+        "https://rmx.news/article/confederation-mep-rules-out-alliance-with-germanys-afd-eyes-other-european-groups/"
+      ],
+      "entitySignal": false,
+      "countrySignal": false,
+      "hungarianSignal": false
     },
     {
       "title": "Fidesz",
@@ -264,8 +1091,47 @@
       "language": "en",
       "query": "Hungarian association AF",
       "discoveredAt": "2026-09-30T06:04:35+00:00",
-      "status": "candidate",
-      "lastSeenAt": "2026-09-30T06:04:35+00:00"
+      "status": "rejected-low-signal",
+      "lastSeenAt": "2026-09-30T06:04:35+00:00",
+      "verificationCheckedAt": "2026-10-13T09:24:06+00:00",
+      "verificationScore": 0,
+      "firstPartyCandidates": [
+        "http://edition.cnn.com/WORLD/europe/9904/30/hungary.concerns/",
+        "http://esbalogh.typepad.com/hungarianspectrum/2011/12/the-end-of-the-independent-judiciary.html",
+        "http://fenteslent.blog.hu/2013/12/05/hegedus_zsuzsa_orban_igazi_szocialdemokrata",
+        "http://ferenckumin.tumblr.com/post/63454622999/council-of-europes-jagland-hungarians-have-gone-a",
+        "http://hungary.usembassy.gov/kounalakis12082011.html",
+        "http://index.hu/belfold/2015/04/12/idokozi_valasztas_ajka_sumeg_tapolca_parlament/",
+        "http://index.hu/politika/belfold/kernt8094/",
+        "http://lapa.princeton.edu/hosteddocs/hungary/venice%20commission%20hungarian%20constitution.pdf"
+      ],
+      "entitySignal": false,
+      "countrySignal": false,
+      "hungarianSignal": true
+    },
+    {
+      "title": "France–Hungary relations",
+      "url": "https://en.wikipedia.org/wiki/France%E2%80%93Hungary_relations",
+      "sourceType": "wikipedia-discovery",
+      "language": "en",
+      "query": "\"Afghanistan\" Hungarian school",
+      "discoveredAt": "2026-10-13T09:23:48+00:00",
+      "status": "rejected-low-signal",
+      "verificationCheckedAt": "2026-10-13T09:24:06+00:00",
+      "verificationScore": 1,
+      "firstPartyCandidates": [
+        "http://www.ambafrance-hu.org/",
+        "http://www.diplomatie.gouv.fr/en/country-files_156/hungary_337/index.html",
+        "http://www.mfa.gov.hu/kulkepviselet/FR/fr",
+        "https://hu.ambafrance.org/",
+        "https://parizs.mfa.gov.hu/fra",
+        "https://web.archive.org/web/20081201215506/http://www.diplomatie.gouv.fr/en/country-files_156/hungary_337/index.html",
+        "https://web.archive.org/web/20110614222016/http://www.mfa.gov.hu/kulkepviselet/FR/fr",
+        "https://web.archive.org/web/20110623164005/http://ambafrance-hu.org/"
+      ],
+      "entitySignal": false,
+      "countrySignal": false,
+      "hungarianSignal": false
     },
     {
       "title": "Franz Joseph I",
@@ -274,7 +1140,22 @@
       "language": "en",
       "query": "Hungarian church AF",
       "discoveredAt": "2026-09-30T06:04:35+00:00",
-      "status": "candidate"
+      "status": "rejected-low-signal",
+      "verificationCheckedAt": "2026-10-13T09:24:06+00:00",
+      "verificationScore": 3,
+      "firstPartyCandidates": [
+        "http://alex.onb.ac.at/cgi-content/alex?aid=shb&datum=1856&size=45&page=132",
+        "http://alex.onb.ac.at/cgi-content/alex?aid=shb&datum=1856&size=45&page=133",
+        "http://alex.onb.ac.at/cgi-content/alex?aid=shb&datum=1856&size=45&page=135",
+        "http://alex.onb.ac.at/cgi-content/alex?aid=shb&datum=1856&size=45&page=137",
+        "http://alex.onb.ac.at/cgi-content/alex?aid=shb&datum=1856&size=45&page=147",
+        "http://cdnc.ucr.edu/cgi-bin/cdnc?a=d&d=SN19161125.2.74#",
+        "http://data.bibliotheken.nl/id/thes/p073500518",
+        "http://digital.library.upenn.edu/women/yonge/deeds/crown.html"
+      ],
+      "entitySignal": false,
+      "countrySignal": false,
+      "hungarianSignal": true
     },
     {
       "title": "HBO",
@@ -283,7 +1164,22 @@
       "language": "hu",
       "query": "magyar cserkész AF",
       "discoveredAt": "2026-09-30T06:04:35+00:00",
-      "status": "candidate"
+      "status": "rejected-low-signal",
+      "verificationCheckedAt": "2026-10-13T09:24:06+00:00",
+      "verificationScore": 3,
+      "firstPartyCandidates": [
+        "http://forum.index.hu/Article/viewArticle?a=142004884&t=9028317",
+        "http://hbo.com/",
+        "http://hbo.hu/",
+        "http://hbo.hu/AboutHBO.aspx/",
+        "http://lccn.loc.gov/n82062309",
+        "http://sorozatjunkie.hu/2007/09/01/magyar-csatornak-nezettsege/",
+        "http://tv.abbcenter.com/?m=K%E1beltelev%EDzi%F3k&al=HBO&PHPSESSID=247f0d2332b0761d63fdc9f8413210bd",
+        "http://tv.animare.hu/tvmusor.aspx?id=71964954afd12d492d89b7644531447690"
+      ],
+      "entitySignal": false,
+      "countrySignal": false,
+      "hungarianSignal": true
     },
     {
       "title": "Homofil mozgalom",
@@ -292,7 +1188,20 @@
       "language": "hu",
       "query": "magyar közösség AF",
       "discoveredAt": "2026-09-30T06:04:35+00:00",
-      "status": "candidate"
+      "status": "rejected-low-signal",
+      "verificationCheckedAt": "2026-10-13T09:24:06+00:00",
+      "verificationScore": 1,
+      "firstPartyCandidates": [
+        "http://www.coc.nl/",
+        "http://www.h-france.net/rude/2005conference/Sibalis2.pdf",
+        "http://www.tyleralpern.com/mattachine.html",
+        "https://web.archive.org/web/20070217194851/http://www.glbtq.com/social-sciences/mattachine_society.html",
+        "https://web.archive.org/web/20071215142508/http://www.archiveshomo.info/arcadie/000-arcadie.htm",
+        "https://web.archive.org/web/20110629110236/http://www.glbtq.com/social-sciences/daughters_bilitis.html"
+      ],
+      "entitySignal": false,
+      "countrySignal": false,
+      "hungarianSignal": false
     },
     {
       "title": "Hungarian Air Force",
@@ -301,7 +1210,114 @@
       "language": "en",
       "query": "Hungarian school AF",
       "discoveredAt": "2026-09-30T06:04:35+00:00",
-      "status": "candidate"
+      "status": "rejected-low-signal",
+      "verificationCheckedAt": "2026-10-13T09:24:06+00:00",
+      "verificationScore": 3,
+      "firstPartyCandidates": [
+        "http://airheadsfly.com/2014/04/26/hungarian-gripens-get-cas-role/",
+        "http://azelfeledettlegiero.hu/majdnem-bombazok-magyarorszag-egen-az-il-28-hazai-alkalmazasa/",
+        "http://flagspot.net/flags/hu-air.html",
+        "http://home.mit.bme.hu/~tade/pages/hungavia.htm",
+        "http://horac.fw.hu/bemutatkozas.php",
+        "http://legiero.blog.hu/2008/11/20/maverick_1",
+        "http://real.mtak.hu/134002/1/10_horvath-szilvassy_129-141_RTK_2021_2.pdf",
+        "http://szenzorkft.hu/public/files/documents/a_gripen_projekt.pdf"
+      ],
+      "entitySignal": false,
+      "countrySignal": false,
+      "hungarianSignal": true
+    },
+    {
+      "title": "Hungarian Cricket Association",
+      "url": "https://en.wikipedia.org/wiki/Hungarian_Cricket_Association",
+      "sourceType": "wikipedia-discovery",
+      "language": "en",
+      "query": "\"Afghanistan\" Hungarian association",
+      "discoveredAt": "2026-10-13T09:23:48+00:00",
+      "status": "rejected-low-signal",
+      "verificationCheckedAt": "2026-10-13T09:24:06+00:00",
+      "verificationScore": 6,
+      "firstPartyCandidates": [
+        "http://icc-cricket.yahoo.net/newsdetails.php?newsId=20711_1340883300",
+        "https://web.archive.org/web/20120629083244/http://icc-cricket.yahoo.net/newsdetails.php?newsId=20711_1340883300",
+        "https://web.archive.org/web/20140207225320/http://hungary4cricket.com/en",
+        "https://www.icc-cricket.com/news/422449"
+      ],
+      "entitySignal": true,
+      "countrySignal": false,
+      "hungarianSignal": true
+    },
+    {
+      "title": "Hungarian passport",
+      "url": "https://en.wikipedia.org/wiki/Hungarian_passport",
+      "sourceType": "wikipedia-discovery",
+      "language": "en",
+      "query": "\"Afghanistan\" Hungarian community",
+      "discoveredAt": "2026-10-13T09:23:48+00:00",
+      "status": "rejected-low-signal",
+      "verificationCheckedAt": "2026-10-13T09:24:06+00:00",
+      "verificationScore": 3,
+      "firstPartyCandidates": [
+        "http://kekkh.gov.hu/hu/utlevel#koltsegek",
+        "http://nl.newsbank.com/nl-search/we/Archives?p_product=NewsLibrary&p_multi=BBAB&d_place=BBAB&p_theme=newslibrary2&p_action=search&p_maxdocs=200&p_topdoc=1&p_text_direct-0=0F97A25C1AC7AA8C&p_field_direct-0=document_id&p_perpage=10&p_sort=YMD_date:D&s_trackval=GooglePM",
+        "http://nl.newsbank.com/nl-search/we/Archives?p_product=NewsLibrary&p_multi=BBAB&d_place=BBAB&p_theme=newslibrary2&p_action=search&p_maxdocs=200&p_topdoc=1&p_text_direct-0=0FEA95072B8B721C&p_field_direct-0=document_id&p_perpage=10&p_sort=YMD_date:D&s_trackval=GooglePM",
+        "http://prado.consilium.europa.eu/en/2992/viewImage_70491.html",
+        "http://www.consilium.europa.eu/prado/EN/categories/HUN/A/resultByCountryCategory.html",
+        "http://www.consilium.europa.eu/prado/en/HUN-AO-02001/index.html",
+        "http://www.consilium.europa.eu/prado/en/HUN-AO-03001/index.html",
+        "http://www.mfa.gov.hu/kum/en/bal/consular_services/Entry_of_Foreigners_to_Hungary/visa_exemption/visa_waiver_agreements.htm"
+      ],
+      "entitySignal": false,
+      "countrySignal": false,
+      "hungarianSignal": true
+    },
+    {
+      "title": "Hungary–India relations",
+      "url": "https://en.wikipedia.org/wiki/Hungary%E2%80%93India_relations",
+      "sourceType": "wikipedia-discovery",
+      "language": "en",
+      "query": "\"Afghanistan\" Hungarian association",
+      "discoveredAt": "2026-10-13T09:23:48+00:00",
+      "status": "rejected-low-signal",
+      "verificationCheckedAt": "2026-10-13T09:24:06+00:00",
+      "verificationScore": 1,
+      "firstPartyCandidates": [
+        "http://www.indianembassy.hu/",
+        "http://www.mfa.gov.hu/kulkepviselet/IN/en/",
+        "http://www.travelbizmonitor.com/Outbound-News/consulate-general-of-hungary-to-open-in-mumbai-on-dec-1-2014-25941",
+        "http://zeenews.india.com/news/nation/india-hungary-can-be-each-others-bridge-to-asia-europe_883979.html",
+        "https://akadalymentes.2015-2019.kormany.hu/en/ministry-of-foreign-affairs-and-trade/news/indian-companies-to-create-one-thousand-new-jobs-in-hungary",
+        "https://web.archive.org/web/20171206030525/http://www.mfa.gov.hu/kulkepviselet/IN/en",
+        "https://web.archive.org/web/20180112042641/http://www.indianembassy.hu/",
+        "https://web.archive.org/web/20180628124750/http://www.travelbizmonitor.com/Outbound-News/consulate-general-of-hungary-to-open-in-mumbai-on-dec-1-2014-25941"
+      ],
+      "entitySignal": false,
+      "countrySignal": false,
+      "hungarianSignal": false
+    },
+    {
+      "title": "Hungary–Pakistan relations",
+      "url": "https://en.wikipedia.org/wiki/Hungary%E2%80%93Pakistan_relations",
+      "sourceType": "wikipedia-discovery",
+      "language": "en",
+      "query": "\"Afghanistan\" Hungarian association",
+      "discoveredAt": "2026-10-13T09:23:48+00:00",
+      "status": "rejected-low-signal",
+      "verificationCheckedAt": "2026-10-13T09:24:06+00:00",
+      "verificationScore": 1,
+      "firstPartyCandidates": [
+        "http://www.bbj.hu/economy/hungary-wants-closer-relations-with-pakistan_65038",
+        "http://www.mol.hu/en/about_mol/social_investments/our_cooperations/environment_and_health/former_cooperations/sri_lanka_pakisztan/",
+        "http://www.pakissan.com/english/news/newsDetail.php?newsid=24894",
+        "http://www.paktribune.com/news/print.php?id=162071",
+        "https://iszlamabad.mfa.gov.hu/eng",
+        "https://iszlamabad.mfa.gov.hu/eng/page/nagykoeveti-koeszoento",
+        "https://molpakistan.pk/images/molpakistan/pdf/media_and_career_centre/media_room/publications/panorama%2019.pdf",
+        "https://web.archive.org/web/20111103235528/http://www.pakistanembassy.hu/"
+      ],
+      "entitySignal": false,
+      "countrySignal": false,
+      "hungarianSignal": false
     },
     {
       "title": "I. Berengár itáliai király",
@@ -310,7 +1326,92 @@
       "language": "hu",
       "query": "magyar egyesület AF",
       "discoveredAt": "2026-09-30T06:04:35+00:00",
-      "status": "candidate"
+      "status": "rejected-low-signal",
+      "verificationCheckedAt": "2026-10-13T09:24:06+00:00",
+      "verificationScore": 1,
+      "firstPartyCandidates": [
+        "http://lccn.loc.gov/n2011038695",
+        "http://links.jstor.org/sici?sici=0013-8266(191707)32:127%3C335:IAP9%3E2.0.CO%3B2-F",
+        "http://links.jstor.org/sici?sici=0038-7134(199604)71:2%3C247:TFPOBI%3E2.0.CO%3B2-Q",
+        "http://www.britannica.com/eb/article-9078716",
+        "https://aleph.nkp.cz/F/?func=find-c&local_base=aut&ccl_term=ica=xx0187494&CON_LNG=ENG",
+        "https://catalogue.bnf.fr/ark:/12148/cb16544925g",
+        "https://d-nb.info/gnd/101997728",
+        "https://fmg.ac/Projects/MedLands/ITALY,%20Kings%20to%20962.htm#_Toc359998751"
+      ],
+      "entitySignal": false,
+      "countrySignal": false,
+      "hungarianSignal": false
+    },
+    {
+      "title": "Információs Hivatal",
+      "url": "https://en.wikipedia.org/wiki/Inform%C3%A1ci%C3%B3s_Hivatal",
+      "sourceType": "wikipedia-discovery",
+      "language": "en",
+      "query": "\"Afghanistan\" Hungarian community",
+      "discoveredAt": "2026-10-13T09:23:48+00:00",
+      "status": "rejected-low-signal",
+      "verificationCheckedAt": "2026-10-13T09:24:06+00:00",
+      "verificationScore": 0,
+      "firstPartyCandidates": [
+        "http://www.ih.gov.hu/",
+        "https://ih.gov.hu/",
+        "https://ih.gov.hu/egyes-feladatokrol-reszletesen.html",
+        "https://ih.gov.hu/szervezeti-felepites.html",
+        "https://www.dw.com/en/hungary-found-to-have-sent-agents-to-spy-on-eu-report/a-74289599"
+      ],
+      "entitySignal": false,
+      "countrySignal": false,
+      "hungarianSignal": true
+    },
+    {
+      "title": "Islam in Hungary",
+      "url": "https://en.wikipedia.org/wiki/Islam_in_Hungary",
+      "sourceType": "wikipedia-discovery",
+      "language": "en",
+      "query": "\"Afghanistan\" Hungarian church",
+      "discoveredAt": "2026-10-13T09:23:48+00:00",
+      "status": "rejected-low-signal",
+      "verificationCheckedAt": "2026-10-13T09:24:06+00:00",
+      "verificationScore": 6,
+      "firstPartyCandidates": [
+        "http://abna.ir/data.asp?lang=3&id=163462",
+        "http://news.adventist.org/en/archive/articles/2012/02/28/in-hungary-amended-religion-law-recognizes-seventh-day-adventist-church",
+        "http://www.caboodle.hu/nc/news/news_archive/single_page/?tx_ttnews%5Btt_news%5D=6805",
+        "http://www.hajduporta.hu/english/index.php?id=page1300",
+        "http://www.huffingtonpost.com/2011/07/19/hungary-religion-law_n_902032.html",
+        "http://www.ksh.hu/docs/hun/xftp/idoszaki/nepsz2011/nepsz_03_00_2011.pdf",
+        "http://www.ksh.hu/nepszamlalas/tablak_teruleti_00",
+        "http://www.nepszamlalas2001.hu/eng/volumes/18/tables/load2_39_1.html"
+      ],
+      "entitySignal": true,
+      "countrySignal": false,
+      "hungarianSignal": true
+    },
+    {
+      "title": "Joe Biden",
+      "url": "https://hu.wikipedia.org/wiki/Joe_Biden",
+      "sourceType": "wikipedia-discovery",
+      "language": "hu",
+      "query": "\"Afghanistan\" magyar egyesület",
+      "discoveredAt": "2026-10-13T09:23:48+00:00",
+      "status": "rejected-low-signal",
+      "lastSeenAt": "2026-10-13T09:23:48+00:00",
+      "verificationCheckedAt": "2026-10-13T09:24:06+00:00",
+      "verificationScore": 1,
+      "firstPartyCandidates": [
+        "http://articles.latimes.com/print/1987-09-18/news/mn-5748_1_law-school",
+        "http://ask.bibsys.no/ask/action/result?cmd=&kilde=biblio&cql=bs.autid+%3D+1593520723824&feltselect=bs.autid",
+        "http://biden.senate.gov/issues/issue/?id=975b0cf4-ce25-42cc-b63d-072fb81e8618",
+        "http://bioguide.congress.gov/scripts/biodisplay.pl?index=B000444",
+        "http://blogs.abcnews.com/politicalpunch/2011/02/sheriff-joe-biden-touts-recovery-act-success-and-hands-over-his-badge.html",
+        "http://catalogo.bne.es/uhtbin/authoritybrowse.cgi?action=display&authority_id=XX6227132",
+        "http://concordmonitor.com/apps/pbcs.dll/article?AID=/20071201/OPINION/712010307",
+        "http://content.time.com/time/magazine/article/0,9171,1908417,00.html"
+      ],
+      "entitySignal": false,
+      "countrySignal": false,
+      "hungarianSignal": false
     },
     {
       "title": "Josef Schneider (labdarúgó, 1901)",
@@ -319,7 +1420,68 @@
       "language": "hu",
       "query": "magyar egyesület AF",
       "discoveredAt": "2026-09-30T06:04:35+00:00",
-      "status": "candidate"
+      "status": "rejected-low-signal",
+      "verificationCheckedAt": "2026-10-13T09:24:06+00:00",
+      "verificationScore": 1,
+      "firstPartyCandidates": [
+        "http://eu-football.info/_player.php?id=18723",
+        "http://www.rsssf.com/players/trainers-fran-clubs.html",
+        "http://www.worldfootball.net/player_summary/josef-schneider_2/",
+        "https://nela.hu/jatekos/7978",
+        "https://web.archive.org/web/20160305011017/http://homepages.sover.net/~spectrum/year/1931.html",
+        "https://www.national-football-teams.com/player/22136.html"
+      ],
+      "entitySignal": false,
+      "countrySignal": false,
+      "hungarianSignal": false
+    },
+    {
+      "title": "József Mindszenty",
+      "url": "https://en.wikipedia.org/wiki/J%C3%B3zsef_Mindszenty",
+      "sourceType": "wikipedia-discovery",
+      "language": "en",
+      "query": "\"Afghanistan\" Hungarian church",
+      "discoveredAt": "2026-10-13T09:23:48+00:00",
+      "status": "rejected-low-signal",
+      "verificationCheckedAt": "2026-10-13T09:24:06+00:00",
+      "verificationScore": 3,
+      "firstPartyCandidates": [
+        "http://adst.org/2013/11/the-cardinal-who-lived-in-the-embassy/",
+        "http://data.bibliotheken.nl/id/thes/p069017638",
+        "http://id.bnportugal.gov.pt/aut/catbnp/96799",
+        "http://mek.oszk.hu/13800/13863",
+        "http://real.mtak.hu/7777/1/real_HSR-fall%202013%20issue-PDF-A.pdf",
+        "http://www.britannica.com/EBchecked/topic/383642/Jozsef-Mindszenty",
+        "http://www.freeweb.hu/eszmelet/34/baloghs34.html",
+        "http://www.mindszenty.org/"
+      ],
+      "entitySignal": true,
+      "countrySignal": false,
+      "hungarianSignal": true
+    },
+    {
+      "title": "Kanada",
+      "url": "https://hu.wikipedia.org/wiki/Kanada",
+      "sourceType": "wikipedia-discovery",
+      "language": "hu",
+      "query": "\"Afghanistan\" magyar közösség",
+      "discoveredAt": "2026-10-13T09:23:48+00:00",
+      "status": "rejected-low-signal",
+      "verificationCheckedAt": "2026-10-13T09:24:06+00:00",
+      "verificationScore": 1,
+      "firstPartyCandidates": [
+        "http://a330.g.akamai.net/7/330/25828/20081021185552/graphics.eiu.com/PDF/Democracy%20Index%202008.pdf",
+        "http://atlas.nrcan.gc.ca/site/english/maps/historical/territorialevolution/1927/1",
+        "http://atlas.nrcan.gc.ca/site/english/maps/peopleandsociety/population/population2001/density2001",
+        "http://atlas.nrcan.gc.ca/site/english/maps/reference/anniversary_maps/terr_evol",
+        "http://atlas.nrcan.gc.ca/site/index.html",
+        "http://canada.gc.ca/",
+        "http://catalogo.bne.es/uhtbin/authoritybrowse.cgi?action=display&authority_id=XX5625199",
+        "http://faculty.marianopolis.edu/c.belanger/QuebecHistory/encyclopedia/ImmigrationHistoryofCanada.htm"
+      ],
+      "entitySignal": false,
+      "countrySignal": false,
+      "hungarianSignal": false
     },
     {
       "title": "Kecskemét",
@@ -328,7 +1490,70 @@
       "language": "hu",
       "query": "magyar cserkész AF",
       "discoveredAt": "2026-09-30T06:04:35+00:00",
-      "status": "candidate"
+      "status": "rejected-low-signal",
+      "verificationCheckedAt": "2026-10-13T09:24:06+00:00",
+      "verificationScore": 3,
+      "firstPartyCandidates": [
+        "http://civilnaplo.hu/",
+        "http://csuszdapark.hu/",
+        "http://hiros.hu/",
+        "http://hiroshir.hu/",
+        "http://hiroshir.hu/sw.!news/id.1046/title_Sport+-+Bemutatkozik+a+Kecskem%C3%A9t+Goats",
+        "http://hrcak.srce.hr/file/11541",
+        "http://kecskemet.blog.hu/",
+        "http://kecskemet.hotelonlinehungary.com/index_hu.asp#"
+      ],
+      "entitySignal": false,
+      "countrySignal": false,
+      "hungarianSignal": true
+    },
+    {
+      "title": "Kindergarten",
+      "url": "https://en.wikipedia.org/wiki/Kindergarten",
+      "sourceType": "wikipedia-discovery",
+      "language": "en",
+      "query": "\"Afghanistan\" Hungarian school",
+      "discoveredAt": "2026-10-13T09:23:48+00:00",
+      "status": "rejected-low-signal",
+      "verificationCheckedAt": "2026-10-13T09:24:06+00:00",
+      "verificationScore": 1,
+      "firstPartyCandidates": [
+        "http://600.mineduc.cl/docs/informacion/info_guia/guia_parv.pdf",
+        "http://eric.ed.gov/?id=EJ561697",
+        "http://nces.ed.gov/programs/statereform/tab5_3.asp",
+        "http://nces.ed.gov/pubs2000/2000070",
+        "http://socialist-courier.blogspot.co.uk/2012/06/robert-owen-and-new-lanark.html",
+        "http://www.bbc.co.uk/parenting/childcare/paying_help34.shtml",
+        "http://www.businesslocationcenter.de/en/welcome-to-berlin/family-friendly-city/daycare",
+        "http://www.caboodle.hu/nc/news/news_archive/single_page/?tx_ttnews%5Btt_news%5D=9571"
+      ],
+      "entitySignal": true,
+      "countrySignal": false,
+      "hungarianSignal": false
+    },
+    {
+      "title": "Koszovó függetlenségét elismerő országok",
+      "url": "https://hu.wikipedia.org/wiki/Koszov%C3%B3_f%C3%BCggetlens%C3%A9g%C3%A9t_elismer%C5%91_orsz%C3%A1gok",
+      "sourceType": "wikipedia-discovery",
+      "language": "hu",
+      "query": "\"Afghanistan\" magyar közösség",
+      "discoveredAt": "2026-10-13T09:23:48+00:00",
+      "status": "rejected-low-signal",
+      "verificationCheckedAt": "2026-10-13T09:24:06+00:00",
+      "verificationScore": 1,
+      "firstPartyCandidates": [
+        "http://afp.google.com/article/ALeqM5i3P7GRr55t2l7VZqxiWweagLgJqw",
+        "http://afp.google.com/article/ALeqM5iaAZ8d1WP1xGbscKahijLdiDokqA",
+        "http://allafrica.com/stories/200802191373.html",
+        "http://ambasada-ks.net/jp/?page=2,8,111",
+        "http://ambasada-ks.net/pa/?page=1,8,176",
+        "http://ambasada-ks.net/sg/?page=1,8,229",
+        "http://ansamed.ansa.it/ansamed/it/notizie/rubriche/politica/2014/02/11/Kosovo-Lesotho-riconosce-indipendenza-106-mo-Paese-farlo_10052564.html",
+        "http://ap.google.com/article/ALeqM5jvieojQfAH0lC-MNOQEfGdVlX1XAD8USR0K01"
+      ],
+      "entitySignal": false,
+      "countrySignal": false,
+      "hungarianSignal": false
     },
     {
       "title": "List of countries and dependencies by population",
@@ -337,7 +1562,46 @@
       "language": "en",
       "query": "Hungarian community AF",
       "discoveredAt": "2026-09-30T06:04:35+00:00",
-      "status": "candidate"
+      "status": "rejected-low-signal",
+      "verificationCheckedAt": "2026-10-13T09:24:06+00:00",
+      "verificationScore": 1,
+      "firstPartyCandidates": [
+        "http://ccm.org.sz/documents/reports/hiv/Population-Projections-Report-2007-2030.pdf",
+        "http://dataportal.belstat.gov.by/Indicators/Preview?key=144299",
+        "http://geostat.ge/en",
+        "http://statistics.gov.ai/",
+        "http://stats.sintmaartengov.org/press_releases.php?cat=VTL",
+        "http://www.abs.gov.au/ausstats/abs@.nsf/mf/3101.0",
+        "http://www.bos.gov.ls/New%20Folder/Copy%20of%20Demography/2024_Labour_force_Survey_Report.pdf",
+        "http://www.dst.dk/en/Statistik/emner/befolkning-og-valg/befolkning-og-befolkningsfremskrivning/folketal"
+      ],
+      "entitySignal": false,
+      "countrySignal": false,
+      "hungarianSignal": false
+    },
+    {
+      "title": "List of twin towns and sister cities in Asia",
+      "url": "https://en.wikipedia.org/wiki/List_of_twin_towns_and_sister_cities_in_Asia",
+      "sourceType": "wikipedia-discovery",
+      "language": "en",
+      "query": "\"Afghanistan\" Hungarian association",
+      "discoveredAt": "2026-10-13T09:23:48+00:00",
+      "status": "rejected-low-signal",
+      "verificationCheckedAt": "2026-10-13T09:24:06+00:00",
+      "verificationScore": 1,
+      "firstPartyCandidates": [
+        "http://baodongnai.com.vn/thegioi/201703/khanh-thanh-dai-lo-mang-ten-hai-thu-do-ket-nghia-phnom-penh-ha-noi-2788423/",
+        "http://bip.um.slupsk.pl/urzad_miejski/dokumenty/924.html",
+        "http://casablanca.ma/Page_Centrale.aspx?Id_Page=5277",
+        "http://cq.sina.cn/news/sh/2016-11-11/detail-ifxxsmic5961247.d.html",
+        "http://en.changchun.gov.cn/yhcs3/",
+        "http://en.xa.gov.cn/thisisxian/sistercities/965.htm",
+        "http://english.ah.gov.cn/AboutAnhui/InternationalExchanges/SisterProvincesandCities/4004821.html",
+        "http://english.beijing.gov.cn/beijinginfo/sistercities/"
+      ],
+      "entitySignal": true,
+      "countrySignal": false,
+      "hungarianSignal": false
     },
     {
       "title": "Losonczi Pál",
@@ -346,7 +1610,46 @@
       "language": "hu",
       "query": "magyar iskola AF",
       "discoveredAt": "2026-09-30T06:04:35+00:00",
-      "status": "candidate"
+      "status": "rejected-low-signal",
+      "verificationCheckedAt": "2026-10-13T09:24:06+00:00",
+      "verificationScore": 3,
+      "firstPartyCandidates": [
+        "http://ask.bibsys.no/ask/action/result?cmd=&kilde=biblio&cql=bs.autid+%3D+98050791&feltselect=bs.autid",
+        "http://lccn.loc.gov/n85191615",
+        "http://nektar.oszk.hu/auth/125887",
+        "https://d-nb.info/gnd/1339559145",
+        "https://hvg.hu/itthon/20151111_280_millioert_aruljak_a_budai_villat_ahol",
+        "https://id.oclc.org/worldcat/entity/E39PBJtMmYdGqXTftvrYJpWbh3",
+        "https://isni.org/isni/0000000079945912",
+        "https://resolver.pim.hu/auth/PIM63521"
+      ],
+      "entitySignal": false,
+      "countrySignal": false,
+      "hungarianSignal": true
+    },
+    {
+      "title": "Ló",
+      "url": "https://hu.wikipedia.org/wiki/L%C3%B3",
+      "sourceType": "wikipedia-discovery",
+      "language": "hu",
+      "query": "\"Afghanistan\" magyar iskola",
+      "discoveredAt": "2026-10-13T09:23:48+00:00",
+      "status": "rejected-low-signal",
+      "verificationCheckedAt": "2026-10-13T09:24:06+00:00",
+      "verificationScore": 1,
+      "firstPartyCandidates": [
+        "http://24.hu/tudomany/2011/11/10/pottyos-lovak-eltek-a-kokorszakban/",
+        "http://animaldiversity.ummz.umich.edu/site/accounts/information/Perissodactyla.html",
+        "http://cs.bloodhorse.com/blogs/nicanor/archive/2008/06/17/equine-iq-what-big-brown-couldn-t-tell-you-and-mr-ed-kept-to-himself.aspx",
+        "http://epub.uni-regensburg.de/19384/3/Krueger_Heinze_2007_Horse_sense.pdf",
+        "http://hvg.hu/gazdasag/20130304_nem_eszi_inkabb_uli_a_lovat_a_magyar",
+        "http://intl.pnas.org/content/99/16/10905.full.pdf+html",
+        "http://lccn.loc.gov/sh85062160",
+        "http://library.arcanum.hu/hu/view/BekesmegyeiKozlony_1934_3/?query=szo%3D(lenz%20testv%C3%A9rek)&pg=250&zoom=f&layout=s"
+      ],
+      "entitySignal": false,
+      "countrySignal": false,
+      "hungarianSignal": false
     },
     {
       "title": "Magyar Wikipédia",
@@ -355,8 +1658,139 @@
       "language": "hu",
       "query": "magyar egyesület AF",
       "discoveredAt": "2026-09-30T06:04:35+00:00",
-      "status": "candidate",
-      "lastSeenAt": "2026-09-30T06:04:35+00:00"
+      "status": "rejected-low-signal",
+      "lastSeenAt": "2026-09-30T06:04:35+00:00",
+      "verificationCheckedAt": "2026-10-13T09:24:06+00:00",
+      "verificationScore": 3,
+      "firstPartyCandidates": [
+        "http://itcafe.hu/cikk/magyar_wikipedia_gervai_peter/homokozobol_enciklopedia.html",
+        "http://itcafe.hu/hir/magyar_wikipedia_500_kiemelt_szocikk_apollo-13.html",
+        "http://nol.hu/belfold/wikipedia__avagy_a_friss_valtoztatasok_jarorei__",
+        "http://ryandlane.com/blog/wp-content/uploads/2010/11/Wikimedia-Architecture.odp",
+        "http://spreadsheets.google.com/pub?key=phbbjOJUpiTcVGbGAkfpyaA#",
+        "http://stats.wikipedia.hu/cgi-bin/awstats.pl",
+        "http://wayback.archive.org/web/*/www.wikipedia.org",
+        "http://wikimediafoundation.org/wiki/Press_releases/10M_articles"
+      ],
+      "entitySignal": false,
+      "countrySignal": false,
+      "hungarianSignal": true
+    },
+    {
+      "title": "Military history of Croatia",
+      "url": "https://en.wikipedia.org/wiki/Military_history_of_Croatia",
+      "sourceType": "wikipedia-discovery",
+      "language": "en",
+      "query": "\"Afghanistan\" Hungarian school",
+      "discoveredAt": "2026-10-13T09:23:48+00:00",
+      "status": "rejected-low-signal",
+      "verificationCheckedAt": "2026-10-13T09:24:06+00:00",
+      "verificationScore": 5,
+      "firstPartyCandidates": [
+        "http://archive.org/details/contemporaryyugo0008vuci",
+        "http://croatian-treasure.com/battle.html",
+        "http://www.leykam-international.hr/publikacija.php?id=167",
+        "http://www.morh.hr/hr/dan-osrh-2013/povjesnica.html",
+        "http://www.napolun.com/mirror/web2.airmail.net/napoleon/infantry_Napoleon_3.htm#croats",
+        "http://www.prometej.ba/clanak/povijest/hrvoje-klasic-i-husnija-kamberovic-o-ulozi-hrvatske-u-ratu-u-bih-5425",
+        "http://www.sabor.hr/index.php/en/press/news/parliament-approves-deployment-troops-12-international-missions",
+        "https://arhiva.nacional.hr/en/clanak/28358/croatians-take-talibans-hostage-near-kandahar"
+      ],
+      "entitySignal": false,
+      "countrySignal": true,
+      "hungarianSignal": true
+    },
+    {
+      "title": "Name changes due to the Islamic State",
+      "url": "https://en.wikipedia.org/wiki/Name_changes_due_to_the_Islamic_State",
+      "sourceType": "wikipedia-discovery",
+      "language": "en",
+      "query": "\"Afghanistan\" Hungarian association",
+      "discoveredAt": "2026-10-13T09:23:48+00:00",
+      "status": "rejected-low-signal",
+      "lastSeenAt": "2026-10-13T09:23:48+00:00",
+      "verificationCheckedAt": "2026-10-13T09:24:06+00:00",
+      "verificationScore": -2,
+      "firstPartyCandidates": [
+        "http://aisnet.org/news/news.asp?id=315593",
+        "http://bigstory.ap.org/1c2753a54e744f77b07f4dede11c9325",
+        "http://itsfoss.com/elementary-os-isis-called-freya/",
+        "http://kotaku.com/eve-onlines-ship-browser-is-no-longer-called-isis-1746947152",
+        "http://m.christianpost.com/news/mother-of-girl-8-named-isis-says-unique-moniker-is-ruining-our-family-critics-demand-name-change-127202/",
+        "http://www.cbc.ca/news/canada/nova-scotia/isis-nova-scotia-changes-name-to-avoid-terrorist-group-association-1.2840727",
+        "http://www.easisfoods.com/new-company-name",
+        "http://www.ilist.cz/clanky/isis-konci-misto-nej-budou-studenti-pouzivat-insis"
+      ],
+      "entitySignal": false,
+      "countrySignal": false,
+      "hungarianSignal": false
+    },
+    {
+      "title": "National Geographic Society",
+      "url": "https://hu.wikipedia.org/wiki/National_Geographic_Society",
+      "sourceType": "wikipedia-discovery",
+      "language": "hu",
+      "query": "\"Afghanistan\" magyar közösség",
+      "discoveredAt": "2026-10-13T09:23:48+00:00",
+      "status": "rejected-low-signal",
+      "verificationCheckedAt": "2026-10-13T09:24:06+00:00",
+      "verificationScore": 4,
+      "firstPartyCandidates": [
+        "http://ask.bibsys.no/ask/action/result?cmd=&kilde=biblio&cql=bs.autid+%3D+7017061&feltselect=bs.autid",
+        "http://catalogo.bne.es/uhtbin/authoritybrowse.cgi?action=display&authority_id=XX130397",
+        "http://lccn.loc.gov/n79042179",
+        "http://www.nationalgeographic.com/",
+        "http://www.nationalgeographic.com/foundation/about.html",
+        "http://www.state.gov/p/io/unesco/members/48805.htm",
+        "https://aleph.nkp.cz/F/?func=find-c&local_base=aut&ccl_term=ica=ko2003164398&CON_LNG=ENG",
+        "https://catalogue.bnf.fr/ark:/12148/cb11866632n"
+      ],
+      "entitySignal": true,
+      "countrySignal": false,
+      "hungarianSignal": false
+    },
+    {
+      "title": "Operation Harekate Yolo",
+      "url": "https://en.wikipedia.org/wiki/Operation_Harekate_Yolo",
+      "sourceType": "wikipedia-discovery",
+      "language": "en",
+      "query": "\"Afghanistan\" Hungarian school",
+      "discoveredAt": "2026-10-13T09:23:48+00:00",
+      "status": "rejected-low-signal",
+      "verificationCheckedAt": "2026-10-13T09:24:06+00:00",
+      "verificationScore": 2,
+      "firstPartyCandidates": [
+        "http://www.aftenposten.no/english/local/article2080816.ece",
+        "http://www.aftenposten.no/english/local/article2087167.ece",
+        "http://www.aftenposten.no/english/local/article2098010.ece",
+        "http://www.mil.no/languages/english/start/article.jhtml?articleID=147551",
+        "http://www.mil.no/languages/english/start/article.jhtml?articleID=148351",
+        "http://www.mil.no/start/article.jhtml?articleID=147513",
+        "http://www.vg.no/nyheter/innenriks/artikkel.php?artid=537887",
+        "http://www1.nrk.no/nett-tv/indeks/112997"
+      ],
+      "entitySignal": false,
+      "countrySignal": true,
+      "hungarianSignal": true
+    },
+    {
+      "title": "Organized religion",
+      "url": "https://en.wikipedia.org/wiki/Organized_religion",
+      "sourceType": "wikipedia-discovery",
+      "language": "en",
+      "query": "\"Afghanistan\" Hungarian church",
+      "discoveredAt": "2026-10-13T09:23:48+00:00",
+      "status": "rejected-low-signal",
+      "verificationCheckedAt": "2026-10-13T09:24:06+00:00",
+      "verificationScore": 1,
+      "firstPartyCandidates": [
+        "https://books.google.com/books?id=V86CXwAACAAJ&q=geertz+religion+as+a+cultural+system",
+        "https://books.google.com/books?id=abS61el-VEMC&q=Weber+definition+of+religion",
+        "https://www.nationalgeographic.com/magazine/article/gobeki-tepe"
+      ],
+      "entitySignal": false,
+      "countrySignal": false,
+      "hungarianSignal": false
     },
     {
       "title": "Oscar Bernadotte",
@@ -365,7 +1799,22 @@
       "language": "en",
       "query": "Hungarian church AF",
       "discoveredAt": "2026-09-30T06:04:35+00:00",
-      "status": "candidate"
+      "status": "rejected-low-signal",
+      "verificationCheckedAt": "2026-10-13T09:24:06+00:00",
+      "verificationScore": -2,
+      "firstPartyCandidates": [
+        "http://kulturnav.org/7b480259-d9f4-48c8-90c7-f6818d09e269",
+        "http://meijiseitoku.org/pdf/f54-5.pdf",
+        "http://tornai.com/rendtagok.htm",
+        "http://www.ratchakitcha.soc.go.th/DATA/PDF/2441/049/523_3.PDF",
+        "https://authority.bibsys.no/authority/rest/authorities/html/2001740",
+        "https://d-nb.info/gnd/1254972382",
+        "https://digital.blb-karlsruhe.de/blbihd/periodical/pageview/1878736",
+        "https://digital.blb-karlsruhe.de/blbihd/periodical/pageview/1878750"
+      ],
+      "entitySignal": false,
+      "countrySignal": false,
+      "hungarianSignal": false
     },
     {
       "title": "Our Homeland Movement",
@@ -374,8 +1823,95 @@
       "language": "en",
       "query": "Hungarian association AF",
       "discoveredAt": "2026-09-30T06:04:35+00:00",
-      "status": "candidate",
-      "lastSeenAt": "2026-09-30T06:04:35+00:00"
+      "status": "rejected-low-signal",
+      "lastSeenAt": "2026-09-30T06:04:35+00:00",
+      "verificationCheckedAt": "2026-10-13T09:24:06+00:00",
+      "verificationScore": 0,
+      "firstPartyCandidates": [
+        "http://sikerado.hu/magyarorszagon/orszag-haza/allamilag-tamogatott-hadiiparfejlesztest-surget-a-mi-hazank/",
+        "http://www.atv.hu/belfold/20210327-mi-hazank-nyomozast-rendeltek-el-a-xi-keruleti-dk-s-polgarmester-kabinetfonokenek-ugyeben",
+        "http://www.atv.hu/videok/video-20180821-egyenes-beszed-kontra-duro-dora-mi-hazank-mozgalom",
+        "http://www.errc.org/news/budapest-municipality-votes-to-evict-far-right-mi-hazank-from-their-office-after-anti-roma-racist-poster-scandal",
+        "https://24.hu/belfold/2020/01/06/duro-dora-szegregacio-gyongyospata/",
+        "https://24.hu/belfold/2022/08/11/novak-elod-mi-hazank-eu-tagsag-ugydonto-nepszavazas/",
+        "https://24.hu/belfold/2023/12/17/novak-elod-szabadkomuves-paholy-fidesz-orban-viktor-mi-hazank/",
+        "https://444.hu/2024/01/28/toroczkai-az-europai-szelsojobb-kremje-elott-jelezte-hogy-igenyt-tartanak-karpataljara"
+      ],
+      "entitySignal": false,
+      "countrySignal": false,
+      "hungarianSignal": true
+    },
+    {
+      "title": "Palesztina nemzetközi elismertsége",
+      "url": "https://hu.wikipedia.org/wiki/Palesztina_nemzetk%C3%B6zi_elismerts%C3%A9ge",
+      "sourceType": "wikipedia-discovery",
+      "language": "hu",
+      "query": "\"Afghanistan\" magyar közösség",
+      "discoveredAt": "2026-10-13T09:23:48+00:00",
+      "status": "rejected-low-signal",
+      "verificationCheckedAt": "2026-10-13T09:24:06+00:00",
+      "verificationScore": 1,
+      "firstPartyCandidates": [
+        "http://ab.gov.ag/gov_v4/article_details.php?id=2073&category=38",
+        "http://blogs.jta.org/politics/article/2011/04/28/3087236/price-for-israel-support-come-to-panama-and-enjoy-the-food-and-wi-fi",
+        "http://embassy.mfa.gov.ge/index.php?lang_id=ENG&sec_id=424&info_id=1300",
+        "http://english.wafa.ps/index.php?action=detail&id=16902",
+        "http://english.wafa.ps/index.php?action=detail&id=18736",
+        "http://english.wafa.ps/index.php?action=detail&id=22340",
+        "http://english.wafa.ps/index.php?action=detail&id=23293",
+        "http://famagusta-gazette.com/cyprus-will-not-recognize-any-changes-to-the-pre-borders-p11174-69.htm"
+      ],
+      "entitySignal": false,
+      "countrySignal": false,
+      "hungarianSignal": false
+    },
+    {
+      "title": "Pashtun Americans",
+      "url": "https://en.wikipedia.org/wiki/Pashtun_Americans",
+      "sourceType": "wikipedia-discovery",
+      "language": "en",
+      "query": "\"Afghanistan\" Hungarian church",
+      "discoveredAt": "2026-10-13T09:23:48+00:00",
+      "status": "rejected-low-signal",
+      "verificationCheckedAt": "2026-10-13T09:24:06+00:00",
+      "verificationScore": 3,
+      "firstPartyCandidates": [
+        "http://fi2w.org/2011/01/06/i-am-a-khan-i-am-not-a-terrorist-say-pashtuns-in-new-york/",
+        "http://www.dvidshub.net/news/33541/pakistani-american-soldier-compelled-serve-us-army#.VGY_QDTQWAg",
+        "http://www.mcu.usmc.mil/historydivision/Pages/Publications/Publication%20PDFs/FROM%20THE%20SEA.pdf",
+        "http://www.pakhtoonusa.org/",
+        "http://www.pashtovoa.com/",
+        "https://factfinder2.census.gov/faces/tableservices/jsf/pages/productview.xhtml?pid=DEC_10_SF1_QTP8&prodType=table",
+        "https://immigrationhistory.org/item/1917-barred-zone-act/",
+        "https://upgnorthamerica.com/project/afghans-in-north-america/"
+      ],
+      "entitySignal": false,
+      "countrySignal": true,
+      "hungarianSignal": false
+    },
+    {
+      "title": "Rob Riggle",
+      "url": "https://hu.wikipedia.org/wiki/Rob_Riggle",
+      "sourceType": "wikipedia-discovery",
+      "language": "hu",
+      "query": "\"Afghanistan\" magyar iskola",
+      "discoveredAt": "2026-10-13T09:23:48+00:00",
+      "status": "rejected-low-signal",
+      "verificationCheckedAt": "2026-10-13T09:24:06+00:00",
+      "verificationScore": 1,
+      "firstPartyCandidates": [
+        "http://abcnews.go.com/blogs/headlines/2013/05/lt-col-rob-riggle-at-ease-as-comedic-actor/",
+        "http://iszdb.hu/?szemely=40848",
+        "http://iszdb.hu/?szemely=40848/",
+        "http://lccn.loc.gov/no2011004919",
+        "http://marinesmagazine.dodlive.mil/2009/12/14/rob-riggle/",
+        "http://www.cc.com/video-clips/uax277/the-daily-show-with-jon-stewart-bush-s-new-plan",
+        "http://www.cjonline.com/stories/122808/kan_371704152.shtml",
+        "http://www.comedycentral.com/press/press_releases/2007/081707_thedailyshowiniraq.jhtml"
+      ],
+      "entitySignal": false,
+      "countrySignal": false,
+      "hungarianSignal": false
     },
     {
       "title": "Russian Knights",
@@ -384,7 +1920,22 @@
       "language": "en",
       "query": "Hungarian school AF",
       "discoveredAt": "2026-09-30T06:04:35+00:00",
-      "status": "candidate"
+      "status": "rejected-low-signal",
+      "verificationCheckedAt": "2026-10-13T09:24:06+00:00",
+      "verificationScore": 1,
+      "firstPartyCandidates": [
+        "http://aerobaticteams.net/en/teams/i149/Russian-Knights.html",
+        "http://airbase.ru/crashes/1995/12/kamran/",
+        "http://russianknights.ru/",
+        "http://russianknights.ru/en/",
+        "https://bmpd.livejournal.com/2293427.html",
+        "https://bmpd.livejournal.com/3831680.html",
+        "https://id.loc.gov/authorities/no2010124814",
+        "https://lux.collections.yale.edu/view/group/39e36e7c-5030-4aea-acca-4cacf2c6a500"
+      ],
+      "entitySignal": false,
+      "countrySignal": false,
+      "hungarianSignal": false
     },
     {
       "title": "Steven Spielberg",
@@ -393,7 +1944,64 @@
       "language": "hu",
       "query": "magyar cserkész AF",
       "discoveredAt": "2026-09-30T06:04:35+00:00",
-      "status": "candidate"
+      "status": "rejected-low-signal",
+      "verificationCheckedAt": "2026-10-13T09:24:06+00:00",
+      "verificationScore": 1,
+      "firstPartyCandidates": [
+        "http://ask.bibsys.no/ask/action/result?cmd=&kilde=biblio&cql=bs.autid+%3D+90116975&feltselect=bs.autid",
+        "http://catalogo.bne.es/uhtbin/authoritybrowse.cgi?action=display&authority_id=XX911658",
+        "http://fredbernstein.com/info/spielberg_mom.shtml",
+        "http://iszdb.hu/?szemely=9614",
+        "http://lccn.loc.gov/n79148103",
+        "http://www.filmreference.com/film/85/Steven-Spielberg.html",
+        "http://www.getty.edu/vow/ULANFullDisplay?find=&role=&nation=&subjectid=500330922",
+        "http://www.origo.hu/kultura/20170222-meghalt-steven-spielberg-anyja-leah-adler-zongorista-festomuvesz.html"
+      ],
+      "entitySignal": false,
+      "countrySignal": false,
+      "hungarianSignal": false
+    },
+    {
+      "title": "Tajik Canadians",
+      "url": "https://en.wikipedia.org/wiki/Tajik_Canadians",
+      "sourceType": "wikipedia-discovery",
+      "language": "en",
+      "query": "\"Afghanistan\" Hungarian community",
+      "discoveredAt": "2026-10-13T09:23:48+00:00",
+      "status": "rejected-low-signal",
+      "verificationCheckedAt": "2026-10-13T09:24:06+00:00",
+      "verificationScore": 3,
+      "firstPartyCandidates": [
+        "http://tajikscanada.yolasite.com/english.php",
+        "http://www12.statcan.gc.ca/nhs-enm/2011/dp-pd/dt-td/Rp-eng.cfm?TABID=2&LANG=E&APATH=3&DETAIL=0&DIM=0&FL=A&FREE=0&GC=0&GID=1118296&GK=0&GRP=0&PID=105396&PRID=0&PTYPE=105277&S=0&SHOWALL=0&SUB=0&Temporal=2013&THEME=95&VID=0&VNAMEE=&VNAMEF=&D1=0&D2=0&D3=0&D4=0&D5=0&D6=0"
+      ],
+      "entitySignal": false,
+      "countrySignal": true,
+      "hungarianSignal": false
+    },
+    {
+      "title": "Tanbur",
+      "url": "https://en.wikipedia.org/wiki/Tanbur",
+      "sourceType": "wikipedia-discovery",
+      "language": "en",
+      "query": "\"Afghanistan\" Hungarian community",
+      "discoveredAt": "2026-10-13T09:23:48+00:00",
+      "status": "rejected-low-signal",
+      "verificationCheckedAt": "2026-10-13T09:24:06+00:00",
+      "verificationScore": 6,
+      "firstPartyCandidates": [
+        "http://atlasofpluckedinstruments.com/central_asia.htm",
+        "http://atlasofpluckedinstruments.com/middle_east.htm",
+        "http://legacy.spa.aalto.fi/research/tanbur/",
+        "http://www.akdn.org/akmi/instruments?page=4&category=Badakhshan%20Ensemble",
+        "http://www.alevibektasikulturenstitusu.de/wp-content/uploads/2016/05/grup-mustak.pdf",
+        "http://www.encyclopaediaislamica.com/madkhal2.php?sid=3919",
+        "http://www.pamirtours.tj/sam/instruments.htm",
+        "https://musicbrainz.org/instrument/16f816ec-9ecf-4236-8006-19a4b27797f1"
+      ],
+      "entitySignal": true,
+      "countrySignal": true,
+      "hungarianSignal": false
     },
     {
       "title": "Tizenötödik légierő",
@@ -402,7 +2010,78 @@
       "language": "hu",
       "query": "magyar egyesület AF",
       "discoveredAt": "2026-09-30T06:04:35+00:00",
-      "status": "candidate"
+      "status": "rejected-low-signal",
+      "verificationCheckedAt": "2026-10-13T09:24:06+00:00",
+      "verificationScore": 3,
+      "firstPartyCandidates": [
+        "http://www.15thaf.org/"
+      ],
+      "entitySignal": false,
+      "countrySignal": false,
+      "hungarianSignal": true
+    },
+    {
+      "title": "Tálibok",
+      "url": "https://hu.wikipedia.org/wiki/T%C3%A1libok",
+      "sourceType": "wikipedia-discovery",
+      "language": "hu",
+      "query": "\"Afghanistan\" magyar egyesület",
+      "discoveredAt": "2026-10-13T09:23:48+00:00",
+      "status": "rejected-low-signal",
+      "verificationCheckedAt": "2026-10-13T09:24:06+00:00",
+      "verificationScore": 4,
+      "firstPartyCandidates": [
+        "http://edition.cnn.com/WORLD/9610/12/afghanistan/map.lg.jpg",
+        "http://lccn.loc.gov/no98126907",
+        "http://news.bbc.co.uk/1/hi/world/west_asia/37021.stm",
+        "http://news.bbc.co.uk/2/hi/south_asia/7191200.stm",
+        "http://nol.hu/kulfold/utodlasi_harcba_merulnek_a_talibok",
+        "http://turkishpolicy.com/images/stories/media/David_Arnett-6_October_2008.pdf",
+        "http://www.abendblatt.de/politik/ausland/article468629/Wer-sind-eigentlich-die-radikal-islamischen-Taliban.html",
+        "http://www.cbsnews.com/news/the-taliban-in-afghanistan/"
+      ],
+      "entitySignal": true,
+      "countrySignal": false,
+      "hungarianSignal": false
+    },
+    {
+      "title": "UTC+04:30",
+      "url": "https://hu.wikipedia.org/wiki/UTC%2B04%3A30",
+      "sourceType": "wikipedia-discovery",
+      "language": "hu",
+      "query": "\"Afghanistan\" magyar egyesület",
+      "discoveredAt": "2026-10-13T09:23:48+00:00",
+      "status": "rejected-low-signal",
+      "verificationCheckedAt": "2026-10-13T09:24:06+00:00",
+      "verificationScore": 0,
+      "firstPartyCandidates": [],
+      "entitySignal": false,
+      "countrySignal": false,
+      "hungarianSignal": false
+    },
+    {
+      "title": "Visa requirements for Hungarian citizens",
+      "url": "https://en.wikipedia.org/wiki/Visa_requirements_for_Hungarian_citizens",
+      "sourceType": "wikipedia-discovery",
+      "language": "en",
+      "query": "\"Afghanistan\" Hungarian association",
+      "discoveredAt": "2026-10-13T09:23:48+00:00",
+      "status": "rejected-low-signal",
+      "verificationCheckedAt": "2026-10-13T09:24:06+00:00",
+      "verificationScore": 3,
+      "firstPartyCandidates": [
+        "http://arunachaltourism.com/entry_formalities.php",
+        "http://as.and.nic.in/TourismAND/TCorner/ForeignersNew.htm",
+        "http://britishantarcticterritory.fco.gov.uk/en/tourism/",
+        "http://cms.olympicair.com/timatic/webdocsI/countryinfo.html",
+        "http://ec.europa.eu/youreurope/citizens/travel/entry-exit/eu-citizen/index_en.htm",
+        "http://eng.belta.by/politics/view/five-day-visa-free-regime-to-enter-into-force-in-belarus-on-12-february-2017-97817-2017/",
+        "http://eng.belta.by/president/view/visa-free-travel-time-up-to-ten-days-in-parts-of-brest-oblast-grodno-oblast-as-from-1-january-107990-2017/",
+        "http://english.www.gov.cn/news/202405/07/content_WS663a0d9cc6d0868f4e8e6d10.html"
+      ],
+      "entitySignal": false,
+      "countrySignal": false,
+      "hungarianSignal": true
     },
     {
       "title": "Védőszentek listája",
@@ -411,8 +2090,92 @@
       "language": "hu",
       "query": "magyar cserkész AF",
       "discoveredAt": "2026-09-30T06:04:35+00:00",
-      "status": "candidate"
+      "status": "rejected-low-signal",
+      "verificationCheckedAt": "2026-10-13T09:24:06+00:00",
+      "verificationScore": 1,
+      "firstPartyCandidates": [
+        "http://lexikon.katolikus.hu/V/v%C3%A9d%C5%91szent.html",
+        "https://stbedessouthshields.co.uk/our-faith/saint-bede/",
+        "https://web.archive.org/web/20140625074921/http://www.katolikus.hu/szentek/",
+        "https://www.britannica.com/biography/Saint-Bede-the-Venerable"
+      ],
+      "entitySignal": false,
+      "countrySignal": false,
+      "hungarianSignal": false
+    },
+    {
+      "title": "World Curling",
+      "url": "https://en.wikipedia.org/wiki/World_Curling",
+      "sourceType": "wikipedia-discovery",
+      "language": "en",
+      "query": "\"Afghanistan\" Hungarian association",
+      "discoveredAt": "2026-10-13T09:23:48+00:00",
+      "status": "rejected-low-signal",
+      "verificationCheckedAt": "2026-10-13T09:24:06+00:00",
+      "verificationScore": 4,
+      "firstPartyCandidates": [
+        "http://curling.bg/",
+        "http://curling.cz/",
+        "http://curling.kg/",
+        "http://www.curling-austria.at/oecv.html",
+        "http://www.curling-romania.com/",
+        "http://www.curling-zveza.si/",
+        "http://www.curling.dk/",
+        "http://www.curling.hu/"
+      ],
+      "entitySignal": true,
+      "countrySignal": false,
+      "hungarianSignal": false
+    },
+    {
+      "title": "Árpád dynasty",
+      "url": "https://en.wikipedia.org/wiki/%C3%81rp%C3%A1d_dynasty",
+      "sourceType": "wikipedia-discovery",
+      "language": "en",
+      "query": "\"Afghanistan\" Hungarian church",
+      "discoveredAt": "2026-10-13T09:23:48+00:00",
+      "status": "rejected-low-signal",
+      "verificationCheckedAt": "2026-10-13T09:24:06+00:00",
+      "verificationScore": 6,
+      "firstPartyCandidates": [
+        "http://mek.oszk.hu/01900/01955/",
+        "http://real.mtak.hu/46728/1/Szabados_2016_Mesterhazy_75_kotet_u.pdf",
+        "https://aleph.nkp.cz/F/?func=find-c&local_base=aut&ccl_term=ica=jx20060403010&CON_LNG=ENG",
+        "https://apnews.com/article/ef5b89c8172d45afc33d6ff97c8f81e9",
+        "https://authority.bibsys.no/authority/rest/authorities/html/90954336",
+        "https://books.google.com/books?id=vEJNBqanT_8C",
+        "https://books.google.com/books?id=wKS4AAAAIAAJ&q=+Gy%C3%B6rgy,+who,+according+to+Europaeische+Stammtafeln",
+        "https://bukinet-mreza.primo.exlibrisgroup.com/discovery/authfulldisplay?&context=L&vid=385BUKINET_NETWORK:VU1_UNION&lang=en&docid=981005666635009366"
+      ],
+      "entitySignal": true,
+      "countrySignal": false,
+      "hungarianSignal": true
+    },
+    {
+      "title": "Észak-atlanti Szerződés Szervezete",
+      "url": "https://hu.wikipedia.org/wiki/%C3%89szak-atlanti_Szerz%C5%91d%C3%A9s_Szervezete",
+      "sourceType": "wikipedia-discovery",
+      "language": "hu",
+      "query": "\"Afghanistan\" magyar közösség",
+      "discoveredAt": "2026-10-13T09:23:48+00:00",
+      "status": "rejected-low-signal",
+      "verificationCheckedAt": "2026-10-13T09:24:06+00:00",
+      "verificationScore": 1,
+      "firstPartyCandidates": [
+        "http://ask.bibsys.no/ask/action/result?cmd=&kilde=biblio&cql=bs.autid+%3D+90056314&feltselect=bs.autid",
+        "http://catalogo.bne.es/uhtbin/authoritybrowse.cgi?action=display&authority_id=XX93263",
+        "http://edition.cnn.com/WORLD/europe/9904/24/nato.un/",
+        "http://hansard.millbanksystems.com/written_answers/1957/feb/18/brussels-treaty-organisation-resolution",
+        "http://kanadaihirlap.com/2008/01/23/manley-kemeny-uzenetet-kuldott-a-nato-nak/",
+        "http://kanadaihirlap.com/2008/02/13/kompromisszum-az-afganisztani-missziorol",
+        "http://konfliktuskutato.hu/index.php?option=com_content&view=article&id=83:17-a-koszovoi-haboru-es-a-nato-legicsapasok-1999&root=12&catid=9:v-a-masodik-jugoszlav-polgarhaboru-1991-1999",
+        "http://lccn.loc.gov/n79006743"
+      ],
+      "entitySignal": false,
+      "countrySignal": false,
+      "hungarianSignal": false
     }
   ],
-  "errors": []
+  "errors": [],
+  "verificationUpdated": "2026-10-13T09:24:06+00:00"
 }
