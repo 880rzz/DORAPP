@@ -8,6 +8,7 @@ org=json.loads((ROOT/"data/organizations.json").read_text(encoding="utf-8"))
 edu=json.loads((ROOT/"data/education.json").read_text(encoding="utf-8"))
 ev=json.loads((ROOT/"data/events.json").read_text(encoding="utf-8"))
 globaldb=json.loads((ROOT/"data/global.json").read_text(encoding="utf-8"))
+global_search=json.loads((ROOT/"data/global-search-index.json").read_text(encoding="utf-8"))
 sitemap=(ROOT/"sitemap.xml").read_text(encoding="utf-8")
 errors=[]
 
@@ -113,6 +114,11 @@ for country in globaldb.get("countries",[]):
 for p in ("llms.txt","ai.txt","ai-entry.json","entity.jsonld","robots.txt","sitemap.xml","forrasok.html","adatminoseg.html","ui.js","world.js","country.js","data/global-search-index.json","data/global-events.json"):
     if not (ROOT/p).exists(): errors.append(f"missing trust/search artifact: {p}")
 
+registry_country_ids={c.get("iso2") for c in globaldb.get("countries",[]) if c.get("iso2")}
+search_country_ids={x.get("country") for x in global_search.get("items",[]) if x.get("type")=="country"}
+if search_country_ids != registry_country_ids:
+    errors.append(f"global search country coverage mismatch: {len(search_country_ids)} != {len(registry_country_ids)}")
+
 quality_text=(ROOT/"adatminoseg.html").read_text(encoding="utf-8")
 quality_expectations=(
     (f'<strong>{len(org.get("organizations",[]))}</strong> összes entitás', "organization count"),
@@ -151,6 +157,10 @@ for p in ("index.html","forrasok.html","szervezet.html"):
     if "ui.js" not in text:
         errors.append(f"shared consent/navigation controller missing: {p}")
 
+
+world_js = (ROOT / "world.js").read_text(encoding="utf-8")
+for token in ('addEventListener("load", decorateMap)', 'contentDocument?.readyState === "complete"', "decorateMap();"):
+    if token not in world_js: errors.append(f"world map cached-SVG paint regression: missing {token}")
 
 country_js = (ROOT / "country.js").read_text(encoding="utf-8")
 for token in ("pointerdown", "pointermove", "pointerup", "pointercancel", "setPointerCapture", "scale", "translate3d", "data-country-map-reset", "clamp"):
