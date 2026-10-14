@@ -48,9 +48,6 @@ for country in registry.get("countries", []):
         continue
     label = country_label(country)
     status = country.get("researchStatus", "unresearched")
-    if status not in READY:
-        continue
-
     route = country.get("route") or f"countries/{iso}/"
     add({
         "type": "country",
@@ -59,8 +56,12 @@ for country in registry.get("countries", []):
         "country": iso,
         "countryLabel": label,
         "href": route,
+        "ready": status in READY,
+        "researchStatus": status,
         "searchParts": [label, iso, country.get("iso3"), *(country.get("name") or {}).values()],
     })
+    if status not in READY:
+        continue
 
     base = DATA / "countries" / iso
     org_data = read_json(base / "organizations.json", {})
