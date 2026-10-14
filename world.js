@@ -27,6 +27,7 @@ function isReady(c){
 }
 
 function typeLabel(item){
+  if(item.type === "country" && item.ready === false) return "Ország · kutatás alatt";
   if(item.subtype === "education") return "Oktatás";
   return TYPE_LABELS[item.type] || "Találat";
 }
@@ -247,7 +248,7 @@ function bindWorldMap(){
   },{passive:true});
   viewport.addEventListener("touchend",()=>{pinchDistance=0},{passive:true});
 
-  obj.addEventListener("load", () => {
+  const decorateMap = () => {
     const doc = obj.contentDocument;
     if(!doc) return;
     const byIso = Object.fromEntries((registry.countries || []).map(c => [String(c.iso2||"").toLowerCase(),c]));
@@ -302,7 +303,11 @@ function bindWorldMap(){
       el.addEventListener("blur",out);
       addMapCountLabel(doc,el,country,ready);
     });
-  });
+  };
+  obj.addEventListener("load", decorateMap);
+  if(obj.contentDocument?.readyState === "complete"){
+    decorateMap();
+  }
   applyTransform();
 }
 
