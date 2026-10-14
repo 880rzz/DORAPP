@@ -45,6 +45,8 @@ concurrency:
 jobs:
   research:
     runs-on: ubuntu-latest
+    env:
+      RUN_EVENT_REFRESH: ${{ github.event_name == 'schedule' || github.event_name == 'workflow_dispatch' || startsWith(github.event.head_commit.message, 'test(events):') }}
     steps:
       - uses: actions/checkout@v5
         with:
@@ -78,7 +80,7 @@ jobs:
         run: python scripts/promote_verified_entities.py
 
       - name: Refresh country-scoped event sources
-        if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
+        if: env.RUN_EVENT_REFRESH == 'true'
         run: python scripts/update_country_events.py
 
       - name: Audit canonical source health
@@ -122,7 +124,7 @@ jobs:
             git fetch origin main
             git reset --hard origin/main
             python scripts/enrich_country_registry.py
-            if [ "${{ github.event_name }}" = "schedule" ] || [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            if [ "${RUN_EVENT_REFRESH}" = "true" ]; then
               python scripts/global_country_research.py
               python scripts/verify_discovery_candidates.py
               python scripts/verify_first_party_sites.py
