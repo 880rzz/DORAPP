@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-30T06:21:12+00:00",
+  "updated": "2026-10-14T07:35:50+00:00",
   "country": "bn",
   "researchRole": "secondary discovery only; candidates require first-party verification before publication",
   "sources": [
@@ -10,7 +10,9 @@
       "language": "hu",
       "query": "\"BN\" magyar iskola",
       "discoveredAt": "2026-09-30T06:21:12+00:00",
-      "status": "candidate"
+      "status": "candidate",
+      "verificationCheckedAt": "2026-10-14T07:36:28+00:00",
+      "verificationError": "HTTPError"
     },
     {
       "title": "1A busz (Szombathely)",
@@ -19,7 +21,9 @@
       "language": "hu",
       "query": "\"BN\" magyar iskola",
       "discoveredAt": "2026-09-30T06:21:12+00:00",
-      "status": "candidate"
+      "status": "candidate",
+      "verificationCheckedAt": "2026-10-14T07:36:28+00:00",
+      "verificationError": "HTTPError"
     },
     {
       "title": "1C busz (Szombathely)",
@@ -29,7 +33,21 @@
       "query": "\"BN\" magyar közösség",
       "discoveredAt": "2026-09-30T06:21:12+00:00",
       "status": "candidate",
-      "lastSeenAt": "2026-09-30T06:21:12+00:00"
+      "lastSeenAt": "2026-09-30T06:21:12+00:00",
+      "verificationCheckedAt": "2026-10-14T07:36:28+00:00",
+      "verificationError": "HTTPError"
+    },
+    {
+      "title": "2012. évi nyári olimpiai játékok",
+      "url": "https://hu.wikipedia.org/wiki/2012._%C3%A9vi_ny%C3%A1ri_olimpiai_j%C3%A1t%C3%A9kok",
+      "sourceType": "wikipedia-discovery",
+      "language": "hu",
+      "query": "\"Brunei Darussalam\" magyar egyesület",
+      "discoveredAt": "2026-10-14T07:35:50+00:00",
+      "status": "candidate",
+      "lastSeenAt": "2026-10-14T07:35:50+00:00",
+      "verificationCheckedAt": "2026-10-14T07:36:28+00:00",
+      "verificationError": "HTTPError"
     },
     {
       "title": "21B busz (Szombathely)",
@@ -38,7 +56,9 @@
       "language": "hu",
       "query": "\"BN\" magyar iskola",
       "discoveredAt": "2026-09-30T06:21:12+00:00",
-      "status": "candidate"
+      "status": "candidate",
+      "verificationCheckedAt": "2026-10-14T07:36:28+00:00",
+      "verificationError": "HTTPError"
     },
     {
       "title": "35-ös busz (Szombathely)",
@@ -47,7 +67,9 @@
       "language": "hu",
       "query": "\"BN\" magyar iskola",
       "discoveredAt": "2026-09-30T06:21:12+00:00",
-      "status": "candidate"
+      "status": "candidate",
+      "verificationCheckedAt": "2026-10-14T07:36:28+00:00",
+      "verificationError": "HTTPError"
     },
     {
       "title": "3A busz (Sopron)",
@@ -56,7 +78,9 @@
       "language": "hu",
       "query": "\"BN\" magyar iskola",
       "discoveredAt": "2026-09-30T06:21:12+00:00",
-      "status": "candidate"
+      "status": "candidate",
+      "verificationCheckedAt": "2026-10-14T07:36:28+00:00",
+      "verificationError": "HTTPError"
     },
     {
       "title": "3M busz (Sopron)",
@@ -65,7 +89,9 @@
       "language": "hu",
       "query": "\"BN\" magyar iskola",
       "discoveredAt": "2026-09-30T06:21:12+00:00",
-      "status": "candidate"
+      "status": "candidate",
+      "verificationCheckedAt": "2026-10-14T07:36:28+00:00",
+      "verificationError": "HTTPError"
     },
     {
       "title": "7-es busz (Sopron, 2023-ig)",
@@ -74,7 +100,9 @@
       "language": "hu",
       "query": "\"BN\" magyar iskola",
       "discoveredAt": "2026-09-30T06:21:12+00:00",
-      "status": "candidate"
+      "status": "candidate",
+      "verificationCheckedAt": "2026-10-14T07:36:28+00:00",
+      "verificationError": "HTTPError"
     },
     {
       "title": "7A busz (Sopron, 2023-ig)",
@@ -83,7 +111,31 @@
       "language": "hu",
       "query": "\"BN\" magyar közösség",
       "discoveredAt": "2026-09-30T06:21:12+00:00",
-      "status": "candidate"
+      "status": "candidate",
+      "verificationCheckedAt": "2026-10-14T07:36:28+00:00",
+      "verificationError": "HTTPError"
+    },
+    {
+      "title": "A 2016. évi nyári olimpiai játékok zászlóvivőinek listája",
+      "url": "https://hu.wikipedia.org/wiki/A_2016._%C3%A9vi_ny%C3%A1ri_olimpiai_j%C3%A1t%C3%A9kok_z%C3%A1szl%C3%B3viv%C5%91inek_list%C3%A1ja",
+      "sourceType": "wikipedia-discovery",
+      "language": "hu",
+      "query": "\"Brunei Darussalam\" magyar közösség",
+      "discoveredAt": "2026-10-14T07:35:50+00:00",
+      "status": "candidate",
+      "verificationCheckedAt": "2026-10-14T07:36:28+00:00",
+      "verificationError": "HTTPError"
+    },
+    {
+      "title": "Absolute monarchy",
+      "url": "https://en.wikipedia.org/wiki/Absolute_monarchy",
+      "sourceType": "wikipedia-discovery",
+      "language": "en",
+      "query": "\"Brunei Darussalam\" Hungarian church",
+      "discoveredAt": "2026-10-14T07:35:50+00:00",
+      "status": "candidate",
+      "verificationCheckedAt": "2026-10-14T07:36:28+00:00",
+      "verificationError": "HTTPError"
     },
     {
       "title": "Ahmadiyya in Bangladesh",
@@ -92,7 +144,9 @@
       "language": "en",
       "query": "\"BN\" Hungarian community",
       "discoveredAt": "2026-09-30T06:21:12+00:00",
-      "status": "candidate"
+      "status": "candidate",
+      "verificationCheckedAt": "2026-10-14T07:36:28+00:00",
+      "verificationError": "HTTPError"
     },
     {
       "title": "Alpini",
@@ -102,7 +156,9 @@
       "query": "\"BN\" Hungarian association",
       "discoveredAt": "2026-09-30T06:21:12+00:00",
       "status": "candidate",
-      "lastSeenAt": "2026-09-30T06:21:12+00:00"
+      "lastSeenAt": "2026-09-30T06:21:12+00:00",
+      "verificationCheckedAt": "2026-10-14T07:36:28+00:00",
+      "verificationError": "HTTPError"
     },
     {
       "title": "Austrian Armed Forces",
@@ -111,7 +167,9 @@
       "language": "en",
       "query": "\"BN\" Hungarian school",
       "discoveredAt": "2026-09-30T06:21:12+00:00",
-      "status": "candidate"
+      "status": "candidate",
+      "verificationCheckedAt": "2026-10-14T07:36:28+00:00",
+      "verificationError": "HTTPError"
     },
     {
       "title": "Beclean",
@@ -120,7 +178,9 @@
       "language": "en",
       "query": "\"BN\" Hungarian school",
       "discoveredAt": "2026-09-30T06:21:12+00:00",
-      "status": "candidate"
+      "status": "candidate",
+      "verificationCheckedAt": "2026-10-14T07:36:28+00:00",
+      "verificationError": "HTTPError"
     },
     {
       "title": "Bistrița",
@@ -129,7 +189,9 @@
       "language": "en",
       "query": "\"BN\" Hungarian community",
       "discoveredAt": "2026-09-30T06:21:12+00:00",
-      "status": "candidate"
+      "status": "candidate",
+      "verificationCheckedAt": "2026-10-14T07:36:28+00:00",
+      "verificationError": "HTTPError"
     },
     {
       "title": "British National (Overseas) passport",
@@ -138,7 +200,9 @@
       "language": "en",
       "query": "\"BN\" Hungarian community",
       "discoveredAt": "2026-09-30T06:21:12+00:00",
-      "status": "candidate"
+      "status": "candidate",
+      "verificationCheckedAt": "2026-10-14T07:36:28+00:00",
+      "verificationError": "HTTPError"
     },
     {
       "title": "Brunei",
@@ -147,7 +211,32 @@
       "language": "hu",
       "query": "\"BN\" magyar közösség",
       "discoveredAt": "2026-09-30T06:21:12+00:00",
-      "status": "candidate"
+      "status": "candidate",
+      "lastSeenAt": "2026-10-14T07:35:50+00:00",
+      "verificationCheckedAt": "2026-10-14T07:36:28+00:00",
+      "verificationError": "HTTPError"
+    },
+    {
+      "title": "Bruneian nationality law",
+      "url": "https://en.wikipedia.org/wiki/Bruneian_nationality_law",
+      "sourceType": "wikipedia-discovery",
+      "language": "en",
+      "query": "\"Brunei Darussalam\" Hungarian community",
+      "discoveredAt": "2026-10-14T07:35:50+00:00",
+      "status": "candidate",
+      "verificationCheckedAt": "2026-10-14T07:36:28+00:00",
+      "verificationError": "HTTPError"
+    },
+    {
+      "title": "Brunei–Pakistan relations",
+      "url": "https://en.wikipedia.org/wiki/Brunei%E2%80%93Pakistan_relations",
+      "sourceType": "wikipedia-discovery",
+      "language": "en",
+      "query": "\"Brunei Darussalam\" Hungarian association",
+      "discoveredAt": "2026-10-14T07:35:50+00:00",
+      "status": "candidate",
+      "verificationCheckedAt": "2026-10-14T07:36:28+00:00",
+      "verificationError": "HTTPError"
     },
     {
       "title": "Budacu de Jos",
@@ -156,7 +245,9 @@
       "language": "en",
       "query": "\"BN\" Hungarian church",
       "discoveredAt": "2026-09-30T06:21:12+00:00",
-      "status": "candidate"
+      "status": "candidate",
+      "verificationCheckedAt": "2026-10-14T07:36:28+00:00",
+      "verificationError": "HTTPError"
     },
     {
       "title": "Bánovce nad Bebravou District",
@@ -165,7 +256,33 @@
       "language": "en",
       "query": "\"BN\" Hungarian community",
       "discoveredAt": "2026-09-30T06:21:12+00:00",
-      "status": "candidate"
+      "status": "candidate",
+      "verificationCheckedAt": "2026-10-14T07:36:28+00:00",
+      "verificationError": "HTTPError"
+    },
+    {
+      "title": "Campus radio",
+      "url": "https://en.wikipedia.org/wiki/Campus_radio",
+      "sourceType": "wikipedia-discovery",
+      "language": "en",
+      "query": "\"Brunei Darussalam\" Hungarian community",
+      "discoveredAt": "2026-10-14T07:35:50+00:00",
+      "status": "candidate",
+      "lastSeenAt": "2026-10-14T07:35:50+00:00",
+      "verificationCheckedAt": "2026-10-14T07:36:28+00:00",
+      "verificationError": "HTTPError"
+    },
+    {
+      "title": "Catholic Church in Brunei",
+      "url": "https://en.wikipedia.org/wiki/Catholic_Church_in_Brunei",
+      "sourceType": "wikipedia-discovery",
+      "language": "en",
+      "query": "\"Brunei Darussalam\" Hungarian community",
+      "discoveredAt": "2026-10-14T07:35:50+00:00",
+      "status": "candidate",
+      "lastSeenAt": "2026-10-14T07:35:50+00:00",
+      "verificationCheckedAt": "2026-10-14T07:36:28+00:00",
+      "verificationError": "HTTPError"
     },
     {
       "title": "Chiochiș",
@@ -174,7 +291,9 @@
       "language": "en",
       "query": "\"BN\" Hungarian church",
       "discoveredAt": "2026-09-30T06:21:12+00:00",
-      "status": "candidate"
+      "status": "candidate",
+      "verificationCheckedAt": "2026-10-14T07:36:28+00:00",
+      "verificationError": "HTTPError"
     },
     {
       "title": "Chiuza",
@@ -183,7 +302,56 @@
       "language": "en",
       "query": "\"BN\" Hungarian church",
       "discoveredAt": "2026-09-30T06:21:12+00:00",
-      "status": "candidate"
+      "status": "candidate",
+      "verificationCheckedAt": "2026-10-14T07:36:28+00:00",
+      "verificationError": "HTTPError"
+    },
+    {
+      "title": "Christianity in Brunei",
+      "url": "https://en.wikipedia.org/wiki/Christianity_in_Brunei",
+      "sourceType": "wikipedia-discovery",
+      "language": "en",
+      "query": "\"Brunei Darussalam\" Hungarian school",
+      "discoveredAt": "2026-10-14T07:35:50+00:00",
+      "status": "candidate",
+      "lastSeenAt": "2026-10-14T07:35:50+00:00",
+      "verificationCheckedAt": "2026-10-14T07:36:28+00:00",
+      "verificationError": "HTTPError"
+    },
+    {
+      "title": "Colonel-in-chief",
+      "url": "https://en.wikipedia.org/wiki/Colonel-in-chief",
+      "sourceType": "wikipedia-discovery",
+      "language": "en",
+      "query": "\"Brunei Darussalam\" Hungarian association",
+      "discoveredAt": "2026-10-14T07:35:50+00:00",
+      "status": "candidate",
+      "lastSeenAt": "2026-10-14T07:35:50+00:00",
+      "verificationCheckedAt": "2026-10-14T07:36:28+00:00",
+      "verificationError": "HTTPError"
+    },
+    {
+      "title": "Corruption in South Korea",
+      "url": "https://en.wikipedia.org/wiki/Corruption_in_South_Korea",
+      "sourceType": "wikipedia-discovery",
+      "language": "en",
+      "query": "\"Brunei Darussalam\" Hungarian church",
+      "discoveredAt": "2026-10-14T07:35:50+00:00",
+      "status": "candidate",
+      "verificationCheckedAt": "2026-10-14T07:36:28+00:00",
+      "verificationError": "HTTPError"
+    },
+    {
+      "title": "Culture of Brunei",
+      "url": "https://en.wikipedia.org/wiki/Culture_of_Brunei",
+      "sourceType": "wikipedia-discovery",
+      "language": "en",
+      "query": "\"Brunei Darussalam\" Hungarian association",
+      "discoveredAt": "2026-10-14T07:35:50+00:00",
+      "status": "candidate",
+      "lastSeenAt": "2026-10-14T07:35:50+00:00",
+      "verificationCheckedAt": "2026-10-14T07:36:28+00:00",
+      "verificationError": "HTTPError"
     },
     {
       "title": "Czárán Gyula",
@@ -192,7 +360,9 @@
       "language": "hu",
       "query": "\"BN\" magyar egyesület",
       "discoveredAt": "2026-09-30T06:21:12+00:00",
-      "status": "candidate"
+      "status": "candidate",
+      "verificationCheckedAt": "2026-10-14T07:36:28+00:00",
+      "verificationError": "HTTPError"
     },
     {
       "title": "December 16",
@@ -201,7 +371,9 @@
       "language": "en",
       "query": "\"BN\" Hungarian school",
       "discoveredAt": "2026-09-30T06:21:12+00:00",
-      "status": "candidate"
+      "status": "candidate",
+      "verificationCheckedAt": "2026-10-14T07:36:28+00:00",
+      "verificationError": "HTTPError"
     },
     {
       "title": "Dežerice",
@@ -210,7 +382,9 @@
       "language": "en",
       "query": "\"BN\" Hungarian church",
       "discoveredAt": "2026-09-30T06:21:12+00:00",
-      "status": "candidate"
+      "status": "candidate",
+      "verificationCheckedAt": "2026-10-14T07:36:28+00:00",
+      "verificationError": "HTTPError"
     },
     {
       "title": "Dumitra",
@@ -219,7 +393,9 @@
       "language": "en",
       "query": "\"BN\" Hungarian church",
       "discoveredAt": "2026-09-30T06:21:12+00:00",
-      "status": "candidate"
+      "status": "candidate",
+      "verificationCheckedAt": "2026-10-14T07:36:28+00:00",
+      "verificationError": "HTTPError"
     },
     {
       "title": "Dvorec",
@@ -228,7 +404,9 @@
       "language": "en",
       "query": "\"BN\" Hungarian church",
       "discoveredAt": "2026-09-30T06:21:12+00:00",
-      "status": "candidate"
+      "status": "candidate",
+      "verificationCheckedAt": "2026-10-14T07:36:28+00:00",
+      "verificationError": "HTTPError"
     },
     {
       "title": "Erkel Gyula",
@@ -237,7 +415,9 @@
       "language": "hu",
       "query": "\"BN\" magyar egyesület",
       "discoveredAt": "2026-09-30T06:21:12+00:00",
-      "status": "candidate"
+      "status": "candidate",
+      "verificationCheckedAt": "2026-10-14T07:36:28+00:00",
+      "verificationError": "HTTPError"
     },
     {
       "title": "Eszperantó Wikipédia",
@@ -246,7 +426,9 @@
       "language": "hu",
       "query": "\"BN\" magyar közösség",
       "discoveredAt": "2026-09-30T06:21:12+00:00",
-      "status": "candidate"
+      "status": "candidate",
+      "verificationCheckedAt": "2026-10-14T07:36:28+00:00",
+      "verificationError": "HTTPError"
     },
     {
       "title": "Feldru",
@@ -255,7 +437,20 @@
       "language": "en",
       "query": "\"BN\" Hungarian church",
       "discoveredAt": "2026-09-30T06:21:12+00:00",
-      "status": "candidate"
+      "status": "candidate",
+      "verificationCheckedAt": "2026-10-14T07:36:28+00:00",
+      "verificationError": "HTTPError"
+    },
+    {
+      "title": "Foreign relations of Brunei",
+      "url": "https://en.wikipedia.org/wiki/Foreign_relations_of_Brunei",
+      "sourceType": "wikipedia-discovery",
+      "language": "en",
+      "query": "\"Brunei Darussalam\" Hungarian school",
+      "discoveredAt": "2026-10-14T07:35:50+00:00",
+      "status": "candidate",
+      "verificationCheckedAt": "2026-10-14T07:36:28+00:00",
+      "verificationError": "HTTPError"
     },
     {
       "title": "Foreign trade of Pakistan",
@@ -264,7 +459,9 @@
       "language": "en",
       "query": "\"BN\" Hungarian association",
       "discoveredAt": "2026-09-30T06:21:12+00:00",
-      "status": "candidate"
+      "status": "candidate",
+      "verificationCheckedAt": "2026-10-14T07:36:28+00:00",
+      "verificationError": "HTTPError"
     },
     {
       "title": "Galgóczy Károly",
@@ -273,7 +470,9 @@
       "language": "hu",
       "query": "\"BN\" magyar egyesület",
       "discoveredAt": "2026-09-30T06:21:12+00:00",
-      "status": "candidate"
+      "status": "candidate",
+      "verificationCheckedAt": "2026-10-14T07:36:28+00:00",
+      "verificationError": "HTTPError"
     },
     {
       "title": "György Kottán",
@@ -282,7 +481,9 @@
       "language": "en",
       "query": "\"BN\" Hungarian association",
       "discoveredAt": "2026-09-30T06:21:12+00:00",
-      "status": "candidate"
+      "status": "candidate",
+      "verificationCheckedAt": "2026-10-14T07:36:28+00:00",
+      "verificationError": "HTTPError"
     },
     {
       "title": "Győr tömegközlekedése",
@@ -291,7 +492,20 @@
       "language": "hu",
       "query": "\"BN\" magyar közösség",
       "discoveredAt": "2026-09-30T06:21:12+00:00",
-      "status": "candidate"
+      "status": "candidate",
+      "verificationCheckedAt": "2026-10-14T07:36:28+00:00",
+      "verificationError": "HTTPError"
+    },
+    {
+      "title": "Heraldic crown",
+      "url": "https://en.wikipedia.org/wiki/Heraldic_crown",
+      "sourceType": "wikipedia-discovery",
+      "language": "en",
+      "query": "\"Brunei Darussalam\" Hungarian church",
+      "discoveredAt": "2026-10-14T07:35:50+00:00",
+      "status": "candidate",
+      "verificationCheckedAt": "2026-10-14T07:36:28+00:00",
+      "verificationError": "HTTPError"
     },
     {
       "title": "Hungarian passport",
@@ -300,7 +514,20 @@
       "language": "en",
       "query": "\"BN\" Hungarian community",
       "discoveredAt": "2026-09-30T06:21:12+00:00",
-      "status": "candidate"
+      "status": "candidate",
+      "verificationCheckedAt": "2026-10-14T07:36:28+00:00",
+      "verificationError": "HTTPError"
+    },
+    {
+      "title": "Időzónák listája",
+      "url": "https://hu.wikipedia.org/wiki/Id%C5%91z%C3%B3n%C3%A1k_list%C3%A1ja",
+      "sourceType": "wikipedia-discovery",
+      "language": "hu",
+      "query": "\"Brunei Darussalam\" magyar egyesület",
+      "discoveredAt": "2026-10-14T07:35:50+00:00",
+      "status": "candidate",
+      "verificationCheckedAt": "2026-10-14T07:36:28+00:00",
+      "verificationError": "HTTPError"
     },
     {
       "title": "Imperial-Royal Landwehr",
@@ -310,7 +537,43 @@
       "query": "\"BN\" Hungarian association",
       "discoveredAt": "2026-09-30T06:21:12+00:00",
       "status": "candidate",
-      "lastSeenAt": "2026-09-30T06:21:12+00:00"
+      "lastSeenAt": "2026-09-30T06:21:12+00:00",
+      "verificationCheckedAt": "2026-10-14T07:36:28+00:00",
+      "verificationError": "HTTPError"
+    },
+    {
+      "title": "Internal Security Department (Brunei)",
+      "url": "https://en.wikipedia.org/wiki/Internal_Security_Department_%28Brunei%29",
+      "sourceType": "wikipedia-discovery",
+      "language": "en",
+      "query": "\"Brunei Darussalam\" Hungarian community",
+      "discoveredAt": "2026-10-14T07:35:50+00:00",
+      "status": "candidate",
+      "verificationCheckedAt": "2026-10-14T07:36:28+00:00",
+      "verificationError": "HTTPError"
+    },
+    {
+      "title": "Iszlám Konferencia Szervezete",
+      "url": "https://hu.wikipedia.org/wiki/Iszl%C3%A1m_Konferencia_Szervezete",
+      "sourceType": "wikipedia-discovery",
+      "language": "hu",
+      "query": "\"Brunei Darussalam\" magyar egyesület",
+      "discoveredAt": "2026-10-14T07:35:50+00:00",
+      "status": "candidate",
+      "lastSeenAt": "2026-10-14T07:35:50+00:00",
+      "verificationCheckedAt": "2026-10-14T07:36:28+00:00",
+      "verificationError": "HTTPError"
+    },
+    {
+      "title": "July",
+      "url": "https://en.wikipedia.org/wiki/July",
+      "sourceType": "wikipedia-discovery",
+      "language": "en",
+      "query": "\"Brunei Darussalam\" Hungarian church",
+      "discoveredAt": "2026-10-14T07:35:50+00:00",
+      "status": "candidate",
+      "verificationCheckedAt": "2026-10-14T07:36:28+00:00",
+      "verificationError": "HTTPError"
     },
     {
       "title": "KMKK Középkelet-magyarországi Közlekedési Központ",
@@ -319,7 +582,9 @@
       "language": "hu",
       "query": "\"BN\" magyar közösség",
       "discoveredAt": "2026-09-30T06:21:12+00:00",
-      "status": "candidate"
+      "status": "candidate",
+      "verificationCheckedAt": "2026-10-14T07:36:28+00:00",
+      "verificationError": "HTTPError"
     },
     {
       "title": "Kisalföld Volán",
@@ -328,7 +593,21 @@
       "language": "hu",
       "query": "\"BN\" magyar közösség",
       "discoveredAt": "2026-09-30T06:21:12+00:00",
-      "status": "candidate"
+      "status": "candidate",
+      "verificationCheckedAt": "2026-10-14T07:36:28+00:00",
+      "verificationError": "HTTPError"
+    },
+    {
+      "title": "Koszovó függetlenségét elismerő országok",
+      "url": "https://hu.wikipedia.org/wiki/Koszov%C3%B3_f%C3%BCggetlens%C3%A9g%C3%A9t_elismer%C5%91_orsz%C3%A1gok",
+      "sourceType": "wikipedia-discovery",
+      "language": "hu",
+      "query": "\"Brunei Darussalam\" magyar egyesület",
+      "discoveredAt": "2026-10-14T07:35:50+00:00",
+      "status": "candidate",
+      "lastSeenAt": "2026-10-14T07:35:50+00:00",
+      "verificationCheckedAt": "2026-10-14T07:36:28+00:00",
+      "verificationError": "HTTPError"
     },
     {
       "title": "List of Bangladeshi films of 2014",
@@ -337,7 +616,64 @@
       "language": "en",
       "query": "\"BN\" Hungarian association",
       "discoveredAt": "2026-09-30T06:21:12+00:00",
-      "status": "candidate"
+      "status": "candidate",
+      "verificationCheckedAt": "2026-10-14T07:36:28+00:00",
+      "verificationError": "HTTPError"
+    },
+    {
+      "title": "List of alumni of Sandhurst",
+      "url": "https://en.wikipedia.org/wiki/List_of_alumni_of_Sandhurst",
+      "sourceType": "wikipedia-discovery",
+      "language": "en",
+      "query": "\"Brunei Darussalam\" Hungarian community",
+      "discoveredAt": "2026-10-14T07:35:50+00:00",
+      "status": "candidate",
+      "verificationCheckedAt": "2026-10-14T07:36:28+00:00",
+      "verificationError": "HTTPError"
+    },
+    {
+      "title": "List of circulating currencies",
+      "url": "https://en.wikipedia.org/wiki/List_of_circulating_currencies",
+      "sourceType": "wikipedia-discovery",
+      "language": "en",
+      "query": "\"Brunei Darussalam\" Hungarian association",
+      "discoveredAt": "2026-10-14T07:35:50+00:00",
+      "status": "candidate",
+      "verificationCheckedAt": "2026-10-14T07:36:28+00:00",
+      "verificationError": "HTTPError"
+    },
+    {
+      "title": "List of diplomatic missions in Taiwan",
+      "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_missions_in_Taiwan",
+      "sourceType": "wikipedia-discovery",
+      "language": "en",
+      "query": "\"Brunei Darussalam\" Hungarian association",
+      "discoveredAt": "2026-10-14T07:35:50+00:00",
+      "status": "candidate",
+      "verificationCheckedAt": "2026-10-14T07:36:28+00:00",
+      "verificationError": "HTTPError"
+    },
+    {
+      "title": "List of diplomatic missions of Brunei",
+      "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_missions_of_Brunei",
+      "sourceType": "wikipedia-discovery",
+      "language": "en",
+      "query": "\"Brunei Darussalam\" Hungarian association",
+      "discoveredAt": "2026-10-14T07:35:50+00:00",
+      "status": "candidate",
+      "verificationCheckedAt": "2026-10-14T07:36:28+00:00",
+      "verificationError": "HTTPError"
+    },
+    {
+      "title": "List of national anti-doping organizations",
+      "url": "https://en.wikipedia.org/wiki/List_of_national_anti-doping_organizations",
+      "sourceType": "wikipedia-discovery",
+      "language": "en",
+      "query": "\"Brunei Darussalam\" Hungarian community",
+      "discoveredAt": "2026-10-14T07:35:50+00:00",
+      "status": "candidate",
+      "verificationCheckedAt": "2026-10-14T07:36:28+00:00",
+      "verificationError": "HTTPError"
     },
     {
       "title": "Matir Moina",
@@ -347,7 +683,31 @@
       "query": "\"BN\" Hungarian association",
       "discoveredAt": "2026-09-30T06:21:12+00:00",
       "status": "candidate",
-      "lastSeenAt": "2026-09-30T06:21:12+00:00"
+      "lastSeenAt": "2026-09-30T06:21:12+00:00",
+      "verificationCheckedAt": "2026-10-14T07:36:28+00:00",
+      "verificationError": "HTTPError"
+    },
+    {
+      "title": "National Paralympic Committee",
+      "url": "https://en.wikipedia.org/wiki/National_Paralympic_Committee",
+      "sourceType": "wikipedia-discovery",
+      "language": "en",
+      "query": "\"Brunei Darussalam\" Hungarian association",
+      "discoveredAt": "2026-10-14T07:35:50+00:00",
+      "status": "candidate",
+      "verificationCheckedAt": "2026-10-14T07:36:28+00:00",
+      "verificationError": "HTTPError"
+    },
+    {
+      "title": "Nemzeti mottók listája",
+      "url": "https://hu.wikipedia.org/wiki/Nemzeti_mott%C3%B3k_list%C3%A1ja",
+      "sourceType": "wikipedia-discovery",
+      "language": "hu",
+      "query": "\"Brunei Darussalam\" magyar egyesület",
+      "discoveredAt": "2026-10-14T07:35:50+00:00",
+      "status": "candidate",
+      "verificationCheckedAt": "2026-10-14T07:36:28+00:00",
+      "verificationError": "HTTPError"
     },
     {
       "title": "October 26",
@@ -356,7 +716,21 @@
       "language": "en",
       "query": "\"BN\" Hungarian association",
       "discoveredAt": "2026-09-30T06:21:12+00:00",
-      "status": "candidate"
+      "status": "candidate",
+      "verificationCheckedAt": "2026-10-14T07:36:28+00:00",
+      "verificationError": "HTTPError"
+    },
+    {
+      "title": "Országok és területek listája",
+      "url": "https://hu.wikipedia.org/wiki/Orsz%C3%A1gok_%C3%A9s_ter%C3%BCletek_list%C3%A1ja",
+      "sourceType": "wikipedia-discovery",
+      "language": "hu",
+      "query": "\"Brunei Darussalam\" magyar egyesület",
+      "discoveredAt": "2026-10-14T07:35:50+00:00",
+      "status": "candidate",
+      "lastSeenAt": "2026-10-14T07:35:50+00:00",
+      "verificationCheckedAt": "2026-10-14T07:36:28+00:00",
+      "verificationError": "HTTPError"
     },
     {
       "title": "Papp Dániel (író)",
@@ -365,7 +739,9 @@
       "language": "hu",
       "query": "\"BN\" magyar egyesület",
       "discoveredAt": "2026-09-30T06:21:12+00:00",
-      "status": "candidate"
+      "status": "candidate",
+      "verificationCheckedAt": "2026-10-14T07:36:28+00:00",
+      "verificationError": "HTTPError"
     },
     {
       "title": "Project Lingua",
@@ -374,7 +750,9 @@
       "language": "en",
       "query": "\"BN\" Hungarian community",
       "discoveredAt": "2026-09-30T06:21:12+00:00",
-      "status": "candidate"
+      "status": "candidate",
+      "verificationCheckedAt": "2026-10-14T07:36:28+00:00",
+      "verificationError": "HTTPError"
     },
     {
       "title": "Prundu Bârgăului",
@@ -383,7 +761,9 @@
       "language": "en",
       "query": "\"BN\" Hungarian school",
       "discoveredAt": "2026-09-30T06:21:12+00:00",
-      "status": "candidate"
+      "status": "candidate",
+      "verificationCheckedAt": "2026-10-14T07:36:28+00:00",
+      "verificationError": "HTTPError"
     },
     {
       "title": "Robbie Keane",
@@ -392,7 +772,9 @@
       "language": "en",
       "query": "\"BN\" Hungarian association",
       "discoveredAt": "2026-09-30T06:21:12+00:00",
-      "status": "candidate"
+      "status": "candidate",
+      "verificationCheckedAt": "2026-10-14T07:36:28+00:00",
+      "verificationError": "HTTPError"
     },
     {
       "title": "Ruffy Pál",
@@ -401,7 +783,9 @@
       "language": "hu",
       "query": "\"BN\" magyar egyesület",
       "discoveredAt": "2026-09-30T06:21:12+00:00",
-      "status": "candidate"
+      "status": "candidate",
+      "verificationCheckedAt": "2026-10-14T07:36:28+00:00",
+      "verificationError": "HTTPError"
     },
     {
       "title": "Siklódy Lőrinc",
@@ -410,7 +794,44 @@
       "language": "hu",
       "query": "\"BN\" magyar cserkész",
       "discoveredAt": "2026-09-30T06:21:12+00:00",
-      "status": "candidate"
+      "status": "candidate",
+      "verificationCheckedAt": "2026-10-14T07:36:28+00:00",
+      "verificationError": "HTTPError"
+    },
+    {
+      "title": "Singapore dollar",
+      "url": "https://en.wikipedia.org/wiki/Singapore_dollar",
+      "sourceType": "wikipedia-discovery",
+      "language": "en",
+      "query": "\"Brunei Darussalam\" Hungarian community",
+      "discoveredAt": "2026-10-14T07:35:50+00:00",
+      "status": "candidate",
+      "lastSeenAt": "2026-10-14T07:35:50+00:00",
+      "verificationCheckedAt": "2026-10-14T07:36:28+00:00",
+      "verificationError": "HTTPError"
+    },
+    {
+      "title": "Sport in Brunei",
+      "url": "https://en.wikipedia.org/wiki/Sport_in_Brunei",
+      "sourceType": "wikipedia-discovery",
+      "language": "en",
+      "query": "\"Brunei Darussalam\" Hungarian association",
+      "discoveredAt": "2026-10-14T07:35:50+00:00",
+      "status": "candidate",
+      "lastSeenAt": "2026-10-14T07:35:50+00:00",
+      "verificationCheckedAt": "2026-10-14T07:36:28+00:00",
+      "verificationError": "HTTPError"
+    },
+    {
+      "title": "State religion",
+      "url": "https://en.wikipedia.org/wiki/State_religion",
+      "sourceType": "wikipedia-discovery",
+      "language": "en",
+      "query": "\"Brunei Darussalam\" Hungarian church",
+      "discoveredAt": "2026-10-14T07:35:50+00:00",
+      "status": "candidate",
+      "verificationCheckedAt": "2026-10-14T07:36:28+00:00",
+      "verificationError": "HTTPError"
     },
     {
       "title": "Szolnok tömegközlekedése",
@@ -419,7 +840,9 @@
       "language": "hu",
       "query": "\"BN\" magyar közösség",
       "discoveredAt": "2026-09-30T06:21:12+00:00",
-      "status": "candidate"
+      "status": "candidate",
+      "verificationCheckedAt": "2026-10-14T07:36:28+00:00",
+      "verificationError": "HTTPError"
     },
     {
       "title": "Szűcs László (költő)",
@@ -428,7 +851,9 @@
       "language": "hu",
       "query": "\"BN\" magyar egyesület",
       "discoveredAt": "2026-09-30T06:21:12+00:00",
-      "status": "candidate"
+      "status": "candidate",
+      "verificationCheckedAt": "2026-10-14T07:36:28+00:00",
+      "verificationError": "HTTPError"
     },
     {
       "title": "Tompa Ferenc",
@@ -437,7 +862,9 @@
       "language": "hu",
       "query": "\"BN\" magyar egyesület",
       "discoveredAt": "2026-09-30T06:21:12+00:00",
-      "status": "candidate"
+      "status": "candidate",
+      "verificationCheckedAt": "2026-10-14T07:36:28+00:00",
+      "verificationError": "HTTPError"
     },
     {
       "title": "Téry Ödön (turistamozgalom-szervező)",
@@ -446,7 +873,20 @@
       "language": "hu",
       "query": "\"BN\" magyar egyesület",
       "discoveredAt": "2026-09-30T06:21:12+00:00",
-      "status": "candidate"
+      "status": "candidate",
+      "verificationCheckedAt": "2026-10-14T07:36:28+00:00",
+      "verificationError": "URLError"
+    },
+    {
+      "title": "UTC+08:00",
+      "url": "https://hu.wikipedia.org/wiki/UTC%2B08%3A00",
+      "sourceType": "wikipedia-discovery",
+      "language": "hu",
+      "query": "\"Brunei Darussalam\" magyar egyesület",
+      "discoveredAt": "2026-10-14T07:35:50+00:00",
+      "status": "candidate",
+      "verificationCheckedAt": "2026-10-14T07:36:28+00:00",
+      "verificationError": "HTTPError"
     },
     {
       "title": "Uhrovec",
@@ -456,7 +896,9 @@
       "query": "\"BN\" Hungarian school",
       "discoveredAt": "2026-09-30T06:21:12+00:00",
       "status": "candidate",
-      "lastSeenAt": "2026-09-30T06:21:12+00:00"
+      "lastSeenAt": "2026-09-30T06:21:12+00:00",
+      "verificationCheckedAt": "2026-10-14T07:36:28+00:00",
+      "verificationError": "HTTPError"
     },
     {
       "title": "Yugoslav passport",
@@ -465,7 +907,9 @@
       "language": "en",
       "query": "\"BN\" Hungarian community",
       "discoveredAt": "2026-09-30T06:21:12+00:00",
-      "status": "candidate"
+      "status": "candidate",
+      "verificationCheckedAt": "2026-10-14T07:36:28+00:00",
+      "verificationError": "HTTPError"
     },
     {
       "title": "Șieuț",
@@ -474,8 +918,20 @@
       "language": "en",
       "query": "\"BN\" Hungarian community",
       "discoveredAt": "2026-09-30T06:21:12+00:00",
-      "status": "candidate"
+      "status": "rejected-low-signal",
+      "verificationCheckedAt": "2026-10-14T07:36:28+00:00",
+      "verificationScore": 0,
+      "firstPartyCandidates": [
+        "https://geohack.toolforge.org/geohack.php?pagename=%C8%98ieu%C8%9B&params=46_59_N_24_39_E_region:RO",
+        "https://geohack.toolforge.org/geohack.php?pagename=%C8%98ieu%C8%9B&params=46_59_N_24_39_E_region:RO_type:adm1st_dim:100000",
+        "https://www.primariasieut.ro/",
+        "https://www.recensamantromania.ro/rezultate-rpl-2021/rezultate-definitive-caracteristici-demografice/"
+      ],
+      "entitySignal": false,
+      "countrySignal": false,
+      "hungarianSignal": true
     }
   ],
-  "errors": []
+  "errors": [],
+  "verificationUpdated": "2026-10-14T07:36:28+00:00"
 }

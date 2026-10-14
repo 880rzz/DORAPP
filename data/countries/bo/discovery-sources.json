@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-30T06:21:12+00:00",
+  "updated": "2026-10-14T07:35:50+00:00",
   "country": "bo",
   "researchRole": "secondary discovery only; candidates require first-party verification before publication",
   "sources": [
@@ -10,7 +10,55 @@
       "language": "hu",
       "query": "\"BO\" magyar cserkész",
       "discoveredAt": "2026-09-30T06:21:12+00:00",
-      "status": "candidate"
+      "status": "rejected-low-signal",
+      "verificationCheckedAt": "2026-10-14T07:36:28+00:00",
+      "verificationScore": 1,
+      "firstPartyCandidates": [
+        "http://www.foldrenges.hu/index.php?option=com_content&view=article&id=35:1956-januar-12-dunaharaszti-m56-imaxviii&catid=3:jelents-hazai-foeldrengesek&Itemid=11",
+        "https://adt.arcanum.com/hu/view/Historia_1990/?pg=150&layout=s",
+        "https://epa.oszk.hu/00000/00018/00082/pdf/EPA00018_hadtortenelmi_1996_03_029-066.pdf",
+        "https://epa.oszk.hu/01200/01268/00005/barath_magdolna.htm",
+        "https://epa.oszk.hu/01200/01268/00012/lupkovics_gyorgy.htm",
+        "https://epa.oszk.hu/02100/02176/00002/pdf/RTF_16_025-032.pdf",
+        "https://epa.oszk.hu/02200/02288/00027/pdf/Evkonyv56_07_1999_095-108.pdf",
+        "https://epa.oszk.hu/03100/03122/00033/pdf/EPA03122_rubicon_2019_02-03_066-071.pdf"
+      ],
+      "entitySignal": false,
+      "countrySignal": false,
+      "hungarianSignal": false
+    },
+    {
+      "title": "1997 in association football",
+      "url": "https://en.wikipedia.org/wiki/1997_in_association_football",
+      "sourceType": "wikipedia-discovery",
+      "language": "en",
+      "query": "\"Bolivia\" Hungarian association",
+      "discoveredAt": "2026-10-14T07:35:50+00:00",
+      "status": "candidate",
+      "verificationCheckedAt": "2026-10-14T07:36:28+00:00",
+      "verificationError": "HTTPError"
+    },
+    {
+      "title": "2003 in association football",
+      "url": "https://en.wikipedia.org/wiki/2003_in_association_football",
+      "sourceType": "wikipedia-discovery",
+      "language": "en",
+      "query": "\"Bolivia\" Hungarian association",
+      "discoveredAt": "2026-10-14T07:35:50+00:00",
+      "status": "candidate",
+      "verificationCheckedAt": "2026-10-14T07:36:28+00:00",
+      "verificationError": "HTTPError"
+    },
+    {
+      "title": "Ajmara nyelv",
+      "url": "https://hu.wikipedia.org/wiki/Ajmara_nyelv",
+      "sourceType": "wikipedia-discovery",
+      "language": "hu",
+      "query": "\"Bolivia\" magyar közösség",
+      "discoveredAt": "2026-10-14T07:35:50+00:00",
+      "status": "candidate",
+      "verificationCheckedAt": "2026-10-14T07:36:28+00:00",
+      "verificationError": "HTTPError"
     },
     {
       "title": "Alex Borstein",
@@ -19,7 +67,31 @@
       "language": "en",
       "query": "\"BO\" Hungarian school",
       "discoveredAt": "2026-09-30T06:21:12+00:00",
-      "status": "candidate"
+      "status": "candidate",
+      "verificationCheckedAt": "2026-10-14T07:36:28+00:00",
+      "verificationError": "HTTPError"
+    },
+    {
+      "title": "Angelo rulez",
+      "url": "https://hu.wikipedia.org/wiki/Angelo_rulez",
+      "sourceType": "wikipedia-discovery",
+      "language": "hu",
+      "query": "\"Bolivia\" magyar iskola",
+      "discoveredAt": "2026-10-14T07:35:50+00:00",
+      "status": "candidate",
+      "verificationCheckedAt": "2026-10-14T07:36:28+00:00",
+      "verificationError": "HTTPError"
+    },
+    {
+      "title": "Apostolic Nunciature to Hungary",
+      "url": "https://en.wikipedia.org/wiki/Apostolic_Nunciature_to_Hungary",
+      "sourceType": "wikipedia-discovery",
+      "language": "en",
+      "query": "\"Bolivia\" Hungarian church",
+      "discoveredAt": "2026-10-14T07:35:50+00:00",
+      "status": "candidate",
+      "verificationCheckedAt": "2026-10-14T07:36:28+00:00",
+      "verificationError": "HTTPError"
     },
     {
       "title": "Archdiocese of Esztergom–Budapest",
@@ -28,7 +100,9 @@
       "language": "en",
       "query": "\"BO\" Hungarian church",
       "discoveredAt": "2026-09-30T06:21:12+00:00",
-      "status": "candidate"
+      "status": "candidate",
+      "verificationCheckedAt": "2026-10-14T07:36:28+00:00",
+      "verificationError": "HTTPError"
     },
     {
       "title": "Balázsi Gyula",
@@ -37,7 +111,9 @@
       "language": "hu",
       "query": "\"BO\" magyar cserkész",
       "discoveredAt": "2026-09-30T06:21:12+00:00",
-      "status": "candidate"
+      "status": "candidate",
+      "verificationCheckedAt": "2026-10-14T07:36:28+00:00",
+      "verificationError": "HTTPError"
     },
     {
       "title": "Ben Affleck",
@@ -46,7 +122,9 @@
       "language": "hu",
       "query": "\"BO\" magyar iskola",
       "discoveredAt": "2026-09-30T06:21:12+00:00",
-      "status": "candidate"
+      "status": "candidate",
+      "verificationCheckedAt": "2026-10-14T07:36:28+00:00",
+      "verificationError": "HTTPError"
     },
     {
       "title": "Bey",
@@ -55,7 +133,9 @@
       "language": "en",
       "query": "\"BO\" Hungarian community",
       "discoveredAt": "2026-09-30T06:21:12+00:00",
-      "status": "candidate"
+      "status": "candidate",
+      "verificationCheckedAt": "2026-10-14T07:36:28+00:00",
+      "verificationError": "HTTPError"
     },
     {
       "title": "Bo",
@@ -64,7 +144,9 @@
       "language": "en",
       "query": "\"BO\" Hungarian school",
       "discoveredAt": "2026-09-30T06:21:12+00:00",
-      "status": "candidate"
+      "status": "candidate",
+      "verificationCheckedAt": "2026-10-14T07:36:28+00:00",
+      "verificationError": "HTTPError"
     },
     {
       "title": "Bo Karlsson",
@@ -73,7 +155,9 @@
       "language": "hu",
       "query": "\"BO\" magyar egyesület",
       "discoveredAt": "2026-09-30T06:21:12+00:00",
-      "status": "candidate"
+      "status": "candidate",
+      "verificationCheckedAt": "2026-10-14T07:36:28+00:00",
+      "verificationError": "HTTPError"
     },
     {
       "title": "Bogdányi Titanilla",
@@ -82,7 +166,56 @@
       "language": "hu",
       "query": "\"BO\" magyar iskola",
       "discoveredAt": "2026-09-30T06:21:12+00:00",
-      "status": "candidate"
+      "status": "candidate",
+      "verificationCheckedAt": "2026-10-14T07:36:28+00:00",
+      "verificationError": "HTTPError"
+    },
+    {
+      "title": "Bolivian Americans",
+      "url": "https://en.wikipedia.org/wiki/Bolivian_Americans",
+      "sourceType": "wikipedia-discovery",
+      "language": "en",
+      "query": "\"Bolivia\" Hungarian community",
+      "discoveredAt": "2026-10-14T07:35:50+00:00",
+      "status": "candidate",
+      "lastSeenAt": "2026-10-14T07:35:50+00:00",
+      "verificationCheckedAt": "2026-10-14T07:36:28+00:00",
+      "verificationError": "HTTPError"
+    },
+    {
+      "title": "Bolivian Socialist Falange",
+      "url": "https://en.wikipedia.org/wiki/Bolivian_Socialist_Falange",
+      "sourceType": "wikipedia-discovery",
+      "language": "en",
+      "query": "\"Bolivia\" Hungarian association",
+      "discoveredAt": "2026-10-14T07:35:50+00:00",
+      "status": "candidate",
+      "lastSeenAt": "2026-10-14T07:35:50+00:00",
+      "verificationCheckedAt": "2026-10-14T07:36:28+00:00",
+      "verificationError": "HTTPError"
+    },
+    {
+      "title": "Bolívia",
+      "url": "https://hu.wikipedia.org/wiki/Bol%C3%ADvia",
+      "sourceType": "wikipedia-discovery",
+      "language": "hu",
+      "query": "\"Bolivia\" magyar egyesület",
+      "discoveredAt": "2026-10-14T07:35:50+00:00",
+      "status": "candidate",
+      "lastSeenAt": "2026-10-14T07:35:50+00:00",
+      "verificationCheckedAt": "2026-10-14T07:36:28+00:00",
+      "verificationError": "HTTPError"
+    },
+    {
+      "title": "Bruno Pascua",
+      "url": "https://en.wikipedia.org/wiki/Bruno_Pascua",
+      "sourceType": "wikipedia-discovery",
+      "language": "en",
+      "query": "\"Bolivia\" Hungarian association",
+      "discoveredAt": "2026-10-14T07:35:50+00:00",
+      "status": "candidate",
+      "verificationCheckedAt": "2026-10-14T07:36:28+00:00",
+      "verificationError": "HTTPError"
     },
     {
       "title": "Buddhista szójegyzék",
@@ -92,7 +225,9 @@
       "query": "\"BO\" magyar közösség",
       "discoveredAt": "2026-09-30T06:21:12+00:00",
       "status": "candidate",
-      "lastSeenAt": "2026-09-30T06:21:12+00:00"
+      "lastSeenAt": "2026-09-30T06:21:12+00:00",
+      "verificationCheckedAt": "2026-10-14T07:36:28+00:00",
+      "verificationError": "HTTPError"
     },
     {
       "title": "Béla Tarr",
@@ -101,7 +236,9 @@
       "language": "en",
       "query": "\"BO\" Hungarian school",
       "discoveredAt": "2026-09-30T06:21:12+00:00",
-      "status": "candidate"
+      "status": "candidate",
+      "verificationCheckedAt": "2026-10-14T07:36:28+00:00",
+      "verificationError": "HTTPError"
     },
     {
       "title": "Béla von Kehrling",
@@ -110,7 +247,9 @@
       "language": "en",
       "query": "\"BO\" Hungarian association",
       "discoveredAt": "2026-09-30T06:21:12+00:00",
-      "status": "candidate"
+      "status": "candidate",
+      "verificationCheckedAt": "2026-10-14T07:36:28+00:00",
+      "verificationError": "HTTPError"
     },
     {
       "title": "Bódhifa",
@@ -119,7 +258,9 @@
       "language": "hu",
       "query": "\"BO\" magyar egyesület",
       "discoveredAt": "2026-09-30T06:21:12+00:00",
-      "status": "candidate"
+      "status": "candidate",
+      "verificationCheckedAt": "2026-10-14T07:36:28+00:00",
+      "verificationError": "HTTPError"
     },
     {
       "title": "Bő (genus)",
@@ -128,7 +269,53 @@
       "language": "en",
       "query": "\"BO\" Hungarian church",
       "discoveredAt": "2026-09-30T06:21:12+00:00",
-      "status": "candidate"
+      "status": "candidate",
+      "verificationCheckedAt": "2026-10-14T07:36:28+00:00",
+      "verificationError": "HTTPError"
+    },
+    {
+      "title": "Catholic Church in Hungary",
+      "url": "https://en.wikipedia.org/wiki/Catholic_Church_in_Hungary",
+      "sourceType": "wikipedia-discovery",
+      "language": "en",
+      "query": "\"Bolivia\" Hungarian church",
+      "discoveredAt": "2026-10-14T07:35:50+00:00",
+      "status": "candidate",
+      "verificationCheckedAt": "2026-10-14T07:36:28+00:00",
+      "verificationError": "HTTPError"
+    },
+    {
+      "title": "Catholic Church in Serbia",
+      "url": "https://en.wikipedia.org/wiki/Catholic_Church_in_Serbia",
+      "sourceType": "wikipedia-discovery",
+      "language": "en",
+      "query": "\"Bolivia\" Hungarian church",
+      "discoveredAt": "2026-10-14T07:35:50+00:00",
+      "status": "candidate",
+      "verificationCheckedAt": "2026-10-14T07:36:28+00:00",
+      "verificationError": "HTTPError"
+    },
+    {
+      "title": "Damian Lewis",
+      "url": "https://hu.wikipedia.org/wiki/Damian_Lewis",
+      "sourceType": "wikipedia-discovery",
+      "language": "hu",
+      "query": "\"Bolivia\" magyar iskola",
+      "discoveredAt": "2026-10-14T07:35:50+00:00",
+      "status": "candidate",
+      "verificationCheckedAt": "2026-10-14T07:36:28+00:00",
+      "verificationError": "HTTPError"
+    },
+    {
+      "title": "David Mateos",
+      "url": "https://en.wikipedia.org/wiki/David_Mateos",
+      "sourceType": "wikipedia-discovery",
+      "language": "en",
+      "query": "\"Bolivia\" Hungarian association",
+      "discoveredAt": "2026-10-14T07:35:50+00:00",
+      "status": "candidate",
+      "verificationCheckedAt": "2026-10-14T07:36:28+00:00",
+      "verificationError": "HTTPError"
     },
     {
       "title": "December 5.",
@@ -137,7 +324,9 @@
       "language": "hu",
       "query": "\"BO\" magyar egyesület",
       "discoveredAt": "2026-09-30T06:21:12+00:00",
-      "status": "candidate"
+      "status": "candidate",
+      "verificationCheckedAt": "2026-10-14T07:36:28+00:00",
+      "verificationError": "HTTPError"
     },
     {
       "title": "Denmark–Hungary relations",
@@ -146,7 +335,9 @@
       "language": "en",
       "query": "\"BO\" Hungarian association",
       "discoveredAt": "2026-09-30T06:21:12+00:00",
-      "status": "candidate"
+      "status": "candidate",
+      "verificationCheckedAt": "2026-10-14T07:36:28+00:00",
+      "verificationError": "HTTPError"
     },
     {
       "title": "Dominik Szoboszlai",
@@ -156,7 +347,31 @@
       "query": "\"BO\" Hungarian association",
       "discoveredAt": "2026-09-30T06:21:12+00:00",
       "status": "candidate",
-      "lastSeenAt": "2026-09-30T06:21:12+00:00"
+      "lastSeenAt": "2026-09-30T06:21:12+00:00",
+      "verificationCheckedAt": "2026-10-14T07:36:28+00:00",
+      "verificationError": "HTTPError"
+    },
+    {
+      "title": "Eduardo Rózsa-Flores",
+      "url": "https://en.wikipedia.org/wiki/Eduardo_R%C3%B3zsa-Flores",
+      "sourceType": "wikipedia-discovery",
+      "language": "en",
+      "query": "\"Bolivia\" Hungarian school",
+      "discoveredAt": "2026-10-14T07:35:50+00:00",
+      "status": "candidate",
+      "verificationCheckedAt": "2026-10-14T07:36:28+00:00",
+      "verificationError": "HTTPError"
+    },
+    {
+      "title": "Elevenses",
+      "url": "https://en.wikipedia.org/wiki/Elevenses",
+      "sourceType": "wikipedia-discovery",
+      "language": "en",
+      "query": "\"Bolivia\" Hungarian school",
+      "discoveredAt": "2026-10-14T07:35:50+00:00",
+      "status": "candidate",
+      "verificationCheckedAt": "2026-10-14T07:36:28+00:00",
+      "verificationError": "HTTPError"
     },
     {
       "title": "Enying",
@@ -165,7 +380,9 @@
       "language": "hu",
       "query": "\"BO\" magyar iskola",
       "discoveredAt": "2026-09-30T06:21:12+00:00",
-      "status": "candidate"
+      "status": "candidate",
+      "verificationCheckedAt": "2026-10-14T07:36:28+00:00",
+      "verificationError": "HTTPError"
     },
     {
       "title": "Ernie Hudson",
@@ -174,7 +391,9 @@
       "language": "hu",
       "query": "\"BO\" magyar cserkész",
       "discoveredAt": "2026-09-30T06:21:12+00:00",
-      "status": "candidate"
+      "status": "candidate",
+      "verificationCheckedAt": "2026-10-14T07:36:28+00:00",
+      "verificationError": "HTTPError"
     },
     {
       "title": "Eszperantó nyelv",
@@ -183,7 +402,55 @@
       "language": "hu",
       "query": "\"BO\" magyar cserkész",
       "discoveredAt": "2026-09-30T06:21:12+00:00",
-      "status": "candidate"
+      "status": "candidate",
+      "verificationCheckedAt": "2026-10-14T07:36:28+00:00",
+      "verificationError": "HTTPError"
+    },
+    {
+      "title": "Falangism in Latin America",
+      "url": "https://en.wikipedia.org/wiki/Falangism_in_Latin_America",
+      "sourceType": "wikipedia-discovery",
+      "language": "en",
+      "query": "\"Bolivia\" Hungarian school",
+      "discoveredAt": "2026-10-14T07:35:50+00:00",
+      "status": "candidate",
+      "verificationCheckedAt": "2026-10-14T07:36:28+00:00",
+      "verificationError": "HTTPError"
+    },
+    {
+      "title": "Farkas Endre (katonatiszt)",
+      "url": "https://hu.wikipedia.org/wiki/Farkas_Endre_%28katonatiszt%29",
+      "sourceType": "wikipedia-discovery",
+      "language": "hu",
+      "query": "\"Bolivia\" magyar egyesület",
+      "discoveredAt": "2026-10-14T07:35:50+00:00",
+      "status": "candidate",
+      "lastSeenAt": "2026-10-14T07:35:50+00:00",
+      "verificationCheckedAt": "2026-10-14T07:36:28+00:00",
+      "verificationError": "HTTPError"
+    },
+    {
+      "title": "Fascism in South America",
+      "url": "https://en.wikipedia.org/wiki/Fascism_in_South_America",
+      "sourceType": "wikipedia-discovery",
+      "language": "en",
+      "query": "\"Bolivia\" Hungarian community",
+      "discoveredAt": "2026-10-14T07:35:50+00:00",
+      "status": "candidate",
+      "lastSeenAt": "2026-10-14T07:35:50+00:00",
+      "verificationCheckedAt": "2026-10-14T07:36:28+00:00",
+      "verificationError": "HTTPError"
+    },
+    {
+      "title": "Foreign relations of Georgia",
+      "url": "https://en.wikipedia.org/wiki/Foreign_relations_of_Georgia",
+      "sourceType": "wikipedia-discovery",
+      "language": "en",
+      "query": "\"Bolivia\" Hungarian community",
+      "discoveredAt": "2026-10-14T07:35:50+00:00",
+      "status": "candidate",
+      "verificationCheckedAt": "2026-10-14T07:36:28+00:00",
+      "verificationError": "HTTPError"
     },
     {
       "title": "Gugelhupf",
@@ -192,7 +459,9 @@
       "language": "en",
       "query": "\"BO\" Hungarian community",
       "discoveredAt": "2026-09-30T06:21:12+00:00",
-      "status": "candidate"
+      "status": "candidate",
+      "verificationCheckedAt": "2026-10-14T07:36:28+00:00",
+      "verificationError": "HTTPError"
     },
     {
       "title": "Győri ETO KC",
@@ -201,7 +470,9 @@
       "language": "en",
       "query": "\"BO\" Hungarian community",
       "discoveredAt": "2026-09-30T06:21:12+00:00",
-      "status": "candidate"
+      "status": "candidate",
+      "verificationCheckedAt": "2026-10-14T07:36:28+00:00",
+      "verificationError": "HTTPError"
     },
     {
       "title": "Gábor Gergely",
@@ -210,7 +481,20 @@
       "language": "en",
       "query": "\"BO\" Hungarian association",
       "discoveredAt": "2026-09-30T06:21:12+00:00",
-      "status": "candidate"
+      "status": "candidate",
+      "verificationCheckedAt": "2026-10-14T07:36:28+00:00",
+      "verificationError": "HTTPError"
+    },
+    {
+      "title": "Gábor Pintér",
+      "url": "https://en.wikipedia.org/wiki/G%C3%A1bor_Pint%C3%A9r",
+      "sourceType": "wikipedia-discovery",
+      "language": "en",
+      "query": "\"Bolivia\" Hungarian church",
+      "discoveredAt": "2026-10-14T07:35:50+00:00",
+      "status": "candidate",
+      "verificationCheckedAt": "2026-10-14T07:36:28+00:00",
+      "verificationError": "HTTPError"
     },
     {
       "title": "Halle Berry",
@@ -219,7 +503,9 @@
       "language": "hu",
       "query": "\"BO\" magyar cserkész",
       "discoveredAt": "2026-09-30T06:21:12+00:00",
-      "status": "candidate"
+      "status": "candidate",
+      "verificationCheckedAt": "2026-10-14T07:36:28+00:00",
+      "verificationError": "HTTPError"
     },
     {
       "title": "Harsányi Gábor (színművész)",
@@ -229,7 +515,9 @@
       "query": "\"BO\" magyar iskola",
       "discoveredAt": "2026-09-30T06:21:12+00:00",
       "status": "candidate",
-      "lastSeenAt": "2026-09-30T06:21:12+00:00"
+      "lastSeenAt": "2026-09-30T06:21:12+00:00",
+      "verificationCheckedAt": "2026-10-14T07:36:28+00:00",
+      "verificationError": "HTTPError"
     },
     {
       "title": "Horrorra akadva, avagy tudom, kit ettél tavaly nyárson",
@@ -238,7 +526,31 @@
       "language": "hu",
       "query": "\"BO\" magyar cserkész",
       "discoveredAt": "2026-09-30T06:21:12+00:00",
-      "status": "candidate"
+      "status": "candidate",
+      "verificationCheckedAt": "2026-10-14T07:36:28+00:00",
+      "verificationError": "HTTPError"
+    },
+    {
+      "title": "Hungarian nationality law",
+      "url": "https://en.wikipedia.org/wiki/Hungarian_nationality_law",
+      "sourceType": "wikipedia-discovery",
+      "language": "en",
+      "query": "\"Bolivia\" Hungarian community",
+      "discoveredAt": "2026-10-14T07:35:50+00:00",
+      "status": "candidate",
+      "verificationCheckedAt": "2026-10-14T07:36:28+00:00",
+      "verificationError": "HTTPError"
+    },
+    {
+      "title": "Hungarian passport",
+      "url": "https://en.wikipedia.org/wiki/Hungarian_passport",
+      "sourceType": "wikipedia-discovery",
+      "language": "en",
+      "query": "\"Bolivia\" Hungarian community",
+      "discoveredAt": "2026-10-14T07:35:50+00:00",
+      "status": "candidate",
+      "verificationCheckedAt": "2026-10-14T07:36:28+00:00",
+      "verificationError": "HTTPError"
     },
     {
       "title": "Hungary national football team results (2000–2009)",
@@ -247,7 +559,9 @@
       "language": "en",
       "query": "\"BO\" Hungarian association",
       "discoveredAt": "2026-09-30T06:21:12+00:00",
-      "status": "candidate"
+      "status": "candidate",
+      "verificationCheckedAt": "2026-10-14T07:36:28+00:00",
+      "verificationError": "HTTPError"
     },
     {
       "title": "Hívójel",
@@ -256,7 +570,9 @@
       "language": "hu",
       "query": "\"BO\" magyar egyesület",
       "discoveredAt": "2026-09-30T06:21:12+00:00",
-      "status": "candidate"
+      "status": "candidate",
+      "verificationCheckedAt": "2026-10-14T07:36:28+00:00",
+      "verificationError": "HTTPError"
     },
     {
       "title": "Izsép Bő",
@@ -265,7 +581,9 @@
       "language": "en",
       "query": "\"BO\" Hungarian church",
       "discoveredAt": "2026-09-30T06:21:12+00:00",
-      "status": "candidate"
+      "status": "candidate",
+      "verificationCheckedAt": "2026-10-14T07:36:28+00:00",
+      "verificationError": "HTTPError"
     },
     {
       "title": "Japán nyelv",
@@ -274,7 +592,20 @@
       "language": "hu",
       "query": "\"BO\" magyar közösség",
       "discoveredAt": "2026-09-30T06:21:12+00:00",
-      "status": "candidate"
+      "status": "candidate",
+      "verificationCheckedAt": "2026-10-14T07:36:28+00:00",
+      "verificationError": "HTTPError"
+    },
+    {
+      "title": "Kepes András",
+      "url": "https://hu.wikipedia.org/wiki/Kepes_Andr%C3%A1s",
+      "sourceType": "wikipedia-discovery",
+      "language": "hu",
+      "query": "\"Bolivia\" magyar iskola",
+      "discoveredAt": "2026-10-14T07:35:50+00:00",
+      "status": "candidate",
+      "verificationCheckedAt": "2026-10-14T07:36:28+00:00",
+      "verificationError": "HTTPError"
     },
     {
       "title": "Kunok",
@@ -283,7 +614,9 @@
       "language": "hu",
       "query": "\"BO\" magyar közösség",
       "discoveredAt": "2026-09-30T06:21:12+00:00",
-      "status": "candidate"
+      "status": "candidate",
+      "verificationCheckedAt": "2026-10-14T07:36:28+00:00",
+      "verificationError": "HTTPError"
     },
     {
       "title": "Kürtőskalács",
@@ -292,7 +625,9 @@
       "language": "en",
       "query": "\"BO\" Hungarian community",
       "discoveredAt": "2026-09-30T06:21:12+00:00",
-      "status": "candidate"
+      "status": "candidate",
+      "verificationCheckedAt": "2026-10-14T07:36:28+00:00",
+      "verificationError": "HTTPError"
     },
     {
       "title": "Laosz himnusza",
@@ -301,7 +636,20 @@
       "language": "hu",
       "query": "\"BO\" magyar közösség",
       "discoveredAt": "2026-09-30T06:21:12+00:00",
-      "status": "candidate"
+      "status": "candidate",
+      "verificationCheckedAt": "2026-10-14T07:36:28+00:00",
+      "verificationError": "HTTPError"
+    },
+    {
+      "title": "Lenz József (nagykereskedő)",
+      "url": "https://hu.wikipedia.org/wiki/Lenz_J%C3%B3zsef_%28nagykeresked%C5%91%29",
+      "sourceType": "wikipedia-discovery",
+      "language": "hu",
+      "query": "\"Bolivia\" magyar iskola",
+      "discoveredAt": "2026-10-14T07:35:50+00:00",
+      "status": "candidate",
+      "verificationCheckedAt": "2026-10-14T07:36:28+00:00",
+      "verificationError": "HTTPError"
     },
     {
       "title": "Lhasa Tibetan",
@@ -310,7 +658,9 @@
       "language": "en",
       "query": "\"BO\" Hungarian school",
       "discoveredAt": "2026-09-30T06:21:12+00:00",
-      "status": "candidate"
+      "status": "candidate",
+      "verificationCheckedAt": "2026-10-14T07:36:28+00:00",
+      "verificationError": "HTTPError"
     },
     {
       "title": "List of European commissioners by member state",
@@ -319,7 +669,43 @@
       "language": "en",
       "query": "\"BO\" Hungarian community",
       "discoveredAt": "2026-09-30T06:21:12+00:00",
-      "status": "candidate"
+      "status": "candidate",
+      "verificationCheckedAt": "2026-10-14T07:36:28+00:00",
+      "verificationError": "HTTPError"
+    },
+    {
+      "title": "List of Reformed denominations",
+      "url": "https://en.wikipedia.org/wiki/List_of_Reformed_denominations",
+      "sourceType": "wikipedia-discovery",
+      "language": "en",
+      "query": "\"Bolivia\" Hungarian church",
+      "discoveredAt": "2026-10-14T07:35:50+00:00",
+      "status": "candidate",
+      "verificationCheckedAt": "2026-10-14T07:36:28+00:00",
+      "verificationError": "HTTPError"
+    },
+    {
+      "title": "List of forestry technical schools",
+      "url": "https://en.wikipedia.org/wiki/List_of_forestry_technical_schools",
+      "sourceType": "wikipedia-discovery",
+      "language": "en",
+      "query": "\"Bolivia\" Hungarian community",
+      "discoveredAt": "2026-10-14T07:35:50+00:00",
+      "status": "candidate",
+      "lastSeenAt": "2026-10-14T07:35:50+00:00",
+      "verificationCheckedAt": "2026-10-14T07:36:28+00:00",
+      "verificationError": "HTTPError"
+    },
+    {
+      "title": "List of massacres in Serbia",
+      "url": "https://en.wikipedia.org/wiki/List_of_massacres_in_Serbia",
+      "sourceType": "wikipedia-discovery",
+      "language": "en",
+      "query": "\"Bolivia\" Hungarian school",
+      "discoveredAt": "2026-10-14T07:35:50+00:00",
+      "status": "candidate",
+      "verificationCheckedAt": "2026-10-14T07:36:28+00:00",
+      "verificationError": "HTTPError"
     },
     {
       "title": "List of short place names",
@@ -328,7 +714,9 @@
       "language": "en",
       "query": "\"BO\" Hungarian community",
       "discoveredAt": "2026-09-30T06:21:12+00:00",
-      "status": "candidate"
+      "status": "candidate",
+      "verificationCheckedAt": "2026-10-14T07:36:28+00:00",
+      "verificationError": "HTTPError"
     },
     {
       "title": "List of twin towns and sister cities in Hungary",
@@ -337,7 +725,42 @@
       "language": "en",
       "query": "\"BO\" Hungarian association",
       "discoveredAt": "2026-09-30T06:21:12+00:00",
-      "status": "candidate"
+      "status": "candidate",
+      "verificationCheckedAt": "2026-10-14T07:36:28+00:00",
+      "verificationError": "HTTPError"
+    },
+    {
+      "title": "Live It Up (Nicky Jam song)",
+      "url": "https://en.wikipedia.org/wiki/Live_It_Up_%28Nicky_Jam_song%29",
+      "sourceType": "wikipedia-discovery",
+      "language": "en",
+      "query": "\"Bolivia\" Hungarian school",
+      "discoveredAt": "2026-10-14T07:35:50+00:00",
+      "status": "candidate",
+      "verificationCheckedAt": "2026-10-14T07:36:28+00:00",
+      "verificationError": "HTTPError"
+    },
+    {
+      "title": "Luis Arce",
+      "url": "https://hu.wikipedia.org/wiki/Luis_Arce",
+      "sourceType": "wikipedia-discovery",
+      "language": "hu",
+      "query": "\"Bolivia\" magyar egyesület",
+      "discoveredAt": "2026-10-14T07:35:50+00:00",
+      "status": "candidate",
+      "verificationCheckedAt": "2026-10-14T07:36:28+00:00",
+      "verificationError": "HTTPError"
+    },
+    {
+      "title": "László Pákozdi",
+      "url": "https://en.wikipedia.org/wiki/L%C3%A1szl%C3%B3_P%C3%A1kozdi",
+      "sourceType": "wikipedia-discovery",
+      "language": "en",
+      "query": "\"Bolivia\" Hungarian association",
+      "discoveredAt": "2026-10-14T07:35:50+00:00",
+      "status": "candidate",
+      "verificationCheckedAt": "2026-10-14T07:36:28+00:00",
+      "verificationError": "HTTPError"
     },
     {
       "title": "Michael Bő",
@@ -346,7 +769,9 @@
       "language": "en",
       "query": "\"BO\" Hungarian church",
       "discoveredAt": "2026-09-30T06:21:12+00:00",
-      "status": "candidate"
+      "status": "candidate",
+      "verificationCheckedAt": "2026-10-14T07:36:28+00:00",
+      "verificationError": "HTTPError"
     },
     {
       "title": "Május 22.",
@@ -355,7 +780,33 @@
       "language": "hu",
       "query": "\"BO\" magyar közösség",
       "discoveredAt": "2026-09-30T06:21:12+00:00",
-      "status": "candidate"
+      "status": "candidate",
+      "verificationCheckedAt": "2026-10-14T07:36:28+00:00",
+      "verificationError": "HTTPError"
+    },
+    {
+      "title": "Netherlands Reformed Congregations",
+      "url": "https://en.wikipedia.org/wiki/Netherlands_Reformed_Congregations",
+      "sourceType": "wikipedia-discovery",
+      "language": "en",
+      "query": "\"Bolivia\" Hungarian school",
+      "discoveredAt": "2026-10-14T07:35:50+00:00",
+      "status": "candidate",
+      "lastSeenAt": "2026-10-14T07:35:50+00:00",
+      "verificationCheckedAt": "2026-10-14T07:36:28+00:00",
+      "verificationError": "HTTPError"
+    },
+    {
+      "title": "Országok és területek listája",
+      "url": "https://hu.wikipedia.org/wiki/Orsz%C3%A1gok_%C3%A9s_ter%C3%BCletek_list%C3%A1ja",
+      "sourceType": "wikipedia-discovery",
+      "language": "hu",
+      "query": "\"Bolivia\" magyar egyesület",
+      "discoveredAt": "2026-10-14T07:35:50+00:00",
+      "status": "candidate",
+      "lastSeenAt": "2026-10-14T07:35:50+00:00",
+      "verificationCheckedAt": "2026-10-14T07:36:28+00:00",
+      "verificationError": "HTTPError"
     },
     {
       "title": "Pak Csong Hi",
@@ -364,7 +815,21 @@
       "language": "hu",
       "query": "\"BO\" magyar közösség",
       "discoveredAt": "2026-09-30T06:21:12+00:00",
-      "status": "candidate"
+      "status": "candidate",
+      "verificationCheckedAt": "2026-10-14T07:36:28+00:00",
+      "verificationError": "HTTPError"
+    },
+    {
+      "title": "Paraguay",
+      "url": "https://hu.wikipedia.org/wiki/Paraguay",
+      "sourceType": "wikipedia-discovery",
+      "language": "hu",
+      "query": "\"Bolivia\" magyar egyesület",
+      "discoveredAt": "2026-10-14T07:35:50+00:00",
+      "status": "candidate",
+      "lastSeenAt": "2026-10-14T07:35:50+00:00",
+      "verificationCheckedAt": "2026-10-14T07:36:28+00:00",
+      "verificationError": "HTTPError"
     },
     {
       "title": "Paul Loicq Award",
@@ -373,7 +838,9 @@
       "language": "en",
       "query": "\"BO\" Hungarian association",
       "discoveredAt": "2026-09-30T06:21:12+00:00",
-      "status": "candidate"
+      "status": "candidate",
+      "verificationCheckedAt": "2026-10-14T07:36:28+00:00",
+      "verificationError": "HTTPError"
     },
     {
       "title": "Paul Pelliot",
@@ -382,7 +849,9 @@
       "language": "en",
       "query": "\"BO\" Hungarian school",
       "discoveredAt": "2026-09-30T06:21:12+00:00",
-      "status": "candidate"
+      "status": "candidate",
+      "verificationCheckedAt": "2026-10-14T07:36:28+00:00",
+      "verificationError": "HTTPError"
     },
     {
       "title": "Peter Bő",
@@ -391,7 +860,9 @@
       "language": "en",
       "query": "\"BO\" Hungarian church",
       "discoveredAt": "2026-09-30T06:21:12+00:00",
-      "status": "candidate"
+      "status": "candidate",
+      "verificationCheckedAt": "2026-10-14T07:36:28+00:00",
+      "verificationError": "HTTPError"
     },
     {
       "title": "Piketberg",
@@ -400,7 +871,9 @@
       "language": "en",
       "query": "\"BO\" Hungarian community",
       "discoveredAt": "2026-09-30T06:21:12+00:00",
-      "status": "candidate"
+      "status": "candidate",
+      "verificationCheckedAt": "2026-10-14T07:36:28+00:00",
+      "verificationError": "HTTPError"
     },
     {
       "title": "Pál András (színművész)",
@@ -409,7 +882,9 @@
       "language": "hu",
       "query": "\"BO\" magyar egyesület",
       "discoveredAt": "2026-09-30T06:21:12+00:00",
-      "status": "candidate"
+      "status": "candidate",
+      "verificationCheckedAt": "2026-10-14T07:36:28+00:00",
+      "verificationError": "HTTPError"
     },
     {
       "title": "Péter Erdő",
@@ -418,7 +893,20 @@
       "language": "en",
       "query": "\"BO\" Hungarian church",
       "discoveredAt": "2026-09-30T06:21:12+00:00",
-      "status": "candidate"
+      "status": "candidate",
+      "verificationCheckedAt": "2026-10-14T07:36:28+00:00",
+      "verificationError": "HTTPError"
+    },
+    {
+      "title": "Raleigh (Észak-Karolina)",
+      "url": "https://hu.wikipedia.org/wiki/Raleigh_%28%C3%89szak-Karolina%29",
+      "sourceType": "wikipedia-discovery",
+      "language": "hu",
+      "query": "\"Bolivia\" magyar iskola",
+      "discoveredAt": "2026-10-14T07:35:50+00:00",
+      "status": "candidate",
+      "verificationCheckedAt": "2026-10-14T07:36:28+00:00",
+      "verificationError": "HTTPError"
     },
     {
       "title": "Rolling stock of the Korean State Railway",
@@ -427,7 +915,32 @@
       "language": "en",
       "query": "\"BO\" Hungarian school",
       "discoveredAt": "2026-09-30T06:21:12+00:00",
-      "status": "candidate"
+      "status": "candidate",
+      "verificationCheckedAt": "2026-10-14T07:36:28+00:00",
+      "verificationError": "HTTPError"
+    },
+    {
+      "title": "Romário",
+      "url": "https://hu.wikipedia.org/wiki/Rom%C3%A1rio",
+      "sourceType": "wikipedia-discovery",
+      "language": "hu",
+      "query": "\"Bolivia\" magyar egyesület",
+      "discoveredAt": "2026-10-14T07:35:50+00:00",
+      "status": "candidate",
+      "verificationCheckedAt": "2026-10-14T07:36:28+00:00",
+      "verificationError": "HTTPError"
+    },
+    {
+      "title": "Rózsa-Flores Eduardo",
+      "url": "https://hu.wikipedia.org/wiki/R%C3%B3zsa-Flores_Eduardo",
+      "sourceType": "wikipedia-discovery",
+      "language": "hu",
+      "query": "\"Bolivia\" magyar egyesület",
+      "discoveredAt": "2026-10-14T07:35:50+00:00",
+      "status": "candidate",
+      "lastSeenAt": "2026-10-14T07:35:50+00:00",
+      "verificationCheckedAt": "2026-10-14T07:36:28+00:00",
+      "verificationError": "HTTPError"
     },
     {
       "title": "Somogyapáti",
@@ -436,7 +949,9 @@
       "language": "hu",
       "query": "\"BO\" magyar iskola",
       "discoveredAt": "2026-09-30T06:21:12+00:00",
-      "status": "candidate"
+      "status": "candidate",
+      "verificationCheckedAt": "2026-10-14T07:36:28+00:00",
+      "verificationError": "HTTPError"
     },
     {
       "title": "Stadler FLIRT",
@@ -445,7 +960,9 @@
       "language": "hu",
       "query": "\"BO\" magyar egyesület",
       "discoveredAt": "2026-09-30T06:21:12+00:00",
-      "status": "candidate"
+      "status": "candidate",
+      "verificationCheckedAt": "2026-10-14T07:36:28+00:00",
+      "verificationError": "HTTPError"
     },
     {
       "title": "Stephen Kelen",
@@ -454,7 +971,9 @@
       "language": "en",
       "query": "\"BO\" Hungarian association",
       "discoveredAt": "2026-09-30T06:21:12+00:00",
-      "status": "candidate"
+      "status": "candidate",
+      "verificationCheckedAt": "2026-10-14T07:36:28+00:00",
+      "verificationError": "HTTPError"
     },
     {
       "title": "Szentlászló",
@@ -464,7 +983,9 @@
       "query": "\"BO\" Hungarian school",
       "discoveredAt": "2026-09-30T06:21:12+00:00",
       "status": "candidate",
-      "lastSeenAt": "2026-09-30T06:21:12+00:00"
+      "lastSeenAt": "2026-09-30T06:21:12+00:00",
+      "verificationCheckedAt": "2026-10-14T07:36:28+00:00",
+      "verificationError": "HTTPError"
     },
     {
       "title": "Szentlászló (Magyarország)",
@@ -474,7 +995,9 @@
       "query": "\"BO\" magyar egyesület",
       "discoveredAt": "2026-09-30T06:21:12+00:00",
       "status": "candidate",
-      "lastSeenAt": "2026-09-30T06:21:12+00:00"
+      "lastSeenAt": "2026-09-30T06:21:12+00:00",
+      "verificationCheckedAt": "2026-10-14T07:36:28+00:00",
+      "verificationError": "HTTPError"
     },
     {
       "title": "Szlovénia himnusza",
@@ -484,7 +1007,43 @@
       "query": "\"BO\" magyar egyesület",
       "discoveredAt": "2026-09-30T06:21:12+00:00",
       "status": "candidate",
-      "lastSeenAt": "2026-09-30T06:21:12+00:00"
+      "lastSeenAt": "2026-09-30T06:21:12+00:00",
+      "verificationCheckedAt": "2026-10-14T07:36:28+00:00",
+      "verificationError": "HTTPError"
+    },
+    {
+      "title": "Thiago Ribeiro (footballer, born 1985)",
+      "url": "https://en.wikipedia.org/wiki/Thiago_Ribeiro_%28footballer%2C_born_1985%29",
+      "sourceType": "wikipedia-discovery",
+      "language": "en",
+      "query": "\"Bolivia\" Hungarian association",
+      "discoveredAt": "2026-10-14T07:35:50+00:00",
+      "status": "candidate",
+      "verificationCheckedAt": "2026-10-14T07:36:28+00:00",
+      "verificationError": "HTTPError"
+    },
+    {
+      "title": "Tiahuanaco",
+      "url": "https://hu.wikipedia.org/wiki/Tiahuanaco",
+      "sourceType": "wikipedia-discovery",
+      "language": "hu",
+      "query": "\"Bolivia\" magyar közösség",
+      "discoveredAt": "2026-10-14T07:35:50+00:00",
+      "status": "candidate",
+      "lastSeenAt": "2026-10-14T07:35:50+00:00",
+      "verificationCheckedAt": "2026-10-14T07:36:28+00:00",
+      "verificationError": "HTTPError"
+    },
+    {
+      "title": "Tibor Nyilasi",
+      "url": "https://en.wikipedia.org/wiki/Tibor_Nyilasi",
+      "sourceType": "wikipedia-discovery",
+      "language": "en",
+      "query": "\"Bolivia\" Hungarian association",
+      "discoveredAt": "2026-10-14T07:35:50+00:00",
+      "status": "candidate",
+      "verificationCheckedAt": "2026-10-14T07:36:28+00:00",
+      "verificationError": "HTTPError"
     },
     {
       "title": "Tinkara Kovač",
@@ -493,7 +1052,9 @@
       "language": "en",
       "query": "\"BO\" Hungarian church",
       "discoveredAt": "2026-09-30T06:21:12+00:00",
-      "status": "candidate"
+      "status": "candidate",
+      "verificationCheckedAt": "2026-10-14T07:36:28+00:00",
+      "verificationError": "HTTPError"
     },
     {
       "title": "Toy Story 4.",
@@ -502,7 +1063,21 @@
       "language": "hu",
       "query": "\"BO\" magyar iskola",
       "discoveredAt": "2026-09-30T06:21:12+00:00",
-      "status": "candidate"
+      "status": "candidate",
+      "verificationCheckedAt": "2026-10-14T07:36:28+00:00",
+      "verificationError": "HTTPError"
+    },
+    {
+      "title": "UTC−04:00",
+      "url": "https://hu.wikipedia.org/wiki/UTC%E2%88%9204%3A00",
+      "sourceType": "wikipedia-discovery",
+      "language": "hu",
+      "query": "\"Bolivia\" magyar egyesület",
+      "discoveredAt": "2026-10-14T07:35:50+00:00",
+      "status": "candidate",
+      "lastSeenAt": "2026-10-14T07:35:50+00:00",
+      "verificationCheckedAt": "2026-10-14T07:36:28+00:00",
+      "verificationError": "HTTPError"
     },
     {
       "title": "Wiki",
@@ -512,7 +1087,20 @@
       "query": "\"BO\" magyar közösség",
       "discoveredAt": "2026-09-30T06:21:12+00:00",
       "status": "candidate",
-      "lastSeenAt": "2026-09-30T06:21:12+00:00"
+      "lastSeenAt": "2026-09-30T06:21:12+00:00",
+      "verificationCheckedAt": "2026-10-14T07:36:28+00:00",
+      "verificationError": "HTTPError"
+    },
+    {
+      "title": "Women Talking (novel)",
+      "url": "https://en.wikipedia.org/wiki/Women_Talking_%28novel%29",
+      "sourceType": "wikipedia-discovery",
+      "language": "en",
+      "query": "\"Bolivia\" Hungarian community",
+      "discoveredAt": "2026-10-14T07:35:50+00:00",
+      "status": "candidate",
+      "verificationCheckedAt": "2026-10-14T07:36:28+00:00",
+      "verificationError": "HTTPError"
     },
     {
       "title": "Şebnem Paker",
@@ -521,8 +1109,11 @@
       "language": "en",
       "query": "\"BO\" Hungarian school",
       "discoveredAt": "2026-09-30T06:21:12+00:00",
-      "status": "candidate"
+      "status": "candidate",
+      "verificationCheckedAt": "2026-10-14T07:36:28+00:00",
+      "verificationError": "HTTPError"
     }
   ],
-  "errors": []
+  "errors": [],
+  "verificationUpdated": "2026-10-14T07:36:28+00:00"
 }

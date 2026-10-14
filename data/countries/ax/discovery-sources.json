@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-30T06:05:12+00:00",
+  "updated": "2026-10-14T07:35:50+00:00",
   "country": "ax",
   "researchRole": "secondary discovery only; candidates require first-party verification before publication",
   "sources": [
@@ -10,7 +10,18 @@
       "language": "en",
       "query": "Hungarian school AX",
       "discoveredAt": "2026-09-30T06:05:12+00:00",
-      "status": "candidate"
+      "status": "rejected-low-signal",
+      "verificationCheckedAt": "2026-10-14T07:36:28+00:00",
+      "verificationScore": 6,
+      "firstPartyCandidates": [
+        "https://d-nb.info/gnd/4463606-4",
+        "https://id.loc.gov/authorities/n2009033047",
+        "https://viaf.org/viaf/156170643",
+        "https://web.archive.org/web/20251210223734/https://erenow.org/ww/himmlers-ss-loyal-deaths-head/12.php/-238.php"
+      ],
+      "entitySignal": true,
+      "countrySignal": false,
+      "hungarianSignal": true
     },
     {
       "title": "A Green család a nagyvárosban epizódjainak listája",
@@ -19,7 +30,22 @@
       "language": "hu",
       "query": "magyar cserkész AX",
       "discoveredAt": "2026-09-30T06:05:12+00:00",
-      "status": "candidate"
+      "status": "rejected-low-signal",
+      "verificationCheckedAt": "2026-10-14T07:36:28+00:00",
+      "verificationScore": 1,
+      "firstPartyCandidates": [
+        "http://www.thefutoncritic.com/showatch/big-city-greens/listings/",
+        "https://cabletvt.powerrangermail.net/index.php?topic=7212.0",
+        "https://mentrum.hu/2018/12/a-disney-csatorna-januari-ujdonsagai",
+        "https://mentrum.hu/2019/01/a-disney-csatorna-februari-ujdonsagai",
+        "https://mentrum.hu/2019/10/a-disney-csatorna-novemberi-ujdonsagai",
+        "https://mentrum.hu/2020/05/a-disney-csatorna-juniusi-ujdonsagai/",
+        "https://mentrum.hu/2020/11/a-disney-csatorna-decemberi-ujdonsagai",
+        "https://mentrum.hu/2020/12/a-disney-csatorna-januari-ujdonsagai"
+      ],
+      "entitySignal": false,
+      "countrySignal": false,
+      "hungarianSignal": false
     },
     {
       "title": "A Magyar Érdemrend lovagkeresztje",
@@ -28,8 +54,23 @@
       "language": "hu",
       "query": "magyar közösség AX",
       "discoveredAt": "2026-09-30T06:05:12+00:00",
-      "status": "candidate",
-      "lastSeenAt": "2026-09-30T06:05:12+00:00"
+      "status": "rejected-low-signal",
+      "lastSeenAt": "2026-09-30T06:05:12+00:00",
+      "verificationCheckedAt": "2026-10-14T07:36:28+00:00",
+      "verificationScore": 3,
+      "firstPartyCandidates": [
+        "http://24.hu/kozelet/2016/08/22/tizenharomnal-tart-a-lovagkeresztjuket-visszaadok-szama/",
+        "http://444.hu/2016/08/22/bayer-lovagkeresztje-miatt-erdelyi-agnes-is-visszaadja-kitunteteset",
+        "http://444.hu/2016/08/22/mta-s-kozgazdaszok-is-visszaadjak-a-lovagkeresztjuket-a-fajvedo-uszito-es-minosithetetlen-hangvetelu-bayer-miatt",
+        "http://444.hu/2016/08/22/nem-tartok-igenyt-olyan-allami-kituntetesre-amelyet-egy-rasszista-a-magyar-politikai-kultura-lerohasztasaban-elenjaro-bertollnok-megkaphat",
+        "http://444.hu/2016/08/22/visszaadott-lovagkereszt-szamlalo",
+        "http://444.hu/2016/08/23/megdolgoztam-erte-mindent-megtettem-azert-hogy-oromet-es-buszkeseget-szerezzek-a-hazamnak",
+        "http://augusztus20.kormany.hu/allami-kituntetesek-atadasa-a-parlament-kupolatermeben-2012",
+        "http://augusztus20.kormany.hu/kulkepviseleteken-atadott-elismeresek-2013"
+      ],
+      "entitySignal": false,
+      "countrySignal": false,
+      "hungarianSignal": true
     },
     {
       "title": "AH",
@@ -38,7 +79,13 @@
       "language": "en",
       "query": "Hungarian community AX",
       "discoveredAt": "2026-09-30T06:05:12+00:00",
-      "status": "candidate"
+      "status": "rejected-low-signal",
+      "verificationCheckedAt": "2026-10-14T07:36:28+00:00",
+      "verificationScore": 0,
+      "firstPartyCandidates": [],
+      "entitySignal": false,
+      "countrySignal": false,
+      "hungarianSignal": false
     },
     {
       "title": "AXA Bank",
@@ -47,8 +94,23 @@
       "language": "hu",
       "query": "magyar egyesület AX",
       "discoveredAt": "2026-09-30T06:05:12+00:00",
-      "status": "candidate",
-      "lastSeenAt": "2026-09-30T06:05:12+00:00"
+      "status": "rejected-low-signal",
+      "lastSeenAt": "2026-09-30T06:05:12+00:00",
+      "verificationCheckedAt": "2026-10-14T07:36:28+00:00",
+      "verificationScore": 1,
+      "firstPartyCandidates": [
+        "http://www.axabank.hu/",
+        "https://web.archive.org/web/20140103191903/http://www.bankszovetseg.hu/tagjaink/axa-bank",
+        "https://web.archive.org/web/20140215202118/http://www.bankracio.hu/bankok/3-axa-bank",
+        "https://web.archive.org/web/20160605163613/https://www.axa.hu/hu/hasznos-info/kozlemenyek/#",
+        "https://web.archive.org/web/20180829175350/https://www.axa-assistance.hu/rolunk/axa-assistance/",
+        "https://web.archive.org/web/20180916164013/https://www.bankracio.hu/blogpost/553-amit-minden-axa-ugyfelnek-tudnia-kell-mielott-atkerul-az-otp-hez",
+        "https://wikidata-externalid-url.toolforge.org/?url=https://www.e-cegjegyzek.hu/?cegadatlap/%251%252%253&exp=(%5Cd%7B2%7D)-(%5Cd%7B2%7D)-(%5Cd%7B6%7D)&id=01-17-000554",
+        "https://www.axa.hu/hu/hasznos-info/kozlemenyek/"
+      ],
+      "entitySignal": false,
+      "countrySignal": false,
+      "hungarianSignal": false
     },
     {
       "title": "AXN",
@@ -57,7 +119,46 @@
       "language": "hu",
       "query": "magyar egyesület AX",
       "discoveredAt": "2026-09-30T06:05:12+00:00",
-      "status": "candidate"
+      "status": "rejected-low-signal",
+      "verificationCheckedAt": "2026-10-14T07:36:28+00:00",
+      "verificationScore": 1,
+      "firstPartyCandidates": [
+        "http://24.hu/belfold/2003/10/08/j_kabelcsatornat_indit/",
+        "http://axn.hu/",
+        "http://axn.hu/blog",
+        "http://mmonline.hu/cikk/arculatfrissites_az_axn_csatornaknal",
+        "https://dtvnews.hu/hirek/sz-rke-log-val-az-axn-csatorn-k",
+        "https://dunamsz.hu/wp-content/uploads/sites/18/2022/10/DMSZ_vezerigazgatoi_beszamolo_2021.pdf",
+        "https://emtv.blog.hu/2012/11/14/magyaros_kiejtes_az_axn-en",
+        "https://hu.crt-tv.com/2019/02/10/tv-csatornak-lefedettseg-2018/"
+      ],
+      "entitySignal": false,
+      "countrySignal": false,
+      "hungarianSignal": false
+    },
+    {
+      "title": "Aboriginal passport",
+      "url": "https://en.wikipedia.org/wiki/Aboriginal_passport",
+      "sourceType": "wikipedia-discovery",
+      "language": "en",
+      "query": "\"Åland Islands\" Hungarian association",
+      "discoveredAt": "2026-10-14T07:35:50+00:00",
+      "status": "rejected-low-signal",
+      "verificationCheckedAt": "2026-10-14T07:36:28+00:00",
+      "verificationScore": 1,
+      "firstPartyCandidates": [
+        "http://www.abc.net.au/tv/messagestick/stories/s1104740.htm",
+        "http://www.sbs.com.au/news/article/2014/09/18/indigenous-campaigners-re-enter-australia-aboriginal-passports",
+        "http://www.smh.com.au/national/assange-gets-an-aboriginal-passport-20120915-25yrt.html",
+        "https://home-affairs.ec.europa.eu/system/files/2023-04/list_of_known_fantasy_and_camouflage_passports_en.pdf",
+        "https://news.google.com.au/newspapers?id=CDopAAAAIBAJ&sjid=9JYDAAAAIBAJ&pg=4057,6639483",
+        "https://web.archive.org/web/20130331222403/http://aboriginalpassportceremony.org/",
+        "https://web.archive.org/web/20230918163306/https://home-affairs.ec.europa.eu/system/files/2023-04/list_of_known_fantasy_and_camouflage_passports_en.pdf",
+        "https://www.theguardian.com/australia-news/2015/apr/20/tolerance-of-travellers-with-aboriginal-passports-amounts-to-recognition-says-activist"
+      ],
+      "entitySignal": true,
+      "countrySignal": false,
+      "hungarianSignal": false
     },
     {
       "title": "Alex Rider (televíziós sorozat)",
@@ -66,7 +167,22 @@
       "language": "hu",
       "query": "magyar iskola AX",
       "discoveredAt": "2026-09-30T06:05:12+00:00",
-      "status": "candidate"
+      "status": "rejected-low-signal",
+      "verificationCheckedAt": "2026-10-14T07:36:28+00:00",
+      "verificationScore": 1,
+      "firstPartyCandidates": [
+        "http://www.alexrider.tv/",
+        "https://deadline.com/2020/06/alex-rider-set-to-be-renewed-for-season-two-1202959175/",
+        "https://hu.axn.com/musorok/alex-rider",
+        "https://mentrum.hu/2020/10/az-alex-rider-magyar-hangjai",
+        "https://mentrum.hu/2022/02/az-antenna-entertainment-csatornak-marciusi-ujdonsagai",
+        "https://variety.com/2017/tv/news/itv-adaptation-teen-superspy-alex-rider-anthony-horowitz-1202448590/",
+        "https://variety.com/2018/tv/news/alex-rider-series-sony-eleventh-hour-1202882280/",
+        "https://web.archive.org/web/20200604222411/https://www.hitc.com/en-gb/2020/06/04/alex-rider-series-filming-locations-fake-alps/"
+      ],
+      "entitySignal": false,
+      "countrySignal": false,
+      "hungarianSignal": false
     },
     {
       "title": "Androméda (televíziós sorozat)",
@@ -75,7 +191,22 @@
       "language": "hu",
       "query": "magyar közösség AX",
       "discoveredAt": "2026-09-30T06:05:12+00:00",
-      "status": "candidate"
+      "status": "rejected-low-signal",
+      "verificationCheckedAt": "2026-10-14T07:36:28+00:00",
+      "verificationScore": 1,
+      "firstPartyCandidates": [
+        "http://andromedatv.com/",
+        "http://saveandromeda.com/",
+        "http://www.androwiki.org/",
+        "http://www.davidwinning.com/",
+        "http://www.tv.com/shows/andromeda/",
+        "https://andromeda.fandom.com/wiki/Main_Page",
+        "https://nemzetiarchivum.hu/news_archive/item/NEWS-MVZFdFpNVjA1SHBsanh6MExhekc0RHhIVDd6SGFXTlRaVEdTdXZrNWVQcz0",
+        "https://nemzetiarchivum.hu/news_archive/item/NEWS-aGk3TFVUYVIvNE54cERnYWNjaWhyQTNVbGhVUkRyajRmbmhQcnM2VloyQT0"
+      ],
+      "entitySignal": false,
+      "countrySignal": false,
+      "hungarianSignal": false
     },
     {
       "title": "Armenia–Hungary relations",
@@ -84,7 +215,22 @@
       "language": "en",
       "query": "Hungarian community AX",
       "discoveredAt": "2026-09-30T06:05:12+00:00",
-      "status": "candidate"
+      "status": "rejected-low-signal",
+      "verificationCheckedAt": "2026-10-14T07:36:28+00:00",
+      "verificationScore": 1,
+      "firstPartyCandidates": [
+        "http://www.tert.am/en/news/2013/04/17/armenia-hungary/",
+        "http://նախագահ.հայ/en/statements-and-messages/item/2012/08/31/President-Serzh-Sargsyan-speech-ambassadors/",
+        "https://armenianweekly.com/2017/09/07/report-laundromat-safarov/",
+        "https://eurasianet.org/armenia-and-hungary-to-restore-ties#:~:text=Armenia%20and%20Hungary%20have%20agreed%20to%20restore%20diplomatic,sidelines%20of%20an%20OSCE%20ministerial%20meeting%20in%20Poland.",
+        "https://news.am/eng/news/308629.html",
+        "https://obamawhitehouse.archives.gov/the-press-office/2012/08/31/statement-nsc-spokesman-tommy-vietor-azerbaijan-s-decision-pardon-ramil-",
+        "https://scholar.google.com/scholar?q=%22Armenia%E2%80%93Hungary+relations%22",
+        "https://web.archive.org/web/20131023055558/http://www.tert.am/en/news/2013/04/17/armenia-hungary/"
+      ],
+      "entitySignal": false,
+      "countrySignal": false,
+      "hungarianSignal": false
     },
     {
       "title": "Axe throwing",
@@ -93,7 +239,22 @@
       "language": "en",
       "query": "Hungarian association AX",
       "discoveredAt": "2026-09-30T06:05:12+00:00",
-      "status": "candidate"
+      "status": "rejected-low-signal",
+      "verificationCheckedAt": "2026-10-14T07:36:28+00:00",
+      "verificationScore": 4,
+      "firstPartyCandidates": [
+        "http://www.chicagotribune.com/lifestyles/ct-axe-throwing-parties-0823-20160823-story.html",
+        "http://www.eurothrowers.org/",
+        "http://www.eurothrowers.org/clubs",
+        "http://www.eurothrowers.org/european-knife-and-axe-throwing-rules",
+        "http://www.gransforsbruk.com/en/using-an-axe/axe-throwing/the-rules-of-axe-throwing/",
+        "http://www.hawkthrowing.com/tomahawk-throwing-competitions.html",
+        "http://www.ikthof.com/about.html",
+        "http://www.lumberjackworldchampionships.com/"
+      ],
+      "entitySignal": true,
+      "countrySignal": false,
+      "hungarianSignal": false
     },
     {
       "title": "Axiom Mission 1",
@@ -102,7 +263,22 @@
       "language": "en",
       "query": "Hungarian community AX",
       "discoveredAt": "2026-09-30T06:05:12+00:00",
-      "status": "candidate"
+      "status": "rejected-low-signal",
+      "verificationCheckedAt": "2026-10-14T07:36:28+00:00",
+      "verificationScore": -2,
+      "firstPartyCandidates": [
+        "http://axiomspace.com/ax1",
+        "http://www.collectspace.com/news/news-012621a-axiom-space-ax1-crew-announce.html",
+        "http://www.collectspace.com/news/news-040822a-axiom-ax1-private-crew-personal-items.html",
+        "http://www.collectspace.com/news/news-040822a-axiom-ax1-zero-g-indicator-caramel-dog.html",
+        "https://apnews.com/article/science-2e8a78c31ae6309e69632f0f41feccbf",
+        "https://arstechnica.com/science/2021/01/there-are-an-insane-amount-of-cool-space-things-happening-in-2021/",
+        "https://davidson.org.il/read-experience/en/science-news-en/israeli-science-joins-a-global-space-effort-this-week-in-space/",
+        "https://doi.org/10.1371%2Fjournal.pone.0253403"
+      ],
+      "entitySignal": false,
+      "countrySignal": false,
+      "hungarianSignal": false
     },
     {
       "title": "Axiom Mission 4",
@@ -111,7 +287,22 @@
       "language": "en",
       "query": "Hungarian community AX",
       "discoveredAt": "2026-09-30T06:05:12+00:00",
-      "status": "candidate"
+      "status": "rejected-low-signal",
+      "verificationCheckedAt": "2026-10-14T07:36:28+00:00",
+      "verificationScore": -2,
+      "firstPartyCandidates": [
+        "https://arstechnica.com/space/2025/02/nasa-moves-up-target-to-return-butch-and-suni-but-not-for-political-reasons/",
+        "https://arstechnica.com/space/2025/06/theres-another-leak-on-the-iss-but-nasa-is-not-saying-much-about-it/",
+        "https://blogs.esa.int/exploration/countdown-to-ignis/",
+        "https://esamultimedia.esa.int/docs/HRE/Ignis_digital_LaunchKit.pdf",
+        "https://geohack.toolforge.org/geohack.php?pagename=Axiom_Mission_4&params=32.6_N_117.7_W_",
+        "https://hunor.gov.hu/index.php/atmp/",
+        "https://hunor.gov.hu/index.php/cincinnati/",
+        "https://hunor.gov.hu/index.php/diros/"
+      ],
+      "entitySignal": false,
+      "countrySignal": false,
+      "hungarianSignal": false
     },
     {
       "title": "Axiom Mission 4",
@@ -120,7 +311,22 @@
       "language": "hu",
       "query": "magyar egyesület AX",
       "discoveredAt": "2026-09-30T06:05:12+00:00",
-      "status": "candidate"
+      "status": "rejected-low-signal",
+      "verificationCheckedAt": "2026-10-14T07:36:28+00:00",
+      "verificationScore": 3,
+      "firstPartyCandidates": [
+        "https://felvidek.ma/2025/06/04/kapu-tibor-varhatoan-junius-10-en-indul-a-nemzetkozi-urallomasra/",
+        "https://hirtv.hu/radar/radar-start-a-hir-tv-eloben-kozvetiti-az-axiom-4-misszio-felbocsatasat-video-2609162",
+        "https://index.hu/techtud/2025/06/07/axiom-4-dragon-kennedy-megerkezett/",
+        "https://index.hu/techtud/2025/06/09/kapu-tibor-magyar-urutazas-axiom-4-spacex-kiloves/",
+        "https://kormany.hu/",
+        "https://kormany.hu/hirek/kapu-tibor-lehet-a-kovetkezo-magyar-urhajos",
+        "https://pbs.twimg.com/media/GMBWXUVWgAEcBoY?format=jpg&name=large",
+        "https://spacejunkie.hu/hivatalossa-valt-junius-8-an-indulhat-az-axiom-mission-4/"
+      ],
+      "entitySignal": false,
+      "countrySignal": false,
+      "hungarianSignal": true
     },
     {
       "title": "Axiom Space",
@@ -129,7 +335,22 @@
       "language": "en",
       "query": "Hungarian association AX",
       "discoveredAt": "2026-09-30T06:05:12+00:00",
-      "status": "candidate"
+      "status": "rejected-low-signal",
+      "verificationCheckedAt": "2026-10-14T07:36:28+00:00",
+      "verificationScore": 1,
+      "firstPartyCandidates": [
+        "http://axiomspace.com/",
+        "http://www.axiomspace.com/",
+        "http://www.collectspace.com/news/news-012621a-axiom-space-ax1-crew-announce.html",
+        "https://analyticsindiamag.com/ai-news-updates/axiom-space-partners-with-indias-skyroot-aerospace-to-boost-space-exploration/",
+        "https://axiomspace.com/news/axiom-space-and-senegalese-agency-for-space-studies-sign-mou",
+        "https://axiomspace.com/news/axiom-space-ghana-space-science-and-technology-institute-sign-agreement-to-expand-space-collaboration",
+        "https://axiomspace.com/news/memorandum-signed-to-foster-collaboration-between-axiom-space-and-slovak-space-sector",
+        "https://axiomspace.com/news/mou-egyptian-space-agency"
+      ],
+      "entitySignal": false,
+      "countrySignal": false,
+      "hungarianSignal": false
     },
     {
       "title": "Bethlen Gábor Református Gimnázium",
@@ -138,7 +359,22 @@
       "language": "hu",
       "query": "magyar iskola AX",
       "discoveredAt": "2026-09-30T06:05:12+00:00",
-      "status": "candidate"
+      "status": "rejected-low-signal",
+      "verificationCheckedAt": "2026-10-14T07:36:28+00:00",
+      "verificationScore": 4,
+      "firstPartyCandidates": [
+        "http://bgrg.hu/Files/miert_epp_a_bethlen.pdf",
+        "http://bgrg.hu/content/dr-czegl%C3%A9di-s%C3%A1ndor-gimn%C3%A1ziumunk-t%C3%B6rt%C3%A9nete",
+        "http://bgrg.hu/content/ecdl",
+        "http://bgrg.hu/content/kapcsolat",
+        "http://bgrg.hu/sites/default/files/sites/default/files/imce/bgrg_felveteli_tajekoztato_2018.pdf",
+        "http://itthon.hu/delalfold/latnivalok/-/netaview/41940/bethlen-gabor-reformatus-gimnazium;jsessionid=EA553B305DC8C749CB3D9145063774EA",
+        "http://oktatas.reformatus.hu/index.php?ax=view&id=114",
+        "http://tehetseg.hu/tehetsegpont/tp-150-003-834"
+      ],
+      "entitySignal": true,
+      "countrySignal": false,
+      "hungarianSignal": false
     },
     {
       "title": "Bloodshot (film)",
@@ -147,7 +383,22 @@
       "language": "en",
       "query": "Hungarian school AX",
       "discoveredAt": "2026-09-30T06:05:12+00:00",
-      "status": "candidate"
+      "status": "rejected-low-signal",
+      "verificationCheckedAt": "2026-10-14T07:36:28+00:00",
+      "verificationScore": 1,
+      "firstPartyCandidates": [
+        "https://chicago.suntimes.com/2020/3/12/21174371/bloodshot-review-vin-diesel-movie-superhero-film",
+        "https://comicbook.com/movies/2018/10/26/vin-diesel-wrapping-bloodshot-video/",
+        "https://deadline.com/2017/07/jared-leto-bloodshot-sony-1202112262/",
+        "https://deadline.com/2018/03/vin-diesel-bloodshot-movie-sony-comic-book-dave-wilson-eric-heisserer-1202320751/",
+        "https://deadline.com/2018/05/sam-heughan-vin-diesel-sony-bloodshot-outlander-1202397024/",
+        "https://deadline.com/2018/08/guy-pearce-michael-sheen-sony-bloodshot-1202441902/",
+        "https://deadline.com/2018/08/vin-diesel-bloodshot-movie-casts-lamorne-morris-new-girl-actor-1202438518/",
+        "https://deadline.com/2020/03/coronavirus-drive-in-movie-theaters-exhibition-shutdown-onward-1202890329/"
+      ],
+      "entitySignal": true,
+      "countrySignal": false,
+      "hungarianSignal": false
     },
     {
       "title": "Báthory István Elméleti Líceum",
@@ -156,7 +407,46 @@
       "language": "hu",
       "query": "magyar iskola AX",
       "discoveredAt": "2026-09-30T06:05:12+00:00",
-      "status": "candidate"
+      "status": "rejected-low-signal",
+      "verificationCheckedAt": "2026-10-14T07:36:28+00:00",
+      "verificationScore": 1,
+      "firstPartyCandidates": [
+        "http://bathory-kolozsvar.ro/",
+        "http://lexikon.adatbank.ro/muemlek.php?id=326",
+        "http://mek.oszk.hu/03100/03186/#",
+        "http://patrimoniu.gov.ro/images/lmi-2015/LMI-CJ.pdf",
+        "http://www.bru.ro/wp-content/uploads/file/pdf/Madrid1.pdf",
+        "https://geohack.toolforge.org/geohack.php?language=hu&pagename=B%C3%A1thory_Istv%C3%A1n_Elm%C3%A9leti_L%C3%ADceum&params=46.767257;23.59138_type:edu",
+        "https://library.hungaricana.hu/hu/view/Kolozsvar_16527_katolikus_16572_1897/?query=Farkas%20Lajos%20piarista%20kolozsv%C3%A1r&pg=96&layout=s",
+        "https://web.archive.org/web/20120120053352/http://www.bathory.ro/content/iskolank/tortenet"
+      ],
+      "entitySignal": false,
+      "countrySignal": false,
+      "hungarianSignal": false
+    },
+    {
+      "title": "Conscription in Finland",
+      "url": "https://en.wikipedia.org/wiki/Conscription_in_Finland",
+      "sourceType": "wikipedia-discovery",
+      "language": "en",
+      "query": "\"Åland Islands\" Hungarian school",
+      "discoveredAt": "2026-10-14T07:35:50+00:00",
+      "status": "rejected-low-signal",
+      "verificationCheckedAt": "2026-10-14T07:36:28+00:00",
+      "verificationScore": 6,
+      "firstPartyCandidates": [
+        "http://blog.hse-econ.fi/?p=5647",
+        "http://www.defmin.fi/ministerio/puolustusministerio/puolustusministerion_vastuulla_olevat_organisaatiot/kutsunta-asiain_keskuslautakunta",
+        "http://www.kouvolansanomat.fi/Online/2015/05/29/Reservil%C3%A4inen%20j%C3%A4tti%20kertausharjoitukset%20v%C3%A4liin%20ja%20sai%20tuomion%20%E2%80%94%20selitys%20ajo-oikeuden%20puutteesta%20ei%20purrut%20k%C3%A4r%C3%A4jill%C3%A4/2015219110636/4",
+        "http://www.mil.fi/ruotuvaki/index.dsp?action=read_page&pid=26&aid=342",
+        "http://www.ohion.fi/english.htm",
+        "http://www.puolustusvoimat.fi/portal/puolustusvoimat.fi/!ut/p/c5/04_SB8K8xLLM9MSSzPy8xBz9CP0os3h3IzMLDy8DQ0t3Qz8LA0__kAAj9yA3A4swU6B8JJK8v7evE1DexyDM3CfA0NnCiBLdBobE6DYzdvV29XM3MXQPcDYx8Ax2CbUMCTU3dg81o8Bu_yBzArrDQSGF3-f45EF-A8njcz0e_WD3geQNcABHA30_j_zcVP2C3NDQ0AiDTM8sE0UAPN3fbA!!/dl3/d3/L0lDU0NTQ1FvS1VRIS9JSFNBQ0lLRURNeW01dXBnLzRDMWI4SWtmb2lUSUJLUVEvN19HMjY4SEowMTlHMU44MElPVFAyR1JGME9NNy9XQ01fQ09OVEVYVC8lMHN1K3B1b2x1c3R1c3ZvaW1hdC5maSUwcHVvbHVzdHVzdm9pbWF0LmZpJTBydW90dXZha2ktbGVodGklMHBpa2F1dXRpc2V0JTB2YXJ1c21pZXN0ZW4rcGFpdmFyYWhhK25vdXNpK3Z1b2RlbnZhaWh0ZWVzc2E!/",
+        "http://www.puolustusvoimat.fi/portal/puolustusvoimat.fi/!ut/p/c5/vZHbjqJAEIafxQdYu5pTyyVKC410g9IKcmNEHUdGwAMLC0-_s5mLTTZZryZUXf6p-pLvRyn63HLfXM77-lKV-ytKUGrspsuNdKgagBOoOrAlltrcn2EmAMUoAW0X5d2N9R_9Koe2j2jbid5quU0hIh4TchpGOVcjePacWK2QqSdpBfhg4s18SS1es_dyO_r8lf6hOYoxcT3AZrDgU2CBDxvih3jmwOsc8FduqHRBhaNhJ5xpwCJ7bco1UZ218fI-WJGvHP4zFqAtSslfG0EU2sC4xeaKKRwwAclvtPGapQzIwgOy1OFY4YB9hQP25Q_o0P5ehx5KL1kxbg_FGMa6MdGIouuKqmFsEA3F-RZ-2U_W2jRuludTk8enny3zrMiTIltyfEyr6ljfulNb-QuzkXhXG4_SFVsvU87M9p-1PLw_7r6VWIJfrufuQV3CS5Y8P-xjSbtQL8hbTPGxXU8SNXPpPa7mKeRT4ht9Nd1lzCofPQl9Lhfs2pw1X6xg63acLDbrN1zo6Y9NxLMQDkV-r7W4r68eEm5VnNCtaG505fbJP3uyRqPfvSXpEw!!/dl3/d3/L2dBISEvZ0FBIS9nQSEh/",
+        "http://www.puolustusvoimat.fi/wcm/20f2ae804718c5dcb3dfb3786bf3619b/Opas+variusmiespalvelus+englanninkielinen+2015+22012015.pdf?MOD=AJPERES"
+      ],
+      "entitySignal": true,
+      "countrySignal": true,
+      "hungarianSignal": false
     },
     {
       "title": "Constantin Virgil Gheorghiu",
@@ -165,7 +455,46 @@
       "language": "en",
       "query": "Hungarian church AX",
       "discoveredAt": "2026-09-30T06:05:12+00:00",
-      "status": "candidate"
+      "status": "rejected-low-signal",
+      "verificationCheckedAt": "2026-10-14T07:36:28+00:00",
+      "verificationScore": -2,
+      "firstPartyCandidates": [
+        "http://data.bibliotheken.nl/id/thes/p069109397",
+        "http://id.bnportugal.gov.pt/aut/catbnp/32518",
+        "http://www.manasjournal.org/",
+        "https://aleph.nkp.cz/F/?func=find-c&local_base=aut&ccl_term=ica=jn20011211088&CON_LNG=ENG",
+        "https://authority.bibsys.no/authority/rest/authorities/html/90836401",
+        "https://cantic.bnc.cat/registre/981058517353406706",
+        "https://catalogue.bnf.fr/ark:/12148/cb119047927",
+        "https://catalogue.nlg.gr/cgi-bin/koha/opac-authoritiesdetail.pl?authid=168540"
+      ],
+      "entitySignal": false,
+      "countrySignal": false,
+      "hungarianSignal": false
+    },
+    {
+      "title": "Egyptian passport",
+      "url": "https://en.wikipedia.org/wiki/Egyptian_passport",
+      "sourceType": "wikipedia-discovery",
+      "language": "en",
+      "query": "\"Åland Islands\" Hungarian school",
+      "discoveredAt": "2026-10-14T07:35:50+00:00",
+      "status": "rejected-low-signal",
+      "verificationCheckedAt": "2026-10-14T07:36:28+00:00",
+      "verificationScore": 4,
+      "firstPartyCandidates": [
+        "http://www.keesingjournalofdocuments.com/content/Cases_analysed/KJDI_2012_37_Ahmed.pdf",
+        "https://egyptianstreets.com/2022/04/04/letters-of-transit-egyptian-passport-throughout-the-years/",
+        "https://egyptianstreets.com/2022/10/02/how-powerful-is-the-egyptian-passport/",
+        "https://english.ahram.org.eg/NewsContentP/1/518365/Egypt/Parliament-approves-raising-passport-fees-from-EGP.aspx",
+        "https://irb-cisr.gc.ca/en/country-information/rir/Pages/index.aspx?doc=458470&pls=1",
+        "https://see.news/egyptian-passport-ranked-74th-globally-offering-access-to-around-one-third-of-world",
+        "https://web.archive.org/web/20190531194912/http://www.keesingjournalofdocuments.com/content/Cases_analysed/KJDI_2012_37_Ahmed.pdf",
+        "https://www.ecoi.net/en/document/2064764.html"
+      ],
+      "entitySignal": true,
+      "countrySignal": false,
+      "hungarianSignal": false
     },
     {
       "title": "European vehicle registration plate",
@@ -174,8 +503,95 @@
       "language": "en",
       "query": "Hungarian association AX",
       "discoveredAt": "2026-09-30T06:05:12+00:00",
-      "status": "candidate",
-      "lastSeenAt": "2026-09-30T06:05:12+00:00"
+      "status": "rejected-low-signal",
+      "lastSeenAt": "2026-09-30T06:05:12+00:00",
+      "verificationCheckedAt": "2026-10-14T07:36:28+00:00",
+      "verificationScore": -2,
+      "firstPartyCandidates": [
+        "http://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:31998R2411:EN:NOT",
+        "http://www.international-driving-permit.com/Convention-on-Road-Traffic/8-November-1968/EN/Annexex/Annex-3-Distinguishing-Sign-of-Motor-Vehicles-and-Trailers-to-International-Traffic.aspx",
+        "http://www.irishstatutebook.ie/1990/en/si/0287.html",
+        "http://www.legislation.gov.uk/uksi/2009/811",
+        "http://www.skat.dk/SKAT.aspx?oId=1815328&vId=0",
+        "http://www.unece.org/fileadmin/DAM/trans/conventn/Conv_road_traffic_EN.pdf",
+        "http://www.worldlicenseplates.com/world/EU_D6XX.html",
+        "http://www.worldlicenseplates.com/world/EU_PORT.html"
+      ],
+      "entitySignal": false,
+      "countrySignal": false,
+      "hungarianSignal": false
+    },
+    {
+      "title": "February 1918",
+      "url": "https://en.wikipedia.org/wiki/February_1918",
+      "sourceType": "wikipedia-discovery",
+      "language": "en",
+      "query": "\"Åland Islands\" Hungarian church",
+      "discoveredAt": "2026-10-14T07:35:50+00:00",
+      "status": "rejected-low-signal",
+      "verificationCheckedAt": "2026-10-14T07:36:28+00:00",
+      "verificationScore": 1,
+      "firstPartyCandidates": [
+        "http://base.consultant.ru/cons/cgi/online.cgi?req=doc;base=ESU;n=1777",
+        "http://digicom.bpl.lib.me.us/cgi/viewcontent.cgi?article=1042&context=books_pubs",
+        "http://encyclopedia.1914-1918-online.net/article/cattaro_mutiny_of",
+        "http://fakty.interia.pl/news/chwalebna-zdrada-rarancza-1918,1113387",
+        "http://futbolextinto.blogspot.com.ar/search/label/Argentina",
+        "http://itsenaisyys100.fi/kuohunta-kasvoi-kapinaksi-varkaudessa-ja-leppavirralla/",
+        "http://johnjames.audubon.org/last-carolina-parakeet",
+        "http://mkp.emokykla.lt/gimtoji/?id=1012"
+      ],
+      "entitySignal": false,
+      "countrySignal": false,
+      "hungarianSignal": false
+    },
+    {
+      "title": "Finland in World War II",
+      "url": "https://en.wikipedia.org/wiki/Finland_in_World_War_II",
+      "sourceType": "wikipedia-discovery",
+      "language": "en",
+      "query": "\"Åland Islands\" Hungarian church",
+      "discoveredAt": "2026-10-14T07:35:50+00:00",
+      "status": "rejected-low-signal",
+      "verificationCheckedAt": "2026-10-14T07:36:28+00:00",
+      "verificationScore": 4,
+      "firstPartyCandidates": [
+        "http://heninen.net/sopimus/1944_e.htm",
+        "http://www.arkisto.fi/uploads/Palvelut/Julkaisut/SOTAVANGIT%20JA%20INTERNOIDUT_WEB.pdf",
+        "http://www.austlii.edu.au/au/other/dfat/treaties/1948/2.html",
+        "http://www.cjp.org/page.aspx?id=143685",
+        "http://www.h-net.org/reviews/showpdf.php?id=39774",
+        "http://www.ibiblio.org/pha/policy/1939/391214a.html",
+        "http://www.jaegerplatoon.net/",
+        "http://www.presidency.ucsb.edu/ws/index.php?pid=16501"
+      ],
+      "entitySignal": true,
+      "countrySignal": false,
+      "hungarianSignal": false
+    },
+    {
+      "title": "Finnish passport",
+      "url": "https://en.wikipedia.org/wiki/Finnish_passport",
+      "sourceType": "wikipedia-discovery",
+      "language": "en",
+      "query": "\"Åland Islands\" Hungarian community",
+      "discoveredAt": "2026-10-14T07:35:50+00:00",
+      "status": "rejected-low-signal",
+      "verificationCheckedAt": "2026-10-14T07:36:28+00:00",
+      "verificationScore": 1,
+      "firstPartyCandidates": [
+        "http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex:32004L0038R(01)",
+        "http://norden.diva-portal.org/smash/get/diva2:702145/FULLTEXT01.pdf",
+        "https://finland.fi/life-society/the-example-of-aland-autonomy-as-a-minority-protector/",
+        "https://poliisi.fi/maksutaulukko",
+        "https://web.archive.org/web/20171231203006/https://www.poliisi.fi/uutiskaruselli/1/0/lapin_luonto_kuvittaa_uutta_suomen_passia_ja_henkilokorttia_53748",
+        "https://www.helsinkitimes.fi/world-int/24544-finnish-expats-decry-high-passport-fees-abroad.html",
+        "https://www.henleypassportindex.com/passport-index",
+        "https://www.is.fi/kotimaa/art-2000009409833.html"
+      ],
+      "entitySignal": false,
+      "countrySignal": false,
+      "hungarianSignal": false
     },
     {
       "title": "Fourier-analízis",
@@ -184,7 +600,61 @@
       "language": "hu",
       "query": "magyar iskola AX",
       "discoveredAt": "2026-09-30T06:05:12+00:00",
-      "status": "candidate"
+      "status": "rejected-low-signal",
+      "verificationCheckedAt": "2026-10-14T07:36:28+00:00",
+      "verificationScore": 3,
+      "firstPartyCandidates": [
+        "http://catalogo.bne.es/uhtbin/authoritybrowse.cgi?action=display&authority_id=XX527483",
+        "http://lccn.loc.gov/sh85051088",
+        "https://aleph.nkp.cz/F/?func=find-c&local_base=aut&ccl_term=ica=ph117564&CON_LNG=ENG",
+        "https://catalogue.bnf.fr/ark:/12148/cb11942178c",
+        "https://d-nb.info/gnd/4023453-8",
+        "https://www.idref.fr/04070890X"
+      ],
+      "entitySignal": false,
+      "countrySignal": false,
+      "hungarianSignal": true
+    },
+    {
+      "title": "Guernsey-variant British passport",
+      "url": "https://en.wikipedia.org/wiki/Guernsey-variant_British_passport",
+      "sourceType": "wikipedia-discovery",
+      "language": "en",
+      "query": "\"Åland Islands\" Hungarian school",
+      "discoveredAt": "2026-10-14T07:35:50+00:00",
+      "status": "rejected-low-signal",
+      "lastSeenAt": "2026-10-14T07:35:50+00:00",
+      "verificationCheckedAt": "2026-10-14T07:36:28+00:00",
+      "verificationScore": -2,
+      "firstPartyCandidates": [
+        "http://prado.consilium.europa.eu/EN/6202/docHome.html",
+        "http://www.gov.gg/article/2822/What-is-Islander-status",
+        "http://www.gov.gg/ccm/navigation/home-department/gba/Passports/",
+        "https://gsy.bailiwickexpress.com/gsy/news/passport-fees-rising/",
+        "https://guernseypress.com//news/2009/03/20/right-to-issue-british-passport-is-at-stake/",
+        "https://web.archive.org/web/20131007233859/http://www.gov.gg/article/2822/What-is-Islander-status",
+        "https://www.gov.gg/CHttpHandler.ashx?id=122371&p=0#:~:text=5th%20December-,Guernsey-variant%20British%20passports%20are%20issued%20to%20British%20nationals%20and,,%20but%20not%20on-line."
+      ],
+      "entitySignal": false,
+      "countrySignal": false,
+      "hungarianSignal": false
+    },
+    {
+      "title": "Guinean passport",
+      "url": "https://en.wikipedia.org/wiki/Guinean_passport",
+      "sourceType": "wikipedia-discovery",
+      "language": "en",
+      "query": "\"Åland Islands\" Hungarian community",
+      "discoveredAt": "2026-10-14T07:35:50+00:00",
+      "status": "rejected-low-signal",
+      "verificationCheckedAt": "2026-10-14T07:36:28+00:00",
+      "verificationScore": 1,
+      "firstPartyCandidates": [
+        "http://www.consilium.europa.eu/prado/en/GIN-AO-02001/index.html"
+      ],
+      "entitySignal": false,
+      "countrySignal": false,
+      "hungarianSignal": false
     },
     {
       "title": "HBO",
@@ -193,8 +663,47 @@
       "language": "hu",
       "query": "magyar egyesület AX",
       "discoveredAt": "2026-09-30T06:05:12+00:00",
-      "status": "candidate",
-      "lastSeenAt": "2026-09-30T06:05:12+00:00"
+      "status": "rejected-low-signal",
+      "lastSeenAt": "2026-09-30T06:05:12+00:00",
+      "verificationCheckedAt": "2026-10-14T07:36:28+00:00",
+      "verificationScore": 3,
+      "firstPartyCandidates": [
+        "http://forum.index.hu/Article/viewArticle?a=142004884&t=9028317",
+        "http://hbo.com/",
+        "http://hbo.hu/",
+        "http://hbo.hu/AboutHBO.aspx/",
+        "http://lccn.loc.gov/n82062309",
+        "http://sorozatjunkie.hu/2007/09/01/magyar-csatornak-nezettsege/",
+        "http://tv.abbcenter.com/?m=K%E1beltelev%EDzi%F3k&al=HBO&PHPSESSID=247f0d2332b0761d63fdc9f8413210bd",
+        "http://tv.animare.hu/tvmusor.aspx?id=71964954afd12d492d89b7644531447690"
+      ],
+      "entitySignal": false,
+      "countrySignal": false,
+      "hungarianSignal": true
+    },
+    {
+      "title": "Hungarian passport",
+      "url": "https://en.wikipedia.org/wiki/Hungarian_passport",
+      "sourceType": "wikipedia-discovery",
+      "language": "en",
+      "query": "\"Åland Islands\" Hungarian community",
+      "discoveredAt": "2026-10-14T07:35:50+00:00",
+      "status": "rejected-low-signal",
+      "verificationCheckedAt": "2026-10-14T07:36:28+00:00",
+      "verificationScore": 3,
+      "firstPartyCandidates": [
+        "http://kekkh.gov.hu/hu/utlevel#koltsegek",
+        "http://nl.newsbank.com/nl-search/we/Archives?p_product=NewsLibrary&p_multi=BBAB&d_place=BBAB&p_theme=newslibrary2&p_action=search&p_maxdocs=200&p_topdoc=1&p_text_direct-0=0F97A25C1AC7AA8C&p_field_direct-0=document_id&p_perpage=10&p_sort=YMD_date:D&s_trackval=GooglePM",
+        "http://nl.newsbank.com/nl-search/we/Archives?p_product=NewsLibrary&p_multi=BBAB&d_place=BBAB&p_theme=newslibrary2&p_action=search&p_maxdocs=200&p_topdoc=1&p_text_direct-0=0FEA95072B8B721C&p_field_direct-0=document_id&p_perpage=10&p_sort=YMD_date:D&s_trackval=GooglePM",
+        "http://prado.consilium.europa.eu/en/2992/viewImage_70491.html",
+        "http://www.consilium.europa.eu/prado/EN/categories/HUN/A/resultByCountryCategory.html",
+        "http://www.consilium.europa.eu/prado/en/HUN-AO-02001/index.html",
+        "http://www.consilium.europa.eu/prado/en/HUN-AO-03001/index.html",
+        "http://www.mfa.gov.hu/kum/en/bal/consular_services/Entry_of_Foreigners_to_Hungary/visa_exemption/visa_waiver_agreements.htm"
+      ],
+      "entitySignal": false,
+      "countrySignal": false,
+      "hungarianSignal": true
     },
     {
       "title": "Hungarian prehistory",
@@ -203,7 +712,22 @@
       "language": "en",
       "query": "Hungarian community AX",
       "discoveredAt": "2026-09-30T06:05:12+00:00",
-      "status": "candidate"
+      "status": "rejected-low-signal",
+      "verificationCheckedAt": "2026-10-14T07:36:28+00:00",
+      "verificationScore": 3,
+      "firstPartyCandidates": [
+        "http://www.c3.hu/scripta/books/96/03/02hofer.htm",
+        "http://www.helsinki.fi/~tasalmin/kuzn.html",
+        "http://www.hungarianarchaeology.hu/wp-content/uploads/2012/08/eng_turk_12Ny_0827.pdf",
+        "http://www.kroraina.com/hungar/ds_ohp.html",
+        "https://academic.oup.com/hmg/article/31/19/3266/6582494?searchresult=1",
+        "https://archive.org/details/concisehistoryof00moln",
+        "https://archive.org/details/historyofhungary00suga",
+        "https://archive.org/details/historyofhungary00suga/page/8"
+      ],
+      "entitySignal": false,
+      "countrySignal": false,
+      "hungarianSignal": true
     },
     {
       "title": "ISO 4217",
@@ -212,7 +736,22 @@
       "language": "en",
       "query": "Hungarian association AX",
       "discoveredAt": "2026-09-30T06:05:12+00:00",
-      "status": "candidate"
+      "status": "rejected-low-signal",
+      "verificationCheckedAt": "2026-10-14T07:36:28+00:00",
+      "verificationScore": 1,
+      "firstPartyCandidates": [
+        "http://coinsofmalta.com/Study/Maltacoinsalongtheyears.htm",
+        "http://publications.europa.eu/code/en/en-370303.htm#position",
+        "http://www.banrep.gov.co/es/uvr",
+        "http://www.bcu.gub.uy/Billetes%20y%20Monedas/Museo/Paginas/Cambios_Moneda.aspx",
+        "http://www.boi.org.il/en/Currency/Pages/Default.aspx",
+        "http://www.boz.zm/bankingcurrency_curencyhistory.htm",
+        "http://www.centralbank.org.bb/research-publications/statistics/interest-rates-and-exchange-rates?page=3",
+        "http://www.currency-iso.org/en/home/amendments/secretariat.html"
+      ],
+      "entitySignal": true,
+      "countrySignal": false,
+      "hungarianSignal": false
     },
     {
       "title": "Internátus (televíziós sorozat)",
@@ -221,8 +760,23 @@
       "language": "hu",
       "query": "magyar közösség AX",
       "discoveredAt": "2026-09-30T06:05:12+00:00",
-      "status": "candidate",
-      "lastSeenAt": "2026-09-30T06:05:12+00:00"
+      "status": "rejected-low-signal",
+      "lastSeenAt": "2026-09-30T06:05:12+00:00",
+      "verificationCheckedAt": "2026-10-14T07:36:28+00:00",
+      "verificationScore": 1,
+      "firstPartyCandidates": [
+        "http://cris603.blogspot.com/2010_04_01_archive.html",
+        "http://el-internado.hupont.hu/",
+        "http://es.lagunanegra.wikia.com/wiki/El_Internado",
+        "http://hu.axn.com/blog/internatus-legnepszerubb-spanyol-sorozat-aprilis-5-tol-az-axn-musoran",
+        "http://investigandolalagunanegra.blogspot.com/",
+        "http://www.antena3.com/series/el-internado/",
+        "http://www.elmundo.es/elmundo/2007/10/30/television/1193774712.html",
+        "https://port.hu/pls/fi/films.film_page?i_film_id=101517"
+      ],
+      "entitySignal": false,
+      "countrySignal": false,
+      "hungarianSignal": false
     },
     {
       "title": "Judaeo-Spanish",
@@ -231,7 +785,22 @@
       "language": "en",
       "query": "Hungarian community AX",
       "discoveredAt": "2026-09-30T06:05:12+00:00",
-      "status": "candidate"
+      "status": "rejected-low-signal",
+      "verificationCheckedAt": "2026-10-14T07:36:28+00:00",
+      "verificationScore": 1,
+      "firstPartyCandidates": [
+        "http://archive.phonetics.ucla.edu/Language/LAD/lad.html",
+        "http://ccat.sas.upenn.edu/jwst/courses09c.htm#JWST231680",
+        "http://dexonline.ro/search.php?cuv=palavra&source=12",
+        "http://dx.doi.org/10.1163/187247107783876329",
+        "http://fortunaoficial.com/en/biography/",
+        "http://hispanismo.cervantes.es/documentos/smidX.pdf",
+        "http://jewishstudies.washington.edu/blog/why-im-teaching-a-new-generation-to-read-and-write-ladino",
+        "http://jewishstudies.washington.edu/seattle-sephardic-treasures/"
+      ],
+      "entitySignal": true,
+      "countrySignal": false,
+      "hungarianSignal": false
     },
     {
       "title": "Kapu Tibor",
@@ -240,7 +809,22 @@
       "language": "hu",
       "query": "magyar közösség AX",
       "discoveredAt": "2026-09-30T06:05:12+00:00",
-      "status": "candidate"
+      "status": "rejected-low-signal",
+      "verificationCheckedAt": "2026-10-14T07:36:28+00:00",
+      "verificationScore": 3,
+      "firstPartyCandidates": [
+        "http://cydonia.blog.hu/2009/03/29/simonyi_uzenet",
+        "http://index.hu/tudomany/urkutatas/2009/04/04/ujra_beszeltek_a_magyar_radioamatorok_simonyival/",
+        "http://port.hu/cikk/magazin/landolt-a-dragon-urkapszula-visszatert-a-foldre-kapu-tibor/article-114359",
+        "https://24.hu/belfold/2024/05/27/kovetkezo-magyar-urhajos-dontes-kapu-tibor/",
+        "https://24.hu/elet-stilus/2025/06/27/kapu-tibor-zenekar-szegyelld-magad-kata-ukulele-eddig-alneven-es-maszkban-lepett-fel/",
+        "https://divany.hu/vip/kapu-tibor/",
+        "https://femina.hu/terasz/kapu-tibor-uzenet-ur/",
+        "https://hirado.hu/extra/tudomany-high-tech/cikk/2025/06/25/kapu-tibor-uzent-a-magyaroknak-a-kiloves-utan/"
+      ],
+      "entitySignal": false,
+      "countrySignal": false,
+      "hungarianSignal": true
     },
     {
       "title": "Kecskemét",
@@ -249,7 +833,39 @@
       "language": "hu",
       "query": "magyar cserkész AX",
       "discoveredAt": "2026-09-30T06:05:12+00:00",
-      "status": "candidate"
+      "status": "rejected-low-signal",
+      "verificationCheckedAt": "2026-10-14T07:36:28+00:00",
+      "verificationScore": 3,
+      "firstPartyCandidates": [
+        "http://civilnaplo.hu/",
+        "http://csuszdapark.hu/",
+        "http://hiros.hu/",
+        "http://hiroshir.hu/",
+        "http://hiroshir.hu/sw.!news/id.1046/title_Sport+-+Bemutatkozik+a+Kecskem%C3%A9t+Goats",
+        "http://hrcak.srce.hr/file/11541",
+        "http://kecskemet.blog.hu/",
+        "http://kecskemet.hotelonlinehungary.com/index_hu.asp#"
+      ],
+      "entitySignal": false,
+      "countrySignal": false,
+      "hungarianSignal": true
+    },
+    {
+      "title": "Kiribati passport",
+      "url": "https://en.wikipedia.org/wiki/Kiribati_passport",
+      "sourceType": "wikipedia-discovery",
+      "language": "en",
+      "query": "\"Åland Islands\" Hungarian community",
+      "discoveredAt": "2026-10-14T07:35:50+00:00",
+      "status": "rejected-low-signal",
+      "verificationCheckedAt": "2026-10-14T07:36:28+00:00",
+      "verificationScore": 1,
+      "firstPartyCandidates": [
+        "https://www.henleypassportindex.com/assets/2020/Q1/HENLEY%20PASSPORT%20INDEX%202020%20Q1%20INFOGRAPHIC%20GLOBAL%20RANKING_191219.pdf"
+      ],
+      "entitySignal": false,
+      "countrySignal": false,
+      "hungarianSignal": false
     },
     {
       "title": "Kustánczi Linda Lia",
@@ -258,7 +874,40 @@
       "language": "hu",
       "query": "magyar iskola AX",
       "discoveredAt": "2026-09-30T06:05:12+00:00",
-      "status": "candidate"
+      "status": "rejected-low-signal",
+      "verificationCheckedAt": "2026-10-14T07:36:28+00:00",
+      "verificationScore": 3,
+      "firstPartyCandidates": [
+        "http://www.kustanczilia.hu/",
+        "https://web.archive.org/web/20110828152806/http://www.kustanczilia.hu/"
+      ],
+      "entitySignal": false,
+      "countrySignal": false,
+      "hungarianSignal": true
+    },
+    {
+      "title": "Liechtenstein passport",
+      "url": "https://en.wikipedia.org/wiki/Liechtenstein_passport",
+      "sourceType": "wikipedia-discovery",
+      "language": "en",
+      "query": "\"Åland Islands\" Hungarian association",
+      "discoveredAt": "2026-10-14T07:35:50+00:00",
+      "status": "rejected-low-signal",
+      "verificationCheckedAt": "2026-10-14T07:36:28+00:00",
+      "verificationScore": -2,
+      "firstPartyCandidates": [
+        "http://www.consilium.europa.eu/prado/en/LIE-AO-02001/index.html",
+        "http://www.efta.int/legal-texts/efta-convention/detailed-overview-of-the-efta-convention#persons",
+        "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02001R0539-20170611",
+        "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:22007D0158",
+        "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32004L0038R(01)",
+        "https://web.archive.org/web/20120308133659/http://www.llv.li/amtsstellen/llv-apa-summary__in_english_.htm",
+        "https://web.archive.org/web/20181209134431/https://www.businessinsider.de/nationalities-with-the-best-quality-of-life-2016-6?r=UK&IR=T",
+        "https://web.archive.org/web/20210926154142/https://www.regierung.li/ministries/ministry-of-foreign-affairs/diplomatic-representations"
+      ],
+      "entitySignal": false,
+      "countrySignal": false,
+      "hungarianSignal": false
     },
     {
       "title": "List of Galician (Eastern Europe) Jews",
@@ -267,7 +916,22 @@
       "language": "en",
       "query": "Hungarian community AX",
       "discoveredAt": "2026-09-30T06:05:12+00:00",
-      "status": "candidate"
+      "status": "rejected-low-signal",
+      "verificationCheckedAt": "2026-10-14T07:36:28+00:00",
+      "verificationScore": 3,
+      "firstPartyCandidates": [
+        "http://chareidi.org/archives5773/mikeitz/arweinbachmkz73.htm",
+        "http://www.jewishencyclopedia.com/view.jsp?artid=30&letter=G",
+        "http://www.jewishgen.org/Galicia/",
+        "http://www.orgone.org/articles/ax6bjmbt.htm",
+        "https://scholar.google.com/scholar?q=%22List+of+Galician+(Eastern+Europe)+Jews%22",
+        "https://web.archive.org/web/20070227012849/http://www.orgone.org/articles/ax6bjmbt.htm",
+        "https://www.google.com/search?&q=%22List+of+Galician+(Eastern+Europe)+Jews%22&tbs=bkt:s&tbm=bks",
+        "https://www.google.com/search?as_eq=wikipedia&q=%22List+of+Galician+(Eastern+Europe)+Jews%22"
+      ],
+      "entitySignal": true,
+      "countrySignal": false,
+      "hungarianSignal": true
     },
     {
       "title": "List of ISO 639 language codes",
@@ -276,7 +940,22 @@
       "language": "en",
       "query": "Hungarian church AX",
       "discoveredAt": "2026-09-30T06:05:12+00:00",
-      "status": "candidate"
+      "status": "rejected-low-signal",
+      "verificationCheckedAt": "2026-10-14T07:36:28+00:00",
+      "verificationScore": -2,
+      "firstPartyCandidates": [
+        "https://hal.science/hal-01120553v1",
+        "https://marama.huma-num.fr/AF-Atlas-blurbs_e.htm",
+        "https://standards.iso.org/iso/639/ed-2/en/Access%20to%20the%20databases%20of%20the%20ISO%20639%20Language%20Code.pdf",
+        "https://web.archive.org/web/20180404143824/https://xml.coverpages.org/iso639a.html",
+        "https://web.archive.org/web/20190428235442/https://www.loc.gov/standards/iso639-2/php/code_changes.php",
+        "https://www.iso.org/obp/ui/en/#iso:std:iso:639:ed-2:v1:en",
+        "https://www.loc.gov/standards/iso639-2/php/English_list.php",
+        "https://www.loc.gov/standards/iso639-2/php/code_changes.php"
+      ],
+      "entitySignal": false,
+      "countrySignal": false,
+      "hungarianSignal": false
     },
     {
       "title": "List of Trinity Blood characters",
@@ -285,7 +964,22 @@
       "language": "en",
       "query": "Hungarian church AX",
       "discoveredAt": "2026-09-30T06:05:12+00:00",
-      "status": "candidate"
+      "status": "rejected-low-signal",
+      "verificationCheckedAt": "2026-10-14T07:36:28+00:00",
+      "verificationScore": -2,
+      "firstPartyCandidates": [
+        "http://www.kadokawa.co.jp/lnovel/bk_detail.php?pcd=200408000149",
+        "https://a-f.pl/?art=24",
+        "https://archive.org/details/isbn_9781598169553",
+        "https://archive.org/details/trinitybloodvolu0000yosh",
+        "https://scholar.google.com/scholar?q=%22List+of+Trinity+Blood+characters%22",
+        "https://web.archive.org/web/20121017080342/http://www.kadokawa.co.jp/lnovel/bk_detail.php?pcd=200408000149",
+        "https://www.google.com/search?&q=%22List+of+Trinity+Blood+characters%22&tbs=bkt:s&tbm=bks",
+        "https://www.google.com/search?as_eq=wikipedia&q=%22List+of+Trinity+Blood+characters%22"
+      ],
+      "entitySignal": false,
+      "countrySignal": false,
+      "hungarianSignal": false
     },
     {
       "title": "List of attacks related to primary schools",
@@ -294,7 +988,22 @@
       "language": "en",
       "query": "Hungarian school AX",
       "discoveredAt": "2026-09-30T06:05:12+00:00",
-      "status": "candidate"
+      "status": "rejected-low-signal",
+      "verificationCheckedAt": "2026-10-14T07:36:28+00:00",
+      "verificationScore": 4,
+      "firstPartyCandidates": [
+        "http://archiviostorico.corriere.it/1993/maggio/15/scuola_Terrazzano_ore_terrore_co_0_9305156324.shtml",
+        "http://atlanta.cbslocal.com/2013/08/20/official-suspect-in-custody-in-elementary-school-shooting/",
+        "http://cdnc.ucr.edu/cdnc/cgi-bin/cdnc?a=d&cl=search&d=DAC18900425.2.68&srpos=1&e=23-04-1890-27-04-1890--en--20-DAC-1--txt-IN-brubach----",
+        "http://cdnc.ucr.edu/cgi-bin/cdnc?a=d&d=LAH18981213.2.55&e=-------en--20--1--txt-txIN--------1",
+        "http://chroniclingamerica.loc.gov/lccn/sn87007277/1891-03-27/ed-1/seq-3/",
+        "http://edition.cnn.com/2011/WORLD/americas/04/07/brazil.school.shooting/",
+        "http://english.eastday.com/eastday/englishedition/nation/u1a2911265.html",
+        "http://english.eastday.com/eastday/englishedition/nation/userobject1ai704590.html"
+      ],
+      "entitySignal": true,
+      "countrySignal": false,
+      "hungarianSignal": false
     },
     {
       "title": "List of school massacres by death toll",
@@ -303,7 +1012,22 @@
       "language": "en",
       "query": "Hungarian school AX",
       "discoveredAt": "2026-09-30T06:05:12+00:00",
-      "status": "candidate"
+      "status": "rejected-low-signal",
+      "verificationCheckedAt": "2026-10-14T07:36:28+00:00",
+      "verificationScore": 4,
+      "firstPartyCandidates": [
+        "http://anilaggrawal.com/ij/sundry/news_and_notes/eflm_2005/216_mass%20murder.pdf",
+        "http://archives.concordia.ca/sites/default/files/uploaded-documents/pages/2011/07/26/Cowan_report.pdf",
+        "http://content.time.com/time/magazine/article/0,9171,828393,00.html",
+        "http://edition.cnn.com/2010/WORLD/asiapcf/08/04/china.knife.attacks/#fbid=Nd4JqG8TSnK",
+        "http://edition.cnn.com/2011/WORLD/asiapcf/09/14/china.ax.attacks/index.html",
+        "http://english.peopledaily.com.cn/90882/7957350.html",
+        "http://info.jpost.com/C002/Supplements/CasualtiesOfWar/2002_03_07.html",
+        "http://news-en.trend.az/incident/1463818.html"
+      ],
+      "entitySignal": true,
+      "countrySignal": false,
+      "hungarianSignal": false
     },
     {
       "title": "List of stock characters",
@@ -312,7 +1036,71 @@
       "language": "en",
       "query": "Hungarian church AX",
       "discoveredAt": "2026-09-30T06:05:12+00:00",
-      "status": "candidate"
+      "status": "rejected-low-signal",
+      "verificationCheckedAt": "2026-10-14T07:36:28+00:00",
+      "verificationScore": -2,
+      "firstPartyCandidates": [
+        "http://dictionary.oed.com/",
+        "http://dictionary.reference.com/browse/geek",
+        "http://dx.doi.org/10.4324/9780203866207",
+        "http://entertainment.ca.msn.com/movies/galleries/10-top-child-prodigies-at-the-movies",
+        "http://onmilwaukee.com/ent/articles/gavanoherlihy.html",
+        "http://rpgfan.com/soundtracks/mother2004/index.html",
+        "http://stagingthehenriciancourt.brookes.ac.uk/research/the_vice_and_the_fool.html",
+        "http://wanderlustandlipstick.com/blogs/travelpurpose/2011/02/09/torontos-fairmont-royal-york-hotel-the-grande-dame-walks-her-talk/"
+      ],
+      "entitySignal": false,
+      "countrySignal": false,
+      "hungarianSignal": false
+    },
+    {
+      "title": "List of twin towns and sister cities in Denmark",
+      "url": "https://en.wikipedia.org/wiki/List_of_twin_towns_and_sister_cities_in_Denmark",
+      "sourceType": "wikipedia-discovery",
+      "language": "en",
+      "query": "\"Åland Islands\" Hungarian association",
+      "discoveredAt": "2026-10-14T07:35:50+00:00",
+      "status": "rejected-low-signal",
+      "verificationCheckedAt": "2026-10-14T07:36:28+00:00",
+      "verificationScore": -2,
+      "firstPartyCandidates": [
+        "http://nordfyn.foreningen-norden.dk/vendskabsbyer/",
+        "http://odder.foreningen-norden.dk/jubilaeum/",
+        "http://www.brondby.dk/Kommune/okonomi/Budget/Budget-2017.aspx",
+        "http://www.foreningennordenfrederiksberg.dk/431298867",
+        "http://www.glostrup.dk/politik/oevrige-udvalg-og-bestyrelser/oevrige-udvalg/venskabsbyerne-kontaktpersoner",
+        "http://www.mann.dk/herlev.htm",
+        "http://www.norden-herning.dk/venskabsbyer.html",
+        "http://www2.htk.dk/Oekonomi-og-digitaliseringscenter/Budget2019-22/Hoering/%C3%98konomiudvalget/Ikke_Indarbejdet/Nedlaeggelse_af_venskabsbysamarbejde.pdf"
+      ],
+      "entitySignal": false,
+      "countrySignal": false,
+      "hungarianSignal": false
+    },
+    {
+      "title": "List of twin towns and sister cities in Finland",
+      "url": "https://en.wikipedia.org/wiki/List_of_twin_towns_and_sister_cities_in_Finland",
+      "sourceType": "wikipedia-discovery",
+      "language": "en",
+      "query": "\"Åland Islands\" Hungarian association",
+      "discoveredAt": "2026-10-14T07:35:50+00:00",
+      "status": "rejected-low-signal",
+      "lastSeenAt": "2026-10-14T07:35:50+00:00",
+      "verificationCheckedAt": "2026-10-14T07:36:28+00:00",
+      "verificationScore": -2,
+      "firstPartyCandidates": [
+        "http://visitkronshtadt.ru/goroda-partnry",
+        "http://www.bjurholm.se/?id=1964",
+        "http://www.cityofhancock.com/info-about.php",
+        "http://www.eura.fi/fi/eura-info/ystavyyskunnat/yleista---.html",
+        "http://www.huittinen.fi/tietoa_huittisista/ystavyyskunnat",
+        "http://www.juupajoki.fi/kuntainfo/kansainvalinen-toiminta",
+        "http://www.kamienpomorski.pl/pl/page/miasta-partnerskie",
+        "http://www.kormend.hu/A_varos/Testvervarosok/Heinvesi_.html"
+      ],
+      "entitySignal": false,
+      "countrySignal": false,
+      "hungarianSignal": false
     },
     {
       "title": "Magyar Cofidis Bank",
@@ -321,7 +1109,22 @@
       "language": "hu",
       "query": "magyar iskola AX",
       "discoveredAt": "2026-09-30T06:05:12+00:00",
-      "status": "candidate"
+      "status": "rejected-low-signal",
+      "verificationCheckedAt": "2026-10-14T07:36:28+00:00",
+      "verificationScore": 3,
+      "firstPartyCandidates": [
+        "http://www.bankracio.hu/bankok/9-cetelem-bank",
+        "http://www.bankszovetseg.hu/tagjaink/cetelem",
+        "http://www.cofidisbank.hu/",
+        "https://web.archive.org/web/*/https://wwf.hu/archiv/betonudvarok-helyett-iskolai-alomligetek-az-erdok-eveben",
+        "https://web.archive.org/web/20141209181934/http://www.bankracio.hu/bankok/9-cetelem-bank",
+        "https://web.archive.org/web/20161114002825/https://www.cetelem.hu/",
+        "https://web.archive.org/web/20210411061925/https://www.cetelem.hu/cetelem/hirek/diakok-tettek-zoldebbe-az-iskolaudvarokat",
+        "https://wikidata-externalid-url.toolforge.org/?url=https://www.e-cegjegyzek.hu/?cegadatlap/%251%252%253&exp=(%5Cd%7B2%7D)-(%5Cd%7B2%7D)-(%5Cd%7B6%7D)&id=01-10-043269"
+      ],
+      "entitySignal": false,
+      "countrySignal": false,
+      "hungarianSignal": true
     },
     {
       "title": "Magyar nyelvű tévéadók listája",
@@ -330,7 +1133,46 @@
       "language": "hu",
       "query": "magyar közösség AX",
       "discoveredAt": "2026-09-30T06:05:12+00:00",
-      "status": "candidate"
+      "status": "rejected-low-signal",
+      "verificationCheckedAt": "2026-10-14T07:36:28+00:00",
+      "verificationScore": 3,
+      "firstPartyCandidates": [
+        "http://dtvnews.hu/hirek/meg-magyarabb-lesz-a-paramount-channel",
+        "http://forum.index.hu/Article/showArticle?t=9082838",
+        "http://hirek.prim.hu/cikk/10129/",
+        "http://lyngsat.com/freetv/Hungary.html",
+        "http://origo.hu/teve/20080125-visszater-a-fel-valo-vilag-otos-csatorna.html",
+        "http://origo.hu/teve/20130415-teves-nezettseg-lepipaltak-a-tv3-reszketos-betoroit.html",
+        "http://sat-tv-radio.hu/",
+        "http://sat-tv-radio.hu/friss-hirek/megszunik-a-bestofmusic.html?Itemid=2"
+      ],
+      "entitySignal": false,
+      "countrySignal": false,
+      "hungarianSignal": true
+    },
+    {
+      "title": "Malaysian passport",
+      "url": "https://en.wikipedia.org/wiki/Malaysian_passport",
+      "sourceType": "wikipedia-discovery",
+      "language": "en",
+      "query": "\"Åland Islands\" Hungarian church",
+      "discoveredAt": "2026-10-14T07:35:50+00:00",
+      "status": "rejected-low-signal",
+      "verificationCheckedAt": "2026-10-14T07:36:28+00:00",
+      "verificationScore": -2,
+      "firstPartyCandidates": [
+        "http://in.tech.yahoo.com/060508/137/643lw.html",
+        "http://wikivisa.org/Malaysia",
+        "http://www.ica.gov.sg/page.aspx?pageid=209",
+        "http://www.imi.gov.my/index.php/en/services/citizens/document-in-lieu-of-internal-travel-document",
+        "http://www.iris.com.my/home/pic/Malaysia%20Passport%20Anti-Cloning%20Statement.pdf",
+        "http://www.jcpa.org/JCPA/Templates/ShowPage.asp?DRIT=3&DBID=1&LNGID=1&TMID=111&FID=624&PID=0&IID=1639&TTL=Malaysia:_Anti-Semitism_without_Jews",
+        "http://www.themalaysianinsider.com/malaysia/article/christians-upset-by-putrajaya-curbs-on-jerusalem-pilgrimage",
+        "http://www.thestar.com.my/News/Nation/2015/01/15/Passport-fees-reduced/"
+      ],
+      "entitySignal": false,
+      "countrySignal": false,
+      "hungarianSignal": false
     },
     {
       "title": "Mark Pathy",
@@ -339,7 +1181,70 @@
       "language": "en",
       "query": "Hungarian school AX",
       "discoveredAt": "2026-09-30T06:05:12+00:00",
-      "status": "candidate"
+      "status": "rejected-low-signal",
+      "verificationCheckedAt": "2026-10-14T07:36:28+00:00",
+      "verificationScore": -2,
+      "firstPartyCandidates": [
+        "http://companycheck.co.uk/director/913094478/MR-MARK-LAURENCE-PATHY/summary",
+        "http://www.collectspace.com/news/news-012621a-axiom-space-ax1-crew-announce.html",
+        "https://archive.org/details/selwynhouseschoo1985selw",
+        "https://canadiansailings.ca/fednav-celebrates-its-75th-anniversary/",
+        "https://lactualite.com/culture/mecenat-incognito/",
+        "https://montrealgazette.com/news/one-giant-leap-for-concordia-mark-pathys-15m-donation-launches-space-institute/",
+        "https://nationalpost.com/news/canada/private-canadian-astronaut-gears-up-for-pain-experiments-in-space",
+        "https://web.archive.org/web/20220516084243/https://canadiansailings.ca/fednav-celebrates-its-75th-anniversary/"
+      ],
+      "entitySignal": false,
+      "countrySignal": false,
+      "hungarianSignal": false
+    },
+    {
+      "title": "Micronesian passport",
+      "url": "https://en.wikipedia.org/wiki/Micronesian_passport",
+      "sourceType": "wikipedia-discovery",
+      "language": "en",
+      "query": "\"Åland Islands\" Hungarian association",
+      "discoveredAt": "2026-10-14T07:35:50+00:00",
+      "status": "rejected-low-signal",
+      "verificationCheckedAt": "2026-10-14T07:36:28+00:00",
+      "verificationScore": 1,
+      "firstPartyCandidates": [
+        "http://shark.comfsm.fm/library/digitallibrary/V7N141986.pdf",
+        "http://www.fsmembassydc.org/faq.htm",
+        "http://www.pacificdigitallibrary.org/cgi-bin/pdl?e=d-000off-pdl--00-2--0--010---4-------0-1l--10en-50---20-info---00-3-1-00bySR-0-0-000utfZz-8-00&a=d&cl=CL1.7&d=HASH018f9bcb9f042688015b6e58.18",
+        "http://www.uscis.gov/portal/site/uscis/menuitem.5af9bb95919f35e66f614176543f6d1a/?vgnextoid=f741cde609eee210VgnVCM100000082ca60aRCRD&vgnextchannel=4b18dc4d88889010VgnVCM10000045f3d6a1RCRD",
+        "http://www.uscis.gov/portal/site/uscis/menuitem.eb1d4c2a3e5b9ac89243c6a7543f6d1a/?vgnextoid=30341921c6898210VgnVCM100000082ca60aRCRD&vgnextchannel=30341921c6898210VgnVCM100000082ca60aRCRD",
+        "http://www.worldtravelguide.net/pacific-islands-micronesia/federated-states-micronesia/passport-visa",
+        "https://eeas.europa.eu/headquarters/headquarters-homepage/10123/eu-and-the-federated-states-of-micronesia-sign-visa-waiver-agreement---_en",
+        "https://henleyglobal.com/files/download/hvri/HP_Visa_Restrictions_Index_170301.pdf"
+      ],
+      "entitySignal": false,
+      "countrySignal": false,
+      "hungarianSignal": false
+    },
+    {
+      "title": "Montenegrin passport",
+      "url": "https://en.wikipedia.org/wiki/Montenegrin_passport",
+      "sourceType": "wikipedia-discovery",
+      "language": "en",
+      "query": "\"Åland Islands\" Hungarian school",
+      "discoveredAt": "2026-10-14T07:35:50+00:00",
+      "status": "rejected-low-signal",
+      "verificationCheckedAt": "2026-10-14T07:36:28+00:00",
+      "verificationScore": -2,
+      "firstPartyCandidates": [
+        "http://www.consilium.europa.eu/prado/en/MNE-AO-02001/index.html",
+        "http://www.mip.gov.me/",
+        "http://www.mup.gov.me/rubrike/izdavanje-dokumenata/85195/159612.html",
+        "http://www.njegos.org/passports/pasos1.jpg",
+        "http://www.njegos.org/passports/pasos3.jpg",
+        "http://www.njegos.org/passports/pasos4.jpg",
+        "http://www.timaticweb.com/cgi-bin/tim_client.cgi?ExpertMode=TINEWS/N1&user=AMADEB2C&subuser=QANTAS",
+        "https://web.archive.org/web/20080629005939/http://www.njegoskij.org/article376.html"
+      ],
+      "entitySignal": false,
+      "countrySignal": false,
+      "hungarianSignal": false
     },
     {
       "title": "Muslim Association of the Lictor",
@@ -348,7 +1253,17 @@
       "language": "en",
       "query": "Hungarian association AX",
       "discoveredAt": "2026-09-30T06:05:12+00:00",
-      "status": "candidate"
+      "status": "rejected-low-signal",
+      "verificationCheckedAt": "2026-10-14T07:36:28+00:00",
+      "verificationScore": 4,
+      "firstPartyCandidates": [
+        "http://senato.archivioluce.it/senato-luce/scheda/video/IL5000018650/2/Tripolitania-Tripoli.html",
+        "https://books.google.com/books?id=KQ0MAAAAQBAJ&dq=Associazione+Musulmana+del+Littorio&pg=PA193",
+        "https://books.google.com/books?id=Mf-aIBlXm0YC"
+      ],
+      "entitySignal": true,
+      "countrySignal": false,
+      "hungarianSignal": false
     },
     {
       "title": "Mărtiniș",
@@ -357,7 +1272,34 @@
       "language": "en",
       "query": "Hungarian church AX",
       "discoveredAt": "2026-09-30T06:05:12+00:00",
-      "status": "candidate"
+      "status": "candidate",
+      "verificationCheckedAt": "2026-10-14T07:36:28+00:00",
+      "verificationError": "URLError"
+    },
+    {
+      "title": "Nansen passport",
+      "url": "https://en.wikipedia.org/wiki/Nansen_passport",
+      "sourceType": "wikipedia-discovery",
+      "language": "en",
+      "query": "\"Åland Islands\" Hungarian association",
+      "discoveredAt": "2026-10-14T07:35:50+00:00",
+      "status": "rejected-low-signal",
+      "lastSeenAt": "2026-10-14T07:35:50+00:00",
+      "verificationCheckedAt": "2026-10-14T07:36:28+00:00",
+      "verificationScore": 1,
+      "firstPartyCandidates": [
+        "http://cultureandcommunication.org/deadmedia/index.php/Nansen_Passport",
+        "http://nobelprize.org/nobel_prizes/peace/laureates/1922/nansen.html",
+        "http://pdfs.jta.org/1940/1940-08-05_101.pdf?_ga=2.93366937.582027365.1547148239-680804804.1547148239",
+        "http://snl.no/Nansen-pass",
+        "http://www.atlasobscura.com/articles/nansen-passport-refugees",
+        "http://www.golubinski.ru/russia/borovoy/%D0%93%D1%80%D0%B8%D0%B3%D0%BE%D1%80%D0%B8%D0%B9%20(%D0%9F%D0%B5%D1%80%D0%B0%D0%B4%D0%B7%D0%B5%20%D0%93%D1%80%D0%B8%D0%B3%D0%BE%D0%BB%20%D0%A0%D0%B0%D0%BC%D0%B0%D0%BD%D0%BE%D0%B7%D0%BE%D0%B2%D0%B8%D1%87).htm",
+        "http://www.nature.com/articles/517272a.epdf",
+        "http://www.refworld.org/docid/3dd8b4864.html"
+      ],
+      "entitySignal": false,
+      "countrySignal": false,
+      "hungarianSignal": false
     },
     {
       "title": "Nick Wyman",
@@ -366,7 +1308,22 @@
       "language": "en",
       "query": "Hungarian association AX",
       "discoveredAt": "2026-09-30T06:05:12+00:00",
-      "status": "candidate"
+      "status": "rejected-low-signal",
+      "verificationCheckedAt": "2026-10-14T07:36:28+00:00",
+      "verificationScore": 1,
+      "firstPartyCandidates": [
+        "http://broadwayworld.com/article/Nick_Wyman_Elected_Actors_Equity_President_20100524",
+        "http://harvardmagazine.com/2013/05/leading-man",
+        "http://www.nickwyman.com/",
+        "https://d-nb.info/gnd/1225844401",
+        "https://id.loc.gov/authorities/no2011137832",
+        "https://id.oclc.org/worldcat/entity/E39PBJqbgBxWtQtcVj39vtPRKd",
+        "https://isni.org/isni/0000000356227506",
+        "https://lux.collections.yale.edu/view/person/9a68bb8c-4ae5-4d81-8ba6-b7455860bfc9"
+      ],
+      "entitySignal": true,
+      "countrySignal": false,
+      "hungarianSignal": false
     },
     {
       "title": "Nicolas Namoradze",
@@ -375,7 +1332,88 @@
       "language": "en",
       "query": "Hungarian association AX",
       "discoveredAt": "2026-09-30T06:05:12+00:00",
-      "status": "candidate"
+      "status": "rejected-low-signal",
+      "verificationCheckedAt": "2026-10-14T07:36:28+00:00",
+      "verificationScore": -2,
+      "firstPartyCandidates": [
+        "http://gtarchive.georgiatoday.ge/news/12475/Nicolas-Namoradze-%E2%80%93-First-Georgian-to-Win-Honens-Int'l-Piano-Competition",
+        "http://www.concertonet.com/scripts/review.php?ID_review=13673",
+        "https://academicworks.cuny.edu/gc_etds/4057/",
+        "https://artsfile.ca/nicolas-namoradze-sound-explorer/?fbclid=IwAR0bcWoTkwKF2PPEAdAxExImwY5TuejcuaK2T6nXBFUGEaheYdgsgkZv-yw",
+        "https://bachtrack.com/interview-nicolas-namoradze-honens-international-piano-competition-january-2020",
+        "https://calgaryherald.com/entertainment/music/honens-festive-2019-nicolas-namoradze-dazzles-on-piano",
+        "https://classica.fr/new-york-bowen/",
+        "https://edmontonjournal.com/entertainment/local-arts/new-season-of-chamber-music"
+      ],
+      "entitySignal": false,
+      "countrySignal": false,
+      "hungarianSignal": false
+    },
+    {
+      "title": "Nigerien passport",
+      "url": "https://en.wikipedia.org/wiki/Nigerien_passport",
+      "sourceType": "wikipedia-discovery",
+      "language": "en",
+      "query": "\"Åland Islands\" Hungarian community",
+      "discoveredAt": "2026-10-14T07:35:50+00:00",
+      "status": "rejected-low-signal",
+      "verificationCheckedAt": "2026-10-14T07:36:28+00:00",
+      "verificationScore": 4,
+      "firstPartyCandidates": [
+        "https://scholar.google.com/scholar?q=%22Nigerien+passport%22",
+        "https://web.archive.org/web/20211202130327/https://www.henleyglobal.com/files/download/HPI2019/HPI_Q3_Global_Ranking_190701.pdf",
+        "https://www.google.com/search?&q=%22Nigerien+passport%22&tbs=bkt:s&tbm=bks",
+        "https://www.google.com/search?as_eq=wikipedia&q=%22Nigerien+passport%22",
+        "https://www.google.com/search?tbm=nws&q=%22Nigerien+passport%22+-wikipedia&tbs=ar:1",
+        "https://www.google.com/search?tbs=bks:1&q=%22Nigerien+passport%22+-wikipedia",
+        "https://www.henleyglobal.com/files/download/HPI2019/HPI_Q3_Global_Ranking_190701.pdf",
+        "https://www.jstor.org/action/doBasicSearch?Query=%22Nigerien+passport%22&acc=on&wc=on"
+      ],
+      "entitySignal": true,
+      "countrySignal": false,
+      "hungarianSignal": false
+    },
+    {
+      "title": "Northern Cypriot passport",
+      "url": "https://en.wikipedia.org/wiki/Northern_Cypriot_passport",
+      "sourceType": "wikipedia-discovery",
+      "language": "en",
+      "query": "\"Åland Islands\" Hungarian association",
+      "discoveredAt": "2026-10-14T07:35:50+00:00",
+      "status": "rejected-low-signal",
+      "verificationCheckedAt": "2026-10-14T07:36:28+00:00",
+      "verificationScore": 1,
+      "firstPartyCandidates": [
+        "http://www.muhaceret.gov.ct.tr/Pasaport/Harclar",
+        "https://books.google.com/books?id=bagvCwvAGVsC&pg=PA84"
+      ],
+      "entitySignal": false,
+      "countrySignal": false,
+      "hungarianSignal": false
+    },
+    {
+      "title": "Norwegian passport",
+      "url": "https://en.wikipedia.org/wiki/Norwegian_passport",
+      "sourceType": "wikipedia-discovery",
+      "language": "en",
+      "query": "\"Åland Islands\" Hungarian school",
+      "discoveredAt": "2026-10-14T07:35:50+00:00",
+      "status": "rejected-low-signal",
+      "verificationCheckedAt": "2026-10-14T07:36:28+00:00",
+      "verificationScore": 1,
+      "firstPartyCandidates": [
+        "http://www.consilium.europa.eu/prado/en/NOR-AD-05001/index.html",
+        "http://www.consilium.europa.eu/prado/en/NOR-AO-03001/index.html",
+        "http://www.consilium.europa.eu/prado/en/NOR-AO-05001/index.html",
+        "http://www.consilium.europa.eu/prado/en/NOR-AS-05001/index.html",
+        "http://www.consilium.europa.eu/prado/en/NOR-AS-05002/index.html",
+        "http://www.norway.cn/News_and_events/Culture/Design/New-passports-are-receiving-worldwide-attention/#.V-lM06PJKqA/",
+        "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02001R0539-20170611",
+        "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02004L0038-20110616"
+      ],
+      "entitySignal": true,
+      "countrySignal": false,
+      "hungarianSignal": false
     },
     {
       "title": "Olaf Haraldsson",
@@ -384,7 +1422,22 @@
       "language": "en",
       "query": "Hungarian church AX",
       "discoveredAt": "2026-09-30T06:05:12+00:00",
-      "status": "candidate"
+      "status": "rejected-low-signal",
+      "verificationCheckedAt": "2026-10-14T07:36:28+00:00",
+      "verificationScore": 4,
+      "firstPartyCandidates": [
+        "http://archaeologydataservice.ac.uk/archiveDS/archiveDownload?t=arch-457-1/dissemination/pdf/vol10/vol10_12/10_12_328_333.pdf",
+        "http://data.bibliotheken.nl/id/thes/p069226571",
+        "http://forskning.no/historie-middelalderen-kunst-og-litteratur/2008/02/ny-viten-om-olav-den-hellige",
+        "http://kulturminneatlas.avinet.no/object/dbarticle_preview.aspx?id=745",
+        "http://nbl.snl.no/Henrik_Kalteisen",
+        "http://nygaard.howards.net/files/189.htm",
+        "http://ortodoks.org/Kirkeside/NO/sider/TEMA13/Tema13M.htm",
+        "http://prayerbook.ca/resources/bcponline/calendar/"
+      ],
+      "entitySignal": true,
+      "countrySignal": false,
+      "hungarianSignal": false
     },
     {
       "title": "Old Church Slavonic grammar",
@@ -393,7 +1446,70 @@
       "language": "en",
       "query": "Hungarian church AX",
       "discoveredAt": "2026-09-30T06:05:12+00:00",
-      "status": "candidate"
+      "status": "rejected-low-signal",
+      "verificationCheckedAt": "2026-10-14T07:36:28+00:00",
+      "verificationScore": 4,
+      "firstPartyCandidates": [
+        "http://www.promacedonia.org/pdf/mirchev_starobylgarski.html",
+        "https://archive.org/details/grammatikderaltb00leskuoft",
+        "https://inslav.ru/publication/polivanova-k-staroslavyanskiy-yazyk-grammatika-slovari",
+        "https://rusneb.ru/catalog/000199_000009_004217992/",
+        "https://scholar.google.com/scholar?q=%22Old+Church+Slavonic+grammar%22",
+        "https://web.archive.org/web/20090917003440/http://www.utexas.edu/cola/centers/lrc/eieol/ocsol-0-X.html",
+        "https://web.archive.org/web/20100626015553/http://www.library.illinois.edu/spx/webct/SubjectResources/SubSourGen/lingocs2.htm",
+        "https://web.archive.org/web/20240919122431/https://kodeks.uni-bamberg.de/aksl/grammatik/vajsabecedarium/index.htm"
+      ],
+      "entitySignal": true,
+      "countrySignal": false,
+      "hungarianSignal": false
+    },
+    {
+      "title": "Pakistani passport",
+      "url": "https://en.wikipedia.org/wiki/Pakistani_passport",
+      "sourceType": "wikipedia-discovery",
+      "language": "en",
+      "query": "\"Åland Islands\" Hungarian church",
+      "discoveredAt": "2026-10-14T07:35:50+00:00",
+      "status": "rejected-low-signal",
+      "verificationCheckedAt": "2026-10-14T07:36:28+00:00",
+      "verificationScore": 1,
+      "firstPartyCandidates": [
+        "http://tribune.com.pk/story/2350244/pm-to-launch-e-passport-system-today-rashid",
+        "http://www.dgip.gov.pk/Files/Passport.aspx",
+        "http://www.dgip.gov.pk/Files/Passport.html",
+        "http://www.interior.gov.pk/",
+        "http://www2.icao.int/en/MRTD/Downloads/Doc%209303/Doc%209303%20English/Doc%209303%20Part%203%20Vol%202.pdf",
+        "https://arynews.tv/pakistani-passport-delay-in-issuance-echoes-in-national-assembly/",
+        "https://dgip.gov.pk/files/passport.aspx",
+        "https://onlinemrp.dgip.gov.pk/renew-passport/"
+      ],
+      "entitySignal": false,
+      "countrySignal": false,
+      "hungarianSignal": false
+    },
+    {
+      "title": "Panamanian passport",
+      "url": "https://en.wikipedia.org/wiki/Panamanian_passport",
+      "sourceType": "wikipedia-discovery",
+      "language": "en",
+      "query": "\"Åland Islands\" Hungarian school",
+      "discoveredAt": "2026-10-14T07:35:50+00:00",
+      "status": "rejected-low-signal",
+      "verificationCheckedAt": "2026-10-14T07:36:28+00:00",
+      "verificationScore": 1,
+      "firstPartyCandidates": [
+        "http://apap.gob.pa/pasaportes/pasaporte-por-primera-vez/",
+        "http://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=CONSLEG:2001R0539:20050624:EN:PDF",
+        "http://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=OJ:L:2007:029:0010:0013:EN:PDF",
+        "http://eur-lex.europa.eu/LexUriServ/site/en/consleg/2001/R/02001R0539-20070119-en.pdf",
+        "http://tvn-2.com/movil/noticias_detalle.asp?id=88878",
+        "http://webarchive.nationalarchives.gov.uk/20071104174521/http://www.ukvisas.gov.uk/servlet/Front?pagename=OpenMarket/Xcelerate/ShowPage&c=Page&cid=1020786334922",
+        "http://www.embassyofpanama.org/",
+        "http://www.embassyofpanama.org/cms/registry2.php"
+      ],
+      "entitySignal": false,
+      "countrySignal": false,
+      "hungarianSignal": false
     },
     {
       "title": "Romanian lexis",
@@ -402,7 +1518,22 @@
       "language": "en",
       "query": "Hungarian church AX",
       "discoveredAt": "2026-09-30T06:05:12+00:00",
-      "status": "candidate"
+      "status": "rejected-low-signal",
+      "verificationCheckedAt": "2026-10-14T07:36:28+00:00",
+      "verificationScore": 1,
+      "firstPartyCandidates": [
+        "http://iit.iit.tuiasi.ro/philippide/asociatia/asociatia_admin/upload/II_1_Dama.pdf",
+        "https://adevarul.ro/locale/iasi/cate-litere-mai-lung-cuvant-limba-romana-singurul-termen-contine-vocalele-1_587a0aa75ab6550cb86dda62/index.html",
+        "https://dexonline.ro/",
+        "https://dexonline.ro/articol/turcisme",
+        "https://dexonline.ro/definitie/pa",
+        "https://dexonline.ro/definitie/rahat",
+        "https://web.archive.org/web/20110818085432/http://iit.iit.tuiasi.ro/philippide/asociatia/asociatia_admin/upload/II_1_Dama.pdf",
+        "https://www.academia.edu/38635881"
+      ],
+      "entitySignal": false,
+      "countrySignal": false,
+      "hungarianSignal": false
     },
     {
       "title": "Rádióamatőr",
@@ -411,7 +1542,22 @@
       "language": "hu",
       "query": "magyar közösség AX",
       "discoveredAt": "2026-09-30T06:05:12+00:00",
-      "status": "candidate"
+      "status": "rejected-low-signal",
+      "verificationCheckedAt": "2026-10-14T07:36:28+00:00",
+      "verificationScore": 1,
+      "firstPartyCandidates": [
+        "http://ardf.puskas.hu/",
+        "http://gyalogradio.ham.hu/",
+        "http://njt.hu/cgi_bin/njt_doc.cgi?docid=163445",
+        "http://radioamator.lap.hu/",
+        "http://tankonyv.ham.hu/",
+        "http://wiki.ham.hu/",
+        "http://www.amsat.org/",
+        "http://www.ardf.hu/"
+      ],
+      "entitySignal": false,
+      "countrySignal": false,
+      "hungarianSignal": false
     },
     {
       "title": "S.W.A.T. – Különleges egység",
@@ -420,7 +1566,39 @@
       "language": "hu",
       "query": "magyar közösség AX",
       "discoveredAt": "2026-09-30T06:05:12+00:00",
-      "status": "candidate"
+      "status": "rejected-low-signal",
+      "verificationCheckedAt": "2026-10-14T07:36:28+00:00",
+      "verificationScore": 1,
+      "firstPartyCandidates": [
+        "http://www.cbs.com/shows/swat/",
+        "http://www.sorozatjunkie.hu/2018/03/07/emlekezteto-swat-kulonleges-egyseg-1-evad-agymenok-11-evad-az-eloholtak-kora-1-evad/",
+        "https://deadline.com/2025/03/swat-canceled-no-season-9-showrunner-reacts-1236313400/",
+        "https://musorvizio.blog.hu/2018/02/20/szinkronhangok_swat_kulonleges_egyseg_swat",
+        "https://port.hu/jump/movie-199957",
+        "https://port.hu/pls/fi/films.film_page?i_film_id=199957",
+        "https://www.boxofficemojo.com/title/tt6111130",
+        "https://www.imdb.com/title/tt6111130"
+      ],
+      "entitySignal": false,
+      "countrySignal": false,
+      "hungarianSignal": false
+    },
+    {
+      "title": "Senegalese passport",
+      "url": "https://en.wikipedia.org/wiki/Senegalese_passport",
+      "sourceType": "wikipedia-discovery",
+      "language": "en",
+      "query": "\"Åland Islands\" Hungarian community",
+      "discoveredAt": "2026-10-14T07:35:50+00:00",
+      "status": "rejected-low-signal",
+      "verificationCheckedAt": "2026-10-14T07:36:28+00:00",
+      "verificationScore": 1,
+      "firstPartyCandidates": [
+        "http://www.consilium.europa.eu/prado/en/SEN-AO-03001/index.html"
+      ],
+      "entitySignal": false,
+      "countrySignal": false,
+      "hungarianSignal": false
     },
     {
       "title": "Shubhanshu Shukla",
@@ -429,7 +1607,22 @@
       "language": "en",
       "query": "Hungarian school AX",
       "discoveredAt": "2026-09-30T06:05:12+00:00",
-      "status": "candidate"
+      "status": "rejected-low-signal",
+      "verificationCheckedAt": "2026-10-14T07:36:28+00:00",
+      "verificationScore": -2,
+      "firstPartyCandidates": [
+        "http://www.bharat-rakshak.com/indianairforce/database/29014",
+        "https://dbn.bn.org.pl/descriptor-details/9814834459505606",
+        "https://economictimes.indiatimes.com/news/science/indias-shux-heads-to-space-astronaut-shubhanshu-shukla-calls-axiom-4-mission-larger-than-self/articleshow/121707977.cms",
+        "https://egazette.gov.in/WriteReadData/2026/271408.pdf",
+        "https://indianexpress.com/article/india/isro-chief-shukla-iss-space-10112045/",
+        "https://m.thewire.in/article/space/know-your-spacemen-is-shubhanshu-shuklas-axiom-4-different-from-rakesh-sharmas-in-1984?mid_related_new",
+        "https://search.worldcat.org/issn/0971-751X",
+        "https://search.worldcat.org/issn/0971-8257"
+      ],
+      "entitySignal": false,
+      "countrySignal": false,
+      "hungarianSignal": false
     },
     {
       "title": "Sony Pictures Television",
@@ -438,7 +1631,39 @@
       "language": "hu",
       "query": "magyar egyesület AX",
       "discoveredAt": "2026-09-30T06:05:12+00:00",
-      "status": "candidate"
+      "status": "rejected-low-signal",
+      "verificationCheckedAt": "2026-10-14T07:36:28+00:00",
+      "verificationScore": 3,
+      "firstPartyCandidates": [
+        "http://https//www.sonypicturestelevision.com"
+      ],
+      "entitySignal": false,
+      "countrySignal": false,
+      "hungarianSignal": true
+    },
+    {
+      "title": "Syrian passport",
+      "url": "https://en.wikipedia.org/wiki/Syrian_passport",
+      "sourceType": "wikipedia-discovery",
+      "language": "en",
+      "query": "\"Åland Islands\" Hungarian church",
+      "discoveredAt": "2026-10-14T07:35:50+00:00",
+      "status": "rejected-low-signal",
+      "verificationCheckedAt": "2026-10-14T07:36:28+00:00",
+      "verificationScore": -2,
+      "firstPartyCandidates": [
+        "https://mofaex.gov.sy/ar/services/%D8%A5%D8%B5%D8%AF%D8%A7%D8%B1-%D8%AC%D9%88%D8%A7%D8%B2-%D8%B3%D9%81%D8%B1-%D9%84%D8%A3%D9%88%D9%84-%D9%85%D8%B1%D8%A9",
+        "https://mofaex.gov.sy/en/services/%D8%AA%D8%AC%D8%AF%D9%8A%D8%AF-%D8%AC%D9%88%D8%A7%D8%B2-%D8%A7%D9%84%D8%B3%D9%81%D8%B1-%D8%A8%D8%B3%D8%A8%D8%A8-%D8%A7%D9%85%D8%AA%D9%84%D8%A7%D8%A1-%D8%A7%D9%84%D8%B5%D9%81%D8%AD%D8%A7%D8%AA",
+        "https://refugeesps.net/post/1235/%D8%AF%D8%A7%D8%A6%D8%B1%D8%A9-%D8%A7%D9%84%D9%87%D8%AC%D8%B1%D8%A9-%D9%88%D8%A7%D9%84%D8%AC%D9%88%D8%A7%D8%B2%D8%A7%D8%AA-%D8%A7%D9%84%D8%B3%D9%88%D8%B1%D9%8A-%D8%A9-%D8%AC%D9%88%D8%A7%D8%B2-%D8%B3%D9%81%D8%B1-%D8%AC%D8%AF%D9%8A%D8%AF-%D8%A8%D8%B4%D8%B1%D9%8A%D8%AD%D8%A9-%D8%A5%D9%84%D9%83%D8%AA%D8%B1%D9%88%D9%86%D9%8A-%D8%A9",
+        "https://web.archive.org/web/20190218144037/https://www.sana.sy/?p=896981",
+        "https://web.archive.org/web/20211130000229/https://refugeesps.net/post/1235/%D8%AF%D8%A7%D8%A6%D8%B1%D8%A9-%D8%A7%D9%84%D9%87%D8%AC%D8%B1%D8%A9-%D9%88%D8%A7%D9%84%D8%AC%D9%88%D8%A7%D8%B2%D8%A7%D8%AA-%D8%A7%D9%84%D8%B3%D9%88%D8%B1%D9%8A-%D8%A9-%D8%AC%D9%88%D8%A7%D8%B2-%D8%B3%D9%81%D8%B1-%D8%AC%D8%AF%D9%8A%D8%AF-%D8%A8%D8%B4%D8%B1%D9%8A%D8%AD%D8%A9-%D8%A5%D9%84%D9%83%D8%AA%D8%B1%D9%88%D9%86%D9%8A-%D8%A9",
+        "https://web.archive.org/web/20230820225743/https://www.syria.tv/%D8%A7%D9%84%D9%83%D8%B4%D9%81-%D8%B9%D9%86-%D8%AC%D9%88%D8%A7%D8%B2-%D8%A7%D9%84%D8%B3%D9%81%D8%B1-%D8%A7%D9%84%D8%B3%D9%88%D8%B1%D9%8A-%D8%A7%D9%84%D8%AC%D8%AF%D9%8A%D8%AF-%D9%88%D8%A7%D9%84%D8%AA%D9%82%D8%AF%D9%8A%D9%85-%D8%B9%D8%A8%D8%B1-%D8%A7%D9%84%D9%85%D9%86%D8%B5%D8%A9-%D8%A7%D9%84%D8%A5%D9%84%D9%83%D8%AA%D8%B1%D9%88%D9%86%D9%8A%D8%A9-%D8%AD%D8%B5%D8%B1%D8%A7%D9%8B-%D8%B5%D9%88%D8%B1",
+        "https://www.aljazeera.net/news/2025/7/4/%D8%A5%D8%B7%D9%84%D8%A7%D9%82-%D8%A7%D9%84%D8%B4%D8%B9%D8%A7%D8%B1-%D8%A7%D9%84%D8%AC%D8%AF%D9%8A%D8%AF-%D9%84%D8%B3%D9%88%D8%B1%D9%8A%D8%A7-%D9%88%D8%A7%D9%84%D8%B4%D8%B1%D8%B9",
+        "https://www.atlanticcouncil.org/blogs/syriasource/the-passport-racket-of-the-syrian-government/"
+      ],
+      "entitySignal": false,
+      "countrySignal": false,
+      "hungarianSignal": false
     },
     {
       "title": "Sławosz Uznański-Wiśniewski",
@@ -447,8 +1672,23 @@
       "language": "en",
       "query": "Hungarian association AX",
       "discoveredAt": "2026-09-30T06:05:12+00:00",
-      "status": "candidate",
-      "lastSeenAt": "2026-09-30T06:05:12+00:00"
+      "status": "rejected-low-signal",
+      "lastSeenAt": "2026-09-30T06:05:12+00:00",
+      "verificationCheckedAt": "2026-10-14T07:36:28+00:00",
+      "verificationScore": -2,
+      "firstPartyCandidates": [
+        "http://www.collectspace.com/news/news-062525a-axiom-mission-4-ax4-grace-dragon-capsule-name.html",
+        "https://ase-astronauts.paperturn-view.com/registry-of-space-travelers?pid=MzA304084&p=53&v=63.1",
+        "https://dbn.bn.org.pl/descriptor-details/9810665262005606",
+        "https://ddnews.gov.in/en/india-back-in-space-after-41-years-says-shubhanshu-shukla-after-axiom-4-lift-off/",
+        "https://deon24.com/2025/06/18/axiom-mission-4-ponownie-przesunieta-polak-poleci-na-iss-nie-wczesniej-niz-22-czerwca/",
+        "https://dziendobry.tvn.pl/newsy/poslanka-aleksandra-wisniewska-i-astronauta-slawosz-uznanski-wzieli-slub-opublikowali-zdjecia-z-ceremonii-st8247466",
+        "https://dziennik.com/polski-astronauta-zirytowany-nie-zgadzam-sie-na-hejt-i-ataki-na-moja-rodzine/",
+        "https://home.cern/news/news/cern/cern-space-staff-member-selected-join-esa-2022-astronaut-class"
+      ],
+      "entitySignal": false,
+      "countrySignal": false,
+      "hungarianSignal": false
     },
     {
       "title": "Tibor Kapu",
@@ -457,7 +1697,111 @@
       "language": "en",
       "query": "Hungarian school AX",
       "discoveredAt": "2026-09-30T06:05:12+00:00",
-      "status": "candidate"
+      "status": "rejected-low-signal",
+      "verificationCheckedAt": "2026-10-14T07:36:28+00:00",
+      "verificationScore": 0,
+      "firstPartyCandidates": [
+        "https://hungarytoday.hu/hungarian-astronauts-head-to-houston-for-upcoming-nasa-mission/",
+        "https://hvg.hu/tudomany/20240723_masodik-magyar-urhajos",
+        "https://index.hu/belfold/2023/05/24/hunor-program-urhajosjeloltek-urhajos-nemzetkozi-urallomas-kapu-tibor-schlegl-adam-cserenyi-gyula-szakaly-andras/",
+        "https://magyarnemzet.hu/belfold/2024/05/megvan-a-kovetkezo-magyar-urhajos",
+        "https://polsa.gov.pl/wydarzenia/kolejny-etap-szkolenia-polaka-do-misji-na-iss/",
+        "https://spacejunkie.hu/az-axiom-4-misszioval-indul-a_magyar-urhajos/",
+        "https://spacejunkie.hu/uj-informaciok-a-magyar-urhajos-kivalasztasarol-2/",
+        "https://www.blikk.hu/eletmod/vilag-titkai/magyar-urhajos-kapu-tibor/ywskg59"
+      ],
+      "entitySignal": false,
+      "countrySignal": false,
+      "hungarianSignal": true
+    },
+    {
+      "title": "Togolese passport",
+      "url": "https://en.wikipedia.org/wiki/Togolese_passport",
+      "sourceType": "wikipedia-discovery",
+      "language": "en",
+      "query": "\"Åland Islands\" Hungarian community",
+      "discoveredAt": "2026-10-14T07:35:50+00:00",
+      "status": "rejected-low-signal",
+      "verificationCheckedAt": "2026-10-14T07:36:28+00:00",
+      "verificationScore": 4,
+      "firstPartyCandidates": [
+        "http://www.consulateoftogo.com/",
+        "https://www.consilium.europa.eu/prado/en/TGO-AO-04001/index.html",
+        "https://www.embassy.org/embassies/tg.html"
+      ],
+      "entitySignal": true,
+      "countrySignal": false,
+      "hungarianSignal": false
+    },
+    {
+      "title": "Tony Asumaa",
+      "url": "https://en.wikipedia.org/wiki/Tony_Asumaa",
+      "sourceType": "wikipedia-discovery",
+      "language": "en",
+      "query": "\"Åland Islands\" Hungarian association",
+      "discoveredAt": "2026-10-14T07:35:50+00:00",
+      "status": "rejected-low-signal",
+      "verificationCheckedAt": "2026-10-14T07:36:28+00:00",
+      "verificationScore": 0,
+      "firstPartyCandidates": [
+        "http://www.regeringen.ax/regeringen/minister-tony-asumaa",
+        "https://tonyasumaa.wordpress.com/cv/",
+        "https://web.archive.org/web/20070629040128/http://www.fifa.com/associations/association=fin/footballofficials/referees/peoplekind=ref.html",
+        "https://web.archive.org/web/20071023022004/http://fifa.com/worldcup/archive/germany2006/preliminaries/preliminary=8071/matches/match=36701/report.html",
+        "https://web.archive.org/web/20110607013232/http://www.fifa.com/worldcup/archive/southafrica2010/preliminaries/europe/matches/round=250471/match=300041108/report.html",
+        "https://web.archive.org/web/20131021092002/http://www.fifa.com/worldcup/preliminaries/europe/matches/round=258374/match=300182253/report.html"
+      ],
+      "entitySignal": false,
+      "countrySignal": true,
+      "hungarianSignal": false
+    },
+    {
+      "title": "United Nations laissez-passer",
+      "url": "https://en.wikipedia.org/wiki/United_Nations_laissez-passer",
+      "sourceType": "wikipedia-discovery",
+      "language": "en",
+      "query": "\"Åland Islands\" Hungarian school",
+      "discoveredAt": "2026-10-14T07:35:50+00:00",
+      "status": "rejected-low-signal",
+      "verificationCheckedAt": "2026-10-14T07:36:28+00:00",
+      "verificationScore": -2,
+      "firstPartyCandidates": [
+        "https://history.state.gov/historicaldocuments/frus1949v02/d25",
+        "https://lccn.loc.gov/2008200406",
+        "https://popp-test.intranet.undp.org/UNDP_POPP_DOCUMENT_LIBRARY/Public/Admin%20Service_Duty%20Travel_Guide-to-the-Issuance-of-UN-Travel-Documents%20(2012).pdf",
+        "https://web.archive.org/web/20201027124256/https://www.unjiu.org/sites/www.unjiu.org/files/jiu_document_files/products/en/reports-notes/JIU%20Products/JIU_NOTE_2005_2_English.pdf",
+        "https://web.archive.org/web/20210413013833/https://history.state.gov/historicaldocuments/frus1949v02/d25",
+        "https://web.archive.org/web/20210827072833/https://www.icao.int/publications/Documents/9303_p2_cons_en.pdf",
+        "https://web.archive.org/web/20211013164810/https://www.un.org/en/ethics/assets/pdfs/Convention%20of%20Privileges-Immunities%20of%20the%20UN.pdf",
+        "https://web.archive.org/web/20220310050249/https://popp-test.intranet.undp.org/UNDP_POPP_DOCUMENT_LIBRARY/Public/Admin%20Service_Duty%20Travel_Guide-to-the-Issuance-of-UN-Travel-Documents%20(2012).pdf"
+      ],
+      "entitySignal": false,
+      "countrySignal": false,
+      "hungarianSignal": false
+    },
+    {
+      "title": "Vatican City and Holy See passports",
+      "url": "https://en.wikipedia.org/wiki/Vatican_City_and_Holy_See_passports",
+      "sourceType": "wikipedia-discovery",
+      "language": "en",
+      "query": "\"Åland Islands\" Hungarian church",
+      "discoveredAt": "2026-10-14T07:35:50+00:00",
+      "status": "rejected-low-signal",
+      "verificationCheckedAt": "2026-10-14T07:36:28+00:00",
+      "verificationScore": 1,
+      "firstPartyCandidates": [
+        "http://www.consilium.europa.eu/prado/en/VAT-AD-01004/image-286975.html",
+        "http://www.consilium.europa.eu/prado/en/VAT-AO-01003/image-228930.html",
+        "http://www.vaticanstate.va/EN/State_and_Government/General_informations/Population.htm",
+        "https://epass.vatican.va/",
+        "https://epass.vatican.va/Dossier_INFO_ENGL.pdf",
+        "https://web.archive.org/web/20120525012225/http://www.vaticanstate.va/EN/State_and_Government/General_informations/Population.htm",
+        "https://web.archive.org/web/20170424213741/http://www.consilium.europa.eu/prado/en/VAT-AO-01003/image-228930.html",
+        "https://web.archive.org/web/20190712193440/http://www.consilium.europa.eu/prado/en/VAT-AD-01004/image-286975.html"
+      ],
+      "entitySignal": false,
+      "countrySignal": false,
+      "hungarianSignal": false
     },
     {
       "title": "Viasat 3",
@@ -466,7 +1810,22 @@
       "language": "hu",
       "query": "magyar egyesület AX",
       "discoveredAt": "2026-09-30T06:05:12+00:00",
-      "status": "candidate"
+      "status": "rejected-low-signal",
+      "verificationCheckedAt": "2026-10-14T07:36:28+00:00",
+      "verificationScore": 3,
+      "firstPartyCandidates": [
+        "http://m.sg.hu/cikkek/film/46968/arculatvaltas-a-viasat3-nal",
+        "http://napivizio.postr.hu/az-atmedianal-kotott-ki-a-viasat",
+        "http://origo.hu/teve/20090428-eltunik-a-sarga-karika-a-viasat3rol.html",
+        "http://viasat3.hu/",
+        "http://www.sat.hu/news/november.html",
+        "http://www.sat.hu/news/oktober.html",
+        "https://dunamsz.hu/wp-content/uploads/sites/18/2022/10/DMSZ_vezerigazgatoi_beszamolo_2021.pdf",
+        "https://hu.crt-tv.com/2019/02/10/tv-csatornak-lefedettseg-2018/"
+      ],
+      "entitySignal": false,
+      "countrySignal": false,
+      "hungarianSignal": true
     },
     {
       "title": "Viasat Film",
@@ -475,7 +1834,22 @@
       "language": "hu",
       "query": "magyar egyesület AX",
       "discoveredAt": "2026-09-30T06:05:12+00:00",
-      "status": "candidate"
+      "status": "rejected-low-signal",
+      "verificationCheckedAt": "2026-10-14T07:36:28+00:00",
+      "verificationScore": 3,
+      "firstPartyCandidates": [
+        "http://24.hu/media/2017/08/03/axn-white-helyett-sony-max-axn-black-helyett-sony-movie-channel/",
+        "http://comment.blog.hu/2017/08/03/atneveznek_ket_axn-csatornat_jon_a_sony_max_es_a_sony_movie_channel",
+        "http://https//www.viasatfilm.hu/",
+        "https://crt-tv.com/2017/08/15/megszunik-ket-csatorna-ketto-uj-jon/",
+        "https://crt-tv.com/2017/09/02/oktober-3-indul-sony-max-es-sony-movie/",
+        "https://dtvnews.hu/hirek/2020-ban-az-r-time-a-piacvezeto-sales-house",
+        "https://dtvnews.hu/hirek/magyarorszagra-erkezik-a-sony-max-es-a-sony-movie-channel",
+        "https://dtvnews.hu/hirek/oktober-3-an-indul-a-sony-max-es-a-sony-movie-channel"
+      ],
+      "entitySignal": false,
+      "countrySignal": false,
+      "hungarianSignal": true
     },
     {
       "title": "Váncsa Jenő",
@@ -484,8 +1858,43 @@
       "language": "hu",
       "query": "magyar egyesület AX",
       "discoveredAt": "2026-09-30T06:05:12+00:00",
-      "status": "candidate"
+      "status": "rejected-low-signal",
+      "verificationCheckedAt": "2026-10-14T07:36:28+00:00",
+      "verificationScore": 3,
+      "firstPartyCandidates": [
+        "http://agrartortenet-varga-zsuzsanna.hu/vancsa-jeno.html",
+        "http://nektar.oszk.hu/auth/50720",
+        "http://www.gyaszhirdetesek.hu/gyaszhirdetesek/36228/vancsa-jeno.html",
+        "http://www.tortenelmitar.hu/index.php?option=com_content&view=article&id=6354&catid=94:v&Itemid=67&lang=hu",
+        "https://id.oclc.org/worldcat/entity/E39PBJp9xx63TBtWqXxPqRv4MP",
+        "https://isni.org/isni/0000000079551200",
+        "https://resolver.pim.hu/auth/PIM73968",
+        "https://viaf.org/processed/NSZL%7C000000018956"
+      ],
+      "entitySignal": false,
+      "countrySignal": false,
+      "hungarianSignal": true
+    },
+    {
+      "title": "Yugoslav passport",
+      "url": "https://en.wikipedia.org/wiki/Yugoslav_passport",
+      "sourceType": "wikipedia-discovery",
+      "language": "en",
+      "query": "\"Åland Islands\" Hungarian community",
+      "discoveredAt": "2026-10-14T07:35:50+00:00",
+      "status": "rejected-low-signal",
+      "verificationCheckedAt": "2026-10-14T07:36:28+00:00",
+      "verificationScore": 3,
+      "firstPartyCandidates": [
+        "http://www.aimpress.ch/dyn/trae/archive/data/200203/20326-003-trae-beo.htm",
+        "https://books.google.com/books?id=SXLfAQAAQBAJ&pg=PA21",
+        "https://www.blic.rs/vesti/drustvo/danas-istice-rok-vazenja-plavih-pasosa/4ppqn4x"
+      ],
+      "entitySignal": false,
+      "countrySignal": false,
+      "hungarianSignal": true
     }
   ],
-  "errors": []
+  "errors": [],
+  "verificationUpdated": "2026-10-14T07:36:28+00:00"
 }
