@@ -1,9 +1,9 @@
 {
-  "updated": "2026-10-14T09:31:52.578055+00:00",
+  "updated": "2026-10-14T10:05:03.892143+00:00",
   "summary": {
     "organizations": 160,
-    "organizationFlags": 1,
-    "organizationPagesChecked": 323,
+    "organizationFlags": 2,
+    "organizationPagesChecked": 318,
     "education": 108,
     "educationFlags": 0,
     "events": 66,
@@ -126,18 +126,24 @@
       ],
       "activityCategories": [],
       "signals": [
-        "oktatas",
-        "media",
-        "egyhaz",
-        "csalad"
+        "egyhaz"
       ],
-      "pagesChecked": 3,
-      "checkedUrls": [
-        "https://www.martinus.at/",
-        "https://www.martinus.at/pfarre/1127/kalender",
-        "https://www.martinus.at/unterwart"
+      "pagesChecked": 0,
+      "checkedUrls": [],
+      "errors": [
+        {
+          "url": "https://www.martinus.at/",
+          "error": "<urlopen error timed out>"
+        },
+        {
+          "url": "https://www.martinus.at/pfarre/1127/kalender",
+          "error": "<urlopen error timed out>"
+        },
+        {
+          "url": "https://www.martinus.at/unterwart",
+          "error": "<urlopen error timed out>"
+        }
       ],
-      "errors": [],
       "flags": []
     },
     {
@@ -430,16 +436,21 @@
       ],
       "activityCategories": [],
       "signals": [
-        "enekkar"
+        "oktatas",
+        "neptanc",
+        "nepzene",
+        "enekkar",
+        "media",
+        "diak",
+        "irodalom",
+        "muveszet",
+        "csalad"
       ],
-      "pagesChecked": 0,
-      "checkedUrls": [],
-      "errors": [
-        {
-          "url": "https://www.wukv.at/tarka-barka-dalkor/",
-          "error": "<urlopen error timed out>"
-        }
+      "pagesChecked": 1,
+      "checkedUrls": [
+        "https://www.wukv.at/tarka-barka-dalkor/"
       ],
+      "errors": [],
       "flags": []
     },
     {
@@ -496,6 +507,7 @@
       "activityCategories": [],
       "signals": [
         "oktatas",
+        "neptanc",
         "enekkar",
         "szinhaz",
         "media",
@@ -653,19 +665,21 @@
       "signals": [
         "oktatas",
         "szinhaz",
-        "media",
         "egyhaz",
-        "diak",
         "irodalom",
         "sport",
         "csalad"
       ],
-      "pagesChecked": 2,
+      "pagesChecked": 1,
       "checkedUrls": [
-        "https://www.wiener-neustadt.at/index.php/de/kultur-tourismus/stadtbuecherei",
-        "https://volksgruppen.orf.at/magyarok/stories/3369413/"
+        "https://www.wiener-neustadt.at/index.php/de/kultur-tourismus/stadtbuecherei"
       ],
-      "errors": [],
+      "errors": [
+        {
+          "url": "https://volksgruppen.orf.at/magyarok/stories/3369413/",
+          "error": "The read operation timed out"
+        }
+      ],
       "flags": []
     },
     {
@@ -996,19 +1010,21 @@
       ],
       "activityCategories": [],
       "signals": [
-        "media",
-        "egyhaz",
         "irodalom",
         "muveszet",
         "sport",
         "csalad"
       ],
-      "pagesChecked": 2,
+      "pagesChecked": 1,
       "checkedUrls": [
-        "https://www.burgenland.at/themen/wissenschaft/landesbibliothek/",
-        "https://volksgruppen.orf.at/magyarok/stories/3361229/"
+        "https://www.burgenland.at/themen/wissenschaft/landesbibliothek/"
       ],
-      "errors": [],
+      "errors": [
+        {
+          "url": "https://volksgruppen.orf.at/magyarok/stories/3361229/",
+          "error": "The read operation timed out"
+        }
+      ],
       "flags": []
     },
     {
@@ -1220,16 +1236,12 @@
         "muveszet",
         "csalad"
       ],
-      "pagesChecked": 1,
+      "pagesChecked": 2,
       "checkedUrls": [
+        "https://www.cserkesz.eu/rolunk/",
         "https://rolunk.at/nepcsoportunk/sziveben-magyar/"
       ],
-      "errors": [
-        {
-          "url": "https://www.cserkesz.eu/rolunk/",
-          "error": "HTTP Error 500: Internal Server Error"
-        }
-      ],
+      "errors": [],
       "flags": []
     },
     {
@@ -1241,25 +1253,18 @@
       ],
       "activityCategories": [],
       "signals": [
+        "oktatas",
         "cserkesz",
+        "irodalom",
         "csalad"
       ],
-      "pagesChecked": 0,
-      "checkedUrls": [],
-      "errors": [
-        {
-          "url": "https://wels.cserkesz.eu/",
-          "error": "HTTP Error 500: Internal Server Error"
-        },
-        {
-          "url": "https://wels.cserkesz.eu/programok/",
-          "error": "HTTP Error 500: Internal Server Error"
-        },
-        {
-          "url": "https://wels.cserkesz.eu/csapatunk/",
-          "error": "HTTP Error 500: Internal Server Error"
-        }
+      "pagesChecked": 3,
+      "checkedUrls": [
+        "https://wels.cserkesz.eu/",
+        "https://wels.cserkesz.eu/programok/",
+        "https://wels.cserkesz.eu/csapatunk/"
       ],
+      "errors": [],
       "flags": []
     },
     {
@@ -1302,28 +1307,24 @@
       ],
       "activityCategories": [],
       "signals": [
+        "oktatas",
         "neptanc",
         "nepzene",
         "enekkar",
+        "szinhaz",
+        "media",
+        "diak",
+        "irodalom",
         "sport",
         "csalad"
       ],
-      "pagesChecked": 0,
-      "checkedUrls": [],
-      "errors": [
-        {
-          "url": "https://www.wukv.at/",
-          "error": "<urlopen error timed out>"
-        },
-        {
-          "url": "https://www.wukv.at/sample-page/",
-          "error": "<urlopen error timed out>"
-        },
-        {
-          "url": "https://www.wukv.at/rolunk-delibab-neptanccsoport/",
-          "error": "<urlopen error timed out>"
-        }
+      "pagesChecked": 3,
+      "checkedUrls": [
+        "https://www.wukv.at/",
+        "https://www.wukv.at/sample-page/",
+        "https://www.wukv.at/rolunk-delibab-neptanccsoport/"
       ],
+      "errors": [],
       "flags": []
     },
     {
@@ -1419,15 +1420,18 @@
         "egyhaz",
         "diak",
         "irodalom",
-        "muveszet",
-        "sport"
+        "muveszet"
       ],
-      "pagesChecked": 2,
+      "pagesChecked": 1,
       "checkedUrls": [
-        "https://volksgruppen.orf.at/magyarok/stories/3286420/",
         "https://rolunk.at/ausztriai-magyar-egyesuletek/"
       ],
-      "errors": [],
+      "errors": [
+        {
+          "url": "https://volksgruppen.orf.at/magyarok/stories/3286420/",
+          "error": "The read operation timed out"
+        }
+      ],
       "flags": []
     },
     {
@@ -1452,13 +1456,17 @@
         "sport",
         "csalad"
       ],
-      "pagesChecked": 3,
+      "pagesChecked": 2,
       "checkedUrls": [
         "https://rolunk.at/aktualis/oszinditas-a-nezsideri-pikniken/",
-        "https://volksgruppen.orf.at/magyarok/stories/3085529/",
-        "https://volksgruppen.orf.at/magyarok/stories/3370764/"
+        "https://volksgruppen.orf.at/magyarok/stories/3085529/"
       ],
-      "errors": [],
+      "errors": [
+        {
+          "url": "https://volksgruppen.orf.at/magyarok/stories/3370764/",
+          "error": "The read operation timed out"
+        }
+      ],
       "flags": []
     },
     {
@@ -1470,22 +1478,9 @@
         "kultura"
       ],
       "activityCategories": [],
-      "signals": [
-        "oktatas",
-        "neptanc",
-        "szinhaz",
-        "media",
-        "egyhaz",
-        "diak",
-        "irodalom",
-        "muveszet"
-      ],
-      "pagesChecked": 3,
-      "checkedUrls": [
-        "https://europaclub.at/",
-        "https://europaclub.at/rolunk/europa-club-tortenete/",
-        "https://europaclub.at/de/kontakt/"
-      ],
+      "signals": [],
+      "pagesChecked": 0,
+      "checkedUrls": [],
       "errors": [],
       "flags": []
     },
@@ -1579,16 +1574,24 @@
       ],
       "activityCategories": [],
       "signals": [
-        "media",
         "egyhaz"
       ],
-      "pagesChecked": 3,
-      "checkedUrls": [
-        "https://www.martinus.at/pfarre/1122",
-        "https://www.martinus.at/pfarre/1122/kalender",
-        "https://www.martinus.at/pfarre/1122/kalender/calendar/1808040.html"
+      "pagesChecked": 0,
+      "checkedUrls": [],
+      "errors": [
+        {
+          "url": "https://www.martinus.at/pfarre/1122",
+          "error": "<urlopen error timed out>"
+        },
+        {
+          "url": "https://www.martinus.at/pfarre/1122/kalender",
+          "error": "<urlopen error timed out>"
+        },
+        {
+          "url": "https://www.martinus.at/pfarre/1122/kalender/calendar/1808040.html",
+          "error": "<urlopen error timed out>"
+        }
       ],
-      "errors": [],
       "flags": []
     },
     {
@@ -1844,13 +1847,17 @@
         "sport",
         "csalad"
       ],
-      "pagesChecked": 3,
+      "pagesChecked": 2,
       "checkedUrls": [
         "https://www.burgenland.at/service/medienservice/aktuelle-meldungen/detail/lh-doskozil-haus-der-volksgruppen-setzt-meilenstein-fuer-vielfalt-und-zusammenhalt/",
-        "https://burgenland.orf.at/stories/3372614/",
         "https://www.oberwart.gv.at/stadt/termine/detail/termin/50-jahre-volksgruppengesetz-erreichtes-status-quo"
       ],
-      "errors": [],
+      "errors": [
+        {
+          "url": "https://burgenland.orf.at/stories/3372614/",
+          "error": "The read operation timed out"
+        }
+      ],
       "flags": []
     },
     {
@@ -2097,14 +2104,16 @@
       "signals": [
         "egyhaz"
       ],
-      "pagesChecked": 1,
-      "checkedUrls": [
-        "https://www.edsbg.at/seelsorge/weltkirche/anderssprachige-seelsorge/ungarische-gemeinde"
-      ],
+      "pagesChecked": 0,
+      "checkedUrls": [],
       "errors": [
         {
+          "url": "https://www.edsbg.at/seelsorge/weltkirche/anderssprachige-seelsorge/ungarische-gemeinde",
+          "error": "<urlopen error timed out>"
+        },
+        {
           "url": "https://www.edsbg.at/dl/klOKJmMJKNLMKJqx4KJK/ungarischsprachige_Gottesdienstgemeinde_Salzburg_pdf",
-          "error": "HTTP Error 400: Bad Request"
+          "error": "<urlopen error timed out>"
         }
       ],
       "flags": []
@@ -2442,17 +2451,20 @@
         "neptanc",
         "cserkesz",
         "szinhaz",
-        "media",
-        "irodalom",
-        "sport",
         "csalad"
       ],
-      "pagesChecked": 2,
-      "checkedUrls": [
-        "https://volksgruppen.orf.at/magyarok/stories/3371860/",
-        "https://volksgruppen.orf.at/magyarok/stories/3282451/"
+      "pagesChecked": 0,
+      "checkedUrls": [],
+      "errors": [
+        {
+          "url": "https://volksgruppen.orf.at/magyarok/stories/3371860/",
+          "error": "The read operation timed out"
+        },
+        {
+          "url": "https://volksgruppen.orf.at/magyarok/stories/3282451/",
+          "error": "The read operation timed out"
+        }
       ],
-      "errors": [],
       "flags": []
     },
     {
@@ -2546,16 +2558,12 @@
         "diak",
         "irodalom"
       ],
-      "pagesChecked": 1,
+      "pagesChecked": 2,
       "checkedUrls": [
+        "https://mde.hu/partnerek-tamogatok/",
         "https://kerekasztal.at/"
       ],
-      "errors": [
-        {
-          "url": "https://mde.hu/partnerek-tamogatok/",
-          "error": "<urlopen error timed out>"
-        }
-      ],
+      "errors": [],
       "flags": []
     },
     {
@@ -2567,24 +2575,21 @@
       ],
       "activityCategories": [],
       "signals": [
-        "diak"
+        "neptanc",
+        "media",
+        "diak",
+        "irodalom",
+        "muveszet",
+        "sport",
+        "csalad"
       ],
-      "pagesChecked": 0,
-      "checkedUrls": [],
-      "errors": [
-        {
-          "url": "https://mde.hu/at/",
-          "error": "<urlopen error timed out>"
-        },
-        {
-          "url": "https://mde.hu/rolunk/",
-          "error": "<urlopen error timed out>"
-        },
-        {
-          "url": "https://mde.hu/becsi-esemenyek/",
-          "error": "<urlopen error timed out>"
-        }
+      "pagesChecked": 3,
+      "checkedUrls": [
+        "https://mde.hu/at/",
+        "https://mde.hu/rolunk/",
+        "https://mde.hu/becsi-esemenyek/"
       ],
+      "errors": [],
       "flags": []
     },
     {
@@ -2970,17 +2975,17 @@
       ],
       "signals": [
         "oktatas",
-        "media",
         "diak",
-        "irodalom",
-        "sport",
-        "csalad"
+        "irodalom"
       ],
-      "pagesChecked": 1,
-      "checkedUrls": [
-        "https://volksgruppen.orf.at/magyarok/stories/3353774/"
+      "pagesChecked": 0,
+      "checkedUrls": [],
+      "errors": [
+        {
+          "url": "https://volksgruppen.orf.at/magyarok/stories/3353774/",
+          "error": "The read operation timed out"
+        }
       ],
-      "errors": [],
       "flags": []
     },
     {
@@ -3351,13 +3356,17 @@
         "sport",
         "csalad"
       ],
-      "pagesChecked": 3,
+      "pagesChecked": 2,
       "checkedUrls": [
-        "https://volksgruppen.orf.at/magyarok/stories/3345907/",
         "https://rolunk.at/kultura/uj-rendezovel-keszul-az-idei-eloadas/",
         "https://rolunk.at/kultura/tevedesek-ejszakaja-premier-a-felsoori-szinjatszoknal/"
       ],
-      "errors": [],
+      "errors": [
+        {
+          "url": "https://volksgruppen.orf.at/magyarok/stories/3345907/",
+          "error": "The read operation timed out"
+        }
+      ],
       "flags": []
     },
     {
@@ -3391,24 +3400,24 @@
       ],
       "activityCategories": [],
       "signals": [
-        "nepzene"
+        "oktatas",
+        "neptanc",
+        "nepzene",
+        "enekkar",
+        "szinhaz",
+        "media",
+        "diak",
+        "muveszet",
+        "sport",
+        "csalad"
       ],
-      "pagesChecked": 0,
-      "checkedUrls": [],
-      "errors": [
-        {
-          "url": "https://www.wukv.at/rolunk-citerazenekar/",
-          "error": "<urlopen error timed out>"
-        },
-        {
-          "url": "https://www.wukv.at/sample-page/",
-          "error": "<urlopen error timed out>"
-        },
-        {
-          "url": "https://www.wukv.at/a-citeratol-a-hegeduig-ismeretterjeszto-eloadassorozat/",
-          "error": "<urlopen error timed out>"
-        }
+      "pagesChecked": 3,
+      "checkedUrls": [
+        "https://www.wukv.at/rolunk-citerazenekar/",
+        "https://www.wukv.at/sample-page/",
+        "https://www.wukv.at/a-citeratol-a-hegeduig-ismeretterjeszto-eloadassorozat/"
       ],
+      "errors": [],
       "flags": []
     },
     {
@@ -4028,17 +4037,15 @@
         "zene",
         "felnott"
       ],
-      "signals": [
-        "nepzene",
-        "media",
-        "muveszet",
-        "sport"
+      "signals": [],
+      "pagesChecked": 0,
+      "checkedUrls": [],
+      "errors": [
+        {
+          "url": "https://volksgruppen.orf.at/magyarok/stories/3368141/",
+          "error": "The read operation timed out"
+        }
       ],
-      "pagesChecked": 1,
-      "checkedUrls": [
-        "https://volksgruppen.orf.at/magyarok/stories/3368141/"
-      ],
-      "errors": [],
       "flags": []
     },
     {
@@ -4050,17 +4057,18 @@
       ],
       "activityCategories": [],
       "signals": [
+        "oktatas",
         "neptanc",
+        "nepzene",
+        "media",
+        "diak",
         "csalad"
       ],
-      "pagesChecked": 0,
-      "checkedUrls": [],
-      "errors": [
-        {
-          "url": "https://www.wukv.at/rolunk-szivarvany/",
-          "error": "<urlopen error timed out>"
-        }
+      "pagesChecked": 1,
+      "checkedUrls": [
+        "https://www.wukv.at/rolunk-szivarvany/"
       ],
+      "errors": [],
       "flags": []
     },
     {
@@ -4103,20 +4111,21 @@
       ],
       "activityCategories": [],
       "signals": [
-        "oktatas",
-        "media",
-        "egyhaz",
-        "irodalom",
-        "muveszet",
-        "sport"
+        "irodalom"
       ],
-      "pagesChecked": 2,
+      "pagesChecked": 1,
       "checkedUrls": [
-        "https://bibliothek.univie.ac.at/fb-finnougristik/",
-        "https://volksgruppen.orf.at/magyarok/stories/3358806/"
+        "https://bibliothek.univie.ac.at/fb-finnougristik/"
       ],
-      "errors": [],
-      "flags": []
+      "errors": [
+        {
+          "url": "https://volksgruppen.orf.at/magyarok/stories/3358806/",
+          "error": "The read operation timed out"
+        }
+      ],
+      "flags": [
+        "weak-source-signal:oktatas"
+      ]
     },
     {
       "id": "vhs-burgenland",
