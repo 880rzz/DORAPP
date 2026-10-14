@@ -147,7 +147,7 @@ actual_directory={(x.get("country"),x.get("id")) for x in directory_items}
 if actual_directory != set(expected_directory):
     errors.append(f"homepage organization directory coverage mismatch: {len(actual_directory)} != {len(expected_directory)}")
 for item in directory_items:
-    if not item.get("entityType") or not item.get("href") or "summary" not in item:
+    if not item.get("entityType") or not item.get("category") or not item.get("href") or "summary" not in item:
         errors.append(f"homepage organization search item incomplete: {item.get('country')}/{item.get('id')}")
 
 quality_text=(ROOT/"adatminoseg.html").read_text(encoding="utf-8")

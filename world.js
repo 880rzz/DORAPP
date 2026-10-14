@@ -354,7 +354,7 @@ function organizationItems(){
 }
 
 function organizationType(item){
-  return item.entityType || (item.subtype === "education" ? "Oktatás" : "Szervezet");
+  return item.category || item.entityType || (item.subtype === "education" ? "Oktatás" : "Szervezet");
 }
 
 function populateOrganizationFilters(){

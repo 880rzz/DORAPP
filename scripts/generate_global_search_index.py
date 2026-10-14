@@ -27,6 +27,24 @@ def compact_summary(entity):
     text = str(entity.get("intro") or entity.get("summary") or "").strip()
     return text if len(text) <= 220 else text[:217].rstrip() + "..."
 
+def organization_category(entity, education=False):
+    if education:
+        return "Oktatás"
+    haystack = norm(" ".join(str(x) for x in [entity.get("type"), entity.get("name"), *(entity.get("activities") or [])] if x))
+    groups = (
+        ("Egyházi közösség", ("church", "parish", "congregation", "reformed", "catholic", "baptist", "egyhaz", "templom")),
+        ("Cserkészet", ("scout", "cserkesz")),
+        ("Média", ("media", "radio", "newspaper", "magazine", "directory", "sajto", "ujsag")),
+        ("Hagyományőrzés", ("folk", "folklore", "dance", "neptanc", "hagyomany")),
+        ("Oktatás", ("school", "education", "academy", "language", "iskola", "oktatas", "ovoda")),
+        ("Kultúra", ("cultural", "culture", "choir", "theatre", "music", "kultura", "korus", "szinhaz", "muvesz")),
+        ("Szakmai és gazdasági", ("business", "chamber", "professional", "scientific", "gazdasagi", "szakmai", "tudomany")),
+    )
+    for label, keywords in groups:
+        if any(keyword in haystack for keyword in keywords):
+            return label
+    return "Közösségi szervezet"
+
 def entity_items(payload, keys):
     for key in keys:
         if isinstance(payload.get(key), list):
@@ -94,6 +112,7 @@ for country in registry.get("countries", []):
             "countryLabel": label,
             "city": city,
             "entityType": org.get("type") or "Szervezet",
+            "category": organization_category(org),
             "summary": compact_summary(org),
             "meta": " · ".join(v for v in [city, org.get("type")] if v),
             "href": f"countries/{iso}/organizations/{quote(str(oid))}.html",
@@ -120,6 +139,7 @@ for country in registry.get("countries", []):
             "countryLabel": label,
             "city": city,
             "entityType": edu.get("type") or "Oktatás",
+            "category": organization_category(edu, education=True),
             "summary": compact_summary(edu),
             "meta": " · ".join(v for v in [city, edu.get("type")] if v),
             "href": f"countries/{iso}/education/{quote(str(eid))}.html",
