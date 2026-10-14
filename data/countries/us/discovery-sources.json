@@ -1,22 +1,22 @@
 {
-  "updated": "2026-10-01T14:24:00+00:00",
+  "updated": "2026-10-14T16:00:00+00:00",
   "country": "us",
   "researchRole": "United States discovery is being executed as national + regional/state batches. Embassy regional directories are discovery hubs; canonical publication requires first-party or trusted institutional evidence.",
   "coverage": [
     {
       "region": "national",
-      "status": "researching",
+      "status": "reviewed",
       "sources": [
         "Hungarian American Coalition",
         "Embassy of Hungary Washington",
         "KMCSSZ",
         "AHEA"
       ],
-      "lastPass": "2026-10-01"
+      "lastPass": "2026-10-14"
     },
     {
       "region": "Northeast",
-      "status": "researching",
+      "status": "reviewed",
       "states": [
         "CT",
         "MA",
@@ -28,11 +28,11 @@
         "RI",
         "VT"
       ],
-      "lastPass": "2026-10-01"
+      "lastPass": "2026-10-14"
     },
     {
       "region": "Midwest",
-      "status": "researching",
+      "status": "reviewed",
       "states": [
         "AR",
         "IL",
@@ -46,11 +46,11 @@
         "TN",
         "WI"
       ],
-      "lastPass": "2026-10-01"
+      "lastPass": "2026-10-14"
     },
     {
       "region": "West-Southwest",
-      "status": "researching",
+      "status": "reviewed",
       "states": [
         "AK",
         "AZ",
@@ -72,11 +72,11 @@
         "WA",
         "WY"
       ],
-      "lastPass": "2026-10-01"
+      "lastPass": "2026-10-14"
     },
     {
       "region": "Southeast",
-      "status": "researching",
+      "status": "reviewed",
       "states": [
         "AL",
         "FL",
@@ -86,11 +86,11 @@
         "NC",
         "SC"
       ],
-      "lastPass": "2026-10-01"
+      "lastPass": "2026-10-14"
     },
     {
       "region": "Washington-DC-area",
-      "status": "researching",
+      "status": "reviewed",
       "states": [
         "DC",
         "MD",
@@ -98,7 +98,7 @@
         "WV",
         "DE"
       ],
-      "lastPass": "2026-10-01"
+      "lastPass": "2026-10-14"
     }
   ],
   "categories": [
@@ -115,7 +115,7 @@
     "private-organizers-recurring-initiatives",
     "host-institutions-with-Hungarian-services"
   ],
-  "completionStatus": "not-complete",
+  "completionStatus": "complete",
   "resolvedCandidates": [
     {
       "id": "makviragok-magyar-iskola-orlando",
@@ -275,6 +275,25 @@
       "id": "association-hungarian-american-academicians",
       "resolution": "promoted-canonical",
       "reason": "Current first-party AHAA-AMAT site and 2026 Hungarian Academy of Sciences institutional record confirm an active national Hungarian-American academic association with Memphis address."
+    },
+    {
+      "id": "hungarian-american-club-new-mexico",
+      "resolution": "insufficient-current-evidence",
+      "reason": "The latest discoverable institutional/community references describe prior activity, but the stated first-party domains were not accessible and no current 2026 first-party activity could be verified. Do not publish as active until fresh evidence appears.",
+      "sources": [
+        "https://www.hacusa.org/userfiles/file/HATOG/DRAFT_HATOG_X_Final_Report_VF.pdf",
+        "https://kisebbsegkutato.tk.elte.hu/adatbazis/amerikai-magyar-szervezeti-adatbazis-2008"
+      ]
+    },
+    {
+      "id": "midlands-hungarians-columbia-sc",
+      "resolution": "insufficient-current-evidence",
+      "reason": "A historical Hungarian American Coalition report names the group, but no current 2026 first-party presence or independent active institutional record was verified. South Carolina remains served in canonical data by the currently active Carolinas Hungarian Group.",
+      "sources": [
+        "https://www.hacusa.org/userfiles/file/HATOG/DRAFT_HATOG_X_Final_Report_VF.pdf",
+        "https://www.karolinaimagyarok.com/"
+      ]
     }
   ]
 }
+

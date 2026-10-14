@@ -28,6 +28,8 @@ on:
       - "scripts/validate_directory.py"
       - "scripts/validate_static_output.py"
       - "scripts/audit_global_source_health.py"
+      - "scripts/update_country_events.py"
+      - "scripts/update_events.py"
       - "app.js"
       - "world.js"
       - "country.js"
@@ -75,6 +77,10 @@ jobs:
         if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
         run: python scripts/promote_verified_entities.py
 
+      - name: Refresh country-scoped event sources
+        if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
+        run: python scripts/update_country_events.py
+
       - name: Audit canonical source health
         run: python scripts/audit_global_source_health.py
 
@@ -121,6 +127,7 @@ jobs:
               python scripts/verify_discovery_candidates.py
               python scripts/verify_first_party_sites.py
               python scripts/promote_verified_entities.py
+              python scripts/update_country_events.py
             fi
             python scripts/audit_global_source_health.py
             python scripts/generate_global_compat.py

@@ -1,0 +1,274 @@
+{
+  "schemaVersion": 1,
+  "country": "us",
+  "countryName": "United States",
+  "assessedAt": "2026-10-14",
+  "completionStandard": "DORAPP country research completion means every required discovery category and national/regional batch has been explicitly reviewed, all strong candidates have been resolved to canonical/rejected/insufficient-evidence status, canonical entities have trusted evidence and routes, derived counts validate, source-health runs, and production deploy succeeds.",
+  "status": "reviewed",
+  "coverage": [
+    {
+      "category": "associations-and-umbrellas",
+      "status": "reviewed"
+    },
+    {
+      "category": "informal-communities",
+      "status": "reviewed"
+    },
+    {
+      "category": "nurseries-and-schools",
+      "status": "reviewed"
+    },
+    {
+      "category": "universities-and-student-groups",
+      "status": "reviewed"
+    },
+    {
+      "category": "folk-dance-music-choirs-theatre",
+      "status": "reviewed"
+    },
+    {
+      "category": "scouts",
+      "status": "reviewed"
+    },
+    {
+      "category": "churches-and-religious-services",
+      "status": "reviewed"
+    },
+    {
+      "category": "family-youth-senior-groups",
+      "status": "reviewed"
+    },
+    {
+      "category": "media-and-publications",
+      "status": "reviewed"
+    },
+    {
+      "category": "libraries-book-clubs",
+      "status": "reviewed"
+    },
+    {
+      "category": "private-organizers-recurring-initiatives",
+      "status": "reviewed"
+    },
+    {
+      "category": "host-institutions-with-Hungarian-services",
+      "status": "reviewed"
+    }
+  ],
+  "regionalCoverage": [
+    {
+      "region": "national",
+      "status": "reviewed",
+      "sources": [
+        "Hungarian American Coalition",
+        "Embassy of Hungary Washington",
+        "KMCSSZ",
+        "AHEA"
+      ],
+      "lastPass": "2026-10-14"
+    },
+    {
+      "region": "Northeast",
+      "status": "reviewed",
+      "states": [
+        "CT",
+        "MA",
+        "ME",
+        "NH",
+        "NJ",
+        "NY",
+        "PA",
+        "RI",
+        "VT"
+      ],
+      "lastPass": "2026-10-14"
+    },
+    {
+      "region": "Midwest",
+      "status": "reviewed",
+      "states": [
+        "AR",
+        "IL",
+        "IN",
+        "IA",
+        "KY",
+        "MI",
+        "MN",
+        "MO",
+        "OH",
+        "TN",
+        "WI"
+      ],
+      "lastPass": "2026-10-14"
+    },
+    {
+      "region": "West-Southwest",
+      "status": "reviewed",
+      "states": [
+        "AK",
+        "AZ",
+        "CA",
+        "CO",
+        "HI",
+        "ID",
+        "KS",
+        "MT",
+        "NE",
+        "NV",
+        "NM",
+        "ND",
+        "OK",
+        "OR",
+        "SD",
+        "TX",
+        "UT",
+        "WA",
+        "WY"
+      ],
+      "lastPass": "2026-10-14"
+    },
+    {
+      "region": "Southeast",
+      "status": "reviewed",
+      "states": [
+        "AL",
+        "FL",
+        "GA",
+        "LA",
+        "MS",
+        "NC",
+        "SC"
+      ],
+      "lastPass": "2026-10-14"
+    },
+    {
+      "region": "Washington-DC-area",
+      "status": "reviewed",
+      "states": [
+        "DC",
+        "MD",
+        "VA",
+        "WV",
+        "DE"
+      ],
+      "lastPass": "2026-10-14"
+    }
+  ],
+  "sourceClassesReviewed": [
+    "Hungarian Embassy Washington national and regional directories",
+    "Hungarian American Coalition community materials",
+    "KMCSSZ scout network",
+    "AHEA and AMIT education networks",
+    "current first-party organization and institution sites",
+    "current church, university, government and nonprofit institutional records",
+    "current event/community discovery"
+  ],
+  "unresolvedStrongCandidates": [],
+  "canonicalOrganizationIds": [
+    "hungarian-american-coalition",
+    "kmcssz",
+    "american-hungarian-educators-association",
+    "kossuth-foundation",
+    "hungarian-house-new-york",
+    "american-hungarian-foundation",
+    "united-hungarian-societies-cleveland",
+    "bocskai-radio",
+    "embassy-of-hungary-washington",
+    "hungarian-society-of-massachusetts",
+    "minnesota-hungarians",
+    "united-magyar-house-los-angeles",
+    "house-of-hungary-san-diego",
+    "hungarian-american-association-washington",
+    "austin-hungarian-association",
+    "hungarian-american-cultural-association-houston",
+    "hungarian-club-of-georgia",
+    "cleveland-hungarian-heritage-society",
+    "west-side-hungarian-reformed-church-cleveland",
+    "hungarian-community-church-georgia",
+    "hungarian-reformed-church-san-francisco",
+    "st-stephen-king-hungary-church-chicago",
+    "amit-us",
+    "hungarianhub",
+    "consulate-general-hungary-new-york",
+    "consulate-general-hungary-chicago",
+    "consulate-general-hungary-los-angeles",
+    "vice-consulate-hungary-houston",
+    "vice-consulate-hungary-miami",
+    "liszt-institute-new-york",
+    "hungarian-association-cleveland",
+    "chicago-hungarian-cultural-advisory-council",
+    "hungarian-american-club-triangle",
+    "american-hungarian-library-historical-society",
+    "colorado-hungarian-club",
+    "william-penn-association",
+    "tisza-ensemble",
+    "csurdongolo-folk-ensemble",
+    "hungary-foundation",
+    "hungarian-human-rights-foundation",
+    "american-hungarian-federation",
+    "hungarian-settlement-museum-louisiana",
+    "arpadhon-hungarian-settlement-cultural-association",
+    "hungarian-community-church-daytona-beach",
+    "metroplex-magyar-cultural-circle",
+    "hungarian-cultural-society-connecticut",
+    "bodnar-gabor-scout-troop-boston",
+    "philadelphia-vicinity-hungarian-sports-club",
+    "batori-jozsef-scout-troop-washington",
+    "american-hungarian-heritage-house",
+    "st-stephen-hungarian-catholic-community-washington",
+    "american-hungarian-friends-of-scouting-cleveland",
+    "cleveland-hungarian-scout-folk-ensemble",
+    "gorgey-arthur-scout-troop-14-cleveland",
+    "bessenyei-gyorgy-scout-troop-22-cleveland",
+    "szilagyi-erzsebet-scout-troop-33-cleveland",
+    "zrinyi-ilona-scout-troop-34-cleveland",
+    "hungarian-club-of-chicago",
+    "hunyadi-matyas-scout-troop-19-chicago",
+    "borozda-hungarian-ensemble-chicago",
+    "norridge-united-church-of-christ-hungarian",
+    "holy-cross-hungarian-catholic-church-detroit",
+    "american-hungarian-reformed-church-allen-park",
+    "first-hungarian-baptist-church-lincoln-park",
+    "hungarian-cultural-center-detroit",
+    "carolinas-hungarian-group",
+    "hungarian-church-in-the-carolinas",
+    "hungarian-academy-washington",
+    "hungarian-reformed-church-washington-dc",
+    "hungarian-reformed-church-phoenix",
+    "hungarian-cultural-association-indiana-university",
+    "saint-mary-of-victories-hungarian-parish",
+    "zrinyi-miklos-scout-troop-44-portland",
+    "association-hungarian-american-academicians"
+  ],
+  "canonicalEducationIds": [
+    "arany-janos-hungarian-school-new-york",
+    "hungarian-academy-washington",
+    "bartok-bela-boston-hungarian-school-boskola",
+    "cleveland-hungarian-school",
+    "csik-hago-hungarian-school-chicago",
+    "misi-hungarian-school-minnesota",
+    "hungarian-school-seattle",
+    "san-diego-hungarian-weekend-school",
+    "phoenix-hungarian-reformed-school",
+    "hawaii-hungarian-school",
+    "hccg-hungarian-school-georgia",
+    "kanyadi-sandor-hungarian-school-san-francisco",
+    "korosi-csoma-sandor-hungarian-school-new-jersey",
+    "szechenyi-hungarian-school-new-brunswick",
+    "szent-istvan-hungarian-school-chicago",
+    "szent-istvan-hungarian-school-passaic",
+    "triangle-hungarian-school",
+    "vadrozsa-hungarian-kindergarten-school",
+    "wallingford-hungarian-school",
+    "online-magyar-iskola",
+    "napocska-hungarian-school-arizona",
+    "nebulo-hungarian-language-school-ohio",
+    "nyitott-szivek-hungarian-school-cleveland"
+  ],
+  "notes": [
+    "Canonical inventory contains only entities meeting current evidence rules; historical directory names without fresh first-party or independent institutional confirmation are resolved as insufficient-current-evidence in discovery-sources.json.",
+    "Empty-state results do not assert that no Hungarians live there; they mean no separately publishable active organization or education entity met the evidence threshold in this research pass.",
+    "Country-scoped automatic event refresh is handled from calendarSources entries with ingestEvents=true; aggregate inclusion rules require machine-readable includeRegex."
+  ]
+}
+

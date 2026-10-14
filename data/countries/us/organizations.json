@@ -2155,7 +2155,12 @@
           "kind": "institutional-calendar",
           "scope": "self-when-attributed",
           "ingestEvents": true,
-          "inclusionRule": "Only rows explicitly attributed to Hunyadi Mátyás Cserkészcsapat."
+          "inclusionRule": "Only rows explicitly attributed to Hunyadi Mátyás Cserkészcsapat.",
+          "includeRegex": [
+            "Hunyadi",
+            "19\\\\. sz\\\\.",
+            "cserkész"
+          ]
         }
       ]
     },
@@ -2779,3 +2784,4 @@
     }
   ]
 }
+

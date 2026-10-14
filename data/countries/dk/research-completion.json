@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "country": "dk",
   "countryName": "Denmark",
-  "assessedAt": "2026-09-30",
+  "assessedAt": "2026-10-14",
   "completionStandard": "DORAPP country research completion means every required discovery category has been explicitly reviewed, all strong candidates have been resolved to canonical/rejected/insufficient-evidence status, canonical entities have evidence and routes, derived counts validate, source-health runs, and production deploy succeeds.",
   "status": "reviewed",
   "coverage": [
@@ -81,6 +81,8 @@
   "notes": [
     "Koppenhágai Magyar Iskola is modeled as an education program/activity, not a second organization count, because the public evidence ties it to the same CVR/legal association layer as Dán-Magyar Egyesület.",
     "Occasional Hungarian-language ecumenical services in Copenhagen are modeled as events/services of existing community organizers unless a separate permanent Hungarian congregation is evidenced.",
-    "No standalone Danish Hungarian scout organization was verified in the broad 2026-09-30 research pass."
+    "No standalone Danish Hungarian scout organization was verified in the broad 2026-09-30 research pass.",
+    "The 2026-10-14 stewardship pass reconfirmed the reviewed inventory and enabled country-scoped daily event-source refresh for the canonical Danish calendar source."
   ]
 }
+
