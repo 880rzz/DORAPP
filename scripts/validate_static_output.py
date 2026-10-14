@@ -105,11 +105,25 @@ for country in globaldb.get("countries",[]):
     for item in odoc.get("organizations",odoc.get("items",[])):
         if item.get("entityClass")=="activity" or not item.get("id"): continue
         profile=ROOT/"countries"/iso/"organizations"/f"{item['id']}.html"
-        if not profile.exists(): continue
+        if not profile.exists():
+            errors.append(f"missing global organization profile: {iso}/{item['id']}")
+            continue
         profile_text=profile.read_text(encoding="utf-8")
-        for token in ("Kapcsolati háló","Hova töltik fel az eseményeiket?","Közösségi oldalak és nyilvános csatornák","Ellenőrző források"):
+        for token in ("Kapcsolati háló","Programforrások","Közösségi oldalak és nyilvános csatornák","Adatgazda és ellenőrzés",'name="author"','rel="alternate"'):
             if token not in profile_text:
                 errors.append(f"rich organization profile layer missing ({token}): {iso}/{item['id']}")
+        blocks=re.findall(r'<script type="application/ld\+json">(.*?)</script>',profile_text,re.S)
+        try:
+            payload=json.loads(blocks[0].replace("<\\/","</"))
+            graph=payload.get("@graph",[])
+            page=next(x for x in graph if x.get("@type")=="ProfilePage")
+            entity=next(x for x in graph if x.get("@type")=="Organization" and x.get("@id")==f"{BASE}/countries/{iso}/organizations/{item['id']}.html#entity")
+            if not page.get("publisher") or not page.get("dateModified") or page.get("inLanguage")!="hu":
+                errors.append(f"profile E-E-A-T schema incomplete: {iso}/{item['id']}")
+            if not entity.get("areaServed") or not entity.get("mainEntityOfPage"):
+                errors.append(f"organization entity schema incomplete: {iso}/{item['id']}")
+        except Exception as ex:
+            errors.append(f"invalid global organization profile schema: {iso}/{item['id']} -> {ex}")
 
 for p in ("llms.txt","ai.txt","ai-entry.json","entity.jsonld","robots.txt","sitemap.xml","forrasok.html","adatminoseg.html","ui.js","world.js","country.js","data/global-search-index.json","data/global-events.json"):
     if not (ROOT/p).exists(): errors.append(f"missing trust/search artifact: {p}")
@@ -118,6 +132,23 @@ registry_country_ids={c.get("iso2") for c in globaldb.get("countries",[]) if c.g
 search_country_ids={x.get("country") for x in global_search.get("items",[]) if x.get("type")=="country"}
 if search_country_ids != registry_country_ids:
     errors.append(f"global search country coverage mismatch: {len(search_country_ids)} != {len(registry_country_ids)}")
+
+expected_directory=[]
+for country in globaldb.get("countries",[]):
+    if country.get("researchStatus") not in {"reviewed","verified-zero"}: continue
+    iso=country.get("iso2")
+    base=ROOT/"data"/"countries"/iso
+    odoc=json.loads((base/"organizations.json").read_text(encoding="utf-8")) if (base/"organizations.json").exists() else {}
+    edoc=json.loads((base/"education.json").read_text(encoding="utf-8")) if (base/"education.json").exists() else {}
+    expected_directory.extend((iso,x.get("id")) for x in odoc.get("organizations",odoc.get("items",[])) if x.get("id") and x.get("entityClass")!="activity")
+    expected_directory.extend((iso,x.get("id")) for x in edoc.get("institutions",edoc.get("education",edoc.get("items",[]))) if x.get("id"))
+directory_items=[x for x in global_search.get("items",[]) if x.get("type")=="organization"]
+actual_directory={(x.get("country"),x.get("id")) for x in directory_items}
+if actual_directory != set(expected_directory):
+    errors.append(f"homepage organization directory coverage mismatch: {len(actual_directory)} != {len(expected_directory)}")
+for item in directory_items:
+    if not item.get("entityType") or not item.get("href") or "summary" not in item:
+        errors.append(f"homepage organization search item incomplete: {item.get('country')}/{item.get('id')}")
 
 quality_text=(ROOT/"adatminoseg.html").read_text(encoding="utf-8")
 quality_expectations=(
@@ -157,8 +188,12 @@ for p in ("index.html","forrasok.html","szervezet.html"):
     if "ui.js" not in text:
         errors.append(f"shared consent/navigation controller missing: {p}")
 
-
+home=(ROOT/"index.html").read_text(encoding="utf-8")
+for token in ('id="szervezetek"','id="organizationCountry"','id="organizationType"','id="organizationSearch"','rel="alternate"','SearchAction'):
+    if token not in home: errors.append(f"homepage organization/SEO layer missing: {token}")
 world_js = (ROOT / "world.js").read_text(encoding="utf-8")
+if '"#szervezetek":"countries/at/' in world_js:
+    errors.append("homepage organization anchor is shadowed by legacy Austria redirect")
 for token in ('addEventListener("load", decorateMap)', 'contentDocument?.readyState === "complete"', "decorateMap();"):
     if token not in world_js: errors.append(f"world map cached-SVG paint regression: missing {token}")
 

@@ -23,6 +23,10 @@ def norm(value):
     s = unicodedata.normalize("NFKD", str(value or ""))
     return "".join(ch for ch in s if not unicodedata.combining(ch)).casefold().strip()
 
+def compact_summary(entity):
+    text = str(entity.get("intro") or entity.get("summary") or "").strip()
+    return text if len(text) <= 220 else text[:217].rstrip() + "..."
+
 def entity_items(payload, keys):
     for key in keys:
         if isinstance(payload.get(key), list):
@@ -89,6 +93,8 @@ for country in registry.get("countries", []):
             "country": iso,
             "countryLabel": label,
             "city": city,
+            "entityType": org.get("type") or "Szervezet",
+            "summary": compact_summary(org),
             "meta": " · ".join(v for v in [city, org.get("type")] if v),
             "href": f"countries/{iso}/organizations/{quote(str(oid))}.html",
             "searchParts": [name, city, org.get("region"), org.get("type"), org.get("intro"), org.get("summary"), *(org.get("activities") or [])],
@@ -113,6 +119,8 @@ for country in registry.get("countries", []):
             "country": iso,
             "countryLabel": label,
             "city": city,
+            "entityType": edu.get("type") or "Oktatás",
+            "summary": compact_summary(edu),
             "meta": " · ".join(v for v in [city, edu.get("type")] if v),
             "href": f"countries/{iso}/education/{quote(str(eid))}.html",
             "searchParts": [name, city, edu.get("region"), edu.get("type"), edu.get("intro"), edu.get("summary")],

@@ -12,6 +12,7 @@ let searchIndex = {items:[]};
 let globalEvents = {events:[]};
 let activeSuggestions = [];
 let activeIndex = -1;
+let organizationLimit = 24;
 
 const $ = (s) => document.querySelector(s);
 const esc = (v) => String(v ?? "").replace(/[&<>"']/g, m => ({"&":"&amp;","<":"&lt;",">":"&gt;","\"":"&quot;","'":"&#39;"}[m]));
@@ -348,11 +349,74 @@ function bindCalendar(){
   $("#globalCalendarSearch")?.addEventListener("input",renderGlobalCalendar);
 }
 
+function organizationItems(){
+  return (searchIndex.items || []).filter(item => item.type === "organization");
+}
+
+function organizationType(item){
+  return item.entityType || (item.subtype === "education" ? "Oktatás" : "Szervezet");
+}
+
+function populateOrganizationFilters(){
+  const rows = organizationItems();
+  const countrySelect = $("#organizationCountry");
+  const typeSelect = $("#organizationType");
+  if(countrySelect){
+    const countries = [...new Map(rows.map(item => [item.country,item.countryLabel])).entries()]
+      .sort((a,b) => String(a[1]).localeCompare(String(b[1]),"hu"));
+    countrySelect.innerHTML = '<option value="">Minden ország</option>' + countries.map(([iso,label]) => '<option value="'+esc(iso)+'">'+esc(label)+'</option>').join("");
+  }
+  if(typeSelect){
+    const types = [...new Set(rows.map(organizationType).filter(Boolean))].sort((a,b) => a.localeCompare(b,"hu"));
+    typeSelect.innerHTML = '<option value="">Minden típus</option>' + types.map(type => '<option value="'+esc(type)+'">'+esc(type)+'</option>').join("");
+  }
+}
+
+function renderOrganizations(resetLimit = false){
+  const root = $("#organizationDirectory");
+  if(!root) return;
+  if(resetLimit) organizationLimit = 24;
+  const country = $("#organizationCountry")?.value || "";
+  const type = $("#organizationType")?.value || "";
+  const q = normalize($("#organizationSearch")?.value || "");
+  const rows = organizationItems().filter(item => {
+    if(country && item.country !== country) return false;
+    if(type && organizationType(item) !== type) return false;
+    return !q || String(item.search || "").includes(q);
+  }).sort((a,b) => String(a.label).localeCompare(String(b.label),"hu"));
+  const visible = rows.slice(0,organizationLimit);
+  const count = $("#organizationCount");
+  const empty = $("#organizationEmpty");
+  const more = $("#organizationMore");
+  if(count) count.textContent = rows.length+" ellenőrzött találat";
+  if(empty) empty.hidden = !!rows.length;
+  if(more){
+    more.hidden = visible.length >= rows.length;
+    more.textContent = "További szervezetek ("+(rows.length-visible.length)+")";
+  }
+  root.innerHTML = visible.map(item => {
+    const meta = [item.countryLabel,item.city,organizationType(item)].filter(Boolean).join(" · ");
+    return '<article class="global-organization-row"><div class="global-organization-copy"><div class="global-organization-meta">'+esc(meta)+'</div><h3><a href="'+esc(item.href)+'">'+esc(item.label)+'</a></h3>'+(item.summary?'<p>'+esc(item.summary)+'</p>':'')+'</div><a class="global-organization-link" href="'+esc(item.href)+'" aria-label="'+esc(item.label)+' adatlapja">Adatlap <span aria-hidden="true">→</span></a></article>';
+  }).join("");
+}
+
+function bindOrganizationDirectory(){
+  $("#organizationCountry")?.addEventListener("change",()=>renderOrganizations(true));
+  $("#organizationType")?.addEventListener("change",()=>renderOrganizations(true));
+  $("#organizationSearch")?.addEventListener("input",()=>renderOrganizations(true));
+  $("#organizationMore")?.addEventListener("click",()=>{organizationLimit += 24;renderOrganizations();});
+  $("#organizationReset")?.addEventListener("click",()=>{
+    if($("#organizationCountry")) $("#organizationCountry").value = "";
+    if($("#organizationType")) $("#organizationType").value = "";
+    if($("#organizationSearch")) $("#organizationSearch").value = "";
+    renderOrganizations(true);
+  });
+}
+
 async function init(){
   const legacyHashRoutes = {
     "#naptar":"countries/at/#programok",
     "#oktatas":"countries/at/#oktatas",
-    "#szervezetek":"countries/at/#kozossegek",
     "#terkep":"countries/at/#terkep"
   };
   if(legacyHashRoutes[location.hash]){
@@ -368,8 +432,16 @@ async function init(){
   searchIndex = s;
   globalEvents = e;
   bindSearch();
+  const initialQuery = new URLSearchParams(location.search).get("q");
+  if(initialQuery && $("#globalSearch")){
+    $("#globalSearch").value = initialQuery;
+    renderSuggestions();
+  }
   renderCountryList();
   bindWorldMap();
+  populateOrganizationFilters();
+  bindOrganizationDirectory();
+  renderOrganizations();
   populateCalendarCountries();
   bindCalendar();
   renderGlobalCalendar();

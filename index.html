@@ -9,9 +9,15 @@
 <meta name="robots" content="index,follow,max-snippet:-1,max-image-preview:large">
 <meta name="theme-color" content="#ffffff">
 <link rel="canonical" href="https://diaszpora.kozpontiszovetseg.at/">
-<link rel="stylesheet" href="styles.css?v=20261001-world-home-2">
+<meta property="og:type" content="website">
+<meta property="og:title" content="DORAPP | Magyar diaszpóra világtérkép">
+<meta property="og:description" content="Forrásalapú magyar szervezetjegyzék és programnaptár országonkénti kereséssel.">
+<meta property="og:url" content="https://diaszpora.kozpontiszovetseg.at/">
+<meta name="twitter:card" content="summary">
+<link rel="alternate" type="text/plain" href="llms.txt" title="DORAPP LLM információ">
+<link rel="stylesheet" href="styles.css?v=20261014-directory-home-1">
 <script type="application/ld+json">
-{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://diaszpora.kozpontiszovetseg.at/#publisher","name":"Ausztriai Magyar Egyesületek és Szervezetek Központi Szövetsége","url":"https://www.kozpontiszovetseg.at/","identifier":{"@type":"PropertyValue","propertyID":"ZVR","value":"079797621"}},{"@type":"WebSite","@id":"https://diaszpora.kozpontiszovetseg.at/#website","name":"DORAPP","url":"https://diaszpora.kozpontiszovetseg.at/","inLanguage":"hu","publisher":{"@id":"https://diaszpora.kozpontiszovetseg.at/#publisher"}},{"@type":"CollectionPage","@id":"https://diaszpora.kozpontiszovetseg.at/#page","name":"DORAPP magyar diaszpóra világtérkép és programnaptár","url":"https://diaszpora.kozpontiszovetseg.at/","isPartOf":{"@id":"https://diaszpora.kozpontiszovetseg.at/#website"},"about":{"@type":"Thing","name":"Magyar diaszpóra közösségek és programok világszerte"}}]}
+{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://diaszpora.kozpontiszovetseg.at/#publisher","name":"Ausztriai Magyar Egyesületek és Szervezetek Központi Szövetsége","url":"https://www.kozpontiszovetseg.at/","identifier":{"@type":"PropertyValue","propertyID":"ZVR","value":"079797621"},"knowsAbout":["magyar diaszpóra","magyar közösségek","magyar kulturális és oktatási szervezetek"]},{"@type":"WebSite","@id":"https://diaszpora.kozpontiszovetseg.at/#website","name":"DORAPP","url":"https://diaszpora.kozpontiszovetseg.at/","inLanguage":"hu","publisher":{"@id":"https://diaszpora.kozpontiszovetseg.at/#publisher"},"potentialAction":{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://diaszpora.kozpontiszovetseg.at/?q={search_term_string}"},"query-input":"required name=search_term_string"}},{"@type":["CollectionPage","Dataset"],"@id":"https://diaszpora.kozpontiszovetseg.at/#page","name":"DORAPP magyar diaszpóra szervezetjegyzék és programnaptár","description":"Forrásalapú, országonként és szervezettípusonként kereshető magyar diaszpóra-adatbázis és programnaptár.","url":"https://diaszpora.kozpontiszovetseg.at/","inLanguage":"hu","isPartOf":{"@id":"https://diaszpora.kozpontiszovetseg.at/#website"},"publisher":{"@id":"https://diaszpora.kozpontiszovetseg.at/#publisher"},"about":{"@type":"Thing","name":"Magyar diaszpóra közösségek, intézmények és programok világszerte"},"license":"https://diaszpora.kozpontiszovetseg.at/forrasok.html"}]}
 </script>
 </head>
 <body class="world-home">
@@ -20,6 +26,7 @@
   <div class="wrap navrow">
     <a class="brand" href="./"><span class="mark">HU</span><span>DORAPP</span></a>
     <nav aria-label="Fő navigáció">
+      <a href="#szervezetek">Szervezetek</a>
       <a href="#programnaptar">Programnaptár</a>
       <a href="forrasok.html">Források</a>
       <a href="adatminoseg.html">Adatminőség</a>
@@ -32,8 +39,8 @@
   <div class="wrap world-gateway-inner">
     <div class="world-intro">
       <div class="eyebrow">DORAPP Worldwide</div>
-      <h1>Magyar közösségek <span>világszerte.</span></h1>
-      <p>Keress országra, városra, szervezetre, tevékenységre vagy programra. Vagy válassz országot közvetlenül a térképen.</p>
+      <h1>Magyar közösségek <span>egy helyen.</span></h1>
+      <p>Forrásalapú szervezetjegyzék és programnaptár. Keress közvetlenül, vagy válassz országot a térképen.</p>
     </div>
 
     <div class="global-search" role="search">
@@ -76,13 +83,43 @@
   </div>
 </section>
 
+<section id="szervezetek" class="global-organizations-section">
+  <div class="wrap">
+    <div class="section-head global-organization-head">
+      <div>
+        <div class="eyebrow">Szervezetjegyzék</div>
+        <h2>Ellenőrzött magyar közösségek.</h2>
+        <p>Az elkészült országadatbázisok szervezetei és oktatási intézményei. Minden találat saját, forrásokkal ellátott bemutatkozó oldalra vezet.</p>
+      </div>
+    </div>
+    <div class="global-organization-filters" role="search" aria-label="Szervezetek szűrése">
+      <label>Ország
+        <select id="organizationCountry"><option value="">Minden ország</option></select>
+      </label>
+      <label>Típus
+        <select id="organizationType"><option value="">Minden típus</option></select>
+      </label>
+      <label class="organization-query">Keresés
+        <input id="organizationSearch" type="search" autocomplete="off" placeholder="Név, város, tevékenység…">
+      </label>
+    </div>
+    <div class="organization-directory-bar">
+      <div id="organizationCount" class="result-count" aria-live="polite"></div>
+      <button id="organizationReset" class="text-btn" type="button">Szűrők törlése</button>
+    </div>
+    <div id="organizationDirectory" class="global-organization-list"></div>
+    <div id="organizationEmpty" class="empty" hidden>Nincs a szűrésnek megfelelő szervezet.</div>
+    <button id="organizationMore" class="organization-more" type="button" hidden>További szervezetek</button>
+  </div>
+</section>
+
 <section id="programnaptar" class="global-calendar-section">
   <div class="wrap">
     <div class="section-head global-calendar-head">
       <div>
         <div class="eyebrow">Globális programnaptár</div>
-        <h2>Aktuális és jövőbeni magyar programok.</h2>
-        <p>Minden olyan közelgő program egy helyen, amelyhez ellenőrzött országadatbázis és forrás tartozik. Az országoldalakon ugyanennek a naptárnak az adott országra szűrt nézete jelenik meg.</p>
+        <h2>Közelgő magyar programok.</h2>
+        <p>Csak ellenőrzött országadatbázisból és visszakövethető szervezeti vagy intézményi forrásból származó események.</p>
       </div>
       <div class="global-calendar-filters">
         <label>Ország
@@ -108,7 +145,7 @@
   </div>
 </footer>
 
-<script src="world.js?v=20261001-world-map-zoom-1" defer></script>
+<script src="world.js?v=20261014-directory-home-1" defer></script>
 <script src="ui.js?v=20260926-consent-nav" defer></script>
 </body>
 </html>
