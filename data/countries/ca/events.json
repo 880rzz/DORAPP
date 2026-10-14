@@ -1,5 +1,48 @@
 {
-  "updated": "2026-10-01",
+  "updated": "2026-10-14T16:50:24.647628+00:00",
+  "verificationStatus": "automated-source-refresh-with-manual-provenance",
+  "programCategoryDefinitions": [
+    {
+      "id": "gyermek",
+      "label": "Gyermekprogram"
+    },
+    {
+      "id": "zene",
+      "label": "Zene"
+    },
+    {
+      "id": "szinhaz",
+      "label": "Színház / előadás"
+    },
+    {
+      "id": "irodalom",
+      "label": "Irodalom"
+    },
+    {
+      "id": "cserkesz",
+      "label": "Cserkészet"
+    },
+    {
+      "id": "kirandulas",
+      "label": "Kirándulás"
+    },
+    {
+      "id": "workshop",
+      "label": "Workshop / képzés"
+    },
+    {
+      "id": "diak",
+      "label": "Diákprogram"
+    },
+    {
+      "id": "megemlekezes",
+      "label": "Megemlékezés"
+    },
+    {
+      "id": "kozosseg",
+      "label": "Közösségi program"
+    }
+  ],
   "events": [
     {
       "id": "ohcc-annamarias-kitchen-2026-11-07",
@@ -7,7 +50,6 @@
       "region": "Ontario",
       "city": "Ottawa",
       "name": "Annamaria’s Kitchen",
-      "organizationId": "ottawa-hungarian-community-centre",
       "organizer": "Ottawa Hungarian Community Centre",
       "startDate": "2026-11-07T10:00:00-05:00",
       "endDate": "2026-11-08T20:00:00-05:00",
@@ -15,7 +57,12 @@
       "address": "43 Capital Drive, Ottawa, ON K2G 0E7, Canada",
       "description": "Kétnapos főzőprogram az Ottawa Hungarian Community Centre-ben.",
       "sourceUrl": "https://omh-ohcc.ca/en/",
-      "verifiedAt": "2026-10-01"
+      "verifiedAt": "2026-10-01",
+      "programCategories": [
+        "kozosseg"
+      ],
+      "organizerId": "ottawa-hungarian-community-centre",
+      "sourceType": "automatic-structured-source"
     }
   ]
 }

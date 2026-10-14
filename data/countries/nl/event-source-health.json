@@ -1,0 +1,104 @@
+{
+  "updated": "2026-10-14T16:50:43.189729+00:00",
+  "country": "nl",
+  "sources": [
+    {
+      "entityId": "hagai-magyar-ovoda-es-iskola",
+      "entityType": "education",
+      "source": "https://www.federatio.org/hmoi.html",
+      "checkedAt": "2026-10-14T16:50:25.184096+00:00",
+      "status": "configuration-error",
+      "eventsFound": 0,
+      "pagesChecked": 0,
+      "error": "inclusionRule requires includeRegex before automatic ingestion"
+    },
+    {
+      "entityId": "kincskereso-oskola",
+      "entityType": "education",
+      "source": "https://kincskereso-oskola.nl/program/",
+      "checkedAt": "2026-10-14T16:50:25.183940+00:00",
+      "status": "configuration-error",
+      "eventsFound": 0,
+      "pagesChecked": 0,
+      "error": "inclusionRule requires includeRegex before automatic ingestion"
+    },
+    {
+      "entityId": "amszterdami-magyar-reformatus-gyulekezet",
+      "entityType": "organization",
+      "source": "https://www.federatio.org/protes.html",
+      "checkedAt": "2026-10-14T16:50:25.183134+00:00",
+      "status": "configuration-error",
+      "eventsFound": 0,
+      "pagesChecked": 0,
+      "error": "inclusionRule requires includeRegex before automatic ingestion"
+    },
+    {
+      "entityId": "hagai-magyar-reformatus-gyulekezet",
+      "entityType": "organization",
+      "source": "https://www.federatio.org/protes.html",
+      "checkedAt": "2026-10-14T16:50:25.182827+00:00",
+      "status": "configuration-error",
+      "eventsFound": 0,
+      "pagesChecked": 0,
+      "error": "inclusionRule requires includeRegex before automatic ingestion"
+    },
+    {
+      "entityId": "hollandiai-magyar-szovetseg",
+      "entityType": "organization",
+      "source": "https://www.hongaarsefederatie.nl/esemenyek/",
+      "checkedAt": "2026-10-14T16:50:25.181964+00:00",
+      "status": "error",
+      "eventsFound": 0,
+      "pagesChecked": 0,
+      "error": "HTTP Error 503: Service Unavailable"
+    },
+    {
+      "entityId": "hungaria-club-1929",
+      "entityType": "organization",
+      "source": "https://www.hungariaclub1929.nl/nl/programma/",
+      "checkedAt": "2026-10-14T16:50:25.182473+00:00",
+      "status": "ok-no-structured-event",
+      "eventsFound": 0,
+      "pagesChecked": 6
+    },
+    {
+      "entityId": "rotterdami-magyar-reformatus-gyulekezet",
+      "entityType": "organization",
+      "source": "https://www.federatio.org/protes.html",
+      "checkedAt": "2026-10-14T16:50:25.183150+00:00",
+      "status": "configuration-error",
+      "eventsFound": 0,
+      "pagesChecked": 0,
+      "error": "inclusionRule requires includeRegex before automatic ingestion"
+    },
+    {
+      "entityId": "stichting-magyar-nota",
+      "entityType": "organization",
+      "source": "https://www.magyarnota.nl/magyar-nota-nl/activiteiten-magyarnota/",
+      "checkedAt": "2026-10-14T16:50:25.183527+00:00",
+      "status": "ok-no-structured-event",
+      "eventsFound": 0,
+      "pagesChecked": 1
+    },
+    {
+      "entityId": "vianeni-magyar-reformatus-gyulekezet",
+      "entityType": "organization",
+      "source": "https://zwolleireformatus.nl/wp-content/uploads/2026/04/zwolle-2026-5.pdf",
+      "checkedAt": "2026-10-14T16:50:25.183363+00:00",
+      "status": "configuration-error",
+      "eventsFound": 0,
+      "pagesChecked": 0,
+      "error": "inclusionRule requires includeRegex before automatic ingestion"
+    },
+    {
+      "entityId": "zwollei-magyar-reformatus-egyhazkozseg",
+      "entityType": "organization",
+      "source": "https://zwolleireformatus.nl/",
+      "checkedAt": "2026-10-14T16:50:25.183350+00:00",
+      "status": "configuration-error",
+      "eventsFound": 0,
+      "pagesChecked": 0,
+      "error": "inclusionRule requires includeRegex before automatic ingestion"
+    }
+  ]
+}
