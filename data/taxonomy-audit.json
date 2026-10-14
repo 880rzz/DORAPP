@@ -1,9 +1,9 @@
 {
-  "updated": "2026-10-14T01:15:14.374640+00:00",
+  "updated": "2026-10-14T09:31:52.578055+00:00",
   "summary": {
     "organizations": 160,
     "organizationFlags": 1,
-    "organizationPagesChecked": 332,
+    "organizationPagesChecked": 323,
     "education": 108,
     "educationFlags": 0,
     "events": 66,
@@ -126,24 +126,18 @@
       ],
       "activityCategories": [],
       "signals": [
-        "egyhaz"
+        "oktatas",
+        "media",
+        "egyhaz",
+        "csalad"
       ],
-      "pagesChecked": 0,
-      "checkedUrls": [],
-      "errors": [
-        {
-          "url": "https://www.martinus.at/",
-          "error": "<urlopen error timed out>"
-        },
-        {
-          "url": "https://www.martinus.at/pfarre/1127/kalender",
-          "error": "<urlopen error timed out>"
-        },
-        {
-          "url": "https://www.martinus.at/unterwart",
-          "error": "<urlopen error timed out>"
-        }
+      "pagesChecked": 3,
+      "checkedUrls": [
+        "https://www.martinus.at/",
+        "https://www.martinus.at/pfarre/1127/kalender",
+        "https://www.martinus.at/unterwart"
       ],
+      "errors": [],
       "flags": []
     },
     {
@@ -436,21 +430,16 @@
       ],
       "activityCategories": [],
       "signals": [
-        "oktatas",
-        "neptanc",
-        "nepzene",
-        "enekkar",
-        "media",
-        "diak",
-        "irodalom",
-        "muveszet",
-        "csalad"
+        "enekkar"
       ],
-      "pagesChecked": 1,
-      "checkedUrls": [
-        "https://www.wukv.at/tarka-barka-dalkor/"
+      "pagesChecked": 0,
+      "checkedUrls": [],
+      "errors": [
+        {
+          "url": "https://www.wukv.at/tarka-barka-dalkor/",
+          "error": "<urlopen error timed out>"
+        }
       ],
-      "errors": [],
       "flags": []
     },
     {
@@ -1231,12 +1220,16 @@
         "muveszet",
         "csalad"
       ],
-      "pagesChecked": 2,
+      "pagesChecked": 1,
       "checkedUrls": [
-        "https://www.cserkesz.eu/rolunk/",
         "https://rolunk.at/nepcsoportunk/sziveben-magyar/"
       ],
-      "errors": [],
+      "errors": [
+        {
+          "url": "https://www.cserkesz.eu/rolunk/",
+          "error": "HTTP Error 500: Internal Server Error"
+        }
+      ],
       "flags": []
     },
     {
@@ -1248,18 +1241,25 @@
       ],
       "activityCategories": [],
       "signals": [
-        "oktatas",
         "cserkesz",
-        "irodalom",
         "csalad"
       ],
-      "pagesChecked": 3,
-      "checkedUrls": [
-        "https://wels.cserkesz.eu/",
-        "https://wels.cserkesz.eu/programok/",
-        "https://wels.cserkesz.eu/csapatunk/"
+      "pagesChecked": 0,
+      "checkedUrls": [],
+      "errors": [
+        {
+          "url": "https://wels.cserkesz.eu/",
+          "error": "HTTP Error 500: Internal Server Error"
+        },
+        {
+          "url": "https://wels.cserkesz.eu/programok/",
+          "error": "HTTP Error 500: Internal Server Error"
+        },
+        {
+          "url": "https://wels.cserkesz.eu/csapatunk/",
+          "error": "HTTP Error 500: Internal Server Error"
+        }
       ],
-      "errors": [],
       "flags": []
     },
     {
@@ -1302,24 +1302,28 @@
       ],
       "activityCategories": [],
       "signals": [
-        "oktatas",
         "neptanc",
         "nepzene",
         "enekkar",
-        "szinhaz",
-        "media",
-        "diak",
-        "irodalom",
         "sport",
         "csalad"
       ],
-      "pagesChecked": 3,
-      "checkedUrls": [
-        "https://www.wukv.at/",
-        "https://www.wukv.at/sample-page/",
-        "https://www.wukv.at/rolunk-delibab-neptanccsoport/"
+      "pagesChecked": 0,
+      "checkedUrls": [],
+      "errors": [
+        {
+          "url": "https://www.wukv.at/",
+          "error": "<urlopen error timed out>"
+        },
+        {
+          "url": "https://www.wukv.at/sample-page/",
+          "error": "<urlopen error timed out>"
+        },
+        {
+          "url": "https://www.wukv.at/rolunk-delibab-neptanccsoport/",
+          "error": "<urlopen error timed out>"
+        }
       ],
-      "errors": [],
       "flags": []
     },
     {
@@ -1575,24 +1579,16 @@
       ],
       "activityCategories": [],
       "signals": [
+        "media",
         "egyhaz"
       ],
-      "pagesChecked": 0,
-      "checkedUrls": [],
-      "errors": [
-        {
-          "url": "https://www.martinus.at/pfarre/1122",
-          "error": "<urlopen error timed out>"
-        },
-        {
-          "url": "https://www.martinus.at/pfarre/1122/kalender",
-          "error": "<urlopen error timed out>"
-        },
-        {
-          "url": "https://www.martinus.at/pfarre/1122/kalender/calendar/1808040.html",
-          "error": "<urlopen error timed out>"
-        }
+      "pagesChecked": 3,
+      "checkedUrls": [
+        "https://www.martinus.at/pfarre/1122",
+        "https://www.martinus.at/pfarre/1122/kalender",
+        "https://www.martinus.at/pfarre/1122/kalender/calendar/1808040.html"
       ],
+      "errors": [],
       "flags": []
     },
     {
@@ -2101,16 +2097,14 @@
       "signals": [
         "egyhaz"
       ],
-      "pagesChecked": 0,
-      "checkedUrls": [],
+      "pagesChecked": 1,
+      "checkedUrls": [
+        "https://www.edsbg.at/seelsorge/weltkirche/anderssprachige-seelsorge/ungarische-gemeinde"
+      ],
       "errors": [
         {
-          "url": "https://www.edsbg.at/seelsorge/weltkirche/anderssprachige-seelsorge/ungarische-gemeinde",
-          "error": "<urlopen error timed out>"
-        },
-        {
           "url": "https://www.edsbg.at/dl/klOKJmMJKNLMKJqx4KJK/ungarischsprachige_Gottesdienstgemeinde_Salzburg_pdf",
-          "error": "<urlopen error timed out>"
+          "error": "HTTP Error 400: Bad Request"
         }
       ],
       "flags": []
@@ -2483,7 +2477,7 @@
       "errors": [
         {
           "url": "https://www.magyarszo.at/",
-          "error": "<urlopen error timed out>"
+          "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'www.magyarszo.at'. (_ssl.c:1010)>"
         }
       ],
       "flags": []
@@ -2552,12 +2546,16 @@
         "diak",
         "irodalom"
       ],
-      "pagesChecked": 2,
+      "pagesChecked": 1,
       "checkedUrls": [
-        "https://mde.hu/partnerek-tamogatok/",
         "https://kerekasztal.at/"
       ],
-      "errors": [],
+      "errors": [
+        {
+          "url": "https://mde.hu/partnerek-tamogatok/",
+          "error": "<urlopen error timed out>"
+        }
+      ],
       "flags": []
     },
     {
@@ -2569,21 +2567,24 @@
       ],
       "activityCategories": [],
       "signals": [
-        "neptanc",
-        "media",
-        "diak",
-        "irodalom",
-        "muveszet",
-        "sport",
-        "csalad"
+        "diak"
       ],
-      "pagesChecked": 3,
-      "checkedUrls": [
-        "https://mde.hu/at/",
-        "https://mde.hu/rolunk/",
-        "https://mde.hu/becsi-esemenyek/"
+      "pagesChecked": 0,
+      "checkedUrls": [],
+      "errors": [
+        {
+          "url": "https://mde.hu/at/",
+          "error": "<urlopen error timed out>"
+        },
+        {
+          "url": "https://mde.hu/rolunk/",
+          "error": "<urlopen error timed out>"
+        },
+        {
+          "url": "https://mde.hu/becsi-esemenyek/",
+          "error": "<urlopen error timed out>"
+        }
       ],
-      "errors": [],
       "flags": []
     },
     {
@@ -3390,24 +3391,24 @@
       ],
       "activityCategories": [],
       "signals": [
-        "oktatas",
-        "neptanc",
-        "nepzene",
-        "enekkar",
-        "szinhaz",
-        "media",
-        "diak",
-        "muveszet",
-        "sport",
-        "csalad"
+        "nepzene"
       ],
-      "pagesChecked": 3,
-      "checkedUrls": [
-        "https://www.wukv.at/rolunk-citerazenekar/",
-        "https://www.wukv.at/sample-page/",
-        "https://www.wukv.at/a-citeratol-a-hegeduig-ismeretterjeszto-eloadassorozat/"
+      "pagesChecked": 0,
+      "checkedUrls": [],
+      "errors": [
+        {
+          "url": "https://www.wukv.at/rolunk-citerazenekar/",
+          "error": "<urlopen error timed out>"
+        },
+        {
+          "url": "https://www.wukv.at/sample-page/",
+          "error": "<urlopen error timed out>"
+        },
+        {
+          "url": "https://www.wukv.at/a-citeratol-a-hegeduig-ismeretterjeszto-eloadassorozat/",
+          "error": "<urlopen error timed out>"
+        }
       ],
-      "errors": [],
       "flags": []
     },
     {
@@ -4049,18 +4050,17 @@
       ],
       "activityCategories": [],
       "signals": [
-        "oktatas",
         "neptanc",
-        "nepzene",
-        "media",
-        "diak",
         "csalad"
       ],
-      "pagesChecked": 1,
-      "checkedUrls": [
-        "https://www.wukv.at/rolunk-szivarvany/"
+      "pagesChecked": 0,
+      "checkedUrls": [],
+      "errors": [
+        {
+          "url": "https://www.wukv.at/rolunk-szivarvany/",
+          "error": "<urlopen error timed out>"
+        }
       ],
-      "errors": [],
       "flags": []
     },
     {
