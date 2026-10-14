@@ -2446,7 +2446,7 @@
       "facebook": "https://www.facebook.com/Europa-Club-B%C3%A9cs-478055442397522/",
       "instagram": null,
       "eventSources": [
-        "https://europaclub.at/rendezvenyek/meghivok/"
+        "https://europaclub.at/"
       ],
       "memberships": [
         {
@@ -2500,7 +2500,7 @@
         "német"
       ],
       "email": "europaclubbecs@gmail.com",
-      "profileVerifiedAt": "2026-09-27",
+      "profileVerifiedAt": "2026-10-14",
       "evidenceSources": [
         {
           "label": "Europa-Club – történet",
@@ -2516,11 +2516,6 @@
           "label": "Europa-Club – aktuális programok",
           "url": "https://europaclub.at/",
           "type": "official"
-        },
-        {
-          "label": "Europa-Club – aktuális meghívók",
-          "url": "https://europaclub.at/rendezvenyek/meghivok/",
-          "type": "official"
         }
       ],
       "entityClass": "organization",
@@ -2534,8 +2529,8 @@
           "ingestEvents": false
         },
         {
-          "label": "Europa-Club – hivatalos meghívók / aktuális rendezvények",
-          "url": "https://europaclub.at/rendezvenyek/meghivok/",
+          "label": "Europa-Club – hivatalos aktuális oldal és eseménynaptár",
+          "url": "https://europaclub.at/",
           "kind": "official-calendar",
           "scope": "self",
           "ingestEvents": true
@@ -9759,10 +9754,10 @@
       "profileVerifiedAt": "2026-09-25",
       "entityClass": "institution",
       "contactUrl": "https://culture.hu/hu/wien",
-    "calendarSources": [
-      {
-        "label": "Collegium Hungaricum Wien – Magyar Kulturális Intézet – automatikus eseményforrás",
-        "url": "https://culture.hu/hu/wien",
+      "calendarSources": [
+        {
+          "label": "Collegium Hungaricum Wien – Magyar Kulturális Intézet – automatikus eseményforrás",
+          "url": "https://culture.hu/hu/wien",
           "kind": "official-website",
           "scope": "self",
           "ingestEvents": false
@@ -9771,17 +9766,17 @@
           "label": "Collegium Hungaricum Wien – Magyar Kulturális Intézet – automatikus eseményforrás",
           "url": "https://culture.hu/hu/wien/esemenyek",
           "kind": "official-event-source",
-        "scope": "self",
-        "ingestEvents": true
-      },
-      {
-        "label": "Collegium Hungaricum Wien – hivatalos programhírek és tematikus eseményoldalak",
-        "url": "https://culture.hu/de/wien/blog",
-        "kind": "official-program-source",
-        "scope": "self",
-        "ingestEvents": false
-      }
-    ]
+          "scope": "self",
+          "ingestEvents": true
+        },
+        {
+          "label": "Collegium Hungaricum Wien – hivatalos programhírek és tematikus eseményoldalak",
+          "url": "https://culture.hu/de/wien/blog",
+          "kind": "official-program-source",
+          "scope": "self",
+          "ingestEvents": false
+        }
+      ]
     },
     {
       "id": "rolunk-at",
