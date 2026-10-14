@@ -1,9 +1,9 @@
 {
-  "updated": "2026-10-13T12:38:27.445007+00:00",
+  "updated": "2026-10-14T01:07:59.048703+00:00",
   "summary": {
     "organizations": 160,
-    "organizationFlags": 1,
-    "organizationPagesChecked": 319,
+    "organizationFlags": 2,
+    "organizationPagesChecked": 330,
     "education": 108,
     "educationFlags": 0,
     "events": 69,
@@ -22,15 +22,20 @@
         "gyermek",
         "kozosseg"
       ],
-      "signals": [],
-      "pagesChecked": 0,
-      "checkedUrls": [],
-      "errors": [
-        {
-          "url": "https://volksgruppen.orf.at/magyarok/stories/3368109/",
-          "error": "HTTP Error 502: Proxy Error"
-        }
+      "signals": [
+        "oktatas",
+        "nepzene",
+        "szinhaz",
+        "media",
+        "irodalom",
+        "sport",
+        "csalad"
       ],
+      "pagesChecked": 1,
+      "checkedUrls": [
+        "https://volksgruppen.orf.at/magyarok/stories/3368109/"
+      ],
+      "errors": [],
       "flags": []
     },
     {
@@ -168,12 +173,7 @@
       "checkedUrls": [
         "https://rolunk.at/ausztriai-magyar-egyesuletek/"
       ],
-      "errors": [
-        {
-          "url": "https://www.unterwart.at/wp-content/uploads/2025/01/Veranstaltkal2025.pdf",
-          "error": "<urlopen error timed out>"
-        }
-      ],
+      "errors": [],
       "flags": []
     },
     {
@@ -190,23 +190,18 @@
         "nepzene",
         "szinhaz",
         "media",
+        "egyhaz",
         "diak",
-        "irodalom"
+        "irodalom",
+        "sport",
+        "csalad"
       ],
-      "pagesChecked": 1,
+      "pagesChecked": 2,
       "checkedUrls": [
+        "https://www.unterwart.at/heimathaus-unterwart/",
         "https://rolunk.at/artikel-mit-ubersetzung/tag-der-offenen-tur-des-unterwarter-heimathauses/"
       ],
-      "errors": [
-        {
-          "url": "https://www.unterwart.at/heimathaus-unterwart/",
-          "error": "<urlopen error timed out>"
-        },
-        {
-          "url": "https://www.unterwart.at/wp-content/uploads/2025/01/Veranstaltkal2025.pdf",
-          "error": "<urlopen error timed out>"
-        }
-      ],
+      "errors": [],
       "flags": []
     },
     {
@@ -491,16 +486,15 @@
       ],
       "activityCategories": [],
       "signals": [
-        "irodalom"
+        "media",
+        "irodalom",
+        "sport"
       ],
-      "pagesChecked": 0,
-      "checkedUrls": [],
-      "errors": [
-        {
-          "url": "https://volksgruppen.orf.at/magyarok/stories/3358259/",
-          "error": "The read operation timed out"
-        }
+      "pagesChecked": 1,
+      "checkedUrls": [
+        "https://volksgruppen.orf.at/magyarok/stories/3358259/"
       ],
+      "errors": [],
       "flags": []
     },
     {
@@ -513,7 +507,6 @@
       "activityCategories": [],
       "signals": [
         "oktatas",
-        "neptanc",
         "enekkar",
         "szinhaz",
         "media",
@@ -566,6 +559,7 @@
       ],
       "activityCategories": [],
       "signals": [
+        "nepzene",
         "csalad"
       ],
       "pagesChecked": 1,
@@ -670,21 +664,19 @@
       "signals": [
         "oktatas",
         "szinhaz",
+        "media",
         "egyhaz",
+        "diak",
         "irodalom",
         "sport",
         "csalad"
       ],
-      "pagesChecked": 1,
+      "pagesChecked": 2,
       "checkedUrls": [
-        "https://www.wiener-neustadt.at/index.php/de/kultur-tourismus/stadtbuecherei"
+        "https://www.wiener-neustadt.at/index.php/de/kultur-tourismus/stadtbuecherei",
+        "https://volksgruppen.orf.at/magyarok/stories/3369413/"
       ],
-      "errors": [
-        {
-          "url": "https://volksgruppen.orf.at/magyarok/stories/3369413/",
-          "error": "The read operation timed out"
-        }
-      ],
+      "errors": [],
       "flags": []
     },
     {
@@ -791,19 +783,16 @@
         "diak",
         "irodalom",
         "muveszet",
+        "sport",
         "csalad"
       ],
-      "pagesChecked": 2,
+      "pagesChecked": 3,
       "checkedUrls": [
         "https://rolunk.at/nepcsoportunk/almaban-is-magyar/",
-        "https://rolunk.at/nepcsoportunk/20-tagegyesuletet-fog-ossze-az-ausztriai-magyar-szervezetek-kerekasztala/"
+        "https://rolunk.at/nepcsoportunk/20-tagegyesuletet-fog-ossze-az-ausztriai-magyar-szervezetek-kerekasztala/",
+        "https://volksgruppen.orf.at/magyarok/stories/3163489/"
       ],
-      "errors": [
-        {
-          "url": "https://volksgruppen.orf.at/magyarok/stories/3163489/",
-          "error": "The read operation timed out"
-        }
-      ],
+      "errors": [],
       "flags": []
     },
     {
@@ -915,7 +904,7 @@
       "errors": [
         {
           "url": "https://bornemisza.at/",
-          "error": "<urlopen error timed out>"
+          "error": "<urlopen error [Errno 111] Connection refused>"
         },
         {
           "url": "https://www.kozpontiszovetseg.at/bornemisza-peter-tarsasag",
@@ -1042,24 +1031,25 @@
       ],
       "activityCategories": [],
       "signals": [
+        "oktatas",
+        "neptanc",
         "enekkar",
         "cserkesz",
         "media",
+        "egyhaz",
+        "irodalom",
         "sport",
         "csalad"
       ],
-      "pagesChecked": 1,
+      "pagesChecked": 2,
       "checkedUrls": [
-        "https://www.burgenlandicserkesz.at/"
+        "https://www.burgenlandicserkesz.at/",
+        "https://volksgruppen.orf.at/magyarok/stories/3333230/"
       ],
       "errors": [
         {
           "url": "https://burgenlandicserkesz.at/en/",
           "error": "HTTP Error 404: Not Found"
-        },
-        {
-          "url": "https://volksgruppen.orf.at/magyarok/stories/3333230/",
-          "error": "The read operation timed out"
         }
       ],
       "flags": []
@@ -1073,23 +1063,16 @@
         "kultura"
       ],
       "activityCategories": [],
-      "signals": [],
-      "pagesChecked": 0,
-      "checkedUrls": [],
-      "errors": [
-        {
-          "url": "https://club-pannonia.at/",
-          "error": "<urlopen error timed out>"
-        },
-        {
-          "url": "https://www.club-pannonia.at/uber-uns/",
-          "error": "<urlopen error timed out>"
-        },
-        {
-          "url": "https://www.club-pannonia.at/mitgliedschaft/",
-          "error": "<urlopen error timed out>"
-        }
+      "signals": [
+        "diak"
       ],
+      "pagesChecked": 3,
+      "checkedUrls": [
+        "https://club-pannonia.at/",
+        "https://www.club-pannonia.at/uber-uns/",
+        "https://www.club-pannonia.at/mitgliedschaft/"
+      ],
+      "errors": [],
       "flags": []
     },
     {
@@ -1132,20 +1115,23 @@
       "activityCategories": [],
       "signals": [
         "oktatas",
-        "szinhaz",
         "media",
-        "irodalom",
-        "muveszet",
-        "csalad"
+        "irodalom"
       ],
-      "pagesChecked": 3,
+      "pagesChecked": 2,
       "checkedUrls": [
         "https://culture.hu/hu/wien",
-        "https://culture.hu/hu/wien/esemenyek",
         "https://culture.hu/de/wien/jubilaum"
       ],
-      "errors": [],
-      "flags": []
+      "errors": [
+        {
+          "url": "https://culture.hu/hu/wien/esemenyek",
+          "error": "The read operation timed out"
+        }
+      ],
+      "flags": [
+        "weak-source-signal:muveszet"
+      ]
     },
     {
       "id": "collegium-pazmanianum",
@@ -2940,18 +2926,15 @@
         "diak",
         "irodalom",
         "muveszet",
+        "sport",
         "csalad"
       ],
-      "pagesChecked": 1,
+      "pagesChecked": 2,
       "checkedUrls": [
-        "https://rolunk.at/magazin/aktiv-apukak-sztereotipiadontogetes-es-hatalmas-farsangi-buli-felso-ausztriaban/"
+        "https://rolunk.at/magazin/aktiv-apukak-sztereotipiadontogetes-es-hatalmas-farsangi-buli-felso-ausztriaban/",
+        "https://volksgruppen.orf.at/magyarok/stories/3340511/"
       ],
-      "errors": [
-        {
-          "url": "https://volksgruppen.orf.at/magyarok/stories/3340511/",
-          "error": "The read operation timed out"
-        }
-      ],
+      "errors": [],
       "flags": []
     },
     {
@@ -3374,17 +3357,13 @@
         "sport",
         "csalad"
       ],
-      "pagesChecked": 2,
+      "pagesChecked": 3,
       "checkedUrls": [
+        "https://volksgruppen.orf.at/magyarok/stories/3345907/",
         "https://rolunk.at/kultura/uj-rendezovel-keszul-az-idei-eloadas/",
         "https://rolunk.at/kultura/tevedesek-ejszakaja-premier-a-felsoori-szinjatszoknal/"
       ],
-      "errors": [
-        {
-          "url": "https://volksgruppen.orf.at/magyarok/stories/3345907/",
-          "error": "The read operation timed out"
-        }
-      ],
+      "errors": [],
       "flags": []
     },
     {
@@ -4327,20 +4306,18 @@
         "egyhaz",
         "diak",
         "irodalom",
+        "sport",
         "csalad"
       ],
-      "pagesChecked": 1,
+      "pagesChecked": 2,
       "checkedUrls": [
+        "https://volksgruppen.orf.at/magyarok/stories/3119145/",
         "https://bukv.at/links/"
       ],
       "errors": [
         {
           "url": "https://vukk.at/",
           "error": "<urlopen error [Errno -5] No address associated with hostname>"
-        },
-        {
-          "url": "https://volksgruppen.orf.at/magyarok/stories/3119145/",
-          "error": "The read operation timed out"
         }
       ],
       "flags": []
