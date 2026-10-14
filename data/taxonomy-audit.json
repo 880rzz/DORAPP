@@ -1,9 +1,9 @@
 {
-  "updated": "2026-10-14T01:07:59.048703+00:00",
+  "updated": "2026-10-14T01:11:39.160870+00:00",
   "summary": {
     "organizations": 160,
-    "organizationFlags": 2,
-    "organizationPagesChecked": 330,
+    "organizationFlags": 1,
+    "organizationPagesChecked": 329,
     "education": 108,
     "educationFlags": 0,
     "events": 69,
@@ -507,6 +507,7 @@
       "activityCategories": [],
       "signals": [
         "oktatas",
+        "neptanc",
         "enekkar",
         "szinhaz",
         "media",
@@ -823,7 +824,12 @@
         "https://kerekasztal.at/tagok/",
         "https://atalon.hu/vilagjarok-klubja-becs-2eyhjn"
       ],
-      "errors": [],
+      "errors": [
+        {
+          "url": "https://www.karpatikum.hu/doc/Karpat_medence.pdf",
+          "error": "<urlopen error timed out>"
+        }
+      ],
       "flags": []
     },
     {
@@ -1115,23 +1121,20 @@
       "activityCategories": [],
       "signals": [
         "oktatas",
+        "szinhaz",
         "media",
-        "irodalom"
+        "irodalom",
+        "muveszet",
+        "csalad"
       ],
-      "pagesChecked": 2,
+      "pagesChecked": 3,
       "checkedUrls": [
         "https://culture.hu/hu/wien",
+        "https://culture.hu/hu/wien/esemenyek",
         "https://culture.hu/de/wien/jubilaum"
       ],
-      "errors": [
-        {
-          "url": "https://culture.hu/hu/wien/esemenyek",
-          "error": "The read operation timed out"
-        }
-      ],
-      "flags": [
-        "weak-source-signal:muveszet"
-      ]
+      "errors": [],
+      "flags": []
     },
     {
       "id": "collegium-pazmanianum",
@@ -1469,27 +1472,10 @@
         "kultura"
       ],
       "activityCategories": [],
-      "signals": [
-        "oktatas",
-        "neptanc",
-        "szinhaz",
-        "media",
-        "egyhaz",
-        "diak",
-        "irodalom",
-        "muveszet"
-      ],
-      "pagesChecked": 2,
-      "checkedUrls": [
-        "https://europaclub.at/",
-        "https://europaclub.at/rolunk/europa-club-tortenete/"
-      ],
-      "errors": [
-        {
-          "url": "https://europaclub.at/rendezvenyek/meghivok/",
-          "error": "The read operation timed out"
-        }
-      ],
+      "signals": [],
+      "pagesChecked": 0,
+      "checkedUrls": [],
+      "errors": [],
       "flags": []
     },
     {
