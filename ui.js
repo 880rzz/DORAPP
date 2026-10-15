@@ -157,10 +157,31 @@
     document.body.appendChild(link);
   }
 
+  const FIT_TEXT_SELECTOR=".card h3,.global-organization-row h3,.global-event-card h3,.article-card strong,.directory-result strong,.country-region-button span";
+  function fitLongCellText(root=document){
+    const nodes=[];
+    if(root.nodeType===1 && root.matches?.(FIT_TEXT_SELECTOR)) nodes.push(root);
+    root.querySelectorAll?.(FIT_TEXT_SELECTOR).forEach(node=>nodes.push(node));
+    nodes.forEach(node=>{
+      const length=(node.textContent||"").trim().length;
+      node.classList.toggle("fit-text-long",length>44 && length<=72);
+      node.classList.toggle("fit-text-very-long",length>72);
+    });
+  }
+  function initLongTextFitting(){
+    fitLongCellText(document);
+    new MutationObserver(mutations=>{
+      mutations.forEach(mutation=>mutation.addedNodes.forEach(node=>{
+        if(node.nodeType===1) fitLongCellText(node);
+      }));
+    }).observe(document.body,{childList:true,subtree:true});
+  }
+
   document.addEventListener("DOMContentLoaded",()=>{
     ensureFooterCredit();
     initMobileNav();
     initConsent();
     initWhatsApp();
+    initLongTextFitting();
   });
 })();
