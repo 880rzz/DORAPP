@@ -16,7 +16,10 @@ UI=(ROOT/"ui.js").read_text(encoding="utf-8")
 if 'const GA_ID="G-1FC22JEX2F"' not in UI: errors.append("canonical consent-first GA ID missing from ui.js")
 if "G-MR6ZXXL5JQ" in UI: errors.append("retired GA ID remains in ui.js")
 if "https://wa.me/4367761655592" not in UI or 'aria-label","Írj nekünk WhatsAppon"' not in UI: errors.append("shared WhatsApp contact control missing or inaccessible")
-if "whatsapp-fab" not in (ROOT/"styles.css").read_text(encoding="utf-8"): errors.append("WhatsApp control styling missing")
+STYLES=(ROOT/"styles.css").read_text(encoding="utf-8")
+if "whatsapp-fab" not in STYLES: errors.append("WhatsApp control styling missing")
+for token in ("width:44px;height:44px", "background:#5f6368", ".whatsapp-fab svg{width:22px;height:22px"):
+    if token not in STYLES: errors.append(f"compact gray WhatsApp control regression: missing {token}")
 BMI=next((x for x in org.get("organizations",[]) if x.get("id")=="becsi-magyar-iskola"),None)
 if not BMI: errors.append("Bécsi Magyar Iskola canonical record missing")
 else:
