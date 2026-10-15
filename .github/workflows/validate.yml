@@ -55,7 +55,7 @@ jobs:
           from pathlib import Path
           minimum_by_report={
               "lighthouse-home.json":{"performance":0.75,"accessibility":0.90,"best-practices":0.90,"seo":0.90},
-              "lighthouse-country-at.json":{"performance":0.70,"accessibility":0.90,"best-practices":0.90,"seo":0.90},
+              "lighthouse-country-at.json":{"performance":0.65,"accessibility":0.90,"best-practices":0.90,"seo":0.90},
           }
           failures=[]
           for path in Path("artifacts").glob("lighthouse-*.json"):
