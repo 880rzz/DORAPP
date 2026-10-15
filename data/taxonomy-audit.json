@@ -1,9 +1,9 @@
 {
-  "updated": "2026-10-15T09:10:19.769765+00:00",
+  "updated": "2026-10-15T09:14:07.086828+00:00",
   "summary": {
     "organizations": 160,
     "organizationFlags": 1,
-    "organizationPagesChecked": 331,
+    "organizationPagesChecked": 333,
     "education": 108,
     "educationFlags": 0,
     "events": 71,
@@ -69,18 +69,21 @@
       ],
       "activityCategories": [],
       "signals": [
-        "oktatas",
-        "media",
         "irodalom",
-        "sport",
         "csalad"
       ],
-      "pagesChecked": 2,
-      "checkedUrls": [
-        "https://bgld.arbeiterkammer.at/service/buecherei/akbuechereieisenstadt/index.html",
-        "https://bgld.arbeiterkammer.at/beratung/Bildung/arbeitswelt/Buecherei-Angebote.html"
+      "pagesChecked": 0,
+      "checkedUrls": [],
+      "errors": [
+        {
+          "url": "https://bgld.arbeiterkammer.at/service/buecherei/akbuechereieisenstadt/index.html",
+          "error": "<urlopen error timed out>"
+        },
+        {
+          "url": "https://bgld.arbeiterkammer.at/beratung/Bildung/arbeitswelt/Buecherei-Angebote.html",
+          "error": "<urlopen error timed out>"
+        }
       ],
-      "errors": [],
       "flags": []
     },
     {
@@ -126,24 +129,17 @@
       ],
       "activityCategories": [],
       "signals": [
-        "egyhaz"
+        "media",
+        "egyhaz",
+        "csalad"
       ],
-      "pagesChecked": 0,
-      "checkedUrls": [],
-      "errors": [
-        {
-          "url": "https://www.martinus.at/",
-          "error": "<urlopen error timed out>"
-        },
-        {
-          "url": "https://www.martinus.at/pfarre/1127/kalender",
-          "error": "<urlopen error timed out>"
-        },
-        {
-          "url": "https://www.martinus.at/unterwart",
-          "error": "<urlopen error timed out>"
-        }
+      "pagesChecked": 3,
+      "checkedUrls": [
+        "https://www.martinus.at/",
+        "https://www.martinus.at/pfarre/1127/kalender",
+        "https://www.martinus.at/unterwart"
       ],
+      "errors": [],
       "flags": []
     },
     {
@@ -906,7 +902,7 @@
       "errors": [
         {
           "url": "https://bornemisza.at/",
-          "error": "<urlopen error timed out>"
+          "error": "<urlopen error [Errno 111] Connection refused>"
         },
         {
           "url": "https://www.kozpontiszovetseg.at/bornemisza-peter-tarsasag",
@@ -1468,22 +1464,9 @@
         "kultura"
       ],
       "activityCategories": [],
-      "signals": [
-        "oktatas",
-        "neptanc",
-        "szinhaz",
-        "media",
-        "egyhaz",
-        "diak",
-        "irodalom",
-        "muveszet"
-      ],
-      "pagesChecked": 3,
-      "checkedUrls": [
-        "https://europaclub.at/",
-        "https://europaclub.at/rolunk/europa-club-tortenete/",
-        "https://europaclub.at/de/kontakt/"
-      ],
+      "signals": [],
+      "pagesChecked": 0,
+      "checkedUrls": [],
       "errors": [],
       "flags": []
     },
@@ -1577,24 +1560,16 @@
       ],
       "activityCategories": [],
       "signals": [
+        "media",
         "egyhaz"
       ],
-      "pagesChecked": 0,
-      "checkedUrls": [],
-      "errors": [
-        {
-          "url": "https://www.martinus.at/pfarre/1122",
-          "error": "<urlopen error timed out>"
-        },
-        {
-          "url": "https://www.martinus.at/pfarre/1122/kalender",
-          "error": "<urlopen error timed out>"
-        },
-        {
-          "url": "https://www.martinus.at/pfarre/1122/kalender/calendar/1808040.html",
-          "error": "<urlopen error timed out>"
-        }
+      "pagesChecked": 3,
+      "checkedUrls": [
+        "https://www.martinus.at/pfarre/1122",
+        "https://www.martinus.at/pfarre/1122/kalender",
+        "https://www.martinus.at/pfarre/1122/kalender/calendar/1808040.html"
       ],
+      "errors": [],
       "flags": []
     },
     {
@@ -2103,16 +2078,14 @@
       "signals": [
         "egyhaz"
       ],
-      "pagesChecked": 0,
-      "checkedUrls": [],
+      "pagesChecked": 1,
+      "checkedUrls": [
+        "https://www.edsbg.at/seelsorge/weltkirche/anderssprachige-seelsorge/ungarische-gemeinde"
+      ],
       "errors": [
         {
-          "url": "https://www.edsbg.at/seelsorge/weltkirche/anderssprachige-seelsorge/ungarische-gemeinde",
-          "error": "<urlopen error timed out>"
-        },
-        {
           "url": "https://www.edsbg.at/dl/klOKJmMJKNLMKJqx4KJK/ungarischsprachige_Gottesdienstgemeinde_Salzburg_pdf",
-          "error": "<urlopen error timed out>"
+          "error": "HTTP Error 400: Bad Request"
         }
       ],
       "flags": []
