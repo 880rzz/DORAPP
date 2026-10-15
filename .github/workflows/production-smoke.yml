@@ -40,6 +40,10 @@ jobs:
           fetch "/adatminoseg.html" "adatminoseg.html"
           fetch "/design-editorial.css" "design-editorial.css"
           fetch "/ui.js" "ui.js"
+          fetch "/world.js" "world.js"
+          fetch "/data/global.json" "global.json"
+          fetch "/data/global-search-index.json" "global-search-index.json"
+          fetch "/data/global-events.json" "global-events.json"
 
           grep -Fq 'design-editorial.css?v=20261015-2' "${work}/index.html"
           grep -Fq 'assets/world-map.svg' "${work}/index.html"
@@ -55,4 +59,21 @@ jobs:
           grep -Fq 'https://wa.me/4367761655592' "${work}/ui.js"
           grep -Fq 'background:#5f6368' "${work}/design-editorial.css"
 
-          printf 'production_smoke routes=6 map=ok design=ok schema=ok footer=ok whatsapp=ok\n'
+          python - "${work}" <<'PY'
+          import json, pathlib, sys
+          root=pathlib.Path(sys.argv[1])
+          registry=json.loads((root/"global.json").read_text())
+          search=json.loads((root/"global-search-index.json").read_text())
+          events=json.loads((root/"global-events.json").read_text())
+          assert isinstance(registry.get("countries"),list) and len(registry["countries"]) >= 100, "Country registry missing or unexpectedly small"
+          assert isinstance(search.get("items"),list), "Search index missing items"
+          assert len(search["items"]) > 0, "Search index unexpectedly empty"
+          assert isinstance(events.get("events"),list), "Calendar missing events"
+          assert all(isinstance(e,dict) and e.get("name") and e.get("href") for e in events["events"]), "Invalid event cards"
+          html=(root/"index.html").read_text()
+          assert "world.js?" in html, "World application script missing"
+          js=(root/"world.js").read_text()
+          assert "function bindWorldMap" in js and "function renderOrganizations" in js, "Critical map/directory functions missing"
+          print(f"production_smoke countries={len(registry['countries'])} search_items={len(search['items'])} events={len(events['events'])}")
+          PY
+          printf 'production_smoke routes=10 map=ok design=ok schema=ok footer=ok whatsapp=ok\n'

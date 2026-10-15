@@ -437,8 +437,8 @@ function renderGlobalCalendar(){
 }
 
 function bindCalendar(){
-  $("#globalCalendarCountry")?.addEventListener("change",renderGlobalCalendar);
-  $("#globalCalendarSearch")?.addEventListener("input",renderGlobalCalendar);
+  $("#globalCalendarCountry")?.addEventListener("change",()=>{void ensureCalendar().then(()=>{if(calendarPromise)renderGlobalCalendar();});});
+  $("#globalCalendarSearch")?.addEventListener("input",()=>{void ensureCalendar().then(()=>{if(calendarPromise)renderGlobalCalendar();});});
 }
 
 function organizationItems(){
@@ -520,16 +520,30 @@ function ensureSearchIndex(){
       .then(data=>{
         searchIndex = data;
         searchIndexLoaded = true;
+        $("#organizationCount")?.removeAttribute("role");
         populateOrganizationFilters();
         renderOrganizations();
         if($("#globalSearch")?.value.trim()) renderSuggestions();
         return data;
       })
       .catch(()=>{
-        searchIndexLoaded = true;
+        searchIndexPromise = null; // Permit a subsequent focus/input to retry.
+        searchIndexLoaded = false;
         searchIndex = {items:[]};
         populateOrganizationFilters();
         renderOrganizations();
+        const count = $("#organizationCount");
+        if(count){
+          count.textContent = "A szervezetadatok nem tölthetők be. Próbáld újra a keresőmezőre kattintva.";
+          count.setAttribute("role","alert");
+        }
+        const empty = $("#organizationEmpty");
+        if(empty) empty.hidden = true;
+        const suggestions = $("#globalSearchSuggestions");
+        if(suggestions && $("#globalSearch")?.value.trim()){
+          suggestions.innerHTML = '<div class="global-search-empty" role="status">A kereső átmenetileg nem érhető el. Próbáld újra.</div>';
+          suggestions.hidden = false;
+        }
         return searchIndex;
       });
   }
@@ -542,14 +556,23 @@ function ensureCalendar(){
       .then(r=>{if(!r.ok)throw new Error("calendar-unavailable");return r.json();})
       .then(data=>{
         globalEvents = data;
+        $("#globalCalendarCount")?.removeAttribute("role");
         populateCalendarCountries();
         renderGlobalCalendar();
         return data;
       })
       .catch(()=>{
+        calendarPromise = null; // Retry on next calendar interaction.
         globalEvents={events:[]};
         populateCalendarCountries();
         renderGlobalCalendar();
+        const count = $("#globalCalendarCount");
+        if(count){
+          count.textContent = "A programnaptár nem tölthető be. Próbáld újra a szűrő használatával.";
+          count.setAttribute("role","alert");
+        }
+        const empty = $("#globalCalendarEmpty");
+        if(empty) empty.hidden = true;
         return globalEvents;
       });
   }
@@ -597,10 +620,20 @@ async function init(){
   $("#globalCalendarSearch")?.addEventListener("focus",()=>{void ensureCalendar();});
   $("#globalCalendarCountry")?.addEventListener("focus",()=>{void ensureCalendar();});
 
-  const g=await fetch("data/global.json",{cache:"no-store"}).then(r=>{
-    if(!r.ok)throw new Error("global-registry-unavailable");
-    return r.json();
-  });
+  let g;
+  try {
+    g=await fetch("data/global.json",{cache:"no-store"}).then(r=>{
+      if(!r.ok)throw new Error("global-registry-unavailable");
+      return r.json();
+    });
+  } catch (_) {
+    const status=$("#worldMapStatus");
+    if(status){
+      status.textContent="Az országadatok átmenetileg nem érhetők el. Frissítsd az oldalt a próbálkozáshoz.";
+      status.setAttribute("role","alert");
+    }
+    return;
+  }
   registry=g;
   renderCountryList();
   bindWorldMap();
