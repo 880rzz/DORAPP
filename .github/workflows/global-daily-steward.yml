@@ -55,7 +55,7 @@ concurrency:
 
 jobs:
   research:
-    if: ${{ github.event_name != 'push' || !startsWith(github.event.head_commit.message, 'chore(global): rotate diaspora research batch') }}
+    if: "${{ github.event_name != 'push' || !startsWith(github.event.head_commit.message, 'chore(global): rotate diaspora research batch') }}"
     runs-on: ubuntu-latest
     env:
       RUN_EVENT_REFRESH: ${{ (github.event_name == 'schedule' && github.event.schedule == '17 2 * * *') || github.event_name == 'workflow_dispatch' || startsWith(github.event.head_commit.message, 'test(events):') }}
