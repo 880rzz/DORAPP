@@ -1491,13 +1491,6 @@
       "categories": [
         "oktatas"
       ],
-      "affiliations": [
-        {
-          "organizationId": "kozponti-szovetseg",
-          "label": "A Központi Szövetség saját oktatási intézménye",
-          "sourceUrl": "https://www.kozpontiszovetseg.at/kapcsolat"
-        }
-      ],
       "founded": "1987",
       "history": {
         "summary": "A Bécsi Magyar Iskola 1987 szeptemberében indult strukturált magyar oktatással a Hegedűs házaspár kezdeményezésére. Az iskola azóta a bécsi magyar közösség egyik meghatározó oktatási intézményévé vált, és a magyar nyelv, irodalom, történelem és kultúra átadását közösségi és modern pedagógiai programokkal egészíti ki.",
@@ -1539,9 +1532,9 @@
         "magyar",
         "német"
       ],
-      "email": "office@magyariskola.at",
-      "phone": "+43 650 331 2090",
-      "profileVerifiedAt": "2026-09-29",
+      "email": "marketing@kozpontiszovetseg.at",
+      "phone": "+43 677 616 555 92",
+      "profileVerifiedAt": "2026-10-15",
       "evidenceSources": [
         {
           "label": "Bécsi Magyar Iskola – Rólunk",
@@ -1554,7 +1547,7 @@
           "type": "official"
         },
         {
-          "label": "Bécsi Magyar Iskola – Kapcsolat",
+          "label": "Bécsi Magyar Iskola – Kapcsolat és vezetés",
           "url": "https://www.magyariskola.at/kapcsolat",
           "type": "official"
         },
@@ -1562,6 +1555,11 @@
           "label": "Bécsi Magyar Iskola – hivatalos Facebook-közösség",
           "url": "https://www.facebook.com/groups/becsimagyariskola/",
           "type": "official-social"
+        },
+        {
+          "label": "Központi Szövetség – Bécsi Magyar Iskola",
+          "url": "https://www.kozpontiszovetseg.at/",
+          "type": "official"
         }
       ],
       "entityClass": "institution",
@@ -1595,6 +1593,33 @@
           "url": "https://www.facebook.com/groups/becsimagyariskola/",
           "kind": "facebook-community",
           "ownership": "self"
+        }
+      ],
+      "aliases": [
+        "Wiener Ungarische Schule",
+        "BMI"
+      ],
+      "parentOrganizationId": "kozponti-szovetseg",
+      "address": "Schwedenplatz 2 / bejárat: Laurenzerberg 5, 1. emelet, Top 8–9, 1010 Wien, Austria",
+      "contactUrl": "https://www.magyariskola.at/kapcsolat",
+      "people": [
+        {
+          "name": "Dr. Seidler Andrea",
+          "role": "vezetés",
+          "status": "publicly-verified",
+          "sourceUrl": "https://www.magyariskola.at/kapcsolat"
+        },
+        {
+          "name": "Bajka Csengele Kinga",
+          "role": "vezetés és oktatásszervezés",
+          "status": "publicly-verified",
+          "sourceUrl": "https://www.magyariskola.at/kapcsolat"
+        },
+        {
+          "name": "Bánhalmi Norbert",
+          "role": "kommunikáció – social media és honlap",
+          "status": "publicly-verified",
+          "sourceUrl": "https://www.magyariskola.at/kapcsolat"
         }
       ]
     },
