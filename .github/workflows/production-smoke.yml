@@ -67,7 +67,9 @@ jobs:
           events=json.loads((root/"global-events.json").read_text())
           assert isinstance(registry.get("countries"),list) and len(registry["countries"]) >= 100, "Country registry missing or unexpectedly small"
           assert isinstance(search.get("items"),list), "Search index missing items"
+          assert len(search["items"]) > 0, "Search index unexpectedly empty"
           assert isinstance(events.get("events"),list), "Calendar missing events"
+          assert all(isinstance(e,dict) and e.get("name") and e.get("href") for e in events["events"]), "Invalid event cards"
           html=(root/"index.html").read_text()
           assert "world.js?" in html, "World application script missing"
           js=(root/"world.js").read_text()
