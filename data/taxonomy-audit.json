@@ -1,12 +1,12 @@
 {
-  "updated": "2026-10-14T10:05:03.892143+00:00",
+  "updated": "2026-10-15T01:17:41.280419+00:00",
   "summary": {
     "organizations": 160,
     "organizationFlags": 2,
-    "organizationPagesChecked": 318,
+    "organizationPagesChecked": 330,
     "education": 108,
     "educationFlags": 0,
-    "events": 66,
+    "events": 70,
     "eventFlags": 0
   },
   "organizations": [
@@ -507,7 +507,6 @@
       "activityCategories": [],
       "signals": [
         "oktatas",
-        "neptanc",
         "enekkar",
         "szinhaz",
         "media",
@@ -586,7 +585,9 @@
         "cserkesz",
         "szinhaz",
         "media",
-        "irodalom"
+        "irodalom",
+        "muveszet",
+        "csalad"
       ],
       "pagesChecked": 2,
       "checkedUrls": [
@@ -665,21 +666,19 @@
       "signals": [
         "oktatas",
         "szinhaz",
+        "media",
         "egyhaz",
+        "diak",
         "irodalom",
         "sport",
         "csalad"
       ],
-      "pagesChecked": 1,
+      "pagesChecked": 2,
       "checkedUrls": [
-        "https://www.wiener-neustadt.at/index.php/de/kultur-tourismus/stadtbuecherei"
+        "https://www.wiener-neustadt.at/index.php/de/kultur-tourismus/stadtbuecherei",
+        "https://volksgruppen.orf.at/magyarok/stories/3369413/"
       ],
-      "errors": [
-        {
-          "url": "https://volksgruppen.orf.at/magyarok/stories/3369413/",
-          "error": "The read operation timed out"
-        }
-      ],
+      "errors": [],
       "flags": []
     },
     {
@@ -898,7 +897,8 @@
         "szinhaz",
         "media",
         "irodalom",
-        "muveszet"
+        "muveszet",
+        "csalad"
       ],
       "pagesChecked": 1,
       "checkedUrls": [
@@ -1010,21 +1010,19 @@
       ],
       "activityCategories": [],
       "signals": [
+        "media",
+        "egyhaz",
         "irodalom",
         "muveszet",
         "sport",
         "csalad"
       ],
-      "pagesChecked": 1,
+      "pagesChecked": 2,
       "checkedUrls": [
-        "https://www.burgenland.at/themen/wissenschaft/landesbibliothek/"
+        "https://www.burgenland.at/themen/wissenschaft/landesbibliothek/",
+        "https://volksgruppen.orf.at/magyarok/stories/3361229/"
       ],
-      "errors": [
-        {
-          "url": "https://volksgruppen.orf.at/magyarok/stories/3361229/",
-          "error": "The read operation timed out"
-        }
-      ],
+      "errors": [],
       "flags": []
     },
     {
@@ -1120,20 +1118,23 @@
       "activityCategories": [],
       "signals": [
         "oktatas",
-        "szinhaz",
         "media",
-        "irodalom",
-        "muveszet",
-        "csalad"
+        "irodalom"
       ],
-      "pagesChecked": 3,
+      "pagesChecked": 2,
       "checkedUrls": [
         "https://culture.hu/hu/wien",
-        "https://culture.hu/hu/wien/esemenyek",
         "https://culture.hu/de/wien/jubilaum"
       ],
-      "errors": [],
-      "flags": []
+      "errors": [
+        {
+          "url": "https://culture.hu/hu/wien/esemenyek",
+          "error": "The read operation timed out"
+        }
+      ],
+      "flags": [
+        "weak-source-signal:muveszet"
+      ]
     },
     {
       "id": "collegium-pazmanianum",
@@ -1420,18 +1421,15 @@
         "egyhaz",
         "diak",
         "irodalom",
-        "muveszet"
+        "muveszet",
+        "sport"
       ],
-      "pagesChecked": 1,
+      "pagesChecked": 2,
       "checkedUrls": [
+        "https://volksgruppen.orf.at/magyarok/stories/3286420/",
         "https://rolunk.at/ausztriai-magyar-egyesuletek/"
       ],
-      "errors": [
-        {
-          "url": "https://volksgruppen.orf.at/magyarok/stories/3286420/",
-          "error": "The read operation timed out"
-        }
-      ],
+      "errors": [],
       "flags": []
     },
     {
@@ -1456,17 +1454,13 @@
         "sport",
         "csalad"
       ],
-      "pagesChecked": 2,
+      "pagesChecked": 3,
       "checkedUrls": [
         "https://rolunk.at/aktualis/oszinditas-a-nezsideri-pikniken/",
-        "https://volksgruppen.orf.at/magyarok/stories/3085529/"
+        "https://volksgruppen.orf.at/magyarok/stories/3085529/",
+        "https://volksgruppen.orf.at/magyarok/stories/3370764/"
       ],
-      "errors": [
-        {
-          "url": "https://volksgruppen.orf.at/magyarok/stories/3370764/",
-          "error": "The read operation timed out"
-        }
-      ],
+      "errors": [],
       "flags": []
     },
     {
@@ -1478,9 +1472,22 @@
         "kultura"
       ],
       "activityCategories": [],
-      "signals": [],
-      "pagesChecked": 0,
-      "checkedUrls": [],
+      "signals": [
+        "oktatas",
+        "neptanc",
+        "szinhaz",
+        "media",
+        "egyhaz",
+        "diak",
+        "irodalom",
+        "muveszet"
+      ],
+      "pagesChecked": 3,
+      "checkedUrls": [
+        "https://europaclub.at/",
+        "https://europaclub.at/rolunk/europa-club-tortenete/",
+        "https://europaclub.at/de/kontakt/"
+      ],
       "errors": [],
       "flags": []
     },
@@ -1847,17 +1854,13 @@
         "sport",
         "csalad"
       ],
-      "pagesChecked": 2,
+      "pagesChecked": 3,
       "checkedUrls": [
         "https://www.burgenland.at/service/medienservice/aktuelle-meldungen/detail/lh-doskozil-haus-der-volksgruppen-setzt-meilenstein-fuer-vielfalt-und-zusammenhalt/",
+        "https://burgenland.orf.at/stories/3372614/",
         "https://www.oberwart.gv.at/stadt/termine/detail/termin/50-jahre-volksgruppengesetz-erreichtes-status-quo"
       ],
-      "errors": [
-        {
-          "url": "https://burgenland.orf.at/stories/3372614/",
-          "error": "The read operation timed out"
-        }
-      ],
+      "errors": [],
       "flags": []
     },
     {
@@ -2294,7 +2297,9 @@
         "nepzene",
         "szinhaz",
         "media",
-        "irodalom"
+        "irodalom",
+        "muveszet",
+        "csalad"
       ],
       "pagesChecked": 1,
       "checkedUrls": [
@@ -2372,6 +2377,7 @@
         "nepzene",
         "cserkesz",
         "szinhaz",
+        "media",
         "egyhaz",
         "diak",
         "irodalom",
@@ -2451,20 +2457,17 @@
         "neptanc",
         "cserkesz",
         "szinhaz",
+        "media",
+        "irodalom",
+        "sport",
         "csalad"
       ],
-      "pagesChecked": 0,
-      "checkedUrls": [],
-      "errors": [
-        {
-          "url": "https://volksgruppen.orf.at/magyarok/stories/3371860/",
-          "error": "The read operation timed out"
-        },
-        {
-          "url": "https://volksgruppen.orf.at/magyarok/stories/3282451/",
-          "error": "The read operation timed out"
-        }
+      "pagesChecked": 2,
+      "checkedUrls": [
+        "https://volksgruppen.orf.at/magyarok/stories/3371860/",
+        "https://volksgruppen.orf.at/magyarok/stories/3282451/"
       ],
+      "errors": [],
       "flags": []
     },
     {
@@ -2975,17 +2978,17 @@
       ],
       "signals": [
         "oktatas",
+        "media",
         "diak",
-        "irodalom"
+        "irodalom",
+        "sport",
+        "csalad"
       ],
-      "pagesChecked": 0,
-      "checkedUrls": [],
-      "errors": [
-        {
-          "url": "https://volksgruppen.orf.at/magyarok/stories/3353774/",
-          "error": "The read operation timed out"
-        }
+      "pagesChecked": 1,
+      "checkedUrls": [
+        "https://volksgruppen.orf.at/magyarok/stories/3353774/"
       ],
+      "errors": [],
       "flags": []
     },
     {
@@ -2998,7 +3001,6 @@
       ],
       "activityCategories": [],
       "signals": [
-        "nepzene",
         "szinhaz",
         "media",
         "muveszet",
@@ -3169,7 +3171,9 @@
         "nepzene",
         "szinhaz",
         "media",
-        "irodalom"
+        "irodalom",
+        "muveszet",
+        "csalad"
       ],
       "pagesChecked": 2,
       "checkedUrls": [
@@ -3356,17 +3360,13 @@
         "sport",
         "csalad"
       ],
-      "pagesChecked": 2,
+      "pagesChecked": 3,
       "checkedUrls": [
+        "https://volksgruppen.orf.at/magyarok/stories/3345907/",
         "https://rolunk.at/kultura/uj-rendezovel-keszul-az-idei-eloadas/",
         "https://rolunk.at/kultura/tevedesek-ejszakaja-premier-a-felsoori-szinjatszoknal/"
       ],
-      "errors": [
-        {
-          "url": "https://volksgruppen.orf.at/magyarok/stories/3345907/",
-          "error": "The read operation timed out"
-        }
-      ],
+      "errors": [],
       "flags": []
     },
     {
@@ -3769,7 +3769,9 @@
         "nepzene",
         "szinhaz",
         "media",
-        "irodalom"
+        "irodalom",
+        "muveszet",
+        "csalad"
       ],
       "pagesChecked": 1,
       "checkedUrls": [
@@ -3953,18 +3955,17 @@
       "activityCategories": [],
       "signals": [
         "oktatas",
-        "neptanc",
         "nepzene",
-        "enekkar",
-        "szinhaz",
-        "media",
         "csalad"
       ],
-      "pagesChecked": 1,
-      "checkedUrls": [
-        "https://bukv.at/kindervolksmusikgruppe-szelforgok/"
+      "pagesChecked": 0,
+      "checkedUrls": [],
+      "errors": [
+        {
+          "url": "https://bukv.at/kindervolksmusikgruppe-szelforgok/",
+          "error": "HTTP Error 404: Not Found"
+        }
       ],
-      "errors": [],
       "flags": []
     },
     {
@@ -4011,6 +4012,7 @@
         "nepzene",
         "cserkesz",
         "szinhaz",
+        "media",
         "egyhaz",
         "diak",
         "irodalom",
@@ -4037,15 +4039,17 @@
         "zene",
         "felnott"
       ],
-      "signals": [],
-      "pagesChecked": 0,
-      "checkedUrls": [],
-      "errors": [
-        {
-          "url": "https://volksgruppen.orf.at/magyarok/stories/3368141/",
-          "error": "The read operation timed out"
-        }
+      "signals": [
+        "nepzene",
+        "media",
+        "muveszet",
+        "sport"
       ],
+      "pagesChecked": 1,
+      "checkedUrls": [
+        "https://volksgruppen.orf.at/magyarok/stories/3368141/"
+      ],
+      "errors": [],
       "flags": []
     },
     {
@@ -4111,21 +4115,20 @@
       ],
       "activityCategories": [],
       "signals": [
-        "irodalom"
+        "oktatas",
+        "media",
+        "egyhaz",
+        "irodalom",
+        "muveszet",
+        "sport"
       ],
-      "pagesChecked": 1,
+      "pagesChecked": 2,
       "checkedUrls": [
-        "https://bibliothek.univie.ac.at/fb-finnougristik/"
+        "https://bibliothek.univie.ac.at/fb-finnougristik/",
+        "https://volksgruppen.orf.at/magyarok/stories/3358806/"
       ],
-      "errors": [
-        {
-          "url": "https://volksgruppen.orf.at/magyarok/stories/3358806/",
-          "error": "The read operation timed out"
-        }
-      ],
-      "flags": [
-        "weak-source-signal:oktatas"
-      ]
+      "errors": [],
+      "flags": []
     },
     {
       "id": "vhs-burgenland",
