@@ -8,9 +8,9 @@ DATA = ROOT / "data"
 GLOBAL = DATA / "global.json"
 STATE = DATA / "research-state.json"
 RUNS = DATA / "daily-runs"
-BATCH_SIZE = 8
+BATCH_SIZE = 1
 TIMEOUT = 20
-UA = "DORAPP-Global-Steward/1.0 (+https://diaszpora.kozpontiszovetseg.at/)"
+UA = "DORAPP-Global-Steward/1.0 (+https://www.diaszporaterkep.hu/)"
 
 QUERY_TEMPLATES = [
     ("hu", "\"{country}\" magyar egyesület"),
@@ -81,24 +81,31 @@ def save_json(path, data):
     path.write_text(json.dumps(data, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 
 def select_batch(countries, state):
-    eligible = [c for c in countries if c.get("iso2") != "at"]
-    ranked = sorted(
-        eligible,
-        key=lambda c: (
-            {"unresearched": 0, "researching": 1, "partial": 2, "reviewed": 3, "verified-zero": 4}.get(c.get("researchStatus"), 9),
-            c.get("lastBroadVerifiedAt") or "",
-            c["iso2"],
-        ),
-    )
-    if not ranked:
-        return []
-    cursor = int(state.get("cursor", 0)) % len(ranked)
-    batch = []
-    i = cursor
-    while len(batch) < min(BATCH_SIZE, len(ranked)):
-        batch.append(ranked[i])
-        i = (i + 1) % len(ranked)
-    state["cursor"] = i
+    # One complete discovery pass per country before starting the next cycle.
+    # The persisted visited set is stable even when country statuses change.
+    eligible = [c for c in countries if c.get("iso2")]
+    ids = {c["iso2"] for c in eligible}
+    visited = set(state.get("cycleVisited", [])) & ids
+    if ids and len(visited) == len(ids):
+        visited = set()
+        state["researchCycle"] = int(state.get("researchCycle", 1)) + 1
+    else:
+        state.setdefault("researchCycle", 1)
+
+    priority = {"unresearched": 0, "researching": 1, "partial": 2,
+                "reviewed": 3, "verified-zero": 4}
+    pending = [c for c in eligible if c["iso2"] not in visited]
+    ranked = sorted(pending, key=lambda c: (
+        priority.get(c.get("researchStatus") or "unresearched", 5),
+        c.get("lastResearchAttemptAt") or "",
+        c["iso2"],
+    ))
+    batch = ranked[:BATCH_SIZE]
+    visited.update(c["iso2"] for c in batch)
+    state["cycleVisited"] = sorted(visited)
+    state["cycleTotal"] = len(ids)
+    state["cycleProgress"] = len(visited)
+    state["cursor"] = len(visited)  # legacy diagnostic compatibility
     return batch
 
 def merge_candidates(existing, new_items, checked_at):
@@ -177,7 +184,7 @@ def main():
     save_json(GLOBAL, g)
 
     RUNS.mkdir(parents=True, exist_ok=True)
-    stamp = checked_at[:10]
+    stamp = checked_at[:13].replace("T", "-")
     save_json(RUNS / f"{stamp}-global-research.json", {
         "timestamp": checked_at,
         "countriesAttempted": attempted,
@@ -185,6 +192,9 @@ def main():
         "countriesFailed": failed,
         "discoveryCandidatesAcrossBatch": total_candidates,
         "mode": "candidate-discovery",
+        "researchCycle": state.get("researchCycle"),
+        "cycleProgress": state.get("cycleProgress"),
+        "cycleTotal": state.get("cycleTotal"),
         "publicationPolicy": "No candidate is promoted to a canonical organization without first-party verification.",
     })
     print(json.dumps({

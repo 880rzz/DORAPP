@@ -9,7 +9,7 @@ DATA=ROOT/"data"
 GLOBAL=DATA/"global.json"
 QUEUE=DATA/"verification-queue.json"
 READY=DATA/"promotion-ready.json"
-UA="DORAPP-Global-Steward/1.0 (+https://diaszpora.kozpontiszovetseg.at/)"
+UA="DORAPP-Global-Steward/1.0 (+https://www.diaszporaterkep.hu/)"
 TIMEOUT=20
 MAX_ITEMS=40
 ORG_TYPES={"Organization","EducationalOrganization","School","CollegeOrUniversity","NGO","PerformingGroup","Church","Library"}
@@ -74,9 +74,12 @@ def country_match(address_country,iso,names,text):
     values={norm(iso),norm(iso.upper())}
     for v in names.values():
         if isinstance(v,str): values.add(norm(v))
-    if ac and any(ac==v or ac in v or v in ac for v in values if v):
-        return True
-    return any(v and len(v)>3 and v in text for v in values)
+    # A declared addressCountry must match exactly; surrounding article text
+    # cannot override contradictory structured location evidence.
+    if ac:
+        return ac in values
+    normalized_text=norm(text)
+    return any(v and len(v)>3 and v in normalized_text for v in values)
 
 def identity_tokens(title):
     stop={"hungarian","magyar","association","community","school","church","club","society","of","the","in","and","egyesulet","kozosseg","iskola"}
