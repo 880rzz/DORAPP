@@ -106,6 +106,27 @@ await country.waitForFunction(()=>document.querySelector(".country-map-viewport"
 report.interactions.countryMapZoom=await country.locator(".country-map-viewport").evaluate(element=>element.classList.contains("is-zoomed"));
 await country.close();
 
+// Verify that transient API failures are not represented as genuine empty results.
+const failurePage=await context.newPage();
+await failurePage.route("**/data/global-search-index.json",route=>route.abort());
+await failurePage.goto(base+"/index.html",{waitUntil:"networkidle"});
+await failurePage.locator("#organizationSearch").fill("próba");
+await failurePage.waitForFunction(()=>document.querySelector("#organizationCount")?.textContent?.includes("nem tölthetők be"));
+report.interactions.directoryFetchErrorVisible=await failurePage.locator("#organizationCount").textContent().then(x=>x.includes("Próbáld újra"));
+await failurePage.unroute("**/data/global-search-index.json");
+await failurePage.locator("#organizationSearch").fill("Ausztria");
+await failurePage.waitForFunction(()=>!document.querySelector("#organizationCount")?.textContent?.includes("nem tölthetők be"));
+report.interactions.directoryFetchRetry=!(await failurePage.locator("#organizationCount").textContent()).includes("nem tölthetők be");
+await failurePage.route("**/data/global-events.json",route=>route.abort());
+await failurePage.locator("#globalCalendarSearch").fill("próba");
+await failurePage.waitForFunction(()=>document.querySelector("#globalCalendarCount")?.textContent?.includes("nem tölthető be"));
+report.interactions.calendarFetchErrorVisible=(await failurePage.locator("#globalCalendarCount").textContent()).includes("Próbáld újra");
+await failurePage.unroute("**/data/global-events.json");
+await failurePage.locator("#globalCalendarSearch").fill("");
+await failurePage.waitForFunction(()=>!document.querySelector("#globalCalendarCount")?.textContent?.includes("nem tölthető be"));
+report.interactions.calendarFetchRetry=!(await failurePage.locator("#globalCalendarCount").textContent()).includes("nem tölthető be");
+await failurePage.close();
+
 const consentContext=await browser.newContext();
 const consentPage=await consentContext.newPage();
 const analyticsRequests=[];
