@@ -489,7 +489,7 @@ function renderOrganizations(resetLimit = false){
   }
   root.innerHTML = visible.map(item => {
     const meta = [shortCountryLabel(item),item.city,organizationType(item)].filter(Boolean).join(" · ");
-    return '<article class="global-organization-row"><div class="global-organization-copy"><div class="global-organization-meta">'+esc(meta)+'</div><h3><a href="'+esc(item.href)+'">'+esc(item.label)+'</a></h3>'+(item.summary?'<p>'+esc(item.summary)+'</p>':'')+'</div><a class="global-organization-link" href="'+esc(item.href)+'" aria-label="'+esc(item.label)+' adatlapja">Adatlap <span aria-hidden="true">→</span></a></article>';
+    return '<article class="global-organization-row"><div class="global-organization-copy"><div class="global-organization-meta">'+esc(meta)+'</div><h3><a href="'+esc(item.href)+'">'+esc(item.label)+'</a></h3>'+(item.summary?'<p>'+esc(item.summary)+'</p>':'')+'</div><a class="global-organization-link" href="'+esc(item.href)+'" aria-label="Adatlap – '+esc(item.label)+'">Adatlap <span aria-hidden="true">→</span></a></article>';
   }).join("");
 }
 
@@ -540,4 +540,4 @@ async function init(){
   renderGlobalCalendar();
 }
 
-init();
+requestAnimationFrame(()=>requestAnimationFrame(init));
