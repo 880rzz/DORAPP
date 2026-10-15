@@ -10,7 +10,7 @@ h1,h2,h3,h4,.brand{letter-spacing:0}
 .brand{font-weight:700}.mark{border-color:#ccd4dc;color:var(--accent);background:#f2f6f8}
 .topbar nav{gap:22px}.topbar nav a{font-size:.875rem;color:#4b4b50}.topbar nav a:hover{color:var(--accent)}
 .eyebrow{color:var(--accent);font-size:.75rem;letter-spacing:0;font-weight:700}
-.hero{padding:72px 0 64px;border-bottom:1px solid var(--line)}body[data-country] .hero{contain:layout paint style}.hero .wrap{max-width:var(--max)}
+.hero{padding:72px 0 64px;border-bottom:1px solid var(--line)}body[data-country] .hero{contain:layout paint style}body[data-country] .hero h1{text-wrap:wrap}.hero .wrap{max-width:var(--max)}
 .hero h1{max-width:960px;margin:14px 0 18px;font-size:3rem;line-height:1.1;font-weight:700;text-wrap:balance}.hero h1 span{color:var(--accent)}
 .lead{max-width:820px;color:var(--muted);font-size:1.2rem;line-height:1.6}.hero-proof,.hero-note{max-width:820px;color:var(--muted);line-height:1.6}.hero-actions{gap:10px;margin-top:28px}
 .btn,.text-btn,.organization-more,.directory-reset{min-height:44px;border-radius:var(--radius);border-color:#cfd1d4;font-weight:650}
