@@ -99,7 +99,10 @@ jobs:
         if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
         run: python scripts/audit_global_press_sources.py
 
-      - name: Enforce verified-zero evidence gate\n        run: python scripts/validate_verified_zero.py\n\n      - name: Audit canonical source health
+      - name: Enforce verified-zero evidence gate
+        run: python scripts/validate_verified_zero.py
+
+      - name: Audit canonical source health
         run: python scripts/audit_global_source_health.py
 
       - name: Rebuild global compatibility and validate
