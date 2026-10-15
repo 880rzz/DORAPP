@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-import json, html
+import json, html, unicodedata
 from pathlib import Path
 import pycountry
 
@@ -16,6 +16,26 @@ def read(path, default):
 
 def esc(value):
     return html.escape(str(value or ""), quote=True)
+
+def normalized(value):
+    text=unicodedata.normalize("NFKD",str(value or "")).encode("ascii","ignore").decode("ascii").lower()
+    return " ".join(text.replace("_"," ").replace("-"," ").split())
+
+def human_type(value):
+    raw=str(value or "").strip()
+    key=normalized(raw)
+    rules=(
+        (("egyhaz","church","parish","mission"),"Egyház"),
+        (("cserkesz","scout"),"Cserkészet"),
+        (("media","radio","newspaper","magazine"),"Média"),
+        (("neptanc","folk dance","hagyomany"),"Hagyományőrzés"),
+        (("iskola","school","education","ovoda","kindergarten","bolcsode","university"),"Oktatás"),
+        (("kultura","cultural","theatre","szinhaz","music","zene","choir","enekkar"),"Kultúra"),
+        (("business","professional","kamara","gazdasag"),"Szakmai / gazdasági"),
+    )
+    for needles,label in rules:
+        if any(needle in key for needle in needles): return label
+    return "Közösség" if raw else "Szervezet"
 
 def country_data(iso):
     base = DATA / "countries" / iso
@@ -106,7 +126,7 @@ def org_cards(orgs, names):
             calendar_note=f'<p class="site-status"><strong>Programforrás:</strong> {len(calendars)} ellenőrzött forrás' + (f' · {auto} automatikus' if auto else '') + '</p>'
         return (
             f'<article class="card country-org-card" data-org-id="{esc(o.get("id"))}" data-region="{esc(region_key(o))}">'
-            f'<div class="meta">{esc(region_label(region_key(o),names))} · {esc(o.get("city") or "országos")} · {esc(o.get("type") or "szervezet")}</div>'
+            f'<div class="meta" title="{esc(o.get("type") or "szervezet")}">{esc(region_label(region_key(o),names))} · {esc(o.get("city") or "országos")} · {esc(human_type(o.get("type")))}</div>'
             f'<h3>{esc(o.get("name"))}</h3>'
             f'<p>{esc(o.get("summary") or o.get("intro") or "Ellenőrzött magyar diaszpóra-szervezet.")}</p>'
             f'{calendar_note}<div class="links"><a href="organizations/{esc(o.get("id"))}.html">Teljes adatlap →</a>{"".join(socials[:3])}</div>'
@@ -117,7 +137,7 @@ def org_cards(orgs, names):
 def edu_cards(edus, names):
     rows=[e for e in edus if e.get("id") and e.get("name")]
     return '<div id="countryEducationGrid" class="cards">'+"".join(
-        f'<article class="card" data-region="{esc(region_key(e))}"><div class="meta">{esc(region_label(region_key(e),names))} · {esc(e.get("city") or "")} · {esc(e.get("type") or "oktatás")}</div><h3>{esc(e.get("name"))}</h3><p>{esc(e.get("summary") or e.get("intro") or "Magyar oktatási lehetőség.")}</p><div class="links"><a href="education/{esc(e.get("id"))}.html">Teljes adatlap →</a>{(f"""<a href="{esc(e.get("website"))}" target="_blank" rel="noopener external">Weboldal ↗</a>""" if e.get("website") else "")}</div></article>'
+        f'<article class="card" data-region="{esc(region_key(e))}"><div class="meta" title="{esc(e.get("type") or "oktatás")}">{esc(region_label(region_key(e),names))} · {esc(e.get("city") or "")} · Oktatás</div><h3>{esc(e.get("name"))}</h3><p>{esc(e.get("summary") or e.get("intro") or "Magyar oktatási lehetőség.")}</p><div class="links"><a href="education/{esc(e.get("id"))}.html">Teljes adatlap →</a>{(f"""<a href="{esc(e.get("website"))}" target="_blank" rel="noopener external">Weboldal ↗</a>""" if e.get("website") else "")}</div></article>'
         for e in sorted(rows,key=lambda x:str(x.get("name","")).casefold())
     )+'</div><div id="countryEducationEmpty" class="empty" hidden>Nincs a szűrésnek megfelelő oktatási rekord.</div>'
 

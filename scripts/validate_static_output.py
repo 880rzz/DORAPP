@@ -125,7 +125,35 @@ for country in globaldb.get("countries",[]):
         except Exception as ex:
             errors.append(f"invalid global organization profile schema: {iso}/{item['id']} -> {ex}")
 
-for p in ("llms.txt","ai.txt","ai-entry.json","entity.jsonld","robots.txt","sitemap.xml","forrasok.html","adatminoseg.html","ui.js","world.js","country.js","data/global-search-index.json","data/global-events.json"):
+for country in globaldb.get("countries",[]):
+    iso=country["iso2"]
+    edu_path=ROOT/"data"/"countries"/iso/"education.json"
+    if not edu_path.exists(): continue
+    edoc=json.loads(edu_path.read_text(encoding="utf-8"))
+    for item in edoc.get("institutions",edoc.get("education",edoc.get("items",[]))):
+        if not item.get("id"): continue
+        profile=ROOT/"countries"/iso/"education"/f"{item['id']}.html"
+        if not profile.exists():
+            errors.append(f"missing global education profile: {iso}/{item['id']}")
+            continue
+        profile_text=profile.read_text(encoding="utf-8")
+        for token in ("Források és ellenőrzés",'name="author"','rel="alternate"',"ui.js"):
+            if token not in profile_text:
+                errors.append(f"rich education profile layer missing ({token}): {iso}/{item['id']}")
+        blocks=re.findall(r'<script type="application/ld\+json">(.*?)</script>',profile_text,re.S)
+        try:
+            payload=json.loads(blocks[0].replace("<\\/","</"))
+            graph=payload.get("@graph",[])
+            page=next(x for x in graph if x.get("@type")=="ProfilePage")
+            entity=next(x for x in graph if x.get("@type")=="EducationalOrganization")
+            if not page.get("publisher") or not page.get("dateModified") or page.get("inLanguage")!="hu":
+                errors.append(f"education profile E-E-A-T schema incomplete: {iso}/{item['id']}")
+            if not entity.get("areaServed") or not entity.get("mainEntityOfPage"):
+                errors.append(f"education entity schema incomplete: {iso}/{item['id']}")
+        except Exception as ex:
+            errors.append(f"invalid global education profile schema: {iso}/{item['id']} -> {ex}")
+
+for p in ("llms.txt","ai.txt","ai-entry.json","entity.jsonld","robots.txt","sitemap.xml","forrasok.html","adatminoseg.html","ui.js","world.js","country.js","data/global-search-index.json","data/global-events.json","data/human-language-audit.json","data/ecosystem-quality-audit.json","docs/content-ui-policy.md"):
     if not (ROOT/p).exists(): errors.append(f"missing trust/search artifact: {p}")
 
 registry_country_ids={c.get("iso2") for c in globaldb.get("countries",[]) if c.get("iso2")}
@@ -151,10 +179,13 @@ for item in directory_items:
         errors.append(f"homepage organization search item incomplete: {item.get('country')}/{item.get('id')}")
 
 quality_text=(ROOT/"adatminoseg.html").read_text(encoding="utf-8")
+for token in ('href="./#terkep"','href="./#szervezetek"','href="./#programok"'):
+    if token not in quality_text:
+        errors.append(f"data-quality navigation target missing: {token}")
 quality_expectations=(
-    (f'<strong>{len(org.get("organizations",[]))}</strong> összes entitás', "organization count"),
-    (f'<strong>{len(edu.get("institutions",[]))}</strong> oktatási rekord', "education count"),
-    (f'<strong>{len(ev.get("events",[]))}</strong> nyilvántartott, forrással rendelkező esemény', "event count"),
+    (f'<strong>{len(org.get("organizations",[]))}</strong> nyilvántartott közösség és intézmény', "organization count"),
+    (f'<strong>{len(edu.get("institutions",[]))}</strong> oktatási lehetőség', "education count"),
+    (f'<strong>{len(ev.get("events",[]))}</strong> forrással rendelkező program', "event count"),
     (f'Szervezeti adat frissítve: {org.get("updated")}', "organization timestamp"),
     (f'Oktatási adat frissítve: {edu.get("updated")}', "education timestamp"),
     (f'Eseményadat frissítve: {ev.get("updated")}', "event timestamp"),
@@ -196,6 +227,17 @@ if '"#szervezetek":"countries/at/' in world_js:
     errors.append("homepage organization anchor is shadowed by legacy Austria redirect")
 for token in ('addEventListener("load", decorateMap)', 'contentDocument?.readyState === "complete"', "decorateMap();"):
     if token not in world_js: errors.append(f"world map cached-SVG paint regression: missing {token}")
+
+styles=(ROOT/"styles.css").read_text(encoding="utf-8")
+for token in ("grid-auto-rows:1fr","-webkit-line-clamp:2","text-overflow:ellipsis","overflow-wrap:anywhere"):
+    if token not in styles: errors.append(f"equal-cell/overflow policy missing from CSS: {token}")
+
+human_audit=json.loads((ROOT/"data/human-language-audit.json").read_text(encoding="utf-8"))
+if human_audit.get("findings"):
+    errors.append(f"human-language audit still has {len(human_audit['findings'])} finding(s)")
+ecosystem_audit=json.loads((ROOT/"data/ecosystem-quality-audit.json").read_text(encoding="utf-8"))
+if ecosystem_audit.get("blockingIssues"):
+    errors.append(f"ecosystem-quality audit still has {len(ecosystem_audit['blockingIssues'])} blocking issue(s)")
 
 country_js = (ROOT / "country.js").read_text(encoding="utf-8")
 for token in ("pointerdown", "pointermove", "pointerup", "pointercancel", "setPointerCapture", "scale", "translate3d", "data-country-map-reset", "clamp"):

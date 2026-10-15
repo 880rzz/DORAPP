@@ -10,6 +10,7 @@ EDU=json.loads((ROOT/"data/education.json").read_text(encoding="utf-8"))
 EV=json.loads((ROOT/"data/events.json").read_text(encoding="utf-8"))
 SOURCE_HEALTH=json.loads((ROOT/"data/source-health.json").read_text(encoding="utf-8")) if (ROOT/"data/source-health.json").exists() else {"sources":[]}
 EDU_HEALTH=json.loads((ROOT/"data/education-site-health.json").read_text(encoding="utf-8")) if (ROOT/"data/education-site-health.json").exists() else {"sites":[]}
+LINK_AUDIT=json.loads((ROOT/"data/link-audit.json").read_text(encoding="utf-8")) if (ROOT/"data/link-audit.json").exists() else {}
 
 ORG_DIR=ROOT/"szervezetek"
 EVENT_DIR=ROOT/"esemenyek"
@@ -52,6 +53,7 @@ def footer(prefix="../"):
     </div></footer>'''
 
 def shell(title,description,canonical,body,schema,prefix="../"):
+    home=prefix or "./"
     return f'''<!doctype html><html lang="hu-AT"><head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <link rel="icon" href="https://diaszpora.kozpontiszovetseg.at/favicon.svg" type="image/svg+xml"><title>{esc(title)}</title><meta name="description" content="{esc(description)}">
@@ -62,7 +64,7 @@ def shell(title,description,canonical,body,schema,prefix="../"):
 <link rel="stylesheet" href="{prefix}styles.css">
 <script type="application/ld+json">{jsonld(schema)}</script></head><body>
 <a class="skip" href="#main">Ugrás a tartalomhoz</a>
-<header class="topbar"><div class="wrap navrow"><a class="brand" href="{prefix}"><span class="mark">AT×HU</span><span>Magyar Programok Ausztriában</span></a><nav><a href="{prefix}#terkep">Térkép</a><a href="{prefix}#szervezetek">Közösségek</a><a href="{prefix}#oktatas">Oktatás</a><a href="{prefix}#naptar">Programok</a></nav></div></header>
+<header class="topbar"><div class="wrap navrow"><a class="brand" href="{home}"><span class="mark">AT×HU</span><span>Magyar Programok Ausztriában</span></a><nav><a href="{home}#terkep">Térkép</a><a href="{home}#szervezetek">Közösségek</a><a href="{home}#oktatas">Oktatás</a><a href="{home}#naptar">Programok</a></nav></div></header>
 <main id="main">{body}</main>{footer(prefix)}<script src="{prefix}ui.js?v=20260926-consent-nav" defer></script></body></html>'''
 
 def place_schema(e):
@@ -203,6 +205,14 @@ def status_counts(rows):
         out[k]=out.get(k,0)+1
     return out
 
+def status_label(value):
+    return {
+      "ok":"rendben","ok-events":"eseményt talált","ok-no-structured-event":"elérhető, nincs új strukturált esemény",
+      "network-error":"hálózati hiba","no-website":"nincs külön honlap","reachable-no-relevant-keywords":"elérhető, a kulcsszó nem található",
+      "relevant-content-found":"igazolt tartalom","site-blocked":"a forrás blokkolta az ellenőrzést","tls-error":"titkosítási hiba",
+      "timeout":"időtúllépés","rate-limited":"lekérési korlátozás","not-found":"nem található"
+    }.get(value,value.replace("-"," "))
+
 event_health=status_counts(SOURCE_HEALTH.get("sources",[]))
 edu_health=status_counts(EDU_HEALTH.get("sites",[]))
 quality_url=BASE+"/adatminoseg.html"
@@ -212,13 +222,16 @@ quality_schema={"@context":"https://schema.org","@graph":[
   {"@type":"DataCatalog","@id":quality_url+"#catalog","name":"DORAPP – Ausztriai magyar közösségi adatbázis","url":BASE+"/","description":quality_desc,"provider":{"@id":BASE+"/#publisher"},"dataset":{"@id":BASE+"/#dataset"},"dateModified":DATA_MODIFIED},
   PUBLISHER
 ]}
-event_rows="".join(f'<li><strong>{esc(k)}</strong>: {v}</li>' for k,v in sorted(event_health.items()))
-edu_rows="".join(f'<li><strong>{esc(k)}</strong>: {v}</li>' for k,v in sorted(edu_health.items()))
-quality_body=f'''<section class="hero"><div class="wrap"><div class="eyebrow">Transzparencia · E‑E‑A‑T · AI Trust</div><h1>Adatminőség és frissesség.</h1><p class="lead">{esc(quality_desc)}</p></div></section>
-<section class="section"><div class="wrap trust-grid"><div><h2>Aktuális lefedettség</h2></div><div><p><strong>{len(orgs)}</strong> összes entitás<br><strong>{len(hungarian_entities)}</strong> magyar oldali entitás<br><strong>{len(community_entities)}</strong> közösség / programgazda<br><strong>{len(activities)}</strong> rendszeres activity rekord<br><strong>{len(host_institutions)}</strong> osztrák fogadóintézmény igazolt magyar szolgáltatással<br><strong>{len(education)}</strong> oktatási rekord<br><strong>{len(events)}</strong> nyilvántartott, forrással rendelkező esemény<br><strong>{len(states)}</strong> osztrák tartomány</p><p>Szervezeti adat frissítve: {esc(ORG.get("updated"))}<br>Oktatási adat frissítve: {esc(EDU.get("updated"))}<br>Eseményadat frissítve: {esc(EV.get("updated"))}</p></div></div></section>
+event_rows="".join(f'<li><strong>{esc(status_label(k))}</strong>: {v}</li>' for k,v in sorted(event_health.items()))
+edu_rows="".join(f'<li><strong>{esc(status_label(k))}</strong>: {v}</li>' for k,v in sorted(edu_health.items()))
+link_counts=LINK_AUDIT.get("externalStatusCounts",{})
+link_rows="".join(f'<li><strong>{esc(status_label(k))}</strong>: {v}</li>' for k,v in sorted(link_counts.items())) or '<li>A teljes külső linkaudit még nem futott le.</li>'
+quality_body=f'''<section class="hero"><div class="wrap"><div class="eyebrow">Átlátható adatkezelés</div><h1>Adatminőség és frissesség</h1><p class="lead">{esc(quality_desc)}</p></div></section>
+<section class="section"><div class="wrap trust-grid"><div><h2>Aktuális lefedettség</h2></div><div><p><strong>{len(orgs)}</strong> nyilvántartott közösség és intézmény<br><strong>{len(hungarian_entities)}</strong> magyar szervezet vagy közösség<br><strong>{len(community_entities)}</strong> közösség vagy programszervező<br><strong>{len(activities)}</strong> rendszeres közösségi program<br><strong>{len(host_institutions)}</strong> osztrák intézmény igazolt magyar szolgáltatással<br><strong>{len(education)}</strong> oktatási lehetőség<br><strong>{len(events)}</strong> forrással rendelkező program<br><strong>{len(states)}</strong> osztrák tartomány</p><p>Szervezeti adat frissítve: {esc(ORG.get("updated"))}<br>Oktatási adat frissítve: {esc(EDU.get("updated"))}<br>Eseményadat frissítve: {esc(EV.get("updated"))}</p></div></div></section>
 <section class="section muted"><div class="wrap trust-grid"><div><h2>Eseményforrás-audit</h2></div><div><ul class="source-list">{event_rows}</ul><p>A technikai hiba nem jelenti automatikusan azt, hogy a forrás vagy a szervezet megszűnt. 403/429, TLS-, DNS- és timeout-hibát külön technikai állapotként kezelünk.</p></div></div></section>
 <section class="section"><div class="wrap trust-grid"><div><h2>Oktatási webaudit</h2></div><div><ul class="source-list">{edu_rows}</ul><p>A saját honlapon nem talált kulcsszó nem írja felül az intézményi, hatósági vagy közszolgálati forrásból igazolt magyar oktatást.</p></div></div></section>
-<section class="section muted"><div class="wrap trust-grid"><div><h2>Szerkesztési elv</h2></div><div><p>Hiányzó történeti, tagsági, kapcsolati vagy eseményadatot nem következtetünk. A strukturált profilmezők steward‑ellenőrzéssel, forrás alapján bővülnek; az automata esemény- és sajtófelderítés nem írhatja felül ezeket. A host-institution rekord nem magyar szervezetet jelent: csak olyan osztrák intézmény kaphat ilyen besorolást, ahol a magyar szolgáltatás, gyűjtemény vagy képzés konkrét forrással igazolt.</p><p><a href="forrasok.html">Teljes módszertan →</a><br><a href="mailto:marketing@kozpontiszovetseg.at">Hibajelentés / korrekció →</a></p></div></div></section>'''
+<section class="section muted"><div class="wrap trust-grid"><div><h2>Hivatkozások állapota</h2></div><div><p><strong>{LINK_AUDIT.get("internalLinksChecked",0)}</strong> belső hivatkozás ellenőrizve · <strong>{len(LINK_AUDIT.get("internalErrors",[]))}</strong> belső hiba</p><ul class="source-list">{link_rows}</ul><p>A külső oldal technikai hibája ellenőrzendő tétel, nem bizonyíték a szervezet megszűnésére.</p></div></div></section>
+<section class="section"><div class="wrap trust-grid"><div><h2>Szerkesztési elv</h2></div><div><p>Hiányzó történeti, tagsági, kapcsolati vagy eseményadatot nem találunk ki. A szervezeti adatlapokat szerkesztői ellenőrzéssel, nyilvános források alapján bővítjük. Az automatikus esemény- és sajtókeresés nem írhatja felül az ellenőrzött adatokat. Az osztrák fogadóintézmény külön jelölést kap: ez azt jelenti, hogy az intézmény igazolt magyar szolgáltatást, gyűjteményt vagy képzést kínál, nem pedig azt, hogy magyar szervezet.</p><p><a href="forrasok.html">Teljes módszertan →</a><br><a href="mailto:marketing@kozpontiszovetseg.at">Hibajelentés / korrekció →</a></p></div></div></section>'''
 (ROOT/"adatminoseg.html").write_text(shell("DORAPP adatminőség és transzparencia",quality_desc,quality_url,quality_body,quality_schema,prefix=""),encoding="utf-8")
 
 print(f"events={len(events)} states={len(states)} categories={len(categories)} entity=1 ai_entry=1 quality=1")

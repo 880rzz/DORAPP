@@ -28,12 +28,17 @@ on:
       - "scripts/validate_directory.py"
       - "scripts/validate_static_output.py"
       - "scripts/audit_global_source_health.py"
+      - "scripts/audit_site_links.py"
+      - "scripts/audit_human_language.py"
+      - "scripts/audit_ecosystem_quality.py"
       - "scripts/update_country_events.py"
       - "scripts/update_events.py"
       - "app.js"
       - "world.js"
       - "country.js"
       - "ui.js"
+      - "styles.css"
+      - "docs/content-ui-policy.md"
 
 permissions:
   contents: write
@@ -98,6 +103,11 @@ jobs:
           python scripts/generate_global_event_profiles.py
           python scripts/generate_reference_pages.py
           python scripts/generate_sitemap.py
+          python scripts/audit_site_links.py --check-external
+          python scripts/generate_reference_pages.py
+          python scripts/audit_site_links.py --no-write
+          python scripts/audit_human_language.py
+          python scripts/audit_ecosystem_quality.py
           python scripts/validate_global.py
           node --check app.js
           node --check world.js
@@ -108,13 +118,13 @@ jobs:
 
       - name: Commit material changes safely
         run: |
-          if [ -z "$(git status --porcelain -- data/global.json data/research-state.json data/verification-queue.json data/promotion-ready.json data/daily-runs data/countries data/global-search-index.json data/global-events.json countries assets/maps sitemap.xml esemenyek tartomanyok kategoriak entity.jsonld ai-entry.json adatminoseg.html)" ]; then
+          if [ -z "$(git status --porcelain -- data/global.json data/research-state.json data/verification-queue.json data/promotion-ready.json data/daily-runs data/countries data/global-search-index.json data/global-events.json data/link-audit.json data/human-language-audit.json data/ecosystem-quality-audit.json countries assets/maps sitemap.xml esemenyek tartomanyok kategoriak entity.jsonld ai-entry.json adatminoseg.html)" ]; then
             echo "No material global research changes"
             exit 0
           fi
           git config user.name "dorapp-global-steward[bot]"
           git config user.email "actions@users.noreply.github.com"
-          git add data/global.json data/research-state.json data/verification-queue.json data/promotion-ready.json data/daily-runs data/countries data/global-search-index.json data/global-events.json countries assets/maps sitemap.xml esemenyek tartomanyok kategoriak entity.jsonld ai-entry.json adatminoseg.html
+          git add data/global.json data/research-state.json data/verification-queue.json data/promotion-ready.json data/daily-runs data/countries data/global-search-index.json data/global-events.json data/link-audit.json data/human-language-audit.json data/ecosystem-quality-audit.json countries assets/maps sitemap.xml esemenyek tartomanyok kategoriak entity.jsonld ai-entry.json adatminoseg.html
           git commit -m "chore(global): rotate diaspora research batch"
           for attempt in 1 2 3; do
             if git push origin HEAD:main; then
@@ -142,6 +152,11 @@ jobs:
             python scripts/generate_global_event_profiles.py
             python scripts/generate_reference_pages.py
             python scripts/generate_sitemap.py
+            python scripts/audit_site_links.py --check-external
+            python scripts/generate_reference_pages.py
+            python scripts/audit_site_links.py --no-write
+            python scripts/audit_human_language.py
+            python scripts/audit_ecosystem_quality.py
             python scripts/validate_global.py
             node --check app.js
             node --check world.js
@@ -149,7 +164,7 @@ jobs:
             node --check ui.js
             python scripts/validate_directory.py
             python scripts/validate_static_output.py
-            git add data/global.json data/research-state.json data/verification-queue.json data/promotion-ready.json data/daily-runs data/countries data/global-search-index.json data/global-events.json countries assets/maps sitemap.xml esemenyek tartomanyok kategoriak entity.jsonld ai-entry.json adatminoseg.html
+            git add data/global.json data/research-state.json data/verification-queue.json data/promotion-ready.json data/daily-runs data/countries data/global-search-index.json data/global-events.json data/link-audit.json data/human-language-audit.json data/ecosystem-quality-audit.json countries assets/maps sitemap.xml esemenyek tartomanyok kategoriak entity.jsonld ai-entry.json adatminoseg.html
             if git diff --cached --quiet; then
               echo "No material global changes remain after rebuild"
               exit 0

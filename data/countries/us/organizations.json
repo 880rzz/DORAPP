@@ -1,7 +1,142 @@
 {
-  "updated": "2026-10-01",
+  "updated": "2026-10-15",
   "sourcePolicy": "United States country dataset. Prefer first-party official sites, Hungarian diplomatic mission directories and current umbrella/member directories. The United States is researched in national plus regional/state batches; partial coverage is never presented as complete.",
   "organizations": [
+    {
+      "id": "tulipan-foundation-new-york",
+      "name": "Tulipán Foundation",
+      "country": "us",
+      "region": "New York",
+      "city": "New York",
+      "type": "Hungarian cultural foundation",
+      "entityClass": "organization",
+      "website": "https://www.tulipanfoundationnyc.org/en",
+      "address": "1065 Madison Ave, New York, NY 10028",
+      "intro": "New York-i nonprofit kulturális alapítvány, amely magyar alkotókat, kulturális programokat, közösségi kezdeményezéseket és művészeti rezidenciákat támogat. Új kulturális központja 2027 tavaszára készül.",
+      "activities": [
+        "magyar kultúra",
+        "művészeti programok",
+        "családi események",
+        "alkotói támogatás",
+        "közösségi kezdeményezések"
+      ],
+      "profileVerifiedAt": "2026-10-15",
+      "evidenceSources": [
+        {
+          "label": "Tulipán Foundation – hivatalos oldal",
+          "url": "https://www.tulipanfoundationnyc.org/en",
+          "type": "official"
+        },
+        {
+          "label": "Hungarian American Coalition – tagszervezetek",
+          "url": "https://hacusa.org/member-organizations/",
+          "type": "official-umbrella"
+        }
+      ],
+      "calendarSources": [
+        {
+          "label": "Tulipán – programok",
+          "url": "https://www.tulipanfoundationnyc.org/en/events",
+          "ingestEvents": false
+        }
+      ]
+    },
+    {
+      "id": "creative-cultural-exchange",
+      "name": "Creative Cultural Exchange Inc.",
+      "country": "us",
+      "scope": "national",
+      "region": "Minnesota",
+      "type": "Hungarian-American cultural exchange nonprofit",
+      "entityClass": "organization",
+      "facebook": "https://www.facebook.com/CreativeCulturalExchange/",
+      "email": "creativeculturalexchange@gmail.com",
+      "intro": "Amerikai nonprofit szervezet, amely Magyarország és az Egyesült Államok közötti kulturális párbeszédet programokkal, szakmai műhelyekkel, tanulmányi lehetőségekkel és közösségi kezdeményezésekkel segíti.",
+      "activities": [
+        "kulturális csere",
+        "közösségi programok",
+        "szakmai műhelyek",
+        "tanulmányi programok"
+      ],
+      "profileVerifiedAt": "2026-10-15",
+      "evidenceSources": [
+        {
+          "label": "Hungarian American Coalition – Creative Cultural Exchange adatlap",
+          "url": "https://hacusa.org/creative-cultural-exchange-inc/",
+          "type": "official-umbrella"
+        },
+        {
+          "label": "Creative Cultural Exchange – hivatalos Facebook-oldal",
+          "url": "https://www.facebook.com/CreativeCulturalExchange/",
+          "type": "official-social"
+        }
+      ],
+      "calendarSources": []
+    },
+    {
+      "id": "magyar-club-dayton-sw-ohio",
+      "name": "Magyar Club of Dayton and SW Ohio",
+      "country": "us",
+      "region": "Ohio",
+      "city": "Englewood",
+      "type": "Hungarian cultural and community club",
+      "entityClass": "organization",
+      "website": "http://www.magyarclubofdayton.org/",
+      "email": "MagyarClubOfDayton@gmail.com",
+      "address": "P.O. Box 63, Englewood, OH 45322",
+      "intro": "Dayton és Délnyugat-Ohio magyar közösségi klubja, amely a magyar művészetet, irodalmat, zenét és kultúrát közösségi alkalmakon, előadásokon és rendezvényeken mutatja be.",
+      "activities": [
+        "közösségi programok",
+        "magyar kultúra",
+        "előadások",
+        "kiállítások",
+        "zenei rendezvények"
+      ],
+      "profileVerifiedAt": "2026-10-15",
+      "evidenceSources": [
+        {
+          "label": "Hungarian American Coalition – Dayton magyar klub adatlap",
+          "url": "https://hacusa.org/member-organizations/magyar-hungarian-club-of-dayton-and-sw-ohio/",
+          "type": "official-umbrella"
+        },
+        {
+          "label": "City of Dayton – közösségi szervezetek",
+          "url": "https://www.daytonohio.gov/1012/Immigrant-Community-Associations-Contact",
+          "type": "government"
+        }
+      ],
+      "calendarSources": []
+    },
+    {
+      "id": "hungarian-american-chamber-commerce-ohio",
+      "name": "Hungarian American Chamber of Commerce of Ohio",
+      "country": "us",
+      "scope": "statewide",
+      "region": "Ohio",
+      "type": "Hungarian-American business chamber",
+      "entityClass": "organization",
+      "website": "https://haccohio.org/",
+      "intro": "Ohiói nonprofit szakmai szervezet, amely magyar és amerikai vállalkozások, szakemberek és üzleti közösségek kapcsolatépítését és együttműködését segíti.",
+      "activities": [
+        "üzleti kapcsolatépítés",
+        "szakmai közösség",
+        "magyar–amerikai gazdasági kapcsolatok"
+      ],
+      "profileVerifiedAt": "2026-10-15",
+      "evidenceSources": [
+        {
+          "label": "Hungarian American Chamber of Commerce of Ohio – hivatalos oldal",
+          "url": "https://haccohio.org/",
+          "type": "official"
+        },
+        {
+          "label": "Hungarian American Coalition – tagszervezetek",
+          "url": "https://hacusa.org/member-organizations/",
+          "type": "official-umbrella"
+        }
+      ],
+      "calendarSources": []
+    },
     {
       "id": "hungarian-american-coalition",
       "name": "Hungarian American Coalition",

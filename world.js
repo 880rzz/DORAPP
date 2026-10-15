@@ -357,6 +357,10 @@ function organizationType(item){
   return item.category || item.entityType || (item.subtype === "education" ? "Oktatás" : "Szervezet");
 }
 
+function shortCountryLabel(item){
+  return item.country === "us" ? "USA" : item.countryLabel;
+}
+
 function populateOrganizationFilters(){
   const rows = organizationItems();
   const countrySelect = $("#organizationCountry");
@@ -395,7 +399,7 @@ function renderOrganizations(resetLimit = false){
     more.textContent = "További szervezetek ("+(rows.length-visible.length)+")";
   }
   root.innerHTML = visible.map(item => {
-    const meta = [item.countryLabel,item.city,organizationType(item)].filter(Boolean).join(" · ");
+    const meta = [shortCountryLabel(item),item.city,organizationType(item)].filter(Boolean).join(" · ");
     return '<article class="global-organization-row"><div class="global-organization-copy"><div class="global-organization-meta">'+esc(meta)+'</div><h3><a href="'+esc(item.href)+'">'+esc(item.label)+'</a></h3>'+(item.summary?'<p>'+esc(item.summary)+'</p>':'')+'</div><a class="global-organization-link" href="'+esc(item.href)+'" aria-label="'+esc(item.label)+' adatlapja">Adatlap <span aria-hidden="true">→</span></a></article>';
   }).join("");
 }
