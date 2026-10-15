@@ -235,6 +235,8 @@ function bindWorldMap(){
   const applyTransform = () => {
     clampPan();
     obj.style.transform = `translate3d(${x}px,${y}px,0) scale(${scale})`;
+    const surface=obj.contentDocument?.documentElement;
+    if(surface) surface.style.touchAction=scale>1?"none":"pan-y";
     viewport.classList.toggle("is-zoomed", scale > 1);
     const z = $("#worldMapZoomValue");
     if(z) z.textContent = Math.round(scale*100)+"%";
@@ -283,7 +285,7 @@ function bindWorldMap(){
   const bindEmbeddedPan = surface => {
     if(!surface || surface.dataset.dorappPanBound) return;
     surface.dataset.dorappPanBound="true";
-    surface.style.touchAction="none";
+    surface.style.touchAction=scale>1?"none":"pan-y";
     surface.style.userSelect="none";
     const pointers=new Map();
     let dragStart=null;

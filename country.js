@@ -251,6 +251,7 @@
     function render(){
       clamp();
       obj.style.transform=`translate3d(${x}px,${y}px,0) scale(${scale})`;
+      surface.style.touchAction=scale>1?"none":"pan-y";
       viewport.classList.toggle("is-zoomed",scale>1);
       if(status) status.textContent=`${Math.round(scale*100)}%`;
       if(zoomOut) zoomOut.disabled=scale<=MIN;
@@ -269,7 +270,6 @@
     zoomOut?.addEventListener("click",()=>setScale(scale-STEP));
     resetBtn?.addEventListener("click",reset);
     const point=e=>({x:e.clientX,y:e.clientY});
-    surface.style.touchAction="none";
     surface.addEventListener("pointerdown",e=>{
       pointers.set(e.pointerId,point(e)); moved=false;
       try{surface.setPointerCapture(e.pointerId);}catch(_){}
@@ -301,9 +301,10 @@
   function bindSubdivisionSvg(){
     const obj=$("#countrySubdivisionMap");
     if(!obj) return;
-    obj.addEventListener("load",()=>{
+    const decorate=()=>{
       const doc=obj.contentDocument;
-      if(!doc) return;
+      if(!doc || doc.documentElement?.dataset.dorappCountryMapBound) return;
+      doc.documentElement.dataset.dorappCountryMapBound="true";
       bindCountryMapController(obj,doc);
       const buttons=$(".country-region-button");
       const byMapName=new Map(buttons.map(b=>[norm(b.dataset.mapRegion||b.querySelector("span")?.textContent||""),b]));
@@ -348,7 +349,9 @@
           }
         }catch(_){}
       });
-    });
+    };
+    obj.addEventListener("load",decorate);
+    if(obj.contentDocument?.readyState==="complete") decorate();
   }
 
   function bindRegionMap(){

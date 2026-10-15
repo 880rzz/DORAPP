@@ -248,7 +248,7 @@ if ecosystem_audit.get("blockingIssues"):
     errors.append(f"ecosystem-quality audit still has {len(ecosystem_audit['blockingIssues'])} blocking issue(s)")
 
 country_js = (ROOT / "country.js").read_text(encoding="utf-8")
-for token in ("pointerdown", "pointermove", "pointerup", "pointercancel", "setPointerCapture", "scale", "translate3d", "data-country-map-reset", "data-map-fullscreen", "clamp"):
+for token in ("pointerdown", "pointermove", "pointerup", "pointercancel", "setPointerCapture", "scale", "translate3d", "data-country-map-reset", "data-map-fullscreen", "clamp", 'obj.contentDocument?.readyState==="complete"', "dorappCountryMapBound"):
     if token not in country_js: errors.append(f"country map pan/zoom regression: missing {token}")
 map_generator = (ROOT / "scripts" / "generate_country_region_maps.py").read_text(encoding="utf-8")
 for token in ('VERSION="5.1.2"', "longitude_wrap_start", "wrap_longitude", "offset_x=(width-content_width)/2", "offset_y=(height-content_height)/2"):
