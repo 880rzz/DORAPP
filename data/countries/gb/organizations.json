@@ -1,0 +1,52 @@
+{
+  "updated": "2026-10-15",
+  "sourcePolicy": "First-party institutional evidence; no unverified social profiles or press mentions.",
+  "organizations": [
+    {
+      "id": "liszt-intezet-london",
+      "name": "Liszt Institute – Hungarian Cultural Centre London",
+      "country": "gb",
+      "region": "England",
+      "city": "London",
+      "type": "Hungarian cultural institute",
+      "entityClass": "host-institution",
+      "website": "https://culture.hu/uk/london",
+      "address": "17-19 Cockspur St, London SW1Y 5BL, United Kingdom",
+      "intro": "A londoni Liszt Intézet magyar kulturális központ, amely a magyar művészetet és kultúrát ismertető kiállításokat, koncerteket, irodalmi és közösségi programokat szervez az Egyesült Királyságban.",
+      "activities": [
+        "koncertek",
+        "kiállítások",
+        "irodalmi események",
+        "kulturális diplomácia"
+      ],
+      "contact": {
+        "email": "info@hungary.org.uk",
+        "phone": "+44 20 7240 8448"
+      },
+      "profileVerifiedAt": "2026-10-15",
+      "evidenceSources": [
+        {
+          "label": "Liszt Institute London – official institution overview",
+          "url": "https://culture.hu/uk/london/lisztinstitute-uk",
+          "type": "official"
+        },
+        {
+          "label": "Liszt Institute London – official contact",
+          "url": "https://culture.hu/uk/london/contacts",
+          "type": "official"
+        }
+      ],
+      "calendarSources": [
+        {
+          "label": "Liszt Institute London – official events",
+          "url": "https://culture.hu/uk/london/events",
+          "kind": "official-events",
+          "scope": "self",
+          "ingestEvents": true
+        }
+      ],
+      "pressMentions": [],
+      "socialProfiles": []
+    }
+  ]
+}
