@@ -15,6 +15,17 @@ def load_script(filename, name):
     return module
 
 class GlobalResearchIntegrityTests(unittest.TestCase):
+    def test_conflicting_first_party_country_is_rejected(self):
+        verifier = load_script("verify_first_party_sites.py", "country_conflict_test")
+        names = {"en":"Australia","hu":"Ausztrália"}
+        self.assertFalse(verifier.country_match("AT", "au", names,
+                         "Australian Hungarian association Australia"))
+        self.assertFalse(verifier.country_match("Austria", "au", names,
+                         "Australian Hungarian association Australia"))
+        self.assertTrue(verifier.country_match("AU", "au", names, ""))
+        self.assertTrue(verifier.country_match(None, "au", names,
+                        "Hungarian association in Australia"))
+
     def test_hourly_country_cycle_visits_each_country_once(self):
         research = load_script("global_country_research.py", "global_country_research_cycle_test")
         countries = [
