@@ -6,7 +6,7 @@ from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1]
 DATA=ROOT/"data"
 g=json.loads((DATA/"global.json").read_text(encoding="utf-8"))
-errors=[]
+errors=[]\nlegacy_state=DATA/"research-state.json"\nif legacy_state.exists():\n    state=json.loads(legacy_state.read_text(encoding="utf-8"))\n    if state.get("countriesCompleted"):\n        errors.append("research-state.json uses forbidden countriesCompleted discovery semantics")
 required_categories={"organizations","education","media","religious","scouting","cultural","events","historical"}
 
 for c in g.get("countries",[]):
