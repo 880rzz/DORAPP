@@ -54,12 +54,13 @@ jobs:
           import json
           from pathlib import Path
           minimum={"performance":0.75,"accessibility":0.90,"best-practices":0.90,"seo":0.90}
+          failures=[]
           for path in Path("artifacts").glob("lighthouse-*.json"):
               report=json.loads(path.read_text())
               scores={k:v["score"] for k,v in report["categories"].items() if k in minimum}
               print(path.name, scores)
-              failed=[f"{k}={scores.get(k)}<{value}" for k,value in minimum.items() if scores.get(k,0)<value]
-              if failed: raise SystemExit("; ".join(failed))
+              failures.extend(f"{path.name}:{k}={scores.get(k)}<{value}" for k,value in minimum.items() if scores.get(k,0)<value)
+          if failures: raise SystemExit("; ".join(failures))
           PY
       - name: Upload responsive and Lighthouse evidence
         if: always()
