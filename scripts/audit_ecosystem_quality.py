@@ -88,7 +88,7 @@ def main():
                 continue
             if not (entity.get("intro") or entity.get("summary")):
                 issues.append({"id": eid, "error": "education-missing-description"})
-            if not entity.get("evidenceSources"):
+            if not (entity.get("evidenceSources") or entity.get("sourceUrl")):
                 issues.append({"id": eid, "error": "education-missing-evidence"})
             if not (ROOT / "countries" / iso / "education" / f"{eid}.html").exists():
                 issues.append({"id": eid, "error": "education-missing-profile"})
