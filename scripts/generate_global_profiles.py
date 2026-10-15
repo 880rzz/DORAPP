@@ -30,6 +30,12 @@ def human_type(value):
         if any(needle in key for needle in needles): return label
     return "Közösség" if raw else "Szervezet"
 
+def human_source_label(value):
+    label=str(value or "").strip()
+    if "ingestion" in label.casefold():
+        label=label.split("–",1)[0].split("-",1)[0].strip()
+    return label.replace("Parent szervezet","Kapcsolódó szervezet").replace("parent szervezet","kapcsolódó szervezet")
+
 def links(items):
     return "".join(items)
 
@@ -39,7 +45,7 @@ def source_list(items, empty="Nincs külön forrás rögzítve."):
         if isinstance(x,str):
             url=x; label=x; note=""
         else:
-            url=x.get("url"); label=x.get("label") or x.get("platform") or url
+            url=x.get("url"); label=human_source_label(x.get("label") or x.get("platform") or url)
             extra=[]
             if x.get("platform"): extra.append(str(x.get("platform")))
             if x.get("ownership") in {"parent","related"}: extra.append("kapcsolódó szervezeti csatorna")

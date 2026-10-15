@@ -22,6 +22,12 @@ for path in OUT.glob("*.html"):
 
 def esc(v): return html.escape(str(v or ""),quote=True)
 
+def human_source_label(value):
+    label=str(value or "").strip()
+    if "ingestion" in label.casefold():
+        label=label.split("–",1)[0].split("-",1)[0].strip()
+    return label.replace("Parent szervezet","Kapcsolódó szervezet").replace("parent szervezet","kapcsolódó szervezet")
+
 for o in db["organizations"]:
     social=[]
     primary_link = next((o.get(key) for key in ("website","facebook","instagram") if o.get(key)), None)
@@ -97,7 +103,7 @@ for o in db["organizations"]:
     public_channels_html="<ul class=\"source-list\">"+"".join(f'<li><a href="{esc(x.get("url"))}" target="_blank" rel="noopener external">{esc(x.get("label") or x.get("url"))}</a>{(" · "+esc(x.get("platform"))) if x.get("platform") else ""}{(" · kapcsolódó / szülőszervezeti csatorna" if x.get("ownership") in ("parent","related") else "")}</li>' for x in public_channels if x.get("url"))+"</ul>" if public_channels else "<p>Nincs külön igazolt nyilvános profil vagy kapcsolódó hivatalos csatorna rögzítve.</p>"
     evidence_html="<ul class=\"source-list\">"+"".join(f'<li><a href="{esc(x.get("url"))}" target="_blank" rel="noopener external">{esc(x.get("label") or x.get("url"))}</a></li>' for x in evidence if x.get("url"))+"</ul>" if evidence else "<p>Még nincs külön háttéranyagunk ehhez a közösséghez.</p>"
     src_html="<ul class=\"source-list\">"+"".join(f'<li><a href="{esc(u)}" target="_blank" rel="noopener external">{esc(u)}</a></li>' for u in src)+"</ul>" if src else "<p>Nincs külön automatikusan importált eseményforrás.</p>"
-    calendar_html="<ul class=\"source-list\">"+"".join(f'<li><a href="{esc(c.get("url"))}" target="_blank" rel="noopener external">{esc(c.get("label") or c.get("url"))}</a>{(" · "+esc(c.get("platform"))) if c.get("platform") else ""}{(" · automatikus import" if c.get("ingestEvents") else " · ellenőrzött hivatkozás")}</li>' for c in calendars if c.get("url"))+"</ul>" if calendars else "<p>Nincs külön igazolt eseménynaptár vagy social programforrás rögzítve.</p>"
+    calendar_html="<ul class=\"source-list\">"+"".join(f'<li><a href="{esc(c.get("url"))}" target="_blank" rel="noopener external">{esc(human_source_label(c.get("label") or c.get("url")))}</a>{(" · "+esc(c.get("platform"))) if c.get("platform") else ""}{(" · automatikus import" if c.get("ingestEvents") else " · ellenőrzött hivatkozás")}</li>' for c in calendars if c.get("url"))+"</ul>" if calendars else "<p>Nincs külön igazolt eseménynaptár vagy social programforrás rögzítve.</p>"
     page_url=f"{BASE_URL}/szervezetek/{o['id']}.html"
     publisher={"@type":"Organization","@id":BASE_URL+"/#publisher","name":"Ausztriai Magyar Egyesületek és Szervezetek Központi Szövetsége","url":"https://www.kozpontiszovetseg.at/","identifier":{"@type":"PropertyValue","propertyID":"ZVR","value":"079797621"}}
     entity_class=o.get("entityClass")
