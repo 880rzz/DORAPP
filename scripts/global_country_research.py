@@ -184,7 +184,7 @@ def main():
     save_json(GLOBAL, g)
 
     RUNS.mkdir(parents=True, exist_ok=True)
-    stamp = checked_at[:10]
+    stamp = checked_at[:13].replace("T", "-")
     save_json(RUNS / f"{stamp}-global-research.json", {
         "timestamp": checked_at,
         "countriesAttempted": attempted,
@@ -192,6 +192,9 @@ def main():
         "countriesFailed": failed,
         "discoveryCandidatesAcrossBatch": total_candidates,
         "mode": "candidate-discovery",
+        "researchCycle": state.get("researchCycle"),
+        "cycleProgress": state.get("cycleProgress"),
+        "cycleTotal": state.get("cycleTotal"),
         "publicationPolicy": "No candidate is promoted to a canonical organization without first-party verification.",
     })
     print(json.dumps({
