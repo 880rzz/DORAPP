@@ -396,5 +396,5 @@
     bindFilters();
     apply();
   }
-  init();
+  requestAnimationFrame(()=>requestAnimationFrame(init));
 })();
