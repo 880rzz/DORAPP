@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 import json, ssl, urllib.error, urllib.request
+from concurrent.futures import ThreadPoolExecutor
 from datetime import datetime, timezone
 from pathlib import Path
 
@@ -8,6 +9,7 @@ DATA=ROOT/"data"
 GLOBAL=DATA/"global.json"
 UA="DORAPP-Source-Health/1.0 (+https://www.diaszporaterkep.hu/)"
 TIMEOUT=18
+MAX_WORKERS=12
 
 def now_iso():
     return datetime.now(timezone.utc).replace(microsecond=0).isoformat()
@@ -61,8 +63,7 @@ def main():
         org_path=DATA/"countries"/iso/"organizations.json"
         if not org_path.exists(): continue
         org=read(org_path,{"organizations":[]})
-        rows=[]
-        for o in org.get("organizations",[]):
+        def audit_organization(o):
             url=o.get("website")
             source_role="official-website"
             if not url:
@@ -72,7 +73,7 @@ def main():
                     url=evidence[0]["url"]
                     source_role="primary-evidence"
             if not url:
-                rows.append({
+                return {
                   "id":o.get("id"),
                   "url":None,
                   "sourceRole":"none",
@@ -83,14 +84,9 @@ def main():
                   "checkedAt":checked,
                   "removalAuthority":False,
                   "note":"No web source is available; this is a data-quality review condition, not removal evidence."
-                })
-                bad+=1
-                total+=1
-                continue
+                }
             status,code,final,ctype=check(url)
-            total+=1
-            if status not in {"ok","ok-non-html"}: bad+=1
-            rows.append({
+            return {
               "id":o.get("id"),
               "url":url,
               "sourceRole":source_role,
@@ -108,7 +104,12 @@ def main():
                 "Technical failure alone is never evidence for entity removal."
                 if status!="ok" else None
               )
-            })
+            }
+        organizations=org.get("organizations",[])
+        with ThreadPoolExecutor(max_workers=MAX_WORKERS) as pool:
+            rows=list(pool.map(audit_organization,organizations))
+        total+=len(rows)
+        bad+=sum(1 for row in rows if row["status"] not in {"ok","ok-non-html"})
         if rows:
             out=DATA/"countries"/iso/"source-health.json"
             out.write_text(json.dumps({"updated":checked,"sources":rows},ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
@@ -116,4 +117,3 @@ def main():
 
 if __name__=="__main__":
     main()
-
