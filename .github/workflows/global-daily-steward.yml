@@ -50,11 +50,12 @@ permissions:
   contents: write
 
 concurrency:
-  group: dorapp-global-${{ github.event_name }}-v1
+  group: dorapp-global-main-v2
   cancel-in-progress: true
 
 jobs:
   research:
+    if: github.event_name != 'push' || !startsWith(github.event.head_commit.message, 'chore(global): rotate diaspora research batch')
     runs-on: ubuntu-latest
     env:
       RUN_EVENT_REFRESH: ${{ (github.event_name == 'schedule' && github.event.schedule == '17 2 * * *') || github.event_name == 'workflow_dispatch' || startsWith(github.event.head_commit.message, 'test(events):') }}
@@ -152,14 +153,18 @@ jobs:
             git fetch origin main
             git reset --hard origin/main
             python scripts/enrich_country_registry.py
-            if [ "${RUN_EVENT_REFRESH}" = "true" ]; then
+            if [ "${GITHUB_EVENT_NAME}" = "schedule" ] || [ "${GITHUB_EVENT_NAME}" = "workflow_dispatch" ]; then
               python scripts/global_country_research.py
               python scripts/verify_discovery_candidates.py
               python scripts/verify_first_party_sites.py
               python scripts/promote_verified_entities.py
+            fi
+            if [ "${RUN_EVENT_REFRESH}" = "true" ]; then
               python scripts/update_country_events.py
               python scripts/discover_global_press.py
+              python scripts/audit_global_press_sources.py
             fi
+            python scripts/validate_verified_zero.py
             python scripts/audit_global_source_health.py
             python scripts/generate_global_compat.py
             python scripts/generate_global_search_index.py
