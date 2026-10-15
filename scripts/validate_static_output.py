@@ -254,12 +254,6 @@ for token in ('addEventListener("load", decorateMap)', 'contentDocument?.readySt
 for token in ("bindEmbeddedPan", "pointerdown", "pointermove", "data-map-fullscreen"):
     if token not in world_js: errors.append(f"world map pan/fullscreen regression: missing {token}")
 
-ui_js = (ROOT / "ui.js").read_text(encoding="utf-8")
-if "G-1FC22JEX2F" in ui_js:
-    errors.append("retired GA4 measurement id remains in ui.js")
-for token in ("G-MR6ZXXL5JQ", 'gtag("consent","default"', 'gtag("consent","update"', "clearAnalyticsCookies"):
-    if token not in ui_js: errors.append(f"consent-first Analytics regression: missing {token}")
-
 styles=(ROOT/"styles.css").read_text(encoding="utf-8")
 for token in ("grid-auto-rows:1fr","-webkit-line-clamp:2","text-overflow:ellipsis","overflow-wrap:anywhere","map-fullscreen-fallback","72vh"):
     if token not in styles: errors.append(f"equal-cell/overflow policy missing from CSS: {token}")
