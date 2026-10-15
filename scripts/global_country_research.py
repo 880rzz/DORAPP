@@ -154,7 +154,10 @@ def main():
             "errors": errors,
         })
 
-        c["researchStatus"] = "researching"
+        # A discovery pass cannot revoke an already audited country conclusion.
+        # Only verified positive evidence can reopen a verified-zero result.
+        if c.get("researchStatus") in (None, "unresearched"):
+            c["researchStatus"] = "researching"
         c["lastResearchAttemptAt"] = checked_at
         c["discoveryCandidateCount"] = len(sources)
         if errors and not sources:
