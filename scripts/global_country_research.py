@@ -86,7 +86,7 @@ def select_batch(countries, state):
     eligible = [c for c in countries if c.get("iso2")]
     ids = {c["iso2"] for c in eligible}
     visited = set(state.get("cycleVisited", [])) & ids
-    if len(visited) == len(ids):
+    if ids and len(visited) == len(ids):
         visited = set()
         state["researchCycle"] = int(state.get("researchCycle", 1)) + 1
     else:
