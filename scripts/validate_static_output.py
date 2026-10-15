@@ -120,7 +120,7 @@ for country in globaldb.get("countries",[]):
         for token in ('id="kereso"','id="countryOrgGrid"','id="countryEducationGrid"','id="countryEventGrid"',"country.js"):
             if token not in text: errors.append(f"Austria-parity country component missing ({token}): countries/{iso}/index.html")
     if ready and canonical not in sitemap: errors.append(f"sitemap missing: {canonical}")
-    if not ready and canonical in sitemap: errors.append(f"unfinished country leaked into sitemap: {canonical}")
+    if not ready and f"<loc>{canonical}</loc>" in sitemap: errors.append(f"unfinished country leaked into sitemap: {canonical}")
     blocks=re.findall(r'<script type="application/ld\+json">(.*?)</script>',text,re.S)
     try:
         payload=json.loads(blocks[0])
@@ -195,13 +195,22 @@ if search_country_ids != registry_country_ids:
 
 expected_directory=[]
 for country in globaldb.get("countries",[]):
-    if country.get("researchStatus") not in {"reviewed","verified-zero"}: continue
+    reviewed=country.get("researchStatus") in {"reviewed","verified-zero"}
     iso=country.get("iso2")
     base=ROOT/"data"/"countries"/iso
     odoc=json.loads((base/"organizations.json").read_text(encoding="utf-8")) if (base/"organizations.json").exists() else {}
     edoc=json.loads((base/"education.json").read_text(encoding="utf-8")) if (base/"education.json").exists() else {}
-    expected_directory.extend((iso,x.get("id")) for x in odoc.get("organizations",odoc.get("items",[])) if x.get("id") and x.get("entityClass")!="activity")
-    expected_directory.extend((iso,x.get("id")) for x in edoc.get("institutions",edoc.get("education",edoc.get("items",[]))) if x.get("id"))
+    for org_item in odoc.get("organizations",odoc.get("items",[])):
+        if not org_item.get("id") or org_item.get("entityClass")=="activity" or org_item.get("status") in {"candidate","unverified","needs-review","needs_review"}:
+            continue
+        verified=bool(org_item.get("profileVerifiedAt") and any(
+            isinstance(e,dict) and e.get("url") and e.get("type") in {"official","government","institutional","registry"}
+            for e in (org_item.get("evidenceSources") or [])
+        ))
+        if reviewed or verified:
+            expected_directory.append((iso,org_item.get("id")))
+    if reviewed:
+        expected_directory.extend((iso,x.get("id")) for x in edoc.get("institutions",edoc.get("education",edoc.get("items",[]))) if x.get("id"))
 directory_items=[x for x in global_search.get("items",[]) if x.get("type")=="organization"]
 actual_directory={(x.get("country"),x.get("id")) for x in directory_items}
 if actual_directory != set(expected_directory):
