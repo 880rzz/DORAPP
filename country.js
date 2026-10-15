@@ -351,7 +351,7 @@
       });
     };
     obj.addEventListener("load",decorate);
-    if(obj.contentDocument?.readyState==="complete") decorate();
+    if(obj.contentDocument?.querySelector("svg")) decorate();
   }
 
   function bindRegionMap(){

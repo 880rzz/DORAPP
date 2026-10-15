@@ -16,6 +16,9 @@ UI=(ROOT/"ui.js").read_text(encoding="utf-8")
 if 'const GA_ID="G-1FC22JEX2F"' not in UI: errors.append("canonical consent-first GA ID missing from ui.js")
 if "G-MR6ZXXL5JQ" in UI: errors.append("retired GA ID remains in ui.js")
 if "https://wa.me/4367761655592" not in UI or 'aria-label","Írj nekünk WhatsAppon"' not in UI: errors.append("shared WhatsApp contact control missing or inaccessible")
+DESIGN=(ROOT/"design-editorial.css").read_text(encoding="utf-8")
+for token in ("--text:#1d1d1f", "--muted:#6e6e73", "--accent:#245a81", "--max:1280px", "letter-spacing:0"):
+    if token not in DESIGN: errors.append(f"editorial design token missing: {token}")
 STYLES=(ROOT/"styles.css").read_text(encoding="utf-8")
 if "whatsapp-fab" not in STYLES: errors.append("WhatsApp control styling missing")
 for token in ("width:44px;height:44px", "background:#5f6368", ".whatsapp-fab svg{width:22px;height:22px"):
@@ -34,6 +37,8 @@ public_files=[
 ]
 public_files.extend(ROOT.rglob("*.html"))
 for path in dict.fromkeys(public_files):
+    if path.exists() and path.suffix==".html" and not path.name.startswith("google") and "design-editorial.css?v=20261015-2" not in path.read_text(encoding="utf-8"):
+        errors.append(f"editorial design layer missing: {path.relative_to(ROOT)}")
     if path.exists() and OLD_BASE in path.read_text(encoding="utf-8"):
         errors.append(f"retired production domain remains in public output: {path.relative_to(ROOT)}")
 

@@ -24,10 +24,13 @@ jobs:
           python scripts/generate_global_profiles.py
           python scripts/generate_global_education_profiles.py
           python scripts/generate_global_event_profiles.py
+          python scripts/validate_directory.py
+          python scripts/generate_profiles.py
+          python scripts/generate_education_profiles.py
           python scripts/generate_reference_pages.py
           python scripts/generate_sitemap.py
           python scripts/validate_global.py
-          python -m py_compile scripts/generate_global_compat.py scripts/generate_global_search_index.py scripts/generate_global_calendar.py scripts/generate_country_region_maps.py scripts/generate_country_pages.py scripts/generate_global_profiles.py scripts/generate_global_education_profiles.py scripts/generate_global_event_profiles.py scripts/generate_reference_pages.py scripts/generate_sitemap.py scripts/validate_global.py scripts/validate_static_output.py
+          python -m py_compile scripts/generate_global_compat.py scripts/generate_global_search_index.py scripts/generate_global_calendar.py scripts/generate_country_region_maps.py scripts/generate_country_pages.py scripts/generate_global_profiles.py scripts/generate_global_education_profiles.py scripts/generate_global_event_profiles.py scripts/generate_profiles.py scripts/generate_education_profiles.py scripts/generate_reference_pages.py scripts/generate_sitemap.py scripts/validate_global.py scripts/validate_static_output.py
           node --check world.js
           node --check country.js
           node --check ui.js
@@ -35,3 +38,33 @@ jobs:
           python -m json.tool data/global-search-index.json >/dev/null
           python -m json.tool data/global-events.json >/dev/null
           python scripts/validate_static_output.py
+      - name: Install browser and Lighthouse audit dependencies
+        run: |
+          npm install --no-save playwright@1.55.0 lighthouse@12.8.2
+          npx playwright install --with-deps chromium
+      - name: Run responsive interaction matrix
+        run: |
+          python -m http.server 4173 > /tmp/dorapp-http.log 2>&1 &
+          node scripts/audit_responsive_ui.mjs
+      - name: Measure Lighthouse
+        run: |
+          npx lighthouse http://127.0.0.1:4173/index.html --output=json --output-path=artifacts/lighthouse-home.json --chrome-flags="--headless --no-sandbox" --only-categories=performance,accessibility,best-practices,seo --quiet
+          npx lighthouse http://127.0.0.1:4173/countries/at/ --output=json --output-path=artifacts/lighthouse-country-at.json --chrome-flags="--headless --no-sandbox" --only-categories=performance,accessibility,best-practices,seo --quiet
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          minimum={"performance":0.75,"accessibility":0.90,"best-practices":0.90,"seo":0.90}
+          for path in Path("artifacts").glob("lighthouse-*.json"):
+              report=json.loads(path.read_text())
+              scores={k:v["score"] for k,v in report["categories"].items() if k in minimum}
+              print(path.name, scores)
+              failed=[f"{k}={scores.get(k)}<{value}" for k,value in minimum.items() if scores.get(k,0)<value]
+              if failed: raise SystemExit("; ".join(failed))
+          PY
+      - name: Upload responsive and Lighthouse evidence
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: design-release-evidence
+          path: artifacts/
+          if-no-files-found: warn
