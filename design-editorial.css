@@ -21,7 +21,7 @@ h1,h2,h3,h4,.brand{letter-spacing:0}
 .source-list{padding-left:1.2rem}.source-list li+li{margin-top:10px}.membership,.site-status{border-radius:var(--radius)}
 .cards,.event-grid,.article-grid{gap:16px}
 .card,.event,.article-card,.global-event-card{border:1px solid var(--line);border-radius:var(--radius);box-shadow:none;background:#fff}.card,.event,.article-card{padding:22px}
-.card h3,.event h3,.article-card h3{font-size:1.08rem;line-height:1.35;overflow-wrap:anywhere}.meta,.date,.global-event-meta{color:var(--accent);font-weight:650}.links,.event-links{gap:12px}
+.card h3,.event h3,.article-card h3{font-size:1.08rem;line-height:1.35;overflow-wrap:anywhere}.fit-text-long{font-size:.94rem!important;line-height:1.4!important}.fit-text-very-long{font-size:.84rem!important;line-height:1.45!important;overflow-wrap:anywhere;word-break:break-word}.meta,.date,.global-event-meta{color:var(--accent);font-weight:650}.links,.event-links{gap:12px}
 .directory-search{border:1px solid var(--line);border-radius:var(--radius);background:#fff;box-shadow:none}.directory-search-grid,.global-organization-filters,.global-calendar-filters{gap:12px}
 input,select,textarea,.directory-search input,.directory-search select,.global-organization-filters input,.global-organization-filters select,.global-calendar-filters input,.global-calendar-filters select{min-height:46px;border:1px solid #d5d7dc;border-radius:var(--radius);background:#fff;color:var(--text);font:inherit}
 input:focus-visible,select:focus-visible,textarea:focus-visible{border-color:var(--accent);outline:2px solid var(--accent);outline-offset:2px}.empty{border-radius:var(--radius);border-color:var(--line);color:var(--muted)}
