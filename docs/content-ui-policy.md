@@ -37,3 +37,5 @@ A rövidítés nem írhatja át a canonical adatot. A teljes megnevezés az adat
 ## Automatizált ellenőrzés
 
 A napi workflow ellenőrzi a belső linkeket és horgonyokat, a külső linkek technikai állapotát, a profil-lefedettséget, a kötelező bizonyítékokat és a látogatói zsargont. Külső 403, 429, TLS-, DNS- vagy timeout-hiba önmagában nem törlési ok.
+
+Az eseményforrások frissítése az ütemezett napi futásban és a kézzel indított teljes futásban történik. A pusztán kódváltozás miatt induló ellenőrzés alapértelmezésben nem olvassa újra az eseményforrásokat.
