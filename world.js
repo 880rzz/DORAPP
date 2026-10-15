@@ -349,6 +349,8 @@ function bindWorldMap(){
     const base = "#d9dde1";
     const readyColor = "#a9c9dc";
     const readyHover = "#82aec8";
+    const zeroColor = "#d96b67";
+    const zeroHover = "#c84f4b";
     const buildingHover = "#c4cbd1";
 
     doc.documentElement.style.background = "#fff";
@@ -367,15 +369,16 @@ function bindWorldMap(){
       processed.add(iso);
       const ready = isReady(country);
       const count = Number(country.counts?.organizations || 0);
-      const baseFill = ready ? readyColor : base;
+      const verifiedZero = country.researchStatus === "verified-zero";
+      const baseFill = verifiedZero ? zeroColor : (ready ? readyColor : base);
       paint(el,baseFill);
       const label = countryLabel(country);
-      const status = ready ? count+" szervezet · kész ország" : count+" ellenőrzött szervezet · kutatás alatt";
+      const status = verifiedZero ? "lezárt kutatás · jelenleg nincs igazolt magyar vonatkozás" : (ready ? count+" szervezet · kész ország" : count+" ellenőrzött szervezet · kutatás alatt");
       el.setAttribute("aria-label",label+" · "+status);
 
       const statusEl = $("#worldMapStatus");
       const over = () => {
-        paint(el,ready ? readyHover : buildingHover);
+        paint(el,verifiedZero ? zeroHover : (ready ? readyHover : buildingHover));
         if(statusEl) statusEl.textContent = label+" · "+status;
       };
       const out = () => paint(el,baseFill);
