@@ -30,7 +30,8 @@ jobs:
           python scripts/generate_reference_pages.py
           python scripts/generate_sitemap.py
           python scripts/validate_global.py
-          python -m py_compile scripts/generate_global_compat.py scripts/generate_global_search_index.py scripts/generate_global_calendar.py scripts/generate_country_region_maps.py scripts/generate_country_pages.py scripts/generate_global_profiles.py scripts/generate_global_education_profiles.py scripts/generate_global_event_profiles.py scripts/generate_profiles.py scripts/generate_education_profiles.py scripts/generate_reference_pages.py scripts/generate_sitemap.py scripts/validate_global.py scripts/validate_static_output.py
+          python scripts/validate_verified_zero.py
+          python -m py_compile scripts/generate_global_compat.py scripts/generate_global_search_index.py scripts/generate_global_calendar.py scripts/generate_country_region_maps.py scripts/generate_country_pages.py scripts/generate_global_profiles.py scripts/generate_global_education_profiles.py scripts/generate_global_event_profiles.py scripts/generate_profiles.py scripts/generate_education_profiles.py scripts/generate_reference_pages.py scripts/generate_sitemap.py scripts/validate_global.py scripts/validate_verified_zero.py scripts/validate_static_output.py
           node --check world.js
           node --check country.js
           node --check ui.js
