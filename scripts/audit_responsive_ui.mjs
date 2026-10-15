@@ -127,6 +127,14 @@ await failurePage.waitForFunction(()=>!document.querySelector("#globalCalendarCo
 report.interactions.calendarFetchRetry=!(await failurePage.locator("#globalCalendarCount").textContent()).includes("nem tölthető be");
 await failurePage.close();
 
+// A registry outage must be communicated instead of leaving a silently blank map.
+const registryFailure=await context.newPage();
+await registryFailure.route("**/data/global.json",route=>route.abort());
+await registryFailure.goto(base+"/index.html",{waitUntil:"networkidle"});
+await registryFailure.waitForFunction(()=>document.querySelector("#worldMapStatus")?.textContent?.includes("átmenetileg nem érhetők el"));
+report.interactions.registryFetchErrorVisible=(await registryFailure.locator("#worldMapStatus").textContent()).includes("Frissítsd az oldalt");
+await registryFailure.close();
+
 const consentContext=await browser.newContext();
 const consentPage=await consentContext.newPage();
 const analyticsRequests=[];
