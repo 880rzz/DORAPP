@@ -89,7 +89,7 @@ def main():
 
         for o in orgs:
             eid=o.get("id")
-            if not eid or o.get("entityClass")=="activity":
+            if not eid or o.get("entityClass")=="activity" or o.get("status") in {"candidate","unverified","needs-review","needs_review"}:
                 continue
             out=ROOT/"countries"/iso/"organizations"
             out.mkdir(parents=True,exist_ok=True)

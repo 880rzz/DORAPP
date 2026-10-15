@@ -34,18 +34,27 @@ urls += [(f"{BASE}/tartomanyok/{x['id']}.html",org_updated) for x in org.get("st
 urls += [(f"{BASE}/kategoriak/{x['id']}.html",org_updated) for x in org.get("categoryDefinitions",[])]
 
 for c in globaldb.get("countries",[]):
-    if c.get("researchStatus") not in READY:
-        continue
+    reviewed=c.get("researchStatus") in READY
     iso=c["iso2"]
-    urls.append((f"{BASE}/countries/{iso}/",global_updated))
+    if reviewed:
+        urls.append((f"{BASE}/countries/{iso}/",global_updated))
 
     op=ROOT/"data"/"countries"/iso/"organizations.json"
     if op.exists():
         try: odoc=json.loads(op.read_text(encoding="utf-8"))
         except Exception: odoc={}
         for o in odoc.get("organizations",odoc.get("items",[])):
-            if o.get("id"):
+            if o.get("entityClass")=="activity" or o.get("status") in {"candidate","unverified","needs-review","needs_review"}:
+                continue
+            supported=bool(o.get("profileVerifiedAt") and any(
+                isinstance(e,dict) and e.get("url") and e.get("type") in {"official","government","institutional","registry"}
+                for e in (o.get("evidenceSources") or [])
+            ))
+            if o.get("id") and (reviewed or supported):
                 urls.append((f"{BASE}/countries/{iso}/organizations/{quote(str(o['id']))}.html",str(o.get("profileVerifiedAt") or global_updated)[:10]))
+
+    if not reviewed:
+        continue
 
     ep=ROOT/"data"/"countries"/iso/"education.json"
     if ep.exists():

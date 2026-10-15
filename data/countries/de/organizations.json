@@ -1,0 +1,51 @@
+{
+  "updated": "2026-10-15",
+  "sourcePolicy": "Official organizational website and Hungarian consular documentation; verify press and social links separately.",
+  "organizations": [
+    {
+      "id": "buod",
+      "name": "Németországi Magyar Szervezetek Szövetsége (BUOD)",
+      "country": "de",
+      "type": "Hungarian umbrella association",
+      "entityClass": "organization",
+      "website": "https://buod.de/",
+      "intro": "A németországi magyar szervezetek és közösségek ernyőszövetsége; célja a magyar nyelv és kultúra ápolásának összehangolása, a tagszervezetek támogatása és képviselete, valamint a kulturális együttműködés elősegítése.",
+      "activities": [
+        "tagszervezetek képviselete",
+        "kulturális együttműködés",
+        "magyar oktatási hálózat",
+        "közösségi események"
+      ],
+      "profileVerifiedAt": "2026-10-15",
+      "evidenceSources": [
+        {
+          "label": "BUOD – official organization website",
+          "url": "https://buod.de/",
+          "type": "official"
+        },
+        {
+          "label": "Hungarian Consulate Düsseldorf – Hungarian organizations directory",
+          "url": "https://dusseldorf.mfa.gov.hu/assets/22/77/53/a4b64cde457c0f99566d5a099df3de6723266399.pdf",
+          "type": "institutional"
+        },
+        {
+          "label": "BUOD – umbrella organizations and historical relationships",
+          "url": "https://buod.de/csucsszervezetek/",
+          "type": "official"
+        }
+      ],
+      "calendarSources": [
+        {
+          "label": "BUOD – official news and community notices",
+          "url": "https://buod.de/",
+          "kind": "official-news-events",
+          "scope": "self",
+          "ingestEvents": true
+        }
+      ],
+      "pressMentions": [],
+      "socialProfiles": [],
+      "scope": "national"
+    }
+  ]
+}

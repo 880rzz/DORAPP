@@ -72,7 +72,7 @@ def load_state():
         "cursor": 0,
         "batchSize": BATCH_SIZE,
         "lastRunAt": None,
-        "countriesAttempted": [],
+        "countriesAttempted": [],\n        "countriesQueried": [],
     }
 
 def save_json(path, data):
@@ -118,7 +118,7 @@ def main():
     checked_at = now_iso()
     batch = select_batch(g.get("countries", []), state)
 
-    attempted, completed, failed = [], [], []
+    attempted, queried, failed = [], [], []
     total_candidates = 0
 
     for c in batch:
@@ -154,18 +154,21 @@ def main():
             "errors": errors,
         })
 
-        c["researchStatus"] = "researching"
+        # A discovery pass cannot revoke an already audited country conclusion.
+        # Only verified positive evidence can reopen a verified-zero result.
+        if c.get("researchStatus") in (None, "unresearched"):
+            c["researchStatus"] = "researching"
         c["lastResearchAttemptAt"] = checked_at
         c["discoveryCandidateCount"] = len(sources)
         if errors and not sources:
             failed.append(iso)
         else:
-            completed.append(iso)
+            queried.append(iso)
 
     state["lastRunAt"] = checked_at
     state["batchSize"] = BATCH_SIZE
     state["countriesAttempted"] = attempted
-    state["countriesCompleted"] = completed
+    # A successful discovery query is not research completion.\n    state.pop("countriesCompleted", None)\n    state["countriesQueried"] = queried
     state["countriesFailed"] = failed
     save_json(STATE, state)
     save_json(GLOBAL, g)
@@ -175,7 +178,7 @@ def main():
     save_json(RUNS / f"{stamp}-global-research.json", {
         "timestamp": checked_at,
         "countriesAttempted": attempted,
-        "countriesCompleted": completed,
+        "countriesQueried": queried,
         "countriesFailed": failed,
         "discoveryCandidatesAcrossBatch": total_candidates,
         "mode": "candidate-discovery",
@@ -183,7 +186,7 @@ def main():
     })
     print(json.dumps({
         "attempted": attempted,
-        "completed": completed,
+        "queried": queried,
         "failed": failed,
         "candidateCount": total_candidates
     }))

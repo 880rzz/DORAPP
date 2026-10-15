@@ -147,7 +147,7 @@ function renderCountryList(){
   root.innerHTML = rows.map(c => {
     const ready = isReady(c);
     const count = c.counts?.organizations || 0;
-    const status = ready ? (c.researchStatus === "verified-zero" ? count+" ellenőrzött szervezet" : count+" szervezet") : count+" ellenőrzött · készül";
+    const status = c.researchStatus === "verified-zero" ? "Lezárt kutatás · nincs igazolt szervezet" : (ready ? count+" ellenőrzött szervezet" : count+" ellenőrzött · kutatás alatt");
     return '<a href="'+esc(c.route)+'" class="'+(ready?'country-ready':'country-building')+'"><strong>'+esc(countryLabel(c))+'</strong><span>'+esc(status)+'</span></a>';
   }).join("");
 }
@@ -347,8 +347,10 @@ function bindWorldMap(){
       el.querySelectorAll?.("path,polygon,rect,circle,ellipse").forEach(n => n.style.fill = fill);
     };
     const base = "#d9dde1";
-    const readyColor = "#a9c9dc";
-    const readyHover = "#82aec8";
+    const readyColor = "#91cbaa";
+    const readyHover = "#62ad87";
+    const zeroColor = "#d96b67";
+    const zeroHover = "#c84f4b";
     const buildingHover = "#c4cbd1";
 
     doc.documentElement.style.background = "#fff";
@@ -367,15 +369,16 @@ function bindWorldMap(){
       processed.add(iso);
       const ready = isReady(country);
       const count = Number(country.counts?.organizations || 0);
-      const baseFill = ready ? readyColor : base;
+      const verifiedZero = country.researchStatus === "verified-zero";
+      const baseFill = verifiedZero ? zeroColor : (ready ? readyColor : base);
       paint(el,baseFill);
       const label = countryLabel(country);
-      const status = ready ? count+" szervezet · kész ország" : count+" ellenőrzött szervezet · kutatás alatt";
+      const status = verifiedZero ? "lezárt kutatás · jelenleg nincs igazolt magyar vonatkozás" : (ready ? count+" szervezet · kész ország" : count+" ellenőrzött szervezet · kutatás alatt");
       el.setAttribute("aria-label",label+" · "+status);
 
       const statusEl = $("#worldMapStatus");
       const over = () => {
-        paint(el,ready ? readyHover : buildingHover);
+        paint(el,verifiedZero ? zeroHover : (ready ? readyHover : buildingHover));
         if(statusEl) statusEl.textContent = label+" · "+status;
       };
       const out = () => paint(el,baseFill);
@@ -506,6 +509,69 @@ function bindOrganizationDirectory(){
   });
 }
 
+let searchIndexPromise = null;
+let calendarPromise = null;
+let searchIndexLoaded = false;
+
+function ensureSearchIndex(){
+  if(!searchIndexPromise){
+    searchIndexPromise = fetch("data/global-search-index.json",{cache:"no-store"})
+      .then(r=>{if(!r.ok)throw new Error("search-index-unavailable");return r.json();})
+      .then(data=>{
+        searchIndex = data;
+        searchIndexLoaded = true;
+        populateOrganizationFilters();
+        renderOrganizations();
+        if($("#globalSearch")?.value.trim()) renderSuggestions();
+        return data;
+      })
+      .catch(()=>{
+        searchIndexLoaded = true;
+        searchIndex = {items:[]};
+        populateOrganizationFilters();
+        renderOrganizations();
+        return searchIndex;
+      });
+  }
+  return searchIndexPromise;
+}
+
+function ensureCalendar(){
+  if(!calendarPromise){
+    calendarPromise = fetch("data/global-events.json",{cache:"no-store"})
+      .then(r=>{if(!r.ok)throw new Error("calendar-unavailable");return r.json();})
+      .then(data=>{
+        globalEvents = data;
+        populateCalendarCountries();
+        renderGlobalCalendar();
+        return data;
+      })
+      .catch(()=>{
+        globalEvents={events:[]};
+        populateCalendarCountries();
+        renderGlobalCalendar();
+        return globalEvents;
+      });
+  }
+  return calendarPromise;
+}
+
+function loadWhenNear(selector,load){
+  const target=$(selector);
+  if(!target)return;
+  if(!("IntersectionObserver" in window)){
+    load();
+    return;
+  }
+  const observer=new IntersectionObserver(entries=>{
+    if(entries.some(entry=>entry.isIntersecting)){
+      observer.disconnect();
+      load();
+    }
+  },{rootMargin:"320px 0px"});
+  observer.observe(target);
+}
+
 async function init(){
   const legacyHashRoutes = {
     "#naptar":"countries/at/#programok",
@@ -516,28 +582,36 @@ async function init(){
     location.replace(legacyHashRoutes[location.hash]);
     return;
   }
-  const [g,s,e] = await Promise.all([
-    fetch("data/global.json",{cache:"no-store"}).then(r => r.json()),
-    fetch("data/global-search-index.json",{cache:"no-store"}).then(r => r.json()).catch(() => ({items:[]})),
-    fetch("data/global-events.json",{cache:"no-store"}).then(r => r.json()).catch(() => ({events:[]}))
-  ]);
-  registry = g;
-  searchIndex = s;
-  globalEvents = e;
+
   bindSearch();
-  const initialQuery = new URLSearchParams(location.search).get("q");
-  if(initialQuery && $("#globalSearch")){
-    $("#globalSearch").value = initialQuery;
-    renderSuggestions();
+  bindOrganizationDirectory();
+  bindCalendar();
+
+  $("#globalSearch")?.addEventListener("focus",()=>{void ensureSearchIndex();});
+  $("#globalSearch")?.addEventListener("input",()=>{void ensureSearchIndex();});
+  for(const id of ["#organizationCountry","#organizationType","#organizationSearch"]){
+    $(id)?.addEventListener("focus",()=>{void ensureSearchIndex();});
+    $(id)?.addEventListener("input",()=>{void ensureSearchIndex();});
+    $(id)?.addEventListener("change",()=>{void ensureSearchIndex();});
   }
+  $("#globalCalendarSearch")?.addEventListener("focus",()=>{void ensureCalendar();});
+  $("#globalCalendarCountry")?.addEventListener("focus",()=>{void ensureCalendar();});
+
+  const g=await fetch("data/global.json",{cache:"no-store"}).then(r=>{
+    if(!r.ok)throw new Error("global-registry-unavailable");
+    return r.json();
+  });
+  registry=g;
   renderCountryList();
   bindWorldMap();
-  populateOrganizationFilters();
-  bindOrganizationDirectory();
-  renderOrganizations();
-  populateCalendarCountries();
-  bindCalendar();
-  renderGlobalCalendar();
+
+  const initialQuery = new URLSearchParams(location.search).get("q");
+  if(initialQuery && $("#globalSearch")){
+    $("#globalSearch").value=initialQuery;
+    void ensureSearchIndex();
+  }
+  loadWhenNear("#szervezetek",()=>{void ensureSearchIndex();});
+  loadWhenNear("#programnaptar",()=>{void ensureCalendar();});
 }
 
 requestAnimationFrame(()=>requestAnimationFrame(init));

@@ -94,7 +94,6 @@ def verify_item(item,c,checked):
             if not text:
                 continue
             org_signal=bool(re.search(r"\b(hungarian|magyar)\b",text)) and bool(re.search(r"\b(association|community|school|church|club|society|cultural|scout|choir|theatre|foundation|center|centre|egyesulet|kozosseg|iskola|templom|cserkesz)\b",text))
-            token_hits=sum(1 for t in tokens if t in text)
             for obj in jsonld_objects(raw):
                 types=type_set(obj)&ORG_TYPES
                 if not types:
@@ -110,8 +109,14 @@ def verify_item(item,c,checked):
                 region=addr.get("addressRegion")
                 if not country_match(addr_country,iso,names,text):
                     continue
-                identity_ok=token_hits>=1 or norm(name) in text
-                score=(3 if org_signal else 0)+(2 if identity_ok else 0)+(2 if locality else 0)+(1 if region else 0)
+                # A publisher Organization on an unrelated news article is not the
+                # Hungarian organization described by the discovery candidate.
+                # Match distinctive identity tokens against the schema entity name,
+                # never merely against surrounding article text.
+                identity_ok=bool(tokens and (tokens & identity_tokens(name)))
+                if not (org_signal and identity_ok):
+                    continue
+                score=3+2+(2 if locality else 0)+(1 if region else 0)
                 candidate={
                   "country":iso,
                   "name":name,
@@ -183,8 +188,12 @@ def main():
         try: existing=json.loads(READY.read_text(encoding="utf-8")).get("items",[])
         except Exception: pass
     key=lambda x:(x.get("country"),norm(x.get("name")),urllib.parse.urlparse(x.get("website") or "").netloc.lower())
-    merged={key(x):x for x in existing}
-    for x in ready: merged[key(x)]=x
+    # Never carry forward an old promotion candidate without a valid verification record.
+    def is_valid(x):
+        return (x.get("verificationScore") or 0)>=7 and x.get("verificationMethod")=="first-party HTML + JSON-LD organization + country match" and bool(x.get("verifiedAt")) and bool(x.get("city"))
+    merged={key(x):x for x in existing if is_valid(x)}
+    for x in ready:
+        if is_valid(x): merged[key(x)]=x
     READY.write_text(json.dumps({"updated":checked,"items":sorted(merged.values(),key=lambda x:(x.get("country",""),norm(x.get("name"))))},ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
     print(f"First-party verification processed={processed}; promotion-ready={len(ready)}")
 

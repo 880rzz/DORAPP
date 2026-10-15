@@ -82,7 +82,10 @@ for country in registry.get("countries", []):
         "researchStatus": status,
         "searchParts": [label, iso, country.get("iso3"), *(country.get("name") or {}).values()],
     })
-    if status not in READY:
+    # A fully verified organization remains discoverable while its country
+    # is still being researched; country completion is a separate assertion.
+    published_country = status in READY
+    if not published_country and not (DATA / "countries" / iso / "organizations.json").exists():
         continue
 
     base = DATA / "countries" / iso
@@ -97,6 +100,15 @@ for country in registry.get("countries", []):
     activities = {}
 
     for org in orgs:
+        if org.get("status") in {"candidate","unverified","needs-review","needs_review"}:
+            continue
+        if not published_country and not (
+            org.get("profileVerifiedAt") and any(
+                isinstance(e,dict) and e.get("url") and e.get("type") in {"official","government","institutional","registry"}
+                for e in (org.get("evidenceSources") or [])
+            )
+        ):
+            continue
         if org.get("entityClass") == "activity":
             continue
         oid = org.get("id")
@@ -123,6 +135,10 @@ for country in registry.get("countries", []):
         for activity in org.get("activities") or []:
             if activity:
                 activities[norm(activity)] = str(activity)
+
+    if not published_country:
+        edus = []
+        events = []
 
     for edu in edus:
         eid = edu.get("id")

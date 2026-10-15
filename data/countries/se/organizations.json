@@ -1,0 +1,74 @@
+{
+  "updated": "2026-10-15",
+  "sourcePolicy": "First-party and government corroborated canonical organization; unverified details intentionally omitted.",
+  "organizations": [
+    {
+      "id": "smosz",
+      "name": "Svédországi Magyarok Országos Szövetsége (SMOSZ)",
+      "aliases": [
+        "Ungerska Riksförbundet",
+        "Hungarians’ Federation in Sweden"
+      ],
+      "country": "se",
+      "scope": "national",
+      "region": "Stockholms län",
+      "city": "Stockholm",
+      "type": "diaspora umbrella association",
+      "entityClass": "organization",
+      "website": "https://www.smosz.org/",
+      "email": "kapcsolat@smosz.org",
+      "intro": "A svédországi magyar egyesületek országos ernyőszervezete, amely a magyar nyelv, kultúra és hagyományok megőrzését, a tagszervezetek együttműködését és a közösségi programok szervezését segíti.",
+      "activities": [
+        "Magyar nyelv és kultúra ápolása",
+        "Tagszervezetek országos együttműködése",
+        "Közösségi és kulturális programok",
+        "Magyar hagyományőrzés"
+      ],
+      "history": {
+        "summary": "A szervezet az 1956-os magyar közösségi örökséget ápolja. A stockholmi Magyar Ház a szervezet hivatalos bemutatása szerint 1971 óta magyar közösségi helyszín. Az alapítás évét az eltérő intézményi közlések tisztázásáig nem rögzítjük tényként.",
+        "milestones": [
+          {
+            "year": "1971",
+            "title": "Stockholmi Magyar Ház",
+            "description": "A helyszín a szervezet saját történeti bemutatása szerint ettől az évtől a magyar egyesületek közösségi otthona.",
+            "sourceUrl": "https://www.smosz.org/index.php/hazak/magyar-haz"
+          }
+        ]
+      },
+      "profileVerifiedAt": "2026-10-15",
+      "evidenceSources": [
+        {
+          "label": "A SMOSZ hivatalos bemutatkozó oldala",
+          "url": "https://www.smosz.org/",
+          "type": "official"
+        },
+        {
+          "label": "Magyarország stockholmi nagykövetsége – Magyarok Svédországban",
+          "url": "https://stockholm.mfa.gov.hu/hu/magyarok-svedorszagban",
+          "type": "government"
+        },
+        {
+          "label": "Magyar Ház – a SMOSZ hivatalos helyszíni leírása",
+          "url": "https://www.smosz.org/index.php/hazak/magyar-haz",
+          "type": "official"
+        }
+      ],
+      "calendarSources": [
+        {
+          "label": "SMOSZ – Aktuális és központi rendezvények",
+          "url": "https://www.smosz.org/",
+          "sourceType": "official-website",
+          "ingestEvents": false
+        },
+        {
+          "label": "Központi előadások",
+          "url": "https://www.smosz.org/index.php/component/content/article/kozponti-eloadasok?catid=14",
+          "sourceType": "official-events",
+          "ingestEvents": false
+        }
+      ],
+      "pressMentions": [],
+      "publicChannels": []
+    }
+  ]
+}
