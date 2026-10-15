@@ -306,7 +306,7 @@
       if(!doc || doc.documentElement?.dataset.dorappCountryMapBound) return;
       doc.documentElement.dataset.dorappCountryMapBound="true";
       bindCountryMapController(obj,doc);
-      const buttons=$(".country-region-button");
+      const buttons=$$(".country-region-button");
       const byMapName=new Map(buttons.map(b=>[norm(b.dataset.mapRegion||b.querySelector("span")?.textContent||""),b]));
       const ns="http://www.w3.org/2000/svg";
       doc.querySelectorAll("[data-region]").forEach(path=>{
@@ -351,11 +351,11 @@
       });
     };
     obj.addEventListener("load",decorate);
-    if(obj.contentDocument?.readyState==="complete") decorate();
+    if(obj.contentDocument?.querySelector("svg")) decorate();
   }
 
   function bindRegionMap(){
-    $(".country-region-button").forEach(b=>b.addEventListener("click",()=>{
+    $$(".country-region-button").forEach(b=>b.addEventListener("click",()=>{
       const r=b.dataset.region;
       activeRegion=activeRegion===r?"":r;
       const sel=$("#countryRegion"); if(sel)sel.value=activeRegion;
@@ -396,5 +396,5 @@
     bindFilters();
     apply();
   }
-  init();
+  requestAnimationFrame(()=>requestAnimationFrame(init));
 })();

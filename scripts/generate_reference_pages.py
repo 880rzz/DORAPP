@@ -64,7 +64,7 @@ def shell(title,description,canonical,body,schema,prefix="../"):
 <link rel="canonical" href="{esc(canonical)}">
 <meta property="og:type" content="website"><meta property="og:title" content="{esc(title)}"><meta property="og:description" content="{esc(description)}"><meta property="og:url" content="{esc(canonical)}">
 <meta property="og:image" content="https://www.diaszporaterkep.hu/og-diaszpora.jpg"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:image:type" content="image/jpeg"><meta name="twitter:image" content="https://www.diaszporaterkep.hu/og-diaszpora.jpg"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="{esc(title)}"><meta name="twitter:description" content="{esc(description)}">
-<link rel="stylesheet" href="{prefix}styles.css">
+<link rel="stylesheet" href="{prefix}styles.css"><link rel="stylesheet" href="/design-editorial.css?v=20261015-2">
 <script type="application/ld+json">{jsonld(schema)}</script></head><body>
 <a class="skip" href="#main">Ugrás a tartalomhoz</a>
 <header class="topbar"><div class="wrap navrow"><a class="brand" href="{home}"><span class="mark">AT×HU</span><span>Magyar Programok Ausztriában</span></a><nav><a href="{home}#vilag">Térkép</a><a href="{home}#szervezetek">Közösségek</a><a href="{home}countries/at/#oktatas">Oktatás</a><a href="{home}#programnaptar">Programok</a></nav></div></header>
