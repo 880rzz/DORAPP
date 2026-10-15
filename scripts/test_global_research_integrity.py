@@ -15,6 +15,42 @@ def load_script(filename, name):
     return module
 
 class GlobalResearchIntegrityTests(unittest.TestCase):
+    def test_hourly_country_cycle_visits_each_country_once(self):
+        research = load_script("global_country_research.py", "global_country_research_cycle_test")
+        countries = [
+            {"iso2":"aa","researchStatus":"reviewed"},
+            {"iso2":"bb","researchStatus":"unresearched"},
+            {"iso2":"cc","researchStatus":"partial"},
+        ]
+        state = {}
+        visited = []
+        for _ in range(3):
+            batch = research.select_batch(countries, state)
+            self.assertEqual(len(batch), 1)
+            visited.append(batch[0]["iso2"])
+        self.assertEqual(visited, ["bb", "cc", "aa"])
+        self.assertEqual(state["cycleProgress"], 3)
+        self.assertEqual(state["cycleTotal"], 3)
+        self.assertEqual(len(set(visited)), 3)
+        self.assertEqual(research.select_batch(countries, state)[0]["iso2"], "bb")
+        self.assertEqual(state["researchCycle"], 2)
+        self.assertEqual(state["cycleProgress"], 1)
+
+    def test_hourly_country_cycle_survives_priority_changes(self):
+        research = load_script("global_country_research.py", "global_country_research_priority_test")
+        countries = [
+            {"iso2":"aa","researchStatus":"unresearched"},
+            {"iso2":"bb","researchStatus":"unresearched"},
+            {"iso2":"cc","researchStatus":"reviewed"},
+        ]
+        state = {}
+        self.assertEqual(research.select_batch(countries, state)[0]["iso2"], "aa")
+        countries[0]["researchStatus"] = "reviewed"
+        countries[1]["researchStatus"] = "reviewed"
+        self.assertEqual(research.select_batch(countries, state)[0]["iso2"], "bb")
+        self.assertEqual(research.select_batch(countries, state)[0]["iso2"], "cc")
+        self.assertEqual(state["cycleProgress"], 3)
+
     def test_news_publisher_schema_is_not_first_party_organization_evidence(self):
         verifier = load_script("verify_first_party_sites.py", "verify_first_party_sites_test")
         original_fetch = verifier.fetch
