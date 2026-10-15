@@ -193,6 +193,37 @@ function bindWorldMap(){
   const minScale = 1;
   const maxScale = 6;
 
+  const shell = obj.closest(".world-map-shell");
+  const toolbar = shell?.querySelector(".world-map-toolbar");
+  if(shell && toolbar && !toolbar.querySelector("[data-map-fullscreen]")){
+    const fullscreen=document.createElement("button");
+    fullscreen.type="button";
+    fullscreen.dataset.mapFullscreen="";
+    fullscreen.textContent="⛶";
+    fullscreen.title="Térkép teljes képernyőn";
+    fullscreen.setAttribute("aria-label","Térkép teljes képernyőn");
+    const syncFullscreen=()=>{
+      const active=document.fullscreenElement===shell||shell.classList.contains("map-fullscreen-fallback");
+      fullscreen.textContent=active?"×":"⛶";
+      fullscreen.title=active?"Teljes képernyő bezárása":"Térkép teljes képernyőn";
+      fullscreen.setAttribute("aria-label",fullscreen.title);
+      document.body.classList.toggle("map-fullscreen-open",active);
+    };
+    fullscreen.addEventListener("click",async()=>{
+      const active=document.fullscreenElement===shell||shell.classList.contains("map-fullscreen-fallback");
+      if(active){
+        if(document.fullscreenElement) await document.exitFullscreen?.();
+        shell.classList.remove("map-fullscreen-fallback");
+      }else if(shell.requestFullscreen){
+        try{await shell.requestFullscreen();}catch(_){shell.classList.add("map-fullscreen-fallback");}
+      }else shell.classList.add("map-fullscreen-fallback");
+      syncFullscreen();
+      applyTransform();
+    });
+    document.addEventListener("fullscreenchange",()=>{syncFullscreen();applyTransform();});
+    toolbar.appendChild(fullscreen);
+  }
+
   const clampPan = () => {
     if(scale <= 1){ x = 0; y = 0; return; }
     const rect = viewport.getBoundingClientRect();
@@ -249,9 +280,65 @@ function bindWorldMap(){
   },{passive:true});
   viewport.addEventListener("touchend",()=>{pinchDistance=0},{passive:true});
 
+  const bindEmbeddedPan = surface => {
+    if(!surface || surface.dataset.dorappPanBound) return;
+    surface.dataset.dorappPanBound="true";
+    surface.style.touchAction="none";
+    surface.style.userSelect="none";
+    const pointers=new Map();
+    let dragStart=null;
+    let pinchStart=null;
+    let moved=false;
+    const point=e=>({x:e.clientX,y:e.clientY});
+    surface.addEventListener("pointerdown",e=>{
+      pointers.set(e.pointerId,point(e));
+      moved=false;
+      try{surface.setPointerCapture(e.pointerId);}catch(_){}
+      if(pointers.size===1 && scale>1){
+        dragStart={px:e.clientX,py:e.clientY,x,y};
+        viewport.classList.add("is-dragging");
+      }else if(pointers.size===2){
+        const p=[...pointers.values()];
+        pinchStart={distance:Math.hypot(p[1].x-p[0].x,p[1].y-p[0].y),scale};
+        dragStart=null;
+        viewport.classList.add("is-dragging");
+      }
+    });
+    surface.addEventListener("pointermove",e=>{
+      if(!pointers.has(e.pointerId)) return;
+      pointers.set(e.pointerId,point(e));
+      if(pointers.size===2 && pinchStart?.distance){
+        const p=[...pointers.values()];
+        const distance=Math.hypot(p[1].x-p[0].x,p[1].y-p[0].y);
+        setScale(pinchStart.scale*distance/pinchStart.distance);
+        moved=true;
+        e.preventDefault();
+      }else if(dragStart && scale>1){
+        const dx=e.clientX-dragStart.px;
+        const dy=e.clientY-dragStart.py;
+        if(Math.abs(dx)+Math.abs(dy)>4) moved=true;
+        x=dragStart.x+dx;
+        y=dragStart.y+dy;
+        applyTransform();
+        e.preventDefault();
+      }
+    },{passive:false});
+    const end=e=>{
+      pointers.delete(e.pointerId);
+      try{surface.releasePointerCapture(e.pointerId);}catch(_){}
+      if(pointers.size<2) pinchStart=null;
+      if(!pointers.size){dragStart=null;viewport.classList.remove("is-dragging");}
+    };
+    surface.addEventListener("pointerup",end);
+    surface.addEventListener("pointercancel",end);
+    surface.addEventListener("click",e=>{if(moved){e.preventDefault();e.stopPropagation();moved=false;}},true);
+    surface.addEventListener("wheel",e=>{e.preventDefault();setScale(scale*(e.deltaY<0?1.18:1/1.18));},{passive:false});
+  };
+
   const decorateMap = () => {
     const doc = obj.contentDocument;
     if(!doc) return;
+    bindEmbeddedPan(doc.documentElement);
     const byIso = Object.fromEntries((registry.countries || []).map(c => [String(c.iso2||"").toLowerCase(),c]));
     const paint = (el,fill) => {
       if(el.matches?.("path,polygon,rect,circle,ellipse")) el.style.fill = fill;

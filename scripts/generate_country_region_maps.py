@@ -9,7 +9,7 @@ import pycountry
 ROOT=Path(__file__).resolve().parents[1]
 OUT=ROOT/"assets"/"maps"
 OUT.mkdir(parents=True,exist_ok=True)
-VERSION="5.1.1"
+VERSION="5.1.2"
 SOURCE="https://naturalearth.s3.amazonaws.com/10m_cultural/ne_10m_admin_1_states_provinces.zip"
 MANIFEST=OUT/"source.json"
 
@@ -68,7 +68,22 @@ def alpha2(rec):
 def region_name(rec):
     return str(rec.get("name") or rec.get("name_en") or rec.get("gn_name") or rec.get("iso_3166_2") or "").strip()
 
-def points_to_path(points, parts, minx, miny, scale, pad, height):
+def longitude_wrap_start(points):
+    """Return the longitude immediately after the largest circular gap."""
+    values=sorted({x % 360 for x,_ in points})
+    if len(values)<2:return None
+    gaps=[(values[i+1]-values[i],i+1) for i in range(len(values)-1)]
+    gaps.append((values[0]+360-values[-1],0))
+    gap,index=max(gaps)
+    raw=[x for x,_ in points]
+    return values[index] if max(raw)-min(raw)>180 and gap>0 else None
+
+def wrap_longitude(value,start):
+    if start is None:return value
+    value=value % 360
+    return value+360 if value<start else value
+
+def points_to_path(points, parts, minx, maxy, scale, offset_x, offset_y, wrap_start):
     chunks=[]
     starts=list(parts)+[len(points)]
     for a,b in zip(starts,starts[1:]):
@@ -76,8 +91,8 @@ def points_to_path(points, parts, minx, miny, scale, pad, height):
         if len(ring)<3:continue
         coords=[]
         for x,y in ring:
-            sx=pad+(x-minx)*scale
-            sy=height-(pad+(y-miny)*scale)
+            sx=offset_x+(wrap_longitude(x,wrap_start)-minx)*scale
+            sy=offset_y+(maxy-y)*scale
             coords.append((sx,sy))
         chunks.append("M "+" L ".join(f"{x:.2f},{y:.2f}" for x,y in coords)+" Z")
     return " ".join(chunks)
@@ -116,14 +131,18 @@ def main():
         for iso,regions in grouped.items():
             allpts=[pt for shapes in regions.values() for s in shapes for pt in s.points]
             if not allpts:continue
-            xs=[p[0] for p in allpts]; ys=[p[1] for p in allpts]
+            wrap_start=longitude_wrap_start(allpts)
+            xs=[wrap_longitude(p[0],wrap_start) for p in allpts]; ys=[p[1] for p in allpts]
             minx,maxx,miny,maxy=min(xs),max(xs),min(ys),max(ys)
             dx=max(maxx-minx,1e-6); dy=max(maxy-miny,1e-6)
             width,height,pad=1000.0,650.0,22.0
             scale=min((width-2*pad)/dx,(height-2*pad)/dy)
+            content_width=dx*scale; content_height=dy*scale
+            offset_x=(width-content_width)/2
+            offset_y=(height-content_height)/2
             paths=[]
             for name,shapes in sorted(regions.items(),key=lambda x:x[0].casefold()):
-                d=" ".join(points_to_path(s.points,s.parts,minx,miny,scale,pad,height) for s in shapes)
+                d=" ".join(points_to_path(s.points,s.parts,minx,maxy,scale,offset_x,offset_y,wrap_start) for s in shapes)
                 if not d:continue
                 paths.append(f'<path id="r-{slug(name)}" data-region="{esc(name)}" d="{d}"/>')
             svg=f'''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {int(width)} {int(height)}" role="img" aria-label="{iso.upper()} first-level administrative map"><g fill="#e2e3e5" stroke="#fff" stroke-width="1.5" stroke-linejoin="round">{"".join(paths)}</g></svg>'''
@@ -142,3 +161,4 @@ def main():
 
 if __name__=="__main__":
     main()
+

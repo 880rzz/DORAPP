@@ -211,7 +211,36 @@
     const status=toolbar?.querySelector("[data-country-map-status]");
     const pointers=new Map();
     let scale=1, x=0, y=0, dragStart=null, pinchStart=null, moved=false;
-    const MIN=1, MAX=3, STEP=.5;
+    const MIN=1, MAX=6, STEP=.5;
+
+    if(toolbar && !toolbar.querySelector("[data-map-fullscreen]")){
+      const container=viewport.closest(".country-map-interactive")||viewport;
+      const fullscreen=document.createElement("button");
+      fullscreen.type="button";
+      fullscreen.dataset.mapFullscreen="";
+      fullscreen.textContent="⛶";
+      fullscreen.title="Térkép teljes képernyőn";
+      fullscreen.setAttribute("aria-label",fullscreen.title);
+      const syncFullscreen=()=>{
+        const active=document.fullscreenElement===container||container.classList.contains("map-fullscreen-fallback");
+        fullscreen.textContent=active?"×":"⛶";
+        fullscreen.title=active?"Teljes képernyő bezárása":"Térkép teljes képernyőn";
+        fullscreen.setAttribute("aria-label",fullscreen.title);
+        document.body.classList.toggle("map-fullscreen-open",active);
+      };
+      fullscreen.addEventListener("click",async()=>{
+        const active=document.fullscreenElement===container||container.classList.contains("map-fullscreen-fallback");
+        if(active){
+          if(document.fullscreenElement) await document.exitFullscreen?.();
+          container.classList.remove("map-fullscreen-fallback");
+        }else if(container.requestFullscreen){
+          try{await container.requestFullscreen();}catch(_){container.classList.add("map-fullscreen-fallback");}
+        }else container.classList.add("map-fullscreen-fallback");
+        syncFullscreen();render();
+      });
+      document.addEventListener("fullscreenchange",()=>{syncFullscreen();render();});
+      toolbar.appendChild(fullscreen);
+    }
     function clamp(){
       const rect=viewport.getBoundingClientRect();
       const maxX=Math.max(0,rect.width*(scale-1)/2);

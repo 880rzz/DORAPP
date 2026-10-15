@@ -22,7 +22,7 @@ def check_page(path,canonical,entity_id=None):
         errors.append(f"canonical mismatch: {path}")
     if f'<meta name="robots" content="index,follow' not in text:
         errors.append(f"robots meta missing: {path}")
-    if "googletagmanager.com/gtag/js" in text or "gtag('config','G-1FC22JEX2F')" in text:
+    if "googletagmanager.com/gtag/js" in text or "gtag('config','G-MR6ZXXL5JQ')" in text:
         errors.append(f"non-consent analytics bootstrap present: {path}")
     if "ui.js" not in text:
         errors.append(f"shared consent/navigation controller missing: {path}")
@@ -214,7 +214,7 @@ for key,expected in (
 
 for p in ("index.html","forrasok.html","szervezet.html"):
     text=(ROOT/p).read_text(encoding="utf-8")
-    if "googletagmanager.com/gtag/js" in text or "gtag('config','G-1FC22JEX2F')" in text:
+    if "googletagmanager.com/gtag/js" in text or "gtag('config','G-MR6ZXXL5JQ')" in text:
         errors.append(f"non-consent analytics bootstrap present: {p}")
     if "ui.js" not in text:
         errors.append(f"shared consent/navigation controller missing: {p}")
@@ -227,9 +227,17 @@ if '"#szervezetek":"countries/at/' in world_js:
     errors.append("homepage organization anchor is shadowed by legacy Austria redirect")
 for token in ('addEventListener("load", decorateMap)', 'contentDocument?.readyState === "complete"', "decorateMap();"):
     if token not in world_js: errors.append(f"world map cached-SVG paint regression: missing {token}")
+for token in ("bindEmbeddedPan", "pointerdown", "pointermove", "data-map-fullscreen"):
+    if token not in world_js: errors.append(f"world map pan/fullscreen regression: missing {token}")
+
+ui_js = (ROOT / "ui.js").read_text(encoding="utf-8")
+if "G-1FC22JEX2F" in ui_js:
+    errors.append("retired GA4 measurement id remains in ui.js")
+for token in ("G-MR6ZXXL5JQ", 'gtag("consent","default"', 'gtag("consent","update"', "clearAnalyticsCookies"):
+    if token not in ui_js: errors.append(f"consent-first Analytics regression: missing {token}")
 
 styles=(ROOT/"styles.css").read_text(encoding="utf-8")
-for token in ("grid-auto-rows:1fr","-webkit-line-clamp:2","text-overflow:ellipsis","overflow-wrap:anywhere"):
+for token in ("grid-auto-rows:1fr","-webkit-line-clamp:2","text-overflow:ellipsis","overflow-wrap:anywhere","map-fullscreen-fallback","72vh"):
     if token not in styles: errors.append(f"equal-cell/overflow policy missing from CSS: {token}")
 
 human_audit=json.loads((ROOT/"data/human-language-audit.json").read_text(encoding="utf-8"))
@@ -240,8 +248,11 @@ if ecosystem_audit.get("blockingIssues"):
     errors.append(f"ecosystem-quality audit still has {len(ecosystem_audit['blockingIssues'])} blocking issue(s)")
 
 country_js = (ROOT / "country.js").read_text(encoding="utf-8")
-for token in ("pointerdown", "pointermove", "pointerup", "pointercancel", "setPointerCapture", "scale", "translate3d", "data-country-map-reset", "clamp"):
+for token in ("pointerdown", "pointermove", "pointerup", "pointercancel", "setPointerCapture", "scale", "translate3d", "data-country-map-reset", "data-map-fullscreen", "clamp"):
     if token not in country_js: errors.append(f"country map pan/zoom regression: missing {token}")
+map_generator = (ROOT / "scripts" / "generate_country_region_maps.py").read_text(encoding="utf-8")
+for token in ('VERSION="5.1.2"', "longitude_wrap_start", "wrap_longitude", "offset_x=(width-content_width)/2", "offset_y=(height-content_height)/2"):
+    if token not in map_generator: errors.append(f"country map projection regression: missing {token}")
 for iso in ("at", "nl", "be", "us"):
     page = (ROOT / "countries" / iso / "index.html").read_text(encoding="utf-8")
     if 'country-map-viewport' not in page or 'data-country-map-zoom-in' not in page: errors.append(f"{iso}: shared country map controller markup missing")
