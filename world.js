@@ -509,6 +509,69 @@ function bindOrganizationDirectory(){
   });
 }
 
+let searchIndexPromise = null;
+let calendarPromise = null;
+let searchIndexLoaded = false;
+
+function ensureSearchIndex(){
+  if(!searchIndexPromise){
+    searchIndexPromise = fetch("data/global-search-index.json",{cache:"no-store"})
+      .then(r=>{if(!r.ok)throw new Error("search-index-unavailable");return r.json();})
+      .then(data=>{
+        searchIndex = data;
+        searchIndexLoaded = true;
+        populateOrganizationFilters();
+        renderOrganizations();
+        if($("#globalSearch")?.value.trim()) renderSuggestions();
+        return data;
+      })
+      .catch(()=>{
+        searchIndexLoaded = true;
+        searchIndex = {items:[]};
+        populateOrganizationFilters();
+        renderOrganizations();
+        return searchIndex;
+      });
+  }
+  return searchIndexPromise;
+}
+
+function ensureCalendar(){
+  if(!calendarPromise){
+    calendarPromise = fetch("data/global-events.json",{cache:"no-store"})
+      .then(r=>{if(!r.ok)throw new Error("calendar-unavailable");return r.json();})
+      .then(data=>{
+        globalEvents = data;
+        populateCalendarCountries();
+        renderGlobalCalendar();
+        return data;
+      })
+      .catch(()=>{
+        globalEvents={events:[]};
+        populateCalendarCountries();
+        renderGlobalCalendar();
+        return globalEvents;
+      });
+  }
+  return calendarPromise;
+}
+
+function loadWhenNear(selector,load){
+  const target=$(selector);
+  if(!target)return;
+  if(!("IntersectionObserver" in window)){
+    load();
+    return;
+  }
+  const observer=new IntersectionObserver(entries=>{
+    if(entries.some(entry=>entry.isIntersecting)){
+      observer.disconnect();
+      load();
+    }
+  },{rootMargin:"320px 0px"});
+  observer.observe(target);
+}
+
 async function init(){
   const legacyHashRoutes = {
     "#naptar":"countries/at/#programok",
@@ -519,28 +582,36 @@ async function init(){
     location.replace(legacyHashRoutes[location.hash]);
     return;
   }
-  const [g,s,e] = await Promise.all([
-    fetch("data/global.json",{cache:"no-store"}).then(r => r.json()),
-    fetch("data/global-search-index.json",{cache:"no-store"}).then(r => r.json()).catch(() => ({items:[]})),
-    fetch("data/global-events.json",{cache:"no-store"}).then(r => r.json()).catch(() => ({events:[]}))
-  ]);
-  registry = g;
-  searchIndex = s;
-  globalEvents = e;
+
   bindSearch();
-  const initialQuery = new URLSearchParams(location.search).get("q");
-  if(initialQuery && $("#globalSearch")){
-    $("#globalSearch").value = initialQuery;
-    renderSuggestions();
+  bindOrganizationDirectory();
+  bindCalendar();
+
+  $("#globalSearch")?.addEventListener("focus",()=>{void ensureSearchIndex();});
+  $("#globalSearch")?.addEventListener("input",()=>{void ensureSearchIndex();});
+  for(const id of ["#organizationCountry","#organizationType","#organizationSearch"]){
+    $(id)?.addEventListener("focus",()=>{void ensureSearchIndex();});
+    $(id)?.addEventListener("input",()=>{void ensureSearchIndex();});
+    $(id)?.addEventListener("change",()=>{void ensureSearchIndex();});
   }
+  $("#globalCalendarSearch")?.addEventListener("focus",()=>{void ensureCalendar();});
+  $("#globalCalendarCountry")?.addEventListener("focus",()=>{void ensureCalendar();});
+
+  const g=await fetch("data/global.json",{cache:"no-store"}).then(r=>{
+    if(!r.ok)throw new Error("global-registry-unavailable");
+    return r.json();
+  });
+  registry=g;
   renderCountryList();
   bindWorldMap();
-  populateOrganizationFilters();
-  bindOrganizationDirectory();
-  renderOrganizations();
-  populateCalendarCountries();
-  bindCalendar();
-  renderGlobalCalendar();
+
+  const initialQuery = new URLSearchParams(location.search).get("q");
+  if(initialQuery && $("#globalSearch")){
+    $("#globalSearch").value=initialQuery;
+    void ensureSearchIndex();
+  }
+  loadWhenNear("#szervezetek",()=>{void ensureSearchIndex();});
+  loadWhenNear("#programnaptar",()=>{void ensureCalendar();});
 }
 
 requestAnimationFrame(()=>requestAnimationFrame(init));
