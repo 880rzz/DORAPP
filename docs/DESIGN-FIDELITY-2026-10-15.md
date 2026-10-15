@@ -11,6 +11,7 @@ The visual concept is a direction, not a data or functionality specification. Pr
 - System UI typography with no bundled Apple fonts, restrained fixed breakpoint sizes, zero negative letter spacing, consistent spacing and focus states.
 - Shared editorial treatment for the homepage, country routes, organization, education and event profiles, category/state pages, methodology, data quality, header, navigation and footer.
 - Existing IDs, data hooks, maps, search, filters, schema, source evidence, consent and AI Trust surfaces remain authoritative.
+- The latest `main` audit outputs are merged before release validation; generated audit data is preserved.
 - Compact gray WhatsApp contact control remains available without an SDK, iframe or pre-click Meta request.
 
 ## Mapping from visual concept to canonical UI
