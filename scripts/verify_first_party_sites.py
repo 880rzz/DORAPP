@@ -78,7 +78,8 @@ def country_match(address_country,iso,names,text):
     # cannot override contradictory structured location evidence.
     if ac:
         return ac in values
-    return any(v and len(v)>3 and v in text for v in values)
+    normalized_text=norm(text)
+    return any(v and len(v)>3 and v in normalized_text for v in values)
 
 def identity_tokens(title):
     stop={"hungarian","magyar","association","community","school","church","club","society","of","the","in","and","egyesulet","kozosseg","iskola"}
