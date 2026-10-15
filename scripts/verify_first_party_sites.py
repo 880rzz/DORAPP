@@ -94,7 +94,6 @@ def verify_item(item,c,checked):
             if not text:
                 continue
             org_signal=bool(re.search(r"\b(hungarian|magyar)\b",text)) and bool(re.search(r"\b(association|community|school|church|club|society|cultural|scout|choir|theatre|foundation|center|centre|egyesulet|kozosseg|iskola|templom|cserkesz)\b",text))
-            token_hits=sum(1 for t in tokens if t in text)
             for obj in jsonld_objects(raw):
                 types=type_set(obj)&ORG_TYPES
                 if not types:
@@ -110,8 +109,14 @@ def verify_item(item,c,checked):
                 region=addr.get("addressRegion")
                 if not country_match(addr_country,iso,names,text):
                     continue
-                identity_ok=token_hits>=1 or norm(name) in text
-                score=(3 if org_signal else 0)+(2 if identity_ok else 0)+(2 if locality else 0)+(1 if region else 0)
+                # A publisher Organization on an unrelated news article is not the
+                # Hungarian organization described by the discovery candidate.
+                # Match distinctive identity tokens against the schema entity name,
+                # never merely against surrounding article text.
+                identity_ok=bool(tokens and (tokens & identity_tokens(name)))
+                if not (org_signal and identity_ok):
+                    continue
+                score=3+2+(2 if locality else 0)+(1 if region else 0)
                 candidate={
                   "country":iso,
                   "name":name,
