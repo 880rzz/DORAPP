@@ -78,6 +78,6 @@ jobs:
             countries
             assets/maps
       - name: Notify IndexNow after validated build
-        if: success() && github.event_name == 'workflow_dispatch'
+        if: success() && github.event_name == 'push'
         continue-on-error: true
         run: python scripts/submit_indexnow.py
