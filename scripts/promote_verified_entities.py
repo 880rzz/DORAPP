@@ -37,6 +37,10 @@ def main():
         iso=x.get("country")
         if not iso or not x.get("name") or not x.get("website") or not x.get("city"):
             continue
+        if (x.get("verificationScore") or 0) < 7 or x.get("verificationMethod") != "first-party HTML + JSON-LD organization + country match":
+            continue
+        if not x.get("verifiedAt") or not x.get("addressCountry"):
+            continue
         p=DATA/"countries"/iso/"organizations.json"
         doc=read(p,{
           "updated":now_date(),
@@ -48,7 +52,7 @@ def main():
         existing=None
         for o in items:
             oh=urllib.parse.urlparse(o.get("website") or "").netloc.lower().removeprefix("www.")
-            if oh and oh==host:
+            if oh and oh==host and (o.get("website") or "").rstrip("/") == x["website"].rstrip("/"):
                 existing=o;break
             if o.get("name","").casefold()==x["name"].casefold() and o.get("city")==x.get("city"):
                 existing=o;break
@@ -82,6 +86,16 @@ def main():
         p.parent.mkdir(parents=True,exist_ok=True)
         p.write_text(json.dumps(doc,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
         promoted+=1
+        # New verified evidence invalidates an earlier negative country conclusion.
+        registry=DATA/"global.json"
+        world=read(registry,{"countries":[]})
+        for country in world.get("countries",[]):
+            if country.get("iso2")==iso and country.get("researchStatus")=="verified-zero":
+                country["researchStatus"]="researching"
+                country["verifiedZeroInvalidatedAt"]=datetime.now(timezone.utc).replace(microsecond=0).isoformat()
+                country["verifiedZeroInvalidatedByEntity"]=eid
+                registry.write_text(json.dumps(world,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
+                break
     print(f"Canonical promotions={promoted}")
 
 if __name__=="__main__":
