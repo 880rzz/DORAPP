@@ -1,96 +1,80 @@
-# DORAPP Reference Architecture — Search / GEO / Schema / LLM / E‑E‑A‑T / AI Trust
+# DORAPP reference architecture — Search / GEO / Schema / LLM / E-E-A-T / AI Trust
 
-Canonical production: https://diaszpora.kozpontiszovetseg.at/
+Canonical production: https://www.diaszporaterkep.hu/
 
-## Authority model
+## Purpose and authority
 
-DORAPP is designed as a source-backed national reference layer for Hungarian community life in Austria.
+DORAPP is a source-backed global directory and event calendar for Hungarian diaspora communities. Austria is the mature compatibility dataset; the global country model is authoritative for worldwide navigation.
 
-Primary authority chain:
+Truth chain:
 
-1. canonical entity/profile page on DORAPP
-2. canonical structured JSON record
-3. explicit official or institutional evidence source attached to that record
-4. public methodology and data-quality evidence
-5. machine-readable entity and AI entry points
+1. canonical country or Austrian compatibility data;
+2. generator/shared component;
+3. generated public output;
+4. validator and automated audit;
+5. GitHub Actions build;
+6. GitHub Pages deployment and representative live verification.
 
-The system must never create authority by repetition. Unsupported facts remain absent.
+Generated HTML is never edited as the primary fix when canonical data or a generator can resolve the issue once.
 
-## Search architecture
+## Canonical surfaces
 
-Indexable surfaces:
+- `data/global.json`: ISO country registry, research status and derived counts;
+- `data/countries/<iso2>/`: country organizations, education, events and research completion;
+- `data/organizations.json`, `data/education.json`, `data/events.json`: Austrian canonical compatibility authority;
+- `scripts/generate_*.py`: deterministic publication layer;
+- `world.js`, `country.js`, `ui.js`, `styles.css`: shared interaction and presentation layer.
 
-- / — national collection
-- /szervezetek/{id}.html — canonical organization/entity profiles
-- /oktatas/{id}.html — canonical education profiles
-- /esemenyek/{id}.html — canonical Event leaf pages
-- /tartomanyok/{state}.html — geographic collection pages
-- /kategoriak/{category}.html — semantic collection pages
-- /forrasok.html — methodology/AboutPage
-- /adatminoseg.html — live transparency/data-quality page
+## Public routes
 
-Discovery:
+- `/`: world map, global search, reviewed organizations and programs;
+- `/countries/<iso2>/`: country collection;
+- `/countries/<iso2>/{organizations,education,events}/<id>.html`: global entity leaves;
+- `/szervezetek/`, `/oktatas/`, `/esemenyek/`: Austrian compatibility leaves;
+- `/tartomanyok/`, `/kategoriak/`: Austrian geographic and semantic collections;
+- `/forrasok.html`, `/adatminoseg.html`: methodology and live transparency.
 
-- robots.txt
-- sitemap.xml with evidence-derived lastmod values
-- internal links from homepage, profile pages and event cards
-- IndexNow notification after successful deployment
+## Research states
 
-## Schema graph
+`unresearched`, `researching`, `partial`, `reviewed`, and `verified-zero` are distinct. Only `reviewed` and `verified-zero` countries are presented as completed and included in ready-country search, calendar and sitemap surfaces. Counts are build-derived.
 
-Homepage: Organization publisher, WebSite, CollectionPage, Dataset.
-Organization profiles: ProfilePage, Organization, BreadcrumbList, publisher relationship, source-backed parentOrganization/memberOf, optional verified founding/contact data.
-Education profiles: ProfilePage, EducationalOrganization, BreadcrumbList, publisher relationship.
-Event profiles: WebPage, Event, organizer Organization, Place/PostalAddress, Offer when available, performers when available, BreadcrumbList.
-Geographic/category landing pages: CollectionPage, ItemList, BreadcrumbList.
-Methodology/transparency: AboutPage, DataCatalog, publisher Organization.
-Machine entity graph: /entity.jsonld.
+## Search, GEO and Schema
 
-## GEO / LLM reference layer
+Canonical URLs use `https://www.diaszporaterkep.hu`. Sitemap, robots, internal links and country/entity routes must agree.
 
-Machine entry points:
-- /llms.txt
-- /ai.txt
-- /ai-entry.json
-- /entity.jsonld
-- /data/organizations.json
-- /data/education.json
-- /data/events.json
-- /data/articles.json
-- /forrasok.html
-- /adatminoseg.html
+The schema graph uses WebSite, Organization publisher, Dataset/CollectionPage, ProfilePage, Organization/EducationalOrganization/Event, Place/PostalAddress and BreadcrumbList as appropriate. Structured data must mirror visible verified facts. Parent, membership and affiliation semantics are not interchangeable.
 
-Rules for AI citation:
+GEO identity is represented by ISO country, region/state, city, areaServed and address. The repository-owned world map has ISO identifiers and no map API dependency.
 
-- prefer canonical entity/event/education leaf URL for a specific claim
-- use collection pages for navigation, not for facts absent from canonical records
-- missing facts must not be inferred
-- sourceUrl/evidenceSources remain the underlying evidence trail
-- current event facts remain subordinate to the organizer's latest official source
+## GDPR and direct contact
 
-## E‑E‑A‑T
+Analytics uses GA4 `G-1FC22JEX2F` only after explicit consent through `ui.js`. Core directory functions do not depend on analytics. Consent can be accepted, rejected and reopened.
 
-Evidence of experience/expertise/trust is structural rather than promotional:
+The WhatsApp control is an ordinary external link to `+43 677 616 555 92`. No WhatsApp resource, cookie or SDK loads before an intentional click. The external provider receives data only after the visitor activates the link.
 
-- identified publisher with ZVR 079797621
-- operator/imprint link
-- GDPR & AI Trust link
-- public editorial methodology
-- public data-quality status
-- correction channel
-- source-backed history fields
-- machine-visible verification timestamps
-- separation of automatic discovery from steward-maintained facts
-- no analytics/tracking dependency for directory use
+## E-E-A-T and AI trust
 
-## Footer credit
+Trust is structural:
 
-Fejlesztette a Be Smart Kids Club csapata
+- identified publisher and ZVR `079797621`;
+- visible evidence sources and verification timestamps;
+- public methodology, data-quality report and correction channel;
+- protected steward fields and explicit relation types;
+- separate technical source health from organizational status;
+- no invented data or authority by repetition.
 
-with references to the Rólunk.at background article and business.vipach.at.
+Machine entry points: `/llms.txt`, `/ai.txt`, `/ai-entry.json`, `/entity.jsonld`, canonical JSON and leaf pages. Specific claims should cite the canonical leaf and its evidence trail.
 
-## Editorial rule
+## Authorship and contact
 
-Do not optimize by keyword stuffing, doorway pages, invented local pages or unsupported schema.
+The required footer attribution is: “A Bécsi Magyar Iskola – Be Smart Kids Club csapata hozta létre.”
 
-Search visibility must derive from useful unique pages, entity clarity, complete source attribution, geographic and semantic internal linking, freshness, public correction policy, and structured data that matches visible content.
+Official project contact: `marketing@kozpontiszovetseg.at`.
+
+The canonical Bécsi Magyar Iskola record is a child institution of `kozponti-szovetseg`, with public contact and leadership data supported by the official BMI contact page.
+
+## Release gate
+
+Required checks include JSON parse, Python compile, JavaScript syntax, directory/global/static validation, generators, semantic duplicates, sitemap/canonical agreement, JSON-LD parse, consent-first analytics, shared UI presence, link/human-language/ecosystem audits, Actions success, deployment and representative live checks.
+
+See `docs/AUDIT-2026-10-15-MUSK-LENS.md` for the current first-principles audit and remaining priorities.

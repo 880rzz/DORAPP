@@ -114,3 +114,8 @@ A DORAPP négy külön réteget kezel, hogy a szervezetek és a foglalkozások n
 4. **Programok** — dátumhoz kötött események.
 
 A `scripts/audit_taxonomy.py` forrásoldalak alapján naponta ellenőrzi a besorolások konzisztenciáját.
+
+
+## Current system audit
+
+The current first-principles frontend/backend and SEO/GEO/Schema/GDPR/E-E-A-T/LLM/AI Trust review is documented in [docs/AUDIT-2026-10-15-MUSK-LENS.md](docs/AUDIT-2026-10-15-MUSK-LENS.md). The canonical global architecture is documented in [docs/REFERENCE_ARCHITECTURE.md](docs/REFERENCE_ARCHITECTURE.md).

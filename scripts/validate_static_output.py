@@ -12,6 +12,17 @@ global_search=json.loads((ROOT/"data/global-search-index.json").read_text(encodi
 sitemap=(ROOT/"sitemap.xml").read_text(encoding="utf-8")
 errors=[]
 OLD_BASE="https://diaszpora.kozpontiszovetseg.at"
+UI=(ROOT/"ui.js").read_text(encoding="utf-8")
+if 'const GA_ID="G-1FC22JEX2F"' not in UI: errors.append("canonical consent-first GA ID missing from ui.js")
+if "G-MR6ZXXL5JQ" in UI: errors.append("retired GA ID remains in ui.js")
+if "https://wa.me/4367761655592" not in UI or 'aria-label","Írj nekünk WhatsAppon"' not in UI: errors.append("shared WhatsApp contact control missing or inaccessible")
+if "whatsapp-fab" not in (ROOT/"styles.css").read_text(encoding="utf-8"): errors.append("WhatsApp control styling missing")
+BMI=next((x for x in org.get("organizations",[]) if x.get("id")=="becsi-magyar-iskola"),None)
+if not BMI: errors.append("Bécsi Magyar Iskola canonical record missing")
+else:
+    if BMI.get("parentOrganizationId")!="kozponti-szovetseg": errors.append("Bécsi Magyar Iskola parent relationship missing")
+    if BMI.get("email")!="marketing@kozpontiszovetseg.at": errors.append("Bécsi Magyar Iskola public contact email mismatch")
+    if BMI.get("phone")!="+43 677 616 555 92": errors.append("Bécsi Magyar Iskola WhatsApp contact mismatch")
 
 public_files=[
     ROOT/"index.html", ROOT/"forrasok.html", ROOT/"szervezet.html",
@@ -37,6 +48,8 @@ def check_page(path,canonical,entity_id=None):
         errors.append(f"non-consent analytics bootstrap present: {path}")
     if "ui.js" not in text:
         errors.append(f"shared consent/navigation controller missing: {path}")
+    if "Bécsi Magyar Iskola" not in text or "Be Smart Kids Club" not in text:
+        errors.append(f"creator attribution missing: {path}")
     if canonical not in sitemap:
         errors.append(f"sitemap missing: {canonical}")
     blocks=re.findall(r'<script type="application/ld\+json">(.*?)</script>',text,re.S)

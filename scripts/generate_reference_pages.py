@@ -52,7 +52,7 @@ def footer(prefix="../"):
     return f'''<footer><div class="wrap footer-grid">
     <div><b>Magyar Programok Ausztriában</b><p>Forrásalapú címtár, oktatási adatbázis és programnaptár egész Ausztriából.</p></div>
     <div><a href="{prefix}forrasok.html">Módszertan és források</a><br><a href="https://www.kozpontiszovetseg.at/kapcsolat" target="_blank" rel="noopener external">Impresszum / kapcsolat ↗</a><br><a href="https://www.kozpontiszovetseg.at/post/gdpr-ai-trust" target="_blank" rel="noopener external">GDPR & AI Trust ↗</a></div>
-    <div>Fejlesztette a <a href="https://rolunk.at/aktualis/a-fiataloknak-ma-mar-bizonyitek-kell-egy-becsi-kreativ-kozosseg-uj-generaciot-epit/" target="_blank" rel="noopener external">Be Smart Kids Club csapata</a><br><a href="https://business.vipach.at" target="_blank" rel="noopener external">business.vipach.at</a></div>
+    <div>A <a href="https://www.magyariskola.at/" target="_blank" rel="noopener external">Bécsi Magyar Iskola</a> – <a href="https://rolunk.at/aktualis/a-fiataloknak-ma-mar-bizonyitek-kell-egy-becsi-kreativ-kozosseg-uj-generaciot-epit/" target="_blank" rel="noopener external">Be Smart Kids Club</a> csapata hozta létre.<br><a href="mailto:marketing@kozpontiszovetseg.at">marketing@kozpontiszovetseg.at</a></div>
     </div></footer>'''
 
 def shell(title,description,canonical,body,schema,prefix="../"):
@@ -68,7 +68,7 @@ def shell(title,description,canonical,body,schema,prefix="../"):
 <script type="application/ld+json">{jsonld(schema)}</script></head><body>
 <a class="skip" href="#main">Ugrás a tartalomhoz</a>
 <header class="topbar"><div class="wrap navrow"><a class="brand" href="{home}"><span class="mark">AT×HU</span><span>Magyar Programok Ausztriában</span></a><nav><a href="{home}#vilag">Térkép</a><a href="{home}#szervezetek">Közösségek</a><a href="{home}countries/at/#oktatas">Oktatás</a><a href="{home}#programnaptar">Programok</a></nav></div></header>
-<main id="main">{body}</main>{footer(prefix)}<script src="{prefix}ui.js?v=20260926-consent-nav" defer></script></body></html>'''
+<main id="main">{body}</main>{footer(prefix)}<script src="{prefix}ui.js?v=20261015-trust-contact-1" defer></script></body></html>'''
 
 def place_schema(e):
     addr=e.get("address")

@@ -278,3 +278,15 @@ body{letter-spacing:0}
 .country-region-button{height:54px;min-height:54px;overflow:hidden}
 input,select,button{min-width:0;max-width:100%}
 @media(max-width:760px){.global-organization-row{height:172px;min-height:172px}}
+
+
+/* Shared authorship and direct-contact controls */
+.site-credit{grid-column:1/-1;padding-top:16px;border-top:1px solid var(--line);line-height:1.65}
+.site-credit a{font-weight:650;text-underline-offset:3px}
+.whatsapp-fab{position:fixed;right:max(18px,env(safe-area-inset-right));bottom:max(18px,env(safe-area-inset-bottom));z-index:110;display:grid;place-items:center;width:56px;height:56px;border-radius:50%;background:#25d366;color:#fff;box-shadow:0 12px 34px rgba(0,0,0,.24);transition:transform .16s ease,box-shadow .16s ease}
+.whatsapp-fab svg{width:29px;height:29px;fill:currentColor}
+.whatsapp-fab:hover{transform:translateY(-2px);box-shadow:0 16px 38px rgba(0,0,0,.28)}
+.whatsapp-fab:focus-visible{outline:3px solid #111;outline-offset:4px}
+.consent-open .whatsapp-fab{display:none}
+@media(max-width:620px){.whatsapp-fab{right:max(14px,env(safe-area-inset-right));bottom:max(14px,env(safe-area-inset-bottom));width:52px;height:52px}}
+@media(prefers-reduced-motion:reduce){.whatsapp-fab{transition:none}}
