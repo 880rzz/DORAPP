@@ -175,7 +175,7 @@ jobs:
             node --check ui.js
             python scripts/validate_directory.py
             python scripts/validate_static_output.py
-            git add data/global.json data/research-state.json data/verification-queue.json data/promotion-ready.json data/daily-runs data/countries data/global-search-index.json data/global-events.json data/link-audit.json data/human-language-audit.json data/ecosystem-quality-audit.json countries assets/maps sitemap.xml esemenyek tartomanyok kategoriak entity.jsonld ai-entry.json adatminoseg.html
+            git add data/global.json data/research-state.json data/verification-queue.json data/promotion-ready.json data/global-press-review-queue.json data/daily-runs data/countries data/global-search-index.json data/global-events.json data/link-audit.json data/human-language-audit.json data/ecosystem-quality-audit.json countries assets/maps sitemap.xml esemenyek tartomanyok kategoriak entity.jsonld ai-entry.json adatminoseg.html
             if git diff --cached --quiet; then
               echo "No material global changes remain after rebuild"
               exit 0
