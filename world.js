@@ -437,8 +437,8 @@ function renderGlobalCalendar(){
 }
 
 function bindCalendar(){
-  $("#globalCalendarCountry")?.addEventListener("change",()=>{void ensureCalendar().then(renderGlobalCalendar);});
-  $("#globalCalendarSearch")?.addEventListener("input",()=>{void ensureCalendar().then(renderGlobalCalendar);});
+  $("#globalCalendarCountry")?.addEventListener("change",()=>{void ensureCalendar().then(()=>{if(calendarPromise)renderGlobalCalendar();});});
+  $("#globalCalendarSearch")?.addEventListener("input",()=>{void ensureCalendar().then(()=>{if(calendarPromise)renderGlobalCalendar();});});
 }
 
 function organizationItems(){
