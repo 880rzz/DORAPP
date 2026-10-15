@@ -147,7 +147,7 @@ function renderCountryList(){
   root.innerHTML = rows.map(c => {
     const ready = isReady(c);
     const count = c.counts?.organizations || 0;
-    const status = ready ? (c.researchStatus === "verified-zero" ? count+" ellenőrzött szervezet" : count+" szervezet") : count+" ellenőrzött · készül";
+    const status = c.researchStatus === "verified-zero" ? "Lezárt kutatás · nincs igazolt szervezet" : (ready ? count+" ellenőrzött szervezet" : count+" ellenőrzött · kutatás alatt");
     return '<a href="'+esc(c.route)+'" class="'+(ready?'country-ready':'country-building')+'"><strong>'+esc(countryLabel(c))+'</strong><span>'+esc(status)+'</span></a>';
   }).join("");
 }
@@ -347,8 +347,8 @@ function bindWorldMap(){
       el.querySelectorAll?.("path,polygon,rect,circle,ellipse").forEach(n => n.style.fill = fill);
     };
     const base = "#d9dde1";
-    const readyColor = "#a9c9dc";
-    const readyHover = "#82aec8";
+    const readyColor = "#91cbaa";
+    const readyHover = "#62ad87";
     const zeroColor = "#d96b67";
     const zeroHover = "#c84f4b";
     const buildingHover = "#c4cbd1";
