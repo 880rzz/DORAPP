@@ -1,6 +1,9 @@
 name: DORAPP production smoke
 
 on:
+  push:
+    branches: ["main"]
+    paths: [".github/workflows/production-smoke.yml"]
   workflow_run:
     workflows: ["pages build and deployment"]
     types: [completed]
@@ -15,7 +18,7 @@ concurrency:
 
 jobs:
   verify-production:
-    if: ${{ github.event_name == 'workflow_dispatch' || github.event.workflow_run.conclusion == 'success' }}
+    if: ${{ github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success' }}
     runs-on: ubuntu-latest
     steps:
       - name: Verify representative live routes and trust surfaces
@@ -27,7 +30,7 @@ jobs:
           fetch() {
             local route="$1"
             local output="$2"
-            curl --fail --show-error --silent --location               --retry 12 --retry-all-errors --retry-delay 5               --connect-timeout 15 --max-time 60               -H "Cache-Control: no-cache"               "${base}${route}?production-smoke=${{ github.run_id }}"               -o "${work}/${output}"
+            curl --fail --show-error --silent --location --retry 12 --retry-all-errors --retry-delay 5 --connect-timeout 15 --max-time 60 -H "Cache-Control: no-cache" "${base}${route}?production-smoke=${{ github.run_id }}" -o "${work}/${output}"
             test -s "${work}/${output}"
           }
 
