@@ -117,7 +117,8 @@
 .world-legend{display:flex;align-items:center;gap:18px;flex-wrap:wrap;color:var(--muted);font-size:.82rem}
 .world-legend span{display:flex;align-items:center;gap:7px}
 .world-legend i{display:inline-block;width:14px;height:14px;border-radius:4px;border:1px solid rgba(0,0,0,.08)}
-.legend-ready{background:#a9c9dc}
+.legend-ready{background:#91cbaa}
+.legend-zero{background:#d96b67}
 .legend-building{background:#d7d8db}
 .world-legend b{display:inline-grid;place-items:center;width:18px;height:18px;border-radius:50%;background:#111;color:#fff;font-size:.68rem}
 .country-directory{border-top:1px solid var(--line);padding-top:18px}
