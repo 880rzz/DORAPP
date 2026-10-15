@@ -51,7 +51,7 @@ for c in globaldb.get("countries",[]):
                 for e in (o.get("evidenceSources") or [])
             ))
             if o.get("id") and (reviewed or supported):
-                urls.append((f"{BASE}/countries/{iso}/organizations/{quote(str(o["id"]))}.html",str(o.get("profileVerifiedAt") or global_updated)[:10]))
+                urls.append((f"{BASE}/countries/{iso}/organizations/{quote(str(o['id']))}.html",str(o.get("profileVerifiedAt") or global_updated)[:10]))
 
     if not reviewed:
         continue
