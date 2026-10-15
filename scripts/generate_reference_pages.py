@@ -17,6 +17,9 @@ EVENT_DIR=ROOT/"esemenyek"
 STATE_DIR=ROOT/"tartomanyok"
 CATEGORY_DIR=ROOT/"kategoriak"
 for d in (EVENT_DIR,STATE_DIR,CATEGORY_DIR): d.mkdir(exist_ok=True)
+for directory in (STATE_DIR,CATEGORY_DIR):
+    for path in directory.glob("*.html"):
+        path.unlink()
 
 states={x["id"]:x for x in ORG.get("states",[])}
 orgs=ORG.get("organizations",[])
@@ -111,7 +114,7 @@ for e in events:
       PUBLISHER,
       {"@type":"BreadcrumbList","itemListElement":[
         {"@type":"ListItem","position":1,"name":"Magyar Programok Ausztriában","item":BASE+"/"},
-        {"@type":"ListItem","position":2,"name":"Programok","item":BASE+"/#naptar"},
+        {"@type":"ListItem","position":2,"name":"Programok","item":BASE+"/#programnaptar"},
         {"@type":"ListItem","position":3,"name":e.get("name"),"item":url}
       ]}
     ]}

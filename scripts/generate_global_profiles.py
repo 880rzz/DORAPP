@@ -63,6 +63,11 @@ def event_future(e):
         return True
 
 def main():
+    for country_dir in (ROOT/"countries").glob("*") if (ROOT/"countries").exists() else []:
+        profile_dir=country_dir/"organizations"
+        if profile_dir.exists():
+            for path in profile_dir.glob("*.html"):
+                path.unlink()
     g=read(DATA/"global.json",{"countries":[]})
     generated=0
     for c in g.get("countries",[]):
