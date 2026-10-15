@@ -8,9 +8,9 @@ DATA = ROOT / "data"
 GLOBAL = DATA / "global.json"
 STATE = DATA / "research-state.json"
 RUNS = DATA / "daily-runs"
-BATCH_SIZE = 8
+BATCH_SIZE = 1
 TIMEOUT = 20
-UA = "DORAPP-Global-Steward/1.0 (+https://diaszpora.kozpontiszovetseg.at/)"
+UA = "DORAPP-Global-Steward/1.0 (+https://www.diaszporaterkep.hu/)"
 
 QUERY_TEMPLATES = [
     ("hu", "\"{country}\" magyar egyesület"),
