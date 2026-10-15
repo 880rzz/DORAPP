@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-14T09:30:47.724919+00:00",
+  "updated": "2026-10-15T01:20:00+00:00",
   "sources": [
     {
       "organizationId": "alsoori-katolikus",
@@ -44,29 +44,26 @@
     {
       "organizationId": "cserkesz-80",
       "source": "https://wels.cserkesz.eu/programok/",
-      "checkedAt": "2026-10-14T09:30:09.185659+00:00",
-      "status": "error",
-      "eventsFound": 0,
-      "pagesChecked": 0,
-      "error": "HTTP Error 500: Internal Server Error"
+      "checkedAt": "2026-10-15T01:20:00+00:00",
+      "status": "ok-events",
+      "eventsFound": 23,
+      "pagesChecked": 1
     },
     {
       "organizationId": "delibab",
       "source": "https://www.wukv.at/",
-      "checkedAt": "2026-10-14T09:29:59.294280+00:00",
-      "status": "network-error",
+      "checkedAt": "2026-10-15T01:20:00+00:00",
+      "status": "ok-no-structured-event",
       "eventsFound": 0,
-      "pagesChecked": 0,
-      "error": "<urlopen error timed out>"
+      "pagesChecked": 1
     },
     {
       "organizationId": "europa-club",
       "source": "https://europaclub.at/",
-      "checkedAt": "2026-10-14T09:29:57.422152+00:00",
-      "status": "site-blocked",
+      "checkedAt": "2026-10-15T01:20:00+00:00",
+      "status": "ok-no-structured-event",
       "eventsFound": 0,
-      "pagesChecked": 0,
-      "error": "HTTP Error 403: Forbidden"
+      "pagesChecked": 1
     },
     {
       "organizationId": "evangelikus-gyulekezet",
