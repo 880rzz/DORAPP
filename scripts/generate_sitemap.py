@@ -5,7 +5,7 @@ from xml.sax.saxutils import escape
 from urllib.parse import quote
 
 ROOT=Path(__file__).resolve().parents[1]
-BASE="https://diaszpora.kozpontiszovetseg.at"
+BASE="https://www.diaszporaterkep.hu"
 READY={"reviewed","verified-zero"}
 
 org=json.loads((ROOT/"data/organizations.json").read_text(encoding="utf-8"))

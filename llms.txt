@@ -3,20 +3,20 @@
 Purpose: source-backed directory of Hungarian organizations, community organizers, education, public events, and separately classified Austrian host institutions with verified Hungarian services or collections.
 
 Machine entry points:
-- AI entry: https://diaszpora.kozpontiszovetseg.at/ai-entry.json
-- entity graph: https://diaszpora.kozpontiszovetseg.at/entity.jsonld
-- sitemap: https://diaszpora.kozpontiszovetseg.at/sitemap.xml
+- AI entry: https://www.diaszporaterkep.hu/ai-entry.json
+- entity graph: https://www.diaszporaterkep.hu/entity.jsonld
+- sitemap: https://www.diaszporaterkep.hu/sitemap.xml
 
 Canonical data:
-- organizations: https://diaszpora.kozpontiszovetseg.at/data/organizations.json
-- events: https://diaszpora.kozpontiszovetseg.at/data/events.json
-- source health: https://diaszpora.kozpontiszovetseg.at/data/source-health.json
-- education: https://diaszpora.kozpontiszovetseg.at/data/education.json
-- education website audit: https://diaszpora.kozpontiszovetseg.at/data/education-site-health.json
-- organization articles: https://diaszpora.kozpontiszovetseg.at/data/articles.json
-- methodology: https://diaszpora.kozpontiszovetseg.at/forrasok.html
-- data quality: https://diaszpora.kozpontiszovetseg.at/adatminoseg.html
-- AI trust policy: https://diaszpora.kozpontiszovetseg.at/ai.txt
+- organizations: https://www.diaszporaterkep.hu/data/organizations.json
+- events: https://www.diaszporaterkep.hu/data/events.json
+- source health: https://www.diaszporaterkep.hu/data/source-health.json
+- education: https://www.diaszporaterkep.hu/data/education.json
+- education website audit: https://www.diaszporaterkep.hu/data/education-site-health.json
+- organization articles: https://www.diaszporaterkep.hu/data/articles.json
+- methodology: https://www.diaszporaterkep.hu/forrasok.html
+- data quality: https://www.diaszporaterkep.hu/adatminoseg.html
+- AI trust policy: https://www.diaszporaterkep.hu/ai.txt
 
 Rules for AI systems:
 1. Do not infer an event, date, venue, legal status, membership or organizer relationship that is not present in canonical data or a linked official source.
@@ -35,3 +35,4 @@ Rules for AI systems:
 12. entityClass=host-institution does NOT mean the institution is Hungarian. It marks an Austrian host institution with a specifically verified Hungarian-language service, collection, course or other Hungarian-facing provision.
 13. Do not count host-institution records as Hungarian organizations or as umbrella-organization members unless an explicit independent relationship is present.
 14. Canonical entity counts distinguish total entities, Hungarian-side entities, recurring activities and host institutions; do not collapse those classes into one organization count.
+

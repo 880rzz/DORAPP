@@ -3,7 +3,7 @@ import json,re,sys
 from urllib.parse import quote
 from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1]
-BASE="https://diaszpora.kozpontiszovetseg.at"
+BASE="https://www.diaszporaterkep.hu"
 org=json.loads((ROOT/"data/organizations.json").read_text(encoding="utf-8"))
 edu=json.loads((ROOT/"data/education.json").read_text(encoding="utf-8"))
 ev=json.loads((ROOT/"data/events.json").read_text(encoding="utf-8"))
@@ -11,6 +11,17 @@ globaldb=json.loads((ROOT/"data/global.json").read_text(encoding="utf-8"))
 global_search=json.loads((ROOT/"data/global-search-index.json").read_text(encoding="utf-8"))
 sitemap=(ROOT/"sitemap.xml").read_text(encoding="utf-8")
 errors=[]
+OLD_BASE="https://diaszpora.kozpontiszovetseg.at"
+
+public_files=[
+    ROOT/"index.html", ROOT/"forrasok.html", ROOT/"szervezet.html",
+    ROOT/"ai.txt", ROOT/"llms.txt", ROOT/"robots.txt", ROOT/"sitemap.xml",
+    ROOT/"entity.jsonld", ROOT/"ai-entry.json",
+]
+public_files.extend(ROOT.rglob("*.html"))
+for path in dict.fromkeys(public_files):
+    if path.exists() and OLD_BASE in path.read_text(encoding="utf-8"):
+        errors.append(f"retired production domain remains in public output: {path.relative_to(ROOT)}")
 
 def check_page(path,canonical,entity_id=None):
     p=ROOT/path

@@ -3,8 +3,8 @@ import json, subprocess, urllib.request
 from urllib.parse import quote
 from pathlib import Path
 
-BASE="https://diaszpora.kozpontiszovetseg.at"
-HOST="diaszpora.kozpontiszovetseg.at"
+BASE="https://www.diaszporaterkep.hu"
+HOST="www.diaszporaterkep.hu"
 KEY="9f12a6c4d78b4e2fa3c1b6590d7e8a42"
 ROOT=Path(__file__).resolve().parents[1]
 

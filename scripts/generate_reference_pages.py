@@ -4,7 +4,7 @@ from pathlib import Path
 from urllib.parse import quote
 
 ROOT=Path(__file__).resolve().parents[1]
-BASE="https://diaszpora.kozpontiszovetseg.at"
+BASE="https://www.diaszporaterkep.hu"
 ORG=json.loads((ROOT/"data/organizations.json").read_text(encoding="utf-8"))
 EDU=json.loads((ROOT/"data/education.json").read_text(encoding="utf-8"))
 EV=json.loads((ROOT/"data/events.json").read_text(encoding="utf-8"))
@@ -59,11 +59,11 @@ def shell(title,description,canonical,body,schema,prefix="../"):
     home=prefix or "./"
     return f'''<!doctype html><html lang="hu-AT"><head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-<link rel="icon" href="https://diaszpora.kozpontiszovetseg.at/favicon.svg" type="image/svg+xml"><title>{esc(title)}</title><meta name="description" content="{esc(description)}">
+<link rel="icon" href="https://www.diaszporaterkep.hu/favicon.svg" type="image/svg+xml"><title>{esc(title)}</title><meta name="description" content="{esc(description)}">
 <meta name="robots" content="index,follow,max-snippet:-1,max-image-preview:large">
 <link rel="canonical" href="{esc(canonical)}">
 <meta property="og:type" content="website"><meta property="og:title" content="{esc(title)}"><meta property="og:description" content="{esc(description)}"><meta property="og:url" content="{esc(canonical)}">
-<meta property="og:image" content="https://diaszpora.kozpontiszovetseg.at/og-diaszpora.jpg"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:image:type" content="image/jpeg"><meta name="twitter:image" content="https://diaszpora.kozpontiszovetseg.at/og-diaszpora.jpg"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="{esc(title)}"><meta name="twitter:description" content="{esc(description)}">
+<meta property="og:image" content="https://www.diaszporaterkep.hu/og-diaszpora.jpg"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:image:type" content="image/jpeg"><meta name="twitter:image" content="https://www.diaszporaterkep.hu/og-diaszpora.jpg"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="{esc(title)}"><meta name="twitter:description" content="{esc(description)}">
 <link rel="stylesheet" href="{prefix}styles.css">
 <script type="application/ld+json">{jsonld(schema)}</script></head><body>
 <a class="skip" href="#main">Ugrás a tartalomhoz</a>

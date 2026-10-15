@@ -70,7 +70,7 @@ A napi automatika ezeket a szerkesztett profilmezőket nem írja felül.
 
 Statikus frontend. GitHub Pages deployment a `.github/workflows/deploy-pages.yml` workflow-val.
 
-Production domain: `https://diaszpora.kozpontiszovetseg.at`.
+Production domain: `https://www.diaszporaterkep.hu`.
 
 A canonical URL-ek, sitemap, robots és GitHub Pages CNAME ezt a domaint használják.
 

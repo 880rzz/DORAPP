@@ -13,10 +13,10 @@ from pathlib import Path
 from urllib.parse import unquote, urljoin, urlparse
 
 ROOT = Path(__file__).resolve().parents[1]
-BASE = "https://diaszpora.kozpontiszovetseg.at/"
+BASE = "https://www.diaszporaterkep.hu/"
 HOST = urlparse(BASE).netloc
 REPORT = ROOT / "data" / "link-audit.json"
-UA = "DORAPP-Link-Audit/1.0 (+https://diaszpora.kozpontiszovetseg.at/)"
+UA = "DORAPP-Link-Audit/1.0 (+https://www.diaszporaterkep.hu/)"
 
 
 class LinkParser(HTMLParser):

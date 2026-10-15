@@ -5,7 +5,7 @@ import pycountry
 
 ROOT = Path(__file__).resolve().parents[1]
 DATA = ROOT / "data"
-BASE = "https://diaszpora.kozpontiszovetseg.at"
+BASE = "https://www.diaszporaterkep.hu"
 INDEXABLE = {"reviewed", "verified-zero"}
 
 def read(path, default):

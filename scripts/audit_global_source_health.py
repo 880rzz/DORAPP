@@ -6,7 +6,7 @@ from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1]
 DATA=ROOT/"data"
 GLOBAL=DATA/"global.json"
-UA="DORAPP-Source-Health/1.0 (+https://diaszpora.kozpontiszovetseg.at/)"
+UA="DORAPP-Source-Health/1.0 (+https://www.diaszporaterkep.hu/)"
 TIMEOUT=18
 
 def now_iso():
@@ -116,3 +116,4 @@ def main():
 
 if __name__=="__main__":
     main()
+

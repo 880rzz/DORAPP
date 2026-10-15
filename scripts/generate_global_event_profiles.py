@@ -4,7 +4,7 @@ from pathlib import Path
 
 ROOT=Path(__file__).resolve().parents[1]
 DATA=ROOT/"data"
-BASE="https://diaszpora.kozpontiszovetseg.at"
+BASE="https://www.diaszporaterkep.hu"
 
 def read(p,d):
     try:return json.loads(p.read_text(encoding="utf-8"))
