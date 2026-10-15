@@ -15,6 +15,11 @@ umbrellas={u["id"]:u for u in db.get("umbrellaOrganizations",[])}
 networks={n["id"]:n for n in db.get("regionalNetworks",[])}
 article_db=json.loads(ARTICLES.read_text(encoding="utf-8")) if ARTICLES.exists() else {"articles":{}}
 
+expected_files={f"{item['id']}.html" for item in db["organizations"] if item.get("id")}
+for path in OUT.glob("*.html"):
+    if path.name not in expected_files:
+        path.unlink()
+
 def esc(v): return html.escape(str(v or ""),quote=True)
 
 for o in db["organizations"]:
