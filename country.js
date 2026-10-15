@@ -355,7 +355,7 @@
   }
 
   function bindRegionMap(){
-    $(".country-region-button").forEach(b=>b.addEventListener("click",()=>{
+    $$(".country-region-button").forEach(b=>b.addEventListener("click",()=>{
       const r=b.dataset.region;
       activeRegion=activeRegion===r?"":r;
       const sel=$("#countryRegion"); if(sel)sel.value=activeRegion;
