@@ -97,10 +97,13 @@ await page.close();
 const country=await context.newPage();
 await country.setViewportSize({width:390,height:844});
 await country.goto(base+"/countries/at/",{waitUntil:"networkidle"});
-const countryStatus=country.locator("[data-country-map-status]");
-const beforeCountryZoom=await countryStatus.textContent();
+await country.waitForFunction(()=>{
+  const map=document.querySelector("#countrySubdivisionMap");
+  return map?.contentDocument?.documentElement?.dataset?.dorappCountryMapBound==="true";
+},{timeout:15000});
 await country.locator("[data-country-map-zoom-in]").click();
-report.interactions.countryMapZoom=beforeCountryZoom!==await countryStatus.textContent();
+await country.waitForFunction(()=>document.querySelector(".country-map-viewport")?.classList.contains("is-zoomed"));
+report.interactions.countryMapZoom=await country.locator(".country-map-viewport").evaluate(element=>element.classList.contains("is-zoomed"));
 await country.close();
 
 const consentContext=await browser.newContext();
