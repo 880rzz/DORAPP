@@ -437,8 +437,8 @@ function renderGlobalCalendar(){
 }
 
 function bindCalendar(){
-  $("#globalCalendarCountry")?.addEventListener("change",renderGlobalCalendar);
-  $("#globalCalendarSearch")?.addEventListener("input",renderGlobalCalendar);
+  $("#globalCalendarCountry")?.addEventListener("change",()=>{void ensureCalendar().then(renderGlobalCalendar);});
+  $("#globalCalendarSearch")?.addEventListener("input",()=>{void ensureCalendar().then(renderGlobalCalendar);});
 }
 
 function organizationItems(){
