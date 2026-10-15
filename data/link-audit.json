@@ -1,19 +1,19 @@
 {
-  "updated": "2026-10-15T07:45:07+00:00",
+  "updated": "2026-10-15T07:50:23+00:00",
   "pages": 1177,
   "internalLinksChecked": 9804,
   "internalErrors": [],
   "externalLinksDiscovered": 1074,
   "externalLinksChecked": 1074,
   "externalStatusCounts": {
-    "ok": 957,
+    "ok": 949,
     "network-error": 8,
-    "site-blocked": 13,
+    "site-blocked": 14,
     "not-found": 23,
     "timeout": 14,
-    "rate-limited": 28,
+    "rate-limited": 32,
     "tls-error": 21,
-    "http-error": 10
+    "http-error": 13
   },
   "externalResults": [
     {
@@ -234,8 +234,8 @@
     },
     {
       "url": "https://arcfam.be/szinhaz/",
-      "status": "rate-limited",
-      "httpStatus": 429,
+      "status": "ok",
+      "httpStatus": 200,
       "resolvedUrl": "https://arcfam.be/szinhaz/"
     },
     {
@@ -1404,14 +1404,14 @@
     },
     {
       "url": "https://hvg.hu/eurologus",
-      "status": "ok",
-      "httpStatus": 200,
+      "status": "site-blocked",
+      "httpStatus": 403,
       "resolvedUrl": "https://hvg.hu/eurologus"
     },
     {
       "url": "https://hvg.hu/kultura/20141111_Centropedij",
-      "status": "ok",
-      "httpStatus": 200,
+      "status": "site-blocked",
+      "httpStatus": 403,
       "resolvedUrl": "https://hvg.hu/kultura/20141111_Centropedij"
     },
     {
@@ -1530,15 +1530,15 @@
     },
     {
       "url": "https://koppenhagaimagyariskola.blogspot.com/",
-      "status": "ok",
-      "httpStatus": 200,
-      "resolvedUrl": "https://koppenhagaimagyariskola.blogspot.com/"
+      "status": "rate-limited",
+      "httpStatus": 429,
+      "resolvedUrl": "https://www.google.com/sorry/index?continue=https://koppenhagaimagyariskola.blogspot.com/&q=EgSAy8ZHGP6KwtYGIi2Y5U_paTkBo7y6k00u4hU-DzHEwPSaJuUKBzNSrkffkSC_SNufjlE-P7CIztgyAnJSWgFD"
     },
     {
       "url": "https://koppenhagaimagyariskola.blogspot.com/p/blog-page.html",
-      "status": "ok",
-      "httpStatus": 200,
-      "resolvedUrl": "https://koppenhagaimagyariskola.blogspot.com/p/blog-page.html"
+      "status": "rate-limited",
+      "httpStatus": 429,
+      "resolvedUrl": "https://www.google.com/sorry/index?continue=https://koppenhagaimagyariskola.blogspot.com/p/blog-page.html&q=EgSAy8ZHGP-KwtYGIi2xpLY9OmC8_T40inlH7hZ8u9y44mCBquGiTPO7VasPfNJ31t4JS4xdjUqoQMEyAnJSWgFD"
     },
     {
       "url": "https://korosicsomasandormagyariskola.com/",
@@ -1806,8 +1806,8 @@
     },
     {
       "url": "https://ms-herrenried.edupage.org/",
-      "status": "network-error",
-      "httpStatus": null,
+      "status": "ok",
+      "httpStatus": 200,
       "resolvedUrl": "https://ms-herrenried.edupage.org/"
     },
     {
@@ -2022,9 +2022,9 @@
     },
     {
       "url": "https://refmont.blogspot.com/",
-      "status": "ok",
-      "httpStatus": 200,
-      "resolvedUrl": "https://refmont.blogspot.com/"
+      "status": "rate-limited",
+      "httpStatus": 429,
+      "resolvedUrl": "https://www.google.com/sorry/index?continue=https://refmont.blogspot.com/&q=EgSAy8ZHGIOLwtYGIi1v7iIveZ7bkFaCtM-9acGdlewUcb4IpyKtjSdnKAa4NhLr2epIP6efAroT6nUyAnJSWgFD"
     },
     {
       "url": "https://reformatus.at/",
@@ -2052,14 +2052,14 @@
     },
     {
       "url": "https://ris.bka.gv.at/NormDokument.wxe?Abfrage=LrBgld&Anlage=&Artikel=&FassungVom=2026-05-02&Gesetzesnummer=20000713&Paragraf=7&ShowPrintPreview=True",
-      "status": "ok",
-      "httpStatus": 200,
+      "status": "http-error",
+      "httpStatus": 503,
       "resolvedUrl": "https://ris.bka.gv.at/NormDokument.wxe?Abfrage=LrBgld&Anlage=&Artikel=&FassungVom=2026-05-02&Gesetzesnummer=20000713&Paragraf=7&ShowPrintPreview=True"
     },
     {
       "url": "https://ris.bka.gv.at/NormDokument.wxe?Abfrage=LrBgld&Anlage=&Artikel=&FassungVom=2026-05-02&Gesetzesnummer=20000713&Paragraf=7&ShowPrintPreview=True&Uebergangsrecht=",
-      "status": "ok",
-      "httpStatus": 200,
+      "status": "http-error",
+      "httpStatus": 503,
       "resolvedUrl": "https://ris.bka.gv.at/NormDokument.wxe?Abfrage=LrBgld&Anlage=&Artikel=&FassungVom=2026-05-02&Gesetzesnummer=20000713&Paragraf=7&ShowPrintPreview=True&Uebergangsrecht="
     },
     {
@@ -2652,8 +2652,8 @@
     },
     {
       "url": "https://sprachenzentrum.univie.ac.at/de/kursbuchung?begonneneKurse=0&kathaupt=26&kfs_kursbereich=429&orderby=kurzbez&suchesetzen=false",
-      "status": "timeout",
-      "httpStatus": null,
+      "status": "ok",
+      "httpStatus": 200,
       "resolvedUrl": "https://sprachenzentrum.univie.ac.at/de/kursbuchung?begonneneKurse=0&kathaupt=26&kfs_kursbereich=429&orderby=kurzbez&suchesetzen=false"
     },
     {
@@ -2754,8 +2754,8 @@
     },
     {
       "url": "https://translationswissenschaft.uni-graz.at/en/languages/hungarian/",
-      "status": "site-blocked",
-      "httpStatus": 403,
+      "status": "ok",
+      "httpStatus": 200,
       "resolvedUrl": "https://translationswissenschaft.uni-graz.at/en/languages/hungarian/"
     },
     {
@@ -3192,8 +3192,8 @@
     },
     {
       "url": "https://volksgruppen.orf.at/magyarok/stories/3353560/",
-      "status": "ok",
-      "httpStatus": 200,
+      "status": "timeout",
+      "httpStatus": null,
       "resolvedUrl": "https://volksgruppen.orf.at/magyarok/stories/3353560/"
     },
     {
@@ -3906,8 +3906,8 @@
     },
     {
       "url": "https://www.bmkk.be/",
-      "status": "ok",
-      "httpStatus": 200,
+      "status": "network-error",
+      "httpStatus": null,
       "resolvedUrl": "https://www.bmkk.be/"
     },
     {
@@ -4316,13 +4316,13 @@
       "url": "https://www.facebook.com/CreativeCulturalExchange/",
       "status": "ok",
       "httpStatus": 200,
-      "resolvedUrl": "https://www.facebook.com/CreativeCulturalExchange/"
+      "resolvedUrl": "https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2FCreativeCulturalExchange%2F"
     },
     {
       "url": "https://www.facebook.com/EKThollandiai/",
       "status": "ok",
       "httpStatus": 200,
-      "resolvedUrl": "https://www.facebook.com/EKThollandiai/"
+      "resolvedUrl": "https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2FEKThollandiai%2F"
     },
     {
       "url": "https://www.facebook.com/Europa-Club-B%C3%A9cs-478055442397522/",
@@ -4334,7 +4334,7 @@
       "url": "https://www.facebook.com/FHBCHDetroit/",
       "status": "ok",
       "httpStatus": 200,
-      "resolvedUrl": "https://www.facebook.com/FHBCHDetroit/"
+      "resolvedUrl": "https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2FFHBCHDetroit%2F"
     },
     {
       "url": "https://www.facebook.com/Fels%C5%91%C5%91ri-Reform%C3%A1tus-Ifj%C3%BAs%C3%A1gi-Olvas%C3%B3k%C3%B6r-421949981307391/",
@@ -4346,85 +4346,85 @@
       "url": "https://www.facebook.com/Grazi.Magyar.Egyesuelet",
       "status": "ok",
       "httpStatus": 200,
-      "resolvedUrl": "https://www.facebook.com/Grazi.Magyar.Egyesuelet"
+      "resolvedUrl": "https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2FGrazi.Magyar.Egyesuelet"
     },
     {
       "url": "https://www.facebook.com/HMagyarok/",
       "status": "ok",
       "httpStatus": 200,
-      "resolvedUrl": "https://www.facebook.com/HMagyarok/"
+      "resolvedUrl": "https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2FHMagyarok%2F"
     },
     {
       "url": "https://www.facebook.com/HagaiMagyarKatolikusok/",
       "status": "ok",
       "httpStatus": 200,
-      "resolvedUrl": "https://www.facebook.com/HagaiMagyarKatolikusok/"
+      "resolvedUrl": "https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2FHagaiMagyarKatolikusok%2F"
     },
     {
       "url": "https://www.facebook.com/HollandiaiMagyarSz/",
       "status": "ok",
       "httpStatus": 200,
-      "resolvedUrl": "https://www.facebook.com/HollandiaiMagyarSz/"
+      "resolvedUrl": "https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2FHollandiaiMagyarSz%2F"
     },
     {
       "url": "https://www.facebook.com/HungaroMediaAT",
       "status": "ok",
       "httpStatus": 200,
-      "resolvedUrl": "https://www.facebook.com/HungaroMediaAT"
+      "resolvedUrl": "https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2FHungaroMediaAT"
     },
     {
       "url": "https://www.facebook.com/IMIKE2019UJKV/",
       "status": "ok",
       "httpStatus": 200,
-      "resolvedUrl": "https://www.facebook.com/IMIKE2019UJKV/"
+      "resolvedUrl": "https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2FIMIKE2019UJKV%2F"
     },
     {
       "url": "https://www.facebook.com/InnsbruckiMagyarCserkeszek/",
       "status": "ok",
       "httpStatus": 200,
-      "resolvedUrl": "https://www.facebook.com/InnsbruckiMagyarCserkeszek/"
+      "resolvedUrl": "https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2FInnsbruckiMagyarCserkeszek%2F"
     },
     {
       "url": "https://www.facebook.com/MDEVUS",
       "status": "ok",
       "httpStatus": 200,
-      "resolvedUrl": "https://www.facebook.com/MDEVUS"
+      "resolvedUrl": "https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2FMDEVUS"
     },
     {
       "url": "https://www.facebook.com/MittelburgenlaendischerUngarischerKulturverein/",
       "status": "ok",
       "httpStatus": 200,
-      "resolvedUrl": "https://www.facebook.com/MittelburgenlaendischerUngarischerKulturverein/"
+      "resolvedUrl": "https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2FMittelburgenlaendischerUngarischerKulturverein%2F"
     },
     {
       "url": "https://www.facebook.com/OEIUS",
       "status": "ok",
       "httpStatus": 200,
-      "resolvedUrl": "https://www.facebook.com/OEIUS"
+      "resolvedUrl": "https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2FOEIUS"
     },
     {
       "url": "https://www.facebook.com/Salzburgi.Magyar.Neptancegyuttes/",
       "status": "ok",
       "httpStatus": 200,
-      "resolvedUrl": "https://www.facebook.com/Salzburgi.Magyar.Neptancegyuttes/"
+      "resolvedUrl": "https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2FSalzburgi.Magyar.Neptancegyuttes%2F"
     },
     {
       "url": "https://www.facebook.com/Svung.Wien",
       "status": "ok",
       "httpStatus": 200,
-      "resolvedUrl": "https://www.facebook.com/Svung.Wien"
+      "resolvedUrl": "https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2FSvung.Wien"
     },
     {
       "url": "https://www.facebook.com/VereinBMME/",
       "status": "ok",
       "httpStatus": 200,
-      "resolvedUrl": "https://www.facebook.com/VereinBMME/"
+      "resolvedUrl": "https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2FVereinBMME%2F"
     },
     {
       "url": "https://www.facebook.com/VorarlbergerLandesbibliothek",
       "status": "ok",
       "httpStatus": 200,
-      "resolvedUrl": "https://www.facebook.com/VorarlbergerLandesbibliothek"
+      "resolvedUrl": "https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2FVorarlbergerLandesbibliothek"
     },
     {
       "url": "https://www.facebook.com/Zweisprachiger-Theaterverein-und-Kulturkreis-Unterwart-110195580434233/",
@@ -4436,7 +4436,7 @@
       "url": "https://www.facebook.com/alsoorienekkar",
       "status": "ok",
       "httpStatus": 200,
-      "resolvedUrl": "https://www.facebook.com/alsoorienekkar"
+      "resolvedUrl": "https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2Falsoorienekkar"
     },
     {
       "url": "https://www.facebook.com/arcfam.be",
@@ -4448,19 +4448,19 @@
       "url": "https://www.facebook.com/borozdaensemble",
       "status": "ok",
       "httpStatus": 200,
-      "resolvedUrl": "https://www.facebook.com/borozdaensemble"
+      "resolvedUrl": "https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2Fborozdaensemble"
     },
     {
       "url": "https://www.facebook.com/danmagyaregyesulet",
       "status": "ok",
       "httpStatus": 200,
-      "resolvedUrl": "https://www.facebook.com/danmagyaregyesulet"
+      "resolvedUrl": "https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2Fdanmagyaregyesulet"
     },
     {
       "url": "https://www.facebook.com/evangelikusat/",
       "status": "ok",
       "httpStatus": 200,
-      "resolvedUrl": "https://www.facebook.com/evangelikusat/"
+      "resolvedUrl": "https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2Fevangelikusat%2F"
     },
     {
       "url": "https://www.facebook.com/groups/1283180622014969/",
@@ -4514,13 +4514,13 @@
       "url": "https://www.facebook.com/hagaimagyarenekkar/",
       "status": "ok",
       "httpStatus": 200,
-      "resolvedUrl": "https://www.facebook.com/hagaimagyarenekkar/"
+      "resolvedUrl": "https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2Fhagaimagyarenekkar%2F"
     },
     {
       "url": "https://www.facebook.com/hccswpg/",
       "status": "ok",
       "httpStatus": 200,
-      "resolvedUrl": "https://www.facebook.com/hccswpg/"
+      "resolvedUrl": "https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2Fhccswpg%2F"
     },
     {
       "url": "https://www.facebook.com/hongaarskoor/",
@@ -4532,19 +4532,19 @@
       "url": "https://www.facebook.com/kozpontiszovetseg/?locale=hu_HU",
       "status": "ok",
       "httpStatus": 200,
-      "resolvedUrl": "https://www.facebook.com/kozpontiszovetseg/?locale=hu_HU"
+      "resolvedUrl": "https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2Fkozpontiszovetseg%2F%3Flocale%3Dhu_HU"
     },
     {
       "url": "https://www.facebook.com/kultpult",
       "status": "ok",
       "httpStatus": 200,
-      "resolvedUrl": "https://www.facebook.com/kultpult"
+      "resolvedUrl": "https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2Fkultpult"
     },
     {
       "url": "https://www.facebook.com/leaninfemspace/",
       "status": "ok",
       "httpStatus": 200,
-      "resolvedUrl": "https://www.facebook.com/leaninfemspace/"
+      "resolvedUrl": "https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2Fleaninfemspace%2F"
     },
     {
       "url": "https://www.facebook.com/magyarszo.at",
@@ -4556,7 +4556,7 @@
       "url": "https://www.facebook.com/napraforgok.becs",
       "status": "ok",
       "httpStatus": 200,
-      "resolvedUrl": "https://www.facebook.com/napraforgok.becs"
+      "resolvedUrl": "https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2Fnapraforgok.becs"
     },
     {
       "url": "https://www.facebook.com/profile.php?id=100057286665201",
@@ -4646,13 +4646,13 @@
       "url": "https://www.facebook.com/share/1YXeCFjNnK/?mibextid=wwXIfr",
       "status": "ok",
       "httpStatus": 200,
-      "resolvedUrl": "https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2Fwelovemusicandwords%3Fmibextid%3DwwXIfr%26rdid%3DBjIwiuXg1VuTY5ck%26share_url%3Dhttps%253A%252F%252Fwww.facebook.com%252Fshare%252F1YXeCFjNnK%252F%253Fmibextid%253DwwXIfr&rdid=BjIwiuXg1VuTY5ck"
+      "resolvedUrl": "https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2Fwelovemusicandwords%3Fmibextid%3DwwXIfr%26rdid%3Dsu6iddPRc0S32BwV%26share_url%3Dhttps%253A%252F%252Fwww.facebook.com%252Fshare%252F1YXeCFjNnK%252F%253Fmibextid%253DwwXIfr&rdid=su6iddPRc0S32BwV"
     },
     {
       "url": "https://www.facebook.com/share/1daRJj3QUu/?mibextid=wwXIfr",
       "status": "ok",
       "httpStatus": 200,
-      "resolvedUrl": "https://www.facebook.com/people/AMAPED-Ausztriai-Magyar-Pedag%C3%B3gusok-Egyes%C3%BClete/100076361554158/?mibextid=wwXIfr&rdid=tvWVyFPQbOwfwgMW&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F1daRJj3QUu%2F%3Fmibextid%3DwwXIfr"
+      "resolvedUrl": "https://www.facebook.com/people/AMAPED-Ausztriai-Magyar-Pedag%C3%B3gusok-Egyes%C3%BClete/100076361554158/?mibextid=wwXIfr&rdid=1N0udkNziJqlVrSk&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F1daRJj3QUu%2F%3Fmibextid%3DwwXIfr"
     },
     {
       "url": "https://www.facebook.com/ungarischer.schulverein",
@@ -5418,15 +5418,15 @@
     },
     {
       "url": "https://www.magyarhazbrusszel.be/",
-      "status": "ok",
-      "httpStatus": 200,
-      "resolvedUrl": "https://www.magyarhazbrusszel.be/"
+      "status": "rate-limited",
+      "httpStatus": 429,
+      "resolvedUrl": "https://www.google.com/sorry/index?continue=https://www.magyarhazbrusszel.be/&q=EgSAy8ZHGKqLwtYGIi0-JJUYhwrvBPgCFiFWoTdFqjSH_M8kTZxE9oZHm0e_l21p9MZ2sZZb1VEKY6AyAnJSWgFD"
     },
     {
       "url": "https://www.magyarhazbrusszel.be/2026/",
-      "status": "ok",
-      "httpStatus": 200,
-      "resolvedUrl": "https://www.magyarhazbrusszel.be/2026/"
+      "status": "rate-limited",
+      "httpStatus": 429,
+      "resolvedUrl": "https://www.google.com/sorry/index?continue=https://www.magyarhazbrusszel.be/2026/&q=EgSAy8ZHGKqLwtYGIi2bDh_g_JcLPG-gNtsnHjiU1Vp-bhk-eX3q5IZD51w-XME0S2eV2f-QyF4b--MyAnJSWgFD"
     },
     {
       "url": "https://www.magyariskola.at/",
@@ -5958,8 +5958,8 @@
     },
     {
       "url": "https://www.ris.bka.gv.at/Dokumente/Mrp/MRP_20201223_43/007_001.pdf",
-      "status": "ok",
-      "httpStatus": 200,
+      "status": "http-error",
+      "httpStatus": 503,
       "resolvedUrl": "https://www.ris.bka.gv.at/Dokumente/Mrp/MRP_20201223_43/007_001.pdf"
     },
     {
