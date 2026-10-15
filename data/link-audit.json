@@ -1,17 +1,17 @@
 {
-  "updated": "2026-10-15T10:08:14+00:00",
+  "updated": "2026-10-15T10:12:28+00:00",
   "pages": 1179,
   "internalLinksChecked": 9931,
   "internalErrors": [],
   "externalLinksDiscovered": 1072,
   "externalLinksChecked": 1072,
   "externalStatusCounts": {
-    "ok": 964,
+    "ok": 965,
     "network-error": 8,
-    "site-blocked": 12,
-    "not-found": 22,
-    "timeout": 13,
-    "rate-limited": 22,
+    "site-blocked": 11,
+    "not-found": 23,
+    "timeout": 15,
+    "rate-limited": 19,
     "tls-error": 21,
     "http-error": 10
   },
@@ -54,9 +54,9 @@
     },
     {
       "url": "http://www.hhrf.org/emae/",
-      "status": "ok",
-      "httpStatus": 202,
-      "resolvedUrl": "http://www.hhrf.org/emae/"
+      "status": "not-found",
+      "httpStatus": 404,
+      "resolvedUrl": "https://hhrf.org/emae/"
     },
     {
       "url": "http://www.hungariandetroit.com/",
@@ -234,8 +234,8 @@
     },
     {
       "url": "https://arcfam.be/szinhaz/",
-      "status": "rate-limited",
-      "httpStatus": 429,
+      "status": "ok",
+      "httpStatus": 200,
       "resolvedUrl": "https://arcfam.be/szinhaz/"
     },
     {
@@ -738,8 +738,8 @@
     },
     {
       "url": "https://culture.hu/hu/wien/esemenyek",
-      "status": "ok",
-      "httpStatus": 200,
+      "status": "timeout",
+      "httpStatus": null,
       "resolvedUrl": "https://culture.hu/hu/wien/esemenyek"
     },
     {
@@ -901,25 +901,25 @@
     {
       "url": "https://europaclub.at/",
       "status": "ok",
-      "httpStatus": 202,
+      "httpStatus": 200,
       "resolvedUrl": "https://europaclub.at/"
     },
     {
       "url": "https://europaclub.at/de/kontakt/",
       "status": "ok",
-      "httpStatus": 202,
+      "httpStatus": 200,
       "resolvedUrl": "https://europaclub.at/de/kontakt/"
     },
     {
       "url": "https://europaclub.at/meghivo-es-felhivas-unnepeljuk-egyutt-az-1956-os-forradalom-70-evfordulojat/",
       "status": "ok",
-      "httpStatus": 202,
+      "httpStatus": 200,
       "resolvedUrl": "https://europaclub.at/meghivo-es-felhivas-unnepeljuk-egyutt-az-1956-os-forradalom-70-evfordulojat/"
     },
     {
       "url": "https://europaclub.at/rolunk/europa-club-tortenete/",
       "status": "ok",
-      "httpStatus": 202,
+      "httpStatus": 200,
       "resolvedUrl": "https://europaclub.at/rolunk/europa-club-tortenete/"
     },
     {
@@ -1147,19 +1147,19 @@
     {
       "url": "https://hhrf.org/",
       "status": "ok",
-      "httpStatus": 202,
+      "httpStatus": 200,
       "resolvedUrl": "https://hhrf.org/"
     },
     {
       "url": "https://hhrf.org/about/mission-statement/",
       "status": "ok",
-      "httpStatus": 202,
+      "httpStatus": 200,
       "resolvedUrl": "https://hhrf.org/about/mission-statement/"
     },
     {
       "url": "https://hhrf.org/contact/",
       "status": "ok",
-      "httpStatus": 202,
+      "httpStatus": 200,
       "resolvedUrl": "https://hhrf.org/contact/"
     },
     {
@@ -1171,7 +1171,7 @@
     {
       "url": "https://hollandiaimagyarok.nl/rendezveny/",
       "status": "ok",
-      "httpStatus": 202,
+      "httpStatus": 200,
       "resolvedUrl": "https://hollandiaimagyarok.nl/rendezveny/"
     },
     {
@@ -1530,15 +1530,15 @@
     },
     {
       "url": "https://koppenhagaimagyariskola.blogspot.com/",
-      "status": "rate-limited",
-      "httpStatus": 429,
-      "resolvedUrl": "https://www.google.com/sorry/index?continue=https://koppenhagaimagyariskola.blogspot.com/&q=EgRo0QsUGNTLwtYGIi2fmQFHK7G_W_FIBBBptEKTsJIk9OtAF77Ku43DdCihfNurpsapBJizRP7zzrwyAnJSWgFD"
+      "status": "ok",
+      "httpStatus": 200,
+      "resolvedUrl": "https://koppenhagaimagyariskola.blogspot.com/"
     },
     {
       "url": "https://koppenhagaimagyariskola.blogspot.com/p/blog-page.html",
-      "status": "rate-limited",
-      "httpStatus": 429,
-      "resolvedUrl": "https://www.google.com/sorry/index?continue=https://koppenhagaimagyariskola.blogspot.com/p/blog-page.html&q=EgRo0QsUGNTLwtYGIi1HN1Ip579Rqg3nz2bxBMlDlcYTGNwEuHReZzS4qywQdTAsJzzK3Y8k5j8drCMyAnJSWgFD"
+      "status": "ok",
+      "httpStatus": 200,
+      "resolvedUrl": "https://koppenhagaimagyariskola.blogspot.com/p/blog-page.html"
     },
     {
       "url": "https://korosicsomasandormagyariskola.com/",
@@ -3396,8 +3396,8 @@
     },
     {
       "url": "https://vs-feldkirch.vobs.at/home/",
-      "status": "ok",
-      "httpStatus": 200,
+      "status": "timeout",
+      "httpStatus": null,
       "resolvedUrl": "https://vs-feldkirch.vobs.at/home/"
     },
     {
@@ -3463,7 +3463,7 @@
     {
       "url": "https://vspurkersdorf.ac.at/",
       "status": "ok",
-      "httpStatus": 202,
+      "httpStatus": 200,
       "resolvedUrl": "https://vspurkersdorf.ac.at/"
     },
     {
@@ -4496,13 +4496,13 @@
       "url": "https://www.facebook.com/hagaimagyarenekkar/",
       "status": "ok",
       "httpStatus": 200,
-      "resolvedUrl": "https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2Fhagaimagyarenekkar%2F"
+      "resolvedUrl": "https://www.facebook.com/hagaimagyarenekkar/"
     },
     {
       "url": "https://www.facebook.com/hccswpg/",
       "status": "ok",
       "httpStatus": 200,
-      "resolvedUrl": "https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2Fhccswpg%2F"
+      "resolvedUrl": "https://www.facebook.com/hccswpg/"
     },
     {
       "url": "https://www.facebook.com/hongaarskoor/",
@@ -4514,19 +4514,19 @@
       "url": "https://www.facebook.com/kozpontiszovetseg/?locale=hu_HU",
       "status": "ok",
       "httpStatus": 200,
-      "resolvedUrl": "https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2Fkozpontiszovetseg%2F%3Flocale%3Dhu_HU"
+      "resolvedUrl": "https://www.facebook.com/kozpontiszovetseg/?locale=hu_HU"
     },
     {
       "url": "https://www.facebook.com/kultpult",
       "status": "ok",
       "httpStatus": 200,
-      "resolvedUrl": "https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2Fkultpult"
+      "resolvedUrl": "https://www.facebook.com/kultpult"
     },
     {
       "url": "https://www.facebook.com/leaninfemspace/",
       "status": "ok",
       "httpStatus": 200,
-      "resolvedUrl": "https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2Fleaninfemspace%2F"
+      "resolvedUrl": "https://www.facebook.com/leaninfemspace/"
     },
     {
       "url": "https://www.facebook.com/magyarszo.at",
@@ -4538,7 +4538,7 @@
       "url": "https://www.facebook.com/napraforgok.becs",
       "status": "ok",
       "httpStatus": 200,
-      "resolvedUrl": "https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2Fnapraforgok.becs"
+      "resolvedUrl": "https://www.facebook.com/napraforgok.becs"
     },
     {
       "url": "https://www.facebook.com/profile.php?id=100057286665201",
@@ -4628,13 +4628,13 @@
       "url": "https://www.facebook.com/share/1YXeCFjNnK/?mibextid=wwXIfr",
       "status": "ok",
       "httpStatus": 200,
-      "resolvedUrl": "https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2Fwelovemusicandwords%3Fmibextid%3DwwXIfr%26rdid%3DtZntO20zGSLfcXiU%26share_url%3Dhttps%253A%252F%252Fwww.facebook.com%252Fshare%252F1YXeCFjNnK%252F%253Fmibextid%253DwwXIfr&rdid=tZntO20zGSLfcXiU"
+      "resolvedUrl": "https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2Fwelovemusicandwords%3Fmibextid%3DwwXIfr%26rdid%3Dzxxq6Q4elEVVuvIV%26share_url%3Dhttps%253A%252F%252Fwww.facebook.com%252Fshare%252F1YXeCFjNnK%252F%253Fmibextid%253DwwXIfr&rdid=zxxq6Q4elEVVuvIV"
     },
     {
       "url": "https://www.facebook.com/share/1daRJj3QUu/?mibextid=wwXIfr",
       "status": "ok",
       "httpStatus": 200,
-      "resolvedUrl": "https://www.facebook.com/people/AMAPED-Ausztriai-Magyar-Pedag%C3%B3gusok-Egyes%C3%BClete/100076361554158/?mibextid=wwXIfr&rdid=YF1aQsqpGBH6bkM9&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F1daRJj3QUu%2F%3Fmibextid%3DwwXIfr"
+      "resolvedUrl": "https://www.facebook.com/people/AMAPED-Ausztriai-Magyar-Pedag%C3%B3gusok-Egyes%C3%BClete/100076361554158/?mibextid=wwXIfr&rdid=37NiIUs8fnNtdsnE&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F1daRJj3QUu%2F%3Fmibextid%3DwwXIfr"
     },
     {
       "url": "https://www.facebook.com/ungarischer.schulverein",
@@ -4831,13 +4831,13 @@
     {
       "url": "https://www.hollandiaimagyarok.nl/",
       "status": "ok",
-      "httpStatus": 202,
-      "resolvedUrl": "https://www.hollandiaimagyarok.nl/"
+      "httpStatus": 200,
+      "resolvedUrl": "https://hollandiaimagyarok.nl/"
     },
     {
       "url": "https://www.hollandiaimagyarok.nl/a-kikotozes-3-resz-hollandiai-magyarok-podcast/",
       "status": "ok",
-      "httpStatus": 202,
+      "httpStatus": 200,
       "resolvedUrl": "https://www.hollandiaimagyarok.nl/a-kikotozes-3-resz-hollandiai-magyarok-podcast/"
     },
     {
@@ -5408,13 +5408,13 @@
       "url": "https://www.magyarhazbrusszel.be/",
       "status": "rate-limited",
       "httpStatus": 429,
-      "resolvedUrl": "https://www.google.com/sorry/index?continue=https://www.magyarhazbrusszel.be/&q=EgRo0QsUGPzLwtYGIi3pqsKhLIao0Cowicde2iR547K0ZI60klBN45zA9SFUeJSBQIOqMsCSmViYWXEyAnJSWgFD"
+      "resolvedUrl": "https://www.google.com/sorry/index?continue=https://www.magyarhazbrusszel.be/&q=EgSs1M53GPrNwtYGIi1mg3FWdTnYaDdt_CkpxWPiDy4nRUF2SMj4lKBNnBIPq_vilKaTotXhgp9uEBkyAnJSWgFD"
     },
     {
       "url": "https://www.magyarhazbrusszel.be/2026/",
       "status": "rate-limited",
       "httpStatus": 429,
-      "resolvedUrl": "https://www.google.com/sorry/index?continue=https://www.magyarhazbrusszel.be/2026/&q=EgRo0QsUGP3LwtYGIi2hYL3iEsLLL_sKJhKoI-7rwcXMzVAA6RHWLd8trrgx0hMW-Wspz9EVd8DXWYMyAnJSWgFD"
+      "resolvedUrl": "https://www.google.com/sorry/index?continue=https://www.magyarhazbrusszel.be/2026/&q=EgSs1M53GPrNwtYGIi1oCeDltWlDPIX3OO-8YXTTutt1ZEbntDaXMmGX7RQ2icVUyzPKTJlujKldoo0yAnJSWgFD"
     },
     {
       "url": "https://www.magyariskola.at/",
@@ -6426,8 +6426,8 @@
     },
     {
       "url": "https://x.com/NATOHungary",
-      "status": "site-blocked",
-      "httpStatus": 403,
+      "status": "ok",
+      "httpStatus": 200,
       "resolvedUrl": "https://x.com/NATOHungary"
     },
     {
