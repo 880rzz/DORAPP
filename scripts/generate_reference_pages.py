@@ -64,7 +64,7 @@ def shell(title,description,canonical,body,schema,prefix="../"):
 <link rel="stylesheet" href="{prefix}styles.css">
 <script type="application/ld+json">{jsonld(schema)}</script></head><body>
 <a class="skip" href="#main">Ugrás a tartalomhoz</a>
-<header class="topbar"><div class="wrap navrow"><a class="brand" href="{home}"><span class="mark">AT×HU</span><span>Magyar Programok Ausztriában</span></a><nav><a href="{home}#terkep">Térkép</a><a href="{home}#szervezetek">Közösségek</a><a href="{home}#oktatas">Oktatás</a><a href="{home}#naptar">Programok</a></nav></div></header>
+<header class="topbar"><div class="wrap navrow"><a class="brand" href="{home}"><span class="mark">AT×HU</span><span>Magyar Programok Ausztriában</span></a><nav><a href="{home}#vilag">Térkép</a><a href="{home}#szervezetek">Közösségek</a><a href="{home}countries/at/#oktatas">Oktatás</a><a href="{home}#programnaptar">Programok</a></nav></div></header>
 <main id="main">{body}</main>{footer(prefix)}<script src="{prefix}ui.js?v=20260926-consent-nav" defer></script></body></html>'''
 
 def place_schema(e):

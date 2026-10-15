@@ -65,7 +65,7 @@ def main():
             operator_id=item.get("operatorId")
             if operator_id:
                 org_profile=ROOT/"countries"/iso/"organizations"/f"{operator_id}.html"
-                value=(f'<a href="../../organizations/{esc(operator_id)}.html">{esc(operator_id)}</a>' if org_profile.exists() else esc(operator_id))
+                value=(f'<a href="../organizations/{esc(operator_id)}.html">{esc(operator_id)}</a>' if org_profile.exists() else esc(operator_id))
                 operator=f'<p><strong>Kapcsolódó szervezet:</strong> {value}</p>'
             source_list=evidence_rows(evidence) or "<li>Nincs külön nyilvános forrás megadva.</li>"
             place=" · ".join(str(value) for value in [item.get("region"),item.get("city"),"Oktatás"] if value)

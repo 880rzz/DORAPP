@@ -179,7 +179,7 @@ for item in directory_items:
         errors.append(f"homepage organization search item incomplete: {item.get('country')}/{item.get('id')}")
 
 quality_text=(ROOT/"adatminoseg.html").read_text(encoding="utf-8")
-for token in ('href="./#terkep"','href="./#szervezetek"','href="./#programok"'):
+for token in ('href="./#vilag"','href="./#szervezetek"','href="./countries/at/#oktatas"','href="./#programnaptar"'):
     if token not in quality_text:
         errors.append(f"data-quality navigation target missing: {token}")
 quality_expectations=(
