@@ -183,8 +183,12 @@ def main():
         try: existing=json.loads(READY.read_text(encoding="utf-8")).get("items",[])
         except Exception: pass
     key=lambda x:(x.get("country"),norm(x.get("name")),urllib.parse.urlparse(x.get("website") or "").netloc.lower())
-    merged={key(x):x for x in existing}
-    for x in ready: merged[key(x)]=x
+    # Never carry forward an old promotion candidate without a valid verification record.
+    def is_valid(x):
+        return (x.get("verificationScore") or 0)>=7 and x.get("verificationMethod")=="first-party HTML + JSON-LD organization + country match" and bool(x.get("verifiedAt")) and bool(x.get("city"))
+    merged={key(x):x for x in existing if is_valid(x)}
+    for x in ready:
+        if is_valid(x): merged[key(x)]=x
     READY.write_text(json.dumps({"updated":checked,"items":sorted(merged.values(),key=lambda x:(x.get("country",""),norm(x.get("name"))))},ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
     print(f"First-party verification processed={processed}; promotion-ready={len(ready)}")
 
