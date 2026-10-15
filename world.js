@@ -520,6 +520,7 @@ function ensureSearchIndex(){
       .then(data=>{
         searchIndex = data;
         searchIndexLoaded = true;
+        $("#organizationCount")?.removeAttribute("role");
         populateOrganizationFilters();
         renderOrganizations();
         if($("#globalSearch")?.value.trim()) renderSuggestions();
@@ -532,7 +533,12 @@ function ensureSearchIndex(){
         populateOrganizationFilters();
         renderOrganizations();
         const count = $("#organizationCount");
-        if(count) count.textContent = "A szervezetadatok nem tölthetők be. Próbáld újra a keresőmezőre kattintva.";
+        if(count){
+          count.textContent = "A szervezetadatok nem tölthetők be. Próbáld újra a keresőmezőre kattintva.";
+          count.setAttribute("role","alert");
+        }
+        const empty = $("#organizationEmpty");
+        if(empty) empty.hidden = true;
         const suggestions = $("#globalSearchSuggestions");
         if(suggestions && $("#globalSearch")?.value.trim()){
           suggestions.innerHTML = '<div class="global-search-empty" role="status">A kereső átmenetileg nem érhető el. Próbáld újra.</div>';
@@ -550,6 +556,7 @@ function ensureCalendar(){
       .then(r=>{if(!r.ok)throw new Error("calendar-unavailable");return r.json();})
       .then(data=>{
         globalEvents = data;
+        $("#globalCalendarCount")?.removeAttribute("role");
         populateCalendarCountries();
         renderGlobalCalendar();
         return data;
@@ -560,7 +567,12 @@ function ensureCalendar(){
         populateCalendarCountries();
         renderGlobalCalendar();
         const count = $("#globalCalendarCount");
-        if(count) count.textContent = "A programnaptár nem tölthető be. Próbáld újra a szűrő használatával.";
+        if(count){
+          count.textContent = "A programnaptár nem tölthető be. Próbáld újra a szűrő használatával.";
+          count.setAttribute("role","alert");
+        }
+        const empty = $("#globalCalendarEmpty");
+        if(empty) empty.hidden = true;
         return globalEvents;
       });
   }
