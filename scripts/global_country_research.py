@@ -72,7 +72,8 @@ def load_state():
         "cursor": 0,
         "batchSize": BATCH_SIZE,
         "lastRunAt": None,
-        "countriesAttempted": [],\n        "countriesQueried": [],
+        "countriesAttempted": [],
+        "countriesQueried": [],
     }
 
 def save_json(path, data):
@@ -168,7 +169,9 @@ def main():
     state["lastRunAt"] = checked_at
     state["batchSize"] = BATCH_SIZE
     state["countriesAttempted"] = attempted
-    # A successful discovery query is not research completion.\n    state.pop("countriesCompleted", None)\n    state["countriesQueried"] = queried
+    # A successful discovery query is not research completion.
+    state.pop("countriesCompleted", None)
+    state["countriesQueried"] = queried
     state["countriesFailed"] = failed
     save_json(STATE, state)
     save_json(GLOBAL, g)
