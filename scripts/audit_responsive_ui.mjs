@@ -97,6 +97,10 @@ report.interactions.worldMapCountryAccessible=await page.evaluate(()=>{
   const el=document.querySelector("#worldMap")?.contentDocument?.getElementById("at");
   return el?.getAttribute("tabindex")==="0" && (el.getAttribute("aria-label")||"").includes("Ausztria");
 });
+report.interactions.worldMapUnresearchedStatus=await page.evaluate(()=>{
+  const el=document.querySelector("#worldMap")?.contentDocument?.getElementById("se");
+  return (el?.getAttribute("aria-label")||"").includes("kutatásra vár");
+});
 const toggle=page.locator(".menu-toggle");
 report.interactions.mobileMenuPresent=await toggle.count()===1;
 if(await toggle.count()){
