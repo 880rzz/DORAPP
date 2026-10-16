@@ -28,7 +28,7 @@ function isReady(c){
 }
 
 function typeLabel(item){
-  if(item.type === "country" && item.ready === false) return "Ország · kutatás alatt";
+  if(item.type === "country" && item.ready === false) return item.researchStatus === "unresearched" ? "Ország · kutatásra vár" : "Ország · kutatás alatt";
   if(item.subtype === "education") return "Oktatás";
   return TYPE_LABELS[item.type] || "Találat";
 }
@@ -153,7 +153,7 @@ function renderCountryList(){
   root.innerHTML = rows.map(c => {
     const ready = isReady(c);
     const count = c.counts?.organizations || 0;
-    const status = c.researchStatus === "verified-zero" ? "Lezárt kutatás · nincs igazolt szervezet" : (ready ? count+" ellenőrzött szervezet" : count+" ellenőrzött · kutatás alatt");
+    const status = c.researchStatus === "verified-zero" ? "Lezárt kutatás · nincs igazolt szervezet" : (ready ? count+" ellenőrzött szervezet" : count+" ellenőrzött · "+(c.researchStatus === "unresearched" ? "kutatásra vár" : "kutatás alatt"));
     return '<a href="'+esc(c.route)+'" class="'+(ready?'country-ready':'country-building')+'"><strong>'+esc(countryLabel(c))+'</strong><span>'+esc(status)+'</span></a>';
   }).join("");
 }
@@ -379,7 +379,7 @@ function bindWorldMap(){
       const baseFill = verifiedZero ? zeroColor : (ready ? readyColor : base);
       paint(el,baseFill);
       const label = countryLabel(country);
-      const status = verifiedZero ? "lezárt kutatás · jelenleg nincs igazolt magyar vonatkozás" : (ready ? count+" ellenőrzött szervezet · áttekintett ország" : count+" ellenőrzött szervezet · kutatás alatt");
+      const status = verifiedZero ? "lezárt kutatás · jelenleg nincs igazolt magyar vonatkozás" : (ready ? count+" ellenőrzött szervezet · áttekintett ország" : count+" ellenőrzött szervezet · "+(country.researchStatus === "unresearched" ? "kutatásra vár" : "kutatás alatt"));
       el.setAttribute("aria-label",label+" · "+status);
 
       const statusEl = $("#worldMapStatus");
