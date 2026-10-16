@@ -72,6 +72,11 @@ await page.goto(base+"/index.html",{waitUntil:"networkidle"});
 await page.locator("#globalSearch").fill("Ausztria");
 await page.waitForSelector("#globalSearchSuggestions button");
 report.interactions.searchSuggestions=await page.locator("#globalSearchSuggestions button").count()>0;
+await page.locator("#globalSearch").fill("___nincs_ilyen_orszag_vagy_szervezet___");
+report.interactions.searchNoIrrelevantSuggestions=await page.locator("#globalSearchSuggestions button").count()===0
+  &&await page.locator("#globalSearchSuggestions").textContent().then(text=>text.includes("Nincs a keresésnek megfelelő"));
+await page.locator("#globalSearch").fill("Ausztria");
+await page.waitForSelector("#globalSearchSuggestions button");
 await page.locator("#globalSearch").press("ArrowDown");
 report.interactions.searchKeyboardActive=await page.locator("#globalSearchSuggestions button.active").count()===1;
 await page.locator("#globalSearch").press("Escape");
@@ -96,6 +101,13 @@ await page.close();
 
 const country=await context.newPage();
 await country.setViewportSize({width:390,height:844});
+await country.goto(base+"/countries/at/?city=Wien",{waitUntil:"networkidle"});
+await country.waitForFunction(()=>document.querySelector("#countryCity")?.value==="Wien");
+report.interactions.cityDeepLinkFilter=await country.locator("#countryCity").inputValue()==="Wien";
+await country.goto(base+"/countries/at/?q=___nincs_ilyen_szervezet___",{waitUntil:"networkidle"});
+await country.waitForFunction(()=>document.querySelector("#countryQuery")?.value==="___nincs_ilyen_szervezet___");
+report.interactions.activityDeepLinkFilter=await country.locator("#countryQuery").inputValue()==="___nincs_ilyen_szervezet___"
+  &&await country.locator("#countryOrgCount").textContent().then(text=>text.includes("0 találat"));
 await country.goto(base+"/countries/at/",{waitUntil:"networkidle"});
 await country.waitForFunction(()=>{
   const map=document.querySelector("#countrySubdivisionMap");
