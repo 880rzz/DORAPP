@@ -63,3 +63,7 @@ body:not(.world-home) main{overflow:clip}body:not(.world-home) .hero-actions a,b
 
 /* Keep the embedded world SVG proportionate on compact screens. */
 @media(max-width:760px){.world-map-viewport{height:clamp(240px,64vw,420px)}}
+
+/* Lighthouse contrast audit: inherited #777 on small .site-status text was below AA. */
+.site-status{color:#565a60!important}.site-status strong{color:var(--text)}
+@media(max-width:390px){.world-map-toolbar button,.country-map-toolbar button{min-width:44px;min-height:44px}}
