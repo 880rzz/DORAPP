@@ -132,6 +132,15 @@ await country.waitForFunction(()=>document.querySelector("#countryQuery")?.value
 report.interactions.activityDeepLinkFilter=await country.locator("#countryQuery").inputValue()==="___nincs_ilyen_szervezet___"
   &&await country.locator("#countryOrgCount").textContent().then(text=>text.includes("0 találat"));
 await country.goto(base+"/countries/at/",{waitUntil:"networkidle"});
+await country.waitForSelector("#countryOrgGrid article");
+const firstOrgs=await country.locator("#countryOrgGrid article").count();
+await country.locator("#countryOrgMore").click();
+const moreOrgs=await country.locator("#countryOrgGrid article").count();
+report.interactions.countryProgressiveOrganizations=firstOrgs===12 && moreOrgs===24;
+report.interactions.countryProgressiveEducation=await country.locator("#countryEducationGrid article").count()===8
+  &&await country.locator("#countryEducationMore").isVisible();
+report.interactions.countryProgressiveEvents=await country.locator("#countryEventGrid article").count()===8
+  &&await country.locator("#countryEventMore").isVisible();
 await country.waitForFunction(()=>{
   const map=document.querySelector("#countrySubdivisionMap");
   return map?.contentDocument?.documentElement?.dataset?.dorappCountryMapBound==="true";
