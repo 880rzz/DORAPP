@@ -1,9 +1,9 @@
 {
-  "updated": "2026-10-16T09:01:56.741077+00:00",
+  "updated": "2026-10-16T09:41:37.838040+00:00",
   "summary": {
     "organizations": 161,
     "organizationFlags": 1,
-    "organizationPagesChecked": 332,
+    "organizationPagesChecked": 328,
     "education": 108,
     "educationFlags": 0,
     "events": 71,
@@ -126,17 +126,24 @@
       ],
       "activityCategories": [],
       "signals": [
-        "media",
-        "egyhaz",
-        "csalad"
+        "egyhaz"
       ],
-      "pagesChecked": 3,
-      "checkedUrls": [
-        "https://www.martinus.at/",
-        "https://www.martinus.at/pfarre/1127/kalender",
-        "https://www.martinus.at/unterwart"
+      "pagesChecked": 0,
+      "checkedUrls": [],
+      "errors": [
+        {
+          "url": "https://www.martinus.at/",
+          "error": "<urlopen error timed out>"
+        },
+        {
+          "url": "https://www.martinus.at/pfarre/1127/kalender",
+          "error": "<urlopen error timed out>"
+        },
+        {
+          "url": "https://www.martinus.at/unterwart",
+          "error": "<urlopen error timed out>"
+        }
       ],
-      "errors": [],
       "flags": []
     },
     {
@@ -899,7 +906,7 @@
       "errors": [
         {
           "url": "https://bornemisza.at/",
-          "error": "<urlopen error timed out>"
+          "error": "<urlopen error [Errno 111] Connection refused>"
         },
         {
           "url": "https://www.kozpontiszovetseg.at/bornemisza-peter-tarsasag",
@@ -1111,21 +1118,18 @@
       "signals": [
         "oktatas",
         "szinhaz",
+        "media",
         "irodalom",
         "muveszet",
         "csalad"
       ],
-      "pagesChecked": 2,
+      "pagesChecked": 3,
       "checkedUrls": [
         "https://culture.hu/hu/wien",
-        "https://culture.hu/hu/wien/esemenyek"
+        "https://culture.hu/hu/wien/esemenyek",
+        "https://culture.hu/de/wien/jubilaum"
       ],
-      "errors": [
-        {
-          "url": "https://culture.hu/de/wien/jubilaum",
-          "error": "HTTP Error 502: Bad Gateway"
-        }
-      ],
+      "errors": [],
       "flags": []
     },
     {
@@ -1573,16 +1577,24 @@
       ],
       "activityCategories": [],
       "signals": [
-        "media",
         "egyhaz"
       ],
-      "pagesChecked": 3,
-      "checkedUrls": [
-        "https://www.martinus.at/pfarre/1122",
-        "https://www.martinus.at/pfarre/1122/kalender",
-        "https://www.martinus.at/pfarre/1122/kalender/calendar/1808040.html"
+      "pagesChecked": 0,
+      "checkedUrls": [],
+      "errors": [
+        {
+          "url": "https://www.martinus.at/pfarre/1122",
+          "error": "<urlopen error timed out>"
+        },
+        {
+          "url": "https://www.martinus.at/pfarre/1122/kalender",
+          "error": "<urlopen error timed out>"
+        },
+        {
+          "url": "https://www.martinus.at/pfarre/1122/kalender/calendar/1808040.html",
+          "error": "<urlopen error timed out>"
+        }
       ],
-      "errors": [],
       "flags": []
     },
     {
@@ -2095,14 +2107,16 @@
       "signals": [
         "egyhaz"
       ],
-      "pagesChecked": 1,
-      "checkedUrls": [
-        "https://www.edsbg.at/seelsorge/weltkirche/anderssprachige-seelsorge/ungarische-gemeinde"
-      ],
+      "pagesChecked": 0,
+      "checkedUrls": [],
       "errors": [
         {
+          "url": "https://www.edsbg.at/seelsorge/weltkirche/anderssprachige-seelsorge/ungarische-gemeinde",
+          "error": "<urlopen error timed out>"
+        },
+        {
           "url": "https://www.edsbg.at/dl/klOKJmMJKNLMKJqx4KJK/ungarischsprachige_Gottesdienstgemeinde_Salzburg_pdf",
-          "error": "HTTP Error 400: Bad Request"
+          "error": "<urlopen error timed out>"
         }
       ],
       "flags": []
@@ -2173,23 +2187,20 @@
       "signals": [
         "oktatas",
         "neptanc",
+        "cserkesz",
         "media",
         "egyhaz",
         "diak",
         "irodalom",
         "sport"
       ],
-      "pagesChecked": 2,
+      "pagesChecked": 3,
       "checkedUrls": [
         "https://kerekasztal.at/",
+        "https://www.korosiprogram.hu/partnereink/ausztriai-magyar-szervezetek-kerekasztala",
         "https://volksgruppen.orf.at/magyarok/stories/3336303/"
       ],
-      "errors": [
-        {
-          "url": "https://www.korosiprogram.hu/partnereink/ausztriai-magyar-szervezetek-kerekasztala",
-          "error": "The read operation timed out"
-        }
-      ],
+      "errors": [],
       "flags": []
     },
     {
@@ -3958,17 +3969,13 @@
         "muveszet",
         "csalad"
       ],
-      "pagesChecked": 2,
+      "pagesChecked": 3,
       "checkedUrls": [
+        "https://svung.at/",
         "https://www.svung.at/show/aktualis-eloadasok/",
         "https://www.svung.at/"
       ],
-      "errors": [
-        {
-          "url": "https://svung.at/",
-          "error": "The read operation timed out"
-        }
-      ],
+      "errors": [],
       "flags": []
     },
     {
