@@ -51,12 +51,18 @@ function renderSuggestions(){
   const tokens = q.split(/\s+/).filter(Boolean);
   const score = (item) => {
     const label = normalize(item.label);
-    const search = item.search || "";
+    const search = normalize(item.search || "");
+    const labelMatch = label.includes(q);
+    const phraseMatch = search.includes(q);
+    const tokenMatch = tokens.every(t => search.includes(t));
+    // Category priority may rank a match, but must never create a match.
+    if(!labelMatch && !phraseMatch && !tokenMatch) return 0;
     let s = 0;
     if(label === q) s += 100;
     if(label.startsWith(q)) s += 60;
-    if(label.includes(q)) s += 30;
-    if(tokens.every(t => search.includes(t))) s += 20;
+    if(labelMatch) s += 30;
+    if(phraseMatch) s += 20;
+    if(tokenMatch) s += 20;
     if(item.type === "country") s += 6;
     if(item.type === "organization") s += 4;
     if(item.type === "program") s += 5;
@@ -71,7 +77,7 @@ function renderSuggestions(){
     .map(x => x.item);
 
   if(!activeSuggestions.length){
-    root.innerHTML = '<div class="global-search-empty">Nincs elérhető találat a már elkészült országok ellenőrzött adatai között.</div>';
+    root.innerHTML = '<div class="global-search-empty">Nincs a keresésnek megfelelő, jelenleg nyilvántartott találat.</div>';
     root.hidden = false;
     input.setAttribute("aria-expanded","true");
     return;
@@ -373,7 +379,7 @@ function bindWorldMap(){
       const baseFill = verifiedZero ? zeroColor : (ready ? readyColor : base);
       paint(el,baseFill);
       const label = countryLabel(country);
-      const status = verifiedZero ? "lezárt kutatás · jelenleg nincs igazolt magyar vonatkozás" : (ready ? count+" szervezet · kész ország" : count+" ellenőrzött szervezet · kutatás alatt");
+      const status = verifiedZero ? "lezárt kutatás · jelenleg nincs igazolt magyar vonatkozás" : (ready ? count+" ellenőrzött szervezet · áttekintett ország" : count+" ellenőrzött szervezet · kutatás alatt");
       el.setAttribute("aria-label",label+" · "+status);
 
       const statusEl = $("#worldMapStatus");
@@ -426,10 +432,12 @@ function renderGlobalCalendar(){
   if(!root) return;
   const country = $("#globalCalendarCountry")?.value || "";
   const q = normalize($("#globalCalendarSearch")?.value || "");
+  const tokens = q.split(/\s+/).filter(Boolean);
   const rows = (globalEvents.events || []).filter(e => {
     if(country && e.country !== country) return false;
-    if(!q) return true;
-    return normalize([e.name,e.countryLabel,e.city,e.region,e.venue,e.organizer,(e.categories||[]).join(" ")].filter(Boolean).join(" ")).includes(q);
+    if(!tokens.length) return true;
+    const search = normalize([e.name,e.countryLabel,e.city,e.region,e.venue,e.organizer,(e.categories||[]).join(" ")].filter(Boolean).join(" "));
+    return tokens.every(token => search.includes(token));
   });
   if(countEl) countEl.textContent = rows.length+" közelgő program";
   if(empty) empty.hidden = !!rows.length;
@@ -475,10 +483,12 @@ function renderOrganizations(resetLimit = false){
   const country = $("#organizationCountry")?.value || "";
   const type = $("#organizationType")?.value || "";
   const q = normalize($("#organizationSearch")?.value || "");
+  const tokens = q.split(/\s+/).filter(Boolean);
   const rows = organizationItems().filter(item => {
     if(country && item.country !== country) return false;
     if(type && organizationType(item) !== type) return false;
-    return !q || String(item.search || "").includes(q);
+    const search = normalize(item.search || "");
+    return tokens.every(token => search.includes(token));
   }).sort((a,b) => String(a.label).localeCompare(String(b.label),"hu"));
   const visible = rows.slice(0,organizationLimit);
   const count = $("#organizationCount");
