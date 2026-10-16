@@ -1,9 +1,9 @@
 {
-  "updated": "2026-10-15T09:48:25.998735+00:00",
+  "updated": "2026-10-16T01:09:48.566423+00:00",
   "summary": {
-    "organizations": 160,
+    "organizations": 161,
     "organizationFlags": 1,
-    "organizationPagesChecked": 327,
+    "organizationPagesChecked": 332,
     "education": 108,
     "educationFlags": 0,
     "events": 71,
@@ -1468,9 +1468,22 @@
         "kultura"
       ],
       "activityCategories": [],
-      "signals": [],
-      "pagesChecked": 0,
-      "checkedUrls": [],
+      "signals": [
+        "oktatas",
+        "neptanc",
+        "szinhaz",
+        "media",
+        "egyhaz",
+        "diak",
+        "irodalom",
+        "muveszet"
+      ],
+      "pagesChecked": 3,
+      "checkedUrls": [
+        "https://europaclub.at/",
+        "https://europaclub.at/rolunk/europa-club-tortenete/",
+        "https://europaclub.at/de/kontakt/"
+      ],
       "errors": [],
       "flags": []
     },
@@ -1837,13 +1850,17 @@
         "sport",
         "csalad"
       ],
-      "pagesChecked": 3,
+      "pagesChecked": 2,
       "checkedUrls": [
         "https://www.burgenland.at/service/medienservice/aktuelle-meldungen/detail/lh-doskozil-haus-der-volksgruppen-setzt-meilenstein-fuer-vielfalt-und-zusammenhalt/",
-        "https://burgenland.orf.at/stories/3372614/",
-        "https://www.oberwart.gv.at/stadt/termine/detail/termin/50-jahre-volksgruppengesetz-erreichtes-status-quo"
+        "https://burgenland.orf.at/stories/3372614/"
       ],
-      "errors": [],
+      "errors": [
+        {
+          "url": "https://www.oberwart.gv.at/stadt/termine/detail/termin/50-jahre-volksgruppengesetz-erreichtes-status-quo",
+          "error": "HTTP Error 404: Not Found"
+        }
+      ],
       "flags": []
     },
     {
@@ -2875,23 +2892,22 @@
       "activityCategories": [],
       "signals": [
         "oktatas",
+        "neptanc",
+        "nepzene",
         "cserkesz",
+        "szinhaz",
         "media",
         "diak",
         "irodalom",
         "sport",
         "csalad"
       ],
-      "pagesChecked": 1,
+      "pagesChecked": 2,
       "checkedUrls": [
+        "https://volksgruppen.orf.at/magyarok/stories/3337903/",
         "https://volksgruppen.orf.at/magyarok/stories/3068208/"
       ],
-      "errors": [
-        {
-          "url": "https://volksgruppen.orf.at/magyarok/stories/3337903/",
-          "error": "The read operation timed out"
-        }
-      ],
+      "errors": [],
       "flags": []
     },
     {
@@ -2985,7 +3001,6 @@
       ],
       "activityCategories": [],
       "signals": [
-        "szinhaz",
         "media",
         "muveszet",
         "sport"
@@ -3872,6 +3887,34 @@
         "https://buch.stadt-salzburg.gv.at/Mediensuche/Einfache-Suche?detail=6&focusModule=searchmodule&pagesize=50&searchhash=OCLC_c58b9092580f15d9d195d8ca279d096abfc183c4&top=y"
       ],
       "errors": [],
+      "flags": []
+    },
+    {
+      "id": "suedbahnhotel-semmering-hungarian",
+      "name": "Südbahnhotel Semmering – magyar nyelvű házvezetés",
+      "entityClass": "host-institution",
+      "categories": [
+        "kultura"
+      ],
+      "activityCategories": [],
+      "signals": [
+        "szinhaz",
+        "media",
+        "muveszet",
+        "sport",
+        "csalad"
+      ],
+      "pagesChecked": 2,
+      "checkedUrls": [
+        "https://www.suedbahnhotel-semmering.at/de/fuehrungen",
+        "https://volksgruppen.orf.at/magyarok/stories/3373373/"
+      ],
+      "errors": [
+        {
+          "url": "https://veranstaltungen.niederoesterreich.at/235447/ungarische-fhrungen-durch-das-sdbahnhotel-semmering",
+          "error": "HTTP Error 410: Gone"
+        }
+      ],
       "flags": []
     },
     {
