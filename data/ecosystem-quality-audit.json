@@ -1,11 +1,11 @@
 {
-  "updated": "2026-10-15T23:15:43+00:00",
+  "updated": "2026-10-16T01:24:30+00:00",
   "readyCountries": 5,
   "totals": {
-    "organizations": 272,
+    "organizations": 273,
     "education": 142,
-    "missingContact": 51,
-    "missingSocial": 198,
+    "missingContact": 52,
+    "missingSocial": 199,
     "missingEventSource": 65
   },
   "countries": [
@@ -13,10 +13,12 @@
       "country": "at",
       "researchStatus": "reviewed",
       "completionStatus": "austria-canonical",
-      "organizations": 148,
+      "organizations": 149,
       "education": 108,
       "blockingIssues": [],
-      "missingPublicContact": [],
+      "missingPublicContact": [
+        "suedbahnhotel-semmering-hungarian"
+      ],
       "missingVerifiedSocialChannel": [
         "kozponti-szovetseg",
         "cserkesz-72",
@@ -110,7 +112,8 @@
         "stadtbibliothek-salzburg-hungarian",
         "ak-akademie-kaernten-hungarian",
         "grazer-ungarisches-theater",
-        "katolikus-salzburg"
+        "katolikus-salzburg",
+        "suedbahnhotel-semmering-hungarian"
       ],
       "missingEventSource": [
         "roppenj-pengeto",
