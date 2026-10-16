@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-06",
+  "updated": "2026-10-16",
   "sourcePolicy": "Official organization sources preferred; umbrella directories and Austrian-Hungarian community media used as secondary verification. Missing social/event links remain null rather than guessed.",
   "states": [
     {
@@ -14803,6 +14803,63 @@
           "kind": "official-calendar",
           "scope": "self",
           "ingestEvents": true
+        }
+      ]
+    },
+    {
+      "id": "suedbahnhotel-semmering-hungarian",
+      "name": "Südbahnhotel Semmering – magyar nyelvű házvezetés",
+      "state": "niederoesterreich",
+      "city": "Semmering-Kurort",
+      "type": "kulturális helyszín magyar nyelvű vezetéssel",
+      "intro": "A történelmi Südbahnhotel Semmering hivatalos házvezetése magyar nyelven is elérhető. A mintegy 90 perces program a Monarchia egykori alpesi luxusszállodájának történetét, építészetét és a Semmering világörökségi régió kulturális összefüggéseit mutatja be magyarul.",
+      "website": "https://www.suedbahnhotel-semmering.at/de/fuehrungen",
+      "facebook": null,
+      "instagram": null,
+      "eventSources": [],
+      "categories": [
+        "kultura"
+      ],
+      "activities": [
+        "magyar nyelvű házvezetés",
+        "kulturális és építészettörténeti programok"
+      ],
+      "targetGroups": [
+        "magyarul beszélő kulturális látogatók",
+        "a Monarchia és a Semmering története iránt érdeklődők"
+      ],
+      "languages": [
+        "magyar",
+        "német",
+        "angol"
+      ],
+      "profileVerifiedAt": "2026-10-16",
+      "address": "Südbahnstraße 27, 2680 Semmering-Kurort, Ausztria",
+      "evidenceSources": [
+        {
+          "label": "Südbahnhotel Semmering – hivatalos vezetések",
+          "url": "https://www.suedbahnhotel-semmering.at/de/fuehrungen",
+          "type": "official"
+        },
+        {
+          "label": "Niederösterreich Veranstaltungskalender – magyar házvezetés",
+          "url": "https://veranstaltungen.niederoesterreich.at/235447/ungarische-fhrungen-durch-das-sdbahnhotel-semmering",
+          "type": "government"
+        },
+        {
+          "label": "ORF Magyarok – Grand Hotel egykori fénykora",
+          "url": "https://volksgruppen.orf.at/magyarok/stories/3373373/",
+          "type": "public-broadcaster"
+        }
+      ],
+      "entityClass": "host-institution",
+      "calendarSources": [
+        {
+          "label": "Südbahnhotel Semmering – hivatalos vezetések és jegyek",
+          "url": "https://www.suedbahnhotel-semmering.at/de/fuehrungen",
+          "kind": "host-calendar",
+          "scope": "host",
+          "ingestEvents": false
         }
       ]
     }
