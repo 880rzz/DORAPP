@@ -2,8 +2,9 @@ name: DORAPP Global Daily Steward
 
 on:
   schedule:
-    - cron: "17 0-1,3-23 * * *"
-    - cron: "17 2 * * *"
+    # Off-hour UTC cron minute; GitHub schedule delivery remains best-effort.
+    - cron: "37 0-1,3-23 * * *"
+    - cron: "37 2 * * *"
   workflow_dispatch:
   push:
     branches:
@@ -52,14 +53,15 @@ permissions:
 
 concurrency:
   group: dorapp-global-main-v2
-  cancel-in-progress: true
+  # Queue overlapping push/schedule runs instead of cancelling an active research pass.
+  cancel-in-progress: false
 
 jobs:
   research:
     if: "${{ github.event_name != 'push' || !startsWith(github.event.head_commit.message, 'chore(global): rotate diaspora research batch') }}"
     runs-on: ubuntu-latest
     env:
-      RUN_EVENT_REFRESH: ${{ (github.event_name == 'schedule' && github.event.schedule == '17 2 * * *') || github.event_name == 'workflow_dispatch' || startsWith(github.event.head_commit.message, 'test(events):') }}
+      RUN_EVENT_REFRESH: ${{ (github.event_name == 'schedule' && github.event.schedule == '37 2 * * *') || github.event_name == 'workflow_dispatch' || startsWith(github.event.head_commit.message, 'test(events):') }}
     steps:
       - uses: actions/checkout@v5
         with:
