@@ -15,6 +15,13 @@ def load_script(filename, name):
     return module
 
 class GlobalResearchIntegrityTests(unittest.TestCase):
+    def test_quality_audit_recognizes_documented_completion_status(self):
+        audit = load_script("audit_ecosystem_quality.py", "ecosystem_completion_status_test")
+        self.assertEqual(audit.completion_status({"status": "reviewed"}, "be"), "reviewed")
+        self.assertEqual(audit.completion_status({"completionStatus": "reviewed"}, "nl"), "reviewed")
+        self.assertEqual(audit.completion_status({}, "us"), "missing")
+        self.assertEqual(audit.completion_status({"status": "researching"}, "dk"), "missing")
+
     def test_conflicting_first_party_country_is_rejected(self):
         verifier = load_script("verify_first_party_sites.py", "country_conflict_test")
         names = {"en":"Australia","hu":"Ausztrália"}
