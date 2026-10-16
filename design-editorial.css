@@ -60,3 +60,6 @@ body:not(.world-home) main{overflow:clip}body:not(.world-home) .hero-actions a,b
 .directory-result:hover strong,.directory-result:focus-visible strong{text-decoration:underline;text-underline-offset:3px}
 .legend-ready{background:#91cbaa}
 .country-more{display:block;margin:20px auto 0}
+
+/* Keep the embedded world SVG proportionate on compact screens. */
+@media(max-width:760px){.world-map-viewport{height:clamp(240px,64vw,420px)}}
