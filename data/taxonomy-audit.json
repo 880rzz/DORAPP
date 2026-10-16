@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-16T01:13:08.902133+00:00",
+  "updated": "2026-10-16T09:01:56.741077+00:00",
   "summary": {
     "organizations": 161,
     "organizationFlags": 1,
@@ -126,24 +126,17 @@
       ],
       "activityCategories": [],
       "signals": [
-        "egyhaz"
+        "media",
+        "egyhaz",
+        "csalad"
       ],
-      "pagesChecked": 0,
-      "checkedUrls": [],
-      "errors": [
-        {
-          "url": "https://www.martinus.at/",
-          "error": "<urlopen error timed out>"
-        },
-        {
-          "url": "https://www.martinus.at/pfarre/1127/kalender",
-          "error": "<urlopen error timed out>"
-        },
-        {
-          "url": "https://www.martinus.at/unterwart",
-          "error": "<urlopen error timed out>"
-        }
+      "pagesChecked": 3,
+      "checkedUrls": [
+        "https://www.martinus.at/",
+        "https://www.martinus.at/pfarre/1127/kalender",
+        "https://www.martinus.at/unterwart"
       ],
+      "errors": [],
       "flags": []
     },
     {
@@ -906,7 +899,7 @@
       "errors": [
         {
           "url": "https://bornemisza.at/",
-          "error": "<urlopen error [Errno 111] Connection refused>"
+          "error": "<urlopen error timed out>"
         },
         {
           "url": "https://www.kozpontiszovetseg.at/bornemisza-peter-tarsasag",
@@ -1118,18 +1111,21 @@
       "signals": [
         "oktatas",
         "szinhaz",
-        "media",
         "irodalom",
         "muveszet",
         "csalad"
       ],
-      "pagesChecked": 3,
+      "pagesChecked": 2,
       "checkedUrls": [
         "https://culture.hu/hu/wien",
-        "https://culture.hu/hu/wien/esemenyek",
-        "https://culture.hu/de/wien/jubilaum"
+        "https://culture.hu/hu/wien/esemenyek"
       ],
-      "errors": [],
+      "errors": [
+        {
+          "url": "https://culture.hu/de/wien/jubilaum",
+          "error": "HTTP Error 502: Bad Gateway"
+        }
+      ],
       "flags": []
     },
     {
@@ -1577,24 +1573,16 @@
       ],
       "activityCategories": [],
       "signals": [
+        "media",
         "egyhaz"
       ],
-      "pagesChecked": 0,
-      "checkedUrls": [],
-      "errors": [
-        {
-          "url": "https://www.martinus.at/pfarre/1122",
-          "error": "<urlopen error timed out>"
-        },
-        {
-          "url": "https://www.martinus.at/pfarre/1122/kalender",
-          "error": "<urlopen error timed out>"
-        },
-        {
-          "url": "https://www.martinus.at/pfarre/1122/kalender/calendar/1808040.html",
-          "error": "<urlopen error timed out>"
-        }
+      "pagesChecked": 3,
+      "checkedUrls": [
+        "https://www.martinus.at/pfarre/1122",
+        "https://www.martinus.at/pfarre/1122/kalender",
+        "https://www.martinus.at/pfarre/1122/kalender/calendar/1808040.html"
       ],
+      "errors": [],
       "flags": []
     },
     {
@@ -2107,16 +2095,14 @@
       "signals": [
         "egyhaz"
       ],
-      "pagesChecked": 0,
-      "checkedUrls": [],
+      "pagesChecked": 1,
+      "checkedUrls": [
+        "https://www.edsbg.at/seelsorge/weltkirche/anderssprachige-seelsorge/ungarische-gemeinde"
+      ],
       "errors": [
         {
-          "url": "https://www.edsbg.at/seelsorge/weltkirche/anderssprachige-seelsorge/ungarische-gemeinde",
-          "error": "<urlopen error timed out>"
-        },
-        {
           "url": "https://www.edsbg.at/dl/klOKJmMJKNLMKJqx4KJK/ungarischsprachige_Gottesdienstgemeinde_Salzburg_pdf",
-          "error": "<urlopen error timed out>"
+          "error": "HTTP Error 400: Bad Request"
         }
       ],
       "flags": []
@@ -2187,20 +2173,23 @@
       "signals": [
         "oktatas",
         "neptanc",
-        "cserkesz",
         "media",
         "egyhaz",
         "diak",
         "irodalom",
         "sport"
       ],
-      "pagesChecked": 3,
+      "pagesChecked": 2,
       "checkedUrls": [
         "https://kerekasztal.at/",
-        "https://www.korosiprogram.hu/partnereink/ausztriai-magyar-szervezetek-kerekasztala",
         "https://volksgruppen.orf.at/magyarok/stories/3336303/"
       ],
-      "errors": [],
+      "errors": [
+        {
+          "url": "https://www.korosiprogram.hu/partnereink/ausztriai-magyar-szervezetek-kerekasztala",
+          "error": "The read operation timed out"
+        }
+      ],
       "flags": []
     },
     {
@@ -2561,12 +2550,16 @@
         "diak",
         "irodalom"
       ],
-      "pagesChecked": 2,
+      "pagesChecked": 1,
       "checkedUrls": [
-        "https://mde.hu/partnerek-tamogatok/",
         "https://kerekasztal.at/"
       ],
-      "errors": [],
+      "errors": [
+        {
+          "url": "https://mde.hu/partnerek-tamogatok/",
+          "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'mde.hu'. (_ssl.c:1010)>"
+        }
+      ],
       "flags": []
     },
     {
@@ -2578,21 +2571,24 @@
       ],
       "activityCategories": [],
       "signals": [
-        "neptanc",
-        "media",
-        "diak",
-        "irodalom",
-        "muveszet",
-        "sport",
-        "csalad"
+        "diak"
       ],
-      "pagesChecked": 3,
-      "checkedUrls": [
-        "https://mde.hu/at/",
-        "https://mde.hu/rolunk/",
-        "https://mde.hu/becsi-esemenyek/"
+      "pagesChecked": 0,
+      "checkedUrls": [],
+      "errors": [
+        {
+          "url": "https://mde.hu/at/",
+          "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'mde.hu'. (_ssl.c:1010)>"
+        },
+        {
+          "url": "https://mde.hu/rolunk/",
+          "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'mde.hu'. (_ssl.c:1010)>"
+        },
+        {
+          "url": "https://mde.hu/becsi-esemenyek/",
+          "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'mde.hu'. (_ssl.c:1010)>"
+        }
       ],
-      "errors": [],
       "flags": []
     },
     {
@@ -3962,13 +3958,17 @@
         "muveszet",
         "csalad"
       ],
-      "pagesChecked": 3,
+      "pagesChecked": 2,
       "checkedUrls": [
-        "https://svung.at/",
         "https://www.svung.at/show/aktualis-eloadasok/",
         "https://www.svung.at/"
       ],
-      "errors": [],
+      "errors": [
+        {
+          "url": "https://svung.at/",
+          "error": "The read operation timed out"
+        }
+      ],
       "flags": []
     },
     {
