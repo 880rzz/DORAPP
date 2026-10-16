@@ -111,7 +111,10 @@
     if(f.region && regionOf(x)!==f.region) return false;
     if(f.city && x.city!==f.city) return false;
     if(f.address && !norm([x.venue,x.address,x.city,x.region,x.state].filter(Boolean).join(" ")).includes(f.address)) return false;
-    if(f.query && !norm([x.name,x.city,x.region,x.type,x.intro,x.summary,x.venue].filter(Boolean).join(" ")).includes(f.query)) return false;
+    if(f.query){
+      const hay=norm([x.name,x.city,x.region,x.type,x.intro,x.summary,x.venue].filter(Boolean).join(" "));
+      if(!f.query.split(/\s+/).every(token=>hay.includes(token))) return false;
+    }
     return true;
   }
   function renderEducation(){
@@ -131,7 +134,10 @@
       if(f.program && e.id!==f.program) return false;
       if(f.org && !(e.organizerId===f.org||e.organizationId===f.org)) return false;
       if(f.address && !norm([e.address,e.venue,e.city,e.region].filter(Boolean).join(" ")).includes(f.address)) return false;
-      if(f.query && !norm([e.name,e.title,e.organizer,e.city,e.region,e.venue,e.description,...(e.categories||[])].filter(Boolean).join(" ")).includes(f.query)) return false;
+      if(f.query){
+        const hay=norm([e.name,e.title,e.organizer,e.city,e.region,e.venue,e.description,...(e.categories||[])].filter(Boolean).join(" "));
+        if(!f.query.split(/\s+/).every(token=>hay.includes(token))) return false;
+      }
       return true;
     }).sort((a,b)=>String(a.startDate||a.date||"").localeCompare(String(b.startDate||b.date||"")));
     const grid=$("#countryEventGrid"), count=$("#countryEventCount"), empty=$("#countryEventEmpty");
@@ -142,19 +148,26 @@
 
   function renderDirectoryResults(){
     const f=filters();
-    const orgList=orgs.filter(o=>matchingOrg(o,f)).slice(0,12);
-    const eduList=education.filter(x=>matchingEducation(x,f)).slice(0,8);
-    const eventList=events.filter(e=>{
+    const orgMatches=orgs.filter(o=>matchingOrg(o,f));
+    const eduMatches=education.filter(x=>matchingEducation(x,f));
+    const eventMatches=events.filter(e=>{
       if(f.region && regionOf(e)!==f.region) return false;
       if(f.city && e.city!==f.city) return false;
       if(f.program && e.id!==f.program) return false;
       if(f.org && !(e.organizerId===f.org||e.organizationId===f.org)) return false;
-      if(f.query && !norm([e.name,e.title,e.city,e.venue,e.organizer,e.description].filter(Boolean).join(" ")).includes(f.query)) return false;
+      if(f.query){
+        const hay=norm([e.name,e.title,e.city,e.venue,e.organizer,e.description].filter(Boolean).join(" "));
+        if(!f.query.split(/\s+/).every(token=>hay.includes(token))) return false;
+      }
       return true;
-    }).slice(0,8);
+    });
+    const total=orgMatches.length+eduMatches.length+eventMatches.length;
+    const orgList=orgMatches.slice(0,12), eduList=eduMatches.slice(0,8), eventList=eventMatches.slice(0,8);
+    const visible=orgList.length+eduList.length+eventList.length;
     const root=$("#countryDirectoryResults"), count=$("#countryDirectoryCount");
-    const total=orgList.length+eduList.length+eventList.length;
-    if(count) count.textContent=`${total} közvetlen találat az aktuális szűrésben`;
+    if(count) count.textContent=visible===total
+      ? `${total} közvetlen találat az aktuális szűrésben`
+      : `${total} találat · az első ${visible} megjelenítve`;
     if(!root) return;
     root.innerHTML=[
       ...orgList.map(o=>`<a class="directory-result" href="organizations/${encodeURIComponent(o.id)}.html"><span>Szervezet · ${esc(regionLabel(regionOf(o)))}</span><strong>${esc(o.name)}</strong><small>${esc([o.city,o.type].filter(Boolean).join(" · "))}</small></a>`),
@@ -391,6 +404,15 @@
     events=v.events||v.items||[];
     regionNames=Object.fromEntries((o.states||o.regions||[]).filter(x=>x?.id).map(x=>[x.id,x.name||x.label||x.id]));
     buildOptions();
+    // Autocomplete city/activity links must activate the destination filter.
+    const params=new URLSearchParams(location.search);
+    const initialCity=params.get("city");
+    const cityInput=$("#countryCity");
+    if(cityInput && initialCity && [...cityInput.options].some(option=>option.value===initialCity)){
+      cityInput.value=initialCity;
+    }
+    const initialQuery=params.get("q");
+    if(initialQuery && $("#countryQuery")) $("#countryQuery").value=initialQuery;
     bindRegionMap();
     bindSubdivisionSvg();
     bindFilters();
