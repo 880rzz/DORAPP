@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-import json, urllib.parse, urllib.request, time
+import json, urllib.parse, urllib.request, time, os
 from datetime import datetime, timezone
 from pathlib import Path
 
@@ -8,7 +8,7 @@ DATA = ROOT / "data"
 GLOBAL = DATA / "global.json"
 STATE = DATA / "research-state.json"
 RUNS = DATA / "daily-runs"
-BATCH_SIZE = 1
+BATCH_SIZE = max(1, min(4, int(os.environ.get("DORAPP_RESEARCH_BATCH_SIZE", "1"))))
 TIMEOUT = 20
 UA = "DORAPP-Global-Steward/1.0 (+https://www.diaszporaterkep.hu/)"
 
