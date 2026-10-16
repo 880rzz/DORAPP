@@ -89,6 +89,14 @@ report.interactions.directoryReset=(await page.locator("#organizationSearch").in
 const beforeZoom=await page.locator("#worldMapZoomValue").textContent();
 await page.locator("#worldMapZoomIn").click();
 report.interactions.worldMapZoom=beforeZoom!==await page.locator("#worldMapZoomValue").textContent();
+await page.waitForFunction(()=>{
+  const el=document.querySelector("#worldMap")?.contentDocument?.getElementById("at");
+  return el?.getAttribute("role")==="link";
+});
+report.interactions.worldMapCountryAccessible=await page.evaluate(()=>{
+  const el=document.querySelector("#worldMap")?.contentDocument?.getElementById("at");
+  return el?.getAttribute("tabindex")==="0" && (el.getAttribute("aria-label")||"").includes("Ausztria");
+});
 const toggle=page.locator(".menu-toggle");
 report.interactions.mobileMenuPresent=await toggle.count()===1;
 if(await toggle.count()){
@@ -98,6 +106,17 @@ if(await toggle.count()){
   report.interactions.mobileMenu=opened&&await toggle.getAttribute("aria-expanded")==="false";
 }
 await page.close();
+
+// SVG paths must navigate to the intended country, not just change colour.
+const mapNavigation=await context.newPage();
+await mapNavigation.goto(base+"/index.html",{waitUntil:"networkidle"});
+await mapNavigation.waitForFunction(()=>document.querySelector("#worldMap")?.contentDocument?.getElementById("at")?.getAttribute("role")==="link");
+await mapNavigation.evaluate(()=>{
+  document.querySelector("#worldMap").contentDocument.getElementById("at").dispatchEvent(new MouseEvent("click",{bubbles:true}));
+});
+await mapNavigation.waitForURL(/\\/countries\\/at\\/?(?:\\?.*)?$/,{timeout:10000});
+report.interactions.worldMapCountryNavigation=mapNavigation.url().includes("/countries/at/");
+await mapNavigation.close();
 
 const country=await context.newPage();
 await country.setViewportSize({width:390,height:844});
