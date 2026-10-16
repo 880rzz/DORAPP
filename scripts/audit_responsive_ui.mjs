@@ -114,7 +114,7 @@ await mapNavigation.waitForFunction(()=>document.querySelector("#worldMap")?.con
 await mapNavigation.evaluate(()=>{
   document.querySelector("#worldMap").contentDocument.getElementById("at").dispatchEvent(new MouseEvent("click",{bubbles:true}));
 });
-await mapNavigation.waitForURL(/\\/countries\\/at\\/?(?:\\?.*)?$/,{timeout:10000});
+await mapNavigation.waitForURL(/\/countries\/at\/?(?:\?.*)?$/,{timeout:10000});
 report.interactions.worldMapCountryNavigation=mapNavigation.url().includes("/countries/at/");
 await mapNavigation.close();
 
