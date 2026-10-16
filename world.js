@@ -57,6 +57,7 @@ function renderSuggestions(){
     if(label.startsWith(q)) s += 60;
     if(label.includes(q)) s += 30;
     if(tokens.every(t => search.includes(t))) s += 20;
+    if(search.split(/\s+/).some(term => term.startsWith(q))) s += 25;
     if(item.type === "country") s += 6;
     if(item.type === "organization") s += 4;
     if(item.type === "program") s += 5;
