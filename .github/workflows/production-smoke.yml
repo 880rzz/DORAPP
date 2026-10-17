@@ -44,6 +44,35 @@ jobs:
           fetch "/data/global.json" "global.json"
           fetch "/data/global-search-index.json" "global-search-index.json"
           fetch "/data/global-events.json" "global-events.json"
+          fetch "/country.js" "country.js"
+          grep -Fq 'Country dataset unavailable' "${work}/country.js"
+          python - "${work}" "${base}" "${{ github.run_id }}" <<'PY'
+          import json, pathlib, subprocess, sys
+          root, base, run_id=pathlib.Path(sys.argv[1]),sys.argv[2],sys.argv[3]
+          countries=json.loads((root/"global.json").read_text(encoding="utf-8"))["countries"]
+          failures=[]
+          for country in countries:
+              iso=country.get("iso2","").lower()
+              if not iso: failures.append("missing iso2"); continue
+              routes=[(f"/countries/{iso}/",("countryOrgGrid","country.js?","countryEventGrid")),
+                      (f"/data/countries/{iso}/organizations.json",("organizations",)),
+                      (f"/data/countries/{iso}/education.json",("institutions",)),
+                      (f"/data/countries/{iso}/events.json",("events",))]
+              for route,required in routes:
+                  url=base+route+"?production-smoke="+run_id
+                  result=subprocess.run(["curl","--fail","--silent","--show-error","--location","--retry","3","--max-time","30",url],capture_output=True,text=True)
+                  if result.returncode: failures.append(f"{iso}: unavailable {route}"); continue
+                  if route.endswith(".json"):
+                      try:
+                          payload=json.loads(result.stdout)
+                          if not isinstance(payload,dict) or not any(k in payload for k in required):
+                              failures.append(f"{iso}: unexpected dataset shape {route}")
+                      except ValueError: failures.append(f"{iso}: invalid JSON {route}")
+                  elif not all(marker in result.stdout for marker in required):
+                      failures.append(f"{iso}: missing country UI markers")
+          if failures: raise SystemExit("Production country parity failed:\\n"+"\\n".join(failures[:40]))
+          print(f"Production country routes and datasets verified: {len(countries)}")
+          PY
 
           grep -Fq 'design-editorial.css?v=20261015-2' "${work}/index.html"
           grep -Fq 'assets/world-map.svg' "${work}/index.html"
