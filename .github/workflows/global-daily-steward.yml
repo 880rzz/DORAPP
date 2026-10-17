@@ -3,7 +3,6 @@ name: DORAPP Global Daily Steward
 on:
   schedule:
     # Off-hour UTC cron minute; GitHub schedule delivery remains best-effort.
-    - cron: "37 0-1,3-23 * * *"
     - cron: "37 2 * * *"
   workflow_dispatch:
   push:
