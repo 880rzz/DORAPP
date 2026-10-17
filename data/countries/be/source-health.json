@@ -1,17 +1,17 @@
 {
-  "updated": "2026-10-17T00:46:55+00:00",
+  "updated": "2026-10-17T06:09:55+00:00",
   "sources": [
     {
       "id": "brusszeli-magyar-haz",
       "url": "https://www.magyarhazbrusszel.be/",
       "sourceRole": "official-website",
-      "status": "rate-limited",
-      "httpStatus": 429,
+      "status": "ok",
+      "httpStatus": 200,
       "resolvedUrl": "https://www.magyarhazbrusszel.be/",
-      "contentType": "",
-      "checkedAt": "2026-10-17T00:46:55+00:00",
+      "contentType": "text/html; charset=utf-8",
+      "checkedAt": "2026-10-17T06:09:55+00:00",
       "removalAuthority": false,
-      "note": "Technical failure alone is never evidence for entity removal."
+      "note": null
     },
     {
       "id": "magyarorszag-haza-brusszel",
@@ -21,7 +21,7 @@
       "httpStatus": 200,
       "resolvedUrl": "https://maisondelahongrie-bruxelles.hu/",
       "contentType": "text/html; charset=utf-8",
-      "checkedAt": "2026-10-17T00:46:55+00:00",
+      "checkedAt": "2026-10-17T06:09:55+00:00",
       "removalAuthority": false,
       "note": null
     },
@@ -29,25 +29,25 @@
       "id": "liszt-intezet-brusszel",
       "url": "https://culture.hu/en/brussels",
       "sourceRole": "official-website",
-      "status": "timeout",
-      "httpStatus": null,
+      "status": "ok",
+      "httpStatus": 200,
       "resolvedUrl": "https://culture.hu/en/brussels",
-      "contentType": "",
-      "checkedAt": "2026-10-17T00:46:55+00:00",
+      "contentType": "text/html; charset=utf-8",
+      "checkedAt": "2026-10-17T06:09:55+00:00",
       "removalAuthority": false,
-      "note": "Technical failure alone is never evidence for entity removal."
+      "note": null
     },
     {
       "id": "magyarorszag-nagykovetsege-brusszel",
       "url": "https://brusszel.mfa.gov.hu/",
       "sourceRole": "official-website",
-      "status": "ok",
-      "httpStatus": 200,
+      "status": "timeout",
+      "httpStatus": null,
       "resolvedUrl": "https://brusszel.mfa.gov.hu/",
-      "contentType": "text/html; charset=utf-8",
-      "checkedAt": "2026-10-17T00:46:55+00:00",
+      "contentType": "",
+      "checkedAt": "2026-10-17T06:09:55+00:00",
       "removalAuthority": false,
-      "note": null
+      "note": "Technical failure alone is never evidence for entity removal."
     },
     {
       "id": "brusszeli-magyar-katolikus-kozosseg",
@@ -57,7 +57,7 @@
       "httpStatus": 200,
       "resolvedUrl": "https://www.bmkk.be/",
       "contentType": "text/html; charset=utf-8",
-      "checkedAt": "2026-10-17T00:46:55+00:00",
+      "checkedAt": "2026-10-17T06:09:55+00:00",
       "removalAuthority": false,
       "note": null
     },
@@ -69,7 +69,7 @@
       "httpStatus": 200,
       "resolvedUrl": "https://www.protestans.be/",
       "contentType": "text/html; charset=utf-8",
-      "checkedAt": "2026-10-17T00:46:55+00:00",
+      "checkedAt": "2026-10-17T06:09:55+00:00",
       "removalAuthority": false,
       "note": null
     },
@@ -81,7 +81,7 @@
       "httpStatus": 200,
       "resolvedUrl": "https://cserkesz.be/",
       "contentType": "text/html; charset=utf-8",
-      "checkedAt": "2026-10-17T00:46:55+00:00",
+      "checkedAt": "2026-10-17T06:09:55+00:00",
       "removalAuthority": false,
       "note": null
     },
@@ -93,7 +93,7 @@
       "httpStatus": 200,
       "resolvedUrl": "https://www.vilagfa.be/hu/",
       "contentType": "text/html; charset=utf-8",
-      "checkedAt": "2026-10-17T00:46:55+00:00",
+      "checkedAt": "2026-10-17T06:09:55+00:00",
       "removalAuthority": false,
       "note": null
     },
@@ -105,7 +105,7 @@
       "httpStatus": 200,
       "resolvedUrl": "https://www.hunyouth.org/",
       "contentType": "text/html;charset=utf-8",
-      "checkedAt": "2026-10-17T00:46:55+00:00",
+      "checkedAt": "2026-10-17T06:09:55+00:00",
       "removalAuthority": false,
       "note": null
     },
@@ -117,7 +117,7 @@
       "httpStatus": 200,
       "resolvedUrl": "https://www.korosiprogram.hu/partnereink/carpathia-asbl",
       "contentType": "text/html; charset=utf-8",
-      "checkedAt": "2026-10-17T00:46:55+00:00",
+      "checkedAt": "2026-10-17T06:09:55+00:00",
       "removalAuthority": false,
       "note": null
     },
@@ -129,7 +129,7 @@
       "httpStatus": 200,
       "resolvedUrl": "https://www.hatartalantortenelem.com/",
       "contentType": "text/html; charset=utf-8",
-      "checkedAt": "2026-10-17T00:46:55+00:00",
+      "checkedAt": "2026-10-17T06:09:55+00:00",
       "removalAuthority": false,
       "note": null
     },
@@ -137,13 +137,13 @@
       "id": "viola-dance-ensemble-brussels",
       "url": "https://culture.hu/en/brussels/events/heritage-days-2024",
       "sourceRole": "primary-evidence",
-      "status": "timeout",
-      "httpStatus": null,
+      "status": "ok",
+      "httpStatus": 200,
       "resolvedUrl": "https://culture.hu/en/brussels/events/heritage-days-2024",
-      "contentType": "",
-      "checkedAt": "2026-10-17T00:46:55+00:00",
+      "contentType": "text/html; charset=utf-8",
+      "checkedAt": "2026-10-17T06:09:55+00:00",
       "removalAuthority": false,
-      "note": "Technical failure alone is never evidence for entity removal."
+      "note": null
     },
     {
       "id": "egyben-belgium",
@@ -153,7 +153,7 @@
       "httpStatus": 200,
       "resolvedUrl": "https://egyben.wixsite.com/belgiumi-segitok",
       "contentType": "text/html; charset=utf-8",
-      "checkedAt": "2026-10-17T00:46:55+00:00",
+      "checkedAt": "2026-10-17T06:09:55+00:00",
       "removalAuthority": false,
       "note": null
     },
@@ -161,13 +161,13 @@
       "id": "magyarorszag-eu-allando-kepviselet-brusszel",
       "url": "https://eu-brusszel.mfa.gov.hu/en",
       "sourceRole": "official-website",
-      "status": "ok",
-      "httpStatus": 200,
+      "status": "timeout",
+      "httpStatus": null,
       "resolvedUrl": "https://eu-brusszel.mfa.gov.hu/en",
-      "contentType": "text/html; charset=utf-8",
-      "checkedAt": "2026-10-17T00:46:55+00:00",
+      "contentType": "",
+      "checkedAt": "2026-10-17T06:09:55+00:00",
       "removalAuthority": false,
-      "note": null
+      "note": "Technical failure alone is never evidence for entity removal."
     },
     {
       "id": "eurologus",
@@ -177,7 +177,7 @@
       "httpStatus": 200,
       "resolvedUrl": "https://hvg.hu/eurologus",
       "contentType": "text/html; charset=utf-8",
-      "checkedAt": "2026-10-17T00:46:55+00:00",
+      "checkedAt": "2026-10-17T06:09:55+00:00",
       "removalAuthority": false,
       "note": null
     },
@@ -189,7 +189,7 @@
       "httpStatus": 200,
       "resolvedUrl": "https://voxpat.be/hu/index",
       "contentType": "text/html; charset=utf-8",
-      "checkedAt": "2026-10-17T00:46:55+00:00",
+      "checkedAt": "2026-10-17T06:09:55+00:00",
       "removalAuthority": false,
       "note": null
     },
@@ -197,13 +197,13 @@
       "id": "konyvter-brusszeli-gyermekkonyvtar",
       "url": "https://culture.hu/hu/brussels/konyvtar-2",
       "sourceRole": "primary-evidence",
-      "status": "timeout",
-      "httpStatus": null,
+      "status": "ok",
+      "httpStatus": 200,
       "resolvedUrl": "https://culture.hu/hu/brussels/konyvtar-2",
-      "contentType": "",
-      "checkedAt": "2026-10-17T00:46:55+00:00",
+      "contentType": "text/html; charset=utf-8",
+      "checkedAt": "2026-10-17T06:09:55+00:00",
       "removalAuthority": false,
-      "note": "Technical failure alone is never evidence for entity removal."
+      "note": null
     },
     {
       "id": "arcfam-asbl",
@@ -213,7 +213,7 @@
       "httpStatus": 200,
       "resolvedUrl": "https://arcfam.be/",
       "contentType": "text/html; charset=utf-8",
-      "checkedAt": "2026-10-17T00:46:55+00:00",
+      "checkedAt": "2026-10-17T06:09:55+00:00",
       "removalAuthority": false,
       "note": null
     },
@@ -221,13 +221,13 @@
       "id": "magyarorszag-nato-allando-kepviselet-brusszel",
       "url": "https://nato-brusszel.mfa.gov.hu/en",
       "sourceRole": "official-website",
-      "status": "ok",
-      "httpStatus": 200,
+      "status": "timeout",
+      "httpStatus": null,
       "resolvedUrl": "https://nato-brusszel.mfa.gov.hu/en",
-      "contentType": "text/html; charset=utf-8",
-      "checkedAt": "2026-10-17T00:46:55+00:00",
+      "contentType": "",
+      "checkedAt": "2026-10-17T06:09:55+00:00",
       "removalAuthority": false,
-      "note": null
+      "note": "Technical failure alone is never evidence for entity removal."
     }
   ]
 }
