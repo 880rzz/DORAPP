@@ -287,7 +287,7 @@ def futureish(start,end=None):
         value=end or start
         s=str(value).replace("Z","+00:00"); d=datetime.fromisoformat(s)
         if d.tzinfo is None:d=d.replace(tzinfo=timezone.utc)
-        return d>=datetime.now(timezone.utc)-timedelta(days=2)
+        return d>=datetime.now(timezone.utc)
     except Exception:return True
 
 def links(html,base):
