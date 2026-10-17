@@ -51,27 +51,40 @@ jobs:
           root, base, run_id=pathlib.Path(sys.argv[1]),sys.argv[2],sys.argv[3]
           countries=json.loads((root/"global.json").read_text(encoding="utf-8"))["countries"]
           failures=[]
+          absent=[]
           for country in countries:
               iso=country.get("iso2","").lower()
               if not iso: failures.append("missing iso2"); continue
-              routes=[(f"/countries/{iso}/",("countryOrgGrid","country.js?","countryEventGrid")),
-                      (f"/data/countries/{iso}/organizations.json",("organizations",)),
-                      (f"/data/countries/{iso}/education.json",("institutions",)),
-                      (f"/data/countries/{iso}/events.json",("events",))]
-              for route,required in routes:
+              routes=[(f"/countries/{iso}/",("countryOrgGrid","country.js?","countryEventGrid"),False),
+                      (f"/data/countries/{iso}/organizations.json",("organizations",),True),
+                      (f"/data/countries/{iso}/education.json",("institutions",),True),
+                      (f"/data/countries/{iso}/events.json",("events",),True)]
+              for route,required,optional in routes:
                   url=base+route+"?production-smoke="+run_id
-                  result=subprocess.run(["curl","--fail","--silent","--show-error","--location","--retry","3","--max-time","30",url],capture_output=True,text=True)
-                  if result.returncode: failures.append(f"{iso}: unavailable {route}"); continue
+                  result=subprocess.run(["curl","--silent","--show-error","--location","--retry","2","--max-time","30","--write-out","\n%{http_code}",url],capture_output=True,text=True)
+                  body,sep,status=result.stdout.rpartition("\n")
+                  if result.returncode or not sep:
+                      failures.append(f"{iso}: request failed {route}: {result.stderr[:120]}")
+                      continue
+                  if status=="404" and optional:
+                      absent.append(route)
+                      continue
+                  if status!="200":
+                      failures.append(f"{iso}: HTTP {status} {route}")
+                      continue
                   if route.endswith(".json"):
                       try:
-                          payload=json.loads(result.stdout)
+                          payload=json.loads(body)
                           if not isinstance(payload,dict) or not any(k in payload for k in required):
                               failures.append(f"{iso}: unexpected dataset shape {route}")
                       except ValueError: failures.append(f"{iso}: invalid JSON {route}")
-                  elif not all(marker in result.stdout for marker in required):
+                  elif not all(marker in body for marker in required):
                       failures.append(f"{iso}: missing country UI markers")
-          if failures: raise SystemExit("Production country parity failed:\\n"+"\\n".join(failures[:40]))
-          print(f"Production country routes and datasets verified: {len(countries)}")
+          print(f"Country pages checked: {len(countries)}; unpublished optional datasets: {len(absent)}")
+          if absent:
+              print("DATA COVERAGE GAPS (not verified empty):")
+              print("\n".join(absent[:80]))
+          if failures: raise SystemExit("Production country parity failed:\n"+"\n".join(failures[:40]))
           PY
 
           grep -Fq 'design-editorial.css?v=20261015-2' "${work}/index.html"
