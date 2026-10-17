@@ -16,7 +16,7 @@ permissions:
   pull-requests: write
   actions: write
 concurrency:
-  group: dorapp-generated-data
+  group: dorapp-taxonomy-pr
   cancel-in-progress: false
 jobs:
   audit:

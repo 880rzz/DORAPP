@@ -53,7 +53,7 @@ permissions:
   actions: write
 
 concurrency:
-  group: dorapp-generated-data
+  group: dorapp-global-pr
   # Queue overlapping push/schedule runs instead of cancelling an active research pass.
   cancel-in-progress: false
 

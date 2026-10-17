@@ -8,7 +8,7 @@ permissions:
   pull-requests: write
   actions: write
 concurrency:
-  group: dorapp-generated-data
+  group: dorapp-static-pr
   cancel-in-progress: false
 jobs:
   build:
