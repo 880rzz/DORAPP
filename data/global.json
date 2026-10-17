@@ -422,7 +422,7 @@
       "name": {
         "en": "Burkina Faso"
       },
-      "researchStatus": "unresearched",
+      "researchStatus": "researching",
       "countryDataPath": "data/countries/bf/",
       "route": "countries/bf/",
       "counts": {
@@ -432,7 +432,9 @@
         "events": 0,
         "education": 0
       },
-      "iso3": "BFA"
+      "iso3": "BFA",
+      "lastResearchAttemptAt": "2026-10-17T07:10:18+00:00",
+      "discoveryCandidateCount": 37
     },
     {
       "iso2": "bg",
