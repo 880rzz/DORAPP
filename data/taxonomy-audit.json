@@ -1,9 +1,9 @@
 {
-  "updated": "2026-10-17T08:34:07.701234+00:00",
+  "updated": "2026-10-17T09:13:33.672246+00:00",
   "summary": {
     "organizations": 161,
     "organizationFlags": 2,
-    "organizationPagesChecked": 345,
+    "organizationPagesChecked": 347,
     "education": 108,
     "educationFlags": 0,
     "events": 70,
@@ -75,16 +75,12 @@
         "sport",
         "csalad"
       ],
-      "pagesChecked": 1,
+      "pagesChecked": 2,
       "checkedUrls": [
+        "https://bgld.arbeiterkammer.at/service/buecherei/akbuechereieisenstadt/index.html",
         "https://bgld.arbeiterkammer.at/beratung/Bildung/arbeitswelt/Buecherei-Angebote.html"
       ],
-      "errors": [
-        {
-          "url": "https://bgld.arbeiterkammer.at/service/buecherei/akbuechereieisenstadt/index.html",
-          "error": "The read operation timed out"
-        }
-      ],
+      "errors": [],
       "flags": []
     },
     {
@@ -1115,19 +1111,17 @@
       "activityCategories": [],
       "signals": [
         "oktatas",
+        "media",
         "irodalom"
       ],
-      "pagesChecked": 1,
+      "pagesChecked": 2,
       "checkedUrls": [
-        "https://culture.hu/hu/wien"
+        "https://culture.hu/hu/wien",
+        "https://culture.hu/de/wien/jubilaum"
       ],
       "errors": [
         {
           "url": "https://culture.hu/hu/wien/esemenyek",
-          "error": "HTTP Error 502: Bad Gateway"
-        },
-        {
-          "url": "https://culture.hu/de/wien/jubilaum",
           "error": "HTTP Error 502: Bad Gateway"
         }
       ],
@@ -3003,6 +2997,7 @@
       "signals": [
         "oktatas",
         "media",
+        "irodalom",
         "muveszet",
         "sport",
         "csalad"
