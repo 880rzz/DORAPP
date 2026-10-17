@@ -381,10 +381,27 @@
 
   async function init(){
     const base=`../../data/countries/${iso}`;
+    async function loadDataset(filename, fallback){
+      try {
+        const response=await fetch(base+"/"+filename,{cache:"no-store"});
+        if(!response.ok) throw new Error("HTTP "+response.status);
+        const data=await response.json();
+        if(!data || typeof data!=="object" || Array.isArray(data)) throw new Error("Invalid JSON object");
+        return data;
+      } catch(error) {
+        console.error("[DORAPP] Country dataset unavailable",iso,filename,error);
+        const notice=document.createElement("p");
+        notice.className="country-status-banner";
+        notice.setAttribute("role","alert");
+        notice.textContent="Az ország egyes adatai jelenleg nem tölthetők be ("+filename+"). Ez technikai hiba, nem azt jelenti, hogy nincs nyilvántartott adat.";
+        (document.querySelector("#content")||document.querySelector("main")||document.body).prepend(notice);
+        return fallback;
+      }
+    }
     const [o,e,v]=await Promise.all([
-      fetch(base+"/organizations.json",{cache:"no-store"}).then(r=>r.ok?r.json():({organizations:[]})).catch(()=>({organizations:[]})),
-      fetch(base+"/education.json",{cache:"no-store"}).then(r=>r.ok?r.json():({institutions:[]})).catch(()=>({institutions:[]})),
-      fetch(base+"/events.json",{cache:"no-store"}).then(r=>r.ok?r.json():({events:[]})).catch(()=>({events:[]}))
+      loadDataset("organizations.json",{organizations:[]}),
+      loadDataset("education.json",{institutions:[]}),
+      loadDataset("events.json",{events:[]})
     ]);
     orgs=o.organizations||o.items||[];
     education=e.institutions||e.education||e.items||[];
