@@ -51,3 +51,19 @@ body:not(.world-home) main{overflow:clip}body:not(.world-home) .hero-actions a,b
 @media(max-width:390px){.wrap{width:calc(100% - 24px)}.hero h1{font-size:2rem}.world-intro h1{font-size:2.08rem}.world-map-toolbar button,.country-map-toolbar button{min-width:42px;min-height:42px}.hero-actions{align-items:stretch}.hero-actions .btn{width:100%;justify-content:center}.global-search-control input{padding-right:42px}}
 @media(min-width:1600px){.hero{padding-top:80px}.world-gateway{padding-top:64px}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important;scroll-behavior:auto!important}}
+
+/* Country results are complete-card links; maintain a readable hierarchy. */
+.directory-result{display:flex;flex-direction:column;align-items:flex-start;gap:9px;color:var(--text);text-decoration:none;min-height:128px;padding:18px;border-radius:var(--radius)}
+.directory-result span{display:block;color:var(--accent);font-size:.74rem;font-weight:700;line-height:1.4}
+.directory-result strong{display:block;color:var(--text);font-size:1rem;line-height:1.4;font-weight:650;overflow-wrap:normal;word-break:normal}
+.directory-result small{display:block;color:var(--muted);font-size:.82rem;line-height:1.4}
+.directory-result:hover strong,.directory-result:focus-visible strong{text-decoration:underline;text-underline-offset:3px}
+.legend-ready{background:#91cbaa}
+.country-more{display:block;margin:20px auto 0}
+
+/* Keep the embedded world SVG proportionate on compact screens. */
+@media(max-width:760px){.world-map-viewport{height:clamp(240px,64vw,420px)}}
+
+/* Lighthouse contrast audit: inherited #777 on small .site-status text was below AA. */
+.site-status{color:#565a60!important}.site-status strong{color:var(--text)}
+@media(max-width:390px){.world-map-toolbar button,.country-map-toolbar button{min-width:44px;min-height:44px}}

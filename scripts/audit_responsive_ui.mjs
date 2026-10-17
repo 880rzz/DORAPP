@@ -72,6 +72,11 @@ await page.goto(base+"/index.html",{waitUntil:"networkidle"});
 await page.locator("#globalSearch").fill("Ausztria");
 await page.waitForSelector("#globalSearchSuggestions button");
 report.interactions.searchSuggestions=await page.locator("#globalSearchSuggestions button").count()>0;
+await page.locator("#globalSearch").fill("___nincs_ilyen_orszag_vagy_szervezet___");
+report.interactions.searchNoIrrelevantSuggestions=await page.locator("#globalSearchSuggestions button").count()===0
+  &&await page.locator("#globalSearchSuggestions").textContent().then(text=>text.includes("Nincs a keresésnek megfelelő"));
+await page.locator("#globalSearch").fill("Ausztria");
+await page.waitForSelector("#globalSearchSuggestions button");
 await page.locator("#globalSearch").press("ArrowDown");
 report.interactions.searchKeyboardActive=await page.locator("#globalSearchSuggestions button.active").count()===1;
 await page.locator("#globalSearch").press("Escape");
@@ -84,6 +89,18 @@ report.interactions.directoryReset=(await page.locator("#organizationSearch").in
 const beforeZoom=await page.locator("#worldMapZoomValue").textContent();
 await page.locator("#worldMapZoomIn").click();
 report.interactions.worldMapZoom=beforeZoom!==await page.locator("#worldMapZoomValue").textContent();
+await page.waitForFunction(()=>{
+  const el=document.querySelector("#worldMap")?.contentDocument?.getElementById("at");
+  return el?.getAttribute("role")==="link";
+});
+report.interactions.worldMapCountryAccessible=await page.evaluate(()=>{
+  const el=document.querySelector("#worldMap")?.contentDocument?.getElementById("at");
+  return el?.getAttribute("tabindex")==="0" && (el.getAttribute("aria-label")||"").includes("Ausztria");
+});
+report.interactions.worldMapUnresearchedStatus=await page.evaluate(()=>{
+  const el=document.querySelector("#worldMap")?.contentDocument?.getElementById("se");
+  return (el?.getAttribute("aria-label")||"").includes("kutatásra vár");
+});
 const toggle=page.locator(".menu-toggle");
 report.interactions.mobileMenuPresent=await toggle.count()===1;
 if(await toggle.count()){
@@ -94,9 +111,36 @@ if(await toggle.count()){
 }
 await page.close();
 
+// SVG paths must navigate to the intended country, not just change colour.
+const mapNavigation=await context.newPage();
+await mapNavigation.goto(base+"/index.html",{waitUntil:"networkidle"});
+await mapNavigation.waitForFunction(()=>document.querySelector("#worldMap")?.contentDocument?.getElementById("at")?.getAttribute("role")==="link");
+await mapNavigation.evaluate(()=>{
+  document.querySelector("#worldMap").contentDocument.getElementById("at").dispatchEvent(new MouseEvent("click",{bubbles:true}));
+});
+await mapNavigation.waitForURL(/\/countries\/at\/?(?:\?.*)?$/,{timeout:10000});
+report.interactions.worldMapCountryNavigation=mapNavigation.url().includes("/countries/at/");
+await mapNavigation.close();
+
 const country=await context.newPage();
 await country.setViewportSize({width:390,height:844});
+await country.goto(base+"/countries/at/?city=Wien",{waitUntil:"networkidle"});
+await country.waitForFunction(()=>document.querySelector("#countryCity")?.value==="Wien");
+report.interactions.cityDeepLinkFilter=await country.locator("#countryCity").inputValue()==="Wien";
+await country.goto(base+"/countries/at/?q=___nincs_ilyen_szervezet___",{waitUntil:"networkidle"});
+await country.waitForFunction(()=>document.querySelector("#countryQuery")?.value==="___nincs_ilyen_szervezet___");
+report.interactions.activityDeepLinkFilter=await country.locator("#countryQuery").inputValue()==="___nincs_ilyen_szervezet___"
+  &&await country.locator("#countryOrgCount").textContent().then(text=>text.includes("0 találat"));
 await country.goto(base+"/countries/at/",{waitUntil:"networkidle"});
+await country.waitForSelector("#countryOrgGrid article");
+const firstOrgs=await country.locator("#countryOrgGrid article").count();
+await country.locator("#countryOrgMore").click();
+const moreOrgs=await country.locator("#countryOrgGrid article").count();
+report.interactions.countryProgressiveOrganizations=firstOrgs===12 && moreOrgs===24;
+report.interactions.countryProgressiveEducation=await country.locator("#countryEducationGrid article").count()===8
+  &&await country.locator("#countryEducationMore").isVisible();
+report.interactions.countryProgressiveEvents=await country.locator("#countryEventGrid article").count()===8
+  &&await country.locator("#countryEventMore").isVisible();
 await country.waitForFunction(()=>{
   const map=document.querySelector("#countrySubdivisionMap");
   return map?.contentDocument?.documentElement?.dataset?.dorappCountryMapBound==="true";

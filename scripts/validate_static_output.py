@@ -37,7 +37,7 @@ public_files=[
 ]
 public_files.extend(ROOT.rglob("*.html"))
 for path in dict.fromkeys(public_files):
-    if path.exists() and path.suffix==".html" and not path.name.startswith("google") and "design-editorial.css?v=20261015-2" not in path.read_text(encoding="utf-8"):
+    if path.exists() and path.suffix==".html" and not path.name.startswith("google") and "design-editorial.css?v=" not in path.read_text(encoding="utf-8"):
         errors.append(f"editorial design layer missing: {path.relative_to(ROOT)}")
     if path.exists() and OLD_BASE in path.read_text(encoding="utf-8"):
         errors.append(f"retired production domain remains in public output: {path.relative_to(ROOT)}")

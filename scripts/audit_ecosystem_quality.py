@@ -46,6 +46,15 @@ def has_social(entity):
     return any(str(item.get("platform", "")).lower() in social for item in entity.get("publicChannels") or [] if isinstance(item, dict))
 
 
+def completion_status(completion, iso):
+    # Country research-completion files use "status"; older audits used
+    # "completionStatus". Preserve both without manufacturing completion.
+    state = completion.get("completionStatus") or completion.get("status")
+    if state in READY:
+        return state
+    return "austria-canonical" if iso == "at" else "missing"
+
+
 def main():
     registry = read(DATA / "global.json", {"countries": []})
     countries = []
@@ -93,7 +102,7 @@ def main():
             if not (ROOT / "countries" / iso / "education" / f"{eid}.html").exists():
                 issues.append({"id": eid, "error": "education-missing-profile"})
         completion = read(base / "research-completion.json", {})
-        completion_state = completion.get("completionStatus") or ("austria-canonical" if iso == "at" else "missing")
+        completion_state = completion_status(completion, iso)
         country_result = {
             "country": iso,
             "researchStatus": country.get("researchStatus"),

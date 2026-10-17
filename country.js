@@ -11,7 +11,30 @@
   const uniq = (a) => [...new Set(a.filter(Boolean).map(x=>String(x).trim()).filter(Boolean))].sort(collator.compare);
 
   let orgs=[], education=[], events=[], activeRegion="";
+  let orgLimit=12, educationLimit=8, eventLimit=8;
   let regionNames={};
+
+  function moreButton(grid, id, noun, remaining, onClick){
+    if(!grid) return;
+    let button=document.getElementById(id);
+    if(!button){
+      button=document.createElement("button");
+      button.id=id;
+      button.type="button";
+      button.className="organization-more country-more";
+      grid.insertAdjacentElement("afterend",button);
+      button.addEventListener("click",onClick);
+    }
+    button.hidden=remaining<=0;
+    button.textContent=`További ${noun} (${remaining})`;
+  }
+
+  function isUpcomingEvent(event){
+    const end=event.endDate||event.startDate||event.date;
+    if(!end) return true;
+    const date=new Date(end);
+    return Number.isNaN(date.getTime()) || date>=new Date();
+  }
 
   const regionOf = (x) => String(x?.region || x?.state || (x?.scope==="national" ? "Országos" : "") || "Régió nélkül");
   const regionLabel = (x) => regionNames[x] || x;
@@ -102,7 +125,8 @@
     const list=orgs.filter(o=>matchingOrg(o,f)).sort((a,b)=>collator.compare(a.name||"",b.name||""));
     const grid=$("#countryOrgGrid"), count=$("#countryOrgCount"), empty=$("#countryOrgEmpty");
     if(count) count.textContent=`${list.length} találat`;
-    if(grid) grid.innerHTML=list.map(card).join("");
+    if(grid) grid.innerHTML=list.slice(0,orgLimit).map(card).join("");
+    moreButton(grid,"countryOrgMore","szervezet",Math.max(0,list.length-orgLimit),()=>{orgLimit+=12;renderOrganizations();});
     if(empty) empty.hidden=!!list.length;
     updateRegionMap(list);
   }
@@ -111,7 +135,10 @@
     if(f.region && regionOf(x)!==f.region) return false;
     if(f.city && x.city!==f.city) return false;
     if(f.address && !norm([x.venue,x.address,x.city,x.region,x.state].filter(Boolean).join(" ")).includes(f.address)) return false;
-    if(f.query && !norm([x.name,x.city,x.region,x.type,x.intro,x.summary,x.venue].filter(Boolean).join(" ")).includes(f.query)) return false;
+    if(f.query){
+      const hay=norm([x.name,x.city,x.region,x.type,x.intro,x.summary,x.venue].filter(Boolean).join(" "));
+      if(!f.query.split(/\s+/).every(token=>hay.includes(token))) return false;
+    }
     return true;
   }
   function renderEducation(){
@@ -119,42 +146,55 @@
     const list=education.filter(x=>matchingEducation(x,f)).sort((a,b)=>collator.compare(a.name||"",b.name||""));
     const grid=$("#countryEducationGrid"), count=$("#countryEducationCount"), empty=$("#countryEducationEmpty");
     if(count) count.textContent=`${list.length} találat`;
-    if(grid) grid.innerHTML=list.map(x=>`<article class="card"><div class="meta">${esc(regionLabel(regionOf(x)))} · ${esc(x.city||"")}</div><h3>${esc(x.name)}</h3><p>${esc(x.summary||x.intro||x.type||"Magyar oktatási lehetőség")}</p><div class="links"><a href="education/${encodeURIComponent(x.id)}.html">Teljes adatlap →</a>${x.website?`<a href="${esc(x.website)}" target="_blank" rel="noopener external">Weboldal ↗</a>`:""}</div></article>`).join("");
+    if(grid) grid.innerHTML=list.slice(0,educationLimit).map(x=>`<article class="card"><div class="meta">${esc(regionLabel(regionOf(x)))} · ${esc(x.city||"")}</div><h3>${esc(x.name)}</h3><p>${esc(x.summary||x.intro||x.type||"Magyar oktatási lehetőség")}</p><div class="links"><a href="education/${encodeURIComponent(x.id)}.html">Teljes adatlap →</a>${x.website?`<a href="${esc(x.website)}" target="_blank" rel="noopener external">Weboldal ↗</a>`:""}</div></article>`).join("");
+    moreButton(grid,"countryEducationMore","oktatási találat",Math.max(0,list.length-educationLimit),()=>{educationLimit+=8;renderEducation();});
     if(empty) empty.hidden=!!list.length;
   }
   function renderEvents(){
-    const f=filters(), now=new Date();
+    const f=filters();
     const list=events.filter(e=>{
-      if(e.endDate && new Date(e.endDate)<now) return false;
+      if(!isUpcomingEvent(e)) return false;
       if(f.region && regionOf(e)!==f.region) return false;
       if(f.city && e.city!==f.city) return false;
       if(f.program && e.id!==f.program) return false;
       if(f.org && !(e.organizerId===f.org||e.organizationId===f.org)) return false;
       if(f.address && !norm([e.address,e.venue,e.city,e.region].filter(Boolean).join(" ")).includes(f.address)) return false;
-      if(f.query && !norm([e.name,e.title,e.organizer,e.city,e.region,e.venue,e.description,...(e.categories||[])].filter(Boolean).join(" ")).includes(f.query)) return false;
+      if(f.query){
+        const hay=norm([e.name,e.title,e.organizer,e.city,e.region,e.venue,e.description,...(e.categories||[])].filter(Boolean).join(" "));
+        if(!f.query.split(/\s+/).every(token=>hay.includes(token))) return false;
+      }
       return true;
     }).sort((a,b)=>String(a.startDate||a.date||"").localeCompare(String(b.startDate||b.date||"")));
     const grid=$("#countryEventGrid"), count=$("#countryEventCount"), empty=$("#countryEventEmpty");
     if(count) count.textContent=`${list.length} közelgő program`;
-    if(grid) grid.innerHTML=list.map(e=>`<article class="event"><div class="date">${esc(e.startDate||e.date||"")}</div><h3>${esc(e.name||e.title)}</h3><p>${esc([e.organizer,e.city,e.venue].filter(Boolean).join(" · "))}</p><div class="event-links"><a href="events/${encodeURIComponent(e.id)}.html">Program részletei →</a>${e.sourceUrl?`<a href="${esc(e.sourceUrl)}" target="_blank" rel="noopener external">Eredeti forrás ↗</a>`:""}</div></article>`).join("");
+    if(grid) grid.innerHTML=list.slice(0,eventLimit).map(e=>`<article class="event"><div class="date">${esc(e.startDate||e.date||"")}</div><h3>${esc(e.name||e.title)}</h3><p>${esc([e.organizer,e.city,e.venue].filter(Boolean).join(" · "))}</p><div class="event-links"><a href="events/${encodeURIComponent(e.id)}.html">Program részletei →</a>${e.sourceUrl?`<a href="${esc(e.sourceUrl)}" target="_blank" rel="noopener external">Eredeti forrás ↗</a>`:""}</div></article>`).join("");
+    moreButton(grid,"countryEventMore","program",Math.max(0,list.length-eventLimit),()=>{eventLimit+=8;renderEvents();});
     if(empty) empty.hidden=!!list.length;
   }
 
   function renderDirectoryResults(){
     const f=filters();
-    const orgList=orgs.filter(o=>matchingOrg(o,f)).slice(0,12);
-    const eduList=education.filter(x=>matchingEducation(x,f)).slice(0,8);
-    const eventList=events.filter(e=>{
+    const orgMatches=orgs.filter(o=>matchingOrg(o,f));
+    const eduMatches=education.filter(x=>matchingEducation(x,f));
+    const eventMatches=events.filter(e=>{
+      if(!isUpcomingEvent(e)) return false;
       if(f.region && regionOf(e)!==f.region) return false;
       if(f.city && e.city!==f.city) return false;
       if(f.program && e.id!==f.program) return false;
       if(f.org && !(e.organizerId===f.org||e.organizationId===f.org)) return false;
-      if(f.query && !norm([e.name,e.title,e.city,e.venue,e.organizer,e.description].filter(Boolean).join(" ")).includes(f.query)) return false;
+      if(f.query){
+        const hay=norm([e.name,e.title,e.city,e.venue,e.organizer,e.description].filter(Boolean).join(" "));
+        if(!f.query.split(/\s+/).every(token=>hay.includes(token))) return false;
+      }
       return true;
-    }).slice(0,8);
+    });
+    const total=orgMatches.length+eduMatches.length+eventMatches.length;
+    const orgList=orgMatches.slice(0,12), eduList=eduMatches.slice(0,8), eventList=eventMatches.slice(0,8);
+    const visible=orgList.length+eduList.length+eventList.length;
     const root=$("#countryDirectoryResults"), count=$("#countryDirectoryCount");
-    const total=orgList.length+eduList.length+eventList.length;
-    if(count) count.textContent=`${total} közvetlen találat az aktuális szűrésben`;
+    if(count) count.textContent=visible===total
+      ? `${total} közvetlen találat az aktuális szűrésben`
+      : `${total} találat · az első ${visible} megjelenítve`;
     if(!root) return;
     root.innerHTML=[
       ...orgList.map(o=>`<a class="directory-result" href="organizations/${encodeURIComponent(o.id)}.html"><span>Szervezet · ${esc(regionLabel(regionOf(o)))}</span><strong>${esc(o.name)}</strong><small>${esc([o.city,o.type].filter(Boolean).join(" · "))}</small></a>`),
@@ -164,6 +204,7 @@
   }
 
   function apply(){
+    orgLimit=12; educationLimit=8; eventLimit=8;
     renderDirectoryResults();
     renderOrganizations();
     renderEducation();
@@ -391,6 +432,15 @@
     events=v.events||v.items||[];
     regionNames=Object.fromEntries((o.states||o.regions||[]).filter(x=>x?.id).map(x=>[x.id,x.name||x.label||x.id]));
     buildOptions();
+    // Autocomplete city/activity links must activate the destination filter.
+    const params=new URLSearchParams(location.search);
+    const initialCity=params.get("city");
+    const cityInput=$("#countryCity");
+    if(cityInput && initialCity && [...cityInput.options].some(option=>option.value===initialCity)){
+      cityInput.value=initialCity;
+    }
+    const initialQuery=params.get("q");
+    if(initialQuery && $("#countryQuery")) $("#countryQuery").value=initialQuery;
     bindRegionMap();
     bindSubdivisionSvg();
     bindFilters();
