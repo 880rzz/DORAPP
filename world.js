@@ -71,7 +71,7 @@ function renderSuggestions(){
     .map(x => x.item);
 
   if(!activeSuggestions.length){
-    root.innerHTML = '<div class="global-search-empty">Nincs elérhető találat a már elkészült országok ellenőrzött adatai között.</div>';
+    root.innerHTML = '<div class="global-search-empty">Nincs egyező ország vagy ellenőrzött rekord. Próbálj másik országnevet vagy keresőkifejezést.</div>';
     root.hidden = false;
     input.setAttribute("aria-expanded","true");
     return;
@@ -147,7 +147,7 @@ function renderCountryList(){
   root.innerHTML = rows.map(c => {
     const ready = isReady(c);
     const count = c.counts?.organizations || 0;
-    const status = c.researchStatus === "verified-zero" ? "Lezárt kutatás · nincs igazolt szervezet" : (ready ? count+" ellenőrzött szervezet" : count+" ellenőrzött · kutatás alatt");
+    const status = c.researchStatus === "verified-zero" ? "Dokumentáltan nincs igazolt szervezet" : (ready ? count+" ellenőrzött szervezet · áttekintett" : (["researching","partial"].includes(c.researchStatus) ? count+" ellenőrzött szervezet · kutatás alatt" : "Még nem kutatott"));
     return '<a href="'+esc(c.route)+'" class="'+(ready?'country-ready':'country-building')+'"><strong>'+esc(countryLabel(c))+'</strong><span>'+esc(status)+'</span></a>';
   }).join("");
 }
