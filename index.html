@@ -15,7 +15,7 @@
 <meta property="og:url" content="https://www.diaszporaterkep.hu/">
 <meta name="twitter:card" content="summary">
 <link rel="alternate" type="text/plain" href="llms.txt" title="DORAPP LLM információ">
-<link rel="stylesheet" href="styles.css?v=20261014-directory-home-1">
+<link rel="stylesheet" href="styles.css?v=20261017-map-status-1">
 <link rel="stylesheet" href="/design-editorial.css?v=20261015-2">
 <script type="application/ld+json">
 {"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://www.diaszporaterkep.hu/#publisher","name":"Ausztriai Magyar Egyesületek és Szervezetek Központi Szövetsége","url":"https://www.kozpontiszovetseg.at/","identifier":{"@type":"PropertyValue","propertyID":"ZVR","value":"079797621"},"knowsAbout":["magyar diaszpóra","magyar közösségek","magyar kulturális és oktatási szervezetek"]},{"@type":"WebSite","@id":"https://www.diaszporaterkep.hu/#website","name":"DORAPP","url":"https://www.diaszporaterkep.hu/","inLanguage":"hu","publisher":{"@id":"https://www.diaszporaterkep.hu/#publisher"},"potentialAction":{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://www.diaszporaterkep.hu/?q={search_term_string}"},"query-input":"required name=search_term_string"}},{"@type":["CollectionPage","Dataset"],"@id":"https://www.diaszporaterkep.hu/#page","name":"DORAPP magyar diaszpóra szervezetjegyzék és programnaptár","description":"Forrásalapú, országonként és szervezettípusonként kereshető magyar diaszpóra-adatbázis és programnaptár.","url":"https://www.diaszporaterkep.hu/","inLanguage":"hu","isPartOf":{"@id":"https://www.diaszporaterkep.hu/#website"},"publisher":{"@id":"https://www.diaszporaterkep.hu/#publisher"},"about":{"@type":"Thing","name":"Magyar diaszpóra közösségek, intézmények és programok világszerte"},"license":"https://www.diaszporaterkep.hu/forrasok.html"}]}
@@ -66,13 +66,14 @@
       <div id="worldMapViewport" class="world-map-viewport">
         <object id="worldMap" class="world-map" data="assets/world-map.svg" type="image/svg+xml" aria-label="Interaktív, nagyítható világtérkép országválasztó"></object>
       </div>
-      <div id="worldMapStatus" class="world-map-status" aria-live="polite">A zöld országokat már áttekintettük. A piros állapot csak dokumentált, találat nélküli kutatás után jelenhet meg. A szürke országok kutatása még folyamatban van. A szám az ellenőrzött szervezetek darabszáma. Nagyíts a + gombbal, egérgörgővel vagy két ujjal.</div>
+      <div id="worldMapStatus" class="world-map-status" aria-live="polite">Zöld: áttekintett. Borostyánsárga: kutatás alatt. Szürke: még nem kutatott. Piros: dokumentáltan nincs igazolt találat. A szám az ellenőrzött szervezetek darabszáma. Nagyíts a + gombbal, egérgörgővel vagy két ujjal.</div>
     </div>
 
     <div class="world-legend" aria-label="Térkép jelmagyarázat">
       <span><i class="legend-ready"></i>Áttekintett ország</span>
       <span><i class="legend-zero"></i>Dokumentáltan nincs igazolt találat</span>
       <span><i class="legend-building"></i>Kutatás alatt</span>
+      <span><i class="legend-unresearched"></i>Még nem kutatott</span>
       <span><b>#</b>Ellenőrzött szervezetek</span>
     </div>
 
