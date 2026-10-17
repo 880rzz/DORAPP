@@ -56,6 +56,19 @@ jobs:
           python -m json.tool data/global-search-index.json >/dev/null
           python -m json.tool data/global-events.json >/dev/null
           python scripts/validate_static_output.py
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          registry=json.loads(Path("data/global.json").read_text(encoding="utf-8"))
+          for country in registry["countries"]:
+              iso=country["iso2"]
+              path=Path("countries")/iso/"index.html"
+              assert path.is_file(), f"Missing country page: {iso}"
+              page=path.read_text(encoding="utf-8")
+              for required in ('id="terkep"','id="kereso"','id="kozossegek"','id="programok"','id="countryOrgGrid"','id="countryEventGrid"','country.js?'):
+                  assert required in page, f"{iso}: missing {required}"
+          print(f"Verified country map/directory/calendar parity: {len(registry['countries'])} countries")
+          PY
       - name: Install browser and Lighthouse audit dependencies
         run: |
           npm install --no-save playwright@1.55.0 lighthouse@12.8.2
