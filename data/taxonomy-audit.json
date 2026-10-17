@@ -1,12 +1,12 @@
 {
-  "updated": "2026-10-16T09:41:37.838040+00:00",
+  "updated": "2026-10-17T08:34:07.701234+00:00",
   "summary": {
     "organizations": 161,
-    "organizationFlags": 1,
-    "organizationPagesChecked": 328,
+    "organizationFlags": 2,
+    "organizationPagesChecked": 345,
     "education": 108,
     "educationFlags": 0,
-    "events": 71,
+    "events": 70,
     "eventFlags": 0
   },
   "organizations": [
@@ -75,12 +75,16 @@
         "sport",
         "csalad"
       ],
-      "pagesChecked": 2,
+      "pagesChecked": 1,
       "checkedUrls": [
-        "https://bgld.arbeiterkammer.at/service/buecherei/akbuechereieisenstadt/index.html",
         "https://bgld.arbeiterkammer.at/beratung/Bildung/arbeitswelt/Buecherei-Angebote.html"
       ],
-      "errors": [],
+      "errors": [
+        {
+          "url": "https://bgld.arbeiterkammer.at/service/buecherei/akbuechereieisenstadt/index.html",
+          "error": "The read operation timed out"
+        }
+      ],
       "flags": []
     },
     {
@@ -126,24 +130,17 @@
       ],
       "activityCategories": [],
       "signals": [
-        "egyhaz"
+        "media",
+        "egyhaz",
+        "csalad"
       ],
-      "pagesChecked": 0,
-      "checkedUrls": [],
-      "errors": [
-        {
-          "url": "https://www.martinus.at/",
-          "error": "<urlopen error timed out>"
-        },
-        {
-          "url": "https://www.martinus.at/pfarre/1127/kalender",
-          "error": "<urlopen error timed out>"
-        },
-        {
-          "url": "https://www.martinus.at/unterwart",
-          "error": "<urlopen error timed out>"
-        }
+      "pagesChecked": 3,
+      "checkedUrls": [
+        "https://www.martinus.at/",
+        "https://www.martinus.at/pfarre/1127/kalender",
+        "https://www.martinus.at/unterwart"
       ],
+      "errors": [],
       "flags": []
     },
     {
@@ -637,6 +634,7 @@
       "activityCategories": [],
       "signals": [
         "oktatas",
+        "nepzene",
         "media",
         "diak",
         "irodalom",
@@ -1117,20 +1115,25 @@
       "activityCategories": [],
       "signals": [
         "oktatas",
-        "szinhaz",
-        "media",
-        "irodalom",
-        "muveszet",
-        "csalad"
+        "irodalom"
       ],
-      "pagesChecked": 3,
+      "pagesChecked": 1,
       "checkedUrls": [
-        "https://culture.hu/hu/wien",
-        "https://culture.hu/hu/wien/esemenyek",
-        "https://culture.hu/de/wien/jubilaum"
+        "https://culture.hu/hu/wien"
       ],
-      "errors": [],
-      "flags": []
+      "errors": [
+        {
+          "url": "https://culture.hu/hu/wien/esemenyek",
+          "error": "HTTP Error 502: Bad Gateway"
+        },
+        {
+          "url": "https://culture.hu/de/wien/jubilaum",
+          "error": "HTTP Error 502: Bad Gateway"
+        }
+      ],
+      "flags": [
+        "weak-source-signal:muveszet"
+      ]
     },
     {
       "id": "collegium-pazmanianum",
@@ -1577,24 +1580,16 @@
       ],
       "activityCategories": [],
       "signals": [
+        "media",
         "egyhaz"
       ],
-      "pagesChecked": 0,
-      "checkedUrls": [],
-      "errors": [
-        {
-          "url": "https://www.martinus.at/pfarre/1122",
-          "error": "<urlopen error timed out>"
-        },
-        {
-          "url": "https://www.martinus.at/pfarre/1122/kalender",
-          "error": "<urlopen error timed out>"
-        },
-        {
-          "url": "https://www.martinus.at/pfarre/1122/kalender/calendar/1808040.html",
-          "error": "<urlopen error timed out>"
-        }
+      "pagesChecked": 3,
+      "checkedUrls": [
+        "https://www.martinus.at/pfarre/1122",
+        "https://www.martinus.at/pfarre/1122/kalender",
+        "https://www.martinus.at/pfarre/1122/kalender/calendar/1808040.html"
       ],
+      "errors": [],
       "flags": []
     },
     {
@@ -2107,16 +2102,14 @@
       "signals": [
         "egyhaz"
       ],
-      "pagesChecked": 0,
-      "checkedUrls": [],
+      "pagesChecked": 1,
+      "checkedUrls": [
+        "https://www.edsbg.at/seelsorge/weltkirche/anderssprachige-seelsorge/ungarische-gemeinde"
+      ],
       "errors": [
         {
-          "url": "https://www.edsbg.at/seelsorge/weltkirche/anderssprachige-seelsorge/ungarische-gemeinde",
-          "error": "<urlopen error timed out>"
-        },
-        {
           "url": "https://www.edsbg.at/dl/klOKJmMJKNLMKJqx4KJK/ungarischsprachige_Gottesdienstgemeinde_Salzburg_pdf",
-          "error": "<urlopen error timed out>"
+          "error": "HTTP Error 400: Bad Request"
         }
       ],
       "flags": []
@@ -3008,9 +3001,11 @@
       ],
       "activityCategories": [],
       "signals": [
+        "oktatas",
         "media",
         "muveszet",
-        "sport"
+        "sport",
+        "csalad"
       ],
       "pagesChecked": 3,
       "checkedUrls": [
@@ -3555,18 +3550,15 @@
         "neptanc",
         "cserkesz",
         "irodalom",
+        "muveszet",
         "csalad"
       ],
-      "pagesChecked": 1,
+      "pagesChecked": 2,
       "checkedUrls": [
+        "https://salzung.com/hu/?start=8",
         "https://www.korosiprogram.hu/hirek/salzburgi-neptanccsoport"
       ],
-      "errors": [
-        {
-          "url": "https://salzung.com/hu/?start=8",
-          "error": "HTTP Error 429: Too Many Requests"
-        }
-      ],
+      "errors": [],
       "flags": []
     },
     {
@@ -3580,24 +3572,19 @@
       "activityCategories": [],
       "signals": [
         "oktatas",
+        "enekkar",
+        "szinhaz",
+        "irodalom",
+        "muveszet",
         "csalad"
       ],
-      "pagesChecked": 0,
-      "checkedUrls": [],
-      "errors": [
-        {
-          "url": "https://www.salzung.com/hu",
-          "error": "HTTP Error 429: Too Many Requests"
-        },
-        {
-          "url": "https://salzung.com/hu/esemenyek/kozelgo-esemenyek",
-          "error": "HTTP Error 429: Too Many Requests"
-        },
-        {
-          "url": "https://www.salzung.com/hu/rolunk/az-egyesulet-bemutatasa",
-          "error": "HTTP Error 429: Too Many Requests"
-        }
+      "pagesChecked": 3,
+      "checkedUrls": [
+        "https://www.salzung.com/hu",
+        "https://salzung.com/hu/esemenyek/kozelgo-esemenyek",
+        "https://www.salzung.com/hu/rolunk/az-egyesulet-bemutatasa"
       ],
+      "errors": [],
       "flags": []
     },
     {
@@ -3609,24 +3596,20 @@
       ],
       "activityCategories": [],
       "signals": [
+        "oktatas",
+        "enekkar",
+        "szinhaz",
+        "irodalom",
+        "muveszet",
         "csalad"
       ],
-      "pagesChecked": 0,
-      "checkedUrls": [],
-      "errors": [
-        {
-          "url": "https://www.salzung.com/hu/hirek/indul-a-brumi-ovi",
-          "error": "HTTP Error 429: Too Many Requests"
-        },
-        {
-          "url": "https://salzung.com/hu/hirek/indul-a-brumi-ovi",
-          "error": "HTTP Error 429: Too Many Requests"
-        },
-        {
-          "url": "https://www.salzung.com/hu",
-          "error": "HTTP Error 429: Too Many Requests"
-        }
+      "pagesChecked": 3,
+      "checkedUrls": [
+        "https://www.salzung.com/hu/hirek/indul-a-brumi-ovi",
+        "https://salzung.com/hu/hirek/indul-a-brumi-ovi",
+        "https://www.salzung.com/hu"
       ],
+      "errors": [],
       "flags": []
     },
     {
@@ -3639,16 +3622,15 @@
       ],
       "activityCategories": [],
       "signals": [
+        "oktatas",
+        "irodalom",
         "muveszet"
       ],
-      "pagesChecked": 0,
-      "checkedUrls": [],
-      "errors": [
-        {
-          "url": "https://www.salzung.com/hu/projektek/hatartalanul",
-          "error": "HTTP Error 429: Too Many Requests"
-        }
+      "pagesChecked": 1,
+      "checkedUrls": [
+        "https://www.salzung.com/hu/projektek/hatartalanul"
       ],
+      "errors": [],
       "flags": []
     },
     {
@@ -3663,16 +3645,14 @@
       "activityCategories": [],
       "signals": [
         "oktatas",
-        "irodalom"
+        "irodalom",
+        "muveszet"
       ],
-      "pagesChecked": 0,
-      "checkedUrls": [],
-      "errors": [
-        {
-          "url": "https://www.salzung.com/hu/projektek/igylettunkmagyarok",
-          "error": "HTTP Error 429: Too Many Requests"
-        }
+      "pagesChecked": 1,
+      "checkedUrls": [
+        "https://www.salzung.com/hu/projektek/igylettunkmagyarok"
       ],
+      "errors": [],
       "flags": [
         "possible-activity-classification"
       ]
@@ -3688,26 +3668,24 @@
       ],
       "activityCategories": [],
       "signals": [
+        "oktatas",
+        "enekkar",
+        "szinhaz",
         "media",
         "egyhaz",
+        "diak",
         "irodalom",
+        "muveszet",
         "sport",
         "csalad"
       ],
-      "pagesChecked": 1,
+      "pagesChecked": 3,
       "checkedUrls": [
+        "https://www.salzung.com/hu/projektek/minikonyvtar/minikoenyvtar",
+        "https://salzung.com/hu/hirek/tervezett-programjaink-a-2021-es-evben",
         "https://volksgruppen.orf.at/magyarok/stories/3356535/"
       ],
-      "errors": [
-        {
-          "url": "https://www.salzung.com/hu/projektek/minikonyvtar/minikoenyvtar",
-          "error": "HTTP Error 429: Too Many Requests"
-        },
-        {
-          "url": "https://salzung.com/hu/hirek/tervezett-programjaink-a-2021-es-evben",
-          "error": "HTTP Error 429: Too Many Requests"
-        }
-      ],
+      "errors": [],
       "flags": []
     },
     {
@@ -3719,20 +3697,18 @@
       ],
       "activityCategories": [],
       "signals": [
-        "oktatas"
+        "oktatas",
+        "neptanc",
+        "irodalom",
+        "muveszet",
+        "csalad"
       ],
-      "pagesChecked": 0,
-      "checkedUrls": [],
-      "errors": [
-        {
-          "url": "https://salzung.com/hu/projektek/oktatas",
-          "error": "HTTP Error 429: Too Many Requests"
-        },
-        {
-          "url": "https://salzung.com/hu/?start=8",
-          "error": "HTTP Error 429: Too Many Requests"
-        }
+      "pagesChecked": 2,
+      "checkedUrls": [
+        "https://salzung.com/hu/projektek/oktatas",
+        "https://salzung.com/hu/?start=8"
       ],
+      "errors": [],
       "flags": []
     },
     {
