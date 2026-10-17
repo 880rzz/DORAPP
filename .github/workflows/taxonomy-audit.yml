@@ -39,4 +39,5 @@ jobs:
       - name: Validate result
         run: python -m json.tool data/taxonomy-audit.json >/dev/null
       - name: Open taxonomy audit PR
-        run: bash scripts/open_automation_pr.sh taxonomy "chore(taxonomy): review source audit" data/taxonomy-audit.json
+        run: |
+          bash scripts/open_automation_pr.sh taxonomy "chore(taxonomy): review source audit" data/taxonomy-audit.json
