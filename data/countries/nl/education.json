@@ -30,8 +30,9 @@
           "url": "https://kincskereso-oskola.nl/program/",
           "kind": "official-calendar",
           "scope": "self",
-          "ingestEvents": true,
-          "inclusionRule": "Only explicitly named special/community occasions or dates presented as publishable public programme items; do not turn routine lessons into public events automatically."
+          "ingestEvents": false,
+          "inclusionRule": "Only explicitly named special/community occasions or dates presented as publishable public programme items; do not turn routine lessons into public events automatically.",
+          "ingestionStatus": "requires-reviewed-inclusion-filter"
         }
       ],
       "founded": "1999",
@@ -81,8 +82,9 @@
           "url": "https://www.federatio.org/hmoi.html",
           "kind": "official-calendar",
           "scope": "self",
-          "ingestEvents": true,
-          "inclusionRule": "Only named public celebrations or community events; routine school sessions are not public events."
+          "ingestEvents": false,
+          "inclusionRule": "Only named public celebrations or community events; routine school sessions are not public events.",
+          "ingestionStatus": "requires-reviewed-inclusion-filter"
         }
       ]
     },
