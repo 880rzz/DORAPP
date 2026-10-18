@@ -1,12 +1,12 @@
 {
-  "updated": "2026-10-18T06:09:09.408660+00:00",
+  "updated": "2026-10-18T08:52:50.728201+00:00",
   "summary": {
     "organizations": 161,
     "organizationFlags": 1,
-    "organizationPagesChecked": 339,
+    "organizationPagesChecked": 338,
     "education": 108,
     "educationFlags": 0,
-    "events": 67,
+    "events": 66,
     "eventFlags": 0
   },
   "organizations": [
@@ -718,8 +718,10 @@
       ],
       "signals": [
         "oktatas",
+        "enekkar",
         "szinhaz",
         "media",
+        "egyhaz",
         "irodalom",
         "muveszet",
         "csalad"
@@ -1096,17 +1098,13 @@
         "sport",
         "csalad"
       ],
-      "pagesChecked": 2,
+      "pagesChecked": 3,
       "checkedUrls": [
         "https://culture.hu/hu/wien/elerhetoseg",
-        "https://volksgruppen.orf.at/magyarok/stories/3358308/"
+        "https://volksgruppen.orf.at/magyarok/stories/3358308/",
+        "https://culture.hu/hu/wien"
       ],
-      "errors": [
-        {
-          "url": "https://culture.hu/hu/wien",
-          "error": "HTTP Error 502: Bad Gateway"
-        }
-      ],
+      "errors": [],
       "flags": []
     },
     {
@@ -1121,21 +1119,18 @@
       "signals": [
         "oktatas",
         "szinhaz",
+        "media",
         "irodalom",
         "muveszet",
         "csalad"
       ],
-      "pagesChecked": 2,
+      "pagesChecked": 3,
       "checkedUrls": [
         "https://culture.hu/hu/wien",
-        "https://culture.hu/hu/wien/esemenyek"
+        "https://culture.hu/hu/wien/esemenyek",
+        "https://culture.hu/de/wien/jubilaum"
       ],
-      "errors": [
-        {
-          "url": "https://culture.hu/de/wien/jubilaum",
-          "error": "HTTP Error 502: Bad Gateway"
-        }
-      ],
+      "errors": [],
       "flags": []
     },
     {
@@ -1364,6 +1359,7 @@
         "neptanc",
         "nepzene",
         "enekkar",
+        "szinhaz",
         "media",
         "egyhaz",
         "muveszet",
@@ -3865,21 +3861,25 @@
       ],
       "activityCategories": [],
       "signals": [
-        "oktatas",
-        "media",
-        "egyhaz",
         "diak",
-        "irodalom",
-        "muveszet",
-        "csalad"
+        "irodalom"
       ],
-      "pagesChecked": 3,
-      "checkedUrls": [
-        "https://buch.stadt-salzburg.at/",
-        "https://buch.stadt-salzburg.at/Mediensuche/Erweiterte-Suche",
-        "https://buch.stadt-salzburg.gv.at/Mediensuche/Einfache-Suche?detail=6&focusModule=searchmodule&pagesize=50&searchhash=OCLC_c58b9092580f15d9d195d8ca279d096abfc183c4&top=y"
+      "pagesChecked": 0,
+      "checkedUrls": [],
+      "errors": [
+        {
+          "url": "https://buch.stadt-salzburg.at/",
+          "error": "The read operation timed out"
+        },
+        {
+          "url": "https://buch.stadt-salzburg.at/Mediensuche/Erweiterte-Suche",
+          "error": "The read operation timed out"
+        },
+        {
+          "url": "https://buch.stadt-salzburg.gv.at/Mediensuche/Einfache-Suche?detail=6&focusModule=searchmodule&pagesize=50&searchhash=OCLC_c58b9092580f15d9d195d8ca279d096abfc183c4&top=y",
+          "error": "The read operation timed out"
+        }
       ],
-      "errors": [],
       "flags": []
     },
     {
