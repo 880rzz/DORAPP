@@ -5,7 +5,7 @@ on:
     branches: ["main"]
     paths: [".github/workflows/production-smoke.yml"]
   workflow_run:
-    workflows: ["pages build and deployment"]
+    workflows: ["Validate and persist DORAPP static build", "pages build and deployment"]
     types: [completed]
   workflow_dispatch:
 
