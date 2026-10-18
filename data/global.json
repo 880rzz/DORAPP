@@ -678,7 +678,7 @@
       "name": {
         "en": "Bouvet Island"
       },
-      "researchStatus": "unresearched",
+      "researchStatus": "researching",
       "countryDataPath": "data/countries/bv/",
       "route": "countries/bv/",
       "counts": {
@@ -688,7 +688,9 @@
         "events": 0,
         "education": 0
       },
-      "iso3": "BVT"
+      "iso3": "BVT",
+      "lastResearchAttemptAt": "2026-10-18T07:29:24+00:00",
+      "discoveryCandidateCount": 27
     },
     {
       "iso2": "bw",
