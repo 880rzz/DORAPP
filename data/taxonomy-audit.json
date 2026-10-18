@@ -1,9 +1,9 @@
 {
-  "updated": "2026-10-18T01:21:25.947484+00:00",
+  "updated": "2026-10-18T06:09:09.408660+00:00",
   "summary": {
     "organizations": 161,
     "organizationFlags": 1,
-    "organizationPagesChecked": 333,
+    "organizationPagesChecked": 339,
     "education": 108,
     "educationFlags": 0,
     "events": 67,
@@ -436,16 +436,21 @@
       ],
       "activityCategories": [],
       "signals": [
-        "enekkar"
+        "oktatas",
+        "neptanc",
+        "nepzene",
+        "enekkar",
+        "media",
+        "diak",
+        "irodalom",
+        "muveszet",
+        "csalad"
       ],
-      "pagesChecked": 0,
-      "checkedUrls": [],
-      "errors": [
-        {
-          "url": "https://www.wukv.at/tarka-barka-dalkor/",
-          "error": "<urlopen error timed out>"
-        }
+      "pagesChecked": 1,
+      "checkedUrls": [
+        "https://www.wukv.at/tarka-barka-dalkor/"
       ],
+      "errors": [],
       "flags": []
     },
     {
@@ -713,10 +718,8 @@
       ],
       "signals": [
         "oktatas",
-        "enekkar",
         "szinhaz",
         "media",
-        "egyhaz",
         "irodalom",
         "muveszet",
         "csalad"
@@ -902,7 +905,7 @@
       "errors": [
         {
           "url": "https://bornemisza.at/",
-          "error": "<urlopen error [Errno 111] Connection refused>"
+          "error": "<urlopen error timed out>"
         },
         {
           "url": "https://www.kozpontiszovetseg.at/bornemisza-peter-tarsasag",
@@ -1093,13 +1096,17 @@
         "sport",
         "csalad"
       ],
-      "pagesChecked": 3,
+      "pagesChecked": 2,
       "checkedUrls": [
         "https://culture.hu/hu/wien/elerhetoseg",
-        "https://volksgruppen.orf.at/magyarok/stories/3358308/",
-        "https://culture.hu/hu/wien"
+        "https://volksgruppen.orf.at/magyarok/stories/3358308/"
       ],
-      "errors": [],
+      "errors": [
+        {
+          "url": "https://culture.hu/hu/wien",
+          "error": "HTTP Error 502: Bad Gateway"
+        }
+      ],
       "flags": []
     },
     {
@@ -1114,18 +1121,21 @@
       "signals": [
         "oktatas",
         "szinhaz",
-        "media",
         "irodalom",
         "muveszet",
         "csalad"
       ],
-      "pagesChecked": 3,
+      "pagesChecked": 2,
       "checkedUrls": [
         "https://culture.hu/hu/wien",
-        "https://culture.hu/hu/wien/esemenyek",
-        "https://culture.hu/de/wien/jubilaum"
+        "https://culture.hu/hu/wien/esemenyek"
       ],
-      "errors": [],
+      "errors": [
+        {
+          "url": "https://culture.hu/de/wien/jubilaum",
+          "error": "HTTP Error 502: Bad Gateway"
+        }
+      ],
       "flags": []
     },
     {
@@ -1300,28 +1310,24 @@
       ],
       "activityCategories": [],
       "signals": [
+        "oktatas",
         "neptanc",
         "nepzene",
         "enekkar",
+        "szinhaz",
+        "media",
+        "diak",
+        "irodalom",
         "sport",
         "csalad"
       ],
-      "pagesChecked": 0,
-      "checkedUrls": [],
-      "errors": [
-        {
-          "url": "https://www.wukv.at/",
-          "error": "<urlopen error timed out>"
-        },
-        {
-          "url": "https://www.wukv.at/sample-page/",
-          "error": "<urlopen error timed out>"
-        },
-        {
-          "url": "https://www.wukv.at/rolunk-delibab-neptanccsoport/",
-          "error": "<urlopen error timed out>"
-        }
+      "pagesChecked": 3,
+      "checkedUrls": [
+        "https://www.wukv.at/",
+        "https://www.wukv.at/sample-page/",
+        "https://www.wukv.at/rolunk-delibab-neptanccsoport/"
       ],
+      "errors": [],
       "flags": []
     },
     {
@@ -1358,7 +1364,6 @@
         "neptanc",
         "nepzene",
         "enekkar",
-        "szinhaz",
         "media",
         "egyhaz",
         "muveszet",
@@ -3406,24 +3411,24 @@
       ],
       "activityCategories": [],
       "signals": [
-        "nepzene"
+        "oktatas",
+        "neptanc",
+        "nepzene",
+        "enekkar",
+        "szinhaz",
+        "media",
+        "diak",
+        "muveszet",
+        "sport",
+        "csalad"
       ],
-      "pagesChecked": 0,
-      "checkedUrls": [],
-      "errors": [
-        {
-          "url": "https://www.wukv.at/rolunk-citerazenekar/",
-          "error": "<urlopen error timed out>"
-        },
-        {
-          "url": "https://www.wukv.at/sample-page/",
-          "error": "<urlopen error timed out>"
-        },
-        {
-          "url": "https://www.wukv.at/a-citeratol-a-hegeduig-ismeretterjeszto-eloadassorozat/",
-          "error": "<urlopen error timed out>"
-        }
+      "pagesChecked": 3,
+      "checkedUrls": [
+        "https://www.wukv.at/rolunk-citerazenekar/",
+        "https://www.wukv.at/sample-page/",
+        "https://www.wukv.at/a-citeratol-a-hegeduig-ismeretterjeszto-eloadassorozat/"
       ],
+      "errors": [],
       "flags": []
     },
     {
@@ -4076,17 +4081,18 @@
       ],
       "activityCategories": [],
       "signals": [
+        "oktatas",
         "neptanc",
+        "nepzene",
+        "media",
+        "diak",
         "csalad"
       ],
-      "pagesChecked": 0,
-      "checkedUrls": [],
-      "errors": [
-        {
-          "url": "https://www.wukv.at/rolunk-szivarvany/",
-          "error": "<urlopen error timed out>"
-        }
+      "pagesChecked": 1,
+      "checkedUrls": [
+        "https://www.wukv.at/rolunk-szivarvany/"
       ],
+      "errors": [],
       "flags": []
     },
     {
