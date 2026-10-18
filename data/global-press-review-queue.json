@@ -1,11 +1,1172 @@
 {
   "schemaVersion": 2,
-  "lastRunAt": "2026-10-17T21:23:58+00:00",
+  "lastRunAt": "2026-10-18T06:11:43+00:00",
   "organizationsTotal": 232,
   "organizationsAttempted": 232,
-  "organizationsChecked": 232,
-  "organizationsFailed": 0,
-  "errors": [],
+  "organizationsChecked": 0,
+  "organizationsFailed": 232,
+  "errors": [
+    {
+      "country": "at",
+      "organizationId": "ak-akademie-kaernten-hungarian",
+      "error": "HTTPError"
+    },
+    {
+      "country": "at",
+      "organizationId": "ak-buecherei-eisenstadt-hungarian",
+      "error": "HTTPError"
+    },
+    {
+      "country": "at",
+      "organizationId": "alsoori-enekkar",
+      "error": "HTTPError"
+    },
+    {
+      "country": "at",
+      "organizationId": "alsoori-katolikus",
+      "error": "HTTPError"
+    },
+    {
+      "country": "at",
+      "organizationId": "alsoori-otthon",
+      "error": "HTTPError"
+    },
+    {
+      "country": "at",
+      "organizationId": "alsoori-szinjatszo",
+      "error": "HTTPError"
+    },
+    {
+      "country": "at",
+      "organizationId": "amaped",
+      "error": "HTTPError"
+    },
+    {
+      "country": "at",
+      "organizationId": "amaped-baden",
+      "error": "HTTPError"
+    },
+    {
+      "country": "at",
+      "organizationId": "amaped-klosterneuburg",
+      "error": "HTTPError"
+    },
+    {
+      "country": "at",
+      "organizationId": "amaped-schwechat",
+      "error": "HTTPError"
+    },
+    {
+      "country": "at",
+      "organizationId": "amaped-st-poelten",
+      "error": "HTTPError"
+    },
+    {
+      "country": "at",
+      "organizationId": "barka-nepdalkor",
+      "error": "HTTPError"
+    },
+    {
+      "country": "at",
+      "organizationId": "becsi-irodalmi-muhely",
+      "error": "HTTPError"
+    },
+    {
+      "country": "at",
+      "organizationId": "becsi-magyar-iskola",
+      "error": "HTTPError"
+    },
+    {
+      "country": "at",
+      "organizationId": "becsi-magyar-iskolaegyesulet",
+      "error": "HTTPError"
+    },
+    {
+      "country": "at",
+      "organizationId": "becsi-magyar-munkasegylet",
+      "error": "HTTPError"
+    },
+    {
+      "country": "at",
+      "organizationId": "becsi-naplo",
+      "error": "HTTPError"
+    },
+    {
+      "country": "at",
+      "organizationId": "becsi-szelet",
+      "error": "HTTPError"
+    },
+    {
+      "country": "at",
+      "organizationId": "bibliothek-im-zentrum-hungarian",
+      "error": "HTTPError"
+    },
+    {
+      "country": "at",
+      "organizationId": "bmke-singkreis",
+      "error": "HTTPError"
+    },
+    {
+      "country": "at",
+      "organizationId": "bobitak-innsbruck",
+      "error": "HTTPError"
+    },
+    {
+      "country": "at",
+      "organizationId": "bornemisza-peter-tarsasag",
+      "error": "HTTPError"
+    },
+    {
+      "country": "at",
+      "organizationId": "brand-art-studio",
+      "error": "HTTPError"
+    },
+    {
+      "country": "at",
+      "organizationId": "buechereien-wien-hungarian",
+      "error": "HTTPError"
+    },
+    {
+      "country": "at",
+      "organizationId": "bukv",
+      "error": "HTTPError"
+    },
+    {
+      "country": "at",
+      "organizationId": "burgenlaendische-landesbibliothek-hungarian",
+      "error": "HTTPError"
+    },
+    {
+      "country": "at",
+      "organizationId": "burgenlandi-magyar-cserkeszet",
+      "error": "HTTPError"
+    },
+    {
+      "country": "at",
+      "organizationId": "club-pannonia",
+      "error": "HTTPError"
+    },
+    {
+      "country": "at",
+      "organizationId": "collegium-hungaricum-wien",
+      "error": "HTTPError"
+    },
+    {
+      "country": "at",
+      "organizationId": "collegium-pazmanianum",
+      "error": "HTTPError"
+    },
+    {
+      "country": "at",
+      "organizationId": "cserkesz-72",
+      "error": "HTTPError"
+    },
+    {
+      "country": "at",
+      "organizationId": "cserkesz-79",
+      "error": "HTTPError"
+    },
+    {
+      "country": "at",
+      "organizationId": "cserkesz-80",
+      "error": "HTTPError"
+    },
+    {
+      "country": "at",
+      "organizationId": "csorge-nepzene",
+      "error": "HTTPError"
+    },
+    {
+      "country": "at",
+      "organizationId": "delibab",
+      "error": "HTTPError"
+    },
+    {
+      "country": "at",
+      "organizationId": "die-bruecke-medien-kulturelles-podium",
+      "error": "HTTPError"
+    },
+    {
+      "country": "at",
+      "organizationId": "duna-filharmonia",
+      "error": "HTTPError"
+    },
+    {
+      "country": "at",
+      "organizationId": "europa-club",
+      "error": "HTTPError"
+    },
+    {
+      "country": "at",
+      "organizationId": "evangelikus-gyulekezet",
+      "error": "HTTPError"
+    },
+    {
+      "country": "at",
+      "organizationId": "fecske-klub",
+      "error": "HTTPError"
+    },
+    {
+      "country": "at",
+      "organizationId": "felsoori-katolikus",
+      "error": "HTTPError"
+    },
+    {
+      "country": "at",
+      "organizationId": "felsoori-reformatus",
+      "error": "HTTPError"
+    },
+    {
+      "country": "at",
+      "organizationId": "femconnect-graz",
+      "error": "HTTPError"
+    },
+    {
+      "country": "at",
+      "organizationId": "graci-magyar-ujsag",
+      "error": "HTTPError"
+    },
+    {
+      "country": "at",
+      "organizationId": "grazer-ungarisches-theater",
+      "error": "HTTPError"
+    },
+    {
+      "country": "at",
+      "organizationId": "grazi-magyar-egyesulet",
+      "error": "HTTPError"
+    },
+    {
+      "country": "at",
+      "organizationId": "hungaromedia",
+      "error": "HTTPError"
+    },
+    {
+      "country": "at",
+      "organizationId": "imeasz",
+      "error": "HTTPError"
+    },
+    {
+      "country": "at",
+      "organizationId": "irottko-sportegyesulet",
+      "error": "HTTPError"
+    },
+    {
+      "country": "at",
+      "organizationId": "kalaka-club",
+      "error": "HTTPError"
+    },
+    {
+      "country": "at",
+      "organizationId": "katolikus-graz",
+      "error": "HTTPError"
+    },
+    {
+      "country": "at",
+      "organizationId": "katolikus-innsbruck",
+      "error": "HTTPError"
+    },
+    {
+      "country": "at",
+      "organizationId": "katolikus-linz",
+      "error": "HTTPError"
+    },
+    {
+      "country": "at",
+      "organizationId": "katolikus-salzburg",
+      "error": "HTTPError"
+    },
+    {
+      "country": "at",
+      "organizationId": "katolikus-wien",
+      "error": "HTTPError"
+    },
+    {
+      "country": "at",
+      "organizationId": "kerekasztal",
+      "error": "HTTPError"
+    },
+    {
+      "country": "at",
+      "organizationId": "kozponti-szovetseg",
+      "error": "HTTPError"
+    },
+    {
+      "country": "at",
+      "organizationId": "kultpult",
+      "error": "HTTPError"
+    },
+    {
+      "country": "at",
+      "organizationId": "lean-in-femspace",
+      "error": "HTTPError"
+    },
+    {
+      "country": "at",
+      "organizationId": "magyar-szo-ausztriaban",
+      "error": "HTTPError"
+    },
+    {
+      "country": "at",
+      "organizationId": "magyarhaz-innsbruck",
+      "error": "HTTPError"
+    },
+    {
+      "country": "at",
+      "organizationId": "mamut-musical",
+      "error": "HTTPError"
+    },
+    {
+      "country": "at",
+      "organizationId": "mde-alumni",
+      "error": "HTTPError"
+    },
+    {
+      "country": "at",
+      "organizationId": "mde-vus",
+      "error": "HTTPError"
+    },
+    {
+      "country": "at",
+      "organizationId": "meok-graz",
+      "error": "HTTPError"
+    },
+    {
+      "country": "at",
+      "organizationId": "napraforgok",
+      "error": "HTTPError"
+    },
+    {
+      "country": "at",
+      "organizationId": "ne-felejts",
+      "error": "HTTPError"
+    },
+    {
+      "country": "at",
+      "organizationId": "nepcsoporttanacsi-elnokok",
+      "error": "HTTPError"
+    },
+    {
+      "country": "at",
+      "organizationId": "oeius",
+      "error": "HTTPError"
+    },
+    {
+      "country": "at",
+      "organizationId": "orf-magyarok",
+      "error": "HTTPError"
+    },
+    {
+      "country": "at",
+      "organizationId": "ori-banda",
+      "error": "HTTPError"
+    },
+    {
+      "country": "at",
+      "organizationId": "oriszigeti-evangelikus",
+      "error": "HTTPError"
+    },
+    {
+      "country": "at",
+      "organizationId": "oriszigeti-neptanc",
+      "error": "HTTPError"
+    },
+    {
+      "country": "at",
+      "organizationId": "osztrak-magyar-tarsasag",
+      "error": "HTTPError"
+    },
+    {
+      "country": "at",
+      "organizationId": "radiohu",
+      "error": "HTTPError"
+    },
+    {
+      "country": "at",
+      "organizationId": "reformatus-szolgalat",
+      "error": "HTTPError"
+    },
+    {
+      "country": "at",
+      "organizationId": "rezsarkantyu-citera",
+      "error": "HTTPError"
+    },
+    {
+      "country": "at",
+      "organizationId": "rolunk-at",
+      "error": "HTTPError"
+    },
+    {
+      "country": "at",
+      "organizationId": "salzburgi-neptanc",
+      "error": "HTTPError"
+    },
+    {
+      "country": "at",
+      "organizationId": "salzung",
+      "error": "HTTPError"
+    },
+    {
+      "country": "at",
+      "organizationId": "salzung-brumi-ovi",
+      "error": "HTTPError"
+    },
+    {
+      "country": "at",
+      "organizationId": "salzung-hatartalanul",
+      "error": "HTTPError"
+    },
+    {
+      "country": "at",
+      "organizationId": "salzung-igy-lettunk-magyarok",
+      "error": "HTTPError"
+    },
+    {
+      "country": "at",
+      "organizationId": "salzung-pitypang-suli",
+      "error": "HTTPError"
+    },
+    {
+      "country": "at",
+      "organizationId": "stadtbibliothek-graz-hungarian",
+      "error": "HTTPError"
+    },
+    {
+      "country": "at",
+      "organizationId": "stadtbibliothek-innsbruck-hungarian",
+      "error": "HTTPError"
+    },
+    {
+      "country": "at",
+      "organizationId": "stadtbibliothek-linz-hungarian",
+      "error": "HTTPError"
+    },
+    {
+      "country": "at",
+      "organizationId": "stadtbibliothek-salzburg-hungarian",
+      "error": "HTTPError"
+    },
+    {
+      "country": "at",
+      "organizationId": "suedbahnhotel-semmering-hungarian",
+      "error": "HTTPError"
+    },
+    {
+      "country": "at",
+      "organizationId": "svung",
+      "error": "HTTPError"
+    },
+    {
+      "country": "at",
+      "organizationId": "szelforgok-nepzene",
+      "error": "HTTPError"
+    },
+    {
+      "country": "at",
+      "organizationId": "szent-istvan-egylet",
+      "error": "HTTPError"
+    },
+    {
+      "country": "at",
+      "organizationId": "szivarvany-gyermektanc",
+      "error": "HTTPError"
+    },
+    {
+      "country": "at",
+      "organizationId": "umiz",
+      "error": "HTTPError"
+    },
+    {
+      "country": "at",
+      "organizationId": "univie-finnougristik-library",
+      "error": "HTTPError"
+    },
+    {
+      "country": "at",
+      "organizationId": "vhs-burgenland",
+      "error": "HTTPError"
+    },
+    {
+      "country": "at",
+      "organizationId": "vipach",
+      "error": "HTTPError"
+    },
+    {
+      "country": "at",
+      "organizationId": "virgonc-gyermek",
+      "error": "HTTPError"
+    },
+    {
+      "country": "at",
+      "organizationId": "virgonc-unterwart",
+      "error": "HTTPError"
+    },
+    {
+      "country": "at",
+      "organizationId": "vorarlberger-landesbibliothek-hungarian",
+      "error": "HTTPError"
+    },
+    {
+      "country": "at",
+      "organizationId": "vukk-kaernten",
+      "error": "HTTPError"
+    },
+    {
+      "country": "at",
+      "organizationId": "warter-fantasie",
+      "error": "HTTPError"
+    },
+    {
+      "country": "au",
+      "organizationId": "victorian-hungarian-council",
+      "error": "HTTPError"
+    },
+    {
+      "country": "be",
+      "organizationId": "82-bathory-istvan-cserkeszcsapat",
+      "error": "HTTPError"
+    },
+    {
+      "country": "be",
+      "organizationId": "arcfam-asbl",
+      "error": "HTTPError"
+    },
+    {
+      "country": "be",
+      "organizationId": "belgiumi-magyar-protestans-gyulekezet",
+      "error": "HTTPError"
+    },
+    {
+      "country": "be",
+      "organizationId": "brusszeli-magyar-haz",
+      "error": "HTTPError"
+    },
+    {
+      "country": "be",
+      "organizationId": "brusszeli-magyar-katolikus-kozosseg",
+      "error": "HTTPError"
+    },
+    {
+      "country": "be",
+      "organizationId": "egyben-belgium",
+      "error": "HTTPError"
+    },
+    {
+      "country": "be",
+      "organizationId": "eurologus",
+      "error": "HTTPError"
+    },
+    {
+      "country": "be",
+      "organizationId": "hatartalan-tortenelem",
+      "error": "HTTPError"
+    },
+    {
+      "country": "be",
+      "organizationId": "hya-belgium",
+      "error": "HTTPError"
+    },
+    {
+      "country": "be",
+      "organizationId": "liszt-intezet-brusszel",
+      "error": "HTTPError"
+    },
+    {
+      "country": "be",
+      "organizationId": "magyarorszag-eu-allando-kepviselet-brusszel",
+      "error": "HTTPError"
+    },
+    {
+      "country": "be",
+      "organizationId": "magyarorszag-haza-brusszel",
+      "error": "HTTPError"
+    },
+    {
+      "country": "be",
+      "organizationId": "magyarorszag-nagykovetsege-brusszel",
+      "error": "HTTPError"
+    },
+    {
+      "country": "be",
+      "organizationId": "magyarorszag-nato-allando-kepviselet-brusszel",
+      "error": "HTTPError"
+    },
+    {
+      "country": "be",
+      "organizationId": "vilagfa-ensemble-brussels",
+      "error": "HTTPError"
+    },
+    {
+      "country": "be",
+      "organizationId": "voxpat",
+      "error": "HTTPError"
+    },
+    {
+      "country": "ca",
+      "organizationId": "bokreta-montreal",
+      "error": "HTTPError"
+    },
+    {
+      "country": "ca",
+      "organizationId": "edmontoni-magyar-kulturkor",
+      "error": "HTTPError"
+    },
+    {
+      "country": "ca",
+      "organizationId": "embassy-hungary-ottawa",
+      "error": "HTTPError"
+    },
+    {
+      "country": "ca",
+      "organizationId": "first-hungarian-presbyterian-vancouver",
+      "error": "HTTPError"
+    },
+    {
+      "country": "ca",
+      "organizationId": "gyanta-montreal",
+      "error": "HTTPError"
+    },
+    {
+      "country": "ca",
+      "organizationId": "hungarian-booklovers-heritage-library-toronto",
+      "error": "HTTPError"
+    },
+    {
+      "country": "ca",
+      "organizationId": "hungarian-canadian-club-waterloo-wellington",
+      "error": "HTTPError"
+    },
+    {
+      "country": "ca",
+      "organizationId": "hungarian-canadian-cultural-centre-toronto",
+      "error": "HTTPError"
+    },
+    {
+      "country": "ca",
+      "organizationId": "hungarian-scouts-toronto",
+      "error": "HTTPError"
+    },
+    {
+      "country": "ca",
+      "organizationId": "hungarian-society-victoria",
+      "error": "HTTPError"
+    },
+    {
+      "country": "ca",
+      "organizationId": "magyar-kronika-montreal",
+      "error": "HTTPError"
+    },
+    {
+      "country": "ca",
+      "organizationId": "montreali-magyar-reformatus-egyhaz",
+      "error": "HTTPError"
+    },
+    {
+      "country": "ca",
+      "organizationId": "nahc-kmosz",
+      "error": "HTTPError"
+    },
+    {
+      "country": "ca",
+      "organizationId": "nanaimo-hungarian-cultural-society",
+      "error": "HTTPError"
+    },
+    {
+      "country": "ca",
+      "organizationId": "okanagan-hungarian-society",
+      "error": "HTTPError"
+    },
+    {
+      "country": "ca",
+      "organizationId": "ottawa-hungarian-community-centre",
+      "error": "HTTPError"
+    },
+    {
+      "country": "ca",
+      "organizationId": "our-lady-hungary-parish-vancouver",
+      "error": "HTTPError"
+    },
+    {
+      "country": "ca",
+      "organizationId": "st-elizabeth-hungary-parish-toronto",
+      "error": "HTTPError"
+    },
+    {
+      "country": "ca",
+      "organizationId": "vancouver-hungarian-cultural-society",
+      "error": "HTTPError"
+    },
+    {
+      "country": "de",
+      "organizationId": "buod",
+      "error": "HTTPError"
+    },
+    {
+      "country": "dk",
+      "organizationId": "dama-dan-magyar-kulturalis-egyesulet",
+      "error": "HTTPError"
+    },
+    {
+      "country": "dk",
+      "organizationId": "dan-magyar-egyesulet",
+      "error": "HTTPError"
+    },
+    {
+      "country": "dk",
+      "organizationId": "hya-denmark",
+      "error": "HTTPError"
+    },
+    {
+      "country": "gb",
+      "organizationId": "liszt-intezet-london",
+      "error": "HTTPError"
+    },
+    {
+      "country": "nl",
+      "organizationId": "70-attila-cserkeszcsapat",
+      "error": "HTTPError"
+    },
+    {
+      "country": "nl",
+      "organizationId": "amszterdami-magyar-reformatus-gyulekezet",
+      "error": "HTTPError"
+    },
+    {
+      "country": "nl",
+      "organizationId": "amszterdami-magyar-szalon",
+      "error": "HTTPError"
+    },
+    {
+      "country": "nl",
+      "organizationId": "hagai-magyar-reformatus-gyulekezet",
+      "error": "HTTPError"
+    },
+    {
+      "country": "nl",
+      "organizationId": "hollandiai-magyar-szovetseg",
+      "error": "HTTPError"
+    },
+    {
+      "country": "nl",
+      "organizationId": "hollandiai-magyarok",
+      "error": "HTTPError"
+    },
+    {
+      "country": "nl",
+      "organizationId": "hollandiai-magyarok-gyulekezete",
+      "error": "HTTPError"
+    },
+    {
+      "country": "nl",
+      "organizationId": "hollandiai-mikes-kelemen-kor",
+      "error": "HTTPError"
+    },
+    {
+      "country": "nl",
+      "organizationId": "hungaria-club-1929",
+      "error": "HTTPError"
+    },
+    {
+      "country": "nl",
+      "organizationId": "hya-netherlands",
+      "error": "HTTPError"
+    },
+    {
+      "country": "nl",
+      "organizationId": "magyarorszag-nagykovetsege-haga",
+      "error": "HTTPError"
+    },
+    {
+      "country": "nl",
+      "organizationId": "mikes-international",
+      "error": "HTTPError"
+    },
+    {
+      "country": "nl",
+      "organizationId": "rotterdami-magyar-reformatus-gyulekezet",
+      "error": "HTTPError"
+    },
+    {
+      "country": "nl",
+      "organizationId": "stichting-magyar-nota",
+      "error": "HTTPError"
+    },
+    {
+      "country": "nl",
+      "organizationId": "stihon",
+      "error": "HTTPError"
+    },
+    {
+      "country": "nl",
+      "organizationId": "zwollei-magyar-reformatus-egyhazkozseg",
+      "error": "HTTPError"
+    },
+    {
+      "country": "se",
+      "organizationId": "smosz",
+      "error": "HTTPError"
+    },
+    {
+      "country": "us",
+      "organizationId": "american-hungarian-educators-association",
+      "error": "HTTPError"
+    },
+    {
+      "country": "us",
+      "organizationId": "american-hungarian-federation",
+      "error": "HTTPError"
+    },
+    {
+      "country": "us",
+      "organizationId": "american-hungarian-foundation",
+      "error": "HTTPError"
+    },
+    {
+      "country": "us",
+      "organizationId": "american-hungarian-friends-of-scouting-cleveland",
+      "error": "HTTPError"
+    },
+    {
+      "country": "us",
+      "organizationId": "american-hungarian-heritage-house",
+      "error": "HTTPError"
+    },
+    {
+      "country": "us",
+      "organizationId": "american-hungarian-library-historical-society",
+      "error": "HTTPError"
+    },
+    {
+      "country": "us",
+      "organizationId": "amit-us",
+      "error": "HTTPError"
+    },
+    {
+      "country": "us",
+      "organizationId": "arpadhon-hungarian-settlement-cultural-association",
+      "error": "HTTPError"
+    },
+    {
+      "country": "us",
+      "organizationId": "association-hungarian-american-academicians",
+      "error": "HTTPError"
+    },
+    {
+      "country": "us",
+      "organizationId": "austin-hungarian-association",
+      "error": "HTTPError"
+    },
+    {
+      "country": "us",
+      "organizationId": "batori-jozsef-scout-troop-washington",
+      "error": "HTTPError"
+    },
+    {
+      "country": "us",
+      "organizationId": "bessenyei-gyorgy-scout-troop-22-cleveland",
+      "error": "HTTPError"
+    },
+    {
+      "country": "us",
+      "organizationId": "bocskai-radio",
+      "error": "HTTPError"
+    },
+    {
+      "country": "us",
+      "organizationId": "bodnar-gabor-scout-troop-boston",
+      "error": "HTTPError"
+    },
+    {
+      "country": "us",
+      "organizationId": "carolinas-hungarian-group",
+      "error": "HTTPError"
+    },
+    {
+      "country": "us",
+      "organizationId": "chicago-hungarian-cultural-advisory-council",
+      "error": "HTTPError"
+    },
+    {
+      "country": "us",
+      "organizationId": "cleveland-hungarian-heritage-society",
+      "error": "HTTPError"
+    },
+    {
+      "country": "us",
+      "organizationId": "cleveland-hungarian-scout-folk-ensemble",
+      "error": "HTTPError"
+    },
+    {
+      "country": "us",
+      "organizationId": "colorado-hungarian-club",
+      "error": "HTTPError"
+    },
+    {
+      "country": "us",
+      "organizationId": "consulate-general-hungary-chicago",
+      "error": "HTTPError"
+    },
+    {
+      "country": "us",
+      "organizationId": "consulate-general-hungary-los-angeles",
+      "error": "HTTPError"
+    },
+    {
+      "country": "us",
+      "organizationId": "consulate-general-hungary-new-york",
+      "error": "HTTPError"
+    },
+    {
+      "country": "us",
+      "organizationId": "creative-cultural-exchange",
+      "error": "HTTPError"
+    },
+    {
+      "country": "us",
+      "organizationId": "csurdongolo-folk-ensemble",
+      "error": "HTTPError"
+    },
+    {
+      "country": "us",
+      "organizationId": "embassy-of-hungary-washington",
+      "error": "HTTPError"
+    },
+    {
+      "country": "us",
+      "organizationId": "gorgey-arthur-scout-troop-14-cleveland",
+      "error": "HTTPError"
+    },
+    {
+      "country": "us",
+      "organizationId": "holy-cross-hungarian-catholic-church-detroit",
+      "error": "HTTPError"
+    },
+    {
+      "country": "us",
+      "organizationId": "house-of-hungary-san-diego",
+      "error": "HTTPError"
+    },
+    {
+      "country": "us",
+      "organizationId": "hungarian-academy-washington",
+      "error": "HTTPError"
+    },
+    {
+      "country": "us",
+      "organizationId": "hungarian-american-association-washington",
+      "error": "HTTPError"
+    },
+    {
+      "country": "us",
+      "organizationId": "hungarian-american-chamber-commerce-ohio",
+      "error": "HTTPError"
+    },
+    {
+      "country": "us",
+      "organizationId": "hungarian-american-club-triangle",
+      "error": "HTTPError"
+    },
+    {
+      "country": "us",
+      "organizationId": "hungarian-american-coalition",
+      "error": "HTTPError"
+    },
+    {
+      "country": "us",
+      "organizationId": "hungarian-american-cultural-association-houston",
+      "error": "HTTPError"
+    },
+    {
+      "country": "us",
+      "organizationId": "hungarian-association-cleveland",
+      "error": "HTTPError"
+    },
+    {
+      "country": "us",
+      "organizationId": "hungarian-church-in-the-carolinas",
+      "error": "HTTPError"
+    },
+    {
+      "country": "us",
+      "organizationId": "hungarian-club-of-chicago",
+      "error": "HTTPError"
+    },
+    {
+      "country": "us",
+      "organizationId": "hungarian-club-of-georgia",
+      "error": "HTTPError"
+    },
+    {
+      "country": "us",
+      "organizationId": "hungarian-community-church-daytona-beach",
+      "error": "HTTPError"
+    },
+    {
+      "country": "us",
+      "organizationId": "hungarian-community-church-georgia",
+      "error": "HTTPError"
+    },
+    {
+      "country": "us",
+      "organizationId": "hungarian-cultural-association-indiana-university",
+      "error": "HTTPError"
+    },
+    {
+      "country": "us",
+      "organizationId": "hungarian-cultural-center-detroit",
+      "error": "HTTPError"
+    },
+    {
+      "country": "us",
+      "organizationId": "hungarian-cultural-society-connecticut",
+      "error": "HTTPError"
+    },
+    {
+      "country": "us",
+      "organizationId": "hungarian-house-new-york",
+      "error": "HTTPError"
+    },
+    {
+      "country": "us",
+      "organizationId": "hungarian-human-rights-foundation",
+      "error": "HTTPError"
+    },
+    {
+      "country": "us",
+      "organizationId": "hungarian-reformed-church-phoenix",
+      "error": "HTTPError"
+    },
+    {
+      "country": "us",
+      "organizationId": "hungarian-reformed-church-san-francisco",
+      "error": "HTTPError"
+    },
+    {
+      "country": "us",
+      "organizationId": "hungarian-reformed-church-washington-dc",
+      "error": "HTTPError"
+    },
+    {
+      "country": "us",
+      "organizationId": "hungarian-settlement-museum-louisiana",
+      "error": "HTTPError"
+    },
+    {
+      "country": "us",
+      "organizationId": "hungarian-society-of-massachusetts",
+      "error": "HTTPError"
+    },
+    {
+      "country": "us",
+      "organizationId": "hungarianhub",
+      "error": "HTTPError"
+    },
+    {
+      "country": "us",
+      "organizationId": "hungary-foundation",
+      "error": "HTTPError"
+    },
+    {
+      "country": "us",
+      "organizationId": "kmcssz",
+      "error": "HTTPError"
+    },
+    {
+      "country": "us",
+      "organizationId": "kossuth-foundation",
+      "error": "HTTPError"
+    },
+    {
+      "country": "us",
+      "organizationId": "liszt-institute-new-york",
+      "error": "HTTPError"
+    },
+    {
+      "country": "us",
+      "organizationId": "magyar-club-dayton-sw-ohio",
+      "error": "HTTPError"
+    },
+    {
+      "country": "us",
+      "organizationId": "metroplex-magyar-cultural-circle",
+      "error": "HTTPError"
+    },
+    {
+      "country": "us",
+      "organizationId": "minnesota-hungarians",
+      "error": "HTTPError"
+    },
+    {
+      "country": "us",
+      "organizationId": "philadelphia-vicinity-hungarian-sports-club",
+      "error": "HTTPError"
+    },
+    {
+      "country": "us",
+      "organizationId": "saint-mary-of-victories-hungarian-parish",
+      "error": "HTTPError"
+    },
+    {
+      "country": "us",
+      "organizationId": "st-stephen-hungarian-catholic-community-washington",
+      "error": "HTTPError"
+    },
+    {
+      "country": "us",
+      "organizationId": "st-stephen-king-hungary-church-chicago",
+      "error": "HTTPError"
+    },
+    {
+      "country": "us",
+      "organizationId": "szilagyi-erzsebet-scout-troop-33-cleveland",
+      "error": "HTTPError"
+    },
+    {
+      "country": "us",
+      "organizationId": "tisza-ensemble",
+      "error": "HTTPError"
+    },
+    {
+      "country": "us",
+      "organizationId": "tulipan-foundation-new-york",
+      "error": "HTTPError"
+    },
+    {
+      "country": "us",
+      "organizationId": "united-hungarian-societies-cleveland",
+      "error": "HTTPError"
+    },
+    {
+      "country": "us",
+      "organizationId": "united-magyar-house-los-angeles",
+      "error": "HTTPError"
+    },
+    {
+      "country": "us",
+      "organizationId": "vice-consulate-hungary-houston",
+      "error": "HTTPError"
+    },
+    {
+      "country": "us",
+      "organizationId": "vice-consulate-hungary-miami",
+      "error": "HTTPError"
+    },
+    {
+      "country": "us",
+      "organizationId": "william-penn-association",
+      "error": "HTTPError"
+    },
+    {
+      "country": "us",
+      "organizationId": "zrinyi-ilona-scout-troop-34-cleveland",
+      "error": "HTTPError"
+    },
+    {
+      "country": "us",
+      "organizationId": "zrinyi-miklos-scout-troop-44-portland",
+      "error": "HTTPError"
+    }
+  ],
   "candidates": [
     {
       "country": "us",
