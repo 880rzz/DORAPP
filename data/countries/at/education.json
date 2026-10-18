@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-07",
+  "updated": "2026-10-18",
   "methodology": "Az intézmények csak akkor kerülnek be, ha magyar nyelvű oktatásukat vagy magyar közösségi programjukat ORF, hivatalos intézményi oldal, Bildungsdirektion vagy más elsődleges/intézményi forrás igazolja. Az officialSiteMentionsHungarian mező azt jelzi, hogy a saját honlapon találtunk-e külön magyar tartalmat.",
   "institutions": [
     {
@@ -1000,18 +1000,17 @@
     },
     {
       "id": "amaped-eisenstadt-education",
-      "name": "AMAPED – kismartoni iskolás csoport",
+      "name": "AMAPED – Eisenstadt / Kismarton – óvodai foglalkozás",
       "state": "burgenland",
       "city": "Eisenstadt / Kismarton",
       "level": [
-        "primary",
-        "secondary"
+        "kindergarten"
       ],
-      "type": "hétvégi magyar oktatás",
+      "type": "magyar óvodai foglalkozás",
       "website": "https://amaped.at/",
       "officialSiteMentionsHungarian": true,
-      "summary": "A 2026/27-es tanévben az AMAPED Kismartonban is iskolás magyar csoportot indít.",
-      "sourceUrl": "https://rolunk.at/category/aktualis/",
+      "summary": "Az AMAPED kismartoni vegyes óvodai csoportja 3–6 éves gyermekeknek tart magyar nyelvű, játékos, mesés, énekes és kézműves foglalkozást. Az aktuális tanfolyamlista szerint csütörtökönként 15:30–17:30 között működik.",
+      "sourceUrl": "https://amaped.at/courses/ovodai-foglalkozas-2/",
       "verifiedFor": "2026/27",
       "recordClass": "education-unit"
     },
@@ -1204,8 +1203,8 @@
       "type": "magyar óvoda és iskola",
       "website": "https://amaped.at/",
       "officialSiteMentionsHungarian": true,
-      "summary": "Magyar óvodai és iskolai foglalkozások Klosterneuburgban; az AMAPED 2026-os órarendje külön óvodai és iskolai csoportokat dokumentál.",
-      "sourceUrl": "https://amaped.at/event/ovoda-9-2/",
+      "summary": "Az AMAPED Klosterneuburgban csütörtökönként külön magyar óvodai és összevont iskolai foglalkozást tart; az aktuális tanfolyamlista az óvodát 15:30–16:30, az iskolai csoportot 16:00–18:00 között jelzi.",
+      "sourceUrl": "https://amaped.at/tanfolyamok/",
       "recordClass": "education-unit",
       "verifiedFor": "2026/27"
     },
@@ -1216,14 +1215,13 @@
       "city": "Schwechat",
       "level": [
         "kindergarten",
-        "primary",
-        "secondary"
+        "primary"
       ],
-      "type": "magyar óvoda és iskola",
+      "type": "magyar óvoda és alsó tagozatos iskolai csoport",
       "website": "https://amaped.at/",
       "officialSiteMentionsHungarian": true,
-      "summary": "Az AMAPED schwechati magyar oktatási helyszíne; a 2026-os órarend iskolai összevont csoportot dokumentál.",
-      "sourceUrl": "https://amaped.at/event/parndorf-ovoda-es-1-4-osztaly-2/",
+      "summary": "Az AMAPED schwechati helyszínén hétfőnként 16:00–18:00 között külön óvodai és összevont, iskola-előkészítőtől 4. osztályig működő magyar csoportokat tart.",
+      "sourceUrl": "https://amaped.at/tanfolyamok/",
       "recordClass": "education-unit",
       "verifiedFor": "2026/27"
     },
