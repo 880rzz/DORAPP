@@ -90,6 +90,18 @@ def is_event(x):
     t=x.get("@type")
     return t=="Event" or (isinstance(t,list) and "Event" in t)
 
+def location_country(location):
+    if not isinstance(location,dict):
+        return ""
+    address=location.get("address")
+    if not isinstance(address,dict):
+        return ""
+    country=address.get("addressCountry")
+    if isinstance(country,dict):
+        country=country.get("name") or country.get("@id") or ""
+    return clean_text(country).casefold()
+
+
 def addr_text(location):
     if not isinstance(location,dict): return None,None
     venue=location.get("name"); a=location.get("address")
@@ -171,6 +183,9 @@ def people_names(v):
 def normalize(x,org,source,discovered_from=None):
     name=str(x.get("name") or "").strip(); start=normalize_iso_datetime(x.get("startDate"))
     if not name or not start: return None
+    country=location_country(x.get("location"))
+    if country and country not in {"at","aut","austria","österreich","osterreich"}:
+        return None
     venue,address=addr_text(x.get("location"))
     registration,price,currency,availability=offer_details(x.get("offers"))
     image=x.get("image")
