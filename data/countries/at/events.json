@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-17T21:15:34.216893+00:00",
+  "updated": "2026-10-18T01:00:00+00:00",
   "programCategoryDefinitions": [
     {
       "id": "gyermek",
@@ -44,6 +44,24 @@
   ],
   "events": [
     {
+      "id": "kultpult-pelekaland-2026-10-18",
+      "organizationId": "kultpult",
+      "name": "Durica Katarina – JaMese: Zenés Pelekaland",
+      "organizer": "KultPult",
+      "state": "wien",
+      "city": "Wien",
+      "venue": "Off Theater Wien",
+      "address": "Kirchengasse 41, 1070 Wien, Austria",
+      "startDate": "2026-10-18T10:00:00+02:00",
+      "sourceUrl": "https://kultpult.eu/category/programok/",
+      "programCategories": [
+        "gyermek",
+        "zene",
+        "szinhaz"
+      ],
+      "endDate": ""
+    },
+    {
       "id": "becsi-magyar-iskola-rekreáció-bmi-partner-program-schwedenplatz-2026-10-18t10-00-00-02-00",
       "organizationId": "becsi-magyar-iskola",
       "name": "ReKreáció | BMI Partner Program | Schwedenplatz",
@@ -73,24 +91,6 @@
         "workshop",
         "kozosseg"
       ]
-    },
-    {
-      "id": "kultpult-pelekaland-2026-10-18",
-      "organizationId": "kultpult",
-      "name": "Durica Katarina – JaMese: Zenés Pelekaland",
-      "organizer": "KultPult",
-      "state": "wien",
-      "city": "Wien",
-      "venue": "Off Theater Wien",
-      "address": "Kirchengasse 41, 1070 Wien, Austria",
-      "startDate": "2026-10-18T10:00:00+02:00",
-      "sourceUrl": "https://kultpult.eu/category/programok/",
-      "programCategories": [
-        "gyermek",
-        "zene",
-        "szinhaz"
-      ],
-      "endDate": ""
     },
     {
       "id": "reformatus-szolgalat-istentisztelet-és-orgonakoncert-2026-10-18t17-00-00-02-00",
@@ -462,6 +462,38 @@
       ]
     },
     {
+      "eventStatus": "https://schema.org/EventScheduled",
+      "attendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+      "availability": null,
+      "image": null,
+      "verifiedAt": "2026-10-18T01:00:00+00:00",
+      "id": "collegium-hungaricum-jugendstil-in-wien-und-budapest-2026-10-28t18-00-00-01-00",
+      "organizationId": "collegium-hungaricum-wien",
+      "name": "Jugendstil in Wien und Budapest",
+      "organizer": "Collegium Hungaricum Wien és Kral Verlag",
+      "state": "wien",
+      "city": "Wien",
+      "venue": "Collegium Hungaricum Wien",
+      "address": "Hollandstraße 4, 1020 Wien, Ausztria",
+      "startDate": "2026-10-28T18:00:00+01:00",
+      "endDate": null,
+      "description": "Harald A. Jahn és Peter Schubert könyvbemutatója és beszélgetése a bécsi és budapesti szecessziós építészetről, amelyet vezetés követ a Zsolnay-kiállításban. Regisztráció: anmeldung@chwien.at.",
+      "registrationUrl": null,
+      "price": null,
+      "priceCurrency": null,
+      "performers": [
+        "Harald A. Jahn",
+        "Peter Schubert"
+      ],
+      "audience": null,
+      "sourceUrl": "https://culture.hu/de/wien/blog/programme-im-oktober-2",
+      "discoveredFrom": "https://culture.hu/de/wien/blog/programme-im-oktober-2",
+      "programCategories": [
+        "irodalom",
+        "kozosseg"
+      ]
+    },
+    {
       "id": "vhs-burgenland-ungarn-1956-fluechtlingshilfe-2026-10-28",
       "organizationId": "vhs-burgenland",
       "name": "Ungarn 1956. Fakten & Mythen über die Flüchtlingshilfe",
@@ -750,6 +782,39 @@
       ]
     },
     {
+      "eventStatus": "https://schema.org/EventScheduled",
+      "attendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+      "availability": "https://schema.org/InStock",
+      "image": null,
+      "verifiedAt": "2026-10-18T01:00:00+00:00",
+      "id": "salzung-dombóvári-istván-és-bellus-istván-salzburgban-2026-11-14t17-00-00-01-00",
+      "organizationId": "salzung",
+      "name": "Dombóvári István és Bellus István Salzburgban",
+      "organizer": "Csillagszemű Juhász Produktum, Selo Bt. és SalzUNG – Salzburgi Magyar Egyesület",
+      "state": "salzburg",
+      "city": "Salzburg",
+      "venue": "Odeïon Salzburg",
+      "address": "Waldorfstraße 13, 5023 Salzburg, Ausztria",
+      "startDate": "2026-11-14T17:00:00+01:00",
+      "endDate": "2026-11-14T19:00:00+01:00",
+      "description": "Magyar családi humor- és közösségi délután Dombóvári István Deszeretlek című estjével, Bellus István műsorvezetésével, majd fotózással és a Salzburgi Magyar Egyesület táncházával. 12 éves korig ingyenes; a meghirdetett felnőtt jegyek 40 eurótól érhetők el.",
+      "registrationUrl": "https://eventfrog.at/en/p/comedy/comedy-cabaret/dombovari-istvan-es-bellus-istvan-salzburgban-salzburg-7473081072172934557.html",
+      "price": "0.00–40.00",
+      "priceCurrency": "EUR",
+      "performers": [
+        "Dombóvári István",
+        "Bellus István"
+      ],
+      "audience": "Magyar családok és 12 év feletti közönség",
+      "sourceUrl": "https://eventfrog.at/en/p/comedy/comedy-cabaret/dombovari-istvan-es-bellus-istvan-salzburgban-salzburg-7473081072172934557.html",
+      "discoveredFrom": "https://odeion.at/",
+      "programCategories": [
+        "szinhaz",
+        "zene",
+        "kozosseg"
+      ]
+    },
+    {
       "id": "becsi-magyar-iskola-rekreáció-bmi-partner-program-schwedenplatz-2026-11-15t10-00-00-01-00",
       "organizationId": "becsi-magyar-iskola",
       "name": "ReKreáció | BMI Partner Program | Schwedenplatz",
@@ -834,6 +899,37 @@
       "discoveredFrom": "https://www.kozpontiszovetseg.at/event-list",
       "verifiedAt": "2026-10-17T21:14:29.230640+00:00",
       "programCategories": [
+        "kozosseg"
+      ]
+    },
+    {
+      "eventStatus": "https://schema.org/EventScheduled",
+      "attendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+      "availability": "https://schema.org/InStock",
+      "image": null,
+      "verifiedAt": "2026-10-18T01:00:00+00:00",
+      "id": "meses-noi-kor-linz-tóth-krisztina-literarischer-abend-in-linz-2026-11-20t19-00-00-01-00",
+      "organizationId": "meses-noi-kor-linz",
+      "name": "Tóth Krisztina – Literarischer Abend in Linz",
+      "organizer": "Mesés Női Kör Linz / Balloon Events",
+      "state": "oberoesterreich",
+      "city": "Linz",
+      "venue": "Volkshaus Pichling",
+      "address": "Lunaplatz 4, 4030 Linz, Ausztria",
+      "startDate": "2026-11-20T19:00:00+01:00",
+      "endDate": null,
+      "description": "Magyar nyelvű, mindenki számára nyitott irodalmi est Tóth Krisztina íróval és műfordítóval az írásról, emlékezetről, magyar nyelvről és a több nyelv, illetve több otthon közötti életről. Elővételben 25 euró, a helyszínen 30 euró.",
+      "registrationUrl": "https://site.prod.balloon-events.com/event/toth-krisztina-toertenetek-amelyek-eletben-tartanak",
+      "price": "25.00–30.00",
+      "priceCurrency": "EUR",
+      "performers": [
+        "Tóth Krisztina"
+      ],
+      "audience": "Irodalom iránt érdeklődő magyar nyelvű közönség",
+      "sourceUrl": "https://site.prod.balloon-events.com/event/toth-krisztina-toertenetek-amelyek-eletben-tartanak",
+      "discoveredFrom": "https://site.prod.balloon-events.com/event/toth-krisztina-toertenetek-amelyek-eletben-tartanak",
+      "programCategories": [
+        "irodalom",
         "kozosseg"
       ]
     },
@@ -1048,6 +1144,38 @@
       "discoveredFrom": "https://www.kozpontiszovetseg.at/event-list",
       "verifiedAt": "2026-10-17T21:14:30.856768+00:00",
       "programCategories": [
+        "kozosseg"
+      ]
+    },
+    {
+      "eventStatus": "https://schema.org/EventScheduled",
+      "attendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+      "availability": "https://schema.org/InStock",
+      "image": null,
+      "verifiedAt": "2026-10-18T01:00:00+00:00",
+      "id": "becsi-magyar-iskola-együtt-dobban-bécs-2026-11-28t18-00-00-01-00",
+      "organizationId": "becsi-magyar-iskola",
+      "name": "Együtt dobban Bécs",
+      "organizer": "Bécsi Magyar Iskola és Regélő Fehér Táltos Hagyományőrző Egyesület",
+      "state": "wien",
+      "city": "Wien",
+      "venue": "Bécsi Magyar Iskola | 9-es ajtó",
+      "address": "Schwedenplatz 2 / Laurenzerberg 5, Top 9, 1010 Wien, Ausztria",
+      "startDate": "2026-11-28T18:00:00+01:00",
+      "endDate": "2026-11-28T19:30:00+01:00",
+      "description": "Generációkon átívelő közös dobolás, éneklés és magyar örömzene gyermekeknek és felnőtteknek. Zenei vagy dobos előképzettség nem szükséges; a részvételi díj 5 euró személyenként.",
+      "registrationUrl": "https://www.magyariskola.at/event-details/oromzene-2026",
+      "price": "5.00",
+      "priceCurrency": "EUR",
+      "performers": [
+        "Regélő Fehér Táltos Hagyományőrző Egyesület Dobcsapata"
+      ],
+      "audience": "Gyermekek, fiatalok és felnőttek",
+      "sourceUrl": "https://www.magyariskola.at/event-details/oromzene-2026",
+      "discoveredFrom": "https://www.magyariskola.at/esemenyek",
+      "programCategories": [
+        "gyermek",
+        "zene",
         "kozosseg"
       ]
     },
@@ -1482,34 +1610,6 @@
       ]
     },
     {
-      "id": "cserkesz-80-csapat-parancsnoki-és-tiszti-konferencia-2027-02-11t00-00-02-00",
-      "organizationId": "cserkesz-80",
-      "name": "Csapat­­parancsnoki és tiszti konferencia",
-      "organizer": "80. sz. Árpád Cserkészcsapat",
-      "state": "oberoesterreich",
-      "city": "Wels",
-      "venue": null,
-      "address": null,
-      "startDate": "2027-02-11T00:00+01:00",
-      "endDate": "2027-02-14T00:00+01:00",
-      "description": "Csapat­­parancsnoki és tiszti konferencia",
-      "eventStatus": "https://schema.org/EventScheduled",
-      "attendanceMode": "https://schema.org/OfflineEventAttendanceMode",
-      "registrationUrl": null,
-      "price": null,
-      "priceCurrency": null,
-      "availability": null,
-      "performers": [],
-      "audience": null,
-      "image": "",
-      "sourceUrl": "https://wels.cserkesz.eu/events/csapatparancsnoki-es-tiszti-konferencia-2/",
-      "discoveredFrom": "https://wels.cserkesz.eu/programok/",
-      "verifiedAt": "2026-10-11T10:48:45.438306+00:00",
-      "programCategories": [
-        "cserkesz"
-      ]
-    },
-    {
       "id": "cserkesz-80-cserkészfoglalkozás-2027-02-20t13-30-02-00",
       "organizationId": "cserkesz-80",
       "name": "Cserkészfoglalkozás",
@@ -1594,34 +1694,6 @@
       ]
     },
     {
-      "id": "cserkesz-80-49-tinódi-lantos-sebestyén-kerületi-regöstábor-2027-03-21t07-00-02-00",
-      "organizationId": "cserkesz-80",
-      "name": "49. Tinódi Lantos Sebestyén Kerületi Regöstábor",
-      "organizer": "80. sz. Árpád Cserkészcsapat",
-      "state": "oberoesterreich",
-      "city": "Wels",
-      "venue": null,
-      "address": null,
-      "startDate": "2027-03-21T07:00+01:00",
-      "endDate": "2027-03-29T12:00+02:00",
-      "description": "Találkozó helye Tradíció Folk Kft Kossuth Lajos utca 7, 8494 Kiscsősz",
-      "eventStatus": "https://schema.org/EventScheduled",
-      "attendanceMode": "https://schema.org/OfflineEventAttendanceMode",
-      "registrationUrl": null,
-      "price": null,
-      "priceCurrency": null,
-      "availability": null,
-      "performers": [],
-      "audience": null,
-      "image": "",
-      "sourceUrl": "https://wels.cserkesz.eu/events/49-tinodi-lantos-sebestyen-keruleti-regostabor/",
-      "discoveredFrom": "https://wels.cserkesz.eu/programok/",
-      "verifiedAt": "2026-10-11T10:48:45.438531+00:00",
-      "programCategories": [
-        "cserkesz"
-      ]
-    },
-    {
       "id": "cserkesz-80-cserkészfoglalkozás-2027-04-03t13-30-02-00",
       "organizationId": "cserkesz-80",
       "name": "Cserkészfoglalkozás",
@@ -1675,6 +1747,35 @@
       "verifiedAt": "2026-10-17T21:14:34.229569+00:00",
       "programCategories": [
         "cserkesz"
+      ]
+    },
+    {
+      "eventStatus": "https://schema.org/EventScheduled",
+      "attendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+      "availability": null,
+      "image": null,
+      "verifiedAt": "2026-10-18T01:00:00+00:00",
+      "id": "grazi-magyar-bal-grazi-magyar-bál-2027-2027-04-24",
+      "organizationId": "grazi-magyar-bal",
+      "name": "Grazi Magyar Bál 2027",
+      "organizer": "Grazi Magyar Egyesület",
+      "state": "steiermark",
+      "city": "Graz",
+      "venue": "AK Kammersäle Graz",
+      "address": "Strauchergasse 32, 8020 Graz, Ausztria",
+      "startDate": "2027-04-24",
+      "endDate": null,
+      "description": "A Grazi Magyar Egyesület hagyományőrző magyar báljának 2027-es alkalma. A szervező hivatalos oldala az eseményt előkészületben jelöli; kezdési idő, program és jegyár még nincs közzétéve.",
+      "registrationUrl": null,
+      "price": null,
+      "priceCurrency": null,
+      "performers": [],
+      "audience": null,
+      "sourceUrl": "https://www.grazimagyaregyesuelet.at/magyar-b%C3%A1l-2027/",
+      "discoveredFrom": "https://www.grazimagyaregyesuelet.at/",
+      "programCategories": [
+        "zene",
+        "kozosseg"
       ]
     },
     {
