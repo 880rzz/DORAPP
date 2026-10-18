@@ -298,12 +298,23 @@ def dedupe_events(items):
     return passthrough+list(by_source.values())
 
 def futureish(start,end=None):
+    """Keep dated future/current events; reject missing or malformed dates.
+
+    Date-only events remain visible through their final calendar day (UTC).
+    """
+    value = end or start
+    if not isinstance(value, str) or not value.strip():
+        return False
     try:
-        value=end or start
-        s=str(value).replace("Z","+00:00"); d=datetime.fromisoformat(s)
-        if d.tzinfo is None:d=d.replace(tzinfo=timezone.utc)
-        return d>=datetime.now(timezone.utc)
-    except Exception:return True
+        s = value.strip().replace("Z", "+00:00")
+        d = datetime.fromisoformat(s)
+        if len(s) == 10 and s[4] == "-" and s[7] == "-":
+            d = d.replace(hour=23, minute=59, second=59, microsecond=999999)
+        if d.tzinfo is None:
+            d = d.replace(tzinfo=timezone.utc)
+        return d >= datetime.now(timezone.utc)
+    except (TypeError, ValueError, OverflowError):
+        return False
 
 def links(html,base):
     host=urllib.parse.urlparse(base).netloc
