@@ -1,12 +1,12 @@
 {
-  "updated": "2026-10-18T01:09:59.141702+00:00",
+  "updated": "2026-10-18T01:21:25.947484+00:00",
   "summary": {
     "organizations": 161,
     "organizationFlags": 1,
-    "organizationPagesChecked": 341,
+    "organizationPagesChecked": 333,
     "education": 108,
     "educationFlags": 0,
-    "events": 65,
+    "events": 67,
     "eventFlags": 0
   },
   "organizations": [
@@ -436,21 +436,16 @@
       ],
       "activityCategories": [],
       "signals": [
-        "oktatas",
-        "neptanc",
-        "nepzene",
-        "enekkar",
-        "media",
-        "diak",
-        "irodalom",
-        "muveszet",
-        "csalad"
+        "enekkar"
       ],
-      "pagesChecked": 1,
-      "checkedUrls": [
-        "https://www.wukv.at/tarka-barka-dalkor/"
+      "pagesChecked": 0,
+      "checkedUrls": [],
+      "errors": [
+        {
+          "url": "https://www.wukv.at/tarka-barka-dalkor/",
+          "error": "<urlopen error timed out>"
+        }
       ],
-      "errors": [],
       "flags": []
     },
     {
@@ -1305,24 +1300,28 @@
       ],
       "activityCategories": [],
       "signals": [
-        "oktatas",
         "neptanc",
         "nepzene",
         "enekkar",
-        "szinhaz",
-        "media",
-        "diak",
-        "irodalom",
         "sport",
         "csalad"
       ],
-      "pagesChecked": 3,
-      "checkedUrls": [
-        "https://www.wukv.at/",
-        "https://www.wukv.at/sample-page/",
-        "https://www.wukv.at/rolunk-delibab-neptanccsoport/"
+      "pagesChecked": 0,
+      "checkedUrls": [],
+      "errors": [
+        {
+          "url": "https://www.wukv.at/",
+          "error": "<urlopen error timed out>"
+        },
+        {
+          "url": "https://www.wukv.at/sample-page/",
+          "error": "<urlopen error timed out>"
+        },
+        {
+          "url": "https://www.wukv.at/rolunk-delibab-neptanccsoport/",
+          "error": "<urlopen error timed out>"
+        }
       ],
-      "errors": [],
       "flags": []
     },
     {
@@ -1359,6 +1358,7 @@
         "neptanc",
         "nepzene",
         "enekkar",
+        "szinhaz",
         "media",
         "egyhaz",
         "muveszet",
@@ -3406,24 +3406,24 @@
       ],
       "activityCategories": [],
       "signals": [
-        "oktatas",
-        "neptanc",
-        "nepzene",
-        "enekkar",
-        "szinhaz",
-        "media",
-        "diak",
-        "muveszet",
-        "sport",
-        "csalad"
+        "nepzene"
       ],
-      "pagesChecked": 3,
-      "checkedUrls": [
-        "https://www.wukv.at/rolunk-citerazenekar/",
-        "https://www.wukv.at/sample-page/",
-        "https://www.wukv.at/a-citeratol-a-hegeduig-ismeretterjeszto-eloadassorozat/"
+      "pagesChecked": 0,
+      "checkedUrls": [],
+      "errors": [
+        {
+          "url": "https://www.wukv.at/rolunk-citerazenekar/",
+          "error": "<urlopen error timed out>"
+        },
+        {
+          "url": "https://www.wukv.at/sample-page/",
+          "error": "<urlopen error timed out>"
+        },
+        {
+          "url": "https://www.wukv.at/a-citeratol-a-hegeduig-ismeretterjeszto-eloadassorozat/",
+          "error": "<urlopen error timed out>"
+        }
       ],
-      "errors": [],
       "flags": []
     },
     {
@@ -4076,18 +4076,17 @@
       ],
       "activityCategories": [],
       "signals": [
-        "oktatas",
         "neptanc",
-        "nepzene",
-        "media",
-        "diak",
         "csalad"
       ],
-      "pagesChecked": 1,
-      "checkedUrls": [
-        "https://www.wukv.at/rolunk-szivarvany/"
+      "pagesChecked": 0,
+      "checkedUrls": [],
+      "errors": [
+        {
+          "url": "https://www.wukv.at/rolunk-szivarvany/",
+          "error": "<urlopen error timed out>"
+        }
       ],
-      "errors": [],
       "flags": []
     },
     {
