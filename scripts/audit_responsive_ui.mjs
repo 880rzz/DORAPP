@@ -3,12 +3,15 @@ import fs from "node:fs/promises";
 
 const base=process.env.DORAPP_TEST_BASE||"http://127.0.0.1:4173";
 const widths=[320,375,390,621,768,1024,1180,1280,1440,1600,1920,2560,3840];
+// Event pages are regenerated from the active feed; never pin the UI audit to an expired event.
+const eventPages=(await fs.readdir("esemenyek")).filter(name=>name.endsWith(".html")).sort();
+const eventRoute=eventPages.length ? "/esemenyek/"+encodeURIComponent(eventPages[0]) : null;
 const routes=[
   "/index.html",
   "/countries/at/",
   "/szervezetek/becsi-magyar-iskola.html",
   "/oktatas/abis-linz-hungarian.html",
-  "/esemenyek/becsi-magyar-iskola-az-%C5%91szt%C3%BCnd%C3%A9r-k%C3%B6t%C3%A9ny%C3%A9nek-titka-schwedenplatz-2026-10-17t16-00-00-02-00.html",
+  ...(eventRoute ? [eventRoute] : []),
   "/kategoriak/csalad.html",
   "/tartomanyok/wien.html",
   "/forrasok.html",
