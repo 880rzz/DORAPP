@@ -1,9 +1,9 @@
 {
-  "updated": "2026-10-18T08:52:50.728201+00:00",
+  "updated": "2026-10-18T09:29:45.812053+00:00",
   "summary": {
     "organizations": 161,
     "organizationFlags": 1,
-    "organizationPagesChecked": 338,
+    "organizationPagesChecked": 341,
     "education": 108,
     "educationFlags": 0,
     "events": 66,
@@ -907,7 +907,7 @@
       "errors": [
         {
           "url": "https://bornemisza.at/",
-          "error": "<urlopen error timed out>"
+          "error": "<urlopen error [Errno 111] Connection refused>"
         },
         {
           "url": "https://www.kozpontiszovetseg.at/bornemisza-peter-tarsasag",
@@ -1693,12 +1693,7 @@
       "activityCategories": [],
       "signals": [
         "oktatas",
-        "szinhaz",
-        "media",
-        "diak",
-        "irodalom",
-        "muveszet",
-        "csalad"
+        "szinhaz"
       ],
       "pagesChecked": 1,
       "checkedUrls": [
@@ -1901,13 +1896,11 @@
         "neptanc",
         "nepzene",
         "cserkesz",
-        "szinhaz",
         "media",
         "egyhaz",
         "diak",
         "irodalom",
         "muveszet",
-        "sport",
         "csalad"
       ],
       "pagesChecked": 3,
@@ -2045,15 +2038,9 @@
       "activityCategories": [],
       "signals": [
         "oktatas",
-        "neptanc",
-        "nepzene",
-        "cserkesz",
-        "szinhaz",
         "media",
         "egyhaz",
-        "diak",
         "irodalom",
-        "muveszet",
         "sport",
         "csalad"
       ],
@@ -2372,17 +2359,6 @@
       ],
       "activityCategories": [],
       "signals": [
-        "oktatas",
-        "neptanc",
-        "nepzene",
-        "cserkesz",
-        "szinhaz",
-        "media",
-        "egyhaz",
-        "diak",
-        "irodalom",
-        "muveszet",
-        "sport",
         "csalad"
       ],
       "pagesChecked": 2,
@@ -3861,25 +3837,19 @@
       ],
       "activityCategories": [],
       "signals": [
+        "oktatas",
+        "media",
         "diak",
-        "irodalom"
+        "irodalom",
+        "csalad"
       ],
-      "pagesChecked": 0,
-      "checkedUrls": [],
-      "errors": [
-        {
-          "url": "https://buch.stadt-salzburg.at/",
-          "error": "The read operation timed out"
-        },
-        {
-          "url": "https://buch.stadt-salzburg.at/Mediensuche/Erweiterte-Suche",
-          "error": "The read operation timed out"
-        },
-        {
-          "url": "https://buch.stadt-salzburg.gv.at/Mediensuche/Einfache-Suche?detail=6&focusModule=searchmodule&pagesize=50&searchhash=OCLC_c58b9092580f15d9d195d8ca279d096abfc183c4&top=y",
-          "error": "The read operation timed out"
-        }
+      "pagesChecked": 3,
+      "checkedUrls": [
+        "https://buch.stadt-salzburg.at/",
+        "https://buch.stadt-salzburg.at/Mediensuche/Erweiterte-Suche",
+        "https://buch.stadt-salzburg.gv.at/Mediensuche/Einfache-Suche?detail=6&focusModule=searchmodule&pagesize=50&searchhash=OCLC_c58b9092580f15d9d195d8ca279d096abfc183c4&top=y"
       ],
+      "errors": [],
       "flags": []
     },
     {
@@ -4028,16 +3998,6 @@
       "activityCategories": [],
       "signals": [
         "oktatas",
-        "neptanc",
-        "nepzene",
-        "cserkesz",
-        "szinhaz",
-        "media",
-        "egyhaz",
-        "diak",
-        "irodalom",
-        "muveszet",
-        "sport",
         "csalad"
       ],
       "pagesChecked": 3,
