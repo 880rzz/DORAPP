@@ -335,8 +335,9 @@
           "url": "https://www.federatio.org/protes.html",
           "kind": "official-institutional-calendar",
           "scope": "self",
-          "ingestEvents": true,
-          "inclusionRule": "Only the Den Haag/Hága column and explicitly attributed Haag events."
+          "ingestEvents": false,
+          "inclusionRule": "Only the Den Haag/Hága column and explicitly attributed Haag events.",
+          "ingestionStatus": "requires-reviewed-inclusion-filter"
         }
       ]
     },
@@ -381,8 +382,9 @@
           "url": "https://www.federatio.org/protes.html",
           "kind": "official-institutional-calendar",
           "scope": "self",
-          "ingestEvents": true,
-          "inclusionRule": "Only the Amsterdam column and explicitly attributed Amsterdam events."
+          "ingestEvents": false,
+          "inclusionRule": "Only the Amsterdam column and explicitly attributed Amsterdam events.",
+          "ingestionStatus": "requires-reviewed-inclusion-filter"
         }
       ]
     },
@@ -427,8 +429,9 @@
           "url": "https://www.federatio.org/protes.html",
           "kind": "official-institutional-calendar",
           "scope": "self",
-          "ingestEvents": true,
-          "inclusionRule": "Only the Rotterdam column and explicitly attributed Rotterdam events."
+          "ingestEvents": false,
+          "inclusionRule": "Only the Rotterdam column and explicitly attributed Rotterdam events.",
+          "ingestionStatus": "requires-reviewed-inclusion-filter"
         }
       ]
     },
@@ -470,8 +473,9 @@
           "url": "https://zwolleireformatus.nl/",
           "kind": "official-calendar-news",
           "scope": "self-and-vianen",
-          "ingestEvents": true,
-          "inclusionRule": "Only events explicitly assigned to Zwolle for this organization; Vianen is a separate child congregation."
+          "ingestEvents": false,
+          "inclusionRule": "Only events explicitly assigned to Zwolle for this organization; Vianen is a separate child congregation.",
+          "ingestionStatus": "requires-reviewed-inclusion-filter"
         }
       ]
     },
@@ -868,8 +872,9 @@
           "url": "https://zwolleireformatus.nl/wp-content/uploads/2026/04/zwolle-2026-5.pdf",
           "kind": "official-calendar-pdf",
           "scope": "self",
-          "ingestEvents": true,
-          "inclusionRule": "Only events under the VIANEN heading."
+          "ingestEvents": false,
+          "inclusionRule": "Only events under the VIANEN heading.",
+          "ingestionStatus": "requires-reviewed-inclusion-filter"
         }
       ],
       "publicChannels": [
