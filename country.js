@@ -156,10 +156,26 @@
     const total=orgList.length+eduList.length+eventList.length;
     if(count) count.textContent=`${total} közvetlen találat az aktuális szűrésben`;
     if(!root) return;
+    const snippet = (value, fallback) => {
+      const plain=String(value||"").replace(/<[^>]*>/g," ").replace(/\\s+/g," ").trim();
+      return esc(plain ? (plain.length>190 ? plain.slice(0,187).trimEnd()+"…" : plain) : fallback);
+    };
+    const card = (kind, id, title, location, description, date) => {
+      const path=kind==="Program"?"events":kind==="Oktatás"?"education":"organizations";
+      const dateLine=date ? `<span class="directory-card-date">Időpont: ${esc(date)}</span>` : "";
+      return `<a class="directory-result directory-result-card" href="${path}/${encodeURIComponent(id)}.html" aria-label="${esc(kind+": "+title+" – adatlap")}">
+        <span class="directory-card-kind">${esc(kind)}</span>
+        <strong class="directory-card-title">${esc(title)}</strong>
+        <span class="directory-card-location">${esc(location||"Helyszín nincs megadva")}</span>
+        ${dateLine}
+        <span class="directory-card-description">${description}</span>
+        <span class="directory-card-action">Adatlap megnyitása <span aria-hidden="true">→</span></span>
+      </a>`;
+    };
     root.innerHTML=[
-      ...orgList.map(o=>`<a class="directory-result" href="organizations/${encodeURIComponent(o.id)}.html"><span>Szervezet · ${esc(regionLabel(regionOf(o)))}</span><strong>${esc(o.name)}</strong><small>${esc([o.city,o.type].filter(Boolean).join(" · "))}</small></a>`),
-      ...eduList.map(x=>`<a class="directory-result" href="education/${encodeURIComponent(x.id)}.html"><span>Oktatás · ${esc(regionLabel(regionOf(x)))}</span><strong>${esc(x.name)}</strong><small>${esc([x.city,x.type].filter(Boolean).join(" · "))}</small></a>`),
-      ...eventList.map(e=>`<a class="directory-result" href="events/${encodeURIComponent(e.id)}.html"><span>Program · ${esc(regionLabel(regionOf(e)))}</span><strong>${esc(e.name||e.title)}</strong><small>${esc([e.startDate||e.date,e.city].filter(Boolean).join(" · "))}</small></a>`)
+      ...orgList.map(o=>card("Szervezet",o.id,o.name,[o.city,regionLabel(regionOf(o))].filter(Boolean).join(" · "),snippet(o.summary||o.intro||o.description,"Szervezeti adatlap és ellenőrzött elérhetőségek."),"")),
+      ...eduList.map(x=>card("Oktatás",x.id,x.name,[x.city,regionLabel(regionOf(x))].filter(Boolean).join(" · "),snippet(x.summary||x.intro||x.description,"Oktatási intézmény adatai és elérhetőségei."),"")),
+      ...eventList.map(e=>card("Program",e.id,e.name||e.title,[e.city,e.venue].filter(Boolean).join(" · "),snippet(e.description||e.summary||e.intro,"A program részletei és forrásai az adatlapon."),e.startDate||e.date||""))
     ].join("");
   }
 
