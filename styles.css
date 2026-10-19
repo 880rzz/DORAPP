@@ -293,3 +293,23 @@ input,select,button{min-width:0;max-width:100%}
 .consent-open .whatsapp-fab{display:none}
 @media(max-width:620px){.whatsapp-fab{right:max(12px,env(safe-area-inset-right));bottom:max(12px,env(safe-area-inset-bottom));width:42px;height:42px}.whatsapp-fab svg{width:21px;height:21px}}
 @media(prefers-reduced-motion:reduce){.whatsapp-fab{transition:none}}
+
+
+/* Country directory search: one readable, accessible card per result. */
+body[data-country] .directory-results{align-items:stretch;gap:16px}
+body[data-country] a.directory-result-card{
+  display:flex;flex-direction:column;align-items:flex-start;gap:10px;
+  min-width:0;min-height:220px;padding:22px 24px;
+  border:1px solid #dedfe3;border-radius:16px;background:#fff;
+  color:#182033;text-decoration:none;box-shadow:0 3px 16px rgba(18,28,43,.045);
+  overflow-wrap:anywhere;transition:border-color .18s ease,box-shadow .18s ease,transform .18s ease
+}
+body[data-country] a.directory-result-card:hover{border-color:#9ca6b7;box-shadow:0 8px 24px rgba(18,28,43,.1);transform:translateY(-2px)}
+body[data-country] a.directory-result-card:focus-visible{outline:3px solid #225ec7;outline-offset:3px}
+body[data-country] .directory-card-kind{font-size:.75rem;letter-spacing:.08em;text-transform:uppercase;font-weight:700;color:#56637a}
+body[data-country] .directory-card-title{display:block;font-size:clamp(1.02rem,1.25vw,1.2rem);line-height:1.35;font-weight:700;color:#172136}
+body[data-country] .directory-card-location,body[data-country] .directory-card-date{font-size:.86rem;line-height:1.5;color:#526075}
+body[data-country] .directory-card-description{font-size:.94rem;line-height:1.6;color:#3d485a}
+body[data-country] .directory-card-action{margin-top:auto;padding-top:8px;font-size:.85rem;font-weight:700;color:#1c477e}
+@media(max-width:620px){body[data-country] a.directory-result-card{min-height:0;padding:20px}}
+@media(prefers-reduced-motion:reduce){body[data-country] a.directory-result-card{transition:none}body[data-country] a.directory-result-card:hover{transform:none}}
