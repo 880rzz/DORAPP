@@ -1,12 +1,12 @@
 {
-  "updated": "2026-10-18T09:29:45.812053+00:00",
+  "updated": "2026-10-19T01:25:58.218633+00:00",
   "summary": {
-    "organizations": 161,
-    "organizationFlags": 1,
-    "organizationPagesChecked": 341,
+    "organizations": 162,
+    "organizationFlags": 2,
+    "organizationPagesChecked": 343,
     "education": 108,
     "educationFlags": 0,
-    "events": 66,
+    "events": 76,
     "eventFlags": 0
   },
   "organizations": [
@@ -907,7 +907,7 @@
       "errors": [
         {
           "url": "https://bornemisza.at/",
-          "error": "<urlopen error [Errno 111] Connection refused>"
+          "error": "<urlopen error timed out>"
         },
         {
           "url": "https://www.kozpontiszovetseg.at/bornemisza-peter-tarsasag",
@@ -1118,20 +1118,23 @@
       "activityCategories": [],
       "signals": [
         "oktatas",
-        "szinhaz",
         "media",
-        "irodalom",
-        "muveszet",
-        "csalad"
+        "irodalom"
       ],
-      "pagesChecked": 3,
+      "pagesChecked": 2,
       "checkedUrls": [
         "https://culture.hu/hu/wien",
-        "https://culture.hu/hu/wien/esemenyek",
         "https://culture.hu/de/wien/jubilaum"
       ],
-      "errors": [],
-      "flags": []
+      "errors": [
+        {
+          "url": "https://culture.hu/hu/wien/esemenyek",
+          "error": "The read operation timed out"
+        }
+      ],
+      "flags": [
+        "weak-source-signal:muveszet"
+      ]
     },
     {
       "id": "collegium-pazmanianum",
@@ -1693,7 +1696,11 @@
       "activityCategories": [],
       "signals": [
         "oktatas",
-        "szinhaz"
+        "szinhaz",
+        "media",
+        "diak",
+        "muveszet",
+        "csalad"
       ],
       "pagesChecked": 1,
       "checkedUrls": [
@@ -1720,9 +1727,9 @@
       ],
       "pagesChecked": 3,
       "checkedUrls": [
-        "https://www.gracimagyarujsag.at/",
+        "https://www.meoek.at/mediatar/",
         "https://www.meoek.at/",
-        "https://www.meoek.at/mediatar/"
+        "https://www.meoek.at/impresszum/"
       ],
       "errors": [],
       "flags": []
@@ -1896,11 +1903,13 @@
         "neptanc",
         "nepzene",
         "cserkesz",
+        "szinhaz",
         "media",
         "egyhaz",
         "diak",
         "irodalom",
         "muveszet",
+        "sport",
         "csalad"
       ],
       "pagesChecked": 3,
@@ -2038,9 +2047,15 @@
       "activityCategories": [],
       "signals": [
         "oktatas",
+        "neptanc",
+        "nepzene",
+        "cserkesz",
+        "szinhaz",
         "media",
         "egyhaz",
+        "diak",
         "irodalom",
+        "muveszet",
         "sport",
         "csalad"
       ],
@@ -2202,7 +2217,6 @@
         "oktatas",
         "szinhaz",
         "media",
-        "irodalom",
         "muveszet",
         "csalad"
       ],
@@ -2256,6 +2270,7 @@
         "nepzene",
         "szinhaz",
         "media",
+        "diak",
         "irodalom",
         "muveszet",
         "csalad"
@@ -2359,6 +2374,17 @@
       ],
       "activityCategories": [],
       "signals": [
+        "oktatas",
+        "neptanc",
+        "nepzene",
+        "cserkesz",
+        "szinhaz",
+        "media",
+        "egyhaz",
+        "diak",
+        "irodalom",
+        "muveszet",
+        "sport",
         "csalad"
       ],
       "pagesChecked": 2,
@@ -3269,6 +3295,36 @@
       "flags": []
     },
     {
+      "id": "radio-mora",
+      "name": "Radio MORA – Mehrsprachiges Offenes Radio",
+      "entityClass": "media",
+      "categories": [
+        "media"
+      ],
+      "activityCategories": [],
+      "signals": [
+        "oktatas",
+        "nepzene",
+        "enekkar",
+        "szinhaz",
+        "media",
+        "egyhaz",
+        "diak",
+        "irodalom",
+        "muveszet",
+        "sport",
+        "csalad"
+      ],
+      "pagesChecked": 3,
+      "checkedUrls": [
+        "https://www.radio-mora.at/",
+        "https://www.radio-mora.at/kontakt/",
+        "https://www.radio-mora.at/sendungen/memo/"
+      ],
+      "errors": [],
+      "flags": []
+    },
+    {
       "id": "radiohu",
       "name": "RádióHU – Ausztria magyar hangja",
       "entityClass": "media",
@@ -3361,6 +3417,7 @@
       ],
       "activityCategories": [],
       "signals": [
+        "enekkar",
         "egyhaz",
         "csalad"
       ],
@@ -3368,7 +3425,7 @@
       "checkedUrls": [
         "https://reformatus.at/",
         "https://www.reformatus.at/events/2026/",
-        "https://www.reformatus.at/"
+        "https://linz-hb.at/termine/"
       ],
       "errors": [],
       "flags": []
@@ -3839,8 +3896,10 @@
       "signals": [
         "oktatas",
         "media",
+        "egyhaz",
         "diak",
         "irodalom",
+        "muveszet",
         "csalad"
       ],
       "pagesChecked": 3,
@@ -3998,6 +4057,16 @@
       "activityCategories": [],
       "signals": [
         "oktatas",
+        "neptanc",
+        "nepzene",
+        "cserkesz",
+        "szinhaz",
+        "media",
+        "egyhaz",
+        "diak",
+        "irodalom",
+        "muveszet",
+        "sport",
         "csalad"
       ],
       "pagesChecked": 3,
