@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-18",
+  "updated": "2026-10-19",
   "sourcePolicy": "Official organization sources preferred; umbrella directories and Austrian-Hungarian community media used as secondary verification. Missing social/event links remain null rather than guessed.",
   "states": [
     {
@@ -3480,7 +3480,8 @@
       "facebook": null,
       "instagram": null,
       "eventSources": [
-        "https://www.reformatus.at/events/2026/"
+        "https://www.reformatus.at/events/2026/",
+        "https://linz-hb.at/termine/"
       ],
       "memberships": [
         {
@@ -3577,6 +3578,13 @@
           "url": "https://www.reformatus.at/events/2026/",
           "kind": "official-calendar",
           "scope": "self",
+          "ingestEvents": true
+        },
+        {
+          "label": "Református templom Linz-Leonding – hivatalos helyi eseménynaptár",
+          "url": "https://linz-hb.at/termine/",
+          "kind": "host-calendar",
+          "scope": "host",
           "ingestEvents": true
         }
       ]
@@ -6586,7 +6594,7 @@
         "kultura"
       ],
       "intro": "A Gráci Magyar Újság a stájerországi magyar közösség magyar nyelvű sajtó- és tájékoztató felülete, amely a helyi szervezetek, kulturális programok, közösségi kezdeményezések és magyar vonatkozású események dokumentálását és nyilvánosságát szolgálja Grazban és Stájerországban.",
-      "website": "https://www.gracimagyarujsag.at/",
+      "website": "https://www.meoek.at/mediatar/",
       "facebook": null,
       "instagram": null,
       "eventSources": [],
@@ -7791,6 +7799,11 @@
           "label": "Központi Szövetség – Vorarlbergi tagegyesület és kapcsolatok",
           "url": "https://www.kozpontiszovetseg.at/tagszervezetek",
           "type": "institutional"
+        },
+        {
+          "label": "Rólunk.at – ausztriai magyar egyesületi jegyzék és elérhetőség",
+          "url": "https://rolunk.at/ausztriai-magyar-egyesuletek/",
+          "type": "community-media"
         }
       ],
       "memberships": [
@@ -7838,8 +7851,8 @@
         "magyar",
         "német"
       ],
-      "email": "office@vukk.at",
-      "profileVerifiedAt": "2026-09-28",
+      "email": "vorarlberg.ungverein@gmail.com",
+      "profileVerifiedAt": "2026-10-19",
       "entityClass": "organization",
       "calendarSources": [
         {
@@ -13587,7 +13600,7 @@
       "calendarSources": [
         {
           "label": "Stadtgemeinde Oberwart – rendezvénynaptár",
-          "url": "https://www.oberwart.gv.at/",
+          "url": "https://www.oberwart.gv.at/stadt/termine",
           "kind": "municipal-calendar",
           "scope": "host",
           "ingestEvents": false
@@ -14885,6 +14898,86 @@
           "url": "https://www.suedbahnhotel-semmering.at/de/fuehrungen",
           "kind": "host-calendar",
           "scope": "host",
+          "ingestEvents": false
+        }
+      ]
+    },
+    {
+      "id": "radio-mora",
+      "name": "Radio MORA – Mehrsprachiges Offenes Radio",
+      "state": "burgenland",
+      "city": "Oberpullendorf / Felsőpulya",
+      "type": "többnyelvű szabad rádió",
+      "intro": "A Radio MORA burgenlandi többnyelvű szabad rádió, amely német, magyar, burgenlandi horvát és burgenlandi romani nyelvű regionális műsorokkal szolgálja a tartomány népcsoportjait. A magyar nyelv rendszeresen megjelenik a német–magyar #MEMO reggeli magazinban és a Daráló című műsorban.",
+      "website": "https://www.radio-mora.at/",
+      "facebook": null,
+      "instagram": null,
+      "eventSources": [],
+      "categories": [
+        "media"
+      ],
+      "activities": [
+        "többnyelvű regionális rádióműsor",
+        "német–magyar reggeli magazin",
+        "magyar nyelvű kulturális és közéleti műsorok",
+        "regionális hírek és programajánlók"
+      ],
+      "targetGroups": [
+        "burgenlandi népcsoportok",
+        "burgenlandi és ausztriai magyar hallgatók",
+        "a pannon régió többnyelvű közönsége"
+      ],
+      "languages": [
+        "német",
+        "magyar",
+        "burgenlandi horvát",
+        "burgenlandi romani"
+      ],
+      "address": "Spitalstraße 1/5, 7350 Oberpullendorf, Ausztria",
+      "email": "office@radio-mora.at",
+      "phone": "+43 676 575 0013",
+      "profileVerifiedAt": "2026-10-19",
+      "entityClass": "media",
+      "affiliations": [
+        {
+          "organizationId": "haus-der-volksgruppen-oberwart",
+          "label": "A felsőőri Népcsoportok Házában működő egyik népcsoporti médiaszervezet",
+          "sourceUrl": "https://www.burgenland.at/news-detail/lh-doskozil-laedt-bevoelkerung-zur-eroeffnung-des-jahrhundertprojekts-haus-der-volksgruppen/"
+        }
+      ],
+      "evidenceSources": [
+        {
+          "label": "Radio MORA – hivatalos főoldal és stúdiócím",
+          "url": "https://www.radio-mora.at/",
+          "type": "official"
+        },
+        {
+          "label": "Radio MORA – kapcsolat és szolgáltatói adatok",
+          "url": "https://www.radio-mora.at/kontakt/",
+          "type": "official"
+        },
+        {
+          "label": "Radio MORA – #MEMO német–magyar reggeli magazin",
+          "url": "https://www.radio-mora.at/sendungen/memo/",
+          "type": "official"
+        },
+        {
+          "label": "Radio MORA – Daráló magyar műsor",
+          "url": "https://www.radio-mora.at/sendungen/daralo/",
+          "type": "official"
+        },
+        {
+          "label": "Land Burgenland – a Népcsoportok Házában működő szervezetek",
+          "url": "https://www.burgenland.at/news-detail/lh-doskozil-laedt-bevoelkerung-zur-eroeffnung-des-jahrhundertprojekts-haus-der-volksgruppen/",
+          "type": "government"
+        }
+      ],
+      "calendarSources": [
+        {
+          "label": "Radio MORA – hivatalos oldal; stabil saját eseményfeed nem igazolt",
+          "url": "https://www.radio-mora.at/",
+          "kind": "official-website",
+          "scope": "self",
           "ingestEvents": false
         }
       ]
