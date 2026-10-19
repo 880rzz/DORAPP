@@ -157,7 +157,7 @@
     if(count) count.textContent=`${total} közvetlen találat az aktuális szűrésben`;
     if(!root) return;
     const snippet = (value, fallback) => {
-      const plain=String(value||"").replace(/<[^>]*>/g," ").replace(/\\s+/g," ").trim();
+      const plain=String(value||"").replace(/<[^>]*>/g," ").replace(/\s+/g," ").trim();
       return esc(plain ? (plain.length>190 ? plain.slice(0,187).trimEnd()+"…" : plain) : fallback);
     };
     const card = (kind, id, title, location, description, date) => {
