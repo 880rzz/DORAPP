@@ -698,7 +698,7 @@
         "en": "Botswana",
         "officialEn": "Republic of Botswana"
       },
-      "researchStatus": "unresearched",
+      "researchStatus": "researching",
       "countryDataPath": "data/countries/bw/",
       "route": "countries/bw/",
       "counts": {
@@ -708,7 +708,9 @@
         "events": 0,
         "education": 0
       },
-      "iso3": "BWA"
+      "iso3": "BWA",
+      "lastResearchAttemptAt": "2026-10-19T08:03:57+00:00",
+      "discoveryCandidateCount": 53
     },
     {
       "iso2": "by",
@@ -3170,7 +3172,7 @@
         "organizations": 21,
         "activities": 0,
         "entities": 21,
-        "events": 10,
+        "events": 9,
         "education": 4
       },
       "iso3": "NLD",
@@ -4430,7 +4432,7 @@
         "organizations": 78,
         "activities": 0,
         "entities": 78,
-        "events": 25,
+        "events": 23,
         "education": 23
       },
       "iso3": "USA",

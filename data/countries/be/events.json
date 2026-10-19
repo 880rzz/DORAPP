@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-18T07:31:28.050310+00:00",
+  "updated": "2026-10-19T08:06:35.540564+00:00",
   "verificationStatus": "automated-source-refresh-with-manual-provenance",
   "programCategoryDefinitions": [
     {
@@ -45,27 +45,6 @@
   ],
   "events": [
     {
-      "id": "belgiumi-magyar-protestans-gyulekezet-online-istentisztelet-2026-10-18t17-00-00-02-00",
-      "name": "ONLINE Istentisztelet",
-      "organizer": "Belgiumi Magyar Protestáns Gyülekezet",
-      "city": "Brussels",
-      "venue": "https://us02web.zoom.us/j/87686039545",
-      "startDate": "2026-10-18T17:00:00+02:00",
-      "endDate": "2026-10-18T18:30:00+02:00",
-      "eventStatus": "https://schema.org/EventScheduled",
-      "attendanceMode": "https://schema.org/OnlineEventAttendanceMode",
-      "sourceUrl": "https://www.protestans.be/events-1/online-istentisztelet-2026-10-18-17-00",
-      "discoveredFrom": "https://www.protestans.be/",
-      "verifiedAt": "2026-10-18T07:31:19.963483+00:00",
-      "programCategories": [
-        "kozosseg"
-      ],
-      "country": "be",
-      "region": "Brussels-Capital",
-      "organizerId": "belgiumi-magyar-protestans-gyulekezet",
-      "sourceType": "automatic-structured-source"
-    },
-    {
       "id": "belgiumi-magyar-protestans-gyulekezet-istentisztelet-2026-10-25t17-00-00-01-00",
       "name": "Istentisztelet",
       "organizer": "Belgiumi Magyar Protestáns Gyülekezet",
@@ -77,7 +56,28 @@
       "attendanceMode": "https://schema.org/OfflineEventAttendanceMode",
       "sourceUrl": "https://www.protestans.be/events-1/istentisztelet-2026-10-25-17-00",
       "discoveredFrom": "https://www.protestans.be/",
-      "verifiedAt": "2026-10-18T07:31:21.587898+00:00",
+      "verifiedAt": "2026-10-19T08:06:16.456601+00:00",
+      "programCategories": [
+        "kozosseg"
+      ],
+      "country": "be",
+      "region": "Brussels-Capital",
+      "organizerId": "belgiumi-magyar-protestans-gyulekezet",
+      "sourceType": "automatic-structured-source"
+    },
+    {
+      "id": "belgiumi-magyar-protestans-gyulekezet-online-istentisztelet-2026-11-01t17-00-00-01-00",
+      "name": "ONLINE Istentisztelet",
+      "organizer": "Belgiumi Magyar Protestáns Gyülekezet",
+      "city": "Brussels",
+      "venue": "https://us02web.zoom.us/j/87686039545",
+      "startDate": "2026-11-01T17:00:00+01:00",
+      "endDate": "2026-11-01T18:30:00+01:00",
+      "eventStatus": "https://schema.org/EventScheduled",
+      "attendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+      "sourceUrl": "https://www.protestans.be/events-1/online-istentisztelet-2026-11-01-17-00",
+      "discoveredFrom": "https://www.protestans.be/",
+      "verifiedAt": "2026-10-19T08:06:23.029243+00:00",
       "programCategories": [
         "kozosseg"
       ],
