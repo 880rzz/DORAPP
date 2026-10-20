@@ -1,0 +1,932 @@
+{
+  "updated": "2026-10-20",
+  "researchStatus": "partial",
+  "sourcePolicy": "Az igazolt, elsődleges forrásból származó szervezetek és intézményi képviseletek kerülnek canonical listába. A bizonytalan Facebook-csoportok és történeti regionális nyomok a researchLeads mezőben maradnak, nem számítanak ellenőrzött szervezetnek.",
+  "states": [
+    {
+      "id": "andalucia",
+      "name": "Andalúzia",
+      "mapRegions": [
+        "Almería",
+        "Cádiz",
+        "Córdoba",
+        "Granada",
+        "Huelva",
+        "Jaén",
+        "Málaga",
+        "Sevilla"
+      ],
+      "mapLabel": "Sevilla"
+    },
+    {
+      "id": "aragon",
+      "name": "Aragónia",
+      "mapRegions": [
+        "Huesca",
+        "Teruel",
+        "Zaragoza"
+      ],
+      "mapLabel": "Zaragoza"
+    },
+    {
+      "id": "asturias",
+      "name": "Asztúria",
+      "mapRegions": [
+        "Asturias"
+      ],
+      "mapLabel": "Asturias"
+    },
+    {
+      "id": "baleares",
+      "name": "Baleár-szigetek",
+      "mapRegions": [
+        "Baleares"
+      ],
+      "mapLabel": "Baleares"
+    },
+    {
+      "id": "canarias",
+      "name": "Kanári-szigetek",
+      "mapRegions": [
+        "Las Palmas",
+        "Santa Cruz de Tenerife"
+      ],
+      "mapLabel": "Santa Cruz de Tenerife"
+    },
+    {
+      "id": "cantabria",
+      "name": "Kantábria",
+      "mapRegions": [
+        "Cantabria"
+      ],
+      "mapLabel": "Cantabria"
+    },
+    {
+      "id": "castilla-la-mancha",
+      "name": "Kasztília–La Mancha",
+      "mapRegions": [
+        "Albacete",
+        "Ciudad Real",
+        "Cuenca",
+        "Guadalajara",
+        "Toledo"
+      ],
+      "mapLabel": "Toledo"
+    },
+    {
+      "id": "castilla-y-leon",
+      "name": "Kasztília és León",
+      "mapRegions": [
+        "Ávila",
+        "Burgos",
+        "León",
+        "Palencia",
+        "Salamanca",
+        "Segovia",
+        "Soria",
+        "Valladolid",
+        "Zamora"
+      ],
+      "mapLabel": "Valladolid"
+    },
+    {
+      "id": "cataluna",
+      "name": "Katalónia",
+      "mapRegions": [
+        "Barcelona",
+        "Gerona",
+        "Lérida",
+        "Tarragona"
+      ],
+      "mapLabel": "Barcelona"
+    },
+    {
+      "id": "ceuta",
+      "name": "Ceuta",
+      "mapRegions": [
+        "Ceuta"
+      ],
+      "mapLabel": "Ceuta"
+    },
+    {
+      "id": "extremadura",
+      "name": "Extremadura",
+      "mapRegions": [
+        "Badajoz",
+        "Cáceres"
+      ],
+      "mapLabel": "Badajoz"
+    },
+    {
+      "id": "galicia",
+      "name": "Galícia",
+      "mapRegions": [
+        "La Coruña",
+        "Lugo",
+        "Orense",
+        "Pontevedra"
+      ],
+      "mapLabel": "La Coruña"
+    },
+    {
+      "id": "madrid",
+      "name": "Madrid",
+      "mapRegions": [
+        "Madrid"
+      ],
+      "mapLabel": "Madrid"
+    },
+    {
+      "id": "melilla",
+      "name": "Melilla",
+      "mapRegions": [
+        "Melilla"
+      ],
+      "mapLabel": "Melilla"
+    },
+    {
+      "id": "murcia",
+      "name": "Murcia",
+      "mapRegions": [
+        "Murcia"
+      ],
+      "mapLabel": "Murcia"
+    },
+    {
+      "id": "navarra",
+      "name": "Navarra",
+      "mapRegions": [
+        "Navarra"
+      ],
+      "mapLabel": "Navarra"
+    },
+    {
+      "id": "pais-vasco",
+      "name": "Baszkföld",
+      "mapRegions": [
+        "Álava",
+        "Bizkaia",
+        "Gipuzkoa"
+      ],
+      "mapLabel": "Bizkaia"
+    },
+    {
+      "id": "rioja",
+      "name": "La Rioja",
+      "mapRegions": [
+        "La Rioja"
+      ],
+      "mapLabel": "La Rioja"
+    },
+    {
+      "id": "valencia",
+      "name": "Valenciai Közösség",
+      "mapRegions": [
+        "Alicante",
+        "Castellón",
+        "Valencia"
+      ],
+      "mapLabel": "Valencia"
+    }
+  ],
+  "organizations": [
+    {
+      "id": "katalan-magyar-kulturalis-egyesulet",
+      "name": "Katalán–Magyar Kulturális Egyesület",
+      "alternateNames": [
+        "Associació Cultural Catalano-Hongaresa"
+      ],
+      "country": "es",
+      "region": "cataluna",
+      "city": "Barcelona",
+      "type": "magyar kulturális egyesület",
+      "entityClass": "organization",
+      "status": "verified-active",
+      "intro": "A Barcelonai Magyar Főkonzulátus tájékoztatása szerint az egyesület a főkonzulátussal együttműködve működtet hétvégi magyar iskolai foglalkozásokat Barcelonában.",
+      "summary": "Barcelonai magyar kulturális közösség; a főkonzulátussal együttműködésben hétvégi magyar oktatási programot támogat.",
+      "website": null,
+      "facebook": null,
+      "instagram": null,
+      "email": null,
+      "phone": null,
+      "activities": [
+        "magyar kulturális közösség",
+        "hétvégi magyar oktatás"
+      ],
+      "educationIds": [
+        "barcelonai-hetvegi-magyar-iskola",
+        "kacifant-kisgyermekprogram"
+      ],
+      "eventSources": [],
+      "calendarSources": [],
+      "evidenceSources": [
+        {
+          "label": "Magyarország Barcelonai Főkonzulátusa – Barcelonai magyar iskola",
+          "url": "https://barcelona.mfa.gov.hu/hu/articles/barcelonai-magyar-iskola",
+          "type": "government"
+        },
+        {
+          "label": "Magyarország Barcelonai Főkonzulátusa – kapcsolat",
+          "url": "https://barcelona.mfa.gov.hu/es/contact",
+          "type": "government"
+        }
+      ],
+      "profileVerifiedAt": "2026-10-20",
+      "verificationStatus": "verified-active"
+    },
+    {
+      "id": "kultkapocs",
+      "name": "KultKapocs",
+      "alternateNames": [
+        "KultKapocs Nonprofit Egyesület"
+      ],
+      "country": "es",
+      "region": "cataluna",
+      "city": "Barcelona",
+      "type": "magyar kulturális közösség",
+      "entityClass": "organization",
+      "status": "verified-active",
+      "intro": "Barcelonában működő magyar kulturális kezdeményezés, amely saját bemutatkozása szerint kulturális eseményeket, művészeti programokat, workshopokat és találkozókat szervez, valamint más magyar kezdeményezéseket is megoszt.",
+      "summary": "Barcelonai magyar kulturális szervező és közösségi kapcsolódási pont; saját eseményarchívumot tart fenn.",
+      "website": "https://kultkapocs.org/",
+      "facebook": null,
+      "instagram": null,
+      "email": null,
+      "phone": null,
+      "activities": [
+        "kulturális események",
+        "workshopok",
+        "művészeti és nemzetközi együttműködések"
+      ],
+      "eventSources": [
+        "https://kultkapocs.org/esemenyek/"
+      ],
+      "calendarSources": [
+        {
+          "label": "KultKapocs – hivatalos eseményoldal",
+          "url": "https://kultkapocs.org/esemenyek/",
+          "kind": "official-calendar",
+          "scope": "self",
+          "ingestEvents": false,
+          "reason": "A lap ellenőrzött, de a jelenlegi archivált időpontok lejártak; a napi automatikus parser és eseményrelevancia még nincs igazolva."
+        }
+      ],
+      "evidenceSources": [
+        {
+          "label": "KultKapocs – Rólunk",
+          "url": "https://kultkapocs.org/rolunk/",
+          "type": "first-party-person"
+        },
+        {
+          "label": "KultKapocs – Események",
+          "url": "https://kultkapocs.org/esemenyek/",
+          "type": "first-party-person"
+        }
+      ],
+      "profileVerifiedAt": "2026-10-20",
+      "verificationStatus": "verified-active"
+    },
+    {
+      "id": "magyar-nagykovetseg-madrid",
+      "name": "Magyarország Nagykövetsége Madrid",
+      "country": "es",
+      "region": "madrid",
+      "city": "Madrid",
+      "type": "magyar nagykövetség",
+      "entityClass": "institution",
+      "status": "verified-active",
+      "verificationStatus": "verified-active",
+      "intro": "Hivatalos magyar külképviseleti intézmény Spanyolországban. A nyilvános szervezeti elérhetőségek a magyar külügyi szolgálat oldaláról származnak.",
+      "summary": "Hivatalos magyar külképviselet és konzuli tájékoztatási pont.",
+      "website": "https://madrid.mfa.gov.hu/es",
+      "facebook": null,
+      "instagram": null,
+      "email": "embajada.hungria@mfa.gov.hu",
+      "phone": null,
+      "address": null,
+      "consularDistrict": "Spanyolország (a barcelonai konzuli kerületen kívül)",
+      "activities": [
+        "külképviselet",
+        "konzuli tájékoztatás"
+      ],
+      "calendarSources": [],
+      "eventSources": [],
+      "evidenceSources": [
+        {
+          "label": "Magyarország Madridi Nagykövetsége – hivatalos weboldal",
+          "url": "https://madrid.mfa.gov.hu/es",
+          "type": "government"
+        },
+        {
+          "label": "Nagykövetségi személyzet és nyilvános titkársági kapcsolat",
+          "url": "https://madrid.mfa.gov.hu/es/personal-de-la-embajada-y-del-consulado-en-madrid",
+          "type": "government"
+        }
+      ],
+      "profileVerifiedAt": "2026-10-20"
+    },
+    {
+      "id": "magyar-fokonzulatus-barcelona",
+      "name": "Magyarország Főkonzulátusa Barcelona",
+      "country": "es",
+      "region": "cataluna",
+      "city": "Barcelona",
+      "type": "magyar főkonzulátus",
+      "entityClass": "institution",
+      "status": "verified-active",
+      "verificationStatus": "verified-active",
+      "intro": "Hivatalos magyar külképviseleti intézmény Spanyolországban. A nyilvános szervezeti elérhetőségek a magyar külügyi szolgálat oldaláról származnak.",
+      "summary": "Hivatalos magyar külképviselet és konzuli tájékoztatási pont.",
+      "website": "https://barcelona.mfa.gov.hu/es/contact",
+      "facebook": null,
+      "instagram": null,
+      "email": "consulate.bcn@mfa.gov.hu",
+      "phone": "+34 93 405 19 50",
+      "address": "Avinguda Diagonal 477, 8. emelet, 08036 Barcelona",
+      "consularDistrict": "Katalónia, Valenciai Közösség, Baleár-szigetek és Andorra",
+      "activities": [
+        "külképviselet",
+        "konzuli tájékoztatás"
+      ],
+      "calendarSources": [],
+      "eventSources": [],
+      "evidenceSources": [
+        {
+          "label": "Magyar Külügyminisztérium – hivatalos kapcsolati oldal",
+          "url": "https://barcelona.mfa.gov.hu/es/contact",
+          "type": "government"
+        }
+      ],
+      "profileVerifiedAt": "2026-10-20"
+    },
+    {
+      "id": "magyar-konzuli-iroda-malaga",
+      "name": "Magyarország Madridi Nagykövetségének Irodája Málaga",
+      "country": "es",
+      "region": "andalucia",
+      "city": "Málaga",
+      "type": "magyar konzuli iroda",
+      "entityClass": "institution",
+      "status": "verified-active",
+      "verificationStatus": "verified-active",
+      "intro": "Hivatalos magyar külképviseleti intézmény Spanyolországban. A nyilvános szervezeti elérhetőségek a magyar külügyi szolgálat oldaláról származnak.",
+      "summary": "Hivatalos magyar külképviselet és konzuli tájékoztatási pont.",
+      "website": "https://madrid.mfa.gov.hu/es/Oficina-de-la-Embajada-de-Hungria-en-Madrid-Malaga",
+      "facebook": null,
+      "instagram": null,
+      "email": "consulate.mal@mfa.gov.hu",
+      "phone": "+34 951 271 672",
+      "address": "Edificio Ochoa, C/Huéscar 2, 3ºG, 29007 Málaga",
+      "consularDistrict": "Andalúzia",
+      "activities": [
+        "külképviselet",
+        "konzuli tájékoztatás"
+      ],
+      "calendarSources": [],
+      "eventSources": [],
+      "evidenceSources": [
+        {
+          "label": "Magyar Külügyminisztérium – hivatalos kapcsolati oldal",
+          "url": "https://madrid.mfa.gov.hu/es/Oficina-de-la-Embajada-de-Hungria-en-Madrid-Malaga",
+          "type": "government"
+        }
+      ],
+      "profileVerifiedAt": "2026-10-20"
+    },
+    {
+      "id": "magyar-tiszteletbeli-konzulatus-tenerife",
+      "name": "Magyarország tiszteletbeli főkonzulátusa Tenerife",
+      "country": "es",
+      "region": "canarias",
+      "city": "San Isidro, Tenerife",
+      "type": "tiszteletbeli főkonzulátus",
+      "entityClass": "institution",
+      "status": "verified-active",
+      "verificationStatus": "verified-active",
+      "intro": "Hivatalos magyar külképviseleti intézmény Spanyolországban. A nyilvános szervezeti elérhetőségek a magyar külügyi szolgálat oldaláról származnak.",
+      "summary": "Hivatalos magyar külképviselet és konzuli tájékoztatási pont.",
+      "website": "https://madrid.mfa.gov.hu/es/Consules-Honorarios-de-Hungria-en-Espana",
+      "facebook": null,
+      "instagram": null,
+      "email": "hungriaconsulado@gmail.com",
+      "phone": "+34 639 209 197",
+      "address": "Calle Pedro García Cabrera 9, 38611 San Isidro, Tenerife",
+      "consularDistrict": "Kanári-szigetek",
+      "activities": [
+        "külképviselet",
+        "konzuli tájékoztatás"
+      ],
+      "calendarSources": [],
+      "eventSources": [],
+      "evidenceSources": [
+        {
+          "label": "Magyar Külügyminisztérium – hivatalos kapcsolati oldal",
+          "url": "https://madrid.mfa.gov.hu/es/Consules-Honorarios-de-Hungria-en-Espana",
+          "type": "government"
+        }
+      ],
+      "profileVerifiedAt": "2026-10-20"
+    },
+    {
+      "id": "magyar-tiszteletbeli-konzulatus-bilbao",
+      "name": "Magyarország tiszteletbeli konzulátusa Bilbao",
+      "country": "es",
+      "region": "pais-vasco",
+      "city": "Leioa, Bizkaia",
+      "type": "tiszteletbeli konzulátus",
+      "entityClass": "institution",
+      "status": "verified-active",
+      "verificationStatus": "verified-active",
+      "intro": "Hivatalos magyar külképviseleti intézmény Spanyolországban. A nyilvános szervezeti elérhetőségek a magyar külügyi szolgálat oldaláról származnak.",
+      "summary": "Hivatalos magyar külképviselet és konzuli tájékoztatási pont.",
+      "website": "https://madrid.mfa.gov.hu/es/Consules-Honorarios-de-Hungria-en-Espana",
+      "facebook": null,
+      "instagram": null,
+      "email": "chungriabilbao@yahoo.es",
+      "phone": "+34 94 652 28 59",
+      "address": "C/ Iturriondo 18, PAE Ibarrabarri Edif. F Metro 1ºC, 48940 Leioa",
+      "consularDistrict": "Baszkföld, Navarra és La Rioja",
+      "activities": [
+        "külképviselet",
+        "konzuli tájékoztatás"
+      ],
+      "calendarSources": [],
+      "eventSources": [],
+      "evidenceSources": [
+        {
+          "label": "Magyar Külügyminisztérium – hivatalos kapcsolati oldal",
+          "url": "https://madrid.mfa.gov.hu/es/Consules-Honorarios-de-Hungria-en-Espana",
+          "type": "government"
+        }
+      ],
+      "profileVerifiedAt": "2026-10-20"
+    },
+    {
+      "id": "magyar-tiszteletbeli-konzulatus-palma",
+      "name": "Magyarország tiszteletbeli konzulátusa Palma de Mallorca",
+      "country": "es",
+      "region": "baleares",
+      "city": "Palma de Mallorca",
+      "type": "tiszteletbeli konzulátus",
+      "entityClass": "institution",
+      "status": "verified-active",
+      "verificationStatus": "verified-active",
+      "intro": "Hivatalos magyar külképviseleti intézmény Spanyolországban. A nyilvános szervezeti elérhetőségek a magyar külügyi szolgálat oldaláról származnak.",
+      "summary": "Hivatalos magyar külképviselet és konzuli tájékoztatási pont.",
+      "website": "https://madrid.mfa.gov.hu/es/Consules-Honorarios-de-Hungria-en-Espana",
+      "facebook": null,
+      "instagram": null,
+      "email": "hungriaib@gmail.com",
+      "phone": "+34 657 056 517",
+      "address": "Calle Can Puigdorfila 2, 2º-A, 07001 Palma de Mallorca",
+      "consularDistrict": "Baleár-szigetek",
+      "activities": [
+        "külképviselet",
+        "konzuli tájékoztatás"
+      ],
+      "calendarSources": [],
+      "eventSources": [],
+      "evidenceSources": [
+        {
+          "label": "Magyar Külügyminisztérium – hivatalos kapcsolati oldal",
+          "url": "https://madrid.mfa.gov.hu/es/Consules-Honorarios-de-Hungria-en-Espana",
+          "type": "government"
+        }
+      ],
+      "profileVerifiedAt": "2026-10-20"
+    },
+    {
+      "id": "magyar-konzuli-hivatal-madrid",
+      "name": "Magyarország Madridi Nagykövetségének Konzuli Hivatala",
+      "country": "es",
+      "region": "madrid",
+      "city": "Madrid",
+      "type": "magyar konzuli hivatal",
+      "entityClass": "institution",
+      "status": "verified-active",
+      "verificationStatus": "verified-active",
+      "intro": "A madridi nagykövetség hivatalos konzuli részlege, amely konzuli ügyintézést és tájékoztatást végez.",
+      "summary": "Hivatalos magyar konzuli hivatal Madridban.",
+      "website": "https://madrid.mfa.gov.hu/es/consulado-de-hungria-en-madrid",
+      "address": "Calle Ángel de Diego Roldán 21, 28016 Madrid",
+      "email": "consulate.mad@mfa.gov.hu",
+      "phone": "+34 91 413 9850",
+      "activities": [
+        "konzuli ügyintézés",
+        "állampolgári tájékoztatás"
+      ],
+      "eventSources": [],
+      "calendarSources": [],
+      "evidenceSources": [
+        {
+          "label": "Magyarország Madridi Nagykövetsége – Konzuli Hivatal elérhetőségei",
+          "url": "https://madrid.mfa.gov.hu/es/consulado-de-hungria-en-madrid",
+          "type": "government"
+        }
+      ],
+      "profileVerifiedAt": "2026-10-20"
+    },
+    {
+      "id": "escola-hongaresa-esgrima-barcelona",
+      "name": "Escola Hongaresa d'Esgrima de Barcelona",
+      "alternateNames": ["Escuela Húngara de Esgrima"],
+      "country": "es",
+      "region": "cataluna",
+      "city": "Barcelona",
+      "type": "magyar sport- és kulturális kezdeményezés",
+      "entityClass": "organization",
+      "status": "verified-active",
+      "verificationStatus": "verified-active",
+      "intro": "Barcelonában működő, magyar alapítású vívóiskola sport- és hagyományőrző vívási programokkal.",
+      "summary": "Magyar kötődésű barcelonai vívóiskola sport-, középkori és kenjutsu programokkal.",
+      "website": "https://barcelonaesgrima.blogspot.com/",
+      "facebook": null,
+      "instagram": null,
+      "email": null,
+      "phone": null,
+      "activities": ["sportoktatás", "vívás", "hagyományőrző programok"],
+      "eventSources": [],
+      "calendarSources": [],
+      "evidenceSources": [
+        {"label": "Escola Hongaresa d'Esgrima de Barcelona – hivatalos oldal", "url": "https://barcelonaesgrima.blogspot.com/", "type": "first-party"},
+        {"label": "Col·legi Oficial de Metges de Barcelona – partneri leírás", "url": "https://www.comb.cat/es/serveis/avantatges-descomptes/esports-i-benestar/escuela-hungara-de-esgrima", "type": "institutional"}
+      ],
+      "profileVerifiedAt": "2026-10-20"
+    },
+    {
+      "id": "costamost-hu",
+      "name": "Costa Most",
+      "alternateNames": ["Costamost.hu"],
+      "country": "es",
+      "region": "andalucia",
+      "city": "Costa del Sol",
+      "type": "magyar nyelvű regionális médium",
+      "entityClass": "media",
+      "status": "verified-active",
+      "verificationStatus": "verified-active",
+      "intro": "Magyar nyelvű Costa del Sol-i regionális híroldal és információs szolgáltatás a helyi magyar közösség számára.",
+      "summary": "Helyi magyar hírek, ügyintézési, lakhatási, közlekedési és programinformációk Andalúziában.",
+      "website": "https://costamost.hu/",
+      "facebook": null,
+      "instagram": null,
+      "email": null,
+      "phone": null,
+      "activities": ["helyi hírek", "közösségi információ", "programajánló", "szolgáltatási tájékoztatás"],
+      "eventSources": ["https://costamost.hu/"],
+      "calendarSources": [],
+      "evidenceSources": [
+        {"label": "Costa Most – hivatalos oldal", "url": "https://costamost.hu/", "type": "first-party"}
+      ],
+      "profileVerifiedAt": "2026-10-20"
+    },
+    {
+      "id": "boletin-hungaro-madach",
+      "name": "Boletín Húngaro",
+      "alternateNames": ["MADACH Egyesület hírlevele"],
+      "country": "es",
+      "region": "madrid",
+      "city": "Madrid / országos",
+      "type": "magyar nyelvű közösségi médium",
+      "entityClass": "media",
+      "status": "verified-active",
+      "verificationStatus": "verified-active",
+      "intro": "A MADACH Egyesület hivatalos, több alkalommal évente megjelenő közösségi hírlevele.",
+      "summary": "A madridi és spanyolországi magyar közösség programjait és kulturális kapcsolatait közvetítő hírlevél.",
+      "website": "https://www.madach.es/boletin/",
+      "facebook": null,
+      "instagram": null,
+      "email": null,
+      "phone": null,
+      "activities": ["közösségi hírek", "programajánló", "magyar–spanyol kulturális kapcsolatok"],
+      "eventSources": ["https://www.madach.es/boletin/"],
+      "calendarSources": [],
+      "evidenceSources": [
+        {"label": "MADACH Egyesület – Boletín Húngaro", "url": "https://www.madach.es/boletin/", "type": "first-party"}
+      ],
+      "profileVerifiedAt": "2026-10-20"
+    }
+  ],
+  "discoverySources": [
+    {
+      "label": "Magyarország Madridi Nagykövetsége – szerveződések és nyilvános Facebook-csoportok",
+      "url": "https://madrid.mfa.gov.hu/hu/magyarok-szervezodesei-spanyolorszagban-jelentkezes-az-adatbazisba",
+      "type": "government",
+      "checkedAt": "2026-10-20",
+      "scope": "Országos közösségi nyomok; a Facebook-csoportok aktivitása külön ellenőrzendő."
+    },
+    {
+      "label": "Magyarország Madridi Nagykövetsége – konzuli intézmények és tiszteletbeli konzulok",
+      "url": "https://madrid.mfa.gov.hu/es/Consules-Honorarios-de-Hungria-en-Espana",
+      "type": "government",
+      "checkedAt": "2026-10-20",
+      "scope": "Hivatalos külképviseleti lista; Valencia korábbi tiszteletbeli képviselete nem szerepel az aktív listán."
+    },
+    {
+      "label": "Kőrösi Csoma Sándor Program – Spanyolország partnerei és hírei",
+      "url": "https://www.korosiprogram.hu/index.php/taxonomy/term/3556",
+      "type": "institutional",
+      "checkedAt": "2026-10-20",
+      "scope": "Közösségi és oktatási nyomok, történeti bejegyzések; nem tekintjük automatikusan jelenlegi aktivitás bizonyítékának."
+    },
+    {
+      "label": "KultKapocs – hivatalos eseményoldal",
+      "url": "https://kultkapocs.org/esemenyek/",
+      "type": "first-party-person",
+      "checkedAt": "2026-10-20",
+      "scope": "Nyilvános eseményforrás; jelenleg nem engedélyezett automatikus import."
+    },
+    {
+      "label": "Kinti – nyilvános magyar közösségi címtár, kiegészítő leadforrás",
+      "url": "https://kinti.app/magyar/magyar-kozosseg/spanyolorszag",
+      "type": "secondary",
+      "checkedAt": "2026-10-20",
+      "scope": "Másodlagos keresési nyom; canonical rekordhoz önmagában nem elegendő."
+    },
+    {
+      "label": "Embajada de Hungría – relaciones culturales y científicas",
+      "url": "https://madrid.mfa.gov.hu/es/relaciones-culturales-y-cientificas",
+      "type": "government",
+      "checkedAt": "2026-10-20",
+      "scope": "CEU San Pablo madridi lektorátus, regionális kulturális programok és magyar kulturális jelenlét; korábbi programok önmagukban nem igazolnak jövőbeli eseményt."
+    },
+    {
+      "label": "Embajada de Hungría – hírek és közösségi eseménybeszámolók",
+      "url": "https://madrid.mfa.gov.hu/es/articles",
+      "type": "government",
+      "checkedAt": "2026-10-20",
+      "scope": "Magyar közösségi és kulturális hírek; eseményt csak konkrét jövőbeli dátummal importálunk."
+    },
+    {
+      "label": "Magyarország Főkonzulátusa Barcelona – hírek és oktatási tájékoztatás",
+      "url": "https://barcelona.mfa.gov.hu/hu/articles",
+      "type": "government",
+      "checkedAt": "2026-10-20",
+      "scope": "Barcelonai oktatás és kulturális események elsődleges forrásai."
+    },
+    {
+      "label": "Universitat de Barcelona – hivatalos magyar nyelvi kurzuskatalógus",
+      "url": "https://web.ub.edu/ca/web/estudis/w/masterpropi-202511953",
+      "type": "institutional",
+      "checkedAt": "2026-10-20",
+      "scope": "2026/27-es aktuális magyar nyelvi kurzus."
+    },
+    {
+      "label": "Hola Spanyolország – magyar nyelvű spanyolországi közösségi és szolgáltatási oldal",
+      "url": "https://holaspanyolorszag.hu/magyarok-spanyolorszagban/",
+      "type": "media-directory",
+      "checkedAt": "2026-10-20",
+      "scope": "Másodlagos közösségi és szolgáltatási forrás; a felsorolt szervezeteket külön elsődleges forrással kell igazolni."
+    },
+    {
+      "label": "Külhoni Magyarok – spanyolországi magyarok archívum",
+      "url": "https://www.kulhonimagyarok.hu/tag/spanyolorszagi-magyarok/",
+      "type": "media",
+      "checkedAt": "2026-10-20",
+      "scope": "Magyar közösségi és külhoni szervezeti hírek; történeti sajtóforrásként használjuk."
+    },
+    {
+      "label": "Euronews magyar – 1956/70 háttér és évfordulós programok",
+      "url": "https://hu.euronews.com/2026/10/15/3-napon-at-29-filmmel-hangolodhatunk-az-56-os-forradalom-70-evfordulojara",
+      "type": "media",
+      "checkedAt": "2026-10-20",
+      "scope": "Országos évfordulós programforrás; spanyolországi eseményként nem importáljuk automatikusan."
+    },
+    {
+      "label": "Magyarforradalom1956.hu – madridi emlékmű és történeti programok",
+      "url": "https://magyarforradalom1956.hu/v/56-os-emlekmuvet-avattak-madridban-/",
+      "type": "historical-media",
+      "checkedAt": "2026-10-20",
+      "scope": "Történeti spanyolországi 1956-emlékezet; nem bizonyít 2026-os aktív szervezeti vagy eseménytevékenységet."
+    }
+  ],
+  "researchLeads": [
+    {
+      "name": "Hungarito – Spanyolországban élő magyarok Facebook-csoport",
+      "region": "national",
+      "city": "országos",
+      "type": "facebook-community",
+      "status": "needs-review",
+      "reason": "A madridi nagykövetség nyilvánosan hivatkozik a csoportra; friss aktivitás és moderáció nem volt ellenőrizhető.",
+      "sourceUrl": "https://madrid.mfa.gov.hu/hu/magyarok-szervezodesei-spanyolorszagban-jelentkezes-az-adatbazisba",
+      "url": "https://www.facebook.com/groups/hungarito/"
+    },
+    {
+      "name": "Madridi Magyar Családosok Klubja Facebook-csoport",
+      "region": "madrid",
+      "city": "Madrid",
+      "type": "facebook-community",
+      "status": "needs-review",
+      "reason": "A madridi nagykövetség listázza; aktuális aktivitás és a kapcsolattartás nyilvánossága további ellenőrzést igényel.",
+      "sourceUrl": "https://madrid.mfa.gov.hu/hu/magyarok-szervezodesei-spanyolorszagban-jelentkezes-az-adatbazisba",
+      "url": "https://www.facebook.com/groups/MadridiMagyarCsaladosokKlubja/"
+    },
+    {
+      "name": "MADACH Magyar Kulturális Egyesület",
+      "region": "madrid",
+      "city": "Madrid",
+      "type": "community-organization",
+      "status": "needs-review",
+      "reason": "A hivatalos madach.es domain jelenleg 503 hibát adott; a Kőrösi partnerprofil és a nagykövetségi oldal az egyesületet leírja, de az aktuális programcsatorna megerősítendő.",
+      "sourceUrl": "https://www.korosiprogram.hu/partnereink/madach-magyar-kulturalis-egyesulet-asociacion-de-amigos-de-la-cultura-hungara-madach",
+      "url": "https://www.korosiprogram.hu/partnereink/madach-magyar-kulturalis-egyesulet-asociacion-de-amigos-de-la-cultura-hungara-madach"
+    },
+    {
+      "name": "Costa del Sol magyar közösségi találkozópontjai",
+      "region": "andalucia",
+      "city": "Málaga / Costa del Sol",
+      "type": "regional-community-lead",
+      "status": "needs-review",
+      "reason": "2022-es közösségi találkozóról szóló tudósítás Costa del Sol-i közösségi részvételt rögzít; önálló jelenlegi szervezet vagy rendszeres program nem igazolt.",
+      "sourceUrl": "https://korosiprogram.hu/hirek/hagyomanyteremtes-i-osszmagyar-talalkozo-madridban"
+    },
+    {
+      "name": "Costa Blanca magyar közössége",
+      "region": "valencia",
+      "city": "Alicante tartomány / Costa Blanca",
+      "type": "regional-community-lead",
+      "status": "needs-review",
+      "reason": "A 2022-es országos találkozó tudósítása közösségi bemutatkozást dokumentál, de jelenlegi egyesületi státusz nincs igazolva.",
+      "sourceUrl": "https://korosiprogram.hu/hirek/hagyomanyteremtes-i-osszmagyar-talalkozo-madridban"
+    },
+    {
+      "name": "Valencia magyar közösségi találkozó",
+      "region": "valencia",
+      "city": "Valencia",
+      "type": "regional-community-lead",
+      "status": "needs-review",
+      "reason": "A 2022-es országos találkozó tudósítása közösségi bemutatkozást dokumentál, önálló jelenlegi szervezetet nem azonosít.",
+      "sourceUrl": "https://korosiprogram.hu/hirek/hagyomanyteremtes-i-osszmagyar-talalkozo-madridban"
+    },
+    {
+      "name": "Zaragoza magyar közösség",
+      "region": "aragon",
+      "city": "Zaragoza",
+      "type": "regional-community-lead",
+      "status": "needs-review",
+      "reason": "A 2022-es országos találkozó tudósítása közösségi bemutatkozást dokumentál; további működési bizonyíték szükséges.",
+      "sourceUrl": "https://korosiprogram.hu/hirek/hagyomanyteremtes-i-osszmagyar-talalkozo-madridban"
+    },
+    {
+      "name": "Kasztília és León magyar közösségi lead",
+      "region": "castilla-y-leon",
+      "city": "régiós",
+      "type": "regional-community-lead",
+      "status": "needs-review",
+      "reason": "A 2022-es országos találkozó tudósítása közösségi bemutatkozást dokumentál; a település és jelenlegi aktivitás nincs megerősítve.",
+      "sourceUrl": "https://korosiprogram.hu/hirek/hagyomanyteremtes-i-osszmagyar-talalkozo-madridban"
+    },
+    {
+      "name": "Puli Egyesület a Kanári-szigeteken",
+      "region": "canarias",
+      "city": "Kanári-szigetek",
+      "type": "community-organization",
+      "status": "needs-review",
+      "reason": "A madridi nagykövetség 2019-es ünnepi beszédének szövege megnevezi, de 2026-os önálló működési és kapcsolati forrás még szükséges.",
+      "sourceUrl": "https://madrid.mfa.gov.hu/asset/view/86194/190312M%C3%A1rc15besz%C3%A9dGyE.pdf"
+    },
+    {
+      "name": "Mica-Mino Konduktív Oktatás Egyesület",
+      "region": "valencia",
+      "city": "Valencia",
+      "type": "education-and-community-lead",
+      "status": "needs-review",
+      "reason": "A külhoni magyar sajtó 2022-ben valenciai székhelyű kezdeményezésként említi; jelenlegi hivatalos webes és oktatási működés külön ellenőrzendő.",
+      "sourceUrl": "https://www.kulhonimagyarok.hu/kulhoni-magyarok-hirek/diaszpora/tobbet-es-elore-uzente-szili-katalin-miniszterelnoki-megbizott-koszontojeben-a-spanyolorszagi-magyaroknak-az-i-osszmagyar-talalkozo/"
+    },
+    {
+      "name": "MADACH Costa del Sol",
+      "region": "andalucia",
+      "city": "Costa del Sol",
+      "type": "community-organization",
+      "status": "needs-review",
+      "reason": "A Kőrösi program friss galériája helyi magyar standdal és MADACH Costa del Sol szervezettel azonosítja; önálló aktuális kapcsolati oldal még megerősítendő.",
+      "sourceUrl": "https://www.korosiprogram.hu/galeria/kepek/magyar-stand-costa-del-solon"
+    },
+    {
+      "name": "Hola Spanyolország közösségi média- és szolgáltatási gyűjtő",
+      "region": "national",
+      "city": "országos",
+      "type": "hungarian-media-directory",
+      "status": "needs-review",
+      "reason": "Magyar nyelvű spanyolországi közösségi és szolgáltatási oldal; szerkesztési és szervezeti státusz külön ellenőrzendő.",
+      "sourceUrl": "https://holaspanyolorszag.hu/magyarok-spanyolorszagban/"
+    }
+  ],
+  "researchCoverage": [
+    {
+      "region": "andalucia",
+      "name": "Andalúzia",
+      "status": "official-institution-and-community-lead",
+      "note": "Ellenőrzött intézmény vagy dokumentált keresési nyom; a regionális közösségi lefedettség ettől még nem teljes."
+    },
+    {
+      "region": "aragon",
+      "name": "Aragónia",
+      "status": "community-lead",
+      "note": "Ellenőrzött intézmény vagy dokumentált keresési nyom; a regionális közösségi lefedettség ettől még nem teljes."
+    },
+    {
+      "region": "asturias",
+      "name": "Asztúria",
+      "status": "no-verified-entity-found",
+      "note": "A rekord hiánya nem bizonyítja, hogy nincs magyar közösség; helyi szervezetek és közösségi csatornák további keresése szükséges."
+    },
+    {
+      "region": "baleares",
+      "name": "Baleár-szigetek",
+      "status": "official-institution",
+      "note": "Ellenőrzött intézmény vagy dokumentált keresési nyom; a regionális közösségi lefedettség ettől még nem teljes."
+    },
+    {
+      "region": "canarias",
+      "name": "Kanári-szigetek",
+      "status": "official-institution",
+      "note": "Ellenőrzött intézmény vagy dokumentált keresési nyom; a regionális közösségi lefedettség ettől még nem teljes."
+    },
+    {
+      "region": "cantabria",
+      "name": "Kantábria",
+      "status": "no-verified-entity-found",
+      "note": "A rekord hiánya nem bizonyítja, hogy nincs magyar közösség; helyi szervezetek és közösségi csatornák további keresése szükséges."
+    },
+    {
+      "region": "castilla-la-mancha",
+      "name": "Kasztília–La Mancha",
+      "status": "no-verified-entity-found",
+      "note": "A rekord hiánya nem bizonyítja, hogy nincs magyar közösség; helyi szervezetek és közösségi csatornák további keresése szükséges."
+    },
+    {
+      "region": "castilla-y-leon",
+      "name": "Kasztília és León",
+      "status": "community-lead",
+      "note": "Ellenőrzött intézmény vagy dokumentált keresési nyom; a regionális közösségi lefedettség ettől még nem teljes."
+    },
+    {
+      "region": "cataluna",
+      "name": "Katalónia",
+      "status": "verified-organizations-and-education",
+      "note": "Ellenőrzött intézmény vagy dokumentált keresési nyom; a regionális közösségi lefedettség ettől még nem teljes."
+    },
+    {
+      "region": "ceuta",
+      "name": "Ceuta",
+      "status": "no-verified-entity-found",
+      "note": "A rekord hiánya nem bizonyítja, hogy nincs magyar közösség; helyi szervezetek és közösségi csatornák további keresése szükséges."
+    },
+    {
+      "region": "extremadura",
+      "name": "Extremadura",
+      "status": "no-verified-entity-found",
+      "note": "A rekord hiánya nem bizonyítja, hogy nincs magyar közösség; helyi szervezetek és közösségi csatornák további keresése szükséges."
+    },
+    {
+      "region": "galicia",
+      "name": "Galícia",
+      "status": "no-verified-entity-found",
+      "note": "A rekord hiánya nem bizonyítja, hogy nincs magyar közösség; helyi szervezetek és közösségi csatornák további keresése szükséges."
+    },
+    {
+      "region": "madrid",
+      "name": "Madrid",
+      "status": "official-institution-and-community-lead",
+      "note": "Ellenőrzött intézmény vagy dokumentált keresési nyom; a regionális közösségi lefedettség ettől még nem teljes."
+    },
+    {
+      "region": "melilla",
+      "name": "Melilla",
+      "status": "no-verified-entity-found",
+      "note": "A rekord hiánya nem bizonyítja, hogy nincs magyar közösség; helyi szervezetek és közösségi csatornák további keresése szükséges."
+    },
+    {
+      "region": "murcia",
+      "name": "Murcia",
+      "status": "no-verified-entity-found",
+      "note": "A rekord hiánya nem bizonyítja, hogy nincs magyar közösség; helyi szervezetek és közösségi csatornák további keresése szükséges."
+    },
+    {
+      "region": "navarra",
+      "name": "Navarra",
+      "status": "official-consular-district",
+      "note": "Ellenőrzött intézmény vagy dokumentált keresési nyom; a regionális közösségi lefedettség ettől még nem teljes."
+    },
+    {
+      "region": "pais-vasco",
+      "name": "Baszkföld",
+      "status": "official-institution",
+      "note": "Ellenőrzött intézmény vagy dokumentált keresési nyom; a regionális közösségi lefedettség ettől még nem teljes."
+    },
+    {
+      "region": "rioja",
+      "name": "La Rioja",
+      "status": "official-consular-district",
+      "note": "Ellenőrzött intézmény vagy dokumentált keresési nyom; a regionális közösségi lefedettség ettől még nem teljes."
+    },
+    {
+      "region": "valencia",
+      "name": "Valenciai Közösség",
+      "status": "community-leads-and-consular-district",
+      "note": "Ellenőrzött intézmény vagy dokumentált keresési nyom; a regionális közösségi lefedettség ettől még nem teljes."
+    }
+  ],
+  "researchMethodology": "2026-10-20: magyar, spanyol, katalán és angol keresések; kiemelten a magyar külképviseletek, egyetemek, elsődleges szervezeti oldalak és a Kőrösi Csoma Sándor Program forrásai. A regionális célkeresések nem találtak minden közösséget lefedő központi jegyzéket. Személyes magánelérhetőségeket nem gyűjtöttünk; csak nyilvános szervezeti/konzuli kapcsolatokat tartunk nyilván. A regionális rekordhiány nem bizonyítja a közösség hiányát."
+}
