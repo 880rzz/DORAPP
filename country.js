@@ -54,7 +54,7 @@
   function buildOptions(){
     const regionSel=$("#countryRegion"), citySel=$("#countryCity"), orgSel=$("#countryOrganization"), actSel=$("#countryActivity"), progSel=$("#countryProgram");
     const currentRegion=regionSel?.value||"";
-    const regions=uniq([...orgs.map(regionOf),...education.map(regionOf),...events.map(regionOf)].filter(x=>x&&x!=="Régió nélkül"));
+    const regions=uniq([...Object.keys(regionNames),...orgs.map(regionOf),...education.map(regionOf),...events.map(regionOf)].filter(x=>x&&x!=="Régió nélkül"));
     if(regionSel) regionSel.innerHTML='<option value="">Minden tartomány / régió</option>'+regions.map(x=>`<option value="${esc(x)}">${esc(regionLabel(x))}</option>`).join("");
     if(regionSel && regions.includes(currentRegion)) regionSel.value=currentRegion;
 
@@ -323,7 +323,11 @@
       doc.documentElement.dataset.dorappCountryMapBound="true";
       bindCountryMapController(obj,doc);
       const buttons=$$(".country-region-button");
-      const byMapName=new Map(buttons.map(b=>[norm(b.dataset.mapRegion||b.querySelector("span")?.textContent||""),b]));
+      const byMapName=new Map();
+      for(const b of buttons){
+        const mapNames=(b.dataset.mapRegions||b.dataset.mapRegion||b.querySelector("span")?.textContent||"").split("|");
+        for(const mapName of mapNames) byMapName.set(norm(mapName),b);
+      }
       const ns="http://www.w3.org/2000/svg";
       doc.querySelectorAll("[data-region]").forEach(path=>{
         const mapName=path.getAttribute("data-region")||"";
@@ -360,6 +364,7 @@
             t.setAttribute("paint-order","stroke");
             t.setAttribute("pointer-events","none");
             t.setAttribute("aria-hidden","true");
+            if(button.dataset.mapLabel && norm(button.dataset.mapLabel)!==norm(mapName)) return;
             t.textContent=String(count);
             path.parentNode.appendChild(t);
           }

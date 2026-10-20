@@ -9,6 +9,7 @@ const eventRoute=eventPages.length ? "/esemenyek/"+encodeURIComponent(eventPages
 const routes=[
   "/index.html",
   "/countries/at/",
+  "/countries/es/",
   "/szervezetek/becsi-magyar-iskola.html",
   "/oktatas/abis-linz-hungarian.html",
   ...(eventRoute ? [eventRoute] : []),
@@ -20,7 +21,7 @@ const routes=[
   "/countries/at/education/abis-linz-hungarian.html"
 ];
 const screenshotWidths=new Set([320,390,768,1440,2560,3840]);
-const screenshotRoutes=new Set(["/index.html","/countries/at/","/szervezetek/becsi-magyar-iskola.html","/forrasok.html","/adatminoseg.html"]);
+const screenshotRoutes=new Set(["/index.html","/countries/at/","/countries/es/","/szervezetek/becsi-magyar-iskola.html","/forrasok.html","/adatminoseg.html"]);
 const report={generatedAt:new Date().toISOString(),widths,routes,pages:[],interactions:{},failures:[]};
 await fs.mkdir("artifacts/ui-screenshots",{recursive:true});
 
@@ -108,6 +109,19 @@ await country.locator("[data-country-map-zoom-in]").click();
 await country.waitForFunction(()=>document.querySelector(".country-map-viewport")?.classList.contains("is-zoomed"));
 report.interactions.countryMapZoom=await country.locator(".country-map-viewport").evaluate(element=>element.classList.contains("is-zoomed"));
 await country.close();
+
+const spain=await context.newPage();
+await spain.setViewportSize({width:390,height:844});
+await spain.goto(base+"/countries/es/",{waitUntil:"networkidle"});
+await spain.waitForFunction(()=>document.querySelectorAll("#countryRegion option").length>=20);
+await spain.locator("#countryRegion").selectOption("madrid");
+await spain.waitForFunction(()=>document.querySelectorAll("#countryOrgGrid article").length===2&&document.querySelectorAll("#countryEducationGrid article").length===1);
+report.interactions.spainRegionFilter=await spain.locator("#countryOrgGrid article").count()===2&&await spain.locator("#countryEducationGrid article").count()===1;
+await spain.locator("#countryReset").click();
+await spain.locator("#countryQuery").fill("KultKapocs");
+await spain.waitForSelector('#countryDirectoryResults a[href="organizations/kultkapocs.html"]');
+report.interactions.spainOrganizationSearch=await spain.locator('#countryDirectoryResults a[href="organizations/kultkapocs.html"]').count()===1;
+await spain.close();
 
 // Verify that transient API failures are not represented as genuine empty results.
 const failurePage=await context.newPage();

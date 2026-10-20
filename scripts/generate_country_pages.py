@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 import json, html, unicodedata
+from datetime import datetime
 from pathlib import Path
 import pycountry
 
@@ -7,6 +8,7 @@ ROOT = Path(__file__).resolve().parents[1]
 DATA = ROOT / "data"
 BASE = "https://www.diaszporaterkep.hu"
 INDEXABLE = {"reviewed", "verified-zero"}
+COUNTRY_ASSET_VERSION = "20261020-event-card-2"
 
 def read(path, default):
     try:
@@ -48,7 +50,30 @@ def country_data(iso):
     divisions = org_data.get("states") or org_data.get("regions") or []
     if not divisions:
         try:
-            divisions = [{"id": s.name, "name": s.name, "code": s.code} for s in sorted(pycountry.subdivisions.get(country_code=iso.upper()), key=lambda x: x.name)]
+            if iso.lower()=="es":
+                divisions = [
+                    {"id":"andalucia","name":"Andalúzia","mapRegions":["Almería","Cádiz","Córdoba","Granada","Huelva","Jaén","Málaga","Sevilla"],"mapLabel":"Sevilla"},
+                    {"id":"aragon","name":"Aragónia","mapRegions":["Huesca","Teruel","Zaragoza"],"mapLabel":"Zaragoza"},
+                    {"id":"asturias","name":"Asztúria","mapRegions":["Asturias"],"mapLabel":"Asturias"},
+                    {"id":"baleares","name":"Baleár-szigetek","mapRegions":["Baleares"],"mapLabel":"Baleares"},
+                    {"id":"canarias","name":"Kanári-szigetek","mapRegions":["Las Palmas","Santa Cruz de Tenerife"],"mapLabel":"Santa Cruz de Tenerife"},
+                    {"id":"cantabria","name":"Kantábria","mapRegions":["Cantabria"],"mapLabel":"Cantabria"},
+                    {"id":"castilla-la-mancha","name":"Kasztília–La Mancha","mapRegions":["Albacete","Ciudad Real","Cuenca","Guadalajara","Toledo"],"mapLabel":"Toledo"},
+                    {"id":"castilla-y-leon","name":"Kasztília és León","mapRegions":["Ávila","Burgos","León","Palencia","Salamanca","Segovia","Soria","Valladolid","Zamora"],"mapLabel":"Valladolid"},
+                    {"id":"cataluna","name":"Katalónia","mapRegions":["Barcelona","Gerona","Lérida","Tarragona"],"mapLabel":"Barcelona"},
+                    {"id":"ceuta","name":"Ceuta","mapRegions":["Ceuta"],"mapLabel":"Ceuta"},
+                    {"id":"extremadura","name":"Extremadura","mapRegions":["Badajoz","Cáceres"],"mapLabel":"Badajoz"},
+                    {"id":"galicia","name":"Galícia","mapRegions":["La Coruña","Lugo","Orense","Pontevedra"],"mapLabel":"La Coruña"},
+                    {"id":"madrid","name":"Madrid","mapRegions":["Madrid"],"mapLabel":"Madrid"},
+                    {"id":"melilla","name":"Melilla","mapRegions":["Melilla"],"mapLabel":"Melilla"},
+                    {"id":"murcia","name":"Murcia","mapRegions":["Murcia"],"mapLabel":"Murcia"},
+                    {"id":"navarra","name":"Navarra","mapRegions":["Navarra"],"mapLabel":"Navarra"},
+                    {"id":"pais-vasco","name":"Baszkföld","mapRegions":["Álava","Bizkaia","Gipuzkoa"],"mapLabel":"Bizkaia"},
+                    {"id":"rioja","name":"La Rioja","mapRegions":["La Rioja"],"mapLabel":"La Rioja"},
+                    {"id":"valencia","name":"Valenciai Közösség","mapRegions":["Alicante","Castellón","Valencia"],"mapLabel":"Valencia"},
+                ]
+            else:
+                divisions = [{"id": s.name, "name": s.name, "code": s.code} for s in sorted(pycountry.subdivisions.get(country_code=iso.upper()), key=lambda x: x.name)]
         except Exception:
             divisions = []
     names = {str(x.get("id")): str(x.get("name") or x.get("label") or x.get("id")) for x in divisions if x.get("id")}
@@ -78,7 +103,7 @@ def region_inventory(divisions, orgs, edus, events, names):
         if key and key not in seen:
             label=str(d.get("name") or d.get("label") or key)
             map_name=str(d.get("mapName") or d.get("de") or d.get("en") or label)
-            ordered.append((key, label, map_name))
+            ordered.append((key, label, map_name, d.get("mapRegions") or [map_name], d.get("mapLabel") or map_name))
             seen.add(key)
     discovered=set()
     for x in [*orgs,*edus,*events]:
@@ -87,7 +112,7 @@ def region_inventory(divisions, orgs, edus, events, names):
             discovered.add(key)
     for key in sorted(discovered, key=lambda x: region_label(x,names).casefold()):
         label=region_label(key,names)
-        ordered.append((key,label,label))
+        ordered.append((key,label,label,[label],label))
         seen.add(key)
     return ordered
 
@@ -95,8 +120,8 @@ def map_html(iso, regions, counts):
     if not regions:
         return '<div class="country-map-shell"><div class="country-map-board"><div class="empty">Ehhez az országhoz / területhez nincs külön első szintű közigazgatási felosztás rögzítve.</div></div><div class="country-map-legend"><span>Önálló admin-1 egység nélkül.</span></div></div>'
     buttons="".join(
-        f'<button class="country-region-button" type="button" data-region="{esc(key)}" data-map-region="{esc(map_name)}"><span>{esc(label)}</span><b class="map-count">{counts.get(key,0)}</b></button>'
-        for key,label,map_name in regions
+        f'<button class="country-region-button" type="button" data-region="{esc(key)}" data-map-region="{esc(map_name)}" data-map-regions="{esc("|".join(map_regions))}" data-map-label="{esc(map_label)}"><span>{esc(label)}</span><b class="map-count">{counts.get(key,0)}</b></button>'
+        for key,label,map_name,map_regions,map_label in regions
     )
     svg=ROOT/"assets"/"maps"/f"{iso}.svg"
     actual=(f'<div class="country-map-interactive"><div class="country-map-toolbar" aria-label="Térkép nagyítása"><button type="button" data-country-map-zoom-out aria-label="Kicsinyítés">−</button><button type="button" data-country-map-zoom-in aria-label="Nagyítás">+</button><button type="button" data-country-map-reset aria-label="Térkép alaphelyzet">↺</button><span data-country-map-status aria-live="polite">100%</span></div><div class="country-map-viewport"><object id="countrySubdivisionMap" class="country-subdivision-map" data="../../assets/maps/{esc(iso)}.svg" type="image/svg+xml" aria-label="{esc(iso.upper())} tartományi térképe"></object></div></div>' if svg.exists() else '')
@@ -106,6 +131,34 @@ def map_html(iso, regions, counts):
         f'<div class="country-map-board country-map-{esc(iso)}" aria-label="Tartományok / első szintű közigazgatási egységek">{buttons}</div>'
         '<div class="country-map-legend"><span><i></i> A szám az ellenőrzött civil és hivatalos magyar szervezetek együttes darabszáma.</span><span>Határgeometria: Natural Earth Admin 1.</span></div>'
         '</div>'
+    )
+
+def country_research_html(org_data):
+    leads=org_data.get("researchLeads") or []
+    sources=org_data.get("discoverySources") or []
+    coverage=org_data.get("researchCoverage") or []
+    if not (leads or sources or coverage or org_data.get("researchMethodology")):
+        return ""
+    lead_html="".join(
+        f'<article class="card research-lead"><div class="meta">{esc(x.get("city") or x.get("region") or "országos")} · További ellenőrzés szükséges</div><h3>{esc(x.get("name"))}</h3><p>{esc(x.get("reason"))}</p><div class="links">{(f"<a href=\"{esc(x.get('url'))}\" target=\"_blank\" rel=\"noopener external\">Közösségi hivatkozás ↗</a>" if x.get("url") else "")}<a href="{esc(x.get("sourceUrl"))}" target="_blank" rel="noopener external">Ellenőrzési forrás ↗</a></div></article>'
+        for x in leads
+    )
+    source_html="".join(
+        f'<li><a href="{esc(x.get("url"))}" target="_blank" rel="noopener external">{esc(x.get("label") or x.get("url"))} ↗</a>{(f" — {esc(x.get('scope'))}" if x.get("scope") else "")}</li>'
+        for x in sources if x.get("url")
+    )
+    coverage_html="".join(
+        f'<li><strong>{esc(x.get("name") or x.get("region"))}:</strong> {esc(x.get("status"))}</li>'
+        for x in coverage
+    )
+    return (
+        '<section id="forrasok" class="section"><div class="wrap">'
+        '<div class="section-head"><div><div class="eyebrow">Átláthatóság</div><h2>Források és kutatási állapot</h2>'
+        f'<p>{esc(org_data.get("researchMethodology") or "Forrásjegyzék és az ellenőrzés állapota.")}</p></div></div>'
+        '<div class="trust-grid"><div><h3>Területi lefedettség</h3><ul class="source-list">'+coverage_html+'</ul></div>'
+        '<div><h3>Kutatási források</h3><ul class="source-list">'+source_html+'</ul></div></div>'
+        +('<h3 class="research-leads-title">Ellenőrzésre váró közösségi nyomok</h3><div class="cards research-leads">'+lead_html+'</div>' if lead_html else '')
+        +'</div></section>'
     )
 
 def org_cards(orgs, names):
@@ -154,18 +207,28 @@ def event_cards(events, names):
             labels=[str(value).replace("_"," ").replace("-"," ") for value in categories]
         category=" · ".join(labels) or "Magyar közösségi program"
         start=e.get("startDate") or e.get("date")
-        date_text=f'<time class="event-card-date" datetime="{esc(start)}">{esc(start)}</time>' if start else ""
+        display_date=str(start or "")
+        if start:
+            try:
+                parsed=datetime.fromisoformat(str(start).replace("Z","+00:00"))
+                display_date=f"{parsed.year}. {parsed.month:02d}. {parsed.day:02d}." + (f" {parsed.hour:02d}:{parsed.minute:02d}" if "T" in str(start) else "")
+            except (TypeError,ValueError):
+                pass
+        date_text=f'<time class="event-card-date" datetime="{esc(start)}">{esc(display_date)}</time>' if start else ""
         location=" · ".join(str(value) for value in (e.get("venue"),e.get("city")) if value)
         organizer=e.get("organizer")
         description=e.get("description") or e.get("summary")
         description_html=f'<p class="event-card-description">{esc(description)}</p>' if description else ""
-        meta=" · ".join(value for value in (location,organizer) if value)
+        meta_parts=[]
+        if location: meta_parts.append(f'<span><strong>Helyszín:</strong> {esc(location)}</span>')
+        if organizer: meta_parts.append(f'<span><strong>Szervező:</strong> {esc(organizer)}</span>')
+        meta=f'<p class="event-card-meta">{"".join(meta_parts)}</p>' if meta_parts else ""
         source=e.get("sourceUrl")
         source_link=(f'<a class="event-card-source" href="{esc(source)}" target="_blank" rel="noopener external" aria-label="Eredeti forrás: {esc(title)}">Eredeti forrás ↗</a>' if source else "")
         return (f'<article class="event event-directory-card" data-region="{esc(region_key(e))}">'
                 f'<a class="event-card-main" href="{detail}" aria-label="{esc(title)} – program adatlap">'
                 f'<span class="event-card-category">{esc(category)}</span><h3>{esc(title)}</h3>{date_text}'
-                f'<p class="event-card-meta">{esc(meta)}</p>{description_html}'
+                f'{meta}{description_html}'
                 '<span class="event-card-action">Program adatlap →</span></a>'
                 f'{source_link}</article>')
     return '<div id="countryEventGrid" class="event-grid">'+"".join(
@@ -214,7 +277,8 @@ for country in registry.get("countries",[]):
             f'<section id="terkep" class="section"><div class="wrap"><div class="section-head"><div><div class="eyebrow">Területi térkép</div><h2>Hol keresel?</h2><p>Válassz tartományt / első szintű régiót. A szám mutatja, hány ellenőrzött magyar szervezetet tartunk nyilván ott.</p></div><button id="countryAllRegions" class="text-btn" type="button">Egész ország</button></div>{map_html(iso,regions,region_counts)}<div id="countryMapSummary" class="state-summary" aria-live="polite"></div></div></section>'+
             f'<section id="kozossegek" class="section muted"><div class="wrap"><div class="section-head"><div><div class="eyebrow">Közösségek</div><h2>Szervezetek és közösségek</h2><p>Ellenőrzött bemutatkozások, közvetlen szervezeti adatlapok és hivatalos elérhetőségek.</p></div></div><div id="countryOrgCount" class="result-count"></div>{org_cards(orgs,division_names)}</div></section>'+ 
             f'<section id="oktatas" class="section"><div class="wrap"><div class="section-head"><div><div class="eyebrow">Magyar oktatás</div><h2>Oktatási lehetőségek</h2><p>Magyar iskolák, óvodák, hétvégi és online oktatási lehetőségek ellenőrzött forrásokból.</p></div></div><div id="countryEducationCount" class="result-count"></div>{edu_cards(edus,division_names)}</div></section>'+ 
-            f'<section id="programok" class="section muted"><div class="wrap"><div class="section-head"><div><div class="eyebrow">Programnaptár</div><h2>Közelgő programok</h2><p>Az ország szervezeti és intézményi programforrásaiból naponta frissítve.</p></div></div><div id="countryEventCount" class="result-count"></div>{event_cards(events,division_names)}</div></section>'
+            f'<section id="programok" class="section muted"><div class="wrap"><div class="section-head"><div><div class="eyebrow">Programnaptár</div><h2>Közelgő programok</h2><p>Csak ellenőrzött dátummal, magyar vonatkozással és forráshivatkozással rendelkező program jelenik meg.</p></div></div><div id="countryEventCount" class="result-count"></div>{event_cards(events,division_names)}</div></section>'+
+            country_research_html(org_doc)
         )
     else:
         body_sections=(
@@ -230,8 +294,8 @@ for country in registry.get("countries",[]):
     nav_links='<a href="../../">Világ</a><a href="#terkep">Térkép</a><a href="#kereso">Kereső</a><a href="#kozossegek">Szervezetek</a><a href="#programok">Programok</a>'
     item_urls=[f"{canonical}organizations/{o.get('id')}.html" for o in orgs if o.get("id") and o.get("entityClass")!="activity"]
     schema={"@context":"https://schema.org","@type":"CollectionPage","@id":canonical+"#page","name":title,"description":description,"url":canonical,"inLanguage":"hu","dateModified":modified,"isPartOf":{"@id":BASE+"/#website"},"publisher":{"@type":"Organization","@id":BASE+"/#organization","name":"Központi Szövetség","url":"https://www.kozpontiszovetseg.at/"},"about":{"@type":"Country","name":names.get("en") or name},"mainEntity":{"@type":"ItemList","numberOfItems":len(item_urls),"itemListElement":[{"@type":"ListItem","position":i+1,"url":u} for i,u in enumerate(item_urls)]}}
-    country_css_version="20261020-event-card-1" if iso=="at" else "20261019-country-card-1"
-    doc=f'''<!doctype html><html lang="hu"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><link rel="icon" href="../../favicon.svg" type="image/svg+xml"><title>{esc(title)}</title><meta name="description" content="{esc(description)}"><meta name="author" content="Központi Szövetség"><meta name="robots" content="{robots}"><link rel="canonical" href="{canonical}"><link rel="alternate" type="text/plain" href="../../llms.txt" title="LLM információ"><meta property="og:type" content="website"><meta property="og:site_name" content="DORAPP"><meta property="og:title" content="{esc(title)}"><meta property="og:description" content="{esc(description)}"><meta property="og:url" content="{canonical}"><meta name="twitter:card" content="summary"><link rel="stylesheet" href="../../styles.css?v={country_css_version}"><link rel="stylesheet" href="/design-editorial.css?v=20261015-2"><script type="application/ld+json">{json.dumps(schema,ensure_ascii=False)}</script></head><body data-country="{esc(iso)}"><a class="skip" href="#content">Ugrás a tartalomhoz</a><header class="topbar"><div class="wrap navrow"><a class="brand" href="../../"><span class="mark">HU</span><span>DORAPP</span></a><nav>{nav_links}</nav></div></header><main id="content"><section class="hero country-hero"><div class="wrap"><div class="eyebrow">DORAPP · {iso.upper()}</div><h1>{esc(name)} <span>magyar közösségei</span></h1><p class="lead">{counts.get("organizations",0)} ellenőrzött szervezet · {counts.get("education",0)} oktatási rekord · {counts.get("events",0)} program a jelenlegi adatállapot szerint.</p><p class="hero-proof"><strong>Forrásalapú rendszer.</strong> Kutatási állapot: {esc(status)}.</p></div></section>{body_sections}</main><footer><div class="wrap footer-grid"><div><b>DORAPP</b><p>Forrásalapú magyar diaszpóra-címtár és programnaptár.</p></div><div><a href="../../forrasok.html">Források és módszertan</a><br><a href="../../adatminoseg.html">Adatminőség</a></div><div><a href="https://www.kozpontiszovetseg.at/kapcsolat" target="_blank" rel="noopener external">Impresszum / kapcsolat ↗</a></div><div class="site-credit">A <a href="https://www.magyariskola.at/" target="_blank" rel="noopener external">Bécsi Magyar Iskola</a> – <a href="https://rolunk.at/aktualis/a-fiataloknak-ma-mar-bizonyitek-kell-egy-becsi-kreativ-kozosseg-uj-generaciot-epit/" target="_blank" rel="noopener external">Be Smart Kids Club</a> csapata hozta létre.<br><a href="mailto:marketing@kozpontiszovetseg.at">marketing@kozpontiszovetseg.at</a></div></div></footer><script src="../../country.js?v=20261019-country-card-1" defer></script><script src="../../ui.js?v=20261015-trust-contact-1" defer></script></body></html>'''
+    country_css_version=COUNTRY_ASSET_VERSION
+    doc=f'''<!doctype html><html lang="hu"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><link rel="icon" href="../../favicon.svg" type="image/svg+xml"><title>{esc(title)}</title><meta name="description" content="{esc(description)}"><meta name="author" content="Központi Szövetség"><meta name="robots" content="{robots}"><link rel="canonical" href="{canonical}"><link rel="alternate" type="text/plain" href="../../llms.txt" title="LLM információ"><meta property="og:type" content="website"><meta property="og:site_name" content="DORAPP"><meta property="og:title" content="{esc(title)}"><meta property="og:description" content="{esc(description)}"><meta property="og:url" content="{canonical}"><meta name="twitter:card" content="summary"><link rel="stylesheet" href="../../styles.css?v={country_css_version}"><link rel="stylesheet" href="/design-editorial.css?v=20261015-2"><script type="application/ld+json">{json.dumps(schema,ensure_ascii=False)}</script></head><body data-country="{esc(iso)}"><a class="skip" href="#content">Ugrás a tartalomhoz</a><header class="topbar"><div class="wrap navrow"><a class="brand" href="../../"><span class="mark">HU</span><span>DORAPP</span></a><nav>{nav_links}</nav></div></header><main id="content"><section class="hero country-hero"><div class="wrap"><div class="eyebrow">DORAPP · {iso.upper()}</div><h1>{esc(name)} <span>magyar közösségei</span></h1><p class="lead">{counts.get("organizations",0)} ellenőrzött szervezet · {counts.get("education",0)} oktatási rekord · {counts.get("events",0)} program a jelenlegi adatállapot szerint.</p><p class="hero-proof"><strong>Forrásalapú rendszer.</strong> Kutatási állapot: {esc(status)}.</p></div></section>{body_sections}</main><footer><div class="wrap footer-grid"><div><b>DORAPP</b><p>Forrásalapú magyar diaszpóra-címtár és programnaptár.</p></div><div><a href="../../forrasok.html">Források és módszertan</a><br><a href="../../adatminoseg.html">Adatminőség</a></div><div><a href="https://www.kozpontiszovetseg.at/kapcsolat" target="_blank" rel="noopener external">Impresszum / kapcsolat ↗</a></div><div class="site-credit">A <a href="https://www.magyariskola.at/" target="_blank" rel="noopener external">Bécsi Magyar Iskola</a> – <a href="https://rolunk.at/aktualis/a-fiataloknak-ma-mar-bizonyitek-kell-egy-becsi-kreativ-kozosseg-uj-generaciot-epit/" target="_blank" rel="noopener external">Be Smart Kids Club</a> csapata hozta létre.<br><a href="mailto:marketing@kozpontiszovetseg.at">marketing@kozpontiszovetseg.at</a></div></div></footer><script src="../../country.js?v={country_css_version}" defer></script><script src="../../ui.js?v=20261015-trust-contact-1" defer></script></body></html>'''
     (out/"index.html").write_text(doc,encoding="utf-8")
 
 print(f"Generated {len(registry.get('countries',[]))} country routes")
