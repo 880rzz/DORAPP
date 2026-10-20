@@ -143,9 +143,33 @@ def edu_cards(edus, names):
 
 def event_cards(events, names):
     rows=[e for e in events if e.get("id") and (e.get("name") or e.get("title"))]
+    definitions={x.get("id"):x.get("label") for x in (read(DATA/"events.json",{}).get("programCategoryDefinitions") or []) if x.get("id")}
+    def one(e):
+        title=e.get("name") or e.get("title") or ""
+        detail=f'events/{esc(e.get("id"))}.html'
+        categories=e.get("programCategories") or e.get("categories") or []
+        if isinstance(categories,str): categories=[categories]
+        labels=[definitions.get(str(value),str(value).replace("_"," ").replace("-"," ")) for value in categories]
+        if not labels and categories:
+            labels=[str(value).replace("_"," ").replace("-"," ") for value in categories]
+        category=" · ".join(labels) or "Magyar közösségi program"
+        start=e.get("startDate") or e.get("date")
+        date_text=f'<time class="event-card-date" datetime="{esc(start)}">{esc(start)}</time>' if start else ""
+        location=" · ".join(str(value) for value in (e.get("venue"),e.get("city")) if value)
+        organizer=e.get("organizer")
+        description=e.get("description") or e.get("summary")
+        description_html=f'<p class="event-card-description">{esc(description)}</p>' if description else ""
+        meta=" · ".join(value for value in (location,organizer) if value)
+        source=e.get("sourceUrl")
+        source_link=(f'<a class="event-card-source" href="{esc(source)}" target="_blank" rel="noopener external" aria-label="Eredeti forrás: {esc(title)}">Eredeti forrás ↗</a>' if source else "")
+        return (f'<article class="event event-directory-card" data-region="{esc(region_key(e))}">'
+                f'<a class="event-card-main" href="{detail}" aria-label="{esc(title)} – program adatlap">'
+                f'<span class="event-card-category">{esc(category)}</span><h3>{esc(title)}</h3>{date_text}'
+                f'<p class="event-card-meta">{esc(meta)}</p>{description_html}'
+                '<span class="event-card-action">Program adatlap →</span></a>'
+                f'{source_link}</article>')
     return '<div id="countryEventGrid" class="event-grid">'+"".join(
-        f'<article class="event" data-region="{esc(region_key(e))}"><div class="date">{esc(e.get("startDate") or e.get("date") or "")}</div><h3>{esc(e.get("name") or e.get("title"))}</h3><p>{esc([x for x in [e.get("organizer"),e.get("city"),e.get("venue")] if x] and " · ".join(str(x) for x in [e.get("organizer"),e.get("city"),e.get("venue")] if x) or "")}</p><div class="event-links"><a href="events/{esc(e.get("id"))}.html">Program részletei →</a>{(f"""<a href="{esc(e.get("sourceUrl"))}" target="_blank" rel="noopener external">Eredeti forrás ↗</a>""" if e.get("sourceUrl") else "")}</div></article>'
-        for e in sorted(rows,key=lambda x:str(x.get("startDate") or x.get("date") or ""))
+        one(e) for e in sorted(rows,key=lambda x:str(x.get("startDate") or x.get("date") or ""))
     )+'</div><div id="countryEventEmpty" class="empty" hidden>Nincs a szűrésnek megfelelő közelgő program.</div>'
 
 def search_html(name):
@@ -198,14 +222,16 @@ for country in registry.get("countries",[]):
             f'<section id="terkep" class="section"><div class="wrap"><div class="section-head"><div><div class="eyebrow">Területi térkép</div><h2>Első szintű közigazgatási egységek.</h2><p>A kutatás előkészített területi váza. A szervezetszám csak ellenőrzött rekordból nőhet.</p></div></div>{map_html(iso,regions,region_counts)}<div id="countryMapSummary" class="state-summary">{sum(region_counts.values())} ellenőrzött szervezet.</div><p><a class="btn" href="../../">Vissza a világtérképhez</a></p></div></section>'
         )
 
-    title=f"Magyar közösségek – {name} | DORAPP"
+    title_name=name if iso!="es" or names.get("hu") else "Spanyolország"
+    title=f"Magyar közösségek – {title_name} | DORAPP"
     canonical=f"{BASE}/countries/{iso}/"
-    description=f"{name} magyar szervezeteinek, közösségeinek, oktatásának és programjainak forrásalapú DORAPP országoldala."
+    description=f"{title_name} magyar szervezeteinek, közösségeinek, oktatásának és programjainak forrásalapú DORAPP országoldala."
     modified=country.get("lastBroadVerifiedAt") or country.get("lastResearchAttemptAt")
     nav_links='<a href="../../">Világ</a><a href="#terkep">Térkép</a><a href="#kereso">Kereső</a><a href="#kozossegek">Szervezetek</a><a href="#programok">Programok</a>'
     item_urls=[f"{canonical}organizations/{o.get('id')}.html" for o in orgs if o.get("id") and o.get("entityClass")!="activity"]
     schema={"@context":"https://schema.org","@type":"CollectionPage","@id":canonical+"#page","name":title,"description":description,"url":canonical,"inLanguage":"hu","dateModified":modified,"isPartOf":{"@id":BASE+"/#website"},"publisher":{"@type":"Organization","@id":BASE+"/#organization","name":"Központi Szövetség","url":"https://www.kozpontiszovetseg.at/"},"about":{"@type":"Country","name":names.get("en") or name},"mainEntity":{"@type":"ItemList","numberOfItems":len(item_urls),"itemListElement":[{"@type":"ListItem","position":i+1,"url":u} for i,u in enumerate(item_urls)]}}
-    doc=f'''<!doctype html><html lang="hu"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><link rel="icon" href="../../favicon.svg" type="image/svg+xml"><title>{esc(title)}</title><meta name="description" content="{esc(description)}"><meta name="author" content="Központi Szövetség"><meta name="robots" content="{robots}"><link rel="canonical" href="{canonical}"><link rel="alternate" type="text/plain" href="../../llms.txt" title="LLM információ"><meta property="og:type" content="website"><meta property="og:site_name" content="DORAPP"><meta property="og:title" content="{esc(title)}"><meta property="og:description" content="{esc(description)}"><meta property="og:url" content="{canonical}"><meta name="twitter:card" content="summary"><link rel="stylesheet" href="../../styles.css?v=20261019-country-card-1"><link rel="stylesheet" href="/design-editorial.css?v=20261015-2"><script type="application/ld+json">{json.dumps(schema,ensure_ascii=False)}</script></head><body data-country="{esc(iso)}"><a class="skip" href="#content">Ugrás a tartalomhoz</a><header class="topbar"><div class="wrap navrow"><a class="brand" href="../../"><span class="mark">HU</span><span>DORAPP</span></a><nav>{nav_links}</nav></div></header><main id="content"><section class="hero country-hero"><div class="wrap"><div class="eyebrow">DORAPP · {iso.upper()}</div><h1>{esc(name)} <span>magyar közösségei</span></h1><p class="lead">{counts.get("organizations",0)} ellenőrzött szervezet · {counts.get("education",0)} oktatási rekord · {counts.get("events",0)} program a jelenlegi adatállapot szerint.</p><p class="hero-proof"><strong>Forrásalapú rendszer.</strong> Kutatási állapot: {esc(status)}.</p></div></section>{body_sections}</main><footer><div class="wrap footer-grid"><div><b>DORAPP</b><p>Forrásalapú magyar diaszpóra-címtár és programnaptár.</p></div><div><a href="../../forrasok.html">Források és módszertan</a><br><a href="../../adatminoseg.html">Adatminőség</a></div><div><a href="https://www.kozpontiszovetseg.at/kapcsolat" target="_blank" rel="noopener external">Impresszum / kapcsolat ↗</a></div><div class="site-credit">A <a href="https://www.magyariskola.at/" target="_blank" rel="noopener external">Bécsi Magyar Iskola</a> – <a href="https://rolunk.at/aktualis/a-fiataloknak-ma-mar-bizonyitek-kell-egy-becsi-kreativ-kozosseg-uj-generaciot-epit/" target="_blank" rel="noopener external">Be Smart Kids Club</a> csapata hozta létre.<br><a href="mailto:marketing@kozpontiszovetseg.at">marketing@kozpontiszovetseg.at</a></div></div></footer><script src="../../country.js?v=20261019-country-card-1" defer></script><script src="../../ui.js?v=20261015-trust-contact-1" defer></script></body></html>'''
+    country_css_version="20261020-event-card-1" if iso=="at" else "20261019-country-card-1"
+    doc=f'''<!doctype html><html lang="hu"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><link rel="icon" href="../../favicon.svg" type="image/svg+xml"><title>{esc(title)}</title><meta name="description" content="{esc(description)}"><meta name="author" content="Központi Szövetség"><meta name="robots" content="{robots}"><link rel="canonical" href="{canonical}"><link rel="alternate" type="text/plain" href="../../llms.txt" title="LLM információ"><meta property="og:type" content="website"><meta property="og:site_name" content="DORAPP"><meta property="og:title" content="{esc(title)}"><meta property="og:description" content="{esc(description)}"><meta property="og:url" content="{canonical}"><meta name="twitter:card" content="summary"><link rel="stylesheet" href="../../styles.css?v={country_css_version}"><link rel="stylesheet" href="/design-editorial.css?v=20261015-2"><script type="application/ld+json">{json.dumps(schema,ensure_ascii=False)}</script></head><body data-country="{esc(iso)}"><a class="skip" href="#content">Ugrás a tartalomhoz</a><header class="topbar"><div class="wrap navrow"><a class="brand" href="../../"><span class="mark">HU</span><span>DORAPP</span></a><nav>{nav_links}</nav></div></header><main id="content"><section class="hero country-hero"><div class="wrap"><div class="eyebrow">DORAPP · {iso.upper()}</div><h1>{esc(name)} <span>magyar közösségei</span></h1><p class="lead">{counts.get("organizations",0)} ellenőrzött szervezet · {counts.get("education",0)} oktatási rekord · {counts.get("events",0)} program a jelenlegi adatállapot szerint.</p><p class="hero-proof"><strong>Forrásalapú rendszer.</strong> Kutatási állapot: {esc(status)}.</p></div></section>{body_sections}</main><footer><div class="wrap footer-grid"><div><b>DORAPP</b><p>Forrásalapú magyar diaszpóra-címtár és programnaptár.</p></div><div><a href="../../forrasok.html">Források és módszertan</a><br><a href="../../adatminoseg.html">Adatminőség</a></div><div><a href="https://www.kozpontiszovetseg.at/kapcsolat" target="_blank" rel="noopener external">Impresszum / kapcsolat ↗</a></div><div class="site-credit">A <a href="https://www.magyariskola.at/" target="_blank" rel="noopener external">Bécsi Magyar Iskola</a> – <a href="https://rolunk.at/aktualis/a-fiataloknak-ma-mar-bizonyitek-kell-egy-becsi-kreativ-kozosseg-uj-generaciot-epit/" target="_blank" rel="noopener external">Be Smart Kids Club</a> csapata hozta létre.<br><a href="mailto:marketing@kozpontiszovetseg.at">marketing@kozpontiszovetseg.at</a></div></div></footer><script src="../../country.js?v=20261019-country-card-1" defer></script><script src="../../ui.js?v=20261015-trust-contact-1" defer></script></body></html>'''
     (out/"index.html").write_text(doc,encoding="utf-8")
 
 print(f"Generated {len(registry.get('countries',[]))} country routes")
