@@ -1,15 +1,16 @@
 {
-  "updated": "2026-10-19T08:06:55.672498+00:00",
+  "updated": "2026-10-20T07:57:56.788052+00:00",
   "country": "dk",
   "sources": [
     {
       "entityId": "dan-magyar-egyesulet",
       "entityType": "organization",
       "source": "https://www.dan-magyar.dk/?page_id=1344",
-      "checkedAt": "2026-10-19T08:06:51.316097+00:00",
-      "status": "ok-no-structured-event",
+      "checkedAt": "2026-10-20T07:57:30.621474+00:00",
+      "status": "network-error",
       "eventsFound": 0,
-      "pagesChecked": 1
+      "pagesChecked": 0,
+      "error": "<urlopen error [Errno 101] Network is unreachable>"
     }
   ]
 }

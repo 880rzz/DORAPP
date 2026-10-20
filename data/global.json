@@ -718,7 +718,7 @@
         "en": "Belarus",
         "officialEn": "Republic of Belarus"
       },
-      "researchStatus": "unresearched",
+      "researchStatus": "researching",
       "countryDataPath": "data/countries/by/",
       "route": "countries/by/",
       "counts": {
@@ -728,7 +728,9 @@
         "events": 0,
         "education": 0
       },
-      "iso3": "BLR"
+      "iso3": "BLR",
+      "lastResearchAttemptAt": "2026-10-20T07:54:30+00:00",
+      "discoveryCandidateCount": 53
     },
     {
       "iso2": "bz",
@@ -4432,7 +4434,7 @@
         "organizations": 78,
         "activities": 0,
         "entities": 78,
-        "events": 23,
+        "events": 26,
         "education": 23
       },
       "iso3": "USA",
