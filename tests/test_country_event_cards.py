@@ -22,6 +22,7 @@ class CountryEventCardTests(unittest.TestCase):
     def test_card_contains_metadata_detail_link_and_separate_source(self):
         html=GEN.event_cards([self.event],{})
         for value in ("Teszt esemény","datetime=", "Kultúrház", "Madrid", "MADACH",
+                      "Helyszín:","Szervező:","2026. 12. 01. 18:00",
                       "Tényszerű rövid ismertető.", 'href="events/test-event.html"',
                       'href="https://example.org/event"', 'class="event-card-main"'):
             self.assertIn(value,html)

@@ -1,0 +1,134 @@
+{
+  "updated": "2026-10-20",
+  "methodology": "Csak elsődleges forrásban konkrétan megnevezett, Spanyolországban elérhető magyar nyelvi vagy kulturális oktatást vettünk fel.",
+  "institutions": [
+    {
+      "id": "barcelonai-egyetem-magyar-nyelvi-lektoratus",
+      "name": "Barcelonai Egyetem – magyar nyelvi lektorátus",
+      "country": "es",
+      "region": "cataluna",
+      "city": "Barcelona",
+      "level": [
+        "university",
+        "adult-language"
+      ],
+      "type": "magyar mint idegen nyelv – egyetemi kurzus",
+      "website": "https://web.ub.edu/en/web/estudis/w/specificmasterdegree-202511953",
+      "summary": "A Barcelonai Egyetem és a főkonzulátus 2026/27-es forrásai magyar nyelvű kurzusokat hirdetnek kezdő és haladó érdeklődők számára.",
+      "sourceUrl": "https://barcelona.mfa.gov.hu/hu/articles/magyar-nyelvorak-a-barcelonai-egyetemen-2026",
+      "status": "verified-current-course-offering",
+      "evidenceSources": [
+        {
+          "label": "Barcelonai Főkonzulátus – Magyar nyelvórák 2026",
+          "url": "https://barcelona.mfa.gov.hu/hu/articles/magyar-nyelvorak-a-barcelonai-egyetemen-2026",
+          "type": "government"
+        },
+        {
+          "label": "Universitat de Barcelona – Hungarian language course B.1+ (2026–27)",
+          "url": "https://web.ub.edu/en/web/estudis/w/specificmasterdegree-202511953",
+          "type": "institutional"
+        }
+      ],
+      "verifiedAt": "2026-10-20"
+    },
+    {
+      "id": "barcelonai-hetvegi-magyar-iskola",
+      "name": "Barcelonai hétvégi magyar iskola",
+      "country": "es",
+      "region": "cataluna",
+      "city": "Barcelona",
+      "address": "Colegio de La Salle Gràcia, Plaça del Nord 14, 2. emelet, 08024 Barcelona",
+      "level": [
+        "kindergarten",
+        "primary",
+        "heritage-language"
+      ],
+      "type": "hétvégi magyar oktatás",
+      "website": "https://barcelona.mfa.gov.hu/hu/articles/barcelonai-magyar-iskola",
+      "operatorId": "katalan-magyar-kulturalis-egyesulet",
+      "schedule": "A hónap minden második szombatján",
+      "summary": "A Magyarország Barcelonai Főkonzulátusa és a Katalán–Magyar Kulturális Egyesület együttműködésében futó hétvégi magyar foglalkozások több korosztálynak.",
+      "sourceUrl": "https://barcelona.mfa.gov.hu/hu/articles/barcelonai-magyar-iskola",
+      "status": "verified-active",
+      "evidenceSources": [
+        {
+          "label": "Magyarország Barcelonai Főkonzulátusa – Barcelonai magyar iskola",
+          "url": "https://barcelona.mfa.gov.hu/hu/articles/barcelonai-magyar-iskola",
+          "type": "government"
+        }
+      ],
+      "verifiedAt": "2026-10-20"
+    },
+    {
+      "id": "ceu-madridi-magyar-lektoratus",
+      "name": "CEU San Pablo – Madridi Magyar Lektorátus",
+      "country": "es",
+      "region": "madrid",
+      "city": "Madrid",
+      "level": [
+        "university",
+        "cultural-education"
+      ],
+      "type": "egyetemi magyar nyelvi és kulturális lektorátus",
+      "website": "https://iehistoricos.ceu.es/actualidad",
+      "summary": "A CEU San Pablo 2026-os forrásai magyar témájú nyilvános egyetemi előadásokat dokumentálnak a Madridi Magyar Lektorátus szervezésében. A források lektorátust és kulturális oktatási programot igazolnak; aktuális nyelvtanfolyam-indulást nem.",
+      "status": "verified-current-cultural-program",
+      "evidenceSources": [
+        {
+          "label": "Magyarország Madridi Nagykövetsége – kulturális és tudományos kapcsolatok",
+          "url": "https://madrid.mfa.gov.hu/es/relaciones-culturales-y-cientificas",
+          "type": "government"
+        },
+        {
+          "label": "CEU Institute of Historical Studies – 2026. májusi magyar lektorátusi program",
+          "url": "https://iehistoricos.ceu.es/actualidad",
+          "type": "institutional"
+        }
+      ],
+      "verifiedAt": "2026-10-20"
+    },
+    {
+      "id": "kacifant-kisgyermekprogram",
+      "name": "Kacifánt – magyar kisgyermekfoglalkozás",
+      "country": "es",
+      "region": "cataluna",
+      "city": "Barcelona",
+      "address": "Colegio de La Salle Gràcia, Plaça del Nord 14, 08024 Barcelona",
+      "level": [
+        "early-childhood"
+      ],
+      "type": "magyar nyelvi és kulturális gyermekprogram",
+      "website": "https://barcelona.mfa.gov.hu/hu/articles/barcelonai-magyar-iskola",
+      "operatorId": "katalan-magyar-kulturalis-egyesulet",
+      "summary": "A főkonzulátus iskolai tájékoztatója szerint 0–4 éves gyermekek számára kínál magyar mondókákkal, énekekkel, mesével és közös alkotással kísért foglalkozást.",
+      "sourceUrl": "https://barcelona.mfa.gov.hu/hu/articles/barcelonai-magyar-iskola",
+      "status": "verified-listed",
+      "evidenceSources": [
+        {
+          "label": "Magyarország Barcelonai Főkonzulátusa – Barcelonai magyar iskola",
+          "url": "https://barcelona.mfa.gov.hu/hu/articles/barcelonai-magyar-iskola",
+          "type": "government"
+        }
+      ],
+      "verifiedAt": "2026-10-20"
+    }
+  ],
+  "recordClassDefinitions": [
+    {
+      "id": "heritage-language",
+      "label": "Hétvégi anyanyelvi oktatás"
+    },
+    {
+      "id": "early-childhood",
+      "label": "Koragyermekkori program"
+    },
+    {
+      "id": "university",
+      "label": "Egyetemi kurzus"
+    },
+    {
+      "id": "cultural-education",
+      "label": "Egyetemi kulturális és nyelvi lektorátus"
+    }
+  ]
+}
