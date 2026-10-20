@@ -529,7 +529,9 @@
     {
       "id": "escola-hongaresa-esgrima-barcelona",
       "name": "Escola Hongaresa d'Esgrima de Barcelona",
-      "alternateNames": ["Escuela Húngara de Esgrima"],
+      "alternateNames": [
+        "Escuela Húngara de Esgrima"
+      ],
       "country": "es",
       "region": "cataluna",
       "city": "Barcelona",
@@ -544,19 +546,33 @@
       "instagram": null,
       "email": null,
       "phone": null,
-      "activities": ["sportoktatás", "vívás", "hagyományőrző programok"],
+      "activities": [
+        "sportoktatás",
+        "vívás",
+        "hagyományőrző programok"
+      ],
       "eventSources": [],
       "calendarSources": [],
       "evidenceSources": [
-        {"label": "Escola Hongaresa d'Esgrima de Barcelona – hivatalos oldal", "url": "https://barcelonaesgrima.blogspot.com/", "type": "first-party"},
-        {"label": "Col·legi Oficial de Metges de Barcelona – partneri leírás", "url": "https://www.comb.cat/es/serveis/avantatges-descomptes/esports-i-benestar/escuela-hungara-de-esgrima", "type": "institutional"}
+        {
+          "label": "Escola Hongaresa d'Esgrima de Barcelona – hivatalos oldal",
+          "url": "https://barcelonaesgrima.blogspot.com/",
+          "type": "first-party"
+        },
+        {
+          "label": "Col·legi Oficial de Metges de Barcelona – partneri leírás",
+          "url": "https://www.comb.cat/es/serveis/avantatges-descomptes/esports-i-benestar/escuela-hungara-de-esgrima",
+          "type": "institutional"
+        }
       ],
       "profileVerifiedAt": "2026-10-20"
     },
     {
       "id": "costamost-hu",
       "name": "Costa Most",
-      "alternateNames": ["Costamost.hu"],
+      "alternateNames": [
+        "Costamost.hu"
+      ],
       "country": "es",
       "region": "andalucia",
       "city": "Costa del Sol",
@@ -571,18 +587,31 @@
       "instagram": null,
       "email": null,
       "phone": null,
-      "activities": ["helyi hírek", "közösségi információ", "programajánló", "szolgáltatási tájékoztatás"],
-      "eventSources": ["https://costamost.hu/"],
+      "activities": [
+        "helyi hírek",
+        "közösségi információ",
+        "programajánló",
+        "szolgáltatási tájékoztatás"
+      ],
+      "eventSources": [
+        "https://costamost.hu/"
+      ],
       "calendarSources": [],
       "evidenceSources": [
-        {"label": "Costa Most – hivatalos oldal", "url": "https://costamost.hu/", "type": "first-party-person"}
+        {
+          "label": "Costa Most – hivatalos oldal",
+          "url": "https://costamost.hu/",
+          "type": "first-party-person"
+        }
       ],
       "profileVerifiedAt": "2026-10-20"
     },
     {
       "id": "boletin-hungaro-madach",
       "name": "Boletín Húngaro",
-      "alternateNames": ["MADACH Egyesület hírlevele"],
+      "alternateNames": [
+        "MADACH Egyesület hírlevele"
+      ],
       "country": "es",
       "region": "madrid",
       "city": "Madrid / országos",
@@ -597,11 +626,84 @@
       "instagram": null,
       "email": null,
       "phone": null,
-      "activities": ["közösségi hírek", "programajánló", "magyar–spanyol kulturális kapcsolatok"],
-      "eventSources": ["https://www.madach.es/boletin/"],
+      "activities": [
+        "közösségi hírek",
+        "programajánló",
+        "magyar–spanyol kulturális kapcsolatok"
+      ],
+      "eventSources": [
+        "https://www.madach.es/boletin/"
+      ],
       "calendarSources": [],
       "evidenceSources": [
-        {"label": "MADACH Egyesület – Boletín Húngaro", "url": "https://www.madach.es/boletin/", "type": "first-party-person"}
+        {
+          "label": "MADACH Egyesület – Boletín Húngaro",
+          "url": "https://www.madach.es/boletin/",
+          "type": "first-party-person"
+        }
+      ],
+      "profileVerifiedAt": "2026-10-20"
+    },
+    {
+      "id": "madach-magyar-kulturalis-egyesulet",
+      "name": "MADACH Magyar Kulturális Egyesület",
+      "alternateNames": [
+        "Asociación de Amigos de la Cultura Húngara MADACH",
+        "MADACH Egyesület"
+      ],
+      "country": "es",
+      "region": "national",
+      "city": "Madrid / országos",
+      "type": "országos magyar kulturális és közösségi ernyőszervezet",
+      "entityClass": "umbrella-organization",
+      "status": "verified-active",
+      "verificationStatus": "verified-active",
+      "intro": "A Madridban alapított, 2016-tól országos szintűre bővített spanyolországi magyar kulturális és közösségi szervezet, amely regionális kapcsolódásokkal működik.",
+      "summary": "Spanyolország országos magyar kulturális és közösségi szervezete; Madrid, Barcelona, Zaragoza és Málaga/Costa del Sol térségében dokumentált kapcsolódásokkal.",
+      "website": "https://www.madach.es/",
+      "facebook": "https://www.facebook.com/madachmadrid/",
+      "instagram": null,
+      "email": null,
+      "phone": null,
+      "activities": [
+        "országos közösségépítés",
+        "magyar nyelvű oktatás",
+        "kulturális programok",
+        "családi programok",
+        "hagyományőrzés",
+        "regionális közösségi kapcsolatok"
+      ],
+      "relatedRegions": [
+        "madrid",
+        "cataluna",
+        "aragon",
+        "andalucia"
+      ],
+      "eventSources": [
+        "https://www.madach.es/boletin/"
+      ],
+      "calendarSources": [],
+      "evidenceSources": [
+        {
+          "label": "MADACH Egyesület – hivatalos bemutatkozás",
+          "url": "https://www.madach.es/rolunk/",
+          "type": "official"
+        },
+        {
+          "label": "Kőrösi Csoma Sándor Program – MADACH partnerprofil",
+          "url": "https://www.korosiprogram.hu/partnereink/madach-magyar-kulturalis-egyesulet-asociacion-de-amigos-de-la-cultura-hungara-madach",
+          "type": "institutional"
+        },
+        {
+          "label": "NYEOMSZSZ – Spanyolország",
+          "url": "https://www.nyeomszsz.org/spanyolorszag/",
+          "type": "institutional"
+        },
+        {
+          "label": "Magyarország Madridi Nagykövetsége – spanyolországi magyar szerveződések",
+          "url": "https://madrid.mfa.gov.hu/hu/magyarok-szervezodesei-spanyolorszagban-jelentkezes-az-adatbazisba",
+          "type": "government"
+        }
       ],
       "profileVerifiedAt": "2026-10-20"
     }
@@ -721,16 +823,6 @@
       "url": "https://www.facebook.com/groups/MadridiMagyarCsaladosokKlubja/"
     },
     {
-      "name": "MADACH Magyar Kulturális Egyesület",
-      "region": "madrid",
-      "city": "Madrid",
-      "type": "community-organization",
-      "status": "needs-review",
-      "reason": "A hivatalos madach.es domain jelenleg 503 hibát adott; a Kőrösi partnerprofil és a nagykövetségi oldal az egyesületet leírja, de az aktuális programcsatorna megerősítendő.",
-      "sourceUrl": "https://www.korosiprogram.hu/partnereink/madach-magyar-kulturalis-egyesulet-asociacion-de-amigos-de-la-cultura-hungara-madach",
-      "url": "https://www.korosiprogram.hu/partnereink/madach-magyar-kulturalis-egyesulet-asociacion-de-amigos-de-la-cultura-hungara-madach"
-    },
-    {
       "name": "Costa del Sol magyar közösségi találkozópontjai",
       "region": "andalucia",
       "city": "Málaga / Costa del Sol",
@@ -798,8 +890,8 @@
       "region": "andalucia",
       "city": "Costa del Sol",
       "type": "community-organization",
-      "status": "needs-review",
-      "reason": "A Kőrösi program friss galériája helyi magyar standdal és MADACH Costa del Sol szervezettel azonosítja; önálló aktuális kapcsolati oldal még megerősítendő.",
+      "status": "verified-associated",
+      "reason": "A MADACH országos szervezet Costa del Sol-i regionális kapcsolódása; önálló jogi személyű ágként nem különítettük el.",
       "sourceUrl": "https://www.korosiprogram.hu/galeria/kepek/magyar-stand-costa-del-solon"
     },
     {
