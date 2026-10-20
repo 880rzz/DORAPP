@@ -1,12 +1,12 @@
 {
-  "updated": "2026-10-20T02:37:55.473111+00:00",
+  "updated": "2026-10-20T09:26:48.323442+00:00",
   "summary": {
     "organizations": 162,
     "organizationFlags": 2,
-    "organizationPagesChecked": 343,
+    "organizationPagesChecked": 340,
     "education": 108,
     "educationFlags": 0,
-    "events": 76,
+    "events": 74,
     "eventFlags": 0
   },
   "organizations": [
@@ -436,15 +436,7 @@
       ],
       "activityCategories": [],
       "signals": [
-        "oktatas",
-        "neptanc",
-        "nepzene",
-        "enekkar",
-        "media",
-        "diak",
-        "irodalom",
-        "muveszet",
-        "csalad"
+        "enekkar"
       ],
       "pagesChecked": 1,
       "checkedUrls": [
@@ -611,7 +603,6 @@
         "nepzene",
         "szinhaz",
         "media",
-        "egyhaz",
         "irodalom",
         "muveszet",
         "sport",
@@ -726,17 +717,13 @@
         "muveszet",
         "csalad"
       ],
-      "pagesChecked": 2,
+      "pagesChecked": 3,
       "checkedUrls": [
+        "https://www.creativescience.hu/programjaink/becs-craft-workshop/",
         "https://www.magyariskola.at/event-details/becscraft-2026",
         "https://www.magyariskola.at/event-details/becs-craft-nyari-tabor-2026"
       ],
-      "errors": [
-        {
-          "url": "https://www.creativescience.hu/programjaink/becs-craft-workshop/",
-          "error": "HTTP Error 404: Not Found"
-        }
-      ],
+      "errors": [],
       "flags": []
     },
     {
@@ -1119,23 +1106,20 @@
       "activityCategories": [],
       "signals": [
         "oktatas",
+        "szinhaz",
         "media",
-        "irodalom"
+        "irodalom",
+        "muveszet",
+        "csalad"
       ],
-      "pagesChecked": 2,
+      "pagesChecked": 3,
       "checkedUrls": [
         "https://culture.hu/hu/wien",
+        "https://culture.hu/hu/wien/esemenyek",
         "https://culture.hu/de/wien/jubilaum"
       ],
-      "errors": [
-        {
-          "url": "https://culture.hu/hu/wien/esemenyek",
-          "error": "The read operation timed out"
-        }
-      ],
-      "flags": [
-        "weak-source-signal:muveszet"
-      ]
+      "errors": [],
+      "flags": []
     },
     {
       "id": "collegium-pazmanianum",
@@ -1310,14 +1294,9 @@
       ],
       "activityCategories": [],
       "signals": [
-        "oktatas",
         "neptanc",
         "nepzene",
         "enekkar",
-        "szinhaz",
-        "media",
-        "diak",
-        "irodalom",
         "sport",
         "csalad"
       ],
@@ -1473,22 +1452,9 @@
         "kultura"
       ],
       "activityCategories": [],
-      "signals": [
-        "oktatas",
-        "neptanc",
-        "szinhaz",
-        "media",
-        "egyhaz",
-        "diak",
-        "irodalom",
-        "muveszet"
-      ],
-      "pagesChecked": 3,
-      "checkedUrls": [
-        "https://europaclub.at/",
-        "https://europaclub.at/rolunk/europa-club-tortenete/",
-        "https://europaclub.at/de/kontakt/"
-      ],
+      "signals": [],
+      "pagesChecked": 0,
+      "checkedUrls": [],
       "errors": [],
       "flags": []
     },
@@ -1527,10 +1493,6 @@
       ],
       "activityCategories": [],
       "signals": [
-        "oktatas",
-        "egyhaz",
-        "irodalom",
-        "muveszet",
         "csalad"
       ],
       "pagesChecked": 3,
@@ -1540,7 +1502,9 @@
         "https://fecskeklub.at/titkok-nyomaban/"
       ],
       "errors": [],
-      "flags": []
+      "flags": [
+        "weak-source-signal:oktatas"
+      ]
     },
     {
       "id": "felso-ausztriai-magyarok",
@@ -2321,18 +2285,16 @@
       ],
       "activityCategories": [],
       "signals": [
-        "oktatas",
-        "nepzene",
         "szinhaz",
-        "media",
         "irodalom",
         "muveszet",
         "csalad"
       ],
-      "pagesChecked": 2,
+      "pagesChecked": 3,
       "checkedUrls": [
         "https://kultpult.eu/",
-        "https://kultpult.eu/itthonotthon/"
+        "https://kultpult.eu/itthonotthon/",
+        "https://kultpult.eu/wp-content/uploads/2024/06/Altalanos-Szerzodesi-Feltetelek-kultpult.pdf"
       ],
       "errors": [],
       "flags": []
@@ -3014,6 +2976,7 @@
         "oktatas",
         "media",
         "irodalom",
+        "muveszet",
         "sport",
         "csalad"
       ],
@@ -3442,16 +3405,7 @@
       ],
       "activityCategories": [],
       "signals": [
-        "oktatas",
-        "neptanc",
-        "nepzene",
-        "enekkar",
-        "szinhaz",
-        "media",
-        "diak",
-        "muveszet",
-        "sport",
-        "csalad"
+        "nepzene"
       ],
       "pagesChecked": 3,
       "checkedUrls": [
@@ -3981,8 +3935,6 @@
       "activityCategories": [],
       "signals": [
         "szinhaz",
-        "media",
-        "irodalom",
         "muveszet",
         "csalad"
       ],
@@ -4031,21 +3983,23 @@
         "neptanc"
       ],
       "signals": [
-        "oktatas",
         "nepzene",
         "media",
         "diak",
         "muveszet",
-        "sport",
-        "csalad"
+        "sport"
       ],
-      "pagesChecked": 3,
+      "pagesChecked": 2,
       "checkedUrls": [
-        "https://ungarball.at/",
         "https://volksgruppen.orf.at/v2/magyarok/stories/2694653/",
         "https://www.flickr.com/photos/vipach/55099423490"
       ],
-      "errors": [],
+      "errors": [
+        {
+          "url": "https://ungarball.at/",
+          "error": "<urlopen error [Errno 101] Network is unreachable>"
+        }
+      ],
       "flags": []
     },
     {
@@ -4071,13 +4025,20 @@
         "sport",
         "csalad"
       ],
-      "pagesChecked": 3,
+      "pagesChecked": 1,
       "checkedUrls": [
-        "https://ungarball.at/",
-        "https://ungarball.at/impressum",
         "https://www.kozpontiszovetseg.at/tagszervezetek"
       ],
-      "errors": [],
+      "errors": [
+        {
+          "url": "https://ungarball.at/",
+          "error": "<urlopen error [Errno 101] Network is unreachable>"
+        },
+        {
+          "url": "https://ungarball.at/impressum",
+          "error": "<urlopen error [Errno 101] Network is unreachable>"
+        }
+      ],
       "flags": []
     },
     {
@@ -4112,11 +4073,7 @@
       ],
       "activityCategories": [],
       "signals": [
-        "oktatas",
         "neptanc",
-        "nepzene",
-        "media",
-        "diak",
         "csalad"
       ],
       "pagesChecked": 1,
