@@ -1,9 +1,9 @@
 {
-  "updated": "2026-10-21T09:22:17.805966+00:00",
+  "updated": "2026-10-21T10:02:27.856966+00:00",
   "summary": {
     "organizations": 162,
     "organizationFlags": 1,
-    "organizationPagesChecked": 350,
+    "organizationPagesChecked": 349,
     "education": 108,
     "educationFlags": 0,
     "events": 75,
@@ -69,18 +69,20 @@
       ],
       "activityCategories": [],
       "signals": [
-        "oktatas",
-        "media",
         "irodalom",
-        "sport",
         "csalad"
       ],
-      "pagesChecked": 2,
-      "checkedUrls": [
-        "https://bgld.arbeiterkammer.at/service/buecherei/akbuechereieisenstadt/index.html",
-        "https://bgld.arbeiterkammer.at/beratung/Bildung/arbeitswelt/Buecherei-Angebote.html"
-      ],
+      "pagesChecked": 0,
+      "checkedUrls": [],
       "errors": [
+        {
+          "url": "https://bgld.arbeiterkammer.at/service/buecherei/akbuechereieisenstadt/index.html",
+          "error": "<urlopen error timed out>"
+        },
+        {
+          "url": "https://bgld.arbeiterkammer.at/beratung/Bildung/arbeitswelt/Buecherei-Angebote.html",
+          "error": "<urlopen error timed out>"
+        },
         {
           "url": "https://mta.hu/data/dokumentumok/magyar_tudomanyossag_kulfoldon/sajt%C3%B3szemle/HTMT_sajto20260507.pdf",
           "error": "HTTP Error 503: Service Unavailable"
@@ -3033,16 +3035,12 @@
         "muveszet",
         "csalad"
       ],
-      "pagesChecked": 1,
+      "pagesChecked": 2,
       "checkedUrls": [
-        "https://vhs-ungarn.at/hu/hagyomanyorzes/ori-banda/"
+        "https://vhs-ungarn.at/hu/hagyomanyorzes/ori-banda/",
+        "https://www.vhs-burgenland.at/wp_neu/mc-events/ori-banda-volksmusik-volksliedcamp-ori-banda-nepzene-nepdaltabor/"
       ],
-      "errors": [
-        {
-          "url": "https://www.vhs-burgenland.at/wp_neu/mc-events/ori-banda-volksmusik-volksliedcamp-ori-banda-nepzene-nepdaltabor/",
-          "error": "The read operation timed out"
-        }
-      ],
+      "errors": [],
       "flags": []
     },
     {
