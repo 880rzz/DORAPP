@@ -1,19 +1,19 @@
 {
-  "updated": "2026-10-20T09:48:20+00:00",
-  "pages": 1206,
-  "internalLinksChecked": 11002,
+  "updated": "2026-10-21T08:04:22+00:00",
+  "pages": 1207,
+  "internalLinksChecked": 11009,
   "internalErrors": [],
   "externalLinksDiscovered": 1144,
   "externalLinksChecked": 1144,
   "externalStatusCounts": {
-    "ok": 1035,
-    "network-error": 14,
+    "ok": 1037,
+    "network-error": 9,
     "site-blocked": 15,
     "not-found": 24,
-    "timeout": 14,
-    "tls-error": 26,
-    "rate-limited": 6,
-    "http-error": 10
+    "http-error": 13,
+    "timeout": 18,
+    "rate-limited": 1,
+    "tls-error": 27
   },
   "externalResults": [
     {
@@ -60,9 +60,9 @@
     },
     {
       "url": "http://www.hungariandetroit.com/",
-      "status": "ok",
-      "httpStatus": 200,
-      "resolvedUrl": "http://www.hungariandetroit.com/index.php/en"
+      "status": "http-error",
+      "httpStatus": 409,
+      "resolvedUrl": "http://www.hungariandetroit.com/index.php/en/"
     },
     {
       "url": "http://www.magyar-iskola-cleveland.org/",
@@ -228,8 +228,8 @@
     },
     {
       "url": "https://arcfam.be/szinhaz/",
-      "status": "ok",
-      "httpStatus": 200,
+      "status": "rate-limited",
+      "httpStatus": 429,
       "resolvedUrl": "https://arcfam.be/szinhaz/"
     },
     {
@@ -288,9 +288,9 @@
     },
     {
       "url": "https://barcelonaesgrima.blogspot.com/",
-      "status": "rate-limited",
-      "httpStatus": 429,
-      "resolvedUrl": "https://www.google.com/sorry/index?continue=https://barcelonaesgrima.blogspot.com/&q=EgQ0pWZVGJHx3NYGIi0tbwn1YwomlkGh_yfdTi8XYKlCmAcTNQrDD_UVdqkCOsscD-tBN6Hdjn20bukyAnJSWgFDYJqGl_iX7trx9AE"
+      "status": "ok",
+      "httpStatus": 200,
+      "resolvedUrl": "https://barcelonaesgrima.blogspot.com/"
     },
     {
       "url": "https://beinvolved.indiana.edu/organization/hcaiu",
@@ -540,14 +540,14 @@
     },
     {
       "url": "https://buod.de/",
-      "status": "ok",
-      "httpStatus": 200,
+      "status": "timeout",
+      "httpStatus": null,
       "resolvedUrl": "https://buod.de/"
     },
     {
       "url": "https://buod.de/csucsszervezetek/",
-      "status": "ok",
-      "httpStatus": 200,
+      "status": "timeout",
+      "httpStatus": null,
       "resolvedUrl": "https://buod.de/csucsszervezetek/"
     },
     {
@@ -780,8 +780,8 @@
     },
     {
       "url": "https://culture.hu/hu/wien/esemenyek",
-      "status": "ok",
-      "httpStatus": 200,
+      "status": "timeout",
+      "httpStatus": null,
       "resolvedUrl": "https://culture.hu/hu/wien/esemenyek"
     },
     {
@@ -1194,14 +1194,14 @@
     },
     {
       "url": "https://hccc.org/en/",
-      "status": "ok",
-      "httpStatus": 200,
+      "status": "timeout",
+      "httpStatus": null,
       "resolvedUrl": "https://hccc.org/en/"
     },
     {
       "url": "https://hccc.org/en/introduction/",
-      "status": "ok",
-      "httpStatus": 200,
+      "status": "timeout",
+      "httpStatus": null,
       "resolvedUrl": "https://hccc.org/en/introduction/"
     },
     {
@@ -1335,12 +1335,6 @@
       "status": "ok",
       "httpStatus": 200,
       "resolvedUrl": "https://hungariancleveland.org/event/consular-days-konzuli-napok-2/"
-    },
-    {
-      "url": "https://hungariancleveland.org/event/magyar-menyegzo-filmvetites-hungarian-wedding-film-screening-west-side-hungarian-reformed-church/",
-      "status": "ok",
-      "httpStatus": 200,
-      "resolvedUrl": "https://hungariancleveland.org/event/magyar-menyegzo-filmvetites-hungarian-wedding-film-screening-west-side-hungarian-reformed-church/"
     },
     {
       "url": "https://hungariancleveland.org/hungarian-church-services/",
@@ -1590,8 +1584,8 @@
     },
     {
       "url": "https://komensky.at/kindergarten-informationen/",
-      "status": "ok",
-      "httpStatus": 200,
+      "status": "network-error",
+      "httpStatus": null,
       "resolvedUrl": "https://komensky.at/kindergarten-informationen/"
     },
     {
@@ -1602,15 +1596,15 @@
     },
     {
       "url": "https://koppenhagaimagyariskola.blogspot.com/",
-      "status": "rate-limited",
-      "httpStatus": 429,
-      "resolvedUrl": "https://www.google.com/sorry/index?continue=https://koppenhagaimagyariskola.blogspot.com/&q=EgQ0pWZVGKfx3NYGIi1mYT548zor0qkcouKzibfT1jKKPM-0Ew3xkFNUi0DJ-dqgCc5d6LYNiQ1TiAwyAnJSWgFDYOXxnv-5pIXR_wE"
+      "status": "ok",
+      "httpStatus": 200,
+      "resolvedUrl": "https://koppenhagaimagyariskola.blogspot.com/"
     },
     {
       "url": "https://koppenhagaimagyariskola.blogspot.com/p/blog-page.html",
-      "status": "rate-limited",
-      "httpStatus": 429,
-      "resolvedUrl": "https://www.google.com/sorry/index?continue=https://koppenhagaimagyariskola.blogspot.com/p/blog-page.html&q=EgQ0pWZVGKfx3NYGIi2agEZZ0e7uvzHYKQMM_E2gp7pLx0PVIPOXq56QgB0JcZH_23i1ib9sNhnxugcyAnJSWgFDYLinq-vHhcCV1AE"
+      "status": "ok",
+      "httpStatus": 200,
+      "resolvedUrl": "https://koppenhagaimagyariskola.blogspot.com/p/blog-page.html"
     },
     {
       "url": "https://korosicsomasandormagyariskola.com/",
@@ -1706,7 +1700,7 @@
       "url": "https://leaninfemspace.at/",
       "status": "ok",
       "httpStatus": 200,
-      "resolvedUrl": "https://leaninfemspace.at/hu/mentorprogram/"
+      "resolvedUrl": "https://leaninfemspace.at/en/what-we-do/mentorprogramme/"
     },
     {
       "url": "https://lexikon.katolikus.hu/M/Magyar%20Pax%20Romana%20Katolikus%20%C3%89rtelmis%C3%A9gi%20Mozgalom.html",
@@ -1890,8 +1884,8 @@
     },
     {
       "url": "https://mb.211.ca/detail/44798881/",
-      "status": "timeout",
-      "httpStatus": null,
+      "status": "ok",
+      "httpStatus": 200,
       "resolvedUrl": "https://mb.211.ca/detail/44798881/"
     },
     {
@@ -1968,8 +1962,8 @@
     },
     {
       "url": "https://ms-herrenried.edupage.org/",
-      "status": "network-error",
-      "httpStatus": null,
+      "status": "ok",
+      "httpStatus": 200,
       "resolvedUrl": "https://ms-herrenried.edupage.org/"
     },
     {
@@ -1980,14 +1974,14 @@
     },
     {
       "url": "https://mta.hu/data/dokumentumok/magyar_tudomanyossag_kulfoldon/sajt%C3%B3szemle/HTMT_sajto20260507.pdf",
-      "status": "ok",
-      "httpStatus": 200,
+      "status": "http-error",
+      "httpStatus": 503,
       "resolvedUrl": "https://mta.hu/data/dokumentumok/magyar_tudomanyossag_kulfoldon/sajt%C3%B3szemle/HTMT_sajto20260507.pdf"
     },
     {
       "url": "https://mta.hu/magyar-tudomanyossag-kulfoldon/az-mta-hataron-tuli-testuletei-105353",
-      "status": "ok",
-      "httpStatus": 200,
+      "status": "http-error",
+      "httpStatus": 503,
       "resolvedUrl": "https://mta.hu/magyar-tudomanyossag-kulfoldon/az-mta-hataron-tuli-testuletei-105353"
     },
     {
@@ -2153,6 +2147,12 @@
       "resolvedUrl": "https://podiverzum.hu/podcast/orf-magyarok-podcast/idoutazas-es-megemlekezes-az-alsoori-cserkeszdelutanon-deaf57f3"
     },
     {
+      "url": "https://programvalaszto.magyariskola.at/foglalkozasok.html",
+      "status": "ok",
+      "httpStatus": 200,
+      "resolvedUrl": "https://programvalaszto.magyariskola.at/foglalkozasok.html"
+    },
+    {
       "url": "https://quarterdetroit.com/",
       "status": "ok",
       "httpStatus": 200,
@@ -2184,9 +2184,9 @@
     },
     {
       "url": "https://refmont.blogspot.com/",
-      "status": "rate-limited",
-      "httpStatus": 429,
-      "resolvedUrl": "https://www.google.com/sorry/index?continue=https://refmont.blogspot.com/&q=EgQ0pWZVGK3x3NYGIi150h3MVs4KgK5EUzIzLL0tUtmoCoZVIZ5NjxqoC0krB8ds41UoMOOh6f2Ib-8yAnJSWgFDYJXsr-nxrpmQHg"
+      "status": "ok",
+      "httpStatus": 200,
+      "resolvedUrl": "https://refmont.blogspot.com/"
     },
     {
       "url": "https://reformatus.at/",
@@ -4386,14 +4386,14 @@
     },
     {
       "url": "https://www.dan-magyar.dk/",
-      "status": "network-error",
-      "httpStatus": null,
+      "status": "ok",
+      "httpStatus": 200,
       "resolvedUrl": "https://www.dan-magyar.dk/"
     },
     {
       "url": "https://www.dan-magyar.dk/?page_id=1344",
-      "status": "network-error",
-      "httpStatus": null,
+      "status": "ok",
+      "httpStatus": 200,
       "resolvedUrl": "https://www.dan-magyar.dk/?page_id=1344"
     },
     {
@@ -4706,13 +4706,13 @@
       "url": "https://www.facebook.com/danmagyaregyesulet",
       "status": "ok",
       "httpStatus": 200,
-      "resolvedUrl": "https://www.facebook.com/danmagyaregyesulet"
+      "resolvedUrl": "https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2Fdanmagyaregyesulet"
     },
     {
       "url": "https://www.facebook.com/evangelikusat/",
       "status": "ok",
       "httpStatus": 200,
-      "resolvedUrl": "https://www.facebook.com/evangelikusat/"
+      "resolvedUrl": "https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2Fevangelikusat%2F"
     },
     {
       "url": "https://www.facebook.com/groups/1283180622014969/",
@@ -4802,7 +4802,7 @@
       "url": "https://www.facebook.com/kultpult",
       "status": "ok",
       "httpStatus": 200,
-      "resolvedUrl": "https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2Fkultpult"
+      "resolvedUrl": "https://www.facebook.com/kultpult"
     },
     {
       "url": "https://www.facebook.com/leaninfemspace/",
@@ -4916,13 +4916,13 @@
       "url": "https://www.facebook.com/share/1YXeCFjNnK/?mibextid=wwXIfr",
       "status": "ok",
       "httpStatus": 200,
-      "resolvedUrl": "https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2Fwelovemusicandwords%3Fmibextid%3DwwXIfr%26rdid%3DVQwGTqt2r3IzGsu5%26share_url%3Dhttps%253A%252F%252Fwww.facebook.com%252Fshare%252F1YXeCFjNnK%252F%253Fmibextid%253DwwXIfr&rdid=VQwGTqt2r3IzGsu5"
+      "resolvedUrl": "https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2Fwelovemusicandwords%3Fmibextid%3DwwXIfr%26rdid%3Di1P89Ifgf3giw9ZS%26share_url%3Dhttps%253A%252F%252Fwww.facebook.com%252Fshare%252F1YXeCFjNnK%252F%253Fmibextid%253DwwXIfr&rdid=i1P89Ifgf3giw9ZS"
     },
     {
       "url": "https://www.facebook.com/share/1daRJj3QUu/?mibextid=wwXIfr",
       "status": "ok",
       "httpStatus": 200,
-      "resolvedUrl": "https://www.facebook.com/people/AMAPED-Ausztriai-Magyar-Pedag%C3%B3gusok-Egyes%C3%BClete/100076361554158/?mibextid=wwXIfr&rdid=B74HB36McBex3cs1&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F1daRJj3QUu%2F%3Fmibextid%3DwwXIfr"
+      "resolvedUrl": "https://www.facebook.com/people/AMAPED-Ausztriai-Magyar-Pedag%C3%B3gusok-Egyes%C3%BClete/100076361554158/?mibextid=wwXIfr&rdid=DiNmMhGIXCw7pYzt&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F1daRJj3QUu%2F%3Fmibextid%3DwwXIfr"
     },
     {
       "url": "https://www.facebook.com/ungarischer.schulverein",
@@ -5597,12 +5597,6 @@
       "resolvedUrl": "https://www.kozpontiszovetseg.at/event-details/adjuk-meg-a-modjat-dragoman-gyorgy-becsben"
     },
     {
-      "url": "https://www.kozpontiszovetseg.at/event-details/az-1956-oktober-23-i-forradalom-es-szabadsagharc-70-evforduloja-nemzeti-unnepi-megemlekezes",
-      "status": "ok",
-      "httpStatus": 200,
-      "resolvedUrl": "https://www.kozpontiszovetseg.at/event-details/az-1956-oktober-23-i-forradalom-es-szabadsagharc-70-evforduloja-nemzeti-unnepi-megemlekezes"
-    },
-    {
       "url": "https://www.kozpontiszovetseg.at/event-details/becsi-naplo",
       "status": "ok",
       "httpStatus": 200,
@@ -5735,6 +5729,12 @@
       "resolvedUrl": "https://www.linz.at/medienservice/2025/202508_132151.php"
     },
     {
+      "url": "https://www.lutzmannsburg.eu/70_Jahre_Ungarischer_Volksaufstand_1956_2026_-_Gedenkveranstaltung",
+      "status": "tls-error",
+      "httpStatus": null,
+      "resolvedUrl": "https://www.lutzmannsburg.eu/70_Jahre_Ungarischer_Volksaufstand_1956_2026_-_Gedenkveranstaltung"
+    },
+    {
       "url": "https://www.madach.es/boletin/",
       "status": "network-error",
       "httpStatus": null,
@@ -5742,15 +5742,15 @@
     },
     {
       "url": "https://www.magyarhazbrusszel.be/",
-      "status": "rate-limited",
-      "httpStatus": 429,
-      "resolvedUrl": "https://www.google.com/sorry/index?continue=https://www.magyarhazbrusszel.be/&q=EgQ0pWZVGM_x3NYGIi0fG1I_9bGUJQI7dr2QMyV38zQeMndcNtIw8gEvVgpf61b3tx4xDoSWSfPdhnUyAnJSWgFDYLK57YXCxr6KjAE"
+      "status": "ok",
+      "httpStatus": 200,
+      "resolvedUrl": "https://www.magyarhazbrusszel.be/"
     },
     {
       "url": "https://www.magyarhazbrusszel.be/2026/",
-      "status": "rate-limited",
-      "httpStatus": 429,
-      "resolvedUrl": "https://www.google.com/sorry/index?continue=https://www.magyarhazbrusszel.be/2026/&q=EgQ0pWZVGNDx3NYGIi1U9NLYtOf2tTej5z0Phb3ZEOnW2JI-CpPTCWY8qU2z9RuWkHyd1-yBAQABNc0yAnJSWgFDYLyrvrHFm5CikQE"
+      "status": "ok",
+      "httpStatus": 200,
+      "resolvedUrl": "https://www.magyarhazbrusszel.be/2026/"
     },
     {
       "url": "https://www.magyariskola.at/",
@@ -6408,20 +6408,20 @@
     },
     {
       "url": "https://www.smosz.org/",
-      "status": "network-error",
-      "httpStatus": null,
+      "status": "ok",
+      "httpStatus": 200,
       "resolvedUrl": "https://www.smosz.org/"
     },
     {
       "url": "https://www.smosz.org/index.php/component/content/article/kozponti-eloadasok?catid=14",
-      "status": "network-error",
-      "httpStatus": null,
+      "status": "ok",
+      "httpStatus": 200,
       "resolvedUrl": "https://www.smosz.org/index.php/component/content/article/kozponti-eloadasok?catid=14"
     },
     {
       "url": "https://www.smosz.org/index.php/hazak/magyar-haz",
-      "status": "network-error",
-      "httpStatus": null,
+      "status": "ok",
+      "httpStatus": 200,
       "resolvedUrl": "https://www.smosz.org/index.php/hazak/magyar-haz"
     },
     {

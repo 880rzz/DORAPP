@@ -737,7 +737,7 @@
       "name": {
         "en": "Belize"
       },
-      "researchStatus": "unresearched",
+      "researchStatus": "researching",
       "countryDataPath": "data/countries/bz/",
       "route": "countries/bz/",
       "counts": {
@@ -747,7 +747,9 @@
         "events": 0,
         "education": 0
       },
-      "iso3": "BLZ"
+      "iso3": "BLZ",
+      "lastResearchAttemptAt": "2026-10-21T07:58:23+00:00",
+      "discoveryCandidateCount": 48
     },
     {
       "iso2": "ca",
@@ -4434,7 +4436,7 @@
         "organizations": 78,
         "activities": 0,
         "entities": 78,
-        "events": 26,
+        "events": 25,
         "education": 23
       },
       "iso3": "USA",
