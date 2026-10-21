@@ -1,9 +1,9 @@
 {
-  "updated": "2026-10-20T09:58:52.578932+00:00",
+  "updated": "2026-10-21T01:42:22.302620+00:00",
   "summary": {
     "organizations": 162,
-    "organizationFlags": 1,
-    "organizationPagesChecked": 342,
+    "organizationFlags": 2,
+    "organizationPagesChecked": 337,
     "education": 108,
     "educationFlags": 0,
     "events": 75,
@@ -1013,18 +1013,16 @@
         "media",
         "egyhaz",
         "irodalom",
-        "sport"
+        "muveszet",
+        "sport",
+        "csalad"
       ],
-      "pagesChecked": 1,
+      "pagesChecked": 2,
       "checkedUrls": [
+        "https://www.burgenland.at/themen/wissenschaft/landesbibliothek/",
         "https://volksgruppen.orf.at/magyarok/stories/3361229/"
       ],
-      "errors": [
-        {
-          "url": "https://www.burgenland.at/themen/wissenschaft/landesbibliothek/",
-          "error": "<urlopen error [Errno -3] Temporary failure in name resolution>"
-        }
-      ],
+      "errors": [],
       "flags": []
     },
     {
@@ -1120,20 +1118,23 @@
       "activityCategories": [],
       "signals": [
         "oktatas",
-        "szinhaz",
         "media",
-        "irodalom",
-        "muveszet",
-        "csalad"
+        "irodalom"
       ],
-      "pagesChecked": 3,
+      "pagesChecked": 2,
       "checkedUrls": [
         "https://culture.hu/hu/wien",
-        "https://culture.hu/hu/wien/esemenyek",
         "https://culture.hu/de/wien/jubilaum"
       ],
-      "errors": [],
-      "flags": []
+      "errors": [
+        {
+          "url": "https://culture.hu/hu/wien/esemenyek",
+          "error": "The read operation timed out"
+        }
+      ],
+      "flags": [
+        "weak-source-signal:muveszet"
+      ]
     },
     {
       "id": "collegium-pazmanianum",
@@ -1471,22 +1472,9 @@
         "kultura"
       ],
       "activityCategories": [],
-      "signals": [
-        "oktatas",
-        "neptanc",
-        "szinhaz",
-        "media",
-        "egyhaz",
-        "diak",
-        "irodalom",
-        "muveszet"
-      ],
-      "pagesChecked": 3,
-      "checkedUrls": [
-        "https://europaclub.at/",
-        "https://europaclub.at/rolunk/europa-club-tortenete/",
-        "https://europaclub.at/de/kontakt/"
-      ],
+      "signals": [],
+      "pagesChecked": 0,
+      "checkedUrls": [],
       "errors": [],
       "flags": []
     },
@@ -1844,19 +1832,20 @@
       "activityCategories": [],
       "signals": [
         "oktatas",
+        "nepzene",
         "media",
+        "egyhaz",
         "irodalom",
-        "sport"
+        "muveszet",
+        "sport",
+        "csalad"
       ],
-      "pagesChecked": 1,
+      "pagesChecked": 2,
       "checkedUrls": [
+        "https://www.burgenland.at/service/medienservice/aktuelle-meldungen/detail/lh-doskozil-haus-der-volksgruppen-setzt-meilenstein-fuer-vielfalt-und-zusammenhalt/",
         "https://burgenland.orf.at/stories/3372614/"
       ],
       "errors": [
-        {
-          "url": "https://www.burgenland.at/service/medienservice/aktuelle-meldungen/detail/lh-doskozil-haus-der-volksgruppen-setzt-meilenstein-fuer-vielfalt-und-zusammenhalt/",
-          "error": "<urlopen error [Errno -3] Temporary failure in name resolution>"
-        },
         {
           "url": "https://www.oberwart.gv.at/stadt/termine/detail/termin/50-jahre-volksgruppengesetz-erreichtes-status-quo",
           "error": "HTTP Error 404: Not Found"
@@ -3333,7 +3322,6 @@
       ],
       "activityCategories": [],
       "signals": [
-        "oktatas",
         "media",
         "irodalom",
         "csalad"
@@ -3477,7 +3465,6 @@
         "media",
         "diak",
         "irodalom",
-        "muveszet",
         "sport",
         "csalad"
       ],
@@ -4029,21 +4016,23 @@
         "neptanc"
       ],
       "signals": [
-        "oktatas",
         "nepzene",
         "media",
         "diak",
         "muveszet",
-        "sport",
-        "csalad"
+        "sport"
       ],
-      "pagesChecked": 3,
+      "pagesChecked": 2,
       "checkedUrls": [
-        "https://ungarball.at/",
         "https://volksgruppen.orf.at/v2/magyarok/stories/2694653/",
         "https://www.flickr.com/photos/vipach/55099423490"
       ],
-      "errors": [],
+      "errors": [
+        {
+          "url": "https://ungarball.at/",
+          "error": "<urlopen error [Errno 101] Network is unreachable>"
+        }
+      ],
       "flags": []
     },
     {
@@ -4069,13 +4058,20 @@
         "sport",
         "csalad"
       ],
-      "pagesChecked": 3,
+      "pagesChecked": 1,
       "checkedUrls": [
-        "https://ungarball.at/",
-        "https://ungarball.at/impressum",
         "https://www.kozpontiszovetseg.at/tagszervezetek"
       ],
-      "errors": [],
+      "errors": [
+        {
+          "url": "https://ungarball.at/",
+          "error": "<urlopen error [Errno 101] Network is unreachable>"
+        },
+        {
+          "url": "https://ungarball.at/impressum",
+          "error": "<urlopen error [Errno 101] Network is unreachable>"
+        }
+      ],
       "flags": []
     },
     {
