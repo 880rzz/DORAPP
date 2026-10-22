@@ -1,9 +1,9 @@
 {
-  "updated": "2026-10-22T09:25:49.715614+00:00",
+  "updated": "2026-10-22T10:03:49.773615+00:00",
   "summary": {
     "organizations": 162,
     "organizationFlags": 1,
-    "organizationPagesChecked": 336,
+    "organizationPagesChecked": 337,
     "education": 108,
     "educationFlags": 0,
     "events": 72,
@@ -249,16 +249,19 @@
         "diak",
         "irodalom",
         "muveszet",
-        "sport",
         "csalad"
       ],
-      "pagesChecked": 3,
+      "pagesChecked": 2,
       "checkedUrls": [
         "https://rolunk.at/ausztriai-magyar-egyesuletek/",
-        "https://rolunk.at/magazin/ti-is-tancoltok-csardast/",
-        "https://volksgruppen.orf.at/magyarok/stories/3159451/"
+        "https://rolunk.at/magazin/ti-is-tancoltok-csardast/"
       ],
-      "errors": [],
+      "errors": [
+        {
+          "url": "https://volksgruppen.orf.at/magyarok/stories/3159451/",
+          "error": "The read operation timed out"
+        }
+      ],
       "flags": []
     },
     {
@@ -1446,9 +1449,22 @@
         "kultura"
       ],
       "activityCategories": [],
-      "signals": [],
-      "pagesChecked": 0,
-      "checkedUrls": [],
+      "signals": [
+        "oktatas",
+        "neptanc",
+        "szinhaz",
+        "media",
+        "egyhaz",
+        "diak",
+        "irodalom",
+        "muveszet"
+      ],
+      "pagesChecked": 3,
+      "checkedUrls": [
+        "https://europaclub.at/",
+        "https://europaclub.at/rolunk/europa-club-tortenete/",
+        "https://europaclub.at/de/kontakt/"
+      ],
       "errors": [],
       "flags": []
     },
@@ -2030,7 +2046,12 @@
         "https://www.dibk.at/Media/Organisationen/muttersprachliche-seelsorge",
         "https://www.kozpontiszovetseg.at/tagszervezetek"
       ],
-      "errors": [],
+      "errors": [
+        {
+          "url": "https://epa.oszk.hu/04000/04031/00189/pdf/EPA04031_eletunk_2017_01.pdf",
+          "error": "<urlopen error [Errno 111] Connection refused>"
+        }
+      ],
       "flags": []
     },
     {
@@ -2888,7 +2909,12 @@
         "https://volksgruppen.orf.at/magyarok/stories/3337903/",
         "https://volksgruppen.orf.at/magyarok/stories/3068208/"
       ],
-      "errors": [],
+      "errors": [
+        {
+          "url": "https://epa.oszk.hu/04000/04031/00580/pdf/EPA04031_eletunk_2021_12.pdf",
+          "error": "<urlopen error [Errno 111] Connection refused>"
+        }
+      ],
       "flags": []
     },
     {
@@ -3373,13 +3399,17 @@
         "sport",
         "csalad"
       ],
-      "pagesChecked": 3,
+      "pagesChecked": 2,
       "checkedUrls": [
-        "https://volksgruppen.orf.at/magyarok/stories/3345907/",
         "https://rolunk.at/kultura/uj-rendezovel-keszul-az-idei-eloadas/",
         "https://rolunk.at/kultura/tevedesek-ejszakaja-premier-a-felsoori-szinjatszoknal/"
       ],
-      "errors": [],
+      "errors": [
+        {
+          "url": "https://volksgruppen.orf.at/magyarok/stories/3345907/",
+          "error": "The read operation timed out"
+        }
+      ],
       "flags": []
     },
     {
