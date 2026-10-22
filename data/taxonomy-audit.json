@@ -1,9 +1,9 @@
 {
-  "updated": "2026-10-21T10:02:27.856966+00:00",
+  "updated": "2026-10-22T01:11:41.079695+00:00",
   "summary": {
     "organizations": 162,
-    "organizationFlags": 1,
-    "organizationPagesChecked": 349,
+    "organizationFlags": 2,
+    "organizationPagesChecked": 335,
     "education": 108,
     "educationFlags": 0,
     "events": 75,
@@ -69,25 +69,18 @@
       ],
       "activityCategories": [],
       "signals": [
+        "oktatas",
+        "media",
         "irodalom",
+        "sport",
         "csalad"
       ],
-      "pagesChecked": 0,
-      "checkedUrls": [],
-      "errors": [
-        {
-          "url": "https://bgld.arbeiterkammer.at/service/buecherei/akbuechereieisenstadt/index.html",
-          "error": "<urlopen error timed out>"
-        },
-        {
-          "url": "https://bgld.arbeiterkammer.at/beratung/Bildung/arbeitswelt/Buecherei-Angebote.html",
-          "error": "<urlopen error timed out>"
-        },
-        {
-          "url": "https://mta.hu/data/dokumentumok/magyar_tudomanyossag_kulfoldon/sajt%C3%B3szemle/HTMT_sajto20260507.pdf",
-          "error": "HTTP Error 503: Service Unavailable"
-        }
+      "pagesChecked": 2,
+      "checkedUrls": [
+        "https://bgld.arbeiterkammer.at/service/buecherei/akbuechereieisenstadt/index.html",
+        "https://bgld.arbeiterkammer.at/beratung/Bildung/arbeitswelt/Buecherei-Angebote.html"
       ],
+      "errors": [],
       "flags": []
     },
     {
@@ -133,17 +126,24 @@
       ],
       "activityCategories": [],
       "signals": [
-        "media",
-        "egyhaz",
-        "csalad"
+        "egyhaz"
       ],
-      "pagesChecked": 3,
-      "checkedUrls": [
-        "https://www.martinus.at/",
-        "https://www.martinus.at/pfarre/1127/kalender",
-        "https://www.martinus.at/unterwart"
+      "pagesChecked": 0,
+      "checkedUrls": [],
+      "errors": [
+        {
+          "url": "https://www.martinus.at/",
+          "error": "<urlopen error timed out>"
+        },
+        {
+          "url": "https://www.martinus.at/pfarre/1127/kalender",
+          "error": "<urlopen error timed out>"
+        },
+        {
+          "url": "https://www.martinus.at/unterwart",
+          "error": "<urlopen error timed out>"
+        }
       ],
-      "errors": [],
       "flags": []
     },
     {
@@ -313,7 +313,7 @@
       "errors": [
         {
           "url": "https://amaped.at/2026/02/11/szeretettel-varunk-mindenkit-foglalkozasainkon-a-tavaszi-felevben-is/",
-          "error": "HTTP Error 404: Not Found"
+          "error": "HTTP Error 403: Forbidden"
         }
       ],
       "flags": []
@@ -341,7 +341,7 @@
       "errors": [
         {
           "url": "https://amaped.at/2023/09/15/indul-a-tanev/",
-          "error": "HTTP Error 404: Not Found"
+          "error": "HTTP Error 403: Forbidden"
         }
       ],
       "flags": []
@@ -369,7 +369,7 @@
       "errors": [
         {
           "url": "https://amaped.at/2023/09/15/indul-a-tanev/",
-          "error": "HTTP Error 404: Not Found"
+          "error": "HTTP Error 403: Forbidden"
         }
       ],
       "flags": []
@@ -395,7 +395,7 @@
       "errors": [
         {
           "url": "https://amaped.at/2026/02/11/szeretettel-varunk-mindenkit-foglalkozasainkon-a-tavaszi-felevben-is/",
-          "error": "HTTP Error 404: Not Found"
+          "error": "HTTP Error 403: Forbidden"
         }
       ],
       "flags": []
@@ -1013,9 +1013,7 @@
         "media",
         "egyhaz",
         "irodalom",
-        "muveszet",
-        "sport",
-        "csalad"
+        "sport"
       ],
       "pagesChecked": 2,
       "checkedUrls": [
@@ -1044,17 +1042,13 @@
         "sport",
         "csalad"
       ],
-      "pagesChecked": 2,
+      "pagesChecked": 3,
       "checkedUrls": [
         "https://www.burgenlandicserkesz.at/",
-        "https://volksgruppen.orf.at/magyarok/stories/3333230/"
+        "https://volksgruppen.orf.at/magyarok/stories/3333230/",
+        "https://podiverzum.hu/podcast/orf-magyarok-podcast/idoutazas-es-megemlekezes-az-alsoori-cserkeszdelutanon-deaf57f3"
       ],
-      "errors": [
-        {
-          "url": "https://burgenlandicserkesz.at/en/",
-          "error": "HTTP Error 404: Not Found"
-        }
-      ],
+      "errors": [],
       "flags": []
     },
     {
@@ -1118,20 +1112,23 @@
       "activityCategories": [],
       "signals": [
         "oktatas",
-        "szinhaz",
         "media",
-        "irodalom",
-        "muveszet",
-        "csalad"
+        "irodalom"
       ],
-      "pagesChecked": 3,
+      "pagesChecked": 2,
       "checkedUrls": [
         "https://culture.hu/hu/wien",
-        "https://culture.hu/hu/wien/esemenyek",
         "https://culture.hu/de/wien/jubilaum"
       ],
-      "errors": [],
-      "flags": []
+      "errors": [
+        {
+          "url": "https://culture.hu/hu/wien/esemenyek",
+          "error": "The read operation timed out"
+        }
+      ],
+      "flags": [
+        "weak-source-signal:muveszet"
+      ]
     },
     {
       "id": "collegium-pazmanianum",
@@ -1469,23 +1466,23 @@
         "kultura"
       ],
       "activityCategories": [],
-      "signals": [
-        "oktatas",
-        "neptanc",
-        "szinhaz",
-        "media",
-        "egyhaz",
-        "diak",
-        "irodalom",
-        "muveszet"
+      "signals": [],
+      "pagesChecked": 0,
+      "checkedUrls": [],
+      "errors": [
+        {
+          "url": "https://europaclub.at/",
+          "error": "HTTP Error 503: Service Temporarily Unavailable"
+        },
+        {
+          "url": "https://europaclub.at/rolunk/europa-club-tortenete/",
+          "error": "HTTP Error 503: Service Temporarily Unavailable"
+        },
+        {
+          "url": "https://europaclub.at/de/kontakt/",
+          "error": "HTTP Error 503: Service Temporarily Unavailable"
+        }
       ],
-      "pagesChecked": 3,
-      "checkedUrls": [
-        "https://europaclub.at/",
-        "https://europaclub.at/rolunk/europa-club-tortenete/",
-        "https://europaclub.at/de/kontakt/"
-      ],
-      "errors": [],
       "flags": []
     },
     {
@@ -1578,16 +1575,24 @@
       ],
       "activityCategories": [],
       "signals": [
-        "media",
         "egyhaz"
       ],
-      "pagesChecked": 3,
-      "checkedUrls": [
-        "https://www.martinus.at/pfarre/1122",
-        "https://www.martinus.at/pfarre/1122/kalender",
-        "https://www.martinus.at/pfarre/1122/kalender/calendar/1808040.html"
+      "pagesChecked": 0,
+      "checkedUrls": [],
+      "errors": [
+        {
+          "url": "https://www.martinus.at/pfarre/1122",
+          "error": "<urlopen error timed out>"
+        },
+        {
+          "url": "https://www.martinus.at/pfarre/1122/kalender",
+          "error": "<urlopen error timed out>"
+        },
+        {
+          "url": "https://www.martinus.at/pfarre/1122/kalender/calendar/1808040.html",
+          "error": "<urlopen error timed out>"
+        }
       ],
-      "errors": [],
       "flags": []
     },
     {
@@ -1834,13 +1839,9 @@
       "activityCategories": [],
       "signals": [
         "oktatas",
-        "nepzene",
         "media",
-        "egyhaz",
         "irodalom",
-        "muveszet",
-        "sport",
-        "csalad"
+        "sport"
       ],
       "pagesChecked": 2,
       "checkedUrls": [
@@ -1871,13 +1872,17 @@
         "irodalom",
         "csalad"
       ],
-      "pagesChecked": 3,
+      "pagesChecked": 2,
       "checkedUrls": [
         "https://linktr.ee/hungaromedia",
-        "https://kupf.at/mitglieder/hungaromedia/",
-        "https://www.linz.at/medienservice/2025/202508_132151.php"
+        "https://kupf.at/mitglieder/hungaromedia/"
       ],
-      "errors": [],
+      "errors": [
+        {
+          "url": "https://www.linz.at/medienservice/2025/202508_132151.php",
+          "error": "<urlopen error timed out>"
+        }
+      ],
       "flags": []
     },
     {
@@ -1993,7 +1998,7 @@
       "errors": [
         {
           "url": "https://kalaka-club.at/",
-          "error": "HTTP Error 500: Internal Server Error"
+          "error": "HTTP Error 503: Service Unavailable"
         }
       ],
       "flags": []
@@ -2099,14 +2104,16 @@
       "signals": [
         "egyhaz"
       ],
-      "pagesChecked": 1,
-      "checkedUrls": [
-        "https://www.edsbg.at/seelsorge/weltkirche/anderssprachige-seelsorge/ungarische-gemeinde"
-      ],
+      "pagesChecked": 0,
+      "checkedUrls": [],
       "errors": [
         {
+          "url": "https://www.edsbg.at/seelsorge/weltkirche/anderssprachige-seelsorge/ungarische-gemeinde",
+          "error": "<urlopen error timed out>"
+        },
+        {
           "url": "https://www.edsbg.at/dl/klOKJmMJKNLMKJqx4KJK/ungarischsprachige_Gottesdienstgemeinde_Salzburg_pdf",
-          "error": "HTTP Error 400: Bad Request"
+          "error": "<urlopen error timed out>"
         }
       ],
       "flags": []
@@ -2397,11 +2404,18 @@
         "irodalom",
         "csalad"
       ],
-      "pagesChecked": 1,
-      "checkedUrls": [
-        "https://www.linz.at/medienservice/2025/202508_132151.php"
+      "pagesChecked": 0,
+      "checkedUrls": [],
+      "errors": [
+        {
+          "url": "https://www.linz.at/medienservice/2025/202508_132151.php",
+          "error": "<urlopen error timed out>"
+        },
+        {
+          "url": "https://wissensturm.linz.at/images/files/Jahresbericht_Stadtbibliothek_Linz_2025_web.pdf",
+          "error": "<urlopen error timed out>"
+        }
       ],
-      "errors": [],
       "flags": []
     },
     {
@@ -2997,8 +3011,8 @@
       ],
       "activityCategories": [],
       "signals": [
-        "oktatas",
         "media",
+        "egyhaz",
         "irodalom",
         "muveszet",
         "sport",
@@ -3857,17 +3871,23 @@
         "media",
         "egyhaz",
         "irodalom",
-        "muveszet",
         "sport",
         "csalad"
       ],
-      "pagesChecked": 3,
+      "pagesChecked": 1,
       "checkedUrls": [
-        "https://wissensturm.linz.at/bibliothek/wissensturm.php",
-        "https://wissensturm.linz.at/Integration.php",
         "https://volksgruppen.orf.at/magyarok/stories/3351276/"
       ],
-      "errors": [],
+      "errors": [
+        {
+          "url": "https://wissensturm.linz.at/bibliothek/wissensturm.php",
+          "error": "<urlopen error timed out>"
+        },
+        {
+          "url": "https://wissensturm.linz.at/Integration.php",
+          "error": "<urlopen error timed out>"
+        }
+      ],
       "flags": []
     },
     {
@@ -3881,21 +3901,25 @@
       ],
       "activityCategories": [],
       "signals": [
-        "oktatas",
-        "media",
-        "egyhaz",
         "diak",
-        "irodalom",
-        "muveszet",
-        "csalad"
+        "irodalom"
       ],
-      "pagesChecked": 3,
-      "checkedUrls": [
-        "https://buch.stadt-salzburg.at/",
-        "https://buch.stadt-salzburg.at/Mediensuche/Erweiterte-Suche",
-        "https://buch.stadt-salzburg.gv.at/Mediensuche/Einfache-Suche?detail=6&focusModule=searchmodule&pagesize=50&searchhash=OCLC_c58b9092580f15d9d195d8ca279d096abfc183c4&top=y"
+      "pagesChecked": 0,
+      "checkedUrls": [],
+      "errors": [
+        {
+          "url": "https://buch.stadt-salzburg.at/",
+          "error": "<urlopen error timed out>"
+        },
+        {
+          "url": "https://buch.stadt-salzburg.at/Mediensuche/Erweiterte-Suche",
+          "error": "<urlopen error timed out>"
+        },
+        {
+          "url": "https://buch.stadt-salzburg.gv.at/Mediensuche/Einfache-Suche?detail=6&focusModule=searchmodule&pagesize=50&searchhash=OCLC_c58b9092580f15d9d195d8ca279d096abfc183c4&top=y",
+          "error": "<urlopen error timed out>"
+        }
       ],
-      "errors": [],
       "flags": []
     },
     {
@@ -3991,17 +4015,18 @@
       "activityCategories": [],
       "signals": [
         "oktatas",
+        "neptanc",
         "nepzene",
+        "enekkar",
+        "szinhaz",
+        "media",
         "csalad"
       ],
-      "pagesChecked": 0,
-      "checkedUrls": [],
-      "errors": [
-        {
-          "url": "https://bukv.at/kindervolksmusikgruppe-szelforgok/",
-          "error": "HTTP Error 404: Not Found"
-        }
+      "pagesChecked": 1,
+      "checkedUrls": [
+        "https://bukv.at/gruppen/volksmusikgruppe-szelforgok/"
       ],
+      "errors": [],
       "flags": []
     },
     {
