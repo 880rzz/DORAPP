@@ -1,12 +1,12 @@
 {
-  "updated": "2026-10-22T01:11:41.079695+00:00",
+  "updated": "2026-10-22T01:15:10.986247+00:00",
   "summary": {
     "organizations": 162,
     "organizationFlags": 2,
-    "organizationPagesChecked": 335,
+    "organizationPagesChecked": 338,
     "education": 108,
     "educationFlags": 0,
-    "events": 75,
+    "events": 72,
     "eventFlags": 0
   },
   "organizations": [
@@ -436,15 +436,7 @@
       ],
       "activityCategories": [],
       "signals": [
-        "oktatas",
-        "neptanc",
-        "nepzene",
-        "enekkar",
-        "media",
-        "diak",
-        "irodalom",
-        "muveszet",
-        "csalad"
+        "enekkar"
       ],
       "pagesChecked": 1,
       "checkedUrls": [
@@ -725,17 +717,13 @@
         "muveszet",
         "csalad"
       ],
-      "pagesChecked": 2,
+      "pagesChecked": 3,
       "checkedUrls": [
+        "https://www.creativescience.hu/programjaink/becs-craft-workshop/",
         "https://www.magyariskola.at/event-details/becscraft-2026",
         "https://www.magyariskola.at/event-details/becs-craft-nyari-tabor-2026"
       ],
-      "errors": [
-        {
-          "url": "https://www.creativescience.hu/programjaink/becs-craft-workshop/",
-          "error": "HTTP Error 404: Not Found"
-        }
-      ],
+      "errors": [],
       "flags": []
     },
     {
@@ -1112,23 +1100,20 @@
       "activityCategories": [],
       "signals": [
         "oktatas",
+        "szinhaz",
         "media",
-        "irodalom"
+        "irodalom",
+        "muveszet",
+        "csalad"
       ],
-      "pagesChecked": 2,
+      "pagesChecked": 3,
       "checkedUrls": [
         "https://culture.hu/hu/wien",
+        "https://culture.hu/hu/wien/esemenyek",
         "https://culture.hu/de/wien/jubilaum"
       ],
-      "errors": [
-        {
-          "url": "https://culture.hu/hu/wien/esemenyek",
-          "error": "The read operation timed out"
-        }
-      ],
-      "flags": [
-        "weak-source-signal:muveszet"
-      ]
+      "errors": [],
+      "flags": []
     },
     {
       "id": "collegium-pazmanianum",
@@ -1303,14 +1288,9 @@
       ],
       "activityCategories": [],
       "signals": [
-        "oktatas",
         "neptanc",
         "nepzene",
         "enekkar",
-        "szinhaz",
-        "media",
-        "diak",
-        "irodalom",
         "sport",
         "csalad"
       ],
@@ -1520,10 +1500,6 @@
       ],
       "activityCategories": [],
       "signals": [
-        "oktatas",
-        "egyhaz",
-        "irodalom",
-        "muveszet",
         "csalad"
       ],
       "pagesChecked": 3,
@@ -1533,7 +1509,9 @@
         "https://fecskeklub.at/titkok-nyomaban/"
       ],
       "errors": [],
-      "flags": []
+      "flags": [
+        "weak-source-signal:oktatas"
+      ]
     },
     {
       "id": "felso-ausztriai-magyarok",
@@ -2314,18 +2292,16 @@
       ],
       "activityCategories": [],
       "signals": [
-        "oktatas",
-        "nepzene",
         "szinhaz",
-        "media",
         "irodalom",
         "muveszet",
         "csalad"
       ],
-      "pagesChecked": 2,
+      "pagesChecked": 3,
       "checkedUrls": [
         "https://kultpult.eu/",
-        "https://kultpult.eu/itthonotthon/"
+        "https://kultpult.eu/itthonotthon/",
+        "https://kultpult.eu/wp-content/uploads/2024/06/Altalanos-Szerzodesi-Feltetelek-kultpult.pdf"
       ],
       "errors": [],
       "flags": []
@@ -3336,6 +3312,7 @@
       ],
       "activityCategories": [],
       "signals": [
+        "oktatas",
         "media",
         "irodalom",
         "csalad"
@@ -3442,16 +3419,7 @@
       ],
       "activityCategories": [],
       "signals": [
-        "oktatas",
-        "neptanc",
-        "nepzene",
-        "enekkar",
-        "szinhaz",
-        "media",
-        "diak",
-        "muveszet",
-        "sport",
-        "csalad"
+        "nepzene"
       ],
       "pagesChecked": 3,
       "checkedUrls": [
@@ -3990,8 +3958,6 @@
       "activityCategories": [],
       "signals": [
         "szinhaz",
-        "media",
-        "irodalom",
         "muveszet",
         "csalad"
       ],
@@ -4122,11 +4088,7 @@
       ],
       "activityCategories": [],
       "signals": [
-        "oktatas",
         "neptanc",
-        "nepzene",
-        "media",
-        "diak",
         "csalad"
       ],
       "pagesChecked": 1,
