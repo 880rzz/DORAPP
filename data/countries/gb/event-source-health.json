@@ -1,15 +1,16 @@
 {
-  "updated": "2026-10-22T07:58:25.835226+00:00",
+  "updated": "2026-10-23T07:58:04.463252+00:00",
   "country": "gb",
   "sources": [
     {
       "entityId": "liszt-intezet-london",
       "entityType": "organization",
       "source": "https://culture.hu/uk/london/events",
-      "checkedAt": "2026-10-22T07:58:03.322588+00:00",
-      "status": "ok-no-structured-event",
+      "checkedAt": "2026-10-23T07:57:37.794240+00:00",
+      "status": "network-error",
       "eventsFound": 0,
-      "pagesChecked": 7
+      "pagesChecked": 0,
+      "error": "<urlopen error timed out>"
     }
   ]
 }

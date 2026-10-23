@@ -1,22 +1,22 @@
 {
-  "updated": "2026-10-22T07:58:54.125369+00:00",
+  "updated": "2026-10-23T07:58:22.950805+00:00",
   "country": "nl",
   "sources": [
     {
       "entityId": "hollandiai-magyar-szovetseg",
       "entityType": "organization",
       "source": "https://www.hongaarsefederatie.nl/esemenyek/",
-      "checkedAt": "2026-10-22T07:58:25.860177+00:00",
-      "status": "network-error",
+      "checkedAt": "2026-10-23T07:58:04.490437+00:00",
+      "status": "error",
       "eventsFound": 0,
       "pagesChecked": 0,
-      "error": "<urlopen error [Errno 101] Network is unreachable>"
+      "error": "HTTP Error 503: Service Unavailable"
     },
     {
       "entityId": "hungaria-club-1929",
       "entityType": "organization",
       "source": "https://www.hungariaclub1929.nl/nl/programma/",
-      "checkedAt": "2026-10-22T07:58:25.860480+00:00",
+      "checkedAt": "2026-10-23T07:58:04.490663+00:00",
       "status": "ok-no-structured-event",
       "eventsFound": 0,
       "pagesChecked": 6
@@ -25,11 +25,10 @@
       "entityId": "stichting-magyar-nota",
       "entityType": "organization",
       "source": "https://www.magyarnota.nl/magyar-nota-nl/activiteiten-magyarnota/",
-      "checkedAt": "2026-10-22T07:58:25.860784+00:00",
-      "status": "network-error",
+      "checkedAt": "2026-10-23T07:58:04.490911+00:00",
+      "status": "ok-no-structured-event",
       "eventsFound": 0,
-      "pagesChecked": 0,
-      "error": "<urlopen error timed out>"
+      "pagesChecked": 1
     }
   ]
 }

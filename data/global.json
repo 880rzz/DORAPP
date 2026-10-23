@@ -960,7 +960,7 @@
         "en": "China",
         "officialEn": "People's Republic of China"
       },
-      "researchStatus": "unresearched",
+      "researchStatus": "researching",
       "countryDataPath": "data/countries/cn/",
       "route": "countries/cn/",
       "counts": {
@@ -970,7 +970,9 @@
         "events": 0,
         "education": 0
       },
-      "iso3": "CHN"
+      "iso3": "CHN",
+      "lastResearchAttemptAt": "2026-10-23T07:54:25+00:00",
+      "discoveryCandidateCount": 55
     },
     {
       "iso2": "co",
@@ -4438,7 +4440,7 @@
         "organizations": 78,
         "activities": 0,
         "entities": 78,
-        "events": 25,
+        "events": 22,
         "education": 23
       },
       "iso3": "USA",
