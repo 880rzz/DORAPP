@@ -1,12 +1,12 @@
 {
-  "updated": "2026-10-22T10:03:49.773615+00:00",
+  "updated": "2026-10-23T09:22:25.929420+00:00",
   "summary": {
     "organizations": 162,
     "organizationFlags": 1,
-    "organizationPagesChecked": 337,
+    "organizationPagesChecked": 338,
     "education": 108,
     "educationFlags": 0,
-    "events": 72,
+    "events": 70,
     "eventFlags": 0
   },
   "organizations": [
@@ -99,7 +99,6 @@
         "szinhaz",
         "media",
         "egyhaz",
-        "diak",
         "irodalom",
         "muveszet",
         "sport"
@@ -191,7 +190,6 @@
         "szinhaz",
         "media",
         "egyhaz",
-        "diak",
         "irodalom",
         "sport",
         "csalad"
@@ -249,19 +247,16 @@
         "diak",
         "irodalom",
         "muveszet",
+        "sport",
         "csalad"
       ],
-      "pagesChecked": 2,
+      "pagesChecked": 3,
       "checkedUrls": [
         "https://rolunk.at/ausztriai-magyar-egyesuletek/",
-        "https://rolunk.at/magazin/ti-is-tancoltok-csardast/"
+        "https://rolunk.at/magazin/ti-is-tancoltok-csardast/",
+        "https://volksgruppen.orf.at/magyarok/stories/3159451/"
       ],
-      "errors": [
-        {
-          "url": "https://volksgruppen.orf.at/magyarok/stories/3159451/",
-          "error": "The read operation timed out"
-        }
-      ],
+      "errors": [],
       "flags": []
     },
     {
@@ -939,7 +934,6 @@
         "egyhaz",
         "diak",
         "irodalom",
-        "muveszet",
         "sport",
         "csalad"
       ],
@@ -1078,13 +1072,20 @@
         "sport",
         "csalad"
       ],
-      "pagesChecked": 3,
+      "pagesChecked": 1,
       "checkedUrls": [
-        "https://culture.hu/hu/wien/elerhetoseg",
-        "https://volksgruppen.orf.at/magyarok/stories/3358308/",
-        "https://culture.hu/hu/wien"
+        "https://volksgruppen.orf.at/magyarok/stories/3358308/"
       ],
-      "errors": [],
+      "errors": [
+        {
+          "url": "https://culture.hu/hu/wien/elerhetoseg",
+          "error": "<urlopen error timed out>"
+        },
+        {
+          "url": "https://culture.hu/hu/wien",
+          "error": "<urlopen error timed out>"
+        }
+      ],
       "flags": []
     },
     {
@@ -1097,20 +1098,24 @@
       ],
       "activityCategories": [],
       "signals": [
-        "oktatas",
-        "szinhaz",
-        "media",
-        "irodalom",
-        "muveszet",
-        "csalad"
+        "oktatas"
       ],
-      "pagesChecked": 3,
-      "checkedUrls": [
-        "https://culture.hu/hu/wien",
-        "https://culture.hu/hu/wien/esemenyek",
-        "https://culture.hu/de/wien/jubilaum"
+      "pagesChecked": 0,
+      "checkedUrls": [],
+      "errors": [
+        {
+          "url": "https://culture.hu/hu/wien",
+          "error": "<urlopen error timed out>"
+        },
+        {
+          "url": "https://culture.hu/hu/wien/esemenyek",
+          "error": "<urlopen error timed out>"
+        },
+        {
+          "url": "https://culture.hu/de/wien/jubilaum",
+          "error": "<urlopen error timed out>"
+        }
       ],
-      "errors": [],
       "flags": []
     },
     {
@@ -1126,7 +1131,6 @@
         "egyhaz",
         "diak",
         "irodalom",
-        "muveszet",
         "csalad"
       ],
       "pagesChecked": 2,
@@ -1152,7 +1156,6 @@
         "nepzene",
         "szinhaz",
         "media",
-        "diak",
         "irodalom",
         "muveszet",
         "sport",
@@ -1425,7 +1428,6 @@
         "szinhaz",
         "media",
         "egyhaz",
-        "diak",
         "irodalom",
         "muveszet",
         "sport",
@@ -1859,17 +1861,13 @@
         "irodalom",
         "csalad"
       ],
-      "pagesChecked": 2,
+      "pagesChecked": 3,
       "checkedUrls": [
         "https://linktr.ee/hungaromedia",
-        "https://kupf.at/mitglieder/hungaromedia/"
+        "https://kupf.at/mitglieder/hungaromedia/",
+        "https://www.linz.at/medienservice/2025/202508_132151.php"
       ],
-      "errors": [
-        {
-          "url": "https://www.linz.at/medienservice/2025/202508_132151.php",
-          "error": "<urlopen error timed out>"
-        }
-      ],
+      "errors": [],
       "flags": []
     },
     {
@@ -2046,12 +2044,7 @@
         "https://www.dibk.at/Media/Organisationen/muttersprachliche-seelsorge",
         "https://www.kozpontiszovetseg.at/tagszervezetek"
       ],
-      "errors": [
-        {
-          "url": "https://epa.oszk.hu/04000/04031/00189/pdf/EPA04031_eletunk_2017_01.pdf",
-          "error": "<urlopen error [Errno 111] Connection refused>"
-        }
-      ],
+      "errors": [],
       "flags": []
     },
     {
@@ -2337,7 +2330,6 @@
         "nepzene",
         "szinhaz",
         "media",
-        "diak",
         "irodalom",
         "muveszet",
         "sport",
@@ -2396,18 +2388,11 @@
         "irodalom",
         "csalad"
       ],
-      "pagesChecked": 0,
-      "checkedUrls": [],
-      "errors": [
-        {
-          "url": "https://www.linz.at/medienservice/2025/202508_132151.php",
-          "error": "<urlopen error timed out>"
-        },
-        {
-          "url": "https://wissensturm.linz.at/images/files/Jahresbericht_Stadtbibliothek_Linz_2025_web.pdf",
-          "error": "<urlopen error timed out>"
-        }
+      "pagesChecked": 1,
+      "checkedUrls": [
+        "https://www.linz.at/medienservice/2025/202508_132151.php"
       ],
+      "errors": [],
       "flags": []
     },
     {
@@ -2425,7 +2410,6 @@
         "cserkesz",
         "szinhaz",
         "media",
-        "diak",
         "irodalom",
         "muveszet",
         "csalad"
@@ -2909,12 +2893,7 @@
         "https://volksgruppen.orf.at/magyarok/stories/3337903/",
         "https://volksgruppen.orf.at/magyarok/stories/3068208/"
       ],
-      "errors": [
-        {
-          "url": "https://epa.oszk.hu/04000/04031/00580/pdf/EPA04031_eletunk_2021_12.pdf",
-          "error": "<urlopen error [Errno 111] Connection refused>"
-        }
-      ],
+      "errors": [],
       "flags": []
     },
     {
@@ -2932,7 +2911,6 @@
         "cserkesz",
         "szinhaz",
         "media",
-        "diak",
         "irodalom",
         "muveszet",
         "sport",
@@ -3279,7 +3257,6 @@
         "cserkesz",
         "szinhaz",
         "media",
-        "diak",
         "irodalom",
         "muveszet",
         "sport",
@@ -3399,17 +3376,13 @@
         "sport",
         "csalad"
       ],
-      "pagesChecked": 2,
+      "pagesChecked": 3,
       "checkedUrls": [
+        "https://volksgruppen.orf.at/magyarok/stories/3345907/",
         "https://rolunk.at/kultura/uj-rendezovel-keszul-az-idei-eloadas/",
         "https://rolunk.at/kultura/tevedesek-ejszakaja-premier-a-felsoori-szinjatszoknal/"
       ],
-      "errors": [
-        {
-          "url": "https://volksgruppen.orf.at/magyarok/stories/3345907/",
-          "error": "The read operation timed out"
-        }
-      ],
+      "errors": [],
       "flags": []
     },
     {
@@ -3480,9 +3453,7 @@
         "szinhaz",
         "media",
         "diak",
-        "irodalom",
-        "sport",
-        "csalad"
+        "irodalom"
       ],
       "pagesChecked": 2,
       "checkedUrls": [
@@ -3511,7 +3482,6 @@
         "szinhaz",
         "media",
         "egyhaz",
-        "diak",
         "irodalom",
         "muveszet",
         "sport",
@@ -3873,23 +3843,17 @@
         "media",
         "egyhaz",
         "irodalom",
+        "muveszet",
         "sport",
         "csalad"
       ],
-      "pagesChecked": 1,
+      "pagesChecked": 3,
       "checkedUrls": [
+        "https://wissensturm.linz.at/bibliothek/wissensturm.php",
+        "https://wissensturm.linz.at/Integration.php",
         "https://volksgruppen.orf.at/magyarok/stories/3351276/"
       ],
-      "errors": [
-        {
-          "url": "https://wissensturm.linz.at/bibliothek/wissensturm.php",
-          "error": "<urlopen error timed out>"
-        },
-        {
-          "url": "https://wissensturm.linz.at/Integration.php",
-          "error": "<urlopen error timed out>"
-        }
-      ],
+      "errors": [],
       "flags": []
     },
     {
@@ -3967,7 +3931,6 @@
         "cserkesz",
         "szinhaz",
         "media",
-        "diak",
         "irodalom",
         "muveszet",
         "csalad"
