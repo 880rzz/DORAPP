@@ -6,10 +6,34 @@ from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "scripts"))
-from update_events import futureish
+from update_events import futureish, source_event_allowed
 
 
 class EventDateTests(unittest.TestCase):
+    def test_source_exclusion_matches_event_urls_and_locations(self):
+        cfg = {"excludeRegex": [r"Kastl|csapattabor"]}
+        self.assertFalse(source_event_allowed(
+            {"name": "CSAPATTÁBOR", "sourceUrl": "https://example.test/events/csapattabor/"},
+            cfg,
+        ))
+        self.assertFalse(source_event_allowed(
+            {"name": "Konferencia", "address": "92280 Kastl-Mennersberg"},
+            cfg,
+        ))
+        self.assertTrue(source_event_allowed(
+            {"name": "Cserkészfoglalkozás", "address": "4600 Wels"},
+            cfg,
+        ))
+
+    def test_source_inclusion_still_applies_after_exclusion(self):
+        cfg = {"includeRegex": [r"magyar"], "excludeRegex": [r"Németország"]}
+        self.assertTrue(source_event_allowed({"name": "Magyar program"}, cfg))
+        self.assertFalse(source_event_allowed({"name": "Más program"}, cfg))
+        self.assertFalse(source_event_allowed(
+            {"name": "Magyar program", "description": "Németország"},
+            cfg,
+        ))
+
     def test_invalid_dates_are_not_upcoming(self):
         for value in (None, "", "not-a-date", "2026-99-99", {}):
             with self.subTest(value=value):

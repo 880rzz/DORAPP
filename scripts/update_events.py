@@ -432,12 +432,17 @@ def collect_page(url,org,root_source):
     return found,links(body,url),ct
 
 def source_event_allowed(event, source_cfg):
-    """Apply explicit per-source inclusion rules after extraction."""
-    patterns=source_cfg.get("includeRegex") or []
-    if not patterns:
+    """Apply explicit per-source inclusion and exclusion rules after extraction."""
+    haystack=" ".join(clean_text(event.get(k)) for k in (
+        "name","description","venue","address","sourceUrl","discoveredFrom"
+    ))
+    excluded=source_cfg.get("excludeRegex") or []
+    if any(re.search(pattern,haystack,re.I) for pattern in excluded):
+        return False
+    included=source_cfg.get("includeRegex") or []
+    if not included:
         return True
-    haystack=" ".join(clean_text(event.get(k)) for k in ("name","description","venue","address"))
-    return any(re.search(pattern,haystack,re.I) for pattern in patterns)
+    return any(re.search(pattern,haystack,re.I) for pattern in included)
 
 def main():
     orgdb=json.loads(ORG_FILE.read_text(encoding="utf-8"))

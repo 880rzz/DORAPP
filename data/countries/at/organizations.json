@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-19",
+  "updated": "2026-10-24",
   "sourcePolicy": "Official organization sources preferred; umbrella directories and Austrian-Hungarian community media used as secondary verification. Missing social/event links remain null rather than guessed.",
   "states": [
     {
@@ -4348,7 +4348,8 @@
       "facebook": null,
       "instagram": null,
       "eventSources": [
-        "https://vhs-ungarn.at/hu/program/"
+        "https://vhs-ungarn.at/hu/program/",
+        "https://www.vhs-burgenland.at/wp_neu/termine/"
       ],
       "regionalNetworks": [
         {
@@ -4390,9 +4391,9 @@
         "magyar",
         "német"
       ],
-      "email": "vhs.ungarn@gmail.com",
+      "email": "vhs-bgld-ungarn@vhs-burgenland.at",
       "phone": "+43 676 375 2773",
-      "profileVerifiedAt": "2026-09-27",
+      "profileVerifiedAt": "2026-10-24",
       "evidenceSources": [
         {
           "label": "Burgenlandi Magyarok Népfőiskolája – Rólunk",
@@ -4408,6 +4409,11 @@
           "label": "ORF Magyarok – Őszi programok a Burgenlandi Magyarok Népfőiskoláján",
           "url": "https://volksgruppen.orf.at/magyarok/stories/3372036/",
           "type": "public-broadcaster"
+        },
+        {
+          "label": "Haus der Volksgruppen – Volksgruppen-Institutionen",
+          "url": "https://www.hotelkultura.at/haus-der-volksgruppen/volksgruppen-institutionen",
+          "type": "institutional"
         }
       ],
       "entityClass": "institution",
@@ -4418,6 +4424,13 @@
           "kind": "official-program-source",
           "scope": "self",
           "ingestEvents": true
+        },
+        {
+          "label": "VHS der Volksgruppen – aktuális hivatalos eseménynaptár",
+          "url": "https://www.vhs-burgenland.at/wp_neu/termine/",
+          "kind": "official-calendar",
+          "scope": "network",
+          "ingestEvents": false
         }
       ],
       "people": [
@@ -4426,7 +4439,8 @@
           "role": "elnök / vezető",
           "status": "publicly-verified"
         }
-      ]
+      ],
+      "address": "Schulgasse 33, 7400 Oberwart, Ausztria"
     },
     {
       "id": "ori-banda",
@@ -6166,7 +6180,7 @@
       ],
       "email": "wels@cserkesz.eu",
       "phone": "+43 660 6750725",
-      "profileVerifiedAt": "2026-09-25",
+      "profileVerifiedAt": "2026-10-24",
       "entityClass": "organization",
       "calendarSources": [
         {
@@ -6181,7 +6195,15 @@
           "url": "https://wels.cserkesz.eu/programok/",
           "kind": "official-calendar",
           "scope": "self",
-          "ingestEvents": true
+          "ingestEvents": true,
+          "excludeRegex": [
+            "Kastl|Mennersberg|Kiscs[oő]sz",
+            "tiszti-segedtiszti-rover-konferencia",
+            "csapatparancsnoki-es-tiszti-konferencia",
+            "49-tinodi-lantos-sebestyen-keruleti-regostabor",
+            "parkpucera",
+            "csapattabor"
+          ]
         }
       ]
     },
@@ -6195,7 +6217,9 @@
       "website": "https://diaszpora.katolikus.hu/kozossegek/ungarnseelsorgezentrum-d-diozese-linz",
       "facebook": null,
       "instagram": null,
-      "eventSources": [],
+      "eventSources": [
+        "https://www.dioezese-linz.at/institution/8038/ueberuns/gottesdiensteveranstaltun/article/21612.html"
+      ],
       "memberships": [
         {
           "umbrellaId": "kozponti-szovetseg",
@@ -6254,7 +6278,7 @@
         "német"
       ],
       "email": "ernest.szabo@dioezese-linz.at",
-      "profileVerifiedAt": "2026-10-06",
+      "profileVerifiedAt": "2026-10-24",
       "founded": "1999",
       "history": {
         "summary": "A Linzi Magyar Katolikus Közösség mai lelkipásztori struktúrája 1999-től Szabó Ernő atya szolgálatához kapcsolódik. A magyar katolikus lelkipásztori központ kezdetben a Senefelderstraße 6. alatti nővérek házában működött; 2004 és 2012 között a Petrinumban kapott helyet, majd 2012-ben Welsbe költözött. A közösség Linzben és Welsben rendszeres magyar szentmiséket tart.",
@@ -8894,7 +8918,9 @@
       "website": "https://bmme.at/",
       "facebook": "https://www.facebook.com/VereinBMME/",
       "instagram": null,
-      "eventSources": [],
+      "eventSources": [
+        "https://bmme.at/"
+      ],
       "categories": [
         "kozosseg"
       ],
@@ -8932,7 +8958,7 @@
         "magyar",
         "német"
       ],
-      "profileVerifiedAt": "2026-09-25",
+      "profileVerifiedAt": "2026-10-24",
       "history": {
         "summary": "A BMME-t 1899-ben a bécsi 21. kerület floridsdorfi mozdonygyárának magyar munkásai alapították. Az egyesület több mint egy évszázada folyamatosan a bécsi magyar közösség egyik találkozóhelye, és a történelmi munkásegyleti gyökerekből szélesebb kulturális és társasági közösséggé fejlődött. A mai Magyarházban rendszeres tematikus esteket és nagyobb hagyományőrző eseményeket szervez.",
         "milestones": [
@@ -14979,6 +15005,67 @@
           "kind": "official-website",
           "scope": "self",
           "ingestEvents": false
+        }
+      ]
+    },
+    {
+      "id": "magyar-gorogkatolikus-lelkeszseg-becs",
+      "name": "Magyar Görögkatolikus Lelkészség Bécsben",
+      "state": "wien",
+      "city": "Wien",
+      "type": "egyházi közösség",
+      "intro": "A 2023-ban újraalakult bécsi magyar görögkatolikus lelkészség a Szent Barbara-templomban az Ausztriában élő magyar görögkatolikus híveket és a bizánci rítus iránt érdeklődőket szolgálja.",
+      "website": "https://www.erzdioezese-wien.at/unit/katholischeostkirchen/unseregemeinden/katholischeostkirchen/gemeindeninwien",
+      "facebook": null,
+      "instagram": null,
+      "eventSources": [],
+      "categories": [
+        "egyhaz",
+        "kozosseg"
+      ],
+      "founded": "2023",
+      "activities": [
+        "magyar nyelvű görögkatolikus liturgiák",
+        "lelkipásztori és közösségi szolgálat"
+      ],
+      "targetGroups": [
+        "Ausztriában élő magyar görögkatolikusok",
+        "a bizánci rítus iránt érdeklődők"
+      ],
+      "languages": [
+        "magyar"
+      ],
+      "email": "georg.papp@gmx.at",
+      "phone": "+43 676 7441832",
+      "address": "St. Barbara-Kirche, Postgasse 8–12, 1010 Wien, Ausztria",
+      "profileVerifiedAt": "2026-10-24",
+      "evidenceSources": [
+        {
+          "label": "Bécsi Főegyházmegye – magyar görögkatolikus közösség",
+          "url": "https://www.erzdioezese-wien.at/unit/katholischeostkirchen/unseregemeinden/katholischeostkirchen/gemeindeninwien",
+          "type": "church-official"
+        },
+        {
+          "label": "Hajdúdorogi Főegyházmegye – a bécsi lelkészség megalakulása",
+          "url": "https://hd.gorogkatolikus.hu/Magyar-gorogkatolikus-lelkeszseg-alakult-Becsben-2023-junius-06",
+          "type": "church-official"
+        }
+      ],
+      "entityClass": "organization",
+      "calendarSources": [
+        {
+          "label": "Bécsi Főegyházmegye – magyar görögkatolikus közösség",
+          "url": "https://www.erzdioezese-wien.at/unit/katholischeostkirchen/unseregemeinden/katholischeostkirchen/gemeindeninwien",
+          "kind": "official-website",
+          "scope": "self",
+          "ingestEvents": false
+        }
+      ],
+      "people": [
+        {
+          "name": "György Josef Papp",
+          "role": "lelkész / kapcsolattartó",
+          "status": "publicly-verified"
         }
       ]
     }
