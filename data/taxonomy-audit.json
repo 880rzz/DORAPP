@@ -1,9 +1,9 @@
 {
-  "updated": "2026-10-24T01:15:02.195113+00:00",
+  "updated": "2026-10-24T01:19:04.555004+00:00",
   "summary": {
     "organizations": 163,
     "organizationFlags": 1,
-    "organizationPagesChecked": 323,
+    "organizationPagesChecked": 321,
     "education": 109,
     "educationFlags": 0,
     "events": 80,
@@ -3845,18 +3845,25 @@
       ],
       "activityCategories": [],
       "signals": [
-        "oktatas",
-        "szinhaz",
-        "media",
         "irodalom",
         "csalad"
       ],
-      "pagesChecked": 2,
-      "checkedUrls": [
-        "https://stadtbibliothek.graz.at/Angebote/Sprachenbibliothek/Sprachen-im-Depot",
-        "https://stadtbibliothek.graz.at/Stadtbibliothek-Graz-einfach-erkl%C3%A4rt"
+      "pagesChecked": 0,
+      "checkedUrls": [],
+      "errors": [
+        {
+          "url": "https://stadtbibliothek.graz.at/Angebote/Sprachenbibliothek/Sprachen-im-Depot",
+          "error": "The read operation timed out"
+        },
+        {
+          "url": "https://stadtbibliothek.graz.at/Stadtbibliothek-Graz-einfach-erkl%C3%A4rt",
+          "error": "The read operation timed out"
+        },
+        {
+          "url": "https://stadtbibliothek.graz.at/Portals/0/adam/Content/b2kuaV22rEye8W20hKafwQ/Text/Bibliothek_interkulturell_2105_2024_100x210mm_finalfinalfinal.pdf",
+          "error": "Remote end closed connection without response"
+        }
       ],
-      "errors": [],
       "flags": []
     },
     {
