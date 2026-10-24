@@ -1,12 +1,12 @@
 {
-  "updated": "2026-10-23T09:58:14.213872+00:00",
+  "updated": "2026-10-24T01:13:00.055145+00:00",
   "summary": {
-    "organizations": 162,
+    "organizations": 163,
     "organizationFlags": 1,
-    "organizationPagesChecked": 338,
-    "education": 108,
+    "organizationPagesChecked": 325,
+    "education": 109,
     "educationFlags": 0,
-    "events": 70,
+    "events": 80,
     "eventFlags": 0
   },
   "organizations": [
@@ -269,6 +269,14 @@
       "activityCategories": [],
       "signals": [
         "oktatas",
+        "neptanc",
+        "szinhaz",
+        "media",
+        "egyhaz",
+        "diak",
+        "irodalom",
+        "muveszet",
+        "sport",
         "csalad"
       ],
       "pagesChecked": 3,
@@ -290,6 +298,9 @@
       "activityCategories": [],
       "signals": [
         "oktatas",
+        "neptanc",
+        "media",
+        "irodalom",
         "csalad"
       ],
       "pagesChecked": 2,
@@ -315,6 +326,9 @@
       "activityCategories": [],
       "signals": [
         "oktatas",
+        "neptanc",
+        "media",
+        "irodalom",
         "csalad"
       ],
       "pagesChecked": 2,
@@ -340,6 +354,9 @@
       "activityCategories": [],
       "signals": [
         "oktatas",
+        "neptanc",
+        "media",
+        "irodalom",
         "csalad"
       ],
       "pagesChecked": 2,
@@ -365,6 +382,8 @@
       "activityCategories": [],
       "signals": [
         "oktatas",
+        "media",
+        "irodalom",
         "csalad"
       ],
       "pagesChecked": 1,
@@ -590,6 +609,7 @@
         "nepzene",
         "szinhaz",
         "media",
+        "egyhaz",
         "irodalom",
         "muveszet",
         "sport",
@@ -1663,7 +1683,12 @@
         "https://bukv.at/hu/linkek/",
         "https://rolunk.at/magazin/ismet-egyutt-unnepeltuk-nemzeti-unnepunket-nickelsdorfban/"
       ],
-      "errors": [],
+      "errors": [
+        {
+          "url": "https://www.ris.bka.gv.at/Dokumente/Mrp/MRP_20201223_43/007_001.pdf",
+          "error": "HTTP Error 503: Service Temporarily Unavailable"
+        }
+      ],
       "flags": []
     },
     {
@@ -2059,23 +2084,25 @@
         "oktatas",
         "neptanc",
         "nepzene",
-        "enekkar",
         "cserkesz",
         "szinhaz",
         "media",
         "egyhaz",
-        "diak",
         "irodalom",
         "muveszet",
         "csalad"
       ],
-      "pagesChecked": 3,
+      "pagesChecked": 2,
       "checkedUrls": [
         "https://diaszpora.katolikus.hu/kozossegek/ungarnseelsorgezentrum-d-diozese-linz",
-        "https://rolunk.at/kultura/nem-csak-a-sajat-levesunket-melegitjuk-kozossegepito-kuldetes-felso-ausztriaban-es-azon-tul/",
-        "https://rolunk.at/ausztriai-magyar-egyesuletek/"
+        "https://rolunk.at/kultura/nem-csak-a-sajat-levesunket-melegitjuk-kozossegepito-kuldetes-felso-ausztriaban-es-azon-tul/"
       ],
-      "errors": [],
+      "errors": [
+        {
+          "url": "https://www.dioezese-linz.at/institution/8038/ueberuns/gottesdiensteveranstaltun/article/21612.html",
+          "error": "<urlopen error timed out>"
+        }
+      ],
       "flags": []
     },
     {
@@ -2448,6 +2475,34 @@
         "https://volksgruppen.orf.at/magyarok/stories/3282451/"
       ],
       "errors": [],
+      "flags": []
+    },
+    {
+      "id": "magyar-gorogkatolikus-lelkeszseg-becs",
+      "name": "Magyar Görögkatolikus Lelkészség Bécsben",
+      "entityClass": "organization",
+      "categories": [
+        "egyhaz",
+        "kozosseg"
+      ],
+      "activityCategories": [],
+      "signals": [
+        "media",
+        "egyhaz",
+        "irodalom",
+        "muveszet",
+        "csalad"
+      ],
+      "pagesChecked": 1,
+      "checkedUrls": [
+        "https://hd.gorogkatolikus.hu/Magyar-gorogkatolikus-lelkeszseg-alakult-Becsben-2023-junius-06"
+      ],
+      "errors": [
+        {
+          "url": "https://www.erzdioezese-wien.at/unit/katholischeostkirchen/unseregemeinden/katholischeostkirchen/gemeindeninwien",
+          "error": "<urlopen error timed out>"
+        }
+      ],
       "flags": []
     },
     {
@@ -3453,7 +3508,8 @@
         "szinhaz",
         "media",
         "diak",
-        "irodalom"
+        "irodalom",
+        "muveszet"
       ],
       "pagesChecked": 2,
       "checkedUrls": [
@@ -3562,15 +3618,18 @@
         "neptanc",
         "cserkesz",
         "irodalom",
-        "muveszet",
         "csalad"
       ],
-      "pagesChecked": 2,
+      "pagesChecked": 1,
       "checkedUrls": [
-        "https://salzung.com/hu/?start=8",
         "https://www.korosiprogram.hu/hirek/salzburgi-neptanccsoport"
       ],
-      "errors": [],
+      "errors": [
+        {
+          "url": "https://salzung.com/hu/?start=8",
+          "error": "HTTP Error 404: Not Found"
+        }
+      ],
       "flags": []
     },
     {
@@ -3584,19 +3643,24 @@
       "activityCategories": [],
       "signals": [
         "oktatas",
-        "enekkar",
-        "szinhaz",
-        "irodalom",
-        "muveszet",
         "csalad"
       ],
-      "pagesChecked": 3,
-      "checkedUrls": [
-        "https://www.salzung.com/hu",
-        "https://salzung.com/hu/esemenyek/kozelgo-esemenyek",
-        "https://www.salzung.com/hu/rolunk/az-egyesulet-bemutatasa"
+      "pagesChecked": 0,
+      "checkedUrls": [],
+      "errors": [
+        {
+          "url": "https://www.salzung.com/hu",
+          "error": "HTTP Error 404: Not Found"
+        },
+        {
+          "url": "https://salzung.com/hu/esemenyek/kozelgo-esemenyek",
+          "error": "HTTP Error 404: Not Found"
+        },
+        {
+          "url": "https://www.salzung.com/hu/rolunk/az-egyesulet-bemutatasa",
+          "error": "HTTP Error 404: Not Found"
+        }
       ],
-      "errors": [],
       "flags": []
     },
     {
@@ -3608,20 +3672,24 @@
       ],
       "activityCategories": [],
       "signals": [
-        "oktatas",
-        "enekkar",
-        "szinhaz",
-        "irodalom",
-        "muveszet",
         "csalad"
       ],
-      "pagesChecked": 3,
-      "checkedUrls": [
-        "https://www.salzung.com/hu/hirek/indul-a-brumi-ovi",
-        "https://salzung.com/hu/hirek/indul-a-brumi-ovi",
-        "https://www.salzung.com/hu"
+      "pagesChecked": 0,
+      "checkedUrls": [],
+      "errors": [
+        {
+          "url": "https://www.salzung.com/hu/hirek/indul-a-brumi-ovi",
+          "error": "HTTP Error 404: Not Found"
+        },
+        {
+          "url": "https://salzung.com/hu/hirek/indul-a-brumi-ovi",
+          "error": "HTTP Error 404: Not Found"
+        },
+        {
+          "url": "https://www.salzung.com/hu",
+          "error": "HTTP Error 404: Not Found"
+        }
       ],
-      "errors": [],
       "flags": []
     },
     {
@@ -3634,15 +3702,16 @@
       ],
       "activityCategories": [],
       "signals": [
-        "oktatas",
-        "irodalom",
         "muveszet"
       ],
-      "pagesChecked": 1,
-      "checkedUrls": [
-        "https://www.salzung.com/hu/projektek/hatartalanul"
+      "pagesChecked": 0,
+      "checkedUrls": [],
+      "errors": [
+        {
+          "url": "https://www.salzung.com/hu/projektek/hatartalanul",
+          "error": "HTTP Error 404: Not Found"
+        }
       ],
-      "errors": [],
       "flags": []
     },
     {
@@ -3657,14 +3726,16 @@
       "activityCategories": [],
       "signals": [
         "oktatas",
-        "irodalom",
-        "muveszet"
+        "irodalom"
       ],
-      "pagesChecked": 1,
-      "checkedUrls": [
-        "https://www.salzung.com/hu/projektek/igylettunkmagyarok"
+      "pagesChecked": 0,
+      "checkedUrls": [],
+      "errors": [
+        {
+          "url": "https://www.salzung.com/hu/projektek/igylettunkmagyarok",
+          "error": "HTTP Error 404: Not Found"
+        }
       ],
-      "errors": [],
       "flags": [
         "possible-activity-classification"
       ]
@@ -3680,24 +3751,26 @@
       ],
       "activityCategories": [],
       "signals": [
-        "oktatas",
-        "enekkar",
-        "szinhaz",
         "media",
         "egyhaz",
-        "diak",
         "irodalom",
-        "muveszet",
         "sport",
         "csalad"
       ],
-      "pagesChecked": 3,
+      "pagesChecked": 1,
       "checkedUrls": [
-        "https://www.salzung.com/hu/projektek/minikonyvtar/minikoenyvtar",
-        "https://salzung.com/hu/hirek/tervezett-programjaink-a-2021-es-evben",
         "https://volksgruppen.orf.at/magyarok/stories/3356535/"
       ],
-      "errors": [],
+      "errors": [
+        {
+          "url": "https://www.salzung.com/hu/projektek/minikonyvtar/minikoenyvtar",
+          "error": "HTTP Error 404: Not Found"
+        },
+        {
+          "url": "https://salzung.com/hu/hirek/tervezett-programjaink-a-2021-es-evben",
+          "error": "HTTP Error 404: Not Found"
+        }
+      ],
       "flags": []
     },
     {
@@ -3709,18 +3782,20 @@
       ],
       "activityCategories": [],
       "signals": [
-        "oktatas",
-        "neptanc",
-        "irodalom",
-        "muveszet",
-        "csalad"
+        "oktatas"
       ],
-      "pagesChecked": 2,
-      "checkedUrls": [
-        "https://salzung.com/hu/projektek/oktatas",
-        "https://salzung.com/hu/?start=8"
+      "pagesChecked": 0,
+      "checkedUrls": [],
+      "errors": [
+        {
+          "url": "https://salzung.com/hu/projektek/oktatas",
+          "error": "HTTP Error 404: Not Found"
+        },
+        {
+          "url": "https://salzung.com/hu/?start=8",
+          "error": "HTTP Error 404: Not Found"
+        }
       ],
-      "errors": [],
       "flags": []
     },
     {
@@ -4113,6 +4188,7 @@
         "oktatas",
         "neptanc",
         "nepzene",
+        "enekkar",
         "szinhaz",
         "media",
         "egyhaz",
@@ -4168,17 +4244,15 @@
       "signals": [
         "oktatas",
         "nepzene",
-        "enekkar",
+        "egyhaz",
         "diak",
-        "irodalom",
-        "muveszet",
-        "csalad"
+        "irodalom"
       ],
       "pagesChecked": 3,
       "checkedUrls": [
         "https://vhs-ungarn.at/",
         "https://vhs-ungarn.at/hu/program/",
-        "https://vhs-ungarn.at/hu/rolunk/a-burgenlandi-magyarok-nepfoiskolaja-egyesulet/"
+        "https://www.vhs-burgenland.at/wp_neu/termine/"
       ],
       "errors": [],
       "flags": []
