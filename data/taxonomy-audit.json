@@ -1,9 +1,9 @@
 {
-  "updated": "2026-10-24T01:13:00.055145+00:00",
+  "updated": "2026-10-24T01:15:02.195113+00:00",
   "summary": {
     "organizations": 163,
     "organizationFlags": 1,
-    "organizationPagesChecked": 325,
+    "organizationPagesChecked": 323,
     "education": 109,
     "educationFlags": 0,
     "events": 80,
@@ -1471,22 +1471,9 @@
         "kultura"
       ],
       "activityCategories": [],
-      "signals": [
-        "oktatas",
-        "neptanc",
-        "szinhaz",
-        "media",
-        "egyhaz",
-        "diak",
-        "irodalom",
-        "muveszet"
-      ],
-      "pagesChecked": 3,
-      "checkedUrls": [
-        "https://europaclub.at/",
-        "https://europaclub.at/rolunk/europa-club-tortenete/",
-        "https://europaclub.at/de/kontakt/"
-      ],
+      "signals": [],
+      "pagesChecked": 0,
+      "checkedUrls": [],
       "errors": [],
       "flags": []
     },
@@ -2084,25 +2071,23 @@
         "oktatas",
         "neptanc",
         "nepzene",
+        "enekkar",
         "cserkesz",
         "szinhaz",
         "media",
         "egyhaz",
+        "diak",
         "irodalom",
         "muveszet",
         "csalad"
       ],
-      "pagesChecked": 2,
+      "pagesChecked": 3,
       "checkedUrls": [
         "https://diaszpora.katolikus.hu/kozossegek/ungarnseelsorgezentrum-d-diozese-linz",
-        "https://rolunk.at/kultura/nem-csak-a-sajat-levesunket-melegitjuk-kozossegepito-kuldetes-felso-ausztriaban-es-azon-tul/"
+        "https://rolunk.at/kultura/nem-csak-a-sajat-levesunket-melegitjuk-kozossegepito-kuldetes-felso-ausztriaban-es-azon-tul/",
+        "https://rolunk.at/ausztriai-magyar-egyesuletek/"
       ],
-      "errors": [
-        {
-          "url": "https://www.dioezese-linz.at/institution/8038/ueberuns/gottesdiensteveranstaltun/article/21612.html",
-          "error": "<urlopen error timed out>"
-        }
-      ],
+      "errors": [],
       "flags": []
     },
     {
@@ -4244,15 +4229,17 @@
       "signals": [
         "oktatas",
         "nepzene",
-        "egyhaz",
+        "enekkar",
         "diak",
-        "irodalom"
+        "irodalom",
+        "muveszet",
+        "csalad"
       ],
       "pagesChecked": 3,
       "checkedUrls": [
         "https://vhs-ungarn.at/",
         "https://vhs-ungarn.at/hu/program/",
-        "https://www.vhs-burgenland.at/wp_neu/termine/"
+        "https://vhs-ungarn.at/hu/rolunk/a-burgenlandi-magyarok-nepfoiskolaja-egyesulet/"
       ],
       "errors": [],
       "flags": []
