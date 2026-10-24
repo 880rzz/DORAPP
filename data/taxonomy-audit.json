@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-24T01:26:02.996294+00:00",
+  "updated": "2026-10-24T08:53:47.986235+00:00",
   "summary": {
     "organizations": 163,
     "organizationFlags": 1,
@@ -125,24 +125,18 @@
       ],
       "activityCategories": [],
       "signals": [
-        "egyhaz"
+        "oktatas",
+        "media",
+        "egyhaz",
+        "csalad"
       ],
-      "pagesChecked": 0,
-      "checkedUrls": [],
-      "errors": [
-        {
-          "url": "https://www.martinus.at/",
-          "error": "<urlopen error timed out>"
-        },
-        {
-          "url": "https://www.martinus.at/pfarre/1127/kalender",
-          "error": "<urlopen error timed out>"
-        },
-        {
-          "url": "https://www.martinus.at/unterwart",
-          "error": "<urlopen error timed out>"
-        }
+      "pagesChecked": 3,
+      "checkedUrls": [
+        "https://www.martinus.at/",
+        "https://www.martinus.at/pfarre/1127/kalender",
+        "https://www.martinus.at/unterwart"
       ],
+      "errors": [],
       "flags": []
     },
     {
@@ -1011,16 +1005,18 @@
         "media",
         "egyhaz",
         "irodalom",
-        "muveszet",
-        "sport",
-        "csalad"
+        "sport"
       ],
-      "pagesChecked": 2,
+      "pagesChecked": 1,
       "checkedUrls": [
-        "https://www.burgenland.at/themen/wissenschaft/landesbibliothek/",
         "https://volksgruppen.orf.at/magyarok/stories/3361229/"
       ],
-      "errors": [],
+      "errors": [
+        {
+          "url": "https://www.burgenland.at/themen/wissenschaft/landesbibliothek/",
+          "error": "<urlopen error timed out>"
+        }
+      ],
       "flags": []
     },
     {
@@ -1148,17 +1144,20 @@
       ],
       "activityCategories": [],
       "signals": [
-        "egyhaz",
-        "diak",
-        "irodalom",
-        "csalad"
+        "egyhaz"
       ],
-      "pagesChecked": 2,
-      "checkedUrls": [
-        "https://pazmaneum.katolikus.hu/",
-        "https://pazmaneum.katolikus.hu/?page_id=21"
+      "pagesChecked": 0,
+      "checkedUrls": [],
+      "errors": [
+        {
+          "url": "https://pazmaneum.katolikus.hu/",
+          "error": "<urlopen error timed out>"
+        },
+        {
+          "url": "https://pazmaneum.katolikus.hu/?page_id=21",
+          "error": "<urlopen error timed out>"
+        }
       ],
-      "errors": [],
       "flags": []
     },
     {
@@ -1580,24 +1579,16 @@
       ],
       "activityCategories": [],
       "signals": [
+        "media",
         "egyhaz"
       ],
-      "pagesChecked": 0,
-      "checkedUrls": [],
-      "errors": [
-        {
-          "url": "https://www.martinus.at/pfarre/1122",
-          "error": "<urlopen error timed out>"
-        },
-        {
-          "url": "https://www.martinus.at/pfarre/1122/kalender",
-          "error": "<urlopen error timed out>"
-        },
-        {
-          "url": "https://www.martinus.at/pfarre/1122/kalender/calendar/1808040.html",
-          "error": "<urlopen error timed out>"
-        }
+      "pagesChecked": 3,
+      "checkedUrls": [
+        "https://www.martinus.at/pfarre/1122",
+        "https://www.martinus.at/pfarre/1122/kalender",
+        "https://www.martinus.at/pfarre/1122/kalender/calendar/1808040.html"
       ],
+      "errors": [],
       "flags": []
     },
     {
@@ -1849,20 +1840,19 @@
       "activityCategories": [],
       "signals": [
         "oktatas",
-        "nepzene",
         "media",
-        "egyhaz",
         "irodalom",
-        "muveszet",
-        "sport",
-        "csalad"
+        "sport"
       ],
-      "pagesChecked": 2,
+      "pagesChecked": 1,
       "checkedUrls": [
-        "https://www.burgenland.at/service/medienservice/aktuelle-meldungen/detail/lh-doskozil-haus-der-volksgruppen-setzt-meilenstein-fuer-vielfalt-und-zusammenhalt/",
         "https://burgenland.orf.at/stories/3372614/"
       ],
       "errors": [
+        {
+          "url": "https://www.burgenland.at/service/medienservice/aktuelle-meldungen/detail/lh-doskozil-haus-der-volksgruppen-setzt-meilenstein-fuer-vielfalt-und-zusammenhalt/",
+          "error": "<urlopen error timed out>"
+        },
         {
           "url": "https://www.oberwart.gv.at/stadt/termine/detail/termin/50-jahre-volksgruppengesetz-erreichtes-status-quo",
           "error": "HTTP Error 404: Not Found"
@@ -2094,13 +2084,17 @@
         "muveszet",
         "csalad"
       ],
-      "pagesChecked": 3,
+      "pagesChecked": 2,
       "checkedUrls": [
-        "https://diaszpora.katolikus.hu/kozossegek/ungarnseelsorgezentrum-d-diozese-linz",
         "https://rolunk.at/kultura/nem-csak-a-sajat-levesunket-melegitjuk-kozossegepito-kuldetes-felso-ausztriaban-es-azon-tul/",
         "https://rolunk.at/ausztriai-magyar-egyesuletek/"
       ],
-      "errors": [],
+      "errors": [
+        {
+          "url": "https://diaszpora.katolikus.hu/kozossegek/ungarnseelsorgezentrum-d-diozese-linz",
+          "error": "<urlopen error timed out>"
+        }
+      ],
       "flags": []
     },
     {
@@ -2114,16 +2108,14 @@
       "signals": [
         "egyhaz"
       ],
-      "pagesChecked": 0,
-      "checkedUrls": [],
+      "pagesChecked": 1,
+      "checkedUrls": [
+        "https://www.edsbg.at/seelsorge/weltkirche/anderssprachige-seelsorge/ungarische-gemeinde"
+      ],
       "errors": [
         {
-          "url": "https://www.edsbg.at/seelsorge/weltkirche/anderssprachige-seelsorge/ungarische-gemeinde",
-          "error": "<urlopen error timed out>"
-        },
-        {
           "url": "https://www.edsbg.at/dl/klOKJmMJKNLMKJqx4KJK/ungarischsprachige_Gottesdienstgemeinde_Salzburg_pdf",
-          "error": "<urlopen error timed out>"
+          "error": "HTTP Error 400: Bad Request"
         }
       ],
       "flags": []
@@ -2145,15 +2137,18 @@
         "irodalom",
         "csalad"
       ],
-      "pagesChecked": 2,
+      "pagesChecked": 1,
       "checkedUrls": [
-        "https://katolikus.at/",
-        "https://diaszpora.katolikus.hu/kozossegek/wiener-ungarische-katholische-gemeinde"
+        "https://katolikus.at/"
       ],
       "errors": [
         {
+          "url": "https://diaszpora.katolikus.hu/kozossegek/wiener-ungarische-katholische-gemeinde",
+          "error": "<urlopen error timed out>"
+        },
+        {
           "url": "https://archiv.katolikus.hu/ujember/Archivum/2003.08.17/1502.html",
-          "error": "HTTP Error 404: Not Found"
+          "error": "<urlopen error timed out>"
         }
       ],
       "flags": []
@@ -2491,16 +2486,12 @@
         "muveszet",
         "csalad"
       ],
-      "pagesChecked": 1,
+      "pagesChecked": 2,
       "checkedUrls": [
+        "https://www.erzdioezese-wien.at/unit/katholischeostkirchen/unseregemeinden/katholischeostkirchen/gemeindeninwien",
         "https://hd.gorogkatolikus.hu/Magyar-gorogkatolikus-lelkeszseg-alakult-Becsben-2023-junius-06"
       ],
-      "errors": [
-        {
-          "url": "https://www.erzdioezese-wien.at/unit/katholischeostkirchen/unseregemeinden/katholischeostkirchen/gemeindeninwien",
-          "error": "<urlopen error timed out>"
-        }
-      ],
+      "errors": [],
       "flags": []
     },
     {
@@ -3250,17 +3241,20 @@
       ],
       "activityCategories": [],
       "signals": [
-        "oktatas",
-        "egyhaz",
-        "diak",
-        "irodalom"
+        "egyhaz"
       ],
-      "pagesChecked": 2,
-      "checkedUrls": [
-        "https://lexikon.katolikus.hu/M/Magyar%20Pax%20Romana%20Katolikus%20%C3%89rtelmis%C3%A9gi%20Mozgalom.html",
-        "https://www.icmica-miic.org/2012/03/oesterreich/"
+      "pagesChecked": 0,
+      "checkedUrls": [],
+      "errors": [
+        {
+          "url": "https://lexikon.katolikus.hu/M/Magyar%20Pax%20Romana%20Katolikus%20%C3%89rtelmis%C3%A9gi%20Mozgalom.html",
+          "error": "<urlopen error timed out>"
+        },
+        {
+          "url": "https://www.icmica-miic.org/2012/03/oesterreich/",
+          "error": "The read operation timed out"
+        }
       ],
-      "errors": [],
       "flags": []
     },
     {
