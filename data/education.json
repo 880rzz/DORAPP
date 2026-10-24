@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-21",
+  "updated": "2026-10-24",
   "methodology": "Az intézmények csak akkor kerülnek be, ha magyar nyelvű oktatásukat vagy magyar közösségi programjukat ORF, hivatalos intézményi oldal, Bildungsdirektion vagy más elsődleges/intézményi forrás igazolja. Az officialSiteMentionsHungarian mező azt jelzi, hogy a saját honlapon találtunk-e külön magyar tartalmat.",
   "institutions": [
     {
@@ -104,10 +104,10 @@
       ],
       "type": "állami elsőnyelvi oktatás",
       "website": "https://vsgallspach.jimdofree.com/",
-      "officialSiteMentionsHungarian": false,
-      "summary": "Heti magyar elsőnyelvi oktatás két csoportban.",
-      "sourceUrl": "https://volksgruppen.orf.at/magyarok/stories/3327962/",
-      "verifiedFor": "2025/26",
+      "officialSiteMentionsHungarian": true,
+      "summary": "A VS Gallspach 2026/27-es tanári csapatában Szekely Timea magyaroktatóként szerepel; a magyar oktatás az aktuális tanévben is működik.",
+      "sourceUrl": "https://vsgallspach.jimdofree.com/team/",
+      "verifiedFor": "2026/27",
       "recordClass": "institution"
     },
     {
@@ -1868,6 +1868,34 @@
         "magyar-nyelv"
       ],
       "parentOrganizationId": "becsi-magyar-iskolaegyesulet"
+    },
+    {
+      "id": "wifi-vorarlberg-hungarian",
+      "name": "WIFI Vorarlberg – Fernweh Ungarisch",
+      "state": "vorarlberg",
+      "city": "Dornbirn",
+      "level": [
+        "adult"
+      ],
+      "type": "felnőttképzési magyar nyelvtanfolyam",
+      "website": "https://www.vlbg.wifi.at/Kursbuch/kurs_detail.php?eKey=Cz&eTypNr=86&eWJ=26/27",
+      "officialSiteMentionsHungarian": true,
+      "summary": "Előismeret nélküli, utazási helyzetekre fókuszáló A1-es magyar nyelvtanfolyam 24 oktatási egységben, 2027. január 11. és március 8. között Dornbirnben.",
+      "sourceUrl": "https://www.vlbg.wifi.at/Kursbuch/kurs_detail.php?eKey=Cz&eTypNr=86&eWJ=26/27",
+      "verifiedFor": "2026/27",
+      "recordClass": "course",
+      "address": "Bahnhofstraße 24, 6850 Dornbirn, Ausztria",
+      "courseNumber": "16165",
+      "price": "348 EUR",
+      "contact": {
+        "name": "Carmen Holzer",
+        "phone": "+43 5572 3894-472",
+        "email": "holzer.carmen@vlbg.wifi.at"
+      },
+      "activityCategories": [
+        "magyar-nyelv",
+        "felnott"
+      ]
     }
   ],
   "recordClassDefinitions": [
