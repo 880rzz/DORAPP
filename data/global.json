@@ -980,7 +980,7 @@
         "en": "Colombia",
         "officialEn": "Republic of Colombia"
       },
-      "researchStatus": "unresearched",
+      "researchStatus": "researching",
       "countryDataPath": "data/countries/co/",
       "route": "countries/co/",
       "counts": {
@@ -990,7 +990,9 @@
         "events": 0,
         "education": 0
       },
-      "iso3": "COL"
+      "iso3": "COL",
+      "lastResearchAttemptAt": "2026-10-24T07:34:38+00:00",
+      "discoveryCandidateCount": 48
     },
     {
       "iso2": "cr",
@@ -4440,7 +4442,7 @@
         "organizations": 78,
         "activities": 0,
         "entities": 78,
-        "events": 22,
+        "events": 19,
         "education": 23
       },
       "iso3": "USA",
