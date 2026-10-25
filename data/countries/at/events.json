@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-24T08:52:27.449290+00:00",
+  "updated": "2026-10-25T02:00:00+00:00",
   "programCategoryDefinitions": [
     {
       "id": "gyermek",
@@ -479,6 +479,43 @@
       "verifiedAt": "2026-10-11T10:48:45.437818+00:00",
       "programCategories": [
         "cserkesz"
+      ]
+    },
+    {
+      "id": "napraforgok-xxvii-becsi-magyar-tanchaztalalkozo-2026-11-07",
+      "organizationId": "napraforgok",
+      "name": "XXVII. Bécsi Magyar Táncháztalálkozó",
+      "organizer": "Napraforgók – Bécsi Magyar Néptánc és Népzene Egyesület",
+      "state": "wien",
+      "city": "Wien",
+      "venue": "Hans-Mandl-Berufsschule díszterme",
+      "address": "Längenfeldgasse 13–15, 1120 Wien, Ausztria",
+      "startDate": "2026-11-07T15:00:00+01:00",
+      "endDate": "2026-11-08T02:00:00+01:00",
+      "description": "A Napraforgók egész délutános és esti néptáncprogramja aprók táncával, kézműves foglalkozással, ifjúsági és felnőtt tánctanítással, gálaműsorral, kirakodóvásárral, folkkocsmával és hajnalig tartó táncházzal. Közreműködik a Fokos zenekar, a Fláre Beás, a Cserga zenekar, meghívott táncosok és vendégegyüttesek.",
+      "eventStatus": "https://schema.org/EventScheduled",
+      "attendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+      "registrationUrl": null,
+      "price": null,
+      "priceCurrency": "EUR",
+      "availability": null,
+      "performers": [
+        "Fokos zenekar",
+        "Fláre Beás",
+        "Cserga zenekar",
+        "Regös Táncműhely Győr",
+        "Napraforgócskák",
+        "Napraforgók Táncegyüttes"
+      ],
+      "audience": "gyermekek, fiatalok, felnőttek és a magyar néptánc iránt érdeklődők",
+      "image": null,
+      "sourceUrl": "https://www.becsinaplo.at/post/xxvii-becsi-magyar-tanchaztalalkozo",
+      "discoveredFrom": "https://www.becsinaplo.at/post/xxvii-becsi-magyar-tanchaztalalkozo",
+      "verifiedAt": "2026-10-25T02:00:00+00:00",
+      "programCategories": [
+        "gyermek",
+        "zene",
+        "kozosseg"
       ]
     },
     {
@@ -1004,6 +1041,36 @@
       ]
     },
     {
+      "id": "bukv-szomszedolas-2026-11-18",
+      "organizationId": "bukv",
+      "name": "Szomszédolás",
+      "organizer": "Burgenlandi Magyar Kultúregyesület",
+      "state": "burgenland",
+      "city": "Oberwart / Felsőőr",
+      "venue": "Haus der Volksgruppen Burgenland / Népcsoportok Háza",
+      "address": "Schulgasse 33, 7400 Oberwart, Ausztria",
+      "startDate": "2026-11-18T19:00:00+01:00",
+      "endDate": "2026-11-18T20:00:00+01:00",
+      "description": "Az előadás erdélyi tájak, közösségek és hagyományok világát idézi meg tánccal, énekkel, viseletekkel, valamint Kányádi Sándor, Sütő András, Páskándi Géza, Szilágyi Domokos és Áprily Lajos gondolataival. A műsor a bukovinai székelyek vándorlásától a mezőségi és sóvidéki táncokon át Csík és Gyimes kulturális örökségéig vezet.",
+      "eventStatus": "https://schema.org/EventScheduled",
+      "attendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+      "registrationUrl": null,
+      "price": null,
+      "priceCurrency": null,
+      "availability": null,
+      "performers": [],
+      "audience": null,
+      "image": null,
+      "sourceUrl": "https://www.meinbezirk.at/event/oberwart/c-brauchtum-kultur/szomszdols_e4004508",
+      "discoveredFrom": "https://www.meinbezirk.at/event/oberwart/c-brauchtum-kultur/szomszdols_e4004508",
+      "verifiedAt": "2026-10-25T02:00:00+00:00",
+      "programCategories": [
+        "szinhaz",
+        "zene",
+        "kozosseg"
+      ]
+    },
+    {
       "eventStatus": "https://schema.org/EventScheduled",
       "attendanceMode": "https://schema.org/OfflineEventAttendanceMode",
       "availability": "https://schema.org/InStock",
@@ -1092,6 +1159,21 @@
       ]
     },
     {
+      "id": "kultpult-jazzjatszoter-2026-11-22",
+      "organizationId": "kultpult",
+      "name": "Jazzjátszótér Bécsben",
+      "organizer": "KultPult",
+      "state": "wien",
+      "city": "Wien",
+      "startDate": "2026-11-22T10:00:00+01:00",
+      "sourceUrl": "https://kultpult.eu/",
+      "programCategories": [
+        "gyermek",
+        "zene"
+      ],
+      "endDate": ""
+    },
+    {
       "id": "katolikus-linz-ungarischer-gottesdienst-2026-11-22t10-00-00-01-00",
       "organizationId": "katolikus-linz",
       "name": "Ungarischer Gottesdienst",
@@ -1118,21 +1200,6 @@
       "programCategories": [
         "kozosseg"
       ]
-    },
-    {
-      "id": "kultpult-jazzjatszoter-2026-11-22",
-      "organizationId": "kultpult",
-      "name": "Jazzjátszótér Bécsben",
-      "organizer": "KultPult",
-      "state": "wien",
-      "city": "Wien",
-      "startDate": "2026-11-22T10:00:00+01:00",
-      "sourceUrl": "https://kultpult.eu/",
-      "programCategories": [
-        "gyermek",
-        "zene"
-      ],
-      "endDate": ""
     },
     {
       "id": "becsi-magyar-iskola-ruhacsere-party-2026-osz-2026-11-22t13-00-00-01-00",

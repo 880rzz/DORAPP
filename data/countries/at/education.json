@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-24",
+  "updated": "2026-10-25",
   "methodology": "Az intézmények csak akkor kerülnek be, ha magyar nyelvű oktatásukat vagy magyar közösségi programjukat ORF, hivatalos intézményi oldal, Bildungsdirektion vagy más elsődleges/intézményi forrás igazolja. Az officialSiteMentionsHungarian mező azt jelzi, hogy a saját honlapon találtunk-e külön magyar tartalmat.",
   "institutions": [
     {
@@ -1892,6 +1892,26 @@
         "phone": "+43 5572 3894-472",
         "email": "holzer.carmen@vlbg.wifi.at"
       },
+      "activityCategories": [
+        "magyar-nyelv",
+        "felnott"
+      ]
+    },
+    {
+      "id": "vhs-salzburg-hungarian-2026",
+      "name": "Volkshochschule Salzburg – magyar nyelvkurzusok",
+      "state": "salzburg",
+      "city": "Salzburg",
+      "level": [
+        "adult"
+      ],
+      "type": "felnőtt magyar nyelvoktatás",
+      "website": "https://www.volkshochschule.at/kurse/sprachen/ungarisch",
+      "officialSiteMentionsHungarian": true,
+      "summary": "A Volkshochschule Salzburg 2026/27-es kínálatában A1 kezdő, A2 folytató és C1 haladó magyar nyelvkurzusok szerepelnek salzburgi helyszíneken, hivatalos kurzusidőpontokkal és online jelentkezéssel.",
+      "sourceUrl": "https://www.volkshochschule.at/kurse/sprachen/ungarisch",
+      "verifiedFor": "2026/27",
+      "recordClass": "course",
       "activityCategories": [
         "magyar-nyelv",
         "felnott"
