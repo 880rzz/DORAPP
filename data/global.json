@@ -1000,7 +1000,7 @@
         "en": "Costa Rica",
         "officialEn": "Republic of Costa Rica"
       },
-      "researchStatus": "unresearched",
+      "researchStatus": "researching",
       "countryDataPath": "data/countries/cr/",
       "route": "countries/cr/",
       "counts": {
@@ -1010,7 +1010,9 @@
         "events": 0,
         "education": 0
       },
-      "iso3": "CRI"
+      "iso3": "CRI",
+      "lastResearchAttemptAt": "2026-10-25T07:47:37+00:00",
+      "discoveryCandidateCount": 49
     },
     {
       "iso2": "cu",
@@ -3182,7 +3184,7 @@
         "organizations": 21,
         "activities": 0,
         "entities": 21,
-        "events": 9,
+        "events": 8,
         "education": 4
       },
       "iso3": "NLD",
@@ -4442,7 +4444,7 @@
         "organizations": 78,
         "activities": 0,
         "entities": 78,
-        "events": 19,
+        "events": 16,
         "education": 23
       },
       "iso3": "USA",
