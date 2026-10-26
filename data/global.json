@@ -402,7 +402,7 @@
         "organizations": 19,
         "activities": 0,
         "entities": 19,
-        "events": 5,
+        "events": 4,
         "education": 4
       },
       "iso3": "BEL",
@@ -1020,7 +1020,7 @@
         "en": "Cuba",
         "officialEn": "Republic of Cuba"
       },
-      "researchStatus": "unresearched",
+      "researchStatus": "researching",
       "countryDataPath": "data/countries/cu/",
       "route": "countries/cu/",
       "counts": {
@@ -1030,7 +1030,9 @@
         "events": 0,
         "education": 0
       },
-      "iso3": "CUB"
+      "iso3": "CUB",
+      "lastResearchAttemptAt": "2026-10-26T08:05:07+00:00",
+      "discoveryCandidateCount": 48
     },
     {
       "iso2": "cv",
@@ -4444,7 +4446,7 @@
         "organizations": 78,
         "activities": 0,
         "entities": 78,
-        "events": 16,
+        "events": 15,
         "education": 23
       },
       "iso3": "USA",
