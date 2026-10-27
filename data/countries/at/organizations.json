@@ -6795,12 +6795,10 @@
       "city": "Salzburg",
       "type": "kulturális egyesület",
       "intro": "Az 1993-ban alapított SalzUNG – Salzburgi Magyar Egyesület a Salzburg városában és tartományában élő magyar közösséget fogja össze. Kulturális, oktatási, családi és identitásőrző programokkal segíti, hogy a helyi magyarok „itthon, Salzburgban” is megőrizzék nyelvüket és gyökereiket.",
-      "website": "https://salzung.com/hu",
+      "website": null,
       "facebook": "https://www.facebook.com/salzung/",
       "instagram": null,
-      "eventSources": [
-        "https://salzung.com/hu"
-      ],
+      "eventSources": [],
       "memberships": [
         {
           "umbrellaId": "kozponti-szovetseg",
@@ -6855,7 +6853,7 @@
         "német"
       ],
       "email": "info@salzung.com",
-      "profileVerifiedAt": "2026-10-24",
+      "profileVerifiedAt": "2026-10-27",
       "evidenceSources": [
         {
           "label": "SalzUNG – az egyesület bemutatása",
@@ -6885,13 +6883,6 @@
       ],
       "entityClass": "organization",
       "calendarSources": [
-        {
-          "label": "SalzUNG – aktuális hivatalos programoldal",
-          "url": "https://salzung.com/hu",
-          "kind": "official-calendar",
-          "scope": "self",
-          "ingestEvents": true
-        },
         {
           "label": "SalzUNG – hivatalos Facebook programcsatorna",
           "url": "https://www.facebook.com/salzung/",
@@ -6987,21 +6978,22 @@
       ],
       "entityClass": "project",
       "email": "info@salzung.com",
-      "contactUrl": "https://salzung.com/hu",
+      "contactUrl": "https://www.facebook.com/salzung/",
       "calendarSources": [
         {
-          "label": "Kapcsolódó parent/host/projektforrás – nem automatikus eseményforrás",
-          "url": "https://salzung.com/hu",
-          "kind": "evidence-calendar",
+          "label": "SalzUNG – hivatalos Facebook programcsatorna",
+          "url": "https://www.facebook.com/salzung/",
+          "kind": "social-calendar",
+          "platform": "facebook",
           "scope": "parent",
           "ingestEvents": false
         }
       ],
       "publicChannels": [
         {
-          "label": "Salzburgi Magyar Minikönyvtár és Könyvklub – kapcsolódó nyilvános forrás",
-          "url": "https://salzung.com/hu",
-          "kind": "parent-profile",
+          "label": "SalzUNG – a projekt szülőszervezetének hivatalos Facebook-oldala",
+          "url": "https://www.facebook.com/salzung/",
+          "kind": "facebook",
           "ownership": "parent"
         }
       ]
@@ -7017,7 +7009,7 @@
       ],
       "parentOrganizationId": "salzung",
       "intro": "A Brumi Ovi a SalzUNG – Salzburgi Magyar Egyesület magyar nyelvű óvodai közössége 3–6 éves gyermekek számára. A foglalkozások mesével, zenével, kézművességgel, képességfejlesztő játékokkal és közösségi élményekkel erősítik az anyanyelvet, a magyar kulturális kötődést és a többnyelvű környezetben felnövő gyerekek biztonságérzetét.",
-      "website": "https://salzung.com/hu/hirek/indul-a-brumi-ovi",
+      "website": null,
       "facebook": "https://www.facebook.com/salzung",
       "instagram": null,
       "eventSources": [],
@@ -7083,13 +7075,6 @@
       "contactUrl": "https://m.me/salzung",
       "calendarSources": [
         {
-          "label": "SalzUNG – események és hírek",
-          "url": "https://salzung.com/hu",
-          "kind": "official-calendar",
-          "scope": "parent",
-          "ingestEvents": false
-        },
-        {
           "label": "SalzUNG – Facebook Messenger / közösségi kapcsolat",
           "url": "https://m.me/salzung",
           "kind": "social-contact",
@@ -7118,7 +7103,7 @@
       ],
       "parentOrganizationId": "salzung",
       "intro": "A SalzUNG Pitypang Suli magyar nyelvű közösségi és anyanyelvi oktatási program 9–13 éves iskolásoknak Salzburgban; rendszeres délutáni foglalkozásokkal segíti a magyar nyelv és identitás megőrzését.",
-      "website": "https://salzung.com/hu/projektek/oktatas",
+      "website": null,
       "facebook": null,
       "instagram": null,
       "eventSources": [],
@@ -7167,12 +7152,13 @@
       },
       "entityClass": "institution",
       "email": "info@salzung.com",
-      "contactUrl": "https://salzung.com/hu",
+      "contactUrl": "https://www.facebook.com/salzung/",
       "calendarSources": [
         {
-          "label": "Kapcsolódó parent/host/projektforrás – nem automatikus eseményforrás",
-          "url": "https://salzung.com/hu/projektek/oktatas",
-          "kind": "evidence-calendar",
+          "label": "SalzUNG – hivatalos Facebook programcsatorna",
+          "url": "https://www.facebook.com/salzung/",
+          "kind": "social-calendar",
+          "platform": "facebook",
           "scope": "parent",
           "ingestEvents": false
         }
@@ -7193,7 +7179,7 @@
       "city": "Salzburg",
       "type": "néptánc",
       "intro": "A Salzburgi Magyar Néptáncegyüttes 2023 szeptemberében alakult. Heti kétórás próbákon magyar tájegységek táncait és dalait tanulják; a csoport a SalzUNG keretében működik, és magyar, osztrák valamint más nemzetiségű résztvevőket is vár.",
-      "website": "https://salzung.com/hu/?start=8",
+      "website": null,
       "facebook": "https://www.facebook.com/Salzburgi.Magyar.Neptancegyuttes/",
       "instagram": "https://www.instagram.com/salzburgi.neptanc/",
       "eventSources": [],
@@ -7250,7 +7236,7 @@
       "profileVerifiedAt": "2026-09-25",
       "entityClass": "group",
       "email": "info@salzung.com",
-      "contactUrl": "https://salzung.com/hu",
+      "contactUrl": "https://www.facebook.com/Salzburgi.Magyar.Neptancegyuttes/",
       "calendarSources": [
         {
           "label": "Salzburgi Magyar Néptáncegyüttes – Facebook",
@@ -7266,13 +7252,6 @@
           "kind": "social-calendar",
           "platform": "instagram",
           "scope": "self",
-          "ingestEvents": false
-        },
-        {
-          "label": "Parent szervezet programforrása – nem automatikus child ingestion",
-          "url": "https://salzung.com/hu/",
-          "kind": "parent-calendar",
-          "scope": "parent",
           "ingestEvents": false
         }
       ]
@@ -12223,7 +12202,7 @@
       "city": "Salzburg",
       "type": "magyar–osztrák művészeti projekt",
       "intro": "A SalzUNG 2019 óta futó művészeti projektje, amely alkotótáborokkal, kiállításokkal és koncertekkel épít kulturális kapcsolatokat magyar és osztrák alkotók, közösségek és közönségek között.",
-      "website": "https://salzung.com/hu/projektek/hatartalanul",
+      "website": null,
       "facebook": null,
       "instagram": null,
       "eventSources": [],
@@ -12275,13 +12254,14 @@
       ],
       "entityClass": "project",
       "classificationNote": "Többéves, önálló névvel és aloldallal rendelkező művészeti projekt. A projekt a SalzUNG saját programja; a parentOrganizationId ezért a SalzUNG-ra mutat.",
-      "contactUrl": "https://salzung.com/hu/projektek/hatartalanul",
+      "contactUrl": "https://www.facebook.com/salzung/",
       "calendarSources": [
         {
-          "label": "Kapcsolódó parent/host/projektforrás – nem automatikus eseményforrás",
-          "url": "https://salzung.com/hu/projektek/hatartalanul",
-          "kind": "evidence-calendar",
-          "scope": "related",
+          "label": "SalzUNG – hivatalos Facebook programcsatorna",
+          "url": "https://www.facebook.com/salzung/",
+          "kind": "social-calendar",
+          "platform": "facebook",
+          "scope": "parent",
           "ingestEvents": false
         }
       ],
@@ -12294,7 +12274,7 @@
       "city": "Salzburg / nemzetközi diaszpóra",
       "type": "diaszpóra oktatási és kiadói projekt",
       "intro": "A SalzUNG fiataloknak szóló történelmi és identitásprojektje, amely interaktív formában dolgozza fel a magyar történelmet a nyugati diaszpórában élő 10–18 éves korosztály számára. A projektből könyv és kapcsolódó foglalkozások is születtek.",
-      "website": "https://salzung.com/hu/projektek/igylettunkmagyarok",
+      "website": null,
       "facebook": null,
       "instagram": null,
       "eventSources": [],
@@ -12345,13 +12325,14 @@
       ],
       "entityClass": "project",
       "classificationNote": "Önálló névvel, célcsoporttal, kiadvánnyal és projektoldallal rendelkező diaszpóra-oktatási projekt. A projekt a SalzUNG saját programja; a parentOrganizationId ezért a SalzUNG-ra mutat.",
-      "contactUrl": "https://salzung.com/hu/projektek/igylettunkmagyarok",
+      "contactUrl": "https://www.facebook.com/salzung/",
       "calendarSources": [
         {
-          "label": "Kapcsolódó parent/host/projektforrás – nem automatikus eseményforrás",
-          "url": "https://salzung.com/hu/projektek/igylettunkmagyarok",
-          "kind": "evidence-calendar",
-          "scope": "related",
+          "label": "SalzUNG – hivatalos Facebook programcsatorna",
+          "url": "https://www.facebook.com/salzung/",
+          "kind": "social-calendar",
+          "platform": "facebook",
+          "scope": "parent",
           "ingestEvents": false
         }
       ],
