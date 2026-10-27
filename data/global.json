@@ -402,7 +402,7 @@
         "organizations": 19,
         "activities": 0,
         "entities": 19,
-        "events": 4,
+        "events": 5,
         "education": 4
       },
       "iso3": "BEL",
@@ -1040,7 +1040,7 @@
         "en": "Cabo Verde",
         "officialEn": "Republic of Cabo Verde"
       },
-      "researchStatus": "unresearched",
+      "researchStatus": "researching",
       "countryDataPath": "data/countries/cv/",
       "route": "countries/cv/",
       "counts": {
@@ -1050,7 +1050,9 @@
         "events": 0,
         "education": 0
       },
-      "iso3": "CPV"
+      "iso3": "CPV",
+      "lastResearchAttemptAt": "2026-10-27T08:21:08+00:00",
+      "discoveryCandidateCount": 35
     },
     {
       "iso2": "cw",
@@ -4446,7 +4448,7 @@
         "organizations": 78,
         "activities": 0,
         "entities": 78,
-        "events": 15,
+        "events": 16,
         "education": 23
       },
       "iso3": "USA",
