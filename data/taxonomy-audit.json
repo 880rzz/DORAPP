@@ -1,9 +1,9 @@
 {
-  "updated": "2026-10-28T10:35:56.727485+00:00",
+  "updated": "2026-10-28T11:15:56.564293+00:00",
   "summary": {
     "organizations": 163,
     "organizationFlags": 1,
-    "organizationPagesChecked": 337,
+    "organizationPagesChecked": 327,
     "education": 110,
     "educationFlags": 0,
     "events": 75,
@@ -311,7 +311,7 @@
       "errors": [
         {
           "url": "https://amaped.at/2026/02/11/szeretettel-varunk-mindenkit-foglalkozasainkon-a-tavaszi-felevben-is/",
-          "error": "HTTP Error 404: Not Found"
+          "error": "HTTP Error 503: Service Unavailable"
         }
       ],
       "flags": []
@@ -339,7 +339,7 @@
       "errors": [
         {
           "url": "https://amaped.at/2023/09/15/indul-a-tanev/",
-          "error": "HTTP Error 404: Not Found"
+          "error": "HTTP Error 503: Service Unavailable"
         }
       ],
       "flags": []
@@ -367,7 +367,7 @@
       "errors": [
         {
           "url": "https://amaped.at/2023/09/15/indul-a-tanev/",
-          "error": "HTTP Error 404: Not Found"
+          "error": "HTTP Error 503: Service Unavailable"
         }
       ],
       "flags": []
@@ -393,7 +393,7 @@
       "errors": [
         {
           "url": "https://amaped.at/2026/02/11/szeretettel-varunk-mindenkit-foglalkozasainkon-a-tavaszi-felevben-is/",
-          "error": "HTTP Error 404: Not Found"
+          "error": "HTTP Error 503: Service Unavailable"
         }
       ],
       "flags": []
@@ -1041,13 +1041,17 @@
         "sport",
         "csalad"
       ],
-      "pagesChecked": 3,
+      "pagesChecked": 2,
       "checkedUrls": [
-        "https://www.burgenlandicserkesz.at/",
         "https://volksgruppen.orf.at/magyarok/stories/3333230/",
         "https://podiverzum.hu/podcast/orf-magyarok-podcast/idoutazas-es-megemlekezes-az-alsoori-cserkeszdelutanon-deaf57f3"
       ],
-      "errors": [],
+      "errors": [
+        {
+          "url": "https://www.burgenlandicserkesz.at/",
+          "error": "The read operation timed out"
+        }
+      ],
       "flags": []
     },
     {
@@ -1091,13 +1095,20 @@
         "sport",
         "csalad"
       ],
-      "pagesChecked": 3,
+      "pagesChecked": 1,
       "checkedUrls": [
-        "https://culture.hu/hu/wien/elerhetoseg",
-        "https://volksgruppen.orf.at/magyarok/stories/3358308/",
-        "https://culture.hu/hu/wien"
+        "https://volksgruppen.orf.at/magyarok/stories/3358308/"
       ],
-      "errors": [],
+      "errors": [
+        {
+          "url": "https://culture.hu/hu/wien/elerhetoseg",
+          "error": "<urlopen error timed out>"
+        },
+        {
+          "url": "https://culture.hu/hu/wien",
+          "error": "<urlopen error timed out>"
+        }
+      ],
       "flags": []
     },
     {
@@ -1110,20 +1121,24 @@
       ],
       "activityCategories": [],
       "signals": [
-        "oktatas",
-        "szinhaz",
-        "media",
-        "irodalom",
-        "muveszet",
-        "csalad"
+        "oktatas"
       ],
-      "pagesChecked": 3,
-      "checkedUrls": [
-        "https://culture.hu/hu/wien",
-        "https://culture.hu/hu/wien/esemenyek",
-        "https://culture.hu/de/wien/jubilaum"
+      "pagesChecked": 0,
+      "checkedUrls": [],
+      "errors": [
+        {
+          "url": "https://culture.hu/hu/wien",
+          "error": "<urlopen error timed out>"
+        },
+        {
+          "url": "https://culture.hu/hu/wien/esemenyek",
+          "error": "<urlopen error timed out>"
+        },
+        {
+          "url": "https://culture.hu/de/wien/jubilaum",
+          "error": "<urlopen error timed out>"
+        }
       ],
-      "errors": [],
       "flags": []
     },
     {
@@ -1459,22 +1474,9 @@
         "kultura"
       ],
       "activityCategories": [],
-      "signals": [
-        "oktatas",
-        "neptanc",
-        "szinhaz",
-        "media",
-        "egyhaz",
-        "diak",
-        "irodalom",
-        "muveszet"
-      ],
-      "pagesChecked": 3,
-      "checkedUrls": [
-        "https://europaclub.at/",
-        "https://europaclub.at/rolunk/europa-club-tortenete/",
-        "https://europaclub.at/de/kontakt/"
-      ],
+      "signals": [],
+      "pagesChecked": 0,
+      "checkedUrls": [],
       "errors": [],
       "flags": []
     },
@@ -1635,13 +1637,17 @@
         "muveszet",
         "csalad"
       ],
-      "pagesChecked": 3,
+      "pagesChecked": 2,
       "checkedUrls": [
         "https://femconnectgraz.at/",
-        "https://femconnectgraz.at/events/",
         "https://femconnectgraz.at/rolunk-2/"
       ],
-      "errors": [],
+      "errors": [
+        {
+          "url": "https://femconnectgraz.at/events/",
+          "error": "The read operation timed out"
+        }
+      ],
       "flags": []
     },
     {
@@ -2624,21 +2630,18 @@
       "activityCategories": [],
       "signals": [
         "media",
+        "egyhaz",
         "diak",
         "irodalom",
         "muveszet",
         "csalad"
       ],
-      "pagesChecked": 1,
+      "pagesChecked": 2,
       "checkedUrls": [
-        "https://www.meoek.at/"
+        "https://www.meoek.at/",
+        "https://www.meoek.at/rendezok/"
       ],
-      "errors": [
-        {
-          "url": "https://www.meoek.at/rendezok/",
-          "error": "Remote end closed connection without response"
-        }
-      ],
+      "errors": [],
       "flags": []
     },
     {
@@ -3023,7 +3026,6 @@
         "oktatas",
         "szinhaz",
         "media",
-        "irodalom",
         "sport"
       ],
       "pagesChecked": 3,
@@ -3348,12 +3350,16 @@
         "irodalom",
         "csalad"
       ],
-      "pagesChecked": 2,
+      "pagesChecked": 1,
       "checkedUrls": [
-        "https://www.radiohu.hu/",
-        "https://www.radiohu.hu/impresszum/"
+        "https://www.radiohu.hu/"
       ],
-      "errors": [],
+      "errors": [
+        {
+          "url": "https://www.radiohu.hu/impresszum/",
+          "error": "The read operation timed out"
+        }
+      ],
       "flags": []
     },
     {
