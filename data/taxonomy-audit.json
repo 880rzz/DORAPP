@@ -1,9 +1,9 @@
 {
-  "updated": "2026-10-27T10:25:45.187170+00:00",
+  "updated": "2026-10-28T10:35:56.727485+00:00",
   "summary": {
     "organizations": 163,
     "organizationFlags": 1,
-    "organizationPagesChecked": 329,
+    "organizationPagesChecked": 337,
     "education": 110,
     "educationFlags": 0,
     "events": 75,
@@ -612,7 +612,6 @@
         "egyhaz",
         "irodalom",
         "muveszet",
-        "sport",
         "csalad"
       ],
       "pagesChecked": 3,
@@ -1092,20 +1091,13 @@
         "sport",
         "csalad"
       ],
-      "pagesChecked": 1,
+      "pagesChecked": 3,
       "checkedUrls": [
-        "https://volksgruppen.orf.at/magyarok/stories/3358308/"
+        "https://culture.hu/hu/wien/elerhetoseg",
+        "https://volksgruppen.orf.at/magyarok/stories/3358308/",
+        "https://culture.hu/hu/wien"
       ],
-      "errors": [
-        {
-          "url": "https://culture.hu/hu/wien/elerhetoseg",
-          "error": "<urlopen error timed out>"
-        },
-        {
-          "url": "https://culture.hu/hu/wien",
-          "error": "<urlopen error timed out>"
-        }
-      ],
+      "errors": [],
       "flags": []
     },
     {
@@ -1118,24 +1110,20 @@
       ],
       "activityCategories": [],
       "signals": [
-        "oktatas"
+        "oktatas",
+        "szinhaz",
+        "media",
+        "irodalom",
+        "muveszet",
+        "csalad"
       ],
-      "pagesChecked": 0,
-      "checkedUrls": [],
-      "errors": [
-        {
-          "url": "https://culture.hu/hu/wien",
-          "error": "<urlopen error timed out>"
-        },
-        {
-          "url": "https://culture.hu/hu/wien/esemenyek",
-          "error": "<urlopen error timed out>"
-        },
-        {
-          "url": "https://culture.hu/de/wien/jubilaum",
-          "error": "<urlopen error timed out>"
-        }
+      "pagesChecked": 3,
+      "checkedUrls": [
+        "https://culture.hu/hu/wien",
+        "https://culture.hu/hu/wien/esemenyek",
+        "https://culture.hu/de/wien/jubilaum"
       ],
+      "errors": [],
       "flags": []
     },
     {
@@ -2592,16 +2580,12 @@
         "diak",
         "irodalom"
       ],
-      "pagesChecked": 1,
+      "pagesChecked": 2,
       "checkedUrls": [
+        "https://mde.hu/partnerek-tamogatok/",
         "https://kerekasztal.at/"
       ],
-      "errors": [
-        {
-          "url": "https://mde.hu/partnerek-tamogatok/",
-          "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'mde.hu'. (_ssl.c:1010)>"
-        }
-      ],
+      "errors": [],
       "flags": []
     },
     {
@@ -2613,24 +2597,21 @@
       ],
       "activityCategories": [],
       "signals": [
-        "diak"
+        "neptanc",
+        "media",
+        "diak",
+        "irodalom",
+        "muveszet",
+        "sport",
+        "csalad"
       ],
-      "pagesChecked": 0,
-      "checkedUrls": [],
-      "errors": [
-        {
-          "url": "https://mde.hu/at/",
-          "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'mde.hu'. (_ssl.c:1010)>"
-        },
-        {
-          "url": "https://mde.hu/rolunk/",
-          "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'mde.hu'. (_ssl.c:1010)>"
-        },
-        {
-          "url": "https://mde.hu/becsi-esemenyek/",
-          "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'mde.hu'. (_ssl.c:1010)>"
-        }
+      "pagesChecked": 3,
+      "checkedUrls": [
+        "https://mde.hu/at/",
+        "https://mde.hu/rolunk/",
+        "https://mde.hu/becsi-esemenyek/"
       ],
+      "errors": [],
       "flags": []
     },
     {
@@ -2643,18 +2624,21 @@
       "activityCategories": [],
       "signals": [
         "media",
-        "egyhaz",
         "diak",
         "irodalom",
         "muveszet",
         "csalad"
       ],
-      "pagesChecked": 2,
+      "pagesChecked": 1,
       "checkedUrls": [
-        "https://www.meoek.at/",
-        "https://www.meoek.at/rendezok/"
+        "https://www.meoek.at/"
       ],
-      "errors": [],
+      "errors": [
+        {
+          "url": "https://www.meoek.at/rendezok/",
+          "error": "Remote end closed connection without response"
+        }
+      ],
       "flags": []
     },
     {
@@ -3037,11 +3021,10 @@
       "activityCategories": [],
       "signals": [
         "oktatas",
+        "szinhaz",
         "media",
         "irodalom",
-        "muveszet",
-        "sport",
-        "csalad"
+        "sport"
       ],
       "pagesChecked": 3,
       "checkedUrls": [
@@ -3502,7 +3485,6 @@
         "nepzene",
         "szinhaz",
         "media",
-        "diak",
         "irodalom",
         "muveszet"
       ],
