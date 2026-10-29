@@ -1079,7 +1079,7 @@
       "name": {
         "en": "Christmas Island"
       },
-      "researchStatus": "unresearched",
+      "researchStatus": "researching",
       "countryDataPath": "data/countries/cx/",
       "route": "countries/cx/",
       "counts": {
@@ -1089,7 +1089,9 @@
         "events": 0,
         "education": 0
       },
-      "iso3": "CXR"
+      "iso3": "CXR",
+      "lastResearchAttemptAt": "2026-10-29T08:52:25+00:00",
+      "discoveryCandidateCount": 28
     },
     {
       "iso2": "cy",
@@ -4450,7 +4452,7 @@
         "organizations": 78,
         "activities": 0,
         "entities": 78,
-        "events": 16,
+        "events": 17,
         "education": 23
       },
       "iso3": "USA",
