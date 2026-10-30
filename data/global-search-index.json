@@ -5,7 +5,7 @@
     "verified-zero"
   ],
   "generatedFrom": "data/global.json + reviewed country datasets",
-  "count": 2102,
+  "count": 2104,
   "items": [
     {
       "type": "organization",
@@ -706,6 +706,21 @@
     },
     {
       "type": "organization",
+      "subtype": "education",
+      "id": "amaped-aprotorna",
+      "label": "AMAPED – Aprótorna",
+      "country": "at",
+      "countryLabel": "Ausztria",
+      "city": "Wien",
+      "entityType": "magyar kisgyermekes mozgásfejlesztő foglalkozás 1 éves kortól",
+      "category": "Oktatás",
+      "summary": "Játékos magyar kisgyermekes mozgásfejlesztő foglalkozás az AMAPED bécsi központjában, keddenként 16:30-tól, 1 éves kortól.",
+      "meta": "Wien · magyar kisgyermekes mozgásfejlesztő foglalkozás 1 éves kortól",
+      "href": "countries/at/education/amaped-aprotorna.html",
+      "search": "amaped – aprotorna wien magyar kisgyermekes mozgasfejleszto foglalkozas 1 eves kortol jatekos magyar kisgyermekes mozgasfejleszto foglalkozas az amaped becsi kozpontjaban, keddenkent 16:30-tol, 1 eves kortol."
+    },
+    {
+      "type": "organization",
       "id": "amaped",
       "label": "AMAPED – Ausztriai Magyar Pedagógusok Egyesülete",
       "country": "at",
@@ -736,6 +751,21 @@
     {
       "type": "organization",
       "subtype": "education",
+      "id": "amaped-babamasszazs-torna",
+      "label": "AMAPED – Babamasszázs és torna",
+      "country": "at",
+      "countryLabel": "Ausztria",
+      "city": "Wien",
+      "entityType": "magyar kisgyermekes fejlesztő foglalkozás 1 éves korig",
+      "category": "Oktatás",
+      "summary": "Magyar kisgyermekes közösségi és mozgásfejlesztő foglalkozás az AMAPED bécsi központjában, keddenként 15:20-tól, 1 éves korig.",
+      "meta": "Wien · magyar kisgyermekes fejlesztő foglalkozás 1 éves korig",
+      "href": "countries/at/education/amaped-babamasszazs-torna.html",
+      "search": "amaped – babamasszazs es torna wien magyar kisgyermekes fejleszto foglalkozas 1 eves korig magyar kisgyermekes kozossegi es mozgasfejleszto foglalkozas az amaped becsi kozpontjaban, keddenkent 15:20-tol, 1 eves korig."
+    },
+    {
+      "type": "organization",
+      "subtype": "education",
       "id": "amaped-csicsergo",
       "label": "AMAPED – Csicsergő Klub",
       "country": "at",
@@ -743,10 +773,10 @@
       "city": "Wien",
       "entityType": "0–3 éves baba–mama–papa foglalkozás",
       "category": "Oktatás",
-      "summary": "Magyar nyelvi fejlesztő és közösségi foglalkozás 0–3 éves gyerekeknek és szüleiknek.",
+      "summary": "Magyar nyelvi és közösségi kisgyermekes program Stadlauban (Bécs 22. kerület), péntekenként 10:00-tól; mondókázással, énekléssel, fejlesztőjátékkal és szülői beszélgetéssel.",
       "meta": "Wien · 0–3 éves baba–mama–papa foglalkozás",
       "href": "countries/at/education/amaped-csicsergo.html",
-      "search": "amaped – csicsergo klub wien 0–3 eves baba–mama–papa foglalkozas magyar nyelvi fejleszto es kozossegi foglalkozas 0–3 eves gyerekeknek es szuleiknek."
+      "search": "amaped – csicsergo klub wien 0–3 eves baba–mama–papa foglalkozas magyar nyelvi es kozossegi kisgyermekes program stadlauban (becs 22. kerulet), pentekenkent 10:00-tol; mondokazassal, eneklessel, fejlesztojatekkal es szuloi beszelgetessel."
     },
     {
       "type": "organization",
@@ -833,10 +863,10 @@
       "city": "Wien / Baden",
       "entityType": "0–6 éves zenei nevelés",
       "category": "Oktatás",
-      "summary": "Magyar énekes-mondókás foglalkozások 0–3 és 3–6 éves korosztálynak, bécsi és badeni helyszínekkel.",
+      "summary": "Magyar népdalokra, mondókákra és közös zenélésre épülő korai zenei és anyanyelvi program; a 2026/27-es hivatalos tájékoztató Floridsdorfban, az AMAPED bécsi központjában és Badenben igazol rendszeres csoportokat.",
       "meta": "Wien / Baden · 0–6 éves zenei nevelés",
       "href": "countries/at/education/amaped-ringato.html",
-      "search": "amaped – ringato wien / baden 0–6 eves zenei neveles magyar enekes-mondokas foglalkozasok 0–3 es 3–6 eves korosztalynak, becsi es badeni helyszinekkel."
+      "search": "amaped – ringato wien / baden 0–6 eves zenei neveles magyar nepdalokra, mondokakra es kozos zenelesre epulo korai zenei es anyanyelvi program; a 2026/27-es hivatalos tajekoztato floridsdorfban, az amaped becsi kozpontjaban es badenben igazol rendszeres csoportokat."
     },
     {
       "type": "organization",
@@ -872,16 +902,16 @@
       "type": "organization",
       "subtype": "education",
       "id": "amaped-stpoelten-education",
-      "label": "AMAPED – St. Pölten",
+      "label": "AMAPED – St. Pölten – igény szerint induló Ringató",
       "country": "at",
       "countryLabel": "Ausztria",
       "city": "St. Pölten",
-      "entityType": "magyar oktatási helyszín",
+      "entityType": "igény esetén indítható magyar Ringató-csoport",
       "category": "Oktatás",
-      "summary": "Az AMAPED aktuális helyszínlistáján szereplő St. Pölten-i magyar oktatási pont.",
-      "meta": "St. Pölten · magyar oktatási helyszín",
+      "summary": "Az AMAPED 2026/27-es hivatalos tájékoztatója szerint St. Pöltenben igény esetén indulhat új Ringató-csoport; az aktuális tanfolyamlistán rendszeres helyi időpont nem szerepel.",
+      "meta": "St. Pölten · igény esetén indítható magyar Ringató-csoport",
       "href": "countries/at/education/amaped-stpoelten-education.html",
-      "search": "amaped – st. polten st. polten magyar oktatasi helyszin az amaped aktualis helyszinlistajan szereplo st. polten-i magyar oktatasi pont."
+      "search": "amaped – st. polten – igeny szerint indulo ringato st. polten igeny eseten indithato magyar ringato-csoport az amaped 2026/27-es hivatalos tajekoztatoja szerint st. poltenben igeny eseten indulhat uj ringato-csoport; az aktualis tanfolyamlistan rendszeres helyi idopont nem szerepel."
     },
     {
       "type": "organization",
