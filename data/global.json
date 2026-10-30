@@ -1099,7 +1099,7 @@
         "en": "Cyprus",
         "officialEn": "Republic of Cyprus"
       },
-      "researchStatus": "unresearched",
+      "researchStatus": "researching",
       "countryDataPath": "data/countries/cy/",
       "route": "countries/cy/",
       "counts": {
@@ -1109,7 +1109,9 @@
         "events": 0,
         "education": 0
       },
-      "iso3": "CYP"
+      "iso3": "CYP",
+      "lastResearchAttemptAt": "2026-10-30T08:56:45+00:00",
+      "discoveryCandidateCount": 47
     },
     {
       "iso2": "cz",
@@ -4452,7 +4454,7 @@
         "organizations": 78,
         "activities": 0,
         "entities": 78,
-        "events": 17,
+        "events": 16,
         "education": 23
       },
       "iso3": "USA",

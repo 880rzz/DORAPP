@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-29T08:56:55+00:00",
+  "updated": "2026-10-30T09:01:28+00:00",
   "sources": [
     {
       "id": "katalan-magyar-kulturalis-egyesulet",
@@ -9,7 +9,7 @@
       "httpStatus": 200,
       "resolvedUrl": "https://barcelona.mfa.gov.hu/hu/articles/barcelonai-magyar-iskola",
       "contentType": "text/html; charset=utf-8",
-      "checkedAt": "2026-10-29T08:56:55+00:00",
+      "checkedAt": "2026-10-30T09:01:28+00:00",
       "removalAuthority": false,
       "note": null
     },
@@ -21,7 +21,7 @@
       "httpStatus": 200,
       "resolvedUrl": "https://kultkapocs.org/",
       "contentType": "text/html; charset=utf-8",
-      "checkedAt": "2026-10-29T08:56:55+00:00",
+      "checkedAt": "2026-10-30T09:01:28+00:00",
       "removalAuthority": false,
       "note": null
     },
@@ -33,7 +33,7 @@
       "httpStatus": 200,
       "resolvedUrl": "https://madrid.mfa.gov.hu/es",
       "contentType": "text/html; charset=utf-8",
-      "checkedAt": "2026-10-29T08:56:55+00:00",
+      "checkedAt": "2026-10-30T09:01:28+00:00",
       "removalAuthority": false,
       "note": null
     },
@@ -45,7 +45,7 @@
       "httpStatus": 200,
       "resolvedUrl": "https://barcelona.mfa.gov.hu/es/contact",
       "contentType": "text/html; charset=utf-8",
-      "checkedAt": "2026-10-29T08:56:55+00:00",
+      "checkedAt": "2026-10-30T09:01:28+00:00",
       "removalAuthority": false,
       "note": null
     },
@@ -57,7 +57,7 @@
       "httpStatus": 200,
       "resolvedUrl": "https://madrid.mfa.gov.hu/es/Oficina-de-la-Embajada-de-Hungria-en-Madrid-Malaga",
       "contentType": "text/html; charset=utf-8",
-      "checkedAt": "2026-10-29T08:56:55+00:00",
+      "checkedAt": "2026-10-30T09:01:28+00:00",
       "removalAuthority": false,
       "note": null
     },
@@ -69,7 +69,7 @@
       "httpStatus": 200,
       "resolvedUrl": "https://madrid.mfa.gov.hu/es/Consules-Honorarios-de-Hungria-en-Espana",
       "contentType": "text/html; charset=utf-8",
-      "checkedAt": "2026-10-29T08:56:55+00:00",
+      "checkedAt": "2026-10-30T09:01:28+00:00",
       "removalAuthority": false,
       "note": null
     },
@@ -81,7 +81,7 @@
       "httpStatus": 200,
       "resolvedUrl": "https://madrid.mfa.gov.hu/es/Consules-Honorarios-de-Hungria-en-Espana",
       "contentType": "text/html; charset=utf-8",
-      "checkedAt": "2026-10-29T08:56:55+00:00",
+      "checkedAt": "2026-10-30T09:01:28+00:00",
       "removalAuthority": false,
       "note": null
     },
@@ -93,7 +93,7 @@
       "httpStatus": 200,
       "resolvedUrl": "https://madrid.mfa.gov.hu/es/Consules-Honorarios-de-Hungria-en-Espana",
       "contentType": "text/html; charset=utf-8",
-      "checkedAt": "2026-10-29T08:56:55+00:00",
+      "checkedAt": "2026-10-30T09:01:28+00:00",
       "removalAuthority": false,
       "note": null
     },
@@ -105,7 +105,7 @@
       "httpStatus": 200,
       "resolvedUrl": "https://madrid.mfa.gov.hu/es/consulado-de-hungria-en-madrid",
       "contentType": "text/html; charset=utf-8",
-      "checkedAt": "2026-10-29T08:56:55+00:00",
+      "checkedAt": "2026-10-30T09:01:28+00:00",
       "removalAuthority": false,
       "note": null
     },
@@ -113,13 +113,13 @@
       "id": "escola-hongaresa-esgrima-barcelona",
       "url": "https://barcelonaesgrima.blogspot.com/",
       "sourceRole": "official-website",
-      "status": "ok",
-      "httpStatus": 200,
+      "status": "rate-limited",
+      "httpStatus": 429,
       "resolvedUrl": "https://barcelonaesgrima.blogspot.com/",
-      "contentType": "text/html; charset=utf-8",
-      "checkedAt": "2026-10-29T08:56:55+00:00",
+      "contentType": "",
+      "checkedAt": "2026-10-30T09:01:28+00:00",
       "removalAuthority": false,
-      "note": null
+      "note": "Technical failure alone is never evidence for entity removal."
     },
     {
       "id": "costamost-hu",
@@ -129,7 +129,7 @@
       "httpStatus": 200,
       "resolvedUrl": "https://costamost.hu/",
       "contentType": "text/html; charset=utf-8",
-      "checkedAt": "2026-10-29T08:56:55+00:00",
+      "checkedAt": "2026-10-30T09:01:28+00:00",
       "removalAuthority": false,
       "note": null
     },
@@ -141,7 +141,7 @@
       "httpStatus": null,
       "resolvedUrl": "https://www.madach.es/boletin/",
       "contentType": "",
-      "checkedAt": "2026-10-29T08:56:55+00:00",
+      "checkedAt": "2026-10-30T09:01:28+00:00",
       "removalAuthority": false,
       "note": "Technical failure alone is never evidence for entity removal."
     }
