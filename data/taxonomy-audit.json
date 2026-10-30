@@ -1,9 +1,9 @@
 {
-  "updated": "2026-10-30T02:07:24.938275+00:00",
+  "updated": "2026-10-30T02:12:19.675054+00:00",
   "summary": {
     "organizations": 163,
-    "organizationFlags": 2,
-    "organizationPagesChecked": 337,
+    "organizationFlags": 1,
+    "organizationPagesChecked": 338,
     "education": 112,
     "educationFlags": 0,
     "events": 73,
@@ -639,7 +639,6 @@
       "activityCategories": [],
       "signals": [
         "oktatas",
-        "nepzene",
         "media",
         "diak",
         "irodalom",
@@ -1116,23 +1115,20 @@
       "activityCategories": [],
       "signals": [
         "oktatas",
+        "szinhaz",
         "media",
-        "irodalom"
+        "irodalom",
+        "muveszet",
+        "csalad"
       ],
-      "pagesChecked": 2,
+      "pagesChecked": 3,
       "checkedUrls": [
         "https://culture.hu/hu/wien",
+        "https://culture.hu/hu/wien/esemenyek",
         "https://culture.hu/de/wien/jubilaum"
       ],
-      "errors": [
-        {
-          "url": "https://culture.hu/hu/wien/esemenyek",
-          "error": "The read operation timed out"
-        }
-      ],
-      "flags": [
-        "weak-source-signal:muveszet"
-      ]
+      "errors": [],
+      "flags": []
     },
     {
       "id": "collegium-pazmanianum",
