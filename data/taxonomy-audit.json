@@ -1,9 +1,9 @@
 {
-  "updated": "2026-10-30T02:12:19.675054+00:00",
+  "updated": "2026-10-30T10:52:56.777046+00:00",
   "summary": {
     "organizations": 163,
-    "organizationFlags": 1,
-    "organizationPagesChecked": 338,
+    "organizationFlags": 2,
+    "organizationPagesChecked": 344,
     "education": 112,
     "educationFlags": 0,
     "events": 73,
@@ -125,24 +125,18 @@
       ],
       "activityCategories": [],
       "signals": [
-        "egyhaz"
+        "oktatas",
+        "media",
+        "egyhaz",
+        "csalad"
       ],
-      "pagesChecked": 0,
-      "checkedUrls": [],
-      "errors": [
-        {
-          "url": "https://www.martinus.at/",
-          "error": "<urlopen error timed out>"
-        },
-        {
-          "url": "https://www.martinus.at/pfarre/1127/kalender",
-          "error": "<urlopen error timed out>"
-        },
-        {
-          "url": "https://www.martinus.at/unterwart",
-          "error": "<urlopen error timed out>"
-        }
+      "pagesChecked": 3,
+      "checkedUrls": [
+        "https://www.martinus.at/",
+        "https://www.martinus.at/pfarre/1127/kalender",
+        "https://www.martinus.at/unterwart"
       ],
+      "errors": [],
       "flags": []
     },
     {
@@ -1115,20 +1109,26 @@
       "activityCategories": [],
       "signals": [
         "oktatas",
-        "szinhaz",
         "media",
-        "irodalom",
-        "muveszet",
-        "csalad"
+        "irodalom"
       ],
-      "pagesChecked": 3,
+      "pagesChecked": 1,
       "checkedUrls": [
-        "https://culture.hu/hu/wien",
-        "https://culture.hu/hu/wien/esemenyek",
         "https://culture.hu/de/wien/jubilaum"
       ],
-      "errors": [],
-      "flags": []
+      "errors": [
+        {
+          "url": "https://culture.hu/hu/wien",
+          "error": "HTTP Error 502: Bad Gateway"
+        },
+        {
+          "url": "https://culture.hu/hu/wien/esemenyek",
+          "error": "HTTP Error 502: Bad Gateway"
+        }
+      ],
+      "flags": [
+        "weak-source-signal:muveszet"
+      ]
     },
     {
       "id": "collegium-pazmanianum",
@@ -1572,24 +1572,16 @@
       ],
       "activityCategories": [],
       "signals": [
+        "media",
         "egyhaz"
       ],
-      "pagesChecked": 0,
-      "checkedUrls": [],
-      "errors": [
-        {
-          "url": "https://www.martinus.at/pfarre/1122",
-          "error": "<urlopen error timed out>"
-        },
-        {
-          "url": "https://www.martinus.at/pfarre/1122/kalender",
-          "error": "<urlopen error timed out>"
-        },
-        {
-          "url": "https://www.martinus.at/pfarre/1122/kalender/calendar/1808040.html",
-          "error": "<urlopen error timed out>"
-        }
+      "pagesChecked": 3,
+      "checkedUrls": [
+        "https://www.martinus.at/pfarre/1122",
+        "https://www.martinus.at/pfarre/1122/kalender",
+        "https://www.martinus.at/pfarre/1122/kalender/calendar/1808040.html"
       ],
+      "errors": [],
       "flags": []
     },
     {
@@ -2106,16 +2098,14 @@
       "signals": [
         "egyhaz"
       ],
-      "pagesChecked": 0,
-      "checkedUrls": [],
+      "pagesChecked": 1,
+      "checkedUrls": [
+        "https://www.edsbg.at/seelsorge/weltkirche/anderssprachige-seelsorge/ungarische-gemeinde"
+      ],
       "errors": [
         {
-          "url": "https://www.edsbg.at/seelsorge/weltkirche/anderssprachige-seelsorge/ungarische-gemeinde",
-          "error": "<urlopen error timed out>"
-        },
-        {
           "url": "https://www.edsbg.at/dl/klOKJmMJKNLMKJqx4KJK/ungarischsprachige_Gottesdienstgemeinde_Salzburg_pdf",
-          "error": "<urlopen error timed out>"
+          "error": "HTTP Error 400: Bad Request"
         }
       ],
       "flags": []
@@ -2482,16 +2472,12 @@
         "irodalom",
         "csalad"
       ],
-      "pagesChecked": 1,
+      "pagesChecked": 2,
       "checkedUrls": [
+        "https://www.erzdioezese-wien.at/unit/katholischeostkirchen/unseregemeinden/katholischeostkirchen/gemeindeninwien",
         "https://hd.gorogkatolikus.hu/Magyar-gorogkatolikus-lelkeszseg-alakult-Becsben-2023-junius-06"
       ],
-      "errors": [
-        {
-          "url": "https://www.erzdioezese-wien.at/unit/katholischeostkirchen/unseregemeinden/katholischeostkirchen/gemeindeninwien",
-          "error": "<urlopen error timed out>"
-        }
-      ],
+      "errors": [],
       "flags": []
     },
     {
