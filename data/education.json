@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-27",
+  "updated": "2026-10-30",
   "methodology": "Az intézmények csak akkor kerülnek be, ha magyar nyelvű oktatásukat vagy magyar közösségi programjukat ORF, hivatalos intézményi oldal, Bildungsdirektion vagy más elsődleges/intézményi forrás igazolja. Az officialSiteMentionsHungarian mező azt jelzi, hogy a saját honlapon találtunk-e külön magyar tartalmat.",
   "institutions": [
     {
@@ -620,10 +620,10 @@
         "nursery"
       ],
       "type": "0–3 éves baba–mama–papa foglalkozás",
-      "website": "https://amaped.at/",
+      "website": "https://amaped.at/news/babas-es-kisgyermekes-foglalkozasok-az-amaped-nel-a-2026-2027-es-tanevben/",
       "officialSiteMentionsHungarian": true,
-      "summary": "Magyar nyelvi fejlesztő és közösségi foglalkozás 0–3 éves gyerekeknek és szüleiknek.",
-      "sourceUrl": "https://volksgruppen.orf.at/magyarok/stories/3302991/",
+      "summary": "Magyar nyelvi és közösségi kisgyermekes program Stadlauban (Bécs 22. kerület), péntekenként 10:00-tól; mondókázással, énekléssel, fejlesztőjátékkal és szülői beszélgetéssel.",
+      "sourceUrl": "https://amaped.at/news/babas-es-kisgyermekes-foglalkozasok-az-amaped-nel-a-2026-2027-es-tanevben/",
       "recordClass": "course",
       "activityCategories": [
         "gyermek",
@@ -642,10 +642,10 @@
         "kindergarten"
       ],
       "type": "0–6 éves zenei nevelés",
-      "website": "https://amaped.at/",
+      "website": "https://amaped.at/news/babas-es-kisgyermekes-foglalkozasok-az-amaped-nel-a-2026-2027-es-tanevben/",
       "officialSiteMentionsHungarian": true,
-      "summary": "Magyar énekes-mondókás foglalkozások 0–3 és 3–6 éves korosztálynak, bécsi és badeni helyszínekkel.",
-      "sourceUrl": "https://volksgruppen.orf.at/magyarok/stories/3211376/",
+      "summary": "Magyar népdalokra, mondókákra és közös zenélésre épülő korai zenei és anyanyelvi program; a 2026/27-es hivatalos tájékoztató Floridsdorfban, az AMAPED bécsi központjában és Badenben igazol rendszeres csoportokat.",
+      "sourceUrl": "https://amaped.at/news/babas-es-kisgyermekes-foglalkozasok-az-amaped-nel-a-2026-2027-es-tanevben/",
       "recordClass": "course",
       "activityCategories": [
         "zene",
@@ -1227,20 +1227,23 @@
     },
     {
       "id": "amaped-stpoelten-education",
-      "name": "AMAPED – St. Pölten",
+      "name": "AMAPED – St. Pölten – igény szerint induló Ringató",
       "state": "niederoesterreich",
       "city": "St. Pölten",
       "level": [
-        "kindergarten",
-        "primary",
-        "secondary"
+        "nursery"
       ],
-      "type": "magyar oktatási helyszín",
-      "website": "https://amaped.at/",
+      "type": "igény esetén indítható magyar Ringató-csoport",
+      "website": "https://amaped.at/news/babas-es-kisgyermekes-foglalkozasok-az-amaped-nel-a-2026-2027-es-tanevben/",
       "officialSiteMentionsHungarian": true,
-      "summary": "Az AMAPED aktuális helyszínlistáján szereplő St. Pölten-i magyar oktatási pont.",
-      "sourceUrl": "https://amaped.at/",
-      "recordClass": "education-unit",
+      "summary": "Az AMAPED 2026/27-es hivatalos tájékoztatója szerint St. Pöltenben igény esetén indulhat új Ringató-csoport; az aktuális tanfolyamlistán rendszeres helyi időpont nem szerepel.",
+      "sourceUrl": "https://amaped.at/news/babas-es-kisgyermekes-foglalkozasok-az-amaped-nel-a-2026-2027-es-tanevben/",
+      "recordClass": "course",
+      "activityCategories": [
+        "zene",
+        "gyermek"
+      ],
+      "parentOrganizationId": "amaped",
       "verifiedFor": "2026/27"
     },
     {
@@ -1916,6 +1919,47 @@
         "magyar-nyelv",
         "felnott"
       ]
+    },
+    {
+      "id": "amaped-babamasszazs-torna",
+      "name": "AMAPED – Babamasszázs és torna",
+      "state": "wien",
+      "city": "Wien",
+      "level": [
+        "nursery"
+      ],
+      "type": "magyar kisgyermekes fejlesztő foglalkozás 1 éves korig",
+      "website": "https://amaped.at/news/babas-es-kisgyermekes-foglalkozasok-az-amaped-nel-a-2026-2027-es-tanevben/",
+      "officialSiteMentionsHungarian": true,
+      "summary": "Magyar kisgyermekes közösségi és mozgásfejlesztő foglalkozás az AMAPED bécsi központjában, keddenként 15:20-tól, 1 éves korig.",
+      "sourceUrl": "https://amaped.at/news/babas-es-kisgyermekes-foglalkozasok-az-amaped-nel-a-2026-2027-es-tanevben/",
+      "recordClass": "course",
+      "activityCategories": [
+        "gyermek"
+      ],
+      "parentOrganizationId": "amaped",
+      "verifiedFor": "2026/27"
+    },
+    {
+      "id": "amaped-aprotorna",
+      "name": "AMAPED – Aprótorna",
+      "state": "wien",
+      "city": "Wien",
+      "level": [
+        "nursery",
+        "kindergarten"
+      ],
+      "type": "magyar kisgyermekes mozgásfejlesztő foglalkozás 1 éves kortól",
+      "website": "https://amaped.at/news/babas-es-kisgyermekes-foglalkozasok-az-amaped-nel-a-2026-2027-es-tanevben/",
+      "officialSiteMentionsHungarian": true,
+      "summary": "Játékos magyar kisgyermekes mozgásfejlesztő foglalkozás az AMAPED bécsi központjában, keddenként 16:30-tól, 1 éves kortól.",
+      "sourceUrl": "https://amaped.at/news/babas-es-kisgyermekes-foglalkozasok-az-amaped-nel-a-2026-2027-es-tanevben/",
+      "recordClass": "course",
+      "activityCategories": [
+        "gyermek"
+      ],
+      "parentOrganizationId": "amaped",
+      "verifiedFor": "2026/27"
     }
   ],
   "recordClassDefinitions": [
