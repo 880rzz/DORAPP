@@ -1284,7 +1284,7 @@
         "en": "Estonia",
         "officialEn": "Republic of Estonia"
       },
-      "researchStatus": "unresearched",
+      "researchStatus": "researching",
       "countryDataPath": "data/countries/ee/",
       "route": "countries/ee/",
       "counts": {
@@ -1294,7 +1294,9 @@
         "events": 0,
         "education": 0
       },
-      "iso3": "EST"
+      "iso3": "EST",
+      "lastResearchAttemptAt": "2026-10-31T08:49:24+00:00",
+      "discoveryCandidateCount": 47
     },
     {
       "iso2": "eg",
@@ -3194,7 +3196,7 @@
         "organizations": 21,
         "activities": 0,
         "entities": 21,
-        "events": 8,
+        "events": 7,
         "education": 4
       },
       "iso3": "NLD",
