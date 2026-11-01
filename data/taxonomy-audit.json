@@ -1,12 +1,12 @@
 {
-  "updated": "2026-10-31T10:52:07.366325+00:00",
+  "updated": "2026-11-01T11:16:32.736916+00:00",
   "summary": {
     "organizations": 163,
     "organizationFlags": 1,
-    "organizationPagesChecked": 338,
+    "organizationPagesChecked": 344,
     "education": 112,
     "educationFlags": 0,
-    "events": 73,
+    "events": 72,
     "eventFlags": 0
   },
   "organizations": [
@@ -125,24 +125,18 @@
       ],
       "activityCategories": [],
       "signals": [
-        "egyhaz"
+        "oktatas",
+        "media",
+        "egyhaz",
+        "csalad"
       ],
-      "pagesChecked": 0,
-      "checkedUrls": [],
-      "errors": [
-        {
-          "url": "https://www.martinus.at/",
-          "error": "<urlopen error timed out>"
-        },
-        {
-          "url": "https://www.martinus.at/pfarre/1127/kalender",
-          "error": "<urlopen error timed out>"
-        },
-        {
-          "url": "https://www.martinus.at/unterwart",
-          "error": "<urlopen error timed out>"
-        }
+      "pagesChecked": 3,
+      "checkedUrls": [
+        "https://www.martinus.at/",
+        "https://www.martinus.at/pfarre/1127/kalender",
+        "https://www.martinus.at/unterwart"
       ],
+      "errors": [],
       "flags": []
     },
     {
@@ -1572,24 +1566,16 @@
       ],
       "activityCategories": [],
       "signals": [
+        "media",
         "egyhaz"
       ],
-      "pagesChecked": 0,
-      "checkedUrls": [],
-      "errors": [
-        {
-          "url": "https://www.martinus.at/pfarre/1122",
-          "error": "<urlopen error timed out>"
-        },
-        {
-          "url": "https://www.martinus.at/pfarre/1122/kalender",
-          "error": "<urlopen error timed out>"
-        },
-        {
-          "url": "https://www.martinus.at/pfarre/1122/kalender/calendar/1808040.html",
-          "error": "<urlopen error timed out>"
-        }
+      "pagesChecked": 3,
+      "checkedUrls": [
+        "https://www.martinus.at/pfarre/1122",
+        "https://www.martinus.at/pfarre/1122/kalender",
+        "https://www.martinus.at/pfarre/1122/kalender/calendar/1808040.html"
       ],
+      "errors": [],
       "flags": []
     },
     {
@@ -2106,16 +2092,14 @@
       "signals": [
         "egyhaz"
       ],
-      "pagesChecked": 0,
-      "checkedUrls": [],
+      "pagesChecked": 1,
+      "checkedUrls": [
+        "https://www.edsbg.at/seelsorge/weltkirche/anderssprachige-seelsorge/ungarische-gemeinde"
+      ],
       "errors": [
         {
-          "url": "https://www.edsbg.at/seelsorge/weltkirche/anderssprachige-seelsorge/ungarische-gemeinde",
-          "error": "<urlopen error timed out>"
-        },
-        {
           "url": "https://www.edsbg.at/dl/klOKJmMJKNLMKJqx4KJK/ungarischsprachige_Gottesdienstgemeinde_Salzburg_pdf",
-          "error": "<urlopen error timed out>"
+          "error": "HTTP Error 400: Bad Request"
         }
       ],
       "flags": []
@@ -2482,16 +2466,12 @@
         "irodalom",
         "csalad"
       ],
-      "pagesChecked": 1,
+      "pagesChecked": 2,
       "checkedUrls": [
+        "https://www.erzdioezese-wien.at/unit/katholischeostkirchen/unseregemeinden/katholischeostkirchen/gemeindeninwien",
         "https://hd.gorogkatolikus.hu/Magyar-gorogkatolikus-lelkeszseg-alakult-Becsben-2023-junius-06"
       ],
-      "errors": [
-        {
-          "url": "https://www.erzdioezese-wien.at/unit/katholischeostkirchen/unseregemeinden/katholischeostkirchen/gemeindeninwien",
-          "error": "<urlopen error timed out>"
-        }
-      ],
+      "errors": [],
       "flags": []
     },
     {
@@ -3021,8 +3001,9 @@
       ],
       "activityCategories": [],
       "signals": [
-        "szinhaz",
         "media",
+        "egyhaz",
+        "diak",
         "muveszet",
         "sport"
       ],
@@ -3865,6 +3846,7 @@
         "szinhaz",
         "media",
         "irodalom",
+        "muveszet",
         "sport",
         "csalad"
       ],
@@ -4317,20 +4299,26 @@
       ],
       "activityCategories": [],
       "signals": [
-        "szinhaz",
         "media",
         "egyhaz",
         "irodalom",
         "muveszet",
         "sport"
       ],
-      "pagesChecked": 3,
+      "pagesChecked": 1,
       "checkedUrls": [
-        "https://vlb.vorarlberg.at/",
-        "https://volksgruppen.orf.at/magyarok/stories/3362082/",
-        "https://vlb.vorarlberg.at/was-passiert/"
+        "https://volksgruppen.orf.at/magyarok/stories/3362082/"
       ],
-      "errors": [],
+      "errors": [
+        {
+          "url": "https://vlb.vorarlberg.at/",
+          "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1010)>"
+        },
+        {
+          "url": "https://vlb.vorarlberg.at/was-passiert/",
+          "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1010)>"
+        }
+      ],
       "flags": []
     },
     {
