@@ -1304,7 +1304,7 @@
         "en": "Egypt",
         "officialEn": "Arab Republic of Egypt"
       },
-      "researchStatus": "unresearched",
+      "researchStatus": "researching",
       "countryDataPath": "data/countries/eg/",
       "route": "countries/eg/",
       "counts": {
@@ -1314,7 +1314,9 @@
         "events": 0,
         "education": 0
       },
-      "iso3": "EGY"
+      "iso3": "EGY",
+      "lastResearchAttemptAt": "2026-11-01T09:40:11+00:00",
+      "discoveryCandidateCount": 52
     },
     {
       "iso2": "eh",
@@ -4456,7 +4458,7 @@
         "organizations": 78,
         "activities": 0,
         "entities": 78,
-        "events": 16,
+        "events": 18,
         "education": 23
       },
       "iso3": "USA",
