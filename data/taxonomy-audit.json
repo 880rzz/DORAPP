@@ -1,9 +1,9 @@
 {
-  "updated": "2026-11-02T12:24:45.777402+00:00",
+  "updated": "2026-11-02T12:52:24.817203+00:00",
   "summary": {
     "organizations": 163,
-    "organizationFlags": 2,
-    "organizationPagesChecked": 329,
+    "organizationFlags": 1,
+    "organizationPagesChecked": 333,
     "education": 112,
     "educationFlags": 0,
     "events": 72,
@@ -1115,23 +1115,20 @@
       "activityCategories": [],
       "signals": [
         "oktatas",
+        "szinhaz",
         "media",
-        "irodalom"
+        "irodalom",
+        "muveszet",
+        "csalad"
       ],
-      "pagesChecked": 2,
+      "pagesChecked": 3,
       "checkedUrls": [
         "https://culture.hu/hu/wien",
+        "https://culture.hu/hu/wien/esemenyek",
         "https://culture.hu/de/wien/jubilaum"
       ],
-      "errors": [
-        {
-          "url": "https://culture.hu/hu/wien/esemenyek",
-          "error": "The read operation timed out"
-        }
-      ],
-      "flags": [
-        "weak-source-signal:muveszet"
-      ]
+      "errors": [],
+      "flags": []
     },
     {
       "id": "collegium-pazmanianum",
@@ -1275,18 +1272,21 @@
       "activityCategories": [],
       "signals": [
         "oktatas",
-        "nepzene"
+        "neptanc",
+        "nepzene",
+        "enekkar",
+        "szinhaz",
+        "media",
+        "csalad"
       ],
-      "pagesChecked": 0,
-      "checkedUrls": [],
+      "pagesChecked": 1,
+      "checkedUrls": [
+        "https://bukv.at/volksmusikgruppe-csoerge/"
+      ],
       "errors": [
         {
-          "url": "https://bukv.at/volksmusikgruppe-csoerge/",
-          "error": "The read operation timed out"
-        },
-        {
           "url": "https://bukv.at/hu/csoerge-nepzenekar/",
-          "error": "The read operation timed out"
+          "error": "HTTP Error 404: Not Found"
         }
       ],
       "flags": []
@@ -1463,22 +1463,9 @@
         "kultura"
       ],
       "activityCategories": [],
-      "signals": [
-        "oktatas",
-        "neptanc",
-        "szinhaz",
-        "media",
-        "egyhaz",
-        "diak",
-        "irodalom",
-        "muveszet"
-      ],
-      "pagesChecked": 3,
-      "checkedUrls": [
-        "https://europaclub.at/",
-        "https://europaclub.at/rolunk/europa-club-tortenete/",
-        "https://europaclub.at/de/kontakt/"
-      ],
+      "signals": [],
+      "pagesChecked": 0,
+      "checkedUrls": [],
       "errors": [],
       "flags": []
     },
@@ -2837,16 +2824,22 @@
         "cserkesz",
         "media",
         "egyhaz",
-        "sport",
-        "csalad"
+        "sport"
       ],
-      "pagesChecked": 3,
+      "pagesChecked": 1,
       "checkedUrls": [
-        "https://ne-felejts.weebly.com/",
-        "https://ne-felejts.weebly.com/uumlber-uns.html",
         "https://volksgruppen.orf.at/magyarok/stories/3173798/"
       ],
-      "errors": [],
+      "errors": [
+        {
+          "url": "https://ne-felejts.weebly.com/",
+          "error": "HTTP Error 429: Too Many Requests"
+        },
+        {
+          "url": "https://ne-felejts.weebly.com/uumlber-uns.html",
+          "error": "HTTP Error 429: Too Many Requests"
+        }
+      ],
       "flags": []
     },
     {
@@ -3076,21 +3069,22 @@
       "activityCategories": [],
       "signals": [
         "oktatas",
+        "neptanc",
         "nepzene",
         "enekkar",
+        "szinhaz",
+        "media",
+        "egyhaz",
+        "irodalom",
         "muveszet",
         "csalad"
       ],
-      "pagesChecked": 1,
+      "pagesChecked": 2,
       "checkedUrls": [
+        "https://hungarikum.at/hu/hagyomanyok/",
         "https://vhs-ungarn.at/de/uber-uns/der-verein-volkshochschule-der-burgenlandischen-ungarn/"
       ],
-      "errors": [
-        {
-          "url": "https://hungarikum.at/hu/hagyomanyok/",
-          "error": "The read operation timed out"
-        }
-      ],
+      "errors": [],
       "flags": []
     },
     {
@@ -3130,20 +3124,17 @@
         "nepzene",
         "enekkar",
         "szinhaz",
+        "media",
         "diak",
         "irodalom",
         "csalad"
       ],
-      "pagesChecked": 1,
+      "pagesChecked": 2,
       "checkedUrls": [
+        "https://bukv.at/volkstanzgruppe-siget-in-der-wart/",
         "https://bukv.at/hu/oriszigeti-magyar-neptancegyuettes/"
       ],
-      "errors": [
-        {
-          "url": "https://bukv.at/volkstanzgruppe-siget-in-der-wart/",
-          "error": "The read operation timed out"
-        }
-      ],
+      "errors": [],
       "flags": []
     },
     {
@@ -3984,20 +3975,13 @@
         "muveszet",
         "csalad"
       ],
-      "pagesChecked": 1,
+      "pagesChecked": 3,
       "checkedUrls": [
+        "https://rolunk.at/?p=46523",
+        "https://rolunk.at/tag/sunido/",
         "https://rolunk.at/magazin/aktiv-apukak-sztereotipiadontogetes-es-hatalmas-farsangi-buli-felso-ausztriaban/"
       ],
-      "errors": [
-        {
-          "url": "https://rolunk.at/?p=46523",
-          "error": "The read operation timed out"
-        },
-        {
-          "url": "https://rolunk.at/tag/sunido/",
-          "error": "The read operation timed out"
-        }
-      ],
+      "errors": [],
       "flags": []
     },
     {
@@ -4275,17 +4259,19 @@
       ],
       "activityCategories": [],
       "signals": [
+        "oktatas",
         "neptanc",
+        "nepzene",
+        "enekkar",
+        "szinhaz",
+        "media",
         "csalad"
       ],
-      "pagesChecked": 0,
-      "checkedUrls": [],
-      "errors": [
-        {
-          "url": "https://bukv.at/kindervolkstanzgruppe-virgonc/",
-          "error": "The read operation timed out"
-        }
+      "pagesChecked": 1,
+      "checkedUrls": [
+        "https://bukv.at/kindervolkstanzgruppe-virgonc/"
       ],
+      "errors": [],
       "flags": []
     },
     {
@@ -4302,20 +4288,17 @@
         "nepzene",
         "enekkar",
         "szinhaz",
+        "media",
         "diak",
         "irodalom",
         "csalad"
       ],
-      "pagesChecked": 1,
+      "pagesChecked": 2,
       "checkedUrls": [
+        "https://bukv.at/volkstanzgruppe-virgonc/",
         "https://bukv.at/hu/virgonc-neptanccsoport/"
       ],
-      "errors": [
-        {
-          "url": "https://bukv.at/volkstanzgruppe-virgonc/",
-          "error": "The read operation timed out"
-        }
-      ],
+      "errors": [],
       "flags": []
     },
     {
@@ -4418,15 +4401,20 @@
         "zenekar"
       ],
       "activityCategories": [],
-      "signals": [],
-      "pagesChecked": 0,
-      "checkedUrls": [],
-      "errors": [
-        {
-          "url": "https://bukv.at/musikensemble-warter-fantasie/",
-          "error": "The read operation timed out"
-        }
+      "signals": [
+        "oktatas",
+        "neptanc",
+        "nepzene",
+        "enekkar",
+        "szinhaz",
+        "media",
+        "csalad"
       ],
+      "pagesChecked": 1,
+      "checkedUrls": [
+        "https://bukv.at/musikensemble-warter-fantasie/"
+      ],
+      "errors": [],
       "flags": []
     },
     {
