@@ -1,9 +1,9 @@
 {
-  "updated": "2026-11-01T11:47:25.268125+00:00",
+  "updated": "2026-11-02T12:24:45.777402+00:00",
   "summary": {
     "organizations": 163,
-    "organizationFlags": 1,
-    "organizationPagesChecked": 339,
+    "organizationFlags": 2,
+    "organizationPagesChecked": 329,
     "education": 112,
     "educationFlags": 0,
     "events": 72,
@@ -125,18 +125,24 @@
       ],
       "activityCategories": [],
       "signals": [
-        "oktatas",
-        "media",
-        "egyhaz",
-        "csalad"
+        "egyhaz"
       ],
-      "pagesChecked": 3,
-      "checkedUrls": [
-        "https://www.martinus.at/",
-        "https://www.martinus.at/pfarre/1127/kalender",
-        "https://www.martinus.at/unterwart"
+      "pagesChecked": 0,
+      "checkedUrls": [],
+      "errors": [
+        {
+          "url": "https://www.martinus.at/",
+          "error": "<urlopen error timed out>"
+        },
+        {
+          "url": "https://www.martinus.at/pfarre/1127/kalender",
+          "error": "<urlopen error timed out>"
+        },
+        {
+          "url": "https://www.martinus.at/unterwart",
+          "error": "<urlopen error timed out>"
+        }
       ],
-      "errors": [],
       "flags": []
     },
     {
@@ -1109,20 +1115,23 @@
       "activityCategories": [],
       "signals": [
         "oktatas",
-        "szinhaz",
         "media",
-        "irodalom",
-        "muveszet",
-        "csalad"
+        "irodalom"
       ],
-      "pagesChecked": 3,
+      "pagesChecked": 2,
       "checkedUrls": [
         "https://culture.hu/hu/wien",
-        "https://culture.hu/hu/wien/esemenyek",
         "https://culture.hu/de/wien/jubilaum"
       ],
-      "errors": [],
-      "flags": []
+      "errors": [
+        {
+          "url": "https://culture.hu/hu/wien/esemenyek",
+          "error": "The read operation timed out"
+        }
+      ],
+      "flags": [
+        "weak-source-signal:muveszet"
+      ]
     },
     {
       "id": "collegium-pazmanianum",
@@ -1266,21 +1275,18 @@
       "activityCategories": [],
       "signals": [
         "oktatas",
-        "neptanc",
-        "nepzene",
-        "enekkar",
-        "szinhaz",
-        "media",
-        "csalad"
+        "nepzene"
       ],
-      "pagesChecked": 1,
-      "checkedUrls": [
-        "https://bukv.at/volksmusikgruppe-csoerge/"
-      ],
+      "pagesChecked": 0,
+      "checkedUrls": [],
       "errors": [
         {
+          "url": "https://bukv.at/volksmusikgruppe-csoerge/",
+          "error": "The read operation timed out"
+        },
+        {
           "url": "https://bukv.at/hu/csoerge-nepzenekar/",
-          "error": "HTTP Error 404: Not Found"
+          "error": "The read operation timed out"
         }
       ],
       "flags": []
@@ -1457,9 +1463,22 @@
         "kultura"
       ],
       "activityCategories": [],
-      "signals": [],
-      "pagesChecked": 0,
-      "checkedUrls": [],
+      "signals": [
+        "oktatas",
+        "neptanc",
+        "szinhaz",
+        "media",
+        "egyhaz",
+        "diak",
+        "irodalom",
+        "muveszet"
+      ],
+      "pagesChecked": 3,
+      "checkedUrls": [
+        "https://europaclub.at/",
+        "https://europaclub.at/rolunk/europa-club-tortenete/",
+        "https://europaclub.at/de/kontakt/"
+      ],
       "errors": [],
       "flags": []
     },
@@ -1553,16 +1572,24 @@
       ],
       "activityCategories": [],
       "signals": [
-        "media",
         "egyhaz"
       ],
-      "pagesChecked": 3,
-      "checkedUrls": [
-        "https://www.martinus.at/pfarre/1122",
-        "https://www.martinus.at/pfarre/1122/kalender",
-        "https://www.martinus.at/pfarre/1122/kalender/calendar/1808040.html"
+      "pagesChecked": 0,
+      "checkedUrls": [],
+      "errors": [
+        {
+          "url": "https://www.martinus.at/pfarre/1122",
+          "error": "<urlopen error timed out>"
+        },
+        {
+          "url": "https://www.martinus.at/pfarre/1122/kalender",
+          "error": "<urlopen error timed out>"
+        },
+        {
+          "url": "https://www.martinus.at/pfarre/1122/kalender/calendar/1808040.html",
+          "error": "<urlopen error timed out>"
+        }
       ],
-      "errors": [],
       "flags": []
     },
     {
@@ -1882,17 +1909,13 @@
         "sport",
         "csalad"
       ],
-      "pagesChecked": 2,
+      "pagesChecked": 3,
       "checkedUrls": [
+        "https://imeasz.at/",
         "https://www.kozpontiszovetseg.at/tagszervezetek",
         "https://www.petofiprogram.hu/hirek/hazat-csereltek-de-szivet-nem-kifogyhatatlan-otletekkel-peldas-aktivitassal-orzik"
       ],
-      "errors": [
-        {
-          "url": "https://imeasz.at/",
-          "error": "The read operation timed out"
-        }
-      ],
+      "errors": [],
       "flags": []
     },
     {
@@ -2083,14 +2106,16 @@
       "signals": [
         "egyhaz"
       ],
-      "pagesChecked": 1,
-      "checkedUrls": [
-        "https://www.edsbg.at/seelsorge/weltkirche/anderssprachige-seelsorge/ungarische-gemeinde"
-      ],
+      "pagesChecked": 0,
+      "checkedUrls": [],
       "errors": [
         {
+          "url": "https://www.edsbg.at/seelsorge/weltkirche/anderssprachige-seelsorge/ungarische-gemeinde",
+          "error": "<urlopen error timed out>"
+        },
+        {
           "url": "https://www.edsbg.at/dl/klOKJmMJKNLMKJqx4KJK/ungarischsprachige_Gottesdienstgemeinde_Salzburg_pdf",
-          "error": "HTTP Error 400: Bad Request"
+          "error": "<urlopen error timed out>"
         }
       ],
       "flags": []
@@ -2457,12 +2482,16 @@
         "irodalom",
         "csalad"
       ],
-      "pagesChecked": 2,
+      "pagesChecked": 1,
       "checkedUrls": [
-        "https://www.erzdioezese-wien.at/unit/katholischeostkirchen/unseregemeinden/katholischeostkirchen/gemeindeninwien",
         "https://hd.gorogkatolikus.hu/Magyar-gorogkatolikus-lelkeszseg-alakult-Becsben-2023-junius-06"
       ],
-      "errors": [],
+      "errors": [
+        {
+          "url": "https://www.erzdioezese-wien.at/unit/katholischeostkirchen/unseregemeinden/katholischeostkirchen/gemeindeninwien",
+          "error": "<urlopen error timed out>"
+        }
+      ],
       "flags": []
     },
     {
@@ -2502,19 +2531,16 @@
       "activityCategories": [],
       "signals": [
         "diak",
+        "irodalom",
         "csalad"
       ],
-      "pagesChecked": 2,
+      "pagesChecked": 3,
       "checkedUrls": [
+        "https://huheim.at/hu/home/",
         "https://huheim.at/hu/about/",
         "https://huheim.at/hu/hu_impressum/"
       ],
-      "errors": [
-        {
-          "url": "https://huheim.at/hu/home/",
-          "error": "The read operation timed out"
-        }
-      ],
+      "errors": [],
       "flags": []
     },
     {
@@ -2998,7 +3024,6 @@
         "media",
         "egyhaz",
         "diak",
-        "muveszet",
         "sport"
       ],
       "pagesChecked": 3,
@@ -3051,22 +3076,21 @@
       "activityCategories": [],
       "signals": [
         "oktatas",
-        "neptanc",
         "nepzene",
         "enekkar",
-        "szinhaz",
-        "media",
-        "egyhaz",
-        "irodalom",
         "muveszet",
         "csalad"
       ],
-      "pagesChecked": 2,
+      "pagesChecked": 1,
       "checkedUrls": [
-        "https://hungarikum.at/hu/hagyomanyok/",
         "https://vhs-ungarn.at/de/uber-uns/der-verein-volkshochschule-der-burgenlandischen-ungarn/"
       ],
-      "errors": [],
+      "errors": [
+        {
+          "url": "https://hungarikum.at/hu/hagyomanyok/",
+          "error": "The read operation timed out"
+        }
+      ],
       "flags": []
     },
     {
@@ -3106,17 +3130,20 @@
         "nepzene",
         "enekkar",
         "szinhaz",
-        "media",
         "diak",
         "irodalom",
         "csalad"
       ],
-      "pagesChecked": 2,
+      "pagesChecked": 1,
       "checkedUrls": [
-        "https://bukv.at/volkstanzgruppe-siget-in-der-wart/",
         "https://bukv.at/hu/oriszigeti-magyar-neptancegyuettes/"
       ],
-      "errors": [],
+      "errors": [
+        {
+          "url": "https://bukv.at/volkstanzgruppe-siget-in-der-wart/",
+          "error": "The read operation timed out"
+        }
+      ],
       "flags": []
     },
     {
@@ -3957,13 +3984,20 @@
         "muveszet",
         "csalad"
       ],
-      "pagesChecked": 3,
+      "pagesChecked": 1,
       "checkedUrls": [
-        "https://rolunk.at/?p=46523",
-        "https://rolunk.at/tag/sunido/",
         "https://rolunk.at/magazin/aktiv-apukak-sztereotipiadontogetes-es-hatalmas-farsangi-buli-felso-ausztriaban/"
       ],
-      "errors": [],
+      "errors": [
+        {
+          "url": "https://rolunk.at/?p=46523",
+          "error": "The read operation timed out"
+        },
+        {
+          "url": "https://rolunk.at/tag/sunido/",
+          "error": "The read operation timed out"
+        }
+      ],
       "flags": []
     },
     {
@@ -4241,19 +4275,17 @@
       ],
       "activityCategories": [],
       "signals": [
-        "oktatas",
         "neptanc",
-        "nepzene",
-        "enekkar",
-        "szinhaz",
-        "media",
         "csalad"
       ],
-      "pagesChecked": 1,
-      "checkedUrls": [
-        "https://bukv.at/kindervolkstanzgruppe-virgonc/"
+      "pagesChecked": 0,
+      "checkedUrls": [],
+      "errors": [
+        {
+          "url": "https://bukv.at/kindervolkstanzgruppe-virgonc/",
+          "error": "The read operation timed out"
+        }
       ],
-      "errors": [],
       "flags": []
     },
     {
@@ -4270,17 +4302,20 @@
         "nepzene",
         "enekkar",
         "szinhaz",
-        "media",
         "diak",
         "irodalom",
         "csalad"
       ],
-      "pagesChecked": 2,
+      "pagesChecked": 1,
       "checkedUrls": [
-        "https://bukv.at/volkstanzgruppe-virgonc/",
         "https://bukv.at/hu/virgonc-neptanccsoport/"
       ],
-      "errors": [],
+      "errors": [
+        {
+          "url": "https://bukv.at/volkstanzgruppe-virgonc/",
+          "error": "The read operation timed out"
+        }
+      ],
       "flags": []
     },
     {
@@ -4293,26 +4328,20 @@
       ],
       "activityCategories": [],
       "signals": [
+        "szinhaz",
         "media",
         "egyhaz",
         "irodalom",
         "muveszet",
         "sport"
       ],
-      "pagesChecked": 1,
+      "pagesChecked": 3,
       "checkedUrls": [
-        "https://volksgruppen.orf.at/magyarok/stories/3362082/"
+        "https://vlb.vorarlberg.at/",
+        "https://volksgruppen.orf.at/magyarok/stories/3362082/",
+        "https://vlb.vorarlberg.at/was-passiert/"
       ],
-      "errors": [
-        {
-          "url": "https://vlb.vorarlberg.at/",
-          "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1010)>"
-        },
-        {
-          "url": "https://vlb.vorarlberg.at/was-passiert/",
-          "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1010)>"
-        }
-      ],
+      "errors": [],
       "flags": []
     },
     {
@@ -4389,20 +4418,15 @@
         "zenekar"
       ],
       "activityCategories": [],
-      "signals": [
-        "oktatas",
-        "neptanc",
-        "nepzene",
-        "enekkar",
-        "szinhaz",
-        "media",
-        "csalad"
+      "signals": [],
+      "pagesChecked": 0,
+      "checkedUrls": [],
+      "errors": [
+        {
+          "url": "https://bukv.at/musikensemble-warter-fantasie/",
+          "error": "The read operation timed out"
+        }
       ],
-      "pagesChecked": 1,
-      "checkedUrls": [
-        "https://bukv.at/musikensemble-warter-fantasie/"
-      ],
-      "errors": [],
       "flags": []
     },
     {
