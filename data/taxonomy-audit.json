@@ -1,9 +1,9 @@
 {
-  "updated": "2026-11-02T12:52:24.817203+00:00",
+  "updated": "2026-11-02T13:25:00.462421+00:00",
   "summary": {
     "organizations": 163,
-    "organizationFlags": 1,
-    "organizationPagesChecked": 333,
+    "organizationFlags": 2,
+    "organizationPagesChecked": 334,
     "education": 112,
     "educationFlags": 0,
     "events": 72,
@@ -1115,20 +1115,23 @@
       "activityCategories": [],
       "signals": [
         "oktatas",
-        "szinhaz",
         "media",
-        "irodalom",
-        "muveszet",
-        "csalad"
+        "irodalom"
       ],
-      "pagesChecked": 3,
+      "pagesChecked": 2,
       "checkedUrls": [
         "https://culture.hu/hu/wien",
-        "https://culture.hu/hu/wien/esemenyek",
         "https://culture.hu/de/wien/jubilaum"
       ],
-      "errors": [],
-      "flags": []
+      "errors": [
+        {
+          "url": "https://culture.hu/hu/wien/esemenyek",
+          "error": "The read operation timed out"
+        }
+      ],
+      "flags": [
+        "weak-source-signal:muveszet"
+      ]
     },
     {
       "id": "collegium-pazmanianum",
@@ -1463,9 +1466,22 @@
         "kultura"
       ],
       "activityCategories": [],
-      "signals": [],
-      "pagesChecked": 0,
-      "checkedUrls": [],
+      "signals": [
+        "oktatas",
+        "neptanc",
+        "szinhaz",
+        "media",
+        "egyhaz",
+        "diak",
+        "irodalom",
+        "muveszet"
+      ],
+      "pagesChecked": 3,
+      "checkedUrls": [
+        "https://europaclub.at/",
+        "https://europaclub.at/rolunk/europa-club-tortenete/",
+        "https://europaclub.at/de/kontakt/"
+      ],
       "errors": [],
       "flags": []
     },
@@ -2824,22 +2840,16 @@
         "cserkesz",
         "media",
         "egyhaz",
-        "sport"
+        "sport",
+        "csalad"
       ],
-      "pagesChecked": 1,
+      "pagesChecked": 3,
       "checkedUrls": [
+        "https://ne-felejts.weebly.com/",
+        "https://ne-felejts.weebly.com/uumlber-uns.html",
         "https://volksgruppen.orf.at/magyarok/stories/3173798/"
       ],
-      "errors": [
-        {
-          "url": "https://ne-felejts.weebly.com/",
-          "error": "HTTP Error 429: Too Many Requests"
-        },
-        {
-          "url": "https://ne-felejts.weebly.com/uumlber-uns.html",
-          "error": "HTTP Error 429: Too Many Requests"
-        }
-      ],
+      "errors": [],
       "flags": []
     },
     {
@@ -3017,7 +3027,8 @@
         "media",
         "egyhaz",
         "diak",
-        "sport"
+        "sport",
+        "csalad"
       ],
       "pagesChecked": 3,
       "checkedUrls": [
@@ -3596,7 +3607,7 @@
       "errors": [
         {
           "url": "https://salzung.com/hu/?start=8",
-          "error": "HTTP Error 404: Not Found"
+          "error": "<urlopen error [Errno 101] Network is unreachable>"
         }
       ],
       "flags": []
@@ -3619,15 +3630,15 @@
       "errors": [
         {
           "url": "https://salzung.com/hu/rolunk/az-egyesulet-bemutatasa",
-          "error": "HTTP Error 404: Not Found"
+          "error": "<urlopen error [Errno 101] Network is unreachable>"
         },
         {
           "url": "https://salzung.com/hu/rolunk/",
-          "error": "HTTP Error 404: Not Found"
+          "error": "<urlopen error [Errno 101] Network is unreachable>"
         },
         {
           "url": "https://salzung.com/hu",
-          "error": "HTTP Error 404: Not Found"
+          "error": "<urlopen error [Errno 101] Network is unreachable>"
         }
       ],
       "flags": []
@@ -3648,15 +3659,15 @@
       "errors": [
         {
           "url": "https://salzung.com/hu/hirek/indul-a-brumi-ovi",
-          "error": "HTTP Error 404: Not Found"
+          "error": "<urlopen error [Errno 101] Network is unreachable>"
         },
         {
           "url": "https://salzung.com/hu",
-          "error": "HTTP Error 404: Not Found"
+          "error": "<urlopen error [Errno 101] Network is unreachable>"
         },
         {
           "url": "https://salzung.com/hu/rolunk/eves-beszamolo-2021",
-          "error": "HTTP Error 404: Not Found"
+          "error": "<urlopen error [Errno 101] Network is unreachable>"
         }
       ],
       "flags": []
@@ -3678,7 +3689,7 @@
       "errors": [
         {
           "url": "https://salzung.com/hu/projektek/hatartalanul",
-          "error": "HTTP Error 404: Not Found"
+          "error": "<urlopen error [Errno 101] Network is unreachable>"
         }
       ],
       "flags": []
@@ -3702,7 +3713,7 @@
       "errors": [
         {
           "url": "https://salzung.com/hu/projektek/igylettunkmagyarok",
-          "error": "HTTP Error 404: Not Found"
+          "error": "<urlopen error [Errno 101] Network is unreachable>"
         }
       ],
       "flags": [
@@ -3733,11 +3744,11 @@
       "errors": [
         {
           "url": "https://salzung.com/hu/projektek/minikonyvtar/minikoenyvtar",
-          "error": "HTTP Error 404: Not Found"
+          "error": "<urlopen error [Errno 101] Network is unreachable>"
         },
         {
           "url": "https://salzung.com/hu/hirek/tervezett-programjaink-a-2021-es-evben",
-          "error": "HTTP Error 404: Not Found"
+          "error": "<urlopen error [Errno 101] Network is unreachable>"
         }
       ],
       "flags": []
@@ -3758,11 +3769,11 @@
       "errors": [
         {
           "url": "https://salzung.com/hu/?start=8",
-          "error": "HTTP Error 404: Not Found"
+          "error": "<urlopen error [Errno 101] Network is unreachable>"
         },
         {
           "url": "https://salzung.com/hu/projektek/oktatas",
-          "error": "HTTP Error 404: Not Found"
+          "error": "<urlopen error [Errno 101] Network is unreachable>"
         }
       ],
       "flags": []
@@ -4046,21 +4057,23 @@
         "neptanc"
       ],
       "signals": [
-        "oktatas",
         "nepzene",
         "media",
         "diak",
         "muveszet",
-        "sport",
-        "csalad"
+        "sport"
       ],
-      "pagesChecked": 3,
+      "pagesChecked": 2,
       "checkedUrls": [
-        "https://ungarball.at/",
         "https://volksgruppen.orf.at/v2/magyarok/stories/2694653/",
         "https://www.flickr.com/photos/vipach/55099423490"
       ],
-      "errors": [],
+      "errors": [
+        {
+          "url": "https://ungarball.at/",
+          "error": "<urlopen error [Errno 101] Network is unreachable>"
+        }
+      ],
       "flags": []
     },
     {
@@ -4086,13 +4099,20 @@
         "sport",
         "csalad"
       ],
-      "pagesChecked": 3,
+      "pagesChecked": 1,
       "checkedUrls": [
-        "https://ungarball.at/",
-        "https://ungarball.at/impressum",
         "https://www.kozpontiszovetseg.at/tagszervezetek"
       ],
-      "errors": [],
+      "errors": [
+        {
+          "url": "https://ungarball.at/",
+          "error": "<urlopen error [Errno 101] Network is unreachable>"
+        },
+        {
+          "url": "https://ungarball.at/impressum",
+          "error": "<urlopen error [Errno 101] Network is unreachable>"
+        }
+      ],
       "flags": []
     },
     {
