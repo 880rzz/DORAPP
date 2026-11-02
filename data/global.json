@@ -1323,7 +1323,7 @@
       "name": {
         "en": "Western Sahara"
       },
-      "researchStatus": "unresearched",
+      "researchStatus": "researching",
       "countryDataPath": "data/countries/eh/",
       "route": "countries/eh/",
       "counts": {
@@ -1333,7 +1333,9 @@
         "events": 0,
         "education": 0
       },
-      "iso3": "ESH"
+      "iso3": "ESH",
+      "lastResearchAttemptAt": "2026-11-02T09:54:23+00:00",
+      "discoveryCandidateCount": 28
     },
     {
       "iso2": "er",
@@ -4458,7 +4460,7 @@
         "organizations": 78,
         "activities": 0,
         "entities": 78,
-        "events": 18,
+        "events": 17,
         "education": 23
       },
       "iso3": "USA",
