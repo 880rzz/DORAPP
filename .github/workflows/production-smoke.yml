@@ -3,7 +3,7 @@ name: DORAPP production smoke
 on:
   push:
     branches: ["main"]
-    paths: [".github/workflows/production-smoke.yml"]
+    paths: [".github/workflows/production-smoke.yml", "scripts/production_json_probe.py"]
   workflow_run:
     workflows: ["Validate and persist DORAPP static build", "pages build and deployment"]
     types: [completed]
@@ -21,6 +21,7 @@ jobs:
     if: ${{ github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success' }}
     runs-on: ubuntu-latest
     steps:
+      - uses: actions/checkout@v5
       - name: Verify representative live routes and trust surfaces
         shell: bash
         run: |
@@ -48,43 +49,61 @@ jobs:
           grep -Fq 'Country dataset unavailable' "${work}/country.js"
           python - "${work}" "${base}" "${{ github.run_id }}" <<'PY'
           import json, pathlib, subprocess, sys
+          sys.path.insert(0, str(pathlib.Path.cwd() / "scripts"))
+          from production_json_probe import classify_dataset_response, summarize
+          from collections import Counter
           root, base, run_id=pathlib.Path(sys.argv[1]),sys.argv[2],sys.argv[3]
           countries=json.loads((root/"global.json").read_text(encoding="utf-8"))["countries"]
           failures=[]
           absent=[]
+          categories=Counter()
           for country in countries:
               iso=country.get("iso2","").lower()
               if not iso: failures.append("missing iso2"); continue
-              routes=[(f"/countries/{iso}/",("countryOrgGrid","country.js?","countryEventGrid"),False),
-                      (f"/data/countries/{iso}/organizations.json",("organizations",),True),
-                      (f"/data/countries/{iso}/education.json",("institutions",),True),
-                      (f"/data/countries/{iso}/events.json",("events",),True)]
-              for route,required,optional in routes:
+              routes=[(f"/countries/{iso}/",("countryOrgGrid","country.js?","countryEventGrid"),False, False),
+                      (f"/data/countries/{iso}/organizations.json",("organizations",),True, True),
+                      (f"/data/countries/{iso}/education.json",("institutions",),True, True),
+                      (f"/data/countries/{iso}/events.json",("events",),True, True)]
+              for route,required,optional,is_json in routes:
                   url=base+route+"?production-smoke="+run_id
                   result=subprocess.run(["curl","--silent","--show-error","--location","--retry","2","--max-time","30","--write-out","\n%{http_code}",url],capture_output=True,text=True)
                   body,sep,status=result.stdout.rpartition("\n")
                   if result.returncode or not sep:
                       failures.append(f"{iso}: request failed {route}: {result.stderr[:120]}")
+                      categories["request_failed"] += 1
                       continue
-                  if status=="404" and optional:
+                  if is_json:
+                      category, message = classify_dataset_response(
+                          iso=iso,
+                          route=route,
+                          status=status,
+                          body=body,
+                          required_keys=required,
+                          optional=optional,
+                      )
+                      categories[category] += 1
+                      if category == "absent_optional":
+                          absent.append(route)
+                      elif message:
+                          failures.append(message)
+                      continue
+                  if status == "404" and optional:
                       absent.append(route)
+                      categories["absent_optional"] += 1
                       continue
-                  if status!="200":
+                  if status != "200":
                       failures.append(f"{iso}: HTTP {status} {route}")
+                      categories["http_error"] += 1
                       continue
-                  if route.endswith(".json"):
-                      try:
-                          payload=json.loads(body)
-                          if not isinstance(payload,dict) or not any(k in payload for k in required):
-                              failures.append(f"{iso}: unexpected dataset shape {route}")
-                      except ValueError: failures.append(f"{iso}: invalid JSON {route}")
-                  elif not all(marker in body for marker in required):
+                  if not all(marker in body for marker in required):
                       failures.append(f"{iso}: missing country UI markers")
+                      categories["missing_ui_markers"] += 1
+                  else:
+                      categories["ok"] += 1
           print(f"Country pages checked: {len(countries)}; unpublished optional datasets: {len(absent)}")
-          if absent:
-              print("DATA COVERAGE GAPS (not verified empty):")
-              print("\n".join(absent[:80]))
-          if failures: raise SystemExit("Production country parity failed:\n"+"\n".join(failures[:40]))
+          print(summarize(failures, absent, dict(categories)))
+          if failures:
+              raise SystemExit(1)
           PY
 
           grep -Fq 'design-editorial.css?v=20261015-2' "${work}/index.html"
