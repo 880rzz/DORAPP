@@ -1343,7 +1343,7 @@
         "en": "Eritrea",
         "officialEn": "the State of Eritrea"
       },
-      "researchStatus": "unresearched",
+      "researchStatus": "researching",
       "countryDataPath": "data/countries/er/",
       "route": "countries/er/",
       "counts": {
@@ -1353,7 +1353,9 @@
         "events": 0,
         "education": 0
       },
-      "iso3": "ERI"
+      "iso3": "ERI",
+      "lastResearchAttemptAt": "2026-11-03T09:59:05+00:00",
+      "discoveryCandidateCount": 49
     },
     {
       "iso2": "es",
@@ -4460,7 +4462,7 @@
         "organizations": 78,
         "activities": 0,
         "entities": 78,
-        "events": 17,
+        "events": 19,
         "education": 23
       },
       "iso3": "USA",
