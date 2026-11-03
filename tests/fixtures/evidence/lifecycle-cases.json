@@ -1,0 +1,99 @@
+{
+  "cases": [
+    {
+      "id": "false-positive-name-collision",
+      "candidate": {
+        "name": "Hungarian Cultural Society",
+        "country": "de",
+        "city": "Berlin",
+        "website": "https://example.org/hu-berlin"
+      },
+      "existing": [
+        {
+          "id": "hungarian-cultural-society",
+          "name": "Hungarian Cultural Society",
+          "country": "at",
+          "city": "Berlin",
+          "website": "https://example.at/hu-berlin"
+        }
+      ],
+      "expectDuplicate": false
+    },
+    {
+      "id": "church-self-identified",
+      "entity": {
+        "displayName": "Szent István Magyar Katolikus Misszió",
+        "organizationType": "Church",
+        "religiousTradition": "Roman Catholic",
+        "lifecycle": "DISCOVERED",
+        "evidenceSources": [
+          { "sourceType": "official", "url": "https://example.church/hu" }
+        ]
+      },
+      "expectPublishable": false
+    },
+    {
+      "id": "nyeomszsz-historical-vs-current",
+      "membershipStatus": "disputed",
+      "lifecycle": "DISCOVERED",
+      "expectPublishable": false
+    },
+    {
+      "id": "bga-award-vs-unsuccessful",
+      "awardRelationship": "funding_award",
+      "unsuccessfulRelationship": "funding_application_unsuccessful",
+      "expectMembership": false
+    },
+    {
+      "id": "press-only-candidate",
+      "evidenceSources": [
+        { "sourceType": "press", "url": "https://news.example/hu-club" }
+      ],
+      "expectBlocked": true
+    },
+    {
+      "id": "dead-website-no-auto-dissolution",
+      "from": "FIRST_PARTY_CHECKED",
+      "to": "STALE",
+      "reason": "official website unreachable; do not auto-mark dissolved"
+    },
+    {
+      "id": "ie-gb-cross-border",
+      "candidate": {
+        "name": "Island Hungarian Association",
+        "country": "ie",
+        "city": "Dublin",
+        "website": "https://example.ie/hu"
+      },
+      "existing": [
+        {
+          "id": "island-hungarian-association",
+          "name": "Island Hungarian Association",
+          "country": "gb",
+          "city": "Dublin",
+          "website": "https://example.uk/hu"
+        }
+      ],
+      "expectDuplicate": false
+    },
+    {
+      "id": "double-import-zero-dup",
+      "candidate": {
+        "name": "Finnországi Magyarok Egyesülete",
+        "country": "fi",
+        "city": "Helsinki",
+        "website": "https://magyarutca.org/wordpress/"
+      },
+      "existing": [
+        {
+          "id": "finnorszagi-magyarok-egyesulete",
+          "name": "Finnországi Magyarok Egyesülete",
+          "country": "fi",
+          "city": "Helsinki",
+          "website": "https://magyarutca.org/wordpress/"
+        }
+      ],
+      "expectDuplicate": true
+    }
+  ]
+}
