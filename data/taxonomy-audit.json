@@ -1,9 +1,9 @@
 {
-  "updated": "2026-11-03T11:57:04.037427+00:00",
+  "updated": "2026-11-03T12:20:30.904773+00:00",
   "summary": {
     "organizations": 163,
     "organizationFlags": 1,
-    "organizationPagesChecked": 338,
+    "organizationPagesChecked": 337,
     "education": 112,
     "educationFlags": 0,
     "events": 72,
@@ -827,12 +827,7 @@
         "https://kerekasztal.at/tagok/",
         "https://atalon.hu/vilagjarok-klubja-becs-2eyhjn"
       ],
-      "errors": [
-        {
-          "url": "https://www.karpatikum.hu/doc/Karpat_medence.pdf",
-          "error": "<urlopen error timed out>"
-        }
-      ],
+      "errors": [],
       "flags": []
     },
     {
@@ -1916,13 +1911,17 @@
         "sport",
         "csalad"
       ],
-      "pagesChecked": 3,
+      "pagesChecked": 2,
       "checkedUrls": [
-        "https://imeasz.at/",
         "https://www.kozpontiszovetseg.at/tagszervezetek",
         "https://www.petofiprogram.hu/hirek/hazat-csereltek-de-szivet-nem-kifogyhatatlan-otletekkel-peldas-aktivitassal-orzik"
       ],
-      "errors": [],
+      "errors": [
+        {
+          "url": "https://imeasz.at/",
+          "error": "The read operation timed out"
+        }
+      ],
       "flags": []
     },
     {
