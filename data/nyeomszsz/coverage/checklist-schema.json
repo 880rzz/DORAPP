@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "requiredSourceClasses": [
+    "nyeomszsz_directory",
+    "nyeomszsz_country_page",
+    "national_umbrella_first_party",
+    "public_registry_or_legal",
+    "religious_directory",
+    "education_network",
+    "local_hungarian_media",
+    "embassy_or_government_public",
+    "press",
+    "event_calendars"
+  ],
+  "allowedCoverageStatuses": [
+    "checked-with-evidence",
+    "checked-no-result",
+    "not-checked",
+    "blocked",
+    "not-applicable"
+  ],
+  "closureRule": "country_complete requires every requiredSourceClass assessed with documented outcome and human review; empty result is not proven absence."
+}
