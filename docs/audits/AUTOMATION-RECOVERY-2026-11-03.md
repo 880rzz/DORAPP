@@ -27,6 +27,10 @@
 - Prefer a PAT so automation-created PRs still trigger `Validate DORAPP`.
 - Branch protection should require validation before merge. No auto-merge.
 
+## Validate runner pin
+
+GitHub `ubuntu-latest` began resolving to Ubuntu 26.04, which Playwright `1.55.0` cannot provision (`ERROR: Playwright does not support chromium on ubuntu26.04-x64`). `validate.yml` is pinned to `ubuntu-24.04` and Playwright is bumped to `1.56.1` so unit/global gates are not blocked by browser dependency install.
+
 ## Semantics preserved
 
 - Successful steward run ≠ verified organization.
