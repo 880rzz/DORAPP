@@ -8,10 +8,13 @@
    - This PR restores `37 0-1,3-23 * * *` plus daily `37 2 * * *`.
 
 2. **Direct pushes to `main`**
-   - Global steward and static build used `git push origin HEAD:main`.
+   - Global steward, static build, Austria curator, education audit, and taxonomy audit used `git push origin HEAD:main`.
    - Replaced with `peter-evans/create-pull-request@v7` reviewed PR branches:
      - `automation/diaspora-research`
      - `automation/generated-static`
+     - `automation/austria-program-curator`
+     - `automation/education-site-audit`
+     - `automation/taxonomy-audit`
 
 3. **Production smoke ES invalid JSON**
    - Historical failure: Actions run `41452864144` (`es: invalid JSON`).
