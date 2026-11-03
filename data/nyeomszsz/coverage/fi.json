@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "iso2": "FI",
+  "asOf": "2026-11-03T06:00:00Z",
+  "coverageStatus": "assessed-incomplete",
+  "countryComplete": false,
+  "dorappResearchStatus": "unresearched",
+  "pilotBatch": "nyeomszsz-2026-11-03-a",
+  "umbrellaSeed": {
+    "huName": "Finnországi Magyarok Egyesülete",
+    "alternateNames": ["Suomen unkarilaisten yhdistys ry"],
+    "canonicalEntityId": null,
+    "officialWebsite": "https://magyarutca.org/wordpress/",
+    "websiteProbe": {"httpStatus": 200, "observedAt": "2026-11-03T05:58:00Z"},
+    "nyeomszszUrls": [
+      "https://www.nyeomszsz.org/tagszervezeteink/",
+      "https://www.nyeomszsz.org/finnorszag/"
+    ],
+    "membershipStatusEvidence": "current-candidate",
+    "lifecycle": "DISCOVERED",
+    "note": "No data/countries/fi/organizations.json yet. Website probe succeeded; do not auto-create canonical organization in this pilot PR."
+  },
+  "sourceChecklist": [
+    {"class": "nyeomszsz_directory", "status": "checked-with-evidence", "url": "https://www.nyeomszsz.org/tagszervezeteink/"},
+    {"class": "nyeomszsz_country_page", "status": "checked-with-evidence", "url": "https://www.nyeomszsz.org/finnorszag/"},
+    {"class": "national_umbrella_first_party", "status": "checked-with-evidence", "url": "https://magyarutca.org/wordpress/", "note": "HTTP 200 only; content/legal identity still needs first-party review before publish."},
+    {"class": "public_registry_or_legal", "status": "not-checked", "note": "Finnish association register (PRH/ytj) not queried in this pilot."},
+    {"class": "religious_directory", "status": "not-checked"},
+    {"class": "education_network", "status": "not-checked"},
+    {"class": "local_hungarian_media", "status": "not-checked"},
+    {"class": "embassy_or_government_public", "status": "not-checked"},
+    {"class": "press", "status": "not-checked"},
+    {"class": "event_calendars", "status": "not-checked"}
+  ],
+  "countsSnapshot": {
+    "canonicalOrganizationsInCountryFile": 0,
+    "organizationsFilePresent": false
+  },
+  "gaps": [
+    "Create canonical FI organizations file only after first-party + human review",
+    "Religious, education, media, and event source classes entirely open",
+    "Empty result classes must remain checked-no-result after real searches, never assumed absent"
+  ]
+}

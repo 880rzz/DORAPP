@@ -1,0 +1,49 @@
+{
+  "schemaVersion": 1,
+  "iso2": "NL",
+  "asOf": "2026-11-03T06:00:00Z",
+  "coverageStatus": "assessed-incomplete",
+  "countryComplete": false,
+  "dorappResearchStatus": "reviewed",
+  "pilotBatch": "nyeomszsz-2026-11-03-a",
+  "umbrellaSeed": {
+    "huName": "Hollandiai Magyar Szövetség",
+    "canonicalEntityId": "hollandiai-magyar-szovetseg",
+    "officialWebsite": "https://www.hongaarsefederatie.nl/",
+    "nyeomszszListedSocial": "https://www.facebook.com/HollandiaiMagyarSz/?locale=hu_HU",
+    "nyeomszszUrls": [
+      "https://www.nyeomszsz.org/tagszervezeteink/",
+      "https://www.nyeomszsz.org/hollandia/"
+    ],
+    "membershipStatusEvidence": "current-candidate",
+    "lifecycle": "DISCOVERED",
+    "note": "Canonical umbrella already exists with profileVerifiedAt 2026-10-01. Reviewed status is not NYEOMSZSZ-network completeness."
+  },
+  "categoryPresenceInCanonicalFile": {
+    "umbrella": true,
+    "religiousCommunities": true,
+    "media": true,
+    "scoutsOrYouth": true,
+    "educationDedicatedFile": "not assessed in this pilot artifact"
+  },
+  "sourceChecklist": [
+    {"class": "nyeomszsz_directory", "status": "checked-with-evidence", "url": "https://www.nyeomszsz.org/tagszervezeteink/"},
+    {"class": "nyeomszsz_country_page", "status": "checked-with-evidence", "url": "https://www.nyeomszsz.org/hollandia/"},
+    {"class": "national_umbrella_first_party", "status": "checked-with-evidence", "url": "https://www.hongaarsefederatie.nl/"},
+    {"class": "public_registry_or_legal", "status": "not-checked"},
+    {"class": "religious_directory", "status": "checked-with-evidence", "note": "Canonical file already includes Catholic and Reformed congregations; external ecclesiastical directory sweep still open."},
+    {"class": "education_network", "status": "not-checked"},
+    {"class": "local_hungarian_media", "status": "checked-with-evidence"},
+    {"class": "embassy_or_government_public", "status": "checked-with-evidence"},
+    {"class": "press", "status": "not-checked"},
+    {"class": "event_calendars", "status": "not-checked"}
+  ],
+  "countsSnapshot": {
+    "canonicalOrganizationsInCountryFile": 21
+  },
+  "gaps": [
+    "Legal registry corroboration for remaining associations",
+    "Education program inventory",
+    "Independent membership currency check vs NYEOMSZSZ"
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "iso2": "ES",
+  "asOf": "2026-11-03T06:00:00Z",
+  "coverageStatus": "assessed-incomplete",
+  "countryComplete": false,
+  "dorappResearchStatus": "unresearched",
+  "countryFileResearchStatus": "partial",
+  "pilotBatch": "nyeomszsz-2026-11-03-a",
+  "umbrellaSeed": {
+    "huName": "Spanyolországi Magyarok Egyesülete",
+    "alternateNames": ["MADACH", "Asociación de los Húngaros en España"],
+    "canonicalEntityId": null,
+    "officialWebsite": "http://www.madach.es/",
+    "websiteProbe": {"httpStatus": 200, "observedAt": "2026-11-03T05:58:00Z"},
+    "nyeomszszUrls": [
+      "https://www.nyeomszsz.org/tagszervezeteink/",
+      "https://www.nyeomszsz.org/spanyolorszag/"
+    ],
+    "membershipStatusEvidence": "current-candidate",
+    "lifecycle": "DISCOVERED",
+    "note": "MADACH website responds, but MADACH itself is not yet a canonical umbrella organization record in data/countries/es/organizations.json. Related media leaf boletin-hungaro-madach exists. Open PR #58 must not be treated as merged evidence."
+  },
+  "sourceChecklist": [
+    {"class": "nyeomszsz_directory", "status": "checked-with-evidence", "url": "https://www.nyeomszsz.org/tagszervezeteink/"},
+    {"class": "nyeomszsz_country_page", "status": "checked-with-evidence", "url": "https://www.nyeomszsz.org/spanyolorszag/"},
+    {"class": "national_umbrella_first_party", "status": "checked-with-evidence", "url": "http://www.madach.es/", "note": "Website live; entity not auto-promoted in this PR."},
+    {"class": "public_registry_or_legal", "status": "not-checked"},
+    {"class": "religious_directory", "status": "not-checked"},
+    {"class": "education_network", "status": "not-checked"},
+    {"class": "local_hungarian_media", "status": "checked-with-evidence", "note": "Canonical media records include Costa Most and Boletín Húngaro."},
+    {"class": "embassy_or_government_public", "status": "checked-with-evidence", "note": "Embassy/consular records already present in ES organizations file."},
+    {"class": "press", "status": "not-checked"},
+    {"class": "event_calendars", "status": "not-checked"}
+  ],
+  "countsSnapshot": {
+    "canonicalOrganizationsInCountryFile": 12,
+    "note": "Partial file; registry researchStatus lags country file."
+  },
+  "gaps": [
+    "Promote MADACH only after first-party + human review PR",
+    "Religious and school networks",
+    "Regional association inventory beyond current partial leads"
+  ]
+}

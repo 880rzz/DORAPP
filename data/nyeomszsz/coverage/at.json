@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "iso2": "AT",
+  "asOf": "2026-11-03T06:00:00Z",
+  "coverageStatus": "assessed-incomplete",
+  "countryComplete": false,
+  "dorappResearchStatus": "reviewed",
+  "pilotBatch": "nyeomszsz-2026-11-03-a",
+  "umbrellaSeed": {
+    "huName": "Ausztriai Magyar Egyesületek és Szervezetek Központi Szövetsége",
+    "canonicalEntityId": "kozponti-szovetseg",
+    "officialWebsite": "https://www.kozpontiszovetseg.at/",
+    "websiteProbe": {"httpStatus": 200, "observedAt": "2026-11-03T05:58:00Z"},
+    "nyeomszszUrls": [
+      "https://www.nyeomszsz.org/tagszervezeteink/",
+      "https://www.nyeomszsz.org/ausztria/"
+    ],
+    "membershipStatusEvidence": "current-candidate",
+    "lifecycle": "DISCOVERED"
+  },
+  "sourceChecklist": [
+    {"class": "nyeomszsz_directory", "status": "checked-with-evidence", "url": "https://www.nyeomszsz.org/tagszervezeteink/", "note": "Directory lists Központi Szövetség."},
+    {"class": "nyeomszsz_country_page", "status": "checked-with-evidence", "url": "https://www.nyeomszsz.org/ausztria/", "note": "Country page links kozpontiszovetseg.at."},
+    {"class": "national_umbrella_first_party", "status": "checked-with-evidence", "url": "https://www.kozpontiszovetseg.at/", "note": "Canonical DORAPP entity kozponti-szovetseg already first-party verified (profileVerifiedAt 2026-09-25)."},
+    {"class": "public_registry_or_legal", "status": "not-checked", "note": "ZVR / Austrian association register sweep not completed in this pilot."},
+    {"class": "religious_directory", "status": "not-checked", "note": "Catholic/Protestant Hungarian mission directories not fully assessed in this pilot."},
+    {"class": "education_network", "status": "checked-with-evidence", "note": "Austria education corpus exists in DORAPP; not re-declared complete here."},
+    {"class": "local_hungarian_media", "status": "not-checked"},
+    {"class": "embassy_or_government_public", "status": "not-checked"},
+    {"class": "press", "status": "not-checked"},
+    {"class": "event_calendars", "status": "checked-with-evidence", "note": "Austria event sources exist; completeness not claimed."}
+  ],
+  "countsSnapshot": {
+    "canonicalOrganizationsInCountryFile": 163,
+    "note": "Counts are not coverage completion."
+  },
+  "gaps": [
+    "Full religious-community directory pass",
+    "Independent membership currency confirmation beyond NYEOMSZSZ listing",
+    "Regional association graph under Központi Szövetség without invented edges"
+  ]
+}
