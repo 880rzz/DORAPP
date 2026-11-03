@@ -1,0 +1,47 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://www.diaszporaterkep.hu/schemas/entity-evidence-lifecycle.json",
+  "title": "DORAPP entity evidence lifecycle",
+  "type": "object",
+  "required": ["entityId", "lifecycle", "evidenceSources"],
+  "properties": {
+    "entityId": { "type": "string", "minLength": 1 },
+    "legalName": { "type": "string" },
+    "displayName": { "type": "string" },
+    "aliases": { "type": "array", "items": { "type": "string" } },
+    "iso2": { "type": "string", "minLength": 2, "maxLength": 2 },
+    "region": { "type": ["string", "null"] },
+    "city": { "type": ["string", "null"] },
+    "entityClass": { "type": "string" },
+    "organizationType": { "type": ["string", "null"] },
+    "religiousTradition": { "type": ["string", "null"] },
+    "operationalStatus": { "type": ["string", "null"] },
+    "officialWebsite": { "type": ["string", "null"] },
+    "lifecycle": {
+      "type": "string",
+      "enum": [
+        "DISCOVERED",
+        "QUALIFIED",
+        "FIRST_PARTY_CHECKED",
+        "HUMAN_REVIEWED",
+        "PUBLISHABLE",
+        "PUBLISHED",
+        "REJECTED",
+        "STALE",
+        "DISPUTED",
+        "NEEDS_REVIEW"
+      ]
+    },
+    "evidenceSources": { "type": "array" },
+    "claimEvidence": { "type": "array" },
+    "membershipEdges": { "type": "array" },
+    "fundingEdges": { "type": "array" },
+    "pressMentions": { "type": "array" },
+    "calendarSources": { "type": "array" },
+    "firstPartyVerifiedAt": { "type": ["string", "null"] },
+    "lastCheckedAt": { "type": ["string", "null"] },
+    "lastPublishedAt": { "type": ["string", "null"] },
+    "reviewStatus": { "type": ["string", "null"] }
+  },
+  "additionalProperties": true
+}
