@@ -1,9 +1,9 @@
 {
-  "updated": "2026-11-02T13:25:00.462421+00:00",
+  "updated": "2026-11-03T11:57:04.037427+00:00",
   "summary": {
     "organizations": 163,
-    "organizationFlags": 2,
-    "organizationPagesChecked": 334,
+    "organizationFlags": 1,
+    "organizationPagesChecked": 338,
     "education": 112,
     "educationFlags": 0,
     "events": 72,
@@ -611,6 +611,7 @@
         "oktatas",
         "neptanc",
         "nepzene",
+        "enekkar",
         "szinhaz",
         "media",
         "egyhaz",
@@ -826,7 +827,12 @@
         "https://kerekasztal.at/tagok/",
         "https://atalon.hu/vilagjarok-klubja-becs-2eyhjn"
       ],
-      "errors": [],
+      "errors": [
+        {
+          "url": "https://www.karpatikum.hu/doc/Karpat_medence.pdf",
+          "error": "<urlopen error timed out>"
+        }
+      ],
       "flags": []
     },
     {
@@ -1115,23 +1121,20 @@
       "activityCategories": [],
       "signals": [
         "oktatas",
+        "szinhaz",
         "media",
-        "irodalom"
+        "irodalom",
+        "muveszet",
+        "csalad"
       ],
-      "pagesChecked": 2,
+      "pagesChecked": 3,
       "checkedUrls": [
         "https://culture.hu/hu/wien",
+        "https://culture.hu/hu/wien/esemenyek",
         "https://culture.hu/de/wien/jubilaum"
       ],
-      "errors": [
-        {
-          "url": "https://culture.hu/hu/wien/esemenyek",
-          "error": "The read operation timed out"
-        }
-      ],
-      "flags": [
-        "weak-source-signal:muveszet"
-      ]
+      "errors": [],
+      "flags": []
     },
     {
       "id": "collegium-pazmanianum",
@@ -1171,6 +1174,7 @@
         "nepzene",
         "szinhaz",
         "media",
+        "egyhaz",
         "irodalom",
         "muveszet",
         "sport",
@@ -2350,6 +2354,7 @@
         "nepzene",
         "szinhaz",
         "media",
+        "egyhaz",
         "irodalom",
         "muveszet",
         "sport",
@@ -2430,6 +2435,7 @@
         "cserkesz",
         "szinhaz",
         "media",
+        "egyhaz",
         "irodalom",
         "muveszet",
         "csalad"
@@ -2661,6 +2667,7 @@
         "nepzene",
         "szinhaz",
         "media",
+        "egyhaz",
         "diak",
         "irodalom",
         "muveszet",
@@ -2720,6 +2727,7 @@
         "nepzene",
         "szinhaz",
         "media",
+        "egyhaz",
         "diak",
         "irodalom",
         "muveszet",
@@ -2949,6 +2957,7 @@
         "cserkesz",
         "szinhaz",
         "media",
+        "egyhaz",
         "irodalom",
         "muveszet",
         "sport",
@@ -3027,6 +3036,7 @@
         "media",
         "egyhaz",
         "diak",
+        "irodalom",
         "sport",
         "csalad"
       ],
@@ -3294,6 +3304,7 @@
         "cserkesz",
         "szinhaz",
         "media",
+        "egyhaz",
         "irodalom",
         "muveszet",
         "sport",
@@ -3347,7 +3358,9 @@
       ],
       "activityCategories": [],
       "signals": [
+        "oktatas",
         "media",
+        "egyhaz",
         "irodalom",
         "csalad"
       ],
@@ -3488,6 +3501,7 @@
         "nepzene",
         "szinhaz",
         "media",
+        "egyhaz",
         "irodalom",
         "muveszet"
       ],
@@ -3547,6 +3561,7 @@
         "enekkar",
         "szinhaz",
         "media",
+        "egyhaz",
         "diak",
         "irodalom",
         "muveszet",
@@ -3607,7 +3622,7 @@
       "errors": [
         {
           "url": "https://salzung.com/hu/?start=8",
-          "error": "<urlopen error [Errno 101] Network is unreachable>"
+          "error": "HTTP Error 404: Not Found"
         }
       ],
       "flags": []
@@ -3630,15 +3645,15 @@
       "errors": [
         {
           "url": "https://salzung.com/hu/rolunk/az-egyesulet-bemutatasa",
-          "error": "<urlopen error [Errno 101] Network is unreachable>"
+          "error": "HTTP Error 404: Not Found"
         },
         {
           "url": "https://salzung.com/hu/rolunk/",
-          "error": "<urlopen error [Errno 101] Network is unreachable>"
+          "error": "HTTP Error 404: Not Found"
         },
         {
           "url": "https://salzung.com/hu",
-          "error": "<urlopen error [Errno 101] Network is unreachable>"
+          "error": "HTTP Error 404: Not Found"
         }
       ],
       "flags": []
@@ -3659,15 +3674,15 @@
       "errors": [
         {
           "url": "https://salzung.com/hu/hirek/indul-a-brumi-ovi",
-          "error": "<urlopen error [Errno 101] Network is unreachable>"
+          "error": "HTTP Error 404: Not Found"
         },
         {
           "url": "https://salzung.com/hu",
-          "error": "<urlopen error [Errno 101] Network is unreachable>"
+          "error": "HTTP Error 404: Not Found"
         },
         {
           "url": "https://salzung.com/hu/rolunk/eves-beszamolo-2021",
-          "error": "<urlopen error [Errno 101] Network is unreachable>"
+          "error": "HTTP Error 404: Not Found"
         }
       ],
       "flags": []
@@ -3689,7 +3704,7 @@
       "errors": [
         {
           "url": "https://salzung.com/hu/projektek/hatartalanul",
-          "error": "<urlopen error [Errno 101] Network is unreachable>"
+          "error": "HTTP Error 404: Not Found"
         }
       ],
       "flags": []
@@ -3713,7 +3728,7 @@
       "errors": [
         {
           "url": "https://salzung.com/hu/projektek/igylettunkmagyarok",
-          "error": "<urlopen error [Errno 101] Network is unreachable>"
+          "error": "HTTP Error 404: Not Found"
         }
       ],
       "flags": [
@@ -3744,11 +3759,11 @@
       "errors": [
         {
           "url": "https://salzung.com/hu/projektek/minikonyvtar/minikoenyvtar",
-          "error": "<urlopen error [Errno 101] Network is unreachable>"
+          "error": "HTTP Error 404: Not Found"
         },
         {
           "url": "https://salzung.com/hu/hirek/tervezett-programjaink-a-2021-es-evben",
-          "error": "<urlopen error [Errno 101] Network is unreachable>"
+          "error": "HTTP Error 404: Not Found"
         }
       ],
       "flags": []
@@ -3769,11 +3784,11 @@
       "errors": [
         {
           "url": "https://salzung.com/hu/?start=8",
-          "error": "<urlopen error [Errno 101] Network is unreachable>"
+          "error": "HTTP Error 404: Not Found"
         },
         {
           "url": "https://salzung.com/hu/projektek/oktatas",
-          "error": "<urlopen error [Errno 101] Network is unreachable>"
+          "error": "HTTP Error 404: Not Found"
         }
       ],
       "flags": []
@@ -3982,6 +3997,7 @@
         "cserkesz",
         "szinhaz",
         "media",
+        "egyhaz",
         "irodalom",
         "muveszet",
         "csalad"
@@ -4057,23 +4073,21 @@
         "neptanc"
       ],
       "signals": [
+        "oktatas",
         "nepzene",
         "media",
         "diak",
         "muveszet",
-        "sport"
+        "sport",
+        "csalad"
       ],
-      "pagesChecked": 2,
+      "pagesChecked": 3,
       "checkedUrls": [
+        "https://ungarball.at/",
         "https://volksgruppen.orf.at/v2/magyarok/stories/2694653/",
         "https://www.flickr.com/photos/vipach/55099423490"
       ],
-      "errors": [
-        {
-          "url": "https://ungarball.at/",
-          "error": "<urlopen error [Errno 101] Network is unreachable>"
-        }
-      ],
+      "errors": [],
       "flags": []
     },
     {
@@ -4099,20 +4113,13 @@
         "sport",
         "csalad"
       ],
-      "pagesChecked": 1,
+      "pagesChecked": 3,
       "checkedUrls": [
+        "https://ungarball.at/",
+        "https://ungarball.at/impressum",
         "https://www.kozpontiszovetseg.at/tagszervezetek"
       ],
-      "errors": [
-        {
-          "url": "https://ungarball.at/",
-          "error": "<urlopen error [Errno 101] Network is unreachable>"
-        },
-        {
-          "url": "https://ungarball.at/impressum",
-          "error": "<urlopen error [Errno 101] Network is unreachable>"
-        }
-      ],
+      "errors": [],
       "flags": []
     },
     {
@@ -4362,6 +4369,7 @@
         "nepzene",
         "szinhaz",
         "media",
+        "egyhaz",
         "diak",
         "irodalom",
         "muveszet",
