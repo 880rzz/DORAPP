@@ -1,9 +1,9 @@
 {
-  "updated": "2026-11-04T12:30:50.235784+00:00",
+  "updated": "2026-11-04T12:55:46.551511+00:00",
   "summary": {
     "organizations": 163,
     "organizationFlags": 1,
-    "organizationPagesChecked": 338,
+    "organizationPagesChecked": 337,
     "education": 112,
     "educationFlags": 0,
     "events": 72,
@@ -2519,7 +2519,7 @@
       "errors": [
         {
           "url": "https://www.magyarszo.at/",
-          "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'www.magyarszo.at'. (_ssl.c:1011)>"
+          "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'www.magyarszo.at'. (_ssl.c:1010)>"
         }
       ],
       "flags": []
@@ -3932,20 +3932,23 @@
       "activityCategories": [],
       "signals": [
         "oktatas",
-        "media",
         "egyhaz",
         "diak",
         "irodalom",
         "muveszet",
         "csalad"
       ],
-      "pagesChecked": 3,
+      "pagesChecked": 2,
       "checkedUrls": [
-        "https://buch.stadt-salzburg.at/",
         "https://buch.stadt-salzburg.at/Mediensuche/Erweiterte-Suche",
         "https://buch.stadt-salzburg.gv.at/Mediensuche/Einfache-Suche?detail=6&focusModule=searchmodule&pagesize=50&searchhash=OCLC_c58b9092580f15d9d195d8ca279d096abfc183c4&top=y"
       ],
-      "errors": [],
+      "errors": [
+        {
+          "url": "https://buch.stadt-salzburg.at/",
+          "error": "HTTP Error 503: Service Unavailable"
+        }
+      ],
       "flags": []
     },
     {
