@@ -1363,7 +1363,7 @@
         "en": "Spain",
         "officialEn": "Kingdom of Spain"
       },
-      "researchStatus": "unresearched",
+      "researchStatus": "researching",
       "countryDataPath": "data/countries/es/",
       "route": "countries/es/",
       "counts": {
@@ -1373,7 +1373,9 @@
         "events": 0,
         "education": 4
       },
-      "iso3": "ESP"
+      "iso3": "ESP",
+      "lastResearchAttemptAt": "2026-11-04T09:47:44+00:00",
+      "discoveryCandidateCount": 54
     },
     {
       "iso2": "et",
