@@ -1,12 +1,12 @@
 {
-  "updated": "2026-11-04T12:55:46.551511+00:00",
+  "updated": "2026-11-05T02:06:52.678645+00:00",
   "summary": {
     "organizations": 163,
-    "organizationFlags": 1,
-    "organizationPagesChecked": 337,
+    "organizationFlags": 3,
+    "organizationPagesChecked": 339,
     "education": 112,
     "educationFlags": 0,
-    "events": 72,
+    "events": 73,
     "eventFlags": 0
   },
   "organizations": [
@@ -438,15 +438,7 @@
       ],
       "activityCategories": [],
       "signals": [
-        "oktatas",
-        "neptanc",
-        "nepzene",
-        "enekkar",
-        "media",
-        "diak",
-        "irodalom",
-        "muveszet",
-        "csalad"
+        "enekkar"
       ],
       "pagesChecked": 1,
       "checkedUrls": [
@@ -728,17 +720,13 @@
         "muveszet",
         "csalad"
       ],
-      "pagesChecked": 2,
+      "pagesChecked": 3,
       "checkedUrls": [
+        "https://www.creativescience.hu/programjaink/becs-craft-workshop/",
         "https://www.magyariskola.at/event-details/becscraft-2026",
         "https://www.magyariskola.at/event-details/becs-craft-nyari-tabor-2026"
       ],
-      "errors": [
-        {
-          "url": "https://www.creativescience.hu/programjaink/becs-craft-workshop/",
-          "error": "HTTP Error 404: Not Found"
-        }
-      ],
+      "errors": [],
       "flags": []
     },
     {
@@ -1116,20 +1104,23 @@
       "activityCategories": [],
       "signals": [
         "oktatas",
-        "szinhaz",
         "media",
-        "irodalom",
-        "muveszet",
-        "csalad"
+        "irodalom"
       ],
-      "pagesChecked": 3,
+      "pagesChecked": 2,
       "checkedUrls": [
         "https://culture.hu/hu/wien",
-        "https://culture.hu/hu/wien/esemenyek",
         "https://culture.hu/de/wien/jubilaum"
       ],
-      "errors": [],
-      "flags": []
+      "errors": [
+        {
+          "url": "https://culture.hu/hu/wien/esemenyek",
+          "error": "The read operation timed out"
+        }
+      ],
+      "flags": [
+        "weak-source-signal:muveszet"
+      ]
     },
     {
       "id": "collegium-pazmanianum",
@@ -1303,14 +1294,9 @@
       ],
       "activityCategories": [],
       "signals": [
-        "oktatas",
         "neptanc",
         "nepzene",
         "enekkar",
-        "szinhaz",
-        "media",
-        "diak",
-        "irodalom",
         "sport",
         "csalad"
       ],
@@ -1519,10 +1505,6 @@
       ],
       "activityCategories": [],
       "signals": [
-        "oktatas",
-        "egyhaz",
-        "irodalom",
-        "muveszet",
         "csalad"
       ],
       "pagesChecked": 3,
@@ -1532,7 +1514,9 @@
         "https://fecskeklub.at/titkok-nyomaban/"
       ],
       "errors": [],
-      "flags": []
+      "flags": [
+        "weak-source-signal:oktatas"
+      ]
     },
     {
       "id": "felso-ausztriai-magyarok",
@@ -2318,18 +2302,16 @@
       ],
       "activityCategories": [],
       "signals": [
-        "oktatas",
-        "nepzene",
         "szinhaz",
-        "media",
         "irodalom",
         "muveszet",
         "csalad"
       ],
-      "pagesChecked": 2,
+      "pagesChecked": 3,
       "checkedUrls": [
         "https://kultpult.eu/",
-        "https://kultpult.eu/itthonotthon/"
+        "https://kultpult.eu/itthonotthon/",
+        "https://kultpult.eu/wp-content/uploads/2024/06/Altalanos-Szerzodesi-Feltetelek-kultpult.pdf"
       ],
       "errors": [],
       "flags": []
@@ -2481,10 +2463,7 @@
       ],
       "activityCategories": [],
       "signals": [
-        "media",
-        "egyhaz",
-        "irodalom",
-        "csalad"
+        "egyhaz"
       ],
       "pagesChecked": 1,
       "checkedUrls": [
@@ -2519,7 +2498,7 @@
       "errors": [
         {
           "url": "https://www.magyarszo.at/",
-          "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'www.magyarszo.at'. (_ssl.c:1010)>"
+          "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'www.magyarszo.at'. (_ssl.c:1011)>"
         }
       ],
       "flags": []
@@ -2605,13 +2584,7 @@
       ],
       "activityCategories": [],
       "signals": [
-        "neptanc",
-        "media",
-        "diak",
-        "irodalom",
-        "muveszet",
-        "sport",
-        "csalad"
+        "diak"
       ],
       "pagesChecked": 3,
       "checkedUrls": [
@@ -3460,16 +3433,7 @@
       ],
       "activityCategories": [],
       "signals": [
-        "oktatas",
-        "neptanc",
-        "nepzene",
-        "enekkar",
-        "szinhaz",
-        "media",
-        "diak",
-        "muveszet",
-        "sport",
-        "csalad"
+        "nepzene"
       ],
       "pagesChecked": 3,
       "checkedUrls": [
@@ -3932,23 +3896,20 @@
       "activityCategories": [],
       "signals": [
         "oktatas",
+        "media",
         "egyhaz",
         "diak",
         "irodalom",
         "muveszet",
         "csalad"
       ],
-      "pagesChecked": 2,
+      "pagesChecked": 3,
       "checkedUrls": [
+        "https://buch.stadt-salzburg.at/",
         "https://buch.stadt-salzburg.at/Mediensuche/Erweiterte-Suche",
         "https://buch.stadt-salzburg.gv.at/Mediensuche/Einfache-Suche?detail=6&focusModule=searchmodule&pagesize=50&searchhash=OCLC_c58b9092580f15d9d195d8ca279d096abfc183c4&top=y"
       ],
-      "errors": [
-        {
-          "url": "https://buch.stadt-salzburg.at/",
-          "error": "HTTP Error 503: Service Unavailable"
-        }
-      ],
+      "errors": [],
       "flags": []
     },
     {
@@ -4019,8 +3980,6 @@
       "activityCategories": [],
       "signals": [
         "szinhaz",
-        "media",
-        "irodalom",
         "muveszet",
         "csalad"
       ],
@@ -4151,11 +4110,7 @@
       ],
       "activityCategories": [],
       "signals": [
-        "oktatas",
         "neptanc",
-        "nepzene",
-        "media",
-        "diak",
         "csalad"
       ],
       "pagesChecked": 1,
