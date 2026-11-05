@@ -1,9 +1,9 @@
 {
-  "updated": "2026-11-05T12:20:05.551673+00:00",
+  "updated": "2026-11-05T12:44:53.385917+00:00",
   "summary": {
     "organizations": 163,
     "organizationFlags": 1,
-    "organizationPagesChecked": 337,
+    "organizationPagesChecked": 338,
     "education": 112,
     "educationFlags": 0,
     "events": 72,
@@ -2519,7 +2519,7 @@
       "errors": [
         {
           "url": "https://www.magyarszo.at/",
-          "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'www.magyarszo.at'. (_ssl.c:1011)>"
+          "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'www.magyarszo.at'. (_ssl.c:1010)>"
         }
       ],
       "flags": []
@@ -3116,18 +3116,15 @@
         "oktatas",
         "enekkar",
         "egyhaz",
+        "diak",
         "csalad"
       ],
-      "pagesChecked": 1,
+      "pagesChecked": 2,
       "checkedUrls": [
+        "https://evang.at/adressen/siget-in-der-wart/",
         "https://evang-bgld.at/ort/siget-in-der-wart/"
       ],
-      "errors": [
-        {
-          "url": "https://evang.at/adressen/siget-in-der-wart/",
-          "error": "The read operation timed out"
-        }
-      ],
+      "errors": [],
       "flags": []
     },
     {
