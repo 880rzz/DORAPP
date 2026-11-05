@@ -1,9 +1,9 @@
 {
-  "updated": "2026-11-05T02:06:52.678645+00:00",
+  "updated": "2026-11-05T02:08:13.153658+00:00",
   "summary": {
     "organizations": 163,
-    "organizationFlags": 3,
-    "organizationPagesChecked": 339,
+    "organizationFlags": 1,
+    "organizationPagesChecked": 346,
     "education": 112,
     "educationFlags": 0,
     "events": 73,
@@ -125,24 +125,17 @@
       ],
       "activityCategories": [],
       "signals": [
-        "egyhaz"
+        "media",
+        "egyhaz",
+        "csalad"
       ],
-      "pagesChecked": 0,
-      "checkedUrls": [],
-      "errors": [
-        {
-          "url": "https://www.martinus.at/",
-          "error": "<urlopen error timed out>"
-        },
-        {
-          "url": "https://www.martinus.at/pfarre/1127/kalender",
-          "error": "<urlopen error timed out>"
-        },
-        {
-          "url": "https://www.martinus.at/unterwart",
-          "error": "<urlopen error timed out>"
-        }
+      "pagesChecked": 3,
+      "checkedUrls": [
+        "https://www.martinus.at/",
+        "https://www.martinus.at/pfarre/1127/kalender",
+        "https://www.martinus.at/unterwart"
       ],
+      "errors": [],
       "flags": []
     },
     {
@@ -438,7 +431,15 @@
       ],
       "activityCategories": [],
       "signals": [
-        "enekkar"
+        "oktatas",
+        "neptanc",
+        "nepzene",
+        "enekkar",
+        "media",
+        "diak",
+        "irodalom",
+        "muveszet",
+        "csalad"
       ],
       "pagesChecked": 1,
       "checkedUrls": [
@@ -720,13 +721,17 @@
         "muveszet",
         "csalad"
       ],
-      "pagesChecked": 3,
+      "pagesChecked": 2,
       "checkedUrls": [
-        "https://www.creativescience.hu/programjaink/becs-craft-workshop/",
         "https://www.magyariskola.at/event-details/becscraft-2026",
         "https://www.magyariskola.at/event-details/becs-craft-nyari-tabor-2026"
       ],
-      "errors": [],
+      "errors": [
+        {
+          "url": "https://www.creativescience.hu/programjaink/becs-craft-workshop/",
+          "error": "HTTP Error 404: Not Found"
+        }
+      ],
       "flags": []
     },
     {
@@ -1104,23 +1109,20 @@
       "activityCategories": [],
       "signals": [
         "oktatas",
+        "szinhaz",
         "media",
-        "irodalom"
+        "irodalom",
+        "muveszet",
+        "csalad"
       ],
-      "pagesChecked": 2,
+      "pagesChecked": 3,
       "checkedUrls": [
         "https://culture.hu/hu/wien",
+        "https://culture.hu/hu/wien/esemenyek",
         "https://culture.hu/de/wien/jubilaum"
       ],
-      "errors": [
-        {
-          "url": "https://culture.hu/hu/wien/esemenyek",
-          "error": "The read operation timed out"
-        }
-      ],
-      "flags": [
-        "weak-source-signal:muveszet"
-      ]
+      "errors": [],
+      "flags": []
     },
     {
       "id": "collegium-pazmanianum",
@@ -1294,9 +1296,14 @@
       ],
       "activityCategories": [],
       "signals": [
+        "oktatas",
         "neptanc",
         "nepzene",
         "enekkar",
+        "szinhaz",
+        "media",
+        "diak",
+        "irodalom",
         "sport",
         "csalad"
       ],
@@ -1505,6 +1512,10 @@
       ],
       "activityCategories": [],
       "signals": [
+        "oktatas",
+        "egyhaz",
+        "irodalom",
+        "muveszet",
         "csalad"
       ],
       "pagesChecked": 3,
@@ -1514,9 +1525,7 @@
         "https://fecskeklub.at/titkok-nyomaban/"
       ],
       "errors": [],
-      "flags": [
-        "weak-source-signal:oktatas"
-      ]
+      "flags": []
     },
     {
       "id": "felso-ausztriai-magyarok",
@@ -1558,24 +1567,16 @@
       ],
       "activityCategories": [],
       "signals": [
+        "media",
         "egyhaz"
       ],
-      "pagesChecked": 0,
-      "checkedUrls": [],
-      "errors": [
-        {
-          "url": "https://www.martinus.at/pfarre/1122",
-          "error": "<urlopen error timed out>"
-        },
-        {
-          "url": "https://www.martinus.at/pfarre/1122/kalender",
-          "error": "<urlopen error timed out>"
-        },
-        {
-          "url": "https://www.martinus.at/pfarre/1122/kalender/calendar/1808040.html",
-          "error": "<urlopen error timed out>"
-        }
+      "pagesChecked": 3,
+      "checkedUrls": [
+        "https://www.martinus.at/pfarre/1122",
+        "https://www.martinus.at/pfarre/1122/kalender",
+        "https://www.martinus.at/pfarre/1122/kalender/calendar/1808040.html"
       ],
+      "errors": [],
       "flags": []
     },
     {
@@ -2092,16 +2093,14 @@
       "signals": [
         "egyhaz"
       ],
-      "pagesChecked": 0,
-      "checkedUrls": [],
+      "pagesChecked": 1,
+      "checkedUrls": [
+        "https://www.edsbg.at/seelsorge/weltkirche/anderssprachige-seelsorge/ungarische-gemeinde"
+      ],
       "errors": [
         {
-          "url": "https://www.edsbg.at/seelsorge/weltkirche/anderssprachige-seelsorge/ungarische-gemeinde",
-          "error": "<urlopen error timed out>"
-        },
-        {
           "url": "https://www.edsbg.at/dl/klOKJmMJKNLMKJqx4KJK/ungarischsprachige_Gottesdienstgemeinde_Salzburg_pdf",
-          "error": "<urlopen error timed out>"
+          "error": "HTTP Error 400: Bad Request"
         }
       ],
       "flags": []
@@ -2302,16 +2301,18 @@
       ],
       "activityCategories": [],
       "signals": [
+        "oktatas",
+        "nepzene",
         "szinhaz",
+        "media",
         "irodalom",
         "muveszet",
         "csalad"
       ],
-      "pagesChecked": 3,
+      "pagesChecked": 2,
       "checkedUrls": [
         "https://kultpult.eu/",
-        "https://kultpult.eu/itthonotthon/",
-        "https://kultpult.eu/wp-content/uploads/2024/06/Altalanos-Szerzodesi-Feltetelek-kultpult.pdf"
+        "https://kultpult.eu/itthonotthon/"
       ],
       "errors": [],
       "flags": []
@@ -2463,18 +2464,17 @@
       ],
       "activityCategories": [],
       "signals": [
-        "egyhaz"
+        "media",
+        "egyhaz",
+        "irodalom",
+        "csalad"
       ],
-      "pagesChecked": 1,
+      "pagesChecked": 2,
       "checkedUrls": [
+        "https://www.erzdioezese-wien.at/unit/katholischeostkirchen/unseregemeinden/katholischeostkirchen/gemeindeninwien",
         "https://hd.gorogkatolikus.hu/Magyar-gorogkatolikus-lelkeszseg-alakult-Becsben-2023-junius-06"
       ],
-      "errors": [
-        {
-          "url": "https://www.erzdioezese-wien.at/unit/katholischeostkirchen/unseregemeinden/katholischeostkirchen/gemeindeninwien",
-          "error": "<urlopen error timed out>"
-        }
-      ],
+      "errors": [],
       "flags": []
     },
     {
@@ -2584,7 +2584,13 @@
       ],
       "activityCategories": [],
       "signals": [
-        "diak"
+        "neptanc",
+        "media",
+        "diak",
+        "irodalom",
+        "muveszet",
+        "sport",
+        "csalad"
       ],
       "pagesChecked": 3,
       "checkedUrls": [
@@ -3433,7 +3439,16 @@
       ],
       "activityCategories": [],
       "signals": [
-        "nepzene"
+        "oktatas",
+        "neptanc",
+        "nepzene",
+        "enekkar",
+        "szinhaz",
+        "media",
+        "diak",
+        "muveszet",
+        "sport",
+        "csalad"
       ],
       "pagesChecked": 3,
       "checkedUrls": [
@@ -3980,6 +3995,8 @@
       "activityCategories": [],
       "signals": [
         "szinhaz",
+        "media",
+        "irodalom",
         "muveszet",
         "csalad"
       ],
@@ -4110,7 +4127,11 @@
       ],
       "activityCategories": [],
       "signals": [
+        "oktatas",
         "neptanc",
+        "nepzene",
+        "media",
+        "diak",
         "csalad"
       ],
       "pagesChecked": 1,
