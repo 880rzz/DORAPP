@@ -1403,7 +1403,7 @@
         "en": "Finland",
         "officialEn": "Republic of Finland"
       },
-      "researchStatus": "unresearched",
+      "researchStatus": "researching",
       "countryDataPath": "data/countries/fi/",
       "route": "countries/fi/",
       "counts": {
@@ -1413,7 +1413,9 @@
         "events": 0,
         "education": 0
       },
-      "iso3": "FIN"
+      "iso3": "FIN",
+      "lastResearchAttemptAt": "2026-11-06T09:47:51+00:00",
+      "discoveryCandidateCount": 54
     },
     {
       "iso2": "fj",
@@ -4466,7 +4468,7 @@
         "organizations": 78,
         "activities": 0,
         "entities": 78,
-        "events": 19,
+        "events": 18,
         "education": 23
       },
       "iso3": "USA",
