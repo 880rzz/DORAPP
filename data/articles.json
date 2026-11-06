@@ -1,7 +1,7 @@
 {
-  "updated": "2026-11-06T02:14:56.279294+00:00",
+  "updated": "2026-11-06T12:05:44.178424+00:00",
   "articles": {
-    "lean-in-femspace": [],
+    "oeius": [],
     "becsi-irodalmi-muhely": [
       {
         "title": "ORF Magyarok – Közösségépítés az irodalmon keresztül",
@@ -14,6 +14,7 @@
         "source": "ORF Volksgruppen"
       }
     ],
+    "napraforgocskak": [],
     "gimi-svung": [],
     "kicsi-svung": [],
     "svung": [],
@@ -24,8 +25,7 @@
         "source": "ORF Volksgruppen"
       }
     ],
-    "oeius": [],
-    "napraforgocskak": [],
+    "lean-in-femspace": [],
     "szent-istvan-egylet": [],
     "bornemisza-peter-tarsasag": [],
     "duna-filharmonia": [
@@ -63,7 +63,18 @@
     "europa-club": [],
     "delibab": [],
     "barka-nepdalkor": [],
-    "szivarvany-gyermektanc": [],
+    "kalaka-club": [
+      {
+        "title": "Bécsi Napló archívum – Kaláka-Club történet",
+        "url": "https://www.becsinaplo.eu/newspaper_archive/bn2019-3.pdf",
+        "source": "Bécsi Napló"
+      },
+      {
+        "title": "ORF Magyarok – Összetartozás koncert",
+        "url": "https://volksgruppen.orf.at/magyarok/stories/3121863/",
+        "source": "ORF Volksgruppen"
+      }
+    ],
     "rezsarkantyu-citera": [
       {
         "title": "Rólunk.at – Délibáb gála 2025",
@@ -83,7 +94,28 @@
         "source": "Rólunk.at"
       }
     ],
-    "becsi-magyar-iskola": [],
+    "kozponti-szovetseg": [
+      {
+        "title": "Kvízest- Ausztriai Magyar Egyesületek és Szervezetek Központi Szövetségének rendezvénye",
+        "url": "https://rolunk.at/esemenyek/kvizest-oius-rendezvenye/",
+        "source": "Rólunk.at"
+      },
+      {
+        "title": "Új elnökség az Ausztriai Magyar Egyesületek és Szervezetek Központi Szövetségének élén",
+        "url": "https://rolunk.at/nepcsoportunk/uj-elnokseg-az-ausztriai-magyar-egyesuletek-es-szervezetek-kozponti-szovetsegenek-elen/",
+        "source": "Rólunk.at"
+      },
+      {
+        "title": "Először tartott tisztújító közgyűlést a Központi Szövetség Felsőpulyán",
+        "url": "https://rolunk.at/nepcsoportunk/eloszor-tartott-tisztujito-kozgyulest-a-kozponti-szovetseg-felsopulyan/",
+        "source": "Rólunk.at"
+      },
+      {
+        "title": "Meghívó- A bécsi magyar egyesületek március 15-i ünnepi megemlékezés",
+        "url": "https://rolunk.at/esemenyek/meghivo-a-becsi-magyar-egyesuletek-marcius-15-i-unnepi-megemlekezes/",
+        "source": "Rólunk.at"
+      }
+    ],
     "osztrak-magyar-tarsasag": [],
     "brand-art-studio": [],
     "club-pannonia": [],
@@ -108,41 +140,9 @@
       }
     ],
     "amaped-baden": [],
-    "kozponti-szovetseg": [
-      {
-        "title": "Kvízest- Ausztriai Magyar Egyesületek és Szervezetek Központi Szövetségének rendezvénye",
-        "url": "https://rolunk.at/esemenyek/kvizest-oius-rendezvenye/",
-        "source": "Rólunk.at"
-      },
-      {
-        "title": "Új elnökség az Ausztriai Magyar Egyesületek és Szervezetek Központi Szövetségének élén",
-        "url": "https://rolunk.at/nepcsoportunk/uj-elnokseg-az-ausztriai-magyar-egyesuletek-es-szervezetek-kozponti-szovetsegenek-elen/",
-        "source": "Rólunk.at"
-      },
-      {
-        "title": "Először tartott tisztújító közgyűlést a Központi Szövetség Felsőpulyán",
-        "url": "https://rolunk.at/nepcsoportunk/eloszor-tartott-tisztujito-kozgyulest-a-kozponti-szovetseg-felsopulyan/",
-        "source": "Rólunk.at"
-      },
-      {
-        "title": "Meghívó- A bécsi magyar egyesületek március 15-i ünnepi megemlékezés",
-        "url": "https://rolunk.at/esemenyek/meghivo-a-becsi-magyar-egyesuletek-marcius-15-i-unnepi-megemlekezes/",
-        "source": "Rólunk.at"
-      }
-    ],
+    "cserkesz-72": [],
     "amaped-schwechat": [],
-    "kalaka-club": [
-      {
-        "title": "Bécsi Napló archívum – Kaláka-Club történet",
-        "url": "https://www.becsinaplo.eu/newspaper_archive/bn2019-3.pdf",
-        "source": "Bécsi Napló"
-      },
-      {
-        "title": "ORF Magyarok – Összetartozás koncert",
-        "url": "https://volksgruppen.orf.at/magyarok/stories/3121863/",
-        "source": "ORF Volksgruppen"
-      }
-    ],
+    "szivarvany-gyermektanc": [],
     "bukv": [
       {
         "title": "ORF Magyarok – a Népcsoportok Háza megnyitása és a BMKE költözése",
@@ -237,7 +237,7 @@
         "source": "Rólunk.at"
       }
     ],
-    "cserkesz-72": [],
+    "becsi-magyar-iskola": [],
     "hungaromedia": [],
     "meses-noi-kor-linz": [
       {
@@ -364,16 +364,16 @@
     "salzung-pitypang-suli": [],
     "salzburgi-neptanc": [],
     "magyarhaz-innsbruck": [],
-    "amaped-st-poelten": [
+    "csalafinta-neptanc": [
       {
-        "title": "Megújult Benedek Elek-tankönyvet mutatott be az AMAPED családi napján",
-        "url": "https://rolunk.at/kultura/megujult-benedek-elek-tankonyvet-mutatott-be-az-amaped-csaladi-napjan/",
+        "title": "Rólunk.at – Minden Magyarok Tánca 2026",
+        "url": "https://rolunk.at/kultura/minden-magyarok-tanca-a-csalafinta-neptanccsoport-budapesten-szerepelt/",
         "source": "Rólunk.at"
       },
       {
-        "title": "„A zene élni segít” – Ringató az AMAPED-ben",
-        "url": "https://rolunk.at/fiatalok/a-zene-elni-segit-ringato-az-amaped-ben/",
-        "source": "Rólunk.at"
+        "title": "ORF Magyarok – Locsmánd 2026",
+        "url": "https://volksgruppen.orf.at/magyarok/stories/3366149/",
+        "source": "ORF Volksgruppen"
       }
     ],
     "imeasz": [
@@ -388,16 +388,16 @@
         "source": "Bécsi Napló"
       }
     ],
-    "csalafinta-neptanc": [
+    "amaped-st-poelten": [
       {
-        "title": "Rólunk.at – Minden Magyarok Tánca 2026",
-        "url": "https://rolunk.at/kultura/minden-magyarok-tanca-a-csalafinta-neptanccsoport-budapesten-szerepelt/",
+        "title": "Megújult Benedek Elek-tankönyvet mutatott be az AMAPED családi napján",
+        "url": "https://rolunk.at/kultura/megujult-benedek-elek-tankonyvet-mutatott-be-az-amaped-csaladi-napjan/",
         "source": "Rólunk.at"
       },
       {
-        "title": "ORF Magyarok – Locsmánd 2026",
-        "url": "https://volksgruppen.orf.at/magyarok/stories/3366149/",
-        "source": "ORF Volksgruppen"
+        "title": "„A zene élni segít” – Ringató az AMAPED-ben",
+        "url": "https://rolunk.at/fiatalok/a-zene-elni-segit-ringato-az-amaped-ben/",
+        "source": "Rólunk.at"
       }
     ],
     "katolikus-innsbruck": [],
@@ -729,10 +729,20 @@
         "source": "Rólunk.at"
       }
     ],
-    "cserkesz-79": [
+    "salzung": [
       {
-        "title": "Rólunk.at – Szívében magyar",
-        "url": "https://rolunk.at/nepcsoportunk/sziveben-magyar/",
+        "title": "Salzburgi programok ősszel",
+        "url": "https://rolunk.at/aktualis/salzburgi-programok-osszel/",
+        "source": "Rólunk.at"
+      },
+      {
+        "title": "Közösség és kultúra – SalzUng határtalanul",
+        "url": "https://rolunk.at/nepcsoportunk/kozosseg-es-kultura-salzung-hatartalanul/",
+        "source": "Rólunk.at"
+      },
+      {
+        "title": "Határtalan-Grenzenlos Alkotótábor, jazz-koncert és Szabadság Napja a SalzUng szervezésében",
+        "url": "https://rolunk.at/aktualis/hatartalan-grenzenlos-alkototabor-jazz-koncert-es-szabadsag-napja-a-salzung-szervezeseben/",
         "source": "Rólunk.at"
       }
     ],
@@ -761,20 +771,10 @@
     "csorge-nepzene": [],
     "szelforgok-nepzene": [],
     "bmke-singkreis": [],
-    "salzung": [
+    "cserkesz-79": [
       {
-        "title": "Salzburgi programok ősszel",
-        "url": "https://rolunk.at/aktualis/salzburgi-programok-osszel/",
-        "source": "Rólunk.at"
-      },
-      {
-        "title": "Közösség és kultúra – SalzUng határtalanul",
-        "url": "https://rolunk.at/nepcsoportunk/kozosseg-es-kultura-salzung-hatartalanul/",
-        "source": "Rólunk.at"
-      },
-      {
-        "title": "Határtalan-Grenzenlos Alkotótábor, jazz-koncert és Szabadság Napja a SalzUng szervezésében",
-        "url": "https://rolunk.at/aktualis/hatartalan-grenzenlos-alkototabor-jazz-koncert-es-szabadsag-napja-a-salzung-szervezeseben/",
+        "title": "Rólunk.at – Szívében magyar",
+        "url": "https://rolunk.at/nepcsoportunk/sziveben-magyar/",
         "source": "Rólunk.at"
       }
     ],
@@ -885,25 +885,30 @@
         "source": "ORF Volksgruppen"
       }
     ],
-    "imike": [
+    "becsi-naplo": [
       {
-        "title": "Rólunk.at – Szívében magyar / IMIKE bemutatása",
-        "url": "https://rolunk.at/nepcsoportunk/sziveben-magyar/",
+        "title": "Bécsi Napló – aktuális oldal és impresszum",
+        "url": "https://www.becsinaplo.at/",
+        "source": "Bécsi Napló"
+      },
+      {
+        "title": "Új online felülettel bővült a 46 éves Bécsi Napló",
+        "url": "https://rolunk.at/aktualis/uj-online-felulettel-bovult-a-44-eves-becsi-naplo/",
         "source": "Rólunk.at"
       },
       {
-        "title": "Rólunk.at – IMIKE videós bemutató",
-        "url": "https://rolunk.at/videotar/",
+        "title": "Új korszak előtt a Bécsi Napló",
+        "url": "https://rolunk.at/nepcsoportunk/uj-korszak-elott-a-becsi-naplo/",
         "source": "Rólunk.at"
       },
       {
-        "title": "Rólunk.at – IMIKE program Innsbruckban",
-        "url": "https://rolunk.at/magazin/okoskodni-egy-jo-pofa-sor-mellett/",
+        "title": "A Bécsi Napló estjén mutatkozott be Másréti Kató Zoltán",
+        "url": "https://rolunk.at/kultura/a-becsi-naplo-estjen-mutatkozott-be-masreti-kato-zoltan/",
         "source": "Rólunk.at"
       },
       {
-        "title": "Rólunk.at – Petőfi 200 szavalóverseny",
-        "url": "https://rolunk.at/fiatalok/petofi-200-szavaloverseny-innsbruckban/",
+        "title": "Barsy Irma: Pincenapló – könyvbemutató a Bornemisza Társaságnál",
+        "url": "https://rolunk.at/kultura/barsy-irma-pincenaplo-konyvbemutato-a-bornemisza-tarsasagnal/",
         "source": "Rólunk.at"
       }
     ],
@@ -954,7 +959,23 @@
         "source": "ORF Volksgruppen"
       }
     ],
-    "bobitak-innsbruck": [],
+    "nevenincs-ovoda-innsbruck": [
+      {
+        "title": "ORF Magyarok – Innsbrucki magyar közösség: sikeres év és új tervek",
+        "url": "https://volksgruppen.orf.at/magyarok/stories/3337903/",
+        "source": "ORF Volksgruppen"
+      },
+      {
+        "title": "ORF Magyarok – Családi piknik Innsbruckban",
+        "url": "https://volksgruppen.orf.at/magyarok/stories/3068208/",
+        "source": "ORF Volksgruppen"
+      },
+      {
+        "title": "Jógáztak a gyerekek az évzáró NeveNincs pikniken",
+        "url": "https://rolunk.at/fiatalok/jogaztak-a-gyerekek-az-evzaro-nevenincs-pikniken/",
+        "source": "Rólunk.at"
+      }
+    ],
     "buechereien-wien-hungarian": [
       {
         "title": "ORF Magyarok – Magyar könyvek és többnyelvűség Bécsben",
@@ -1005,53 +1026,30 @@
         "source": "ORF Volksgruppen"
       }
     ],
-    "nevenincs-ovoda-innsbruck": [
+    "imike": [
       {
-        "title": "ORF Magyarok – Innsbrucki magyar közösség: sikeres év és új tervek",
-        "url": "https://volksgruppen.orf.at/magyarok/stories/3337903/",
-        "source": "ORF Volksgruppen"
+        "title": "Rólunk.at – Szívében magyar / IMIKE bemutatása",
+        "url": "https://rolunk.at/nepcsoportunk/sziveben-magyar/",
+        "source": "Rólunk.at"
       },
       {
-        "title": "ORF Magyarok – Családi piknik Innsbruckban",
-        "url": "https://volksgruppen.orf.at/magyarok/stories/3068208/",
-        "source": "ORF Volksgruppen"
+        "title": "Rólunk.at – IMIKE videós bemutató",
+        "url": "https://rolunk.at/videotar/",
+        "source": "Rólunk.at"
       },
       {
-        "title": "Jógáztak a gyerekek az évzáró NeveNincs pikniken",
-        "url": "https://rolunk.at/fiatalok/jogaztak-a-gyerekek-az-evzaro-nevenincs-pikniken/",
+        "title": "Rólunk.at – IMIKE program Innsbruckban",
+        "url": "https://rolunk.at/magazin/okoskodni-egy-jo-pofa-sor-mellett/",
+        "source": "Rólunk.at"
+      },
+      {
+        "title": "Rólunk.at – Petőfi 200 szavalóverseny",
+        "url": "https://rolunk.at/fiatalok/petofi-200-szavaloverseny-innsbruckban/",
         "source": "Rólunk.at"
       }
     ],
     "magyar-gorogkatolikus-lelkeszseg-becs": [],
-    "becsi-naplo": [
-      {
-        "title": "Bécsi Napló – aktuális oldal és impresszum",
-        "url": "https://www.becsinaplo.at/",
-        "source": "Bécsi Napló"
-      },
-      {
-        "title": "Új online felülettel bővült a 46 éves Bécsi Napló",
-        "url": "https://rolunk.at/aktualis/uj-online-felulettel-bovult-a-44-eves-becsi-naplo/",
-        "source": "Rólunk.at"
-      },
-      {
-        "title": "Új korszak előtt a Bécsi Napló",
-        "url": "https://rolunk.at/nepcsoportunk/uj-korszak-elott-a-becsi-naplo/",
-        "source": "Rólunk.at"
-      },
-      {
-        "title": "A Bécsi Napló estjén mutatkozott be Másréti Kató Zoltán",
-        "url": "https://rolunk.at/kultura/a-becsi-naplo-estjen-mutatkozott-be-masreti-kato-zoltan/",
-        "source": "Rólunk.at"
-      },
-      {
-        "title": "Barsy Irma: Pincenapló – könyvbemutató a Bornemisza Társaságnál",
-        "url": "https://rolunk.at/kultura/barsy-irma-pincenaplo-konyvbemutato-a-bornemisza-tarsasagnal/",
-        "source": "Rólunk.at"
-      }
-    ],
-    "warter-fantasie": [],
-    "bmkbe": [],
+    "bobitak-innsbruck": [],
     "stadtbibliothek-linz-hungarian": [
       {
         "title": "ORF Magyarok – Népszerűek a magyar könyvek Linzben",
@@ -1064,6 +1062,8 @@
         "source": "Rólunk.at"
       }
     ],
+    "warter-fantasie": [],
+    "bmkbe": [],
     "radio-mora": []
   }
 }
