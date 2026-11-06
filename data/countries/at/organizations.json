@@ -5561,7 +5561,9 @@
       "website": null,
       "facebook": null,
       "instagram": null,
-      "eventSources": [],
+      "eventSources": [
+        "https://vhskurs.linz.at/index.php?kathaupt=11&knr=26.8M730&kursname=Mehrsprachige+Kinderbuchlesungen"
+      ],
       "evidenceSources": [
         {
           "label": "Stadt Linz – Sprachenvielfalt in der Stadtbibliothek",
@@ -5619,6 +5621,18 @@
       "email": "kapcsolat@hungaromedia.at",
       "contactUrl": "https://linktr.ee/hungaromedia",
       "calendarSources": [
+        {
+          "label": "Stadtbibliothek Linz – többnyelvű gyermekkönyv-felolvasások",
+          "url": "https://vhskurs.linz.at/index.php?kathaupt=11&knr=26.8M730&kursname=Mehrsprachige+Kinderbuchlesungen",
+          "kind": "host-calendar",
+          "scope": "host",
+          "ingestEvents": true,
+          "includeRegex": [
+            "Ungarisch",
+            "magyar"
+          ],
+          "filterPolicy": "hungarian-language-only"
+        },
         {
           "label": "Sajtó-/dokumentációs forrás – nem automatikus naptár",
           "url": "https://rolunk.at/kultura/az-olvasas-mint-kozos-nyelv-magyar-nyelvu-konyvtar-linzben/",
