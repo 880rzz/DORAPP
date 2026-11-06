@@ -1,12 +1,12 @@
 {
-  "updated": "2026-11-05T13:04:58.875895+00:00",
+  "updated": "2026-11-06T02:12:23.624962+00:00",
   "summary": {
     "organizations": 163,
     "organizationFlags": 2,
-    "organizationPagesChecked": 344,
+    "organizationPagesChecked": 346,
     "education": 112,
     "educationFlags": 0,
-    "events": 72,
+    "events": 77,
     "eventFlags": 0
   },
   "organizations": [
@@ -125,6 +125,7 @@
       ],
       "activityCategories": [],
       "signals": [
+        "szinhaz",
         "media",
         "egyhaz",
         "csalad"
@@ -2390,12 +2391,14 @@
       ],
       "activityCategories": [],
       "signals": [
+        "oktatas",
         "media",
         "irodalom",
         "csalad"
       ],
-      "pagesChecked": 1,
+      "pagesChecked": 2,
       "checkedUrls": [
+        "https://vhskurs.linz.at/index.php?kathaupt=11&knr=26.8M730&kursname=Mehrsprachige+Kinderbuchlesungen",
         "https://www.linz.at/medienservice/2025/202508_132151.php"
       ],
       "errors": [],
@@ -2794,11 +2797,12 @@
         "nepzene",
         "enekkar",
         "cserkesz",
-        "media",
+        "szinhaz",
         "egyhaz",
         "diak",
         "irodalom",
         "muveszet",
+        "sport",
         "csalad"
       ],
       "pagesChecked": 3,
@@ -2828,17 +2832,13 @@
         "sport",
         "csalad"
       ],
-      "pagesChecked": 2,
+      "pagesChecked": 3,
       "checkedUrls": [
+        "https://ne-felejts.weebly.com/",
         "https://ne-felejts.weebly.com/uumlber-uns.html",
         "https://volksgruppen.orf.at/magyarok/stories/3173798/"
       ],
-      "errors": [
-        {
-          "url": "https://ne-felejts.weebly.com/",
-          "error": "The read operation timed out"
-        }
-      ],
+      "errors": [],
       "flags": []
     },
     {
@@ -3341,6 +3341,7 @@
       "activityCategories": [],
       "signals": [
         "media",
+        "egyhaz",
         "irodalom",
         "csalad"
       ],
