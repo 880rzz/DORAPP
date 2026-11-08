@@ -1442,7 +1442,7 @@
       "name": {
         "en": "Falkland Islands (Malvinas)"
       },
-      "researchStatus": "unresearched",
+      "researchStatus": "researching",
       "countryDataPath": "data/countries/fk/",
       "route": "countries/fk/",
       "counts": {
@@ -1452,7 +1452,9 @@
         "events": 0,
         "education": 0
       },
-      "iso3": "FLK"
+      "iso3": "FLK",
+      "lastResearchAttemptAt": "2026-11-08T09:25:44+00:00",
+      "discoveryCandidateCount": 18
     },
     {
       "iso2": "fm",
@@ -4470,7 +4472,7 @@
         "organizations": 78,
         "activities": 0,
         "entities": 78,
-        "events": 18,
+        "events": 19,
         "education": 23
       },
       "iso3": "USA",
