@@ -766,7 +766,7 @@
         "organizations": 25,
         "activities": 0,
         "entities": 25,
-        "events": 1,
+        "events": 0,
         "education": 6
       },
       "iso3": "CAN",
@@ -1617,7 +1617,7 @@
       "name": {
         "en": "Guernsey"
       },
-      "researchStatus": "unresearched",
+      "researchStatus": "researching",
       "countryDataPath": "data/countries/gg/",
       "route": "countries/gg/",
       "counts": {
@@ -1627,7 +1627,9 @@
         "events": 0,
         "education": 0
       },
-      "iso3": "GGY"
+      "iso3": "GGY",
+      "lastResearchAttemptAt": "2026-11-09T10:15:47+00:00",
+      "discoveryCandidateCount": 43
     },
     {
       "iso2": "gh",
@@ -3212,7 +3214,7 @@
         "organizations": 21,
         "activities": 0,
         "entities": 21,
-        "events": 7,
+        "events": 6,
         "education": 4
       },
       "iso3": "NLD",
@@ -4472,7 +4474,7 @@
         "organizations": 78,
         "activities": 0,
         "entities": 78,
-        "events": 19,
+        "events": 17,
         "education": 23
       },
       "iso3": "USA",
