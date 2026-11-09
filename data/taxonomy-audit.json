@@ -1,12 +1,12 @@
 {
-  "updated": "2026-11-08T12:49:57.617185+00:00",
+  "updated": "2026-11-09T12:52:06.740983+00:00",
   "summary": {
     "organizations": 163,
-    "organizationFlags": 2,
-    "organizationPagesChecked": 346,
+    "organizationFlags": 1,
+    "organizationPagesChecked": 339,
     "education": 112,
     "educationFlags": 0,
-    "events": 73,
+    "events": 70,
     "eventFlags": 0
   },
   "organizations": [
@@ -125,17 +125,24 @@
       ],
       "activityCategories": [],
       "signals": [
-        "media",
-        "egyhaz",
-        "csalad"
+        "egyhaz"
       ],
-      "pagesChecked": 3,
-      "checkedUrls": [
-        "https://www.martinus.at/",
-        "https://www.martinus.at/pfarre/1127/kalender",
-        "https://www.martinus.at/unterwart"
+      "pagesChecked": 0,
+      "checkedUrls": [],
+      "errors": [
+        {
+          "url": "https://www.martinus.at/",
+          "error": "<urlopen error timed out>"
+        },
+        {
+          "url": "https://www.martinus.at/pfarre/1127/kalender",
+          "error": "<urlopen error timed out>"
+        },
+        {
+          "url": "https://www.martinus.at/unterwart",
+          "error": "<urlopen error timed out>"
+        }
       ],
-      "errors": [],
       "flags": []
     },
     {
@@ -184,6 +191,7 @@
         "media",
         "egyhaz",
         "irodalom",
+        "muveszet",
         "sport",
         "csalad"
       ],
@@ -1105,23 +1113,20 @@
       "activityCategories": [],
       "signals": [
         "oktatas",
+        "szinhaz",
         "media",
-        "irodalom"
+        "irodalom",
+        "muveszet",
+        "csalad"
       ],
-      "pagesChecked": 2,
+      "pagesChecked": 3,
       "checkedUrls": [
         "https://culture.hu/hu/wien",
+        "https://culture.hu/hu/wien/esemenyek",
         "https://culture.hu/de/wien/jubilaum"
       ],
-      "errors": [
-        {
-          "url": "https://culture.hu/hu/wien/esemenyek",
-          "error": "The read operation timed out"
-        }
-      ],
-      "flags": [
-        "weak-source-signal:muveszet"
-      ]
+      "errors": [],
+      "flags": []
     },
     {
       "id": "collegium-pazmanianum",
@@ -1161,7 +1166,6 @@
         "nepzene",
         "szinhaz",
         "media",
-        "egyhaz",
         "irodalom",
         "muveszet",
         "sport",
@@ -1566,16 +1570,24 @@
       ],
       "activityCategories": [],
       "signals": [
-        "media",
         "egyhaz"
       ],
-      "pagesChecked": 3,
-      "checkedUrls": [
-        "https://www.martinus.at/pfarre/1122",
-        "https://www.martinus.at/pfarre/1122/kalender",
-        "https://www.martinus.at/pfarre/1122/kalender/calendar/1808040.html"
+      "pagesChecked": 0,
+      "checkedUrls": [],
+      "errors": [
+        {
+          "url": "https://www.martinus.at/pfarre/1122",
+          "error": "<urlopen error timed out>"
+        },
+        {
+          "url": "https://www.martinus.at/pfarre/1122/kalender",
+          "error": "<urlopen error timed out>"
+        },
+        {
+          "url": "https://www.martinus.at/pfarre/1122/kalender/calendar/1808040.html",
+          "error": "<urlopen error timed out>"
+        }
       ],
-      "errors": [],
       "flags": []
     },
     {
@@ -2092,14 +2104,16 @@
       "signals": [
         "egyhaz"
       ],
-      "pagesChecked": 1,
-      "checkedUrls": [
-        "https://www.edsbg.at/seelsorge/weltkirche/anderssprachige-seelsorge/ungarische-gemeinde"
-      ],
+      "pagesChecked": 0,
+      "checkedUrls": [],
       "errors": [
         {
+          "url": "https://www.edsbg.at/seelsorge/weltkirche/anderssprachige-seelsorge/ungarische-gemeinde",
+          "error": "<urlopen error timed out>"
+        },
+        {
           "url": "https://www.edsbg.at/dl/klOKJmMJKNLMKJqx4KJK/ungarischsprachige_Gottesdienstgemeinde_Salzburg_pdf",
-          "error": "HTTP Error 400: Bad Request"
+          "error": "<urlopen error timed out>"
         }
       ],
       "flags": []
@@ -2331,7 +2345,6 @@
         "nepzene",
         "szinhaz",
         "media",
-        "egyhaz",
         "irodalom",
         "muveszet",
         "sport",
@@ -2414,7 +2427,6 @@
         "cserkesz",
         "szinhaz",
         "media",
-        "egyhaz",
         "irodalom",
         "muveszet",
         "csalad"
@@ -2471,12 +2483,16 @@
         "muveszet",
         "csalad"
       ],
-      "pagesChecked": 2,
+      "pagesChecked": 1,
       "checkedUrls": [
-        "https://www.erzdioezese-wien.at/unit/katholischeostkirchen/unseregemeinden/katholischeostkirchen/gemeindeninwien",
         "https://hd.gorogkatolikus.hu/Magyar-gorogkatolikus-lelkeszseg-alakult-Becsben-2023-junius-06"
       ],
-      "errors": [],
+      "errors": [
+        {
+          "url": "https://www.erzdioezese-wien.at/unit/katholischeostkirchen/unseregemeinden/katholischeostkirchen/gemeindeninwien",
+          "error": "<urlopen error timed out>"
+        }
+      ],
       "flags": []
     },
     {
@@ -2643,7 +2659,6 @@
         "nepzene",
         "szinhaz",
         "media",
-        "egyhaz",
         "diak",
         "irodalom",
         "muveszet",
@@ -2703,7 +2718,6 @@
         "nepzene",
         "szinhaz",
         "media",
-        "egyhaz",
         "diak",
         "irodalom",
         "muveszet",
@@ -2934,7 +2948,6 @@
         "cserkesz",
         "szinhaz",
         "media",
-        "egyhaz",
         "irodalom",
         "muveszet",
         "sport",
@@ -3011,9 +3024,9 @@
       "activityCategories": [],
       "signals": [
         "oktatas",
-        "szinhaz",
         "media",
         "diak",
+        "irodalom",
         "muveszet",
         "sport",
         "csalad"
@@ -3282,7 +3295,6 @@
         "cserkesz",
         "szinhaz",
         "media",
-        "egyhaz",
         "irodalom",
         "muveszet",
         "sport",
@@ -3479,6 +3491,7 @@
         "media",
         "egyhaz",
         "irodalom",
+        "muveszet",
         "csalad"
       ],
       "pagesChecked": 2,
@@ -3537,7 +3550,6 @@
         "enekkar",
         "szinhaz",
         "media",
-        "egyhaz",
         "diak",
         "irodalom",
         "muveszet",
@@ -3972,7 +3984,6 @@
         "cserkesz",
         "szinhaz",
         "media",
-        "egyhaz",
         "irodalom",
         "muveszet",
         "csalad"
@@ -4344,7 +4355,6 @@
         "nepzene",
         "szinhaz",
         "media",
-        "egyhaz",
         "diak",
         "irodalom",
         "muveszet",
