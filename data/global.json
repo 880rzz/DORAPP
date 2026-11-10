@@ -402,7 +402,7 @@
         "organizations": 19,
         "activities": 0,
         "entities": 19,
-        "events": 5,
+        "events": 4,
         "education": 4
       },
       "iso3": "BEL",
@@ -1637,7 +1637,7 @@
         "en": "Ghana",
         "officialEn": "Republic of Ghana"
       },
-      "researchStatus": "unresearched",
+      "researchStatus": "researching",
       "countryDataPath": "data/countries/gh/",
       "route": "countries/gh/",
       "counts": {
@@ -1647,7 +1647,9 @@
         "events": 0,
         "education": 0
       },
-      "iso3": "GHA"
+      "iso3": "GHA",
+      "lastResearchAttemptAt": "2026-11-10T10:19:31+00:00",
+      "discoveryCandidateCount": 47
     },
     {
       "iso2": "gi",
@@ -4474,7 +4476,7 @@
         "organizations": 78,
         "activities": 0,
         "entities": 78,
-        "events": 17,
+        "events": 18,
         "education": 23
       },
       "iso3": "USA",
