@@ -1656,7 +1656,7 @@
       "name": {
         "en": "Gibraltar"
       },
-      "researchStatus": "unresearched",
+      "researchStatus": "researching",
       "countryDataPath": "data/countries/gi/",
       "route": "countries/gi/",
       "counts": {
@@ -1666,7 +1666,9 @@
         "events": 0,
         "education": 0
       },
-      "iso3": "GIB"
+      "iso3": "GIB",
+      "lastResearchAttemptAt": "2026-11-11T09:48:53+00:00",
+      "discoveryCandidateCount": 47
     },
     {
       "iso2": "gl",
@@ -4476,7 +4478,7 @@
         "organizations": 78,
         "activities": 0,
         "entities": 78,
-        "events": 18,
+        "events": 19,
         "education": 23
       },
       "iso3": "USA",
