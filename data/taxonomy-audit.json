@@ -1,9 +1,9 @@
 {
-  "updated": "2026-11-10T13:25:39.390195+00:00",
+  "updated": "2026-11-11T11:53:31.607802+00:00",
   "summary": {
     "organizations": 163,
     "organizationFlags": 1,
-    "organizationPagesChecked": 347,
+    "organizationPagesChecked": 334,
     "education": 112,
     "educationFlags": 0,
     "events": 69,
@@ -125,17 +125,24 @@
       ],
       "activityCategories": [],
       "signals": [
-        "media",
-        "egyhaz",
-        "csalad"
+        "egyhaz"
       ],
-      "pagesChecked": 3,
-      "checkedUrls": [
-        "https://www.martinus.at/",
-        "https://www.martinus.at/pfarre/1127/kalender",
-        "https://www.martinus.at/unterwart"
+      "pagesChecked": 0,
+      "checkedUrls": [],
+      "errors": [
+        {
+          "url": "https://www.martinus.at/",
+          "error": "<urlopen error timed out>"
+        },
+        {
+          "url": "https://www.martinus.at/pfarre/1127/kalender",
+          "error": "<urlopen error timed out>"
+        },
+        {
+          "url": "https://www.martinus.at/unterwart",
+          "error": "<urlopen error timed out>"
+        }
       ],
-      "errors": [],
       "flags": []
     },
     {
@@ -607,7 +614,6 @@
         "egyhaz",
         "irodalom",
         "muveszet",
-        "sport",
         "csalad"
       ],
       "pagesChecked": 3,
@@ -1322,14 +1328,10 @@
       ],
       "activityCategories": [],
       "signals": [
-        "media",
-        "irodalom",
-        "csalad"
+        "media"
       ],
-      "pagesChecked": 1,
-      "checkedUrls": [
-        "https://www.radiohu.hu/impresszum/"
-      ],
+      "pagesChecked": 0,
+      "checkedUrls": [],
       "errors": [],
       "flags": []
     },
@@ -1563,16 +1565,24 @@
       ],
       "activityCategories": [],
       "signals": [
-        "media",
         "egyhaz"
       ],
-      "pagesChecked": 3,
-      "checkedUrls": [
-        "https://www.martinus.at/pfarre/1122",
-        "https://www.martinus.at/pfarre/1122/kalender",
-        "https://www.martinus.at/pfarre/1122/kalender/calendar/1808040.html"
+      "pagesChecked": 0,
+      "checkedUrls": [],
+      "errors": [
+        {
+          "url": "https://www.martinus.at/pfarre/1122",
+          "error": "<urlopen error timed out>"
+        },
+        {
+          "url": "https://www.martinus.at/pfarre/1122/kalender",
+          "error": "<urlopen error timed out>"
+        },
+        {
+          "url": "https://www.martinus.at/pfarre/1122/kalender/calendar/1808040.html",
+          "error": "<urlopen error timed out>"
+        }
       ],
-      "errors": [],
       "flags": []
     },
     {
@@ -2039,12 +2049,16 @@
         "sport",
         "csalad"
       ],
-      "pagesChecked": 2,
+      "pagesChecked": 1,
       "checkedUrls": [
-        "https://www.dibk.at/Media/Organisationen/muttersprachliche-seelsorge",
         "https://www.kozpontiszovetseg.at/tagszervezetek"
       ],
-      "errors": [],
+      "errors": [
+        {
+          "url": "https://www.dibk.at/Media/Organisationen/muttersprachliche-seelsorge",
+          "error": "The read operation timed out"
+        }
+      ],
       "flags": []
     },
     {
@@ -2089,14 +2103,16 @@
       "signals": [
         "egyhaz"
       ],
-      "pagesChecked": 1,
-      "checkedUrls": [
-        "https://www.edsbg.at/seelsorge/weltkirche/anderssprachige-seelsorge/ungarische-gemeinde"
-      ],
+      "pagesChecked": 0,
+      "checkedUrls": [],
       "errors": [
         {
+          "url": "https://www.edsbg.at/seelsorge/weltkirche/anderssprachige-seelsorge/ungarische-gemeinde",
+          "error": "<urlopen error timed out>"
+        },
+        {
           "url": "https://www.edsbg.at/dl/klOKJmMJKNLMKJqx4KJK/ungarischsprachige_Gottesdienstgemeinde_Salzburg_pdf",
-          "error": "HTTP Error 400: Bad Request"
+          "error": "<urlopen error timed out>"
         }
       ],
       "flags": []
@@ -2465,12 +2481,16 @@
         "irodalom",
         "csalad"
       ],
-      "pagesChecked": 2,
+      "pagesChecked": 1,
       "checkedUrls": [
-        "https://www.erzdioezese-wien.at/unit/katholischeostkirchen/unseregemeinden/katholischeostkirchen/gemeindeninwien",
         "https://hd.gorogkatolikus.hu/Magyar-gorogkatolikus-lelkeszseg-alakult-Becsben-2023-junius-06"
       ],
-      "errors": [],
+      "errors": [
+        {
+          "url": "https://www.erzdioezese-wien.at/unit/katholischeostkirchen/unseregemeinden/katholischeostkirchen/gemeindeninwien",
+          "error": "<urlopen error timed out>"
+        }
+      ],
       "flags": []
     },
     {
@@ -2483,14 +2503,10 @@
       ],
       "activityCategories": [],
       "signals": [
-        "media",
-        "irodalom",
-        "csalad"
+        "media"
       ],
-      "pagesChecked": 1,
-      "checkedUrls": [
-        "https://www.radiohu.hu/impresszum/"
-      ],
+      "pagesChecked": 0,
+      "checkedUrls": [],
       "errors": [
         {
           "url": "https://www.magyarszo.at/",
@@ -3001,6 +3017,8 @@
       ],
       "activityCategories": [],
       "signals": [
+        "neptanc",
+        "nepzene",
         "szinhaz",
         "media",
         "egyhaz",
@@ -3327,13 +3345,13 @@
       "activityCategories": [],
       "signals": [
         "media",
+        "egyhaz",
         "irodalom",
         "csalad"
       ],
-      "pagesChecked": 2,
+      "pagesChecked": 1,
       "checkedUrls": [
-        "https://www.radiohu.hu/",
-        "https://www.radiohu.hu/impresszum/"
+        "https://www.radiohu.hu/"
       ],
       "errors": [],
       "flags": []
@@ -3439,17 +3457,20 @@
         "szinhaz",
         "media",
         "diak",
-        "muveszet",
         "sport",
         "csalad"
       ],
-      "pagesChecked": 3,
+      "pagesChecked": 2,
       "checkedUrls": [
         "https://www.wukv.at/rolunk-citerazenekar/",
-        "https://www.wukv.at/sample-page/",
-        "https://www.wukv.at/a-citeratol-a-hegeduig-ismeretterjeszto-eloadassorozat/"
+        "https://www.wukv.at/sample-page/"
       ],
-      "errors": [],
+      "errors": [
+        {
+          "url": "https://www.wukv.at/a-citeratol-a-hegeduig-ismeretterjeszto-eloadassorozat/",
+          "error": "The read operation timed out"
+        }
+      ],
       "flags": []
     },
     {
@@ -3851,6 +3872,7 @@
         "szinhaz",
         "media",
         "irodalom",
+        "muveszet",
         "sport",
         "csalad"
       ],
