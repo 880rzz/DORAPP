@@ -1,0 +1,459 @@
+{
+  "schemaVersion": 1,
+  "asOf": "2026-11-03T05:47:55Z",
+  "baselineCommitSha": "e310cac87e0dbdf46e118f776f9c4c82aab60bc1",
+  "issueContract": "https://github.com/880rzz/DORAPP/issues/59",
+  "purpose": "Evidence-backed reconciliation of NYEOMSZSZ homepage member-country claims versus the published membership directory. Directory listing alone does not prove current operational membership, contact validity, or DORAPP publishability.",
+  "sources": [
+    {
+      "id": "nyeomszsz-home-en",
+      "url": "https://www.nyeomszsz.org/",
+      "observedAt": "2026-11-03T05:45:00Z",
+      "claim": "Currently it has 17 members from Sweden, Norway, Finland, Latvia, Estonia, Lithuania, Poland, Czech Republic, Great Britain, Holland, France, Portugal, Spain, Italy, Switzerland, Germany and Austria.",
+      "claimLanguage": "en",
+      "observationStatus": "VERIFIED"
+    },
+    {
+      "id": "nyeomszsz-home-de",
+      "url": "https://www.nyeomszsz.org/",
+      "observedAt": "2026-11-03T05:45:00Z",
+      "claim": "17 Mitglieder in: Schweden, Norwegen, Finnland, Lettland, Estland, Litauen, Polen, Tschechische Republik, Groß-Britannien, Niederlande, Frankreich, Portugal, Spanien, Italien, Schweiz, Deutschland und Österreich.",
+      "claimLanguage": "de",
+      "observationStatus": "VERIFIED"
+    },
+    {
+      "id": "nyeomszsz-directory",
+      "url": "https://www.nyeomszsz.org/tagszervezeteink/",
+      "observedAt": "2026-11-03T05:45:00Z",
+      "claim": "Published directory lists 20 named member-organization entries with country landing pages.",
+      "claimLanguage": "hu",
+      "pageModifiedHint": "2024-12-23T20:32:33+00:00",
+      "observationStatus": "VERIFIED"
+    },
+    {
+      "id": "nyeomszsz-federation-identity",
+      "url": "https://www.nyeomszsz.org/",
+      "observedAt": "2026-11-03T05:45:00Z",
+      "claim": "NYEOMSZSZ is described as a non-profit, non-partisan organisation registered in Sweden (registration number 802411-5159).",
+      "observationStatus": "VERIFIED"
+    }
+  ],
+  "sourceConflictSummary": {
+    "homepageMemberCountryCount": 17,
+    "directoryNamedOrganizationCount": 20,
+    "directoryOnlyRelativeToHomepageCountryList": ["BA", "IE", "MK"],
+    "interpretation": "Treat as a source conflict requiring independent verification. Do not resolve by preferring either source alone. Do not auto-promote directory-only entries to current membership.",
+    "conflictStatus": "disputed"
+  },
+  "homepageMemberCountries": [
+    {"labelOnHomepage": "Sweden", "iso2Primary": "SE", "statusVsDirectory": "also-in-directory"},
+    {"labelOnHomepage": "Norway", "iso2Primary": "NO", "statusVsDirectory": "also-in-directory"},
+    {"labelOnHomepage": "Finland", "iso2Primary": "FI", "statusVsDirectory": "also-in-directory"},
+    {"labelOnHomepage": "Latvia", "iso2Primary": "LV", "statusVsDirectory": "also-in-directory"},
+    {"labelOnHomepage": "Estonia", "iso2Primary": "EE", "statusVsDirectory": "also-in-directory"},
+    {"labelOnHomepage": "Lithuania", "iso2Primary": "LT", "statusVsDirectory": "also-in-directory"},
+    {"labelOnHomepage": "Poland", "iso2Primary": "PL", "statusVsDirectory": "also-in-directory"},
+    {"labelOnHomepage": "Czech Republic", "iso2Primary": "CZ", "statusVsDirectory": "also-in-directory"},
+    {"labelOnHomepage": "Great Britain", "iso2Primary": "GB", "statusVsDirectory": "also-in-directory", "jurisdictionNote": "Homepage wording is Great Britain; directory country page is Anglia / England. Do not equate England, Great Britain, and United Kingdom without evidence."},
+    {"labelOnHomepage": "Holland", "iso2Primary": "NL", "statusVsDirectory": "also-in-directory", "jurisdictionNote": "Informal geographic label Holland maps to ISO NL for operational research scope; not a legal renaming claim."},
+    {"labelOnHomepage": "France", "iso2Primary": "FR", "statusVsDirectory": "also-in-directory"},
+    {"labelOnHomepage": "Portugal", "iso2Primary": "PT", "statusVsDirectory": "also-in-directory"},
+    {"labelOnHomepage": "Spain", "iso2Primary": "ES", "statusVsDirectory": "also-in-directory"},
+    {"labelOnHomepage": "Italy", "iso2Primary": "IT", "statusVsDirectory": "also-in-directory"},
+    {"labelOnHomepage": "Switzerland", "iso2Primary": "CH", "statusVsDirectory": "also-in-directory"},
+    {"labelOnHomepage": "Germany", "iso2Primary": "DE", "statusVsDirectory": "also-in-directory"},
+    {"labelOnHomepage": "Austria", "iso2Primary": "AT", "statusVsDirectory": "also-in-directory"}
+  ],
+  "directoryEntries": [
+    {
+      "directoryIndex": 1,
+      "seedId": "nyeomszsz-dir-gb-maosz",
+      "huName": "Angliai Magyarok Országos Szövetsége",
+      "alternateNames": ["National Federation of Hungarians in England", "MAOSZ"],
+      "nyeomszszCountryPage": "https://www.nyeomszsz.org/anglia/",
+      "directoryLabel": "Anglia",
+      "operationalCountryIso2": ["GB"],
+      "jurisdictionNotes": "Organization self-name and NYEOMSZSZ country page refer to England / Anglia. Homepage membership prose uses Great Britain. Northern Ireland must not be inferred. Use GB as ISO research anchor with England operational scope; mark UK-wide claims as unsupported unless evidenced.",
+      "homepageMembershipClaim": "named-via-great-britain",
+      "memberStatusEvidence": "disputed",
+      "memberStatusRationale": "Present on both homepage country list (as Great Britain) and directory, but England vs Great Britain wording conflict remains unresolved.",
+      "listedWebsite": "http://maosz.org.uk/",
+      "websiteEvidence": [
+        {"url": "http://maosz.org.uk/", "sourceId": "nyeomszsz-directory", "claimType": "directory-listed-website"},
+        {"url": "http://maosz.org.uk/", "sourceId": "nyeomszsz-country-anglia", "sourceUrl": "https://www.nyeomszsz.org/anglia/", "claimType": "country-page-website"}
+      ],
+      "operationalStatus": "needs-review",
+      "dorappLifecycle": "DISCOVERED"
+    },
+    {
+      "directoryIndex": 2,
+      "seedId": "nyeomszsz-dir-at-kozponti",
+      "huName": "Ausztriai Magyar Egyesületek és Szervezetek Központi Szövetsége",
+      "alternateNames": ["Zentralverband Ungarischer Vereine und Organisationen in Österreich", "Központi Szövetség"],
+      "nyeomszszCountryPage": "https://www.nyeomszsz.org/ausztria/",
+      "directoryLabel": "Ausztria",
+      "operationalCountryIso2": ["AT"],
+      "jurisdictionNotes": null,
+      "homepageMembershipClaim": "named",
+      "memberStatusEvidence": "current-candidate",
+      "memberStatusRationale": "Present on homepage 17-country list and directory. Existing DORAPP Austria corpus already contains related verified records; membership currency still requires dated confirmation.",
+      "listedWebsite": "https://www.kozpontiszovetseg.at/",
+      "websiteEvidence": [
+        {"url": "https://www.kozpontiszovetseg.at/", "sourceId": "nyeomszsz-directory", "claimType": "directory-listed-website"},
+        {"url": "https://www.kozpontiszovetseg.at/", "sourceId": "nyeomszsz-country-ausztria", "sourceUrl": "https://www.nyeomszsz.org/ausztria/", "claimType": "country-page-website"}
+      ],
+      "operationalStatus": "needs-review",
+      "dorappLifecycle": "DISCOVERED"
+    },
+    {
+      "directoryIndex": 3,
+      "seedId": "nyeomszsz-dir-ba-hum",
+      "huName": "Bosznia-Hercegovinai Magyar Polgárok Egyesülete „HUM”",
+      "alternateNames": ["Madarsko Udruzenje Gradana „HUM\"", "HUM"],
+      "nyeomszszCountryPage": "https://www.nyeomszsz.org/bosznia-hercegovina/",
+      "directoryLabel": "Bosznia-Hercegovina",
+      "operationalCountryIso2": ["BA"],
+      "jurisdictionNotes": null,
+      "homepageMembershipClaim": "absent-from-homepage-17",
+      "memberStatusEvidence": "disputed",
+      "memberStatusRationale": "Named in directory and has a NYEOMSZSZ country page, but Bosnia and Herzegovina is not among the 17 countries named on the homepage membership prose.",
+      "listedWebsite": "https://www.szarajevoimagyarok.com/",
+      "websiteEvidence": [
+        {"url": "https://www.szarajevoimagyarok.com/", "sourceId": "nyeomszsz-directory", "claimType": "directory-listed-website"}
+      ],
+      "operationalStatus": "needs-review",
+      "dorappLifecycle": "DISCOVERED"
+    },
+    {
+      "directoryIndex": 4,
+      "seedId": "nyeomszsz-dir-cz-csmmsz",
+      "huName": "Cseh- és Morvaországi Magyarok Szövetsége",
+      "alternateNames": ["Svaz Madaru Žijících v Ceských Zemích", "CSMMSZ"],
+      "nyeomszszCountryPage": "https://www.nyeomszsz.org/cseh-es-morvaorszag/",
+      "directoryLabel": "Cseh-és Morvaország",
+      "operationalCountryIso2": ["CZ"],
+      "jurisdictionNotes": "Directory label references Czech and Moravian lands; ISO research anchor is CZ. Do not invent SK affiliation from the historical label.",
+      "homepageMembershipClaim": "named",
+      "memberStatusEvidence": "current-candidate",
+      "memberStatusRationale": "Present on homepage and directory.",
+      "listedWebsite": "https://csmmsz.cz/",
+      "websiteEvidence": [
+        {"url": "https://csmmsz.cz/", "sourceId": "nyeomszsz-directory", "claimType": "directory-listed-website"}
+      ],
+      "operationalStatus": "needs-review",
+      "dorappLifecycle": "DISCOVERED"
+    },
+    {
+      "directoryIndex": 5,
+      "seedId": "nyeomszsz-dir-mk-telehaz",
+      "huName": "Észak-Macedóniai Magyarok „Teleház” Szervezete",
+      "alternateNames": ["„Telecottage” Organisation of Hungarians in Macedonia", "Teleház"],
+      "nyeomszszCountryPage": "https://www.nyeomszsz.org/eszak-macedonia/",
+      "directoryLabel": "Észak-Macedónia",
+      "operationalCountryIso2": ["MK"],
+      "jurisdictionNotes": "English alternate still says Macedonia; operational ISO anchor is MK (North Macedonia). Do not invent Greek-jurisdiction links.",
+      "homepageMembershipClaim": "absent-from-homepage-17",
+      "memberStatusEvidence": "disputed",
+      "memberStatusRationale": "Named in directory with country page, absent from homepage 17-country membership prose.",
+      "listedWebsite": "http://www.telehaz.mk/",
+      "websiteEvidence": [
+        {"url": "http://www.telehaz.mk/", "sourceId": "nyeomszsz-directory", "claimType": "directory-listed-website"}
+      ],
+      "operationalStatus": "needs-review",
+      "dorappLifecycle": "DISCOVERED"
+    },
+    {
+      "directoryIndex": 6,
+      "seedId": "nyeomszsz-dir-ee-munkacsy",
+      "huName": "Észtországi Magyarok “Munkácsy Mihály” Egyesülete",
+      "alternateNames": ["Mihály Munkácsy nim. Eestimaa Ungarlaste Ühing"],
+      "nyeomszszCountryPage": "https://www.nyeomszsz.org/esztorszag/",
+      "directoryLabel": "Észtország",
+      "operationalCountryIso2": ["EE"],
+      "jurisdictionNotes": null,
+      "homepageMembershipClaim": "named",
+      "memberStatusEvidence": "current-candidate",
+      "memberStatusRationale": "Present on homepage and directory. No first-party website observed on the NYEOMSZSZ country page during this audit.",
+      "listedWebsite": null,
+      "websiteEvidence": [],
+      "operationalStatus": "needs-review",
+      "dorappLifecycle": "DISCOVERED"
+    },
+    {
+      "directoryIndex": 7,
+      "seedId": "nyeomszsz-dir-fi-fme",
+      "huName": "Finnországi Magyarok Egyesülete",
+      "alternateNames": ["Suomen unkarilaisten yhdistys ry"],
+      "nyeomszszCountryPage": "https://www.nyeomszsz.org/finnorszag/",
+      "directoryLabel": "Finnország",
+      "operationalCountryIso2": ["FI"],
+      "jurisdictionNotes": null,
+      "homepageMembershipClaim": "named",
+      "memberStatusEvidence": "current-candidate",
+      "memberStatusRationale": "Present on homepage and directory.",
+      "listedWebsite": "https://magyarutca.org/wordpress/",
+      "websiteEvidence": [
+        {"url": "https://magyarutca.org/wordpress/", "sourceId": "nyeomszsz-directory", "claimType": "directory-listed-website"}
+      ],
+      "operationalStatus": "needs-review",
+      "dorappLifecycle": "DISCOVERED"
+    },
+    {
+      "directoryIndex": 8,
+      "seedId": "nyeomszsz-dir-fr-femaf",
+      "huName": "Franciaországi Magyarok Szövetsége",
+      "alternateNames": ["Federation de Magyars en France (FEMAF)", "FEMAF"],
+      "nyeomszszCountryPage": "https://www.nyeomszsz.org/franciaorszag/",
+      "directoryLabel": "Franciaország",
+      "operationalCountryIso2": ["FR"],
+      "jurisdictionNotes": null,
+      "homepageMembershipClaim": "named",
+      "memberStatusEvidence": "current-candidate",
+      "memberStatusRationale": "Present on homepage and directory. Country-page website target observed pointing at magyarutca.org (Finland association site) and is therefore disputed as FEMAF contact evidence.",
+      "listedWebsite": null,
+      "websiteEvidence": [
+        {
+          "url": "https://magyarutca.org/wordpress/",
+          "sourceId": "nyeomszsz-country-franciaorszag",
+          "sourceUrl": "https://www.nyeomszsz.org/franciaorszag/",
+          "claimType": "country-page-website",
+          "confidence": "disputed",
+          "note": "Likely CMS cross-link to Finland page target; do not treat as verified FEMAF official website."
+        }
+      ],
+      "operationalStatus": "needs-review",
+      "dorappLifecycle": "DISCOVERED"
+    },
+    {
+      "directoryIndex": 9,
+      "seedId": "nyeomszsz-dir-nl-hms",
+      "huName": "Hollandiai Magyar Szövetség",
+      "alternateNames": ["Hongaarse Federatie in Nederland"],
+      "nyeomszszCountryPage": "https://www.nyeomszsz.org/hollandia/",
+      "directoryLabel": "Hollandia",
+      "operationalCountryIso2": ["NL"],
+      "jurisdictionNotes": null,
+      "homepageMembershipClaim": "named",
+      "memberStatusEvidence": "current-candidate",
+      "memberStatusRationale": "Present on homepage and directory. DORAPP already has a reviewed NL corpus; membership currency still needs dated confirmation.",
+      "listedWebsite": "https://www.facebook.com/HollandiaiMagyarSz/?locale=hu_HU",
+      "websiteEvidence": [
+        {"url": "https://www.facebook.com/HollandiaiMagyarSz/?locale=hu_HU", "sourceId": "nyeomszsz-directory", "claimType": "directory-listed-social"}
+      ],
+      "operationalStatus": "needs-review",
+      "dorappLifecycle": "DISCOVERED"
+    },
+    {
+      "directoryIndex": 10,
+      "seedId": "nyeomszsz-dir-ie-island",
+      "huName": "Ír-szigeti Magyar Szervezetek Szövetsége",
+      "alternateNames": ["Association of Hungarian Organisations on the Island of Ireland"],
+      "nyeomszszCountryPage": "https://www.nyeomszsz.org/ir-sziget/",
+      "directoryLabel": "Ír-sziget",
+      "operationalCountryIso2": ["IE"],
+      "jurisdictionNotes": "Source wording is Island of Ireland. Do not auto-assign Northern Ireland (GB/UK) coverage or invent an all-island legal jurisdiction. Research seeds may later include cross-border activity only with explicit evidence; ISO primary research anchor for this seed is IE.",
+      "homepageMembershipClaim": "absent-from-homepage-17",
+      "memberStatusEvidence": "disputed",
+      "memberStatusRationale": "Named in directory with country page text currently showing incomplete 'Készül' content and no first-party website. Absent from homepage 17-country membership prose.",
+      "listedWebsite": null,
+      "websiteEvidence": [],
+      "operationalStatus": "needs-review",
+      "dorappLifecycle": "DISCOVERED"
+    },
+    {
+      "directoryIndex": 11,
+      "seedId": "nyeomszsz-dir-pl-lme",
+      "huName": "Lengyelországi Magyar Egyesület",
+      "alternateNames": ["Wspólnota Wêgierska w Polsce"],
+      "nyeomszszCountryPage": "https://www.nyeomszsz.org/lengyelorszag/",
+      "directoryLabel": "Lengyelország",
+      "operationalCountryIso2": ["PL"],
+      "jurisdictionNotes": null,
+      "homepageMembershipClaim": "named",
+      "memberStatusEvidence": "current-candidate",
+      "memberStatusRationale": "Present on homepage and directory.",
+      "listedWebsite": "https://www.facebook.com/lengyelorszagimagyaregyesulet/",
+      "websiteEvidence": [
+        {"url": "https://www.facebook.com/lengyelorszagimagyaregyesulet/", "sourceId": "nyeomszsz-directory", "claimType": "directory-listed-social"}
+      ],
+      "operationalStatus": "needs-review",
+      "dorappLifecycle": "DISCOVERED"
+    },
+    {
+      "directoryIndex": 12,
+      "seedId": "nyeomszsz-dir-lv-balaton",
+      "huName": "Lettországban Élő Magyarok Balaton Társasága",
+      "alternateNames": ["Latvija Dzivojoso Ungaru Biedriba ”Balaton”", "Balaton Társaság"],
+      "nyeomszszCountryPage": "https://www.nyeomszsz.org/lettorszag/",
+      "directoryLabel": "Lettország",
+      "operationalCountryIso2": ["LV"],
+      "jurisdictionNotes": null,
+      "homepageMembershipClaim": "named",
+      "memberStatusEvidence": "current-candidate",
+      "memberStatusRationale": "Present on homepage and directory.",
+      "listedWebsite": "https://www.facebook.com/balatontarsasag/",
+      "websiteEvidence": [
+        {"url": "https://www.facebook.com/balatontarsasag/", "sourceId": "nyeomszsz-directory", "claimType": "directory-listed-social"}
+      ],
+      "operationalStatus": "needs-review",
+      "dorappLifecycle": "DISCOVERED"
+    },
+    {
+      "directoryIndex": 13,
+      "seedId": "nyeomszsz-dir-lt-bathory",
+      "huName": "Litvániai Magyarok Báthory István Kulturális Szövetsége",
+      "alternateNames": ["Lietuvos Stepono Batoro Vengru Kulturos Draugija"],
+      "nyeomszszCountryPage": "https://www.nyeomszsz.org/litvania/",
+      "directoryLabel": "Litvánia",
+      "operationalCountryIso2": ["LT"],
+      "jurisdictionNotes": null,
+      "homepageMembershipClaim": "named",
+      "memberStatusEvidence": "current-candidate",
+      "memberStatusRationale": "Present on homepage and directory.",
+      "listedWebsite": "https://www.lvd.lt/",
+      "websiteEvidence": [
+        {"url": "https://www.lvd.lt/", "sourceId": "nyeomszsz-directory", "claimType": "directory-listed-website"}
+      ],
+      "operationalStatus": "needs-review",
+      "dorappLifecycle": "DISCOVERED"
+    },
+    {
+      "directoryIndex": 14,
+      "seedId": "nyeomszsz-dir-de-buod",
+      "huName": "Németországi Magyar Szervezetek Szövetsége",
+      "alternateNames": ["Bund Ungarischer Organisationen in Deutschland (BUOD)", "BUOD"],
+      "nyeomszszCountryPage": "https://www.nyeomszsz.org/nemetorszag/",
+      "directoryLabel": "Németország",
+      "operationalCountryIso2": ["DE"],
+      "jurisdictionNotes": null,
+      "homepageMembershipClaim": "named",
+      "memberStatusEvidence": "current-candidate",
+      "memberStatusRationale": "Present on homepage and directory.",
+      "listedWebsite": "https://www.buod.de",
+      "websiteEvidence": [
+        {"url": "https://www.buod.de", "sourceId": "nyeomszsz-directory", "claimType": "directory-listed-website"}
+      ],
+      "operationalStatus": "needs-review",
+      "dorappLifecycle": "DISCOVERED"
+    },
+    {
+      "directoryIndex": 15,
+      "seedId": "nyeomszsz-dir-no-nufo",
+      "huName": "Norvég Magyar Egyesület",
+      "alternateNames": ["Norsk-Ungarsk Forening", "NUFO"],
+      "nyeomszszCountryPage": "https://www.nyeomszsz.org/norvegia/",
+      "directoryLabel": "Norvégia",
+      "operationalCountryIso2": ["NO"],
+      "jurisdictionNotes": null,
+      "homepageMembershipClaim": "named",
+      "memberStatusEvidence": "current-candidate",
+      "memberStatusRationale": "Present on homepage and directory.",
+      "listedWebsite": "https://www.nufo.no/",
+      "websiteEvidence": [
+        {"url": "https://www.nufo.no/", "sourceId": "nyeomszsz-directory", "claimType": "directory-listed-website"}
+      ],
+      "operationalStatus": "needs-review",
+      "dorappLifecycle": "DISCOVERED"
+    },
+    {
+      "directoryIndex": 16,
+      "seedId": "nyeomszsz-dir-it-oonmesz",
+      "huName": "Olaszországi Országos Magyar Egyesületek Szövetsége",
+      "alternateNames": ["Associazione Nazionale degli Ungheresi in Italia"],
+      "nyeomszszCountryPage": "https://www.nyeomszsz.org/olaszorszag/",
+      "directoryLabel": "Olaszország",
+      "operationalCountryIso2": ["IT"],
+      "jurisdictionNotes": null,
+      "homepageMembershipClaim": "named",
+      "memberStatusEvidence": "current-candidate",
+      "memberStatusRationale": "Present on homepage and directory. Country page observed without a first-party website link during this audit.",
+      "listedWebsite": null,
+      "websiteEvidence": [],
+      "operationalStatus": "needs-review",
+      "dorappLifecycle": "DISCOVERED"
+    },
+    {
+      "directoryIndex": 17,
+      "seedId": "nyeomszsz-dir-pt-aph",
+      "huName": "Portugál-Magyar Együttműködési Egyesület",
+      "alternateNames": ["Associação Portugal-Hungria"],
+      "nyeomszszCountryPage": "https://www.nyeomszsz.org/portugalia/",
+      "directoryLabel": "Portugália",
+      "operationalCountryIso2": ["PT"],
+      "jurisdictionNotes": null,
+      "homepageMembershipClaim": "named",
+      "memberStatusEvidence": "current-candidate",
+      "memberStatusRationale": "Present on homepage and directory.",
+      "listedWebsite": "https://www.facebook.com/portugal.hungria.lisboa/",
+      "websiteEvidence": [
+        {"url": "https://www.facebook.com/portugal.hungria.lisboa/", "sourceId": "nyeomszsz-directory", "claimType": "directory-listed-social"}
+      ],
+      "operationalStatus": "needs-review",
+      "dorappLifecycle": "DISCOVERED"
+    },
+    {
+      "directoryIndex": 18,
+      "seedId": "nyeomszsz-dir-es-madach",
+      "huName": "Spanyolországi Magyarok Egyesülete",
+      "alternateNames": ["Asociación de los Húngaros en España", "MADACH"],
+      "nyeomszszCountryPage": "https://www.nyeomszsz.org/spanyolorszag/",
+      "directoryLabel": "Spanyolország",
+      "operationalCountryIso2": ["ES"],
+      "jurisdictionNotes": null,
+      "homepageMembershipClaim": "named",
+      "memberStatusEvidence": "current-candidate",
+      "memberStatusRationale": "Present on homepage and directory. Open PR #58 proposes publishing MADACH as national umbrella; do not merge membership evidence with unverified publication claims.",
+      "listedWebsite": "http://www.madach.es/",
+      "websiteEvidence": [
+        {"url": "http://www.madach.es/", "sourceId": "nyeomszsz-directory", "claimType": "directory-listed-website"}
+      ],
+      "operationalStatus": "needs-review",
+      "dorappLifecycle": "DISCOVERED"
+    },
+    {
+      "directoryIndex": 19,
+      "seedId": "nyeomszsz-dir-ch-magyarhaz",
+      "huName": "Svájci Magyarház Alapítvány",
+      "alternateNames": ["Ungarnhaus-Stiftung"],
+      "nyeomszszCountryPage": "https://www.nyeomszsz.org/svajc/",
+      "directoryLabel": "Svájc",
+      "operationalCountryIso2": ["CH"],
+      "jurisdictionNotes": null,
+      "homepageMembershipClaim": "named",
+      "memberStatusEvidence": "current-candidate",
+      "memberStatusRationale": "Present on homepage and directory. Entity class appears foundation/house rather than classic national federation; retain as directory-listed umbrella seed without inventing federation hierarchy.",
+      "listedWebsite": "https://www.magyarhaz.ch/",
+      "websiteEvidence": [
+        {"url": "https://www.magyarhaz.ch/", "sourceId": "nyeomszsz-directory", "claimType": "directory-listed-website"}
+      ],
+      "operationalStatus": "needs-review",
+      "dorappLifecycle": "DISCOVERED"
+    },
+    {
+      "directoryIndex": 20,
+      "seedId": "nyeomszsz-dir-se-smosz",
+      "huName": "Svédországi Magyarok Országos Szövetsége",
+      "alternateNames": ["Ungerska Riksförbundet", "SMOSZ"],
+      "nyeomszszCountryPage": "https://www.nyeomszsz.org/svedorszag/",
+      "directoryLabel": "Svédország",
+      "operationalCountryIso2": ["SE"],
+      "jurisdictionNotes": "NYEOMSZSZ itself is described as registered in Sweden; SMOSZ is a separate directory-listed national organization.",
+      "homepageMembershipClaim": "named",
+      "memberStatusEvidence": "current-candidate",
+      "memberStatusRationale": "Present on homepage and directory.",
+      "listedWebsite": "http://www.smosz.org/",
+      "websiteEvidence": [
+        {"url": "http://www.smosz.org/", "sourceId": "nyeomszsz-directory", "claimType": "directory-listed-website"}
+      ],
+      "operationalStatus": "needs-review",
+      "dorappLifecycle": "DISCOVERED"
+    }
+  ],
+  "allowedMemberStatusEvidence": ["current-candidate", "disputed", "unknown", "historical", "rejected"],
+  "nonGoals": [
+    "Do not publish these seeds as verified organizations.",
+    "Do not invent membership edges between umbrella and local associations.",
+    "Do not treat Facebook pages as first-party legal identity proof.",
+    "Do not mark any country complete from this reconciliation alone."
+  ]
+}
