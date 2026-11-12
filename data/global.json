@@ -1675,7 +1675,7 @@
       "name": {
         "en": "Greenland"
       },
-      "researchStatus": "unresearched",
+      "researchStatus": "researching",
       "countryDataPath": "data/countries/gl/",
       "route": "countries/gl/",
       "counts": {
@@ -1685,7 +1685,9 @@
         "events": 0,
         "education": 0
       },
-      "iso3": "GRL"
+      "iso3": "GRL",
+      "lastResearchAttemptAt": "2026-11-12T10:13:39+00:00",
+      "discoveryCandidateCount": 47
     },
     {
       "iso2": "gm",
