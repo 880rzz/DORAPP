@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-13T04:21:58.929111+00:00",
+  "updated": "2026-11-13T08:00:00+01:00",
   "programCategoryDefinitions": [
     {
       "id": "gyermek",
@@ -964,6 +964,38 @@
       ]
     },
     {
+      "id": "becsi-magyar-iskola-hangolodj-onmagadra-2026-11-29",
+      "organizationId": "becsi-magyar-iskola",
+      "name": "HANGOLÓDJ ÖNMAGADRA! – Zeneterápiás önismereti csoport",
+      "organizer": "Bécsi Magyar Iskola",
+      "state": "wien",
+      "city": "Wien",
+      "venue": "Bécsi Magyar Iskola",
+      "address": "Schwedenplatz 2, 1010 Wien, Ausztria",
+      "startDate": "2026-11-29T00:00:00+01:00",
+      "endDate": "2026-11-29T23:59:00+01:00",
+      "description": "Fedezd fel, hogyan segíthet a zene abban, hogy közelebb kerülj önmagadhoz, mélyebben megértsd érzéseidet és belső folyamataidat. Különleges önismereti utazás aktív és receptív zeneterápiás eszközökkel; előzetes zenei tudás nem szükséges.",
+      "eventStatus": "https://schema.org/EventScheduled",
+      "attendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+      "registrationUrl": "https://www.magyariskola.at/event-details/hangolodj-onmagadra",
+      "price": "150",
+      "priceCurrency": "EUR",
+      "availability": "https://schema.org/InStock",
+      "performers": [
+        "Dapin Hajnalka Judit"
+      ],
+      "audience": "Felnőttek; BMI-tanároknak kedvezményes részvétel",
+      "image": "https://raw.githubusercontent.com/880rzz/bmihirlevel/main/assets/events/zeneterapia.svg",
+      "sourceUrl": "https://www.magyariskola.at/event-details/hangolodj-onmagadra",
+      "discoveredFrom": "https://www.magyariskola.at/osszes",
+      "verifiedAt": "2026-11-13T08:00:00+01:00",
+      "programCategories": [
+        "workshop",
+        "zene",
+        "kozosseg"
+      ]
+    },
+    {
       "id": "becsi-magyar-iskola-hangolódj-önmagadra-2026-11-29t09-30-00-01-00",
       "organizationId": "becsi-magyar-iskola",
       "name": "HANGOLÓDJ ÖNMAGADRA!",
@@ -1222,6 +1254,36 @@
       "discoveredFrom": "https://www.dioezese-linz.at/institution/8038/ueberuns/gottesdiensteveranstaltun/article/21612.html",
       "verifiedAt": "2026-10-24T01:00:00+00:00",
       "programCategories": [
+        "kozosseg"
+      ]
+    },
+    {
+      "id": "kicsi-svung-narnia-nyomaban-2026-12-06",
+      "organizationId": "kicsi-svung",
+      "name": "Kicsi Svung bemutatja – Narnia Nyomában",
+      "organizer": "Kicsi Svung / Bécsi Magyar Iskola",
+      "state": "wien",
+      "city": "Wien",
+      "venue": "Bécsi Magyar Iskola",
+      "address": "Schwedenplatz 2 / Top 8–9, 1010 Wien, Ausztria",
+      "startDate": "2026-12-06T17:00:00+01:00",
+      "endDate": "2026-12-07T19:00:00+01:00",
+      "description": "Egy különös mese egy helyről, ahol örökös tél uralkodik. A gyerekek krétarajzai nyomán megnyílik a kapu Narniába, ahol tündérek, manók és a Mikulás is megjelennek. Vajon sikerül visszahozni az évszakokat és legyőzni Jadiszt?",
+      "eventStatus": "https://schema.org/EventScheduled",
+      "attendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+      "registrationUrl": "https://www.magyariskola.at/event-details/kicsi-svung-bemutatja-narnia-nyomaban",
+      "price": "5",
+      "priceCurrency": "EUR",
+      "availability": "https://schema.org/InStock",
+      "performers": [],
+      "audience": "8–13 éves gyermekek és családjaik",
+      "image": "https://raw.githubusercontent.com/880rzz/bmihirlevel/main/assets/events/narnia-nyomaban.svg",
+      "sourceUrl": "https://www.magyariskola.at/event-details/kicsi-svung-bemutatja-narnia-nyomaban",
+      "discoveredFrom": "https://www.magyariskola.at/osszes",
+      "verifiedAt": "2026-11-13T08:00:00+01:00",
+      "programCategories": [
+        "gyermek",
+        "szinhaz",
         "kozosseg"
       ]
     },
