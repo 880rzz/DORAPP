@@ -1,12 +1,12 @@
 {
-  "updated": "2026-11-12T13:41:48.140294+00:00",
+  "updated": "2026-11-13T04:22:55.026486+00:00",
   "summary": {
     "organizations": 163,
-    "organizationFlags": 2,
-    "organizationPagesChecked": 333,
+    "organizationFlags": 1,
+    "organizationPagesChecked": 341,
     "education": 112,
     "educationFlags": 0,
-    "events": 69,
+    "events": 68,
     "eventFlags": 0
   },
   "organizations": [
@@ -47,15 +47,16 @@
       ],
       "activityCategories": [],
       "signals": [
-        "oktatas",
-        "irodalom",
-        "sport"
+        "irodalom"
       ],
-      "pagesChecked": 1,
-      "checkedUrls": [
-        "https://www.ak-akademie.at/kurs/online-sprachentraining"
+      "pagesChecked": 0,
+      "checkedUrls": [],
+      "errors": [
+        {
+          "url": "https://www.ak-akademie.at/kurs/online-sprachentraining",
+          "error": "<urlopen error [Errno 104] Connection reset by peer>"
+        }
       ],
-      "errors": [],
       "flags": []
     },
     {
@@ -126,24 +127,18 @@
       ],
       "activityCategories": [],
       "signals": [
-        "egyhaz"
+        "enekkar",
+        "media",
+        "egyhaz",
+        "csalad"
       ],
-      "pagesChecked": 0,
-      "checkedUrls": [],
-      "errors": [
-        {
-          "url": "https://www.martinus.at/",
-          "error": "<urlopen error timed out>"
-        },
-        {
-          "url": "https://www.martinus.at/pfarre/1127/kalender",
-          "error": "<urlopen error timed out>"
-        },
-        {
-          "url": "https://www.martinus.at/unterwart",
-          "error": "<urlopen error timed out>"
-        }
+      "pagesChecked": 3,
+      "checkedUrls": [
+        "https://www.martinus.at/",
+        "https://www.martinus.at/pfarre/1127/kalender",
+        "https://www.martinus.at/unterwart"
       ],
+      "errors": [],
       "flags": []
     },
     {
@@ -951,7 +946,6 @@
       "activityCategories": [],
       "signals": [
         "oktatas",
-        "szinhaz",
         "media",
         "egyhaz",
         "diak",
@@ -1114,23 +1108,20 @@
       "activityCategories": [],
       "signals": [
         "oktatas",
+        "szinhaz",
         "media",
-        "irodalom"
+        "irodalom",
+        "muveszet",
+        "csalad"
       ],
-      "pagesChecked": 2,
+      "pagesChecked": 3,
       "checkedUrls": [
         "https://culture.hu/hu/wien",
+        "https://culture.hu/hu/wien/esemenyek",
         "https://culture.hu/de/wien/jubilaum"
       ],
-      "errors": [
-        {
-          "url": "https://culture.hu/hu/wien/esemenyek",
-          "error": "The read operation timed out"
-        }
-      ],
-      "flags": [
-        "weak-source-signal:muveszet"
-      ]
+      "errors": [],
+      "flags": []
     },
     {
       "id": "collegium-pazmanianum",
@@ -1170,6 +1161,7 @@
         "nepzene",
         "szinhaz",
         "media",
+        "egyhaz",
         "irodalom",
         "muveszet",
         "sport",
@@ -1571,24 +1563,16 @@
       ],
       "activityCategories": [],
       "signals": [
+        "media",
         "egyhaz"
       ],
-      "pagesChecked": 0,
-      "checkedUrls": [],
-      "errors": [
-        {
-          "url": "https://www.martinus.at/pfarre/1122",
-          "error": "<urlopen error timed out>"
-        },
-        {
-          "url": "https://www.martinus.at/pfarre/1122/kalender",
-          "error": "<urlopen error timed out>"
-        },
-        {
-          "url": "https://www.martinus.at/pfarre/1122/kalender/calendar/1808040.html",
-          "error": "<urlopen error timed out>"
-        }
+      "pagesChecked": 3,
+      "checkedUrls": [
+        "https://www.martinus.at/pfarre/1122",
+        "https://www.martinus.at/pfarre/1122/kalender",
+        "https://www.martinus.at/pfarre/1122/kalender/calendar/1808040.html"
       ],
+      "errors": [],
       "flags": []
     },
     {
@@ -2105,16 +2089,14 @@
       "signals": [
         "egyhaz"
       ],
-      "pagesChecked": 0,
-      "checkedUrls": [],
+      "pagesChecked": 1,
+      "checkedUrls": [
+        "https://www.edsbg.at/seelsorge/weltkirche/anderssprachige-seelsorge/ungarische-gemeinde"
+      ],
       "errors": [
         {
-          "url": "https://www.edsbg.at/seelsorge/weltkirche/anderssprachige-seelsorge/ungarische-gemeinde",
-          "error": "<urlopen error timed out>"
-        },
-        {
           "url": "https://www.edsbg.at/dl/klOKJmMJKNLMKJqx4KJK/ungarischsprachige_Gottesdienstgemeinde_Salzburg_pdf",
-          "error": "<urlopen error timed out>"
+          "error": "HTTP Error 400: Bad Request"
         }
       ],
       "flags": []
@@ -2346,6 +2328,7 @@
         "nepzene",
         "szinhaz",
         "media",
+        "egyhaz",
         "irodalom",
         "muveszet",
         "sport",
@@ -2428,6 +2411,7 @@
         "cserkesz",
         "szinhaz",
         "media",
+        "egyhaz",
         "irodalom",
         "muveszet",
         "csalad"
@@ -2478,18 +2462,16 @@
       ],
       "activityCategories": [],
       "signals": [
-        "media",
         "egyhaz",
-        "irodalom",
         "csalad"
       ],
       "pagesChecked": 1,
       "checkedUrls": [
-        "https://hd.gorogkatolikus.hu/Magyar-gorogkatolikus-lelkeszseg-alakult-Becsben-2023-junius-06"
+        "https://www.erzdioezese-wien.at/unit/katholischeostkirchen/unseregemeinden/katholischeostkirchen/gemeindeninwien"
       ],
       "errors": [
         {
-          "url": "https://www.erzdioezese-wien.at/unit/katholischeostkirchen/unseregemeinden/katholischeostkirchen/gemeindeninwien",
+          "url": "https://hd.gorogkatolikus.hu/Magyar-gorogkatolikus-lelkeszseg-alakult-Becsben-2023-junius-06",
           "error": "<urlopen error timed out>"
         }
       ],
@@ -2655,6 +2637,7 @@
         "nepzene",
         "szinhaz",
         "media",
+        "egyhaz",
         "diak",
         "irodalom",
         "muveszet",
@@ -2714,6 +2697,7 @@
         "nepzene",
         "szinhaz",
         "media",
+        "egyhaz",
         "diak",
         "irodalom",
         "muveszet",
@@ -2944,6 +2928,7 @@
         "cserkesz",
         "szinhaz",
         "media",
+        "egyhaz",
         "irodalom",
         "muveszet",
         "sport",
@@ -3060,16 +3045,12 @@
         "muveszet",
         "csalad"
       ],
-      "pagesChecked": 1,
+      "pagesChecked": 2,
       "checkedUrls": [
-        "https://vhs-ungarn.at/hu/hagyomanyorzes/ori-banda/"
+        "https://vhs-ungarn.at/hu/hagyomanyorzes/ori-banda/",
+        "https://www.vhs-burgenland.at/wp_neu/mc-events/ori-banda-volksmusik-volksliedcamp-ori-banda-nepzene-nepdaltabor/"
       ],
-      "errors": [
-        {
-          "url": "https://www.vhs-burgenland.at/wp_neu/mc-events/ori-banda-volksmusik-volksliedcamp-ori-banda-nepzene-nepdaltabor/",
-          "error": "The read operation timed out"
-        }
-      ],
+      "errors": [],
       "flags": []
     },
     {
@@ -3297,6 +3278,7 @@
         "cserkesz",
         "szinhaz",
         "media",
+        "egyhaz",
         "irodalom",
         "muveszet",
         "sport",
@@ -3549,6 +3531,7 @@
         "enekkar",
         "szinhaz",
         "media",
+        "egyhaz",
         "diak",
         "irodalom",
         "muveszet",
@@ -3984,6 +3967,7 @@
         "cserkesz",
         "szinhaz",
         "media",
+        "egyhaz",
         "irodalom",
         "muveszet",
         "csalad"
@@ -4356,6 +4340,7 @@
         "nepzene",
         "szinhaz",
         "media",
+        "egyhaz",
         "diak",
         "irodalom",
         "muveszet",
