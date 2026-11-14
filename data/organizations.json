@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-26",
+  "updated": "2026-11-14",
   "sourcePolicy": "Official organization sources preferred; umbrella directories and Austrian-Hungarian community media used as secondary verification. Missing social/event links remain null rather than guessed.",
   "states": [
     {
@@ -1990,7 +1990,9 @@
       "website": "https://amaped.at/",
       "facebook": "https://www.facebook.com/profile.php?id=100076361554158",
       "instagram": null,
-      "eventSources": [],
+      "eventSources": [
+        "https://amaped.at/rendezvenyek/"
+      ],
       "memberships": [
         {
           "umbrellaId": "kerekasztal",
@@ -2089,6 +2091,13 @@
           "platform": "facebook",
           "scope": "self",
           "ingestEvents": false
+        },
+        {
+          "label": "AMAPED – hivatalos rendezvényoldal",
+          "url": "https://amaped.at/rendezvenyek/",
+          "kind": "official-calendar",
+          "scope": "self",
+          "ingestEvents": true
         }
       ],
       "publicChannels": [
@@ -6751,6 +6760,11 @@
           "label": "Grazi Magyar Egyesület – magyar katolikus és evangélikus közösség",
           "url": "https://www.grazimagyaregyesuelet.at/magyar-katolikus-k%C3%B6z%C3%B6ss%C3%A9g-magyar-evang%C3%A9likus-gy%C3%BClekezet/",
           "type": "institutional"
+        },
+        {
+          "label": "Graz-Seckaui Egyházmegye – idegen nyelvű misék Grazban",
+          "url": "https://www.sr-grazmitte.graz-seckau.at/pfarre/94013/pfarren/gottesdienste",
+          "type": "official"
         }
       ],
       "categories": [
@@ -6798,6 +6812,13 @@
           "url": "https://www.grazimagyaregyesuelet.at/magyar-katolikus-k%C3%B6z%C3%B6ss%C3%A9g-magyar-evang%C3%A9likus-gy%C3%BClekezet/",
           "kind": "evidence-calendar",
           "scope": "related",
+          "ingestEvents": false
+        },
+        {
+          "label": "Graz-Seckaui Egyházmegye – magyar mise rendje",
+          "url": "https://www.sr-grazmitte.graz-seckau.at/pfarre/94013/pfarren/gottesdienste",
+          "kind": "official-schedule",
+          "scope": "host",
           "ingestEvents": false
         }
       ]
