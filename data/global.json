@@ -1715,7 +1715,7 @@
         "en": "Guinea",
         "officialEn": "Republic of Guinea"
       },
-      "researchStatus": "unresearched",
+      "researchStatus": "researching",
       "countryDataPath": "data/countries/gn/",
       "route": "countries/gn/",
       "counts": {
@@ -1725,7 +1725,9 @@
         "events": 0,
         "education": 0
       },
-      "iso3": "GIN"
+      "iso3": "GIN",
+      "lastResearchAttemptAt": "2026-11-14T02:40:21+00:00",
+      "discoveryCandidateCount": 50
     },
     {
       "iso2": "gp",
@@ -4482,7 +4484,7 @@
         "organizations": 78,
         "activities": 0,
         "entities": 78,
-        "events": 19,
+        "events": 18,
         "education": 23
       },
       "iso3": "USA",
