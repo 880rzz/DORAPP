@@ -1,12 +1,12 @@
 {
-  "updated": "2026-11-13T07:20:34.550050+00:00",
+  "updated": "2026-11-14T02:09:45.461025+00:00",
   "summary": {
     "organizations": 163,
     "organizationFlags": 2,
     "organizationPagesChecked": 334,
     "education": 112,
     "educationFlags": 0,
-    "events": 70,
+    "events": 71,
     "eventFlags": 0
   },
   "organizations": [
@@ -284,8 +284,8 @@
       "pagesChecked": 3,
       "checkedUrls": [
         "https://amaped.at/",
-        "https://amaped.at/rolunk/",
-        "https://amaped.at/category/locations/"
+        "https://amaped.at/rendezvenyek/",
+        "https://amaped.at/rolunk/"
       ],
       "errors": [],
       "flags": []
@@ -2028,7 +2028,12 @@
         "https://www.grazimagyaregyesuelet.at/magyar-katolikus-k%C3%B6z%C3%B6ss%C3%A9g-magyar-evang%C3%A9likus-gy%C3%BClekezet/",
         "https://www.petofiprogram.hu/hirek/grac-hivek-szamara-fontos-az-anyanyelv-gyakorlasa-imaban-enekben-beszelgetesben-graci-magyar"
       ],
-      "errors": [],
+      "errors": [
+        {
+          "url": "https://www.sr-grazmitte.graz-seckau.at/pfarre/94013/pfarren/gottesdienste",
+          "error": "<urlopen error timed out>"
+        }
+      ],
       "flags": []
     },
     {
@@ -3025,11 +3030,10 @@
         "oktatas",
         "neptanc",
         "nepzene",
-        "szinhaz",
         "media",
-        "egyhaz",
         "diak",
         "irodalom",
+        "muveszet",
         "sport"
       ],
       "pagesChecked": 3,
@@ -4167,8 +4171,6 @@
       "activityCategories": [],
       "signals": [
         "oktatas",
-        "neptanc",
-        "nepzene",
         "enekkar",
         "szinhaz",
         "media",
