@@ -1,19 +1,19 @@
 {
-  "updated": "2026-11-14T02:48:38+00:00",
-  "pages": 1195,
-  "internalLinksChecked": 10976,
+  "updated": "2026-11-15T02:47:25+00:00",
+  "pages": 1190,
+  "internalLinksChecked": 10944,
   "internalErrors": [],
-  "externalLinksDiscovered": 1146,
-  "externalLinksChecked": 1146,
+  "externalLinksDiscovered": 1122,
+  "externalLinksChecked": 1122,
   "externalStatusCounts": {
-    "ok": 1034,
-    "network-error": 8,
+    "ok": 1018,
+    "network-error": 9,
     "site-blocked": 14,
-    "not-found": 36,
-    "timeout": 15,
-    "tls-error": 17,
-    "rate-limited": 4,
-    "http-error": 18
+    "not-found": 35,
+    "timeout": 3,
+    "tls-error": 18,
+    "http-error": 13,
+    "rate-limited": 12
   },
   "externalResults": [
     {
@@ -282,8 +282,8 @@
     },
     {
       "url": "https://barcelona.mfa.gov.hu/hu/articles",
-      "status": "timeout",
-      "httpStatus": null,
+      "status": "ok",
+      "httpStatus": 200,
       "resolvedUrl": "https://barcelona.mfa.gov.hu/hu/articles"
     },
     {
@@ -300,9 +300,9 @@
     },
     {
       "url": "https://barcelonaesgrima.blogspot.com/",
-      "status": "rate-limited",
-      "httpStatus": 429,
-      "resolvedUrl": "https://www.google.com/sorry/index?continue=https://barcelonaesgrima.blogspot.com/&q=EgQ0lAcyGK2X39cGIi2O7NGrjGqwfJQsHL7XG7YxLE4L1XZLVUOu8WmpzFpCyT2edd3TKWZHjE1PkZYyAnJSWgFDYI2Kv-Pd8cuQdw"
+      "status": "ok",
+      "httpStatus": 200,
+      "resolvedUrl": "https://barcelonaesgrima.blogspot.com/"
     },
     {
       "url": "https://beinvolved.indiana.edu/organization/hcaiu",
@@ -449,6 +449,12 @@
       "resolvedUrl": "https://bukv.at/gruppen/singkreis/"
     },
     {
+      "url": "https://bukv.at/gruppen/volksmusikgruppe-csoerge/",
+      "status": "ok",
+      "httpStatus": 200,
+      "resolvedUrl": "https://bukv.at/gruppen/volksmusikgruppe-csoerge/"
+    },
+    {
       "url": "https://bukv.at/gruppen/volksmusikgruppe-szelforgok/",
       "status": "ok",
       "httpStatus": 200,
@@ -459,12 +465,6 @@
       "status": "ok",
       "httpStatus": 200,
       "resolvedUrl": "https://bukv.at/hu/a-bmke-rol/"
-    },
-    {
-      "url": "https://bukv.at/hu/csoerge-nepzenekar/",
-      "status": "not-found",
-      "httpStatus": 404,
-      "resolvedUrl": "https://bukv.at/hu/csoerge-nepzenekar/"
     },
     {
       "url": "https://bukv.at/hu/kapcsolat/",
@@ -519,12 +519,6 @@
       "status": "ok",
       "httpStatus": 200,
       "resolvedUrl": "https://bukv.at/gruppen/musikensemble-warter-fantasie/"
-    },
-    {
-      "url": "https://bukv.at/volksmusikgruppe-csoerge/",
-      "status": "ok",
-      "httpStatus": 200,
-      "resolvedUrl": "https://bukv.at/gruppen/volksmusikgruppe-csoerge/"
     },
     {
       "url": "https://bukv.at/volkstanzgruppe-siget-in-der-wart/",
@@ -594,8 +588,8 @@
     },
     {
       "url": "https://chicago.mfa.gov.hu/",
-      "status": "timeout",
-      "httpStatus": null,
+      "status": "ok",
+      "httpStatus": 200,
       "resolvedUrl": "https://chicago.mfa.gov.hu/"
     },
     {
@@ -1001,12 +995,6 @@
       "resolvedUrl": "https://evang.at/adressen/siget-in-der-wart/"
     },
     {
-      "url": "https://eventfrog.at/en/p/comedy/comedy-cabaret/dombovari-istvan-es-bellus-istvan-salzburgban-salzburg-7473081072172934557.html",
-      "status": "ok",
-      "httpStatus": 200,
-      "resolvedUrl": "https://eventfrog.at/en/p/comedy/comedy-cabaret/dombovari-istvan-es-bellus-istvan-salzburgban-salzburg-7473081072172934557.html"
-    },
-    {
       "url": "https://events.eventjet.at/e/fellegi-adam-a-ferfi-eletenek-3-korszaka-beethoven-a-szerelmes-a-hos-es-a-boelcs/",
       "status": "not-found",
       "httpStatus": 404,
@@ -1152,8 +1140,8 @@
     },
     {
       "url": "https://haga.mfa.gov.hu/",
-      "status": "timeout",
-      "httpStatus": null,
+      "status": "ok",
+      "httpStatus": 200,
       "resolvedUrl": "https://haga.mfa.gov.hu/"
     },
     {
@@ -1302,8 +1290,8 @@
     },
     {
       "url": "https://hungarianchurchphoenix.org/",
-      "status": "ok",
-      "httpStatus": 200,
+      "status": "tls-error",
+      "httpStatus": null,
       "resolvedUrl": "https://hungarianchurchphoenix.org/"
     },
     {
@@ -1368,26 +1356,26 @@
     },
     {
       "url": "https://hungarianheritageincanada.ca/en",
-      "status": "http-error",
-      "httpStatus": 500,
+      "status": "ok",
+      "httpStatus": 200,
       "resolvedUrl": "https://hungarianheritageincanada.ca/en"
     },
     {
       "url": "https://hungarianheritageincanada.ca/en/place/canadian-hungarian-cultural-society-of-edmonton-edmonton-ab",
-      "status": "http-error",
-      "httpStatus": 500,
+      "status": "ok",
+      "httpStatus": 200,
       "resolvedUrl": "https://hungarianheritageincanada.ca/en/place/canadian-hungarian-cultural-society-of-edmonton-edmonton-ab"
     },
     {
       "url": "https://hungarianheritageincanada.ca/en/place/first-hungarian-presbyterian-calvin-church-vancouver-bc",
-      "status": "http-error",
-      "httpStatus": 500,
+      "status": "ok",
+      "httpStatus": 200,
       "resolvedUrl": "https://hungarianheritageincanada.ca/en/place/first-hungarian-presbyterian-calvin-church-vancouver-bc"
     },
     {
       "url": "https://hungarianheritageincanada.ca/en/place/hungarian-canadian-cultural-association-of-calgary-ab-hungarian-hall",
-      "status": "http-error",
-      "httpStatus": 500,
+      "status": "ok",
+      "httpStatus": 200,
       "resolvedUrl": "https://hungarianheritageincanada.ca/en/place/hungarian-canadian-cultural-association-of-calgary-ab-hungarian-hall"
     },
     {
@@ -1398,8 +1386,8 @@
     },
     {
       "url": "https://hungarianheritageincanada.ca/en/place/our-lady-of-hungary-parish-montreal-qc",
-      "status": "http-error",
-      "httpStatus": 500,
+      "status": "ok",
+      "httpStatus": 200,
       "resolvedUrl": "https://hungarianheritageincanada.ca/en/place/our-lady-of-hungary-parish-montreal-qc"
     },
     {
@@ -1614,9 +1602,9 @@
     },
     {
       "url": "https://koppenhagaimagyariskola.blogspot.com/p/blog-page.html",
-      "status": "rate-limited",
-      "httpStatus": 429,
-      "resolvedUrl": "https://www.google.com/sorry/index?continue=https://koppenhagaimagyariskola.blogspot.com/p/blog-page.html&q=EgQ0lAcyGMOX39cGIi076tVvCcFfDwmFERmkGDW8GkYFgGmupqboOtYoM0dI-gDhB63R9yNcdL5WJaQyAnJSWgFDYNv14_eFxqvuEw"
+      "status": "ok",
+      "httpStatus": 200,
+      "resolvedUrl": "https://koppenhagaimagyariskola.blogspot.com/p/blog-page.html"
     },
     {
       "url": "https://korosicsomasandormagyariskola.com/",
@@ -1740,8 +1728,8 @@
     },
     {
       "url": "https://losangeles.mfa.gov.hu/",
-      "status": "timeout",
-      "httpStatus": null,
+      "status": "ok",
+      "httpStatus": 200,
       "resolvedUrl": "https://losangeles.mfa.gov.hu/"
     },
     {
@@ -1758,8 +1746,8 @@
     },
     {
       "url": "https://madrid.mfa.gov.hu/es",
-      "status": "timeout",
-      "httpStatus": null,
+      "status": "ok",
+      "httpStatus": 200,
       "resolvedUrl": "https://madrid.mfa.gov.hu/es"
     },
     {
@@ -1776,8 +1764,8 @@
     },
     {
       "url": "https://madrid.mfa.gov.hu/es/articles",
-      "status": "timeout",
-      "httpStatus": null,
+      "status": "ok",
+      "httpStatus": 200,
       "resolvedUrl": "https://madrid.mfa.gov.hu/es/articles"
     },
     {
@@ -1980,8 +1968,8 @@
     },
     {
       "url": "https://ms-herrenried.edupage.org/",
-      "status": "ok",
-      "httpStatus": 200,
+      "status": "network-error",
+      "httpStatus": null,
       "resolvedUrl": "https://ms-herrenried.edupage.org/"
     },
     {
@@ -2016,14 +2004,14 @@
     },
     {
       "url": "https://nato-brusszel.mfa.gov.hu/en",
-      "status": "timeout",
-      "httpStatus": null,
+      "status": "ok",
+      "httpStatus": 200,
       "resolvedUrl": "https://nato-brusszel.mfa.gov.hu/en"
     },
     {
       "url": "https://nato-brusszel.mfa.gov.hu/en/articles",
-      "status": "timeout",
-      "httpStatus": null,
+      "status": "ok",
+      "httpStatus": 200,
       "resolvedUrl": "https://nato-brusszel.mfa.gov.hu/en/articles"
     },
     {
@@ -2058,8 +2046,8 @@
     },
     {
       "url": "https://newyork.mfa.gov.hu/",
-      "status": "timeout",
-      "httpStatus": null,
+      "status": "ok",
+      "httpStatus": 200,
       "resolvedUrl": "https://newyork.mfa.gov.hu/"
     },
     {
@@ -2112,14 +2100,14 @@
     },
     {
       "url": "https://ottawa.mfa.gov.hu/en",
-      "status": "timeout",
-      "httpStatus": null,
+      "status": "ok",
+      "httpStatus": 200,
       "resolvedUrl": "https://ottawa.mfa.gov.hu/en"
     },
     {
       "url": "https://ottawa.mfa.gov.hu/en/articles",
-      "status": "timeout",
-      "httpStatus": null,
+      "status": "ok",
+      "httpStatus": 200,
       "resolvedUrl": "https://ottawa.mfa.gov.hu/en/articles"
     },
     {
@@ -2261,6 +2249,12 @@
       "resolvedUrl": "https://rolunk.at/aktualis/71-gyermek-jelentkezett-az-elsonyelvi-oktatasra-vorarlbergben/"
     },
     {
+      "url": "https://rolunk.at/aktualis/90-eves-soos-zsuzsanna-istentiszteleti-rend-a-becsi-reformatusoknal/",
+      "status": "ok",
+      "httpStatus": 200,
+      "resolvedUrl": "https://rolunk.at/aktualis/90-eves-soos-zsuzsanna-istentiszteleti-rend-a-becsi-reformatusoknal/"
+    },
+    {
       "url": "https://rolunk.at/aktualis/a-fiataloknak-ma-mar-bizonyitek-kell-egy-becsi-kreativ-kozosseg-uj-generaciot-epit/",
       "status": "ok",
       "httpStatus": 200,
@@ -2279,12 +2273,6 @@
       "resolvedUrl": "https://rolunk.at/aktualis/az-alsoori-enekkar-magyarorszagon-es-a-lugasban-enekelt/"
     },
     {
-      "url": "https://rolunk.at/aktualis/diaszpora-iskolatabor-masodszor-innsbruckban/",
-      "status": "ok",
-      "httpStatus": 200,
-      "resolvedUrl": "https://rolunk.at/aktualis/diaszpora-iskolatabor-masodszor-innsbruckban/"
-    },
-    {
       "url": "https://rolunk.at/aktualis/egy-eves-a-vorarlbergi-magyar-egyesulet/",
       "status": "ok",
       "httpStatus": 200,
@@ -2297,10 +2285,10 @@
       "resolvedUrl": "https://rolunk.at/aktualis/egyhaztorteneti-ertek-az-uj-alsoori-enekeskonyv/"
     },
     {
-      "url": "https://rolunk.at/aktualis/harom-orssel-indul-a-burgenlandi-cserkeszet/",
+      "url": "https://rolunk.at/aktualis/konfirmacio-elokeszito-orgonakoncert-es-gyermek-istentisztelet-a-becsi-reformatusoknal/",
       "status": "ok",
       "httpStatus": 200,
-      "resolvedUrl": "https://rolunk.at/aktualis/harom-orssel-indul-a-burgenlandi-cserkeszet/"
+      "resolvedUrl": "https://rolunk.at/aktualis/konfirmacio-elokeszito-orgonakoncert-es-gyermek-istentisztelet-a-becsi-reformatusoknal/"
     },
     {
       "url": "https://rolunk.at/aktualis/kuzdelem-a-magyar-anyanyelvi-oktatasert-karintiaban/",
@@ -2315,18 +2303,6 @@
       "resolvedUrl": "https://rolunk.at/aktualis/mar-55-eve-az-operencias-tengeren-tul-kettos-jubileum-a-felso-ausztriai-magyaroknal/"
     },
     {
-      "url": "https://rolunk.at/aktualis/meg-szeretnem-tanulni-az-anyanyelvemet-alumni-talalkozo-a-becsi-egyetemen/",
-      "status": "ok",
-      "httpStatus": 200,
-      "resolvedUrl": "https://rolunk.at/aktualis/meg-szeretnem-tanulni-az-anyanyelvemet-alumni-talalkozo-a-becsi-egyetemen/"
-    },
-    {
-      "url": "https://rolunk.at/aktualis/meghirdette-programjait-a-nepfoiskola/",
-      "status": "ok",
-      "httpStatus": 200,
-      "resolvedUrl": "https://rolunk.at/aktualis/meghirdette-programjait-a-nepfoiskola/"
-    },
-    {
       "url": "https://rolunk.at/aktualis/messze-a-hazatol-megis-otthon-25-eves-a-felso-ausztriai-hetvegi-magyar-iskola-es-ovoda/",
       "status": "ok",
       "httpStatus": 200,
@@ -2337,12 +2313,6 @@
       "status": "ok",
       "httpStatus": 200,
       "resolvedUrl": "https://rolunk.at/aktualis/mi-magyarok-egymasert-mime-uj-egyesulet-voralbergben/"
-    },
-    {
-      "url": "https://rolunk.at/aktualis/nivodij-a-csorge-nepzenei-egyuttesnek/",
-      "status": "ok",
-      "httpStatus": 200,
-      "resolvedUrl": "https://rolunk.at/aktualis/nivodij-a-csorge-nepzenei-egyuttesnek/"
     },
     {
       "url": "https://rolunk.at/aktualis/nyari-taborok-ausztriaban-2026/",
@@ -2363,16 +2333,16 @@
       "resolvedUrl": "https://rolunk.at/aktualis/oszinditas-a-nezsideri-pikniken/"
     },
     {
-      "url": "https://rolunk.at/aktualis/valositsd-meg-celjaid-indul-a-femspace-8-mentorprogramja/",
-      "status": "ok",
-      "httpStatus": 200,
-      "resolvedUrl": "https://rolunk.at/aktualis/valositsd-meg-celjaid-indul-a-femspace-8-mentorprogramja/"
-    },
-    {
       "url": "https://rolunk.at/allgemein/az-ausztriai-magyar-egyesuletek-pedagogusai-is-reszt-vettek-a-xi-modszertani-konferencian/",
       "status": "ok",
       "httpStatus": 200,
       "resolvedUrl": "https://rolunk.at/allgemein/az-ausztriai-magyar-egyesuletek-pedagogusai-is-reszt-vettek-a-xi-modszertani-konferencian/"
+    },
+    {
+      "url": "https://rolunk.at/artikel-mit-ubersetzung/der-unterwarter-gesangsverein-trat-in-ungarn-sowie-im-laubengang-auf/",
+      "status": "ok",
+      "httpStatus": 200,
+      "resolvedUrl": "https://rolunk.at/artikel-mit-ubersetzung/der-unterwarter-gesangsverein-trat-in-ungarn-sowie-im-laubengang-auf/"
     },
     {
       "url": "https://rolunk.at/artikel-mit-ubersetzung/kirchenhistorischer-wert-das-neue-gesangbuch-von-unterwart/",
@@ -2399,52 +2369,10 @@
       "resolvedUrl": "https://rolunk.at/category/aktualis/"
     },
     {
-      "url": "https://rolunk.at/esemenyek/55-eves-a-felso-ausztriai-magyarok-kulturegyesulete-es-20-eves-a-hetvegi-ovoda-es-iskola/",
+      "url": "https://rolunk.at/esemenyek/ne-felejts-neptancegyuttes-szakmai-hetvege/",
       "status": "ok",
       "httpStatus": 200,
-      "resolvedUrl": "https://rolunk.at/esemenyek/55-eves-a-felso-ausztriai-magyarok-kulturegyesulete-es-20-eves-a-hetvegi-ovoda-es-iskola/"
-    },
-    {
-      "url": "https://rolunk.at/esemenyek/achtungarn-fesztival-a-becsi-praterben/",
-      "status": "ok",
-      "httpStatus": 200,
-      "resolvedUrl": "https://rolunk.at/esemenyek/achtungarn-fesztival-a-becsi-praterben/"
-    },
-    {
-      "url": "https://rolunk.at/esemenyek/alsoori-korusest/",
-      "status": "ok",
-      "httpStatus": 200,
-      "resolvedUrl": "https://rolunk.at/esemenyek/alsoori-korusest/"
-    },
-    {
-      "url": "https://rolunk.at/esemenyek/i-ausztriai-diaszpora-iskolatabor/",
-      "status": "ok",
-      "httpStatus": 200,
-      "resolvedUrl": "https://rolunk.at/esemenyek/i-ausztriai-diaszpora-iskolatabor/"
-    },
-    {
-      "url": "https://rolunk.at/esemenyek/irodalmi-delutan-felso-ausztriai-magyarok-kulturegyesulete/",
-      "status": "ok",
-      "httpStatus": 200,
-      "resolvedUrl": "https://rolunk.at/esemenyek/irodalmi-delutan-felso-ausztriai-magyarok-kulturegyesulete/"
-    },
-    {
-      "url": "https://rolunk.at/esemenyek/kedves-nezoink-musicwords/",
-      "status": "ok",
-      "httpStatus": 200,
-      "resolvedUrl": "https://rolunk.at/esemenyek/kedves-nezoink-musicwords/"
-    },
-    {
-      "url": "https://rolunk.at/esemenyek/lean-in-femspace-irodalomterapia-powered-szabina-ughy/",
-      "status": "ok",
-      "httpStatus": 200,
-      "resolvedUrl": "https://rolunk.at/esemenyek/lean-in-femspace-irodalomterapia-powered-szabina-ughy/"
-    },
-    {
-      "url": "https://rolunk.at/esemenyek/ne-kerdezd-ki-voltam-karady-est-nagy-kalozy-eszter-musicwords/",
-      "status": "ok",
-      "httpStatus": 200,
-      "resolvedUrl": "https://rolunk.at/esemenyek/ne-kerdezd-ki-voltam-karady-est-nagy-kalozy-eszter-musicwords/"
+      "resolvedUrl": "https://rolunk.at/esemenyek/ne-felejts-neptancegyuttes-szakmai-hetvege/"
     },
     {
       "url": "https://rolunk.at/esemenyek/ot-ponton-tul-beszelgetes-dull-szabolccsal/?occurrence=2026-11-24",
@@ -2453,22 +2381,10 @@
       "resolvedUrl": "https://rolunk.at/esemenyek/ot-ponton-tul-beszelgetes-dull-szabolccsal/?occurrence=2026-11-24"
     },
     {
-      "url": "https://rolunk.at/fiatalok/belvarosi-betyarok-interaktiv-gyerekkoncert-a-collegium-hungaricumban/",
+      "url": "https://rolunk.at/fiatalok/kaland-es-hit-az-alsoori-ministransok-nyari-tabora/",
       "status": "ok",
       "httpStatus": 200,
-      "resolvedUrl": "https://rolunk.at/fiatalok/belvarosi-betyarok-interaktiv-gyerekkoncert-a-collegium-hungaricumban/"
-    },
-    {
-      "url": "https://rolunk.at/fiatalok/elso-ausztriai-diaszpora-tabor-februarban-meg-zajlik-a-jelentkezes/",
-      "status": "ok",
-      "httpStatus": 200,
-      "resolvedUrl": "https://rolunk.at/fiatalok/elso-ausztriai-diaszpora-tabor-februarban-meg-zajlik-a-jelentkezes/"
-    },
-    {
-      "url": "https://rolunk.at/fiatalok/orszagos-dontobe-jutott-a-szelforgok-ifjusagi-nepzenei-egyuttes/",
-      "status": "ok",
-      "httpStatus": 200,
-      "resolvedUrl": "https://rolunk.at/fiatalok/orszagos-dontobe-jutott-a-szelforgok-ifjusagi-nepzenei-egyuttes/"
+      "resolvedUrl": "https://rolunk.at/fiatalok/kaland-es-hit-az-alsoori-ministransok-nyari-tabora/"
     },
     {
       "url": "https://rolunk.at/fiatalok/petofi-200-szavaloverseny-innsbruckban/",
@@ -2477,22 +2393,10 @@
       "resolvedUrl": "https://rolunk.at/fiatalok/petofi-200-szavaloverseny-innsbruckban/"
     },
     {
-      "url": "https://rolunk.at/fiatalok/tojasiras-alsoori-modra/",
-      "status": "ok",
-      "httpStatus": 200,
-      "resolvedUrl": "https://rolunk.at/fiatalok/tojasiras-alsoori-modra/"
-    },
-    {
       "url": "https://rolunk.at/korabbi-cikkek/",
       "status": "ok",
       "httpStatus": 200,
       "resolvedUrl": "https://rolunk.at/korabbi-cikkek/"
-    },
-    {
-      "url": "https://rolunk.at/kultura/az-elso-achtungarn-fesztival/",
-      "status": "ok",
-      "httpStatus": 200,
-      "resolvedUrl": "https://rolunk.at/kultura/az-elso-achtungarn-fesztival/"
     },
     {
       "url": "https://rolunk.at/kultura/az-olvasas-mint-kozos-nyelv-magyar-nyelvu-konyvtar-linzben/",
@@ -2501,22 +2405,16 @@
       "resolvedUrl": "https://rolunk.at/kultura/az-olvasas-mint-kozos-nyelv-magyar-nyelvu-konyvtar-linzben/"
     },
     {
-      "url": "https://rolunk.at/kultura/becsben-irta-pesten-olvastak/",
-      "status": "ok",
-      "httpStatus": 200,
-      "resolvedUrl": "https://rolunk.at/kultura/becsben-irta-pesten-olvastak/"
-    },
-    {
-      "url": "https://rolunk.at/kultura/burgenlandi-cserkeszkozosseg-szervezodik/",
-      "status": "ok",
-      "httpStatus": 200,
-      "resolvedUrl": "https://rolunk.at/kultura/burgenlandi-cserkeszkozosseg-szervezodik/"
-    },
-    {
       "url": "https://rolunk.at/kultura/burgenlandi-neptancosok-a-csillag-szuletik-szinpadan/",
       "status": "ok",
       "httpStatus": 200,
       "resolvedUrl": "https://rolunk.at/kultura/burgenlandi-neptancosok-a-csillag-szuletik-szinpadan/"
+    },
+    {
+      "url": "https://rolunk.at/kultura/eloadas-a-135-eves-felsoori-reformatus-ifjusagi-olvasokorrol/",
+      "status": "ok",
+      "httpStatus": 200,
+      "resolvedUrl": "https://rolunk.at/kultura/eloadas-a-135-eves-felsoori-reformatus-ifjusagi-olvasokorrol/"
     },
     {
       "url": "https://rolunk.at/kultura/galaval-unnepelt-a-delibab/",
@@ -2525,10 +2423,10 @@
       "resolvedUrl": "https://rolunk.at/kultura/galaval-unnepelt-a-delibab/"
     },
     {
-      "url": "https://rolunk.at/kultura/harminc-eves-a-club-pannonia-donau-visegrad-gala/",
+      "url": "https://rolunk.at/kultura/karacsony-a-becsi-reformatusoknal/",
       "status": "ok",
       "httpStatus": 200,
-      "resolvedUrl": "https://rolunk.at/kultura/harminc-eves-a-club-pannonia-donau-visegrad-gala/"
+      "resolvedUrl": "https://rolunk.at/kultura/karacsony-a-becsi-reformatusoknal/"
     },
     {
       "url": "https://rolunk.at/kultura/minden-magyarok-tanca-a-csalafinta-neptanccsoport-budapesten-szerepelt/",
@@ -2541,12 +2439,6 @@
       "status": "ok",
       "httpStatus": 200,
       "resolvedUrl": "https://rolunk.at/kultura/nem-csak-a-sajat-levesunket-melegitjuk-kozossegepito-kuldetes-felso-ausztriaban-es-azon-tul/"
-    },
-    {
-      "url": "https://rolunk.at/kultura/nem-csak-cserkeszeknek-szolt-a-magyar-csaladi-nap-becsben/",
-      "status": "ok",
-      "httpStatus": 200,
-      "resolvedUrl": "https://rolunk.at/kultura/nem-csak-cserkeszeknek-szolt-a-magyar-csaladi-nap-becsben/"
     },
     {
       "url": "https://rolunk.at/kultura/teljesen-meg-nem-erkeztem-meg-sehova-koltai-robert-becsben/",
@@ -2567,10 +2459,10 @@
       "resolvedUrl": "https://rolunk.at/kultura/uj-rendezovel-keszul-az-idei-eloadas/"
     },
     {
-      "url": "https://rolunk.at/magazin/a-ketnyelvuseg-ajandek/",
+      "url": "https://rolunk.at/kultura/ujra-nyitva-az-alsoori-otthon-falumuzeum/",
       "status": "ok",
       "httpStatus": 200,
-      "resolvedUrl": "https://rolunk.at/magazin/a-ketnyelvuseg-ajandek/"
+      "resolvedUrl": "https://rolunk.at/kultura/ujra-nyitva-az-alsoori-otthon-falumuzeum/"
     },
     {
       "url": "https://rolunk.at/magazin/aktiv-apukak-sztereotipiadontogetes-es-hatalmas-farsangi-buli-felso-ausztriaban/",
@@ -2579,34 +2471,34 @@
       "resolvedUrl": "https://rolunk.at/magazin/aktiv-apukak-sztereotipiadontogetes-es-hatalmas-farsangi-buli-felso-ausztriaban/"
     },
     {
-      "url": "https://rolunk.at/magazin/becs-a-labunk-elott/",
-      "status": "ok",
-      "httpStatus": 200,
-      "resolvedUrl": "https://rolunk.at/magazin/becs-a-labunk-elott/"
-    },
-    {
       "url": "https://rolunk.at/magazin/bemutatkozik-a-mi-magyarok-egymasert-video/",
       "status": "ok",
       "httpStatus": 200,
       "resolvedUrl": "https://rolunk.at/magazin/bemutatkozik-a-mi-magyarok-egymasert-video/"
     },
     {
+      "url": "https://rolunk.at/magazin/egy-sima-egy-forditott/",
+      "status": "ok",
+      "httpStatus": 200,
+      "resolvedUrl": "https://rolunk.at/magazin/egy-sima-egy-forditott/"
+    },
+    {
+      "url": "https://rolunk.at/magazin/gazdag-az-idei-programkinalat-az-alsoori-umiz-nal/",
+      "status": "ok",
+      "httpStatus": 200,
+      "resolvedUrl": "https://rolunk.at/magazin/gazdag-az-idei-programkinalat-az-alsoori-umiz-nal/"
+    },
+    {
+      "url": "https://rolunk.at/magazin/gondoltunk-egyet-es-megvalositottuk-ujdonsagok-a-linzi-hungaromedianal/",
+      "status": "ok",
+      "httpStatus": 200,
+      "resolvedUrl": "https://rolunk.at/magazin/gondoltunk-egyet-es-megvalositottuk-ujdonsagok-a-linzi-hungaromedianal/"
+    },
+    {
       "url": "https://rolunk.at/magazin/ismet-egyutt-unnepeltuk-nemzeti-unnepunket-nickelsdorfban/",
       "status": "ok",
       "httpStatus": 200,
       "resolvedUrl": "https://rolunk.at/magazin/ismet-egyutt-unnepeltuk-nemzeti-unnepunket-nickelsdorfban/"
-    },
-    {
-      "url": "https://rolunk.at/magazin/lean-in-femspace-ausztriai-magyar-nok-kozossege/",
-      "status": "ok",
-      "httpStatus": 200,
-      "resolvedUrl": "https://rolunk.at/magazin/lean-in-femspace-ausztriai-magyar-nok-kozossege/"
-    },
-    {
-      "url": "https://rolunk.at/magazin/mozgalmas-volt-a-nyar-a-burgenlandi-cserkeszeknel/",
-      "status": "ok",
-      "httpStatus": 200,
-      "resolvedUrl": "https://rolunk.at/magazin/mozgalmas-volt-a-nyar-a-burgenlandi-cserkeszeknel/"
     },
     {
       "url": "https://rolunk.at/magazin/okoskodni-egy-jo-pofa-sor-mellett/",
@@ -2621,6 +2513,12 @@
       "resolvedUrl": "https://rolunk.at/magazin/sokszinu-gyerekek-vagany-szulok-a-hungaromedia-taboraban/"
     },
     {
+      "url": "https://rolunk.at/magazin/szent-marton-nyomaban-franciaorszagban-jart-az-alsoori-ketnyelvu-szinjatszoegyesulet/",
+      "status": "ok",
+      "httpStatus": 200,
+      "resolvedUrl": "https://rolunk.at/magazin/szent-marton-nyomaban-franciaorszagban-jart-az-alsoori-ketnyelvu-szinjatszoegyesulet/"
+    },
+    {
       "url": "https://rolunk.at/magazin/tancolo-hagyomanyok/",
       "status": "ok",
       "httpStatus": 200,
@@ -2633,40 +2531,16 @@
       "resolvedUrl": "https://rolunk.at/magazin/ti-is-tancoltok-csardast/"
     },
     {
-      "url": "https://rolunk.at/magazin/utmutato-a-celjaidhoz-igy-segit-a-femspace-mentorprogram/",
-      "status": "ok",
-      "httpStatus": 200,
-      "resolvedUrl": "https://rolunk.at/magazin/utmutato-a-celjaidhoz-igy-segit-a-femspace-mentorprogram/"
-    },
-    {
-      "url": "https://rolunk.at/nepcsoportunk-cikk-oldal-4/magyar-egyesuletek-becsben/",
-      "status": "ok",
-      "httpStatus": 200,
-      "resolvedUrl": "https://rolunk.at/nepcsoportunk-cikk-oldal-4/magyar-egyesuletek-becsben/"
-    },
-    {
       "url": "https://rolunk.at/nepcsoportunk/20-tagegyesuletet-fog-ossze-az-ausztriai-magyar-szervezetek-kerekasztala/",
       "status": "ok",
       "httpStatus": 200,
       "resolvedUrl": "https://rolunk.at/nepcsoportunk/20-tagegyesuletet-fog-ossze-az-ausztriai-magyar-szervezetek-kerekasztala/"
     },
     {
-      "url": "https://rolunk.at/nepcsoportunk/a-generaciovaltas-kihivasai-interju-szabados-gaborral-a-becsi-club-pannonia-elnokevel/",
+      "url": "https://rolunk.at/nepcsoportunk/a-130-eves-felsoori-reformatus-ifjusagi-olvasokor/",
       "status": "ok",
       "httpStatus": 200,
-      "resolvedUrl": "https://rolunk.at/nepcsoportunk/a-generaciovaltas-kihivasai-interju-szabados-gaborral-a-becsi-club-pannonia-elnokevel/"
-    },
-    {
-      "url": "https://rolunk.at/nepcsoportunk/achtung-itt-vagyunk-achtungarn-fesztival-a-praterben/",
-      "status": "ok",
-      "httpStatus": 200,
-      "resolvedUrl": "https://rolunk.at/nepcsoportunk/achtung-itt-vagyunk-achtungarn-fesztival-a-praterben/"
-    },
-    {
-      "url": "https://rolunk.at/nepcsoportunk/achtungarn-fesztival-becsben-video/",
-      "status": "ok",
-      "httpStatus": 200,
-      "resolvedUrl": "https://rolunk.at/nepcsoportunk/achtungarn-fesztival-becsben-video/"
+      "resolvedUrl": "https://rolunk.at/nepcsoportunk/a-130-eves-felsoori-reformatus-ifjusagi-olvasokor/"
     },
     {
       "url": "https://rolunk.at/nepcsoportunk/achtungarn-magyar-kulturalis-kavalkad-a-praterben/",
@@ -2681,34 +2555,22 @@
       "resolvedUrl": "https://rolunk.at/nepcsoportunk/almaban-is-magyar/"
     },
     {
-      "url": "https://rolunk.at/nepcsoportunk/arany-minositest-kapott-a-csorge/",
-      "status": "ok",
-      "httpStatus": 200,
-      "resolvedUrl": "https://rolunk.at/nepcsoportunk/arany-minositest-kapott-a-csorge/"
-    },
-    {
       "url": "https://rolunk.at/nepcsoportunk/ausztriai-magyarok-a-tanchaztalalkozon/",
       "status": "ok",
       "httpStatus": 200,
       "resolvedUrl": "https://rolunk.at/nepcsoportunk/ausztriai-magyarok-a-tanchaztalalkozon/"
     },
     {
-      "url": "https://rolunk.at/nepcsoportunk/diaszpora-iskolatabor-ausztriaban-elmenyekkel-tertek-haza-a-diakok/",
+      "url": "https://rolunk.at/nepcsoportunk/burgenlandi-pletykafeszek-a-reformatus-szinjatszok-uj-eloadasa/",
       "status": "ok",
       "httpStatus": 200,
-      "resolvedUrl": "https://rolunk.at/nepcsoportunk/diaszpora-iskolatabor-ausztriaban-elmenyekkel-tertek-haza-a-diakok/"
+      "resolvedUrl": "https://rolunk.at/nepcsoportunk/burgenlandi-pletykafeszek-a-reformatus-szinjatszok-uj-eloadasa/"
     },
     {
       "url": "https://rolunk.at/nepcsoportunk/grazi-magyar-egyesulet/",
       "status": "ok",
       "httpStatus": 200,
       "resolvedUrl": "https://rolunk.at/nepcsoportunk/grazi-magyar-egyesulet/"
-    },
-    {
-      "url": "https://rolunk.at/nepcsoportunk/gyongyom-gyongyom-a-szelforgok-es-a-csorge-elso-onallo-koncertje-oriszigetben/",
-      "status": "ok",
-      "httpStatus": 200,
-      "resolvedUrl": "https://rolunk.at/nepcsoportunk/gyongyom-gyongyom-a-szelforgok-es-a-csorge-elso-onallo-koncertje-oriszigetben/"
     },
     {
       "url": "https://rolunk.at/nepcsoportunk/huszeves-a-kozepburgenlandi-magyar-kulturegyesulet/",
@@ -2723,22 +2585,16 @@
       "resolvedUrl": "https://rolunk.at/nepcsoportunk/iden-mar-22-eves-a-magyaroktatas-felso-ausztriaban/"
     },
     {
-      "url": "https://rolunk.at/nepcsoportunk/irodalmi-delutan-husveti-nyuszibuli-es-csaladi-kirandulas-tavaszi-programok-a-felso-ausztriai-magyaroknal/",
-      "status": "ok",
-      "httpStatus": 200,
-      "resolvedUrl": "https://rolunk.at/nepcsoportunk/irodalmi-delutan-husveti-nyuszibuli-es-csaladi-kirandulas-tavaszi-programok-a-felso-ausztriai-magyaroknal/"
-    },
-    {
       "url": "https://rolunk.at/nepcsoportunk/isten-eltessen-sokaig-delibab-becsi-magyar-kulturegyesulet-delibab-75-cimu-film/",
       "status": "ok",
       "httpStatus": 200,
       "resolvedUrl": "https://rolunk.at/nepcsoportunk/isten-eltessen-sokaig-delibab-becsi-magyar-kulturegyesulet-delibab-75-cimu-film/"
     },
     {
-      "url": "https://rolunk.at/nepcsoportunk/jovore-harminceves-a-club-pannonia/",
+      "url": "https://rolunk.at/nepcsoportunk/karvansky-monika-a-becsi-reformatusok-lelkesze/",
       "status": "ok",
       "httpStatus": 200,
-      "resolvedUrl": "https://rolunk.at/nepcsoportunk/jovore-harminceves-a-club-pannonia/"
+      "resolvedUrl": "https://rolunk.at/nepcsoportunk/karvansky-monika-a-becsi-reformatusok-lelkesze/"
     },
     {
       "url": "https://rolunk.at/nepcsoportunk/kuwu-avagy-a-legfiatalabb-ausztriai-magyar-egyesulet/",
@@ -2747,10 +2603,10 @@
       "resolvedUrl": "https://rolunk.at/nepcsoportunk/kuwu-avagy-a-legfiatalabb-ausztriai-magyar-egyesulet/"
     },
     {
-      "url": "https://rolunk.at/nepcsoportunk/lesz-e-nemet-magyar-kettannyelvu-iskola-becsben/",
+      "url": "https://rolunk.at/nepcsoportunk/nyilt-nap-az-alsoori-otthon-muzeumban/",
       "status": "ok",
       "httpStatus": 200,
-      "resolvedUrl": "https://rolunk.at/nepcsoportunk/lesz-e-nemet-magyar-kettannyelvu-iskola-becsben/"
+      "resolvedUrl": "https://rolunk.at/nepcsoportunk/nyilt-nap-az-alsoori-otthon-muzeumban/"
     },
     {
       "url": "https://rolunk.at/nepcsoportunk/sziveben-magyar/",
@@ -2759,16 +2615,16 @@
       "resolvedUrl": "https://rolunk.at/nepcsoportunk/sziveben-magyar/"
     },
     {
-      "url": "https://rolunk.at/nepcsoportunk/unnepvaras-az-alsoori-enekkar-adventi-koncertjen/",
-      "status": "ok",
-      "httpStatus": 200,
-      "resolvedUrl": "https://rolunk.at/nepcsoportunk/unnepvaras-az-alsoori-enekkar-adventi-koncertjen/"
-    },
-    {
       "url": "https://rolunk.at/nepcsoportunk/van-meg-magyar-szo-ezen-a-videken-55-eves-a-burgenlandi-magyar-kulturegyesulet/",
       "status": "ok",
       "httpStatus": 200,
       "resolvedUrl": "https://rolunk.at/nepcsoportunk/van-meg-magyar-szo-ezen-a-videken-55-eves-a-burgenlandi-magyar-kulturegyesulet/"
+    },
+    {
+      "url": "https://rolunk.at/nepcsoportunk/vezetovaltas-a-kozepburgenlandi-magyar-kulturalis-egyesuletnel/",
+      "status": "ok",
+      "httpStatus": 200,
+      "resolvedUrl": "https://rolunk.at/nepcsoportunk/vezetovaltas-a-kozepburgenlandi-magyar-kulturalis-egyesuletnel/"
     },
     {
       "url": "https://rolunk.at/rolunk/",
@@ -3816,8 +3672,8 @@
     },
     {
       "url": "https://washington.mfa.gov.hu/",
-      "status": "timeout",
-      "httpStatus": null,
+      "status": "ok",
+      "httpStatus": 200,
       "resolvedUrl": "https://washington.mfa.gov.hu/"
     },
     {
@@ -4553,6 +4409,12 @@
       "resolvedUrl": "https://www.evangelikus-at.com/"
     },
     {
+      "url": "https://www.evangelikus-at.com/adventihetvegegraz",
+      "status": "ok",
+      "httpStatus": 200,
+      "resolvedUrl": "https://www.evangelikus-at.com/adventihetvegegraz"
+    },
+    {
       "url": "https://www.evangelikus-at.com/istentiszteleteink",
       "status": "ok",
       "httpStatus": 200,
@@ -4826,13 +4688,13 @@
       "url": "https://www.facebook.com/hagaimagyarenekkar/",
       "status": "ok",
       "httpStatus": 200,
-      "resolvedUrl": "https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2Fhagaimagyarenekkar%2F"
+      "resolvedUrl": "https://www.facebook.com/hagaimagyarenekkar/"
     },
     {
       "url": "https://www.facebook.com/hccswpg/",
       "status": "ok",
       "httpStatus": 200,
-      "resolvedUrl": "https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2Fhccswpg%2F"
+      "resolvedUrl": "https://www.facebook.com/hccswpg/"
     },
     {
       "url": "https://www.facebook.com/hongaarskoor/",
@@ -4844,19 +4706,19 @@
       "url": "https://www.facebook.com/kozpontiszovetseg/?locale=hu_HU",
       "status": "ok",
       "httpStatus": 200,
-      "resolvedUrl": "https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2Fkozpontiszovetseg%2F%3Flocale%3Dhu_HU"
+      "resolvedUrl": "https://www.facebook.com/kozpontiszovetseg/?locale=hu_HU"
     },
     {
       "url": "https://www.facebook.com/kultpult",
       "status": "ok",
       "httpStatus": 200,
-      "resolvedUrl": "https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2Fkultpult"
+      "resolvedUrl": "https://www.facebook.com/kultpult"
     },
     {
       "url": "https://www.facebook.com/leaninfemspace/",
       "status": "ok",
       "httpStatus": 200,
-      "resolvedUrl": "https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2Fleaninfemspace%2F"
+      "resolvedUrl": "https://www.facebook.com/leaninfemspace/"
     },
     {
       "url": "https://www.facebook.com/magyarszo.at",
@@ -4868,7 +4730,7 @@
       "url": "https://www.facebook.com/napraforgok.becs",
       "status": "ok",
       "httpStatus": 200,
-      "resolvedUrl": "https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2Fnapraforgok.becs"
+      "resolvedUrl": "https://www.facebook.com/napraforgok.becs"
     },
     {
       "url": "https://www.facebook.com/profile.php?id=100057286665201",
@@ -4946,31 +4808,31 @@
       "url": "https://www.facebook.com/refistentiszteletzwolleban/",
       "status": "ok",
       "httpStatus": 200,
-      "resolvedUrl": "https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2Frefistentiszteletzwolleban%2F"
+      "resolvedUrl": "https://www.facebook.com/refistentiszteletzwolleban/"
     },
     {
       "url": "https://www.facebook.com/salzung",
       "status": "ok",
       "httpStatus": 200,
-      "resolvedUrl": "https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2Fsalzung"
+      "resolvedUrl": "https://www.facebook.com/salzung"
     },
     {
       "url": "https://www.facebook.com/salzung/",
       "status": "ok",
       "httpStatus": 200,
-      "resolvedUrl": "https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2Fsalzung%2F"
+      "resolvedUrl": "https://www.facebook.com/salzung/"
     },
     {
       "url": "https://www.facebook.com/share/1YXeCFjNnK/?mibextid=wwXIfr",
       "status": "ok",
       "httpStatus": 200,
-      "resolvedUrl": "https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2Fwelovemusicandwords%3Fmibextid%3DwwXIfr%26rdid%3DK0HD7n6jSsui61w9%26share_url%3Dhttps%253A%252F%252Fwww.facebook.com%252Fshare%252F1YXeCFjNnK%252F%253Fmibextid%253DwwXIfr&rdid=K0HD7n6jSsui61w9"
+      "resolvedUrl": "https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2Fwelovemusicandwords%3Fmibextid%3DwwXIfr%26rdid%3D8OINtuo6000U2vLW%26share_url%3Dhttps%253A%252F%252Fwww.facebook.com%252Fshare%252F1YXeCFjNnK%252F%253Fmibextid%253DwwXIfr&rdid=8OINtuo6000U2vLW"
     },
     {
       "url": "https://www.facebook.com/share/1daRJj3QUu/?mibextid=wwXIfr",
       "status": "ok",
       "httpStatus": 200,
-      "resolvedUrl": "https://www.facebook.com/people/AMAPED-Ausztriai-Magyar-Pedag%C3%B3gusok-Egyes%C3%BClete/100076361554158/?mibextid=wwXIfr&rdid=1mtTDzOygbNq6zhp&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F1daRJj3QUu%2F%3Fmibextid%3DwwXIfr"
+      "resolvedUrl": "https://www.facebook.com/people/AMAPED-Ausztriai-Magyar-Pedag%C3%B3gusok-Egyes%C3%BClete/100076361554158/?mibextid=wwXIfr&rdid=nVDbJrPuvIrwkImb&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F1daRJj3QUu%2F%3Fmibextid%3DwwXIfr"
     },
     {
       "url": "https://www.facebook.com/ungarischer.schulverein",
@@ -5321,12 +5183,6 @@
       "resolvedUrl": "https://www.hungarianschool.org/hawaii-hungarian-school"
     },
     {
-      "url": "https://www.hungarianscoutball.com/",
-      "status": "ok",
-      "httpStatus": 200,
-      "resolvedUrl": "https://www.hungarianscoutball.com/"
-    },
-    {
       "url": "https://www.hungarianscoutstoronto.org/",
       "status": "ok",
       "httpStatus": 200,
@@ -5400,62 +5256,62 @@
     },
     {
       "url": "https://www.instagram.com/hungaromedia",
-      "status": "ok",
-      "httpStatus": 200,
+      "status": "rate-limited",
+      "httpStatus": 429,
       "resolvedUrl": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fhungaromedia&is_from_rle"
     },
     {
       "url": "https://www.instagram.com/imike_ujkv/",
-      "status": "ok",
-      "httpStatus": 200,
+      "status": "rate-limited",
+      "httpStatus": 429,
       "resolvedUrl": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fimike_ujkv%2F&is_from_rle"
     },
     {
       "url": "https://www.instagram.com/mdevus/",
-      "status": "ok",
-      "httpStatus": 200,
+      "status": "rate-limited",
+      "httpStatus": 429,
       "resolvedUrl": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fmdevus%2F&is_from_rle"
     },
     {
       "url": "https://www.instagram.com/napraforgok.becs",
-      "status": "ok",
-      "httpStatus": 200,
+      "status": "rate-limited",
+      "httpStatus": 429,
       "resolvedUrl": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fnapraforgok.becs&is_from_rle"
     },
     {
       "url": "https://www.instagram.com/radiohu.hu/",
-      "status": "ok",
-      "httpStatus": 200,
+      "status": "rate-limited",
+      "httpStatus": 429,
       "resolvedUrl": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fradiohu.hu%2F&is_from_rle"
     },
     {
       "url": "https://www.instagram.com/salzburgi.neptanc/",
-      "status": "ok",
-      "httpStatus": 200,
+      "status": "rate-limited",
+      "httpStatus": 429,
       "resolvedUrl": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fsalzburgi.neptanc%2F&is_from_rle"
     },
     {
       "url": "https://www.instagram.com/schulverein",
-      "status": "ok",
-      "httpStatus": 200,
+      "status": "rate-limited",
+      "httpStatus": 429,
       "resolvedUrl": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fschulverein&is_from_rle"
     },
     {
       "url": "https://www.instagram.com/stadtbibliothek.innsbruck/",
-      "status": "ok",
-      "httpStatus": 200,
+      "status": "rate-limited",
+      "httpStatus": 429,
       "resolvedUrl": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fstadtbibliothek.innsbruck%2F&is_from_rle"
     },
     {
       "url": "https://www.instagram.com/violadancebrussels",
-      "status": "ok",
-      "httpStatus": 200,
+      "status": "rate-limited",
+      "httpStatus": 429,
       "resolvedUrl": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fvioladancebrussels&is_from_rle"
     },
     {
       "url": "https://www.instagram.com/vorarlbergerlandesbibliothek",
-      "status": "ok",
-      "httpStatus": 200,
+      "status": "rate-limited",
+      "httpStatus": 429,
       "resolvedUrl": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fvorarlbergerlandesbibliothek&is_from_rle"
     },
     {
@@ -5756,13 +5612,13 @@
       "url": "https://www.magyarhazbrusszel.be/",
       "status": "rate-limited",
       "httpStatus": 429,
-      "resolvedUrl": "https://www.google.com/sorry/index?continue=https://www.magyarhazbrusszel.be/&q=EgQ0lAcyGPGX39cGIi2k5N-q2M1T3zoYEqUf1DVcwpwOzINjIRnktxDxXijJ-mz5aLoTn86KmJbRcooyAnJSWgFDYKS2mPubkLSBzgE"
+      "resolvedUrl": "https://www.google.com/sorry/index?continue=https://www.magyarhazbrusszel.be/&q=EgSsyK_iGKu65NcGIi2PXEflnRI1CH1iCasCno6aTrYs1uMaSQW9cplkDkPS6sf8GLxN6wsK5BpzbesyAnJSWgFDYLG6xeXE8fjhEA"
     },
     {
       "url": "https://www.magyarhazbrusszel.be/2026/",
       "status": "rate-limited",
       "httpStatus": 429,
-      "resolvedUrl": "https://www.google.com/sorry/index?continue=https://www.magyarhazbrusszel.be/2026/&q=EgQ0lAcyGPGX39cGIi0Ewhvfz1QHoH2z_bzUOX241gEgXTXNFicbCW8jxtAArJRgyo9nwwCX7p0ULmUyAnJSWgFDYLm-5PyNor7evwE"
+      "resolvedUrl": "https://www.google.com/sorry/index?continue=https://www.magyarhazbrusszel.be/2026/&q=EgSsyK_iGKu65NcGIi0OJka7AADEzOhg8ravylED6PIaAfaymPkT6FsMaPbGoDr4GW2uurqGZzmsULoyAnJSWgFDYLOc3JO6z7W0twE"
     },
     {
       "url": "https://www.magyariskola.at/",
