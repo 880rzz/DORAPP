@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-14",
+  "updated": "2026-11-15",
   "sourcePolicy": "Official organization sources preferred; umbrella directories and Austrian-Hungarian community media used as secondary verification. Missing social/event links remain null rather than guessed.",
   "states": [
     {
@@ -3359,7 +3359,8 @@
       "facebook": "https://www.facebook.com/evangelikusat/",
       "instagram": null,
       "eventSources": [
-        "https://www.evangelikus-at.com/istentiszteleteink"
+        "https://www.evangelikus-at.com/istentiszteleteink",
+        "https://www.evangelikus-at.com/"
       ],
       "memberships": [
         {
@@ -3472,6 +3473,13 @@
         {
           "label": "Ausztriai Magyar Evangélikus Gyülekezet – istentiszteletek",
           "url": "https://www.evangelikus-at.com/istentiszteleteink",
+          "kind": "official-calendar",
+          "scope": "self",
+          "ingestEvents": true
+        },
+        {
+          "label": "Ausztriai Magyar Evangélikus Gyülekezet – aktuális programok",
+          "url": "https://www.evangelikus-at.com/",
           "kind": "official-calendar",
           "scope": "self",
           "ingestEvents": true
@@ -10817,14 +10825,14 @@
       ],
       "parentOrganizationId": "bukv",
       "intro": "A Burgenlandi Magyar Kultúregyesület 2015-ben alakult népzenei együttese. A csoport a 2014-ben elindított magyar népzeneoktatás résztvevőiből szerveződött, és autentikus hangszereken az őrvidéki magyar népzenei és dalkincset ápolja.",
-      "website": "https://bukv.at/volksmusikgruppe-csoerge/",
+      "website": "https://bukv.at/gruppen/volksmusikgruppe-csoerge/",
       "facebook": null,
       "instagram": null,
       "eventSources": [],
       "evidenceSources": [
         {
           "label": "BMKE – Csörge Népzenekar",
-          "url": "https://bukv.at/hu/csoerge-nepzenekar/",
+          "url": "https://bukv.at/gruppen/volksmusikgruppe-csoerge/",
           "type": "official"
         }
       ],
@@ -10836,13 +10844,13 @@
             "year": "2014",
             "title": "Magyar népzeneoktatási projekt indul",
             "description": "A BMKE rendszeres magyar népzeneoktatást indít.",
-            "sourceUrl": "https://bukv.at/volksmusikgruppe-csoerge/"
+            "sourceUrl": "https://bukv.at/gruppen/volksmusikgruppe-csoerge/"
           },
           {
             "year": "2015",
             "title": "A Csörge megalakulása",
             "description": "A népzeneoktatás résztvevőiből létrejön a Csörge Népzenei Együttes.",
-            "sourceUrl": "https://bukv.at/volksmusikgruppe-csoerge/"
+            "sourceUrl": "https://bukv.at/gruppen/volksmusikgruppe-csoerge/"
           }
         ]
       },
