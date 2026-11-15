@@ -1,9 +1,9 @@
 {
-  "updated": "2026-11-15T02:08:56.434306+00:00",
+  "updated": "2026-11-15T04:22:03.480338+00:00",
   "summary": {
     "organizations": 163,
-    "organizationFlags": 2,
-    "organizationPagesChecked": 334,
+    "organizationFlags": 1,
+    "organizationPagesChecked": 344,
     "education": 112,
     "educationFlags": 0,
     "events": 68,
@@ -265,24 +265,23 @@
       "activityCategories": [],
       "signals": [
         "oktatas",
+        "neptanc",
+        "szinhaz",
+        "media",
+        "egyhaz",
+        "diak",
+        "irodalom",
+        "muveszet",
+        "sport",
         "csalad"
       ],
-      "pagesChecked": 0,
-      "checkedUrls": [],
-      "errors": [
-        {
-          "url": "https://amaped.at/",
-          "error": "HTTP Error 403: Forbidden"
-        },
-        {
-          "url": "https://amaped.at/rendezvenyek/",
-          "error": "HTTP Error 403: Forbidden"
-        },
-        {
-          "url": "https://amaped.at/rolunk/",
-          "error": "HTTP Error 403: Forbidden"
-        }
+      "pagesChecked": 3,
+      "checkedUrls": [
+        "https://amaped.at/",
+        "https://amaped.at/rendezvenyek/",
+        "https://amaped.at/rolunk/"
       ],
+      "errors": [],
       "flags": []
     },
     {
@@ -295,22 +294,20 @@
       "activityCategories": [],
       "signals": [
         "oktatas",
+        "neptanc",
+        "szinhaz",
+        "irodalom",
         "csalad"
       ],
-      "pagesChecked": 0,
-      "checkedUrls": [],
+      "pagesChecked": 2,
+      "checkedUrls": [
+        "https://amaped.at/",
+        "https://amaped.at/tanfolyamok/"
+      ],
       "errors": [
         {
-          "url": "https://amaped.at/",
-          "error": "HTTP Error 403: Forbidden"
-        },
-        {
-          "url": "https://amaped.at/tanfolyamok/",
-          "error": "HTTP Error 403: Forbidden"
-        },
-        {
           "url": "https://amaped.at/2026/02/11/szeretettel-varunk-mindenkit-foglalkozasainkon-a-tavaszi-felevben-is/",
-          "error": "HTTP Error 403: Forbidden"
+          "error": "HTTP Error 404: Not Found"
         }
       ],
       "flags": []
@@ -325,22 +322,20 @@
       "activityCategories": [],
       "signals": [
         "oktatas",
+        "neptanc",
+        "szinhaz",
+        "irodalom",
         "csalad"
       ],
-      "pagesChecked": 0,
-      "checkedUrls": [],
+      "pagesChecked": 2,
+      "checkedUrls": [
+        "https://amaped.at/",
+        "https://amaped.at/tanfolyamok/"
+      ],
       "errors": [
         {
-          "url": "https://amaped.at/",
-          "error": "HTTP Error 403: Forbidden"
-        },
-        {
-          "url": "https://amaped.at/tanfolyamok/",
-          "error": "HTTP Error 403: Forbidden"
-        },
-        {
           "url": "https://amaped.at/2023/09/15/indul-a-tanev/",
-          "error": "HTTP Error 403: Forbidden"
+          "error": "HTTP Error 404: Not Found"
         }
       ],
       "flags": []
@@ -355,22 +350,20 @@
       "activityCategories": [],
       "signals": [
         "oktatas",
+        "neptanc",
+        "szinhaz",
+        "irodalom",
         "csalad"
       ],
-      "pagesChecked": 0,
-      "checkedUrls": [],
+      "pagesChecked": 2,
+      "checkedUrls": [
+        "https://amaped.at/",
+        "https://amaped.at/tanfolyamok/"
+      ],
       "errors": [
         {
-          "url": "https://amaped.at/",
-          "error": "HTTP Error 403: Forbidden"
-        },
-        {
-          "url": "https://amaped.at/tanfolyamok/",
-          "error": "HTTP Error 403: Forbidden"
-        },
-        {
           "url": "https://amaped.at/2023/09/15/indul-a-tanev/",
-          "error": "HTTP Error 403: Forbidden"
+          "error": "HTTP Error 404: Not Found"
         }
       ],
       "flags": []
@@ -385,18 +378,18 @@
       "activityCategories": [],
       "signals": [
         "oktatas",
+        "szinhaz",
+        "irodalom",
         "csalad"
       ],
-      "pagesChecked": 0,
-      "checkedUrls": [],
+      "pagesChecked": 1,
+      "checkedUrls": [
+        "https://amaped.at/"
+      ],
       "errors": [
         {
-          "url": "https://amaped.at/",
-          "error": "HTTP Error 403: Forbidden"
-        },
-        {
           "url": "https://amaped.at/2026/02/11/szeretettel-varunk-mindenkit-foglalkozasainkon-a-tavaszi-felevben-is/",
-          "error": "HTTP Error 403: Forbidden"
+          "error": "HTTP Error 404: Not Found"
         }
       ],
       "flags": []
@@ -437,7 +430,15 @@
       ],
       "activityCategories": [],
       "signals": [
-        "enekkar"
+        "oktatas",
+        "neptanc",
+        "nepzene",
+        "enekkar",
+        "media",
+        "diak",
+        "irodalom",
+        "muveszet",
+        "csalad"
       ],
       "pagesChecked": 1,
       "checkedUrls": [
@@ -718,13 +719,17 @@
         "muveszet",
         "csalad"
       ],
-      "pagesChecked": 3,
+      "pagesChecked": 2,
       "checkedUrls": [
-        "https://www.creativescience.hu/programjaink/becs-craft-workshop/",
         "https://www.magyariskola.at/event-details/becscraft-2026",
         "https://www.magyariskola.at/event-details/becs-craft-nyari-tabor-2026"
       ],
-      "errors": [],
+      "errors": [
+        {
+          "url": "https://www.creativescience.hu/programjaink/becs-craft-workshop/",
+          "error": "HTTP Error 404: Not Found"
+        }
+      ],
       "flags": []
     },
     {
@@ -1284,9 +1289,14 @@
       ],
       "activityCategories": [],
       "signals": [
+        "oktatas",
         "neptanc",
         "nepzene",
         "enekkar",
+        "szinhaz",
+        "media",
+        "diak",
+        "irodalom",
         "sport",
         "csalad"
       ],
@@ -1492,6 +1502,10 @@
       ],
       "activityCategories": [],
       "signals": [
+        "oktatas",
+        "egyhaz",
+        "irodalom",
+        "muveszet",
         "csalad"
       ],
       "pagesChecked": 3,
@@ -1501,9 +1515,7 @@
         "https://fecskeklub.at/titkok-nyomaban/"
       ],
       "errors": [],
-      "flags": [
-        "weak-source-signal:oktatas"
-      ]
+      "flags": []
     },
     {
       "id": "felso-ausztriai-magyarok",
@@ -2280,16 +2292,18 @@
       ],
       "activityCategories": [],
       "signals": [
+        "oktatas",
+        "nepzene",
         "szinhaz",
+        "media",
         "irodalom",
         "muveszet",
         "csalad"
       ],
-      "pagesChecked": 3,
+      "pagesChecked": 2,
       "checkedUrls": [
         "https://kultpult.eu/",
-        "https://kultpult.eu/itthonotthon/",
-        "https://kultpult.eu/wp-content/uploads/2024/06/Altalanos-Szerzodesi-Feltetelek-kultpult.pdf"
+        "https://kultpult.eu/itthonotthon/"
       ],
       "errors": [],
       "flags": []
@@ -2443,7 +2457,9 @@
       ],
       "activityCategories": [],
       "signals": [
+        "media",
         "egyhaz",
+        "irodalom",
         "csalad"
       ],
       "pagesChecked": 2,
@@ -2557,7 +2573,13 @@
       ],
       "activityCategories": [],
       "signals": [
-        "diak"
+        "neptanc",
+        "media",
+        "diak",
+        "irodalom",
+        "muveszet",
+        "sport",
+        "csalad"
       ],
       "pagesChecked": 3,
       "checkedUrls": [
@@ -2790,22 +2812,16 @@
         "cserkesz",
         "media",
         "egyhaz",
-        "sport"
+        "sport",
+        "csalad"
       ],
-      "pagesChecked": 1,
+      "pagesChecked": 3,
       "checkedUrls": [
+        "https://ne-felejts.weebly.com/",
+        "https://ne-felejts.weebly.com/uumlber-uns.html",
         "https://volksgruppen.orf.at/magyarok/stories/3173798/"
       ],
-      "errors": [
-        {
-          "url": "https://ne-felejts.weebly.com/",
-          "error": "HTTP Error 429: Too Many Requests"
-        },
-        {
-          "url": "https://ne-felejts.weebly.com/uumlber-uns.html",
-          "error": "HTTP Error 429: Too Many Requests"
-        }
-      ],
+      "errors": [],
       "flags": []
     },
     {
@@ -3410,7 +3426,16 @@
       ],
       "activityCategories": [],
       "signals": [
-        "nepzene"
+        "oktatas",
+        "neptanc",
+        "nepzene",
+        "enekkar",
+        "szinhaz",
+        "media",
+        "diak",
+        "muveszet",
+        "sport",
+        "csalad"
       ],
       "pagesChecked": 3,
       "checkedUrls": [
@@ -3960,6 +3985,8 @@
       "activityCategories": [],
       "signals": [
         "szinhaz",
+        "media",
+        "irodalom",
         "muveszet",
         "csalad"
       ],
@@ -4091,7 +4118,11 @@
       ],
       "activityCategories": [],
       "signals": [
+        "oktatas",
         "neptanc",
+        "nepzene",
+        "media",
+        "diak",
         "csalad"
       ],
       "pagesChecked": 1,
