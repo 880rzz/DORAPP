@@ -1,12 +1,12 @@
 {
-  "updated": "2026-11-14T05:15:40.152444+00:00",
+  "updated": "2026-11-15T02:07:19.492243+00:00",
   "summary": {
     "organizations": 163,
-    "organizationFlags": 1,
-    "organizationPagesChecked": 344,
+    "organizationFlags": 2,
+    "organizationPagesChecked": 334,
     "education": 112,
     "educationFlags": 0,
-    "events": 70,
+    "events": 71,
     "eventFlags": 0
   },
   "organizations": [
@@ -126,18 +126,24 @@
       ],
       "activityCategories": [],
       "signals": [
-        "enekkar",
-        "media",
-        "egyhaz",
-        "csalad"
+        "egyhaz"
       ],
-      "pagesChecked": 3,
-      "checkedUrls": [
-        "https://www.martinus.at/",
-        "https://www.martinus.at/pfarre/1127/kalender",
-        "https://www.martinus.at/unterwart"
+      "pagesChecked": 0,
+      "checkedUrls": [],
+      "errors": [
+        {
+          "url": "https://www.martinus.at/",
+          "error": "<urlopen error timed out>"
+        },
+        {
+          "url": "https://www.martinus.at/pfarre/1127/kalender",
+          "error": "<urlopen error timed out>"
+        },
+        {
+          "url": "https://www.martinus.at/unterwart",
+          "error": "<urlopen error timed out>"
+        }
       ],
-      "errors": [],
       "flags": []
     },
     {
@@ -1107,20 +1113,23 @@
       "activityCategories": [],
       "signals": [
         "oktatas",
-        "szinhaz",
         "media",
-        "irodalom",
-        "muveszet",
-        "csalad"
+        "irodalom"
       ],
-      "pagesChecked": 3,
+      "pagesChecked": 2,
       "checkedUrls": [
         "https://culture.hu/hu/wien",
-        "https://culture.hu/hu/wien/esemenyek",
         "https://culture.hu/de/wien/jubilaum"
       ],
-      "errors": [],
-      "flags": []
+      "errors": [
+        {
+          "url": "https://culture.hu/hu/wien/esemenyek",
+          "error": "The read operation timed out"
+        }
+      ],
+      "flags": [
+        "weak-source-signal:muveszet"
+      ]
     },
     {
       "id": "collegium-pazmanianum",
@@ -1274,14 +1283,9 @@
       ],
       "pagesChecked": 1,
       "checkedUrls": [
-        "https://bukv.at/volksmusikgruppe-csoerge/"
+        "https://bukv.at/gruppen/volksmusikgruppe-csoerge/"
       ],
-      "errors": [
-        {
-          "url": "https://bukv.at/hu/csoerge-nepzenekar/",
-          "error": "HTTP Error 404: Not Found"
-        }
-      ],
+      "errors": [],
       "flags": []
     },
     {
@@ -1562,16 +1566,24 @@
       ],
       "activityCategories": [],
       "signals": [
-        "media",
         "egyhaz"
       ],
-      "pagesChecked": 3,
-      "checkedUrls": [
-        "https://www.martinus.at/pfarre/1122",
-        "https://www.martinus.at/pfarre/1122/kalender",
-        "https://www.martinus.at/pfarre/1122/kalender/calendar/1808040.html"
+      "pagesChecked": 0,
+      "checkedUrls": [],
+      "errors": [
+        {
+          "url": "https://www.martinus.at/pfarre/1122",
+          "error": "<urlopen error timed out>"
+        },
+        {
+          "url": "https://www.martinus.at/pfarre/1122/kalender",
+          "error": "<urlopen error timed out>"
+        },
+        {
+          "url": "https://www.martinus.at/pfarre/1122/kalender/calendar/1808040.html",
+          "error": "<urlopen error timed out>"
+        }
       ],
-      "errors": [],
       "flags": []
     },
     {
@@ -2008,13 +2020,17 @@
         "muveszet",
         "csalad"
       ],
-      "pagesChecked": 3,
+      "pagesChecked": 2,
       "checkedUrls": [
         "https://www.grazimagyaregyesuelet.at/magyar-katolikus-k%C3%B6z%C3%B6ss%C3%A9g-magyar-evang%C3%A9likus-gy%C3%BClekezet/",
-        "https://www.petofiprogram.hu/hirek/grac-hivek-szamara-fontos-az-anyanyelv-gyakorlasa-imaban-enekben-beszelgetesben-graci-magyar",
-        "https://www.sr-grazmitte.graz-seckau.at/pfarre/94013/pfarren/gottesdienste"
+        "https://www.petofiprogram.hu/hirek/grac-hivek-szamara-fontos-az-anyanyelv-gyakorlasa-imaban-enekben-beszelgetesben-graci-magyar"
       ],
-      "errors": [],
+      "errors": [
+        {
+          "url": "https://www.sr-grazmitte.graz-seckau.at/pfarre/94013/pfarren/gottesdienste",
+          "error": "<urlopen error timed out>"
+        }
+      ],
       "flags": []
     },
     {
@@ -2089,14 +2105,16 @@
       "signals": [
         "egyhaz"
       ],
-      "pagesChecked": 1,
-      "checkedUrls": [
-        "https://www.edsbg.at/seelsorge/weltkirche/anderssprachige-seelsorge/ungarische-gemeinde"
-      ],
+      "pagesChecked": 0,
+      "checkedUrls": [],
       "errors": [
         {
+          "url": "https://www.edsbg.at/seelsorge/weltkirche/anderssprachige-seelsorge/ungarische-gemeinde",
+          "error": "<urlopen error timed out>"
+        },
+        {
           "url": "https://www.edsbg.at/dl/klOKJmMJKNLMKJqx4KJK/ungarischsprachige_Gottesdienstgemeinde_Salzburg_pdf",
-          "error": "HTTP Error 400: Bad Request"
+          "error": "<urlopen error timed out>"
         }
       ],
       "flags": []
@@ -2467,12 +2485,16 @@
         "irodalom",
         "csalad"
       ],
-      "pagesChecked": 2,
+      "pagesChecked": 1,
       "checkedUrls": [
-        "https://www.erzdioezese-wien.at/unit/katholischeostkirchen/unseregemeinden/katholischeostkirchen/gemeindeninwien",
         "https://hd.gorogkatolikus.hu/Magyar-gorogkatolikus-lelkeszseg-alakult-Becsben-2023-junius-06"
       ],
-      "errors": [],
+      "errors": [
+        {
+          "url": "https://www.erzdioezese-wien.at/unit/katholischeostkirchen/unseregemeinden/katholischeostkirchen/gemeindeninwien",
+          "error": "<urlopen error timed out>"
+        }
+      ],
       "flags": []
     },
     {
@@ -3004,12 +3026,13 @@
       "signals": [
         "oktatas",
         "neptanc",
-        "nepzene",
+        "szinhaz",
         "media",
         "diak",
         "irodalom",
         "muveszet",
-        "sport"
+        "sport",
+        "csalad"
       ],
       "pagesChecked": 3,
       "checkedUrls": [
