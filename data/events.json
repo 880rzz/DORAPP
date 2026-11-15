@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-14T04:20:46.511279+00:00",
+  "updated": "2026-11-15T03:00:00+01:00",
   "programCategoryDefinitions": [
     {
       "id": "gyermek",
@@ -254,34 +254,6 @@
       ]
     },
     {
-      "id": "katolikus-linz-ungarischer-gottesdienst-2026-11-15t11-00-00-01-00",
-      "organizationId": "katolikus-linz",
-      "name": "Ungarischer Gottesdienst",
-      "organizer": "Linzi Magyar Katolikus Közösség",
-      "state": "oberoesterreich",
-      "city": "Linz",
-      "venue": "Guter Hirte – Neue Heimat",
-      "address": "Am Steinbühel 31, 4030 Linz, Ausztria",
-      "startDate": "2026-11-15T11:00:00+01:00",
-      "endDate": "",
-      "description": "Magyar nyelvű katolikus istentisztelet Linzben a Linzi Egyházmegye hivatalos magyar istentiszteleti rendje szerint.",
-      "eventStatus": "https://schema.org/EventScheduled",
-      "attendanceMode": "https://schema.org/OfflineEventAttendanceMode",
-      "registrationUrl": null,
-      "price": null,
-      "priceCurrency": null,
-      "availability": null,
-      "performers": [],
-      "audience": null,
-      "image": "",
-      "sourceUrl": "https://www.dioezese-linz.at/institution/8038/ueberuns/gottesdiensteveranstaltun/article/21612.html",
-      "discoveredFrom": "https://www.dioezese-linz.at/institution/8038/ueberuns/gottesdiensteveranstaltun/article/21612.html",
-      "verifiedAt": "2026-10-24T01:00:00+00:00",
-      "programCategories": [
-        "kozosseg"
-      ]
-    },
-    {
       "id": "felsoori-katolikus-magyar-mise-2026-11-15",
       "organizationId": "felsoori-katolikus",
       "name": "Magyar mise",
@@ -305,6 +277,34 @@
       "sourceUrl": "https://www.martinus.at/pfarre/1122/kalender/calendar/1827395.html",
       "discoveredFrom": "https://www.martinus.at/pfarre/1122/kalender",
       "verifiedAt": "2026-11-06T03:00:00+01:00",
+      "programCategories": [
+        "kozosseg"
+      ]
+    },
+    {
+      "id": "katolikus-linz-ungarischer-gottesdienst-2026-11-15t11-00-00-01-00",
+      "organizationId": "katolikus-linz",
+      "name": "Ungarischer Gottesdienst",
+      "organizer": "Linzi Magyar Katolikus Közösség",
+      "state": "oberoesterreich",
+      "city": "Linz",
+      "venue": "Guter Hirte – Neue Heimat",
+      "address": "Am Steinbühel 31, 4030 Linz, Ausztria",
+      "startDate": "2026-11-15T11:00:00+01:00",
+      "endDate": "",
+      "description": "Magyar nyelvű katolikus istentisztelet Linzben a Linzi Egyházmegye hivatalos magyar istentiszteleti rendje szerint.",
+      "eventStatus": "https://schema.org/EventScheduled",
+      "attendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+      "registrationUrl": null,
+      "price": null,
+      "priceCurrency": null,
+      "availability": null,
+      "performers": [],
+      "audience": null,
+      "image": "",
+      "sourceUrl": "https://www.dioezese-linz.at/institution/8038/ueberuns/gottesdiensteveranstaltun/article/21612.html",
+      "discoveredFrom": "https://www.dioezese-linz.at/institution/8038/ueberuns/gottesdiensteveranstaltun/article/21612.html",
+      "verifiedAt": "2026-10-24T01:00:00+00:00",
       "programCategories": [
         "kozosseg"
       ]
@@ -1117,6 +1117,35 @@
       ]
     },
     {
+      "id": "becsi-magyar-iskola-télapóváró-koncert-kovácsovics-fruzsinával-2026-12-03t17-00-00-01-00",
+      "organizationId": "becsi-magyar-iskola",
+      "name": "Télapóváró Koncert – Kovácsovics Fruzsinával",
+      "organizer": "Bécsi Magyar Iskola",
+      "state": "wien",
+      "city": "Wien",
+      "venue": "Wiener Rathaus - Festsaal",
+      "address": "Lichtenfelsgasse 2, 1010 Wien, Ausztria",
+      "startDate": "2026-12-03T17:00:00+01:00",
+      "endDate": "2026-12-03T19:00:00+01:00",
+      "description": "Télapóváró koncert Kovácsovics Fruzsinával Bécsben – 2026. december 3., 17:00–19:00, Wiener Rathaus Festsaal.",
+      "eventStatus": "https://schema.org/EventScheduled",
+      "attendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+      "registrationUrl": "https://www.magyariskola.at/event-details/becsi-magyar-mikulas",
+      "price": null,
+      "priceCurrency": "EUR",
+      "availability": "https://schema.org/InStock",
+      "performers": [],
+      "audience": null,
+      "image": "https://static.wixstatic.com/media/b0aee1_5c18bf79ad11491eaaa0ce0e8f787ae9~mv2.png/v1/fill/w_1254,h_1254,al_c/b0aee1_5c18bf79ad11491eaaa0ce0e8f787ae9~mv2.png",
+      "sourceUrl": "https://www.magyariskola.at/event-details/becsi-magyar-mikulas",
+      "discoveredFrom": "https://www.magyariskola.at/esemenyek",
+      "verifiedAt": "2026-11-11T11:51:30.455111+00:00",
+      "programCategories": [
+        "gyermek",
+        "zene"
+      ]
+    },
+    {
       "id": "becsi-magyar-iskola-telapovaro-koncert-becsi-magyar-mikulas-2026-12-03t17-00-00-01-00",
       "organizationId": "becsi-magyar-iskola",
       "name": "Télapóváró Koncert – Kovácsovics Fruzsinával | Bécsi Magyar Mikulás Ünnepség",
@@ -1146,35 +1175,6 @@
         "gyermek",
         "zene",
         "kozosseg"
-      ]
-    },
-    {
-      "id": "becsi-magyar-iskola-télapóváró-koncert-kovácsovics-fruzsinával-2026-12-03t17-00-00-01-00",
-      "organizationId": "becsi-magyar-iskola",
-      "name": "Télapóváró Koncert – Kovácsovics Fruzsinával",
-      "organizer": "Bécsi Magyar Iskola",
-      "state": "wien",
-      "city": "Wien",
-      "venue": "Wiener Rathaus - Festsaal",
-      "address": "Lichtenfelsgasse 2, 1010 Wien, Ausztria",
-      "startDate": "2026-12-03T17:00:00+01:00",
-      "endDate": "2026-12-03T19:00:00+01:00",
-      "description": "Télapóváró koncert Kovácsovics Fruzsinával Bécsben – 2026. december 3., 17:00–19:00, Wiener Rathaus Festsaal.",
-      "eventStatus": "https://schema.org/EventScheduled",
-      "attendanceMode": "https://schema.org/OfflineEventAttendanceMode",
-      "registrationUrl": "https://www.magyariskola.at/event-details/becsi-magyar-mikulas",
-      "price": null,
-      "priceCurrency": "EUR",
-      "availability": "https://schema.org/InStock",
-      "performers": [],
-      "audience": null,
-      "image": "https://static.wixstatic.com/media/b0aee1_5c18bf79ad11491eaaa0ce0e8f787ae9~mv2.png/v1/fill/w_1254,h_1254,al_c/b0aee1_5c18bf79ad11491eaaa0ce0e8f787ae9~mv2.png",
-      "sourceUrl": "https://www.magyariskola.at/event-details/becsi-magyar-mikulas",
-      "discoveredFrom": "https://www.magyariskola.at/esemenyek",
-      "verifiedAt": "2026-11-11T11:51:30.455111+00:00",
-      "programCategories": [
-        "gyermek",
-        "zene"
       ]
     },
     {
@@ -1517,6 +1517,34 @@
       "sourceUrl": "https://www.dibk.at/ngsite/content/download/204103/3693696",
       "discoveredFrom": "https://www.dibk.at/Media/Organisationen/muttersprachliche-seelsorge",
       "verifiedAt": "2026-10-06T01:00:00+00:00",
+      "programCategories": [
+        "kozosseg"
+      ]
+    },
+    {
+      "id": "evangelikus-gyulekezet-adventi-gyulekezeti-hetvege-grazban-2026-12-19",
+      "organizationId": "evangelikus-gyulekezet",
+      "name": "Adventi gyülekezeti hétvége Grazban",
+      "organizer": "Ausztriai Magyar Evangélikus Gyülekezet",
+      "state": "steiermark",
+      "city": "Graz",
+      "venue": "Graz belvárosa és Heilandskirche",
+      "address": null,
+      "startDate": "2026-12-19",
+      "endDate": "2026-12-20T17:00:00+01:00",
+      "description": "Kétnapos magyar evangélikus adventi közösségi hétvége Grazban. A programban a grazi óratorony és a karácsonyi vásár meglátogatása, közös karácsonyi zenélés és éneklés, valamint a december 20-i magyar nyelvű istentisztelet szerepel a Heilandskirchében. A részvételhez jelentkezés szükséges a hivatalos eseményoldalon.",
+      "eventStatus": "https://schema.org/EventScheduled",
+      "attendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+      "registrationUrl": null,
+      "price": null,
+      "priceCurrency": null,
+      "availability": null,
+      "performers": [],
+      "audience": "Ausztriában élő magyar evangélikusok, családok és érdeklődők",
+      "image": null,
+      "sourceUrl": "https://www.evangelikus-at.com/adventihetvegegraz",
+      "discoveredFrom": "https://www.evangelikus-at.com/",
+      "verifiedAt": "2026-11-15T02:00:00+00:00",
       "programCategories": [
         "kozosseg"
       ]
