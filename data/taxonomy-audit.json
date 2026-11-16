@@ -1,12 +1,12 @@
 {
-  "updated": "2026-11-15T05:15:44.247244+00:00",
+  "updated": "2026-11-16T04:26:05.878947+00:00",
   "summary": {
     "organizations": 163,
-    "organizationFlags": 2,
-    "organizationPagesChecked": 343,
+    "organizationFlags": 1,
+    "organizationPagesChecked": 345,
     "education": 112,
     "educationFlags": 0,
-    "events": 68,
+    "events": 63,
     "eventFlags": 0
   },
   "organizations": [
@@ -507,6 +507,7 @@
         "egyhaz",
         "irodalom",
         "muveszet",
+        "sport",
         "csalad"
       ],
       "pagesChecked": 3,
@@ -1107,23 +1108,20 @@
       "activityCategories": [],
       "signals": [
         "oktatas",
+        "szinhaz",
         "media",
-        "irodalom"
+        "irodalom",
+        "muveszet",
+        "csalad"
       ],
-      "pagesChecked": 2,
+      "pagesChecked": 3,
       "checkedUrls": [
         "https://culture.hu/hu/wien",
+        "https://culture.hu/hu/wien/esemenyek",
         "https://culture.hu/de/wien/jubilaum"
       ],
-      "errors": [
-        {
-          "url": "https://culture.hu/hu/wien/esemenyek",
-          "error": "The read operation timed out"
-        }
-      ],
-      "flags": [
-        "weak-source-signal:muveszet"
-      ]
+      "errors": [],
+      "flags": []
     },
     {
       "id": "collegium-pazmanianum",
@@ -3004,7 +3002,6 @@
         "neptanc",
         "szinhaz",
         "media",
-        "diak",
         "irodalom",
         "muveszet",
         "sport",
@@ -3328,10 +3325,14 @@
       ],
       "activityCategories": [],
       "signals": [
-        "media"
+        "media",
+        "egyhaz",
+        "irodalom"
       ],
-      "pagesChecked": 0,
-      "checkedUrls": [],
+      "pagesChecked": 1,
+      "checkedUrls": [
+        "https://www.radiohu.hu/"
+      ],
       "errors": [],
       "flags": []
     },
