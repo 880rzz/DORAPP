@@ -1754,7 +1754,7 @@
         "en": "Equatorial Guinea",
         "officialEn": "Republic of Equatorial Guinea"
       },
-      "researchStatus": "unresearched",
+      "researchStatus": "researching",
       "countryDataPath": "data/countries/gq/",
       "route": "countries/gq/",
       "counts": {
@@ -1764,7 +1764,9 @@
         "events": 0,
         "education": 0
       },
-      "iso3": "GNQ"
+      "iso3": "GNQ",
+      "lastResearchAttemptAt": "2026-11-16T02:41:13+00:00",
+      "discoveryCandidateCount": 35
     },
     {
       "iso2": "gr",
@@ -3226,7 +3228,7 @@
         "organizations": 21,
         "activities": 0,
         "entities": 21,
-        "events": 6,
+        "events": 5,
         "education": 4
       },
       "iso3": "NLD",
