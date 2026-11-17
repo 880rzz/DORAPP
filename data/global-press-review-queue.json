@@ -1,12 +1,385 @@
 {
   "schemaVersion": 2,
-  "lastRunAt": "2026-11-16T02:46:03+00:00",
+  "lastRunAt": "2026-11-17T02:44:19+00:00",
   "organizationsTotal": 239,
   "organizationsAttempted": 239,
-  "organizationsChecked": 239,
-  "organizationsFailed": 0,
-  "errors": [],
+  "organizationsChecked": 180,
+  "organizationsFailed": 59,
+  "errors": [
+    {
+      "country": "at",
+      "organizationId": "ak-buecherei-eisenstadt-hungarian",
+      "error": "HTTPError"
+    },
+    {
+      "country": "at",
+      "organizationId": "alsoori-katolikus",
+      "error": "HTTPError"
+    },
+    {
+      "country": "at",
+      "organizationId": "amaped-baden",
+      "error": "HTTPError"
+    },
+    {
+      "country": "at",
+      "organizationId": "becsi-magyar-iskola",
+      "error": "HTTPError"
+    },
+    {
+      "country": "at",
+      "organizationId": "becsi-magyar-iskolaegyesulet",
+      "error": "HTTPError"
+    },
+    {
+      "country": "at",
+      "organizationId": "becsi-naplo",
+      "error": "HTTPError"
+    },
+    {
+      "country": "at",
+      "organizationId": "bobitak-innsbruck",
+      "error": "HTTPError"
+    },
+    {
+      "country": "at",
+      "organizationId": "burgenlaendische-landesbibliothek-hungarian",
+      "error": "HTTPError"
+    },
+    {
+      "country": "at",
+      "organizationId": "duna-filharmonia",
+      "error": "HTTPError"
+    },
+    {
+      "country": "at",
+      "organizationId": "felsoori-katolikus",
+      "error": "HTTPError"
+    },
+    {
+      "country": "at",
+      "organizationId": "grazi-magyar-egyesulet",
+      "error": "HTTPError"
+    },
+    {
+      "country": "at",
+      "organizationId": "imeasz",
+      "error": "HTTPError"
+    },
+    {
+      "country": "at",
+      "organizationId": "kalaka-club",
+      "error": "HTTPError"
+    },
+    {
+      "country": "at",
+      "organizationId": "katolikus-graz",
+      "error": "HTTPError"
+    },
+    {
+      "country": "at",
+      "organizationId": "katolikus-innsbruck",
+      "error": "HTTPError"
+    },
+    {
+      "country": "at",
+      "organizationId": "kerekasztal",
+      "error": "HTTPError"
+    },
+    {
+      "country": "at",
+      "organizationId": "meok-graz",
+      "error": "HTTPError"
+    },
+    {
+      "country": "at",
+      "organizationId": "ne-felejts",
+      "error": "HTTPError"
+    },
+    {
+      "country": "at",
+      "organizationId": "osztrak-magyar-tarsasag",
+      "error": "HTTPError"
+    },
+    {
+      "country": "at",
+      "organizationId": "rolunk-at",
+      "error": "HTTPError"
+    },
+    {
+      "country": "at",
+      "organizationId": "stadtbibliothek-graz-hungarian",
+      "error": "HTTPError"
+    },
+    {
+      "country": "at",
+      "organizationId": "stadtbibliothek-salzburg-hungarian",
+      "error": "HTTPError"
+    },
+    {
+      "country": "at",
+      "organizationId": "szivarvany-gyermektanc",
+      "error": "HTTPError"
+    },
+    {
+      "country": "at",
+      "organizationId": "vhs-burgenland",
+      "error": "HTTPError"
+    },
+    {
+      "country": "at",
+      "organizationId": "virgonc-gyermek",
+      "error": "HTTPError"
+    },
+    {
+      "country": "at",
+      "organizationId": "warter-fantasie",
+      "error": "HTTPError"
+    },
+    {
+      "country": "be",
+      "organizationId": "egyben-belgium",
+      "error": "HTTPError"
+    },
+    {
+      "country": "be",
+      "organizationId": "liszt-intezet-brusszel",
+      "error": "HTTPError"
+    },
+    {
+      "country": "ca",
+      "organizationId": "bokreta-montreal",
+      "error": "HTTPError"
+    },
+    {
+      "country": "ca",
+      "organizationId": "edmontoni-magyar-kulturkor",
+      "error": "HTTPError"
+    },
+    {
+      "country": "ca",
+      "organizationId": "gyanta-montreal",
+      "error": "HTTPError"
+    },
+    {
+      "country": "ca",
+      "organizationId": "hungarian-scouts-toronto",
+      "error": "HTTPError"
+    },
+    {
+      "country": "ca",
+      "organizationId": "our-lady-hungary-parish-vancouver",
+      "error": "HTTPError"
+    },
+    {
+      "country": "ca",
+      "organizationId": "st-elizabeth-hungary-parish-toronto",
+      "error": "HTTPError"
+    },
+    {
+      "country": "de",
+      "organizationId": "buod",
+      "error": "HTTPError"
+    },
+    {
+      "country": "dk",
+      "organizationId": "hya-denmark",
+      "error": "HTTPError"
+    },
+    {
+      "country": "es",
+      "organizationId": "boletin-hungaro-madach",
+      "error": "HTTPError"
+    },
+    {
+      "country": "es",
+      "organizationId": "magyar-fokonzulatus-barcelona",
+      "error": "HTTPError"
+    },
+    {
+      "country": "es",
+      "organizationId": "magyar-tiszteletbeli-konzulatus-palma",
+      "error": "HTTPError"
+    },
+    {
+      "country": "nl",
+      "organizationId": "70-attila-cserkeszcsapat",
+      "error": "HTTPError"
+    },
+    {
+      "country": "nl",
+      "organizationId": "hollandiai-magyar-szovetseg",
+      "error": "HTTPError"
+    },
+    {
+      "country": "nl",
+      "organizationId": "hungaria-club-1929",
+      "error": "HTTPError"
+    },
+    {
+      "country": "nl",
+      "organizationId": "rotterdami-magyar-reformatus-gyulekezet",
+      "error": "HTTPError"
+    },
+    {
+      "country": "us",
+      "organizationId": "american-hungarian-federation",
+      "error": "HTTPError"
+    },
+    {
+      "country": "us",
+      "organizationId": "american-hungarian-library-historical-society",
+      "error": "HTTPError"
+    },
+    {
+      "country": "us",
+      "organizationId": "arpadhon-hungarian-settlement-cultural-association",
+      "error": "HTTPError"
+    },
+    {
+      "country": "us",
+      "organizationId": "association-hungarian-american-academicians",
+      "error": "HTTPError"
+    },
+    {
+      "country": "us",
+      "organizationId": "austin-hungarian-association",
+      "error": "HTTPError"
+    },
+    {
+      "country": "us",
+      "organizationId": "bessenyei-gyorgy-scout-troop-22-cleveland",
+      "error": "HTTPError"
+    },
+    {
+      "country": "us",
+      "organizationId": "colorado-hungarian-club",
+      "error": "HTTPError"
+    },
+    {
+      "country": "us",
+      "organizationId": "hungarian-american-coalition",
+      "error": "HTTPError"
+    },
+    {
+      "country": "us",
+      "organizationId": "hungarian-association-cleveland",
+      "error": "HTTPError"
+    },
+    {
+      "country": "us",
+      "organizationId": "hungarian-church-in-the-carolinas",
+      "error": "HTTPError"
+    },
+    {
+      "country": "us",
+      "organizationId": "hungarian-club-of-chicago",
+      "error": "HTTPError"
+    },
+    {
+      "country": "us",
+      "organizationId": "hungarian-cultural-center-detroit",
+      "error": "HTTPError"
+    },
+    {
+      "country": "us",
+      "organizationId": "hungarianhub",
+      "error": "HTTPError"
+    },
+    {
+      "country": "us",
+      "organizationId": "hungary-foundation",
+      "error": "HTTPError"
+    },
+    {
+      "country": "us",
+      "organizationId": "metroplex-magyar-cultural-circle",
+      "error": "HTTPError"
+    },
+    {
+      "country": "us",
+      "organizationId": "united-hungarian-societies-cleveland",
+      "error": "HTTPError"
+    }
+  ],
   "candidates": [
+    {
+      "country": "be",
+      "organizationId": "eurologus",
+      "organizationName": "EUrologus",
+      "title": "EUrologus: Orbán Anita Brüsszelben: Minél hamarabb legyen béke Ukrajnában - | hvg.hu",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPQ3RIOVhtZ1VYeF9qVFVfQXlMYTFkcmlDYVhPOGphTWFKRk1CYVpPZzZLRE4teDVLVE9MRkJXaUo2N3BfclFJSE04Y3hRVTZLdnZtbUJmSVQxcm04OFdybkVwZjVHcXN0V2ROdHNEcUNSeDBUaGdBMWpyUTE0eFRIcWZiUk9ZblhaLVQ1S28zdDN1elk?oc=5",
+      "published": "Mon, 16 Nov 2026 10:05:27 GMT",
+      "status": "candidate-needs-identity-and-source-verification",
+      "discoverySource": "Google News RSS",
+      "discoveredAt": "2026-11-17T02:44:19+00:00"
+    },
+    {
+      "country": "be",
+      "organizationId": "eurologus",
+      "organizationName": "EUrologus",
+      "title": "EUrologus: Rekordösszegű uniós támogatást kap Ukrajna, drónokra és légvédelemre is jut pénz - | hvg.hu",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5DTU5xeXNjTTBLaE1Hc2FBQnp4bkNNN0Z2amFYWEpPTm1rMjJoZG5EN3pxRERnN2xwLWFFclpoQ2JKZjVFQko2Qy0wTGxlcTZyQWhhcWtZd2xvUWRtcWU5VVo0V21BMGl0cHJFQ3dQX2ZLallNWXZXcmdR?oc=5",
+      "published": "Mon, 16 Nov 2026 12:04:08 GMT",
+      "status": "candidate-needs-identity-and-source-verification",
+      "discoverySource": "Google News RSS",
+      "discoveredAt": "2026-11-17T02:44:19+00:00"
+    },
+    {
+      "country": "at",
+      "organizationId": "ori-banda",
+      "organizationName": "Őri Banda",
+      "title": "25 éves az Őri Banda - Magyarok - Aktuális - ORF",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFA1Y01RVFBKZHo3c2h2cEtXckZveExKN19xYnpRSVAxdU9rSGEySzRDbnZ2RU92dEJSUVlTbHJJbzN3X2lxTzZwNGpEUTlfWTJka3BwVHBScjBHR3RaTFYwNzBXQQ?oc=5",
+      "published": "Mon, 16 Nov 2026 12:08:24 GMT",
+      "status": "candidate-needs-identity-and-source-verification",
+      "discoverySource": "Google News RSS",
+      "discoveredAt": "2026-11-17T02:44:19+00:00"
+    },
+    {
+      "country": "at",
+      "organizationId": "kultpult",
+      "organizationName": "KultPult",
+      "title": "Digitális szex, ittas vezetés és gyilkosságok – A GTA legnagyobb botrányai | Vasárnap | Családi magazin és portál - Új Szó",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOT1FDN0FFZnBoWHJxNGxROVJoUlRtRjJWMFZXRGtFc25UUkZsSExVMEVVRkRhaFBISE4zMlY4YUlqUmN0d3ptb1RiOWpIWExZS1dQTUc2V1RDeDhHT3FTVTFjOGxpckJuLUJ5ZTZzSW9scVpsNjVHUnlkVW1MZEloMzN2dk9hUDdMVWl0bkdleVRYaVN2RV8tUQ?oc=5",
+      "published": "Mon, 16 Nov 2026 09:00:00 GMT",
+      "status": "candidate-needs-identity-and-source-verification",
+      "discoverySource": "Google News RSS",
+      "discoveredAt": "2026-11-17T02:44:19+00:00"
+    },
+    {
+      "country": "at",
+      "organizationId": "kultpult",
+      "organizationName": "KultPult",
+      "title": "Robert Pattinson lesz az új James Bond | Vasárnap | Családi magazin és portál - Új Szó",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5oU25yOWhLSmhhWFhqTG9ydkxHSHBJYk9mTUVWZEN1WXN6NWRVcEVPYjhjejVpSWlfcVR6S2xwbnktMnpaN3NGc3VjTGlLNHhZU1pucnBxM3JXZWVWVFh2THRYMzhEX3diSXhlMDFqYw?oc=5",
+      "published": "Mon, 16 Nov 2026 15:00:00 GMT",
+      "status": "candidate-needs-identity-and-source-verification",
+      "discoverySource": "Google News RSS",
+      "discoveredAt": "2026-11-17T02:44:19+00:00"
+    },
+    {
+      "country": "at",
+      "organizationId": "kultpult",
+      "organizationName": "KultPult",
+      "title": "Miről ír a Vasárnap legújabb száma? | Vasárnap | Családi magazin és portál - Új Szó",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE40Rk5ra2RqRjJONmxfWHNCSkNHRHBscXAwVzBTVTJ1VFdKRUN4TUNJMUhsUTlRdWVIOEptVlhuQ3YwZ0NkMTZoTUh3ejhVeHZyTm92V29wZnAxWTEyQkFLbFhSNEZYNzFtbDZ3?oc=5",
+      "published": "Mon, 16 Nov 2026 07:00:00 GMT",
+      "status": "candidate-needs-identity-and-source-verification",
+      "discoverySource": "Google News RSS",
+      "discoveredAt": "2026-11-17T02:44:19+00:00"
+    },
+    {
+      "country": "at",
+      "organizationId": "club-pannonia",
+      "organizationName": "Club Pannonia",
+      "title": "Budapest emlékhelyei – új lehetőségek a tematikus és emlékező turizmusban - Turizmus.com",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQNFQ3NE1iN1pzTm91cGlCeG8tUDFlNHJSb2xoSlZ0QVg0VjhCOWYzSzFjOGNxNEtNelk2Qi1BelA0c2JnQ2RfOUlxSkJ5b0g1cXFYMlhYTkROSDFSWjRLa1JYSzRTbEpJSF9wUjdiTmRWMFJZZEJUWXJFNDJQMkg0QXY1RXVuM0N5d2JuSWc2c3NWM2Fxd3NkczNpTkdZdmlhZGk3WF9sRQ?oc=5",
+      "published": "Mon, 16 Nov 2026 13:07:00 GMT",
+      "status": "candidate-needs-identity-and-source-verification",
+      "discoverySource": "Google News RSS",
+      "discoveredAt": "2026-11-17T02:44:19+00:00"
+    },
     {
       "country": "us",
       "organizationId": "bocskai-radio",
@@ -16,7 +389,8 @@
       "published": "Sun, 15 Nov 2026 12:29:00 GMT",
       "status": "candidate-needs-identity-and-source-verification",
       "discoverySource": "Google News RSS",
-      "discoveredAt": "2026-11-16T02:46:03+00:00"
+      "discoveredAt": "2026-11-16T02:46:03+00:00",
+      "lastSeenAt": "2026-11-17T02:44:19+00:00"
     },
     {
       "country": "be",
@@ -27,7 +401,8 @@
       "published": "Sun, 15 Nov 2026 15:29:09 GMT",
       "status": "candidate-needs-identity-and-source-verification",
       "discoverySource": "Google News RSS",
-      "discoveredAt": "2026-11-16T02:46:03+00:00"
+      "discoveredAt": "2026-11-16T02:46:03+00:00",
+      "lastSeenAt": "2026-11-17T02:44:19+00:00"
     },
     {
       "country": "be",
@@ -38,7 +413,8 @@
       "published": "Sun, 15 Nov 2026 11:00:00 GMT",
       "status": "candidate-needs-identity-and-source-verification",
       "discoverySource": "Google News RSS",
-      "discoveredAt": "2026-11-16T02:46:03+00:00"
+      "discoveredAt": "2026-11-16T02:46:03+00:00",
+      "lastSeenAt": "2026-11-17T02:44:19+00:00"
     },
     {
       "country": "at",
@@ -49,7 +425,8 @@
       "published": "Sat, 14 Nov 2026 07:30:00 GMT",
       "status": "candidate-needs-identity-and-source-verification",
       "discoverySource": "Google News RSS",
-      "discoveredAt": "2026-11-16T02:46:03+00:00"
+      "discoveredAt": "2026-11-16T02:46:03+00:00",
+      "lastSeenAt": "2026-11-17T02:44:19+00:00"
     },
     {
       "country": "at",
@@ -72,7 +449,7 @@
       "status": "candidate-needs-identity-and-source-verification",
       "discoverySource": "Google News RSS",
       "discoveredAt": "2026-11-15T02:45:03+00:00",
-      "lastSeenAt": "2026-11-16T02:46:03+00:00"
+      "lastSeenAt": "2026-11-17T02:44:19+00:00"
     },
     {
       "country": "at",
@@ -84,7 +461,7 @@
       "status": "candidate-needs-identity-and-source-verification",
       "discoverySource": "Google News RSS",
       "discoveredAt": "2026-11-15T02:45:03+00:00",
-      "lastSeenAt": "2026-11-16T02:46:03+00:00"
+      "lastSeenAt": "2026-11-17T02:44:19+00:00"
     },
     {
       "country": "at",
@@ -96,7 +473,7 @@
       "status": "candidate-needs-identity-and-source-verification",
       "discoverySource": "Google News RSS",
       "discoveredAt": "2026-11-15T02:45:03+00:00",
-      "lastSeenAt": "2026-11-16T02:46:03+00:00"
+      "lastSeenAt": "2026-11-17T02:44:19+00:00"
     },
     {
       "country": "at",
@@ -108,7 +485,7 @@
       "status": "candidate-needs-identity-and-source-verification",
       "discoverySource": "Google News RSS",
       "discoveredAt": "2026-11-15T02:45:03+00:00",
-      "lastSeenAt": "2026-11-16T02:46:03+00:00"
+      "lastSeenAt": "2026-11-17T02:44:19+00:00"
     },
     {
       "country": "nl",
@@ -131,7 +508,7 @@
       "status": "candidate-needs-identity-and-source-verification",
       "discoverySource": "Google News RSS",
       "discoveredAt": "2026-11-14T02:45:12+00:00",
-      "lastSeenAt": "2026-11-16T02:46:03+00:00"
+      "lastSeenAt": "2026-11-17T02:44:19+00:00"
     },
     {
       "country": "be",
@@ -143,7 +520,7 @@
       "status": "candidate-needs-identity-and-source-verification",
       "discoverySource": "Google News RSS",
       "discoveredAt": "2026-11-14T02:45:12+00:00",
-      "lastSeenAt": "2026-11-16T02:46:03+00:00"
+      "lastSeenAt": "2026-11-17T02:44:19+00:00"
     },
     {
       "country": "be",
@@ -155,7 +532,7 @@
       "status": "candidate-needs-identity-and-source-verification",
       "discoverySource": "Google News RSS",
       "discoveredAt": "2026-11-14T02:45:12+00:00",
-      "lastSeenAt": "2026-11-16T02:46:03+00:00"
+      "lastSeenAt": "2026-11-17T02:44:19+00:00"
     },
     {
       "country": "at",
@@ -167,7 +544,7 @@
       "status": "candidate-needs-identity-and-source-verification",
       "discoverySource": "Google News RSS",
       "discoveredAt": "2026-11-14T02:45:12+00:00",
-      "lastSeenAt": "2026-11-16T02:46:03+00:00"
+      "lastSeenAt": "2026-11-17T02:44:19+00:00"
     },
     {
       "country": "at",
@@ -179,7 +556,7 @@
       "status": "candidate-needs-identity-and-source-verification",
       "discoverySource": "Google News RSS",
       "discoveredAt": "2026-11-14T02:45:12+00:00",
-      "lastSeenAt": "2026-11-16T02:46:03+00:00"
+      "lastSeenAt": "2026-11-17T02:44:19+00:00"
     },
     {
       "country": "at",
@@ -203,7 +580,7 @@
       "status": "candidate-needs-identity-and-source-verification",
       "discoverySource": "Google News RSS",
       "discoveredAt": "2026-11-13T02:44:34+00:00",
-      "lastSeenAt": "2026-11-16T02:46:03+00:00"
+      "lastSeenAt": "2026-11-17T02:44:19+00:00"
     },
     {
       "country": "be",
@@ -263,7 +640,7 @@
       "status": "candidate-needs-identity-and-source-verification",
       "discoverySource": "Google News RSS",
       "discoveredAt": "2026-11-13T02:44:34+00:00",
-      "lastSeenAt": "2026-11-15T02:45:03+00:00"
+      "lastSeenAt": "2026-11-17T02:44:19+00:00"
     },
     {
       "country": "at",
@@ -335,7 +712,7 @@
       "status": "candidate-needs-identity-and-source-verification",
       "discoverySource": "Google News RSS",
       "discoveredAt": "2026-11-12T10:17:51+00:00",
-      "lastSeenAt": "2026-11-15T02:45:03+00:00"
+      "lastSeenAt": "2026-11-17T02:44:19+00:00"
     },
     {
       "country": "at",
@@ -418,7 +795,7 @@
       "status": "candidate-needs-identity-and-source-verification",
       "discoverySource": "Google News RSS",
       "discoveredAt": "2026-11-11T09:53:49+00:00",
-      "lastSeenAt": "2026-11-16T02:46:03+00:00"
+      "lastSeenAt": "2026-11-17T02:44:19+00:00"
     },
     {
       "country": "be",
@@ -430,7 +807,7 @@
       "status": "candidate-needs-identity-and-source-verification",
       "discoverySource": "Google News RSS",
       "discoveredAt": "2026-11-11T09:53:49+00:00",
-      "lastSeenAt": "2026-11-16T02:46:03+00:00"
+      "lastSeenAt": "2026-11-17T02:44:19+00:00"
     },
     {
       "country": "at",
@@ -549,7 +926,7 @@
       "status": "candidate-needs-identity-and-source-verification",
       "discoverySource": "Google News RSS",
       "discoveredAt": "2026-11-10T10:24:03+00:00",
-      "lastSeenAt": "2026-11-16T02:46:03+00:00"
+      "lastSeenAt": "2026-11-17T02:44:19+00:00"
     },
     {
       "country": "at",
