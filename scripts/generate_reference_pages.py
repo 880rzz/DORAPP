@@ -40,7 +40,7 @@ for path in EVENT_DIR.glob("*.html"):
 
 PUBLISHER={
   "@type":"Organization",
-  "@id":BASE+"/#publisher",
+  "@id":"https://www.kozpontiszovetseg.at/#organization",
   "name":"Ausztriai Magyar Egyesületek és Szervezetek Központi Szövetsége",
   "url":"https://www.kozpontiszovetseg.at/",
   "identifier":{"@type":"PropertyValue","propertyID":"ZVR","value":"079797621"}
@@ -109,7 +109,7 @@ for e in events:
     offer=offer_schema(e)
     if offer: schema_event["offers"]=offer
     schema={"@context":"https://schema.org","@graph":[
-      {"@type":"WebPage","@id":url+"#page","url":url,"name":e.get("name"),"inLanguage":"hu-AT","mainEntity":{"@id":url+"#event"},"isPartOf":{"@id":BASE+"/#website"},"publisher":{"@id":BASE+"/#publisher"},**({"dateModified":str(e.get("verifiedAt"))[:10]} if e.get("verifiedAt") else {})},
+      {"@type":"WebPage","@id":url+"#page","url":url,"name":e.get("name"),"inLanguage":"hu-AT","mainEntity":{"@id":url+"#event"},"isPartOf":{"@id":BASE+"/#website"},"publisher":{"@id":"https://www.kozpontiszovetseg.at/#organization"},**({"dateModified":str(e.get("verifiedAt"))[:10]} if e.get("verifiedAt") else {})},
       schema_event,
       PUBLISHER,
       {"@type":"BreadcrumbList","itemListElement":[
@@ -144,7 +144,7 @@ for sid,s in states.items():
     for o in s_org:
         items.append({"@type":"ListItem","position":pos,"url":f'{BASE}/szervezetek/{quote(o["id"])}.html',"name":o["name"]});pos+=1
     schema={"@context":"https://schema.org","@graph":[
-      {"@type":"CollectionPage","@id":url+"#page","url":url,"name":f'{s["name"]} magyar közösségei és programjai',"description":desc,"inLanguage":"hu-AT","isPartOf":{"@id":BASE+"/#website"},"publisher":{"@id":BASE+"/#publisher"},"mainEntity":{"@id":url+"#list"}},
+      {"@type":"CollectionPage","@id":url+"#page","url":url,"name":f'{s["name"]} magyar közösségei és programjai',"description":desc,"inLanguage":"hu-AT","isPartOf":{"@id":BASE+"/#website"},"publisher":{"@id":"https://www.kozpontiszovetseg.at/#organization"},"mainEntity":{"@id":url+"#list"}},
       {"@type":"ItemList","@id":url+"#list","numberOfItems":len(items),"itemListElement":items},
       PUBLISHER,
       {"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Magyar Programok Ausztriában","item":BASE+"/"},{"@type":"ListItem","position":2,"name":s["name"],"item":url}]}
@@ -161,7 +161,7 @@ for c in categories:
     desc=f'{label} kategóriába tartozó ausztriai magyar szervezetek és közösségek ellenőrzött forrásokkal.'
     items=[{"@type":"ListItem","position":i+1,"url":f'{BASE}/szervezetek/{quote(o["id"])}.html',"name":o["name"]} for i,o in enumerate(selected)]
     schema={"@context":"https://schema.org","@graph":[
-      {"@type":"CollectionPage","@id":url+"#page","url":url,"name":f'{label} – ausztriai magyar közösségek',"description":desc,"inLanguage":"hu-AT","isPartOf":{"@id":BASE+"/#website"},"publisher":{"@id":BASE+"/#publisher"},"mainEntity":{"@id":url+"#list"}},
+      {"@type":"CollectionPage","@id":url+"#page","url":url,"name":f'{label} – ausztriai magyar közösségek',"description":desc,"inLanguage":"hu-AT","isPartOf":{"@id":BASE+"/#website"},"publisher":{"@id":"https://www.kozpontiszovetseg.at/#organization"},"mainEntity":{"@id":url+"#list"}},
       {"@type":"ItemList","@id":url+"#list","numberOfItems":len(items),"itemListElement":items},PUBLISHER,
       {"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Magyar Programok Ausztriában","item":BASE+"/"},{"@type":"ListItem","position":2,"name":label,"item":url}]}
     ]}
@@ -173,9 +173,9 @@ for c in categories:
 entity={
  "@context":"https://schema.org",
  "@graph":[
-   {"@type":"WebSite","@id":BASE+"/#website","name":"Magyar Programok Ausztriában","url":BASE+"/","inLanguage":"hu-AT","publisher":{"@id":BASE+"/#publisher"}},
+   {"@type":"WebSite","@id":BASE+"/#website","name":"Magyar Programok Ausztriában","url":BASE+"/","inLanguage":"hu-AT","publisher":{"@id":"https://www.kozpontiszovetseg.at/#organization"}},
    PUBLISHER,
-   {"@type":"Dataset","@id":BASE+"/#dataset","name":"Ausztriai magyar közösségek, oktatás, programok és magyar szolgáltatást nyújtó intézmények","description":"Forrásalapú országos adatbázis az Ausztriában működő magyar közösségekről, oktatási helyekről, nyilvános eseményekről és külön jelölt osztrák fogadóintézményekről, amelyek igazolt magyar szolgáltatást vagy gyűjteményt kínálnak.","url":BASE+"/","inLanguage":"hu-AT","creator":{"@id":BASE+"/#publisher"},"license":BASE+"/forrasok.html","dateModified":DATA_MODIFIED,"spatialCoverage":{"@type":"Country","name":"Austria"},"keywords":["ausztriai magyarok","magyar szervezetek Ausztriában","magyar programok Ausztriában","magyar oktatás Ausztriában","diaszpóra"],
+   {"@type":"Dataset","@id":BASE+"/#dataset","name":"Ausztriai magyar közösségek, oktatás, programok és magyar szolgáltatást nyújtó intézmények","description":"Forrásalapú országos adatbázis az Ausztriában működő magyar közösségekről, oktatási helyekről, nyilvános eseményekről és külön jelölt osztrák fogadóintézményekről, amelyek igazolt magyar szolgáltatást vagy gyűjteményt kínálnak.","url":BASE+"/","inLanguage":"hu-AT","creator":{"@id":"https://www.kozpontiszovetseg.at/#organization"},"license":BASE+"/forrasok.html","dateModified":DATA_MODIFIED,"spatialCoverage":{"@type":"Country","name":"Austria"},"keywords":["ausztriai magyarok","magyar szervezetek Ausztriában","magyar programok Ausztriában","magyar oktatás Ausztriában","diaszpóra"],
     "distribution":[
       {"@type":"DataDownload","encodingFormat":"application/json","contentUrl":BASE+"/data/organizations.json"},
       {"@type":"DataDownload","encodingFormat":"application/json","contentUrl":BASE+"/data/education.json"},
@@ -221,8 +221,8 @@ edu_health=status_counts(EDU_HEALTH.get("sites",[]))
 quality_url=BASE+"/adatminoseg.html"
 quality_desc="A DORAPP forrás-, frissességi és adatminőségi státuszának nyilvános, géppel is értelmezhető összefoglalója."
 quality_schema={"@context":"https://schema.org","@graph":[
-  {"@type":"WebPage","@id":quality_url+"#page","url":quality_url,"name":"DORAPP adatminőség és transzparencia","description":quality_desc,"inLanguage":"hu-AT","isPartOf":{"@id":BASE+"/#website"},"publisher":{"@id":BASE+"/#publisher"}},
-  {"@type":"DataCatalog","@id":quality_url+"#catalog","name":"DORAPP – Ausztriai magyar közösségi adatbázis","url":BASE+"/","description":quality_desc,"provider":{"@id":BASE+"/#publisher"},"dataset":{"@id":BASE+"/#dataset"},"dateModified":DATA_MODIFIED},
+  {"@type":"WebPage","@id":quality_url+"#page","url":quality_url,"name":"DORAPP adatminőség és transzparencia","description":quality_desc,"inLanguage":"hu-AT","isPartOf":{"@id":BASE+"/#website"},"publisher":{"@id":"https://www.kozpontiszovetseg.at/#organization"}},
+  {"@type":"DataCatalog","@id":quality_url+"#catalog","name":"DORAPP – Ausztriai magyar közösségi adatbázis","url":BASE+"/","description":quality_desc,"provider":{"@id":"https://www.kozpontiszovetseg.at/#organization"},"dataset":{"@id":BASE+"/#dataset"},"dateModified":DATA_MODIFIED},
   PUBLISHER
 ]}
 event_rows="".join(f'<li><strong>{esc(status_label(k))}</strong>: {v}</li>' for k,v in sorted(event_health.items()))
