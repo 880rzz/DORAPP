@@ -57,9 +57,9 @@ def main():
             if e.get("organizer"):
                 event["organizer"]={"@type":"Organization","name":e.get("organizer")}
             schema={"@context":"https://schema.org","@graph":[
-                {"@type":"WebPage","@id":url+"#page","url":url,"name":title,"description":desc,"inLanguage":"hu","dateModified":verified,"mainEntity":{"@id":url+"#event"},"isPartOf":{"@id":BASE+"/#website"},"publisher":{"@id":BASE+"/#organization"}},
+                {"@type":"WebPage","@id":url+"#page","url":url,"name":title,"description":desc,"inLanguage":"hu","dateModified":verified,"mainEntity":{"@id":url+"#event"},"isPartOf":{"@id":BASE+"/#website"},"publisher":{"@id":"https://www.kozpontiszovetseg.at/#organization"}},
                 event,
-                {"@type":"Organization","@id":BASE+"/#organization","name":"Központi Szövetség","url":"https://www.kozpontiszovetseg.at/"},
+                {"@type":"Organization","@id":"https://www.kozpontiszovetseg.at/#organization","name":"Központi Szövetség","url":"https://www.kozpontiszovetseg.at/"},
                 {"@type":"BreadcrumbList","itemListElement":[
                     {"@type":"ListItem","position":1,"name":"DORAPP","item":BASE+"/"},
                     {"@type":"ListItem","position":2,"name":country_name,"item":f"{BASE}/countries/{iso}/"},
