@@ -193,7 +193,7 @@ def main():
             legacy_events=source_list(o.get("eventSources"),"Nincs további programforrás rögzítve.")
             evidence=source_list(o.get("evidenceSources"),"Még nincs külön háttérforrás rögzítve.")
 
-            publisher={"@type":"Organization","@id":BASE+"/#organization","name":"Központi Szövetség","url":"https://www.kozpontiszovetseg.at/"}
+            publisher={"@type":"Organization","@id":"https://www.kozpontiszovetseg.at/#organization","name":"Központi Szövetség","url":"https://www.kozpontiszovetseg.at/"}
             entity={"@type":"Organization","@id":url+"#entity","name":o.get("name"),"description":intro,"url":o.get("website") or url,"mainEntityOfPage":{"@id":url+"#page"},"areaServed":{"@type":"Country","name":country_name}}
             same=[u for _,u in socials if u]
             if same:entity["sameAs"]=same
@@ -214,7 +214,7 @@ def main():
             if parent:entity["parentOrganization"]={"@type":"Organization","name":parent.get("name"),"url":f"{BASE}/countries/{iso}/organizations/{parent.get('id')}.html"}
 
             schema={"@context":"https://schema.org","@graph":[
-                {"@type":"ProfilePage","@id":url+"#page","url":url,"name":title,"description":desc,"inLanguage":"hu","dateModified":verified_at,"mainEntity":{"@id":url+"#entity"},"isPartOf":{"@id":BASE+"/#website"},"publisher":{"@id":BASE+"/#organization"},"breadcrumb":{"@id":url+"#breadcrumb"}},
+                {"@type":"ProfilePage","@id":url+"#page","url":url,"name":title,"description":desc,"inLanguage":"hu","dateModified":verified_at,"mainEntity":{"@id":url+"#entity"},"isPartOf":{"@id":BASE+"/#website"},"publisher":{"@id":"https://www.kozpontiszovetseg.at/#organization"},"breadcrumb":{"@id":url+"#breadcrumb"}},
                 entity,
                 publisher,
                 {"@type":"BreadcrumbList","@id":url+"#breadcrumb","itemListElement":[
