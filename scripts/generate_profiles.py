@@ -110,7 +110,7 @@ for o in db["organizations"]:
     src_html="<ul class=\"source-list\">"+"".join(f'<li><a href="{esc(u)}" target="_blank" rel="noopener external">{esc(u)}</a></li>' for u in src)+"</ul>" if src else "<p>Nincs külön automatikusan importált eseményforrás.</p>"
     calendar_html="<ul class=\"source-list\">"+"".join(f'<li><a href="{esc(c.get("url"))}" target="_blank" rel="noopener external">{esc(human_source_label(c.get("label") or c.get("url")))}</a>{(" · "+esc(c.get("platform"))) if c.get("platform") else ""}{(" · automatikus import" if c.get("ingestEvents") else " · ellenőrzött hivatkozás")}</li>' for c in calendars if c.get("url"))+"</ul>" if calendars else "<p>Nincs külön igazolt eseménynaptár vagy social programforrás rögzítve.</p>"
     page_url=f"{BASE_URL}/szervezetek/{o['id']}.html"
-    publisher={"@type":"Organization","@id":BASE_URL+"/#publisher","name":"Ausztriai Magyar Egyesületek és Szervezetek Központi Szövetsége","url":"https://www.kozpontiszovetseg.at/","identifier":{"@type":"PropertyValue","propertyID":"ZVR","value":"079797621"}}
+    publisher={"@type":"Organization","@id":"https://www.kozpontiszovetseg.at/#organization","name":"Ausztriai Magyar Egyesületek és Szervezetek Központi Szövetsége","url":"https://www.kozpontiszovetseg.at/","identifier":{"@type":"PropertyValue","propertyID":"ZVR","value":"079797621"}}
     entity_class=o.get("entityClass")
     haystack=(o.get("type","")+" "+o.get("name","")).casefold()
     if entity_class=="host-institution" and any(k in haystack for k in ("könyvtár","bibliothek","library")):
@@ -140,7 +140,7 @@ for o in db["organizations"]:
     if parent:
         org_schema["parentOrganization"]={"@type":"Organization","name":parent.get("name"),"url":f"{BASE_URL}/szervezetek/{parent.get('id')}.html"}
     schema={"@context":"https://schema.org","@graph":[
-      {"@type":"ProfilePage","@id":page_url+"#page","name":o["name"]+" | Magyar Programok Ausztriában","url":page_url,"inLanguage":"hu-AT","mainEntity":{"@id":page_url+"#organization"},"isPartOf":{"@id":BASE_URL+"/#website"},"publisher":{"@id":BASE_URL+"/#publisher"},**({"dateModified":o.get("profileVerifiedAt")} if o.get("profileVerifiedAt") else {})},
+      {"@type":"ProfilePage","@id":page_url+"#page","name":o["name"]+" | Magyar Programok Ausztriában","url":page_url,"inLanguage":"hu-AT","mainEntity":{"@id":page_url+"#organization"},"isPartOf":{"@id":BASE_URL+"/#website"},"publisher":{"@id":"https://www.kozpontiszovetseg.at/#organization"},**({"dateModified":o.get("profileVerifiedAt")} if o.get("profileVerifiedAt") else {})},
       org_schema,
       publisher,
       {"@type":"BreadcrumbList","itemListElement":[
