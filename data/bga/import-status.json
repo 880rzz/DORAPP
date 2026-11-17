@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "asOf": "2026-11-03T05:52:19Z",
+  "mode": "BLOCKED_LICENSE_OR_EXPORT",
+  "ingestAllowed": false,
+  "blockerId": "BLOCKED_LICENSE_OR_EXPORT",
+  "reason": "No authorized bulk channel evidenced; refusing live JSF scrape per Issue #59 and robots.txt.",
+  "requiredAccess": [
+    "Documented bulk API or official export",
+    "Explicit reuse terms for public-interest directory linking",
+    "Guidance forbidding republication of tax IDs / personal applicants"
+  ],
+  "robots": "https://adattar.bgazrt.hu/robots.txt Disallow: /",
+  "ui": "https://adattar.bgazrt.hu/adattar/riport/terkep.xhtml",
+  "counts": {
+    "applicants": 0,
+    "applications": 0,
+    "awards": 0,
+    "unsuccessful": 0,
+    "organizationCandidates": 0
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "note": "Synthetic steward-approved fixture. Not live BGA data.",
+  "records": [
+    {
+      "applicantId": "bga-app-001",
+      "legalName": "Example Hungarian Association Abroad",
+      "applicationId": "app-1001",
+      "programmeCode": "DIA-EXAMPLE",
+      "outcome": "awarded",
+      "amount": 1000000,
+      "currency": "HUF",
+      "taxId": "12345678-1-42"
+    },
+    {
+      "applicantId": "bga-app-002",
+      "legalName": "Unrelated Name Collision Club",
+      "applicationId": "app-1002",
+      "programmeCode": "DIA-EXAMPLE",
+      "outcome": "unsuccessful",
+      "adoszam": "87654321-2-41"
+    }
+  ]
+}
