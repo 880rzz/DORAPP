@@ -1,9 +1,9 @@
 {
-  "updated": "2026-11-17T05:16:15.577480+00:00",
+  "updated": "2026-11-18T04:23:21.955234+00:00",
   "summary": {
     "organizations": 163,
     "organizationFlags": 1,
-    "organizationPagesChecked": 335,
+    "organizationPagesChecked": 334,
     "education": 112,
     "educationFlags": 0,
     "events": 63,
@@ -507,10 +507,8 @@
       "activityCategories": [],
       "signals": [
         "oktatas",
-        "enekkar",
         "szinhaz",
         "media",
-        "egyhaz",
         "irodalom",
         "muveszet",
         "sport",
@@ -610,6 +608,7 @@
         "oktatas",
         "neptanc",
         "nepzene",
+        "enekkar",
         "szinhaz",
         "media",
         "egyhaz",
@@ -742,6 +741,7 @@
       ],
       "signals": [
         "oktatas",
+        "enekkar",
         "media",
         "irodalom"
       ],
@@ -1673,6 +1673,7 @@
       "activityCategories": [],
       "signals": [
         "oktatas",
+        "enekkar",
         "szinhaz",
         "media"
       ],
@@ -1937,14 +1938,15 @@
       ],
       "activityCategories": [],
       "signals": [
-        "sport",
-        "csalad"
+        "sport"
       ],
-      "pagesChecked": 1,
-      "checkedUrls": [
-        "http://www.geschriebensteinlauf.at"
-      ],
+      "pagesChecked": 0,
+      "checkedUrls": [],
       "errors": [
+        {
+          "url": "http://www.geschriebensteinlauf.at",
+          "error": "The read operation timed out"
+        },
         {
           "url": "https://www.askoe.at/de/verband-vereine/askoe-vereine/clubshow-10438",
           "error": "HTTP Error 404: Not Found"
@@ -2194,6 +2196,7 @@
       "activityCategories": [],
       "signals": [
         "oktatas",
+        "enekkar",
         "szinhaz",
         "media",
         "csalad"
@@ -2728,7 +2731,6 @@
         "oktatas",
         "neptanc",
         "nepzene",
-        "enekkar",
         "szinhaz",
         "media",
         "egyhaz",
@@ -3914,6 +3916,7 @@
         "diak",
         "irodalom",
         "muveszet",
+        "sport",
         "csalad"
       ],
       "pagesChecked": 3,
