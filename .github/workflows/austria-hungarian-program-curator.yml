@@ -9,6 +9,7 @@ on:
       - "scripts/update_events.py"
       - "scripts/sync_member_programs.py"
       - "scripts/sync_member_sources.py"
+      - "scripts/audit_federation_program_sources.py"
       - ".github/workflows/austria-hungarian-program-curator.yml"
   schedule:
     - cron: "17 4 * * *"
@@ -29,13 +30,23 @@ jobs:
       - name: Install deterministic build dependencies
         run: python -m pip install --disable-pip-version-check pycountry==24.6.1 pyshp==2.3.1
       - name: Compile curator
-        run: python -m py_compile scripts/update_events.py scripts/sync_member_sources.py scripts/sync_member_programs.py scripts/update_articles.py scripts/audit_taxonomy.py scripts/validate_directory.py
+        run: python -m py_compile scripts/update_events.py scripts/sync_member_sources.py scripts/sync_member_programs.py scripts/update_articles.py scripts/audit_taxonomy.py scripts/validate_directory.py scripts/audit_federation_program_sources.py
       - name: Refresh federation source authority
         run: python scripts/sync_member_sources.py
       - name: Refresh verified event sources
         run: python scripts/update_events.py
       - name: Import authoritative federation member programs
         run: python scripts/sync_member_programs.py
+      - name: Validate canonical 29-member source mirror and imported events
+        run: python scripts/audit_federation_program_sources.py --output "$RUNNER_TEMP/federation-source-coverage.json"
+      - name: Preserve federation coverage verification report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: dorapp-federation-source-coverage
+          path: "${{ runner.temp }}/federation-source-coverage.json"
+          retention-days: 30
+          if-no-files-found: warn
       - name: Refresh organization articles
         run: python scripts/update_articles.py
       - name: Refresh taxonomy audit
@@ -95,8 +106,8 @@ jobs:
               python scripts/audit_taxonomy.py
               python scripts/validate_directory.py
               python -m json.tool data/events.json >/dev/null
-          python -m json.tool data/member-programs-ecosystem.json >/dev/null
-          python -m json.tool data/member-event-sources-ecosystem.json >/dev/null
+              python -m json.tool data/member-programs-ecosystem.json >/dev/null
+              python -m json.tool data/member-event-sources-ecosystem.json >/dev/null
               python -m json.tool data/source-health.json >/dev/null
               python -m json.tool data/articles.json >/dev/null
               python -m json.tool data/taxonomy-audit.json >/dev/null
