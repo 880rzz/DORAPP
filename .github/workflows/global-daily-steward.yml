@@ -40,6 +40,7 @@ on:
       - "scripts/validate_verified_zero.py"
       - "scripts/update_events.py"
       - "scripts/sync_member_programs.py"
+      - "scripts/sync_member_sources.py"
       - "member-programs.js"
       - "app.js"
       - "world.js"
@@ -94,6 +95,10 @@ jobs:
         if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
         run: python scripts/promote_verified_entities.py
 
+      - name: Refresh Ökoszisztéma federation source catalog
+        if: env.RUN_EVENT_REFRESH == 'true'
+        run: python scripts/sync_member_sources.py
+
       - name: Refresh country-scoped event sources
         if: env.RUN_EVENT_REFRESH == 'true'
         run: python scripts/update_country_events.py
@@ -144,13 +149,13 @@ jobs:
 
       - name: Commit material changes safely
         run: |
-          if [ -z "$(git status --porcelain -- data/events.json data/member-programs-ecosystem.json data/global.json data/research-state.json data/verification-queue.json data/promotion-ready.json data/global-press-review-queue.json data/daily-runs data/countries data/global-search-index.json data/global-events.json data/link-audit.json data/human-language-audit.json data/ecosystem-quality-audit.json countries assets/maps sitemap.xml esemenyek tartomanyok kategoriak entity.jsonld ai-entry.json adatminoseg.html)" ]; then
+          if [ -z "$(git status --porcelain -- data/organizations.json data/member-event-sources-ecosystem.json data/events.json data/member-programs-ecosystem.json data/global.json data/research-state.json data/verification-queue.json data/promotion-ready.json data/global-press-review-queue.json data/daily-runs data/countries data/global-search-index.json data/global-events.json data/link-audit.json data/human-language-audit.json data/ecosystem-quality-audit.json countries assets/maps sitemap.xml esemenyek tartomanyok kategoriak entity.jsonld ai-entry.json adatminoseg.html)" ]; then
             echo "No material global research changes"
             exit 0
           fi
           git config user.name "dorapp-global-steward[bot]"
           git config user.email "actions@users.noreply.github.com"
-          git add data/events.json data/member-programs-ecosystem.json data/global.json data/research-state.json data/verification-queue.json data/promotion-ready.json data/daily-runs data/countries data/global-search-index.json data/global-events.json data/link-audit.json data/human-language-audit.json data/ecosystem-quality-audit.json countries assets/maps sitemap.xml esemenyek tartomanyok kategoriak entity.jsonld ai-entry.json adatminoseg.html
+          git add data/organizations.json data/member-event-sources-ecosystem.json data/events.json data/member-programs-ecosystem.json data/global.json data/research-state.json data/verification-queue.json data/promotion-ready.json data/daily-runs data/countries data/global-search-index.json data/global-events.json data/link-audit.json data/human-language-audit.json data/ecosystem-quality-audit.json countries assets/maps sitemap.xml esemenyek tartomanyok kategoriak entity.jsonld ai-entry.json adatminoseg.html
           if [ -f data/global-press-review-queue.json ]; then git add data/global-press-review-queue.json; fi
           git commit -m "chore(global): rotate diaspora research batch"
           for attempt in 1 2 3; do
@@ -168,6 +173,7 @@ jobs:
               python scripts/promote_verified_entities.py
             fi
             if [ "${RUN_EVENT_REFRESH}" = "true" ]; then
+              python scripts/sync_member_sources.py
               python scripts/update_country_events.py
               python scripts/sync_member_programs.py
               python scripts/discover_global_press.py
@@ -198,7 +204,7 @@ jobs:
           node --check member-programs.js
             python scripts/validate_directory.py
             python scripts/validate_static_output.py
-            git add data/events.json data/member-programs-ecosystem.json data/global.json data/research-state.json data/verification-queue.json data/promotion-ready.json data/daily-runs data/countries data/global-search-index.json data/global-events.json data/link-audit.json data/human-language-audit.json data/ecosystem-quality-audit.json countries assets/maps sitemap.xml esemenyek tartomanyok kategoriak entity.jsonld ai-entry.json adatminoseg.html
+            git add data/organizations.json data/member-event-sources-ecosystem.json data/events.json data/member-programs-ecosystem.json data/global.json data/research-state.json data/verification-queue.json data/promotion-ready.json data/daily-runs data/countries data/global-search-index.json data/global-events.json data/link-audit.json data/human-language-audit.json data/ecosystem-quality-audit.json countries assets/maps sitemap.xml esemenyek tartomanyok kategoriak entity.jsonld ai-entry.json adatminoseg.html
             if [ -f data/global-press-review-queue.json ]; then git add data/global-press-review-queue.json; fi
             if git diff --cached --quiet; then
               echo "No material global changes remain after rebuild"

@@ -1,0 +1,599 @@
+{
+  "schemaVersion": 1,
+  "authority": "https://okoszisztema.kozpontiszovetseg.at/data/member-event-sources.json",
+  "sourceRepository": "880rzz/okoszisztema",
+  "sourceMigration": {
+    "fromRepository": "880rzz/DORAPP",
+    "sourcePath": "data/organizations.json",
+    "sourceBlobSha": "907ee401f4023c6f685bad250485a5a3710ffc10",
+    "migratedOn": "2026-11-19",
+    "verification": "DORAPP's previously documented public source references; individual link availability was not rechecked during migration"
+  },
+  "description": "A 29 tagszervezet valamennyi korábban rögzített programforrásának központi jegyzéke. A megadott ingestEvents kizárólag a gépi forrásfeldolgozás engedélyezettségét jelzi, nem élő programokat vagy működő importot igazol.",
+  "organizationCount": 29,
+  "sourceCount": 45,
+  "members": [
+    {
+      "memberId": "ausztriai-magyar-kutatointezet",
+      "organizerId": "oeius",
+      "name": "Ausztriai Magyar Kutatóintézet",
+      "calendarSources": [
+        {
+          "label": "Ausztriai Magyar Kutatóintézet / Österreichisches Institut für ungarische Studien – Facebook",
+          "url": "https://www.facebook.com/OEIUS",
+          "kind": "social-calendar",
+          "platform": "facebook",
+          "scope": "self",
+          "ingestEvents": false
+        },
+        {
+          "label": "Ausztriai Magyar Kutatóintézet / Österreichisches Institut für ungarische Studien – automatikus eseményforrás",
+          "url": "https://www.oeius.at/hu/veranstaltungen",
+          "kind": "official-calendar",
+          "scope": "self",
+          "ingestEvents": true
+        }
+      ],
+      "eventSources": [
+        "https://www.oeius.at/hu/veranstaltungen"
+      ]
+    },
+    {
+      "memberId": "lean-in-femspace",
+      "organizerId": "lean-in-femspace",
+      "name": "Lean in Femspace Külföldön újrakezdő magyar nők egyesülete",
+      "calendarSources": [
+        {
+          "label": "Lean in Femspace – Facebook",
+          "url": "https://www.facebook.com/leaninfemspace/",
+          "kind": "social-calendar",
+          "platform": "facebook",
+          "scope": "self",
+          "ingestEvents": false
+        },
+        {
+          "label": "Lean in Femspace – hivatalos oldal; stabil saját eseményfeed nem igazolt",
+          "url": "https://leaninfemspace.at/",
+          "kind": "official-website",
+          "scope": "self",
+          "ingestEvents": false
+        }
+      ],
+      "eventSources": []
+    },
+    {
+      "memberId": "svung",
+      "organizerId": "svung",
+      "name": "SVUNG Bécsi Magyarok Művészeti Egyesülete",
+      "calendarSources": [
+        {
+          "label": "SVUNG – Bécsi Magyarok Művészeti Egyesülete – Facebook",
+          "url": "https://www.facebook.com/Svung.Wien",
+          "kind": "social-calendar",
+          "platform": "facebook",
+          "scope": "self",
+          "ingestEvents": false
+        },
+        {
+          "label": "SVUNG – aktuális előadások",
+          "url": "https://www.svung.at/show/aktualis-eloadasok/",
+          "kind": "official-calendar",
+          "scope": "self",
+          "ingestEvents": true
+        },
+        {
+          "label": "Általános saját weboldal – nem elsődleges eseményfeed",
+          "url": "https://svung.at/",
+          "kind": "official-website",
+          "scope": "self",
+          "ingestEvents": false
+        },
+        {
+          "label": "SVUNG – jegyértékesítési/shop felület; nem kanonikus eseménynaptár",
+          "url": "https://shop.svung.at/",
+          "kind": "official-shop",
+          "scope": "self",
+          "ingestEvents": false
+        }
+      ],
+      "eventSources": [
+        "https://www.svung.at/show/aktualis-eloadasok/"
+      ]
+    },
+    {
+      "memberId": "cserkesz-72-wien",
+      "organizerId": "cserkesz-72",
+      "name": "72 sz. Széchenyi István cserkészcsapat",
+      "calendarSources": [
+        {
+          "label": "Általános saját weboldal – discovery/evidence, nem elsődleges eseményfeed",
+          "url": "https://cserkesz.at/",
+          "kind": "official-website",
+          "scope": "self",
+          "ingestEvents": false
+        },
+        {
+          "label": "72. sz. Széchenyi István cserkészcsapat – automatikus eseményforrás",
+          "url": "https://cserkesz.at/programok/",
+          "kind": "official-calendar",
+          "scope": "self",
+          "ingestEvents": true
+        }
+      ],
+      "eventSources": [
+        "https://cserkesz.at/programok/"
+      ]
+    },
+    {
+      "memberId": "bim-becsi-irodalmi-muhely",
+      "organizerId": "becsi-irodalmi-muhely",
+      "name": "BIM - Bécsi Irodalmi Műhely",
+      "calendarSources": [
+        {
+          "label": "Kapcsolódó parent/host/projektforrás – nem automatikus eseményforrás",
+          "url": "https://www.oeius.at/hu/veranstaltungen",
+          "kind": "evidence-calendar",
+          "scope": "related",
+          "ingestEvents": false
+        }
+      ],
+      "eventSources": []
+    },
+    {
+      "memberId": "kalaka-club",
+      "organizerId": "kalaka-club",
+      "name": "Kaláka Club",
+      "calendarSources": [
+        {
+          "label": "Kaláka-Club – Ausztriai Magyarok Gazdasági Érdekközössége – Facebook",
+          "url": "https://www.facebook.com/profile.php?id=100069108893600",
+          "kind": "social-calendar",
+          "platform": "facebook",
+          "scope": "self",
+          "ingestEvents": false
+        },
+        {
+          "label": "Kaláka-Club – Ausztriai Magyarok Gazdasági Érdekközössége – hivatalos oldal; stabil eseményfeed nem igazolt",
+          "url": "https://kalaka-club.at/",
+          "kind": "official-website",
+          "scope": "self",
+          "ingestEvents": false
+        }
+      ],
+      "eventSources": []
+    },
+    {
+      "memberId": "napraforgok",
+      "organizerId": "napraforgok",
+      "name": "Napraforgók Bécsi Magyar Néptánc és Népzene Egyesület",
+      "calendarSources": [
+        {
+          "label": "Napraforgók – Bécsi Magyar Néptánc és Népzene Egyesület – Facebook",
+          "url": "https://www.facebook.com/napraforgok.becs",
+          "kind": "social-calendar",
+          "platform": "facebook",
+          "scope": "self",
+          "ingestEvents": false
+        },
+        {
+          "label": "Napraforgók – Bécsi Magyar Néptánc és Népzene Egyesület – Instagram",
+          "url": "https://www.instagram.com/napraforgok.becs",
+          "kind": "social-calendar",
+          "platform": "instagram",
+          "scope": "self",
+          "ingestEvents": false
+        },
+        {
+          "label": "Napraforgók – Bécsi Magyar Néptánc és Népzene Egyesület – hivatalos oldal; stabil saját eseményfeed nem igazolt",
+          "url": "https://www.napraforgok.at/",
+          "kind": "official-website",
+          "scope": "self",
+          "ingestEvents": false
+        }
+      ],
+      "eventSources": []
+    },
+    {
+      "memberId": "szent-istvan-egylet",
+      "organizerId": "szent-istvan-egylet",
+      "name": "Szent István Egylet",
+      "calendarSources": [
+        {
+          "label": "Szent István Bál – kapcsolódó hivatalos eseményoldal",
+          "url": "https://ungarball.at/",
+          "kind": "related-event-page",
+          "scope": "related",
+          "ingestEvents": false
+        }
+      ],
+      "eventSources": []
+    },
+    {
+      "memberId": "bornemisza-peter-tarsasag",
+      "organizerId": "bornemisza-peter-tarsasag",
+      "name": "Bornemisza Péter Társaság",
+      "calendarSources": [
+        {
+          "label": "Dokumentált egyszeri esemény / bizonyítékforrás",
+          "url": "https://www.kozpontiszovetseg.at/event-details/dr-janosi-zoltan-irodalomtortenesz-iro-kolto",
+          "kind": "documented-event-source",
+          "scope": "self",
+          "ingestEvents": false
+        }
+      ],
+      "eventSources": []
+    },
+    {
+      "memberId": "nemzetkozi-duna-filharmonia-barati-kor",
+      "organizerId": "duna-filharmonia",
+      "name": "Nemzetközi Duna Filharmónia Baráti kör",
+      "calendarSources": [
+        {
+          "label": "Központi Szövetség – Duna Filharmónia kapcsolódó esemény",
+          "url": "https://www.kozpontiszovetseg.at/event-details/zene-es-talalkozas",
+          "kind": "institutional-event-source",
+          "scope": "self",
+          "ingestEvents": false
+        }
+      ],
+      "eventSources": []
+    },
+    {
+      "memberId": "alsoori-magyar-kultur-es-tancegyesulet",
+      "organizerId": "alsoori-kultur-tanc",
+      "name": "Alsóőri Magyar Kultúr- és Táncegyesület",
+      "calendarSources": [
+        {
+          "label": "Alsóőri Magyar Kultúr- és Táncegyesület – Facebook",
+          "url": "https://www.facebook.com/profile.php?id=100088924551185",
+          "kind": "social-calendar",
+          "platform": "facebook",
+          "scope": "self",
+          "ingestEvents": false
+        }
+      ],
+      "eventSources": []
+    },
+    {
+      "memberId": "irottko-sportegyesulet",
+      "organizerId": "irottko-sportegyesulet",
+      "name": "Írottkő Sportegyesület",
+      "calendarSources": [
+        {
+          "label": "Írottkő Sportegyesület / LAC Geschriebenstein – hivatalos oldal; stabil saját eseményfeed nem igazolt",
+          "url": "http://www.geschriebensteinlauf.at",
+          "kind": "official-website",
+          "scope": "self",
+          "ingestEvents": false
+        }
+      ],
+      "eventSources": []
+    },
+    {
+      "memberId": "kozep-burgenlandi-magyar-kulturegyesulet",
+      "organizerId": "kozep-burgenlandi",
+      "name": "Közép–Burgenlandi Magyar Kultúregyesület",
+      "calendarSources": [
+        {
+          "label": "Közép-Burgenlandi Magyar Kultúregyesület – Facebook",
+          "url": "https://www.facebook.com/MittelburgenlaendischerUngarischerKulturverein/",
+          "kind": "social-calendar",
+          "platform": "facebook",
+          "scope": "self",
+          "ingestEvents": false
+        }
+      ],
+      "eventSources": []
+    },
+    {
+      "memberId": "felso-ausztriai-magyarok-kulturegyesulete",
+      "organizerId": "felso-ausztriai-magyarok",
+      "name": "Felső-Ausztriai Magyarok Kultúregyesülete",
+      "calendarSources": [
+        {
+          "label": "Felső-Ausztriai Magyarok – Facebook",
+          "url": "https://www.facebook.com/profile.php?id=61585964764924",
+          "kind": "social-calendar",
+          "platform": "facebook",
+          "scope": "self",
+          "ingestEvents": false
+        }
+      ],
+      "eventSources": []
+    },
+    {
+      "memberId": "linz-magyar-katolikus-kozosseg",
+      "organizerId": "katolikus-linz",
+      "name": "Linz Magyar Katolikus Közösség",
+      "calendarSources": [
+        {
+          "label": "Ausztriai magyar katolikus közösségek – programok",
+          "url": "https://ausztria.katolikus.at/",
+          "kind": "official-calendar",
+          "scope": "self",
+          "ingestEvents": false
+        },
+        {
+          "label": "Diözese Linz – magyar istentiszteleti rend",
+          "url": "https://www.dioezese-linz.at/institution/8038/ueberuns/gottesdiensteveranstaltun/article/21612.html",
+          "kind": "official-calendar",
+          "scope": "self",
+          "ingestEvents": false
+        }
+      ],
+      "eventSources": []
+    },
+    {
+      "memberId": "felso-ausztriai-hetvegi-magyar-ovoda-es-iskola",
+      "organizerId": "wels-hetvegi-iskola",
+      "name": "Felső-Ausztriai Hétvégi Magyar Óvoda és Iskola",
+      "calendarSources": [
+        {
+          "label": "Felső-Ausztriai Hétvégi Magyar Óvoda és Iskola – Facebook",
+          "url": "https://www.facebook.com/profile.php?id=100057286665201",
+          "kind": "social-calendar",
+          "platform": "facebook",
+          "scope": "self",
+          "ingestEvents": false
+        }
+      ],
+      "eventSources": []
+    },
+    {
+      "memberId": "cserkesz-80-wels",
+      "organizerId": "cserkesz-80",
+      "name": "80 sz. Árpád cserkészcsapat",
+      "calendarSources": [
+        {
+          "label": "Általános saját weboldal – discovery/evidence, nem elsődleges eseményfeed",
+          "url": "https://wels.cserkesz.eu/",
+          "kind": "official-website",
+          "scope": "self",
+          "ingestEvents": false
+        },
+        {
+          "label": "80. sz. Árpád Cserkészcsapat – automatikus eseményforrás",
+          "url": "https://wels.cserkesz.eu/programok/",
+          "kind": "official-calendar",
+          "scope": "self",
+          "ingestEvents": true,
+          "excludeRegex": [
+            "Kastl|Mennersberg|Kiscs[oő]sz",
+            "tiszti-segedtiszti-rover-konferencia",
+            "csapatparancsnoki-es-tiszti-konferencia",
+            "49-tinodi-lantos-sebestyen-keruleti-regostabor",
+            "parkpucera",
+            "csapattabor"
+          ]
+        }
+      ],
+      "eventSources": [
+        "https://wels.cserkesz.eu/programok/"
+      ]
+    },
+    {
+      "memberId": "salzung",
+      "organizerId": "salzung",
+      "name": "SalzUng - Salzburgi Magyar Egyesület",
+      "calendarSources": [
+        {
+          "label": "SalzUNG – hivatalos Facebook programcsatorna",
+          "url": "https://www.facebook.com/salzung/",
+          "kind": "social-event-discovery",
+          "platform": "facebook",
+          "scope": "self",
+          "ingestEvents": false
+        }
+      ],
+      "eventSources": []
+    },
+    {
+      "memberId": "grazi-magyar-egyesulet",
+      "organizerId": "grazi-magyar-egyesulet",
+      "name": "Grázi Magyar Egyesület",
+      "calendarSources": [
+        {
+          "label": "Grazi Magyar Egyesület – Facebook",
+          "url": "https://www.facebook.com/Grazi.Magyar.Egyesuelet",
+          "kind": "social-calendar",
+          "platform": "facebook",
+          "scope": "self",
+          "ingestEvents": false
+        },
+        {
+          "label": "Grazi Magyar Egyesület – hivatalos oldal; stabil saját eseményfeed nem igazolt",
+          "url": "https://www.grazimagyaregyesuelet.at/",
+          "kind": "official-website",
+          "scope": "self",
+          "ingestEvents": false
+        }
+      ],
+      "eventSources": []
+    },
+    {
+      "memberId": "magyar-egyetemistak-es-oregdiakok-klubja-graz",
+      "organizerId": "meok-graz",
+      "name": "Magyar Egyetemisták és Öregdiákok Klubja",
+      "calendarSources": [
+        {
+          "label": "MEÖK – Magyar Egyetemisták és Öregdiákok Klubja – hivatalos oldal; stabil saját eseményfeed nem igazolt",
+          "url": "https://www.meoek.at/",
+          "kind": "official-website",
+          "scope": "self",
+          "ingestEvents": false
+        }
+      ],
+      "eventSources": []
+    },
+    {
+      "memberId": "graci-magyar-katolikus-kozosseg",
+      "organizerId": "katolikus-graz",
+      "name": "Gráci Magyar Katolikus Közösség",
+      "calendarSources": [
+        {
+          "label": "Kapcsolódó parent/host/projektforrás – nem automatikus eseményforrás",
+          "url": "https://www.grazimagyaregyesuelet.at/magyar-katolikus-k%C3%B6z%C3%B6ss%C3%A9g-magyar-evang%C3%A9likus-gy%C3%BClekezet/",
+          "kind": "evidence-calendar",
+          "scope": "related",
+          "ingestEvents": false
+        },
+        {
+          "label": "Graz-Seckaui Egyházmegye – magyar mise rendje",
+          "url": "https://www.sr-grazmitte.graz-seckau.at/pfarre/94013/pfarren/gottesdienste",
+          "kind": "official-schedule",
+          "scope": "host",
+          "ingestEvents": false
+        }
+      ],
+      "eventSources": []
+    },
+    {
+      "memberId": "femconnect-graz",
+      "organizerId": "femconnect-graz",
+      "name": "FemConnect Graz",
+      "calendarSources": [
+        {
+          "label": "FemConnect Graz – Gráci programok beágyazott nézet; a /events/ a kanonikus eseményforrás",
+          "url": "https://femconnectgraz.at/graci-programok/",
+          "kind": "embedded-program-view",
+          "scope": "self",
+          "ingestEvents": false
+        },
+        {
+          "label": "FemConnect Graz – kanonikus eseménynaptár",
+          "url": "https://femconnectgraz.at/events/",
+          "kind": "official-calendar",
+          "scope": "self",
+          "ingestEvents": true
+        }
+      ],
+      "eventSources": [
+        "https://femconnectgraz.at/events/"
+      ]
+    },
+    {
+      "memberId": "magyarhaz-innsbruck",
+      "organizerId": "magyarhaz-innsbruck",
+      "name": "Magyarház - Innsbrucki Magyar Diákotthon és Kultúrcentrum Egyesület",
+      "calendarSources": [
+        {
+          "label": "Magyar Diákotthon Innsbruck – hivatalos oldal; eseményfeed nem igazolt",
+          "url": "https://huheim.at/hu/home/",
+          "kind": "official-website",
+          "scope": "self",
+          "ingestEvents": false
+        }
+      ],
+      "eventSources": []
+    },
+    {
+      "memberId": "imike",
+      "organizerId": "imike",
+      "name": "IMIKE - Innsbrucki Magyar Ifjúsági és Kultúregyesület",
+      "calendarSources": [
+        {
+          "label": "IMIKE – Innsbrucki Magyar Ifjúsági és Kultúregyesület – Facebook",
+          "url": "https://www.facebook.com/IMIKE2019UJKV/",
+          "kind": "social-calendar",
+          "platform": "facebook",
+          "scope": "self",
+          "ingestEvents": false
+        },
+        {
+          "label": "IMIKE – Innsbrucki Magyar Ifjúsági és Kultúregyesület – Instagram",
+          "url": "https://www.instagram.com/imike_ujkv/",
+          "kind": "social-calendar",
+          "platform": "instagram",
+          "scope": "self",
+          "ingestEvents": false
+        }
+      ],
+      "eventSources": []
+    },
+    {
+      "memberId": "cserkesz-79-innsbruck",
+      "organizerId": "cserkesz-79",
+      "name": "79 sz. Dr. Kozma György SJ cserkészcsapat",
+      "calendarSources": [
+        {
+          "label": "79. sz. Dr. Kozma György SJ cserkészcsapat – Facebook",
+          "url": "https://www.facebook.com/InnsbruckiMagyarCserkeszek/",
+          "kind": "social-calendar",
+          "platform": "facebook",
+          "scope": "self",
+          "ingestEvents": false
+        }
+      ],
+      "eventSources": []
+    },
+    {
+      "memberId": "imeasz",
+      "organizerId": "imeasz",
+      "name": "IMEASZ - Innsbrucki Magyar Egyetemisták és Akadémikusok Szövetsége",
+      "calendarSources": [
+        {
+          "label": "IMEASZ – Innsbrucki Magyar Egyetemisták és Akadémikusok Szövetsége – hivatalos oldal; stabil saját eseményfeed nem igazolt",
+          "url": "https://imeasz.at/",
+          "kind": "official-website",
+          "scope": "self",
+          "ingestEvents": false
+        },
+        {
+          "label": "Bécsi Napló – innsbrucki eseménylista / IMEASZ programok",
+          "url": "https://www.becsinaplo.eu/816",
+          "kind": "community-calendar",
+          "scope": "self",
+          "ingestEvents": false
+        }
+      ],
+      "eventSources": []
+    },
+    {
+      "memberId": "innsbrucki-magyar-katolikus-kozosseg",
+      "organizerId": "katolikus-innsbruck",
+      "name": "Innsbrucki Magyar Katolikus Közösség",
+      "calendarSources": [
+        {
+          "label": "Diözese Innsbruck – magyar közösség",
+          "url": "https://www.dibk.at/Media/Organisationen/muttersprachliche-seelsorge",
+          "kind": "official-calendar",
+          "scope": "self",
+          "ingestEvents": false
+        }
+      ],
+      "eventSources": []
+    },
+    {
+      "memberId": "vorarlbergi-magyar-egyesulet",
+      "organizerId": "vorarlbergi-magyar-egyesulet",
+      "name": "Vorarlbergi Magyar Egyesület",
+      "calendarSources": [
+        {
+          "label": "Vorarlbergi Magyar Egyesület – Facebook",
+          "url": "https://www.facebook.com/profile.php?id=61551073885214",
+          "kind": "social-calendar",
+          "platform": "facebook",
+          "scope": "self",
+          "ingestEvents": false
+        }
+      ],
+      "eventSources": []
+    },
+    {
+      "memberId": "mi-magyarok-egymasert",
+      "organizerId": "mime-vorarlberg",
+      "name": "Mi Magyarok Egymásért",
+      "calendarSources": [
+        {
+          "label": "Mi Magyarok Egymásért – Facebook",
+          "url": "https://www.facebook.com/profile.php?id=61550875215206",
+          "kind": "social-calendar",
+          "platform": "facebook",
+          "scope": "self",
+          "ingestEvents": false
+        }
+      ],
+      "eventSources": []
+    }
+  ]
+}
