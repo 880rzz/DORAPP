@@ -2,10 +2,548 @@
   "schemaVersion": 1,
   "authority": "https://okoszisztema.kozpontiszovetseg.at/data/member-programs.json",
   "sourceRepository": "880rzz/okoszisztema",
-  "description": "A Központi Szövetség tagszervezeti programjainak elsődleges nyilvántartása. A dátum nélküli jelöltek nem jelenhetnek meg megerősített eseményként vagy Event schema-ként.",
+  "description": "A Központi Szövetség tagszervezeti programjainak kanonikus regisztere. A verifiedEvents a DORAPP ellenőrzött elsődleges/intézményi eseményforrásaiból 2026-11-19-én átvett tételeket és a későbbi tagszervezeti ellenőrzéseket tárolja; a programCandidates nem publikálható eseménydátum nélkül.",
   "updatedAt": "2026-11-19",
-  "provenance": "Felhasználó által 2026-11-19-én megosztott SalzUNG WhatsApp-képernyőkép és a DORAPP kanonikus Facebook-profiljának összevetése. A Facebook-események részletes tartalma belépés nélkül nem volt ellenőrizhető.",
-  "verifiedEvents": [],
+  "provenance": "26 dátumos tagszervezeti program átvétele az 880rzz/DORAPP data/events.json forráshivatkozással és eredeti verifiedAt jelzéssel, valamint 4 dátum nélkül megosztott SalzUNG Facebook-bejelentés. A programok külső aktuális állapota nem lett újraellenőrizve a migráció során.",
+  "verifiedEvents": [
+    {
+      "id": "cserkesz-80-cserkészfoglalkozás-2026-11-21t13-30-02-00",
+      "memberId": "cserkesz-80-wels",
+      "organizerId": "cserkesz-80",
+      "country": "at",
+      "name": "Cserkészfoglalkozás",
+      "startDate": "2026-11-21T13:30+01:00",
+      "verificationStatus": "verified",
+      "verifiedAt": "2026-10-11T10:48:45.437932+00:00",
+      "sourceUrl": "https://wels.cserkesz.eu/events/cserkeszfoglalkozas-7/",
+      "endDate": "2026-11-21T16:00+01:00",
+      "venue": "Csapatotthon",
+      "address": "Herrengasse 2, 4600 Wels, Ausztria",
+      "description": "13:30-13:35 Zászlófelvonás, Ima 13:35-13:50 Nèpdal 13:50-14:00 Rövid játèk 14:00-14:45 Őrsi foglalkozás 14:45-15:10 Játék 15:10-15:25 Nèpdal 15:25-15:30 Zászlólevonás, Ima",
+      "eventStatus": "https://schema.org/EventScheduled",
+      "attendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+      "performers": [],
+      "programCategories": [
+        "cserkesz"
+      ]
+    },
+    {
+      "id": "katolikus-linz-ungarischer-gottesdienst-2026-11-22t10-00-00-01-00",
+      "memberId": "linz-magyar-katolikus-kozosseg",
+      "organizerId": "katolikus-linz",
+      "country": "at",
+      "name": "Ungarischer Gottesdienst",
+      "startDate": "2026-11-22T10:00:00+01:00",
+      "verificationStatus": "verified",
+      "verifiedAt": "2026-10-24T01:00:00+00:00",
+      "sourceUrl": "https://www.dioezese-linz.at/institution/8038/ueberuns/gottesdiensteveranstaltun/article/21612.html",
+      "venue": "St. Stephan/Lichtenegg",
+      "address": "Königsederstraße 20, 4600 Wels, Ausztria",
+      "description": "Magyar nyelvű katolikus istentisztelet Welsben a Linzi Egyházmegye hivatalos magyar istentiszteleti rendje szerint.",
+      "eventStatus": "https://schema.org/EventScheduled",
+      "attendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+      "performers": [],
+      "programCategories": [
+        "kozosseg"
+      ]
+    },
+    {
+      "id": "oeius-1956-elmesélve-egy-forradalom-kultúrtörténete-2026-11-23t19-00-00-01-00",
+      "memberId": "ausztriai-magyar-kutatointezet",
+      "organizerId": "oeius",
+      "country": "at",
+      "name": "1956 elmesélve - Egy forradalom kultúrtörténete",
+      "startDate": "2026-11-23T19:00:00+01:00",
+      "verificationStatus": "verified",
+      "verifiedAt": "2026-11-19T04:21:38.911800+00:00",
+      "sourceUrl": "https://www.oeius.at/events/1956-elmeselve-egy-forradalom-kulturtortenete",
+      "venue": "Központi Szövetség",
+      "address": "Schwedenplatz. 2/9, 1010 Wien, Österreich",
+      "eventStatus": "https://schema.org/EventScheduled",
+      "attendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+      "registrationUrl": "https://www.oeius.at/events/1956-elmeselve-egy-forradalom-kulturtortenete",
+      "priceCurrency": "EUR",
+      "performers": [],
+      "image": "https://static.wixstatic.com/media/b0aee1_e5471806720c4a6294787fb4ede6dce1~mv2.jpg/v1/fill/w_1272,h_770,al_c,q_85/b0aee1_e5471806720c4a6294787fb4ede6dce1~mv2.jpg",
+      "programCategories": [
+        "megemlekezes"
+      ]
+    },
+    {
+      "id": "oeius-1956-als-erzaehlung-2026-11-26",
+      "memberId": "ausztriai-magyar-kutatointezet",
+      "organizerId": "oeius",
+      "country": "at",
+      "name": "1956 als Erzählung: Die Kulturgeschichte einer Revolution",
+      "startDate": "2026-11-26",
+      "verificationStatus": "verified",
+      "verifiedAt": "2026-10-12T01:00:00+00:00",
+      "sourceUrl": "https://culture.hu/de/wien/blog/70-jahre-ungarnaufstand-1956-2",
+      "endDate": "2026-11-27",
+      "venue": "Ausztriai Magyar Egyesületek és Szervezetek Központi Szövetsége",
+      "address": "Schwedenplatz 2/1/8, 1010 Wien, Ausztria",
+      "description": "A kétnapos interdiszciplináris konferencia azt vizsgálja, hogyan jelenik meg az 1956-os magyar forradalom az irodalomban, művészetben, médiában és kulturális emlékezetben; a programot a „Bilder einer Revolution” poszterkiállítás kíséri.",
+      "eventStatus": "https://schema.org/EventScheduled",
+      "attendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+      "performers": [],
+      "audience": "kutatók, hallgatók és érdeklődő közönség",
+      "programCategories": [
+        "megemlekezes",
+        "kozosseg",
+        "irodalom"
+      ]
+    },
+    {
+      "id": "katolikus-linz-ungarischer-gottesdienst-2026-11-29t11-00-00-01-00",
+      "memberId": "linz-magyar-katolikus-kozosseg",
+      "organizerId": "katolikus-linz",
+      "country": "at",
+      "name": "Ungarischer Gottesdienst",
+      "startDate": "2026-11-29T11:00:00+01:00",
+      "verificationStatus": "verified",
+      "verifiedAt": "2026-10-24T01:00:00+00:00",
+      "sourceUrl": "https://www.dioezese-linz.at/institution/8038/ueberuns/gottesdiensteveranstaltun/article/21612.html",
+      "venue": "Guter Hirte – Neue Heimat",
+      "address": "Am Steinbühel 31, 4030 Linz, Ausztria",
+      "description": "Magyar nyelvű katolikus istentisztelet Linzben a Linzi Egyházmegye hivatalos magyar istentiszteleti rendje szerint.",
+      "eventStatus": "https://schema.org/EventScheduled",
+      "attendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+      "performers": [],
+      "programCategories": [
+        "kozosseg"
+      ]
+    },
+    {
+      "id": "cserkesz-80-cserkészfoglalkozás-2026-12-05t13-30-02-00",
+      "memberId": "cserkesz-80-wels",
+      "organizerId": "cserkesz-80",
+      "country": "at",
+      "name": "Cserkészfoglalkozás",
+      "startDate": "2026-12-05T13:30+01:00",
+      "verificationStatus": "verified",
+      "verifiedAt": "2026-10-11T10:48:45.437997+00:00",
+      "sourceUrl": "https://wels.cserkesz.eu/events/cserkeszfoglalkozas-6/",
+      "endDate": "2026-12-05T16:00+01:00",
+      "venue": "Csapatotthon",
+      "address": "Herrengasse 2, 4600 Wels, Ausztria",
+      "description": "13:30-13:35 Zászlófelvonás, Ima 13:35-13:50 Nèpdal 13:50-14:00 Rövid játèk 14:00-14:45 Őrsi foglalkozás 14:45-15:10 Játék 15:10-15:25 Nèpdal 15:25-15:30 Zászlólevonás, Ima",
+      "eventStatus": "https://schema.org/EventScheduled",
+      "attendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+      "performers": [],
+      "programCategories": [
+        "cserkesz"
+      ]
+    },
+    {
+      "id": "katolikus-linz-ungarischer-gottesdienst-2026-12-06t11-00-00-01-00",
+      "memberId": "linz-magyar-katolikus-kozosseg",
+      "organizerId": "katolikus-linz",
+      "country": "at",
+      "name": "Ungarischer Gottesdienst",
+      "startDate": "2026-12-06T11:00:00+01:00",
+      "verificationStatus": "verified",
+      "verifiedAt": "2026-10-24T01:00:00+00:00",
+      "sourceUrl": "https://www.dioezese-linz.at/institution/8038/ueberuns/gottesdiensteveranstaltun/article/21612.html",
+      "venue": "Guter Hirte – Neue Heimat",
+      "address": "Am Steinbühel 31, 4030 Linz, Ausztria",
+      "description": "Magyar nyelvű katolikus istentisztelet Linzben a Linzi Egyházmegye hivatalos magyar istentiszteleti rendje szerint.",
+      "eventStatus": "https://schema.org/EventScheduled",
+      "attendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+      "performers": [],
+      "programCategories": [
+        "kozosseg"
+      ]
+    },
+    {
+      "id": "cserkesz-80-karácsonyi-ünneps-g-2026-12-12t12-00-01-00",
+      "memberId": "cserkesz-80-wels",
+      "organizerId": "cserkesz-80",
+      "country": "at",
+      "name": "Karácsonyi ünnepsèg",
+      "startDate": "2026-12-12T12:00+01:00",
+      "verificationStatus": "verified",
+      "verifiedAt": "2026-11-19T04:21:54.037666+00:00",
+      "sourceUrl": "https://wels.cserkesz.eu/events/karacsonyi-unnepseg/",
+      "endDate": "2026-12-12T18:00+01:00",
+      "description": "Karácsonyi ünnepsèg",
+      "eventStatus": "https://schema.org/EventScheduled",
+      "attendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+      "performers": [],
+      "programCategories": [
+        "cserkesz"
+      ]
+    },
+    {
+      "id": "femconnect-graz-karácsonyi-délután-2026-12-12t15-00-00-01-00",
+      "memberId": "femconnect-graz",
+      "organizerId": "femconnect-graz",
+      "country": "at",
+      "name": "Karácsonyi délután",
+      "startDate": "2026-12-12T15:00:00+01:00",
+      "verificationStatus": "verified",
+      "verifiedAt": "2026-11-19T04:21:54.477627+00:00",
+      "sourceUrl": "https://femconnectgraz.at/event/karacsonyi-delutan/",
+      "endDate": "2026-12-12T18:00:00+01:00",
+      "venue": "Pfarrsaal Don Bosco",
+      "address": "Südbahnstraße 100, 8020, Graz, Austria",
+      "description": "Egy közös karácsonyi hangolódásra hívunk kicsiket és nagyokat december 12-én, 15:00 órától a Don Bosco plébánia nagytermébe. A családi ünnepi […]",
+      "eventStatus": "https://schema.org/EventScheduled",
+      "attendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+      "registrationUrl": "https://femconnectgraz.at/event/karacsonyi-delutan/",
+      "price": "7 - 18",
+      "priceCurrency": "EUR",
+      "performers": [],
+      "image": "https://femconnectgraz.at/wp-content/uploads/2026/10/karacsonyi-delutan.jpeg",
+      "programCategories": [
+        "gyermek"
+      ]
+    },
+    {
+      "id": "katolikus-linz-ungarischer-gottesdienst-2026-12-13t10-00-00-01-00",
+      "memberId": "linz-magyar-katolikus-kozosseg",
+      "organizerId": "katolikus-linz",
+      "country": "at",
+      "name": "Ungarischer Gottesdienst",
+      "startDate": "2026-12-13T10:00:00+01:00",
+      "verificationStatus": "verified",
+      "verifiedAt": "2026-10-24T01:00:00+00:00",
+      "sourceUrl": "https://www.dioezese-linz.at/institution/8038/ueberuns/gottesdiensteveranstaltun/article/21612.html",
+      "venue": "St. Stephan/Lichtenegg",
+      "address": "Königsederstraße 20, 4600 Wels, Ausztria",
+      "description": "Magyar nyelvű katolikus istentisztelet Welsben a Linzi Egyházmegye hivatalos magyar istentiszteleti rendje szerint.",
+      "eventStatus": "https://schema.org/EventScheduled",
+      "attendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+      "performers": [],
+      "programCategories": [
+        "kozosseg"
+      ]
+    },
+    {
+      "id": "katolikus-innsbruck-ungarischer-gottesdienst-2026-12-13",
+      "memberId": "innsbrucki-magyar-katolikus-kozosseg",
+      "organizerId": "katolikus-innsbruck",
+      "country": "at",
+      "name": "Ungarischer Gottesdienst",
+      "startDate": "2026-12-13T15:00:00+01:00",
+      "verificationStatus": "verified",
+      "verifiedAt": "2026-10-06T01:00:00+00:00",
+      "sourceUrl": "https://www.dibk.at/ngsite/content/download/204103/3693696",
+      "venue": "Ungarisches Studentenheim & Kulturzentrum",
+      "address": "Richard-Wagner-Straße 3, 6020 Innsbruck, Ausztria",
+      "description": "A Diözese Innsbruck 2026. szeptemberi rendje szerinti havi magyar nyelvű szentmise a Magyarházban.",
+      "eventStatus": "https://schema.org/EventScheduled",
+      "attendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+      "performers": [],
+      "programCategories": [
+        "kozosseg"
+      ]
+    },
+    {
+      "id": "cserkesz-80-cserkészfoglalkozás-2026-12-19t13-30-02-00",
+      "memberId": "cserkesz-80-wels",
+      "organizerId": "cserkesz-80",
+      "country": "at",
+      "name": "Cserkészfoglalkozás",
+      "startDate": "2026-12-19T13:30+01:00",
+      "verificationStatus": "verified",
+      "verifiedAt": "2026-10-11T10:48:45.438059+00:00",
+      "sourceUrl": "https://wels.cserkesz.eu/events/cserkeszfoglalkozas-5/",
+      "endDate": "2026-12-19T16:00+01:00",
+      "venue": "Csapatotthon",
+      "address": "Herrengasse 2, 4600 Wels, Ausztria",
+      "description": "13:30-13:35 Zászlófelvonás, Ima 13:35-13:50 Nèpdal 13:50-14:00 Rövid játèk 14:00-14:45 Őrsi foglalkozás 14:45-15:10 Játék 15:10-15:25 Nèpdal 15:25-15:30 Zászlólevonás, Ima",
+      "eventStatus": "https://schema.org/EventScheduled",
+      "attendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+      "performers": [],
+      "programCategories": [
+        "cserkesz"
+      ]
+    },
+    {
+      "id": "katolikus-linz-ungarischer-gottesdienst-2026-12-20t11-00-00-01-00",
+      "memberId": "linz-magyar-katolikus-kozosseg",
+      "organizerId": "katolikus-linz",
+      "country": "at",
+      "name": "Ungarischer Gottesdienst",
+      "startDate": "2026-12-20T11:00:00+01:00",
+      "verificationStatus": "verified",
+      "verifiedAt": "2026-10-24T01:00:00+00:00",
+      "sourceUrl": "https://www.dioezese-linz.at/institution/8038/ueberuns/gottesdiensteveranstaltun/article/21612.html",
+      "venue": "Guter Hirte – Neue Heimat",
+      "address": "Am Steinbühel 31, 4030 Linz, Ausztria",
+      "description": "Magyar nyelvű katolikus istentisztelet Linzben a Linzi Egyházmegye hivatalos magyar istentiszteleti rendje szerint.",
+      "eventStatus": "https://schema.org/EventScheduled",
+      "attendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+      "performers": [],
+      "programCategories": [
+        "kozosseg"
+      ]
+    },
+    {
+      "id": "katolikus-linz-ungarischer-gottesdienst-2026-12-27t10-00-00-01-00",
+      "memberId": "linz-magyar-katolikus-kozosseg",
+      "organizerId": "katolikus-linz",
+      "country": "at",
+      "name": "Ungarischer Gottesdienst",
+      "startDate": "2026-12-27T10:00:00+01:00",
+      "verificationStatus": "verified",
+      "verifiedAt": "2026-10-24T01:00:00+00:00",
+      "sourceUrl": "https://www.dioezese-linz.at/institution/8038/ueberuns/gottesdiensteveranstaltun/article/21612.html",
+      "venue": "St. Stephan/Lichtenegg",
+      "address": "Königsederstraße 20, 4600 Wels, Ausztria",
+      "description": "Magyar nyelvű katolikus istentisztelet Welsben a Linzi Egyházmegye hivatalos magyar istentiszteleti rendje szerint.",
+      "eventStatus": "https://schema.org/EventScheduled",
+      "attendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+      "performers": [],
+      "programCategories": [
+        "kozosseg"
+      ]
+    },
+    {
+      "id": "cserkesz-80-cserkésztalálkozó-2027-01-09t00-00-02-00",
+      "memberId": "cserkesz-80-wels",
+      "organizerId": "cserkesz-80",
+      "country": "at",
+      "name": "Cserkésztalálkozó",
+      "startDate": "2027-01-09T00:00+01:00",
+      "verificationStatus": "verified",
+      "verifiedAt": "2026-10-24T01:00:00+00:00",
+      "sourceUrl": "https://wels.cserkesz.eu/events/cserkesztalalkozo-2-2-9-2-9-4-2-2-3/",
+      "endDate": "2027-01-09T00:00+01:00",
+      "venue": "Csapatotthon",
+      "address": "Herrengasse 2, 4600 Wels, Ausztria",
+      "description": "13:30-13:35 Zászlófelvonás, Ima 13:35-13:50 Nèpdal 13:50-14:00 Rövid játèk 14:00-14:45 Őrsi foglalkozás 14:45-15:10 Játék 15:10-15:25 Nèpdal 15:25-16:00 Zászlólevonás, Ima",
+      "eventStatus": "https://schema.org/EventScheduled",
+      "attendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+      "performers": [],
+      "programCategories": [
+        "cserkesz"
+      ]
+    },
+    {
+      "id": "femconnect-graz-bevennéd-hírnyomozó-workshop-2027-01-21t18-00-00-01-00",
+      "memberId": "femconnect-graz",
+      "organizerId": "femconnect-graz",
+      "country": "at",
+      "name": "BEVENNÉD Hírnyomozó workshop",
+      "startDate": "2027-01-21T18:00:00+01:00",
+      "verificationStatus": "verified",
+      "verifiedAt": "2026-11-19T04:21:54.477721+00:00",
+      "sourceUrl": "https://femconnectgraz.at/event/bevenned-hirnyomozo-workshop/",
+      "endDate": "2027-01-21T18:50:00+01:00",
+      "description": "Egy kép, egy hangzatos cím, rengeteg megosztás. De mitől lesz egy hír hiteles? A BEVENNÉD? workshopon Péntek Viktóriával nézünk a […]",
+      "eventStatus": "https://schema.org/EventScheduled",
+      "attendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+      "registrationUrl": "https://femconnectgraz.at/event/bevenned-hirnyomozo-workshop/",
+      "price": "90 - 110",
+      "priceCurrency": "EUR",
+      "performers": [],
+      "image": "https://femconnectgraz.at/wp-content/uploads/2026/11/Hirnyomozo-workshop.png",
+      "programCategories": [
+        "workshop"
+      ]
+    },
+    {
+      "id": "cserkesz-80-cserkésztalálkozó-2027-01-23t13-30-02-00",
+      "memberId": "cserkesz-80-wels",
+      "organizerId": "cserkesz-80",
+      "country": "at",
+      "name": "Cserkésztalálkozó",
+      "startDate": "2027-01-23T13:30+01:00",
+      "verificationStatus": "verified",
+      "verifiedAt": "2026-10-24T01:00:00+00:00",
+      "sourceUrl": "https://wels.cserkesz.eu/events/cserkesztalalkozo-2-2-9-2-9-4-2-2-3-2/",
+      "endDate": "2027-01-23T16:00+01:00",
+      "venue": "Csapatotthon",
+      "address": "Herrengasse 2, 4600 Wels, Ausztria",
+      "description": "13:30-13:35 Zászlófelvonás, Ima 13:35-13:50 Nèpdal 13:50-14:00 Rövid játèk 14:00-14:45 Őrsi foglalkozás 14:45-15:10 Játék 15:10-15:25 Nèpdal 15:25-16:00 Zászlólevonás, Ima",
+      "eventStatus": "https://schema.org/EventScheduled",
+      "attendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+      "performers": [],
+      "programCategories": [
+        "cserkesz"
+      ]
+    },
+    {
+      "id": "cserkesz-80-cserkészfoglalkozás-2027-02-06t13-30-02-00",
+      "memberId": "cserkesz-80-wels",
+      "organizerId": "cserkesz-80",
+      "country": "at",
+      "name": "Cserkészfoglalkozás",
+      "startDate": "2027-02-06T13:30+01:00",
+      "verificationStatus": "verified",
+      "verifiedAt": "2026-10-24T01:00:00+00:00",
+      "sourceUrl": "https://wels.cserkesz.eu/events/cserkesztalalkozo-2-2-9-2-9-4-2-2-3-2-2/",
+      "endDate": "2027-02-06T16:00+01:00",
+      "venue": "Csapatotthon",
+      "address": "Herrengasse 2, 4600 Wels, Ausztria",
+      "description": "13:30-13:35 Zászlófelvonás, Ima 13:35-13:50 Nèpdal 13:50-14:00 Rövid játèk 14:00-14:45 Őrsi foglalkozás 14:45-15:10 Játék 15:10-15:45 Őrsi foglalkozás 15:45-16:00 Zászlólevonás, Ima",
+      "eventStatus": "https://schema.org/EventScheduled",
+      "attendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+      "performers": [],
+      "programCategories": [
+        "cserkesz"
+      ]
+    },
+    {
+      "id": "cserkesz-80-cserkészfoglalkozás-2027-02-20t13-30-02-00",
+      "memberId": "cserkesz-80-wels",
+      "organizerId": "cserkesz-80",
+      "country": "at",
+      "name": "Cserkészfoglalkozás",
+      "startDate": "2027-02-20T13:30+01:00",
+      "verificationStatus": "verified",
+      "verifiedAt": "2026-10-24T01:00:00+00:00",
+      "sourceUrl": "https://wels.cserkesz.eu/events/cserkeszfoglalkozas-4/",
+      "endDate": "2027-02-20T16:00+01:00",
+      "venue": "Csapatotthon",
+      "address": "Herrengasse 2, 4600 Wels, Ausztria",
+      "description": "13:30-13:35 Zászlófelvonás, Ima 13:35-13:50 Nèpdal 13:50-14:00 Rövid játèk 14:00-14:45 Őrsi foglalkozás 14:45-15:10 Játék 15:10-15:45 Őrsi foglalkozás 15:45-16:00 Zászlólevonás, Ima",
+      "eventStatus": "https://schema.org/EventScheduled",
+      "attendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+      "performers": [],
+      "programCategories": [
+        "cserkesz"
+      ]
+    },
+    {
+      "id": "cserkesz-80-cserkészfoglalkozás-2027-03-06t13-30-02-00",
+      "memberId": "cserkesz-80-wels",
+      "organizerId": "cserkesz-80",
+      "country": "at",
+      "name": "Cserkészfoglalkozás",
+      "startDate": "2027-03-06T13:30+01:00",
+      "verificationStatus": "verified",
+      "verifiedAt": "2026-10-24T01:00:00+00:00",
+      "sourceUrl": "https://wels.cserkesz.eu/events/cserkeszfoglalkozas-3/",
+      "endDate": "2027-03-06T16:00+01:00",
+      "venue": "Csapatotthon",
+      "address": "Herrengasse 2, 4600 Wels, Ausztria",
+      "description": "13:30-13:35 Zászlófelvonás, Ima 13:35-13:50 Nèpdal 13:50-14:00 Rövid játèk 14:00-14:45 Őrsi foglalkozás 14:45-15:10 Játék 15:10-15:45 Őrsi foglalkozás 15:45-16:00 Zászlólevonás, Ima",
+      "eventStatus": "https://schema.org/EventScheduled",
+      "attendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+      "performers": [],
+      "programCategories": [
+        "cserkesz"
+      ]
+    },
+    {
+      "id": "cserkesz-80-cserkészfoglalkozás-2027-03-20t13-30-02-00",
+      "memberId": "cserkesz-80-wels",
+      "organizerId": "cserkesz-80",
+      "country": "at",
+      "name": "Cserkészfoglalkozás",
+      "startDate": "2027-03-20T13:30+01:00",
+      "verificationStatus": "verified",
+      "verifiedAt": "2026-10-24T01:00:00+00:00",
+      "sourceUrl": "https://wels.cserkesz.eu/events/cserkesztalalkozo-4/",
+      "endDate": "2027-03-20T16:00+01:00",
+      "venue": "Csapatotthon",
+      "address": "Herrengasse 2, 4600 Wels, Ausztria",
+      "description": "13:30-13:35 Zászlófelvonás, Ima 13:35-13:50 Nèpdal 13:50-14:00 Rövid játèk 14:00-14:45 Őrsi foglalkozás 14:45-15:10 Játék 15:10-15:45 Őrsi foglalkozás 15:45-16:00 Zászlólevonás, Ima",
+      "eventStatus": "https://schema.org/EventScheduled",
+      "attendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+      "performers": [],
+      "programCategories": [
+        "cserkesz"
+      ]
+    },
+    {
+      "id": "cserkesz-80-cserkészfoglalkozás-2027-04-03t13-30-02-00",
+      "memberId": "cserkesz-80-wels",
+      "organizerId": "cserkesz-80",
+      "country": "at",
+      "name": "Cserkészfoglalkozás",
+      "startDate": "2027-04-03T13:30+02:00",
+      "verificationStatus": "verified",
+      "verifiedAt": "2026-11-19T04:21:54.038466+00:00",
+      "sourceUrl": "https://wels.cserkesz.eu/events/cserkesztalalkozo-5/",
+      "endDate": "2027-04-03T16:00+02:00",
+      "description": "13:30-13:35 Zászlófelvonás, Ima 13:35-13:50 Nèpdal 13:50-14:00 Rövid játèk 14:00-14:45 Őrsi foglalkozás 14:45-15:10 Játék 15:10-15:45 Őrsi foglalkozás 15:45-16:00 Zászlólevonás, Ima",
+      "eventStatus": "https://schema.org/EventScheduled",
+      "attendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+      "performers": [],
+      "programCategories": [
+        "cserkesz"
+      ]
+    },
+    {
+      "id": "cserkesz-80-cserkészfoglalkozás-2027-04-17t13-30-02-00",
+      "memberId": "cserkesz-80-wels",
+      "organizerId": "cserkesz-80",
+      "country": "at",
+      "name": "Cserkészfoglalkozás",
+      "startDate": "2027-04-17T13:30+02:00",
+      "verificationStatus": "verified",
+      "verifiedAt": "2026-11-19T04:21:54.038539+00:00",
+      "sourceUrl": "https://wels.cserkesz.eu/events/cserkeszfoglalkozas-2/",
+      "endDate": "2027-04-17T16:00+02:00",
+      "description": "13:30-13:35 Zászlófelvonás, Ima 13:35-13:50 Nèpdal 13:50-14:00 Rövid játèk 14:00-14:45 Őrsi foglalkozás 14:45-15:10 Játék 15:10-15:45 Őrsi foglalkozás 15:45-16:00 Zászlólevonás, Ima",
+      "eventStatus": "https://schema.org/EventScheduled",
+      "attendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+      "performers": [],
+      "programCategories": [
+        "cserkesz"
+      ]
+    },
+    {
+      "id": "cserkesz-80-cserkészfoglalkozás-2027-05-01t13-30-02-00",
+      "memberId": "cserkesz-80-wels",
+      "organizerId": "cserkesz-80",
+      "country": "at",
+      "name": "Cserkészfoglalkozás",
+      "startDate": "2027-05-01T13:30+02:00",
+      "verificationStatus": "verified",
+      "verifiedAt": "2026-11-19T04:21:54.038610+00:00",
+      "sourceUrl": "https://wels.cserkesz.eu/events/cserkeszfoglalkozas/",
+      "endDate": "2027-05-01T16:00+02:00",
+      "description": "13:30-13:35 Zászlófelvonás, Ima 13:35-13:50 Nèpdal 13:50-14:00 Rövid játèk 14:00-14:45 Őrsi foglalkozás 14:45-15:10 Játék 15:10-15:45 Őrsi foglalkozás 15:45-16:00 Zászlólevonás, Ima",
+      "eventStatus": "https://schema.org/EventScheduled",
+      "attendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+      "performers": [],
+      "programCategories": [
+        "cserkesz"
+      ]
+    },
+    {
+      "id": "cserkesz-80-körzeti-pünkösi-tábor-2027-05-15",
+      "memberId": "cserkesz-80-wels",
+      "organizerId": "cserkesz-80",
+      "country": "at",
+      "name": "Körzeti Pünkösi Tábor",
+      "startDate": "2027-05-15",
+      "verificationStatus": "verified",
+      "verifiedAt": "2026-11-19T04:21:54.038807+00:00",
+      "sourceUrl": "https://wels.cserkesz.eu/events/korzeti-punkosi-tabor/",
+      "endDate": "2027-05-17",
+      "description": "Kedves Cserkészek, kedves Szülők! Kinek szól a tábor? Azoknak a cserkeszeknek akik a körzetünkben tevékenyek (csapatok Bécsben, Welsben és Innsbruckban); kiscserkészek, nagycserkészek, vezetők, felnőttcserkészek (és jelöltek). Milyen a táborhely? Hol van? A táborhelyünk egy welsi cserkészcsapat háza és kertje. A welsi városban központilag fekvő hely. A welsi cserkészcsapat honlapját itt lehet megtekinteni: https://www.pfadfinder-wels.org/ Ez a pontos cím: Gärtnerstraße 37, 4600 Wels Hol alszanak a táborozók? A nagycserkészek és felnőtt cserkészek sátoroznak, a kiscserkészek a házban alszanak (ágyak illetve egyéb bútor nincsen). Reméljük, szép időnk lesz és sok időt tölthetünk a természetben. Őrsökbe osztjuk be a jelentkezőket korosztály szerint (fiúk és lányok külön). Őrsi sátorban lesznek a cserkészkorú őrsök. Ki főz nekünk? Mit eszünk? Tapasztalt szakácsunk lesz Szabó Szilvia, Bécsi felnőtt cserkész és segédei. Bevált magyaros tábori konyhát nyújtunk. Letölthető dokumentumok: Tábori szabályzat Felelősségvállalási nyilatkozat",
+      "eventStatus": "https://schema.org/EventScheduled",
+      "attendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+      "performers": [],
+      "programCategories": [
+        "cserkesz"
+      ]
+    },
+    {
+      "id": "cserkesz-80-i-kerületi-akad-lyverseny-2027-09-24",
+      "memberId": "cserkesz-80-wels",
+      "organizerId": "cserkesz-80",
+      "country": "at",
+      "name": "I. KERÜLETI AKADÀLYVERSENY",
+      "startDate": "2027-09-24",
+      "verificationStatus": "verified",
+      "verifiedAt": "2026-11-19T04:21:54.038900+00:00",
+      "sourceUrl": "https://wels.cserkesz.eu/events/i-keruleti-akadalyverseny/",
+      "endDate": "2027-09-26",
+      "description": "Kedves Cserkészek, Információk majd jönnek 2027-ben!",
+      "eventStatus": "https://schema.org/EventScheduled",
+      "attendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+      "performers": [],
+      "programCategories": [
+        "cserkesz"
+      ]
+    }
+  ],
   "programCandidates": [
     {
       "id": "salzung-mikulas-2026-source-pending",
@@ -40,5 +578,13 @@
       "status": "date-unverified",
       "sourceNote": "Az esemény rövidlinkje a képernyőkép alján csak részben látható; a szervezet Facebook-oldala az átmeneti forrás."
     }
-  ]
+  ],
+  "verifiedEventMigration": {
+    "fromRepository": "880rzz/DORAPP",
+    "fromFile": "data/events.json",
+    "migratedOn": "2026-11-19",
+    "count": 26,
+    "sourceSnapshotSha": "9272b3721c6859c2371dfb617199597b42e29ac1",
+    "policy": "Keep original dates, title, venue, sourceURL and verifiedAt; publish only as verified registry entries."
+  }
 }
