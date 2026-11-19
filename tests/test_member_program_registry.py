@@ -15,7 +15,12 @@ class MemberProgramSourceTests(unittest.TestCase):
 
     def test_undated_social_leads_are_not_events(self):
         self.assertEqual(len(sync.validate_registry(self.payload)["programCandidates"]), 4)
-        self.assertEqual(sync.event_records(self.payload, {}), [])
+        data = json.loads((Path(__file__).resolve().parents[1] / "data/organizations.json").read_text(encoding="utf-8"))
+        orgs = {row["id"]: row for row in data["organizations"]}
+        imported = sync.event_records(self.payload, orgs)
+        self.assertEqual(len(imported), len(self.payload["verifiedEvents"]))
+        candidate_ids = {p["id"] for p in self.payload["programCandidates"]}
+        self.assertFalse(candidate_ids.intersection(e["id"] for e in imported))
         self.assertTrue(all(p["status"] == "date-unverified" for p in self.payload["programCandidates"]))
 
     def test_candidate_with_invented_date_is_rejected(self):
