@@ -1,9 +1,9 @@
 {
-  "updated": "2026-11-19T04:45:42.437865+00:00",
+  "updated": "2026-11-19T05:16:44.722730+00:00",
   "summary": {
     "organizations": 163,
     "organizationFlags": 1,
-    "organizationPagesChecked": 330,
+    "organizationPagesChecked": 326,
     "education": 112,
     "educationFlags": 0,
     "events": 60,
@@ -313,7 +313,7 @@
       "errors": [
         {
           "url": "https://amaped.at/2026/02/11/szeretettel-varunk-mindenkit-foglalkozasainkon-a-tavaszi-felevben-is/",
-          "error": "HTTP Error 404: Not Found"
+          "error": "HTTP Error 503: Service Unavailable"
         }
       ],
       "flags": []
@@ -821,12 +821,7 @@
         "https://kerekasztal.at/tagok/",
         "https://atalon.hu/vilagjarok-klubja-becs-2eyhjn"
       ],
-      "errors": [
-        {
-          "url": "https://www.karpatikum.hu/doc/Karpat_medence.pdf",
-          "error": "<urlopen error timed out>"
-        }
-      ],
+      "errors": [],
       "flags": []
     },
     {
@@ -1622,23 +1617,24 @@
       ],
       "activityCategories": [],
       "signals": [
-        "oktatas",
-        "nepzene",
-        "szinhaz",
-        "media",
-        "egyhaz",
-        "diak",
-        "irodalom",
-        "muveszet",
         "csalad"
       ],
-      "pagesChecked": 3,
-      "checkedUrls": [
-        "https://femconnectgraz.at/",
-        "https://femconnectgraz.at/events/",
-        "https://femconnectgraz.at/rolunk-2/"
+      "pagesChecked": 0,
+      "checkedUrls": [],
+      "errors": [
+        {
+          "url": "https://femconnectgraz.at/",
+          "error": "The read operation timed out"
+        },
+        {
+          "url": "https://femconnectgraz.at/events/",
+          "error": "The read operation timed out"
+        },
+        {
+          "url": "https://femconnectgraz.at/rolunk-2/",
+          "error": "The read operation timed out"
+        }
       ],
-      "errors": [],
       "flags": []
     },
     {
@@ -1741,13 +1737,17 @@
         "sport",
         "csalad"
       ],
-      "pagesChecked": 3,
+      "pagesChecked": 2,
       "checkedUrls": [
-        "https://grazerungarischestheater.com/",
         "https://volksgruppen.orf.at/magyarok/stories/3312129/",
         "https://volksgruppen.orf.at/magyarok/stories/3298895/"
       ],
-      "errors": [],
+      "errors": [
+        {
+          "url": "https://grazerungarischestheater.com/",
+          "error": "HTTP Error 503: Service Unavailable"
+        }
+      ],
       "flags": []
     },
     {
