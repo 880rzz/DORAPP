@@ -54,6 +54,7 @@ jobs:
           node --check world.js
           node --check country.js
           node --check ui.js
+          node --check member-programs.js
           python -m json.tool data/global.json >/dev/null
           python -m json.tool data/global-search-index.json >/dev/null
           python -m json.tool data/global-events.json >/dev/null
