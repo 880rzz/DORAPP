@@ -128,11 +128,17 @@ def sync(payload):
     imported = event_records(payload, orgs)
     doc = json.loads(EVENTS.read_text(encoding="utf-8"))
     previous = doc["events"]
-    canonical_ids = {e["id"] for e in imported}
+    canonical_by_id = {e["id"]: e for e in imported}
+    canonical_ids = set(canonical_by_id)
     for e in previous:
         if e["id"] in canonical_ids and e.get("sourceType") != MARKER:
-            raise ValueError("Program ID collision with independent DORAPP event: " + e["id"])
-    new_events = [e for e in previous if e.get("sourceType") != MARKER] + imported
+            authoritative = canonical_by_id[e["id"]]
+            # Existing DORAPP-verified association events may migrate once,
+            # but never silently overwrite an unrelated event with the same ID.
+            if any(str(e.get(k) or "") != str(authoritative.get(k) or "")
+                   for k in ("organizationId", "name", "startDate", "sourceUrl")):
+                raise ValueError("Program ID collision with independent DORAPP event: " + e["id"])
+    new_events = [e for e in previous if e.get("sourceType") != MARKER and e["id"] not in canonical_ids] + imported
     if new_events != previous:
         doc["events"] = sorted(new_events, key=lambda e: (str(e.get("startDate", "")), str(e.get("id", ""))))
         doc["updated"] = datetime.now().astimezone().isoformat()
