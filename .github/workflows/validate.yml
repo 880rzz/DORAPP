@@ -33,6 +33,7 @@ jobs:
           python -m json.tool data/organizations.json >/dev/null
           python -m json.tool data/events.json >/dev/null
           python -m json.tool data/education.json >/dev/null
+          python scripts/sync_member_programs.py --offline
           python scripts/generate_global_compat.py
           python scripts/generate_global_search_index.py
           python scripts/generate_global_calendar.py
