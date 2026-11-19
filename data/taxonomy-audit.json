@@ -1,12 +1,12 @@
 {
-  "updated": "2026-11-19T05:16:44.722730+00:00",
+  "updated": "2026-11-19T10:04:13.722590+00:00",
   "summary": {
     "organizations": 163,
     "organizationFlags": 1,
-    "organizationPagesChecked": 326,
+    "organizationPagesChecked": 329,
     "education": 112,
     "educationFlags": 0,
-    "events": 60,
+    "events": 62,
     "eventFlags": 0
   },
   "organizations": [
@@ -313,7 +313,7 @@
       "errors": [
         {
           "url": "https://amaped.at/2026/02/11/szeretettel-varunk-mindenkit-foglalkozasainkon-a-tavaszi-felevben-is/",
-          "error": "HTTP Error 503: Service Unavailable"
+          "error": "HTTP Error 404: Not Found"
         }
       ],
       "flags": []
@@ -889,12 +889,8 @@
       ],
       "activityCategories": [],
       "signals": [
-        "oktatas",
-        "szinhaz",
-        "media",
         "irodalom",
-        "muveszet",
-        "csalad"
+        "muveszet"
       ],
       "pagesChecked": 1,
       "checkedUrls": [
@@ -1342,7 +1338,6 @@
         "neptanc",
         "nepzene",
         "enekkar",
-        "szinhaz",
         "media",
         "egyhaz",
         "muveszet",
@@ -1617,24 +1612,23 @@
       ],
       "activityCategories": [],
       "signals": [
+        "oktatas",
+        "nepzene",
+        "szinhaz",
+        "media",
+        "egyhaz",
+        "diak",
+        "irodalom",
+        "muveszet",
         "csalad"
       ],
-      "pagesChecked": 0,
-      "checkedUrls": [],
-      "errors": [
-        {
-          "url": "https://femconnectgraz.at/",
-          "error": "The read operation timed out"
-        },
-        {
-          "url": "https://femconnectgraz.at/events/",
-          "error": "The read operation timed out"
-        },
-        {
-          "url": "https://femconnectgraz.at/rolunk-2/",
-          "error": "The read operation timed out"
-        }
+      "pagesChecked": 3,
+      "checkedUrls": [
+        "https://femconnectgraz.at/",
+        "https://femconnectgraz.at/events/",
+        "https://femconnectgraz.at/rolunk-2/"
       ],
+      "errors": [],
       "flags": []
     },
     {
@@ -1737,17 +1731,13 @@
         "sport",
         "csalad"
       ],
-      "pagesChecked": 2,
+      "pagesChecked": 3,
       "checkedUrls": [
+        "https://grazerungarischestheater.com/",
         "https://volksgruppen.orf.at/magyarok/stories/3312129/",
         "https://volksgruppen.orf.at/magyarok/stories/3298895/"
       ],
-      "errors": [
-        {
-          "url": "https://grazerungarischestheater.com/",
-          "error": "HTTP Error 503: Service Unavailable"
-        }
-      ],
+      "errors": [],
       "flags": []
     },
     {
@@ -3254,12 +3244,16 @@
         "diak",
         "irodalom"
       ],
-      "pagesChecked": 2,
+      "pagesChecked": 1,
       "checkedUrls": [
-        "https://lexikon.katolikus.hu/M/Magyar%20Pax%20Romana%20Katolikus%20%C3%89rtelmis%C3%A9gi%20Mozgalom.html",
-        "https://www.icmica-miic.org/2012/03/oesterreich/"
+        "https://lexikon.katolikus.hu/M/Magyar%20Pax%20Romana%20Katolikus%20%C3%89rtelmis%C3%A9gi%20Mozgalom.html"
       ],
-      "errors": [],
+      "errors": [
+        {
+          "url": "https://www.icmica-miic.org/2012/03/oesterreich/",
+          "error": "The read operation timed out"
+        }
+      ],
       "flags": []
     },
     {
