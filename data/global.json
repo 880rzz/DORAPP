@@ -1991,7 +1991,7 @@
         "en": "Hungary",
         "officialEn": "Hungary"
       },
-      "researchStatus": "unresearched",
+      "researchStatus": "researching",
       "countryDataPath": "data/countries/hu/",
       "route": "countries/hu/",
       "counts": {
@@ -2001,7 +2001,9 @@
         "events": 0,
         "education": 0
       },
-      "iso3": "HUN"
+      "iso3": "HUN",
+      "lastResearchAttemptAt": "2026-11-20T02:40:25+00:00",
+      "discoveryCandidateCount": 62
     },
     {
       "iso2": "id",
@@ -4494,7 +4496,7 @@
         "organizations": 78,
         "activities": 0,
         "entities": 78,
-        "events": 17,
+        "events": 16,
         "education": 23
       },
       "iso3": "USA",

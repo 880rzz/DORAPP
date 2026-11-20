@@ -1,12 +1,12 @@
 {
-  "updated": "2026-11-19T02:42:22.328159+00:00",
+  "updated": "2026-11-20T02:43:27.547896+00:00",
   "country": "be",
   "sources": [
     {
       "entityId": "82-bathory-istvan-cserkeszcsapat",
       "entityType": "organization",
       "source": "https://www.cserkesz.be/",
-      "checkedAt": "2026-11-19T02:42:04.355643+00:00",
+      "checkedAt": "2026-11-20T02:43:10.490413+00:00",
       "status": "ok-no-structured-event",
       "eventsFound": 0,
       "pagesChecked": 1
@@ -15,7 +15,7 @@
       "entityId": "belgiumi-magyar-protestans-gyulekezet",
       "entityType": "organization",
       "source": "https://www.protestans.be/",
-      "checkedAt": "2026-11-19T02:42:04.355346+00:00",
+      "checkedAt": "2026-11-20T02:43:10.489907+00:00",
       "status": "ok-events",
       "eventsFound": 2,
       "pagesChecked": 7
@@ -24,16 +24,17 @@
       "entityId": "brusszeli-magyar-haz",
       "entityType": "organization",
       "source": "https://www.magyarhazbrusszel.be/2026/",
-      "checkedAt": "2026-11-19T02:42:04.354461+00:00",
-      "status": "ok-no-structured-event",
+      "checkedAt": "2026-11-20T02:43:10.488849+00:00",
+      "status": "rate-limited",
       "eventsFound": 0,
-      "pagesChecked": 2
+      "pagesChecked": 0,
+      "error": "HTTP Error 429: Too Many Requests"
     },
     {
       "entityId": "brusszeli-magyar-katolikus-kozosseg",
       "entityType": "organization",
       "source": "https://www.bmkk.be/archive/news/",
-      "checkedAt": "2026-11-19T02:42:04.354993+00:00",
+      "checkedAt": "2026-11-20T02:43:10.489440+00:00",
       "status": "ok-no-structured-event",
       "eventsFound": 0,
       "pagesChecked": 1
@@ -42,7 +43,7 @@
       "entityId": "vilagfa-ensemble-brussels",
       "entityType": "organization",
       "source": "https://www.vilagfa.be/hu/",
-      "checkedAt": "2026-11-19T02:42:04.356065+00:00",
+      "checkedAt": "2026-11-20T02:43:10.490910+00:00",
       "status": "ok-no-structured-event",
       "eventsFound": 0,
       "pagesChecked": 1
