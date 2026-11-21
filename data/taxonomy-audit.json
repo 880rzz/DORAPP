@@ -1,12 +1,12 @@
 {
-  "updated": "2026-11-20T05:16:39.057147+00:00",
+  "updated": "2026-11-21T04:22:46.269039+00:00",
   "summary": {
     "organizations": 163,
     "organizationFlags": 1,
     "organizationPagesChecked": 334,
     "education": 112,
     "educationFlags": 0,
-    "events": 62,
+    "events": 61,
     "eventFlags": 0
   },
   "organizations": [
@@ -507,10 +507,8 @@
       "activityCategories": [],
       "signals": [
         "oktatas",
-        "enekkar",
         "szinhaz",
         "media",
-        "egyhaz",
         "irodalom",
         "muveszet",
         "csalad"
@@ -690,12 +688,7 @@
       ],
       "signals": [
         "oktatas",
-        "szinhaz",
-        "media",
-        "diak",
-        "irodalom",
-        "muveszet",
-        "csalad"
+        "irodalom"
       ],
       "pagesChecked": 1,
       "checkedUrls": [
@@ -716,10 +709,7 @@
       ],
       "signals": [
         "oktatas",
-        "szinhaz",
-        "media",
-        "muveszet",
-        "csalad"
+        "media"
       ],
       "pagesChecked": 2,
       "checkedUrls": [
@@ -745,12 +735,7 @@
       ],
       "signals": [
         "oktatas",
-        "szinhaz",
-        "media",
-        "diak",
-        "irodalom",
-        "muveszet",
-        "csalad"
+        "irodalom"
       ],
       "pagesChecked": 1,
       "checkedUrls": [
@@ -888,12 +873,8 @@
       ],
       "activityCategories": [],
       "signals": [
-        "oktatas",
-        "szinhaz",
-        "media",
         "irodalom",
-        "muveszet",
-        "csalad"
+        "muveszet"
       ],
       "pagesChecked": 1,
       "checkedUrls": [
@@ -1341,7 +1322,6 @@
         "neptanc",
         "nepzene",
         "enekkar",
-        "szinhaz",
         "media",
         "egyhaz",
         "muveszet",
@@ -1680,11 +1660,7 @@
       "activityCategories": [],
       "signals": [
         "oktatas",
-        "szinhaz",
-        "media",
-        "diak",
-        "muveszet",
-        "csalad"
+        "szinhaz"
       ],
       "pagesChecked": 1,
       "checkedUrls": [
@@ -2205,8 +2181,6 @@
       "signals": [
         "oktatas",
         "szinhaz",
-        "media",
-        "muveszet",
         "csalad"
       ],
       "pagesChecked": 1,
@@ -2259,7 +2233,6 @@
         "nepzene",
         "szinhaz",
         "media",
-        "diak",
         "irodalom",
         "muveszet",
         "csalad"
@@ -2473,7 +2446,6 @@
       ],
       "activityCategories": [],
       "signals": [
-        "cserkesz",
         "media",
         "egyhaz",
         "irodalom",
@@ -3023,8 +2995,7 @@
         "media",
         "irodalom",
         "muveszet",
-        "sport",
-        "csalad"
+        "sport"
       ],
       "pagesChecked": 3,
       "checkedUrls": [
@@ -3057,16 +3028,12 @@
         "muveszet",
         "csalad"
       ],
-      "pagesChecked": 1,
+      "pagesChecked": 2,
       "checkedUrls": [
-        "https://vhs-ungarn.at/hu/hagyomanyorzes/ori-banda/"
+        "https://vhs-ungarn.at/hu/hagyomanyorzes/ori-banda/",
+        "https://www.vhs-burgenland.at/wp_neu/mc-events/ori-banda-volksmusik-volksliedcamp-ori-banda-nepzene-nepdaltabor/"
       ],
-      "errors": [
-        {
-          "url": "https://www.vhs-burgenland.at/wp_neu/mc-events/ori-banda-volksmusik-volksliedcamp-ori-banda-nepzene-nepdaltabor/",
-          "error": "The read operation timed out"
-        }
-      ],
+      "errors": [],
       "flags": []
     },
     {
@@ -3322,20 +3289,21 @@
         "enekkar",
         "szinhaz",
         "media",
-        "egyhaz",
-        "diak",
         "irodalom",
-        "muveszet",
         "sport",
         "csalad"
       ],
-      "pagesChecked": 3,
+      "pagesChecked": 2,
       "checkedUrls": [
-        "https://www.radio-mora.at/",
         "https://www.radio-mora.at/kontakt/",
         "https://www.radio-mora.at/sendungen/memo/"
       ],
-      "errors": [],
+      "errors": [
+        {
+          "url": "https://www.radio-mora.at/",
+          "error": "The read operation timed out"
+        }
+      ],
       "flags": []
     },
     {
@@ -3488,7 +3456,6 @@
         "diak",
         "irodalom",
         "muveszet",
-        "sport",
         "csalad"
       ],
       "pagesChecked": 2,
