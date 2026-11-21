@@ -1,9 +1,9 @@
 {
-  "updated": "2026-11-21T04:22:46.269039+00:00",
+  "updated": "2026-11-21T04:45:10.762708+00:00",
   "summary": {
     "organizations": 163,
     "organizationFlags": 1,
-    "organizationPagesChecked": 334,
+    "organizationPagesChecked": 333,
     "education": 112,
     "educationFlags": 0,
     "events": 61,
@@ -927,7 +927,6 @@
       ],
       "activityCategories": [],
       "signals": [
-        "oktatas",
         "media",
         "egyhaz",
         "diak",
@@ -935,13 +934,20 @@
         "sport",
         "csalad"
       ],
-      "pagesChecked": 3,
+      "pagesChecked": 1,
       "checkedUrls": [
-        "https://buechereien.wien.gv.at/B%C3%BCchereien-Wien",
-        "https://buechereien.wien.gv.at/B%C3%BCchereien-Wien/Standorte-%C3%96ffnungszeiten/Zweigstellen/Kinderb%C3%BCcherei-der-Weltsprachen",
         "https://volksgruppen.orf.at/magyarok/stories/3355470/"
       ],
-      "errors": [],
+      "errors": [
+        {
+          "url": "https://buechereien.wien.gv.at/B%C3%BCchereien-Wien",
+          "error": "The read operation timed out"
+        },
+        {
+          "url": "https://buechereien.wien.gv.at/B%C3%BCchereien-Wien/Standorte-%C3%96ffnungszeiten/Zweigstellen/Kinderb%C3%BCcherei-der-Weltsprachen",
+          "error": "HTTP Error 404: Not Found"
+        }
+      ],
       "flags": []
     },
     {
@@ -3293,17 +3299,13 @@
         "sport",
         "csalad"
       ],
-      "pagesChecked": 2,
+      "pagesChecked": 3,
       "checkedUrls": [
+        "https://www.radio-mora.at/",
         "https://www.radio-mora.at/kontakt/",
         "https://www.radio-mora.at/sendungen/memo/"
       ],
-      "errors": [
-        {
-          "url": "https://www.radio-mora.at/",
-          "error": "The read operation timed out"
-        }
-      ],
+      "errors": [],
       "flags": []
     },
     {
