@@ -1,9 +1,9 @@
 {
-  "updated": "2026-11-22T04:44:32.142543+00:00",
+  "updated": "2026-11-22T05:15:50.317852+00:00",
   "summary": {
     "organizations": 163,
     "organizationFlags": 1,
-    "organizationPagesChecked": 336,
+    "organizationPagesChecked": 335,
     "education": 112,
     "educationFlags": 0,
     "events": 58,
@@ -1720,13 +1720,17 @@
         "sport",
         "csalad"
       ],
-      "pagesChecked": 3,
+      "pagesChecked": 2,
       "checkedUrls": [
-        "https://grazerungarischestheater.com/",
         "https://volksgruppen.orf.at/magyarok/stories/3312129/",
         "https://volksgruppen.orf.at/magyarok/stories/3298895/"
       ],
-      "errors": [],
+      "errors": [
+        {
+          "url": "https://grazerungarischestheater.com/",
+          "error": "The read operation timed out"
+        }
+      ],
       "flags": []
     },
     {
@@ -2485,7 +2489,7 @@
       "errors": [
         {
           "url": "https://www.magyarszo.at/",
-          "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'www.magyarszo.at'. (_ssl.c:1011)>"
+          "error": "<urlopen error timed out>"
         }
       ],
       "flags": []
