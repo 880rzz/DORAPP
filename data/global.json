@@ -2030,7 +2030,7 @@
       "name": {
         "en": "Ireland"
       },
-      "researchStatus": "unresearched",
+      "researchStatus": "researching",
       "countryDataPath": "data/countries/ie/",
       "route": "countries/ie/",
       "counts": {
@@ -2040,7 +2040,9 @@
         "events": 0,
         "education": 0
       },
-      "iso3": "IRL"
+      "iso3": "IRL",
+      "lastResearchAttemptAt": "2026-11-22T02:40:32+00:00",
+      "discoveryCandidateCount": 54
     },
     {
       "iso2": "il",
@@ -4498,7 +4500,7 @@
         "organizations": 78,
         "activities": 0,
         "entities": 78,
-        "events": 16,
+        "events": 13,
         "education": 23
       },
       "iso3": "USA",
