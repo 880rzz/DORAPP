@@ -1,9 +1,9 @@
 {
-  "updated": "2026-11-23T04:45:19.653803+00:00",
+  "updated": "2026-11-23T05:18:49.639269+00:00",
   "summary": {
     "organizations": 163,
     "organizationFlags": 1,
-    "organizationPagesChecked": 336,
+    "organizationPagesChecked": 347,
     "education": 112,
     "educationFlags": 0,
     "events": 55,
@@ -69,18 +69,21 @@
       ],
       "activityCategories": [],
       "signals": [
-        "oktatas",
-        "media",
         "irodalom",
-        "sport",
         "csalad"
       ],
-      "pagesChecked": 2,
-      "checkedUrls": [
-        "https://bgld.arbeiterkammer.at/service/buecherei/akbuechereieisenstadt/index.html",
-        "https://bgld.arbeiterkammer.at/beratung/Bildung/arbeitswelt/Buecherei-Angebote.html"
+      "pagesChecked": 0,
+      "checkedUrls": [],
+      "errors": [
+        {
+          "url": "https://bgld.arbeiterkammer.at/service/buecherei/akbuechereieisenstadt/index.html",
+          "error": "<urlopen error timed out>"
+        },
+        {
+          "url": "https://bgld.arbeiterkammer.at/beratung/Bildung/arbeitswelt/Buecherei-Angebote.html",
+          "error": "<urlopen error timed out>"
+        }
       ],
-      "errors": [],
       "flags": []
     },
     {
@@ -126,24 +129,18 @@
       ],
       "activityCategories": [],
       "signals": [
-        "egyhaz"
+        "enekkar",
+        "media",
+        "egyhaz",
+        "csalad"
       ],
-      "pagesChecked": 0,
-      "checkedUrls": [],
-      "errors": [
-        {
-          "url": "https://www.martinus.at/",
-          "error": "<urlopen error timed out>"
-        },
-        {
-          "url": "https://www.martinus.at/pfarre/1127/kalender",
-          "error": "<urlopen error timed out>"
-        },
-        {
-          "url": "https://www.martinus.at/unterwart",
-          "error": "<urlopen error timed out>"
-        }
+      "pagesChecked": 3,
+      "checkedUrls": [
+        "https://www.martinus.at/",
+        "https://www.martinus.at/pfarre/1127/kalender",
+        "https://www.martinus.at/unterwart"
       ],
+      "errors": [],
       "flags": []
     },
     {
@@ -1552,24 +1549,16 @@
       ],
       "activityCategories": [],
       "signals": [
+        "media",
         "egyhaz"
       ],
-      "pagesChecked": 0,
-      "checkedUrls": [],
-      "errors": [
-        {
-          "url": "https://www.martinus.at/pfarre/1122",
-          "error": "<urlopen error timed out>"
-        },
-        {
-          "url": "https://www.martinus.at/pfarre/1122/kalender",
-          "error": "<urlopen error timed out>"
-        },
-        {
-          "url": "https://www.martinus.at/pfarre/1122/kalender/calendar/1808040.html",
-          "error": "<urlopen error timed out>"
-        }
+      "pagesChecked": 3,
+      "checkedUrls": [
+        "https://www.martinus.at/pfarre/1122",
+        "https://www.martinus.at/pfarre/1122/kalender",
+        "https://www.martinus.at/pfarre/1122/kalender/calendar/1808040.html"
       ],
+      "errors": [],
       "flags": []
     },
     {
@@ -1745,19 +1734,19 @@
         "felnott",
         "kozosseg"
       ],
-      "signals": [],
-      "pagesChecked": 0,
-      "checkedUrls": [],
-      "errors": [
-        {
-          "url": "https://www.grazimagyaregyesuelet.at/",
-          "error": "The read operation timed out"
-        },
-        {
-          "url": "https://www.grazimagyaregyesuelet.at/bel%C3%A9p%C3%B6-jegyek-ballkarte-kaufen/",
-          "error": "HTTP Error 503: Service Unavailable"
-        }
+      "signals": [
+        "oktatas",
+        "media",
+        "egyhaz",
+        "diak",
+        "csalad"
       ],
+      "pagesChecked": 2,
+      "checkedUrls": [
+        "https://www.grazimagyaregyesuelet.at/",
+        "https://www.grazimagyaregyesuelet.at/bel%C3%A9p%C3%B6-jegyek-ballkarte-kaufen/"
+      ],
+      "errors": [],
       "flags": []
     },
     {
@@ -1792,20 +1781,19 @@
       ],
       "activityCategories": [],
       "signals": [
-        "neptanc"
+        "oktatas",
+        "neptanc",
+        "media",
+        "egyhaz",
+        "diak",
+        "csalad"
       ],
-      "pagesChecked": 0,
-      "checkedUrls": [],
-      "errors": [
-        {
-          "url": "https://www.grazimagyaregyesuelet.at/",
-          "error": "The read operation timed out"
-        },
-        {
-          "url": "https://www.grazimagyaregyesuelet.at/ungarischer-ball-2027/",
-          "error": "HTTP Error 503: Service Unavailable"
-        }
+      "pagesChecked": 2,
+      "checkedUrls": [
+        "https://www.grazimagyaregyesuelet.at/",
+        "https://www.grazimagyaregyesuelet.at/ungarischer-ball-2027/"
       ],
+      "errors": [],
       "flags": []
     },
     {
@@ -2000,17 +1988,13 @@
         "muveszet",
         "csalad"
       ],
-      "pagesChecked": 2,
+      "pagesChecked": 3,
       "checkedUrls": [
         "https://www.grazimagyaregyesuelet.at/magyar-katolikus-k%C3%B6z%C3%B6ss%C3%A9g-magyar-evang%C3%A9likus-gy%C3%BClekezet/",
-        "https://www.petofiprogram.hu/hirek/grac-hivek-szamara-fontos-az-anyanyelv-gyakorlasa-imaban-enekben-beszelgetesben-graci-magyar"
+        "https://www.petofiprogram.hu/hirek/grac-hivek-szamara-fontos-az-anyanyelv-gyakorlasa-imaban-enekben-beszelgetesben-graci-magyar",
+        "https://www.sr-grazmitte.graz-seckau.at/pfarre/94013/pfarren/gottesdienste"
       ],
-      "errors": [
-        {
-          "url": "https://www.sr-grazmitte.graz-seckau.at/pfarre/94013/pfarren/gottesdienste",
-          "error": "<urlopen error timed out>"
-        }
-      ],
+      "errors": [],
       "flags": []
     },
     {
@@ -2085,16 +2069,14 @@
       "signals": [
         "egyhaz"
       ],
-      "pagesChecked": 0,
-      "checkedUrls": [],
+      "pagesChecked": 1,
+      "checkedUrls": [
+        "https://www.edsbg.at/seelsorge/weltkirche/anderssprachige-seelsorge/ungarische-gemeinde"
+      ],
       "errors": [
         {
-          "url": "https://www.edsbg.at/seelsorge/weltkirche/anderssprachige-seelsorge/ungarische-gemeinde",
-          "error": "<urlopen error timed out>"
-        },
-        {
           "url": "https://www.edsbg.at/dl/klOKJmMJKNLMKJqx4KJK/ungarischsprachige_Gottesdienstgemeinde_Salzburg_pdf",
-          "error": "<urlopen error timed out>"
+          "error": "HTTP Error 400: Bad Request"
         }
       ],
       "flags": []
@@ -2463,16 +2445,12 @@
         "irodalom",
         "csalad"
       ],
-      "pagesChecked": 1,
+      "pagesChecked": 2,
       "checkedUrls": [
+        "https://www.erzdioezese-wien.at/unit/katholischeostkirchen/unseregemeinden/katholischeostkirchen/gemeindeninwien",
         "https://hd.gorogkatolikus.hu/Magyar-gorogkatolikus-lelkeszseg-alakult-Becsben-2023-junius-06"
       ],
-      "errors": [
-        {
-          "url": "https://www.erzdioezese-wien.at/unit/katholischeostkirchen/unseregemeinden/katholischeostkirchen/gemeindeninwien",
-          "error": "<urlopen error timed out>"
-        }
-      ],
+      "errors": [],
       "flags": []
     },
     {
