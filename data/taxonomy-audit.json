@@ -1,12 +1,12 @@
 {
-  "updated": "2026-11-22T05:15:50.317852+00:00",
+  "updated": "2026-11-23T04:25:55.185765+00:00",
   "summary": {
     "organizations": 163,
     "organizationFlags": 1,
-    "organizationPagesChecked": 335,
+    "organizationPagesChecked": 340,
     "education": 112,
     "educationFlags": 0,
-    "events": 58,
+    "events": 55,
     "eventFlags": 0
   },
   "organizations": [
@@ -688,6 +688,7 @@
       ],
       "signals": [
         "oktatas",
+        "media",
         "irodalom"
       ],
       "pagesChecked": 1,
@@ -709,7 +710,6 @@
       ],
       "signals": [
         "oktatas",
-        "neptanc",
         "szinhaz",
         "media",
         "irodalom",
@@ -739,6 +739,7 @@
       ],
       "signals": [
         "oktatas",
+        "media",
         "irodalom"
       ],
       "pagesChecked": 1,
@@ -1310,10 +1311,13 @@
       ],
       "activityCategories": [],
       "signals": [
-        "media"
+        "media",
+        "irodalom"
       ],
-      "pagesChecked": 0,
-      "checkedUrls": [],
+      "pagesChecked": 1,
+      "checkedUrls": [
+        "https://www.radiohu.hu/impresszum/"
+      ],
       "errors": [],
       "flags": []
     },
@@ -1669,7 +1673,8 @@
       "activityCategories": [],
       "signals": [
         "oktatas",
-        "szinhaz"
+        "szinhaz",
+        "media"
       ],
       "pagesChecked": 1,
       "checkedUrls": [
@@ -1720,17 +1725,13 @@
         "sport",
         "csalad"
       ],
-      "pagesChecked": 2,
+      "pagesChecked": 3,
       "checkedUrls": [
+        "https://grazerungarischestheater.com/",
         "https://volksgruppen.orf.at/magyarok/stories/3312129/",
         "https://volksgruppen.orf.at/magyarok/stories/3298895/"
       ],
-      "errors": [
-        {
-          "url": "https://grazerungarischestheater.com/",
-          "error": "The read operation timed out"
-        }
-      ],
+      "errors": [],
       "flags": []
     },
     {
@@ -2190,6 +2191,7 @@
       "signals": [
         "oktatas",
         "szinhaz",
+        "media",
         "csalad"
       ],
       "pagesChecked": 1,
@@ -2482,14 +2484,17 @@
       ],
       "activityCategories": [],
       "signals": [
-        "media"
+        "media",
+        "irodalom"
       ],
-      "pagesChecked": 0,
-      "checkedUrls": [],
+      "pagesChecked": 1,
+      "checkedUrls": [
+        "https://www.radiohu.hu/impresszum/"
+      ],
       "errors": [
         {
           "url": "https://www.magyarszo.at/",
-          "error": "<urlopen error timed out>"
+          "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'www.magyarszo.at'. (_ssl.c:1011)>"
         }
       ],
       "flags": []
@@ -2999,6 +3004,7 @@
       "activityCategories": [],
       "signals": [
         "oktatas",
+        "neptanc",
         "szinhaz",
         "media",
         "irodalom",
@@ -3320,10 +3326,15 @@
       ],
       "activityCategories": [],
       "signals": [
-        "media"
+        "media",
+        "egyhaz",
+        "irodalom"
       ],
-      "pagesChecked": 0,
-      "checkedUrls": [],
+      "pagesChecked": 2,
+      "checkedUrls": [
+        "https://www.radiohu.hu/",
+        "https://www.radiohu.hu/impresszum/"
+      ],
       "errors": [],
       "flags": []
     },
