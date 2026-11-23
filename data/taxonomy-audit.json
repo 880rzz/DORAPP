@@ -1,9 +1,9 @@
 {
-  "updated": "2026-11-23T04:25:55.185765+00:00",
+  "updated": "2026-11-23T04:45:19.653803+00:00",
   "summary": {
     "organizations": 163,
     "organizationFlags": 1,
-    "organizationPagesChecked": 340,
+    "organizationPagesChecked": 336,
     "education": 112,
     "educationFlags": 0,
     "events": 55,
@@ -1745,19 +1745,19 @@
         "felnott",
         "kozosseg"
       ],
-      "signals": [
-        "oktatas",
-        "media",
-        "egyhaz",
-        "diak",
-        "csalad"
+      "signals": [],
+      "pagesChecked": 0,
+      "checkedUrls": [],
+      "errors": [
+        {
+          "url": "https://www.grazimagyaregyesuelet.at/",
+          "error": "The read operation timed out"
+        },
+        {
+          "url": "https://www.grazimagyaregyesuelet.at/bel%C3%A9p%C3%B6-jegyek-ballkarte-kaufen/",
+          "error": "HTTP Error 503: Service Unavailable"
+        }
       ],
-      "pagesChecked": 2,
-      "checkedUrls": [
-        "https://www.grazimagyaregyesuelet.at/",
-        "https://www.grazimagyaregyesuelet.at/bel%C3%A9p%C3%B6-jegyek-ballkarte-kaufen/"
-      ],
-      "errors": [],
       "flags": []
     },
     {
@@ -1792,19 +1792,20 @@
       ],
       "activityCategories": [],
       "signals": [
-        "oktatas",
-        "neptanc",
-        "media",
-        "egyhaz",
-        "diak",
-        "csalad"
+        "neptanc"
       ],
-      "pagesChecked": 2,
-      "checkedUrls": [
-        "https://www.grazimagyaregyesuelet.at/",
-        "https://www.grazimagyaregyesuelet.at/ungarischer-ball-2027/"
+      "pagesChecked": 0,
+      "checkedUrls": [],
+      "errors": [
+        {
+          "url": "https://www.grazimagyaregyesuelet.at/",
+          "error": "The read operation timed out"
+        },
+        {
+          "url": "https://www.grazimagyaregyesuelet.at/ungarischer-ball-2027/",
+          "error": "HTTP Error 503: Service Unavailable"
+        }
       ],
-      "errors": [],
       "flags": []
     },
     {
