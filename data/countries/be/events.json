@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-23T02:44:31.259874+00:00",
+  "updated": "2026-11-24T02:43:01.333950+00:00",
   "verificationStatus": "automated-source-refresh-with-manual-provenance",
   "programCategoryDefinitions": [
     {
@@ -56,7 +56,7 @@
       "attendanceMode": "https://schema.org/OnlineEventAttendanceMode",
       "sourceUrl": "https://www.protestans.be/events-1/online-istentisztelet-2026-11-29-17-00",
       "discoveredFrom": "https://www.protestans.be/",
-      "verifiedAt": "2026-11-23T02:44:24.875250+00:00",
+      "verifiedAt": "2026-11-24T02:42:45.561210+00:00",
       "programCategories": [
         "kozosseg"
       ],
@@ -82,6 +82,27 @@
         "irodalom"
       ],
       "organizerId": "brusszeli-magyar-haz",
+      "sourceType": "automatic-structured-source"
+    },
+    {
+      "id": "belgiumi-magyar-protestans-gyulekezet-istentisztelet-2026-12-13t17-00-00-01-00",
+      "name": "Istentisztelet",
+      "organizer": "Belgiumi Magyar Protestáns Gyülekezet",
+      "city": "Brussels",
+      "address": "Rue du Musée 2, 1000 Bruxelles, Belgium",
+      "startDate": "2026-12-13T17:00:00+01:00",
+      "endDate": "2026-12-13T18:30:00+01:00",
+      "eventStatus": "https://schema.org/EventScheduled",
+      "attendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+      "sourceUrl": "https://www.protestans.be/events-1/istentisztelet-2026-12-13-17-00",
+      "discoveredFrom": "https://www.protestans.be/",
+      "verifiedAt": "2026-11-24T02:42:48.866713+00:00",
+      "programCategories": [
+        "kozosseg"
+      ],
+      "country": "be",
+      "region": "Brussels-Capital",
+      "organizerId": "belgiumi-magyar-protestans-gyulekezet",
       "sourceType": "automatic-structured-source"
     },
     {

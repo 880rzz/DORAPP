@@ -402,7 +402,7 @@
         "organizations": 19,
         "activities": 0,
         "entities": 19,
-        "events": 3,
+        "events": 4,
         "education": 4
       },
       "iso3": "BEL",
@@ -2069,7 +2069,7 @@
       "name": {
         "en": "Isle of Man"
       },
-      "researchStatus": "unresearched",
+      "researchStatus": "researching",
       "countryDataPath": "data/countries/im/",
       "route": "countries/im/",
       "counts": {
@@ -2079,7 +2079,9 @@
         "events": 0,
         "education": 0
       },
-      "iso3": "IMN"
+      "iso3": "IMN",
+      "lastResearchAttemptAt": "2026-11-24T02:40:37+00:00",
+      "discoveryCandidateCount": 40
     },
     {
       "iso2": "in",
