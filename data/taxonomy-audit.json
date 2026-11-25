@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-25T04:24:33.013198+00:00",
+  "updated": "2026-11-25T04:45:11.465254+00:00",
   "summary": {
     "organizations": 163,
     "organizationFlags": 1,
@@ -717,8 +717,10 @@
       ],
       "signals": [
         "oktatas",
+        "enekkar",
         "szinhaz",
         "media",
+        "egyhaz",
         "irodalom",
         "muveszet",
         "csalad"
@@ -956,13 +958,17 @@
         "sport",
         "csalad"
       ],
-      "pagesChecked": 3,
+      "pagesChecked": 2,
       "checkedUrls": [
-        "https://buechereien.wien.gv.at/B%C3%BCchereien-Wien",
         "https://buechereien.wien.gv.at/B%C3%BCchereien-Wien/Standorte-%C3%96ffnungszeiten/Zweigstellen/Kinderb%C3%BCcherei-der-Weltsprachen",
         "https://volksgruppen.orf.at/magyarok/stories/3355470/"
       ],
-      "errors": [],
+      "errors": [
+        {
+          "url": "https://buechereien.wien.gv.at/B%C3%BCchereien-Wien",
+          "error": "The read operation timed out"
+        }
+      ],
       "flags": []
     },
     {
@@ -2744,6 +2750,7 @@
         "oktatas",
         "neptanc",
         "nepzene",
+        "enekkar",
         "szinhaz",
         "media",
         "egyhaz",
@@ -3059,16 +3066,12 @@
         "muveszet",
         "csalad"
       ],
-      "pagesChecked": 1,
+      "pagesChecked": 2,
       "checkedUrls": [
-        "https://vhs-ungarn.at/hu/hagyomanyorzes/ori-banda/"
+        "https://vhs-ungarn.at/hu/hagyomanyorzes/ori-banda/",
+        "https://www.vhs-burgenland.at/wp_neu/mc-events/ori-banda-volksmusik-volksliedcamp-ori-banda-nepzene-nepdaltabor/"
       ],
-      "errors": [
-        {
-          "url": "https://www.vhs-burgenland.at/wp_neu/mc-events/ori-banda-volksmusik-volksliedcamp-ori-banda-nepzene-nepdaltabor/",
-          "error": "The read operation timed out"
-        }
-      ],
+      "errors": [],
       "flags": []
     },
     {
