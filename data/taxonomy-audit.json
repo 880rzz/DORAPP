@@ -1,12 +1,12 @@
 {
-  "updated": "2026-11-24T05:17:55.743625+00:00",
+  "updated": "2026-11-25T04:24:33.013198+00:00",
   "summary": {
     "organizations": 163,
     "organizationFlags": 1,
-    "organizationPagesChecked": 340,
+    "organizationPagesChecked": 338,
     "education": 112,
     "educationFlags": 0,
-    "events": 55,
+    "events": 54,
     "eventFlags": 0
   },
   "organizations": [
@@ -507,8 +507,10 @@
       "activityCategories": [],
       "signals": [
         "oktatas",
+        "enekkar",
         "szinhaz",
         "media",
+        "egyhaz",
         "irodalom",
         "muveszet",
         "csalad"
@@ -607,6 +609,7 @@
         "oktatas",
         "neptanc",
         "nepzene",
+        "enekkar",
         "szinhaz",
         "media",
         "egyhaz",
@@ -688,7 +691,12 @@
       ],
       "signals": [
         "oktatas",
-        "irodalom"
+        "szinhaz",
+        "media",
+        "diak",
+        "irodalom",
+        "muveszet",
+        "csalad"
       ],
       "pagesChecked": 1,
       "checkedUrls": [
@@ -712,7 +720,8 @@
         "szinhaz",
         "media",
         "irodalom",
-        "muveszet"
+        "muveszet",
+        "csalad"
       ],
       "pagesChecked": 2,
       "checkedUrls": [
@@ -738,7 +747,12 @@
       ],
       "signals": [
         "oktatas",
-        "irodalom"
+        "szinhaz",
+        "media",
+        "diak",
+        "irodalom",
+        "muveszet",
+        "csalad"
       ],
       "pagesChecked": 1,
       "checkedUrls": [
@@ -1671,7 +1685,11 @@
       "activityCategories": [],
       "signals": [
         "oktatas",
-        "szinhaz"
+        "szinhaz",
+        "media",
+        "diak",
+        "muveszet",
+        "csalad"
       ],
       "pagesChecked": 1,
       "checkedUrls": [
@@ -1850,6 +1868,7 @@
         "media",
         "egyhaz",
         "irodalom",
+        "muveszet",
         "csalad"
       ],
       "pagesChecked": 3,
@@ -1934,14 +1953,15 @@
       ],
       "activityCategories": [],
       "signals": [
-        "sport",
-        "csalad"
+        "sport"
       ],
-      "pagesChecked": 1,
-      "checkedUrls": [
-        "http://www.geschriebensteinlauf.at"
-      ],
+      "pagesChecked": 0,
+      "checkedUrls": [],
       "errors": [
+        {
+          "url": "http://www.geschriebensteinlauf.at",
+          "error": "The read operation timed out"
+        },
         {
           "url": "https://www.askoe.at/de/verband-vereine/askoe-vereine/clubshow-10438",
           "error": "HTTP Error 404: Not Found"
@@ -2188,6 +2208,8 @@
       "signals": [
         "oktatas",
         "szinhaz",
+        "media",
+        "muveszet",
         "csalad"
       ],
       "pagesChecked": 1,
@@ -2490,7 +2512,7 @@
       "errors": [
         {
           "url": "https://www.magyarszo.at/",
-          "error": "<urlopen error timed out>"
+          "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'www.magyarszo.at'. (_ssl.c:1011)>"
         }
       ],
       "flags": []
@@ -2998,7 +3020,6 @@
       ],
       "activityCategories": [],
       "signals": [
-        "oktatas",
         "neptanc",
         "szinhaz",
         "media",
@@ -3038,12 +3059,16 @@
         "muveszet",
         "csalad"
       ],
-      "pagesChecked": 2,
+      "pagesChecked": 1,
       "checkedUrls": [
-        "https://vhs-ungarn.at/hu/hagyomanyorzes/ori-banda/",
-        "https://www.vhs-burgenland.at/wp_neu/mc-events/ori-banda-volksmusik-volksliedcamp-ori-banda-nepzene-nepdaltabor/"
+        "https://vhs-ungarn.at/hu/hagyomanyorzes/ori-banda/"
       ],
-      "errors": [],
+      "errors": [
+        {
+          "url": "https://www.vhs-burgenland.at/wp_neu/mc-events/ori-banda-volksmusik-volksliedcamp-ori-banda-nepzene-nepdaltabor/",
+          "error": "The read operation timed out"
+        }
+      ],
       "flags": []
     },
     {
