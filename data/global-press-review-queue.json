@@ -1,12 +1,127 @@
 {
   "schemaVersion": 2,
-  "lastRunAt": "2026-11-25T02:44:21+00:00",
+  "lastRunAt": "2026-11-26T02:44:54+00:00",
   "organizationsTotal": 239,
   "organizationsAttempted": 239,
-  "organizationsChecked": 239,
-  "organizationsFailed": 0,
-  "errors": [],
+  "organizationsChecked": 225,
+  "organizationsFailed": 14,
+  "errors": [
+    {
+      "country": "at",
+      "organizationId": "nepcsoporttanacsi-elnokok",
+      "error": "HTTPError"
+    },
+    {
+      "country": "at",
+      "organizationId": "szent-istvan-egylet",
+      "error": "HTTPError"
+    },
+    {
+      "country": "be",
+      "organizationId": "magyarorszag-haza-brusszel",
+      "error": "HTTPError"
+    },
+    {
+      "country": "es",
+      "organizationId": "magyar-fokonzulatus-barcelona",
+      "error": "HTTPError"
+    },
+    {
+      "country": "es",
+      "organizationId": "magyar-nagykovetseg-madrid",
+      "error": "HTTPError"
+    },
+    {
+      "country": "nl",
+      "organizationId": "hollandiai-magyar-szovetseg",
+      "error": "HTTPError"
+    },
+    {
+      "country": "nl",
+      "organizationId": "hya-netherlands",
+      "error": "HTTPError"
+    },
+    {
+      "country": "us",
+      "organizationId": "carolinas-hungarian-group",
+      "error": "HTTPError"
+    },
+    {
+      "country": "us",
+      "organizationId": "consulate-general-hungary-los-angeles",
+      "error": "HTTPError"
+    },
+    {
+      "country": "us",
+      "organizationId": "creative-cultural-exchange",
+      "error": "HTTPError"
+    },
+    {
+      "country": "us",
+      "organizationId": "csurdongolo-folk-ensemble",
+      "error": "HTTPError"
+    },
+    {
+      "country": "us",
+      "organizationId": "hungarian-community-church-daytona-beach",
+      "error": "HTTPError"
+    },
+    {
+      "country": "us",
+      "organizationId": "hungarian-reformed-church-phoenix",
+      "error": "HTTPError"
+    },
+    {
+      "country": "us",
+      "organizationId": "tisza-ensemble",
+      "error": "HTTPError"
+    }
+  ],
   "candidates": [
+    {
+      "country": "be",
+      "organizationId": "eurologus",
+      "organizationName": "EUrologus",
+      "title": "EUrologus: Von der Leyen: Európa 45 milliárd euróval támogatná Ukrajnát 2027-ben - | hvg.hu",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQQjZGcXRnaEJ4SU5Qd1NyR3RiY2pieHZDY3JZT1o4YUZucXJtT0lZMVk3S3lEaVhKX2ZxRjdESjh5MlhFb1Y2eTdaVEc3UGVCOVBaekVRSUF4R2ZOa19TQUpvQ09SbjR6U3JaLXNxOGktXy1tNy1mb0hJMkROczk3VDlBcXAyX1k?oc=5",
+      "published": "Wed, 25 Nov 2026 08:46:33 GMT",
+      "status": "candidate-needs-identity-and-source-verification",
+      "discoverySource": "Google News RSS",
+      "discoveredAt": "2026-11-26T02:44:54+00:00"
+    },
+    {
+      "country": "at",
+      "organizationId": "kultpult",
+      "organizationName": "KultPult",
+      "title": "Egyre több a légúti megbetegedés Szlovákiában: már 30 iskolában kellett szüneteltetni a tanítást - Új Szó",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQSVBmSXhjaHlCaDloM0UweENTTnFLUVZzZVhYNjNnQW9BWEMzQVpnSzVqRkMxZFc3ZzZ6SXh1eE1FNHpIQUNUaGkxUDFGU2lrLURCS0xXRmVLeHlMODNzRkk1UVItdXlUckl2NEt2bmVYN1BsYkRlemRoQ0w4QnZUMkRrU1Z3Tl9OdGF0ZU1Ib0VydmlEQ1pXSWFhTWx1THVDYkxZa2hyZXgtb3ZxYW93eGVRVUlHeFk?oc=5",
+      "published": "Tue, 24 Nov 2026 11:30:00 GMT",
+      "status": "candidate-needs-identity-and-source-verification",
+      "discoverySource": "Google News RSS",
+      "discoveredAt": "2026-11-26T02:44:54+00:00"
+    },
+    {
+      "country": "at",
+      "organizationId": "kultpult",
+      "organizationName": "KultPult",
+      "title": "Megérkezett a télies idő Szlovákiába: havazás, fagyok és hideg napok jönnek | Vasárnap | Családi magazin és portál - Új Szó",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPWTY0eGwzZ1BLYlE2YTdzQzE5R2M3TC1oNzF3Y3ZVeGp6SnhJVHplaWRISFA2N002MmZCb0JOUzViOW95X1FWQjNWUHZJLXkxc3RxOFA5RTZvNGtxV1ZQQUpIaHVfcnlQemo0ZGF5VzlBSjBEb2s1RjItMWRCVmxmVTNiN3dPXzlZRmpMNlRPU2Y5VVlzNUE5OQ?oc=5",
+      "published": "Mon, 23 Nov 2026 10:35:00 GMT",
+      "status": "candidate-needs-identity-and-source-verification",
+      "discoverySource": "Google News RSS",
+      "discoveredAt": "2026-11-26T02:44:54+00:00"
+    },
+    {
+      "country": "at",
+      "organizationId": "kultpult",
+      "organizationName": "KultPult",
+      "title": "Ferenc pápa úgy érezte, az ördög kísérti, és látta a pokol bejáratát | Vasárnap | Családi magazin és portál - Új Szó",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNcC01SDVONXhyNENPXzUxeml2V1N1ZlEyTFFDMEEyN2ZUYVd2akVKQ2JEZ05vSEVaclBKQkc4T0ZZNkg0TFNVVEFrTEw3SFUtcjJtTkhoYkJNTkY2M05Lcm14UUI5V2NTckdXVWNoMzMxVmFZc2NzYkFBMGM4X0xlLTl6SnVoUzBka0dYbHV3?oc=5",
+      "published": "Wed, 25 Nov 2026 10:00:00 GMT",
+      "status": "candidate-needs-identity-and-source-verification",
+      "discoverySource": "Google News RSS",
+      "discoveredAt": "2026-11-26T02:44:54+00:00"
+    },
     {
       "country": "nl",
       "organizationId": "hollandiai-magyarok",
@@ -27,7 +142,8 @@
       "published": "Tue, 24 Nov 2026 11:26:49 GMT",
       "status": "candidate-needs-identity-and-source-verification",
       "discoverySource": "Google News RSS",
-      "discoveredAt": "2026-11-25T02:44:21+00:00"
+      "discoveredAt": "2026-11-25T02:44:21+00:00",
+      "lastSeenAt": "2026-11-26T02:44:54+00:00"
     },
     {
       "country": "be",
@@ -38,7 +154,8 @@
       "published": "Tue, 24 Nov 2026 17:20:00 GMT",
       "status": "candidate-needs-identity-and-source-verification",
       "discoverySource": "Google News RSS",
-      "discoveredAt": "2026-11-25T02:44:21+00:00"
+      "discoveredAt": "2026-11-25T02:44:21+00:00",
+      "lastSeenAt": "2026-11-26T02:44:54+00:00"
     },
     {
       "country": "at",
@@ -49,7 +166,8 @@
       "published": "Tue, 24 Nov 2026 08:30:00 GMT",
       "status": "candidate-needs-identity-and-source-verification",
       "discoverySource": "Google News RSS",
-      "discoveredAt": "2026-11-25T02:44:21+00:00"
+      "discoveredAt": "2026-11-25T02:44:21+00:00",
+      "lastSeenAt": "2026-11-26T02:44:54+00:00"
     },
     {
       "country": "at",
@@ -60,7 +178,8 @@
       "published": "Tue, 24 Nov 2026 08:00:00 GMT",
       "status": "candidate-needs-identity-and-source-verification",
       "discoverySource": "Google News RSS",
-      "discoveredAt": "2026-11-25T02:44:21+00:00"
+      "discoveredAt": "2026-11-25T02:44:21+00:00",
+      "lastSeenAt": "2026-11-26T02:44:54+00:00"
     },
     {
       "country": "be",
@@ -83,7 +202,7 @@
       "status": "candidate-needs-identity-and-source-verification",
       "discoverySource": "Google News RSS",
       "discoveredAt": "2026-11-24T02:44:28+00:00",
-      "lastSeenAt": "2026-11-25T02:44:21+00:00"
+      "lastSeenAt": "2026-11-26T02:44:54+00:00"
     },
     {
       "country": "at",
@@ -95,7 +214,7 @@
       "status": "candidate-needs-identity-and-source-verification",
       "discoverySource": "Google News RSS",
       "discoveredAt": "2026-11-24T02:44:28+00:00",
-      "lastSeenAt": "2026-11-25T02:44:21+00:00"
+      "lastSeenAt": "2026-11-26T02:44:54+00:00"
     },
     {
       "country": "at",
@@ -119,7 +238,7 @@
       "status": "candidate-needs-identity-and-source-verification",
       "discoverySource": "Google News RSS",
       "discoveredAt": "2026-11-24T02:44:28+00:00",
-      "lastSeenAt": "2026-11-25T02:44:21+00:00"
+      "lastSeenAt": "2026-11-26T02:44:54+00:00"
     },
     {
       "country": "at",
@@ -131,7 +250,7 @@
       "status": "candidate-needs-identity-and-source-verification",
       "discoverySource": "Google News RSS",
       "discoveredAt": "2026-11-24T02:44:28+00:00",
-      "lastSeenAt": "2026-11-25T02:44:21+00:00"
+      "lastSeenAt": "2026-11-26T02:44:54+00:00"
     },
     {
       "country": "at",
@@ -155,7 +274,7 @@
       "status": "candidate-needs-identity-and-source-verification",
       "discoverySource": "Google News RSS",
       "discoveredAt": "2026-11-24T02:44:28+00:00",
-      "lastSeenAt": "2026-11-25T02:44:21+00:00"
+      "lastSeenAt": "2026-11-26T02:44:54+00:00"
     },
     {
       "country": "be",
@@ -167,7 +286,7 @@
       "status": "candidate-needs-identity-and-source-verification",
       "discoverySource": "Google News RSS",
       "discoveredAt": "2026-11-23T02:46:02+00:00",
-      "lastSeenAt": "2026-11-25T02:44:21+00:00"
+      "lastSeenAt": "2026-11-26T02:44:54+00:00"
     },
     {
       "country": "be",
@@ -179,7 +298,7 @@
       "status": "candidate-needs-identity-and-source-verification",
       "discoverySource": "Google News RSS",
       "discoveredAt": "2026-11-23T02:46:02+00:00",
-      "lastSeenAt": "2026-11-25T02:44:21+00:00"
+      "lastSeenAt": "2026-11-26T02:44:54+00:00"
     },
     {
       "country": "be",
@@ -191,7 +310,7 @@
       "status": "candidate-needs-identity-and-source-verification",
       "discoverySource": "Google News RSS",
       "discoveredAt": "2026-11-22T02:44:34+00:00",
-      "lastSeenAt": "2026-11-25T02:44:21+00:00"
+      "lastSeenAt": "2026-11-26T02:44:54+00:00"
     },
     {
       "country": "at",
@@ -215,7 +334,7 @@
       "status": "candidate-needs-identity-and-source-verification",
       "discoverySource": "Google News RSS",
       "discoveredAt": "2026-11-22T02:44:34+00:00",
-      "lastSeenAt": "2026-11-25T02:44:21+00:00"
+      "lastSeenAt": "2026-11-26T02:44:54+00:00"
     },
     {
       "country": "at",
@@ -251,7 +370,7 @@
       "status": "candidate-needs-identity-and-source-verification",
       "discoverySource": "Google News RSS",
       "discoveredAt": "2026-11-22T02:44:34+00:00",
-      "lastSeenAt": "2026-11-25T02:44:21+00:00"
+      "lastSeenAt": "2026-11-26T02:44:54+00:00"
     },
     {
       "country": "be",
@@ -263,7 +382,7 @@
       "status": "candidate-needs-identity-and-source-verification",
       "discoverySource": "Google News RSS",
       "discoveredAt": "2026-11-21T02:44:35+00:00",
-      "lastSeenAt": "2026-11-25T02:44:21+00:00"
+      "lastSeenAt": "2026-11-26T02:44:54+00:00"
     },
     {
       "country": "be",
@@ -287,7 +406,7 @@
       "status": "candidate-needs-identity-and-source-verification",
       "discoverySource": "Google News RSS",
       "discoveredAt": "2026-11-21T02:44:35+00:00",
-      "lastSeenAt": "2026-11-25T02:44:21+00:00"
+      "lastSeenAt": "2026-11-26T02:44:54+00:00"
     },
     {
       "country": "at",
@@ -334,7 +453,7 @@
       "status": "candidate-needs-identity-and-source-verification",
       "discoverySource": "Google News RSS",
       "discoveredAt": "2026-11-21T02:44:35+00:00",
-      "lastSeenAt": "2026-11-25T02:44:21+00:00"
+      "lastSeenAt": "2026-11-26T02:44:54+00:00"
     },
     {
       "country": "nl",
@@ -358,7 +477,7 @@
       "status": "candidate-needs-identity-and-source-verification",
       "discoverySource": "Google News RSS",
       "discoveredAt": "2026-11-20T02:44:57+00:00",
-      "lastSeenAt": "2026-11-25T02:44:21+00:00"
+      "lastSeenAt": "2026-11-26T02:44:54+00:00"
     },
     {
       "country": "be",
@@ -382,7 +501,7 @@
       "status": "candidate-needs-identity-and-source-verification",
       "discoverySource": "Google News RSS",
       "discoveredAt": "2026-11-20T02:44:57+00:00",
-      "lastSeenAt": "2026-11-25T02:44:21+00:00"
+      "lastSeenAt": "2026-11-26T02:44:54+00:00"
     },
     {
       "country": "be",
@@ -394,7 +513,7 @@
       "status": "candidate-needs-identity-and-source-verification",
       "discoverySource": "Google News RSS",
       "discoveredAt": "2026-11-20T02:44:57+00:00",
-      "lastSeenAt": "2026-11-25T02:44:21+00:00"
+      "lastSeenAt": "2026-11-26T02:44:54+00:00"
     },
     {
       "country": "be",
@@ -418,7 +537,7 @@
       "status": "candidate-needs-identity-and-source-verification",
       "discoverySource": "Google News RSS",
       "discoveredAt": "2026-11-20T02:44:57+00:00",
-      "lastSeenAt": "2026-11-25T02:44:21+00:00"
+      "lastSeenAt": "2026-11-26T02:44:54+00:00"
     },
     {
       "country": "be",
@@ -430,7 +549,7 @@
       "status": "candidate-needs-identity-and-source-verification",
       "discoverySource": "Google News RSS",
       "discoveredAt": "2026-11-20T02:44:57+00:00",
-      "lastSeenAt": "2026-11-25T02:44:21+00:00"
+      "lastSeenAt": "2026-11-26T02:44:54+00:00"
     },
     {
       "country": "at",
@@ -466,7 +585,7 @@
       "status": "candidate-needs-identity-and-source-verification",
       "discoverySource": "Google News RSS",
       "discoveredAt": "2026-11-20T02:44:57+00:00",
-      "lastSeenAt": "2026-11-25T02:44:21+00:00"
+      "lastSeenAt": "2026-11-26T02:44:54+00:00"
     },
     {
       "country": "nl",
@@ -836,7 +955,7 @@
       "status": "candidate-needs-identity-and-source-verification",
       "discoverySource": "Google News RSS",
       "discoveredAt": "2026-11-14T02:45:12+00:00",
-      "lastSeenAt": "2026-11-25T02:44:21+00:00"
+      "lastSeenAt": "2026-11-26T02:44:54+00:00"
     },
     {
       "country": "be",

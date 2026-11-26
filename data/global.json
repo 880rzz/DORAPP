@@ -2265,7 +2265,7 @@
       "name": {
         "en": "Japan"
       },
-      "researchStatus": "unresearched",
+      "researchStatus": "researching",
       "countryDataPath": "data/countries/jp/",
       "route": "countries/jp/",
       "counts": {
@@ -2275,7 +2275,9 @@
         "events": 0,
         "education": 0
       },
-      "iso3": "JPN"
+      "iso3": "JPN",
+      "lastResearchAttemptAt": "2026-11-26T02:40:51+00:00",
+      "discoveryCandidateCount": 51
     },
     {
       "iso2": "ke",
@@ -4506,7 +4508,7 @@
         "organizations": 78,
         "activities": 0,
         "entities": 78,
-        "events": 11,
+        "events": 12,
         "education": 23
       },
       "iso3": "USA",
