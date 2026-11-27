@@ -1,12 +1,12 @@
 {
-  "updated": "2026-11-26T02:44:53.844567+00:00",
+  "updated": "2026-11-27T02:44:01.887390+00:00",
   "country": "us",
   "sources": [
     {
       "entityId": "american-hungarian-library-historical-society",
       "entityType": "organization",
       "source": "https://www.hungarianlibrary.org/ahlhs-events",
-      "checkedAt": "2026-11-26T02:44:31.341861+00:00",
+      "checkedAt": "2026-11-27T02:43:42.135893+00:00",
       "status": "ok-no-structured-event",
       "eventsFound": 0,
       "pagesChecked": 7
@@ -15,7 +15,7 @@
       "entityId": "carolinas-hungarian-group",
       "entityType": "organization",
       "source": "https://www.karolinaimagyarok.com/ucoming-events",
-      "checkedAt": "2026-11-26T02:44:43.497067+00:00",
+      "checkedAt": "2026-11-27T02:43:49.141187+00:00",
       "status": "ok-events",
       "eventsFound": 1,
       "pagesChecked": 5
@@ -24,7 +24,7 @@
       "entityId": "chicago-hungarian-cultural-advisory-council",
       "entityType": "organization",
       "source": "https://www.chicagohungarians.com/",
-      "checkedAt": "2026-11-26T02:44:30.833710+00:00",
+      "checkedAt": "2026-11-27T02:43:41.738419+00:00",
       "status": "ok-no-structured-event",
       "eventsFound": 0,
       "pagesChecked": 1
@@ -33,7 +33,7 @@
       "entityId": "cleveland-hungarian-heritage-society",
       "entityType": "organization",
       "source": "https://clevelandhungarianmuseum.org/",
-      "checkedAt": "2026-11-26T02:44:30.832750+00:00",
+      "checkedAt": "2026-11-27T02:43:41.737477+00:00",
       "status": "ok-no-structured-event",
       "eventsFound": 0,
       "pagesChecked": 4
@@ -42,16 +42,17 @@
       "entityId": "colorado-hungarian-club",
       "entityType": "organization",
       "source": "https://huclub.org/",
-      "checkedAt": "2026-11-26T02:44:33.336621+00:00",
-      "status": "ok-events",
-      "eventsFound": 1,
-      "pagesChecked": 7
+      "checkedAt": "2026-11-27T02:43:42.194479+00:00",
+      "status": "site-blocked",
+      "eventsFound": 0,
+      "pagesChecked": 0,
+      "error": "HTTP Error 403: Forbidden"
     },
     {
       "entityId": "csurdongolo-folk-ensemble",
       "entityType": "organization",
       "source": "https://www.csurfolk.org/events.html",
-      "checkedAt": "2026-11-26T02:44:38.626827+00:00",
+      "checkedAt": "2026-11-27T02:43:42.843134+00:00",
       "status": "ok-no-structured-event",
       "eventsFound": 0,
       "pagesChecked": 5
@@ -60,16 +61,17 @@
       "entityId": "house-of-hungary-san-diego",
       "entityType": "organization",
       "source": "https://sdmagyar.org/",
-      "checkedAt": "2026-11-26T02:44:30.832473+00:00",
-      "status": "ok-no-structured-event",
+      "checkedAt": "2026-11-27T02:43:41.737187+00:00",
+      "status": "site-blocked",
       "eventsFound": 0,
-      "pagesChecked": 3
+      "pagesChecked": 0,
+      "error": "HTTP Error 403: Forbidden"
     },
     {
       "entityId": "hungarian-association-cleveland",
       "entityType": "organization",
       "source": "https://hungarianassociation.com/esemenyek/",
-      "checkedAt": "2026-11-26T02:44:30.833368+00:00",
+      "checkedAt": "2026-11-27T02:43:41.738124+00:00",
       "status": "ok-no-structured-event",
       "eventsFound": 0,
       "pagesChecked": 7
@@ -78,7 +80,7 @@
       "entityId": "hungarian-community-church-georgia",
       "entityType": "organization",
       "source": "https://www.hungarianchurch.org/?lang=en",
-      "checkedAt": "2026-11-26T02:44:30.833063+00:00",
+      "checkedAt": "2026-11-27T02:43:41.737838+00:00",
       "status": "ok-no-structured-event",
       "eventsFound": 0,
       "pagesChecked": 2
@@ -87,7 +89,7 @@
       "entityId": "hungarian-house-new-york",
       "entityType": "organization",
       "source": "https://www.hungarianhouse.org/event-list",
-      "checkedAt": "2026-11-26T02:44:30.831592+00:00",
+      "checkedAt": "2026-11-27T02:43:41.736319+00:00",
       "status": "ok-no-structured-event",
       "eventsFound": 0,
       "pagesChecked": 7
@@ -96,7 +98,7 @@
       "entityId": "hungarian-reformed-church-washington-dc",
       "entityType": "organization",
       "source": "https://hungarianreformedchurchdc.org/index.php/en-us/services",
-      "checkedAt": "2026-11-26T02:44:43.680840+00:00",
+      "checkedAt": "2026-11-27T02:43:50.186991+00:00",
       "status": "ok-no-structured-event",
       "eventsFound": 0,
       "pagesChecked": 3
@@ -105,7 +107,7 @@
       "entityId": "hunyadi-matyas-scout-troop-19-chicago",
       "entityType": "organization",
       "source": "https://chicagohungarians.com/index.php?page=chiold.htm",
-      "checkedAt": "2026-11-26T02:44:43.061830+00:00",
+      "checkedAt": "2026-11-27T02:43:48.923668+00:00",
       "status": "ok-no-structured-event",
       "eventsFound": 0,
       "pagesChecked": 1
@@ -114,7 +116,7 @@
       "entityId": "metroplex-magyar-cultural-circle",
       "entityType": "organization",
       "source": "https://magyarszo.net/events/2026-10",
-      "checkedAt": "2026-11-26T02:44:40.032842+00:00",
+      "checkedAt": "2026-11-27T02:43:44.810150+00:00",
       "status": "site-blocked",
       "eventsFound": 0,
       "pagesChecked": 0,
@@ -124,7 +126,7 @@
       "entityId": "minnesota-hungarians",
       "entityType": "organization",
       "source": "https://www.minnesotahungarians.com/",
-      "checkedAt": "2026-11-26T02:44:30.832197+00:00",
+      "checkedAt": "2026-11-27T02:43:41.736884+00:00",
       "status": "ok-events",
       "eventsFound": 2,
       "pagesChecked": 5
@@ -133,7 +135,7 @@
       "entityId": "philadelphia-vicinity-hungarian-sports-club",
       "entityType": "organization",
       "source": "https://magyartanya.org/index.php/enus/events-en/events-en",
-      "checkedAt": "2026-11-26T02:44:40.048381+00:00",
+      "checkedAt": "2026-11-27T02:43:44.940754+00:00",
       "status": "ok-no-structured-event",
       "eventsFound": 0,
       "pagesChecked": 7
@@ -142,7 +144,7 @@
       "entityId": "st-stephen-hungarian-catholic-community-washington",
       "entityType": "organization",
       "source": "https://washingtonhungariancatholic.com/events/",
-      "checkedAt": "2026-11-26T02:44:40.091115+00:00",
+      "checkedAt": "2026-11-27T02:43:48.550321+00:00",
       "status": "ok-no-structured-event",
       "eventsFound": 0,
       "pagesChecked": 7
@@ -151,7 +153,7 @@
       "entityId": "united-hungarian-societies-cleveland",
       "entityType": "organization",
       "source": "https://hungariancleveland.org/calendar/",
-      "checkedAt": "2026-11-26T02:44:30.831832+00:00",
+      "checkedAt": "2026-11-27T02:43:41.736570+00:00",
       "status": "ok-events",
       "eventsFound": 3,
       "pagesChecked": 2

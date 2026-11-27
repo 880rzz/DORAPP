@@ -1,21 +1,22 @@
 {
-  "updated": "2026-11-26T02:44:30.815360+00:00",
+  "updated": "2026-11-27T02:43:41.719413+00:00",
   "country": "nl",
   "sources": [
     {
       "entityId": "hollandiai-magyar-szovetseg",
       "entityType": "organization",
       "source": "https://www.hongaarsefederatie.nl/esemenyek/",
-      "checkedAt": "2026-11-26T02:44:11.257111+00:00",
-      "status": "ok-no-structured-event",
+      "checkedAt": "2026-11-27T02:43:25.508464+00:00",
+      "status": "site-blocked",
       "eventsFound": 0,
-      "pagesChecked": 6
+      "pagesChecked": 0,
+      "error": "HTTP Error 403: Forbidden"
     },
     {
       "entityId": "hungaria-club-1929",
       "entityType": "organization",
       "source": "https://www.hungariaclub1929.nl/nl/programma/",
-      "checkedAt": "2026-11-26T02:44:11.257365+00:00",
+      "checkedAt": "2026-11-27T02:43:25.508717+00:00",
       "status": "ok-no-structured-event",
       "eventsFound": 0,
       "pagesChecked": 7
@@ -24,7 +25,7 @@
       "entityId": "stichting-magyar-nota",
       "entityType": "organization",
       "source": "https://www.magyarnota.nl/magyar-nota-nl/activiteiten-magyarnota/",
-      "checkedAt": "2026-11-26T02:44:11.257628+00:00",
+      "checkedAt": "2026-11-27T02:43:25.509113+00:00",
       "status": "ok-no-structured-event",
       "eventsFound": 0,
       "pagesChecked": 1
