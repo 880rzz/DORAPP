@@ -1,19 +1,19 @@
 {
-  "updated": "2026-11-27T14:22:46+00:00",
+  "updated": "2026-11-27T14:37:16+00:00",
   "pages": 1168,
-  "internalLinksChecked": 10893,
+  "internalLinksChecked": 10896,
   "internalErrors": [],
   "externalLinksDiscovered": 1144,
   "externalLinksChecked": 1144,
   "externalStatusCounts": {
-    "site-blocked": 120,
-    "network-error": 8,
-    "timeout": 21,
-    "ok": 915,
-    "not-found": 33,
-    "tls-error": 18,
-    "http-error": 18,
-    "rate-limited": 11
+    "site-blocked": 167,
+    "network-error": 9,
+    "timeout": 8,
+    "ok": 896,
+    "not-found": 32,
+    "tls-error": 17,
+    "rate-limited": 8,
+    "http-error": 7
   },
   "externalResults": [
     {
@@ -36,8 +36,8 @@
     },
     {
       "url": "http://www.hacahouston.org/",
-      "status": "timeout",
-      "httpStatus": null,
+      "status": "site-blocked",
+      "httpStatus": 403,
       "resolvedUrl": "http://www.hacahouston.org/"
     },
     {
@@ -294,9 +294,9 @@
     },
     {
       "url": "https://barcelonaesgrima.blogspot.com/",
-      "status": "ok",
-      "httpStatus": 200,
-      "resolvedUrl": "https://barcelonaesgrima.blogspot.com/"
+      "status": "rate-limited",
+      "httpStatus": 429,
+      "resolvedUrl": "https://www.google.com/sorry/index?continue=https://barcelonaesgrima.blogspot.com/&q=EgQUQJ0TGNGqptgGIi21CnjPz9M8UAy8vaEX_CBps69Psq0X1dTQ4C4gz9vuoZPlbUxmHyeRWK1o4w0yAnJSWgFDYOS0x8z654DvxgE"
     },
     {
       "url": "https://beinvolved.indiana.edu/organization/hcaiu",
@@ -444,8 +444,8 @@
     },
     {
       "url": "https://buechereien.wien.gv.at/",
-      "status": "timeout",
-      "httpStatus": null,
+      "status": "http-error",
+      "httpStatus": 302,
       "resolvedUrl": "https://buechereien.wien.gv.at/"
     },
     {
@@ -750,68 +750,68 @@
     },
     {
       "url": "https://culture.hu/de/wien/jubilaum",
-      "status": "http-error",
-      "httpStatus": 502,
+      "status": "ok",
+      "httpStatus": 200,
       "resolvedUrl": "https://culture.hu/de/wien/jubilaum"
     },
     {
       "url": "https://culture.hu/de/wien/ourcommunity-de",
-      "status": "http-error",
-      "httpStatus": 502,
+      "status": "ok",
+      "httpStatus": 200,
       "resolvedUrl": "https://culture.hu/de/wien/ourcommunity-de"
     },
     {
       "url": "https://culture.hu/de/wien/ueber-das-institut",
-      "status": "http-error",
-      "httpStatus": 502,
+      "status": "ok",
+      "httpStatus": 200,
       "resolvedUrl": "https://culture.hu/de/wien/ueber-das-institut"
     },
     {
       "url": "https://culture.hu/en/brussels",
-      "status": "http-error",
-      "httpStatus": 502,
+      "status": "ok",
+      "httpStatus": 200,
       "resolvedUrl": "https://culture.hu/en/brussels"
     },
     {
       "url": "https://culture.hu/en/brussels/aboutus-en",
-      "status": "http-error",
-      "httpStatus": 502,
+      "status": "ok",
+      "httpStatus": 200,
       "resolvedUrl": "https://culture.hu/en/brussels/aboutus-en"
     },
     {
       "url": "https://culture.hu/en/brussels/events/heritage-days-2024",
-      "status": "http-error",
-      "httpStatus": 502,
+      "status": "ok",
+      "httpStatus": 200,
       "resolvedUrl": "https://culture.hu/en/brussels/events/heritage-days-2024"
     },
     {
       "url": "https://culture.hu/hu/brussels",
-      "status": "http-error",
-      "httpStatus": 502,
+      "status": "ok",
+      "httpStatus": 200,
       "resolvedUrl": "https://culture.hu/hu/brussels"
     },
     {
       "url": "https://culture.hu/hu/brussels/konyvtar-2",
-      "status": "http-error",
-      "httpStatus": 502,
+      "status": "ok",
+      "httpStatus": 200,
       "resolvedUrl": "https://culture.hu/hu/brussels/konyvtar-2"
     },
     {
       "url": "https://culture.hu/hu/wien",
-      "status": "http-error",
-      "httpStatus": 502,
+      "status": "ok",
+      "httpStatus": 200,
       "resolvedUrl": "https://culture.hu/hu/wien"
     },
     {
       "url": "https://culture.hu/hu/wien/elerhetoseg",
-      "status": "http-error",
-      "httpStatus": 502,
+      "status": "ok",
+      "httpStatus": 200,
       "resolvedUrl": "https://culture.hu/hu/wien/elerhetoseg"
     },
     {
       "url": "https://culture.hu/hu/wien/esemenyek",
-      "status": "http-error",
-      "httpStatus": 502,
+      "status": "ok",
+      "httpStatus": 200,
       "resolvedUrl": "https://culture.hu/hu/wien/esemenyek"
     },
     {
@@ -822,8 +822,8 @@
     },
     {
       "url": "https://culture.hu/uk/london",
-      "status": "http-error",
-      "httpStatus": 502,
+      "status": "ok",
+      "httpStatus": 200,
       "resolvedUrl": "https://culture.hu/uk/london"
     },
     {
@@ -912,8 +912,8 @@
     },
     {
       "url": "https://dk.linkedin.com/in/enik%C5%91bl%C3%A9nesi",
-      "status": "http-error",
-      "httpStatus": 999,
+      "status": "rate-limited",
+      "httpStatus": 429,
       "resolvedUrl": "https://dk.linkedin.com/in/enik%C5%91bl%C3%A9nesi"
     },
     {
@@ -1116,8 +1116,8 @@
     },
     {
       "url": "https://finno-ugristik.univie.ac.at/en/studying/",
-      "status": "ok",
-      "httpStatus": 200,
+      "status": "timeout",
+      "httpStatus": null,
       "resolvedUrl": "https://finno-ugristik.univie.ac.at/en/studying/"
     },
     {
@@ -1644,15 +1644,15 @@
     },
     {
       "url": "https://koppenhagaimagyariskola.blogspot.com/",
-      "status": "ok",
-      "httpStatus": 200,
-      "resolvedUrl": "https://koppenhagaimagyariskola.blogspot.com/"
+      "status": "rate-limited",
+      "httpStatus": 429,
+      "resolvedUrl": "https://www.google.com/sorry/index?continue=https://koppenhagaimagyariskola.blogspot.com/&q=EgQUQJ0TGOWqptgGIi1G0CeBNnMQkX07qycUaYLf0-V-qk5UVc9WGynTspS7TCJL28THkgkoxMctLYQyAnJSWgFDYMfpxtGIqOjY-AE"
     },
     {
       "url": "https://koppenhagaimagyariskola.blogspot.com/p/blog-page.html",
-      "status": "ok",
-      "httpStatus": 200,
-      "resolvedUrl": "https://koppenhagaimagyariskola.blogspot.com/p/blog-page.html"
+      "status": "rate-limited",
+      "httpStatus": 429,
+      "resolvedUrl": "https://www.google.com/sorry/index?continue=https://koppenhagaimagyariskola.blogspot.com/p/blog-page.html&q=EgQUQJ0TGOWqptgGIi0FD2dJ3pt_E82FgwJKPIZ0T-SxPYDxoqbw6Io-JSpN0S8EfOANxcksOy0qowMyAnJSWgFDYJLAr4XE27u0mQE"
     },
     {
       "url": "https://korosicsomasandormagyariskola.com/",
@@ -1842,8 +1842,8 @@
     },
     {
       "url": "https://magyarforradalom1956.hu/v/56-os-emlekmuvet-avattak-madridban-/",
-      "status": "ok",
-      "httpStatus": 200,
+      "status": "timeout",
+      "httpStatus": null,
       "resolvedUrl": "https://magyarforradalom1956.hu/v/56-os-emlekmuvet-avattak-madridban-/"
     },
     {
@@ -2028,8 +2028,8 @@
     },
     {
       "url": "https://ms-herrenried.edupage.org/",
-      "status": "ok",
-      "httpStatus": 200,
+      "status": "network-error",
+      "httpStatus": null,
       "resolvedUrl": "https://ms-herrenried.edupage.org/"
     },
     {
@@ -2244,8 +2244,8 @@
     },
     {
       "url": "https://rakoczi.ca/",
-      "status": "timeout",
-      "httpStatus": null,
+      "status": "site-blocked",
+      "httpStatus": 403,
       "resolvedUrl": "https://rakoczi.ca/"
     },
     {
@@ -2274,9 +2274,9 @@
     },
     {
       "url": "https://refmont.blogspot.com/",
-      "status": "ok",
-      "httpStatus": 200,
-      "resolvedUrl": "https://refmont.blogspot.com/"
+      "status": "rate-limited",
+      "httpStatus": 429,
+      "resolvedUrl": "https://www.google.com/sorry/index?continue=https://refmont.blogspot.com/&q=EgQUQJ0TGOqqptgGIi1YH3r74-T_Ltsk31TqBRea5FAf-TXoqd5UdR7DqaszqRsa1N1Ju2xHXv_XHycyAnJSWgFDYPHFqvGdwPDWoAE"
     },
     {
       "url": "https://reformatus.at/",
@@ -2868,15 +2868,15 @@
     },
     {
       "url": "https://sdmagyar.org/",
-      "status": "ok",
-      "httpStatus": 200,
+      "status": "site-blocked",
+      "httpStatus": 403,
       "resolvedUrl": "https://sdmagyar.org/"
     },
     {
       "url": "https://sdmagyar.org/hu/iskola",
-      "status": "ok",
-      "httpStatus": 200,
-      "resolvedUrl": "https://sdmagyar.org/hu/iskola/"
+      "status": "site-blocked",
+      "httpStatus": 403,
+      "resolvedUrl": "https://sdmagyar.org/hu/iskola"
     },
     {
       "url": "https://sfcserkesz.org/",
@@ -2904,14 +2904,14 @@
     },
     {
       "url": "https://skinrotterdam.nl/aangesloten-kerken/",
-      "status": "ok",
-      "httpStatus": 200,
+      "status": "site-blocked",
+      "httpStatus": 403,
       "resolvedUrl": "https://skinrotterdam.nl/aangesloten-kerken/"
     },
     {
       "url": "https://skinrotterdam.nl/wp-content/uploads/2024/04/Kerkengids-Rotterdam.pdf",
-      "status": "ok",
-      "httpStatus": 200,
+      "status": "site-blocked",
+      "httpStatus": 403,
       "resolvedUrl": "https://skinrotterdam.nl/wp-content/uploads/2024/04/Kerkengids-Rotterdam.pdf"
     },
     {
@@ -2988,15 +2988,15 @@
     },
     {
       "url": "https://stockholm.mfa.gov.hu/hu/magyarok-svedorszagban",
-      "status": "ok",
-      "httpStatus": 200,
+      "status": "site-blocked",
+      "httpStatus": 403,
       "resolvedUrl": "https://stockholm.mfa.gov.hu/hu/magyarok-svedorszagban"
     },
     {
       "url": "https://svung.at/",
-      "status": "ok",
-      "httpStatus": 200,
-      "resolvedUrl": "https://www.svung.at/"
+      "status": "site-blocked",
+      "httpStatus": 403,
+      "resolvedUrl": "https://svung.at/"
     },
     {
       "url": "https://telfs.at/bildung",
@@ -3006,20 +3006,20 @@
     },
     {
       "url": "https://tiszaensemble.org/",
-      "status": "ok",
-      "httpStatus": 200,
+      "status": "site-blocked",
+      "httpStatus": 403,
       "resolvedUrl": "https://tiszaensemble.org/"
     },
     {
       "url": "https://toronto.mfa.gov.hu/hu/tor_egyh%C3%A1zak_hmsz",
-      "status": "ok",
-      "httpStatus": 200,
+      "status": "site-blocked",
+      "httpStatus": 403,
       "resolvedUrl": "https://toronto.mfa.gov.hu/hu/tor_egyh%C3%A1zak_hmsz"
     },
     {
       "url": "https://toronto.mfa.gov.hu/hu/tor_hmsz",
-      "status": "ok",
-      "httpStatus": 200,
+      "status": "site-blocked",
+      "httpStatus": 403,
       "resolvedUrl": "https://toronto.mfa.gov.hu/hu/tor_hmsz"
     },
     {
@@ -3768,8 +3768,8 @@
     },
     {
       "url": "https://vsgratkorn.at/",
-      "status": "ok",
-      "httpStatus": 200,
+      "status": "site-blocked",
+      "httpStatus": 403,
       "resolvedUrl": "https://vsgratkorn.at/"
     },
     {
@@ -3786,69 +3786,69 @@
     },
     {
       "url": "https://washington.mfa.gov.hu/",
-      "status": "ok",
-      "httpStatus": 200,
+      "status": "site-blocked",
+      "httpStatus": 403,
       "resolvedUrl": "https://washington.mfa.gov.hu/"
     },
     {
       "url": "https://washington.mfa.gov.hu/en/consulates",
-      "status": "ok",
-      "httpStatus": 200,
+      "status": "site-blocked",
+      "httpStatus": 403,
       "resolvedUrl": "https://washington.mfa.gov.hu/en/consulates"
     },
     {
       "url": "https://washington.mfa.gov.hu/en/midwest",
-      "status": "ok",
-      "httpStatus": 200,
+      "status": "site-blocked",
+      "httpStatus": 403,
       "resolvedUrl": "https://washington.mfa.gov.hu/en/midwest"
     },
     {
       "url": "https://washington.mfa.gov.hu/en/northeast",
-      "status": "ok",
-      "httpStatus": 200,
+      "status": "site-blocked",
+      "httpStatus": 403,
       "resolvedUrl": "https://washington.mfa.gov.hu/en/northeast"
     },
     {
       "url": "https://washington.mfa.gov.hu/en/southeast",
-      "status": "ok",
-      "httpStatus": 200,
+      "status": "site-blocked",
+      "httpStatus": 403,
       "resolvedUrl": "https://washington.mfa.gov.hu/en/southeast"
     },
     {
       "url": "https://washington.mfa.gov.hu/en/southwest",
-      "status": "ok",
-      "httpStatus": 200,
+      "status": "site-blocked",
+      "httpStatus": 403,
       "resolvedUrl": "https://washington.mfa.gov.hu/en/southwest"
     },
     {
       "url": "https://washington.mfa.gov.hu/en/washington-dc",
-      "status": "ok",
-      "httpStatus": 200,
+      "status": "site-blocked",
+      "httpStatus": 403,
       "resolvedUrl": "https://washington.mfa.gov.hu/en/washington-dc"
     },
     {
       "url": "https://washington.mfa.gov.hu/en/westcoast-northwest-hawaii",
-      "status": "ok",
-      "httpStatus": 200,
+      "status": "site-blocked",
+      "httpStatus": 403,
       "resolvedUrl": "https://washington.mfa.gov.hu/en/westcoast-northwest-hawaii"
     },
     {
       "url": "https://washington.mfa.gov.hu/hu/a-diaszpora-koezoessegek-napjainkban",
-      "status": "ok",
-      "httpStatus": 200,
+      "status": "site-blocked",
+      "httpStatus": 403,
       "resolvedUrl": "https://washington.mfa.gov.hu/hu/a-diaszpora-koezoessegek-napjainkban"
     },
     {
       "url": "https://washington.mfa.gov.hu/hu/a-nagykoevetseg-konzuli-kerueleteben-mukoedo-diaszpora-szervezetek",
-      "status": "ok",
-      "httpStatus": 200,
+      "status": "site-blocked",
+      "httpStatus": 403,
       "resolvedUrl": "https://washington.mfa.gov.hu/hu/a-nagykoevetseg-konzuli-kerueleteben-mukoedo-diaszpora-szervezetek"
     },
     {
       "url": "https://washington.mfa.gov.hu/page/fobb-orszagos-diaszpora-szervezetek-es-egyesueletek",
-      "status": "ok",
-      "httpStatus": 200,
-      "resolvedUrl": "https://washington.mfa.gov.hu/hu/fobb-orszagos-diaszpora-szervezetek-es-egyesueletek"
+      "status": "site-blocked",
+      "httpStatus": 403,
+      "resolvedUrl": "https://washington.mfa.gov.hu/page/fobb-orszagos-diaszpora-szervezetek-es-egyesueletek"
     },
     {
       "url": "https://washingtonhungariancatholic.com/",
@@ -4026,14 +4026,14 @@
     },
     {
       "url": "https://wpalife.org/",
-      "status": "ok",
-      "httpStatus": 200,
+      "status": "site-blocked",
+      "httpStatus": 403,
       "resolvedUrl": "https://wpalife.org/"
     },
     {
       "url": "https://wpalife.org/about/",
-      "status": "ok",
-      "httpStatus": 200,
+      "status": "site-blocked",
+      "httpStatus": 403,
       "resolvedUrl": "https://wpalife.org/about/"
     },
     {
@@ -4044,8 +4044,8 @@
     },
     {
       "url": "https://www.ahfoundation.org/",
-      "status": "ok",
-      "httpStatus": 200,
+      "status": "site-blocked",
+      "httpStatus": 403,
       "resolvedUrl": "https://www.ahfoundation.org/"
     },
     {
@@ -4152,8 +4152,8 @@
     },
     {
       "url": "https://www.bg-oberwart.at/de/schule/zweisprachigkeit",
-      "status": "ok",
-      "httpStatus": 200,
+      "status": "timeout",
+      "httpStatus": null,
       "resolvedUrl": "https://www.bg-oberwart.at/de/schule/zweisprachigkeit"
     },
     {
@@ -4302,8 +4302,8 @@
     },
     {
       "url": "https://www.catho-bruxelles.be/nos-services/vivre-la-fraternite/carl/",
-      "status": "ok",
-      "httpStatus": 200,
+      "status": "site-blocked",
+      "httpStatus": 403,
       "resolvedUrl": "https://www.catho-bruxelles.be/nos-services/vivre-la-fraternite/carl/"
     },
     {
@@ -4368,8 +4368,8 @@
     },
     {
       "url": "https://www.creativescience.hu/programjaink/becs-craft-workshop/",
-      "status": "not-found",
-      "httpStatus": 404,
+      "status": "site-blocked",
+      "httpStatus": 403,
       "resolvedUrl": "https://www.creativescience.hu/programjaink/becs-craft-workshop/"
     },
     {
@@ -4476,20 +4476,20 @@
     },
     {
       "url": "https://www.dioezese-linz.at/institution/8038/ueberuns/gottesdiensteveranstaltun/article/21612.html",
-      "status": "timeout",
-      "httpStatus": null,
+      "status": "ok",
+      "httpStatus": 200,
       "resolvedUrl": "https://www.dioezese-linz.at/institution/8038/ueberuns/gottesdiensteveranstaltun/article/21612.html"
     },
     {
       "url": "https://www.edsbg.at/dl/klOKJmMJKNLMKJqx4KJK/ungarischsprachige_Gottesdienstgemeinde_Salzburg_pdf",
-      "status": "timeout",
-      "httpStatus": null,
+      "status": "http-error",
+      "httpStatus": 400,
       "resolvedUrl": "https://www.edsbg.at/dl/klOKJmMJKNLMKJqx4KJK/ungarischsprachige_Gottesdienstgemeinde_Salzburg_pdf"
     },
     {
       "url": "https://www.edsbg.at/seelsorge/weltkirche/anderssprachige-seelsorge/ungarische-gemeinde",
-      "status": "timeout",
-      "httpStatus": null,
+      "status": "ok",
+      "httpStatus": 200,
       "resolvedUrl": "https://www.edsbg.at/seelsorge/weltkirche/anderssprachige-seelsorge/ungarische-gemeinde"
     },
     {
@@ -4506,14 +4506,14 @@
     },
     {
       "url": "https://www.erzdioezese-wien.at/",
-      "status": "timeout",
-      "httpStatus": null,
+      "status": "ok",
+      "httpStatus": 200,
       "resolvedUrl": "https://www.erzdioezese-wien.at/"
     },
     {
       "url": "https://www.erzdioezese-wien.at/unit/katholischeostkirchen/unseregemeinden/katholischeostkirchen/gemeindeninwien",
-      "status": "timeout",
-      "httpStatus": null,
+      "status": "ok",
+      "httpStatus": 200,
       "resolvedUrl": "https://www.erzdioezese-wien.at/unit/katholischeostkirchen/unseregemeinden/katholischeostkirchen/gemeindeninwien"
     },
     {
@@ -4560,8 +4560,8 @@
     },
     {
       "url": "https://www.evangelikus.hu/hu/hireink/beszamolo/becsben-ulesezett-a-magyar-evangelikus-tanacskozo-testulet",
-      "status": "ok",
-      "httpStatus": 200,
+      "status": "site-blocked",
+      "httpStatus": 403,
       "resolvedUrl": "https://www.evangelikus.hu/hu/hireink/beszamolo/becsben-ulesezett-a-magyar-evangelikus-tanacskozo-testulet"
     },
     {
@@ -4934,13 +4934,13 @@
       "url": "https://www.facebook.com/share/1YXeCFjNnK/?mibextid=wwXIfr",
       "status": "ok",
       "httpStatus": 200,
-      "resolvedUrl": "https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2Fwelovemusicandwords%3Fmibextid%3DwwXIfr%26rdid%3D1mRAmKjl5bnwSthm%26share_url%3Dhttps%253A%252F%252Fwww.facebook.com%252Fshare%252F1YXeCFjNnK%252F%253Fmibextid%253DwwXIfr&rdid=1mRAmKjl5bnwSthm"
+      "resolvedUrl": "https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2Fwelovemusicandwords%3Fmibextid%3DwwXIfr%26rdid%3Dct3rS1nJfrcjvpXI%26share_url%3Dhttps%253A%252F%252Fwww.facebook.com%252Fshare%252F1YXeCFjNnK%252F%253Fmibextid%253DwwXIfr&rdid=ct3rS1nJfrcjvpXI"
     },
     {
       "url": "https://www.facebook.com/share/1daRJj3QUu/?mibextid=wwXIfr",
       "status": "ok",
       "httpStatus": 200,
-      "resolvedUrl": "https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2Famaped.becs%2F%3Frdid%3Dy0DlcdIWUBNcAz9U&rdid=y0DlcdIWUBNcAz9U"
+      "resolvedUrl": "https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2Famaped.becs%2F%3Frdid%3D2SgTHaDp9ZVIGtVX&rdid=2SgTHaDp9ZVIGtVX"
     },
     {
       "url": "https://www.facebook.com/ungarischer.schulverein",
@@ -4974,32 +4974,32 @@
     },
     {
       "url": "https://www.federatio.org/hmoi.html",
-      "status": "ok",
-      "httpStatus": 200,
+      "status": "site-blocked",
+      "httpStatus": 403,
       "resolvedUrl": "https://www.federatio.org/hmoi.html"
     },
     {
       "url": "https://www.federatio.org/mikes.html",
-      "status": "ok",
-      "httpStatus": 200,
+      "status": "site-blocked",
+      "httpStatus": 403,
       "resolvedUrl": "https://www.federatio.org/mikes.html"
     },
     {
       "url": "https://www.federatio.org/mikes_bibl.html",
-      "status": "ok",
-      "httpStatus": 200,
+      "status": "site-blocked",
+      "httpStatus": 403,
       "resolvedUrl": "https://www.federatio.org/mikes_bibl.html"
     },
     {
       "url": "https://www.federatio.org/mikes_int.html",
-      "status": "ok",
-      "httpStatus": 200,
+      "status": "site-blocked",
+      "httpStatus": 403,
       "resolvedUrl": "https://www.federatio.org/mikes_int.html"
     },
     {
       "url": "https://www.federatio.org/protes.html",
-      "status": "ok",
-      "httpStatus": 200,
+      "status": "site-blocked",
+      "httpStatus": 403,
       "resolvedUrl": "https://www.federatio.org/protes.html"
     },
     {
@@ -5106,26 +5106,26 @@
     },
     {
       "url": "https://www.hatartalantortenelem.com/",
-      "status": "ok",
-      "httpStatus": 200,
+      "status": "site-blocked",
+      "httpStatus": 403,
       "resolvedUrl": "https://www.hatartalantortenelem.com/"
     },
     {
       "url": "https://www.hatartalantortenelem.com/altalanos-szerzodesi-feltetelek/",
-      "status": "ok",
-      "httpStatus": 200,
+      "status": "site-blocked",
+      "httpStatus": 403,
       "resolvedUrl": "https://www.hatartalantortenelem.com/altalanos-szerzodesi-feltetelek/"
     },
     {
       "url": "https://www.hatartalantortenelem.com/bemutatkozas/",
-      "status": "ok",
-      "httpStatus": 200,
+      "status": "site-blocked",
+      "httpStatus": 403,
       "resolvedUrl": "https://www.hatartalantortenelem.com/bemutatkozas/"
     },
     {
       "url": "https://www.hatartalantortenelem.com/impresszum/",
-      "status": "ok",
-      "httpStatus": 200,
+      "status": "site-blocked",
+      "httpStatus": 403,
       "resolvedUrl": "https://www.hatartalantortenelem.com/impresszum/"
     },
     {
@@ -5154,38 +5154,38 @@
     },
     {
       "url": "https://www.hongaarsefederatie.nl/",
-      "status": "ok",
-      "httpStatus": 200,
+      "status": "site-blocked",
+      "httpStatus": 403,
       "resolvedUrl": "https://www.hongaarsefederatie.nl/"
     },
     {
       "url": "https://www.hongaarsefederatie.nl/beszamolo-nyugat-europai-orszagos-magyar-szervezetek-kozgyulese/",
-      "status": "ok",
-      "httpStatus": 200,
+      "status": "site-blocked",
+      "httpStatus": 403,
       "resolvedUrl": "https://www.hongaarsefederatie.nl/beszamolo-nyugat-europai-orszagos-magyar-szervezetek-kozgyulese/"
     },
     {
       "url": "https://www.hongaarsefederatie.nl/esemenyek/",
-      "status": "ok",
-      "httpStatus": 200,
+      "status": "site-blocked",
+      "httpStatus": 403,
       "resolvedUrl": "https://www.hongaarsefederatie.nl/esemenyek/"
     },
     {
       "url": "https://www.hongaarsefederatie.nl/hollandiai-magyar-csaladi-nap-2026/",
-      "status": "ok",
-      "httpStatus": 200,
+      "status": "site-blocked",
+      "httpStatus": 403,
       "resolvedUrl": "https://www.hongaarsefederatie.nl/hollandiai-magyar-csaladi-nap-2026/"
     },
     {
       "url": "https://www.hongaarsefederatie.nl/magunkrol/",
-      "status": "ok",
-      "httpStatus": 200,
+      "status": "site-blocked",
+      "httpStatus": 403,
       "resolvedUrl": "https://www.hongaarsefederatie.nl/magunkrol/"
     },
     {
       "url": "https://www.hongaarsefederatie.nl/wp-content/uploads/2025/02/HMH2025_torzs_INTERNETRE_VEGLEGES_v2.pdf",
-      "status": "ok",
-      "httpStatus": 200,
+      "status": "site-blocked",
+      "httpStatus": 403,
       "resolvedUrl": "https://www.hongaarsefederatie.nl/wp-content/uploads/2025/02/HMH2025_torzs_INTERNETRE_VEGLEGES_v2.pdf"
     },
     {
@@ -5364,62 +5364,62 @@
     },
     {
       "url": "https://www.instagram.com/hungaromedia",
-      "status": "rate-limited",
-      "httpStatus": 429,
+      "status": "ok",
+      "httpStatus": 200,
       "resolvedUrl": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fhungaromedia&is_from_rle"
     },
     {
       "url": "https://www.instagram.com/imike_ujkv/",
-      "status": "rate-limited",
-      "httpStatus": 429,
+      "status": "ok",
+      "httpStatus": 200,
       "resolvedUrl": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fimike_ujkv%2F&is_from_rle"
     },
     {
       "url": "https://www.instagram.com/mdevus/",
-      "status": "rate-limited",
-      "httpStatus": 429,
+      "status": "ok",
+      "httpStatus": 200,
       "resolvedUrl": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fmdevus%2F&is_from_rle"
     },
     {
       "url": "https://www.instagram.com/napraforgok.becs",
-      "status": "rate-limited",
-      "httpStatus": 429,
+      "status": "ok",
+      "httpStatus": 200,
       "resolvedUrl": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fnapraforgok.becs&is_from_rle"
     },
     {
       "url": "https://www.instagram.com/radiohu.hu/",
-      "status": "rate-limited",
-      "httpStatus": 429,
+      "status": "ok",
+      "httpStatus": 200,
       "resolvedUrl": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fradiohu.hu%2F&is_from_rle"
     },
     {
       "url": "https://www.instagram.com/salzburgi.neptanc/",
-      "status": "rate-limited",
-      "httpStatus": 429,
+      "status": "ok",
+      "httpStatus": 200,
       "resolvedUrl": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fsalzburgi.neptanc%2F&is_from_rle"
     },
     {
       "url": "https://www.instagram.com/schulverein",
-      "status": "rate-limited",
-      "httpStatus": 429,
+      "status": "ok",
+      "httpStatus": 200,
       "resolvedUrl": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fschulverein&is_from_rle"
     },
     {
       "url": "https://www.instagram.com/stadtbibliothek.innsbruck/",
-      "status": "rate-limited",
-      "httpStatus": 429,
+      "status": "ok",
+      "httpStatus": 200,
       "resolvedUrl": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fstadtbibliothek.innsbruck%2F&is_from_rle"
     },
     {
       "url": "https://www.instagram.com/violadancebrussels",
-      "status": "rate-limited",
-      "httpStatus": 429,
+      "status": "ok",
+      "httpStatus": 200,
       "resolvedUrl": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fvioladancebrussels&is_from_rle"
     },
     {
       "url": "https://www.instagram.com/vorarlbergerlandesbibliothek",
-      "status": "rate-limited",
-      "httpStatus": 429,
+      "status": "ok",
+      "httpStatus": 200,
       "resolvedUrl": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fvorarlbergerlandesbibliothek&is_from_rle"
     },
     {
@@ -5694,8 +5694,8 @@
     },
     {
       "url": "https://www.linkedin.com/in/mariann-bencze",
-      "status": "ok",
-      "httpStatus": 200,
+      "status": "rate-limited",
+      "httpStatus": 429,
       "resolvedUrl": "https://www.linkedin.com/in/mariann-bencze"
     },
     {
@@ -5718,15 +5718,15 @@
     },
     {
       "url": "https://www.magyarhazbrusszel.be/",
-      "status": "ok",
-      "httpStatus": 200,
-      "resolvedUrl": "https://www.magyarhazbrusszel.be/"
+      "status": "rate-limited",
+      "httpStatus": 429,
+      "resolvedUrl": "https://www.google.com/sorry/index?continue=https://www.magyarhazbrusszel.be/&q=EgQUQJ0TGIqrptgGIi0Owf0tv6bs6UFBhhATSdbgvpBIFFXedcvIOQzza921kbg4whwTlP0au-1EQBwyAnJSWgFDYN703_CI8IqA7gE"
     },
     {
       "url": "https://www.magyarhazbrusszel.be/2026/",
       "status": "rate-limited",
       "httpStatus": 429,
-      "resolvedUrl": "https://www.google.com/sorry/index?continue=https://www.magyarhazbrusszel.be/2026/&q=EgSHd02aGJ2kptgGIi3GdZfvSjCh7p2OD7xjd_FM0swFSxBlC8PhjEr5-NEbPsF3QmkUHH0U7Ga_XMMyAnJSWgFDYPHayt_I6oK-ogE"
+      "resolvedUrl": "https://www.google.com/sorry/index?continue=https://www.magyarhazbrusszel.be/2026/&q=EgQUQJ0TGIqrptgGIi0XnI9ela-YoOWKOPgmtEX6Fu7BUwYPFXVx0P_XdSOjnbimpLQpHtcG_Agv3OkyAnJSWgFDYLSw3KHB0tDJIQ"
     },
     {
       "url": "https://www.magyariskola.at/",
@@ -5898,50 +5898,50 @@
     },
     {
       "url": "https://www.magyarszo.at/",
-      "status": "tls-error",
+      "status": "timeout",
       "httpStatus": null,
       "resolvedUrl": "https://www.magyarszo.at/"
     },
     {
       "url": "https://www.martinus.at/",
-      "status": "timeout",
-      "httpStatus": null,
+      "status": "ok",
+      "httpStatus": 200,
       "resolvedUrl": "https://www.martinus.at/"
     },
     {
       "url": "https://www.martinus.at/pfarre/1122",
-      "status": "timeout",
-      "httpStatus": null,
+      "status": "ok",
+      "httpStatus": 200,
       "resolvedUrl": "https://www.martinus.at/pfarre/1122"
     },
     {
       "url": "https://www.martinus.at/pfarre/1122/geschichte",
-      "status": "timeout",
-      "httpStatus": null,
+      "status": "ok",
+      "httpStatus": 200,
       "resolvedUrl": "https://www.martinus.at/pfarre/1122/geschichte"
     },
     {
       "url": "https://www.martinus.at/pfarre/1122/kalender",
-      "status": "timeout",
-      "httpStatus": null,
+      "status": "ok",
+      "httpStatus": 200,
       "resolvedUrl": "https://www.martinus.at/pfarre/1122/kalender"
     },
     {
       "url": "https://www.martinus.at/pfarre/1122/kalender/calendar/1808040.html",
-      "status": "timeout",
-      "httpStatus": null,
+      "status": "ok",
+      "httpStatus": 200,
       "resolvedUrl": "https://www.martinus.at/pfarre/1122/kalender/calendar/1808040.html"
     },
     {
       "url": "https://www.martinus.at/pfarre/1127/kalender",
-      "status": "timeout",
-      "httpStatus": null,
+      "status": "ok",
+      "httpStatus": 200,
       "resolvedUrl": "https://www.martinus.at/pfarre/1127/kalender"
     },
     {
       "url": "https://www.martinus.at/unterwart",
-      "status": "timeout",
-      "httpStatus": null,
+      "status": "ok",
+      "httpStatus": 200,
       "resolvedUrl": "https://www.martinus.at/unterwart"
     },
     {
@@ -6414,8 +6414,8 @@
     },
     {
       "url": "https://www.sr-grazmitte.graz-seckau.at/pfarre/94013/pfarren/gottesdienste",
-      "status": "timeout",
-      "httpStatus": null,
+      "status": "ok",
+      "httpStatus": 200,
       "resolvedUrl": "https://www.sr-grazmitte.graz-seckau.at/pfarre/94013/pfarren/gottesdienste"
     },
     {
@@ -6444,20 +6444,20 @@
     },
     {
       "url": "https://www.svung.at/",
-      "status": "ok",
-      "httpStatus": 200,
+      "status": "site-blocked",
+      "httpStatus": 403,
       "resolvedUrl": "https://www.svung.at/"
     },
     {
       "url": "https://www.svung.at/show/aktualis-eloadasok/",
-      "status": "ok",
-      "httpStatus": 200,
+      "status": "site-blocked",
+      "httpStatus": 403,
       "resolvedUrl": "https://www.svung.at/show/aktualis-eloadasok/"
     },
     {
       "url": "https://www.svung.at/svung-tarsulat/",
-      "status": "ok",
-      "httpStatus": 200,
+      "status": "site-blocked",
+      "httpStatus": 403,
       "resolvedUrl": "https://www.svung.at/svung-tarsulat/"
     },
     {
@@ -6672,8 +6672,8 @@
     },
     {
       "url": "https://www.vs-algersdorf.at/",
-      "status": "timeout",
-      "httpStatus": null,
+      "status": "ok",
+      "httpStatus": 200,
       "resolvedUrl": "https://www.vs-algersdorf.at/"
     },
     {
