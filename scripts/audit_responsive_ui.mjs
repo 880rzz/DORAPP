@@ -155,12 +155,24 @@ await registryFailure.close();
 const consentContext=await browser.newContext();
 const consentPage=await consentContext.newPage();
 const analyticsRequests=[];
+await consentPage.route(/googletagmanager\.com|google-analytics\.com/,route=>route.fulfill({
+  status:200,contentType:"application/javascript",body:"/* analytics intercepted by CI */"
+}));
 consentPage.on("request",request=>{if(request.url().includes("googletagmanager.com"))analyticsRequests.push(request.url())});
 await consentPage.goto(base+"/index.html",{waitUntil:"networkidle"});
 report.interactions.analyticsBeforeConsent=analyticsRequests.length;
 await consentPage.locator(".consent-accept").click();
 await consentPage.waitForTimeout(500);
 report.interactions.analyticsAfterConsentRequest=analyticsRequests.length>0;
+const storedConsent=()=>consentPage.evaluate(()=>localStorage.getItem("dorapp_analytics_consent"));
+const disabled=()=>consentPage.evaluate(()=>window["ga-disable-G-1FC22JEX2F"]===true);
+await consentPage.locator(".consent-settings").click();
+report.interactions.openSettingsKeepsConsent=(await storedConsent())==="granted" && !(await disabled());
+await consentPage.locator(".consent-reject").click();
+report.interactions.analyticsDisabledOnWithdrawal=(await storedConsent())==="denied" && (await disabled());
+const countBeforeReload=analyticsRequests.length;
+await consentPage.reload({waitUntil:"networkidle"});
+report.interactions.noNewAnalyticsAfterWithdrawal=analyticsRequests.length===countBeforeReload && (await disabled());
 await consentContext.close();
 
 for(const [key,value] of Object.entries(report.interactions)){

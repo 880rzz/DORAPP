@@ -11,6 +11,19 @@ globaldb=json.loads((ROOT/"data/global.json").read_text(encoding="utf-8"))
 global_search=json.loads((ROOT/"data/global-search-index.json").read_text(encoding="utf-8"))
 sitemap=(ROOT/"sitemap.xml").read_text(encoding="utf-8")
 errors=[]
+machine=json.loads((ROOT/"ai-entry.json").read_text(encoding="utf-8"))
+calendar=json.loads((ROOT/"data/global-events.json").read_text(encoding="utf-8"))
+coverage=machine.get("globalCoverage",{})
+registry_rows=globaldb.get("countries",[])
+counts={key:sum(c["researchStatus"]==key for c in registry_rows) for key in ("reviewed","partial","researching","unresearched","verified-zero")}
+if (coverage.get("territories")!=len(registry_rows) or coverage.get("researchStatus")!=counts
+        or coverage.get("organizationRecords")!=sum(c["counts"]["organizations"] for c in registry_rows)
+        or coverage.get("calendarRecords")!=len(calendar["events"])
+        or coverage.get("calendarGeneratedAt")!=calendar["generatedAt"]):
+    errors.append("global trust data does not match the canonical country and calendar feeds")
+quality=(ROOT/"adatminoseg.html").read_text(encoding="utf-8")
+if "Globális lefedettség" not in quality or "Ausztria részletesen" not in quality:
+    errors.append("data quality page mixes worldwide and Austrian coverage")
 OLD_BASE="https://diaszpora.kozpontiszovetseg.at"
 UI=(ROOT/"ui.js").read_text(encoding="utf-8")
 if 'const GA_ID="G-1FC22JEX2F"' not in UI: errors.append("canonical consent-first GA ID missing from ui.js")

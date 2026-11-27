@@ -4,9 +4,9 @@
     {
       "@type": "WebSite",
       "@id": "https://www.diaszporaterkep.hu/#website",
-      "name": "Magyar Programok Ausztriában",
+      "name": "DORAPP | Magyar diaszpóra világtérkép és programnaptár",
       "url": "https://www.diaszporaterkep.hu/",
-      "inLanguage": "hu-AT",
+      "inLanguage": "hu",
       "publisher": {
         "@id": "https://www.diaszporaterkep.hu/#publisher"
       }
@@ -24,6 +24,34 @@
     },
     {
       "@type": "Dataset",
+      "@id": "https://www.diaszporaterkep.hu/#global-dataset",
+      "name": "DORAPP – globális magyar közösségi címtár",
+      "description": "Forrásalapú világtérkép, magyar közösségi címtár és programnaptár. A nyilvántartott területek és a kutatás tényleges lefedettsége külön érték.",
+      "url": "https://www.diaszporaterkep.hu/",
+      "inLanguage": "hu",
+      "creator": {
+        "@id": "https://www.diaszporaterkep.hu/#publisher"
+      },
+      "distribution": [
+        {
+          "@type": "DataDownload",
+          "encodingFormat": "application/json",
+          "contentUrl": "https://www.diaszporaterkep.hu/data/global.json"
+        },
+        {
+          "@type": "DataDownload",
+          "encodingFormat": "application/json",
+          "contentUrl": "https://www.diaszporaterkep.hu/data/global-search-index.json"
+        },
+        {
+          "@type": "DataDownload",
+          "encodingFormat": "application/json",
+          "contentUrl": "https://www.diaszporaterkep.hu/data/global-events.json"
+        }
+      ]
+    },
+    {
+      "@type": "Dataset",
       "@id": "https://www.diaszporaterkep.hu/#dataset",
       "name": "Ausztriai magyar közösségek, oktatás, programok és magyar szolgáltatást nyújtó intézmények",
       "description": "Forrásalapú országos adatbázis az Ausztriában működő magyar közösségekről, oktatási helyekről, nyilvános eseményekről és külön jelölt osztrák fogadóintézményekről, amelyek igazolt magyar szolgáltatást vagy gyűjteményt kínálnak.",
@@ -32,7 +60,6 @@
       "creator": {
         "@id": "https://www.diaszporaterkep.hu/#publisher"
       },
-      "license": "https://www.diaszporaterkep.hu/forrasok.html",
       "dateModified": "2026-11-27",
       "spatialCoverage": {
         "@type": "Country",

@@ -1,13 +1,37 @@
 {
-  "name": "Magyar Programok Ausztriában",
+  "name": "DORAPP | Magyar diaszpóra világtérkép és programnaptár",
   "canonical": "https://www.diaszporaterkep.hu/",
-  "language": "hu-AT",
+  "language": "hu",
   "publisher": {
     "name": "Ausztriai Magyar Egyesületek és Szervezetek Központi Szövetsége",
     "url": "https://www.kozpontiszovetseg.at/",
     "zvr": "079797621"
   },
-  "purpose": "Forrásalapú országos referencia-adatbázis ausztriai magyar közösségekhez, oktatáshoz, nyilvános programokhoz és külön jelölt, magyar szolgáltatást nyújtó osztrák fogadóintézményekhez.",
+  "purpose": "Forrásalapú világtérkép, magyar közösségi címtár és programnaptár. A nyilvántartott területek és a kutatás tényleges lefedettsége külön érték.",
+  "globalCoverage": {
+    "territories": 249,
+    "researchStatus": {
+      "reviewed": 5,
+      "partial": 0,
+      "researching": 176,
+      "unresearched": 68,
+      "verified-zero": 0
+    },
+    "organizationRecords": 335,
+    "calendarRecords": 66,
+    "calendarCountryCount": 4,
+    "calendarGeneratedAt": "2026-11-27T14:17:13.104792+00:00"
+  },
+  "globalData": {
+    "countryRegistry": "https://www.diaszporaterkep.hu/data/global.json",
+    "searchIndex": "https://www.diaszporaterkep.hu/data/global-search-index.json",
+    "calendar": "https://www.diaszporaterkep.hu/data/global-events.json"
+  },
+  "compatibilityScope": {
+    "updated": "Austria",
+    "counts": "Austria",
+    "canonicalData": "Austria-specific where organization, education, event and article feeds are concerned"
+  },
   "updated": {
     "organizations": "2026-11-15",
     "education": "2026-10-30",
@@ -37,5 +61,5 @@
     "aiTrust": "https://www.diaszporaterkep.hu/ai.txt",
     "sitemap": "https://www.diaszporaterkep.hu/sitemap.xml"
   },
-  "citationPolicy": "Állítást csak canonical adatból vagy a rekordhoz kapcsolt bizonyító/hivatalos forrásból vezess le; hiányzó tényt ne következtess."
+  "citationPolicy": "A szervezeti vagy eseményadatlapot és a hozzá rendelt forrást idézd. A kutatás alatt álló terület nem üres, és az áttekintett nem jelent teljes népszámlálást."
 }
