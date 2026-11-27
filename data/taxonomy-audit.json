@@ -1,12 +1,12 @@
 {
-  "updated": "2026-11-26T05:17:45.291036+00:00",
+  "updated": "2026-11-27T04:23:51.139869+00:00",
   "summary": {
     "organizations": 163,
-    "organizationFlags": 2,
-    "organizationPagesChecked": 344,
+    "organizationFlags": 1,
+    "organizationPagesChecked": 338,
     "education": 112,
     "educationFlags": 0,
-    "events": 53,
+    "events": 51,
     "eventFlags": 0
   },
   "organizations": [
@@ -126,18 +126,24 @@
       ],
       "activityCategories": [],
       "signals": [
-        "media",
-        "egyhaz",
-        "sport",
-        "csalad"
+        "egyhaz"
       ],
-      "pagesChecked": 3,
-      "checkedUrls": [
-        "https://www.martinus.at/",
-        "https://www.martinus.at/pfarre/1127/kalender",
-        "https://www.martinus.at/unterwart"
+      "pagesChecked": 0,
+      "checkedUrls": [],
+      "errors": [
+        {
+          "url": "https://www.martinus.at/",
+          "error": "<urlopen error timed out>"
+        },
+        {
+          "url": "https://www.martinus.at/pfarre/1127/kalender",
+          "error": "<urlopen error timed out>"
+        },
+        {
+          "url": "https://www.martinus.at/unterwart",
+          "error": "<urlopen error timed out>"
+        }
       ],
-      "errors": [],
       "flags": []
     },
     {
@@ -683,12 +689,7 @@
       ],
       "signals": [
         "oktatas",
-        "szinhaz",
-        "media",
-        "diak",
-        "irodalom",
-        "muveszet",
-        "csalad"
+        "irodalom"
       ],
       "pagesChecked": 1,
       "checkedUrls": [
@@ -709,13 +710,10 @@
       ],
       "signals": [
         "oktatas",
-        "enekkar",
         "szinhaz",
         "media",
-        "egyhaz",
         "irodalom",
-        "muveszet",
-        "csalad"
+        "muveszet"
       ],
       "pagesChecked": 2,
       "checkedUrls": [
@@ -741,12 +739,7 @@
       ],
       "signals": [
         "oktatas",
-        "szinhaz",
-        "media",
-        "diak",
-        "irodalom",
-        "muveszet",
-        "csalad"
+        "irodalom"
       ],
       "pagesChecked": 1,
       "checkedUrls": [
@@ -950,13 +943,17 @@
         "sport",
         "csalad"
       ],
-      "pagesChecked": 3,
+      "pagesChecked": 2,
       "checkedUrls": [
         "https://buechereien.wien.gv.at/B%C3%BCchereien-Wien",
-        "https://buechereien.wien.gv.at/B%C3%BCchereien-Wien/Standorte-%C3%96ffnungszeiten/Zweigstellen/Kinderb%C3%BCcherei-der-Weltsprachen",
         "https://volksgruppen.orf.at/magyarok/stories/3355470/"
       ],
-      "errors": [],
+      "errors": [
+        {
+          "url": "https://buechereien.wien.gv.at/B%C3%BCchereien-Wien/Standorte-%C3%96ffnungszeiten/Zweigstellen/Kinderb%C3%BCcherei-der-Weltsprachen",
+          "error": "The read operation timed out"
+        }
+      ],
       "flags": []
     },
     {
@@ -1105,23 +1102,20 @@
       "activityCategories": [],
       "signals": [
         "oktatas",
+        "szinhaz",
         "media",
-        "irodalom"
+        "irodalom",
+        "muveszet",
+        "csalad"
       ],
-      "pagesChecked": 2,
+      "pagesChecked": 3,
       "checkedUrls": [
         "https://culture.hu/hu/wien",
+        "https://culture.hu/hu/wien/esemenyek",
         "https://culture.hu/de/wien/jubilaum"
       ],
-      "errors": [
-        {
-          "url": "https://culture.hu/hu/wien/esemenyek",
-          "error": "The read operation timed out"
-        }
-      ],
-      "flags": [
-        "weak-source-signal:muveszet"
-      ]
+      "errors": [],
+      "flags": []
     },
     {
       "id": "collegium-pazmanianum",
@@ -1452,9 +1446,22 @@
         "kultura"
       ],
       "activityCategories": [],
-      "signals": [],
-      "pagesChecked": 0,
-      "checkedUrls": [],
+      "signals": [
+        "oktatas",
+        "neptanc",
+        "szinhaz",
+        "media",
+        "egyhaz",
+        "diak",
+        "irodalom",
+        "muveszet"
+      ],
+      "pagesChecked": 3,
+      "checkedUrls": [
+        "https://europaclub.at/",
+        "https://europaclub.at/rolunk/europa-club-tortenete/",
+        "https://europaclub.at/de/kontakt/"
+      ],
       "errors": [],
       "flags": []
     },
@@ -1548,16 +1555,24 @@
       ],
       "activityCategories": [],
       "signals": [
-        "media",
         "egyhaz"
       ],
-      "pagesChecked": 3,
-      "checkedUrls": [
-        "https://www.martinus.at/pfarre/1122",
-        "https://www.martinus.at/pfarre/1122/kalender",
-        "https://www.martinus.at/pfarre/1122/kalender/calendar/1808040.html"
+      "pagesChecked": 0,
+      "checkedUrls": [],
+      "errors": [
+        {
+          "url": "https://www.martinus.at/pfarre/1122",
+          "error": "<urlopen error timed out>"
+        },
+        {
+          "url": "https://www.martinus.at/pfarre/1122/kalender",
+          "error": "<urlopen error timed out>"
+        },
+        {
+          "url": "https://www.martinus.at/pfarre/1122/kalender/calendar/1808040.html",
+          "error": "<urlopen error timed out>"
+        }
       ],
-      "errors": [],
       "flags": []
     },
     {
@@ -1661,11 +1676,7 @@
       "activityCategories": [],
       "signals": [
         "oktatas",
-        "szinhaz",
-        "media",
-        "diak",
-        "muveszet",
-        "csalad"
+        "szinhaz"
       ],
       "pagesChecked": 1,
       "checkedUrls": [
@@ -1929,14 +1940,15 @@
       ],
       "activityCategories": [],
       "signals": [
-        "sport",
-        "csalad"
+        "sport"
       ],
-      "pagesChecked": 1,
-      "checkedUrls": [
-        "http://www.geschriebensteinlauf.at"
-      ],
+      "pagesChecked": 0,
+      "checkedUrls": [],
       "errors": [
+        {
+          "url": "http://www.geschriebensteinlauf.at",
+          "error": "<urlopen error timed out>"
+        },
         {
           "url": "https://www.askoe.at/de/verband-vereine/askoe-vereine/clubshow-10438",
           "error": "HTTP Error 404: Not Found"
@@ -1991,13 +2003,17 @@
         "muveszet",
         "csalad"
       ],
-      "pagesChecked": 3,
+      "pagesChecked": 2,
       "checkedUrls": [
         "https://www.grazimagyaregyesuelet.at/magyar-katolikus-k%C3%B6z%C3%B6ss%C3%A9g-magyar-evang%C3%A9likus-gy%C3%BClekezet/",
-        "https://www.petofiprogram.hu/hirek/grac-hivek-szamara-fontos-az-anyanyelv-gyakorlasa-imaban-enekben-beszelgetesben-graci-magyar",
-        "https://www.sr-grazmitte.graz-seckau.at/pfarre/94013/pfarren/gottesdienste"
+        "https://www.petofiprogram.hu/hirek/grac-hivek-szamara-fontos-az-anyanyelv-gyakorlasa-imaban-enekben-beszelgetesben-graci-magyar"
       ],
-      "errors": [],
+      "errors": [
+        {
+          "url": "https://www.sr-grazmitte.graz-seckau.at/pfarre/94013/pfarren/gottesdienste",
+          "error": "<urlopen error timed out>"
+        }
+      ],
       "flags": []
     },
     {
@@ -2072,14 +2088,16 @@
       "signals": [
         "egyhaz"
       ],
-      "pagesChecked": 1,
-      "checkedUrls": [
-        "https://www.edsbg.at/seelsorge/weltkirche/anderssprachige-seelsorge/ungarische-gemeinde"
-      ],
+      "pagesChecked": 0,
+      "checkedUrls": [],
       "errors": [
         {
+          "url": "https://www.edsbg.at/seelsorge/weltkirche/anderssprachige-seelsorge/ungarische-gemeinde",
+          "error": "<urlopen error timed out>"
+        },
+        {
           "url": "https://www.edsbg.at/dl/klOKJmMJKNLMKJqx4KJK/ungarischsprachige_Gottesdienstgemeinde_Salzburg_pdf",
-          "error": "HTTP Error 400: Bad Request"
+          "error": "<urlopen error timed out>"
         }
       ],
       "flags": []
@@ -2177,8 +2195,6 @@
       "signals": [
         "oktatas",
         "szinhaz",
-        "media",
-        "muveszet",
         "csalad"
       ],
       "pagesChecked": 1,
@@ -2444,17 +2460,22 @@
       ],
       "activityCategories": [],
       "signals": [
+        "oktatas",
         "media",
         "egyhaz",
         "irodalom",
         "csalad"
       ],
-      "pagesChecked": 2,
+      "pagesChecked": 1,
       "checkedUrls": [
-        "https://www.erzdioezese-wien.at/unit/katholischeostkirchen/unseregemeinden/katholischeostkirchen/gemeindeninwien",
         "https://hd.gorogkatolikus.hu/Magyar-gorogkatolikus-lelkeszseg-alakult-Becsben-2023-junius-06"
       ],
-      "errors": [],
+      "errors": [
+        {
+          "url": "https://www.erzdioezese-wien.at/unit/katholischeostkirchen/unseregemeinden/katholischeostkirchen/gemeindeninwien",
+          "error": "<urlopen error timed out>"
+        }
+      ],
       "flags": []
     },
     {
@@ -2987,7 +3008,7 @@
       "activityCategories": [],
       "signals": [
         "media",
-        "egyhaz",
+        "irodalom",
         "muveszet",
         "sport",
         "csalad"
@@ -3023,16 +3044,12 @@
         "muveszet",
         "csalad"
       ],
-      "pagesChecked": 1,
+      "pagesChecked": 2,
       "checkedUrls": [
-        "https://vhs-ungarn.at/hu/hagyomanyorzes/ori-banda/"
+        "https://vhs-ungarn.at/hu/hagyomanyorzes/ori-banda/",
+        "https://www.vhs-burgenland.at/wp_neu/mc-events/ori-banda-volksmusik-volksliedcamp-ori-banda-nepzene-nepdaltabor/"
       ],
-      "errors": [
-        {
-          "url": "https://www.vhs-burgenland.at/wp_neu/mc-events/ori-banda-volksmusik-volksliedcamp-ori-banda-nepzene-nepdaltabor/",
-          "error": "The read operation timed out"
-        }
-      ],
+      "errors": [],
       "flags": []
     },
     {
@@ -3312,7 +3329,6 @@
       "activityCategories": [],
       "signals": [
         "media",
-        "egyhaz",
         "irodalom"
       ],
       "pagesChecked": 2,
@@ -4215,9 +4231,9 @@
       "signals": [
         "oktatas",
         "media",
+        "diak",
         "irodalom",
-        "muveszet",
-        "csalad"
+        "muveszet"
       ],
       "pagesChecked": 3,
       "checkedUrls": [
