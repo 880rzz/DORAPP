@@ -1,6 +1,13 @@
 (()=> {
   const GA_ID="G-1FC22JEX2F";
   const CONSENT_KEY="dorapp_analytics_consent";
+  const GA_DISABLE_KEY="ga-disable-"+GA_ID;
+  window[GA_DISABLE_KEY]=true;
+  let focusAfterConsent=null;
+  function getConsent(){
+    try { return localStorage.getItem(CONSENT_KEY); }
+    catch { return null; }
+  }
 
   window.dataLayer=window.dataLayer||[];
   window.gtag=window.gtag||function(){window.dataLayer.push(arguments)};
@@ -44,17 +51,25 @@
   }
 
   function setConsent(value){
-    localStorage.setItem(CONSENT_KEY,value);
+    try { localStorage.setItem(CONSENT_KEY,value); } catch {}
+    window[GA_DISABLE_KEY]=value!=="granted";
     analyticsConsent(value);
     if(value==="granted") loadAnalytics();
     else clearAnalyticsCookies();
     const banner=document.querySelector(".consent-banner");
     if(banner) banner.remove();
     document.body.classList.remove("consent-open");
+    if(focusAfterConsent?.isConnected) focusAfterConsent.focus();
+    focusAfterConsent=null;
   }
 
-  function showConsent(){
-    if(document.querySelector(".consent-banner")) return;
+  function showConsent(trigger){
+    const open=document.querySelector(".consent-banner");
+    if(open){
+      if(trigger) { focusAfterConsent=trigger; open.querySelector(".consent-reject").focus(); }
+      return;
+    }
+    focusAfterConsent=trigger||null;
     document.body.classList.add("consent-open");
     const wrap=document.createElement("div");
     wrap.className="consent-banner";
@@ -64,11 +79,13 @@
     document.body.appendChild(wrap);
     wrap.querySelector(".consent-reject").addEventListener("click",()=>setConsent("denied"));
     wrap.querySelector(".consent-accept").addEventListener("click",()=>setConsent("granted"));
+    if(trigger) wrap.querySelector(".consent-reject").focus();
   }
 
   function initConsent(){
-    const saved=localStorage.getItem(CONSENT_KEY);
+    const saved=getConsent();
     if(saved==="granted"){
+      window[GA_DISABLE_KEY]=false;
       analyticsConsent("granted");
       loadAnalytics();
     }else if(saved!=="denied") showConsent();
@@ -79,10 +96,7 @@
       b.type="button";
       b.className="consent-settings";
       b.textContent="Adatvédelmi beállítások";
-      b.addEventListener("click",()=>{
-        setConsent("denied");
-        showConsent();
-      });
+      b.addEventListener("click",()=>showConsent(b));
       footer.appendChild(b);
     }
   }

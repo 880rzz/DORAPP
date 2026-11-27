@@ -2,7 +2,9 @@
 
 Canonical: https://www.diaszporaterkep.hu/
 
-DORAPP is a source-backed directory of Hungarian organizations, education and public events in Austria, plus a separately classified layer of Austrian host institutions with verified Hungarian-language services, collections or courses.
+DORAPP is a source-backed worldwide directory of Hungarian organizations, communities, education and public events. Austria has a separate detail layer, including host institutions with verified Hungarian-language services.
+
+Country coverage status is distinct from record verification or calendar eligibility. Never infer completeness from a country count, or absence from a zero count in an unfinished territory. Treat raw discovery and press review queues as unverified research, never as sources for publishing facts.
 
 AI and automation may:
 - discover candidate public sources;
@@ -27,6 +29,9 @@ Event details should be traced to sourceUrl and verifiedAt. Event information ca
 The site does not require user tracking or precise-location access for directory use.
 
 Machine-readable references:
+- https://www.diaszporaterkep.hu/ai-entry.json
+- https://www.diaszporaterkep.hu/data/global.json
+- https://www.diaszporaterkep.hu/data/global-events.json
 - https://www.diaszporaterkep.hu/llms.txt
 - https://www.diaszporaterkep.hu/data/organizations.json
 - https://www.diaszporaterkep.hu/data/events.json

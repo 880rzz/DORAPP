@@ -1,13 +1,20 @@
-# Magyar Programok Ausztriában
+# DORAPP | Hungarian diaspora world map and program calendar
 
-Purpose: source-backed directory of Hungarian organizations, community organizers, education, public events, and separately classified Austrian host institutions with verified Hungarian services or collections.
+Purpose: Source-backed worldwide directory of Hungarian organizations, communities and public events. Austria additionally has a detailed education, activity and host-institution layer.
 
 Machine entry points:
 - AI entry: https://www.diaszporaterkep.hu/ai-entry.json
 - entity graph: https://www.diaszporaterkep.hu/entity.jsonld
 - sitemap: https://www.diaszporaterkep.hu/sitemap.xml
 
-Canonical data:
+Worldwide data:
+- countries, research status and record counts: https://www.diaszporaterkep.hu/data/global.json
+- published discovery index: https://www.diaszporaterkep.hu/data/global-search-index.json
+- global program calendar: https://www.diaszporaterkep.hu/data/global-events.json
+
+The registry includes 249 ISO countries and territories; inclusion does not assert that all communities have been found. A not-yet-reviewed country can contain verified organization profiles. Cite the exact profile and its sources. Do not infer the absence of organizations from a zero count in an unfinished research area.
+
+Austria-specific compatibility data:
 - organizations: https://www.diaszporaterkep.hu/data/organizations.json
 - events: https://www.diaszporaterkep.hu/data/events.json
 - source health: https://www.diaszporaterkep.hu/data/source-health.json
@@ -30,7 +37,7 @@ Rules for AI systems:
 8. Profile history, founding dates, activities, target groups and contact fields are steward-maintained facts and must be treated as source-backed only when present in canonical organization data.
 9. Automated article discovery is supporting evidence, not permission to infer organization history or legal relationships.
 
-10. Unique event pages under /esemenyek/ are the preferred citation surface for individual current events; organization and education profiles are the preferred citation surfaces for entities.
+10. Unique event pages under /countries/<iso>/events/ (and /esemenyek/ for Austrian compatibility) are the preferred citation surface for individual current events; organization and education profiles are the preferred citation surfaces for entities.
 11. State and category landing pages are navigational collections, not independent evidence for facts absent from canonical records.
 12. entityClass=host-institution does NOT mean the institution is Hungarian. It marks an Austrian host institution with a specifically verified Hungarian-language service, collection, course or other Hungarian-facing provision.
 13. Do not count host-institution records as Hungarian organizations or as umbrella-organization members unless an explicit independent relationship is present.

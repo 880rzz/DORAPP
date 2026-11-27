@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 import json, html
+from collections import Counter
 from pathlib import Path
 from urllib.parse import quote
 
@@ -12,6 +13,19 @@ SOURCE_HEALTH=json.loads((ROOT/"data/source-health.json").read_text(encoding="ut
 EDU_HEALTH=json.loads((ROOT/"data/education-site-health.json").read_text(encoding="utf-8")) if (ROOT/"data/education-site-health.json").exists() else {"sites":[]}
 LINK_AUDIT=json.loads((ROOT/"data/link-audit.json").read_text(encoding="utf-8")) if (ROOT/"data/link-audit.json").exists() else {}
 
+GLOBAL_REGISTRY=json.loads((ROOT/"data/global.json").read_text(encoding="utf-8"))
+GLOBAL_EVENTS=json.loads((ROOT/"data/global-events.json").read_text(encoding="utf-8"))
+COUNTRIES=GLOBAL_REGISTRY["countries"]
+GLOBAL_COUNTS=Counter(c["researchStatus"] for c in COUNTRIES)
+HEALTH={"territories":len(COUNTRIES),
+    "researchStatus":{k:GLOBAL_COUNTS[k] for k in ("reviewed","partial","researching","unresearched","verified-zero")},
+    "organizationRecords":sum(c["counts"]["organizations"] for c in COUNTRIES),
+    "calendarRecords":len(GLOBAL_EVENTS["events"]),
+    "calendarCountryCount":len({e["country"] for e in GLOBAL_EVENTS["events"]}),
+    "calendarGeneratedAt":GLOBAL_EVENTS["generatedAt"]}
+GLOBAL_PATHS={"countryRegistry":"/data/global.json","searchIndex":"/data/global-search-index.json","calendar":"/data/global-events.json"}
+GLOBAL_NAME="DORAPP | Magyar diaszpóra világtérkép és programnaptár"
+GLOBAL_DESC="Forrásalapú világtérkép, magyar közösségi címtár és programnaptár. A nyilvántartott területek és a kutatás tényleges lefedettsége külön érték."
 ORG_DIR=ROOT/"szervezetek"
 EVENT_DIR=ROOT/"esemenyek"
 STATE_DIR=ROOT/"tartomanyok"
@@ -48,16 +62,21 @@ PUBLISHER={
 
 def esc(v): return html.escape(str(v or ""),quote=True)
 def jsonld(data): return json.dumps(data,ensure_ascii=False,separators=(",",":")).replace("</","<\\/")
-def footer(prefix="../"):
+def footer(prefix="../", worldwide=False):
+    name="DORAPP" if worldwide else "Magyar Programok Ausztriában"
+    summary="Forrásalapú világtérkép, szervezetjegyzék és programnaptár." if worldwide else "Forrásalapú címtár, oktatási adatbázis és programnaptár egész Ausztriából."
     return f'''<footer><div class="wrap footer-grid">
-    <div><b>Magyar Programok Ausztriában</b><p>Forrásalapú címtár, oktatási adatbázis és programnaptár egész Ausztriából.</p></div>
+    <div><b>{esc(name)}</b><p>{esc(summary)}</p></div>
     <div><a href="{prefix}forrasok.html">Módszertan és források</a><br><a href="https://www.kozpontiszovetseg.at/kapcsolat" target="_blank" rel="noopener external">Impresszum / kapcsolat ↗</a><br><a href="https://www.kozpontiszovetseg.at/post/gdpr-ai-trust" target="_blank" rel="noopener external">GDPR & AI Trust ↗</a></div>
     <div>A <a href="https://www.magyariskola.at/" target="_blank" rel="noopener external">Bécsi Magyar Iskola</a> – <a href="https://rolunk.at/aktualis/a-fiataloknak-ma-mar-bizonyitek-kell-egy-becsi-kreativ-kozosseg-uj-generaciot-epit/" target="_blank" rel="noopener external">Be Smart Kids Club</a> csapata hozta létre.<br><a href="mailto:marketing@kozpontiszovetseg.at">marketing@kozpontiszovetseg.at</a></div>
     </div></footer>'''
 
-def shell(title,description,canonical,body,schema,prefix="../"):
+def shell(title,description,canonical,body,schema,prefix="../",worldwide=False):
     home=prefix or "./"
-    return f'''<!doctype html><html lang="hu-AT"><head>
+    locale="hu" if worldwide else "hu-AT"
+    brand="DORAPP" if worldwide else "Magyar Programok Ausztriában"
+    mark="HU" if worldwide else "AT×HU"
+    return f'''<!doctype html><html lang="{locale}"><head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <link rel="icon" href="https://www.diaszporaterkep.hu/favicon.svg" type="image/svg+xml"><title>{esc(title)}</title><meta name="description" content="{esc(description)}">
 <meta name="robots" content="index,follow,max-snippet:-1,max-image-preview:large">
@@ -67,8 +86,8 @@ def shell(title,description,canonical,body,schema,prefix="../"):
 <link rel="stylesheet" href="{prefix}styles.css"><link rel="stylesheet" href="/design-editorial.css?v=20261015-2">
 <script type="application/ld+json">{jsonld(schema)}</script></head><body>
 <a class="skip" href="#main">Ugrás a tartalomhoz</a>
-<header class="topbar"><div class="wrap navrow"><a class="brand" href="{home}"><span class="mark">AT×HU</span><span>Magyar Programok Ausztriában</span></a><nav><a href="{home}#vilag">Térkép</a><a href="{home}#szervezetek">Közösségek</a><a href="{home}countries/at/#oktatas">Oktatás</a><a href="{home}#programnaptar">Programok</a></nav></div></header>
-<main id="main">{body}</main>{footer(prefix)}<script src="{prefix}ui.js?v=20261015-trust-contact-1" defer></script></body></html>'''
+<header class="topbar"><div class="wrap navrow"><a class="brand" href="{home}"><span class="mark">{mark}</span><span>{brand}</span></a><nav><a href="{home}#vilag">Térkép</a><a href="{home}#szervezetek">Közösségek</a><a href="{home}countries/at/#oktatas">Oktatás</a><a href="{home}#programnaptar">Programok</a></nav></div></header>
+<main id="main">{body}</main>{footer(prefix,worldwide)}<script src="{prefix}ui.js?v=20261015-trust-contact-1" defer></script></body></html>'''
 
 def place_schema(e):
     addr=e.get("address")
@@ -173,9 +192,12 @@ for c in categories:
 entity={
  "@context":"https://schema.org",
  "@graph":[
-   {"@type":"WebSite","@id":BASE+"/#website","name":"Magyar Programok Ausztriában","url":BASE+"/","inLanguage":"hu-AT","publisher":{"@id":BASE+"/#publisher"}},
+   {"@type":"WebSite","@id":BASE+"/#website","name":GLOBAL_NAME,"url":BASE+"/","inLanguage":"hu","publisher":{"@id":BASE+"/#publisher"}},
    PUBLISHER,
-   {"@type":"Dataset","@id":BASE+"/#dataset","name":"Ausztriai magyar közösségek, oktatás, programok és magyar szolgáltatást nyújtó intézmények","description":"Forrásalapú országos adatbázis az Ausztriában működő magyar közösségekről, oktatási helyekről, nyilvános eseményekről és külön jelölt osztrák fogadóintézményekről, amelyek igazolt magyar szolgáltatást vagy gyűjteményt kínálnak.","url":BASE+"/","inLanguage":"hu-AT","creator":{"@id":BASE+"/#publisher"},"license":BASE+"/forrasok.html","dateModified":DATA_MODIFIED,"spatialCoverage":{"@type":"Country","name":"Austria"},"keywords":["ausztriai magyarok","magyar szervezetek Ausztriában","magyar programok Ausztriában","magyar oktatás Ausztriában","diaszpóra"],
+   {"@type":"Dataset","@id":BASE+"/#global-dataset","name":"DORAPP – globális magyar közösségi címtár","description":GLOBAL_DESC,
+    "url":BASE+"/","inLanguage":"hu","creator":{"@id":BASE+"/#publisher"},
+    "distribution":[{"@type":"DataDownload","encodingFormat":"application/json","contentUrl":BASE+path} for path in GLOBAL_PATHS.values()]},
+   {"@type":"Dataset","@id":BASE+"/#dataset","name":"Ausztriai magyar közösségek, oktatás, programok és magyar szolgáltatást nyújtó intézmények","description":"Forrásalapú országos adatbázis az Ausztriában működő magyar közösségekről, oktatási helyekről, nyilvános eseményekről és külön jelölt osztrák fogadóintézményekről, amelyek igazolt magyar szolgáltatást vagy gyűjteményt kínálnak.","url":BASE+"/","inLanguage":"hu-AT","creator":{"@id":BASE+"/#publisher"},"dateModified":DATA_MODIFIED,"spatialCoverage":{"@type":"Country","name":"Austria"},"keywords":["ausztriai magyarok","magyar szervezetek Ausztriában","magyar programok Ausztriában","magyar oktatás Ausztriában","diaszpóra"],
     "distribution":[
       {"@type":"DataDownload","encodingFormat":"application/json","contentUrl":BASE+"/data/organizations.json"},
       {"@type":"DataDownload","encodingFormat":"application/json","contentUrl":BASE+"/data/education.json"},
@@ -186,18 +208,21 @@ entity={
 (ROOT/"entity.jsonld").write_text(json.dumps(entity,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
 
 ai_entry={
- "name":"Magyar Programok Ausztriában",
+ "name":GLOBAL_NAME,
  "canonical":BASE+"/",
- "language":"hu-AT",
+ "language":"hu",
  "publisher":{"name":PUBLISHER["name"],"url":PUBLISHER["url"],"zvr":"079797621"},
- "purpose":"Forrásalapú országos referencia-adatbázis ausztriai magyar közösségekhez, oktatáshoz, nyilvános programokhoz és külön jelölt, magyar szolgáltatást nyújtó osztrák fogadóintézményekhez.",
+ "purpose":GLOBAL_DESC,
+ "globalCoverage":HEALTH,
+ "globalData":{key:BASE+path for key,path in GLOBAL_PATHS.items()},
+ "compatibilityScope":{"updated":"Austria","counts":"Austria","canonicalData":"Austria-specific where organization, education, event and article feeds are concerned"},
  "updated":{"organizations":ORG.get("updated"),"education":EDU.get("updated"),"events":EV.get("updated")},
  "counts":{"entities":len(orgs),"hungarianEntities":len(hungarian_entities),"communityEntities":len(community_entities),"activities":len(activities),"hostInstitutions":len(host_institutions),"organizations":len(orgs),"education":len(education),"events":len(events),"states":len(states),"categories":len(categories)},
  "canonicalData":{
    "organizations":BASE+"/data/organizations.json","education":BASE+"/data/education.json","events":BASE+"/data/events.json","articles":BASE+"/data/articles.json",
    "entityGraph":BASE+"/entity.jsonld","methodology":BASE+"/forrasok.html","dataQuality":BASE+"/adatminoseg.html","llms":BASE+"/llms.txt","aiTrust":BASE+"/ai.txt","sitemap":BASE+"/sitemap.xml"
  },
- "citationPolicy":"Állítást csak canonical adatból vagy a rekordhoz kapcsolt bizonyító/hivatalos forrásból vezess le; hiányzó tényt ne következtess."
+ "citationPolicy":"A szervezeti vagy eseményadatlapot és a hozzá rendelt forrást idézd. A kutatás alatt álló terület nem üres, és az áttekintett nem jelent teljes népszámlálást."
 }
 (ROOT/"ai-entry.json").write_text(json.dumps(ai_entry,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
 
@@ -219,10 +244,10 @@ def status_label(value):
 event_health=status_counts(SOURCE_HEALTH.get("sources",[]))
 edu_health=status_counts(EDU_HEALTH.get("sites",[]))
 quality_url=BASE+"/adatminoseg.html"
-quality_desc="A DORAPP forrás-, frissességi és adatminőségi státuszának nyilvános, géppel is értelmezhető összefoglalója."
+quality_desc="A globális DORAPP-lefedettség, a kutatási státuszok és a külön jelölt ausztriai forrásaudit nyilvános összefoglalója."
 quality_schema={"@context":"https://schema.org","@graph":[
-  {"@type":"WebPage","@id":quality_url+"#page","url":quality_url,"name":"DORAPP adatminőség és transzparencia","description":quality_desc,"inLanguage":"hu-AT","isPartOf":{"@id":BASE+"/#website"},"publisher":{"@id":BASE+"/#publisher"}},
-  {"@type":"DataCatalog","@id":quality_url+"#catalog","name":"DORAPP – Ausztriai magyar közösségi adatbázis","url":BASE+"/","description":quality_desc,"provider":{"@id":BASE+"/#publisher"},"dataset":{"@id":BASE+"/#dataset"},"dateModified":DATA_MODIFIED},
+  {"@type":"WebPage","@id":quality_url+"#page","url":quality_url,"name":"DORAPP adatminőség és transzparencia","description":quality_desc,"inLanguage":"hu","isPartOf":{"@id":BASE+"/#website"},"publisher":{"@id":BASE+"/#publisher"}},
+  {"@type":"DataCatalog","@id":quality_url+"#catalog","name":"DORAPP – globális és ausztriai magyar közösségi adatok","url":BASE+"/","description":quality_desc,"provider":{"@id":BASE+"/#publisher"},"dataset":[{"@id":BASE+"/#global-dataset"},{"@id":BASE+"/#dataset"}],"dateModified":DATA_MODIFIED},
   PUBLISHER
 ]}
 event_rows="".join(f'<li><strong>{esc(status_label(k))}</strong>: {v}</li>' for k,v in sorted(event_health.items()))
@@ -230,11 +255,18 @@ edu_rows="".join(f'<li><strong>{esc(status_label(k))}</strong>: {v}</li>' for k,
 link_counts=LINK_AUDIT.get("externalStatusCounts",{})
 link_rows="".join(f'<li><strong>{esc(status_label(k))}</strong>: {v}</li>' for k,v in sorted(link_counts.items())) or '<li>A teljes külső linkaudit még nem futott le.</li>'
 quality_body=f'''<section class="hero"><div class="wrap"><div class="eyebrow">Átlátható adatkezelés</div><h1>Adatminőség és frissesség</h1><p class="lead">{esc(quality_desc)}</p></div></section>
-<section class="section"><div class="wrap trust-grid"><div><h2>Aktuális lefedettség</h2></div><div><p><strong>{len(orgs)}</strong> nyilvántartott közösség és intézmény<br><strong>{len(hungarian_entities)}</strong> magyar szervezet vagy közösség<br><strong>{len(community_entities)}</strong> közösség vagy programszervező<br><strong>{len(activities)}</strong> rendszeres közösségi program<br><strong>{len(host_institutions)}</strong> osztrák intézmény igazolt magyar szolgáltatással<br><strong>{len(education)}</strong> oktatási lehetőség<br><strong>{len(events)}</strong> forrással rendelkező program<br><strong>{len(states)}</strong> osztrák tartomány</p><p>Szervezeti adat frissítve: {esc(ORG.get("updated"))}<br>Oktatási adat frissítve: {esc(EDU.get("updated"))}<br>Eseményadat frissítve: {esc(EV.get("updated"))}</p></div></div></section>
-<section class="section muted"><div class="wrap trust-grid"><div><h2>Eseményforrás-audit</h2></div><div><ul class="source-list">{event_rows}</ul><p>A technikai hiba nem jelenti automatikusan azt, hogy a forrás vagy a szervezet megszűnt. 403/429, TLS-, DNS- és timeout-hibát külön technikai állapotként kezelünk.</p></div></div></section>
-<section class="section"><div class="wrap trust-grid"><div><h2>Oktatási webaudit</h2></div><div><ul class="source-list">{edu_rows}</ul><p>A saját honlapon nem talált kulcsszó nem írja felül az intézményi, hatósági vagy közszolgálati forrásból igazolt magyar oktatást.</p></div></div></section>
+<section class="section"><div class="wrap trust-grid"><div><h2>Globális lefedettség</h2></div><div>
+<p><strong>{HEALTH["territories"]}</strong> nyilvántartott ISO-ország és terület · <strong>{HEALTH["organizationRecords"]}</strong> szervezeti rekord</p>
+<ul class="source-list"><li><strong>{GLOBAL_COUNTS["reviewed"]}</strong> áttekintett</li><li><strong>{GLOBAL_COUNTS["researching"]}</strong> kutatás alatt</li><li><strong>{GLOBAL_COUNTS["partial"]}</strong> részleges</li><li><strong>{GLOBAL_COUNTS["unresearched"]}</strong> még nem kutatott</li><li><strong>{GLOBAL_COUNTS["verified-zero"]}</strong> dokumentáltan nincs igazolt találat</li></ul>
+<p>Az ISO-lefedettség nem egyenlő a közösségek feltérképezésével. Az áttekintés meghatározott forrásokra és régiókra vonatkozik. A szervezeti rekordszám nem tartalmazza a rendszeres foglalkozások önálló rekordjait, és nem a világszerte működő magyar szervezetek teljes száma.</p>
+<p><strong>{HEALTH["calendarRecords"]}</strong> program a legutóbbi globális naptárépítésben, <strong>{HEALTH["calendarCountryCount"]}</strong> országból. Frissítve: {esc(HEALTH["calendarGeneratedAt"])}.</p>
+<p><a href="data/global.json">Országnyilvántartás (JSON) →</a> · <a href="data/global-events.json">Globális naptár (JSON) →</a></p>
+</div></div></section>
+<section class="section muted"><div class="wrap trust-grid"><div><h2>Ausztria részletesen</h2></div><div><p><strong>{len(orgs)}</strong> nyilvántartott közösség és intézmény<br><strong>{len(hungarian_entities)}</strong> magyar közösségi és foglalkozásrekord<br><strong>{len(community_entities)}</strong> közösség vagy programszervező<br><strong>{len(activities)}</strong> rendszeres közösségi program<br><strong>{len(host_institutions)}</strong> osztrák intézmény igazolt magyar szolgáltatással<br><strong>{len(education)}</strong> oktatási lehetőség<br><strong>{len(events)}</strong> forrással rendelkező program<br><strong>{len(states)}</strong> osztrák tartomány</p><p>Szervezeti adat frissítve: {esc(ORG.get("updated"))}<br>Oktatási adat frissítve: {esc(EDU.get("updated"))}<br>Eseményadat frissítve: {esc(EV.get("updated"))}</p></div></div></section>
+<section class="section muted"><div class="wrap trust-grid"><div><h2>Ausztriai eseményforrások</h2></div><div><ul class="source-list">{event_rows}</ul><p>A technikai hiba nem jelenti automatikusan azt, hogy a forrás vagy a szervezet megszűnt. 403/429, TLS-, DNS- és timeout-hibát külön technikai állapotként kezelünk.</p></div></div></section>
+<section class="section"><div class="wrap trust-grid"><div><h2>Ausztriai oktatási webaudit</h2></div><div><ul class="source-list">{edu_rows}</ul><p>A saját honlapon nem talált kulcsszó nem írja felül az intézményi, hatósági vagy közszolgálati forrásból igazolt magyar oktatást.</p></div></div></section>
 <section class="section muted"><div class="wrap trust-grid"><div><h2>Hivatkozások állapota</h2></div><div><p><strong>{LINK_AUDIT.get("internalLinksChecked",0)}</strong> belső hivatkozás ellenőrizve · <strong>{len(LINK_AUDIT.get("internalErrors",[]))}</strong> belső hiba</p><ul class="source-list">{link_rows}</ul><p>A külső oldal technikai hibája ellenőrzendő tétel, nem bizonyíték a szervezet megszűnésére.</p></div></div></section>
 <section class="section"><div class="wrap trust-grid"><div><h2>Szerkesztési elv</h2></div><div><p>Hiányzó történeti, tagsági, kapcsolati vagy eseményadatot nem találunk ki. A szervezeti adatlapokat szerkesztői ellenőrzéssel, nyilvános források alapján bővítjük. Az automatikus esemény- és sajtókeresés nem írhatja felül az ellenőrzött adatokat. Az osztrák fogadóintézmény külön jelölést kap: ez azt jelenti, hogy az intézmény igazolt magyar szolgáltatást, gyűjteményt vagy képzést kínál, nem pedig azt, hogy magyar szervezet.</p><p><a href="forrasok.html">Teljes módszertan →</a><br><a href="mailto:marketing@kozpontiszovetseg.at">Hibajelentés / korrekció →</a></p></div></div></section>'''
-(ROOT/"adatminoseg.html").write_text(shell("DORAPP adatminőség és transzparencia",quality_desc,quality_url,quality_body,quality_schema,prefix=""),encoding="utf-8")
+(ROOT/"adatminoseg.html").write_text(shell("DORAPP adatminőség és transzparencia",quality_desc,quality_url,quality_body,quality_schema,prefix="",worldwide=True),encoding="utf-8")
 
 print(f"events={len(events)} states={len(states)} categories={len(categories)} entity=1 ai_entry=1 quality=1")
