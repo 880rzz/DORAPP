@@ -5,7 +5,7 @@
     "verified-zero"
   ],
   "generatedFrom": "data/global.json + reviewed country datasets",
-  "count": 2070,
+  "count": 2133,
   "items": [
     {
       "type": "organization",
@@ -257,6 +257,34 @@
       "meta": "Brussels · Hungarian scout troop",
       "href": "countries/be/organizations/82-bathory-istvan-cserkeszcsapat.html",
       "search": "82. sz. bathory istvan cserkeszcsapat brussels brussels-capital hungarian scout troop brusszelben mukodo magyar cserkeszcsapat, a kulfoldi magyar cserkeszszovetseg europai keruletenek resze. cserkeszet magyar kulturalis neveles ifjusagi kozosseg taborok csapatprogramok"
+    },
+    {
+      "type": "organization",
+      "id": "90-ajtosi-durer-cserkeszcsapat-nurnberg",
+      "label": "90. sz. Ajtósi Dürer Cserkészcsapat",
+      "country": "de",
+      "countryLabel": "Germany",
+      "city": "Nürnberg",
+      "entityType": "Magyar cserkészcsapat",
+      "category": "Cserkészet",
+      "summary": "A nürnbergi magyar cserkészcsapat foglalkozásokat, kirándulásokat és táborokat szervez. Programjaiban a cserkészismeret mellett a magyar nyelv és kultúra is szerepet kap.",
+      "meta": "Nürnberg · Magyar cserkészcsapat",
+      "href": "countries/de/organizations/90-ajtosi-durer-cserkeszcsapat-nurnberg.html",
+      "search": "90. sz. ajtosi durer cserkeszcsapat nurnberg bayern magyar cserkeszcsapat a nurnbergi magyar cserkeszcsapat foglalkozasokat, kirandulasokat es taborokat szervez. programjaiban a cserkeszismeret mellett a magyar nyelv es kultura is szerepet kap. cserkeszet kirandulasok taborok"
+    },
+    {
+      "type": "organization",
+      "id": "91-kanyadi-sandor-cserkeszcsapat-drezda",
+      "label": "91. sz. Kányádi Sándor Cserkészcsapat",
+      "country": "de",
+      "countryLabel": "Germany",
+      "city": "Dresden",
+      "entityType": "Magyar cserkészcsapat",
+      "category": "Cserkészet",
+      "summary": "A drezdai magyar cserkészcsapat találkozókat és táborokat szervez. Saját honlapján programokat és a csapat életéről szóló beszámolókat tesz közzé.",
+      "meta": "Dresden · Magyar cserkészcsapat",
+      "href": "countries/de/organizations/91-kanyadi-sandor-cserkeszcsapat-drezda.html",
+      "search": "91. sz. kanyadi sandor cserkeszcsapat dresden sachsen magyar cserkeszcsapat a drezdai magyar cserkeszcsapat talalkozokat es taborokat szervez. sajat honlapjan programokat es a csapat eleterol szolo beszamolokat tesz kozze. cserkeszet taborok kozossegi talalkozok"
     },
     {
       "type": "activity",
@@ -2319,6 +2347,30 @@
       "search": "benin bj ben benin republic of benin"
     },
     {
+      "type": "city",
+      "id": "berlin",
+      "label": "Berlin",
+      "country": "de",
+      "countryLabel": "Germany",
+      "meta": "Germany",
+      "href": "countries/de/?city=Berlin",
+      "search": "berlin germany de"
+    },
+    {
+      "type": "organization",
+      "id": "berlini-magyar-protestans-gyulekezet",
+      "label": "Berlini Magyar Protestáns Gyülekezet",
+      "country": "de",
+      "countryLabel": "Germany",
+      "city": "Berlin",
+      "entityType": "Magyar egyházi közösség",
+      "category": "Egyházi közösség",
+      "summary": "A berlini protestáns gyülekezet magyar nyelvű egyházi közösség. Saját felületein a gyülekezetről és a kapcsolódási lehetőségről ad tájékoztatást.",
+      "meta": "Berlin · Magyar egyházi közösség",
+      "href": "countries/de/organizations/berlini-magyar-protestans-gyulekezet.html",
+      "search": "berlini magyar protestans gyulekezet berlin berlin magyar egyhazi kozosseg a berlini protestans gyulekezet magyar nyelvu egyhazi kozosseg. sajat feluletein a gyulekezetrol es a kapcsolodasi lehetosegrol ad tajekoztatast. magyar nyelvu gyulekezeti elet"
+    },
+    {
       "type": "country",
       "id": "bm",
       "label": "Bermuda",
@@ -2657,6 +2709,30 @@
       "search": "brand art studio wien wien muveszeti kozosseg a brand art studio • wien nonprofit muveszeti es kulturalis egyesulet, amely a becsben es ausztriaban elo magyar ajku alkotok, kulturalis szereplok es kozossegek osszekapcsolasat szolgalja. kiallitasokat, kulturalis es oktatasi esemenyeket, mentorprogramokat es digitalis rendezvenytamogato szolgaltatasokat mukodtet. muveszeti es kulturalis kozossegepites kiallitasok es kulturalis esemenyek mentorprogramok es workshopok magyar kulturalis szereplok online megjelenesenek tamogatasa rendezvenyszervezesi es jegyertekesitesi technikai infrastruktura osztrak–magyar kulturalis kapcsolatok erositese"
     },
     {
+      "type": "city",
+      "id": "brantford",
+      "label": "Brantford",
+      "country": "ca",
+      "countryLabel": "Kanada",
+      "meta": "Kanada",
+      "href": "countries/ca/?city=Brantford",
+      "search": "brantford kanada ca"
+    },
+    {
+      "type": "organization",
+      "id": "brantford-hungarian-cultural-club",
+      "label": "Brantford Hungarian Canadian Cultural Club",
+      "country": "ca",
+      "countryLabel": "Kanada",
+      "city": "Brantford",
+      "entityType": "Magyar kulturális klub",
+      "category": "Hagyományőrzés",
+      "summary": "A brantfordi magyar kulturális klub a helyi közösség magyar örökségét ápolja. A klub bemutatkozása a néptánccsoport munkáját és a városi fesztiválon való részvételt is dokumentálja.",
+      "meta": "Brantford · Magyar kulturális klub",
+      "href": "countries/ca/organizations/brantford-hungarian-cultural-club.html",
+      "search": "brantford hungarian canadian cultural club brantford ontario magyar kulturalis klub a brantfordi magyar kulturalis klub a helyi kozosseg magyar orokseget apolja. a klub bemutatkozasa a neptanccsoport munkajat es a varosi fesztivalon valo reszvetelt is dokumentalja. neptanc helyi kulturalis rendezvenyek"
+    },
+    {
       "type": "country",
       "id": "br",
       "label": "Brazil",
@@ -2738,6 +2814,20 @@
       "ready": false,
       "researchStatus": "researching",
       "search": "brunei darussalam bn brn brunei darussalam"
+    },
+    {
+      "type": "organization",
+      "id": "brunszvik-terez-tarsasag-berlin",
+      "label": "Brunszvik Teréz Társaság / Brunszvik e.V.",
+      "country": "de",
+      "countryLabel": "Germany",
+      "city": "Berlin",
+      "entityType": "Magyar családi és kulturális egyesület",
+      "category": "Oktatás",
+      "summary": "A berlini egyesület magyarul beszélő családokat kapcsol össze. Magyar nyelvű óvodai foglalkozásokat és hétvégi iskolát szervez.",
+      "meta": "Berlin · Magyar családi és kulturális egyesület",
+      "href": "countries/de/organizations/brunszvik-terez-tarsasag-berlin.html",
+      "search": "brunszvik terez tarsasag / brunszvik e.v. berlin berlin magyar csaladi es kulturalis egyesulet a berlini egyesulet magyarul beszelo csaladokat kapcsol ossze. magyar nyelvu ovodai foglalkozasokat es hetvegi iskolat szervez. csaladi kozosseg magyar ovodai foglalkozasok hetvegi magyar iskola"
     },
     {
       "type": "city",
@@ -3704,6 +3794,26 @@
     },
     {
       "type": "activity",
+      "id": "csaladi kozosseg",
+      "label": "családi közösség",
+      "country": "de",
+      "countryLabel": "Germany",
+      "meta": "Germany",
+      "href": "countries/de/?q=csal%C3%A1di%20k%C3%B6z%C3%B6ss%C3%A9g",
+      "search": "csaladi kozosseg germany de"
+    },
+    {
+      "type": "activity",
+      "id": "csaladi programok",
+      "label": "családi programok",
+      "country": "de",
+      "countryLabel": "Germany",
+      "meta": "Germany",
+      "href": "countries/de/?q=csal%C3%A1di%20programok",
+      "search": "csaladi programok germany de"
+    },
+    {
+      "type": "activity",
       "id": "csaladi programok",
       "label": "családi programok",
       "country": "dk",
@@ -3855,6 +3965,16 @@
       "meta": "Kanada",
       "href": "countries/ca/?q=cserk%C3%A9szet",
       "search": "cserkeszet kanada ca"
+    },
+    {
+      "type": "activity",
+      "id": "cserkeszet",
+      "label": "cserkészet",
+      "country": "de",
+      "countryLabel": "Germany",
+      "meta": "Germany",
+      "href": "countries/de/?q=cserk%C3%A9szet",
+      "search": "cserkeszet germany de"
     },
     {
       "type": "activity",
@@ -4588,6 +4708,16 @@
       "meta": "Ausztria",
       "href": "countries/at/?q=dr%C3%A1ma-%20%C3%A9s%20jelenet%C3%ADr%C3%A1s",
       "search": "drama- es jelenetiras ausztria at"
+    },
+    {
+      "type": "city",
+      "id": "dresden",
+      "label": "Dresden",
+      "country": "de",
+      "countryLabel": "Germany",
+      "meta": "Germany",
+      "href": "countries/de/?city=Dresden",
+      "search": "dresden germany de"
     },
     {
       "type": "city",
@@ -5537,6 +5667,16 @@
     },
     {
       "type": "activity",
+      "id": "fellepesek",
+      "label": "fellépések",
+      "country": "de",
+      "countryLabel": "Germany",
+      "meta": "Germany",
+      "href": "countries/de/?q=fell%C3%A9p%C3%A9sek",
+      "search": "fellepesek germany de"
+    },
+    {
+      "type": "activity",
       "id": "fellepesek es tanchazi reszvetel",
       "label": "fellépések és táncházi részvétel",
       "country": "at",
@@ -5544,6 +5684,16 @@
       "meta": "Ausztria",
       "href": "countries/at/?q=fell%C3%A9p%C3%A9sek%20%C3%A9s%20t%C3%A1nch%C3%A1zi%20r%C3%A9szv%C3%A9tel",
       "search": "fellepesek es tanchazi reszvetel ausztria at"
+    },
+    {
+      "type": "activity",
+      "id": "felnott kozossegi foglalkozasok",
+      "label": "felnőtt közösségi foglalkozások",
+      "country": "ca",
+      "countryLabel": "Kanada",
+      "meta": "Kanada",
+      "href": "countries/ca/?q=feln%C5%91tt%20k%C3%B6z%C3%B6ss%C3%A9gi%20foglalkoz%C3%A1sok",
+      "search": "felnott kozossegi foglalkozasok kanada ca"
     },
     {
       "type": "activity",
@@ -5934,6 +6084,16 @@
       "ready": false,
       "researchStatus": "researching",
       "search": "france fr fra france french republic"
+    },
+    {
+      "type": "city",
+      "id": "frankfurt am main",
+      "label": "Frankfurt am Main",
+      "country": "de",
+      "countryLabel": "Germany",
+      "meta": "Germany",
+      "href": "countries/de/?city=Frankfurt%20am%20Main",
+      "search": "frankfurt am main germany de"
     },
     {
       "type": "activity",
@@ -6929,6 +7089,16 @@
       "type": "activity",
       "id": "hagyomanyorzes",
       "label": "hagyományőrzés",
+      "country": "de",
+      "countryLabel": "Germany",
+      "meta": "Germany",
+      "href": "countries/de/?q=hagyom%C3%A1ny%C5%91rz%C3%A9s",
+      "search": "hagyomanyorzes germany de"
+    },
+    {
+      "type": "activity",
+      "id": "hagyomanyorzes",
+      "label": "hagyományőrzés",
       "country": "us",
       "countryLabel": "Amerikai Egyesült Államok",
       "meta": "Amerikai Egyesült Államok",
@@ -7055,6 +7225,30 @@
       "meta": "Ausztria",
       "href": "countries/at/?q=hallgat%C3%B3k%20tanulm%C3%A1nyi%20t%C3%A1mogat%C3%A1sa",
       "search": "hallgatok tanulmanyi tamogatasa ausztria at"
+    },
+    {
+      "type": "city",
+      "id": "hamburg",
+      "label": "Hamburg",
+      "country": "de",
+      "countryLabel": "Germany",
+      "meta": "Germany",
+      "href": "countries/de/?city=Hamburg",
+      "search": "hamburg germany de"
+    },
+    {
+      "type": "organization",
+      "id": "hamburgi-magyarok-egyesulete",
+      "label": "Hamburgi Magyarok Egyesülete / Vereinigung der Hamburger Ungarn e.V.",
+      "country": "de",
+      "countryLabel": "Germany",
+      "city": "Hamburg",
+      "entityType": "Magyar kulturális egyesület",
+      "category": "Oktatás",
+      "summary": "Az egyesület a hamburgi és északnémetországi magyar közösség nyelvi és kulturális életét támogatja. Hétvégi iskolát és közösségi programokat mutat be, köztük táncházakat, koncerteket és ünnepi rendezvényeket.",
+      "meta": "Hamburg · Magyar kulturális egyesület",
+      "href": "countries/de/organizations/hamburgi-magyarok-egyesulete.html",
+      "search": "hamburgi magyarok egyesulete / vereinigung der hamburger ungarn e.v. hamburg hamburg magyar kulturalis egyesulet az egyesulet a hamburgi es eszaknemetorszagi magyar kozosseg nyelvi es kulturalis eletet tamogatja. hetvegi iskolat es kozossegi programokat mutat be, koztuk tanchazakat, koncerteket es unnepi rendezvenyeket. magyar iskola tanchaz kozossegi rendezvenyek"
     },
     {
       "type": "city",
@@ -7358,6 +7552,16 @@
     },
     {
       "type": "activity",
+      "id": "helyi kulturalis rendezvenyek",
+      "label": "helyi kulturális rendezvények",
+      "country": "ca",
+      "countryLabel": "Kanada",
+      "meta": "Kanada",
+      "href": "countries/ca/?q=helyi%20kultur%C3%A1lis%20rendezv%C3%A9nyek",
+      "search": "helyi kulturalis rendezvenyek kanada ca"
+    },
+    {
+      "type": "activity",
       "id": "helyi magyar kozossegepites",
       "label": "helyi magyar közösségépítés",
       "country": "at",
@@ -7485,6 +7689,16 @@
       "meta": "Ausztria",
       "href": "countries/at/?q=heti%20magyar%20n%C3%A9pt%C3%A1ncpr%C3%B3b%C3%A1k",
       "search": "heti magyar neptancprobak ausztria at"
+    },
+    {
+      "type": "activity",
+      "id": "hetvegi magyar iskola",
+      "label": "hétvégi magyar iskola",
+      "country": "de",
+      "countryLabel": "Germany",
+      "meta": "Germany",
+      "href": "countries/de/?q=h%C3%A9tv%C3%A9gi%20magyar%20iskola",
+      "search": "hetvegi magyar iskola germany de"
     },
     {
       "type": "activity",
@@ -7766,6 +7980,20 @@
       "meta": "2026-12-13T14:00:00+01:00 · Amsterdam · Grand Café Frankendael, Middenweg 116, 1097 BT Amsterdam",
       "href": "countries/nl/events/hungaria-club-1929-karacsony-2026.html",
       "search": "hungaria club 1929 – kerstviering amsterdam noord-holland grand cafe frankendael, middenweg 116, 1097 bt amsterdam"
+    },
+    {
+      "type": "organization",
+      "id": "hungaria-social-club-montreal",
+      "label": "Hungária Társadalmi Klub / Hungaria Social Club",
+      "country": "ca",
+      "countryLabel": "Kanada",
+      "city": "Montréal",
+      "entityType": "Magyar közösségi klub",
+      "category": "Közösségi szervezet",
+      "summary": "A montreáli magyar közösségi klub a főkonzulátus helyi szervezeti jegyzékében szerepel. A Kanadai Magyarok Országos Szövetsége saját tagszervezetei között tartja nyilván.",
+      "meta": "Montréal · Magyar közösségi klub",
+      "href": "countries/ca/organizations/hungaria-social-club-montreal.html",
+      "search": "hungaria tarsadalmi klub / hungaria social club montreal quebec magyar kozossegi klub a montreali magyar kozossegi klub a fokonzulatus helyi szervezeti jegyzekeben szerepel. a kanadai magyarok orszagos szovetsege sajat tagszervezetei kozott tartja nyilvan. magyar kozossegi kapcsolatok"
     },
     {
       "type": "organization",
@@ -8137,6 +8365,20 @@
     },
     {
       "type": "organization",
+      "id": "hungarian-self-culture-society-welland",
+      "label": "Hungarian Self Culture Society of Welland / Welland Hungarian Hall",
+      "country": "ca",
+      "countryLabel": "Kanada",
+      "city": "Welland",
+      "entityType": "Magyar kulturális egyesület",
+      "category": "Kultúra",
+      "summary": "A wellandi egyesület a magyar kulturális örökség ápolására jött létre. A Welland Hungarian Hall közösségi találkozóknak és rendezvényeknek ad helyet.",
+      "meta": "Welland · Magyar kulturális egyesület",
+      "href": "countries/ca/organizations/hungarian-self-culture-society-welland.html",
+      "search": "hungarian self culture society of welland / welland hungarian hall welland ontario magyar kulturalis egyesulet a wellandi egyesulet a magyar kulturalis orokseg apolasara jott letre. a welland hungarian hall kozossegi talalkozoknak es rendezvenyeknek ad helyet. magyar orokseg kozossegi rendezvenyek"
+    },
+    {
+      "type": "organization",
       "id": "hungarian-settlement-museum-louisiana",
       "label": "Hungarian Settlement Museum",
       "country": "us",
@@ -8266,6 +8508,16 @@
       "meta": "Ausztria",
       "href": "countries/at/?q=Hungarica-kutat%C3%A1s%20%C3%A9s%20szakirodalmi%20hozz%C3%A1f%C3%A9r%C3%A9s",
       "search": "hungarica-kutatas es szakirodalmi hozzaferes ausztria at"
+    },
+    {
+      "type": "activity",
+      "id": "hungarologia",
+      "label": "hungarológia",
+      "country": "de",
+      "countryLabel": "Germany",
+      "meta": "Germany",
+      "href": "countries/de/?q=hungarol%C3%B3gia",
+      "search": "hungarologia germany de"
     },
     {
       "type": "activity",
@@ -8490,6 +8742,16 @@
     },
     {
       "type": "activity",
+      "id": "ifjusagi taborok",
+      "label": "ifjúsági táborok",
+      "country": "ca",
+      "countryLabel": "Kanada",
+      "meta": "Kanada",
+      "href": "countries/ca/?q=ifj%C3%BAs%C3%A1gi%20t%C3%A1borok",
+      "search": "ifjusagi taborok kanada ca"
+    },
+    {
+      "type": "activity",
       "id": "ifjusagi vetelkedok es szavaloversenyek",
       "label": "ifjúsági vetélkedők és szavalóversenyek",
       "country": "at",
@@ -8621,6 +8883,16 @@
       "meta": "Belgium",
       "href": "countries/be/?q=inform%C3%A1ci%C3%B3megoszt%C3%A1s",
       "search": "informaciomegosztas belgium be"
+    },
+    {
+      "type": "city",
+      "id": "ingolstadt",
+      "label": "Ingolstadt",
+      "country": "de",
+      "countryLabel": "Germany",
+      "meta": "Germany",
+      "href": "countries/de/?city=Ingolstadt",
+      "search": "ingolstadt germany de"
     },
     {
       "type": "city",
@@ -9437,6 +9709,16 @@
       "search": "karoly gaal es mas gyujtok anyaganak feldolgozasa ausztria at"
     },
     {
+      "type": "city",
+      "id": "kastl",
+      "label": "Kastl",
+      "country": "de",
+      "countryLabel": "Germany",
+      "meta": "Germany",
+      "href": "countries/de/?city=Kastl",
+      "search": "kastl germany de"
+    },
+    {
       "type": "organization",
       "id": "katalan-magyar-kulturalis-egyesulet",
       "label": "Katalán–Magyar Kulturális Egyesület",
@@ -9722,6 +10004,16 @@
     },
     {
       "type": "activity",
+      "id": "kiadvanyok",
+      "label": "kiadványok",
+      "country": "de",
+      "countryLabel": "Germany",
+      "meta": "Germany",
+      "href": "countries/de/?q=kiadv%C3%A1nyok",
+      "search": "kiadvanyok germany de"
+    },
+    {
+      "type": "activity",
       "id": "kiallitasok",
       "label": "kiállítások",
       "country": "at",
@@ -9916,6 +10208,16 @@
       "search": "kindergarten unterwart / alsoori ovoda – magyar nepcsoporti nyelvi ellatas unterwart / alsoor ovoda / nepcsoporti nyelvi ellatas az alsoori ovoda jelenleg is mukodik. a 2026-ban hatalyos burgenlandi gyermeknevelesi szabalyozas unterwart intezmenyeiben eloirja a magyar nepcsoporti nyelv hasznalatat legalabb heti 12 oraban; a kozsegi honlapon kulon ovodai magyar programoldalt nem talaltunk."
     },
     {
+      "type": "activity",
+      "id": "kirandulasok",
+      "label": "kirándulások",
+      "country": "de",
+      "countryLabel": "Germany",
+      "meta": "Germany",
+      "href": "countries/de/?q=kir%C3%A1ndul%C3%A1sok",
+      "search": "kirandulasok germany de"
+    },
+    {
       "type": "country",
       "id": "ki",
       "label": "Kiribati",
@@ -9998,6 +10300,16 @@
     },
     {
       "type": "activity",
+      "id": "klubestek",
+      "label": "klubestek",
+      "country": "de",
+      "countryLabel": "Germany",
+      "meta": "Germany",
+      "href": "countries/de/?q=klubestek",
+      "search": "klubestek germany de"
+    },
+    {
+      "type": "activity",
       "id": "klubok",
       "label": "klubok",
       "country": "ca",
@@ -10065,6 +10377,16 @@
       "meta": "Kanada",
       "href": "countries/ca/?q=koncertek",
       "search": "koncertek kanada ca"
+    },
+    {
+      "type": "activity",
+      "id": "koncertek",
+      "label": "koncertek",
+      "country": "de",
+      "countryLabel": "Germany",
+      "meta": "Germany",
+      "href": "countries/de/?q=koncertek",
+      "search": "koncertek germany de"
     },
     {
       "type": "activity",
@@ -11091,6 +11413,16 @@
     },
     {
       "type": "activity",
+      "id": "kozossegi fesztival",
+      "label": "közösségi fesztivál",
+      "country": "ca",
+      "countryLabel": "Kanada",
+      "meta": "Kanada",
+      "href": "countries/ca/?q=k%C3%B6z%C3%B6ss%C3%A9gi%20fesztiv%C3%A1l",
+      "search": "kozossegi fesztival kanada ca"
+    },
+    {
+      "type": "activity",
       "id": "kozossegi finanszirozasi muveszeti kampanyok",
       "label": "közösségi finanszírozási művészeti kampányok",
       "country": "at",
@@ -11333,6 +11665,16 @@
       "type": "activity",
       "id": "kozossegi rendezvenyek",
       "label": "közösségi rendezvények",
+      "country": "de",
+      "countryLabel": "Germany",
+      "meta": "Germany",
+      "href": "countries/de/?q=k%C3%B6z%C3%B6ss%C3%A9gi%20rendezv%C3%A9nyek",
+      "search": "kozossegi rendezvenyek germany de"
+    },
+    {
+      "type": "activity",
+      "id": "kozossegi rendezvenyek",
+      "label": "közösségi rendezvények",
       "country": "nl",
       "countryLabel": "Hollandia",
       "meta": "Hollandia",
@@ -11378,6 +11720,16 @@
       "meta": "Ausztria",
       "href": "countries/at/?q=k%C3%B6z%C3%B6ss%C3%A9gi%20tal%C3%A1lkoz%C3%B3k",
       "search": "kozossegi talalkozok ausztria at"
+    },
+    {
+      "type": "activity",
+      "id": "kozossegi talalkozok",
+      "label": "közösségi találkozók",
+      "country": "de",
+      "countryLabel": "Germany",
+      "meta": "Germany",
+      "href": "countries/de/?q=k%C3%B6z%C3%B6ss%C3%A9gi%20tal%C3%A1lkoz%C3%B3k",
+      "search": "kozossegi talalkozok germany de"
     },
     {
       "type": "activity",
@@ -11781,6 +12133,16 @@
       "meta": "Amerikai Egyesült Államok",
       "href": "countries/us/?q=kultur%C3%A1lis%20h%C3%A1z",
       "search": "kulturalis haz amerikai egyesult allamok us"
+    },
+    {
+      "type": "activity",
+      "id": "kulturalis klubestek",
+      "label": "kulturális klubestek",
+      "country": "de",
+      "countryLabel": "Germany",
+      "meta": "Germany",
+      "href": "countries/de/?q=kultur%C3%A1lis%20klubestek",
+      "search": "kulturalis klubestek germany de"
     },
     {
       "type": "activity",
@@ -12537,6 +12899,20 @@
       "search": "magyar cserkeszet amerikai egyesult allamok us"
     },
     {
+      "type": "organization",
+      "id": "magyar-cserkeszpark-egyesulet-kastl",
+      "label": "Magyar Cserkészpark Egyesület / Pfadfinderpark Kastl",
+      "country": "de",
+      "countryLabel": "Germany",
+      "city": "Kastl",
+      "entityType": "Magyar cserkészparkot működtető egyesület",
+      "category": "Cserkészet",
+      "summary": "A kastli Magyar Cserkészpark a Mennersbergen működik. A park csoportok táborait és szabadidős rendezvényeit fogadja.",
+      "meta": "Kastl · Magyar cserkészparkot működtető egyesület",
+      "href": "countries/de/organizations/magyar-cserkeszpark-egyesulet-kastl.html",
+      "search": "magyar cserkeszpark egyesulet / pfadfinderpark kastl kastl bayern magyar cserkeszparkot mukodteto egyesulet a kastli magyar cserkeszpark a mennersbergen mukodik. a park csoportok taborait es szabadidos rendezvenyeit fogadja. cserkeszet taboroztatas"
+    },
+    {
       "type": "activity",
       "id": "magyar cserkeszprogramok tamogatasa",
       "label": "magyar cserkészprogramok támogatása",
@@ -12758,6 +13134,16 @@
     },
     {
       "type": "activity",
+      "id": "magyar gyerekfoglalkozasok",
+      "label": "magyar gyerekfoglalkozások",
+      "country": "de",
+      "countryLabel": "Germany",
+      "meta": "Germany",
+      "href": "countries/de/?q=magyar%20gyerekfoglalkoz%C3%A1sok",
+      "search": "magyar gyerekfoglalkozasok germany de"
+    },
+    {
+      "type": "activity",
       "id": "magyar gyermek- es ifjusagi irodalom",
       "label": "magyar gyermek- és ifjúsági irodalom",
       "country": "at",
@@ -12871,6 +13257,20 @@
       "search": "magyar haz brusszel / hotel saintenoy ixelles brussels-capital hungarian community and cultural house a brusszeli magyar kozosseg tortenelmi kozossegi es kulturalis haza, rendszeres kulturalis, irodalmi, zenei es kozossegi programokkal. kozossegi programok kulturalis rendezvenyek konyvtar es konyvklub zenei programok nemzeti megemlekezesek"
     },
     {
+      "type": "organization",
+      "id": "magyar-helikon-tarsasag-toronto",
+      "label": "Magyar Helikon Társaság / Hungarian Helicon Society",
+      "country": "ca",
+      "countryLabel": "Kanada",
+      "city": "Toronto",
+      "entityType": "Magyar kulturális egyesület",
+      "category": "Oktatás",
+      "summary": "A torontói társaság magyar nyelvi és kulturális oktatást támogat. Tevékenységei közé tartozik a felnőttek nyelvoktatása, a nyelvvizsga és az ösztöndíjak támogatása.",
+      "meta": "Toronto · Magyar kulturális egyesület",
+      "href": "countries/ca/organizations/magyar-helikon-tarsasag-toronto.html",
+      "search": "magyar helikon tarsasag / hungarian helicon society toronto ontario magyar kulturalis egyesulet a torontoi tarsasag magyar nyelvi es kulturalis oktatast tamogat. tevekenysegei koze tartozik a felnottek nyelvoktatasa, a nyelvvizsga es az osztondijak tamogatasa. magyar nyelvoktatas nyelvvizsgak osztondijak"
+    },
+    {
       "type": "activity",
       "id": "magyar identitas es hagyomanyok apolasa",
       "label": "Magyar identitás és hagyományok ápolása",
@@ -12909,6 +13309,16 @@
       "meta": "Ausztria",
       "href": "countries/at/?q=magyar%20irodalmi%20%C3%A9s%20kultur%C3%A1lis%20kiadv%C3%A1nyok%20megjelentet%C3%A9se",
       "search": "magyar irodalmi es kulturalis kiadvanyok megjelentetese ausztria at"
+    },
+    {
+      "type": "activity",
+      "id": "magyar iskola",
+      "label": "magyar iskola",
+      "country": "de",
+      "countryLabel": "Germany",
+      "meta": "Germany",
+      "href": "countries/de/?q=magyar%20iskola",
+      "search": "magyar iskola germany de"
     },
     {
       "type": "activity",
@@ -13109,6 +13519,16 @@
       "meta": "Ausztria",
       "href": "countries/at/?q=magyar%20k%C3%B6z%C3%B6ss%C3%A9gi%20hagyom%C3%A1nyok%20%C3%A1pol%C3%A1sa%20B%C3%A9csben",
       "search": "magyar kozossegi hagyomanyok apolasa becsben ausztria at"
+    },
+    {
+      "type": "activity",
+      "id": "magyar kozossegi kapcsolatok",
+      "label": "magyar közösségi kapcsolatok",
+      "country": "ca",
+      "countryLabel": "Kanada",
+      "meta": "Kanada",
+      "href": "countries/ca/?q=magyar%20k%C3%B6z%C3%B6ss%C3%A9gi%20kapcsolatok",
+      "search": "magyar kozossegi kapcsolatok kanada ca"
     },
     {
       "type": "activity",
@@ -13928,6 +14348,16 @@
       "type": "activity",
       "id": "magyar nyelvoktatas",
       "label": "magyar nyelvoktatás",
+      "country": "de",
+      "countryLabel": "Germany",
+      "meta": "Germany",
+      "href": "countries/de/?q=magyar%20nyelvoktat%C3%A1s",
+      "search": "magyar nyelvoktatas germany de"
+    },
+    {
+      "type": "activity",
+      "id": "magyar nyelvoktatas",
+      "label": "magyar nyelvoktatás",
       "country": "us",
       "countryLabel": "Amerikai Egyesült Államok",
       "meta": "Amerikai Egyesült Államok",
@@ -14053,6 +14483,16 @@
       "meta": "Ausztria",
       "href": "countries/at/?q=magyar%20nyelv%C5%B1%20gyermekk%C3%B6nyv-felolvas%C3%A1sok",
       "search": "magyar nyelvu gyermekkonyv-felolvasasok ausztria at"
+    },
+    {
+      "type": "activity",
+      "id": "magyar nyelvu gyulekezeti elet",
+      "label": "magyar nyelvű gyülekezeti élet",
+      "country": "de",
+      "countryLabel": "Germany",
+      "meta": "Germany",
+      "href": "countries/de/?q=magyar%20nyelv%C5%B1%20gy%C3%BClekezeti%20%C3%A9let",
+      "search": "magyar nyelvu gyulekezeti elet germany de"
     },
     {
       "type": "activity",
@@ -14524,6 +14964,16 @@
       "meta": "Ausztria",
       "href": "countries/at/?q=magyar%20%C3%B3vodai%20foglalkoz%C3%A1sok",
       "search": "magyar ovodai foglalkozasok ausztria at"
+    },
+    {
+      "type": "activity",
+      "id": "magyar ovodai foglalkozasok",
+      "label": "magyar óvodai foglalkozások",
+      "country": "de",
+      "countryLabel": "Germany",
+      "meta": "Germany",
+      "href": "countries/de/?q=magyar%20%C3%B3vodai%20foglalkoz%C3%A1sok",
+      "search": "magyar ovodai foglalkozasok germany de"
     },
     {
       "type": "activity",
@@ -15164,6 +15614,20 @@
       "meta": "Wels · kisgyermekes magyar közösség",
       "href": "countries/at/education/manohaz-wels.html",
       "search": "manohaz wels wels kisgyermekes magyar kozosseg welsben mukodo magyar kisgyermekes kozosseg, amely a felso-ausztriai magyar oktatasi es csaladi programokban is reszt vesz. kulon, egyertelmuen hivatalos sajat weboldalt jelenleg nem talaltunk."
+    },
+    {
+      "type": "organization",
+      "id": "manyoki-adam-kulturegyesulet-drezda",
+      "label": "Mányoki Ádám Német–Magyar Kultúregyesület",
+      "country": "de",
+      "countryLabel": "Germany",
+      "city": "Dresden",
+      "entityType": "Magyar kulturális egyesület",
+      "category": "Kultúra",
+      "summary": "A drezdai egyesület magyar kulturális programokat szervez. Honlapján közösségi találkozókat, koncerteket és családi eseményeket is közzétesz.",
+      "meta": "Dresden · Magyar kulturális egyesület",
+      "href": "countries/de/organizations/manyoki-adam-kulturegyesulet-drezda.html",
+      "search": "manyoki adam nemet–magyar kulturegyesulet dresden sachsen magyar kulturalis egyesulet a drezdai egyesulet magyar kulturalis programokat szervez. honlapjan kozossegi talalkozokat, koncerteket es csaladi esemenyeket is kozzetesz. koncertek csaladi programok kozossegi rendezvenyek"
     },
     {
       "type": "country",
@@ -15826,6 +16290,30 @@
       "search": "muforditoi muhelyek ausztria at"
     },
     {
+      "type": "city",
+      "id": "munchen",
+      "label": "München",
+      "country": "de",
+      "countryLabel": "Germany",
+      "meta": "Germany",
+      "href": "countries/de/?city=M%C3%BCnchen",
+      "search": "munchen germany de"
+    },
+    {
+      "type": "organization",
+      "id": "muncheni-magyar-intezet-egyesulet",
+      "label": "Müncheni Magyar Intézet Egyesület / Ungarisches Institut München e.V.",
+      "country": "de",
+      "countryLabel": "Germany",
+      "city": "Regensburg",
+      "entityType": "Magyar tudományos és kulturális egyesület",
+      "category": "Oktatás",
+      "summary": "A regensburgi intézet magyar témájú tudományos és kulturális munkát végez. Kutatással, kiadványokkal, rendezvényekkel és magyar nyelvoktatással foglalkozik.",
+      "meta": "Regensburg · Magyar tudományos és kulturális egyesület",
+      "href": "countries/de/organizations/muncheni-magyar-intezet-egyesulet.html",
+      "search": "muncheni magyar intezet egyesulet / ungarisches institut munchen e.v. regensburg bayern magyar tudomanyos es kulturalis egyesulet a regensburgi intezet magyar temaju tudomanyos es kulturalis munkat vegez. kutatassal, kiadvanyokkal, rendezvenyekkel es magyar nyelvoktatassal foglalkozik. hungarologia kiadvanyok magyar nyelvoktatas tudomanyos rendezvenyek"
+    },
+    {
       "type": "organization",
       "id": "music-and-words",
       "label": "Music & Words",
@@ -16408,6 +16896,16 @@
       "type": "activity",
       "id": "neptanc",
       "label": "néptánc",
+      "country": "de",
+      "countryLabel": "Germany",
+      "meta": "Germany",
+      "href": "countries/de/?q=n%C3%A9pt%C3%A1nc",
+      "search": "neptanc germany de"
+    },
+    {
+      "type": "activity",
+      "id": "neptanc",
+      "label": "néptánc",
       "country": "dk",
       "countryLabel": "Dánia",
       "meta": "Dánia",
@@ -16803,6 +17301,30 @@
       "search": "norway no nor norway kingdom of norway"
     },
     {
+      "type": "city",
+      "id": "nurnberg",
+      "label": "Nürnberg",
+      "country": "de",
+      "countryLabel": "Germany",
+      "meta": "Germany",
+      "href": "countries/de/?city=N%C3%BCrnberg",
+      "search": "nurnberg germany de"
+    },
+    {
+      "type": "organization",
+      "id": "nurnbergi-magyar-kulturegyesulet",
+      "label": "Nürnbergi Magyar Kultúregyesület / Ungarischer Kulturverein Nürnberg e.V.",
+      "country": "de",
+      "countryLabel": "Germany",
+      "city": "Nürnberg",
+      "entityType": "Magyar kulturális egyesület",
+      "category": "Hagyományőrzés",
+      "summary": "A nürnbergi egyesület gyerekfoglalkozásokat és felnőtteknek szóló klubokat működtet. Hozzá kapcsolódnak többek között citerás, színjátszó és néptáncos csoportok.",
+      "meta": "Nürnberg · Magyar kulturális egyesület",
+      "href": "countries/de/organizations/nurnbergi-magyar-kulturegyesulet.html",
+      "search": "nurnbergi magyar kulturegyesulet / ungarischer kulturverein nurnberg e.v. nurnberg bayern magyar kulturalis egyesulet a nurnbergi egyesulet gyerekfoglalkozasokat es felnotteknek szolo klubokat mukodtet. hozza kapcsolodnak tobbek kozott citeras, szinjatszo es neptancos csoportok. magyar gyerekfoglalkozasok klubestek neptanc kozossegi rendezvenyek"
+    },
+    {
       "type": "program",
       "id": "united-hungarian-societies-cleveland-nut-roll-sale-bejglivásár-2026-11-02",
       "label": "Nut Roll Sale / Bejglivásár",
@@ -16882,6 +17404,16 @@
       "meta": "Ausztria",
       "href": "countries/at/?q=nyelvtanfolyamok",
       "search": "nyelvtanfolyamok ausztria at"
+    },
+    {
+      "type": "activity",
+      "id": "nyelvvizsgak",
+      "label": "nyelvvizsgák",
+      "country": "ca",
+      "countryLabel": "Kanada",
+      "meta": "Kanada",
+      "href": "countries/ca/?q=nyelvvizsg%C3%A1k",
+      "search": "nyelvvizsgak kanada ca"
     },
     {
       "type": "activity",
@@ -17517,6 +18049,16 @@
       "type": "activity",
       "id": "osztondijak",
       "label": "ösztöndíjak",
+      "country": "ca",
+      "countryLabel": "Kanada",
+      "meta": "Kanada",
+      "href": "countries/ca/?q=%C3%B6szt%C3%B6nd%C3%ADjak",
+      "search": "osztondijak kanada ca"
+    },
+    {
+      "type": "activity",
+      "id": "osztondijak",
+      "label": "ösztöndíjak",
       "country": "us",
       "countryLabel": "Amerikai Egyesült Államok",
       "meta": "Amerikai Egyesült Államok",
@@ -17848,6 +18390,20 @@
     },
     {
       "type": "organization",
+      "id": "petofi-kor-ingolstadt",
+      "label": "Petőfi Kör Magyar Kultúregyesület",
+      "country": "de",
+      "countryLabel": "Germany",
+      "city": "Ingolstadt",
+      "entityType": "Magyar kulturális egyesület",
+      "category": "Hagyományőrzés",
+      "summary": "Az ingolstadti egyesület magyar nyelvi és kulturális programokat szervez a városban és környékén. A hétvégi iskola és óvoda mellett gyerekeknek néptáncot és mesefoglalkozásokat, felnőtteknek kulturális klubesteket kínál.",
+      "meta": "Ingolstadt · Magyar kulturális egyesület",
+      "href": "countries/de/organizations/petofi-kor-ingolstadt.html",
+      "search": "petofi kor magyar kulturegyesulet ingolstadt bayern magyar kulturalis egyesulet az ingolstadti egyesulet magyar nyelvi es kulturalis programokat szervez a varosban es kornyeken. a hetvegi iskola es ovoda mellett gyerekeknek neptancot es mesefoglalkozasokat, felnotteknek kulturalis klubesteket kinal. magyar nyelvoktatas neptanc kulturalis klubestek"
+    },
+    {
+      "type": "organization",
       "subtype": "education",
       "id": "pfarrkindergarten-oberpullendorf-hungarian",
       "label": "Pfarrkindergarten und Kinderkrippe Oberpullendorf – magyar nyelvi ellátással",
@@ -18054,6 +18610,16 @@
     },
     {
       "type": "activity",
+      "id": "probak",
+      "label": "próbák",
+      "country": "de",
+      "countryLabel": "Germany",
+      "meta": "Germany",
+      "href": "countries/de/?q=pr%C3%B3b%C3%A1k",
+      "search": "probak germany de"
+    },
+    {
+      "type": "activity",
       "id": "probak es szinpadi fellepesek",
       "label": "próbák és színpadi fellépések",
       "country": "at",
@@ -18177,6 +18743,20 @@
       "search": "radstadt ausztria at"
     },
     {
+      "type": "organization",
+      "id": "rakoczi-foundation-toronto",
+      "label": "Rákóczi Alapítvány / Rákóczi Foundation of Canada",
+      "country": "ca",
+      "countryLabel": "Kanada",
+      "city": "Toronto",
+      "entityType": "Magyar közösségi alapítvány",
+      "category": "Közösségi szervezet",
+      "summary": "A torontói alapítvány a fiatalok magyar kulturális kötődését oktatási programokkal és ösztöndíjakkal támogatja. Programjai közé tartozik a Students Without Boundaries ifjúsági tábor.",
+      "meta": "Toronto · Magyar közösségi alapítvány",
+      "href": "countries/ca/organizations/rakoczi-foundation-toronto.html",
+      "search": "rakoczi alapitvany / rakoczi foundation of canada toronto ontario magyar kozossegi alapitvany a torontoi alapitvany a fiatalok magyar kulturalis kotodeset oktatasi programokkal es osztondijakkal tamogatja. programjai koze tartozik a students without boundaries ifjusagi tabor. ifjusagi taborok osztondijak magyar orokseg"
+    },
+    {
       "type": "activity",
       "id": "reconnect hungary",
       "label": "ReConnect Hungary",
@@ -18231,6 +18811,40 @@
       "search": "reformatus kozossegi elet hollandia nl"
     },
     {
+      "type": "city",
+      "id": "regensburg",
+      "label": "Regensburg",
+      "country": "de",
+      "countryLabel": "Germany",
+      "meta": "Germany",
+      "href": "countries/de/?city=Regensburg",
+      "search": "regensburg germany de"
+    },
+    {
+      "type": "city",
+      "id": "regina",
+      "label": "Regina",
+      "country": "ca",
+      "countryLabel": "Kanada",
+      "meta": "Kanada",
+      "href": "countries/ca/?city=Regina",
+      "search": "regina kanada ca"
+    },
+    {
+      "type": "organization",
+      "id": "regina-hungarian-cultural-social-club",
+      "label": "Regina Hungarian Cultural & Social Club",
+      "country": "ca",
+      "countryLabel": "Kanada",
+      "city": "Regina",
+      "entityType": "Magyar kulturális klub",
+      "category": "Kultúra",
+      "summary": "A reginai klub a magyar kulturális örökséget ápolja. A helyi multikulturális fesztiválon a Balaton Hungarian pavilon szervezőjeként szerepel.",
+      "meta": "Regina · Magyar kulturális klub",
+      "href": "countries/ca/organizations/regina-hungarian-cultural-social-club.html",
+      "search": "regina hungarian cultural & social club regina saskatchewan magyar kulturalis klub a reginai klub a magyar kulturalis orokseget apolja. a helyi multikulturalis fesztivalon a balaton hungarian pavilon szervezojekent szerepel. magyar orokseg kozossegi fesztival"
+    },
+    {
       "type": "activity",
       "id": "regionalis es tudomanyos kutatasi szolgaltatas",
       "label": "regionális és tudományos kutatási szolgáltatás",
@@ -18279,6 +18893,20 @@
       "meta": "Ausztria",
       "href": "countries/at/?q=reg%C5%91s%20%C3%A9s%20n%C3%A9phagyom%C3%A1ny%C5%91rz%C5%91%20programok",
       "search": "regos es nephagyomanyorzo programok ausztria at"
+    },
+    {
+      "type": "organization",
+      "id": "regos-neptanc-munchen",
+      "label": "Regös Magyar Néptánc Egyesület",
+      "country": "de",
+      "countryLabel": "Germany",
+      "city": "München",
+      "entityType": "Magyar néptáncegyesület",
+      "category": "Hagyományőrzés",
+      "summary": "A müncheni Regös együttes magyar és erdélyi néptáncokat ad elő. Az egyesület próbákat és fellépéseket szervez, és a magyar tánchagyományt helyi programokon mutatja be.",
+      "meta": "München · Magyar néptáncegyesület",
+      "href": "countries/de/organizations/regos-neptanc-munchen.html",
+      "search": "regos magyar neptanc egyesulet munchen bayern magyar neptancegyesulet a muncheni regos egyuttes magyar es erdelyi neptancokat ad elo. az egyesulet probakat es fellepeseket szervez, es a magyar tanchagyomanyt helyi programokon mutatja be. neptanc fellepesek probak"
     },
     {
       "type": "program",
@@ -18463,6 +19091,20 @@
       "meta": "2026-12-04T19:00:00+01:00 · Nickelsdorf · Evangelisches Pfarramt Nickelsdorf",
       "href": "countries/at/events/vhs-burgenland-revolution-in-ungarn-1956-grenze-2026-12-04t19-00-01-00.html",
       "search": "revolution in ungarn 1956. ereignisse an der grenze nickelsdorf evangelisches pfarramt nickelsdorf vhs der volksgruppen peter limbeck eloadasa az 1956-os magyar forradalom hatar menti esemenyeirol."
+    },
+    {
+      "type": "organization",
+      "id": "rezeda-neptanccsoport-frankfurt",
+      "label": "Rezeda Néptánccsoport",
+      "country": "de",
+      "countryLabel": "Germany",
+      "city": "Frankfurt am Main",
+      "entityType": "Magyar néptáncegyüttes",
+      "category": "Hagyományőrzés",
+      "summary": "A frankfurti Rezeda magyar néptáncot mutat be. A csoport fellépésekkel és táncos közösségi programokkal kapcsolódik Frankfurt magyar kulturális életéhez.",
+      "meta": "Frankfurt am Main · Magyar néptáncegyüttes",
+      "href": "countries/de/organizations/rezeda-neptanccsoport-frankfurt.html",
+      "search": "rezeda neptanccsoport frankfurt am main hessen magyar neptancegyuttes a frankfurti rezeda magyar neptancot mutat be. a csoport fellepesekkel es tancos kozossegi programokkal kapcsolodik frankfurt magyar kulturalis eletehez. neptanc fellepesek hagyomanyorzes"
     },
     {
       "type": "organization",
@@ -20122,6 +20764,16 @@
       "type": "activity",
       "id": "taborok",
       "label": "táborok",
+      "country": "de",
+      "countryLabel": "Germany",
+      "meta": "Germany",
+      "href": "countries/de/?q=t%C3%A1borok",
+      "search": "taborok germany de"
+    },
+    {
+      "type": "activity",
+      "id": "taborok",
+      "label": "táborok",
       "country": "nl",
       "countryLabel": "Hollandia",
       "meta": "Hollandia",
@@ -20177,6 +20829,16 @@
       "meta": "Ausztria",
       "href": "countries/at/?q=t%C3%A1borok%20%C3%A9s%20k%C3%B6z%C3%B6ss%C3%A9gi%20programok",
       "search": "taborok es kozossegi programok ausztria at"
+    },
+    {
+      "type": "activity",
+      "id": "taboroztatas",
+      "label": "táboroztatás",
+      "country": "de",
+      "countryLabel": "Germany",
+      "meta": "Germany",
+      "href": "countries/de/?q=t%C3%A1boroztat%C3%A1s",
+      "search": "taboroztatas germany de"
     },
     {
       "type": "activity",
@@ -20360,6 +21022,16 @@
       "meta": "Belgium",
       "href": "countries/be/?q=t%C3%A1nch%C3%A1z",
       "search": "tanchaz belgium be"
+    },
+    {
+      "type": "activity",
+      "id": "tanchaz",
+      "label": "táncház",
+      "country": "de",
+      "countryLabel": "Germany",
+      "meta": "Germany",
+      "href": "countries/de/?q=t%C3%A1nch%C3%A1z",
+      "search": "tanchaz germany de"
     },
     {
       "type": "activity",
@@ -20873,6 +21545,16 @@
       "meta": "Belgium",
       "href": "countries/be/?q=tudom%C3%A1nyos%20rendezv%C3%A9nyek",
       "search": "tudomanyos rendezvenyek belgium be"
+    },
+    {
+      "type": "activity",
+      "id": "tudomanyos rendezvenyek",
+      "label": "tudományos rendezvények",
+      "country": "de",
+      "countryLabel": "Germany",
+      "meta": "Germany",
+      "href": "countries/de/?q=tudom%C3%A1nyos%20rendezv%C3%A9nyek",
+      "search": "tudomanyos rendezvenyek germany de"
     },
     {
       "type": "organization",
@@ -21594,6 +22276,20 @@
       "ready": false,
       "researchStatus": "researching",
       "search": "vietnam vn vnm vietnam socialist republic of viet nam"
+    },
+    {
+      "type": "organization",
+      "id": "vigadalom-neptancegyuttes-toronto",
+      "label": "VIGaDALOM Néptáncegyüttes",
+      "country": "ca",
+      "countryLabel": "Kanada",
+      "city": "Toronto",
+      "entityType": "Magyar néptánccsoport",
+      "category": "Hagyományőrzés",
+      "summary": "A torontói csoport magyar néptáncot tanít felnőtteknek különböző tudásszinteken. A foglalkozások a táncot, a zenét és a közösségi együttlétet kapcsolják össze.",
+      "meta": "Toronto · Magyar néptánccsoport",
+      "href": "countries/ca/organizations/vigadalom-neptancegyuttes-toronto.html",
+      "search": "vigadalom neptancegyuttes toronto ontario magyar neptanccsoport a torontoi csoport magyar neptancot tanit felnotteknek kulonbozo tudasszinteken. a foglalkozasok a tancot, a zenet es a kozossegi egyuttletet kapcsoljak ossze. neptanc felnott kozossegi foglalkozasok"
     },
     {
       "type": "activity",
@@ -22476,6 +23172,16 @@
       "meta": "Hollandia",
       "href": "countries/nl/?city=Wassenaar",
       "search": "wassenaar hollandia nl"
+    },
+    {
+      "type": "city",
+      "id": "welland",
+      "label": "Welland",
+      "country": "ca",
+      "countryLabel": "Kanada",
+      "meta": "Kanada",
+      "href": "countries/ca/?city=Welland",
+      "search": "welland kanada ca"
     },
     {
       "type": "city",
