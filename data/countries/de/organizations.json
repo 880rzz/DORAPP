@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-15",
+  "updated": "2026-11-27",
   "sourcePolicy": "Official organizational website and Hungarian consular documentation; verify press and social links separately.",
   "organizations": [
     {
@@ -46,6 +46,501 @@
       "pressMentions": [],
       "socialProfiles": [],
       "scope": "national"
+    },
+    {
+      "id": "petofi-kor-ingolstadt",
+      "name": "Petőfi Kör Magyar Kultúregyesület",
+      "country": "de",
+      "region": "Bayern",
+      "city": "Ingolstadt",
+      "type": "Magyar kulturális egyesület",
+      "entityClass": "organization",
+      "intro": "Az ingolstadti egyesület magyar nyelvi és kulturális programokat szervez a városban és környékén. A hétvégi iskola és óvoda mellett gyerekeknek néptáncot és mesefoglalkozásokat, felnőtteknek kulturális klubesteket kínál.",
+      "activities": [
+        "magyar nyelvoktatás",
+        "néptánc",
+        "kulturális klubestek"
+      ],
+      "profileVerifiedAt": "2026-11-27",
+      "evidenceSources": [
+        {
+          "label": "Hivatalos szervezői oldal",
+          "url": "https://www.petofi-ingolstadt.de/rolunk",
+          "type": "official"
+        },
+        {
+          "label": "BUOD – hivatalos tagszervezeti jegyzék",
+          "url": "https://buod.de/buod-tagszervezetek/",
+          "type": "institutional"
+        },
+        {
+          "label": "Ingolstadti közösségi ház – szervezői adatlap",
+          "url": "https://buergerhaus-ingolstadt.de/Organizer.aspx?MID=7&ORG=5160",
+          "type": "institutional"
+        }
+      ],
+      "calendarSources": [],
+      "website": "https://www.petofi-ingolstadt.de/rolunk",
+      "memberships": [
+        {
+          "umbrellaId": "buod",
+          "umbrellaName": "Németországi Magyar Szervezetek Szövetsége",
+          "sourceUrl": "https://buod.de/buod-tagszervezetek/"
+        }
+      ]
+    },
+    {
+      "id": "manyoki-adam-kulturegyesulet-drezda",
+      "name": "Mányoki Ádám Német–Magyar Kultúregyesület",
+      "country": "de",
+      "region": "Sachsen",
+      "city": "Dresden",
+      "type": "Magyar kulturális egyesület",
+      "entityClass": "organization",
+      "intro": "A drezdai egyesület magyar kulturális programokat szervez. Honlapján közösségi találkozókat, koncerteket és családi eseményeket is közzétesz.",
+      "activities": [
+        "koncertek",
+        "családi programok",
+        "közösségi rendezvények"
+      ],
+      "profileVerifiedAt": "2026-11-27",
+      "evidenceSources": [
+        {
+          "label": "Hivatalos szervezői oldal",
+          "url": "https://manyoki.de/",
+          "type": "official"
+        },
+        {
+          "label": "BUOD – hivatalos tagszervezeti jegyzék",
+          "url": "https://buod.de/buod-tagszervezetek/",
+          "type": "institutional"
+        }
+      ],
+      "calendarSources": [
+        {
+          "label": "A szervezet nyilvános programoldala",
+          "url": "https://manyoki.de/",
+          "kind": "official-news-events",
+          "scope": "self",
+          "ingestEvents": false
+        }
+      ],
+      "website": "https://manyoki.de/",
+      "memberships": [
+        {
+          "umbrellaId": "buod",
+          "umbrellaName": "Németországi Magyar Szervezetek Szövetsége",
+          "sourceUrl": "https://buod.de/buod-tagszervezetek/"
+        }
+      ]
+    },
+    {
+      "id": "91-kanyadi-sandor-cserkeszcsapat-drezda",
+      "name": "91. sz. Kányádi Sándor Cserkészcsapat",
+      "country": "de",
+      "region": "Sachsen",
+      "city": "Dresden",
+      "type": "Magyar cserkészcsapat",
+      "entityClass": "organization",
+      "intro": "A drezdai magyar cserkészcsapat találkozókat és táborokat szervez. Saját honlapján programokat és a csapat életéről szóló beszámolókat tesz közzé.",
+      "activities": [
+        "cserkészet",
+        "táborok",
+        "közösségi találkozók"
+      ],
+      "profileVerifiedAt": "2026-11-27",
+      "evidenceSources": [
+        {
+          "label": "Hivatalos szervezői oldal",
+          "url": "https://drezda.cserkesz.eu/",
+          "type": "official"
+        },
+        {
+          "label": "BUOD – hivatalos tagszervezeti jegyzék",
+          "url": "https://buod.de/buod-tagszervezetek/",
+          "type": "institutional"
+        }
+      ],
+      "calendarSources": [
+        {
+          "label": "A szervezet nyilvános programoldala",
+          "url": "https://drezda.cserkesz.eu/",
+          "kind": "official-news-events",
+          "scope": "self",
+          "ingestEvents": false
+        }
+      ],
+      "website": "https://drezda.cserkesz.eu/",
+      "memberships": [
+        {
+          "umbrellaId": "buod",
+          "umbrellaName": "Németországi Magyar Szervezetek Szövetsége",
+          "sourceUrl": "https://buod.de/buod-tagszervezetek/"
+        }
+      ]
+    },
+    {
+      "id": "brunszvik-terez-tarsasag-berlin",
+      "name": "Brunszvik Teréz Társaság / Brunszvik e.V.",
+      "country": "de",
+      "region": "Berlin",
+      "city": "Berlin",
+      "type": "Magyar családi és kulturális egyesület",
+      "entityClass": "organization",
+      "intro": "A berlini egyesület magyarul beszélő családokat kapcsol össze. Magyar nyelvű óvodai foglalkozásokat és hétvégi iskolát szervez.",
+      "activities": [
+        "családi közösség",
+        "magyar óvodai foglalkozások",
+        "hétvégi magyar iskola"
+      ],
+      "profileVerifiedAt": "2026-11-27",
+      "evidenceSources": [
+        {
+          "label": "Hivatalos szervezői oldal",
+          "url": "https://brunszvik.de/egyesulet/",
+          "type": "official"
+        },
+        {
+          "label": "BUOD – hivatalos tagszervezeti jegyzék",
+          "url": "https://buod.de/buod-tagszervezetek/",
+          "type": "institutional"
+        },
+        {
+          "label": "Brunszvik e.V. – magyar iskola",
+          "url": "https://brunszvik.de/iskola/",
+          "type": "official"
+        }
+      ],
+      "calendarSources": [],
+      "website": "https://brunszvik.de/egyesulet/",
+      "memberships": [
+        {
+          "umbrellaId": "buod",
+          "umbrellaName": "Németországi Magyar Szervezetek Szövetsége",
+          "sourceUrl": "https://buod.de/buod-tagszervezetek/"
+        }
+      ]
+    },
+    {
+      "id": "hamburgi-magyarok-egyesulete",
+      "name": "Hamburgi Magyarok Egyesülete / Vereinigung der Hamburger Ungarn e.V.",
+      "country": "de",
+      "region": "Hamburg",
+      "city": "Hamburg",
+      "type": "Magyar kulturális egyesület",
+      "entityClass": "organization",
+      "intro": "Az egyesület a hamburgi és északnémetországi magyar közösség nyelvi és kulturális életét támogatja. Hétvégi iskolát és közösségi programokat mutat be, köztük táncházakat, koncerteket és ünnepi rendezvényeket.",
+      "activities": [
+        "magyar iskola",
+        "táncház",
+        "közösségi rendezvények"
+      ],
+      "profileVerifiedAt": "2026-11-27",
+      "evidenceSources": [
+        {
+          "label": "Hivatalos szervezői oldal",
+          "url": "https://hamburgi-magyarok-ev.de/",
+          "type": "official"
+        },
+        {
+          "label": "BUOD – hivatalos tagszervezeti jegyzék",
+          "url": "https://buod.de/buod-tagszervezetek/",
+          "type": "institutional"
+        }
+      ],
+      "calendarSources": [
+        {
+          "label": "A szervezet nyilvános programoldala",
+          "url": "https://hamburgi-magyarok-ev.de/",
+          "kind": "official-news-events",
+          "scope": "self",
+          "ingestEvents": false
+        }
+      ],
+      "website": "https://hamburgi-magyarok-ev.de/",
+      "memberships": [
+        {
+          "umbrellaId": "buod",
+          "umbrellaName": "Németországi Magyar Szervezetek Szövetsége",
+          "sourceUrl": "https://buod.de/buod-tagszervezetek/"
+        }
+      ]
+    },
+    {
+      "id": "berlini-magyar-protestans-gyulekezet",
+      "name": "Berlini Magyar Protestáns Gyülekezet",
+      "country": "de",
+      "region": "Berlin",
+      "city": "Berlin",
+      "type": "Magyar egyházi közösség",
+      "entityClass": "organization",
+      "intro": "A berlini protestáns gyülekezet magyar nyelvű egyházi közösség. Saját felületein a gyülekezetről és a kapcsolódási lehetőségről ad tájékoztatást.",
+      "activities": [
+        "magyar nyelvű gyülekezeti élet"
+      ],
+      "profileVerifiedAt": "2026-11-27",
+      "evidenceSources": [
+        {
+          "label": "Hivatalos szervezői oldal",
+          "url": "https://berlini-magyar-protestans.de/kontakt",
+          "type": "official"
+        },
+        {
+          "label": "Gyülekezeti bemutatkozás",
+          "url": "https://berlin.lutheran.hu/gyulekezetunkrol",
+          "type": "official"
+        }
+      ],
+      "calendarSources": [],
+      "website": "https://berlini-magyar-protestans.de/kontakt"
+    },
+    {
+      "id": "muncheni-magyar-intezet-egyesulet",
+      "name": "Müncheni Magyar Intézet Egyesület / Ungarisches Institut München e.V.",
+      "country": "de",
+      "region": "Bayern",
+      "city": "Regensburg",
+      "type": "Magyar tudományos és kulturális egyesület",
+      "entityClass": "organization",
+      "intro": "A regensburgi intézet magyar témájú tudományos és kulturális munkát végez. Kutatással, kiadványokkal, rendezvényekkel és magyar nyelvoktatással foglalkozik.",
+      "activities": [
+        "hungarológia",
+        "kiadványok",
+        "magyar nyelvoktatás",
+        "tudományos rendezvények"
+      ],
+      "profileVerifiedAt": "2026-11-27",
+      "evidenceSources": [
+        {
+          "label": "Hivatalos szervezői oldal",
+          "url": "https://www.ungarisches-institut.de/",
+          "type": "official"
+        },
+        {
+          "label": "Müncheni Főkonzulátus – konzuli magyar nyelvoktatás",
+          "url": "https://munchen.mfa.gov.hu/hu/magyar_anyanyelvi_oktatas",
+          "type": "government"
+        }
+      ],
+      "calendarSources": [
+        {
+          "label": "A szervezet nyilvános programoldala",
+          "url": "https://www.ungarisches-institut.de/",
+          "kind": "official-news-events",
+          "scope": "self",
+          "ingestEvents": false
+        }
+      ],
+      "website": "https://www.ungarisches-institut.de/"
+    },
+    {
+      "id": "regos-neptanc-munchen",
+      "name": "Regös Magyar Néptánc Egyesület",
+      "country": "de",
+      "region": "Bayern",
+      "city": "München",
+      "type": "Magyar néptáncegyesület",
+      "entityClass": "organization",
+      "intro": "A müncheni Regös együttes magyar és erdélyi néptáncokat ad elő. Az egyesület próbákat és fellépéseket szervez, és a magyar tánchagyományt helyi programokon mutatja be.",
+      "activities": [
+        "néptánc",
+        "fellépések",
+        "próbák"
+      ],
+      "profileVerifiedAt": "2026-11-27",
+      "evidenceSources": [
+        {
+          "label": "Hivatalos szervezői oldal",
+          "url": "https://www.regoes.de/",
+          "type": "official"
+        },
+        {
+          "label": "BUOD – hivatalos tagszervezeti jegyzék",
+          "url": "https://buod.de/buod-tagszervezetek/",
+          "type": "institutional"
+        }
+      ],
+      "calendarSources": [
+        {
+          "label": "A szervezet nyilvános programoldala",
+          "url": "https://www.regoes.de/",
+          "kind": "official-news-events",
+          "scope": "self",
+          "ingestEvents": false
+        }
+      ],
+      "website": "https://www.regoes.de/",
+      "memberships": [
+        {
+          "umbrellaId": "buod",
+          "umbrellaName": "Németországi Magyar Szervezetek Szövetsége",
+          "sourceUrl": "https://buod.de/buod-tagszervezetek/"
+        }
+      ]
+    },
+    {
+      "id": "nurnbergi-magyar-kulturegyesulet",
+      "name": "Nürnbergi Magyar Kultúregyesület / Ungarischer Kulturverein Nürnberg e.V.",
+      "country": "de",
+      "region": "Bayern",
+      "city": "Nürnberg",
+      "type": "Magyar kulturális egyesület",
+      "entityClass": "organization",
+      "intro": "A nürnbergi egyesület gyerekfoglalkozásokat és felnőtteknek szóló klubokat működtet. Hozzá kapcsolódnak többek között citerás, színjátszó és néptáncos csoportok.",
+      "activities": [
+        "magyar gyerekfoglalkozások",
+        "klubestek",
+        "néptánc",
+        "közösségi rendezvények"
+      ],
+      "profileVerifiedAt": "2026-11-27",
+      "evidenceSources": [
+        {
+          "label": "Hivatalos szervezői oldal",
+          "url": "https://www.ungarninnuernberg.de/",
+          "type": "official"
+        },
+        {
+          "label": "BUOD – hivatalos tagszervezeti jegyzék",
+          "url": "https://buod.de/buod-tagszervezetek/",
+          "type": "institutional"
+        }
+      ],
+      "calendarSources": [
+        {
+          "label": "A szervezet nyilvános programoldala",
+          "url": "https://www.ungarninnuernberg.de/",
+          "kind": "official-news-events",
+          "scope": "self",
+          "ingestEvents": false
+        }
+      ],
+      "website": "https://www.ungarninnuernberg.de/",
+      "memberships": [
+        {
+          "umbrellaId": "buod",
+          "umbrellaName": "Németországi Magyar Szervezetek Szövetsége",
+          "sourceUrl": "https://buod.de/buod-tagszervezetek/"
+        }
+      ]
+    },
+    {
+      "id": "90-ajtosi-durer-cserkeszcsapat-nurnberg",
+      "name": "90. sz. Ajtósi Dürer Cserkészcsapat",
+      "country": "de",
+      "region": "Bayern",
+      "city": "Nürnberg",
+      "type": "Magyar cserkészcsapat",
+      "entityClass": "organization",
+      "intro": "A nürnbergi magyar cserkészcsapat foglalkozásokat, kirándulásokat és táborokat szervez. Programjaiban a cserkészismeret mellett a magyar nyelv és kultúra is szerepet kap.",
+      "activities": [
+        "cserkészet",
+        "kirándulások",
+        "táborok"
+      ],
+      "profileVerifiedAt": "2026-11-27",
+      "evidenceSources": [
+        {
+          "label": "Hivatalos szervezői oldal",
+          "url": "https://nurnberg.cserkesz.eu/",
+          "type": "official"
+        },
+        {
+          "label": "BUOD – hivatalos tagszervezeti jegyzék",
+          "url": "https://buod.de/buod-tagszervezetek/",
+          "type": "institutional"
+        }
+      ],
+      "calendarSources": [
+        {
+          "label": "A szervezet nyilvános programoldala",
+          "url": "https://nurnberg.cserkesz.eu/",
+          "kind": "official-news-events",
+          "scope": "self",
+          "ingestEvents": false
+        }
+      ],
+      "website": "https://nurnberg.cserkesz.eu/",
+      "memberships": [
+        {
+          "umbrellaId": "buod",
+          "umbrellaName": "Németországi Magyar Szervezetek Szövetsége",
+          "sourceUrl": "https://buod.de/buod-tagszervezetek/"
+        }
+      ]
+    },
+    {
+      "id": "magyar-cserkeszpark-egyesulet-kastl",
+      "name": "Magyar Cserkészpark Egyesület / Pfadfinderpark Kastl",
+      "country": "de",
+      "region": "Bayern",
+      "city": "Kastl",
+      "type": "Magyar cserkészparkot működtető egyesület",
+      "entityClass": "organization",
+      "intro": "A kastli Magyar Cserkészpark a Mennersbergen működik. A park csoportok táborait és szabadidős rendezvényeit fogadja.",
+      "activities": [
+        "cserkészet",
+        "táboroztatás"
+      ],
+      "profileVerifiedAt": "2026-11-27",
+      "evidenceSources": [
+        {
+          "label": "Hivatalos szervezői oldal",
+          "url": "https://www.pfadfinderpark.de/",
+          "type": "official"
+        },
+        {
+          "label": "BUOD – hivatalos tagszervezeti jegyzék",
+          "url": "https://buod.de/buod-tagszervezetek/",
+          "type": "institutional"
+        }
+      ],
+      "calendarSources": [],
+      "website": "https://www.pfadfinderpark.de/",
+      "memberships": [
+        {
+          "umbrellaId": "buod",
+          "umbrellaName": "Németországi Magyar Szervezetek Szövetsége",
+          "sourceUrl": "https://buod.de/buod-tagszervezetek/"
+        }
+      ]
+    },
+    {
+      "id": "rezeda-neptanccsoport-frankfurt",
+      "name": "Rezeda Néptánccsoport",
+      "country": "de",
+      "region": "Hessen",
+      "city": "Frankfurt am Main",
+      "type": "Magyar néptáncegyüttes",
+      "entityClass": "organization",
+      "intro": "A frankfurti Rezeda magyar néptáncot mutat be. A csoport fellépésekkel és táncos közösségi programokkal kapcsolódik Frankfurt magyar kulturális életéhez.",
+      "activities": [
+        "néptánc",
+        "fellépések",
+        "hagyományőrzés"
+      ],
+      "profileVerifiedAt": "2026-11-27",
+      "evidenceSources": [
+        {
+          "label": "Hivatalos szervezői oldal",
+          "url": "https://www.rezeda.de/",
+          "type": "official"
+        },
+        {
+          "label": "BUOD – hivatalos tagszervezeti jegyzék",
+          "url": "https://buod.de/buod-tagszervezetek/",
+          "type": "institutional"
+        }
+      ],
+      "calendarSources": [],
+      "website": "https://www.rezeda.de/",
+      "memberships": [
+        {
+          "umbrellaId": "buod",
+          "umbrellaName": "Németországi Magyar Szervezetek Szövetsége",
+          "sourceUrl": "https://buod.de/buod-tagszervezetek/"
+        }
+      ]
     }
   ]
 }

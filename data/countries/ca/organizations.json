@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-01",
+  "updated": "2026-11-27",
   "sourcePolicy": "Canada country dataset. First-party organization, Hungarian diplomatic, Canadian government, current umbrella and institutional sources are preferred. Historical directory entries remain discovery-only until current identity is verified.",
   "organizations": [
     {
@@ -999,6 +999,250 @@
         }
       ],
       "calendarSources": []
+    },
+    {
+      "id": "rakoczi-foundation-toronto",
+      "name": "Rákóczi Alapítvány / Rákóczi Foundation of Canada",
+      "country": "ca",
+      "region": "Ontario",
+      "city": "Toronto",
+      "type": "Magyar közösségi alapítvány",
+      "entityClass": "organization",
+      "intro": "A torontói alapítvány a fiatalok magyar kulturális kötődését oktatási programokkal és ösztöndíjakkal támogatja. Programjai közé tartozik a Students Without Boundaries ifjúsági tábor.",
+      "activities": [
+        "ifjúsági táborok",
+        "ösztöndíjak",
+        "magyar örökség"
+      ],
+      "profileVerifiedAt": "2026-11-27",
+      "evidenceSources": [
+        {
+          "label": "Hivatalos szervezői oldal",
+          "url": "https://rakoczi.ca/",
+          "type": "official"
+        },
+        {
+          "label": "Magyarország Torontói Főkonzulátusa – magyar szervezetek",
+          "url": "https://toronto.mfa.gov.hu/hu/tor_hmsz",
+          "type": "government"
+        },
+        {
+          "label": "Torontói Magyar Ház – tagszervezetek",
+          "url": "https://hccc.org/en/member-associations/",
+          "type": "institutional"
+        },
+        {
+          "label": "Az alapítvány programjai",
+          "url": "https://rakoczi.ca/our-programs/",
+          "type": "official"
+        }
+      ],
+      "calendarSources": [
+        {
+          "label": "A szervezet nyilvános programoldala",
+          "url": "https://rakoczi.ca/",
+          "kind": "official-news-events",
+          "scope": "self",
+          "ingestEvents": false
+        }
+      ],
+      "website": "https://rakoczi.ca/",
+      "memberships": [
+        {
+          "umbrellaId": "hungarian-canadian-cultural-centre-toronto",
+          "umbrellaName": "Torontói Magyar Ház",
+          "sourceUrl": "https://hccc.org/en/member-associations/"
+        }
+      ]
+    },
+    {
+      "id": "magyar-helikon-tarsasag-toronto",
+      "name": "Magyar Helikon Társaság / Hungarian Helicon Society",
+      "country": "ca",
+      "region": "Ontario",
+      "city": "Toronto",
+      "type": "Magyar kulturális egyesület",
+      "entityClass": "organization",
+      "intro": "A torontói társaság magyar nyelvi és kulturális oktatást támogat. Tevékenységei közé tartozik a felnőttek nyelvoktatása, a nyelvvizsga és az ösztöndíjak támogatása.",
+      "activities": [
+        "magyar nyelvoktatás",
+        "nyelvvizsgák",
+        "ösztöndíjak"
+      ],
+      "profileVerifiedAt": "2026-11-27",
+      "evidenceSources": [
+        {
+          "label": "Hivatalos szervezői oldal",
+          "url": "https://www.heliconsociety.com/html/about_us.html",
+          "type": "official"
+        },
+        {
+          "label": "Magyarország Torontói Főkonzulátusa – magyar szervezetek",
+          "url": "https://toronto.mfa.gov.hu/hu/tor_hmsz",
+          "type": "government"
+        },
+        {
+          "label": "Torontói Magyar Ház – tagszervezetek",
+          "url": "https://hccc.org/en/member-associations/",
+          "type": "institutional"
+        }
+      ],
+      "calendarSources": [],
+      "website": "https://www.heliconsociety.com/html/about_us.html",
+      "memberships": [
+        {
+          "umbrellaId": "hungarian-canadian-cultural-centre-toronto",
+          "umbrellaName": "Torontói Magyar Ház",
+          "sourceUrl": "https://hccc.org/en/member-associations/"
+        }
+      ]
+    },
+    {
+      "id": "hungarian-self-culture-society-welland",
+      "name": "Hungarian Self Culture Society of Welland / Welland Hungarian Hall",
+      "country": "ca",
+      "region": "Ontario",
+      "city": "Welland",
+      "type": "Magyar kulturális egyesület",
+      "entityClass": "organization",
+      "intro": "A wellandi egyesület a magyar kulturális örökség ápolására jött létre. A Welland Hungarian Hall közösségi találkozóknak és rendezvényeknek ad helyet.",
+      "activities": [
+        "magyar örökség",
+        "közösségi rendezvények"
+      ],
+      "profileVerifiedAt": "2026-11-27",
+      "evidenceSources": [
+        {
+          "label": "Hivatalos szervezői oldal",
+          "url": "https://www.hungarianhall.ca/",
+          "type": "official"
+        }
+      ],
+      "calendarSources": [
+        {
+          "label": "A szervezet nyilvános programoldala",
+          "url": "https://www.hungarianhall.ca/",
+          "kind": "official-news-events",
+          "scope": "self",
+          "ingestEvents": false
+        }
+      ],
+      "website": "https://www.hungarianhall.ca/"
+    },
+    {
+      "id": "brantford-hungarian-cultural-club",
+      "name": "Brantford Hungarian Canadian Cultural Club",
+      "country": "ca",
+      "region": "Ontario",
+      "city": "Brantford",
+      "type": "Magyar kulturális klub",
+      "entityClass": "organization",
+      "intro": "A brantfordi magyar kulturális klub a helyi közösség magyar örökségét ápolja. A klub bemutatkozása a néptánccsoport munkáját és a városi fesztiválon való részvételt is dokumentálja.",
+      "activities": [
+        "néptánc",
+        "helyi kulturális rendezvények"
+      ],
+      "profileVerifiedAt": "2026-11-27",
+      "evidenceSources": [
+        {
+          "label": "Hivatalos szervezői oldal",
+          "url": "https://brantfordhungarian.wixsite.com/hungarianhall",
+          "type": "official"
+        }
+      ],
+      "calendarSources": [],
+      "website": "https://brantfordhungarian.wixsite.com/hungarianhall"
+    },
+    {
+      "id": "vigadalom-neptancegyuttes-toronto",
+      "name": "VIGaDALOM Néptáncegyüttes",
+      "country": "ca",
+      "region": "Ontario",
+      "city": "Toronto",
+      "type": "Magyar néptánccsoport",
+      "entityClass": "organization",
+      "intro": "A torontói csoport magyar néptáncot tanít felnőtteknek különböző tudásszinteken. A foglalkozások a táncot, a zenét és a közösségi együttlétet kapcsolják össze.",
+      "activities": [
+        "néptánc",
+        "felnőtt közösségi foglalkozások"
+      ],
+      "profileVerifiedAt": "2026-11-27",
+      "evidenceSources": [
+        {
+          "label": "Hivatalos szervezői oldal",
+          "url": "https://www.vigadalom.com/",
+          "type": "official"
+        },
+        {
+          "label": "Hungarian Folklife Association – szakmai címtár",
+          "url": "https://hungarianfolklife.org/directory/",
+          "type": "institutional"
+        }
+      ],
+      "calendarSources": [],
+      "website": "https://www.vigadalom.com/"
+    },
+    {
+      "id": "regina-hungarian-cultural-social-club",
+      "name": "Regina Hungarian Cultural & Social Club",
+      "country": "ca",
+      "region": "Saskatchewan",
+      "city": "Regina",
+      "type": "Magyar kulturális klub",
+      "entityClass": "organization",
+      "intro": "A reginai klub a magyar kulturális örökséget ápolja. A helyi multikulturális fesztiválon a Balaton Hungarian pavilon szervezőjeként szerepel.",
+      "activities": [
+        "magyar örökség",
+        "közösségi fesztivál"
+      ],
+      "profileVerifiedAt": "2026-11-27",
+      "evidenceSources": [
+        {
+          "label": "Mosaic — a Balaton Hungarian pavilon hivatalos szervezői adatlapja",
+          "url": "https://www.reginamosaic.ca/pavilions/balaton-hungarian",
+          "type": "official"
+        },
+        {
+          "label": "Regina Multicultural Council – tagszervezetek",
+          "url": "https://www.reginamulticulturalcouncil.ca/about/member-groups",
+          "type": "institutional"
+        }
+      ],
+      "calendarSources": []
+    },
+    {
+      "id": "hungaria-social-club-montreal",
+      "name": "Hungária Társadalmi Klub / Hungaria Social Club",
+      "country": "ca",
+      "region": "Québec",
+      "city": "Montréal",
+      "type": "Magyar közösségi klub",
+      "entityClass": "organization",
+      "intro": "A montreáli magyar közösségi klub a főkonzulátus helyi szervezeti jegyzékében szerepel. A Kanadai Magyarok Országos Szövetsége saját tagszervezetei között tartja nyilván.",
+      "activities": [
+        "magyar közösségi kapcsolatok"
+      ],
+      "profileVerifiedAt": "2026-11-27",
+      "evidenceSources": [
+        {
+          "label": "Magyarország Montreáli Főkonzulátusa – québeci magyar szervezetek",
+          "url": "https://montreal.mfa.gov.hu/en/hungarian-organizations-in-quebec-province",
+          "type": "government"
+        },
+        {
+          "label": "NAHC / KMOSZ – hivatalos tagszervezeti jegyzék",
+          "url": "https://kmosz-nahc.ca/en/membership/",
+          "type": "institutional"
+        }
+      ],
+      "calendarSources": [],
+      "memberships": [
+        {
+          "umbrellaId": "nahc-kmosz",
+          "umbrellaName": "Kanadai Magyarok Országos Szövetsége",
+          "sourceUrl": "https://kmosz-nahc.ca/en/membership/"
+        }
+      ]
     }
   ]
 }
