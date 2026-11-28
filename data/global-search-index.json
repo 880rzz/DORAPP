@@ -5,7 +5,7 @@
     "verified-zero"
   ],
   "generatedFrom": "data/global.json + reviewed country datasets",
-  "count": 2132,
+  "count": 2169,
   "items": [
     {
       "type": "organization",
@@ -1386,6 +1386,20 @@
     },
     {
       "type": "organization",
+      "id": "st-elizabeth-hungary-parish-calgary",
+      "label": "Árpádházi Szent Erzsébet Plébánia, Calgary",
+      "country": "ca",
+      "countryLabel": "Kanada",
+      "city": "Calgary",
+      "entityType": "Magyar katolikus plébánia",
+      "category": "Közösségi szervezet",
+      "summary": "A calgaryi katolikus plébánia magyar és angol nyelvű szentmiséket tart. A honlapján a miserend mellett közösségi összejövetelekről is tájékoztat.",
+      "meta": "Calgary · Magyar katolikus plébánia",
+      "href": "countries/ca/organizations/st-elizabeth-hungary-parish-calgary.html",
+      "search": "arpadhazi szent erzsebet plebania, calgary calgary alberta magyar katolikus plebania a calgaryi katolikus plebania magyar es angol nyelvu szentmiseket tart. a honlapjan a miserend mellett kozossegi osszejovetelekrol is tajekoztat. ketnyelvu szentmisek kozossegi osszejovetelek"
+    },
+    {
+      "type": "organization",
       "id": "arpadhon-hungarian-settlement-cultural-association",
       "label": "Arpadhon Hungarian Settlement Cultural Association",
       "country": "us",
@@ -1793,6 +1807,20 @@
       "meta": "Ausztria",
       "href": "countries/at/?city=Baden",
       "search": "baden ausztria at"
+    },
+    {
+      "type": "organization",
+      "id": "baden-wurttembergi-konzuli-magyar-iskola",
+      "label": "Baden-Württembergi Konzuli Magyar Iskola és Óvoda",
+      "country": "de",
+      "countryLabel": "Germany",
+      "city": "Stuttgart",
+      "entityType": "Magyar hétvégi iskolahálózat",
+      "category": "Oktatás",
+      "summary": "Az iskolahálózat Baden-Württemberg több településén kínál kiegészítő magyar nyelvi és kulturális oktatást. Egyes helyszíneken óvodáskorú gyermekeknek is szervez foglalkozásokat.",
+      "meta": "Stuttgart · Magyar hétvégi iskolahálózat",
+      "href": "countries/de/organizations/baden-wurttembergi-konzuli-magyar-iskola.html",
+      "search": "baden-wurttembergi konzuli magyar iskola es ovoda stuttgart baden-wurttemberg magyar hetvegi iskolahalozat az iskolahalozat baden-wurttemberg tobb telepulesen kinal kiegeszito magyar nyelvi es kulturalis oktatast. egyes helyszineken ovodaskoru gyermekeknek is szervez foglalkozasokat. magyar nyelvoktatas ovodai foglalkozasok magyar kultura"
     },
     {
       "type": "organization",
@@ -2369,6 +2397,16 @@
       "ready": false,
       "researchStatus": "researching",
       "search": "bermuda bm bmu bermuda"
+    },
+    {
+      "type": "activity",
+      "id": "beszedkultura",
+      "label": "beszédkultúra",
+      "country": "de",
+      "countryLabel": "Germany",
+      "meta": "Germany",
+      "href": "countries/de/?q=besz%C3%A9dkult%C3%BAra",
+      "search": "beszedkultura germany de"
     },
     {
       "type": "program",
@@ -4208,6 +4246,20 @@
     },
     {
       "type": "organization",
+      "id": "csodaszarvas-karlsruhe",
+      "label": "Csodaszarvas Magyar Kulturális Egyesület Karlsruhe",
+      "country": "de",
+      "countryLabel": "Germany",
+      "city": "Karlsruhe",
+      "entityType": "Magyar kulturális egyesület",
+      "category": "Kultúra",
+      "summary": "A karlsruhei egyesület magyar kulturális és közösségi programokat szervez. A honlapján a MANOKA gyermekfoglalkozás, a magyar kórus, a táncház és a filmklub is szerepel.",
+      "meta": "Karlsruhe · Magyar kulturális egyesület",
+      "href": "countries/de/organizations/csodaszarvas-karlsruhe.html",
+      "search": "csodaszarvas magyar kulturalis egyesulet karlsruhe karlsruhe baden-wurttemberg magyar kulturalis egyesulet a karlsruhei egyesulet magyar kulturalis es kozossegi programokat szervez. a honlapjan a manoka gyermekfoglalkozas, a magyar korus, a tanchaz es a filmklub is szerepel. gyermekfoglalkozas korus tanchaz filmklub"
+    },
+    {
+      "type": "organization",
       "id": "csorge-nepzene",
       "label": "Csörge Népzenei Együttes",
       "country": "at",
@@ -5255,6 +5307,16 @@
     },
     {
       "type": "activity",
+      "id": "enekkar",
+      "label": "énekkar",
+      "country": "de",
+      "countryLabel": "Germany",
+      "meta": "Germany",
+      "href": "countries/de/?q=%C3%A9nekkar",
+      "search": "enekkar germany de"
+    },
+    {
+      "type": "activity",
       "id": "enekkari es hagyomanyorzo programok",
       "label": "énekkari és hagyományőrző programok",
       "country": "at",
@@ -5935,6 +5997,16 @@
     },
     {
       "type": "activity",
+      "id": "fesztivalszervezes",
+      "label": "fesztiválszervezés",
+      "country": "ca",
+      "countryLabel": "Kanada",
+      "meta": "Kanada",
+      "href": "countries/ca/?q=fesztiv%C3%A1lszervez%C3%A9s",
+      "search": "fesztivalszervezes kanada ca"
+    },
+    {
+      "type": "activity",
       "id": "fiatalok es hallgatok kapcsolatepitese",
       "label": "fiatalok és hallgatók kapcsolatépítése",
       "country": "nl",
@@ -5973,6 +6045,16 @@
       "ready": false,
       "researchStatus": "researching",
       "search": "fiji fj fji fiji republic of fiji"
+    },
+    {
+      "type": "activity",
+      "id": "filmklub",
+      "label": "filmklub",
+      "country": "de",
+      "countryLabel": "Germany",
+      "meta": "Germany",
+      "href": "countries/de/?q=filmklub",
+      "search": "filmklub germany de"
     },
     {
       "type": "activity",
@@ -6093,6 +6175,30 @@
       "meta": "Amerikai Egyesült Államok",
       "href": "countries/us/?q=fraternal%20k%C3%B6z%C3%B6ss%C3%A9g",
       "search": "fraternal kozosseg amerikai egyesult allamok us"
+    },
+    {
+      "type": "city",
+      "id": "freiburg im breisgau",
+      "label": "Freiburg im Breisgau",
+      "country": "de",
+      "countryLabel": "Germany",
+      "meta": "Germany",
+      "href": "countries/de/?city=Freiburg%20im%20Breisgau",
+      "search": "freiburg im breisgau germany de"
+    },
+    {
+      "type": "organization",
+      "id": "freiburgi-magyarok-barati-kore",
+      "label": "Freiburgi Magyarok Baráti Köre",
+      "country": "de",
+      "countryLabel": "Germany",
+      "city": "Freiburg im Breisgau",
+      "entityType": "Magyar kulturális egyesület",
+      "category": "Kultúra",
+      "summary": "A freiburgi egyesület magyar nyelvű kulturális és családi programokat szervez. Filmklubot, énekkart, valamint Ringató, óvodai és iskolai foglalkozásokat mutat be a honlapján.",
+      "meta": "Freiburg im Breisgau · Magyar kulturális egyesület",
+      "href": "countries/de/organizations/freiburgi-magyarok-barati-kore.html",
+      "search": "freiburgi magyarok barati kore freiburg im breisgau baden-wurttemberg magyar kulturalis egyesulet a freiburgi egyesulet magyar nyelvu kulturalis es csaladi programokat szervez. filmklubot, enekkart, valamint ringato, ovodai es iskolai foglalkozasokat mutat be a honlapjan. filmklub enekkar magyar nyelvu foglalkozasok"
     },
     {
       "type": "country",
@@ -6925,6 +7031,16 @@
       "type": "activity",
       "id": "gyermekfoglalkozas",
       "label": "gyermekfoglalkozás",
+      "country": "de",
+      "countryLabel": "Germany",
+      "meta": "Germany",
+      "href": "countries/de/?q=gyermekfoglalkoz%C3%A1s",
+      "search": "gyermekfoglalkozas germany de"
+    },
+    {
+      "type": "activity",
+      "id": "gyermekfoglalkozas",
+      "label": "gyermekfoglalkozás",
       "country": "us",
       "countryLabel": "Amerikai Egyesült Államok",
       "meta": "Amerikai Egyesült Államok",
@@ -7238,6 +7354,16 @@
       "meta": "Hamburg · Magyar kulturális egyesület",
       "href": "countries/de/organizations/hamburgi-magyarok-egyesulete.html",
       "search": "hamburgi magyarok egyesulete / vereinigung der hamburger ungarn e.v. hamburg hamburg magyar kulturalis egyesulet az egyesulet a hamburgi es eszaknemetorszagi magyar kozosseg nyelvi es kulturalis eletet tamogatja. hetvegi iskolat es kozossegi programokat mutat be, koztuk tanchazakat, koncerteket es unnepi rendezvenyeket. magyar iskola tanchaz kozossegi rendezvenyek"
+    },
+    {
+      "type": "city",
+      "id": "hamilton",
+      "label": "Hamilton",
+      "country": "ca",
+      "countryLabel": "Kanada",
+      "meta": "Kanada",
+      "href": "countries/ca/?city=Hamilton",
+      "search": "hamilton kanada ca"
     },
     {
       "type": "city",
@@ -9268,6 +9394,16 @@
       "search": "istentisztelet brussels brussels-capital belgiumi magyar protestans gyulekezet"
     },
     {
+      "type": "activity",
+      "id": "istentiszteletek",
+      "label": "istentiszteletek",
+      "country": "ca",
+      "countryLabel": "Kanada",
+      "meta": "Kanada",
+      "href": "countries/ca/?q=istentiszteletek",
+      "search": "istentiszteletek kanada ca"
+    },
+    {
       "type": "country",
       "id": "it",
       "label": "Italy",
@@ -9425,6 +9561,20 @@
       "meta": "Wien · gazdasági-közösségi",
       "href": "countries/at/organizations/kalaka-club.html",
       "search": "kalaka-club – ausztriai magyarok gazdasagi erdekkozossege wien gazdasagi-kozossegi az 1984-ben becsben hivatalosan megalakult kalaka‐club – ausztriai magyarok gazdasagi erdekkozossege eredetileg magyar gazdasagi szakembereket, iparosokat es szabadfoglalkozasuakat fogott ossze. gazdasagi kapcsolatepites mellett kulturalis es kozossegi programokat is szervez. gazdasagi es szakmai kapcsolatepites magyar vallalkozok es szakemberek kozossege kulturalis es nemzeti unnepi rendezvenyek magyar nyelv es hagyomanyok apolasa tagok kozotti tamogatas es egyuttmukodes"
+    },
+    {
+      "type": "organization",
+      "id": "kalvin-magyar-reformatus-egyhaz-calgary",
+      "label": "Kálvin Magyar Református Egyház, Calgary",
+      "country": "ca",
+      "countryLabel": "Kanada",
+      "city": "Calgary",
+      "entityType": "Magyar református gyülekezet",
+      "category": "Egyházi közösség",
+      "summary": "A calgaryi református gyülekezet istentiszteleteket és közösségi rendezvényeket tart. Hirdetményeit és rendezvényeit a saját honlapján teszi közzé.",
+      "meta": "Calgary · Magyar református gyülekezet",
+      "href": "countries/ca/organizations/kalvin-magyar-reformatus-egyhaz-calgary.html",
+      "search": "kalvin magyar reformatus egyhaz, calgary calgary alberta magyar reformatus gyulekezet a calgaryi reformatus gyulekezet istentiszteleteket es kozossegi rendezvenyeket tart. hirdetmenyeit es rendezvenyeit a sajat honlapjan teszi kozze. istentiszteletek kozossegi rendezvenyek"
     },
     {
       "type": "activity",
@@ -9688,6 +9838,16 @@
       "search": "karitativ tamogatasok es adomanygyujtes ausztria at"
     },
     {
+      "type": "city",
+      "id": "karlsruhe",
+      "label": "Karlsruhe",
+      "country": "de",
+      "countryLabel": "Germany",
+      "meta": "Germany",
+      "href": "countries/de/?city=Karlsruhe",
+      "search": "karlsruhe germany de"
+    },
+    {
       "type": "activity",
       "id": "karoly gaal es mas gyujtok anyaganak feldolgozasa",
       "label": "Károly Gaál és más gyűjtők anyagának feldolgozása",
@@ -9890,6 +10050,16 @@
       "meta": "Ausztria",
       "href": "countries/at/?q=k%C3%A9tnyelv%C5%B1%20nevel%C3%A9st%20t%C3%A1mogat%C3%B3%20csal%C3%A1di%20k%C3%B6z%C3%B6ss%C3%A9g",
       "search": "ketnyelvu nevelest tamogato csaladi kozosseg ausztria at"
+    },
+    {
+      "type": "activity",
+      "id": "ketnyelvu szentmisek",
+      "label": "kétnyelvű szentmisék",
+      "country": "ca",
+      "countryLabel": "Kanada",
+      "meta": "Kanada",
+      "href": "countries/ca/?q=k%C3%A9tnyelv%C5%B1%20szentmis%C3%A9k",
+      "search": "ketnyelvu szentmisek kanada ca"
     },
     {
       "type": "activity",
@@ -10843,6 +11013,16 @@
     },
     {
       "type": "activity",
+      "id": "korus",
+      "label": "kórus",
+      "country": "de",
+      "countryLabel": "Germany",
+      "meta": "Germany",
+      "href": "countries/de/?q=k%C3%B3rus",
+      "search": "korus germany de"
+    },
+    {
+      "type": "activity",
       "id": "korusenekles",
       "label": "kóruséneklés",
       "country": "be",
@@ -11109,6 +11289,16 @@
       "meta": "Belgium",
       "href": "countries/be/?q=k%C3%B6z%C3%B6ss%C3%A9gi%20alkalmak",
       "search": "kozossegi alkalmak belgium be"
+    },
+    {
+      "type": "activity",
+      "id": "kozossegi alkalmak",
+      "label": "közösségi alkalmak",
+      "country": "de",
+      "countryLabel": "Germany",
+      "meta": "Germany",
+      "href": "countries/de/?q=k%C3%B6z%C3%B6ss%C3%A9gi%20alkalmak",
+      "search": "kozossegi alkalmak germany de"
     },
     {
       "type": "activity",
@@ -11382,6 +11572,16 @@
     },
     {
       "type": "activity",
+      "id": "kozossegi estek",
+      "label": "közösségi estek",
+      "country": "de",
+      "countryLabel": "Germany",
+      "meta": "Germany",
+      "href": "countries/de/?q=k%C3%B6z%C3%B6ss%C3%A9gi%20estek",
+      "search": "kozossegi estek germany de"
+    },
+    {
+      "type": "activity",
       "id": "kozossegi fellepesek",
       "label": "közösségi fellépések",
       "country": "at",
@@ -11429,6 +11629,16 @@
       "meta": "Amerikai Egyesült Államok",
       "href": "countries/us/?q=k%C3%B6z%C3%B6ss%C3%A9gi%20h%C3%A1z",
       "search": "kozossegi haz amerikai egyesult allamok us"
+    },
+    {
+      "type": "activity",
+      "id": "kozossegi helyszin",
+      "label": "közösségi helyszín",
+      "country": "ca",
+      "countryLabel": "Kanada",
+      "meta": "Kanada",
+      "href": "countries/ca/?q=k%C3%B6z%C3%B6ss%C3%A9gi%20helysz%C3%ADn",
+      "search": "kozossegi helyszin kanada ca"
     },
     {
       "type": "activity",
@@ -11592,6 +11802,16 @@
     },
     {
       "type": "activity",
+      "id": "kozossegi osszejovetelek",
+      "label": "közösségi összejövetelek",
+      "country": "ca",
+      "countryLabel": "Kanada",
+      "meta": "Kanada",
+      "href": "countries/ca/?q=k%C3%B6z%C3%B6ss%C3%A9gi%20%C3%B6sszej%C3%B6vetelek",
+      "search": "kozossegi osszejovetelek kanada ca"
+    },
+    {
+      "type": "activity",
       "id": "kozossegi programok",
       "label": "közösségi programok",
       "country": "be",
@@ -11609,6 +11829,16 @@
       "meta": "Kanada",
       "href": "countries/ca/?q=k%C3%B6z%C3%B6ss%C3%A9gi%20programok",
       "search": "kozossegi programok kanada ca"
+    },
+    {
+      "type": "activity",
+      "id": "kozossegi programok",
+      "label": "közösségi programok",
+      "country": "de",
+      "countryLabel": "Germany",
+      "meta": "Germany",
+      "href": "countries/de/?q=k%C3%B6z%C3%B6ss%C3%A9gi%20programok",
+      "search": "kozossegi programok germany de"
     },
     {
       "type": "activity",
@@ -13557,6 +13787,16 @@
       "type": "activity",
       "id": "magyar kultura",
       "label": "magyar kultúra",
+      "country": "de",
+      "countryLabel": "Germany",
+      "meta": "Germany",
+      "href": "countries/de/?q=magyar%20kult%C3%BAra",
+      "search": "magyar kultura germany de"
+    },
+    {
+      "type": "activity",
+      "id": "magyar kultura",
+      "label": "magyar kultúra",
       "country": "us",
       "countryLabel": "Amerikai Egyesült Államok",
       "meta": "Amerikai Egyesült Államok",
@@ -14455,6 +14695,16 @@
     },
     {
       "type": "activity",
+      "id": "magyar nyelvu foglalkozasok",
+      "label": "magyar nyelvű foglalkozások",
+      "country": "de",
+      "countryLabel": "Germany",
+      "meta": "Germany",
+      "href": "countries/de/?q=magyar%20nyelv%C5%B1%20foglalkoz%C3%A1sok",
+      "search": "magyar nyelvu foglalkozasok germany de"
+    },
+    {
+      "type": "activity",
       "id": "magyar nyelvu gorogkatolikus liturgiak",
       "label": "magyar nyelvű görögkatolikus liturgiák",
       "country": "at",
@@ -14542,6 +14792,16 @@
       "meta": "Belgium",
       "href": "countries/be/?q=magyar%20nyelv%C5%B1%20istentiszteletek",
       "search": "magyar nyelvu istentiszteletek belgium be"
+    },
+    {
+      "type": "activity",
+      "id": "magyar nyelvu istentiszteletek",
+      "label": "magyar nyelvű istentiszteletek",
+      "country": "de",
+      "countryLabel": "Germany",
+      "meta": "Germany",
+      "href": "countries/de/?q=magyar%20nyelv%C5%B1%20istentiszteletek",
+      "search": "magyar nyelvu istentiszteletek germany de"
     },
     {
       "type": "activity",
@@ -14833,6 +15093,16 @@
       "meta": "Belgium",
       "href": "countries/be/?q=magyar%20nyelv%C5%B1%20szentmis%C3%A9k",
       "search": "magyar nyelvu szentmisek belgium be"
+    },
+    {
+      "type": "activity",
+      "id": "magyar nyelvu szentmisek",
+      "label": "magyar nyelvű szentmisék",
+      "country": "de",
+      "countryLabel": "Germany",
+      "meta": "Germany",
+      "href": "countries/de/?q=magyar%20nyelv%C5%B1%20szentmis%C3%A9k",
+      "search": "magyar nyelvu szentmisek germany de"
     },
     {
       "type": "activity",
@@ -18222,6 +18492,16 @@
     },
     {
       "type": "activity",
+      "id": "ovodai foglalkozasok",
+      "label": "óvodai foglalkozások",
+      "country": "de",
+      "countryLabel": "Germany",
+      "meta": "Germany",
+      "href": "countries/de/?q=%C3%B3vodai%20foglalkoz%C3%A1sok",
+      "search": "ovodai foglalkozasok germany de"
+    },
+    {
+      "type": "activity",
       "id": "pacsirta gyermekkorus",
       "label": "Pacsirta gyermekkórus",
       "country": "be",
@@ -20169,6 +20449,16 @@
       "search": "stockholm sweden se"
     },
     {
+      "type": "city",
+      "id": "stuttgart",
+      "label": "Stuttgart",
+      "country": "de",
+      "countryLabel": "Germany",
+      "meta": "Germany",
+      "href": "countries/de/?city=Stuttgart",
+      "search": "stuttgart germany de"
+    },
+    {
       "type": "country",
       "id": "sd",
       "label": "Sudan",
@@ -20451,6 +20741,20 @@
     },
     {
       "type": "organization",
+      "id": "szent-gellert-katolikus-egyhazkozseg-stuttgart",
+      "label": "Szent Gellért Magyar Katolikus Egyházközség",
+      "country": "de",
+      "countryLabel": "Germany",
+      "city": "Stuttgart",
+      "entityType": "Magyar katolikus egyházközség",
+      "category": "Egyházi közösség",
+      "summary": "A stuttgarti magyar katolikus egyházközség Stuttgartban és Baden-Württemberg más településein is tart magyar nyelvű szentmiséket. A közösség a helyszíneket és a programokat a honlapján teszi közzé.",
+      "meta": "Stuttgart · Magyar katolikus egyházközség",
+      "href": "countries/de/organizations/szent-gellert-katolikus-egyhazkozseg-stuttgart.html",
+      "search": "szent gellert magyar katolikus egyhazkozseg stuttgart baden-wurttemberg magyar katolikus egyhazkozseg a stuttgarti magyar katolikus egyhazkozseg stuttgartban es baden-wurttemberg mas telepulesein is tart magyar nyelvu szentmiseket. a kozosseg a helyszineket es a programokat a honlapjan teszi kozze. magyar nyelvu szentmisek kozossegi programok"
+    },
+    {
+      "type": "organization",
       "id": "szent-istvan-egylet",
       "label": "Szent István Egylet",
       "country": "at",
@@ -20494,6 +20798,20 @@
       "search": "szent istvan magyar iskola es ovoda chicago illinois weekend/community hungarian school a chicagoi szent istvan kiraly katolikus magyar templomhoz kapcsolodo magyar iskola es ovoda."
     },
     {
+      "type": "organization",
+      "id": "st-stephen-hungary-parish-hamilton",
+      "label": "Szent István Magyar Katolikus Plébánia, Hamilton",
+      "country": "ca",
+      "countryLabel": "Kanada",
+      "city": "Hamilton",
+      "entityType": "Magyar katolikus plébánia",
+      "category": "Közösségi szervezet",
+      "summary": "A hamiltoni Szent István-plébánia magyar nyelvű istentiszteleteket és közösségi alkalmakat is tart. A plébánia hirdetményeiben a közösségi és örökségőrző programokról is tájékoztat.",
+      "meta": "Hamilton · Magyar katolikus plébánia",
+      "href": "countries/ca/organizations/st-stephen-hungary-parish-hamilton.html",
+      "search": "szent istvan magyar katolikus plebania, hamilton hamilton ontario magyar katolikus plebania a hamiltoni szent istvan-plebania magyar nyelvu istentiszteleteket es kozossegi alkalmakat is tart. a plebania hirdetmenyeiben a kozossegi es oroksegorzo programokrol is tajekoztat. szentmisek kozossegi programok"
+    },
+    {
       "type": "program",
       "id": "united-hungarian-societies-cleveland-szent-lászló-2026-novemberi-gyülés-2026-11-28t14-30-00",
       "label": "Szent László 2026 Novemberi Gyülés",
@@ -20503,6 +20821,16 @@
       "meta": "2026-11-28T14:30:00 · Cleveland",
       "href": "countries/us/events/united-hungarian-societies-cleveland-szent-l%C3%A1szl%C3%B3-2026-novemberi-gy%C3%BCl%C3%A9s-2026-11-28t14-30-00.html",
       "search": "szent laszlo 2026 novemberi gyules cleveland ohio united hungarian societies"
+    },
+    {
+      "type": "activity",
+      "id": "szentmisek",
+      "label": "szentmisék",
+      "country": "ca",
+      "countryLabel": "Kanada",
+      "meta": "Kanada",
+      "href": "countries/ca/?q=szentmis%C3%A9k",
+      "search": "szentmisek kanada ca"
     },
     {
       "type": "activity",
@@ -21011,6 +21339,16 @@
       "meta": "Belgium",
       "href": "countries/be/?q=t%C3%A1nch%C3%A1z",
       "search": "tanchaz belgium be"
+    },
+    {
+      "type": "activity",
+      "id": "tanchaz",
+      "label": "táncház",
+      "country": "ca",
+      "countryLabel": "Kanada",
+      "meta": "Kanada",
+      "href": "countries/ca/?q=t%C3%A1nch%C3%A1z",
+      "search": "tanchaz kanada ca"
     },
     {
       "type": "activity",
@@ -21648,6 +21986,30 @@
     },
     {
       "type": "city",
+      "id": "ulm",
+      "label": "Ulm",
+      "country": "de",
+      "countryLabel": "Germany",
+      "meta": "Germany",
+      "href": "countries/de/?city=Ulm",
+      "search": "ulm germany de"
+    },
+    {
+      "type": "organization",
+      "id": "ulmi-magyar-kulturegyesulet",
+      "label": "Ulmi Magyar Kultúregyesület",
+      "country": "de",
+      "countryLabel": "Germany",
+      "city": "Ulm",
+      "entityType": "Magyar kulturális egyesület",
+      "category": "Kultúra",
+      "summary": "Az ulmi egyesület magyar nyelvű közösségi és kulturális programokat szervez. A 2026-os programok között beszédkultúrával foglalkozó alkalmak, kórus és társasjátékest is szerepelnek.",
+      "meta": "Ulm · Magyar kulturális egyesület",
+      "href": "countries/de/organizations/ulmi-magyar-kulturegyesulet.html",
+      "search": "ulmi magyar kulturegyesulet ulm baden-wurttemberg magyar kulturalis egyesulet az ulmi egyesulet magyar nyelvu kozossegi es kulturalis programokat szervez. a 2026-os programok kozott beszedkulturaval foglalkozo alkalmak, korus es tarsasjatekest is szerepelnek. kozossegi estek korus beszedkultura"
+    },
+    {
+      "type": "city",
       "id": "ulstrup",
       "label": "Ulstrup",
       "country": "dk",
@@ -21971,6 +22333,20 @@
       "meta": "Amerikai Egyesült Államok",
       "href": "countries/us/?q=%C3%BCzleti%20kapcsolat%C3%A9p%C3%ADt%C3%A9s",
       "search": "uzleti kapcsolatepites amerikai egyesult allamok us"
+    },
+    {
+      "type": "organization",
+      "id": "vadrozsa-neptancegyuttes-calgary",
+      "label": "Vadrózsa Magyar Néptáncegyüttes, Calgary",
+      "country": "ca",
+      "countryLabel": "Kanada",
+      "city": "Calgary",
+      "entityType": "Magyar néptáncegyüttes",
+      "category": "Hagyományőrzés",
+      "summary": "A calgaryi Vadrózsa magyar néptánccsoport. A 2026-os nyugat-kanadai magyar néptáncfesztivál calgaryi kiadásának helyi házigazdája volt.",
+      "meta": "Calgary · Magyar néptáncegyüttes",
+      "href": "countries/ca/organizations/vadrozsa-neptancegyuttes-calgary.html",
+      "search": "vadrozsa magyar neptancegyuttes, calgary calgary alberta magyar neptancegyuttes a calgaryi vadrozsa magyar neptanccsoport. a 2026-os nyugat-kanadai magyar neptancfesztival calgaryi kiadasanak helyi hazigazdaja volt. magyar neptanc tanchaz fesztivalszervezes"
     },
     {
       "type": "organization",
@@ -23413,6 +23789,30 @@
     },
     {
       "type": "city",
+      "id": "windsor",
+      "label": "Windsor",
+      "country": "ca",
+      "countryLabel": "Kanada",
+      "meta": "Kanada",
+      "href": "countries/ca/?city=Windsor",
+      "search": "windsor kanada ca"
+    },
+    {
+      "type": "organization",
+      "id": "windsori-magyar-haz",
+      "label": "Windsori Magyar Ház",
+      "country": "ca",
+      "countryLabel": "Kanada",
+      "city": "Windsor",
+      "entityType": "Magyar kulturális központ",
+      "category": "Kultúra",
+      "summary": "A Mindszenty Hall néven is ismert Magyar Ház a windsori magyar közösség kulturális helyszíne. A Carrousel of the Nations fesztivál magyar programhelyszíneként is szerepel.",
+      "meta": "Windsor · Magyar kulturális központ",
+      "href": "countries/ca/organizations/windsori-magyar-haz.html",
+      "search": "windsori magyar haz windsor ontario magyar kulturalis kozpont a mindszenty hall neven is ismert magyar haz a windsori magyar kozosseg kulturalis helyszine. a carrousel of the nations fesztival magyar programhelyszinekent is szerepel. magyar kulturalis programok kozossegi helyszin"
+    },
+    {
+      "type": "city",
       "id": "winnipeg",
       "label": "Winnipeg",
       "country": "ca",
@@ -23490,6 +23890,20 @@
       "meta": "Ausztria",
       "href": "countries/at/?q=workshopok%2C%20s%C3%A9t%C3%A1k%20%C3%A9s%20k%C3%B6z%C3%B6ss%C3%A9gi%20kir%C3%A1ndul%C3%A1sok",
       "search": "workshopok, setak es kozossegi kirandulasok ausztria at"
+    },
+    {
+      "type": "organization",
+      "id": "wurttembergi-magyar-protestans-gyulekezet",
+      "label": "Württembergi Magyar Protestáns Gyülekezet",
+      "country": "de",
+      "countryLabel": "Germany",
+      "city": "Stuttgart",
+      "entityType": "Magyar protestáns gyülekezet",
+      "category": "Közösségi szervezet",
+      "summary": "A württembergi gyülekezet magyar nyelvű istentiszteleteket és közösségi alkalmakat tart. A 2026-os programnaptár Stuttgart-Bad Cannstattban és Heilbronn-Sontheimben is felsorol istentiszteleteket.",
+      "meta": "Stuttgart · Magyar protestáns gyülekezet",
+      "href": "countries/de/organizations/wurttembergi-magyar-protestans-gyulekezet.html",
+      "search": "wurttembergi magyar protestans gyulekezet stuttgart baden-wurttemberg magyar protestans gyulekezet a wurttembergi gyulekezet magyar nyelvu istentiszteleteket es kozossegi alkalmakat tart. a 2026-os programnaptar stuttgart-bad cannstattban es heilbronn-sontheimben is felsorol istentiszteleteket. magyar nyelvu istentiszteletek kozossegi alkalmak"
     },
     {
       "type": "country",
