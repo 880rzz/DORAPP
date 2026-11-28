@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-27",
+  "updated": "2026-11-28",
   "sourcePolicy": "Official organizational website and Hungarian consular documentation; verify press and social links separately.",
   "organizations": [
     {
@@ -541,6 +541,258 @@
           "sourceUrl": "https://buod.de/buod-tagszervezetek/"
         }
       ]
+    },
+    {
+      "id": "csodaszarvas-karlsruhe",
+      "name": "Csodaszarvas Magyar Kulturális Egyesület Karlsruhe",
+      "country": "de",
+      "region": "Baden-Württemberg",
+      "type": "Magyar kulturális egyesület",
+      "entityClass": "organization",
+      "intro": "A karlsruhei egyesület magyar kulturális és közösségi programokat szervez. A honlapján a MANOKA gyermekfoglalkozás, a magyar kórus, a táncház és a filmklub is szerepel.",
+      "aliases": [
+        "Wunderhirsch"
+      ],
+      "activities": [
+        "gyermekfoglalkozás",
+        "kórus",
+        "táncház",
+        "filmklub"
+      ],
+      "profileVerifiedAt": "2026-11-28",
+      "evidenceSources": [
+        {
+          "label": "Csodaszarvas – hivatalos honlap",
+          "url": "https://wukk.de/hu/",
+          "type": "official"
+        },
+        {
+          "label": "MANOKA – az egyesület programoldala",
+          "url": "https://wukk.de/hu/manoka/",
+          "type": "official"
+        }
+      ],
+      "calendarSources": [
+        {
+          "label": "Az egyesület hírei és programjai",
+          "url": "https://wukk.de/hu/",
+          "kind": "official-news-events",
+          "scope": "self",
+          "ingestEvents": false
+        }
+      ],
+      "city": "Karlsruhe",
+      "website": "https://wukk.de/hu/"
+    },
+    {
+      "id": "freiburgi-magyarok-barati-kore",
+      "name": "Freiburgi Magyarok Baráti Köre",
+      "country": "de",
+      "region": "Baden-Württemberg",
+      "type": "Magyar kulturális egyesület",
+      "entityClass": "organization",
+      "intro": "A freiburgi egyesület magyar nyelvű kulturális és családi programokat szervez. Filmklubot, énekkart, valamint Ringató, óvodai és iskolai foglalkozásokat mutat be a honlapján.",
+      "aliases": [
+        "Freundeskreis Freiburger Ungarn e.V.",
+        "FMBK"
+      ],
+      "activities": [
+        "filmklub",
+        "énekkar",
+        "magyar nyelvű foglalkozások"
+      ],
+      "profileVerifiedAt": "2026-11-28",
+      "evidenceSources": [
+        {
+          "label": "FMBK – hivatalos honlap",
+          "url": "https://www.freiburgimagyarok.com/",
+          "type": "official"
+        },
+        {
+          "label": "Az egyesület impresszuma",
+          "url": "https://www.freiburgimagyarok.com/impressum",
+          "type": "official"
+        },
+        {
+          "label": "Ringató, óvoda és iskola",
+          "url": "https://www.freiburgimagyarok.com/ringatoovodaiskola",
+          "type": "official"
+        }
+      ],
+      "calendarSources": [],
+      "city": "Freiburg im Breisgau",
+      "website": "https://www.freiburgimagyarok.com/"
+    },
+    {
+      "id": "ulmi-magyar-kulturegyesulet",
+      "name": "Ulmi Magyar Kultúregyesület",
+      "country": "de",
+      "region": "Baden-Württemberg",
+      "type": "Magyar kulturális egyesület",
+      "entityClass": "organization",
+      "intro": "Az ulmi egyesület magyar nyelvű közösségi és kulturális programokat szervez. A 2026-os programok között beszédkultúrával foglalkozó alkalmak, kórus és társasjátékest is szerepelnek.",
+      "aliases": [
+        "Ungarischer Kulturverein Ulm e.V.",
+        "ULMKE"
+      ],
+      "activities": [
+        "közösségi estek",
+        "kórus",
+        "beszédkultúra"
+      ],
+      "profileVerifiedAt": "2026-11-28",
+      "evidenceSources": [
+        {
+          "label": "ULMKE – hivatalos hírek és programok",
+          "url": "https://ulmke-online.de/",
+          "type": "official"
+        },
+        {
+          "label": "Az egyesület impresszuma",
+          "url": "https://ulmke-online.de/impressum/",
+          "type": "official"
+        }
+      ],
+      "calendarSources": [
+        {
+          "label": "Az egyesület műsortervei",
+          "url": "https://ulmke-online.de/",
+          "kind": "official-news-events",
+          "scope": "self",
+          "ingestEvents": false
+        }
+      ],
+      "city": "Ulm",
+      "website": "https://ulmke-online.de/"
+    },
+    {
+      "id": "baden-wurttembergi-konzuli-magyar-iskola",
+      "name": "Baden-Württembergi Konzuli Magyar Iskola és Óvoda",
+      "country": "de",
+      "region": "Baden-Württemberg",
+      "type": "Magyar hétvégi iskolahálózat",
+      "entityClass": "organization",
+      "intro": "Az iskolahálózat Baden-Württemberg több településén kínál kiegészítő magyar nyelvi és kulturális oktatást. Egyes helyszíneken óvodáskorú gyermekeknek is szervez foglalkozásokat.",
+      "aliases": [
+        "Baden-Württembergi Konzuli Magyar Iskola",
+        "Konzuli Magyar Iskola és Óvoda"
+      ],
+      "activities": [
+        "magyar nyelvoktatás",
+        "óvodai foglalkozások",
+        "magyar kultúra"
+      ],
+      "profileVerifiedAt": "2026-11-28",
+      "evidenceSources": [
+        {
+          "label": "Az iskola hivatalos honlapja",
+          "url": "https://bwkmi.ulbe.org/",
+          "type": "official"
+        },
+        {
+          "label": "Stuttgarti Főkonzulátus – iskola és szakmai háttér",
+          "url": "https://stuttgart.mfa.gov.hu/hu/baden-wuerttembergi-konzuli-magyar-iskola",
+          "type": "institutional"
+        }
+      ],
+      "calendarSources": [],
+      "city": "Stuttgart",
+      "website": "https://bwkmi.ulbe.org/",
+      "scope": "regional",
+      "affiliations": [
+        {
+          "organization": "Magyar Tanárok Képzési és Nevelési Egyesülete",
+          "label": "Szervezési és pedagógiai támogatás",
+          "sourceUrl": "https://stuttgart.mfa.gov.hu/hu/baden-wuerttembergi-konzuli-magyar-iskola"
+        }
+      ]
+    },
+    {
+      "id": "szent-gellert-katolikus-egyhazkozseg-stuttgart",
+      "name": "Szent Gellért Magyar Katolikus Egyházközség",
+      "country": "de",
+      "region": "Baden-Württemberg",
+      "type": "Magyar katolikus egyházközség",
+      "entityClass": "organization",
+      "intro": "A stuttgarti magyar katolikus egyházközség Stuttgartban és Baden-Württemberg más településein is tart magyar nyelvű szentmiséket. A közösség a helyszíneket és a programokat a honlapján teszi közzé.",
+      "aliases": [
+        "Stuttgarti Magyar Katolikus Egyházközség"
+      ],
+      "activities": [
+        "magyar nyelvű szentmisék",
+        "közösségi programok"
+      ],
+      "profileVerifiedAt": "2026-11-28",
+      "evidenceSources": [
+        {
+          "label": "Az egyházközség hivatalos honlapja",
+          "url": "https://stuttgarti-katolikusok.de/",
+          "type": "official"
+        },
+        {
+          "label": "Stuttgarti Főkonzulátus – egyházi szervezetek",
+          "url": "https://stuttgart.mfa.gov.hu/hu/egyhazi-szervezetek",
+          "type": "institutional"
+        }
+      ],
+      "calendarSources": [
+        {
+          "label": "Egyházközségi miserend és programok",
+          "url": "https://stuttgarti-katolikusok.de/",
+          "kind": "official-news-events",
+          "scope": "self",
+          "ingestEvents": false
+        }
+      ],
+      "city": "Stuttgart",
+      "website": "https://stuttgarti-katolikusok.de/",
+      "scope": "regional"
+    },
+    {
+      "id": "wurttembergi-magyar-protestans-gyulekezet",
+      "name": "Württembergi Magyar Protestáns Gyülekezet",
+      "country": "de",
+      "region": "Baden-Württemberg",
+      "type": "Magyar protestáns gyülekezet",
+      "entityClass": "organization",
+      "intro": "A württembergi gyülekezet magyar nyelvű istentiszteleteket és közösségi alkalmakat tart. A 2026-os programnaptár Stuttgart-Bad Cannstattban és Heilbronn-Sontheimben is felsorol istentiszteleteket.",
+      "aliases": [
+        "Ungarische Evangelische Gemeinde in Württemberg"
+      ],
+      "activities": [
+        "magyar nyelvű istentiszteletek",
+        "közösségi alkalmak"
+      ],
+      "profileVerifiedAt": "2026-11-28",
+      "evidenceSources": [
+        {
+          "label": "A gyülekezet hivatalos oldala",
+          "url": "https://stuttgart.egyhazkozseg.hu/kapcsolat/",
+          "type": "official"
+        },
+        {
+          "label": "A gyülekezet 2026-os programnaptára",
+          "url": "https://stuttgart.egyhazkozseg.hu/wp-content/uploads/sites/10/2026/01/2026-Istentiszteleti-program.pdf",
+          "type": "official"
+        },
+        {
+          "label": "Stuttgarti Főkonzulátus – egyházi szervezetek",
+          "url": "https://stuttgart.mfa.gov.hu/hu/egyhazi-szervezetek",
+          "type": "institutional"
+        }
+      ],
+      "calendarSources": [
+        {
+          "label": "A gyülekezet 2026-os programnaptára",
+          "url": "https://stuttgart.egyhazkozseg.hu/wp-content/uploads/sites/10/2026/01/2026-Istentiszteleti-program.pdf",
+          "kind": "official-news-events",
+          "scope": "self",
+          "ingestEvents": false
+        }
+      ],
+      "city": "Stuttgart",
+      "website": "https://stuttgart.egyhazkozseg.hu/kapcsolat/",
+      "scope": "regional"
     }
   ]
 }

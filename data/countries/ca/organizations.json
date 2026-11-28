@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-27",
+  "updated": "2026-11-28",
   "sourcePolicy": "Canada country dataset. First-party organization, Hungarian diplomatic, Canadian government, current umbrella and institutional sources are preferred. Historical directory entries remain discovery-only until current identity is verified.",
   "organizations": [
     {
@@ -1243,6 +1243,210 @@
           "sourceUrl": "https://kmosz-nahc.ca/en/membership/"
         }
       ]
+    },
+    {
+      "id": "windsori-magyar-haz",
+      "name": "Windsori Magyar Ház",
+      "country": "ca",
+      "region": "Ontario",
+      "type": "Magyar kulturális központ",
+      "entityClass": "organization",
+      "intro": "A Mindszenty Hall néven is ismert Magyar Ház a windsori magyar közösség kulturális helyszíne. A Carrousel of the Nations fesztivál magyar programhelyszíneként is szerepel.",
+      "aliases": [
+        "Hungarian Cultural Centre – Mindszenty Hall",
+        "Mindszenty Hall"
+      ],
+      "activities": [
+        "magyar kulturális programok",
+        "közösségi helyszín"
+      ],
+      "profileVerifiedAt": "2026-11-28",
+      "evidenceSources": [
+        {
+          "label": "Torontói Főkonzulátus – windsori közösségi címtár",
+          "url": "https://toronto.mfa.gov.hu/hu/windsor_hmsz",
+          "type": "institutional"
+        },
+        {
+          "label": "Carrousel of the Nations – magyar programhelyszín",
+          "url": "https://www.carrouselofnations.com/hungarian-village",
+          "type": "institutional"
+        },
+        {
+          "label": "Torontói Főkonzulátus – helyszín megerősítése",
+          "url": "https://toronto.mfa.gov.hu/en/articles/extramural-consular-days-to-be-held-in-windsor",
+          "type": "institutional"
+        }
+      ],
+      "calendarSources": [],
+      "city": "Windsor"
+    },
+    {
+      "id": "st-stephen-hungary-parish-hamilton",
+      "name": "Szent István Magyar Katolikus Plébánia, Hamilton",
+      "country": "ca",
+      "region": "Ontario",
+      "type": "Magyar katolikus plébánia",
+      "entityClass": "organization",
+      "intro": "A hamiltoni Szent István-plébánia magyar nyelvű istentiszteleteket és közösségi alkalmakat is tart. A plébánia hirdetményeiben a közösségi és örökségőrző programokról is tájékoztat.",
+      "aliases": [
+        "St. Stephen of Hungary Parish"
+      ],
+      "activities": [
+        "szentmisék",
+        "közösségi programok"
+      ],
+      "profileVerifiedAt": "2026-11-28",
+      "evidenceSources": [
+        {
+          "label": "A plébánia hivatalos honlapja",
+          "url": "https://www.ststephenhamilton.church/",
+          "type": "official"
+        },
+        {
+          "label": "A plébánia hirdetményei",
+          "url": "https://www.ststephenhamilton.church/bulletins",
+          "type": "official"
+        }
+      ],
+      "calendarSources": [
+        {
+          "label": "A plébánia hirdetményei",
+          "url": "https://www.ststephenhamilton.church/bulletins",
+          "kind": "official-news-events",
+          "scope": "self",
+          "ingestEvents": false
+        }
+      ],
+      "city": "Hamilton",
+      "website": "https://www.ststephenhamilton.church/"
+    },
+    {
+      "id": "st-elizabeth-hungary-parish-calgary",
+      "name": "Árpádházi Szent Erzsébet Plébánia, Calgary",
+      "country": "ca",
+      "region": "Alberta",
+      "type": "Magyar katolikus plébánia",
+      "entityClass": "organization",
+      "intro": "A calgaryi katolikus plébánia magyar és angol nyelvű szentmiséket tart. A honlapján a miserend mellett közösségi összejövetelekről is tájékoztat.",
+      "aliases": [
+        "St. Elizabeth of Hungary Parish Calgary"
+      ],
+      "activities": [
+        "kétnyelvű szentmisék",
+        "közösségi összejövetelek"
+      ],
+      "profileVerifiedAt": "2026-11-28",
+      "evidenceSources": [
+        {
+          "label": "A plébánia hivatalos honlapja",
+          "url": "https://saintelizabethcalgary.com/index.html",
+          "type": "official"
+        },
+        {
+          "label": "Torontói Főkonzulátus – calgaryi közösségi címtár",
+          "url": "https://toronto.mfa.gov.hu/hu/calgary_hmsz",
+          "type": "institutional"
+        }
+      ],
+      "calendarSources": [
+        {
+          "label": "A plébánia programjai és miserendje",
+          "url": "https://saintelizabethcalgary.com/index.html",
+          "kind": "official-news-events",
+          "scope": "self",
+          "ingestEvents": false
+        }
+      ],
+      "city": "Calgary",
+      "website": "https://saintelizabethcalgary.com/index.html"
+    },
+    {
+      "id": "kalvin-magyar-reformatus-egyhaz-calgary",
+      "name": "Kálvin Magyar Református Egyház, Calgary",
+      "country": "ca",
+      "region": "Alberta",
+      "type": "Magyar református gyülekezet",
+      "entityClass": "organization",
+      "intro": "A calgaryi református gyülekezet istentiszteleteket és közösségi rendezvényeket tart. Hirdetményeit és rendezvényeit a saját honlapján teszi közzé.",
+      "aliases": [
+        "Calvin Hungarian Presbyterian Church"
+      ],
+      "activities": [
+        "istentiszteletek",
+        "közösségi rendezvények"
+      ],
+      "profileVerifiedAt": "2026-11-28",
+      "evidenceSources": [
+        {
+          "label": "A gyülekezet hivatalos honlapja",
+          "url": "https://kmre.ca/",
+          "type": "official"
+        },
+        {
+          "label": "A gyülekezet hirdetményei",
+          "url": "https://kmre.ca/hirdetesek/",
+          "type": "official"
+        },
+        {
+          "label": "Presbiteriánus zsinat – dél-albertai gyülekezetek",
+          "url": "https://synodabnw.ca/churches/southern-alberta",
+          "type": "institutional"
+        }
+      ],
+      "calendarSources": [
+        {
+          "label": "Gyülekezeti hirdetmények",
+          "url": "https://kmre.ca/hirdetesek/",
+          "kind": "official-news-events",
+          "scope": "self",
+          "ingestEvents": false
+        }
+      ],
+      "city": "Calgary",
+      "website": "https://kmre.ca/"
+    },
+    {
+      "id": "vadrozsa-neptancegyuttes-calgary",
+      "name": "Vadrózsa Magyar Néptáncegyüttes, Calgary",
+      "country": "ca",
+      "region": "Alberta",
+      "type": "Magyar néptáncegyüttes",
+      "entityClass": "organization",
+      "intro": "A calgaryi Vadrózsa magyar néptánccsoport. A 2026-os nyugat-kanadai magyar néptáncfesztivál calgaryi kiadásának helyi házigazdája volt.",
+      "aliases": [
+        "Vadrózsa Hungarian Folk Dancers of Calgary",
+        "Vadrózsa Hungarian Folk Dancers"
+      ],
+      "activities": [
+        "magyar néptánc",
+        "táncház",
+        "fesztiválszervezés"
+      ],
+      "profileVerifiedAt": "2026-11-28",
+      "evidenceSources": [
+        {
+          "label": "A Vadrózsa hivatalos oldala",
+          "url": "https://vadrozsafolkdancers.com/",
+          "type": "official"
+        },
+        {
+          "label": "A Vadrózsa 2026-os fesztiválprogramja",
+          "url": "https://vadrozsafolkdancers.com/festival/",
+          "type": "official"
+        }
+      ],
+      "calendarSources": [
+        {
+          "label": "A csoport 2026-os fesztiválprogramja",
+          "url": "https://vadrozsafolkdancers.com/festival/",
+          "kind": "official-news-events",
+          "scope": "self",
+          "ingestEvents": false
+        }
+      ],
+      "city": "Calgary",
+      "website": "https://vadrozsafolkdancers.com/"
     }
   ]
 }
