@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-28T02:44:04+00:00",
+  "updated": "2026-11-28T07:49:41+00:00",
   "sources": [
     {
       "id": "buod",
@@ -9,7 +9,7 @@
       "httpStatus": 200,
       "resolvedUrl": "https://buod.de/",
       "contentType": "text/html; charset=utf-8",
-      "checkedAt": "2026-11-28T02:44:04+00:00",
+      "checkedAt": "2026-11-28T07:49:41+00:00",
       "removalAuthority": false,
       "note": null
     },
@@ -21,7 +21,7 @@
       "httpStatus": 200,
       "resolvedUrl": "https://www.petofi-ingolstadt.de/rolunk",
       "contentType": "text/html;charset=utf-8",
-      "checkedAt": "2026-11-28T02:44:04+00:00",
+      "checkedAt": "2026-11-28T07:49:41+00:00",
       "removalAuthority": false,
       "note": null
     },
@@ -29,13 +29,13 @@
       "id": "manyoki-adam-kulturegyesulet-drezda",
       "url": "https://manyoki.de/",
       "sourceRole": "official-website",
-      "status": "timeout",
-      "httpStatus": null,
+      "status": "ok",
+      "httpStatus": 200,
       "resolvedUrl": "https://manyoki.de/",
-      "contentType": "",
-      "checkedAt": "2026-11-28T02:44:04+00:00",
+      "contentType": "text/html; charset=utf-8",
+      "checkedAt": "2026-11-28T07:49:41+00:00",
       "removalAuthority": false,
-      "note": "Technical failure alone is never evidence for entity removal."
+      "note": null
     },
     {
       "id": "91-kanyadi-sandor-cserkeszcsapat-drezda",
@@ -45,7 +45,7 @@
       "httpStatus": 200,
       "resolvedUrl": "https://drezda.cserkesz.eu/",
       "contentType": "text/html; charset=utf-8",
-      "checkedAt": "2026-11-28T02:44:04+00:00",
+      "checkedAt": "2026-11-28T07:49:41+00:00",
       "removalAuthority": false,
       "note": null
     },
@@ -56,8 +56,8 @@
       "status": "ok",
       "httpStatus": 200,
       "resolvedUrl": "https://brunszvik.de/egyesulet/",
-      "contentType": "text/html; charset=utf-8",
-      "checkedAt": "2026-11-28T02:44:04+00:00",
+      "contentType": "text/html",
+      "checkedAt": "2026-11-28T07:49:41+00:00",
       "removalAuthority": false,
       "note": null
     },
@@ -69,7 +69,7 @@
       "httpStatus": 200,
       "resolvedUrl": "https://hamburgi-magyarok-ev.de/",
       "contentType": "text/html; charset=utf-8",
-      "checkedAt": "2026-11-28T02:44:04+00:00",
+      "checkedAt": "2026-11-28T07:49:41+00:00",
       "removalAuthority": false,
       "note": null
     },
@@ -81,7 +81,7 @@
       "httpStatus": 200,
       "resolvedUrl": "https://berlini-magyar-protestans.de/kontakt",
       "contentType": "text/html;charset=utf-8",
-      "checkedAt": "2026-11-28T02:44:04+00:00",
+      "checkedAt": "2026-11-28T07:49:41+00:00",
       "removalAuthority": false,
       "note": null
     },
@@ -93,7 +93,7 @@
       "httpStatus": 200,
       "resolvedUrl": "https://www.ungarisches-institut.de/",
       "contentType": "text/html; charset=utf-8",
-      "checkedAt": "2026-11-28T02:44:04+00:00",
+      "checkedAt": "2026-11-28T07:49:41+00:00",
       "removalAuthority": false,
       "note": null
     },
@@ -105,7 +105,7 @@
       "httpStatus": 200,
       "resolvedUrl": "https://www.regoes.de/",
       "contentType": "text/html;charset=utf-8",
-      "checkedAt": "2026-11-28T02:44:04+00:00",
+      "checkedAt": "2026-11-28T07:49:41+00:00",
       "removalAuthority": false,
       "note": null
     },
@@ -117,7 +117,7 @@
       "httpStatus": 200,
       "resolvedUrl": "https://www.ungarninnuernberg.de/",
       "contentType": "text/html; charset=utf-8",
-      "checkedAt": "2026-11-28T02:44:04+00:00",
+      "checkedAt": "2026-11-28T07:49:41+00:00",
       "removalAuthority": false,
       "note": null
     },
@@ -129,7 +129,7 @@
       "httpStatus": 200,
       "resolvedUrl": "https://nurnberg.cserkesz.eu/",
       "contentType": "text/html; charset=utf-8",
-      "checkedAt": "2026-11-28T02:44:04+00:00",
+      "checkedAt": "2026-11-28T07:49:41+00:00",
       "removalAuthority": false,
       "note": null
     },
@@ -141,7 +141,7 @@
       "httpStatus": 200,
       "resolvedUrl": "https://www.pfadfinderpark.de/",
       "contentType": "text/html; charset=utf-8",
-      "checkedAt": "2026-11-28T02:44:04+00:00",
+      "checkedAt": "2026-11-28T07:49:41+00:00",
       "removalAuthority": false,
       "note": null
     },
@@ -153,7 +153,79 @@
       "httpStatus": 200,
       "resolvedUrl": "https://www.rezeda.de/",
       "contentType": "text/html",
-      "checkedAt": "2026-11-28T02:44:04+00:00",
+      "checkedAt": "2026-11-28T07:49:41+00:00",
+      "removalAuthority": false,
+      "note": null
+    },
+    {
+      "id": "csodaszarvas-karlsruhe",
+      "url": "https://wukk.de/hu/",
+      "sourceRole": "official-website",
+      "status": "ok",
+      "httpStatus": 200,
+      "resolvedUrl": "https://wukk.de/hu/",
+      "contentType": "text/html; charset=utf-8",
+      "checkedAt": "2026-11-28T07:49:41+00:00",
+      "removalAuthority": false,
+      "note": null
+    },
+    {
+      "id": "freiburgi-magyarok-barati-kore",
+      "url": "https://www.freiburgimagyarok.com/",
+      "sourceRole": "official-website",
+      "status": "ok",
+      "httpStatus": 200,
+      "resolvedUrl": "https://www.freiburgimagyarok.com/",
+      "contentType": "text/html; charset=utf-8",
+      "checkedAt": "2026-11-28T07:49:41+00:00",
+      "removalAuthority": false,
+      "note": null
+    },
+    {
+      "id": "ulmi-magyar-kulturegyesulet",
+      "url": "https://ulmke-online.de/",
+      "sourceRole": "official-website",
+      "status": "ok",
+      "httpStatus": 200,
+      "resolvedUrl": "https://ulmke-online.de/",
+      "contentType": "text/html; charset=utf-8",
+      "checkedAt": "2026-11-28T07:49:41+00:00",
+      "removalAuthority": false,
+      "note": null
+    },
+    {
+      "id": "baden-wurttembergi-konzuli-magyar-iskola",
+      "url": "https://bwkmi.ulbe.org/",
+      "sourceRole": "official-website",
+      "status": "ok",
+      "httpStatus": 200,
+      "resolvedUrl": "https://bwkmi.ulbe.org/",
+      "contentType": "text/html; charset=utf-8",
+      "checkedAt": "2026-11-28T07:49:41+00:00",
+      "removalAuthority": false,
+      "note": null
+    },
+    {
+      "id": "szent-gellert-katolikus-egyhazkozseg-stuttgart",
+      "url": "https://stuttgarti-katolikusok.de/",
+      "sourceRole": "official-website",
+      "status": "ok",
+      "httpStatus": 200,
+      "resolvedUrl": "https://stuttgarti-katolikusok.de/",
+      "contentType": "text/html; charset=utf-8",
+      "checkedAt": "2026-11-28T07:49:41+00:00",
+      "removalAuthority": false,
+      "note": null
+    },
+    {
+      "id": "wurttembergi-magyar-protestans-gyulekezet",
+      "url": "https://stuttgart.egyhazkozseg.hu/kapcsolat/",
+      "sourceRole": "official-website",
+      "status": "ok",
+      "httpStatus": 200,
+      "resolvedUrl": "https://stuttgart.egyhazkozseg.hu/kapcsolat/",
+      "contentType": "text/html; charset=utf-8",
+      "checkedAt": "2026-11-28T07:49:41+00:00",
       "removalAuthority": false,
       "note": null
     }
